@@ -1,0 +1,122 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U plane_representations%b  plane_representations.adb  15aadfe7 NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U plane_representations%s  plane_representations.ads  82fb7497 EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_natural_matrices%s  standard_natural_matrices.ads  standard_natural_matrices.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D plane_representations.ads  20260513024558 cff24444 plane_representations%s
+D plane_representations.adb  20260513024558 f572dd15 plane_representations%b
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [localize plane_representations 11 12 none]
+G c Z s b [vector_rep plane_representations 18 12 none]
+G c Z s b [vector_rep plane_representations 25 12 none]
+G c Z s b [matrix_rep plane_representations 33 12 none]
+G r c none [localize plane_representations 11 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [localize plane_representations 11 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [localize plane_representations 11 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [matrix_rep plane_representations 33 12 none] [create standard_complex_numbers 18 12 none]
+X 2 generic_matrices.ads
+16A8*Matrix(13|7I8)<11|6I8><11|6I8> 4|11r58[12|5] 12r58[6|5] 13r54[6|5] 18r60[6|5]
+. 25r60[12|5] 26r60[6|5] 33r60[12|5] 35r56[6|5] 5|8r58[12|5] 9r58[6|5] 10r54[6|5]
+. 12r37[6|5] 40r60[6|5] 57r60[12|5] 58r60[6|5] 77r60[12|5] 79r56[6|5] 81r37[6|5]
+X 3 generic_vectors.ads
+16A8*Vector(7|11R8)<11|6I8> 4|19r55[9|4] 27r55[9|4] 34r59[9|4] 5|41r55[9|4]
+. 44r36[9|4] 59r55[9|4] 62r36[9|4] 78r59[9|4]
+X 4 plane_representations.ads
+5K9*Plane_Representations 50l5 50e26 5|6b14 100l5 100t26
+11V12*Localize{2|16A8[6|5]} 11>23 12>23 5|8b12 38l7 38t15
+11a23 locmap{2|16A8[12|5]} 5|8b23 17r14 19r16 20r12
+12a23 plamat{2|16A8[6|5]} 5|9b23 12r44 12r60 21r21 22r22 23r25 24r33 24r45
+. 25r33 32r23
+18V12*Vector_Rep{3|16A8[9|4]} 18>25 5|40b12 55l7 55t17
+18a25 plamat{2|16A8[6|5]} 5|40b25 43r33 43r50 48r14 49r16 51r21
+25V12*Vector_Rep{3|16A8[9|4]} 25>25 26>25 5|57b12 75l7 75t17
+25a25 locmap{2|16A8[12|5]} 5|57b25 68r12
+26a25 plamat{2|16A8[6|5]} 5|58b25 61r33 61r50 66r14 67r16 70r23
+33V12*Matrix_Rep{2|16A8[6|5]} 33>25 34>25 5|77b12 98l7 98t17
+33a25 locmap{2|16A8[12|5]} 5|77b25 81r44 81r60 85r14 86r16 87r12 89r15
+34a25 plavec{3|16A8[9|4]} 5|78b25 93r23
+X 5 plane_representations.adb
+12a5 res{2|16A8[6|5]} 24m21 25m21 28m13 32m11 37r12
+13f5 tol{10|13F8} 21r36 23r40
+14b5 done_j{boolean} 18m7 30m11 34r19
+17i9 j<long_integer> 20r21 21r30 23r34 24r27 24r42 24r54 25r27 25r42 28r19
+. 32r17 32r32
+19i11 i<long_integer> 20r19 21r28 24r52 28r17 32r15 32r30
+22i17 k<long_integer> 23r32 24r25 24r40 25r25 25r40
+43i5 dim{11|6I8} 44r46
+44a5 res{3|16A8[9|4]} 51m9 54r12
+45i5 cnt{11|6I8} 50m9 50r16 51r13
+48i9 i<long_integer> 51r28
+49i11 j<long_integer> 51r30
+61i5 dim{11|6I8} 62r46
+62a5 res{3|16A8[9|4]} 70m11 74r12
+63i5 cnt{11|6I8} 69m11 69r18 70r15 74r19
+66i9 i<long_integer> 68r19 70r30
+67i11 j<long_integer> 68r21 70r32
+81a5 res{2|16A8[6|5]} 88m11 90m11 93m11 97r12
+82i5 cnt{11|6I8} 92m11 92r18 93r30
+85i9 i<long_integer> 87r19 88r15 89r22 90r15 93r15
+86i11 j<long_integer> 87r21 88r17 89r24 90r17 93r17
+X 6 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[2|9] 4|2w6 12r32 13r28 18r34 26r34 35r30 5|9r32
+. 10r28 12r11 40r34 58r34 79r30 81r11
+X 7 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 5|4w6 4r46 7|92e29
+18V12*Create{11R8} 5|28s25 88s23 90s23
+27V12*AbsVal{10|13F8} 5|21s14 23s18
+56V13*"/"{11R8} 5|24s44
+X 9 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[3|8] 4|3w6 19r30 27r30 34r34 5|41r30 44r11 59r30
+. 62r11 78r34
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 5|3w6 3r46 10|58e30
+13F8*double_float<long_float> 5|13r20
+X 11 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|2w6 2r46 11|45e29
+6I8*integer32<long_integer> 5|43r20 45r11 61r20 63r11 82r11
+X 12 standard_natural_matrices.ads
+5K9*Standard_Natural_Matrices[2|9] 4|1w6 11r32 25r34 33r34 5|8r32 57r34 77r34
+X 13 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 5|1w6 1r46 13|30e29
+7I8*natural32<long_integer>
+

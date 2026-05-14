@@ -1,0 +1,133 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U standard_matrix_inversion%b  standard_matrix_inversion.adb  97d2ad7e NE OO PK
+W standard_complex_linear_solvers%s  standard_complex_linear_solvers.adb  standard_complex_linear_solvers.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_linear_solvers%s  standard_floating_linear_solvers.ads  standard_floating_linear_solvers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_matrix_inversion%s  standard_matrix_inversion.ads  c365a507 EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_floating_linear_solvers.ads  20260513024558 2b54c7f5 generic_floating_linear_solvers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_linear_solvers.ads  20260513024558 67f1c68d standard_floating_linear_solvers%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring-ffield.ads  20260513024558 bc4d2762 standard_floating_ring.ffield%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_matrix_inversion.ads  20260513024558 a2da21c5 standard_matrix_inversion%s
+D standard_matrix_inversion.adb  20260513024558 7b6c17d5 standard_matrix_inversion%b
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [inverse standard_matrix_inversion 10 12 none]
+G c Z s b [inverse standard_matrix_inversion 13 12 none]
+G r c none [inverse standard_matrix_inversion 10 12 none] [lufac standard_floating_linear_solvers 27 13 7_1]
+G r c none [inverse standard_matrix_inversion 10 12 none] [lusolve standard_floating_linear_solvers 88 13 7_1]
+G r c none [inverse standard_matrix_inversion 13 12 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [inverse standard_matrix_inversion 13 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [inverse standard_matrix_inversion 13 12 none] [lusolve standard_complex_linear_solvers 162 13 none]
+X 3 generic_floating_linear_solvers.ads
+27U13*lufac 23|28s5[13|7]
+88U13*lusolve 23|33s9[13|7]
+X 4 generic_matrices.ads
+16A8*Matrix(15|13F8)<19|6I8><19|6I8> 22|10r53[14|5] 11r54[14|5] 13r52[8|5]
+. 14r53[8|5] 23|14r53[14|5] 15r54[14|5] 18r38[14|5] 19r38[14|5] 42r52[8|5]
+. 43r53[8|5] 46r37[8|5] 47r37[8|5]
+X 5 generic_vectors.ads
+16A8*Vector(19|6I8)<19|6I8> 23|20r36[21|4] 21r37[18|4] 48r36[21|4] 49r36[11|4]
+X 7 standard_complex_linear_solvers.ads
+9K9*Standard_Complex_Linear_Solvers 257e36 23|7w6 7r46
+35U13*lufac 23|56s5
+162U13*lusolve 23|61s9
+X 8 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[4|9] 22|2w6 13r26 14r27 23|42r26 43r27 46r11
+. 47r11
+X 9 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 23|2w6 2r46
+18V12*Create{11R8} 23|59s30 60s19
+X 11 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[5|8] 23|5w6 49r11
+X 13 standard_floating_linear_solvers.ads
+7K9*Standard_Floating_Linear_Solvers[3|14] 23|6w6 6r46
+X 14 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[4|9] 22|1w6 10r26 11r27 23|14r26 15r27 18r11
+. 19r11
+X 15 standard_floating_numbers.ads
+13F8*double_float<long_float>
+X 18 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[5|8] 23|4w6 21r11
+X 19 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 23|1w6 1r46
+6I8*integer32<long_integer> 23|17r18 22r11 45r18 50r11
+X 21 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[5|8] 23|3w6 20r11 48r11
+X 22 standard_matrix_inversion.ads
+4K9*Standard_Matrix_Inversion 16l5 16e30 23|9b14 70l5 70t30
+10V12*Inverse{4|16A8[14|5]} 10>22 23|14b12 40l7 40t14
+10a22 m{4|16A8[14|5]} 23|14b22 17r31 18r45 18r56 18r71 19r45 19r56 20r43
+. 21r44 30r16 34r18
+13V12*Inverse{4|16A8[8|5]} 13>22 23|42b12 68l7 68t14
+13a22 m{4|16A8[8|5]} 23|42b22 45r31 46r44 46r55 46r70 47r44 47r55 48r43 49r43
+. 58r16 62r18
+X 23 standard_matrix_inversion.adb
+17i5 n{19|6I8} 28r15 33r21
+18a5 wrk{4|16A8[14|5]} 28m11 28r11 33r17
+19a5 res{4|16A8[14|5]} 35m11 39r12
+20a5 piv{5|16A8[21|4]} 25r14 26m7 28m17 33r23
+21a5 rhs{5|16A8[18|4]} 31m9 31r17 32m9 33m27 33r27 35r23
+22i5 inf{19|6I8} 28m21 29r8
+25i9 i<long_integer> 26r11 26r17
+30i11 j<long_integer> 32r13 35r17
+34i13 i<long_integer> 35r15 35r27
+45i5 n{19|6I8} 56r15 61r21
+46a5 wrk{4|16A8[8|5]} 56m11 56r11 61r17
+47a5 res{4|16A8[8|5]} 63m11 67r12
+48a5 piv{5|16A8[21|4]} 53r14 54m7 56m17 61r23
+49a5 rhs{5|16A8[11|4]} 59m9 59r17 60m9 61m27 61r27 63r23
+50i5 inf{19|6I8} 56m21 57r8
+53i9 i<long_integer> 54r11 54r17
+58i11 j<long_integer> 60r13 63r17
+62i13 i<long_integer> 63r15 63r27
+

@@ -1,0 +1,1396 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quad_double_numbers%b	quad_double_numbers.adb	3f6ee7f4 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W double_double_basics%s  double_double_basics.adb  double_double_basics.ali
+W quad_double_renormalizations%s  quad_double_renormalizations.adb  quad_double_renormalizations.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U quad_double_numbers%s	quad_double_numbers.ads	73eef75e EE NE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W triple_double_numbers%s  triple_double_numbers.adb  triple_double_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_basics.ads  20260513024558 41df7b4e double_double_basics%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_numbers.adb  20260513024558 fa288e1a quad_double_numbers%b
+D quad_double_renormalizations.ads  20260513024558 690d8747 quad_double_renormalizations%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-fatgen.ads		20250808065140 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250808065140 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [create quad_double_numbers 18 12 none]
+G c Z s b [create quad_double_numbers 23 12 none]
+G c Z s b [create quad_double_numbers 24 12 none]
+G c Z s b [create quad_double_numbers 30 12 none]
+G c Z s b [create quad_double_numbers 31 12 none]
+G c Z s b [create quad_double_numbers 37 12 none]
+G c Z s b [create quad_double_numbers 42 12 none]
+G c Z s b [create quad_double_numbers 48 12 none]
+G c Z s b [create quad_double_numbers 54 12 none]
+G c Z s b [hi_part quad_double_numbers 62 12 none]
+G c Z s b [hihi_part quad_double_numbers 67 12 none]
+G c Z s b [lohi_part quad_double_numbers 73 12 none]
+G c Z s b [lo_part quad_double_numbers 79 12 none]
+G c Z s b [hilo_part quad_double_numbers 84 12 none]
+G c Z s b [lolo_part quad_double_numbers 90 12 none]
+G c Z s b [is_zero quad_double_numbers 98 12 none]
+G c Z s b [is_one quad_double_numbers 103 12 none]
+G c Z s b [is_positive quad_double_numbers 108 12 none]
+G c Z s b [is_negative quad_double_numbers 113 12 none]
+G c Z s b [equal quad_double_numbers 118 12 none]
+G c Z s b [equal quad_double_numbers 119 12 none]
+G c Z s b [equal quad_double_numbers 120 12 none]
+G c Z s b [Olt quad_double_numbers 122 12 none]
+G c Z s b [Olt quad_double_numbers 123 12 none]
+G c Z s b [Olt quad_double_numbers 124 12 none]
+G c Z s b [Olt quad_double_numbers 125 12 none]
+G c Z s b [Olt quad_double_numbers 126 12 none]
+G c Z s b [Ole quad_double_numbers 127 12 none]
+G c Z s b [Ole quad_double_numbers 128 12 none]
+G c Z s b [Ole quad_double_numbers 129 12 none]
+G c Z s b [Ole quad_double_numbers 130 12 none]
+G c Z s b [Ole quad_double_numbers 131 12 none]
+G c Z s b [Ogt quad_double_numbers 133 12 none]
+G c Z s b [Ogt quad_double_numbers 134 12 none]
+G c Z s b [Ogt quad_double_numbers 135 12 none]
+G c Z s b [Ogt quad_double_numbers 136 12 none]
+G c Z s b [Ogt quad_double_numbers 137 12 none]
+G c Z s b [Oge quad_double_numbers 138 12 none]
+G c Z s b [Oge quad_double_numbers 139 12 none]
+G c Z s b [Oge quad_double_numbers 140 12 none]
+G c Z s b [Oge quad_double_numbers 141 12 none]
+G c Z s b [Oge quad_double_numbers 142 12 none]
+G c Z s b [copy quad_double_numbers 144 13 none]
+G c Z s b [to_int quad_double_numbers 148 12 none]
+G c Z s b [to_double quad_double_numbers 149 12 none]
+G c Z s b [to_double_double quad_double_numbers 150 12 none]
+G c Z s b [to_triple_double quad_double_numbers 151 12 none]
+G c Z s b [Oabs quad_double_numbers 152 12 none]
+G c Z s b [absval quad_double_numbers 153 12 none]
+G c Z s b [floor quad_double_numbers 154 12 none]
+G c Z s b [nint quad_double_numbers 155 12 none]
+G c Z s b [Oadd quad_double_numbers 160 12 none]
+G c Z s b [Oadd quad_double_numbers 161 12 none]
+G c Z s b [Oadd quad_double_numbers 162 12 none]
+G c Z s b [Oadd quad_double_numbers 163 12 none]
+G c Z s b [Oadd quad_double_numbers 164 12 none]
+G c Z s b [Oadd quad_double_numbers 165 12 none]
+G c Z s b [Oadd quad_double_numbers 166 12 none]
+G c Z s b [Oadd quad_double_numbers 167 12 none]
+G c Z s b [Oadd quad_double_numbers 168 12 none]
+G c Z s b [Oadd quad_double_numbers 169 12 none]
+G c Z s b [add quad_double_numbers 170 13 none]
+G c Z s b [add quad_double_numbers 171 13 none]
+G c Z s b [add quad_double_numbers 172 13 none]
+G c Z s b [Osubtract quad_double_numbers 174 12 none]
+G c Z s b [Osubtract quad_double_numbers 175 12 none]
+G c Z s b [Osubtract quad_double_numbers 176 12 none]
+G c Z s b [Osubtract quad_double_numbers 177 12 none]
+G c Z s b [Osubtract quad_double_numbers 178 12 none]
+G c Z s b [Osubtract quad_double_numbers 179 12 none]
+G c Z s b [Osubtract quad_double_numbers 180 12 none]
+G c Z s b [Osubtract quad_double_numbers 181 12 none]
+G c Z s b [Osubtract quad_double_numbers 182 12 none]
+G c Z s b [Osubtract quad_double_numbers 183 12 none]
+G c Z s b [min quad_double_numbers 184 13 none]
+G c Z s b [sub quad_double_numbers 185 13 none]
+G c Z s b [sub quad_double_numbers 186 13 none]
+G c Z s b [sub quad_double_numbers 187 13 none]
+G c Z s b [Omultiply quad_double_numbers 189 12 none]
+G c Z s b [Omultiply quad_double_numbers 190 12 none]
+G c Z s b [Omultiply quad_double_numbers 191 12 none]
+G c Z s b [Omultiply quad_double_numbers 192 12 none]
+G c Z s b [Omultiply quad_double_numbers 193 12 none]
+G c Z s b [Omultiply quad_double_numbers 194 12 none]
+G c Z s b [Omultiply quad_double_numbers 195 12 none]
+G c Z s b [Omultiply quad_double_numbers 196 12 none]
+G c Z s b [Omultiply quad_double_numbers 197 12 none]
+G c Z s b [mul quad_double_numbers 198 13 none]
+G c Z s b [mul quad_double_numbers 199 13 none]
+G c Z s b [mul quad_double_numbers 200 13 none]
+G c Z s b [mul_pwr2 quad_double_numbers 201 12 none]
+G c Z s b [mul_pwr2 quad_double_numbers 203 13 none]
+G c Z s b [Odivide quad_double_numbers 206 12 none]
+G c Z s b [Odivide quad_double_numbers 207 12 none]
+G c Z s b [Odivide quad_double_numbers 208 12 none]
+G c Z s b [Odivide quad_double_numbers 209 12 none]
+G c Z s b [Odivide quad_double_numbers 210 12 none]
+G c Z s b [Odivide quad_double_numbers 211 12 none]
+G c Z s b [Odivide quad_double_numbers 212 12 none]
+G c Z s b [Odivide quad_double_numbers 213 12 none]
+G c Z s b [Odivide quad_double_numbers 214 12 none]
+G c Z s b [div quad_double_numbers 215 13 none]
+G c Z s b [div quad_double_numbers 216 13 none]
+G c Z s b [div quad_double_numbers 217 13 none]
+G c Z s b [sqr quad_double_numbers 219 12 none]
+G c Z s b [sqr quad_double_numbers 220 12 none]
+G c Z s b [sqr quad_double_numbers 221 12 none]
+G c Z s b [Oexpon quad_double_numbers 222 12 none]
+G c Z s b [Oexpon quad_double_numbers 223 12 none]
+G c Z s b [Oexpon quad_double_numbers 224 12 none]
+G c Z s b [ldexp quad_double_numbers 226 12 none]
+G c Z s b [Oexpon quad_double_numbers 228 12 none]
+G c Z s b [Oexpon quad_double_numbers 229 12 none]
+G c Z s b [Oexpon quad_double_numbers 230 12 none]
+G c Z s b [exp quad_double_numbers 232 12 none]
+G c Z s b [log quad_double_numbers 233 12 none]
+G c Z s b [log10 quad_double_numbers 234 12 none]
+G c Z s b [clear quad_double_numbers 238 13 none]
+G c Z s s [quad_doubleIP quad_double_numbers 248 8 none]
+G c Z b b [get quad_double_numbers 429 12 none]
+G c Z b b [assign quad_double_numbers 444 13 none]
+G c Z b b [update quad_double_numbers 460 13 none]
+G r c none [create quad_double_numbers 42 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [create quad_double_numbers 42 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [create quad_double_numbers 48 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [create quad_double_numbers 48 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [hi_part quad_double_numbers 62 12 none] [create double_double_numbers 40 12 none]
+G r c none [lo_part quad_double_numbers 79 12 none] [create double_double_numbers 40 12 none]
+G r c none [equal quad_double_numbers 119 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [equal quad_double_numbers 119 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Olt quad_double_numbers 123 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Olt quad_double_numbers 123 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Olt quad_double_numbers 124 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Olt quad_double_numbers 124 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Ole quad_double_numbers 128 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Ole quad_double_numbers 128 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Ole quad_double_numbers 129 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Ole quad_double_numbers 129 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Ogt quad_double_numbers 134 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Ogt quad_double_numbers 134 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Ogt quad_double_numbers 135 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Ogt quad_double_numbers 135 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oge quad_double_numbers 139 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oge quad_double_numbers 139 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oge quad_double_numbers 140 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oge quad_double_numbers 140 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [to_double_double quad_double_numbers 150 12 none] [create double_double_numbers 40 12 none]
+G r c none [to_triple_double quad_double_numbers 151 12 none] [create triple_double_numbers 48 12 none]
+G r c none [floor quad_double_numbers 154 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [nint quad_double_numbers 155 12 none] [nint double_double_numbers 106 12 none]
+G r c none [nint quad_double_numbers 155 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oadd quad_double_numbers 160 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oadd quad_double_numbers 160 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oadd quad_double_numbers 160 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oadd quad_double_numbers 161 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oadd quad_double_numbers 161 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 161 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oadd quad_double_numbers 161 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oadd quad_double_numbers 161 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 162 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oadd quad_double_numbers 162 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 162 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oadd quad_double_numbers 162 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oadd quad_double_numbers 162 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 163 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 163 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 164 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 164 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 165 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oadd quad_double_numbers 165 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oadd quad_double_numbers 165 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 165 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oadd quad_double_numbers 165 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 166 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oadd quad_double_numbers 166 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oadd quad_double_numbers 166 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 166 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 167 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oadd quad_double_numbers 167 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oadd quad_double_numbers 167 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 167 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oadd quad_double_numbers 168 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd quad_double_numbers 168 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [add quad_double_numbers 170 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [add quad_double_numbers 170 13 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [add quad_double_numbers 170 13 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [add quad_double_numbers 171 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [add quad_double_numbers 171 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [add quad_double_numbers 171 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [add quad_double_numbers 171 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [add quad_double_numbers 171 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [add quad_double_numbers 172 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [add quad_double_numbers 172 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 174 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Osubtract quad_double_numbers 174 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Osubtract quad_double_numbers 174 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Osubtract quad_double_numbers 175 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [Osubtract quad_double_numbers 175 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Osubtract quad_double_numbers 175 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 175 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Osubtract quad_double_numbers 175 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Osubtract quad_double_numbers 175 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 176 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Osubtract quad_double_numbers 176 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 176 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Osubtract quad_double_numbers 176 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Osubtract quad_double_numbers 176 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 177 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 177 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 178 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 178 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 179 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [Osubtract quad_double_numbers 179 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Osubtract quad_double_numbers 179 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Osubtract quad_double_numbers 179 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 179 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Osubtract quad_double_numbers 179 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 180 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Osubtract quad_double_numbers 180 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Osubtract quad_double_numbers 180 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 180 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 181 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [Osubtract quad_double_numbers 181 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Osubtract quad_double_numbers 181 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Osubtract quad_double_numbers 181 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 181 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Osubtract quad_double_numbers 182 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract quad_double_numbers 182 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [sub quad_double_numbers 185 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [sub quad_double_numbers 185 13 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [sub quad_double_numbers 185 13 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [sub quad_double_numbers 186 13 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [sub quad_double_numbers 186 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [sub quad_double_numbers 186 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [sub quad_double_numbers 186 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [sub quad_double_numbers 186 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [sub quad_double_numbers 186 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [sub quad_double_numbers 187 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [sub quad_double_numbers 187 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 189 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 189 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 189 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 189 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 190 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 191 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 192 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 192 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 192 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 192 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 192 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 193 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 193 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 193 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 193 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 193 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 194 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 195 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 196 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Omultiply quad_double_numbers 197 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply quad_double_numbers 197 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply quad_double_numbers 197 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Omultiply quad_double_numbers 197 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Omultiply quad_double_numbers 197 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [mul quad_double_numbers 198 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul quad_double_numbers 198 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [mul quad_double_numbers 198 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [mul quad_double_numbers 198 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [mul quad_double_numbers 199 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [mul quad_double_numbers 199 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul quad_double_numbers 199 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [mul quad_double_numbers 199 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [mul quad_double_numbers 199 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [mul quad_double_numbers 199 13 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [mul quad_double_numbers 199 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [mul quad_double_numbers 200 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul quad_double_numbers 200 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [mul quad_double_numbers 200 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [mul quad_double_numbers 200 13 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [mul quad_double_numbers 200 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Odivide quad_double_numbers 206 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Odivide quad_double_numbers 207 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Odivide quad_double_numbers 208 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [create double_double_numbers 40 12 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 209 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Odivide quad_double_numbers 210 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Odivide quad_double_numbers 211 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [create double_double_numbers 40 12 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 212 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Odivide quad_double_numbers 213 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [create double_double_numbers 40 12 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Odivide quad_double_numbers 214 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [div quad_double_numbers 215 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div quad_double_numbers 215 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [div quad_double_numbers 215 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [div quad_double_numbers 215 13 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [div quad_double_numbers 215 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [div quad_double_numbers 215 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [div quad_double_numbers 215 13 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [div quad_double_numbers 215 13 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [div quad_double_numbers 216 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [div quad_double_numbers 216 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [div quad_double_numbers 216 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div quad_double_numbers 216 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [div quad_double_numbers 216 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [div quad_double_numbers 216 13 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [div quad_double_numbers 216 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [div quad_double_numbers 216 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [div quad_double_numbers 216 13 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [div quad_double_numbers 216 13 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [div quad_double_numbers 217 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div quad_double_numbers 217 13 none] [create double_double_numbers 40 12 none]
+G r c none [div quad_double_numbers 217 13 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [div quad_double_numbers 217 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [div quad_double_numbers 217 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [div quad_double_numbers 217 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [div quad_double_numbers 217 13 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [div quad_double_numbers 217 13 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [div quad_double_numbers 217 13 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [sqr quad_double_numbers 219 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [sqr quad_double_numbers 219 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [sqr quad_double_numbers 219 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [sqr quad_double_numbers 219 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [sqr quad_double_numbers 219 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [sqr quad_double_numbers 220 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [sqr quad_double_numbers 220 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [sqr quad_double_numbers 220 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [sqr quad_double_numbers 220 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [sqr quad_double_numbers 220 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [sqr quad_double_numbers 220 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [sqr quad_double_numbers 220 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [sqr quad_double_numbers 221 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [sqr quad_double_numbers 221 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [sqr quad_double_numbers 221 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [sqr quad_double_numbers 221 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [sqr quad_double_numbers 221 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oexpon quad_double_numbers 222 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oexpon quad_double_numbers 223 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oexpon quad_double_numbers 224 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oexpon quad_double_numbers 228 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [hi_part double_double_numbers 48 12 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [lo_part double_double_numbers 53 12 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oexpon quad_double_numbers 229 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [Oexpon quad_double_numbers 230 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [exp quad_double_numbers 232 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [log quad_double_numbers 233 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log quad_double_numbers 233 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log quad_double_numbers 233 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log quad_double_numbers 233 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [log quad_double_numbers 233 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [log quad_double_numbers 233 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [log quad_double_numbers 233 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [log quad_double_numbers 233 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [log quad_double_numbers 233 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [log quad_double_numbers 233 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log10 quad_double_numbers 234 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [three_sum quad_double_renormalizations 28 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [three_sum2 quad_double_renormalizations 33 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [renorm5 quad_double_renormalizations 22 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [renorm4 quad_double_renormalizations 16 13 none]
+G r c none [log10 quad_double_numbers 234 12 none] [two_sqr double_double_basics 84 13 none]
+X 9 a-textio.ads
+565U14*Put_Line 16|1393s7
+X 11 double_double_basics.ads
+3K9*Double_Double_Basics 99e25 16|3w6 3r46
+10U13*quick_two_sum 16|493s5 1148s5 1149s5 1150s5
+36U13*two_sum 16|533s5 534s5 535s5 538s5 560s5 561s5 562s5 563s5 788s5 789s5
+. 791s5 797s5 798s5 799s5 800s5 801s5 803s5 805s5 807s5 831s5 832s5 833s5
+. 834s5 865s5 1141s5 1142s5 1143s5 1144s5 1145s5 1146s5 1153s5 1154s5 1155s5
+. 1157s5
+72U13*two_prod 16|779s5 780s5 781s5 782s5 783s5 784s5 793s5 794s5 795s5 796s5
+. 824s5 825s5 826s5 827s5 828s5 860s5 861s5 862s5 1025s5 1029s5 1033s5 1138s5
+. 1139s5
+84U13*two_sqr 16|1137s5 1140s5
+X 12 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 15|4w6 4r46 16|400r11 402r13 404r15 406r17
+12R8*double_double 170e13 15|42r25 48r29 62r47 79r47 119r41 123r39 124r22
+. 128r40 129r23 134r39 135r22 139r40 140r23 150r56 161r39 162r22 165r24 166r22
+. 167r40 171r50 175r39 176r22 179r24 180r22 181r40 186r50 190r39 191r22 194r24
+. 195r22 196r40 199r50 207r39 208r22 211r24 212r22 213r40 216r50 220r22 229r40
+. 16|55r25 66r29 92r47 94r18 110r47 112r18 158r41 179r39 188r22 211r40 221r23
+. 248r39 257r22 280r40 289r23 325r56 327r18 527r39 546r22 576r24 586r22 596r40
+. 629r50 649r39 652r22 659r22 689r24 692r22 699r22 709r40 712r22 750r50 818r39
+. 846r22 882r24 892r22 902r40 927r50 978r39 1004r22 1021r12 1052r24 1062r22
+. 1072r40 1097r50 1117r22 1260r40
+40V12*Create{12R8} 16|94s35 112s35 1026s13 1030s13 1034s13
+48V12*hi_part{18|13F8} 16|60s15 71s15 73s15 160s23 181s23 182s23 183s23 184s23
+. 213s23 214s23 250s23 251s23 252s23 253s23 282s23 283s23 284s23 285s23 533s20
+. 824s21 826s21 828s21 837s20 986s18 989s18 992s18 995s18 998s18
+53V12*lo_part{18|13F8} 16|61s15 72s15 74s15 160s49 182s47 183s47 184s47 214s47
+. 215s23 216s23 217s23 251s47 252s47 253s47 283s47 284s47 285s47 534s20 825s21
+. 827s21 837s42
+106V12*nint{18|13F8} 16|400s33 402s35 404s37 406s39
+123V13*"-"{12R8} 16|652s39 692s39 712s39
+X 15 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 248E8 255l5 255e24 16|6b14 1428l5 1428t24
+14R8*quad_double 18r42 23r44 24r44 30r44 31r44 37r47 42r48 48r52 54r65 62r26
+. 67r28 73r28 79r26 84r28 90r28 98r26 103r25 108r30 113r30 118r26 119r24
+. 120r24 122r24 123r22 124r41 125r22 126r40 127r25 128r23 129r42 130r23 131r41
+. 133r24 134r22 135r41 136r22 137r40 138r25 139r23 140r42 141r23 142r41 144r27
+. 144r51 148r25 149r28 150r35 151r35 152r24 152r45 153r25 153r46 154r24 154r45
+. 155r23 155r44 160r24 160r45 161r22 161r62 162r41 162r62 163r22 163r61 164r40
+. 164r61 165r47 166r63 167r63 168r46 169r22 169r43 170r30 170r50 171r30 172r30
+. 174r24 174r45 175r22 175r62 176r41 176r62 177r22 177r61 178r40 178r61 179r47
+. 180r63 181r63 182r46 183r22 183r43 184r30 185r30 185r50 186r30 187r30 189r24
+. 189r45 190r22 190r62 191r41 191r62 192r22 192r61 193r40 193r61 194r47 195r63
+. 196r63 197r46 198r30 198r50 199r30 200r30 201r27 202r28 203r35 206r24 206r45
+. 207r22 207r62 208r41 208r62 209r22 209r61 210r40 210r61 211r47 212r63 213r63
+. 214r46 215r30 215r50 216r30 217r30 219r44 220r45 221r22 221r43 222r23 222r57
+. 223r23 223r59 224r23 224r59 226r24 226r58 228r25 228r46 229r23 229r63 230r23
+. 230r62 232r22 232r43 233r22 233r43 234r24 234r45 238r32 248c8 253e13 16|10r42
+. 15r44 20r44 25r44 27r9 35r44 37r9 45r47 47r9 55r48 57r9 66r52 68r9 78r65
+. 80r9 92r26 100r28 105r28 110r26 118r28 123r28 130r26 136r25 142r30 147r30
+. 152r26 158r24 164r24 170r24 179r22 188r41 193r22 201r40 206r25 211r23 221r42
+. 226r23 234r41 239r24 248r22 257r41 262r22 270r40 275r25 280r23 289r42 294r23
+. 302r41 307r27 307r51 315r25 320r28 325r35 333r35 341r24 341r45 343r9 356r25
+. 356r46 358r9 371r24 371r45 373r11 393r23 393r44 395r11 429r22 444r33 460r33
+. 476r24 476r45 478r11 527r22 527r62 529r11 546r41 546r62 548r20 554r22 554r61
+. 556r11 568r40 568r61 570r20 576r47 578r11 579r20 586r63 588r11 589r20 596r63
+. 598r20 604r46 606r11 607r20 614r22 614r43 616r11 624r30 624r50 629r30 634r30
+. 639r24 639r45 641r11 642r22 649r22 649r62 651r11 659r41 659r62 661r11 662r22
+. 669r22 669r61 671r11 679r40 679r61 681r11 682r22 689r47 691r11 699r63 701r11
+. 709r63 711r11 719r46 721r11 729r22 729r43 731r11 739r30 745r30 745r50 750r30
+. 755r30 760r24 760r45 774r11 818r22 818r62 820r11 846r41 846r62 848r20 854r22
+. 854r61 856r11 874r40 874r61 876r20 882r47 884r11 885r20 892r63 894r11 895r20
+. 902r63 904r11 905r20 912r46 914r11 915r20 922r30 922r50 927r30 932r30 937r27
+. 938r28 940r11 948r35 954r24 954r45 956r15 978r22 978r62 980r11 982r21 983r13
+. 1004r41 1004r62 1006r11 1007r20 1014r22 1014r61 1019r11 1042r40 1042r61
+. 1044r11 1045r20 1052r47 1054r11 1055r20 1062r63 1064r11 1065r20 1072r63
+. 1074r11 1075r20 1082r46 1084r11 1085r20 1092r30 1092r50 1097r30 1102r30
+. 1107r44 1109r11 1110r20 1117r45 1119r11 1120r20 1127r22 1127r43 1129r11
+. 1164r23 1164r57 1166r15 1200r23 1200r59 1205r23 1205r59 1207r15 1241r24
+. 1241r58 1243r11 1255r25 1255r46 1260r23 1260r63 1262r21 1268r23 1268r62
+. 1270r21 1276r22 1276r43 1288r11 1295r21 1300r21 1305r29 1307r13 1374r22
+. 1374r43 1387r15 1406r24 1406r45 1408r11 1413r23 1422r32
+18V12*Create{14R8} 18>21 16|10b12 13l7 13t13
+18i21 i{integer} 16|10b21 12r29
+23V12*Create{14R8} 23>21 16|15b12 18l7 18t13
+23i21 n{21|7I8} 16|15b21 17r29
+24V12*Create{14R8} 24>21 16|20b12 23l7 23t13
+24i21 n{21|8I8} 16|20b21 22r29
+30V12*Create{14R8} 30>21 16|12s12 17s12 25b12 33l7 33t13
+30i21 i{19|6I8} 16|25b21 30r28
+31V12*Create{14R8} 31>21 16|22s12 35b12 43l7 43t13
+31i21 i{19|7I8} 16|35b21 40r28
+37V12*Create{14R8} 37>21 16|45b12 53l7 53t13 478s26 607s35 905s35 915s35
+. 1045s35 1075s35 1085s35 1110s35 1171s14 1178s14 1212s14 1219s14 1270s36
+. 1312s14 1314s14 1316s14 1391s14 1394s14 1396s14
+37f21 f{18|13F8} 16|45b21 50r15
+42V12*Create{14R8} 42>21 16|55b12 64l7 64t13 579s35 589s35 885s35 895s35
+. 982s36 1007s35 1055s35 1065s35 1120s35 1262s36
+42r21 d{12|12R8} 16|55b21 60r23 61r23
+48V12*Create{14R8} 48>21 48>24 16|66b12 76l7 76t13
+48r21 hi{12|12R8} 16|66b21 71r23 72r23
+48r24 lo{12|12R8} 16|66b24 73r23 74r23
+54V12*Create{14R8} 54>21 54>26 54>31 54>36 16|78b12 88l7 88t13 389s12 423s12
+. 1295s36 1300s36 1320s20 1322s20 1324s20 1326s20 1328s20 1330s20 1332s20
+. 1334s20 1336s20 1338s20 1340s20 1342s20 1344s20 1346s20 1348s20 1413s38
+54f21 hihi{18|13F8} 16|78b21 83r15
+54f26 lohi{18|13F8} 16|78b26 84r15
+54f31 hilo{18|13F8} 16|78b31 85r15
+54f36 lolo{18|13F8} 16|78b36 86r15
+62V12*hi_part{12|12R8} 62>22 16|92b12 98l7 98t14 327s35
+62r22 q{14R8} 16|92b22 94r42 94r49
+67V12*hihi_part{18|13F8} 67>24 16|100b12 103l7 103t16
+67r24 q{14R8} 16|100b24 102r12
+73V12*lohi_part{18|13F8} 73>24 16|105b12 108l7 108t16
+73r24 q{14R8} 16|105b24 107r12
+79V12*lo_part{12|12R8} 79>22 16|110b12 116l7 116t14
+79r22 q{14R8} 16|110b22 112r42 112r49
+84V12*hilo_part{18|13F8} 84>24 16|118b12 121l7 121t16
+84r24 q{14R8} 16|118b24 120r12
+90V12*lolo_part{18|13F8} 90>24 16|123b12 126l7 126t16
+90r24 q{14R8} 16|123b24 125r12
+98V12*is_zero{boolean} 98>22 16|130b12 134l7 134t14 1315s11
+98r22 q{14R8} 16|130b22 132r14 132r33 133r14 133r33
+103V12*is_one{boolean} 103>21 16|136b12 140l7 140t13 1317s11 1390s8
+103r21 q{14R8} 16|136b21 138r14 138r33 139r14 139r33
+108V12*is_positive{boolean} 108>26 16|142b12 145l7 145t18
+108r26 q{14R8} 16|142b26 144r13
+113V12*is_negative{boolean} 113>26 16|147b12 150l7 150t18
+113r26 q{14R8} 16|147b26 149r13
+118V12*equal{boolean} 118>20 118>22 16|152b12 156l7 156t12 208s21 277s21
+118r20 x{14R8} 16|152b20 154r14 154r36 155r14 155r36
+118r22 y{14R8} 16|152b22 154r23 154r45 155r23 155r45
+119V12*equal{boolean} 119>20 119>37 16|158b12 162l7 162t12
+119r20 x{14R8} 16|158b20 160r14 160r40 161r14 161r33
+119r37 y{12|12R8} 16|158b37 160r31 160r57
+120V12*equal{boolean} 120>20 120>37 16|164b12 168l7 168t12
+120r20 x{14R8} 16|164b20 166r14 166r31 167r14 167r33
+120f37 y{18|13F8} 16|164b37 166r23
+122V13*"<"{boolean} 122>18 122>20 16|170b13 177l8 177t10 208s14
+122r18 x{14R8} 16|170b18 172r14 173r14 173r34 174r14 174r34 174r54 175r14
+. 175r34 175r54 176r14
+122r20 y{14R8} 16|170b20 172r23 173r23 173r43 174r23 174r43 174r63 175r23
+. 175r43 175r63 176r23
+123V13*"<"{boolean} 123>18 123>35 16|179b13 186l8 186t10 259s15
+123r18 x{14R8} 16|179b18 181r14 182r14 182r38 183r14 183r38 183r62 184r14
+. 184r38 184r62 185r14
+123r35 y{12|12R8} 16|179b35 181r31 182r31 182r55 183r31 183r55 184r31 184r55
+124V13*"<"{boolean} 124>18 124>37 16|188b13 191l8 191t10
+124r18 x{12|12R8} 16|188b18 190r17
+124r37 y{14R8} 16|188b37 190r13
+125V13*"<"{boolean} 125>18 125>35 16|193b13 199l8 199t10 272s15
+125r18 x{14R8} 16|193b18 195r14 196r14 196r29 197r14 197r29 197r46 198r14
+. 198r29 198r46 198r63
+125f35 y{18|13F8} 16|193b35 195r23 196r23 197r23 198r23
+126V13*"<"{boolean} 126>18 126>36 16|201b13 204l8 204t10
+126f18 x{18|13F8} 16|201b18 203r17
+126r36 y{14R8} 16|201b36 203r13
+127V13*"<="{boolean} 127>19 127>21 16|206b13 209l8 209t11
+127r19 x{14R8} 16|206b19 208r12 208r27
+127r21 y{14R8} 16|206b21 208r16 208r29
+128V13*"<="{boolean} 128>19 128>36 16|211b13 219l8 219t11 291s15
+128r19 x{14R8} 16|211b19 213r14 214r14 214r38 215r14 215r38 216r14 216r38
+. 216r55 217r14 217r38 217r55 218r14
+128r36 y{12|12R8} 16|211b36 213r31 214r31 214r55 215r31 216r31 217r31
+129V13*"<="{boolean} 129>19 129>38 16|221b13 224l8 224t11
+129r19 x{12|12R8} 16|221b19 223r18
+129r38 y{14R8} 16|221b38 223r13
+130V13*"<="{boolean} 130>19 130>36 16|226b13 232l8 232t11 304s15
+130r19 x{14R8} 16|226b19 228r14 229r14 229r29 230r14 230r29 230r46 231r14
+. 231r29 231r46 231r63
+130f36 y{18|13F8} 16|226b36 228r23 229r23 230r23 231r23
+131V13*"<="{boolean} 131>19 131>37 16|234b13 237l8 237t11
+131f19 x{18|13F8} 16|234b19 236r18
+131r37 y{14R8} 16|234b37 236r13
+133V13*">"{boolean} 133>18 133>20 16|239b13 246l8 246t10 277s14
+133r18 x{14R8} 16|239b18 241r14 242r14 242r34 243r14 243r34 243r54 244r14
+. 244r34 244r54 245r14
+133r20 y{14R8} 16|239b20 241r23 242r23 242r43 243r23 243r43 243r63 244r23
+. 244r43 244r63 245r23
+134V13*">"{boolean} 134>18 134>35 16|190s15 248b13 255l8 255t10
+134r18 x{14R8} 16|248b18 250r14 251r14 251r38 252r14 252r38 252r62 253r14
+. 253r38 253r62 254r14
+134r35 y{12|12R8} 16|248b35 250r31 251r31 251r55 252r31 252r55 253r31 253r55
+135V13*">"{boolean} 135>18 135>37 16|257b13 260l8 260t10
+135r18 x{12|12R8} 16|257b18 259r17
+135r37 y{14R8} 16|257b37 259r13
+136V13*">"{boolean} 136>18 136>35 16|203s15 262b13 268l8 268t10
+136r18 x{14R8} 16|262b18 264r14 265r14 265r29 266r14 266r29 266r46 267r14
+. 267r29 267r46 267r63
+136f35 y{18|13F8} 16|262b35 264r23 265r23 266r23 267r23
+137V13*">"{boolean} 137>18 137>36 16|270b13 273l8 273t10
+137f18 x{18|13F8} 16|270b18 272r17
+137r36 y{14R8} 16|270b36 272r13
+138V13*">="{boolean} 138>19 138>21 16|275b13 278l8 278t11
+138r19 x{14R8} 16|275b19 277r12 277r27
+138r21 y{14R8} 16|275b21 277r16 277r29
+139V13*">="{boolean} 139>19 139>36 16|223s15 280b13 287l8 287t11
+139r19 x{14R8} 16|280b19 282r14 283r14 283r38 284r14 284r38 284r62 285r14
+. 285r38 285r62 286r14
+139r36 y{12|12R8} 16|280b36 282r31 283r31 283r55 284r31 284r55 285r31 285r55
+140V13*">="{boolean} 140>19 140>38 16|289b13 292l8 292t11
+140r19 x{12|12R8} 16|289b19 291r18
+140r38 y{14R8} 16|289b38 291r13
+141V13*">="{boolean} 141>19 141>36 16|236s15 294b13 300l8 300t11
+141r19 x{14R8} 16|294b19 296r14 297r14 297r29 298r14 298r29 298r46 299r14
+. 299r29 299r46 299r63
+141f36 y{18|13F8} 16|294b36 296r23 297r23 298r23 299r23
+142V13*">="{boolean} 142>19 142>37 16|302b13 305l8 305t11
+142f19 x{18|13F8} 16|302b19 304r18
+142r37 y{14R8} 16|302b37 304r13
+144U13*copy 144>20 144=40 16|307b13 311l7 311t11 1177s7 1190s9 1194s13 1218s7
+. 1231s9 1235s13
+144r20 x{14R8} 16|307b20 309r15 309r33 310r15 310r33
+144r40 y{14R8} 16|307b40 309m5 309m23 310m5 310m23
+148V12*to_int{19|6I8} 148>21 16|315b12 318l7 318t13
+148r21 x{14R8} 16|315b21 317r22
+149V12*to_double{18|13F8} 149>24 16|320b12 323l7 323t16
+149r24 x{14R8} 16|320b24 322r12
+150V12*to_double_double{12|12R8} 150>31 16|325b12 331l7 331t23
+150r31 x{14R8} 16|325b31 327r43
+151V12*to_triple_double{39|20R8} 151>31 16|333b12 339l7 339t23
+151r31 x{14R8} 16|333b31 335r42 335r49 335r56
+152V13*"abs"{14R8} 152>20 16|341b13 354l8 354t12
+152r20 x{14R8} 16|341b20 346r8 347r18 347r37 348r18 348r37 350r17 350r35
+. 351r17 351r35
+153V12*AbsVal{14R8} 153>21 16|356b12 369l7 369t13
+153r21 x{14R8} 16|356b21 361r8 362r18 362r37 363r18 363r37 365r17 365r35
+. 366r17 366r35
+154V12*floor{14R8} 154>20 16|371b12 391l7 391t12
+154r20 x{14R8} 16|371b20 378r30 379r13 380r32 381r15 382r34 383r17 384r40
+155V12*nint{14R8} 155>19 16|393b12 425l7 425t11
+155r19 x{14R8} 16|393b19 400r38 401r13 402r40 403r15 404r42 405r17 406r44
+. 408r23 408r41 413r21 413r39 418r19 418r37
+160V13*"+"{14R8} 160>18 160>20 16|476b13 525l8 525t10 626s12 645s14 1352s16
+. 1365s16
+160r18 x{14R8} 16|476b18 485r16 486r20 489r16 490r20 505r18 506r21 507r18
+. 518r24
+160r20 y{14R8} 16|476b20 485r32 487r20 489r32 491r20 503r18 506r37 509r18
+. 521r24
+161V13*"+"{14R8} 161>18 161>35 16|527b13 544l8 544t10 548s37 582s16 631s12
+. 655s14
+161r18 x{14R8} 16|527b18 533r13 534r13 536r11 538r16
+161r35 y{12|12R8} 16|527b35 533r28 534r28
+162V13*"+"{14R8} 162>18 162>37 16|546b13 552l8 552t10 665s14
+162r18 x{12|12R8} 16|546b18 548r39
+162r37 y{14R8} 16|546b37 548r35
+163V13*"+"{14R8} 163>18 163>35 16|554b13 566l8 566t10 570s37 592s16 610s16
+. 636s12 675s14 1367s16
+163r18 x{14R8} 16|554b18 560r13 561r13 562r13 563r13
+163f35 y{18|13F8} 16|554b35 560r20
+164V13*"+"{14R8} 164>18 164>36 16|568b13 574l8 574t10 685s14
+164f18 x{18|13F8} 16|568b18 570r39
+164r36 y{14R8} 16|568b36 570r35
+165V13*"+"{14R8} 165>18 165>20 16|576b13 584l8 584t10 695s14
+165r18 x{12|12R8} 16|576b18 579r42
+165r20 y{12|12R8} 16|576b20 582r18
+166V13*"+"{14R8} 166>18 166>37 16|586b13 594l8 594t10 598s37 705s14
+166r18 x{12|12R8} 16|586b18 589r42
+166f37 y{18|13F8} 16|586b37 592r18
+167V13*"+"{14R8} 167>18 167>36 16|596b13 602l8 602t10 715s14
+167f18 x{18|13F8} 16|596b18 598r39
+167r36 y{12|12R8} 16|596b36 598r35
+168V13*"+"{14R8} 168>18 168>20 16|604b13 612l8 612t10 725s14
+168f18 x{18|13F8} 16|604b18 607r42
+168f20 y{18|13F8} 16|604b20 610r18
+169V13*"+"{14R8} 169>18 16|614b13 622l8 622t10
+169r18 x{14R8} 16|614b18 619r17 619r37 620r17 620r37
+170U13*Add 170=19 170>43 16|624b13 627l7 627t10 1357s9 1399s9
+170r19 x{14R8} 16|624b19 626m5 626r10
+170r43 y{14R8} 16|624b43 626r14
+171U13*Add 171=19 171>43 16|629b13 632l7 632t10
+171r19 x{14R8} 16|629b19 631m5 631r10
+171r43 y{12|12R8} 16|629b43 631r14
+172U13*Add 172=19 172>43 16|634b13 637l7 637t10
+172r19 x{14R8} 16|634b19 636m5 636r10
+172f43 y{18|13F8} 16|634b43 636r14
+174V13*"-"{14R8} 174>18 174>20 16|639b13 647l8 647t10 747s12 962s14 988s12
+. 1350s25
+174r18 x{14R8} 16|639b18 645r12
+174r20 y{14R8} 16|639b20 642r38
+175V13*"-"{14R8} 175>18 175>35 16|649b13 657l8 657t10 752s12 1027s14 1031s16
+. 1035s16
+175r18 x{14R8} 16|649b18 655r12
+175r35 y{12|12R8} 16|649b35 652r40
+176V13*"-"{14R8} 176>18 176>37 16|659b13 667l8 667t10
+176r18 x{12|12R8} 16|659b18 665r12
+176r37 y{14R8} 16|659b37 662r38
+177V13*"-"{14R8} 177>18 177>35 16|669b13 677l8 677t10 757s12
+177r18 x{14R8} 16|669b18 675r12
+177f35 y{18|13F8} 16|669b35 672r39
+178V13*"-"{14R8} 178>18 178>36 16|679b13 687l8 687t10
+178f18 x{18|13F8} 16|679b18 685r12
+178r36 y{14R8} 16|679b36 682r38
+179V13*"-"{14R8} 179>18 179>20 16|689b13 697l8 697t10
+179r18 x{12|12R8} 16|689b18 695r12
+179r20 y{12|12R8} 16|689b20 692r40
+180V13*"-"{14R8} 180>18 180>37 16|699b13 707l8 707t10
+180r18 x{12|12R8} 16|699b18 705r12
+180f37 y{18|13F8} 16|699b37 702r39
+181V13*"-"{14R8} 181>18 181>36 16|709b13 717l8 717t10
+181f18 x{18|13F8} 16|709b18 715r12
+181r36 y{12|12R8} 16|709b36 712r40
+182V13*"-"{14R8} 182>18 182>20 16|719b13 727l8 727t10
+182f18 x{18|13F8} 16|719b18 725r12
+182f20 y{18|13F8} 16|719b20 722r39
+183V13*"-"{14R8} 183>18 16|642s37 662s37 682s37 729b13 737l8 737t10 1398s22
+183r18 x{14R8} 16|729b18 734r18 734r39 735r18 735r39
+184U13*Min 184=19 16|739b13 743l7 743t10
+184r19 x{14R8} 16|739b19 741m5 741r16 741m24 741r35 742m5 742r16 742m24 742r35
+185U13*Sub 185=19 185>43 16|745b13 748l7 748t10 965s5 968s5 971s5 991s5 994s5
+. 997s5
+185r19 x{14R8} 16|745b19 747m5 747r10
+185r43 y{14R8} 16|745b43 747r14
+186U13*Sub 186=19 186>43 16|750b13 753l7 753t10
+186r19 x{14R8} 16|750b19 752m5 752r10
+186r43 y{12|12R8} 16|750b43 752r14
+187U13*Sub 187=19 187>43 16|755b13 758l7 758t10 1400s9
+187r19 x{14R8} 16|755b19 757m5 757r10
+187f43 y{18|13F8} 16|755b43 757r14
+189V13*"*"{14R8} 189>18 189>20 16|760b13 816l8 816t10 924s11 1257s17 1356s24
+. 1398s17
+189r18 x{14R8} 16|760b18 779r14 780r14 781r14 782r14 783r14 784r14 793r14
+. 794r14 795r14 796r14 810r16 810r34 810r52
+189r20 y{14R8} 16|760b20 779r21 780r21 781r21 782r21 783r21 784r21 793r21
+. 794r21 795r21 796r21 810r25 810r43 810r61
+190V13*"*"{14R8} 190>18 190>35 16|818b13 844l8 844t10 848s37 888s16 908s16
+. 929s11
+190r18 x{14R8} 16|818b18 824r14 825r14 826r14 827r14 828r14 837r11 837r33
+190r35 y{12|12R8} 16|818b35 824r29 825r29 826r29 827r29 828r29 837r28 837r50
+191V13*"*"{14R8} 191>18 191>37 16|846b13 852l8 852t10
+191r18 x{12|12R8} 16|846b18 848r39
+191r37 y{14R8} 16|846b37 848r35
+192V13*"*"{14R8} 192>18 192>35 16|854b13 872l8 872t10 876s37 898s16 918s16
+. 934s11
+192r18 x{14R8} 16|854b18 860r14 861r14 862r14 863r11
+192f35 y{18|13F8} 16|854b35 860r21 861r21 862r21 863r20
+193V13*"*"{14R8} 193>18 193>36 16|874b13 880l8 880t10 961s14 964s14 967s14
+. 970s14 987s14 990s14 993s14 996s14 1350s28
+193f18 x{18|13F8} 16|874b18 876r39
+193r36 y{14R8} 16|874b36 876r35
+194V13*"*"{14R8} 194>18 194>20 16|882b13 890l8 890t10
+194r18 x{12|12R8} 16|882b18 885r42
+194r20 y{12|12R8} 16|882b20 888r18
+195V13*"*"{14R8} 195>18 195>37 16|892b13 900l8 900t10
+195r18 x{12|12R8} 16|892b18 895r42
+195f37 y{18|13F8} 16|892b37 898r18
+196V13*"*"{14R8} 196>18 196>36 16|902b13 910l8 910t10
+196f18 x{18|13F8} 16|902b18 905r42
+196r36 y{12|12R8} 16|902b36 908r18
+197V13*"*"{14R8} 197>18 197>20 16|912b13 920l8 920t10
+197f18 x{18|13F8} 16|912b18 915r42
+197f20 y{18|13F8} 16|912b20 918r18
+198U13*Mul 198=19 198>43 16|922b13 925l7 925t10 1182s17 1223s17 1355s9
+198r19 x{14R8} 16|922b19 924m5 924r10
+198r43 y{14R8} 16|922b43 924r12
+199U13*Mul 199=19 199>43 16|927b13 930l7 930t10
+199r19 x{14R8} 16|927b19 929m5 929r10
+199r43 y{12|12R8} 16|927b43 929r12
+200U13*Mul 200=19 200>43 16|932b13 935l7 935t10
+200r19 x{14R8} 16|932b19 934m5 934r10
+200f43 y{18|13F8} 16|932b43 934r12
+201V12*Mul_pwr2{14R8} 201>23 201>40 16|937b12 946l7 946t15 1350s14 1352s18
+. 1363s14
+201r23 x{14R8} 16|937b23 943r17 943r39 944r17 944r39
+201f40 y{18|13F8} 16|937b40 943r24 943r46 944r24 944r46
+203U13*Mul_pwr2 203=24 203>48 16|948b13 952l7 952t15
+203r24 x{14R8} 16|948b24 950m5 950r15 950m25 950r35 951m5 951r15 951m25 951r35
+203f48 y{18|13F8} 16|948b48 950r22 950r42 951r22 951r42
+206V13*"/"{14R8} 206>18 206>20 16|954b13 976l8 976t10 1010s15 1048s15 1094s11
+. 1416s18
+206r18 x{14R8} 16|954b18 960r11 962r12
+206r20 y{14R8} 16|954b20 960r18 961r15 963r20 964r15 966r20 967r15 969r20
+. 970r15 972r20
+207V13*"/"{14R8} 207>18 207>35 16|978b13 1002l8 1002t10 1058s15 1078s15 1099s11
+207r18 x{14R8} 16|978b18 986r11 988r10
+207r35 y{12|12R8} 16|978b35 982r43 986r26 989r26 992r26 995r26 998r26
+208V13*"/"{14R8} 208>18 208>37 16|1004b13 1012l8 1012t10
+208r18 x{12|12R8} 16|1004b18 1007r42
+208r37 y{14R8} 16|1004b37 1010r16
+209V13*"/"{14R8} 209>18 209>35 16|1014b13 1040l8 1040t10 1068s15 1088s15
+. 1104s11
+209r18 x{14R8} 16|1014b18 1024r11 1027r12
+209f35 y{18|13F8} 16|1014b35 1024r18 1025r17 1028r20 1029r17 1032r20 1033r17
+. 1036r20
+210V13*"/"{14R8} 210>18 210>36 16|1042b13 1050l8 1050t10 1193s23 1234s23
+210f18 x{18|13F8} 16|1042b18 1045r42
+210r36 y{14R8} 16|1042b36 1048r16
+211V13*"/"{14R8} 211>18 211>20 16|1052b13 1060l8 1060t10
+211r18 x{12|12R8} 16|1052b18 1055r42
+211r20 y{12|12R8} 16|1052b20 1058r16
+212V13*"/"{14R8} 212>18 212>37 16|1062b13 1070l8 1070t10
+212r18 x{12|12R8} 16|1062b18 1065r42
+212f37 y{18|13F8} 16|1062b37 1068r16
+213V13*"/"{14R8} 213>18 213>36 16|1072b13 1080l8 1080t10
+213f18 x{18|13F8} 16|1072b18 1075r42
+213r36 y{12|12R8} 16|1072b36 1078r16
+214V13*"/"{14R8} 214>18 214>20 16|1082b13 1090l8 1090t10
+214f18 x{18|13F8} 16|1082b18 1085r42
+214f20 y{18|13F8} 16|1082b20 1088r16
+215U13*Div 215=19 215>43 16|1092b13 1095l7 1095t10
+215r19 x{14R8} 16|1092b19 1094m5 1094r10
+215r43 y{14R8} 16|1092b43 1094r12
+216U13*Div 216=19 216>43 16|1097b13 1100l7 1100t10
+216r19 x{14R8} 16|1097b19 1099m5 1099r10
+216r43 y{12|12R8} 16|1097b43 1099r12
+217U13*Div 217=19 217>43 16|1102b13 1105l7 1105t10
+217r19 x{14R8} 16|1102b19 1104m5 1104r10
+217f43 y{18|13F8} 16|1102b43 1104r12
+219V12*sqr{14R8} 219>18 16|1107b12 1115l7 1115t10
+219f18 x{18|13F8} 16|1107b18 1110r42
+220V12*sqr{14R8} 220>18 16|1117b12 1125l7 1125t10
+220r18 x{12|12R8} 16|1117b18 1120r42
+221V12*sqr{14R8} 221>18 16|1113s12 1123s12 1127b12 1162l7 1162t10 1186s24
+. 1227s24 1351s12 1364s14
+221r18 x{14R8} 16|1127b18 1137r13 1138r18 1138r25 1139r18 1139r25 1140r13
+. 1151r15 1151r22 1152r15 1152r22
+222V13*"**"{14R8} 222>19 222>36 16|1164b13 1198l8 1198t11 1202s13
+222r19 x{14R8} 16|1164b19 1177r12
+222i36 n{integer} 16|1164b36 1170r8 1173r10 1174r21 1175r22 1192r10
+223V13*"**"{14R8} 223>19 223>36 16|1200b13 1203l8 1203t11
+223r19 x{14R8} 16|1200b19 1202r12
+223i36 n{19|6I8} 16|1200b36 1202r23
+224V13*"**"{14R8} 224>19 224>36 16|1205b13 1239l8 1239t11
+224r19 x{14R8} 16|1205b19 1218r12
+224i36 n{19|7I8} 16|1205b36 1211r8 1214r10 1215r31 1216r32 1233r10
+226V12*ldexp{14R8} 226>20 226>37 16|1241b12 1253l7 1253t12 1369s14
+226r20 x{14R8} 16|1241b20 1248r25 1249r25 1250r25 1251r25
+226i37 n{integer} 16|1241b37 1248r32 1249r32 1250r32 1251r32
+228V13*"**"{14R8} 228>19 228>21 16|1255b13 1258l8 1258t11 1265s13 1273s13
+228r19 x{14R8} 16|1255b19 1257r22
+228r21 y{14R8} 16|1255b21 1257r16
+229V13*"**"{14R8} 229>19 229>36 16|1260b13 1266l8 1266t11
+229r19 x{14R8} 16|1260b19 1265r12
+229r36 y{12|12R8} 16|1260b36 1262r43
+230V13*"**"{14R8} 230>19 230>36 16|1268b13 1274l8 1274t11
+230r19 x{14R8} 16|1268b19 1273r12
+230f36 y{18|13F8} 16|1268b36 1270r43
+232V12*exp{14R8} 232>18 16|1257s12 1276b12 1372l7 1372t10 1398s18
+232r18 x{14R8} 16|1276b18 1304r53 1311r8 1313r11 1315r19 1317r18 1350r23
+233V12*log{14R8} 233>18 16|1257s18 1374b12 1404l7 1404t10 1416s12
+233r18 x{14R8} 16|1374b18 1390r15 1392r11 1396r56 1398r16
+234V12*log10{14R8} 234>20 16|1406b12 1418l7 1418t12
+234r20 x{14R8} 16|1406b20 1416r16
+238U13*clear 238=21 16|1422b13 1426l7 1426t12
+238r21 q{14R8} 16|1422b21 1424m5 1424m20 1425m5 1425m20
+249f5*hihi{18|13F8} 16|30m7 40m7 50m7 60m7 71m7 83m7 94r44 102r14 132r16
+. 138r16 144r15 149r15 154r16 154r25 160r16 166r16 172r16 172r25 173r16 173r25
+. 174r16 174r25 175r16 175r25 181r16 182r16 183r16 184r16 195r16 196r16 197r16
+. 198r16 213r16 214r16 215r16 216r16 217r16 228r16 229r16 230r16 231r16 241r16
+. 241r25 242r16 242r25 243r16 243r25 244r16 244r25 250r16 251r16 252r16 253r16
+. 264r16 265r16 266r16 267r16 282r16 283r16 284r16 285r16 296r16 297r16 298r16
+. 299r16 309m7 309r17 317r24 322r14 335r44 346r10 347m9 347r20 350m9 350r19
+. 361r10 362m9 362r20 365m9 365r19 378r32 379r15 400r40 401r15 418r21 437r26
+. 453m19 469m19 469r29 523m17 533r15 541m9 560r15 560m26 564m17 619m9 619r19
+. 734m9 734r20 741m7 741r18 779r16 779r23 780r16 781r23 782r16 784r23 793r16
+. 796r23 813m9 824r16 825r16 841m9 860r16 864m9 870m17 943m9 943r19 950m7
+. 950r17 960r13 960r20 963r15 963r22 966r15 966r22 969r15 969r22 972r15 972r22
+. 974m9 986r13 989r13 992r13 995r13 998r13 1000m9 1024r13 1028r15 1032r15
+. 1036r15 1038m9 1137r15 1138r20 1139r20 1151r17 1160m9 1248m9 1248r27 1304r55
+. 1311r10 1313r13 1358r25 1392r13 1396r58 1424m7
+250f5*lohi{18|13F8} 16|31m7 41m7 51m7 61m7 72m7 84m7 94r51 107r14 132r35
+. 138r35 154r38 154r47 160r42 166r33 173r36 173r45 174r36 174r45 175r36 175r45
+. 182r40 183r40 184r40 196r31 197r31 198r31 214r40 215r40 216r40 217r40 229r31
+. 230r31 231r31 242r36 242r45 243r36 243r45 244r36 244r45 251r40 252r40 253r40
+. 265r31 266r31 267r31 283r40 284r40 284r64 285r40 285r64 297r31 298r31 299r31
+. 309m25 309r35 335r51 347m28 347r39 350m27 350r37 362m28 362r39 365m27 365r37
+. 380r34 381r17 402r42 403r17 413r23 418r39 438r26 454m19 470m19 470r29 523m26
+. 534r15 541m25 561r15 561m26 564m26 619m29 619r39 734m30 734r41 741m26 741r37
+. 780r23 781r16 783r16 783r23 794r16 795r23 810r18 810r63 813m25 826r16 827r16
+. 841m25 861r16 865m23 870m26 943m31 943r41 950m27 950r37 974m25 1000m25
+. 1038m25 1138r27 1140r15 1152r17 1160m25 1249m9 1249r27 1424m22
+251f5*hilo{18|13F8} 16|31m22 41m22 51m22 62m7 73m7 85m7 112r44 120r14 133r16
+. 139r16 155r16 155r25 161r16 167r16 174r56 174r65 175r56 175r65 183r64 184r64
+. 197r48 198r48 216r57 217r57 230r48 231r48 243r56 243r65 244r56 244r65 252r64
+. 253r64 266r48 267r48 298r48 299r48 310m7 310r17 335r58 348m9 348r20 351m9
+. 351r19 363m9 363r20 366m9 366r19 382r36 383r19 404r44 405r19 408r25 413r41
+. 439r26 455m19 471m19 471r29 523m35 536r13 542m9 562r15 562m26 564m35 620m9
+. 620r19 735m9 735r20 742m7 742r18 782r23 784r16 794r23 795r16 810r36 810r45
+. 814m9 828r16 837r13 842m9 862r16 865m32 866m19 870m35 944m9 944r19 951m7
+. 951r17 974m41 1000m41 1038m41 1139r27 1152r24 1160m41 1250m9 1250r27 1425m7
+252f5*lolo{18|13F8} 16|31m37 41m37 51m37 62m22 74m7 86m7 112r51 125r14 133r35
+. 139r35 155r38 155r47 161r35 167r35 176r16 176r25 185r16 198r65 218r16 231r65
+. 245r16 245r25 254r16 267r65 286r16 299r65 310m25 310r35 348m28 348r39 351m27
+. 351r37 363m28 363r39 366m27 366r37 384r42 406r46 408r43 440r31 456m24 472m24
+. 472r34 523m44 538r18 542m25 563r15 563m26 564m44 620m29 620r39 735m30 735r41
+. 742m26 742r37 793r23 796r16 810r27 810r54 814m25 837r35 842m25 863r13 868m9
+. 870m44 944m31 944r41 951m27 951r37 974m57 1000m57 1038m57 1151r24 1160m57
+. 1251m9 1251r27 1425m22
+X 16 quad_double_numbers.adb
+27r5 q{15|14R8} 30m5 31m5 31m20 31m35 32r12
+37r5 q{15|14R8} 40m5 41m5 41m20 41m35 42r12
+47r5 q{15|14R8} 50m5 51m5 51m20 51m35 52r12
+57r5 q{15|14R8} 60m5 61m5 62m5 62m20 63r12
+68r5 q{15|14R8} 71m5 72m5 73m5 74m5 75r12
+80r5 q{15|14R8} 83m5 84m5 85m5 86m5 87r12
+94r5 d{12|12R8} 97r12
+112r5 d{12|12R8} 115r12
+327r5 d{12|12R8} 330r12
+335r5 t{39|20R8} 338r12
+343r5 q{15|14R8} 347m7 347m26 348m7 348m26 350m7 350m25 351m7 351m25 353r12
+358r5 q{15|14R8} 362m7 362m26 363m7 363m26 365m7 365m25 366m7 366m25 368r12
+373r5 res{15|14R8} 389m5 390r12
+374f5 x0{18|13F8} 378m5 379r8 387m15 387r15 389r19
+374f8 x1{18|13F8} 377m5 380m7 381r10 387m18 387r18 389r22
+374f11 x2{18|13F8} 377m16 382m9 383r12 387m21 387r21 389r25
+374f14 x3{18|13F8} 377m27 384m15 387m24 387r24 389r28
+395r5 res{15|14R8} 423m5 424r12
+396f5 x0{18|13F8} 400m5 401r8 418r14 419m13 419r19 422m13 422r13 423r19
+396f8 x1{18|13F8} 399m5 402m7 403r10 413r16 414m15 414r21 422m16 422r16 423r22
+396f11 x2{18|13F8} 399m16 404m9 405r12 408r18 409m17 409r23 422m19 422r19
+. 423r25
+396f14 x3{18|13F8} 399m27 406m11 422m22 422r22 423r28
+429V12 get{18|13F8} 429b12 429>18 429>35 442l7 442t10 485s12 485s28 486s16
+. 487s16 489s12 489s28 490s16 491s16 503s14 505s14 506s17 506s33 507s14 509s14
+. 518s20 521s20
+429r18 q{15|14R8} 437r24 438r24 439r24 440r29
+429i35 i{natural} 436r10
+444U13 Assign 444b13 444=22 444>46 445>22 458l7 458t13 496s9 498s25 514s13
+444r22 q{15|14R8} 453m17 454m17 455m17 456m22
+444i46 i{natural} 452r10
+445f22 v{18|13F8} 453r27 454r27 455r27 456r32
+460U13 Update 460b13 460=22 460>46 461>22 474l7 474t13 518s7 521s7
+460r22 q{15|14R8} 469m17 469r27 470m17 470r27 471m17 471r27 472m22 472r32
+460i46 i{natural} 468r10
+461f22 v{18|13F8} 469r36 470r36 471r35 472r41
+478r5 res{15|14R8} 496m16 496r16 498m32 498r32 514m20 514r20 518m14 518r14
+. 521m14 521r14 523m13 523r13 523m22 523r22 523m31 523r31 523m40 523r40 524r12
+479i5 i{integer} 484m5 485r18 486r22 486m26 486r31 489r18 490r22 490m26 490r31
+. 495r11 502r10 505r20 505m24 505r29 506r23 507r20 507m24 507r29 517r14
+479i7 j{integer} 484m13 485r34 487r22 487m26 487r31 489r34 491r22 491m26
+. 491r31 495r22 503r20 503m24 503r29 504r13 506r39 509r20 509m24 509r29 520r14
+479i9 k{integer} 484m21 494r11 496r20 497r12 498m15 498r20 498r36 514r24
+. 514m30 514r35
+480f5 s{18|13F8} 511m7 512m29 512r29 513r10 514r26
+480f7 t{18|13F8} 503m9 505m9 507m9 509m9 512r31
+481f5 u{18|13F8} 486m11 487m11 493r19 493m23 496r22 512m25 512r25
+481f7 v{18|13F8} 490m11 491m11 493r21 493m25 498r38 512m27 512r27
+517i9 k{integer} 518r26
+520i9 k{integer} 521r26
+529r5 res{15|14R8} 541m5 541m21 542m5 542m21 543r12
+530f5 s0{18|13F8} 533m31 540m13 540r13 541r17
+530f8 s1{18|13F8} 534m31 535r13 535m19 540m16 540r16 541r33
+530f11 s2{18|13F8} 536m5 537m15 537r15 540m19 540r19 542r17
+530f14 s3{18|13F8} 538m23 540m22 540r22 542r33
+530f17 t0{18|13F8} 533m34 535r16 535m22 537m18 537r18 538r13 538m26 539m5
+. 539r11 540m25 540r25
+530f20 t1{18|13F8} 534m34 537m21 537r21 539r16
+548r5 res{15|14R8} 551r12
+556r5 res{15|14R8} 560m22 560r22 561m22 561r22 562m22 562r22 563m22 563r22
+. 564m13 564r13 564m22 564r22 564m31 564r31 564m40 564r40 565r12
+557f5 e{18|13F8} 560m31 561r20 561m31 562r20 562m31 563r20 563m31 564m49
+. 564r49
+570r5 res{15|14R8} 573r12
+578r5 res{15|14R8} 582m5 583r12
+579r5 qdx{15|14R8} 582r12
+588r5 res{15|14R8} 592m5 593r12
+589r5 qdx{15|14R8} 592r12
+598r5 res{15|14R8} 601r12
+606r5 res{15|14R8} 610m5 611r12
+607r5 qdx{15|14R8} 610r12
+616r5 res{15|14R8} 619m5 619m25 620m5 620m25 621r12
+641r5 res{15|14R8} 645m5 646r12
+642r5 min_y{15|14R8} 645r16
+651r5 res{15|14R8} 655m5 656r12
+652r5 min_y{12|12R8} 655r16
+661r5 res{15|14R8} 665m5 666r12
+662r5 min_y{15|14R8} 665r16
+671r5 res{15|14R8} 675m5 676r12
+672f5 min_y{18|13F8} 675r16
+681r5 res{15|14R8} 685m5 686r12
+682r5 min_y{15|14R8} 685r16
+691r5 res{15|14R8} 695m5 696r12
+692r5 min_y{12|12R8} 695r16
+701r5 res{15|14R8} 705m5 706r12
+702f5 min_y{18|13F8} 705r16
+711r5 res{15|14R8} 715m5 716r12
+712r5 min_y{12|12R8} 715r16
+721r5 res{15|14R8} 725m5 726r12
+722f5 min_y{18|13F8} 725r16
+731r5 res{15|14R8} 734m5 734m26 735m5 735m26 736r12
+774r5 res{15|14R8} 813m5 813m21 814m5 814m21 815r12
+775f5 p0{18|13F8} 779m28 812m13 812r13 813r17
+775f8 p1{18|13F8} 780m28 785m15 785r15 812m16 812r16 813r33
+775f11 p2{18|13F8} 781m28 785m18 785r18 786m15 786r15 788r13
+775f14 p3{18|13F8} 782m28 787m15 787r15 788r16
+775f17 p4{18|13F8} 783m28 787m18 787r18 789r16
+775f20 p5{18|13F8} 784m28 787m21 787r21 790r16
+775f23 q0{18|13F8} 779m31 785m21 785r21 797r13 797m19 801r13
+775f26 q1{18|13F8} 780m31 786m18 786r18 789r13
+775f29 q2{18|13F8} 781m31 786m21 786r21 790r11
+775f32 q3{18|13F8} 782m31 797r16 797m22 802r17 805m19 807r13
+775f35 q4{18|13F8} 783m31 798r13 798m19 801r16 805m22 806m5 806r11 808r16
+775f38 q5{18|13F8} 784m31 798r16 798m22 802r22
+776f5 p6{18|13F8} 793m28 799r13 799m19 803r13
+776f8 p7{18|13F8} 794m28 799r16 799m22 804r17
+776f11 p8{18|13F8} 795m28 800r13 800m19 803r16
+776f14 p9{18|13F8} 796m28 800r16 800m22 804r22
+776f17 q6{18|13F8} 793m31 811r11
+776f20 q7{18|13F8} 794m31 811r16
+776f23 q8{18|13F8} 795m31 811r21
+776f26 q9{18|13F8} 796m31 811r26
+776f29 r0{18|13F8} 803m19 805r16
+776f32 r1{18|13F8} 803m22 804m5 804r11 806r22
+776f35 t0{18|13F8} 788m22 791r16 791m22 792r17 801m19 805r13 807m19 812m22
+. 812r22 814r33
+776f38 t1{18|13F8} 789m22 792r22 801m22 802m5 802r11 806r17 807m22 808m5
+. 808r11 810m5 810r11 812m25 812r25
+776f41 s0{18|13F8} 788m19 812m19 812r19 814r17
+776f44 s1{18|13F8} 789m19 791r13 791m19 807r16
+776f47 s2{18|13F8} 790m5 792m5 792r11 811r31
+820r5 res{15|14R8} 841m5 841m21 842m5 842m21 843r12
+821f5 p0{18|13F8} 824m32 840m13 840r13 841r17
+821f8 p1{18|13F8} 825m32 829m15 829r15 840m16 840r16 841r33
+821f11 p2{18|13F8} 826m32 829m18 829r18 830m15 830r15 832r13 836m5 840m19
+. 840r19 842r17
+821f14 p3{18|13F8} 827m32 830m18 830r18 833r13 837m5 838m16 838r16 840m22
+. 840r22 842r33
+821f17 p4{18|13F8} 828m32 830m21 830r21 835r21 839m5 840m25 840r25
+821f20 q0{18|13F8} 824m35 829m21 829r21 838m19 838r19 839r11
+821f23 q1{18|13F8} 825m35 831r13 831m19 832r16
+821f26 q2{18|13F8} 826m35 831r16 831m22 833r16
+821f29 q3{18|13F8} 827m35 837r55
+821f32 q4{18|13F8} 828m35 837r60
+821f35 s0{18|13F8} 832m19 836r11
+821f38 s1{18|13F8} 833m19 834r13 834m19 838m22 838r22
+821f41 s2{18|13F8} 835m5 839r16
+821f44 t0{18|13F8} 832m22 834r16 834m22 835r11
+821f47 t1{18|13F8} 833m22 835r16
+848r5 res{15|14R8} 851r12
+856r5 res{15|14R8} 864m5 865m19 865r19 865m28 865r28 866m15 866r15 868m5
+. 870m13 870r13 870m22 870r22 870m31 870r31 870m40 870r40 871r12
+857f5 p0{18|13F8} 860m23 864r17
+857f8 p1{18|13F8} 861m23 865r16
+857f11 p2{18|13F8} 862m23 866m27 866r27 869r16
+857f14 p3{18|13F8} 863m5 867m22 867r22
+857f17 q0{18|13F8} 860m26 865r13
+857f20 q1{18|13F8} 861m26 866m24 866r24 867m16 867r16 868r17
+857f23 q2{18|13F8} 862m26 867m19 867r19 869r11
+857f26 s4{18|13F8} 869m5 870m49 870r49
+876r5 res{15|14R8} 879r12
+884r5 res{15|14R8} 888m5 889r12
+885r5 qdx{15|14R8} 888r12
+894r5 res{15|14R8} 898m5 899r12
+895r5 qdx{15|14R8} 898r12
+904r5 res{15|14R8} 908m5 909r12
+905r5 qdx{15|14R8} 908r12
+914r5 res{15|14R8} 918m5 919r12
+915r5 qdx{15|14R8} 918r12
+940r5 res{15|14R8} 943m5 943m27 944m5 944m27 945r12
+956r5 res{15|14R8} 962m5 963r11 965m9 965r9 966r11 968m9 968r9 969r11 971m9
+. 971r9 972r11 974m5 974m21 974m37 974m53 975r12
+956r9 acc{15|14R8} 961m5 962r16 964m5 965r13 967m5 968r13 970m5 971r13
+957f5 q0{18|13F8} 960m5 961r12 973m13 973r13 974r17
+957f8 q1{18|13F8} 963m5 964r12 973m16 973r16 974r33
+957f11 q2{18|13F8} 966m5 967r12 973m19 973r19 974r49
+957f14 q3{18|13F8} 969m5 970r12 973m22 973r22 974r65
+957f17 q4{18|13F8} 972m5 973m25 973r25
+980r5 res{15|14R8} 1000m5 1000m21 1000m37 1000m53 1001r12
+981f5 q0{18|13F8} 986m5 987r12 999m13 999r13 1000r17
+981f8 q1{18|13F8} 989m5 990r12 999m16 999r16 1000r33
+981f11 q2{18|13F8} 992m5 993r12 999m19 999r19 1000r49
+981f14 q3{18|13F8} 995m5 996r12 999m22 999r22 1000r65
+981f17 q4{18|13F8} 998m5 999m25 999r25
+982r5 qd_y{15|14R8} 987r15 990r15 993r15 996r15
+983r5 acc{15|14R8} 987m5 988r14 990m5 991r11 993m5 994r11 996m5 997r11
+983r9 r{15|14R8} 988m5 989r11 991m9 991r9 992r11 994m9 994r9 995r11 997m9
+. 997r9 998r11
+1006r5 res{15|14R8} 1010m5 1011r12
+1007r5 qdx{15|14R8} 1010r12
+1019r5 res{15|14R8} 1027m5 1028r11 1031m5 1031r12 1032r11 1035m5 1035r12
+. 1036r11 1038m5 1038m21 1038m37 1038m53 1039r12
+1020f5 t0{18|13F8} 1025m19 1026r20 1029m19 1030r20 1033m19 1034r20
+1020f8 t1{18|13F8} 1025m22 1026r23 1029m22 1030r23 1033m22 1034r23
+1020f11 q0{18|13F8} 1024m5 1025r14 1037m13 1037r13 1038r17
+1020f14 q1{18|13F8} 1028m5 1029r14 1037m16 1037r16 1038r33
+1020f17 q2{18|13F8} 1032m5 1033r14 1037m19 1037r19 1038r49
+1020f20 q3{18|13F8} 1036m5 1037m22 1037r22 1038r65
+1021r5 dd_t{12|12R8} 1026m5 1027r16 1030m5 1031r18 1034m5 1035r18
+1044r5 res{15|14R8} 1048m5 1049r12
+1045r5 qdx{15|14R8} 1048r12
+1054r5 res{15|14R8} 1058m5 1059r12
+1055r5 qdx{15|14R8} 1058r12
+1064r5 res{15|14R8} 1068m5 1069r12
+1065r5 qdx{15|14R8} 1068r12
+1074r5 res{15|14R8} 1078m5 1079r12
+1075r5 qdx{15|14R8} 1078r12
+1084r5 res{15|14R8} 1088m5 1089r12
+1085r5 qdx{15|14R8} 1088r12
+1109r5 res{15|14R8} 1113m5 1114r12
+1110r5 qdx{15|14R8} 1113r16
+1119r5 res{15|14R8} 1123m5 1124r12
+1120r5 qdx{15|14R8} 1123r16
+1129r5 res{15|14R8} 1160m5 1160m21 1160m37 1160m53 1161r12
+1134f5 p0{18|13F8} 1137m20 1159m13 1159r13 1160r17
+1134f8 p1{18|13F8} 1138m32 1141r16 1141m19 1159m16 1159r16 1160r33
+1134f11 p2{18|13F8} 1139m32 1143r13 1143m19 1144r16 1149m25 1159m19 1159r19
+. 1160r49
+1134f14 p3{18|13F8} 1140m20 1143r16 1143m22 1145r16 1150m25 1157r13 1157m19
+. 1159m22 1159r22 1160r65
+1134f17 p4{18|13F8} 1151m5 1153r13 1153m19 1155r13 1157m22 1158m5 1158r11
+. 1159m25 1159r25
+1134f20 p5{18|13F8} 1152m5 1153r16 1153m22 1156r16
+1134f23 q0{18|13F8} 1137m23 1141r13 1141m22 1142r13 1142m19 1144r13 1150m28
+. 1158r16
+1134f26 q1{18|13F8} 1138m35 1142r16 1142m22 1145r13
+1134f29 q2{18|13F8} 1139m35 1154r13 1154m19 1155r16
+1134f32 q3{18|13F8} 1140m23 1154r16 1154m22 1156r21
+1134f35 s0{18|13F8} 1144m19 1149r19
+1134f38 s1{18|13F8} 1145m19 1146r13 1146m19 1148r19 1148m25 1149r22
+1134f41 t0{18|13F8} 1144m22 1146r16 1146m22 1147m5 1147r11 1148r22 1148m28
+. 1150r22 1155m19 1157r16
+1134f44 t1{18|13F8} 1145m22 1147r16 1149m28 1150r19 1155m22 1156m5 1156r11
+. 1158r21
+1166r5 res{15|14R8} 1171m7 1177m14 1177r14 1182r25 1186m17 1186r28 1190r14
+. 1193m13 1194m22 1194r22 1197r12
+1166r9 acc{15|14R8} 1178m7 1182m21 1182r21 1190m18 1190r18 1193r24 1194r18
+1167i5 absn{natural} 1174m13 1175m13 1179r10 1180r15 1181r14 1184m11 1184r19
+. 1185r14
+1207r5 res{15|14R8} 1212m7 1218m14 1218r14 1223r25 1227m17 1227r28 1231r14
+. 1234m13 1235m22 1235r22 1238r12
+1207r9 acc{15|14R8} 1219m7 1223m21 1223r21 1231m18 1231r18 1234r24 1235r18
+1208i5 absn{21|8I8} 1215m13 1216m13 1220r10 1221r15 1222r14 1225m11 1225r19
+. 1226r14
+1243r5 res{15|14R8} 1248m5 1249m5 1250m5 1251m5 1252r12
+1244V14*C_ldexp{18|13F8} 1244>24 1244>42 1245b<c,ldexp>21 1248s17 1249s17
+. 1250s17 1251s17
+1244f24 x{18|13F8}
+1244i42 n{integer}
+1262r5 qd_y{15|14R8} 1265r15
+1270r5 qd_y{15|14R8} 1273r15
+1285V14*C_ldexp{18|13F8} 1285>24 1285>42 1286b<c,ldexp>21 1289s34
+1285f24 x{18|13F8}
+1285i42 n{integer}
+1288r5 res{15|14R8} 1312m7 1314m7 1316m7 1318m7 1350m7 1351r16 1352r12 1355r15
+. 1367m7 1369m7 1369r20 1371r12
+1289f5 k{18|13F8} 1290r42
+1290f5 inv_k{18|13F8} 1303r36 1350r34
+1291f5 e_0{18|13F8} 1295r43
+1292f5 e_1{18|13F8} 1295r47
+1293f5 e_2{18|13F8} 1295r51
+1294f5 e_3{18|13F8} 1295r55
+1295r5 exp1{15|14R8} 1318r14
+1296f5 log2_0{18|13F8} 1300r43 1304r60
+1297f5 log2_1{18|13F8} 1300r50
+1298f5 log2_2{18|13F8} 1300r57
+1299f5 log2_3{18|13F8} 1300r64
+1300r5 log2{15|14R8} 1350r29
+1301f5 qd_eps{18|13F8} 1303r42
+1303f5 tol{18|13F8} 1358r34
+1304f5 m{18|13F8} 1350r27 1368r22
+1305a5 i_fac(15|14R8) 1320m7 1322m7 1324m7 1326m7 1328m7 1330m7 1332m7 1334m7
+. 1336m7 1338m7 1340m7 1342m7 1344m7 1346m7 1348m7 1356r14
+1307r5 p{15|14R8} 1351m7 1352r27 1355m13 1355r13 1356r25 1363m9 1365r14
+1307r7 s{15|14R8} 1352m7 1357m13 1357r13 1363r23 1364r18 1365m9 1367r14
+1307r9 t{15|14R8} 1356m9 1357r15 1358r23 1364m9 1365r18
+1308i5 cnt{integer} 1353m7 1356r20 1359m9 1359r16 1360r20 1368m7 1369r24
+1362i11 i{integer}
+1387r5 res{15|14R8} 1391m7 1394m7 1396m7 1398r23 1399m13 1399r13 1400m13
+. 1400r13 1403r12
+1387r9 acc{15|14R8} 1398m9 1399r17
+1397i11 i{integer}
+1408r5 res{15|14R8} 1416m5 1417r12
+1409f5 log10_0{18|13F8} 1413r45
+1410f5 log10_1{18|13F8} 1413r53
+1411f5 log10_2{18|13F8} 1413r61
+1412f5 log10_3{18|13F8} 1413r69
+1413r5 logten{15|14R8} 1416r19
+X 17 quad_double_renormalizations.ads
+3K9*Quad_Double_Renormalizations 16|4w6 4r46 17|48e33
+16U13*renorm4 16|387s7 422s5 523s5 1037s5
+22U13*renorm5 16|540s5 564s5 812s5 840s5 870s5 973s5 999s5 1159s5
+28U13*three_sum 16|537s5 785s5 786s5 787s5 829s5 830s5 866s5
+33U13*three_sum2 16|838s5 867s5
+38U13*quick_three_accum 16|512s7
+X 18 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 15|3w6 3r46 18|58e30
+13F8*double_float<long_float> 15|37r25 54r43 67r49 73r49 84r49 90r49 120r41
+. 125r39 126r22 130r40 131r23 136r39 137r22 141r40 142r23 149r49 163r39 164r22
+. 166r41 167r22 168r24 172r50 177r39 178r22 180r41 181r22 182r24 187r50 192r39
+. 193r22 195r41 196r22 197r24 200r50 201r44 203r55 209r39 210r22 212r41 213r22
+. 214r24 217r50 219r22 230r40 249r12 250r12 251r12 252r12 16|30r15 40r15
+. 45r25 78r43 100r49 105r49 118r49 123r49 164r41 193r39 201r22 226r40 234r23
+. 262r39 270r22 294r40 302r23 320r49 374r19 378r11 380r13 382r15 384r21 396r19
+. 429r56 445r29 461r29 480r11 481r11 530r25 554r39 557r9 568r22 586r41 596r22
+. 604r24 634r50 669r39 672r22 679r22 699r41 702r22 709r22 719r24 722r22 755r50
+. 775r43 776r52 821r52 854r39 857r31 874r22 892r41 902r22 912r24 932r50 937r44
+. 948r55 957r22 981r22 1014r39 1020r25 1042r22 1062r41 1072r22 1082r24 1102r50
+. 1107r22 1134r49 1244r28 1244r63 1268r40 1285r28 1285r63 1289r18 1290r22
+. 1291r20 1292r20 1293r20 1294r20 1296r23 1297r23 1298r23 1299r23 1301r23
+. 1303r20 1304r18 1304r34 1409r24 1410r24 1411r24 1412r24
+X 19 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 15|2w6 2r46 19|45e29
+6I8*integer32<long_integer> 15|30r25 148r46 223r40 16|12r19 17r19 25r25 315r46
+. 317r12 1200r40
+7I8*integer64<long_long_integer> 15|31r25 224r40 16|22r19 35r25 1205r40
+X 20 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 16|2w6 1396r21 20|64e36
+20V12*LN{18|13F8} 16|1396s53
+X 21 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 15|1w6 1r46 21|30e29
+7I8*natural32<long_integer> 15|23r25 16|15r25
+8I8*natural64<long_long_integer> 15|24r25 16|20r25 1208r12 1215r21 1216r21
+X 38 text_io.ads
+27K9*Text_IO=27:29 16|1w6 1r46
+X 39 triple_double_numbers.ads
+5K9*Triple_Double_Numbers 15|5w6 5r46 39|199e26
+20R8*triple_double 15|151r56 16|333r56 335r18 39|197e13
+48V12*create{20R8} 16|335s35
+

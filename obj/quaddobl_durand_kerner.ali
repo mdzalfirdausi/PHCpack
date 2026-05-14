@@ -1,0 +1,216 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_durand_kerner%b  quaddobl_durand_kerner.adb  e270873e NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_vector_norms%s  quaddobl_complex_vector_norms.adb  quaddobl_complex_vector_norms.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U quaddobl_durand_kerner%s  quaddobl_durand_kerner.ads  b7e603e1 BN EE NE OO PK
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vector_norms.ads  20260513024558 fd063214 quaddobl_complex_vector_norms%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_durand_kerner.ads  20260513024558 7b78ae65 quaddobl_durand_kerner%s
+D quaddobl_durand_kerner.adb  20260513024558 cf3bb7ba quaddobl_durand_kerner%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [horner quaddobl_durand_kerner 15 12 none]
+G c Z s b [derivative quaddobl_durand_kerner 22 12 none]
+G c Z s b [newton quaddobl_durand_kerner 28 13 none]
+G c Z s b [newton quaddobl_durand_kerner 48 13 none]
+G c Z s b [dk quaddobl_durand_kerner 68 13 none]
+G c Z s b [silent_durand_kerner quaddobl_durand_kerner 117 13 none]
+G r c none [horner quaddobl_durand_kerner 15 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [horner quaddobl_durand_kerner 15 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [derivative quaddobl_durand_kerner 22 12 none] [create quad_double_numbers 30 12 none]
+G r c none [derivative quaddobl_durand_kerner 22 12 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [newton quaddobl_durand_kerner 28 13 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [newton quaddobl_durand_kerner 28 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [newton quaddobl_durand_kerner 28 13 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [newton quaddobl_durand_kerner 28 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [newton quaddobl_durand_kerner 28 13 none] [to_double quad_double_numbers 149 12 none]
+G r c none [newton quaddobl_durand_kerner 28 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [newton quaddobl_durand_kerner 48 13 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [newton quaddobl_durand_kerner 48 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [newton quaddobl_durand_kerner 48 13 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [newton quaddobl_durand_kerner 48 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [newton quaddobl_durand_kerner 48 13 none] [to_double quad_double_numbers 149 12 none]
+G r c none [newton quaddobl_durand_kerner 48 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [dk quaddobl_durand_kerner 68 13 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [dk quaddobl_durand_kerner 68 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [dk quaddobl_durand_kerner 68 13 none] [create quaddobl_complex_numbers 25 12 5_1]
+G r c none [dk quaddobl_durand_kerner 68 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [dk quaddobl_durand_kerner 68 13 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [create quaddobl_complex_numbers 25 12 5_1]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [max_norm quaddobl_complex_vector_norms 32 12 none]
+G r c none [silent_durand_kerner quaddobl_durand_kerner 117 13 none] [Ole quad_double_numbers 130 12 none]
+X 4 generic_complex_numbers.ads
+19R8*Complex_Number 13|16r25[9|5] 16r49[9|5] 29r33[9|5] 14|8r25[9|5] 8r49[9|5]
+. 10r11[9|5] 39r33[9|5] 42r19[9|5] 43r20[9|5] 44r19[9|5] 68r31[9|5] 73r13[9|5]
+. 99r20[9|5] 131r20[9|5]
+25V12*Create{19R8[9|5]} 14|76s14[9|5] 99s38[9|5] 131s38[9|5]
+35V12*AbsVal{6|14R8} 14|48s15[9|5] 49s15[9|5] 50s15[9|5]
+55V13*"*"{19R8[9|5]} 14|33s23[9|5]
+58V13*"+"{19R8[9|5]} 14|18s22[9|5]
+60V13*"-"{19R8[9|5]} 14|51s12[9|5] 79s31[9|5] 87s20[9|5]
+62V13*"*"{19R8[9|5]} 14|18s19[9|5] 79s25[9|5]
+63V13*"/"{19R8[9|5]} 14|44s39[9|5] 87s36[9|5] 104s22[9|5] 136s22[9|5]
+X 5 generic_vectors.ads
+16A8*Vector(4|19R8[9|5])<18|6I8> 13|15r50[12|4] 22r54[12|4] 23r55[12|4] 28r57[12|4]
+. 48r57[12|4] 49r58[12|4] 50r66[17|4] 68r50[12|4] 69r56[12|4] 86r62[12|4]
+. 93r50[12|4] 94r56[12|4] 118r50[12|4] 119r56[12|4] 14|7r50[12|4] 24r54[12|4]
+. 25r55[12|4] 27r36[12|4] 38r57[12|4] 54r57[12|4] 55r58[12|4] 56r66[17|4]
+. 63r50[12|4] 64r56[12|4] 67r55[12|4] 93r49[12|4] 94r55[12|4] 98r35[12|4]
+. 125r49[12|4] 126r55[12|4] 130r35[12|4]
+X 6 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 14|2w6 2r46
+14R8*quad_double 253e13 14|28r12 45r28
+30V12*Create{14R8} 14|32s15
+130V13*"<="{boolean} 14|116s22 147s22
+149V12*to_double{15|13F8} 14|48s35 49s35 50s35
+X 9 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[4|11] 13|4w6 4r46
+X 11 quaddobl_complex_vector_norms.ads
+5K9*QuadDobl_Complex_Vector_Norms 37e34 14|3w6 3r46
+32V12*Max_Norm{6|14R8} 14|116s10 147s10
+X 12 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[5|8] 13|5w6 15r25 22r29 23r30 28r32 48r32 49r33
+. 68r25 69r31 86r37 93r25 94r31 118r25 119r31 14|7r25 24r29 25r30 27r11 38r32
+. 54r32 55r33 63r25 64r31 67r30 93r24 94r30 98r10 125r24 126r30 130r10
+X 13 quaddobl_durand_kerner.ads
+7K9*QuadDobl_Durand_Kerner 127l5 127e27 14|5b14 155l5 155t27
+15V12*Horner{4|19R8[9|5]} 15>21 16>21 14|7b12 22l7 22t13 42s37 43s38 87s22
+. 88s15
+15a21 p{5|16A8[12|4]} 14|7b21 13r8 13r18 14r14 14r16 16r14 16r16 17r24 17r34
+. 18r24
+16r21 x{4|19R8[9|5]} 14|8b21 18r20
+22V12*Derivative{5|16A8[12|4]} 22>25 14|24b12 36l7 36t17
+22a25 p{5|16A8[12|4]} 14|24b25 27r46 31r17 33r24
+28U13*Newton 28>22 28>24 29=22 30<22 30<26 30<30 14|38b13 52l7 52t13 59s7
+28a22 p{5|16A8[12|4]} 14|38b22 42r44
+28a24 dp{5|16A8[12|4]} 14|38b24 43r45
+29r22 z{4|19R8[9|5]} 14|39b22 42r46 43r48 51m5 51r10
+30f22 err{15|13F8} 14|40b22 49m28
+30f26 rco{15|13F8} 14|40b26 48m28
+30f30 res{15|13F8} 14|40b30 50m28
+48U13*Newton 48>22 48>24 49=22 50<22 50<26 50<30 14|54b13 61l7 61t13
+48a22 p{5|16A8[12|4]} 14|54b22 59r14
+48a24 dp{5|16A8[12|4]} 14|54b24 59r16
+49a22 z{5|16A8[12|4]} 14|55b22 58r14 59m19 59r19
+50a22 err{5|16A8[17|4]} 14|56b22 59m24 59r24
+50a26 rco{5|16A8[17|4]} 14|56b26 59m31 59r31
+50a30 res{5|16A8[17|4]} 14|56b30 59m38 59r38
+68U13*DK 68>18 69=18 69=20 14|63b13 90l7 90t9 114s7 146s7
+68a18 p{5|16A8[12|4]} 14|63b18 87r29 88r22
+69a18 z{5|16A8[12|4]} 14|64b18 86r14 87m7 87r15 87r31 87r49 88r24
+69a20 r{5|16A8[12|4]} 14|64b20 88m7
+85U20 Write 85>28 86>28 86>30 14|115s7
+85i28 step{19|7I8}
+86a28 z{5|16A8[12|4]}
+86a30 r{5|16A8[12|4]}
+92u13*Reporting_Durand_Kerner 93>18 94=18 94=20 95>18 95>43 96<18 96<38 14|92b13
+. 122l7 122t30
+93a18 p{5|16A8[12|4]} 14|93b17 98r42 102r8 102r10 103r16 104r18 104r23 104r25
+. 107r16 108r18
+94a18 z{5|16A8[12|4]} 14|94b17 114m13 115r15
+94a20 r{5|16A8[12|4]} 14|94b19 114m15 115r17 116r19
+95i18 maxsteps{19|7I8} 14|95b17 112r17
+95f43 eps{15|13F8} 14|95b42 116r25
+96i18 nb{19|7I8} 14|96b17 113m7
+96b38 fail{boolean} 14|96b37 111m5 117m13 121m20
+117U13*Silent_Durand_Kerner 118>18 119=18 119=20 120>18 120>43 121<18 121<38
+. 14|124b13 153l7 153t27
+118a18 p{5|16A8[12|4]} 14|125b17 130r42 134r8 134r10 135r16 136r18 136r23
+. 136r25 139r16 140r18
+119a18 z{5|16A8[12|4]} 14|126b17 146m13
+119a20 r{5|16A8[12|4]} 14|126b19 146m15 147r19
+120i18 maxsteps{19|7I8} 14|127b17 144r17
+120f43 eps{15|13F8} 14|127b42 147r25
+121i18 nb{19|7I8} 14|128b17 145m7
+121b38 fail{boolean} 14|128b37 143m5 148m13 152m20
+X 14 quaddobl_durand_kerner.adb
+10r5 res{4|19R8[9|5]} 14m7 16m7 18m9 18r16 21r12
+17i11 i<long_integer> 18r26
+27a5 res{5|16A8[12|4]} 33m7 35r12
+28r5 qd_i{6|14R8} 32m7 33r19
+31i9 i<long_integer> 32r22 33r11 33r26
+42r5 pz{4|19R8[9|5]} 44r37 50r22
+43r5 dpz{4|19R8[9|5]} 44r40 48r22
+44r5 dz{4|19R8[9|5]} 49r22 51r14
+45r5 qd_rco{6|14R8} 48m5 48r45
+45r12 qd_err{6|14R8} 49m5 49r45
+45r19 qd_res{6|14R8} 50m5 50r45
+58i9 i<long_integer> 59r21 59r28 59r35 59r42
+66V14 Compute_q{4|19R8[9|5]} 66b14 66>26 67>26 83l9 83t18 87s37
+66i26 i{18|6I8} 78r17 79r29
+67a26 a{5|16A8[12|4]} 77r16 79r27 79r32
+73r7 res{4|19R8[9|5]} 76m7 79m15 79r22 82r14
+77i11 j<long_integer> 78r12 79r34
+86i9 i<long_integer> 87r9 87r17 87r33 87r47 88r9 88r26
+98a5 pp{5|16A8[12|4]} 104m9 108m9 114r10
+99r5 one{4|19R8[9|5]} 102r21
+103i11 i<long_integer> 104r12 104r20
+107i11 i<long_integer> 108r12 108r20
+112i9 k<long_integer> 113r13 115r13
+130a5 pp{5|16A8[12|4]} 136m9 140m9 146r10
+131r5 one{4|19R8[9|5]} 134r21
+135i11 i<long_integer> 136r12 136r20
+139i11 i<long_integer> 140r12 140r20
+144i9 k<long_integer> 145r13
+X 15 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 13|2w6 2r46 15|58e30
+13F8*double_float<long_float> 13|30r40 95r52 120r52 14|40r40 95r51 127r51
+X 17 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[5|8] 13|3w6 50r40 14|56r40
+X 18 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 14|1w6 1r46 18|45e29
+6I8*integer32<long_integer> 14|66r30
+X 19 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 13|1w6 1r46 19|30e29
+7I8*natural32<long_integer> 13|85r38 95r32 96r27 120r32 121r27 14|95r31 96r26
+. 127r31 128r26
+

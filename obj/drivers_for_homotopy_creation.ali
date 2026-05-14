@@ -1,0 +1,835 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U drivers_for_homotopy_creation%b  drivers_for_homotopy_creation.adb  243d3e82 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W dobldobl_complex_laur_strings%s  dobldobl_complex_laur_strings.adb  dobldobl_complex_laur_strings.ali
+W dobldobl_complex_laur_systems%s  dobldobl_complex_laur_systems.ads  dobldobl_complex_laur_systems.ali
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_numbers_cv%s  dobldobl_complex_numbers_cv.adb  dobldobl_complex_numbers_cv.ali
+W dobldobl_complex_poly_strings%s  dobldobl_complex_poly_strings.adb  dobldobl_complex_poly_strings.ali
+W dobldobl_homotopy%s	dobldobl_homotopy.adb	dobldobl_homotopy.ali
+W dobldobl_laurent_homotopy%s  dobldobl_laurent_homotopy.adb  dobldobl_laurent_homotopy.ali
+W dobldobl_polynomial_convertors%s  dobldobl_polynomial_convertors.adb  dobldobl_polynomial_convertors.ali
+W homogenization%s	homogenization.adb	homogenization.ali
+W multprec_complex_number_tools%s  multprec_complex_number_tools.adb  multprec_complex_number_tools.ali
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_complex_poly_strings%s  multprec_complex_poly_strings.adb  multprec_complex_poly_strings.ali
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W multprec_homotopy%s	multprec_homotopy.adb	multprec_homotopy.ali
+W numbers_io%s		numbers_io.adb		numbers_io.ali
+W projective_transformations%s  projective_transformations.adb  projective_transformations.ali
+W quaddobl_complex_laur_strings%s  quaddobl_complex_laur_strings.adb  quaddobl_complex_laur_strings.ali
+W quaddobl_complex_laur_systems%s  quaddobl_complex_laur_systems.ads  quaddobl_complex_laur_systems.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_numbers_cv%s  quaddobl_complex_numbers_cv.adb  quaddobl_complex_numbers_cv.ali
+W quaddobl_complex_poly_strings%s  quaddobl_complex_poly_strings.adb  quaddobl_complex_poly_strings.ali
+W quaddobl_homotopy%s	quaddobl_homotopy.adb	quaddobl_homotopy.ali
+W quaddobl_laurent_homotopy%s  quaddobl_laurent_homotopy.adb  quaddobl_laurent_homotopy.ali
+W quaddobl_polynomial_convertors%s  quaddobl_polynomial_convertors.adb  quaddobl_polynomial_convertors.ali
+W standard_coefficient_homotopy%s  standard_coefficient_homotopy.adb  standard_coefficient_homotopy.ali
+W standard_complex_laurentials%s  standard_complex_laurentials.ads  standard_complex_laurentials.ali
+W standard_complex_numbers_io%s  standard_complex_numbers_io.adb  standard_complex_numbers_io.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_homotopy%s	standard_homotopy.adb	standard_homotopy.ali
+W standard_laurent_homotopy%s  standard_laurent_homotopy.adb  standard_laurent_homotopy.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_to_multprec_convertors%s  standard_to_multprec_convertors.adb  standard_to_multprec_convertors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U drivers_for_homotopy_creation%s  drivers_for_homotopy_creation.ads  4f891ff8 EE NE OO PK
+W dobldobl_complex_poly_systems%s  dobldobl_complex_poly_systems.ads  dobldobl_complex_poly_systems.ali
+W multprec_complex_poly_systems%s  multprec_complex_poly_systems.ads  multprec_complex_poly_systems.ali
+W quaddobl_complex_poly_systems%s  quaddobl_complex_poly_systems.ads  quaddobl_complex_poly_systems.ali
+W standard_complex_laur_systems%s  standard_complex_laur_systems.ads  standard_complex_laur_systems.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W string_splitters%s	string_splitters.adb	string_splitters.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D deca_double_numbers.ads  20260513024558 96ba5284 deca_double_numbers%s
+D deca_double_ring.ads	20260513024558 a76e2e05 deca_double_ring%s
+D deca_double_ring-ffield.ads  20260513024558 feb5272d deca_double_ring.ffield%s
+D decadobl_complex_numbers.ads  20260513024558 ebde9c60 decadobl_complex_numbers%s
+D decadobl_complex_poly_systems.ads  20260513024558 22819e34 decadobl_complex_poly_systems%s
+D decadobl_complex_polynomials.ads  20260513024558 43c8f541 decadobl_complex_polynomials%s
+D decadobl_complex_ring.ads  20260513024558 1a00ba5c decadobl_complex_ring%s
+D decadobl_complex_solutions.ads  20260513024558 95adc3c2 decadobl_complex_solutions%s
+D decadobl_complex_vectors.ads  20260513024558 4d9bee00 decadobl_complex_vectors%s
+D dobldobl_complex_laur_strings.ads  20260513024558 9ebfae7d dobldobl_complex_laur_strings%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_numbers_cv.ads  20260513024558 fa753821 dobldobl_complex_numbers_cv%s
+D dobldobl_complex_poly_strings.ads  20260513024558 4843704c dobldobl_complex_poly_strings%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_term_lists.ads  20260513024558 3801d89f dobldobl_complex_term_lists%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_homotopy.ads	20260513024558 d7134ab0 dobldobl_homotopy%s
+D dobldobl_laurent_homotopy.ads  20260513024558 bc6dc536 dobldobl_laurent_homotopy%s
+D dobldobl_polynomial_convertors.ads  20260513024558 6459e817 dobldobl_polynomial_convertors%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_poly_systems.ads  20260513024558 b3d27733 double_double_poly_systems%s
+D double_double_polynomials.ads  20260513024558 95e3c047 double_double_polynomials%s
+D double_double_ring.ads  20260513024558 2b06ea65 double_double_ring%s
+D drivers_for_homotopy_creation.ads  20260513024558 5309780f drivers_for_homotopy_creation%s
+D drivers_for_homotopy_creation.adb  20260513024558 25c83cc6 drivers_for_homotopy_creation%b
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_terms.ads  20260513024558 d5cf5f8e generic_lists_of_terms%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D hexa_double_numbers.ads  20260513024558 2ab2fc6c hexa_double_numbers%s
+D hexa_double_ring.ads	20260513024558 a391cb52 hexa_double_ring%s
+D hexa_double_ring-ffield.ads  20260513024558 09eb549c hexa_double_ring.ffield%s
+D hexadobl_complex_numbers.ads  20260513024558 dc378e03 hexadobl_complex_numbers%s
+D hexadobl_complex_poly_systems.ads  20260513024558 7b1e606c hexadobl_complex_poly_systems%s
+D hexadobl_complex_polynomials.ads  20260513024558 6915d63a hexadobl_complex_polynomials%s
+D hexadobl_complex_ring.ads  20260513024558 27afa511 hexadobl_complex_ring%s
+D hexadobl_complex_solutions.ads  20260513024558 773acff2 hexadobl_complex_solutions%s
+D hexadobl_complex_vectors.ads  20260513024558 a781f1af hexadobl_complex_vectors%s
+D homogenization.ads	20260513024558 b7511163 homogenization%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_laur_systems.ads  20260513024558 a570232d multprec_complex_laur_systems%s
+D multprec_complex_laurentials.ads  20260513024558 dedfb940 multprec_complex_laurentials%s
+D multprec_complex_matrices.ads  20260513024558 ed92d39d multprec_complex_matrices%s
+D multprec_complex_number_tools.ads  20260513024558 dea669ab multprec_complex_number_tools%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_poly_strings.ads  20260513024558 c331bdd8 multprec_complex_poly_strings%s
+D multprec_complex_poly_systems.ads  20260513024558 ff1af8f0 multprec_complex_poly_systems%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_term_lists.ads  20260513024558 a1a96a7e multprec_complex_term_lists%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_poly_systems.ads  20260513024558 7a661675 multprec_floating_poly_systems%s
+D multprec_floating_polynomials.ads  20260513024558 d1935d33 multprec_floating_polynomials%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_homotopy.ads	20260513024558 fa0a788f multprec_homotopy%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D numbers_io.ads	20260513024558 7172a556 numbers_io%s
+D octo_double_numbers.ads  20260513024558 9005435d octo_double_numbers%s
+D octo_double_ring.ads	20260513024558 338f1b2e octo_double_ring%s
+D octo_double_ring-ffield.ads  20260513024558 4fc02caf octo_double_ring.ffield%s
+D octodobl_complex_numbers.ads  20260513024558 050d17ae octodobl_complex_numbers%s
+D octodobl_complex_poly_systems.ads  20260513024558 4c33eaea octodobl_complex_poly_systems%s
+D octodobl_complex_polynomials.ads  20260513024558 07e3d54b octodobl_complex_polynomials%s
+D octodobl_complex_ring.ads  20260513024558 165674da octodobl_complex_ring%s
+D octodobl_complex_solutions.ads  20260513024558 32e510b8 octodobl_complex_solutions%s
+D octodobl_complex_vectors.ads  20260513024558 dd7cfb0a octodobl_complex_vectors%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_poly_systems.ads  20260513024558 a94fcefd pentdobl_complex_poly_systems%s
+D pentdobl_complex_polynomials.ads  20260513024558 d8e89970 pentdobl_complex_polynomials%s
+D pentdobl_complex_ring.ads  20260513024558 45ee875d pentdobl_complex_ring%s
+D pentdobl_complex_solutions.ads  20260513024558 c539479f pentdobl_complex_solutions%s
+D pentdobl_complex_vectors.ads  20260513024558 25aaa105 pentdobl_complex_vectors%s
+D projective_transformations.ads  20260513024558 dfbd00d1 projective_transformations%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_poly_systems.ads  20260513024558 68e27e3a quad_double_poly_systems%s
+D quad_double_polynomials.ads  20260513024558 97b35b73 quad_double_polynomials%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_laur_strings.ads  20260513024558 c26b4fb8 quaddobl_complex_laur_strings%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_numbers_cv.ads  20260513024558 dc890311 quaddobl_complex_numbers_cv%s
+D quaddobl_complex_poly_strings.ads  20260513024558 a76f204b quaddobl_complex_poly_strings%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_term_lists.ads  20260513024558 8d48daec quaddobl_complex_term_lists%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_homotopy.ads	20260513024558 14be88e2 quaddobl_homotopy%s
+D quaddobl_laurent_homotopy.ads  20260513024558 675c7969 quaddobl_laurent_homotopy%s
+D quaddobl_polynomial_convertors.ads  20260513024558 d109ceaf quaddobl_polynomial_convertors%s
+D standard_coefficient_homotopy.ads  20260513024558 978b2301 standard_coefficient_homotopy%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_homotopy.ads	20260513024558 5c83417f standard_homotopy%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_laurent_homotopy.ads  20260513024558 9a1f680c standard_laurent_homotopy%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_to_multprec_convertors.ads  20260513024558 d30da3d8 standard_to_multprec_convertors%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D tripdobl_complex_numbers.ads  20260513024558 c635fac5 tripdobl_complex_numbers%s
+D tripdobl_complex_poly_systems.ads  20260513024558 61e39000 tripdobl_complex_poly_systems%s
+D tripdobl_complex_polynomials.ads  20260513024558 a47e8bf7 tripdobl_complex_polynomials%s
+D tripdobl_complex_ring.ads  20260513024558 dde813cb tripdobl_complex_ring%s
+D tripdobl_complex_solutions.ads  20260513024558 657ce24c tripdobl_complex_solutions%s
+D tripdobl_complex_vectors.ads  20260513024558 0e6ebbef tripdobl_complex_vectors%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D triple_double_ring.ads  20260513024558 6a90058c triple_double_ring%s
+D triple_double_ring-ffield.ads  20260513024558 d0c028cb triple_double_ring.ffield%s
+G a e
+G c Z s b [default_homotopy_settings drivers_for_homotopy_creation 18 13 none]
+G c Z s b [default_homotopy_settings drivers_for_homotopy_creation 20 13 none]
+G c Z s b [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none]
+G c Z s b [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none]
+G c Z s b [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none]
+G c Z s b [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none]
+G c Z s b [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none]
+G c Z s b [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none]
+G c Z s b [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none]
+G c Z s b [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none]
+G c Z s b [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none]
+G c Z b b [info_on_precision drivers_for_homotopy_creation 39 13 none]
+G c Z b b [info_on_power drivers_for_homotopy_creation 54 13 none]
+G c Z b b [info_on_constant drivers_for_homotopy_creation 70 13 none]
+G c Z b b [info_on_target drivers_for_homotopy_creation 83 13 none]
+G c Z b b [info_on_exit drivers_for_homotopy_creation 100 13 none]
+G c Z b b [info_on_projective_transformation drivers_for_homotopy_creation 109 13 none]
+G c Z b b [read_complex drivers_for_homotopy_creation 124 13 none]
+G c Z b b [show_banner drivers_for_homotopy_creation 154 13 none]
+G c Z b b [show_menu_and_prompt_choice drivers_for_homotopy_creation 167 12 none]
+G c Z b b [show_menu_and_prompt_choice drivers_for_homotopy_creation 200 12 none]
+G c Z b b [show_menu_and_prompt_choice drivers_for_homotopy_creation 230 12 none]
+G c Z b b [write_homotopy_values drivers_for_homotopy_creation 257 13 none]
+G c Z b b [write_homotopy_values drivers_for_homotopy_creation 285 13 none]
+G r c none [default_homotopy_settings drivers_for_homotopy_creation 18 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [default_homotopy_settings drivers_for_homotopy_creation 18 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [default_homotopy_settings drivers_for_homotopy_creation 20 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [default_homotopy_settings drivers_for_homotopy_creation 20 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [read_positive numbers_io 13 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 34 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [read_positive numbers_io 13 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 37 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [read_positive numbers_io 13 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [menu_for_homotopy_settings drivers_for_homotopy_creation 40 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [read_positive numbers_io 13 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 49 13 none] [create dobldobl_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [read_positive numbers_io 13 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [standard_to_quaddobl_complex quaddobl_complex_numbers_cv 13 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 53 13 none] [create quaddobl_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [read_positive numbers_io 13 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 57 13 none] [create multprec_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [read_positive numbers_io 13 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 61 13 none] [create standard_laurent_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [read_positive numbers_io 13 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [projective_transformation projective_transformations 85 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [projective_transformation projective_transformations 171 13 none]
+G r s poly_sys [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [add_random_hyperplanes homogenization 83 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [add_standard_hyperplanes homogenization 123 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create standard_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create standard_coefficient_homotopy 166 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [parse dobldobl_complex_poly_strings 42 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [standard_poly_sys_to_dobldobl_complex dobldobl_polynomial_convertors 44 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create dobldobl_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [parse quaddobl_complex_poly_strings 41 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [standard_poly_sys_to_quaddobl_complex quaddobl_polynomial_convertors 44 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [standard_to_quaddobl_complex quaddobl_complex_numbers_cv 13 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create quaddobl_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [decimal_to_size multprec_floating_numbers 60 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [parse multprec_complex_poly_strings 46 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [convert standard_to_multprec_convertors 28 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [set_size standard_to_multprec_convertors 44 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none] [create multprec_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [read_positive numbers_io 13 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [create standard_laurent_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [number_of_unknowns standard_complex_laurentials 50 12 4_1]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [parse dobldobl_complex_laur_strings 32 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [standard_laur_sys_to_dobldobl_complex dobldobl_polynomial_convertors 61 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [create dobldobl_laurent_homotopy 16 13 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [parse quaddobl_complex_laur_strings 32 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [standard_laur_sys_to_quaddobl_complex quaddobl_polynomial_convertors 61 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [standard_to_quaddobl_complex quaddobl_complex_numbers_cv 13 12 none]
+G r c none [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none] [create quaddobl_laurent_homotopy 16 13 none]
+G r c none [read_complex drivers_for_homotopy_creation 124 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [read_complex drivers_for_homotopy_creation 124 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 167 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 167 12 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 167 12 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 200 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 200 12 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 200 12 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 230 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 230 12 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [show_menu_and_prompt_choice drivers_for_homotopy_creation 230 12 none] [ask_alternative communications_with_user 35 13 none]
+G r c none [write_homotopy_values drivers_for_homotopy_creation 257 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_homotopy_values drivers_for_homotopy_creation 257 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [write_homotopy_values drivers_for_homotopy_creation 285 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_homotopy_values drivers_for_homotopy_creation 285 13 none] [put standard_complex_numbers_io 22 13 none]
+X 12 a-textio.ads
+67P9*File_Type 44|35r29 38r29 41r29 50r28 54r28 58r28 62r28 71r28 77r28 45|258r29
+. 286r29 310r29 359r29 403r29 447r28 471r28 495r28 519r28 571r28 658r28
+277U14*New_Line 45|265s5 275s5 276s40 277s40 278s40 293s5 303s5 304s40 305s40
+. 306s40
+284U14*New_Line 45|160s5 178s5 188s5 189s53 190s51 191s51 193s59 210s5 220s5
+. 221s53 222s51 223s51 241s5 248s53 249s51 250s51 342s11 387s11 429s11
+508U14*Put 45|267s5 269s7 271s7 273s7 276s5 277s5 278s5 295s5 297s7 299s7
+. 301s7 304s5 305s5 306s5
+515U14*Put 45|132s5 133s5 180s5 182s7 184s7 186s7 189s5 190s5 191s5 192s5
+. 193s23 193s40 194s5 212s5 214s7 216s7 218s7 221s5 222s5 223s5 224s5 243s5
+. 248s5 249s5 250s5 251s5 323s11 326s11 339s11 371s11 374s11 416s11 456s7
+. 480s7 504s7 531s7 584s7 670s7
+555U14*Put_Line 45|266s5 280s11 281s11 294s5
+565U14*Put_Line 45|50s7 66s7 79s7 96s7 106s5 120s7 161s5 163s5 179s5 211s5
+. 242s5 245s11 246s11 329s11 333s13 336s11 377s11 381s13 384s11 419s11 423s13
+. 426s11 457s7 481s7 505s7 532s7 585s7 671s7
+X 14 communications_with_user.ads
+4K9*Communications_with_User 127e29 45|1w6 1r46
+23U13*Ask_Yes_or_No 45|340s11
+35U13*Ask_Alternative 45|196s5 226s5 253s5
+X 24 dobldobl_complex_laur_strings.ads
+6K9*DoblDobl_Complex_Laur_Strings 61e34 45|18w6 685r17
+32V12*Parse{47|22A8[25|5]} 45|685s47
+X 25 dobldobl_complex_laur_systems.ads
+5K9*DoblDobl_Complex_Laur_Systems[47|12] 45|17w6 684r25 686r25
+X 28 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 45|4w6 463r23 620r25 689r25
+11R8*Complex_Number 85e15 45|463r48 620r50 689r50
+X 29 dobldobl_complex_numbers_cv.ads
+5K9*DoblDobl_Complex_Numbers_cv 33e32 45|5w6 5r46
+11V12*Standard_to_DoblDobl_Complex{28|11R8} 45|464s15 621s17 690s17
+X 30 dobldobl_complex_poly_strings.ads
+8K9*DoblDobl_Complex_Poly_Strings 83e34 45|16w6 616r17
+42V12*Parse{52|22A8[31|5]} 45|616s47
+X 31 dobldobl_complex_poly_systems.ads
+5K9*DoblDobl_Complex_Poly_Systems[52|12] 44|8w6 51r27 45|448r27 615r25 617r25
+X 37 dobldobl_homotopy.ads
+8K9*DoblDobl_Homotopy 141e22 45|29w6 466r7 623r9
+16U13*Create 45|466s25 623s27
+X 38 dobldobl_laurent_homotopy.ads
+8K9*DoblDobl_Laurent_Homotopy 103e30 45|30w6 692r9
+16U13*Create 45|692s35
+X 39 dobldobl_polynomial_convertors.ads
+16K9*DoblDobl_Polynomial_Convertors 132e35 45|19w6 19r46
+44V12*Standard_Poly_Sys_to_DoblDobl_Complex{52|22A8[31|5]} 45|618s17
+61V12*Standard_Laur_Sys_to_DoblDobl_Complex{47|22A8[25|5]} 45|687s17
+X 44 drivers_for_homotopy_creation.ads
+13K9*Drivers_for_Homotopy_Creation 106l5 106e34 45|37b14 712l5 712t34
+18U13*Default_Homotopy_Settings 19<19 19<21 19<40 19<42 45|137b13 144l7 144t32
+. 150s5 459s5 483s5 507s5
+19i19 d{150|7I8} 45|138b19 140m5
+19i21 k{150|7I8} 45|138b21 141m5
+19r40 a{135|11R8} 45|138b40 142m5
+19r42 t{135|11R8} 45|138b42 143m5
+20U13*Default_Homotopy_Settings 21<19 21<21 21<40 21<42 22<19 45|146b13 152l7
+. 152t32 534s5 587s5 673s5
+21i19 d{150|7I8} 45|147b19 150m31
+21i21 k{150|7I8} 45|147b21 150m33
+21r40 a{135|11R8} 45|147b40 150m35
+21r42 t{135|11R8} 45|147b42 150m37
+22b19 proj{boolean} 45|148b19 151m5
+34U13*Menu_for_Homotopy_Settings 35>19 35=40 35=42 36=19 36=21 36=48 45|309b13
+. 356l7 356t33 538s5 591s5 677s5
+35p19 file{12|67P9} 45|310b19 355r27
+35i40 d{150|7I8} 45|310b40 319r45 324m33 324r33 355r32
+35i42 k{150|7I8} 45|310b42 319r47 327m33 327r33 355r34
+36r19 a{135|11R8} 45|311b19 319r49 331m26 332r30 355r36
+36r21 t{135|11R8} 45|311b21 319r51 337m24 355r38
+36b48 proj{boolean} 45|311b48 319r53 340m31 355r40
+37U13*Menu_for_Homotopy_Settings 38>19 38=40 38=42 39=19 39=21 45|358b13
+. 400l7 400t33 508s5
+38p19 file{12|67P9} 45|359b19 399r27
+38i40 d{150|7I8} 45|359b40 367r45 372m33 372r33 399r32
+38i42 k{150|7I8} 45|359b42 367r47 375m33 375r33 399r34
+39r19 a{135|11R8} 45|360b19 367r49 379m26 380r30 399r36
+39r21 t{135|11R8} 45|360b21 367r51 385m24 399r38
+40U13*Menu_for_Homotopy_Settings 41>19 41>40 42=19 42=41 42=43 45|402b13
+. 444l7 444t33 460s5 484s5
+41p19 file{12|67P9} 45|403b19 441r33 442r33
+41b40 qd{boolean} 45|404b19 412r45 440r8
+42i19 k{150|7I8} 45|404b37 412r48 417m33 417r33 441r41 442r41
+42r41 a{135|11R8} 45|405b19 412r50 421m26 422r30 441r43 442r43
+42r43 t{135|11R8} 45|405b21 412r52 427m24 441r45 442r45
+49U13*Driver_for_Homotopy_Construction 50>18 51>18 51>20 52<18 52>47 45|446b13
+. 468l7 468t39
+50p18 file{12|67P9} 45|447b18 460r32
+51a18 p{52|22A8[31|5]} 45|448b18 466r32
+51a20 q{52|22A8[31|5]} 45|448b20 466r34
+52r18 target{135|11R8} 45|449b18 461m5
+52i47 verbose{145|6I8} 45|449b47 455r8
+53U13*Driver_for_Homotopy_Construction 54>18 55>18 55>20 56<18 56>47 45|470b13
+. 492l7 492t39
+54p18 file{12|67P9} 45|471b18 484r32
+55a18 p{52|22A8[122|5]} 45|472b18 490r32
+55a20 q{52|22A8[122|5]} 45|472b20 490r34
+56r18 target{135|11R8} 45|473b18 485m5
+56i47 verbose{145|6I8} 45|473b47 479r8
+57U13*Driver_for_Homotopy_Construction 58>18 58>39 59>18 59>20 60<18 60>47
+. 45|494b13 516l7 516t39
+58p18 file{12|67P9} 45|495b18 508r32
+58i39 dp{150|7I8} 45|495b39 507r46
+59a18 p{52|22A8[75|5]} 45|496b18 514r32
+59a20 q{52|22A8[75|5]} 45|496b20 514r34
+60r18 target{135|11R8} 45|497b18 509m5
+60i47 verbose{145|6I8} 45|497b47 503r8
+61U13*Driver_for_Homotopy_Construction 62>18 62=39 62=41 63<18 63=47 64>18
+. 45|518b13 568l7 568t39
+62p18 file{12|67P9} 45|519b18 538r32
+62a39 p{47|22A8[132|5]} 45|519b39 554r42
+62a41 q{47|22A8[132|5]} 45|519b41 554r44
+63r18 target{135|11R8} 45|521b18 539m5
+63i47 deci{150|7I8} 45|521b47 535r8 536r16 567m5
+64i18 verbose{145|6I8} 45|522b18 530r8
+70U13*Driver_for_Homotopy_Construction 71>18 72>18 73=18 73=20 74=18 74<48
+. 75=18 75>43 45|570b13 655l7 655t39
+71p18 file{12|67P9} 45|571b18 591r32
+72p18 ls{156|13P8} 45|572b18 616r58 629r58 644r61
+73a18 p{52|22A8[137|5]} 45|573b18 595m35 599r30 599r39 601r40 608r34 610r46
+. 614r57 614r59 615r64 627r57 627r59 628r64 642r57 642r59 643r62 645r53
+73a20 q{52|22A8[137|5]} 45|573b20 596m35 602r44 608r36 610r48 617r64 618r55
+. 630r64 631r55 646r23
+74p18 qsols{140|28P8} 45|574b18 597m35
+74r48 target{135|11R8} 45|574b48 592m5
+75i18 deci{150|7I8} 45|575b18 588r8 589r16 654m5
+75i43 verbose{145|6I8} 45|575b43 583r8
+76U13*Driver_for_Homotopy_Construction 77>18 78>18 79=18 79=20 80=18 80<48
+. 81=18 81>43 45|657b13 710l7 710t39
+77p18 file{12|67P9} 45|658b18 677r32
+78p18 ls{156|13P8} 45|659b18 685r58 698r58
+79a18 p{47|22A8[132|5]} 45|660b18 680r40 683r57 683r59 684r64 696r57 696r59
+. 697r64
+79a20 q{47|22A8[132|5]} 45|660b20 680r42 686r64 687r55 699r64 700r55
+80p18 qsols{140|28P8} 45|661b18
+80r48 target{135|11R8} 45|661b48 678m5
+81i18 deci{150|7I8} 45|662b18 674r8 675r16 709m5
+81i43 verbose{145|6I8} 45|662b43 669r8
+X 45 drivers_for_homotopy_creation.adb
+39U13 Info_on_Precision 39b13 52l7 52t24 344s25 389s25
+41a5 i(string) 44m5 45m5 46m5 47m5 48m5 49r14 50r16
+49i9 j{integer} 50r18
+54U13 Info_on_Power 54b13 68l7 68t20 345s25 390s25 431s25
+56a5 i(string) 59m5 60m5 61m5 62m5 63m5 64m5 65r14 66r16
+65i9 j{integer} 66r18
+70U13 Info_on_Constant 70b13 81l7 81t23 346s25 391s25 432s25
+72a5 i(string) 75m5 76m5 77m5 78r14 79r16
+78i9 j{integer} 79r18
+83U13 Info_on_Target 83b13 98l7 98t21 347s25 392s25 433s25
+85a5 i(string) 88m5 89m5 90m5 91m5 92m5 93m5 94m5 95r14 96r16
+95i9 j{integer} 96r18
+100U13 Info_on_Exit 100b13 107l7 107t19 349s25 393s25 434s25
+102a5 i{string} 106r14
+109U13 Info_on_Projective_Transformation 109b13 122l7 122t40 348s25
+111a5 i(string) 114m5 115m5 116m5 117m5 118m5 119r14 120r16
+119i9 j{integer} 120r18
+124U13 Read_Complex 124b13 124=28 135l7 135t19 331s13 337s11 379s13 385s11
+. 421s13 427s11
+124r28 x{135|11R8} 134m5
+129f5 re{143|13F8} 132m74 134r17
+129f8 im{143|13F8} 133m74 134r20
+154U13 Show_Banner 154b13 165l7 165t18 317s5 365s5 410s5
+167V12 Show_Menu_and_Prompt_Choice{string} 167b12 168>17 168>19 168>34 168>36
+. 169>17 198l7 198t34 319s17
+168i17 d{150|7I8} 180r47 181r8 183r11 185r11
+168i19 k{150|7I8} 189r47
+168r34 a{135|11R8} 190r47
+168r36 t{135|11R8} 191r47
+169b17 proj{boolean} 193r13
+175a5 res{string} 196m21 196r21 197r12
+200V12 Show_Menu_and_Prompt_Choice{string} 200b12 201>17 201>19 201>34 201>36
+. 228l7 228t34 367s17
+201i17 d{150|7I8} 212r47 213r8 215r11 217r11
+201i19 k{150|7I8} 221r47
+201r34 a{135|11R8} 222r47
+201r36 t{135|11R8} 223r47
+207a5 res{string} 226m21 226r21 227r12
+230V12 Show_Menu_and_Prompt_Choice{string} 230b12 231>17 231>31 232>17 232>19
+. 255l7 255t34 412s17
+231b17 qd{boolean} 244r8
+231i31 k{150|7I8} 248r47
+232r17 a{135|11R8} 249r47
+232r19 t{135|11R8} 250r47
+238a5 res{string} 253m21 253r21 254r12
+257U13 Write_Homotopy_Values 257b13 258>19 258>40 258>42 259>19 259>21 259>44
+. 283l7 283t28 355s5
+258p19 file{12|67P9} 265r14 266r14 267r9 267r29 269r11 271r11 273r11 275r14
+. 276r9 276r29 276r49 277r9 277r29 277r49 278r9 278r29 278r49 280r20 281r20
+258i40 d{150|7I8} 267r34 268r8 270r11 272r11
+258i42 k{150|7I8} 276r34
+259r19 a{135|11R8} 277r34
+259r21 t{135|11R8} 278r34
+259b44 proj{boolean} 279r8
+285U13 Write_Homotopy_Values 285b13 286>19 286>40 286>42 287>19 287>21 307l7
+. 307t28 399s5 441s11 442s11
+286p19 file{12|67P9} 293r14 294r14 295r9 295r29 297r11 299r11 301r11 303r14
+. 304r9 304r29 304r49 305r9 305r29 305r49 306r9 306r29 306r49
+286i40 d{150|7I8} 295r34 296r8 298r11 300r11
+286i42 k{150|7I8} 304r34
+287r19 a{135|11R8} 305r34
+287r21 t{135|11R8} 306r34
+313e5 ans{character} 340m25 340r40
+314a5 choice{string} 319m7 320r17 321r12 343r16
+362a5 choice{string} 367m7 368r17 369r12 388r16
+407a5 choice{string} 412m7 413r17 414r12 430r16
+451i5 k{150|7I8} 459m33 460m43 460r43 466r36
+451i7 d{150|7I8} 459m31
+452r5 a{135|11R8} 459m35 460m45 460r45 464r44
+452r7 t{135|11R8} 459m37 460m47 460r47 461r15
+463r7 dd_a{28|11R8} 466r38
+475i5 k{150|7I8} 483m33 484m42 484r42 490r36
+475i7 d{150|7I8} 483m31
+476r5 a{135|11R8} 483m35 484m44 484r44 488r44
+476r7 t{135|11R8} 483m37 484m46 484r46 485r15
+487r7 qd_a{46|19R8[119|5]} 490r38
+499i5 k{150|7I8} 507m33 508m39 508r39 514r36
+499i7 d{150|7I8} 507m31 507m41 508m37 508r37
+500r5 a{135|11R8} 507m35 508m41 508r41 512r52
+500r7 t{135|11R8} 507m37 508m43 508r43 509r15
+511r7 mp_a{46|19R8[73|5]} 514r38
+524i5 k{150|7I8} 534m33 538m39 538r39 554r46
+524i7 d{150|7I8} 534m31 536m11 538m37 538r37 540r8 567r13
+525r5 a{135|11R8} 534m35 538m41 538r41 554r48
+525r7 t{135|11R8} 534m37 538m43 538r43 539r15
+526b5 prt{boolean} 534m39 538m45 538r45
+578r5 a{135|11R8} 587m35 591m41 591r41 603r46 604r46 608r40 610r52 621r46
+. 634r46 648r73
+578r7 t{135|11R8} 587m37 591m43 591r43 592r15
+579b5 prt{boolean} 587m39 591m45 591r45 594r10
+580i5 k{150|7I8} 587m33 591m39 591r39 603r44 604r44 608r38 610r50 623r44
+. 637r44 651r40
+580i7 d{150|7I8} 587m31 589m11 591m37 591r37 593r8 612r11 625r11 640r57 654r13
+580i9 size{150|7I8} 640m7 644r56 650r21
+599a11 pp{52|22A8[137|5]} 601m11 603r36 604r41 605m17 605r17
+599a14 sysp{52|22A8[137|5]} 602m11 603r39 604r36 605m28 605r28
+614i9 nv_p{150|7I8} 616r53
+615a9 dd_p{52|22A8[31|5]} 623r34
+617a9 dd_q{52|22A8[31|5]} 623r39
+620r9 dd_a{28|11R8} 623r46
+627i9 nv_p{150|7I8} 629r53
+628a9 qd_p{52|22A8[122|5]} 637r34
+630a9 qd_q{52|22A8[122|5]} 637r39
+633r9 qd_a{46|19R8[119|5]} 637r46
+642i9 nv_p{150|7I8} 644r51
+643a9 mp{52|22A8[75|5]} 651r34
+645a9 mq{52|22A8[75|5]} 650m18 650r18 651r37
+648r9 aa{46|19R8[73|5]} 651r42
+664r5 a{135|11R8} 673m35 677m41 677r41 680r46 690r46 703r46
+664r7 t{135|11R8} 673m37 677m43 677r43 678r15
+665b5 prt{boolean} 673m39 677m45 677r45
+666i5 k{150|7I8} 673m33 677m39 677r39 680r44 692r52 706r52
+666i7 d{150|7I8} 673m31 675m11 677m37 677r37 679r8 681r11 694r11 709r13
+683i9 nv_p{150|7I8} 685r53
+684a9 dd_p{47|22A8[25|5]} 692r42
+686a9 dd_q{47|22A8[25|5]} 692r47
+689r9 dd_a{28|11R8} 692r54
+696i9 nv_p{150|7I8} 698r53
+697a9 qd_p{47|22A8[116|5]} 706r42
+699a9 qd_q{47|22A8[116|5]} 706r47
+702r9 qd_a{46|19R8[119|5]} 706r54
+X 46 generic_complex_numbers.ads
+19R8*Complex_Number 45|487r48[119|5] 511r48[73|5] 633r50[119|5] 648r48[73|5]
+. 702r50[119|5]
+X 47 generic_laur_poly_systems.ads
+22A8*Laur_Sys(48|30P8[133|4])<145|6I8> 44|62r52[132|5] 79r61[132|5] 45|519r52[132|5]
+. 660r61[132|5] 684r55[25|5] 686r55[25|5] 697r55[116|5] 699r55[116|5]
+X 48 generic_laurent_polynomials.ads
+30P8*Poly
+50V12*Number_of_Unknowns{150|7I8} 45|683s38[133|4] 696s38[133|4]
+X 49 generic_lists.ads
+12P8*List
+X 52 generic_polynomial_systems.ads
+22A8*Poly_Sys(53|28P8[32|4])<145|6I8> 44|51r57[31|5] 55r57[122|5] 59r57[75|5]
+. 73r61[137|5] 45|448r57[31|5] 472r57[122|5] 496r57[75|5] 573r61[137|5] 599r21[137|5]
+. 615r55[31|5] 617r55[31|5] 628r55[122|5] 630r55[122|5] 643r53[75|5] 645r44[75|5]
+60U13*Clear 45|605s11[137|5] 605s22[137|5]
+X 53 generic_polynomials.ads
+28P8*Poly
+48V12*Number_of_Unknowns{150|7I8} 45|614s38[138|4] 627s38[138|4] 642s38[138|4]
+X 65 homogenization.ads
+19K9*Homogenization 45|34w6 34r46 65|154e19
+83V12*Add_Random_Hyperplanes{52|22A8[137|5]} 45|601s17
+123V12*Add_Standard_Hyperplanes{52|22A8[137|5]} 45|602s19
+X 72 multprec_complex_number_tools.ads
+6K9*Multprec_Complex_Number_Tools 45|10w6 10r46 512r15 72|43e34
+31V12*Create{46|19R8[73|5]} 45|512s45 648s66
+X 73 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[46|11] 45|9w6 511r23 648r23
+X 74 multprec_complex_poly_strings.ads
+8K9*Multprec_Complex_Poly_Strings 45|24w6 644r15 74|88e34
+46V12*Parse{52|22A8[75|5]} 45|644s45
+X 75 multprec_complex_poly_systems.ads
+5K9*Multprec_Complex_Poly_Systems[52|12] 44|10w6 59r27 45|496r27 643r23 645r14
+X 81 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 45|8w6 640r15 81|221e30
+60V12*Decimal_to_Size{150|7I8} 45|640s41
+X 86 multprec_homotopy.ads
+8K9*Multprec_Homotopy 45|35w6 514r7 651r9 86|139e22
+16U13*Create 45|514s25 651s27
+X 90 numbers_io.ads
+7K9*Numbers_io 45|13w6 13r46 90|40e15
+13U13*Read_Positive 45|324s11 327s11 372s11 375s11 417s11
+17U13*Read_Double_Float 45|132s56 133s56
+X 109 projective_transformations.ads
+26K9*Projective_Transformations 45|33w6 33r46 109|211e31
+85U13*Projective_Transformation 45|595s9 596s9
+171U13*Projective_Transformation 45|597s9
+X 115 quaddobl_complex_laur_strings.ads
+6K9*QuadDobl_Complex_Laur_Strings 45|22w6 698r17 115|61e34
+32V12*Parse{47|22A8[116|5]} 45|698s47
+X 116 quaddobl_complex_laur_systems.ads
+5K9*QuadDobl_Complex_Laur_Systems[47|12] 45|21w6 697r25 699r25
+X 119 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[46|11] 45|6w6 487r23 633r25 702r25
+X 120 quaddobl_complex_numbers_cv.ads
+7K9*QuadDobl_Complex_Numbers_cv 45|7w6 7r46 120|41e32
+13V12*Standard_to_QuadDobl_Complex{46|19R8[119|5]} 45|488s15 634s17 703s17
+X 121 quaddobl_complex_poly_strings.ads
+8K9*QuadDobl_Complex_Poly_Strings 45|20w6 629r17 121|82e34
+41V12*Parse{52|22A8[122|5]} 45|629s47
+X 122 quaddobl_complex_poly_systems.ads
+5K9*QuadDobl_Complex_Poly_Systems[52|12] 44|9w6 55r27 45|472r27 628r25 630r25
+X 128 quaddobl_homotopy.ads
+8K9*QuadDobl_Homotopy 45|31w6 490r7 637r9 128|141e22
+16U13*Create 45|490s25 637s27
+X 129 quaddobl_laurent_homotopy.ads
+8K9*QuadDobl_Laurent_Homotopy 45|32w6 706r9 129|103e30
+16U13*Create 45|706s35
+X 130 quaddobl_polynomial_convertors.ads
+16K9*QuadDobl_Polynomial_Convertors 45|23w6 23r46 130|132e35
+44V12*Standard_Poly_Sys_to_QuadDobl_Complex{52|22A8[122|5]} 45|631s17
+61V12*Standard_Laur_Sys_to_QuadDobl_Complex{47|22A8[116|5]} 45|700s17
+X 131 standard_coefficient_homotopy.ads
+13K9*Standard_Coefficient_Homotopy 45|27w6 610r9 131|235e34
+166U13*Create 45|610s39
+X 132 standard_complex_laur_systems.ads
+5K9*Standard_Complex_Laur_Systems[47|12] 44|11w6 11r46 79r31 45|660r31
+X 133 standard_complex_laurentials.ads
+4K9*Standard_Complex_Laurentials[48|12] 45|15w6 15r46
+X 135 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 44|5w6 5r46 135|92e29
+11R8*Complex_Number 44|19r50 21r50 36r32 39r32 42r54 52r31 56r31 60r31 63r31
+. 74r61 80r61 45|124r39 138r50 147r50 168r40 201r40 232r23 259r28 287r28
+. 311r32 360r32 405r32 449r31 452r11 473r31 476r11 497r31 500r11 521r31 525r11
+. 574r61 578r11 661r61 664r11 135|90e15
+18V12*Create{11R8} 45|143s10
+19V12*Create{11R8} 45|134s10
+27V12*AbsVal{143|13F8} 45|332s23 380s23 422s23
+X 136 standard_complex_numbers_io.ads
+5K9*Standard_Complex_Numbers_io 45|11w6 11r46 136|49e32
+21U13*put 45|190s43 191s43 222s43 223s43 249s43 250s43
+22U13*put 45|277s25 278s25 305s25 306s25
+X 137 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[52|12] 44|7w6 73r31 45|573r31 577r9
+X 138 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[53|11] 45|14w6 14r46
+X 140 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 44|6w6 6r46 140|206e31
+28P8*Solution_List<49|12P8[27]> 44|74r33 80r33 45|574r33 661r33
+X 143 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 45|3w6 3r46 143|58e30
+13F8*double_float<long_float> 45|129r13
+X 144 standard_homotopy.ads
+8K9*Standard_Homotopy 45|26w6 603r11 604r11 608r9 144|141e22
+16U13*Create 45|603s29 604s29 608s27
+X 145 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 44|4w6 4r46 145|45e29
+6I8*integer32<long_integer> 44|52r60 56r60 60r60 64r31 75r56 81r56 45|449r60
+. 473r60 497r60 522r31 575r56 662r56
+X 149 standard_laurent_homotopy.ads
+8K9*Standard_Laurent_Homotopy 45|28w6 554r9 680r7 149|103e30
+16U13*Create 45|554s35 680s33
+X 150 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 44|3w6 3r46 150|30e29
+7I8*natural32<long_integer> 44|19r29 21r29 35r53 38r53 42r30 58r47 63r61
+. 75r32 81r32 45|138r29 147r29 168r23 201r23 231r35 258r49 286r49 310r53
+. 359r53 404r48 451r11 475r11 495r47 499r11 521r61 524r11 575r32 580r16 614r25
+. 627r25 642r25 662r32 666r11 683r25 696r25
+X 151 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 45|2w6 2r46 151|35e32
+25U13*put 45|180s43 189s43 212s43 221s43 248s43
+26U13*put 45|267s25 276s25 295s25 304s25
+X 154 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 45|12w6 12r46 154|112e28
+90V12*Random1{135|11R8} 45|142s10
+X 155 standard_to_multprec_convertors.ads
+13K9*Standard_to_Multprec_Convertors 45|25w6 25r46 155|52e36
+28V12*Convert{52|22A8[75|5]} 45|646s15
+44U13*Set_Size 45|650s9
+X 156 string_splitters.ads
+3K9*String_Splitters 44|2w6 72r26 78r26 45|572r26 659r26 156|82e21
+11P8*Link_to_String(string)
+12A8*Array_of_Strings(11P8)<integer>
+13P8*Link_to_Array_of_Strings(12A8) 44|72r43 78r43 45|572r43 659r43
+X 178 text_io.ads
+27K9*Text_IO=27:29 44|1w6 1r46
+

@@ -1,0 +1,209 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U random_laurent_series%b  random_laurent_series.adb  ab6f0aa3 NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_random_matrices%s  standard_random_matrices.adb  standard_random_matrices.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_random_vectors%s  standard_random_vectors.adb  standard_random_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U random_laurent_series%s  random_laurent_series.ads  c9d1d212 EE NE OO PK
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_complex_vecvecvecs%s  standard_complex_vecvecvecs.adb  standard_complex_vecvecvecs.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D boolean_matrices.ads	20260513024558 6bd2b435 boolean_matrices%s
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_ring.ads	20260513024558 5e587f54 boolean_ring%s
+D boolean_vectors.ads	20260513024558 182f66ac boolean_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D random_laurent_series.ads  20260513024558 f8f94e06 random_laurent_series%s
+D random_laurent_series.adb  20260513024558 2fdbd513 random_laurent_series%b
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_complex_vecvecvecs.ads  20260513024558 aad377a8 standard_complex_vecvecvecs%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_matrices.ads  20260513024558 70779eef standard_random_matrices%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_random_vectors.ads  20260513024558 fc3e3208 standard_random_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [random_series_coefficients random_laurent_series 22 13 none]
+G c Z s b [random_vector random_laurent_series 31 13 none]
+G c Z s b [random_vecvecvec random_laurent_series 51 13 none]
+G c Z s b [random_lower_vecvecvec random_laurent_series 58 13 none]
+G c Z s b [random_upper_vecvecvec random_laurent_series 67 13 none]
+G c Z s b [random_matrix random_laurent_series 75 13 none]
+G c Z s b [random_lower_matrix random_laurent_series 96 13 none]
+G c Z s b [random_upper_matrix random_laurent_series 118 13 none]
+G r s vecvec [random_series_coefficients random_laurent_series 22 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [random_series_coefficients random_laurent_series 22 13 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_vector random_laurent_series 31 13 none] [random_vector standard_random_vectors 15 12 none]
+G r s vecvec [random_vector random_laurent_series 31 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [random_vector random_laurent_series 31 13 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_vecvecvec random_laurent_series 51 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_lower_vecvecvec random_laurent_series 58 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_lower_vecvecvec random_laurent_series 58 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [random_upper_vecvecvec random_laurent_series 67 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_matrix random_laurent_series 75 13 none] [random_matrix standard_random_matrices 42 12 none]
+G r c none [random_matrix random_laurent_series 75 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_lower_matrix random_laurent_series 96 13 none] [random_matrix standard_random_matrices 42 12 none]
+G r c none [random_lower_matrix random_laurent_series 96 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_lower_matrix random_laurent_series 96 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [random_upper_matrix random_laurent_series 118 13 none] [random_matrix standard_random_matrices 42 12 none]
+G r c none [random_upper_matrix random_laurent_series 118 13 none] [random1 standard_random_numbers 90 12 none]
+X 6 generic_matrices.ads
+16A8*Matrix(25|6I8)<25|6I8><25|6I8> 9|77r51[24|5] 98r51[24|5] 120r51[24|5]
+. 10|100r51[24|5] 109r51[24|5] 123r51[24|5]
+X 7 generic_vectors.ads
+16A8*Vector(25|6I8)<25|6I8> 9|33r50[27|4] 10|18r49[14|4] 21r48[14|4] 29r50[27|4]
+17P8*Link_to_Vector(16A8[14|4]) 10|45r53[14|4] 62r49[14|4] 66r53[14|4] 87r53[14|4]
+X 8 generic_vecvecs.ads
+14A8*VecVec(7|17P8[14|4])<25|6I8> 10|13r36[15|5] 24r41[15|5]
+15P8*Link_to_VecVec(14A8[15|5]) 9|24r52[15|5] 34r50[15|5] 10|11r52[15|5]
+. 30r50[15|5] 41r48[15|5] 61r48[15|5] 83r48[15|5]
+X 9 random_laurent_series.ads
+8K9*Random_Laurent_Series 140l5 140e26 10|7b14 135l5 135t26
+22U13*Random_Series_Coefficients 23>17 23>21 24<17 10|9b13 25l7 25t33 33s5
+23i17 dim{25|6I8} 10|10b17 13r46 16r17
+23i21 deg{25|6I8} 10|10b21 18r59 19r56
+24p17 cff{8|15P8[15|5]} 10|11b17 24m5
+31U13*Random_Vector 32>17 32>21 32>25 32>29 33<17 34<17 10|27b13 34l7 34t20
+32i17 dim{25|6I8} 10|28b17 32r50 33r32
+32i21 deg{25|6I8} 10|28b21 33r36
+32i25 low{25|6I8} 10|28b25 32r54
+32i29 upp{25|6I8} 10|28b29 32r58
+33a17 e{7|16A8[27|4]} 10|29b17 32m5
+34p17 c{8|15P8[15|5]} 10|30b17 33m40
+51U13*Random_VecVecVec 52>17 10|36b13 54l7 54t23 104s5
+52p17 v{16|13P8} 10|37b17 39r14 41r66
+58U13*Random_Lower_VecVecVec 59>17 10|56b13 76l7 76t29 118s5
+59p17 v{16|13P8} 10|57b17 59r14 61r66
+67U13*Random_Upper_VecVecVec 68>17 10|78b13 96l7 96t29 132s5
+68p17 v{16|13P8} 10|79b17 81r14 83r66
+75U13*Random_Matrix 76>17 76>24 76>47 76>51 77<17 78>17 10|98b13 105l7 105t20
+76i17 nbrows{28|7I8} 10|99b17 103r49
+76i24 nbcols{28|7I8} 10|99b24 103r56
+76i47 low{25|6I8} 10|99b47 103r63
+76i51 upp{25|6I8} 10|99b51 103r67
+77a17 e{6|16A8[24|5]} 10|100b17 103m5
+78p17 v{16|13P8} 10|101b17 104r22
+96U13*Random_Lower_Matrix 97>17 97>24 97>47 97>51 98<17 99>17 10|107b13 119l7
+. 119t26
+97i17 nbrows{28|7I8} 10|108b17 112r49
+97i24 nbcols{28|7I8} 10|108b24 112r56
+97i47 low{25|6I8} 10|108b47 112r63
+97i51 upp{25|6I8} 10|108b51 112r67
+98a17 e{6|16A8[24|5]} 10|109b17 112m5 113r14 114r19 115m9
+99p17 v{16|13P8} 10|110b17 118r28
+118U13*Random_Upper_Matrix 119>17 119>24 119>47 119>51 120<17 121>17 10|121b13
+. 133l7 133t26
+119i17 nbrows{28|7I8} 10|122b17 126r49
+119i24 nbcols{28|7I8} 10|122b24 126r56
+119i47 low{25|6I8} 10|122b47 126r63
+119i51 upp{25|6I8} 10|122b51 126r67
+120a17 e{6|16A8[24|5]} 10|123b17 126m5 127r14 128r16 129m9
+121p17 v{16|13P8} 10|124b17 132r28
+X 10 random_laurent_series.adb
+13a5 res{8|14A8[15|5]} 21m9 24r49
+16i9 i<long_integer> 21r13
+18a9 val{7|16A8[14|4]} 21r56
+39i9 i<long_integer> 41r68
+41p9 vi{8|15P8[15|5]} 43r18 45r71
+43i13 j<long_integer> 45r74
+45p13 vij{7|17P8[14|4]} 47r22 48r15
+47i17 k<long_integer> 48r19
+59i9 i<long_integer> 61r68 62r70 64r29
+61p9 vi{8|15P8[15|5]} 62r67 64r18 66r71
+62p9 vii{7|17P8[14|4]} 73r9
+64i13 j<long_integer> 66r74
+66p13 vij{7|17P8[14|4]} 68r22 69r15
+68i17 k<long_integer> 69r19
+81i9 i<long_integer> 83r68 85r18
+83p9 vi{8|15P8[15|5]} 85r21 87r71
+85i13 j<long_integer> 87r74
+87p13 vij{7|17P8[14|4]} 89r22 90r15
+89i17 k<long_integer> 90r19
+113i9 i<long_integer> 114r16 115r11
+114i11 j<long_integer> 115r13
+127i9 i<long_integer> 128r28 129r11
+128i11 j<long_integer> 129r13
+X 12 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 10|4w6 73r19 12|92e29
+18V12*Create{11R8} 10|73s44
+X 14 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[7|8] 10|5w6 18r24 21r23 45r28 62r24 66r28 87r28
+X 15 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[8|10] 9|5w6 24r27 34r25 10|11r27 13r11 24r16
+. 30r25 41r23 61r23 83r23
+X 16 standard_complex_vecvecvecs.ads
+4K9*Standard_Complex_VecVecVecs 9|6w6 52r24 59r24 68r24 78r24 99r24 121r24
+. 10|37r24 57r24 79r24 101r24 110r24 124r24 16|43e32
+10A8*VecVecVec(8|15P8[15|5])<25|6I8>
+13P8*Link_to_VecVecVec(10A8) 9|52r52 59r52 68r52 78r52 99r52 121r52 10|37r52
+. 57r52 79r52 101r52 110r52 124r52
+X 24 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[6|9] 9|4w6 77r25 98r25 120r25 10|100r25 109r25
+. 123r25
+X 25 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 9|2w6 2r45 25|45e29
+6I8*integer32<long_integer> 9|23r30 32r38 76r60 97r60 119r60 10|10r30 28r38
+. 99r60 108r60 122r60
+X 27 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[7|8] 9|3w6 33r25 10|29r25
+X 28 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 9|1w6 1r45 28|30e29
+7I8*natural32<long_integer> 9|76r36 97r36 119r36 10|99r36 108r36 122r36
+X 29 standard_random_matrices.ads
+10K9*Standard_Random_Matrices 10|3w6 103r10 112r10 126r10 29|95e29
+42V12*Random_Matrix{6|16A8[24|5]} 10|103s35 112s35 126s35
+X 30 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 10|1w6 48r25 69r25 90r25 30|112e28
+90V12*Random1{12|11R8} 10|48s49 69s49 90s49
+X 31 standard_random_vectors.ads
+8K9*Standard_Random_Vectors 10|2w6 19r16 32r10 31|80e28
+15V12*Random_Vector{7|16A8[27|4]} 10|32s34
+58V12*Random_Vector{7|16A8[14|4]} 10|19s40
+

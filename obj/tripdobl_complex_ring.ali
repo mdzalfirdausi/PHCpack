@@ -1,0 +1,56 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tripdobl_complex_ring%s  tripdobl_complex_ring.ads  fc1f9a0d EE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W tripdobl_complex_numbers%s  tripdobl_complex_numbers.ads  tripdobl_complex_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D tripdobl_complex_numbers.ads  20260513024558 c635fac5 tripdobl_complex_numbers%s
+D tripdobl_complex_ring.ads  20260513024558 dde813cb tripdobl_complex_ring%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D triple_double_ring.ads  20260513024558 6a90058c triple_double_ring%s
+D triple_double_ring-ffield.ads  20260513024558 d0c028cb triple_double_ring.ffield%s
+G a e
+G c s s s [s tripdobl_complex_ring 4 1 none]
+G r i none [s tripdobl_complex_ring 4 1 none] [abstract_ring standard 25 9 none]
+G r c none [s tripdobl_complex_ring 4 1 none] [create tripdobl_complex_numbers 25 12 5_1]
+X 1 abstract_ring.ads
+25k9*Abstract_Ring 25e29 9|2w6 5r7
+X 3 generic_complex_numbers.ads
+19R8*Complex_Number 9|5r21[8|5]
+25V12*Create{19R8[8|5]} 9|5s36[8|5] 5s55[8|5] 6r21[8|5]
+40V12*Equal{boolean} 9|6r28[8|5]
+41U13*Copy 9|6r34[8|5]
+58V13*"+"{19R8[8|5]} 9|6r40[8|5]
+59V13*"+"{19R8[8|5]} 9|6r44[8|5]
+60V13*"-"{19R8[8|5]} 9|6r48[8|5]
+61V13*"-"{19R8[8|5]} 9|6r52[8|5]
+62V13*"*"{19R8[8|5]} 9|6r56[8|5]
+74U13*Add 9|7r21[8|5]
+75U13*Sub 9|7r25[8|5]
+76U13*Min 9|7r29[8|5]
+77U13*Mul 9|7r33[8|5]
+82U13*Clear 9|7r37[8|5]
+X 8 tripdobl_complex_numbers.ads
+5K9*TripDobl_Complex_Numbers[3|11] 9|1w6 1r46
+X 9 tripdobl_complex_ring.ads
+4K9*TripDobl_Complex_Ring[1|25]
+

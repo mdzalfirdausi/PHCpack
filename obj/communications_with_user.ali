@@ -1,0 +1,214 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U communications_with_user%b  communications_with_user.adb  fcb3c698 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U communications_with_user%s  communications_with_user.ads  42442c61 BN EE NE OO PK
+W string_splitters%s	string_splitters.adb	string_splitters.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D communications_with_user.adb  20260513024558 b70e6531 communications_with_user%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [ask_yes_or_no communications_with_user 23 13 none]
+G c Z s b [ask_alternative communications_with_user 29 13 none]
+G c Z s b [ask_alternative communications_with_user 35 13 none]
+G c Z s b [read_name_and_open_file communications_with_user 46 13 none]
+G c Z s b [read_name_and_open_file communications_with_user 53 13 none]
+G c Z s b [read_name_and_create_file communications_with_user 60 13 none]
+G c Z s b [read_name_and_create_file communications_with_user 67 13 none]
+G c Z s b [read_name_and_append_file communications_with_user 74 13 none]
+G c Z s b [open_input_file communications_with_user 81 13 none]
+G c Z s b [open_input_file communications_with_user 83 13 none]
+G c Z s b [create_output_file communications_with_user 94 13 none]
+G c Z s b [create_output_file communications_with_user 96 13 none]
+G c Z s b [open_append_file communications_with_user 106 13 none]
+G c Z s b [prompt_for_precision communications_with_user 114 12 none]
+G c Z s b [end_of_input_message communications_with_user 120 13 none]
+G c Z b b [is_in communications_with_user 5 12 none]
+G c Z b b [report_location_error communications_with_user 97 13 none]
+G r c none [read_name_and_open_file communications_with_user 46 13 none] [read_string string_splitters 17 12 none]
+G r c none [read_name_and_open_file communications_with_user 53 13 none] [read_string string_splitters 17 12 none]
+G r c none [read_name_and_create_file communications_with_user 60 13 none] [read_string string_splitters 17 12 none]
+G r c none [read_name_and_create_file communications_with_user 67 13 none] [read_string string_splitters 17 12 none]
+G r c none [read_name_and_append_file communications_with_user 74 13 none] [read_string string_splitters 17 12 none]
+G r c none [open_input_file communications_with_user 81 13 none] [read_string string_splitters 17 12 none]
+G r c none [open_input_file communications_with_user 83 13 none] [read_string string_splitters 17 12 none]
+G r c none [create_output_file communications_with_user 94 13 none] [read_string string_splitters 17 12 none]
+G r c none [create_output_file communications_with_user 96 13 none] [read_string string_splitters 17 12 none]
+G r c none [open_append_file communications_with_user 106 13 none] [read_string string_splitters 17 12 none]
+X 9 a-textio.ads
+67P9*File_Type 11|46r53 54r31 60r55 68r31 74r55 82r32 84r32 95r32 97r32 107r32
+. 12|103r53 119r31 135r55 139r12 170r31 174r12 206r55 222r32 236r32 252r34
+. 255r12 294r34 298r12 341r32
+69n23*In_File{69E9} 12|108r15 124r15 156r15 192r15 224r15 239r15 279r17 323r17
+69n32*Out_File{69E9} 12|143r19 162r23 178r19 198r23 259r19 285r25 302r19
+. 330r21
+69n42*Append_File{69E9} 12|211r15 343r15
+99U14*Create 12|143s7 162s11 178s7 198s11 259s7 285s13 302s7 330s9
+115U14*Open 12|108s5 124s5 156s5 192s5 211s5 224s5 239s5 279s7 323s7 343s5
+131U14*Close 12|157s5 193s5 279s36 323s36
+284U14*New_Line 12|275s7 280s7 319s7 324s7 359s5 371s5 373s5
+295U14*Skip_Line 12|27s16
+419U14*Get 12|27s7
+515U14*Put 12|29s7 85s15 90s15 99s5 99s23 158s5 159s5 194s5 195s5 230s8 230s26
+. 246s8 246s26 262s9 262s40 267s9 267s40 281s7 282s7 306s9 306s40 311s9 311s40
+. 325s7 327s7 349s8 349s26 364s5
+535U14*Get_Line 12|71s7
+565U14*Put_Line 12|100s5 114s8 131s8 146s9 147s9 150s9 151s9 158s48 182s9
+. 183s9 186s9 187s9 194s48 217s8 231s8 247s8 263s9 264s9 268s9 269s9 276s7
+. 281s50 307s9 308s9 312s9 313s9 320s7 326s7 350s8 360s5 361s5 362s5 363s5
+. 372s5
+601X4*Name_Error 12|110r10 127r10 149r12 185r12 213r10 226r10 242r10 266r12
+. 310r12 345r10
+602X4*Use_Error 12|113r10 130r10 145r12 181r12 216r10 229r10 245r10 261r12
+. 305r12 348r10
+X 11 communications_with_user.ads
+4K9*Communications_with_User 127l5 127e29 12|1b14 376l5 376t29
+14V19 Valid_Alternative{boolean} 14>39 12|28s17
+14e39 alt{character}
+15u13*Ask 15<19 12|21b13 32l7 32t10 43r36 55r30
+15e19 ans{character} 12|21b19 31m5
+23U13*Ask_Yes_or_No 23<29 12|34b13 47l7 47t20 160s5 196s5 283s7 328s7
+23e29 ans{character} 12|34b29 46m19
+29U13*Ask_Alternative 29<31 29>52 12|49b13 59l7 59t22 365s5
+29e31 ans{character} 12|49b31 58m13
+29a52 alternatives{string} 12|49b52 53r20
+35U13*Ask_Alternative 36=19 36>40 37>19 12|61b13 95l7 95t22
+36a19 ans{string} 12|62b19 72m7 74r14 74r18 75m9 75r13 78r10 78r14 79r16
+. 79r20 80m11 80r15 83r31 83r35 88r31 88r35
+36a40 alternatives{string} 12|62b40 83r18 88r18
+37e19 prefix{character} 12|63b19 78r27
+46U13*Read_Name_and_Open_File 46=39 12|103b13 112s8 115s8 116l7 116t30 215s8
+. 218s8 228s8 232s8
+46p39 file{9|67P9} 12|103b39 108m10 112m32 115m32
+53U13*Read_Name_and_Open_File 54=17 54<42 12|118b13 129s8 132s8 133l7 133t30
+. 244s8 248s8
+54p17 file{9|67P9} 12|119b17 124m10 129m32 132m32
+54p42 name{15|11P8} 12|119b42 125m5 129m37 132m37
+60U13*Read_Name_and_Create_File 60=41 12|135b13 148s9 152s9 163s11 167l7
+. 167t32 265s9 270s9 277s7 286s13
+60p41 file{9|67P9} 12|135b41 143m14 148m35 152m35 162m18 163m37
+67U13*Read_Name_and_Create_File 68=17 68<42 12|169b13 184s9 188s9 200s11
+. 204l7 204t32 309s9 314s9 321s7 333s9
+68p17 file{9|67P9} 12|170b17 178m14 184m35 188m35 198m18 200m37
+68p42 name{15|11P8} 12|170b42 179m7 184m40 188m40 199m11 200m42
+74U13*Read_Name_and_Append_File 74=41 12|206b13 219l7 219t32 347s8 351s8
+74p41 file{9|67P9} 12|206b41 211m10 215m32 218m32
+81U13*Open_Input_File 82=18 82>43 12|221b13 233l7 233t22
+82p18 file{9|67P9} 12|222b18 224m10 228m32 232m32
+82a43 filename{string} 12|222b43 224r23 227r30 230r30
+83U13*Open_Input_File 84=18 84>43 85<18 12|235b13 249l7 249t22
+84p18 file{9|67P9} 12|236b18 239m10 244m32 248m32
+84a43 filename{string} 12|236b43 239r23 240r25 243r30 246r30
+85p18 name{15|11P8} 12|237b18 240m5 244m37 248m37
+94U13*Create_Output_File 95=18 95>43 12|251b13 291l7 291t25
+95p18 file{9|67P9} 12|252b20 259m14 265m35 270m35 277m33 285m20 286m39
+95a43 filename{string} 12|252b45 259r28 262r44 267r44 274r8 279r25 281r59
+. 285r34
+96U13*Create_Output_File 97=18 97>43 98<18 12|293b13 338l7 338t25
+97p18 file{9|67P9} 12|294b20 302m14 309m35 314m35 321m33 330m16 333m35
+97a43 filename{string} 12|294b45 302r28 303r27 306r44 311r44 318r8 323r25
+. 326r16 330r30 331r29
+98p18 name{15|11P8} 12|295b20 303m7 309m40 314m40 321m38 331m9 333m40
+106U13*Open_Append_File 107=18 107>43 12|340b13 352l7 352t23
+107p18 file{9|67P9} 12|341b18 343m10 347m34 351m34
+107a43 filename{string} 12|341b43 343r27 346r30 349r30
+114V12*Prompt_for_Precision{character} 12|354b12 367l7 367t27
+120U13*End_of_Input_Message 12|369b13 374l7 374t27
+X 12 communications_with_user.adb
+5V12 Is_In{boolean} 5b12 5>20 5>32 17l7 17t12 53s14 83s12 88s12
+5a20 s{string} 11r14 12r10
+5e32 ch{character} 12r17
+11i9 i{integer} 12r12
+23e5 ch{character} 27m11 28r35 31r12
+36V14 Yes_or_No{boolean} 36b14 36>26 42l9 42t18 43r41
+36e26 alt{character} 38r10 38r28
+43U15 Yes_or_No_Ask[11|15] 21b13 46s5
+51V14 Is_Valid{boolean} 51b14 51>25 54l9 54t17 55r36
+51e25 alt{character} 53r33
+55U15 Ask_Alt[11|15] 21b13 58s5
+65b5 ok{boolean} 84m15 89m15 93r17
+66a5 tmp{string} 71m16 75r27 80r31
+67i5 ind{natural} 73m7 74r41 75r31 76m9 76r16 79r45 80r35 81m11 81r18
+67i9 cnt{natural} 71m20 74r48 79r52
+97U13 Report_Location_Error 97b13 97>37 101l7 101t28 111s8 128s8 214s8 227s8
+. 243s8 346s8
+97a37 filename{string} 99r27
+105a5 name{string} 108r23 111r30
+121a5 filename{string} 124r23 125r25 128r30
+137a5 filename{string} 143r28 156r23 158r57 162r32
+138e5 ans{character} 160m19 161r8
+139p5 temp{9|67P9} 156m10 156r10 157m11 157r11
+141U15 Retry 141b15 153l9 153t14 166s20
+172a5 filename{string} 178r28 179r27 192r23 194r57 198r32 199r31
+173e5 ans{character} 196m19 197r8
+174p5 temp{9|67P9} 192m10 192r10 193m11 193r11
+176U15 Retry 176b15 189l9 189t14 203s20
+208a5 name{string} 211r27 214r30
+254e5 ans{character} 283m21 284r10
+255p5 temp{9|67P9} 279m12 279r12 279m42 279r42
+257U15 Retry 257b15 271l9 271t14 290s20
+297e5 ans{character} 328m21 329r10
+298p5 temp{9|67P9} 323m12 323r12 323m42 323r42
+300U15 Retry 300b15 315l9 315t14 337s20
+356e5 res{character} 365m21 366r12
+X 15 string_splitters.ads
+3K9*String_Splitters 11|2w6 2r46 15|82e21
+11P8*Link_to_String(string) 11|54r53 68r53 85r29 98r29 12|119r53 170r53 237r29
+. 295r31
+17V12*Read_String{string} 12|105s31 121s35 137s35 172s35 208s31
+X 30 text_io.ads
+27K9*Text_IO=27:29 11|1w6 1r46
+

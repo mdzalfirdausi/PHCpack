@@ -1,0 +1,54 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U system_call%b		system_call.adb		62abe8b7 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U system_call%s		system_call.ads		e2afd090 EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D system_call.ads	20260513024558 e2afd090 system_call%s
+D system_call.adb	20260513024558 286de7b9 system_call%b
+G a e
+G c Z s b [call system_call 6 13 none]
+X 4 system.ads
+37K9*System 215e11 10|1w6 1r46
+67M9*Address 10|7r30
+X 9 system_call.ads
+1K9*System_Call 13l5 13e16 10|3b14 20l5 20t16
+6U13*Call 6>20 10|5b13 18l7 18t11
+6a20 Command{string} 10|5b20 10r29
+11X3*System_Error 10|16r13
+X 10 system_call.adb
+7V14*system{natural} 7>21 9b<c,system>22 14s12
+7m21 command{4|67M9}
+10a5 cmd=10:37{string} 14r19
+11i5 ret{natural} 14m5 15r8
+

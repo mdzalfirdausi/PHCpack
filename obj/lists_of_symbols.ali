@@ -1,0 +1,127 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U lists_of_symbols%b	lists_of_symbols.adb	833b6042 NE OO PK
+Z generic_lists%s	generic_lists.adb	generic_lists.ali  ED
+
+U lists_of_symbols%s	lists_of_symbols.ads	92e121c3 EE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W symbol_table%s	symbol_table.adb	symbol_table.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lists_of_symbols.ads	20260513024558 53388f73 lists_of_symbols%s
+D lists_of_symbols.adb	20260513024558 d003ef31 lists_of_symbols%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c s s s [s lists_of_symbols 5 1 none]
+G c Z s s [create lists_of_symbols__symbols_lists 21 12 11_3]
+G c Z s s [construct lists_of_symbols__symbols_lists 26 13 11_3]
+G c Z s s [set_head lists_of_symbols__symbols_lists 31 13 11_3]
+G c Z s s [swap_tail lists_of_symbols__symbols_lists 38 13 11_3]
+G c Z s s [append lists_of_symbols__symbols_lists 43 13 11_3]
+G c Z s s [concat lists_of_symbols__symbols_lists 49 13 11_3]
+G c Z s s [copy lists_of_symbols__symbols_lists 55 13 11_3]
+G c Z s s [is_equal lists_of_symbols__symbols_lists 62 12 11_3]
+G c Z s s [length_of lists_of_symbols__symbols_lists 67 12 11_3]
+G c Z s s [is_null lists_of_symbols__symbols_lists 72 12 11_3]
+G c Z s s [head_of lists_of_symbols__symbols_lists 77 12 11_3]
+G c Z s s [tail_of lists_of_symbols__symbols_lists 84 12 11_3]
+G c Z s s [clear lists_of_symbols__symbols_lists 93 13 11_3]
+G c Z s s [nodeIP lists_of_symbols__symbols_lists 5 8 11_3]
+G c Z s s [set_next lists_of_symbols__symbols_lists 14 13 11_3]
+G c Z s s [next_of lists_of_symbols__symbols_lists 19 12 11_3]
+G c Z s s [free lists_of_symbols__symbols_lists 24 13 11_3]
+G c Z s s [new_item lists_of_symbols__symbols_lists 37 12 11_3]
+G c Z s b [create_symbol_table lists_of_symbols 14 13 none]
+G c Z s b [equal lists_of_symbols 21 12 none]
+G c Z s b [classify_symbol lists_of_symbols 26 12 none]
+G c Z s b [clear lists_of_symbols 34 13 none]
+G r i none [s lists_of_symbols 5 1 none] [generic_lists standard 7 9 none]
+G r c none [create_symbol_table lists_of_symbols 14 13 none] [init symbol_table 32 13 none]
+G r c none [create_symbol_table lists_of_symbols 14 13 none] [add symbol_table 79 13 none]
+X 10 generic_lists.ads
+7k9*Generic_Lists 104e18 14|1w6 11r32
+12P8*List 14|12r41[11] 15|72r40[14|11]
+67V12*Length_Of{17|7I8} 15|27s23[14|11]
+72V12*Is_Null{boolean} 15|28s15[14|11]
+77V12*Head_Of{string} 15|29s24[14|11]
+84V12*Tail_Of{12P8[14|11]} 15|30s14[14|11]
+93U13*Clear 15|72s20[14|11]
+X 14 lists_of_symbols.ads
+5K9*Lists_of_Symbols 39l5 39e21 15|1b14 75l5 75t21
+11K11*Symbols_Lists[10|7] 12r27 15|72r6 72r26
+12P8*Symbol_List<10|12P8[11]> 14r42 34r32 15|22r42 24r11 70r32
+14U13*Create_Symbol_Table 14>35 15|22b13 32l7 32t26
+14p35 L{12P8} 15|22b35 24r26 27r33
+21V12*Equal{boolean} 21>20 21>33 15|34b12 51l7 51t12 55s8 57s11 59s11 61s11
+. 63s11
+21a20 sb{18|15A11} 15|34b20 36r14 38r12 42r13 45r18 47r17
+21a33 s{string} 15|34b33 37r14 42r22 47r8
+26V12*Classify_Symbol{17|7I8} 26>30 15|53b12 68l7 68t22
+26a30 sb{18|15A11} 15|53b30 55r14 57r17 59r17 61r17 63r17
+34U13*Clear<10|93p13> 34=21 15|70b13 73l7 73t12
+34p21 L{12P8} 15|70b21 72m45 72r45
+X 15 lists_of_symbols.adb
+24p5 tmp{14|12P8} 28r23 29r32 30m7 30r22
+36i9 i{integer} 37r10 38r15 42r16 42r24 45r21
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 14|2w6 2r46 17|30e29
+7I8*natural32<long_integer> 14|26r51 15|53r51
+X 18 symbol_table.ads
+4K9*Symbol_Table 14|3w6 3r46 15|27r5 29r7 18|175e17
+15A11*Symbol{string}<integer> 14|11r46 21r25 26r35 15|34r25 53r35
+32U13*Init 15|27s18
+79U13*Add 15|29s20
+

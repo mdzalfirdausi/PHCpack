@@ -1,0 +1,74 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U bye_bye_message%b	bye_bye_message.adb	0028f027 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U bye_bye_message%s	bye_bye_message.ads	64fba5f2 EE NE OO SU
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-calend.ads		20250808065140 bf7f3cc9 ada.calendar%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D bye_bye_message.ads	20260513024558 64fba5f2 bye_bye_message%s
+D bye_bye_message.adb	20260513024558 dbac691c bye_bye_message%b
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [bye_bye_message standard 1 10 none]
+X 1 ada.ads
+18K9*Ada 22e8 5|1r6 1r27
+X 2 a-calend.ads
+36K13*Calendar 440e17 5|1w10 1r31
+42I9*Time<226I9> 5|5r19 45r26
+48I12*Year_Number{integer} 5|47r10
+49I12*Month_Number{integer} 5|48r10
+50I12*Day_Number{integer} 5|49r10
+54O12*Day_Duration{duration} 5|50r10
+56V13*Clock{42I9} 5|5s27
+72U14*Split 5|53s5
+226I9 Time_Rep<long_long_integer>
+X 4 bye_bye_message.ads
+1V10*Bye_Bye_Message{string} 5|3b10 59l5 59t20
+X 5 bye_bye_message.adb
+5i3 date{2|42I9} 58r42
+7V12 Convert1{character} 7b12 7>23 21l7 21t15 29s19 39s20
+7i23 n{integer} 9r10
+23V12 Convert2{string} 23b12 23>23 37s36 43l7 43t15 54s12 54s33 54s54
+23i23 n{integer} 25r8 29r28 34r35 35r34
+27a9 res{string} 29m9 30r16
+34i9 n10{integer} 37r45
+35i9 n1{integer} 39r29
+36a9 last{string} 39m9 40r24
+37a9 first{string} 40r16
+45V12 Convert{string} 45b12 45>22 55l7 55t14 58s34
+45i22 d{2|42I9} 53r11
+47i5 yr{2|48I12} 53m13 54r63
+48i5 mo{2|49I12} 53m16 54r42
+49i5 da{2|50I12} 53m19 54r21
+50o5 se{2|54O12} 53m22
+

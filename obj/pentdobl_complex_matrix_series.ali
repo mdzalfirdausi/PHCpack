@@ -1,0 +1,163 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pentdobl_complex_matrix_series%b  pentdobl_complex_matrix_series.adb  9a940e89 NE OO PK
+W pentdobl_complex_matrices%s  pentdobl_complex_matrices.ads  pentdobl_complex_matrices.ali
+W pentdobl_complex_vectors%s  pentdobl_complex_vectors.ads  pentdobl_complex_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pentdobl_complex_matrix_series%s  pentdobl_complex_matrix_series.ads  fdf8608d EE NE OO PK
+W pentdobl_complex_series%s  pentdobl_complex_series.ads  pentdobl_complex_series.ali
+W pentdobl_complex_series_matrices%s  pentdobl_complex_series_matrices.ads  pentdobl_complex_series_matrices.ali
+W pentdobl_complex_vecmats%s  pentdobl_complex_vecmats.ads  pentdobl_complex_vecmats.ali
+W pentdobl_complex_vector_series%s  pentdobl_complex_vector_series.adb  pentdobl_complex_vector_series.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D pentdobl_complex_matrices.ads  20260513024558 dd59e9a1 pentdobl_complex_matrices%s
+D pentdobl_complex_matrix_series.ads  20260513024558 57a41aef pentdobl_complex_matrix_series%s
+D pentdobl_complex_matrix_series.adb  20260513024558 35c35cc2 pentdobl_complex_matrix_series%b
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_ring.ads  20260513024558 45ee875d pentdobl_complex_ring%s
+D pentdobl_complex_series.ads  20260513024558 6a5d1c74 pentdobl_complex_series%s
+D pentdobl_complex_series_matrices.ads  20260513024558 436b5491 pentdobl_complex_series_matrices%s
+D pentdobl_complex_series_ring.ads  20260513024558 8e6da9f6 pentdobl_complex_series_ring%s
+D pentdobl_complex_series_vectors.ads  20260513024558 cb15d1e5 pentdobl_complex_series_vectors%s
+D pentdobl_complex_vecmats.ads  20260513024558 940d409f pentdobl_complex_vecmats%s
+D pentdobl_complex_vector_series.ads  20260513024558 68871003 pentdobl_complex_vector_series%s
+D pentdobl_complex_vectors.ads  20260513024558 25aaa105 pentdobl_complex_vectors%s
+D pentdobl_complex_vecvecs.ads  20260513024558 aeca69ac pentdobl_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [create pentdobl_complex_matrix_series 22 12 none]
+G c Z s b [create pentdobl_complex_matrix_series 36 12 none]
+G c Z s b [multiply pentdobl_complex_matrix_series 52 12 none]
+G c Z s b [clear pentdobl_complex_matrix_series 66 13 none]
+G c Z s s [matrixIP pentdobl_complex_matrix_series 16 8 none]
+G r s vecmat [create pentdobl_complex_matrix_series 22 12 none] [vecmatIP pentdobl_complex_vecmats 15 8 6_1]
+G r s matrix [create pentdobl_complex_matrix_series 36 12 none] [matrixIP pentdobl_complex_series_matrices 16 8 5_1]
+G r s series [create pentdobl_complex_matrix_series 36 12 none] [seriesIP pentdobl_complex_series 22 8 6_1]
+G r s vector [multiply pentdobl_complex_matrix_series 52 12 none] [vectorIP pentdobl_complex_vector_series 17 8 none]
+G r c none [multiply pentdobl_complex_matrix_series 52 12 none] [Omultiply pentdobl_complex_matrices 51 12 5_1]
+G r c none [multiply pentdobl_complex_matrix_series 52 12 none] [Oadd pentdobl_complex_vectors 29 12 4_1]
+G r c none [clear pentdobl_complex_matrix_series 66 13 none] [clear pentdobl_complex_matrices 67 13 5_1]
+G r s vecmat [matrixIP pentdobl_complex_matrix_series 16 8 none] [vecmatIP pentdobl_complex_vecmats 15 8 6_1]
+X 3 generic_complex_numbers.ads
+19R8*Complex_Number
+X 4 generic_dense_series.ads
+22R8*Series 14|42r39[17|6] 48r51[17|6]
+22i17*deg{26|6I8} 14|11r58[17|6]
+23a5*cff{7|16A8[23|4]} 14|21r32[17|6] 46m15[17|6]
+25P8*Link_to_Series(22R8[17|6])
+X 5 generic_matrices.ads
+16A8*Matrix(4|25P8[17|6])<26|6I8><26|6I8> 13|22r58[18|5] 37r59[18|5] 14|8r58[18|5]
+. 17r41[12|5] 24r53[12|5] 31r59[18|5] 36r44[18|5]
+17P8*Link_to_Matrix(16A8[12|5]) 14|33r37[12|5]
+51V13*"*"{7|16A8[23|4]} 14|74s30[12|5] 77s38[12|5] 86s30[12|5] 89s38[12|5]
+67U13*Clear 14|103s33[12|5]
+X 6 generic_vecmats.ads
+15A8*VecMat(5|17P8[12|5])<26|6I8> 13|17r36[21|6]
+X 7 generic_vectors.ads
+16A8*Vector(3|19R8[15|5])<26|6I8> 14|73r40[23|4] 79r52[23|4] 85r40[23|4]
+. 91r54[23|4]
+17P8*Link_to_Vector(16A8[23|4])
+29V13*"+"{16A8[23|4]} 14|77s22[23|4] 89s22[23|4]
+X 8 generic_vecvecs.ads
+14A8*VecVec(7|17P8[23|4])<26|6I8>
+X 12 pentdobl_complex_matrices.ads
+5K9*PentDobl_Complex_Matrices[5|9] 14|2w6 17r15 24r27 33r11 68r9 103r7
+X 13 pentdobl_complex_matrix_series.ads
+7K9*PentDobl_Complex_Matrix_Series 23r26 36r25 53r22 73l5 73e35 14|4b14 9r26
+. 12r11 30r25 58r22 107l5 107t35
+16R8*Matrix 16d17 18e13 23r57 36r56 53r53 66r32 14|9r57 12r42 30r56 58r53
+. 100r32
+16i17*deg{26|6I8} 17r46 14|42r48 44r25 62r37 71r21 82r16 83r21 88r29 102r19
+17a5*cff{6|15A8[21|6]} 14|24m13 33r57 33r63 45r22 74r20 77r28 86r20 89r28
+. 103m41
+22V12*Create{16R8} 22>21 14|8b12 28l7 28t13
+22a21 A{5|16A8[18|5]} 14|8b21 11r33 11r35 11r46 17r48 17r59 19r18 20r20 21r25
+36V12*Create{5|16A8[18|5]} 36>21 14|30b12 53l7 53t13
+36r21 A{16R8} 14|30b21 33r55 33r61 42r46 44r23 45r20
+52V12*Multiply{22|17R8} 53>16 54>16 14|57b12 96l7 96t15
+53r16 mat{16R8} 14|58b16 62r33 71r17 74r16 77r24 82r12 83r17 86r16 88r25
+. 89r24
+54r16 vec{22|17R8} 14|59b16 62r43 64r33 74r31 77r39 86r31 89r39
+66U13*Clear 66=21 14|100b13 105l7 105t12
+66r21 A{16R8} 14|100b21 102r17 103m39 103r39
+X 14 pentdobl_complex_matrix_series.adb
+11i5 deg{26|6I8} 12r49 15r17
+12r5 res{13|16R8} 24m9 27r12
+15i9 k<long_integer> 21r36 24r17
+17a9 mat{5|16A8[12|5]} 21m13 24r61
+19i13 i<long_integer> 21r17 21r27
+20i15 j<long_integer> 21r19 21r29
+33p5 mat{5|17P8[12|5]} 34r34 35r34 45m13 46r25
+34i5 rows{26|6I8} 36r54
+35i5 cols{26|6I8} 36r62
+36a5 res{5|16A8[18|5]} 39r14 40r16 48m11 52r12
+39i9 i<long_integer> 46r29 48r15
+40i11 j<long_integer> 46r31 48r17
+42r11 s{4|22R8[17|6]} 46m13 48r59
+44i15 k<long_integer> 45r26 46r19
+62i5 deg{26|6I8} 63r49
+63r5 res{22|17R8} 79m9 91m9 95r12
+64i5 dim{26|6I8} 73r50 85r50
+65i5 xdg{26|6I8} 82m5 86r39 89r47 91r17 93m7 93r14
+71i9 k<long_integer> 74r39 76r21 77r47 79r17
+73a9 acc{7|16A8[23|4]} 77m11 77r18 79r60
+76i13 i<long_integer> 77r32 77r49
+83i9 k<long_integer> 86r24 86r43 88r19
+85a9 acc{7|16A8[23|4]} 89m11 89r18 91r62
+88i13 i<long_integer> 89r32 89r51
+102i9 i<long_integer> 103r45
+X 17 pentdobl_complex_series.ads
+6K9*PentDobl_Complex_Series[4|12] 13|3w6 14|42r15 48r27
+X 18 pentdobl_complex_series_matrices.ads
+5K9*PentDobl_Complex_Series_Matrices[5|9] 13|4w6 22r25 37r26 14|8r25 31r26
+. 36r11
+X 21 pentdobl_complex_vecmats.ads
+6K9*PentDobl_Complex_VecMats[6|11] 13|2w6 17r11
+X 22 pentdobl_complex_vector_series.ads
+8K9*PentDobl_Complex_Vector_Series 13|5w6 54r22 55r21 14|59r22 60r21 63r11
+. 22|75e35
+17R8*Vector 13|54r53 55r52 14|59r53 60r52 63r42 22|20e13
+17i17*deg{26|6I8} 14|62r47
+19a5*cff{8|14A8[24|5]} 14|64r37 74r35 77r43 79m13 86r35 89r43 91m13
+X 23 pentdobl_complex_vectors.ads
+4K9*PentDobl_Complex_Vectors[7|8] 14|1w6 67r9 73r15 79r27 85r15 91r29
+X 26 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 13|1w6 1r45 26|45e29
+6I8*integer32<long_integer> 13|16r23 14|11r20 34r21 35r21 62r20 64r20 65r11
+

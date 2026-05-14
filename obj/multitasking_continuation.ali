@@ -1,0 +1,922 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_TASKS=1+
+
+U multitasking_continuation%b  multitasking_continuation.adb  75fa730e NE OO PK
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W continuation_parameters%s  continuation_parameters.adb  continuation_parameters.ali
+W dobldobl_complex_solutions_io%s  dobldobl_complex_solutions_io.adb  dobldobl_complex_solutions_io.ali
+W dobldobl_solutions_queue%s  dobldobl_solutions_queue.adb  dobldobl_solutions_queue.ali
+W drivers_for_homotopy_creation%s  drivers_for_homotopy_creation.adb  drivers_for_homotopy_creation.ali
+W main_poly_continuation%s  main_poly_continuation.adb  main_poly_continuation.ali
+W multitasking%s	multitasking.adb	multitasking.ali
+W phcpack_operations%s	phcpack_operations.adb	phcpack_operations.ali
+W quaddobl_complex_solutions_io%s  quaddobl_complex_solutions_io.adb  quaddobl_complex_solutions_io.ali
+W quaddobl_solutions_queue%s  quaddobl_solutions_queue.adb  quaddobl_solutions_queue.ali
+W standard_complex_laur_systems_io%s  standard_complex_laur_systems_io.adb  standard_complex_laur_systems_io.ali
+W standard_complex_laurentials%s  standard_complex_laurentials.ads  standard_complex_laurentials.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_systems_io%s  standard_complex_poly_systems_io.adb  standard_complex_poly_systems_io.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_solutions_queue%s  standard_solutions_queue.adb  standard_solutions_queue.ali
+W standard_system_and_solutions_io%s  standard_system_and_solutions_io.adb  standard_system_and_solutions_io.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+
+U multitasking_continuation%s  multitasking_continuation.ads  da989511 EE NE OO PK
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W standard_complex_laur_systems%s  standard_complex_laur_systems.ads  standard_complex_laur_systems.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W string_splitters%s	string_splitters.adb	string_splitters.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-reatim.ads		20250808065140 d11673fd ada.real_time%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D continuation_parameters.ads  20260513024558 80b0c65f continuation_parameters%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_solutions_io.ads  20260513024558 138ef4d8 dobldobl_complex_solutions_io%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_solutions_queue.ads  20260513024558 165544f3 dobldobl_solutions_queue%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_ring.ads  20260513024558 2b06ea65 double_double_ring%s
+D double_double_vectors.ads  20260513024558 ffed19bd double_double_vectors%s
+D drivers_for_homotopy_creation.ads  20260513024558 5309780f drivers_for_homotopy_creation%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrin.ads		20250808065140 5409c1a4 interfaces.c.strings%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D main_poly_continuation.ads  20260513024558 f3aee7db main_poly_continuation%s
+D multitasking.ads	20260513024558 74dd7dbf multitasking%s
+D multitasking.adb	20260513024558 d1b2e4b0 multitasking%b
+D multitasking_continuation.ads  20260513024558 5b538ad7 multitasking_continuation%s
+D multitasking_continuation.adb  20260513024558 e13b34f2 multitasking_continuation%b
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_poly_systems.ads  20260513024558 ff1af8f0 multprec_complex_poly_systems%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D phcpack_operations.ads  20260513024556 d4db1b1b phcpack_operations%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_solutions_io.ads  20260513024558 d7badfd9 quaddobl_complex_solutions_io%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_solutions_queue.ads  20260513024558 c07df3d6 quaddobl_solutions_queue%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laur_systems_io.ads  20260513024558 f1988953 standard_complex_laur_systems_io%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_systems_io.ads  20260513024558 30c463ef standard_complex_poly_systems_io%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_solutions_queue.ads  20260513024558 321d1a44 standard_solutions_queue%s
+D standard_system_and_solutions_io.ads  20260513024558 2d3b27b4 standard_system_and_solutions_io%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-atacco.ads		20250808065140 5868e3ba system.address_to_access_conversions%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-multip.ads		20250808065140 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20250808065140 35a74841 system.os_interface%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20250808065140 5be75682 system.stack_usage%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-tasinf.ads		20250808065140 601f6b72 system.task_info%s
+D s-taspri.ads		20250808065140 602eebc0 system.task_primitives%s
+D s-taprop.ads		20250808065140 750673ca system.task_primitives.operations%s
+D s-taskin.ads		20250808065140 38289021 system.tasking%s
+D s-tassta.ads		20250808065140 cca55c94 system.tasking.stages%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [silent_path_tracker multitasking_continuation 16 13 none]
+G c Z s b [silent_path_tracker multitasking_continuation 19 13 none]
+G c Z s b [silent_path_tracker multitasking_continuation 22 13 none]
+G c Z s b [silent_path_tracker multitasking_continuation 33 13 none]
+G c Z s b [silent_path_tracker multitasking_continuation 37 13 none]
+G c Z s b [silent_path_tracker multitasking_continuation 41 13 none]
+G c Z s b [silent_laurent_path_tracker multitasking_continuation 54 13 none]
+G c Z s b [silent_laurent_path_tracker multitasking_continuation 57 13 none]
+G c Z s b [silent_laurent_path_tracker multitasking_continuation 60 13 none]
+G c Z s b [silent_laurent_path_tracker multitasking_continuation 68 13 none]
+G c Z s b [silent_laurent_path_tracker multitasking_continuation 72 13 none]
+G c Z s b [silent_laurent_path_tracker multitasking_continuation 76 13 none]
+G c Z s b [silent_multitasking_path_tracker multitasking_continuation 84 13 none]
+G c Z s b [silent_multitasking_path_tracker multitasking_continuation 87 13 none]
+G c Z s b [silent_multitasking_path_tracker multitasking_continuation 90 13 none]
+G c Z s b [reporting_multitasking_path_tracker multitasking_continuation 102 13 none]
+G c Z s b [reporting_multitasking_path_tracker multitasking_continuation 105 13 none]
+G c Z s b [reporting_multitasking_path_tracker multitasking_continuation 108 13 none]
+G c Z s b [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none]
+G c Z s b [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none]
+G c Z s b [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none]
+G c Z s b [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none]
+G c Z s b [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none]
+G c Z s b [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none]
+G c Z s b [driver_to_path_tracker multitasking_continuation 164 13 none]
+G c Z s b [driver_to_path_tracker multitasking_continuation 170 13 none]
+G r c none [silent_path_tracker multitasking_continuation 16 13 none] [silent_path_tracker phcpack_operations 331 13 none]
+G r c none [silent_path_tracker multitasking_continuation 19 13 none] [silent_path_tracker phcpack_operations 336 13 none]
+G r c none [silent_path_tracker multitasking_continuation 22 13 none] [silent_path_tracker phcpack_operations 341 13 none]
+G r c none [silent_path_tracker multitasking_continuation 33 13 none] [to_string multitasking 23 12 none]
+G r c none [silent_path_tracker multitasking_continuation 33 13 none] [silent_path_tracker phcpack_operations 331 13 none]
+G r c none [silent_path_tracker multitasking_continuation 37 13 none] [to_string multitasking 23 12 none]
+G r c none [silent_path_tracker multitasking_continuation 37 13 none] [silent_path_tracker phcpack_operations 336 13 none]
+G r c none [silent_path_tracker multitasking_continuation 41 13 none] [to_string multitasking 23 12 none]
+G r c none [silent_path_tracker multitasking_continuation 41 13 none] [silent_path_tracker phcpack_operations 341 13 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 54 13 none] [silent_laurent_path_tracker phcpack_operations 493 13 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 57 13 none] [silent_laurent_path_tracker phcpack_operations 498 13 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 60 13 none] [silent_laurent_path_tracker phcpack_operations 503 13 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 68 13 none] [to_string multitasking 23 12 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 68 13 none] [silent_laurent_path_tracker phcpack_operations 493 13 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 72 13 none] [to_string multitasking 23 12 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 72 13 none] [silent_laurent_path_tracker phcpack_operations 498 13 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 76 13 none] [to_string multitasking 23 12 none]
+G r c none [silent_laurent_path_tracker multitasking_continuation 76 13 none] [silent_laurent_path_tracker phcpack_operations 503 13 none]
+G r i none [silent_multitasking_path_tracker multitasking_continuation 84 13 none] [silent_workers multitasking 44 13 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 84 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 84 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 84 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 84 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 84 13 none] [silent_path_tracker phcpack_operations 331 13 none]
+G r i none [silent_multitasking_path_tracker multitasking_continuation 87 13 none] [silent_workers multitasking 44 13 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 87 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 87 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 87 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 87 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 87 13 none] [silent_path_tracker phcpack_operations 336 13 none]
+G r i none [silent_multitasking_path_tracker multitasking_continuation 90 13 none] [silent_workers multitasking 44 13 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 90 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 90 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 90 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 90 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [silent_multitasking_path_tracker multitasking_continuation 90 13 none] [silent_path_tracker phcpack_operations 341 13 none]
+G r i none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [to_string multitasking 23 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 102 13 none] [silent_path_tracker phcpack_operations 331 13 none]
+G r i none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [to_string multitasking 23 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 105 13 none] [silent_path_tracker phcpack_operations 336 13 none]
+G r i none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [to_string multitasking 23 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [reporting_multitasking_path_tracker multitasking_continuation 108 13 none] [silent_path_tracker phcpack_operations 341 13 none]
+G r i none [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none] [silent_workers multitasking 44 13 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 121 13 none] [silent_laurent_path_tracker phcpack_operations 493 13 none]
+G r i none [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none] [silent_workers multitasking 44 13 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 124 13 none] [silent_laurent_path_tracker phcpack_operations 498 13 none]
+G r i none [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none] [silent_workers multitasking 44 13 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [silent_multitasking_laurent_path_tracker multitasking_continuation 127 13 none] [silent_laurent_path_tracker phcpack_operations 503 13 none]
+G r i none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [to_string multitasking 23 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 139 13 none] [silent_laurent_path_tracker phcpack_operations 493 13 none]
+G r i none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [to_string multitasking 23 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 142 13 none] [silent_laurent_path_tracker phcpack_operations 498 13 none]
+G r i none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [to_string multitasking 23 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [reporting_multitasking_laurent_path_tracker multitasking_continuation 145 13 none] [silent_laurent_path_tracker phcpack_operations 503 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [put standard_complex_poly_systems_io 55 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [get standard_system_and_solutions_io 23 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [put standard_complex_solutions_io 120 13 none]
+G r s poly_sys [driver_to_path_tracker multitasking_continuation 164 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [driver_for_homotopy_construction drivers_for_homotopy_creation 70 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [ask_symbol main_poly_continuation 22 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [tune continuation_parameters 145 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [tstart timing_package 20 13 none]
+G r i none [driver_to_path_tracker multitasking_continuation 164 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [to_string multitasking 23 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [silent_path_tracker phcpack_operations 331 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [create dobldobl_complex_solutions 56 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [silent_path_tracker phcpack_operations 336 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [create quaddobl_complex_solutions 56 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [silent_path_tracker phcpack_operations 341 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [tstop timing_package 24 13 none]
+G r i none [driver_to_path_tracker multitasking_continuation 164 13 none] [silent_workers multitasking 44 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [put dobldobl_complex_solutions_io 76 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [put quaddobl_complex_solutions_io 76 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 164 13 none] [print_times timing_package 49 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [put standard_complex_laur_systems_io 48 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [put standard_complex_laur_systems_io 50 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [get standard_system_and_solutions_io 28 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [number_of_unknowns standard_complex_laurentials 50 12 4_1]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [put standard_complex_solutions_io 120 13 none]
+G r s laur_sys [driver_to_path_tracker multitasking_continuation 170 13 none] [laur_sysIP standard_complex_laur_systems 22 8 5_1]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [copy standard_complex_laur_systems 29 13 5_1]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [driver_for_homotopy_construction drivers_for_homotopy_creation 76 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [ask_symbol main_poly_continuation 22 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [tune continuation_parameters 145 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [tstart timing_package 20 13 none]
+G r i none [driver_to_path_tracker multitasking_continuation 170 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [to_string multitasking 23 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [silent_laurent_path_tracker phcpack_operations 493 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [create dobldobl_complex_solutions 56 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [silent_laurent_path_tracker phcpack_operations 498 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [create quaddobl_complex_solutions 56 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [silent_laurent_path_tracker phcpack_operations 503 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [tstop timing_package 24 13 none]
+G r i none [driver_to_path_tracker multitasking_continuation 170 13 none] [silent_workers multitasking 44 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [put dobldobl_complex_solutions_io 76 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [put quaddobl_complex_solutions_io 76 13 none]
+G r c none [driver_to_path_tracker multitasking_continuation 170 13 none] [print_times timing_package 49 13 none]
+X 13 a-textio.ads
+67P9*File_Type 45|165r28 171r28 46|577r28 694r28
+277U14*New_Line 46|599s5 605s5 689s5 716s5 722s5 806s5
+284U14*New_Line 46|596s5 628s5 632s5 713s5 745s5 749s5
+515U14*Put 46|633s5 750s5
+555U14*Put_Line 46|600s5 606s5 678s5 717s5 723s5 795s5
+565U14*Put_Line 46|73s5 90s5 107s5 163s5 180s5 197s5 597s5 714s5
+X 15 communications_with_user.ads
+4K9*Communications_with_User 127e29 46|1w6 1r46
+23U13*Ask_Yes_or_No 46|634s5 751s5
+X 16 continuation_parameters.ads
+4K9*Continuation_Parameters 170e28 46|14w6 630r5 747r5
+145U13*Tune 46|630s29 747s29
+X 23 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 235e31 45|8w6 20r26 39r26 58r26 74r26 88r32
+. 106r32 125r32 143r32 46|38r26 82r26 128r26 172r26 235r32 238r9 327r32 330r9
+. 421r32 424r9 513r32 516r9 585r16 643r21 664r21 683r16 684r21 702r16 760r21
+. 781r21 800r16 801r21
+19i19*n{88|6I8} 46|684r66 801r66
+28P8*Link_to_Solution(19R8) 45|20r53 39r53 58r53 74r53 46|38r53 82r53 128r53
+. 172r53 247r12 340r12 433r12 526r12
+31P8*Solution_List<34|12P8[30]> 45|88r59 106r59 125r59 143r59 46|235r59 246r15
+. 327r59 339r15 421r59 432r15 513r59 525r15 585r43 702r43
+56V12*Create{31P8} 46|643s48 664s48 760s48 781s48
+X 24 dobldobl_complex_solutions_io.ads
+6K9*DoblDobl_Complex_Solutions_io 305e34 46|10w6 10r46
+76U13*put 46|683s7 800s7
+X 26 dobldobl_solutions_queue.ads
+4K9*DoblDobl_Solutions_Queue 34e29 46|18w6 251r18 260r5 344r18 346r18 354r5
+. 437r18 446r5 530r18 532r18 540r5
+10U13*Initialize 46|260s30 354s30 446s30 540s30
+15V12*Next{23|31P8} 46|251s43 344s43 437s43 530s43
+28V12*Next_Counter{88|6I8} 46|346s43 532s43
+X 30 drivers_for_homotopy_creation.ads
+13K9*Drivers_for_Homotopy_Creation 106e34 46|13w6 13r46
+70U13*Driver_for_Homotopy_Construction 46|622s7
+76U13*Driver_for_Homotopy_Construction 46|739s7
+X 32 generic_laur_poly_systems.ads
+22A8*Laur_Sys(33|30P8[76|4])<88|6I8> 45|172r55[74|5] 46|695r55[74|5] 727r42[74|5]
+23P8*Link_to_Laur_Sys(22A8[74|5]) 46|700r39[74|5]
+29U13*Copy 46|731s37[74|5]
+X 33 generic_laurent_polynomials.ads
+30P8*Poly
+50V12*Number_of_Unknowns{91|7I8} 46|720s38[76|4] 740s16[76|4]
+X 34 generic_lists.ads
+12P8*List
+67V12*Length_Of{91|7I8} 46|607s41[82|27] 680s43[82|27] 683s43[23|30] 686s43[70|30]
+. 724s41[82|27] 797s43[82|27] 800s43[23|30] 803s43[70|30]
+72V12*Is_Null{boolean} 46|222s19[82|27] 252s19[23|30] 282s19[70|30] 313s19[82|27]
+. 345s19[23|30] 377s19[70|30] 408s19[82|27] 438s19[23|30] 468s19[70|30] 499s19[82|27]
+. 531s19[23|30] 563s19[70|30]
+77V12*Head_Of{82|25P8} 46|223s15[82|27] 253s15[23|30] 283s15[70|30] 315s15[82|27]
+. 347s15[23|30] 379s15[70|30] 409s15[82|27] 439s15[23|30] 469s15[70|30] 501s15[82|27]
+. 533s15[23|30] 565s15[70|30] 608s46[82|27] 681s48[82|27] 684s48[23|30] 687s48[70|30]
+. 725s46[82|27] 798s48[82|27] 801s48[23|30] 804s48[70|30]
+X 35 generic_polynomial_systems.ads
+22A8*Poly_Sys(36|28P8[80|4])<88|6I8> 45|166r55[78|5] 46|578r55[78|5] 610r42[78|5]
+23P8*Link_to_Poly_Sys(22A8[78|5]) 46|583r39[78|5]
+29U13*Copy 46|614s37[78|5]
+X 36 generic_polynomials.ads
+28P8*Poly
+48V12*Number_of_Unknowns{91|7I8} 46|603s38[80|4] 623s16[80|4]
+X 42 main_poly_continuation.ads
+16K9*Main_Poly_Continuation 253e27 46|15w6 15r46
+22U13*Ask_Symbol 46|625s13 742s13
+50U13*Driver_for_Continuation_Parameters 46|631s5 748s5
+X 43 multitasking.ads
+4K9*Multitasking 105e17 46|20w6 73r24 75r24 90r24 92r24 107r24 109r24 163r24
+. 165r24 180r24 182r24 197r24 199r24 227r30 257r30 287r30 319r30 351r30 383r30
+. 413r30 443r30 473r30 505r30 537r30 569r30
+23V12*to_string{string} 46|73s37 75s37 90s37 92s37 107s37 109s37 163s37 165s37
+. 180s37 182s37 197s37 199s37
+44u13*Silent_Workers 46|227r43 257r43 287r43 413r43 443r43 473r43
+58u13*Reporting_Workers 46|319r43 351r43 383r43 505r43 537r43 569r43
+X 45 multitasking_continuation.ads
+11K9*Multitasking_Continuation 191l5 191e30 46|22b14 810l5 810t30
+16U13*Silent_Path_Tracker 17>18 18>18 46|24b13 35l7 35t26 224s9
+17p18 ls{82|25P8} 46|25b18 34r8
+18i18 nbq{88|6I8} 46|26b18 34r51
+19U13*Silent_Path_Tracker 20>18 21>18 46|37b13 48l7 48t26 254s9
+20p18 ls{23|28P8} 46|38b18 47r8
+21i18 nbq{88|6I8} 46|39b18 47r51
+22U13*Silent_Path_Tracker 23>18 24>18 46|50b13 61l7 61t26 284s9
+23p18 ls{70|28P8} 46|51b18 60r8
+24i18 nbq{88|6I8} 46|52b18 60r51
+33U13*Silent_Path_Tracker 34>18 34>21 35>18 36>18 46|63b13 78l7 78t26 316s9
+34i18 id{88|6I8} 46|64b18 73r57
+34i21 nb{88|6I8} 46|64b21 75r57
+35p18 ls{82|25P8} 46|65b18 77r8
+36i18 nbq{88|6I8} 46|66b18 77r51
+37U13*Silent_Path_Tracker 38>18 38>21 39>18 40>18 46|80b13 95l7 95t26 348s9
+38i18 id{88|6I8} 46|81b18 90r57
+38i21 nb{88|6I8} 46|81b21 92r57
+39p18 ls{23|28P8} 46|82b18 94r8
+40i18 nbq{88|6I8} 46|83b18 94r51
+41U13*Silent_Path_Tracker 42>18 42>21 43>18 44>18 46|97b13 112l7 112t26 380s9
+42i18 id{88|6I8} 46|98b18 107r57
+42i21 nb{88|6I8} 46|98b21 109r57
+43p18 ls{70|28P8} 46|99b18 111r8
+44i18 nbq{88|6I8} 46|100b18 111r51
+54U13*Silent_Laurent_Path_Tracker 55>18 56>18 46|114b13 125l7 125t34 410s9
+55p18 ls{82|25P8} 46|115b18 124r8
+56i18 nbq{88|6I8} 46|116b18 124r51
+57U13*Silent_Laurent_Path_Tracker 58>18 59>18 46|127b13 138l7 138t34 440s9
+58p18 ls{23|28P8} 46|128b18 137r8
+59i18 nbq{88|6I8} 46|129b18 137r51
+60U13*Silent_Laurent_Path_Tracker 61>18 62>18 46|140b13 151l7 151t34 470s9
+61p18 ls{70|28P8} 46|141b18 150r8
+62i18 nbq{88|6I8} 46|142b18 150r51
+68U13*Silent_Laurent_Path_Tracker 69>18 69>21 70>18 71>18 46|153b13 168l7
+. 168t34 502s9
+69i18 id{88|6I8} 46|154b18 163r57
+69i21 nb{88|6I8} 46|154b21 165r57
+70p18 ls{82|25P8} 46|155b18 167r8
+71i18 nbq{88|6I8} 46|156b18 167r51
+72U13*Silent_Laurent_Path_Tracker 73>18 73>21 74>18 75>18 46|170b13 185l7
+. 185t34 534s9
+73i18 id{88|6I8} 46|171b18 180r57
+73i21 nb{88|6I8} 46|171b21 182r57
+74p18 ls{23|28P8} 46|172b18 184r8
+75i18 nbq{88|6I8} 46|173b18 184r51
+76U13*Silent_Laurent_Path_Tracker 77>18 77>21 78>18 79>18 46|187b13 202l7
+. 202t34 566s9
+77i18 id{88|6I8} 46|188b18 197r57
+77i21 nb{88|6I8} 46|188b21 199r57
+78p18 ls{70|28P8} 46|189b18 201r8
+79i18 nbq{88|6I8} 46|190b18 201r51
+84U13*Silent_Multitasking_Path_Tracker 85=18 86>18 86>36 46|204b13 232l7
+. 232t39 660s15 661s15
+85p18 sols{82|28P8} 46|205b18 230r41
+86i18 n{88|6I8} 46|206b18 231r13
+86i36 nbq{88|6I8} 46|206b36 224r32
+87U13*Silent_Multitasking_Path_Tracker 88=18 89>18 89>36 46|234b13 262l7
+. 262t39 666s15 667s15
+88p18 sols{23|31P8} 46|235b18 260r41
+89i18 n{88|6I8} 46|236b18 261r13
+89i36 nbq{88|6I8} 46|236b36 254r32
+90U13*Silent_Multitasking_Path_Tracker 91=18 92>18 92>36 46|264b13 292l7
+. 292t39 672s15 673s15
+91p18 sols{70|31P8} 46|265b18 290r41
+92i18 n{88|6I8} 46|266b18 291r13
+92i36 nbq{88|6I8} 46|266b36 284r32
+102U13*Reporting_Multitasking_Path_Tracker 103=18 104>18 104>36 46|294b13
+. 324l7 324t42 639s15 640s15
+103p18 sols{82|28P8} 46|295b18 322r41
+104i18 n{88|6I8} 46|296b18 323r13
+104i36 nbq{88|6I8} 46|296b36 316r40
+105U13*Reporting_Multitasking_Path_Tracker 106=18 107>18 107>36 46|326b13
+. 356l7 356t42 645s15 646s15
+106p18 sols{23|31P8} 46|327b18 354r41
+107i18 n{88|6I8} 46|328b18 355r13
+107i36 nbq{88|6I8} 46|328b36 348r40
+108U13*Reporting_Multitasking_Path_Tracker 109=18 110>18 110>36 46|358b13
+. 388l7 388t42 651s15 652s15
+109p18 sols{70|31P8} 46|359b18 386r41
+110i18 n{88|6I8} 46|360b18 387r13
+110i36 nbq{88|6I8} 46|360b36 380r40
+121U13*Silent_Multitasking_Laurent_Path_Tracker 122=18 123>18 123>36 46|390b13
+. 418l7 418t47 777s15 778s15
+122p18 sols{82|28P8} 46|391b18 416r41
+123i18 n{88|6I8} 46|392b18 417r13
+123i36 nbq{88|6I8} 46|392b36 410r40
+124U13*Silent_Multitasking_Laurent_Path_Tracker 125=18 126>18 126>36 46|420b13
+. 448l7 448t47 783s15 784s15
+125p18 sols{23|31P8} 46|421b18 446r41
+126i18 n{88|6I8} 46|422b18 447r13
+126i36 nbq{88|6I8} 46|422b36 440r40
+127U13*Silent_Multitasking_Laurent_Path_Tracker 128=18 129>18 129>36 46|450b13
+. 478l7 478t47 789s15 790s15
+128p18 sols{70|31P8} 46|451b18 476r41
+129i18 n{88|6I8} 46|452b18 477r13
+129i36 nbq{88|6I8} 46|452b36 470r40
+139U13*Reporting_Multitasking_Laurent_Path_Tracker 140=18 141>18 141>36 46|480b13
+. 510l7 510t50 756s15 757s15
+140p18 sols{82|28P8} 46|481b18 508r41
+141i18 n{88|6I8} 46|482b18 509r13
+141i36 nbq{88|6I8} 46|482b36 502r48
+142U13*Reporting_Multitasking_Laurent_Path_Tracker 143=18 144>18 144>36 46|512b13
+. 542l7 542t50 762s15 763s15
+143p18 sols{23|31P8} 46|513b18 540r41
+144i18 n{88|6I8} 46|514b18 541r13
+144i36 nbq{88|6I8} 46|514b36 534r48
+145U13*Reporting_Multitasking_Laurent_Path_Tracker 146=18 147>18 147>36 46|544b13
+. 574l7 574t50 768s15 769s15
+146p18 sols{70|31P8} 46|545b18 572r41
+147i18 n{88|6I8} 46|546b18 573r13
+147i36 nbq{88|6I8} 46|546b36 566r48
+164U13*Driver_to_Path_Tracker 165>18 166>18 167>18 168>18 169>18 169>20 169>26
+. 46|576b13 691l7 691t29
+165p18 file{13|67P9} 46|577b18 593r15 594r15 599r14 600r14 602r15 603r15
+. 605r14 606r14 607r9 622r40 631r40 678r14 680r11 683r11 686r11 689r14 690r17
+166a18 p{35|22A8[78|5]} 46|578b18 593r30 593r38 594r30 594r55 610r51 614r42
+167i18 prclvl{91|7I8} 46|579b18 615r10 617r13
+168p18 ls{96|13P8} 46|580b18 622r45
+169i18 n{88|6I8} 46|581b18 639r60 640r60 645r60 646r60 651r60 652r60 660r57
+. 661r57 666r57 667r57 672r57 673r57
+169i20 nbequ{88|6I8} 46|581b20 592r8 601r8 638r12 640r62 644r12 646r62 650r12
+. 652r62 659r12 661r59 665r12 667r59 671r12 673r59
+169i26 nbvar{88|6I8} 46|581b26 592r16 594r48 601r16 638r20 644r20 650r20
+. 659r20 665r20 671r20
+170U13*Driver_to_Path_Tracker 171>18 172>18 173>18 174>18 175>18 175>20 175>26
+. 46|693b13 808l7 808t29
+171p18 file{13|67P9} 46|694b18 710r15 711r15 716r14 717r14 719r15 720r15
+. 722r14 723r14 724r9 739r40 748r40 795r14 797r11 800r11 803r11 806r14 807r17
+172a18 p{32|22A8[74|5]} 46|695b18 710r30 710r38 711r30 711r55 727r51 731r42
+173i18 prclvl{91|7I8} 46|696b18 732r10 734r13
+174p18 ls{96|13P8} 46|697b18 739r45
+175i18 n{88|6I8} 46|698b18 756r68 757r68 762r68 763r68 768r68 769r68 777r65
+. 778r65 783r65 784r65 789r65 790r65
+175i20 nbequ{88|6I8} 46|698b20 709r8 718r8 755r12 757r70 761r12 763r70 767r12
+. 769r70 776r12 778r67 782r12 784r67 788r12 790r67
+175i26 nbvar{88|6I8} 46|698b26 709r16 711r48 718r16 755r20 761r20 767r20
+. 776r20 782r20 788r20
+X 46 multitasking_continuation.adb
+28f5 length{85|13F8} 34m11
+29i5 nbstep{91|7I8} 34m18
+29i12 nbfail{91|7I8} 34m25
+29i19 nbiter{91|7I8} 34m32
+29i26 nbsyst{91|7I8} 34m39
+30b5 fail{boolean} 34m46
+41f5 length{85|13F8} 47m11
+42i5 nbstep{91|7I8} 47m18
+42i12 nbfail{91|7I8} 47m25
+42i19 nbiter{91|7I8} 47m32
+42i26 nbsyst{91|7I8} 47m39
+43b5 fail{boolean} 47m46
+54f5 length{85|13F8} 60m11
+55i5 nbstep{91|7I8} 60m18
+55i12 nbfail{91|7I8} 60m25
+55i19 nbiter{91|7I8} 60m32
+55i26 nbsyst{91|7I8} 60m39
+56b5 fail{boolean} 60m46
+68f5 length{85|13F8} 77m11
+69i5 nbstep{91|7I8} 77m18
+69i12 nbfail{91|7I8} 77m25
+69i19 nbiter{91|7I8} 77m32
+69i26 nbsyst{91|7I8} 77m39
+70b5 fail{boolean} 77m46
+85f5 length{85|13F8} 94m11
+86i5 nbstep{91|7I8} 94m18
+86i12 nbfail{91|7I8} 94m25
+86i19 nbiter{91|7I8} 94m32
+86i26 nbsyst{91|7I8} 94m39
+87b5 fail{boolean} 94m46
+102f5 length{85|13F8} 111m11
+103i5 nbstep{91|7I8} 111m18
+103i12 nbfail{91|7I8} 111m25
+103i19 nbiter{91|7I8} 111m32
+103i26 nbsyst{91|7I8} 111m39
+104b5 fail{boolean} 111m46
+118f5 length{85|13F8} 124m11
+119i5 nbstep{91|7I8} 124m18
+119i12 nbfail{91|7I8} 124m25
+119i19 nbiter{91|7I8} 124m32
+119i26 nbsyst{91|7I8} 124m39
+120b5 fail{boolean} 124m46
+131f5 length{85|13F8} 137m11
+132i5 nbstep{91|7I8} 137m18
+132i12 nbfail{91|7I8} 137m25
+132i19 nbiter{91|7I8} 137m32
+132i26 nbsyst{91|7I8} 137m39
+133b5 fail{boolean} 137m46
+144f5 length{85|13F8} 150m11
+145i5 nbstep{91|7I8} 150m18
+145i12 nbfail{91|7I8} 150m25
+145i19 nbiter{91|7I8} 150m32
+145i26 nbsyst{91|7I8} 150m39
+146b5 fail{boolean} 150m46
+158f5 length{85|13F8} 167m11
+159i5 nbstep{91|7I8} 167m18
+159i12 nbfail{91|7I8} 167m25
+159i19 nbiter{91|7I8} 167m32
+159i26 nbsyst{91|7I8} 167m39
+160b5 fail{boolean} 167m46
+175f5 length{85|13F8} 184m11
+176i5 nbstep{91|7I8} 184m18
+176i12 nbfail{91|7I8} 184m25
+176i19 nbiter{91|7I8} 184m32
+176i26 nbsyst{91|7I8} 184m39
+177b5 fail{boolean} 184m46
+192f5 length{85|13F8} 201m11
+193i5 nbstep{91|7I8} 201m18
+193i12 nbfail{91|7I8} 201m25
+193i19 nbiter{91|7I8} 201m32
+193i26 nbsyst{91|7I8} 201m39
+194b5 fail{boolean} 201m46
+210U15 Next_Solution 210b15 210>31 210>33 226l9 226t22 227r58
+210i31 i{88|6I8}
+210i33 n{88|6I8}
+216p7 myptr{82|28P8} 221m9 222r27 223r23
+217p7 ls{82|25P8} 223m9 224r29
+227U15 do_jobs[43|44] 44|61b13 46|231s5
+240U15 Next_Solution 240b15 240>31 240>33 256l9 256t22 257r58
+240i31 i{88|6I8}
+240i33 n{88|6I8}
+246p7 myptr{23|31P8} 251m9 252r27 253r23
+247p7 ls{23|28P8} 253m9 254r29
+257U15 do_jobs[43|44] 44|61b13 46|261s5
+270U15 Next_Solution 270b15 270>31 270>33 286l9 286t22 287r58
+270i31 i{88|6I8}
+270i33 n{88|6I8}
+276p7 myptr{70|31P8} 281m9 282r27 283r23
+277p7 ls{70|28P8} 283m9 284r29
+287U15 do_jobs[43|44] 44|61b13 46|291s5
+300U15 Next_Solution 300b15 300>31 300>33 318l9 318t22 319r61
+300i31 i{88|6I8} 316r29
+300i33 n{88|6I8}
+306i7 myjob{88|6I8} 314m9 316r31
+307p7 myptr{82|28P8} 312m9 313r27 315r23
+308p7 ls{82|25P8} 315m9 316r37
+319U15 do_jobs[43|58] 44|92b13 46|323s5
+332U15 Next_Solution 332b15 332>31 332>33 350l9 350t22 351r61
+332i31 i{88|6I8} 348r29
+332i33 n{88|6I8}
+338i7 myjob{88|6I8} 346m9 348r31
+339p7 myptr{23|31P8} 344m9 345r27 347r23
+340p7 ls{23|28P8} 347m9 348r37
+351U15 do_jobs[43|58] 44|92b13 46|355s5
+364U15 Next_Solution 364b15 364>31 364>33 382l9 382t22 383r61
+364i31 i{88|6I8} 380r29
+364i33 n{88|6I8}
+370i7 myjob{88|6I8} 378m9 380r31
+371p7 myptr{70|31P8} 376m9 377r27 379r23
+372p7 ls{70|28P8} 379m9 380r37
+383U15 do_jobs[43|58] 44|92b13 46|387s5
+396U15 Next_Solution 396b15 396>31 396>33 412l9 412t22 413r58
+396i31 i{88|6I8}
+396i33 n{88|6I8}
+402p7 myptr{82|28P8} 407m9 408r27 409r23
+403p7 ls{82|25P8} 409m9 410r37
+413U15 do_jobs[43|44] 44|61b13 46|417s5
+426U15 Next_Solution 426b15 426>31 426>33 442l9 442t22 443r58
+426i31 i{88|6I8}
+426i33 n{88|6I8}
+432p7 myptr{23|31P8} 437m9 438r27 439r23
+433p7 ls{23|28P8} 439m9 440r37
+443U15 do_jobs[43|44] 44|61b13 46|447s5
+456U15 Next_Solution 456b15 456>31 456>33 472l9 472t22 473r58
+456i31 i{88|6I8}
+456i33 n{88|6I8}
+462p7 myptr{70|31P8} 467m9 468r27 469r23
+463p7 ls{70|28P8} 469m9 470r37
+473U15 do_jobs[43|44] 44|61b13 46|477s5
+486U15 Next_Solution 486b15 486>31 486>33 504l9 504t22 505r61
+486i31 i{88|6I8} 502r37
+486i33 n{88|6I8}
+492i7 myjob{88|6I8} 500m9 502r39
+493p7 myptr{82|28P8} 498m9 499r27 501r23
+494p7 ls{82|25P8} 501m9 502r45
+505U15 do_jobs[43|58] 44|92b13 46|509s5
+518U15 Next_Solution 518b15 518>31 518>33 536l9 536t22 537r61
+518i31 i{88|6I8} 534r37
+518i33 n{88|6I8}
+524i7 myjob{88|6I8} 532m9 534r39
+525p7 myptr{23|31P8} 530m9 531r27 533r23
+526p7 ls{23|28P8} 533m9 534r45
+537U15 do_jobs[43|58] 44|92b13 46|541s5
+550U15 Next_Solution 550b15 550>31 550>33 568l9 568t22 569r61
+550i31 i{88|6I8} 566r37
+550i33 n{88|6I8}
+556i7 myjob{88|6I8} 564m9 566r39
+557p7 myptr{70|31P8} 562m9 563r27 565r23
+558p7 ls{70|28P8} 565m9 566r45
+569U15 do_jobs[43|58] 44|92b13 46|573s5
+583p5 q{35|23P8[78|5]} 598m9 598r9 602r30 602r38 603r30 603r57 603r59 603r69
+. 622r51 623r35 623r37 623r59
+584p5 st_qsols{82|28P8} 598m11 598r11 607r51 608r54 608r67 622m57 622r57
+. 639m51 639r51 640m51 640r51 643r55 649r55 660m48 660r48 661m48 661r48 664r55
+. 670r55 680r53 681r56 681r69
+585p5 dd_qsols{23|31P8} 643m9 645m51 645r51 646m51 646r51 664m9 666m48 666r48
+. 667m48 667r48 683r53 684r56 684r69
+586p5 qd_qsols{70|31P8} 649m9 651m51 651r51 652m51 652r51 670m9 672m48 672r48
+. 673m48 673r48 686r53 687r56 687r69
+587p5 timer{128|16P8} 636m14 636r14 655m13 655r13 657m14 657r14 676m13 676r13
+. 690r22
+588i5 deci{91|7I8} 616m9 618m9 620m9 622m68 622r68 637r10 642r13 658r10 663r13
+. 669r13 679r8 682r11
+589e5 ans{character} 634m19 635r8
+610a7 pp{35|22A8[78|5]} 614m44 614r44 622m48 622r48
+611r7 t{77|11R8} 622m66
+612b7 proj{boolean} 623m7 624r10
+700p5 q{32|23P8[74|5]} 715m9 715r9 719r30 719r38 720r30 720r57 720r59 720r69
+. 739r51 740r35 740r37 740r59
+701p5 st_qsols{82|28P8} 715m11 715r11 724r51 725r54 725r67 739m57 739r57
+. 756m59 756r59 757m59 757r59 760r55 766r55 777m56 777r56 778m56 778r56 781r55
+. 787r55 797r53 798r56 798r69
+702p5 dd_qsols{23|31P8} 760m9 762m59 762r59 763m59 763r59 781m9 783m56 783r56
+. 784m56 784r56 800r53 801r56 801r69
+703p5 qd_qsols{70|31P8} 766m9 768m59 768r59 769m59 769r59 787m9 789m56 789r56
+. 790m56 790r56 803r53 804r56 804r69
+704p5 timer{128|16P8} 753m14 753r14 772m13 772r13 774m14 774r14 793m13 793r13
+. 807r22
+705i5 deci{91|7I8} 733m9 735m9 737m9 739m68 739r68 754r10 759r13 775r10 780r13
+. 786r13 796r8 799r11
+706e5 ans{character} 751m19 752r8
+727a7 pp{32|22A8[74|5]} 731m44 731r44 739m48 739r48
+728r7 t{77|11R8} 739m66
+729b7 proj{boolean} 740m7 741r10
+X 59 phcpack_operations.ads
+24K9*PHCpack_Operations 46|16w6 33r5 46r5 59r5 76r5 93r5 110r5 123r5 136r5
+. 149r5 166r5 183r5 200r5 59|626e23
+331U13*Silent_Path_Tracker 46|33s24 76s24
+336U13*Silent_Path_Tracker 46|46s24 93s24
+341U13*Silent_Path_Tracker 46|59s24 110s24
+493U13*Silent_Laurent_Path_Tracker 46|123s24 166s24
+498U13*Silent_Laurent_Path_Tracker 46|136s24 183s24
+503U13*Silent_Laurent_Path_Tracker 46|149s24 200s24
+X 70 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 45|9w6 23r26 43r26 61r26 78r26 91r32 109r32
+. 128r32 146r32 46|51r26 99r26 141r26 189r26 265r32 268r9 359r32 362r9 451r32
+. 454r9 545r32 548r9 586r16 649r21 670r21 686r16 687r21 703r16 766r21 787r21
+. 803r16 804r21 70|235e31
+19i19*n{88|6I8} 46|687r66 804r66
+28P8*Link_to_Solution(19R8) 45|23r53 43r53 61r53 78r53 46|51r53 99r53 141r53
+. 189r53 277r12 372r12 463r12 558r12
+31P8*Solution_List<34|12P8[30]> 45|91r59 109r59 128r59 146r59 46|265r59 276r15
+. 359r59 371r15 451r59 462r15 545r59 557r15 586r43 703r43
+56V12*Create{31P8} 46|649s48 670s48 766s48 787s48
+X 71 quaddobl_complex_solutions_io.ads
+6K9*QuadDobl_Complex_Solutions_io 46|11w6 11r46 71|305e34
+76U13*put 46|686s7 803s7
+X 73 quaddobl_solutions_queue.ads
+4K9*QuadDobl_Solutions_Queue 46|19w6 281r18 290r5 376r18 378r18 386r5 467r18
+. 476r5 562r18 564r18 572r5 73|34e29
+10U13*Initialize 46|290s30 386s30 476s30 572s30
+15V12*Next{70|31P8} 46|281s43 376s43 467s43 562s43
+28V12*Next_Counter{88|6I8} 46|378s43 564s43
+X 74 standard_complex_laur_systems.ads
+5K9*Standard_Complex_Laur_Systems[32|12] 45|6w6 172r25 46|695r25 700r9 727r12
+. 731r7
+X 75 standard_complex_laur_systems_io.ads
+6K9*Standard_Complex_Laur_Systems_io 46|8w6 8r46 75|94e37
+48U13*put 46|710s11 719s11
+50U13*put 46|711s11 720s11
+X 76 standard_complex_laurentials.ads
+4K9*Standard_Complex_Laurentials[33|12] 46|7w6 7r46
+X 77 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 46|4w6 4r46 77|92e29
+11R8*Complex_Number 46|611r11 728r11 77|90e15
+X 78 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[35|12] 45|5w6 166r25 46|578r25 583r9 610r12
+. 614r7
+X 79 standard_complex_poly_systems_io.ads
+6K9*Standard_Complex_Poly_Systems_io 46|6w6 6r46 79|130e37
+53U13*put 46|593s11 602s11
+55U13*put 46|594s11 603s11
+X 80 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[36|11] 46|5w6 5r46
+X 82 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 45|7w6 17r26 35r26 55r26 70r26 85r32 103r32
+. 122r32 140r32 46|25r26 65r26 115r26 155r26 205r32 208r9 295r32 298r9 391r32
+. 394r9 481r32 484r9 584r16 607r14 608r19 680r16 681r21 701r16 724r14 725r19
+. 797r16 798r21 82|206e31
+16i19*n{88|6I8} 46|608r64 681r66 725r64 798r66
+25P8*Link_to_Solution(16R8) 45|17r53 35r53 55r53 70r53 46|25r53 65r53 115r53
+. 155r53 217r12 308r12 403r12 494r12
+28P8*Solution_List<34|12P8[27]> 45|85r59 103r59 122r59 140r59 46|205r59 216r15
+. 295r59 307r15 391r59 402r15 481r59 493r15 584r43 701r43
+X 83 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 46|9w6 9r46 83|358e34
+120U13*put 46|607s5 680s7 724s5 797s7
+X 85 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 46|3w6 3r46 85|58e30
+13F8*double_float<long_float> 46|28r14 41r14 54r14 68r14 85r14 102r14 118r14
+. 131r14 144r14 158r14 175r14 192r14
+X 88 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45|4w6 4r45 88|45e29
+6I8*integer32<long_integer> 45|18r27 21r27 24r27 34r29 36r27 38r29 40r27
+. 42r29 44r27 56r27 59r27 62r27 69r29 71r27 73r29 75r27 77r29 79r27 86r25
+. 86r45 89r25 89r45 92r25 92r45 104r25 104r45 107r25 107r45 110r25 110r45
+. 123r25 123r45 126r25 126r45 129r25 129r45 141r25 141r45 144r25 144r45 147r25
+. 147r45 169r37 175r37 46|26r27 39r27 52r27 64r29 66r27 81r29 83r27 98r29
+. 100r27 116r27 129r27 142r27 154r29 156r27 171r29 173r27 188r29 190r27 206r25
+. 206r45 210r40 236r25 236r45 240r40 266r25 266r45 270r40 296r25 296r45 300r40
+. 306r15 328r25 328r45 332r40 338r15 360r25 360r45 364r40 370r15 392r25 392r45
+. 396r40 422r25 422r45 426r40 452r25 452r45 456r40 482r25 482r45 486r40 492r15
+. 514r25 514r45 518r40 524r15 546r25 546r45 550r40 556r15 581r37 698r37
+X 91 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 45|3w6 3r45 91|30e29
+7I8*natural32<long_integer> 45|167r30 173r30 46|29r35 42r35 55r35 69r35 73r47
+. 75r47 86r35 90r47 92r47 103r35 107r47 109r47 119r35 132r35 145r35 159r35
+. 163r47 165r47 176r35 180r47 182r47 193r35 197r47 199r47 579r30 588r12 593r20
+. 594r20 594r38 602r20 603r20 608r9 623r49 681r11 684r11 687r11 696r30 705r12
+. 710r20 711r20 711r38 719r20 720r20 725r9 740r49 798r11 801r11 804r11
+X 94 standard_solutions_queue.ads
+4K9*Standard_Solutions_Queue 46|17w6 221r18 230r5 312r18 314r18 322r5 407r18
+. 416r5 498r18 500r18 508r5 94|34e29
+10U13*Initialize 46|230s30 322s30 416s30 508s30
+15V12*Next{82|28P8} 46|221s43 312s43 407s43 498s43
+28V12*Next_Counter{88|6I8} 46|314s43 500s43
+X 95 standard_system_and_solutions_io.ads
+9K9*Standard_System_and_Solutions_io 46|12w6 12r46 95|121e37
+23U13*get 46|598s5
+28U13*get 46|715s5
+X 96 string_splitters.ads
+3K9*String_Splitters 45|2w6 168r26 174r26 46|580r26 697r26 96|82e21
+11P8*Link_to_String(string)
+12A8*Array_of_Strings(11P8)<integer>
+13P8*Link_to_Array_of_Strings(12A8) 45|168r43 174r43 46|580r43 697r43
+X 114 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 127 text_io.ads
+27K9*Text_IO=27:29 45|1w6 1r45
+X 128 timing_package.ads
+3K9*Timing_Package 46|2w6 2r46 128|66e19
+16P8*Timing_Widget 46|587r13 704r13
+20U13*tstart 46|636s7 657s7 753s7 774s7
+24U13*tstop 46|655s7 676s7 772s7 793s7
+49U13*print_times 46|690s5 807s5
+

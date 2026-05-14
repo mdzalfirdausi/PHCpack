@@ -1,0 +1,841 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U standard_evaluate_deflation%b  standard_evaluate_deflation.adb  4b805612 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z generic_lists%s	generic_lists.adb	generic_lists.ali  ED
+W monomial_hashing%s	monomial_hashing.adb	monomial_hashing.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_deflation_matrices%s  standard_deflation_matrices.adb  standard_deflation_matrices.ali
+W standard_evaluate_deflation_io%s  standard_evaluate_deflation_io.adb  standard_evaluate_deflation_io.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_natural_vectors_io%s  standard_natural_vectors_io.ads  standard_natural_vectors_io.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U standard_evaluate_deflation%s  standard_evaluate_deflation.ads  d48df574 BN EE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W standard_complex_jaco_matrices%s  standard_complex_jaco_matrices.ads  standard_complex_jaco_matrices.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_poly_sysfun%s  standard_complex_poly_sysfun.ads  standard_complex_poly_sysfun.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_jacobian_trees%s  standard_jacobian_trees.adb  standard_jacobian_trees.ali
+W standard_natural64_vecvecs%s  standard_natural64_vecvecs.ads  standard_natural64_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_natural_vecvecs%s  standard_natural_vecvecs.ads  standard_natural_vecvecs.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D monomial_hashing.ads	20260513024558 8efbe726 monomial_hashing%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_deflation_matrices.ads  20260513024558 5944bdaf standard_deflation_matrices%s
+D standard_evaluate_deflation.ads  20260513024558 8a025887 standard_evaluate_deflation%s
+D standard_evaluate_deflation.adb  20260513024558 6129c4a0 standard_evaluate_deflation%b
+D standard_evaluate_deflation_io.ads  20260513024558 8792ccdd standard_evaluate_deflation_io%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_jacobian_trees.ads  20260513024558 6fcdc939 standard_jacobian_trees%s
+D standard_natural64_ring.ads  20260513024558 8db8ee3d standard_natural64_ring%s
+D standard_natural64_vectors.ads  20260513024558 625c93b1 standard_natural64_vectors%s
+D standard_natural64_vecvecs.ads  20260513024558 74e50acc standard_natural64_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_ring_io.ads  20260513024558 d39135ca standard_natural_ring_io%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_natural_vectors_io.ads  20260513024558 41c126ae standard_natural_vectors_io%s
+D standard_natural_vecvecs.ads  20260513024558 659c81d4 standard_natural_vecvecs%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s standard_evaluate_deflation 17 1 none]
+G c Z s s [create standard_evaluate_deflation__list_of_nodes 21 12 38_3]
+G c Z s s [construct standard_evaluate_deflation__list_of_nodes 26 13 38_3]
+G c Z s s [set_head standard_evaluate_deflation__list_of_nodes 31 13 38_3]
+G c Z s s [swap_tail standard_evaluate_deflation__list_of_nodes 38 13 38_3]
+G c Z s s [append standard_evaluate_deflation__list_of_nodes 43 13 38_3]
+G c Z s s [concat standard_evaluate_deflation__list_of_nodes 49 13 38_3]
+G c Z s s [copy standard_evaluate_deflation__list_of_nodes 55 13 38_3]
+G c Z s s [is_equal standard_evaluate_deflation__list_of_nodes 62 12 38_3]
+G c Z s s [length_of standard_evaluate_deflation__list_of_nodes 67 12 38_3]
+G c Z s s [is_null standard_evaluate_deflation__list_of_nodes 72 12 38_3]
+G c Z s s [head_of standard_evaluate_deflation__list_of_nodes 77 12 38_3]
+G c Z s s [tail_of standard_evaluate_deflation__list_of_nodes 84 12 38_3]
+G c Z s s [clear standard_evaluate_deflation__list_of_nodes 93 13 38_3]
+G c Z s s [nodeIP standard_evaluate_deflation__list_of_nodes 5 8 38_3]
+G c Z s s [set_next standard_evaluate_deflation__list_of_nodes 14 13 38_3]
+G c Z s s [next_of standard_evaluate_deflation__list_of_nodes 19 12 38_3]
+G c Z s s [free standard_evaluate_deflation__list_of_nodes 24 13 38_3]
+G c Z s s [new_item standard_evaluate_deflation__list_of_nodes 37 12 38_3]
+G c Z s b [create standard_evaluate_deflation 43 12 none]
+G c Z s b [is_in standard_evaluate_deflation 49 12 none]
+G c Z s b [key_in standard_evaluate_deflation 56 12 none]
+G c Z s b [key_in standard_evaluate_deflation 63 12 none]
+G c Z s b [look_up standard_evaluate_deflation 70 12 none]
+G c Z s b [is_leaf standard_evaluate_deflation 76 12 none]
+G c Z s b [node_count standard_evaluate_deflation 81 12 none]
+G c Z s b [different_node_count standard_evaluate_deflation 86 12 none]
+G c Z s b [update_stack standard_evaluate_deflation 120 13 none]
+G c Z s b [eval standard_evaluate_deflation 151 12 none]
+G c Z s b [eval standard_evaluate_deflation 181 12 none]
+G c Z s b [eval standard_evaluate_deflation 187 12 none]
+G c Z s b [clear standard_evaluate_deflation 219 13 none]
+G c Z s b [clear standard_evaluate_deflation 220 13 none]
+G c Z s b [clear standard_evaluate_deflation 221 13 none]
+G c Z s s [array_of_eval_treesIP standard_evaluate_deflation 27 8 none]
+G c Z s s [eval_treeIP standard_evaluate_deflation 30 8 none]
+G c Z b b [display_dimensions standard_evaluate_deflation 326 13 none]
+G c Z b b [lookup standard_evaluate_deflation 348 12 none]
+G c Z b b [lookup standard_evaluate_deflation 364 12 none]
+G c Z b b [lookup standard_evaluate_deflation 383 13 none]
+G c Z b b [lookup standard_evaluate_deflation 403 13 none]
+G c Z b b [evaluate_nodes standard_evaluate_deflation 425 13 none]
+G c Z b b [evaluate_nodes standard_evaluate_deflation 434 13 none]
+G c Z b b [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none]
+G c Z b b [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none]
+G r i none [s standard_evaluate_deflation 17 1 none] [generic_lists standard 7 9 none]
+G r c none [create standard_evaluate_deflation 43 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [is_in standard_evaluate_deflation 49 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [key_in standard_evaluate_deflation 56 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [key_in standard_evaluate_deflation 63 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [different_node_count standard_evaluate_deflation 86 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [update_stack standard_evaluate_deflation 120 13 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r s jacobian_remember_table [eval standard_evaluate_deflation 151 12 none] [jacobian_remember_tableIP standard_jacobian_trees 35 8 none]
+G r s vecvec [eval standard_evaluate_deflation 151 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [multiply standard_deflation_matrices 65 12 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [evaluate_jacobian_remember_table standard_jacobian_trees 136 12 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r s vecmat [eval standard_evaluate_deflation 151 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [eval standard_evaluate_deflation 151 12 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [assign_children standard_deflation_matrices 433 13 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [assign_children standard_deflation_matrices 448 13 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [clear standard_natural_vecvecs 32 13 5_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [clear standard_jacobian_trees 167 13 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [clear standard_complex_matrices 67 13 5_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [eval standard_evaluate_deflation 151 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_evaluate_deflation 151 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r s jacobian_remember_table [eval standard_evaluate_deflation 181 12 none] [jacobian_remember_tableIP standard_jacobian_trees 35 8 none]
+G r s vecvec [eval standard_evaluate_deflation 181 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [eval standard_evaluate_deflation 181 12 none] [multiply standard_deflation_matrices 65 12 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [evaluate_jacobian_remember_table standard_jacobian_trees 136 12 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [eval standard_evaluate_deflation 181 12 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [eval standard_evaluate_deflation 181 12 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r s vecmat [eval standard_evaluate_deflation 181 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [eval standard_evaluate_deflation 181 12 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [eval standard_evaluate_deflation 181 12 none] [assign_children standard_deflation_matrices 433 13 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [assign_children standard_deflation_matrices 448 13 none]
+G r c none [eval standard_evaluate_deflation 181 12 none] [clear standard_natural_vecvecs 32 13 5_1]
+G r c none [eval standard_evaluate_deflation 181 12 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [eval standard_evaluate_deflation 181 12 none] [clear standard_jacobian_trees 167 13 none]
+G r s jacobian_remember_table [eval standard_evaluate_deflation 187 12 none] [jacobian_remember_tableIP standard_jacobian_trees 35 8 none]
+G r s vecvec [eval standard_evaluate_deflation 187 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [multiply standard_deflation_matrices 65 12 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [evaluate_jacobian_remember_table standard_jacobian_trees 136 12 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [write_derivative_operator standard_evaluate_deflation_io 37 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [write_spaces standard_evaluate_deflation_io 47 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [write_derivative_operator standard_evaluate_deflation_io 25 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [monomial_count monomial_hashing 28 12 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r s vecmat [eval standard_evaluate_deflation 187 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [eval standard_evaluate_deflation 187 12 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [write_zero standard_evaluate_deflation_io 53 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [assign_children standard_deflation_matrices 438 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [put standard_natural_vectors_io 36 13 5_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [assign_children standard_deflation_matrices 456 13 none]
+G r c none [eval standard_evaluate_deflation 187 12 none] [clear standard_natural_vecvecs 32 13 5_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [eval standard_evaluate_deflation 187 12 none] [clear standard_jacobian_trees 167 13 none]
+G r c none [clear standard_evaluate_deflation 219 13 none] [clear standard_complex_matrices 67 13 5_1]
+G r c none [clear standard_evaluate_deflation 220 13 none] [clear standard_complex_matrices 67 13 5_1]
+G r c none [clear standard_evaluate_deflation 221 13 none] [clear standard_complex_matrices 67 13 5_1]
+G r c none [display_dimensions standard_evaluate_deflation 326 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [display_dimensions standard_evaluate_deflation 326 13 none] [monomial_count monomial_hashing 28 12 none]
+G r c none [lookup standard_evaluate_deflation 364 12 none] [write_derivative_operator standard_evaluate_deflation_io 25 13 none]
+G r c none [lookup standard_evaluate_deflation 403 13 none] [write_derivative_operator standard_evaluate_deflation_io 25 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r s vecmat [evaluate_nodes standard_evaluate_deflation 425 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [evaluate_nodes standard_evaluate_deflation 425 13 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [assign_children standard_deflation_matrices 433 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [assign_children standard_deflation_matrices 448 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 425 13 none] [clear standard_natural_vecvecs 32 13 5_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [write_derivative_operator standard_evaluate_deflation_io 37 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [write_spaces standard_evaluate_deflation_io 47 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [write_derivative_operator standard_evaluate_deflation_io 25 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [monomial_count monomial_hashing 28 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r s vecmat [evaluate_nodes standard_evaluate_deflation 434 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [evaluate_nodes standard_evaluate_deflation 434 13 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [write_zero standard_evaluate_deflation_io 53 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [assign_children standard_deflation_matrices 438 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [put standard_natural_vectors_io 36 13 5_1]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [assign_children standard_deflation_matrices 456 13 none]
+G r c none [evaluate_nodes standard_evaluate_deflation 434 13 none] [clear standard_natural_vecvecs 32 13 5_1]
+G r s vecmat [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [assign_children standard_deflation_matrices 433 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [assign_children standard_deflation_matrices 448 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 469 13 none] [clear standard_natural_vecvecs 32 13 5_1]
+G r s vecmat [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [vecvecIP standard_natural_vecvecs 14 8 5_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [write_spaces standard_evaluate_deflation_io 47 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [write_derivative_operator standard_evaluate_deflation_io 25 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [write_zero standard_evaluate_deflation_io 53 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [write_derivative_operator standard_evaluate_deflation_io 37 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [equal standard_natural_vectors 21 12 4_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [number_of_columns standard_deflation_matrices 27 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [monomial_count monomial_hashing 28 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [zero_matrix standard_deflation_matrices 43 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [dimensions standard_jacobian_trees 99 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [assign_from_jacobian_matrices standard_deflation_matrices 264 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [assign_scaling_coefficients standard_deflation_matrices 236 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [assign_children standard_deflation_matrices 438 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [put standard_natural_vectors_io 36 13 5_1]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [assign_children standard_deflation_matrices 456 13 none]
+G r c none [recursive_evaluate_nodes standard_evaluate_deflation 519 13 none] [clear standard_natural_vecvecs 32 13 5_1]
+X 12 a-textio.ads
+67P9*File_Type 42|187r26 43|327r28 364r28 403r32 435r27 520r27 642r27 761r26
+277U14*New_Line 43|375s61 415s61 564s24 570s34 573s49 782s5
+508U14*Put 43|336s5 342s27 343s37 543s11 544s31 557s7 562s7 563s22 569s11
+. 569s46 573s7 656s5 659s7 659s54 778s5 780s7
+515U14*Put 43|338s37
+555U14*Put_Line 43|339s7 344s37 378s7 419s7 558s24 560s7 565s7 576s7 774s5
+. 776s5
+X 14 generic_jacobian_matrices.ads
+42A8*Eval_Jaco_Mat(19|26P8[33|6])<46|6I8><46|6I8> 42|151r43[30|11] 43|691r43[30|11]
+77V12*Eval{17|16A8[31|5]} 43|708s13[30|11]
+X 15 generic_lists.ads
+7k9*Generic_Lists 104e18 42|2w6 38r32
+12P8*List 42|39r39[38] 43|106r39[42|38] 807r39[42|38]
+43U13*Append 43|43s11[42|38] 58s13[42|38]
+72V12*Is_Null{boolean} 43|36s10[42|38] 163s15[42|38] 802s15[42|38]
+77V12*Head_Of{42|26P8} 43|165s43[42|38] 803s14[42|38]
+84V12*Tail_Of{12P8[42|38]} 43|174s14[42|38] 805s14[42|38]
+93U13*Clear 43|106s19[42|38] 807s19[42|38]
+X 17 generic_matrices.ads
+16A8*Matrix(32|11R8)<46|6I8><46|6I8> 42|185r24[31|5] 192r24[31|5] 43|611r22[31|5]
+. 619r22[31|5] 627r20[31|5] 668r22[31|5] 673r22[31|5] 677r20[31|5] 702r10[31|5]
+. 738r24[31|5] 766r24[31|5]
+17P8*Link_to_Matrix(16A8[31|5]) 42|35r35[31|5] 43|349r46[31|5] 355r25[31|5]
+. 365r46[31|5] 371r25[31|5] 384r54[31|5] 404r54[31|5]
+51V13*"*"{23|16A8[39|4]} 43|721s19[31|5] 722s13[31|5]
+67U13*Clear 43|815s31[31|5]
+X 18 generic_poly_system_functions.ads
+33A8*Eval_Poly_Sys(19|26P8[33|6])<46|6I8> 42|151r23[34|9] 43|691r23[34|9]
+57V12*Eval{23|16A8[39|4]} 43|707s13[34|9]
+X 19 generic_polynomial_functions.ads
+26P8*Eval_Poly
+X 22 generic_vecmats.ads
+15A8*VecMat(17|17P8[31|5])<46|6I8> 42|155r23[38|6] 184r23[38|6] 191r23[38|6]
+. 43|431r24[38|6] 440r24[38|6] 475r24[38|6] 481r12[38|6] 525r24[38|6] 531r12[38|6]
+. 587r24[38|6] 647r24[38|6] 696r23[38|6] 737r23[38|6] 765r23[38|6]
+16P8*Link_to_VecMat(15A8[38|6])
+X 23 generic_vectors.ads
+16A8*Vector(54|8I8)<46|6I8> 42|32r34[58|4] 34r34[49|4] 49r64[58|4] 56r65[58|4]
+. 63r65[58|4] 96r45[58|4] 122r55[58|4] 124r50[58|4] 154r55[58|4] 156r50[39|4]
+. 183r55[58|4] 190r55[58|4] 43|22r18[58|4] 24r53[58|4] 80r16[58|4] 110r64[58|4]
+. 132r65[58|4] 155r65[58|4] 260r53[58|4] 275r16[58|4] 294r23[58|4] 302r54[58|4]
+. 304r49[58|4] 319r32[58|4] 328r56[58|4] 396r41[58|4] 417r41[58|4] 430r56[58|4]
+. 439r56[58|4] 474r56[58|4] 499r49[58|4] 524r56[58|4] 553r49[58|4] 586r56[58|4]
+. 646r56[58|4] 695r55[58|4] 697r50[39|4] 700r34[39|4] 701r38[39|4] 703r35[39|4]
+. 736r55[58|4] 743r35[58|4] 764r55[58|4] 771r35[58|4]
+17P8*Link_to_Vector(16A8[39|4]) 43|385r55[58|4] 405r55[58|4]
+21V12*Equal{boolean} 43|119s39[58|4] 141s35[58|4] 168s39[58|4] 313s22[58|4]
+52V12*Sum{54|7I8} 43|507s45[58|4] 568s45[58|4] 629s37[58|4] 678s37[58|4]
+X 24 generic_vectors_io.ads
+36U13*put 43|563s7[59|5] 570s11[59|5]
+X 25 generic_vecvecs.ads
+14A8*VecVec(23|17P8[58|4])<46|6I8> 42|121r55[60|5] 153r56[53|5] 155r62[40|5]
+. 182r56[53|5] 184r62[40|5] 189r56[53|5] 191r62[40|5] 43|301r54[60|5] 428r57[53|5]
+. 431r69[40|5] 437r57[53|5] 440r69[40|5] 472r57[53|5] 475r69[40|5] 483r37[60|5]
+. 522r57[53|5] 525r69[40|5] 533r37[60|5] 584r57[53|5] 587r69[40|5] 644r57[53|5]
+. 647r69[40|5] 693r56[53|5] 696r62[40|5] 734r56[53|5] 737r62[40|5] 742r35[40|5]
+. 763r56[53|5] 765r62[40|5] 770r35[40|5]
+32U13*Clear 43|514s30[60|5] 578s30[60|5] 752s30[40|5] 786s30[40|5]
+X 29 monomial_hashing.ads
+5K9*Monomial_Hashing 68e21 43|6w6 6r44
+28V12*Monomial_Count{54|7I8} 43|341s17
+X 30 standard_complex_jaco_matrices.ads
+11K9*Standard_Complex_Jaco_Matrices[14|25] 42|14w6 14r44
+X 31 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[17|9] 42|11w6 11r44 35r9 43|815r5
+X 32 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 43|5w6 5r44
+18V12*Create{11R8} 43|620s23 674s23 726s18
+51V13*"+"{11R8} 43|728s30
+55V13*"*"{11R8} 43|728s39
+X 34 standard_complex_poly_sysfun.ads
+9K9*Standard_Complex_Poly_SysFun[18|19] 42|13w6 13r44
+X 38 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[22|11] 42|12w6 12r44
+X 39 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[23|8] 42|7w6 156r25 43|697r25 700r9 701r13 703r10
+X 40 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[25|10] 42|10w6 155r37 184r37 191r37 43|431r44
+. 440r44 475r44 525r44 587r44 647r44 696r37 737r37 742r10 752r5 765r37 770r10
+. 786r5
+X 41 standard_deflation_matrices.ads
+13K9*Standard_Deflation_Matrices 490e32 43|7w6 7r44
+27V12*Number_of_Columns{54|7I8} 43|600s14 662s14
+43V12*Zero_Matrix{17|16A8[31|5]} 43|611s30 627s28 668s30 677s28 756s18 789s18
+65V12*Multiply{25|14A8[40|5]} 43|747s11 775s11
+236U13*Assign_Scaling_Coefficients 43|630s15 679s15
+264U13*Assign_from_Jacobian_Matrices 43|615s11 671s11
+433U13*Assign_Children 43|503s7
+438U13*Assign_Children 43|559s7
+448U13*Assign_Children 43|510s7
+456U13*Assign_Children 43|574s7
+X 42 standard_evaluate_deflation.ads
+17K9*Standard_Evaluate_Deflation 226l5 226e32 43|12b14 829l5 829t32
+25R8*Eval_Tree 26r36 30c8 30d20 30d22 36e13 49r24 56r25 76r26 81r31 86r41
+. 220r34 43|39r21 42r22 54r23 57r24 110r24 132r25 200r26 210r31 214r36 231r41
+. 235r36 810r34 820r50
+26P8*Link_to_Eval_Tree(25R8) 28r37 38r46 43r44 70r26 71r27 152r23 181r23
+. 188r23 221r34 43|14r44 18r11 26r39 165r22 181r26 182r27 184r11 348r27 354r19
+. 364r45 370r19 383r31 391r19 403r52 411r19 426r29 435r50 470r29 520r50 582r29
+. 642r50 692r23 711r14 733r23 740r20 762r23 768r20 799r11 818r34 820r60
+27A8*Array_of_Eval_Trees(26P8)<46|6I8> 33r9
+30R8*Eval_Tree
+30i20*k{46|6I8} 32r44
+30i22*m{46|6I8} 33r32 34r44 43|116r10 118r13 138r11 140r13 167r14 217r12
+. 237r27 239r14 375r56 415r56 502r32 503r29 503r43 511r39 512r18 512r26 542r41
+. 547r39 556r32 558r18 559r34 559r48 564r18 574r57 575r44 575r52 595r34 600r60
+. 606r12 611r47 611r55 627r45 630r51 654r52 655r35 657r34 662r60 663r43 664r12
+. 668r47 668r55 677r45 679r51
+31i5*key{54|7I8} 43|41m19 46m13 56m21 65m15 66r34 138r34 142r32 169r36 187r20
+. 237r41 595r48 656r32 657r48
+32a5*d{23|16A8[58|4]} 43|45m13 60m15 119r47 141r43 168r47 237r23 375r41 396r52
+. 415r41 417r52 499r64 511r22 553r64 563r18 574r40 595r30 600r34 607r28 607r32
+. 629r43 654r38 657r30 662r34 663r52 665r28 665r32 678r43
+33a5*c{27A8} 43|75m47 76m19 84m44 89m50 122r18 123r14 124r26 145r18 146r14
+. 147r27 190r18 191r14 192r32 202r16 203r12 218r20 219r16 220r31 240r22 241r18
+. 242r33 481r21 483r46 490r16 491r12 497r19 498r22 499r59 531r21 533r46 539r16
+. 540r12 551r24 552r22 553r59 812r18 813m17
+34a5*e{23|16A8[49|4]} 43|61r24 62m17 75m38 77m19 84m35 89m39 92m19 203r30
+. 492r14 493r25 541r14 544r22 545r30
+35p5*v{17|17P8[31|5]} 43|359r21 376r17 395r19 416r19 498r27 503m25 511m12
+. 552r27 559m30 574m30 598m9 611m13 612r20 615m43 619m13 620r13 627m11 630m45
+. 660m9 668m13 669r20 671m43 673m13 674r13 677m11 679m45 755r12 757r22 788r12
+. 790r22 815m41
+38K11*List_of_Nodes[15|7] 39r25 43|106r5 106r25 807r5 807r25
+39P8*Node_List<15|12P8[38]> 63r25 219r33 43|19r18 155r25 159r11 796r33 798r11
+43V12*Create{26P8} 43>21 43|14b12 108l7 108t13 711s35
+43i21 k{54|7I8} 43|14b21 22r38 22r59 39r41 54r43 103r26
+49V12*Is_In{boolean} 49>20 49>35 50>20 43|110b12 124s18 130l7 130t12
+49r20 t{30R8} 43|110b20 116r8 118r11 119r45 122r16 123r12 124r24
+49a35 d{23|16A8[58|4]} 43|110b35 119r49 124r35
+50i20 m{54|7I8} 43|111b20 116r24 118r27 124r37
+56V12*Key_In{46|6I8} 56>21 56>36 57>21 57>23 43|132b12 147s18 153l7 153t13
+. 237s10 595s12 657s12
+56r21 t{30R8} 43|132b21 138r9 138r32 140r11 141r41 142r30 145r16 146r12 147r25
+56a36 d{23|16A8[58|4]} 43|132b36 141r45 147r36
+57i21 m{46|6I8} 43|133b21 138r15 140r17 147r38
+57i23 max_key{46|6I8} 43|133b23 138r41 147r40
+63V12*Key_In{46|6I8} 63>21 63>36 64>21 64>23 43|50s18 155b12 179l7 179t13
+63p21 l{39P8} 43|155b21 159r24
+63a36 d{23|16A8[58|4]} 43|155b36 168r49
+64i21 m{46|6I8} 43|156b21 167r18
+64i23 max_key{46|6I8} 43|156b23 176r24
+70V12*Look_Up{26P8} 70>22 70>45 43|181b12 192s22 198l7 198t14 354s40 370s40
+. 391s40 411s40
+70p22 t{26P8} 43|181b22 187r18 188r14 190r16 191r12 192r30
+70i45 key{46|6I8} 43|181b45 187r27 192r37
+76V12*Is_Leaf{boolean} 76>22 43|200b12 208l7 208t14 632s16 681s16
+76r22 t{30R8} 43|200b22 202r14 203r10 203r28
+81V12*Node_Count{54|7I8} 81>25 43|210b12 229l7 229t17
+81r25 evt{30R8} 43|210b25 227r17
+86V12*Different_Node_Count{54|7I8} 86>35 43|231b12 252l7 252t27
+86r35 evt{30R8} 43|231b35 237r17 250r17
+95U20 Multiplier_Derivative 96>13 96>53 96>55 97>13 97<32 43|268s7 272s15
+96a13 d{23|16A8[58|4]}
+96i53 i{54|7I8}
+96i55 depth{54|7I8}
+97b13 zero{boolean}
+97b32 continue{boolean}
+113u13*Enumerate_Multiplier_Derivatives 113>48 43|256b13 298l7 298t39
+113i48 k{54|7I8} 43|256b48 294r43 294r64 296r16
+120U13*Update_Stack 121=18 122=18 123=18 124>18 125>18 125<36 43|300b13 322l7
+. 322t19
+121a18 sd{25|14A8[60|5]} 43|301b17 311r14 313r28 319m7
+122a18 sk{23|16A8[58|4]} 43|302b17 312r10 320m7
+123i18 sz{54|7I8} 43|303b17 311r34 318m7 318r13 319r20 320r20
+124a18 d{23|16A8[58|4]} 43|304b17 313r38 319r40
+125i18 k{54|7I8} 43|305b17 312r18 320r28
+125b36 found{boolean} 43|305b35 310m5 313m13 315r17 317r12
+151V12*Eval{23|16A8[39|4]} 151>19 151>38 152>19 152>42 153>19 153>64 154>19
+. 154>22 154>25 155>19 155>31 155>33 43|691b12 713s15 731l7 731t11
+151a19 f{18|33A8[34|9]} 43|691b19 707r18 713r20
+151a38 jm{14|42A8[30|11]} 43|691b38 708r18 713r22
+152p19 t{26P8} 43|692b19
+152p42 nd{50|25P8} 43|692b42 713r28 715r23
+153a19 monkeys{25|14A8[53|5]} 43|693b19 713r31 715r26
+153i64 k{46|6I8} 43|694b19 699r32 700r57 706r8 721r13 721r22 727r16 728r34
+. 728r42
+154a19 nv{23|16A8[58|4]} 43|695b19 702r51 703r55 713r42 715r37
+154a22 nq{23|16A8[58|4]} 43|695b22 700r54 701r58 702r30 713r52 715r47
+154a25 R1{23|16A8[58|4]} 43|695b25 713r62 715r57
+155a19 B{22|15A8[38|6]} 43|696b19 714r20 716r20 721r11
+155a31 h{25|14A8[40|5]} 43|696b31 714r29 716r29 727r14 728r32
+155a33 x{25|14A8[40|5]} 43|696b33 707r20 708r21 714r38 716r38 721r20 728r40
+181V12*Eval{17|16A8[31|5]} 181>19 181>42 182>19 182>64 183>19 183>22 183>25
+. 184>19 184>31 184>33 43|715s15 733b12 759l7 759t11
+181p19 t{26P8} 43|733b19 740r41 751r20
+181p42 nd{50|25P8} 43|733b42 748r45
+182a19 monkeys{25|14A8[53|5]} 43|734b19 751r30
+182i64 k{46|6I8} 43|735b19 741r38 742r45 743r45 747r27 748r48 750r11 751r38
+. 756r33 756r39
+183a19 nv{23|16A8[58|4]} 43|736b19 748r60 749r14 751r40 756r36
+183a22 nq{23|16A8[58|4]} 43|736b22 751r43 756r30
+183a25 R1{23|16A8[58|4]} 43|736b25 750r17
+184a19 B{22|15A8[38|6]} 43|737b19 747r20 751r49
+184a31 h{25|14A8[40|5]} 43|737b31 751r54
+184a33 x{25|14A8[40|5]} 43|737b33 747r22 748r67 751r56
+187V12*Eval{17|16A8[31|5]} 187>19 188>19 188>42 189>19 189>64 190>19 190>22
+. 190>25 191>19 191>31 191>33 43|761b12 792l7 792t11
+187p19 file{12|67P9} 43|761b19 774r14 776r14 778r9 780r11 780r26 782r14 785r20
+188p19 t{26P8} 43|762b19 768r41 785r25
+188p42 nd{50|25P8} 43|762b42 777r45
+189a19 monkeys{25|14A8[53|5]} 43|763b19 785r35
+189i64 k{46|6I8} 43|763b64 769r38 770r45 771r45 775r27 777r48 779r17 784r11
+. 785r43 789r33 789r39
+190a19 nv{23|16A8[58|4]} 43|764b19 777r60 783r14 785r45 789r36
+190a22 nq{23|16A8[58|4]} 43|764b22 785r48 789r30
+190a25 R1{23|16A8[58|4]} 43|764b25 784r17
+191a19 B{22|15A8[38|6]} 43|765b19 775r20 785r54
+191a31 h{25|14A8[40|5]} 43|765b31 785r59
+191a33 x{25|14A8[40|5]} 43|765b33 775r22 777r67 785r61
+219U13*Clear<15|93p13> 219=21 43|796b13 808l7 808t12
+219p21 nl{39P8} 43|796b21 798r24 807m44 807r44
+220U13*Clear 220=21 43|810b13 816l7 816t12 824s11
+220r21 evt{30R8} 43|810b21 812r14 813m13 813r13 815m37 815r37
+221U13*Clear 221=21 43|717s9 804s7 813s7 818b13 827l7 827t12
+221p21 evt{26P8} 43|818b21 823r8 824r17 825m16
+X 43 standard_evaluate_deflation.adb
+18p5 res{42|26P8} 48m9 103m35 103r35 107r12
+19p5 first{42|39P8} 36r18 43m18 43r18 50r25 58m20 58r20 106m44 106r44
+19p11 last{42|39P8} 43m24 43r24 58m26 58r26
+20i5 key_cnt{46|6I8} 50r35 64m11 64r22 65r32
+22a5 d{23|16A8[58|4]} 103r31
+24U15 Generate 24b15 24>26 24>28 24>46 25<26 26=26 75s15 84s11 89s15 97l9
+. 97t17 103s7
+24i26 i{46|6I8} 39r44 50r33 54r46 73r31 74r14 75r24 83r14 84r20 86r23 89r24
+24i28 m{46|6I8} 75r28 84r24 89r28
+24a46 d{23|16A8[58|4]} 45r18 50r31 60r20 74r12 75r32 80r23 80r35 82r20 85r20
+. 87r16 88r24 90r24
+25i26 label{46|6I8} 47m9 66m11 69m11
+26p26 evt{42|26P8} 42m11 43r29 45r9 46r9 48r16 57m13 58r31 60r11 61r20 62r13
+. 65r11 66r30 70m11 75r34 75r43 76r15 77r15 84r31 84r40 89r35 89r46 92r15
+32b7 to_generate{boolean} 37m9 52m11 68m11 73r10
+33i7 index{46|6I8} 50m9 51r12 69r20
+39r11 res_gen{42|30R8} 41m11 42r33
+54r13 res_gen{42|30R8} 56m13 57r35
+61i15 j<long_integer> 62r19
+80a11 nd{23|16A8[58|4]} 82m11 83m11 84r28 85m11 88m15 89r32 90m15
+86i15 j<long_integer> 87r18 88r18 88r26 89r41 89r52 90r18 90r26 92r21
+101i7 w{46|6I8} 103m33
+113b5 res{boolean} 117m7 119m7 121m7 124m11 126r19 129r12
+122i11 i<long_integer> 123r16 124r28
+135i5 res{46|6I8} 142m13 147m11 149r20 152r12
+145i11 i<long_integer> 146r16 147r29
+158i5 res{46|6I8} 169m17 173r18 178r12
+159p5 tmp{42|39P8} 163r23 165r51 174m7 174r22
+160i5 cnt{46|6I8} 175m7 175r14 176r17
+165p9 t{42|26P8} 167r12 168r45 169r34
+184p5 res{42|26P8} 192m15 194r20 196r14
+190i11 i<long_integer> 191r16 192r34
+202i9 i<long_integer> 203r14 203r32
+212i5 res{54|7I8} 216m7 216r14 228r12
+214U15 Count_Nodes 214b15 214>29 214>47 220s17 224l9 224t20 227s5
+214r29 t{42|30R8} 217r10 218r18 219r14 220r29
+214i47 m{54|7I8} 220r40
+218i13 i<long_integer> 219r18 220r33
+233i5 res{54|7I8} 238m9 238r16 251r12
+235U15 Count_Nodes 235b15 235>29 235>47 242s19 247l9 247t20 250s5
+235r29 t{42|30R8} 237r21 237r25 237r39 239r12 240r20 241r16 242r31
+235i47 m{54|7I8} 242r42
+240i15 i<long_integer> 241r20 242r35
+260U15 Generate 260b15 260>26 260>28 260>46 271s15 279s11 284s15 290l9 290t17
+. 296s7
+260i26 i{54|7I8} 268r31 269r10 270r24 271r24 272r39 278r24 279r20 281r33
+. 284r24
+260i28 m{54|7I8} 268r33 271r28 272r41 279r24 284r28
+260a46 d{23|16A8[58|4]} 268r29 270r12 271r32 272r37 275r23 275r35 277r20
+. 280r20 282r16 283r24 285r24
+265b7 cont{boolean} 268m41 269r20 272m50
+275a11 nd{23|16A8[58|4]} 277m11 278m11 279r28 280m11 283m15 284r32 285m15
+281i15 j<long_integer> 282r18 283r18 283r26 285r18 285r26
+294a7 accu{23|16A8[58|4]} 296r20
+311i9 i<long_integer> 312r13 313r31
+326U13 Display_Dimensions 326b13 327>18 327>39 327>41 328>18 328>20 328>23
+. 346l7 346t25 663s7
+327p18 file{12|67P9} 336r9 338r11 338r54 339r16 342r11 342r31 343r11 343r41
+. 344r11 344r46
+327i39 i{54|7I8} 337r30 338r29 343r29 344r29
+327i41 nbc{54|7I8} 338r59
+328a18 d{23|16A8[58|4]} 337r10 337r12 341r32 341r34
+328a20 nq{23|16A8[58|4]} 338r16 343r16
+328a23 nv{23|16A8[58|4]} 341r43 344r16
+333i5 moncnt{54|7I8} 341m7 342r16
+348V12 Lookup{17|17P8[31|5]} 348b12 348>21 349>21 362l7 362t13 598s14
+348p21 evt{42|26P8} 354r48
+349i21 key{46|6I8} 354r52
+354p5 ft{42|26P8} 358r8 359r18
+355p5 null_ftv{17|17P8[31|5]} 360r18
+364V12 Lookup{17|17P8[31|5]} 364b12 364>21 364>39 365>21 381l7 381t13 660s14
+364p21 file{12|67P9} 375r33 375r70 378r16
+364p39 evt{42|26P8} 370r48
+365i21 key{46|6I8} 370r52
+370p5 ft{42|26P8} 374r8 375r38 375r53 376r14
+371p5 null_ftv{17|17P8[31|5]} 379r14
+383U13 Lookup 383b13 383>22 384>22 384<42 385<22 401l7 401t13 493s11
+383p22 evt{42|26P8} 391r48
+384i22 key{46|6I8} 391r52
+384p42 value{17|17P8[31|5]} 395m7 398m7
+385p22 d{23|17P8[58|4]} 396m7 399m7
+391p5 ft{42|26P8} 394r8 395r16 396r49
+403U13 Lookup 403b13 403>22 403>43 404>22 404<42 405<22 423l7 423t13 545s11
+403p22 file{12|67P9} 415r33 415r70 419r16
+403p43 evt{42|26P8} 411r48
+404i22 key{46|6I8} 411r52
+404p42 value{17|17P8[31|5]} 416m7 420m7
+405p22 d{23|17P8[58|4]} 417m7 421m7
+411p5 ft{42|26P8} 414r8 415r38 415r53 416r16 417r49
+425U13 Evaluate_Nodes 426>17 426>22 427>17 428>17 429>17 430>17 430>20 430>23
+. 431>17 431>32 431>35 431>37 432>17 496s9 581b13 639l7 639t21 751s5
+426p17 root{42|26P8} 582b17 595r19 598r21 634r14
+426p22 t{42|26P8} 582b22 595r28 595r32 595r46 598r7 600r32 600r58 606r10
+. 607r26 607r30 611r11 611r45 611r53 612r18 615r41 619r11 620r11 627r9 627r43
+. 629r41 630r43 630r49 632r24 634r19
+427a17 jrt{50|35A8} 583b17 610r12 613r22 615r49 634r21
+428a17 monkeys{25|14A8[53|5]} 584b17 634r25
+429i17 k{46|6I8} 585b17 600r45 634r33
+430a17 nv{23|16A8[58|4]} 586b17 600r36 611r50 634r35
+430a20 nq{23|16A8[58|4]} 586b20 611r42 627r40 634r38
+430a23 R0{23|16A8[58|4]} 586b23 600r39 634r41
+431a17 B{22|15A8[38|6]} 587b17 634r44
+431a32 Bl{25|14A8[40|5]} 587b32 634r46
+431a35 h{25|14A8[40|5]} 587b35 630r47 634r49
+431a37 x{25|14A8[40|5]} 587b37 634r51
+432i17 depth{54|7I8} 588b17 634r53
+434U13 Evaluate_Nodes 435>17 435>38 435>43 436>17 437>17 438>17 439>17 439>20
+. 439>23 440>17 440>32 440>35 440>37 441>17 550s9 641b13 687l7 687t21 785s5
+435p17 file{12|67P9} 642b17 654r31 655r18 656r9 659r11 659r41 659r58 660r21
+. 663r26 683r14
+435p38 root{42|26P8} 642b38 657r19 660r26 683r19
+435p43 t{42|26P8} 642b43 654r36 654r50 655r33 656r30 657r28 657r32 657r46
+. 660r7 662r32 662r58 663r41 663r50 664r10 665r26 665r30 668r11 668r45 668r53
+. 669r18 671r41 673r11 674r11 677r9 677r43 678r41 679r43 679r49 681r24 683r24
+436a17 jrt{50|35A8} 643b17 667r12 670r22 671r49 683r26
+437a17 monkeys{25|14A8[53|5]} 644b17 683r30
+438i17 k{46|6I8} 645b17 662r45 683r38
+439a17 nv{23|16A8[58|4]} 646b17 662r36 663r57 668r50 683r40
+439a20 nq{23|16A8[58|4]} 646b20 663r54 668r42 677r40 683r43
+439a23 R0{23|16A8[58|4]} 646b23 662r39 683r46
+440a17 B{22|15A8[38|6]} 647b17 683r49
+440a32 Bl{25|14A8[40|5]} 647b32 683r51
+440a35 h{25|14A8[40|5]} 647b35 679r47 683r54
+440a37 x{25|14A8[40|5]} 647b37 683r56
+441i17 depth{54|7I8} 648b17 654r55 683r58
+469U13 Recursive_Evaluate_Nodes 469b13 470>17 470>22 471>17 472>17 473>17
+. 474>17 474>20 474>23 475>17 475>32 475>35 475>37 476>17 517l7 517t31 633s11
+470p17 root{42|26P8} 493r18 497r12
+470p22 t{42|26P8} 481r19 483r44 490r14 491r10 492r12 493r23 497r17 498r20
+. 499r57 502r30 503r23 503r27 503r41 511r10 511r20 511r37 512r16 512r24
+471a17 jrt{50|35A8} 497r24 512r10
+472a17 monkeys{25|14A8[53|5]} 497r28 511r61
+473i17 k{46|6I8} 497r36
+474a17 nv{23|16A8[58|4]} 497r38
+474a20 nq{23|16A8[58|4]} 497r41 511r14
+474a23 R0{23|16A8[58|4]} 497r44 503r31 511r53
+475a17 B{22|15A8[38|6]} 497r47 503r39 512r14
+475a32 Bl{25|14A8[40|5]} 497r49 512r21
+475a35 h{25|14A8[40|5]} 497r52
+475a37 x{25|14A8[40|5]} 497r54
+476i17 depth{54|7I8} 497r56
+481a5 vals{22|15A8[38|6]} 493m30 493r30 498m9 502r9 503r34 511r56
+482i5 order{54|7I8} 507m11 511r42
+483a5 chtp{25|14A8[60|5]} 493m38 493r38 499m9 505r16 506r12 507r49 511r48
+. 514m36 514r36
+490i9 i<long_integer> 491r14 492r16 493r27 493r35 493r43 497r21 498r14 498r24
+. 499r14 499r61
+505i11 i<long_integer> 506r17 507r54
+519U13 Recursive_Evaluate_Nodes 519b13 520>17 520>38 520>43 521>17 522>17
+. 523>17 524>17 524>20 524>23 525>17 525>32 525>35 525>37 526>17 579l7 579t31
+. 682s11
+520p17 file{12|67P9} 542r24 543r15 544r15 544r35 545r18 547r22 551r12 557r11
+. 558r11 558r33 559r23 560r16 562r11 563r11 563r26 564r11 564r33 565r16 569r15
+. 569r35 569r50 570r15 570r43 573r11 573r34 573r58 574r23 576r16
+520p38 root{42|26P8} 545r23 551r17
+520p43 t{42|26P8} 531r19 533r44 539r14 540r10 541r12 542r39 544r20 545r28
+. 547r37 551r22 552r20 553r57 556r30 558r16 559r28 559r32 559r46 563r16 564r16
+. 574r28 574r38 574r55 575r42 575r50
+521a17 jrt{50|35A8} 551r29 575r36
+522a17 monkeys{25|14A8[53|5]} 551r33 575r28
+523i17 k{46|6I8} 551r41
+524a17 nv{23|16A8[58|4]} 551r43
+524a20 nq{23|16A8[58|4]} 551r46 574r32
+524a23 R0{23|16A8[58|4]} 551r49 559r36 574r71
+525a17 B{22|15A8[38|6]} 551r52 559r44 575r40
+525a32 Bl{25|14A8[40|5]} 551r54 575r47
+525a35 h{25|14A8[40|5]} 551r57
+525a37 x{25|14A8[40|5]} 551r59
+526i17 depth{54|7I8} 551r61
+531a5 vals{22|15A8[38|6]} 545m35 545r35 552m9 556r9 559r39 575r23
+532i5 order{54|7I8} 568m11 573r39 574r60
+533a5 chtp{25|14A8[60|5]} 545m43 545r43 553m9 566r16 567r12 568r49 570r20
+. 574r66 578m36 578r36
+539i9 i<long_integer> 540r14 541r16 544r24 545r32 545r40 545r48 546r15 551r26
+. 552r14 552r24 553r14 553r61
+566i11 i<long_integer> 567r17 568r54 569r40 570r25
+590i5 key{46|6I8} 595m5 597r8 598r26
+590i9 ind{46|6I8} 607m9 610r16 613r26 615r53 620r43
+590i13 col{46|6I8} 612m11 615m45 615r45
+591i5 nbc{54|7I8} 600m7 627r48
+591i9 nbrows{54|7I8} 613m41 613r41
+591i16 nbcols{54|7I8} 613m59 613r59 615r58
+650i5 key{46|6I8} 657m5 658r8 659r46 660r31
+650i9 ind{46|6I8} 665m9 667r16 670r26 671r53 674r43
+650i13 col{46|6I8} 669m11 671m45 671r45
+651i5 nbc{54|7I8} 662m7 663r46 677r48
+651i9 nbrows{54|7I8} 670m41 670r41
+651i16 nbcols{54|7I8} 670m59 670r59 671r58
+699i5 k1{46|6I8} 701r61 702r33 702r54 703r58 711r52 713r39 713r48 713r58
+. 713r68 714r25 714r34 714r43 715r34 715r43 715r53 715r63 716r25 716r34 716r43
+700a5 y{23|16A8[39|4]} 720m5 724m7 726m5 726r7 728m7 728r9 728r20 728r22
+. 730r12
+701a5 y0{23|16A8[39|4]} 707m7 713m9 720r7 720r20 724r9
+701a8 y1{23|16A8[39|4]} 722m5 723r14 724r23
+702a5 A1{17|16A8[31|5]} 708m7 715m9 722r11
+703a5 Bl{23|16A8[39|4]} 721m5 722r14
+711p9 t1{42|26P8} 713r25 715r20 717m15 717r15
+723i9 i<long_integer> 724r17 724r26
+727i9 i<long_integer> 728r37 728r45
+740p5 wrk{42|26P8} 751r22 755r8 757r18
+741a5 jrt{50|35A8} 748m5 751r26 753m35 753r35
+742a5 Bl{25|14A8[40|5]} 747m5 751r51 752m36 752r36
+743a5 R0{23|16A8[58|4]} 749m5 750m5 751r46
+768p5 wrk{42|26P8} 785r27 788r8 790r18
+769a5 jrt{50|35A8} 777m5 780r41 785r31 787m35 787r35
+770a5 Bl{25|14A8[40|5]} 775m5 785r56 786m36 786r36
+771a5 R0{23|16A8[58|4]} 783m5 784m5 785r51
+779i9 i<long_integer> 780r45
+798p5 tmp{42|39P8} 802r23 803r22 805m7 805r22
+799p5 evt{42|26P8} 803m7 804m13 804r13
+812i9 i<long_integer> 813r19
+820U15 free[82|22] 825s11
+X 44 standard_evaluate_deflation_io.ads
+6K9*Standard_Evaluate_Deflation_io 43|8w6 8r44 44|70e35
+25U13*Write_Derivative_Operator 43|375s7 415s7
+37U13*Write_Derivative_Operator 43|654s5
+47U13*Write_Spaces 43|542s11 655s5
+53U13*Write_Zero 43|547s11
+X 45 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 43|4w6 4r44 45|58e30
+13F8*double_float<long_float> 43|620r30 674r30
+X 46 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 42|4w6 4r44 46|45e29
+6I8*integer32<long_integer> 42|28r13 30r26 57r33 57r52 64r33 64r52 70r51
+. 153r68 182r68 189r68 43|20r15 22r28 22r49 24r35 25r38 33r15 39r31 54r33
+. 66r20 101r11 103r16 116r14 118r17 133r33 133r52 135r11 138r22 142r20 156r33
+. 156r52 158r11 160r11 169r24 181r51 187r8 237r29 270r14 278r14 281r23 294r33
+. 294r54 311r24 319r10 320r10 338r19 343r19 344r19 349r27 365r27 384r31 404r31
+. 429r24 438r24 473r24 523r24 585r24 590r19 595r36 607r16 613r31 613r49 645r24
+. 650r19 657r36 665r16 670r31 670r49 694r23 699r19 700r44 701r48 702r20 702r41
+. 703r45 735r23 748r50 763r68 777r50
+X 47 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 43|3w6 3r44 47|47e32
+27U13*put 43|544s11 558s7 564s7 569s31 659s37
+X 49 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[23|8] 42|6w6 34r9
+X 50 standard_jacobian_trees.ads
+7K9*Standard_Jacobian_Trees 42|15w6 15r44 43|753r5 787r5 50|172e28
+25P8*Link_to_Eval_Node(24R8) 42|152r47 181r47 188r47 43|692r47 733r47 762r47
+35A8*Jacobian_Remember_Table(22|16P8[38|6])<46|6I8> 43|427r26 436r26 471r26
+. 521r26 583r26 643r26 741r11 769r11
+99U13*Dimensions 43|613s11 670s11
+136V12*Evaluate_Jacobian_Remember_Table{35A8} 43|748s12 777s12
+167U13*Clear 43|753s29 787s29
+X 53 standard_natural64_vecvecs.ads
+5K9*Standard_Natural64_VecVecs[25|10] 42|9w6 153r29 182r29 189r29 43|428r30
+. 437r30 472r30 522r30 584r30 644r30 693r29 734r29 763r29
+X 54 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 42|3w6 3r44 54|30e29
+7I8*natural32<long_integer> 42|31r11 43r25 50r24 81r50 86r60 96r66 113r55
+. 123r30 125r25 43|14r25 65r22 111r24 210r50 212r11 214r54 231r60 233r11
+. 235r54 256r55 260r35 303r29 305r24 327r50 333r14 375r43 415r43 432r28 441r28
+. 476r28 482r13 511r27 526r28 532r13 542r29 547r27 574r45 588r28 591r25 600r48
+. 648r28 651r25 654r40 655r23 662r48 663r31 711r42 780r31
+8I8*natural64<long_long_integer>
+X 55 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 43|2w6 2r44 55|35e32
+25U13*put 43|656s26
+26U13*put 43|338s7 338s50 342s7 343s7 344s7 573s30 780s22
+X 58 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[23|8] 42|5w6 32r9 49r39 56r40 63r40 96r20 122r30
+. 124r25 154r30 183r30 190r30 43|16r9 110r39 119r14 132r40 141r10 155r40
+. 168r14 258r9 302r29 304r24 307r9 328r31 385r30 396r16 405r30 417r16 430r31
+. 439r31 474r31 486r9 499r24 507r20 524r31 536r9 553r24 568r20 586r31 629r12
+. 646r31 678r12 695r30 736r30 743r10 764r30 771r10
+X 59 standard_natural_vectors_io.ads
+5K9*Standard_Natural_Vectors_io[24|11] 43|10w6 10r44
+X 60 standard_natural_vecvecs.ads
+5K9*Standard_Natural_VecVecs[25|10] 42|8w6 121r30 43|301r29 483r12 514r5
+. 533r12 578r5
+X 81 text_io.ads
+27K9*Text_IO=27:29 42|1w6 1r44
+X 82 unchdeal.ads
+22u11*Unchecked_Deallocation 43|1w6 820r27
+

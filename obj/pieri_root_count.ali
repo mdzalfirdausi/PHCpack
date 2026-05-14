@@ -1,0 +1,84 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pieri_root_count%b	pieri_root_count.adb	3e90d9d7 NE OO SU
+W localization_posets%s	localization_posets.adb	localization_posets.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pieri_root_count%s	pieri_root_count.ads	d0ce9a8c EE NE OO SU
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D localization_posets.ads  20260513024558 4bb547ea localization_posets%s
+D pieri_root_count.ads	20260513024558 d1b9fb5d pieri_root_count%s
+D pieri_root_count.adb	20260513024558 db7c077b pieri_root_count%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [pieri_root_count standard 3 10 none]
+G r c none [pieri_root_count standard 3 10 none] [trivial_root localization_posets 62 12 none]
+G r s array_of_nodes [pieri_root_count standard 3 10 none] [array_of_nodesIP localization_posets 24 8 none]
+G r c none [pieri_root_count standard 3 10 none] [q_top_bottom_create localization_posets 129 13 none]
+G r c none [pieri_root_count standard 3 10 none] [create_leveled_poset localization_posets 151 12 none]
+G r c none [pieri_root_count standard 3 10 none] [count_roots localization_posets 221 13 none]
+G r c none [pieri_root_count standard 3 10 none] [clear localization_posets 251 13 none]
+X 2 brackets.ads
+13A8*Bracket<3|16A8[10|4]>(1|3I8[9|4])<7|6I8>
+X 3 generic_vectors.ads
+16A8*Vector(8|7I8)<7|6I8>
+X 4 localization_posets.ads
+6K9*Localization_Posets 271e24 6|2w6 2r45
+21R8*Node 41e13 6|7r19 8r33
+22P8*Link_to_Node(21R8) 6|8r13
+24A8*Array_of_Nodes(22P8)<7|6I8> 6|10r17
+32R8*Node
+35i5*roco{7|6I8} 6|16r50
+36a9*bottom{2|13A8} 6|13r36
+62V12*Trivial_Root{32R8} 6|7s41
+129U13*Q_Top_Bottom_Create 6|13s3
+151V12*Create_Leveled_Poset{24A8} 6|14s18
+221U13*Count_Roots 6|15s3
+251U13*Clear 6|17s3
+X 5 pieri_root_count.ads
+3V10*Pieri_Root_Count{8|7I8} 3>29 3>31 3>33 6|4b10 19l5 19t21
+3i29 m{8|7I8} 6|4b29 7r54 9r30 9r39 13r57
+3i31 p{8|7I8} 6|4b31 7r34 7r56 9r32 9r41 13r53 13r59
+3i33 q{8|7I8} 6|4b33 7r58 9r36
+X 6 pieri_root_count.adb
+6i3 res{8|7I8} 16m3 18r10
+7r3 root{4|32R8} 8r39 13r31
+8p3 lnkroot{4|22P8} 13r23 14r39
+9i3 nq{8|7I8} 10r45
+10a3 level_poset{4|24A8} 14m3 15m15 15r15 16r20 16r32 17m9 17r9
+X 7 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 6|1w6 1r45 7|45e29
+6I8*integer32<long_integer> 6|7r24 10r35 13r43
+X 8 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 5|1w6 1r45 8|30e29
+7I8*natural32<long_integer> 5|3r37 3r56 6|4r37 4r56 6r9 9r17 16r10
+

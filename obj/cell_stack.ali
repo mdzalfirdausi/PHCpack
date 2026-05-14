@@ -1,0 +1,123 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U cell_stack%b		cell_stack.adb		538f458c NE OO PK
+W unchecked_deallocation%s
+
+U cell_stack%s		cell_stack.ads		84ab77d9 EE NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D cell_stack.ads	20260513024558 7a1c464d cell_stack%s
+D cell_stack.adb	20260513024558 08d61565 cell_stack%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [cell_init1 cell_stack 26 13 none]
+G c Z s b [cell_init2 cell_stack 31 13 none]
+G c Z s b [cs_init cell_stack 49 13 none]
+G c Z s b [cs_push cell_stack 54 13 none]
+G c Z s b [cs_pop cell_stack 60 13 none]
+G c Z s b [cs_next cell_stack 65 13 none]
+G c Z s b [cs_cur cell_stack 79 12 none]
+G c Z s b [cs_top cell_stack 85 13 none]
+G c Z s b [cs_isempty cell_stack 90 12 none]
+G c Z s b [cs_count cell_stack 95 12 none]
+G c Z s b [csi cell_stack 100 13 none]
+G c Z s b [cs_del cell_stack 116 13 none]
+G c Z s b [clear cell_stack 121 13 none]
+G c Z s s [cellIP cell_stack 13 8 none]
+G c Z s s [cellstackIP cell_stack 19 8 none]
+G r c none [cs_pop cell_stack 60 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [cs_del cell_stack 116 13 none] [clear standard_integer_vectors 72 13 4_1]
+X 2 cell_stack.ads
+4K9*Cell_Stack 126l5 126e15 3|3b14 122l5 122t15
+10R8*Cell 11r31 13c8 17e13 3|33r29 116r50
+11P8*Link_to_Cell(10R8) 16r12 22r11 23r11 26r37 32r29 34r27 121r32 3|5r37
+. 11r29 13r27 33r9 44r11 114r32 116r55
+14p5*idx{4|17P8[7|4]} 3|15m7 17r9 49m40 66r19 102r19
+16p5*next{11P8} 3|7m7 19m7 47r22 56r15 57r28 99r26
+19R8*CellStack 24e13 49r35 54r35 60r34 65r35 79r26 85r34 90r30 95r28 100r31
+. 116r34 3|22r35 30r35 42r34 54r35 63r26 69r34 74r30 82r28 87r31 106r34
+20i5*size{5|6I8} 3|24m8 36r21
+21i5*count{5|6I8} 3|25m8 39m8 39r20 51m8 51r20 84r15 93r26 111m8
+22p5*top{11P8} 3|27m8 36r31 38m8 44r30 47m8 47r18 48r18 71r18 76r11 96r20
+23p5*cur{11P8} 3|26m8 37m8 48m8 56r11 57m14 57r24 66r15 71m8 96m10 99m12
+. 99r22 102r15
+26U13*Cell_Init1 26=26 3|5b13 8l7 8t17
+26p26 c{11P8} 3|5b26 7r5
+31U13*Cell_Init2 32=18 32>43 33>18 34>18 3|10b13 20l7 20t17 36s5
+32p18 c{11P8} 3|11b18 15r5 17r7 19r5
+32i43 n{5|6I8} 3|11b43 15r53 16r17
+33p18 J{4|17P8[7|4]} 3|12b18 17r19
+34p18 ptr{11P8} 3|13b18 19r15
+49U13*Cs_Init 49=23 49>46 3|22b13 28l7 28t14
+49r23 cs{19R8} 3|22b23 24m5 25m5 26m5 27m5
+49i46 n{5|6I8} 3|22b46 24r16
+54U13*Cs_Push 54=23 55>23 3|30b13 40l7 40t14
+54r23 cs{19R8} 3|30b23 36r18 36r28 37m5 38m5 39m5 39r17
+55p23 J{4|17P8[7|4]} 3|31b23 36r26
+60U13*Cs_Pop 60=22 3|42b13 52l7 52t13 109s7
+60r22 cs{19R8} 3|42b22 44r27 47m5 47r15 48m5 48r15 51m5 51r17
+65U13*Cs_Next 65=23 65<46 3|54b13 61l7 61t14
+65r23 cs{19R8} 3|54b23 56r8 57m11 57r21
+65i46 okay{5|6I8} 3|54b46 58m11 59m11
+79V12*Cs_Cur{4|17P8[7|4]} 79>21 3|63b12 67l7 67t13
+79r21 cs{19R8} 3|63b21 66r12
+85U13*Cs_Top 85=22 3|69b13 72l7 72t13
+85r22 cs{19R8} 3|69b22 71m5 71r15
+90V12*Cs_IsEmpty{boolean} 90>25 3|74b12 80l7 80t17 108s15
+90r25 cs{19R8} 3|74b25 76r8
+95V12*Cs_Count{5|6I8} 95>23 3|82b12 85l7 85t15
+95r23 cs{19R8} 3|82b23 84r12
+100U13*Csi 100=19 100>42 101<19 3|87b13 104l7 104t10
+100r19 cs{19R8} 3|87b19 93r23 96m7 96r17 99m9 99r19 102r12
+100i42 i{5|6I8} 3|87b42 93r9 93r18 98r17
+101p19 J{4|17P8[7|4]} 3|88b19 94m7 102m7
+116U13*Cs_Del 116=22 3|106b13 112l7 112t13
+116r22 cs{19R8} 3|106b22 108r26 109m14 111m5
+121U13*Clear 121=21 3|50s5 114b13 120l7 120t12
+121p21 c{11P8} 3|114b21 119m10
+X 3 cell_stack.adb
+16i9 i<long_integer> 17r13 17r21
+33p5 c{2|11P8} 36m16 36r16 37r15 38r15
+44p5 ptr{2|11P8} 49r36 50m11 50r11
+90i5 k{5|6I8} 97m7 98r13 100m9 100r14
+116U15 free[9|22] 119s5
+X 4 generic_vectors.ads
+16A8*Vector(5|6I8)<5|6I8> 3|15r43[7|4]
+17P8*Link_to_Vector(16A8[7|4]) 2|14r36[7|4] 33r50[7|4] 55r55[7|4] 80r51[7|4]
+. 101r52[7|4] 3|12r50[7|4] 31r55[7|4] 64r51[7|4] 88r52[7|4]
+72U13*Clear 3|49s30[7|4]
+X 5 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|1w6 1r46 5|45e29
+6I8*integer32<long_integer> 2|20r12 21r13 32r50 49r53 65r57 95r47 100r49
+. 3|11r50 22r53 54r57 82r47 87r49 90r9
+X 7 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[4|8] 2|2w6 14r11 33r25 55r30 80r26 101r27 3|12r25
+. 15r18 31r30 49r5 64r26 88r27
+X 9 unchdeal.ads
+22u11*Unchecked_Deallocation 3|1w6 116r27
+

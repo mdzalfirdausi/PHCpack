@@ -1,0 +1,115 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U graded_lexicographic_order%b  graded_lexicographic_order.adb  edb4180d NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+U graded_lexicographic_order%s  graded_lexicographic_order.ads  c695b525 EE NE OO PK
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D graded_lexicographic_order.ads  20260513024558 f6eb20f8 graded_lexicographic_order%s
+D graded_lexicographic_order.adb  20260513024558 65c83b3f graded_lexicographic_order%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [Olt graded_lexicographic_order 10 12 none]
+G c Z s b [Olt graded_lexicographic_order 11 12 none]
+G c Z s b [Ogt graded_lexicographic_order 13 12 none]
+G c Z s b [Ogt graded_lexicographic_order 14 12 none]
+G c Z s b [Ogt graded_lexicographic_order 17 12 none]
+G c Z s b [Ogt graded_lexicographic_order 18 12 none]
+G c Z s b [Olt graded_lexicographic_order 20 12 none]
+G c Z s b [Olt graded_lexicographic_order 21 12 none]
+G r c none [Olt graded_lexicographic_order 10 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [Olt graded_lexicographic_order 11 12 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [Olt graded_lexicographic_order 11 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [Ogt graded_lexicographic_order 13 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [Ogt graded_lexicographic_order 14 12 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [Ogt graded_lexicographic_order 14 12 none] [sum standard_natural_vectors 52 12 4_1]
+G r c none [Ogt graded_lexicographic_order 17 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [Ogt graded_lexicographic_order 18 12 none] [sum standard_integer_vectors 53 12 4_1]
+G r c none [Ogt graded_lexicographic_order 18 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [Olt graded_lexicographic_order 20 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [Olt graded_lexicographic_order 21 12 none] [sum standard_integer_vectors 53 12 4_1]
+G r c none [Olt graded_lexicographic_order 21 12 none] [sum standard_integer_vectors 52 12 4_1]
+X 2 generic_vectors.ads
+16A8*Vector(8|7I8)<5|6I8> 3|10r51[10|4] 13r51[10|4] 17r51[7|4] 20r51[7|4]
+. 4|8r51[10|4] 52r51[10|4] 99r51[7|4] 144r51[7|4]
+17P8*Link_to_Vector(16A8[10|4]) 3|11r51[10|4] 14r51[10|4] 18r51[7|4] 21r51[7|4]
+. 4|34r51[10|4] 79r51[10|4] 126r51[7|4] 171r51[7|4]
+52V12*Sum{8|7I8} 4|14s11[10|4] 15s11[10|4] 59s11[10|4] 60s11[10|4] 106s11[7|4]
+. 107s11[7|4] 151s11[7|4] 152s11[7|4]
+53V12*Sum{8|7I8} 4|43s10[10|4] 88s10[10|4] 135s10[7|4] 180s10[7|4]
+X 3 graded_lexicographic_order.ads
+4K9*Graded_Lexicographic_Order 24l5 24e31 4|4b14 189l5 189t31
+10V13*"<"{boolean} 10>18 10>21 4|8b13 32l8 32t10 48s21
+10a18 v1{2|16A8[10|4]} 4|8b18 14r15 20r11 20r40 23r16 24r12 26r15
+10a21 v2{2|16A8[10|4]} 4|8b21 15r15 20r23 20r51 24r20 26r23
+11V13*"<"{boolean} 11>18 11>21 4|34b13 50l8 50t10
+11p18 v1{2|17P8[10|4]} 4|34b18 42r11 48r14
+11p21 v2{2|17P8[10|4]} 4|34b21 40r8 43r14 48r23
+13V13*">"{boolean} 13>18 13>21 4|52b13 77l8 77t10 93s21
+13a18 v1{2|16A8[10|4]} 4|52b18 59r15 65r11 65r40 68r16 69r12 71r15
+13a21 v2{2|16A8[10|4]} 4|52b21 60r15 65r23 65r51 69r20 71r23
+14V13*">"{boolean} 14>18 14>21 4|79b13 95l8 95t10
+14p18 v1{2|17P8[10|4]} 4|79b18 85r8 88r14 93r14
+14p21 v2{2|17P8[10|4]} 4|79b21 87r11 93r23
+17V13*">"{boolean} 17>18 17>21 4|144b13 169l8 169t10 185s21
+17a18 v1{2|16A8[7|4]} 4|144b18 151r15 157r11 157r40 160r16 161r12 163r15
+17a21 v2{2|16A8[7|4]} 4|144b21 152r15 157r23 157r51 161r20 163r23
+18V13*">"{boolean} 18>18 18>21 4|171b13 187l8 187t10
+18p18 v1{2|17P8[7|4]} 4|171b18 177r8 180r14 185r14
+18p21 v2{2|17P8[7|4]} 4|171b21 179r11 185r23
+20V13*"<"{boolean} 20>18 20>21 4|99b13 124l8 124t10 140s21
+20a18 v1{2|16A8[7|4]} 4|99b18 106r15 112r11 112r40 115r16 116r12 118r15
+20a21 v2{2|16A8[7|4]} 4|99b21 107r15 112r23 112r51 116r20 118r23
+21V13*"<"{boolean} 21>18 21>21 4|126b13 142l8 142t10
+21p18 v1{2|17P8[7|4]} 4|126b18 134r11 140r14
+21p21 v2{2|17P8[7|4]} 4|126b21 132r8 135r14 140r23
+X 4 graded_lexicographic_order.adb
+11i5 s1{8|7I8} 14m5 16r8 18r11
+11i8 s2{8|7I8} 15m5 16r13 18r16
+23i11 i<long_integer> 24r15 24r23 26r18 26r26
+56i5 s1{8|7I8} 59m5 61r8 63r11
+56i8 s2{8|7I8} 60m5 61r13 63r16
+68i11 i<long_integer> 69r15 69r23 71r18 71r26
+103i5 s1{5|6I8} 106m5 108r8 110r11
+103i8 s2{5|6I8} 107m5 108r13 110r16
+115i11 i<long_integer> 116r15 116r23 118r18 118r26
+148i5 s1{5|6I8} 151m5 153r8 155r11
+148i8 s2{5|6I8} 152m5 153r13 155r16
+160i11 i<long_integer> 161r15 161r23 163r18 163r26
+X 5 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 4|2w6 2r47 5|45e29
+6I8*integer32<long_integer> 4|103r13 148r13
+X 7 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[2|8] 3|2w6 17r26 18r26 20r26 21r26 4|99r26 101r9
+. 126r26 129r9 144r26 146r9 171r26 174r9
+X 8 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 4|1w6 1r47 8|30e29
+7I8*natural32<long_integer> 4|11r13 56r13
+X 10 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[2|8] 3|1w6 10r26 11r26 13r26 14r26 4|8r26 10r9
+. 34r26 37r9 52r26 54r9 79r26 82r9
+

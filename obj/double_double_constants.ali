@@ -1,0 +1,76 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U double_double_constants%s  double_double_constants.ads  f10c79f3 EE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali  AD
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+D double_double_constants.ads  20260513024558 cdc4699f double_double_constants%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c s s s [s double_double_constants 4 1 none]
+G r c none [s double_double_constants 4 1 none] [create double_double_numbers 40 12 none]
+X 1 double_double_constants.ads
+4K9*Double_Double_Constants 88l5 88e28
+10f3*dd_eps{3|13F8}
+14r3*pi{2|12R8}
+16r3*twopi{2|12R8}
+18r3*pi2{2|12R8}
+20r3*pi4{2|12R8}
+22r3*threepi4{2|12R8}
+24r3*pi16{2|12R8}
+29r3*i_fac0{2|12R8} 62r13
+31r3*i_fac1{2|12R8} 62r20
+33r3*i_fac2{2|12R8} 62r27
+35r3*i_fac3{2|12R8} 62r34
+37r3*i_fac4{2|12R8} 62r41
+39r3*i_fac5{2|12R8} 62r48
+41r3*i_fac6{2|12R8} 62r55
+43r3*i_fac7{2|12R8} 62r62
+45r3*i_fac8{2|12R8} 63r13
+47r3*i_fac9{2|12R8} 63r20
+49r3*i_fac10{2|12R8} 63r27
+51r3*i_fac11{2|12R8} 63r35
+53r3*i_fac12{2|12R8} 63r43
+55r3*i_fac13{2|12R8} 63r51
+57r3*i_fac14{2|12R8} 63r59
+60i3*n_inv_fact{natural} 61r20
+61a3*i_fac(2|12R8)
+67r3*sin_t0{2|12R8} 85r48
+69r3*sin_t1{2|12R8} 85r55
+71r3*sin_t2{2|12R8} 85r62
+73r3*sin_t3{2|12R8} 85r69
+76r3*cos_t0{2|12R8} 86r48
+78r3*cos_t1{2|12R8} 86r55
+80r3*cos_t2{2|12R8} 86r62
+82r3*cos_t3{2|12R8} 86r69
+85a3*sin_table(2|12R8)
+86a3*cos_table(2|12R8)
+X 2 double_double_numbers.ads
+5K9*Double_Double_Numbers 1|2w6 2r46 2|172e26
+12R8*double_double 1|14r17 16r20 18r18 20r18 22r23 24r19 29r22 31r22 33r22
+. 35r22 37r22 39r22 41r22 43r22 45r22 47r22 49r22 51r22 53r22 55r22 57r22
+. 61r37 67r21 69r21 71r21 73r21 76r21 78r21 80r21 82r21 85r30 86r30 2|170e13
+40V12*Create{12R8} 1|15s9 17s12 19s10 21s10 23s15 25s11 30s14 32s14 34s14
+. 36s14 38s14 40s14 42s14 44s14 46s14 48s14 50s14 52s14 54s14 56s14 58s14
+. 68s13 70s13 72s13 74s13 77s13 79s13 81s13 83s13
+X 3 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 1|1w6 1r46 3|58e30
+13F8*double_float<long_float> 1|10r21
+

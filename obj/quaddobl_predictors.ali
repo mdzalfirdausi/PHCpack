@@ -1,0 +1,1035 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_predictors%b	quaddobl_predictors.adb	1346d989 NE OO PK
+W quad_double_constants%s  quad_double_constants.ads  quad_double_constants.ali
+W quaddobl_complex_linear_solvers%s  quaddobl_complex_linear_solvers.adb  quaddobl_complex_linear_solvers.ali
+W quaddobl_extrapolators%s  quaddobl_extrapolators.adb  quaddobl_extrapolators.ali
+W quaddobl_mathematical_functions%s  quaddobl_mathematical_functions.adb  quaddobl_mathematical_functions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U quaddobl_predictors%s	quaddobl_predictors.ads	cd208add BN EE NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D quad_double_constants.ads  20260513024558 b4a277a9 quad_double_constants%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_linear_solvers.ads  20260513024558 86e310a9 quaddobl_complex_linear_solvers%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_extrapolators.ads  20260513024558 5b5f58f8 quaddobl_extrapolators%s
+D quaddobl_mathematical_functions.ads  20260513024558 04a8dea8 quaddobl_mathematical_functions%s
+D quaddobl_predictors.ads  20260513024558 dc91e26e quaddobl_predictors%s
+D quaddobl_predictors.adb  20260513024558 5cd6eb23 quaddobl_predictors%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [real_predictor quaddobl_predictors 54 13 none]
+G c Z s b [complex_predictor quaddobl_predictors 74 13 none]
+G c Z s b [circular_predictor quaddobl_predictors 83 13 none]
+G c Z s b [geometric_predictor quaddobl_predictors 91 14 none]
+G c Z s b [secant_single_real_predictor quaddobl_predictors 100 13 none]
+G c Z s b [secant_multiple_real_predictor quaddobl_predictors 105 13 none]
+G c Z s b [quadratic_single_real_predictor quaddobl_predictors 128 13 none]
+G c Z s b [cubic_single_real_predictor quaddobl_predictors 156 13 none]
+G c Z s b [quartic_single_real_predictor quaddobl_predictors 185 13 none]
+G c Z s b [quintic_single_real_predictor quaddobl_predictors 216 13 none]
+G c Z s b [secant_single_complex_predictor quaddobl_predictors 249 13 none]
+G c Z s b [secant_multiple_complex_predictor quaddobl_predictors 254 13 none]
+G c Z s b [secant_circular_predictor quaddobl_predictors 280 13 none]
+G c Z s b [secant_geometric_predictor quaddobl_predictors 303 13 none]
+G c Z b b [secant_predictor quaddobl_predictors 139 13 none]
+G c Z b b [hermite quaddobl_predictors 579 12 none]
+G c Z b b [hermite quaddobl_predictors 610 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [create quad_double_numbers 37 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [create quad_double_numbers 23 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [real_predictor quaddobl_predictors 54 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [create quad_double_numbers 37 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Osubtract quaddobl_complex_numbers 49 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Odivide quaddobl_complex_numbers 51 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Osubtract quad_double_numbers 182 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [arctan quaddobl_mathematical_functions 36 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Odivide quad_double_numbers 209 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [cos quaddobl_mathematical_functions 21 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Omultiply quad_double_numbers 193 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [sin quaddobl_mathematical_functions 20 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Olt quad_double_numbers 125 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Ogt quad_double_numbers 137 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Omultiply quaddobl_complex_numbers 50 12 5_1]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [complex_predictor quaddobl_predictors 74 13 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [circular_predictor quaddobl_predictors 83 13 none] [create quad_double_numbers 37 12 none]
+G r c none [circular_predictor quaddobl_predictors 83 13 none] [cos quaddobl_mathematical_functions 21 12 none]
+G r c none [circular_predictor quaddobl_predictors 83 13 none] [sin quaddobl_mathematical_functions 20 12 none]
+G r c none [circular_predictor quaddobl_predictors 83 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [circular_predictor quaddobl_predictors 83 13 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [circular_predictor quaddobl_predictors 83 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [create quad_double_numbers 37 12 none]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [geometric_predictor quaddobl_predictors 91 14 none] [Ole quad_double_numbers 130 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [create quad_double_numbers 37 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [create quad_double_numbers 23 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Odivide quad_double_numbers 210 12 none]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_single_real_predictor quaddobl_predictors 100 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [create quad_double_numbers 37 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [create quad_double_numbers 23 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Ogt quad_double_numbers 136 12 none]
+G r s solution_array [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [solution_arrayIP quaddobl_complex_solutions 33 8 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [copy quaddobl_complex_solutions 108 13 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [equals quaddobl_complex_solutions 87 13 none]
+G r c none [secant_multiple_real_predictor quaddobl_predictors 105 13 none] [clear quaddobl_complex_solutions 217 13 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [create quad_double_numbers 37 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [create quad_double_numbers 23 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [quadratic_single_real_predictor quaddobl_predictors 128 13 none] [extrapolate quaddobl_extrapolators 68 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [create quad_double_numbers 37 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [create quad_double_numbers 23 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [cubic_single_real_predictor quaddobl_predictors 156 13 none] [extrapolate quaddobl_extrapolators 77 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [create quad_double_numbers 37 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [create quad_double_numbers 23 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [quartic_single_real_predictor quaddobl_predictors 185 13 none] [extrapolate quaddobl_extrapolators 86 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [create quad_double_numbers 37 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Oadd quaddobl_complex_numbers 48 12 5_1]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [create quad_double_numbers 23 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Oexpon quad_double_numbers 222 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Oexpon quad_double_numbers 228 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Oge quad_double_numbers 138 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [quintic_single_real_predictor quaddobl_predictors 216 13 none] [extrapolate quaddobl_extrapolators 95 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [create quad_double_numbers 37 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Osubtract quaddobl_complex_numbers 49 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Odivide quaddobl_complex_numbers 51 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Osubtract quad_double_numbers 182 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [arctan quaddobl_mathematical_functions 36 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Odivide quad_double_numbers 209 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [cos quaddobl_mathematical_functions 21 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Omultiply quad_double_numbers 193 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [sin quaddobl_mathematical_functions 20 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Olt quad_double_numbers 125 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Ogt quad_double_numbers 137 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Omultiply quaddobl_complex_numbers 50 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_single_complex_predictor quaddobl_predictors 249 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [create quad_double_numbers 37 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Osubtract quaddobl_complex_numbers 49 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Odivide quaddobl_complex_numbers 51 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Osubtract quad_double_numbers 182 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [arctan quaddobl_mathematical_functions 36 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Odivide quad_double_numbers 209 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [cos quaddobl_mathematical_functions 21 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Omultiply quad_double_numbers 193 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [sin quaddobl_mathematical_functions 20 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Olt quad_double_numbers 125 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Ogt quad_double_numbers 137 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Omultiply quaddobl_complex_numbers 50 12 5_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r s solution_array [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [solution_arrayIP quaddobl_complex_solutions 33 8 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [copy quaddobl_complex_solutions 108 13 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [equals quaddobl_complex_solutions 87 13 none]
+G r c none [secant_multiple_complex_predictor quaddobl_predictors 254 13 none] [clear quaddobl_complex_solutions 217 13 none]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [create quad_double_numbers 37 12 none]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [cos quaddobl_mathematical_functions 21 12 none]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [sin quaddobl_mathematical_functions 20 12 none]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Odivide quad_double_numbers 210 12 none]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_circular_predictor quaddobl_predictors 280 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [create quad_double_numbers 37 12 none]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Ole quad_double_numbers 130 12 none]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_geometric_predictor quaddobl_predictors 303 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r s solution_array [secant_predictor quaddobl_predictors 139 13 none] [solution_arrayIP quaddobl_complex_solutions 33 8 none]
+G r c none [secant_predictor quaddobl_predictors 139 13 none] [copy quaddobl_complex_solutions 108 13 none]
+G r c none [secant_predictor quaddobl_predictors 139 13 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [secant_predictor quaddobl_predictors 139 13 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [secant_predictor quaddobl_predictors 139 13 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [secant_predictor quaddobl_predictors 139 13 none] [equals quaddobl_complex_solutions 87 13 none]
+G r c none [secant_predictor quaddobl_predictors 139 13 none] [clear quaddobl_complex_solutions 217 13 none]
+G r c none [hermite quaddobl_predictors 579 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite quaddobl_predictors 579 12 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [hermite quaddobl_predictors 579 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [hermite quaddobl_predictors 579 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [hermite quaddobl_predictors 579 12 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [hermite quaddobl_predictors 579 12 none] [Oexpon quaddobl_complex_numbers 65 12 5_1]
+G r c none [hermite quaddobl_predictors 579 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [hermite quaddobl_predictors 610 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite quaddobl_predictors 610 12 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [hermite quaddobl_predictors 610 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [hermite quaddobl_predictors 610 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [hermite quaddobl_predictors 610 12 none] [Omultiply quaddobl_complex_numbers 55 12 5_1]
+G r c none [hermite quaddobl_predictors 610 12 none] [Oexpon quaddobl_complex_numbers 65 12 5_1]
+G r c none [hermite quaddobl_predictors 610 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+X 13 generic_complex_numbers.ads
+19R8*Complex_Number 43|55r30[36|5] 55r58[36|5] 75r30[36|5] 75r58[36|5] 84r29[36|5]
+. 85r44[36|5] 92r29[36|5] 92r57[36|5] 102r30[36|5] 102r65[36|5] 107r30[36|5]
+. 107r65[36|5] 130r30[36|5] 131r37[36|5] 158r30[36|5] 159r40[36|5] 187r30[36|5]
+. 188r43[36|5] 218r30[36|5] 219r46[36|5] 251r30[36|5] 251r65[36|5] 256r30[36|5]
+. 256r65[36|5] 282r30[36|5] 283r52[36|5] 305r29[36|5] 305r64[36|5] 327r40[36|5]
+. 329r40[36|5] 333r49[36|5] 334r31[36|5] 340r40[36|5] 342r40[36|5] 346r57[36|5]
+. 347r31[36|5] 371r40[36|5] 373r40[36|5] 377r49[36|5] 378r31[36|5] 384r40[36|5]
+. 386r40[36|5] 390r57[36|5] 391r31[36|5] 418r40[36|5] 420r40[36|5] 424r49[36|5]
+. 426r45[36|5] 436r40[36|5] 438r40[36|5] 442r48[36|5] 443r30[36|5] 452r40[36|5]
+. 454r40[36|5] 459r30[36|5] 459r65[36|5] 44|20r28[36|5] 20r56[36|5] 24r10[36|5]
+. 50r29[36|5] 50r57[36|5] 54r32[36|5] 110r28[36|5] 111r43[36|5] 114r17[36|5]
+. 124r28[36|5] 124r56[36|5] 127r10[36|5] 141r26[36|5] 163r29[36|5] 163r64[36|5]
+. 168r14[36|5] 185r30[36|5] 186r37[36|5] 191r19[36|5] 203r30[36|5] 204r40[36|5]
+. 209r19[36|5] 221r30[36|5] 222r43[36|5] 227r19[36|5] 239r30[36|5] 240r46[36|5]
+. 245r19[36|5] 257r29[36|5] 257r64[36|5] 262r14[36|5] 279r29[36|5] 279r64[36|5]
+. 284r14[36|5] 298r29[36|5] 298r64[36|5] 304r14[36|5] 321r29[36|5] 322r51[36|5]
+. 325r14[36|5] 340r29[36|5] 340r64[36|5] 344r18[36|5] 358r48[36|5] 359r30[36|5]
+. 369r23[36|5] 390r56[36|5] 391r30[36|5] 403r23[36|5] 439r48[36|5] 440r30[36|5]
+. 450r23[36|5] 471r56[36|5] 472r30[36|5] 485r23[36|5] 521r47[36|5] 523r43[36|5]
+. 551r48[36|5] 552r30[36|5] 560r23[36|5] 579r44[36|5] 580r27[36|5] 594r27[36|5]
+. 610r32[36|5] 633r30[36|5] 633r65[36|5] 642r19[36|5]
+26V12*Create{19R8[36|5]} 44|35s13[36|5] 174s21[36|5] 269s21[36|5] 291s21[36|5]
+. 311s17[36|5] 332s17[36|5] 352s21[36|5] 383s17[36|5] 420s19[36|5] 464s17[36|5]
+. 502s19[36|5] 544s17[36|5] 573s17[36|5]
+27V12*Create{19R8[36|5]} 44|83s19[36|5] 87s25[36|5] 96s19[36|5] 100s25[36|5]
+. 119s18[36|5]
+32V12*REAL_PART{31|14R8} 44|35s23[36|5] 37s8[36|5] 37s25[36|5] 38s20[36|5]
+. 38s36[36|5] 39s19[36|5] 39s39[36|5] 78s18[36|5] 91s18[36|5] 131s13[36|5]
+. 131s29[36|5]
+33V12*IMAG_PART{31|14R8} 44|79s18[36|5] 92s18[36|5]
+35V12*AbsVal{31|14R8} 44|62s20[36|5] 65s23[36|5] 85s30[36|5] 86s23[36|5]
+. 86s48[36|5] 98s30[36|5] 99s23[36|5] 99s48[36|5] 104s23[36|5] 171s12[36|5]
+. 194s12[36|5] 212s12[36|5] 230s12[36|5] 248s12[36|5] 265s12[36|5] 287s12[36|5]
+. 307s12[36|5] 326s35[36|5] 347s18[36|5] 350s13[36|5] 572s17[36|5] 652s10[36|5]
+. 652s42[36|5]
+48V13*"+"{19R8[36|5]} 44|30s15[36|5]
+49V13*"-"{19R8[36|5]} 44|64s20[36|5]
+50V13*"*"{19R8[36|5]} 44|87s40[36|5] 100s41[36|5]
+51V13*"/"{19R8[36|5]} 44|70s48[36|5]
+55V13*"*"{19R8[36|5]} 44|73s35[36|5] 74s40[36|5] 130s29[36|5] 601s25[36|5]
+. 602s43[36|5] 603s22[36|5] 603s34[36|5]
+58V13*"+"{19R8[36|5]} 44|76s19[36|5] 84s19[36|5] 88s25[36|5] 97s19[36|5]
+. 101s25[36|5] 120s17[36|5] 601s15[36|5] 602s30[36|5] 603s29[36|5] 604s24[36|5]
+. 604s33[36|5] 605s20[36|5] 605s28[36|5] 605s36[36|5]
+60V13*"-"{19R8[36|5]} 44|61s32[36|5] 65s33[36|5] 86s58[36|5] 99s58[36|5]
+. 130s18[36|5] 130s38[36|5] 171s21[36|5] 194s21[36|5] 212s21[36|5] 230s21[36|5]
+. 248s21[36|5] 265s21[36|5] 287s21[36|5] 307s21[36|5] 326s43[36|5] 347s27[36|5]
+. 350s22[36|5] 572s25[36|5] 599s15[36|5] 600s16[36|5] 601s20[36|5] 602s16[36|5]
+. 602s21[36|5] 602s38[36|5] 603s14[36|5] 604s14[36|5] 652s24[36|5] 652s51[36|5]
+62V13*"*"{19R8[36|5]} 44|120s33[36|5] 602s34[36|5] 602s50[36|5] 603s25[36|5]
+. 603s38[36|5] 604s20[36|5] 604s29[36|5] 604s38[36|5] 605s17[36|5] 605s25[36|5]
+. 605s33[36|5]
+63V13*"/"{19R8[36|5]} 44|600s21[36|5] 601s30[36|5] 602s54[36|5]
+65V13*"**"{19R8[36|5]} 44|601s35[36|5] 602s26[36|5] 602s46[36|5]
+X 15 generic_matrices.ads
+16A8*Matrix(13|19R8[36|5])<50|6I8><50|6I8> 43|329r64[35|5] 342r64[35|5] 373r64[35|5]
+. 386r64[35|5] 420r64[35|5] 438r64[35|5] 454r64[35|5] 44|367r9[35|5] 399r9[35|5]
+. 448r9[35|5] 481r9[35|5] 530r9[35|5] 558r9[35|5] 640r9[35|5]
+X 16 generic_vectors.ads
+16A8*Vector(13|19R8[36|5])<50|6I8> 43|101r30[39|4] 101r50[39|4] 129r30[39|4]
+. 129r49[39|4] 157r30[39|4] 157r52[39|4] 186r30[39|4] 186r55[39|4] 217r30[39|4]
+. 217r58[39|4] 250r30[39|4] 250r50[39|4] 281r30[39|4] 281r50[39|4] 304r29[39|4]
+. 304r49[39|4] 326r30[39|4] 327r28[39|4] 327r64[39|4] 329r28[39|4] 333r30[39|4]
+. 339r30[39|4] 340r28[39|4] 340r64[39|4] 342r28[39|4] 370r30[39|4] 371r28[39|4]
+. 371r64[39|4] 373r28[39|4] 377r30[39|4] 383r30[39|4] 384r28[39|4] 384r64[39|4]
+. 386r28[39|4] 417r30[39|4] 418r28[39|4] 418r64[39|4] 420r28[39|4] 424r30[39|4]
+. 435r30[39|4] 436r28[39|4] 436r64[39|4] 438r28[39|4] 442r29[39|4] 451r30[39|4]
+. 452r28[39|4] 452r64[39|4] 454r28[39|4] 458r30[39|4] 458r50[39|4] 460r30[39|4]
+. 460r50[39|4] 44|162r29[39|4] 162r49[39|4] 184r30[39|4] 184r49[39|4] 202r30[39|4]
+. 202r52[39|4] 220r30[39|4] 220r55[39|4] 238r30[39|4] 238r58[39|4] 278r29[39|4]
+. 278r49[39|4] 320r29[39|4] 320r49[39|4] 339r29[39|4] 339r49[39|4] 358r29[39|4]
+. 366r11[39|4] 368r37[52|4] 397r11[39|4] 400r37[52|4] 439r29[39|4] 447r11[39|4]
+. 449r37[52|4] 479r11[39|4] 482r37[52|4] 521r28[39|4] 529r11[39|4] 531r37[52|4]
+. 551r29[39|4] 557r11[39|4] 559r37[52|4] 610r62[39|4] 611r27[39|4] 620r11[39|4]
+. 632r30[39|4] 632r50[39|4] 634r30[39|4] 634r50[39|4] 641r37[52|4]
+29V13*"+"{16A8[39|4]} 44|149s24[39|4] 175s18[39|4] 292s18[39|4] 334s14[39|4]
+. 353s18[39|4]
+35V13*"-"{16A8[39|4]} 44|149s41[39|4] 175s33[39|4] 292s33[39|4] 334s29[39|4]
+. 353s33[39|4]
+39V13*"*"{16A8[39|4]} 44|149s30[39|4] 175s27[39|4] 292s27[39|4] 334s23[39|4]
+. 353s27[39|4]
+58U13*Add 44|384s9[39|4] 421s11[39|4] 465s9[39|4] 503s11[39|4] 545s9[39|4]
+. 574s9[39|4]
+60U13*Min 44|378s7[39|4] 414s9[39|4] 459s7[39|4] 496s9[39|4] 537s7[39|4]
+. 568s7[39|4] 650s7[39|4]
+64U13*Mul 44|383s9[39|4] 420s11[39|4] 464s9[39|4] 502s11[39|4] 544s9[39|4]
+. 573s9[39|4]
+X 30 quad_double_constants.ads
+4K9*Quad_Double_Constants 1717e26 44|9w6 9r46
+15r3*pi{31|14R8} 44|81r31 82r31 94r31 95r31
+X 31 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 43|3w6 3r46
+14R8*quad_double 253e13 43|326r46 339r46 370r46 383r45 417r45 435r45 451r45
+. 44|25r28 56r24 57r21 115r16 166r11 189r11 207r11 225r11 243r11 261r17 283r17
+. 303r17 326r20 343r22 365r22 396r22 446r22 478r22 528r16 556r21 595r20 596r22
+23V12*Create{14R8} 44|32s14
+37V12*Create{14R8} 44|29s15 33s14 57s36 64s22 70s50 73s25 87s42 100s43 115s31
+. 130s20 267s14 289s14 309s14 373s14 407s14 454s14 489s14 595s35 596s37
+67V12*hihi_part{49|13F8} 44|41s17 62s10 65s13 85s20 98s20 104s13
+125V13*"<"{boolean} 44|86s68 99s68
+130V13*"<="{boolean} 44|38s56 131s49 329s12
+136V13*">"{boolean} 44|173s12 196s12 214s12 232s12 250s12 268s12 290s12 310s12
+. 351s18 381s19 418s21 462s19 500s21 543s19 571s19 652s30 652s57
+137V13*">"{boolean} 44|86s21 99s21
+138V13*">="{boolean} 44|37s22
+152V13*"abs"{14R8} 44|38s15 131s8
+160V13*"+"{14R8} 44|81s29 82s29
+164V13*"+"{14R8} 44|35s22
+174V13*"-"{14R8} 44|38s34 39s37 94s29 95s29 131s27
+182V13*"-"{14R8} 44|74s28
+183V13*"-"{14R8} 44|100s37
+193V13*"*"{14R8} 44|81s18 82s18 94s18 95s18
+206V13*"/"{14R8} 44|34s21 80s29 93s29 269s33 291s33 311s29 352s32 382s24
+. 419s26 463s24 501s26 572s34
+209V13*"/"{14R8} 44|81s33 82s33 94s33 95s33
+210V13*"/"{14R8} 44|174s30 332s25 544s25
+222V13*"**"{14R8} 44|35s35
+228V13*"**"{14R8} 44|35s50
+X 34 quaddobl_complex_linear_solvers.ads
+10K9*QuadDobl_Complex_Linear_Solvers 257e36 44|12w6 12r46
+36U13*lufac 44|375s5 411s7 456s5 493s7 534s5 565s5 647s5
+162U13*lusolve 44|379s7 415s9 460s7 497s9 538s7 569s7 651s7
+X 35 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[15|9] 43|6w6 6r46
+X 36 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[13|11] 43|4w6 4r46
+X 38 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 235e31 43|7w6 7r46
+19i19*n{50|6I8} 44|394r42 476r42
+20r5*t{13|19R8[36|5]} 44|273m12 315m12 434m12 516m12
+22a5*v{16|16A8[39|4]} 44|149m12 149r22 149r39 149r53 151r22 410r20 413r24
+. 421m20 424r24 492r20 495r24 503m20 506r24
+28P8*Link_to_Solution(19R8)
+33A8*Solution_Array(28P8)<50|6I8> 43|106r30 106r58 255r30 255r58 346r30 390r30
+. 44|140r28 140r56 144r10 256r29 256r57 297r29 297r57 390r29 401r10 471r29
+. 483r10
+87U13*Equals 44|151s7 424s9 506s9
+108U13*Copy 44|147s5 153s13 408s5 426s15 429s9 490s5 508s15 511s9
+217U13*Clear 44|156s5 432s5 514s5
+X 39 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[16|8] 43|5w6 5r46
+X 41 quaddobl_extrapolators.ads
+4K9*QuadDobl_Extrapolators 105e27 44|13w6 13r46
+68V12*Extrapolate{16|16A8[39|4]} 44|197s12
+77V12*Extrapolate{16|16A8[39|4]} 44|215s12
+86V12*Extrapolate{16|16A8[39|4]} 44|233s12
+95V12*Extrapolate{16|16A8[39|4]} 44|251s12
+X 42 quaddobl_mathematical_functions.ads
+5K9*QuadDobl_Mathematical_Functions 59e36 44|10w6 10r46
+20V12*SIN{31|14R8} 44|82s20 95s20 119s39
+21V12*COS{31|14R8} 44|81s20 94s20 119s25
+36V12*ARCTAN{31|14R8} 44|80s19 93s19
+X 43 quaddobl_predictors.ads
+9K9*QuadDobl_Predictors 485l5 485e24 44|15b14 664l5 664t24
+54U13*Real_Predictor 55=19 55>46 56>19 56>21 56>44 57<19 44|19b13 47l7 47t21
+. 172s5 195s5 213s5 231s5 249s5 266s5 372s5 406s5 645s5
+55r19 t{13|19R8[36|5]} 44|20b17 30r13 35r33 39r49 40m11 43m11
+55r46 target{13|19R8[36|5]} 44|20b44 37r35 38r46 39r29 40r16
+56f19 h{49|13F8} 44|21b17 29r22 35r21 42r17
+56f21 tol{49|13F8} 44|21b19 38r59
+56i44 pow{54|7I8} 44|21b42 28r8 32r21 35r45
+57f19 hh{49|13F8} 44|22b17 41m11 42m11
+74U13*Complex_Predictor 75=19 75>46 76>19 76>21 76<44 77>19 77>47 44|49b13
+. 107l7 107t24 288s5 308s5 453s5 488s5
+75r19 t{13|19R8[36|5]} 44|50b18 61r34 65r35 76r17 84r17 88r23 97r17 101r23
+. 106m5
+75r46 target{13|19R8[36|5]} 44|50b45 61r25 64r13 86r30 86r60 99r30 99r60
+76f19 h{49|13F8} 44|51b18 71r22 73r32 81r16 82r16 87r49 94r16 95r16 100r50
+76f21 tol{49|13F8} 44|51b20 63r12
+76f44 hh{49|13F8} 44|51b43 65m7 104m7
+77f19 distance{49|13F8} 44|52b18 64r29 72r22 74r30 86r70 99r70
+77i47 trial{54|7I8} 44|52b46 67r14
+83U13*Circular_Predictor 84=18 84=45 85>18 85>32 86>18 44|109b13 121l7 121t25
+. 330s7 333s7 540s5
+84r18 t{13|19R8[36|5]} 44|110b17 120m5
+84f45 theta{49|13F8} 44|110b44 115r38 118m5 118r14
+85r18 t0_min_target{13|19R8[36|5]} 44|111b17 120r19
+85r32 target{13|19R8[36|5]} 44|111b31 120r10
+86f18 h{49|13F8} 44|112b17 118r22
+91U14*Geometric_Predictor 92=18 92>45 93>18 93>20 44|123b13 135l7 135t26
+. 349s5 563s5
+92r18 t{13|19R8[36|5]} 44|124b17 130r40 132m11 133m11
+92r45 target{13|19R8[36|5]} 44|124b44 130r11 130r31 131r39 132r16
+93f18 h{49|13F8} 44|125b17 130r27
+93f20 tol{49|13F8} 44|125b19 131r52
+100U13*Secant_Single_Real_Predictor 101=19 101>38 102=19 102>46 102>53 103>19
+. 103>21 103>44 44|161b13 181l7 181t35
+101a19 x{16|16A8[39|4]} 44|162b18 175m11 175r16 175r31
+101a38 prev_x{16|16A8[39|4]} 44|162b37 175r35
+102r19 t{13|19R8[36|5]} 44|163b18 171r19 172m20
+102r46 prev_t{13|19R8[36|5]} 44|163b45 171r23
+102r53 target{13|19R8[36|5]} 44|163b52 172r22
+103f19 h{49|13F8} 44|164b18 172r29
+103f21 tol{49|13F8} 44|164b20 172r31 173r14
+103i44 pow{54|7I8} 44|164b43 172r35
+105U13*Secant_Multiple_Real_Predictor 106=19 106>46 107=19 107>46 107>53
+. 108>19 108>21 108>25 108>51 44|255b13 275l7 275t37
+106a19 x{38|33A8} 44|256b18 270m28 272r14 273m7 273r7
+106a46 prev_x{38|33A8} 44|256b45 270r30
+107r19 t{13|19R8[36|5]} 44|257b18 265r19 266m20 273r17
+107r46 prev_t{13|19R8[36|5]} 44|257b45 265r23
+107r53 target{13|19R8[36|5]} 44|257b52 266r22
+108f19 h{49|13F8} 44|258b18 266r29
+108f21 tol{49|13F8} 44|258b20 266r31 268r14
+108f25 dist_x{49|13F8} 44|258b24 270r44
+108i51 pow{54|7I8} 44|258b50 266r35
+128U13*Quadratic_Single_Real_Predictor 129=19 129>38 129>41 130=19 131>19
+. 131>22 131>25 132>19 132>21 132>44 44|183b13 199l7 199t38
+129a19 x{16|16A8[39|4]} 44|184b19 197m7 197r41
+129a38 x1{16|16A8[39|4]} 44|184b38 197r38
+129a41 x0{16|16A8[39|4]} 44|184b41 197r35
+130r19 t{13|19R8[36|5]} 44|185b19 191r37 194r19 195m20 197r24
+131r19 t1{13|19R8[36|5]} 44|186b19 194r23 197r29
+131r22 t0{13|19R8[36|5]} 44|186b22 197r26
+131r25 target{13|19R8[36|5]} 44|186b25 195r22
+132f19 h{49|13F8} 44|187b19 195r29
+132f21 tol{49|13F8} 44|187b21 195r31 196r14
+132i44 pow{54|7I8} 44|187b44 195r35
+156U13*Cubic_Single_Real_Predictor 157=19 157>38 157>41 157>44 158=19 159>19
+. 159>22 159>25 159>28 160>19 160>21 160>44 44|201b13 217l7 217t34
+157a19 x{16|16A8[39|4]} 44|202b19 215m7 215r47
+157a38 x2{16|16A8[39|4]} 44|202b38 215r44
+157a41 x1{16|16A8[39|4]} 44|202b41 215r41
+157a44 x0{16|16A8[39|4]} 44|202b44 215r38
+158r19 t{13|19R8[36|5]} 44|203b19 209r37 212r19 213m20 215r24
+159r19 t2{13|19R8[36|5]} 44|204b19 212r23 215r32
+159r22 t1{13|19R8[36|5]} 44|204b22 215r29
+159r25 t0{13|19R8[36|5]} 44|204b25 215r26
+159r28 target{13|19R8[36|5]} 44|204b28 213r22
+160f19 h{49|13F8} 44|205b19 213r29
+160f21 tol{49|13F8} 44|205b21 213r31 214r14
+160i44 pow{54|7I8} 44|205b44 213r35
+185U13*Quartic_Single_Real_Predictor 186=19 186>38 186>41 186>44 186>47 187=19
+. 188>19 188>22 188>25 188>28 188>31 189>19 189>21 189>44 44|219b13 235l7
+. 235t36
+186a19 x{16|16A8[39|4]} 44|220b19 233m7 233r53
+186a38 x3{16|16A8[39|4]} 44|220b38 233r50
+186a41 x2{16|16A8[39|4]} 44|220b41 233r47
+186a44 x1{16|16A8[39|4]} 44|220b44 233r44
+186a47 x0{16|16A8[39|4]} 44|220b47 233r41
+187r19 t{13|19R8[36|5]} 44|221b19 227r37 230r19 231m20 233r24
+188r19 t3{13|19R8[36|5]} 44|222b19 230r23 233r35
+188r22 t2{13|19R8[36|5]} 44|222b22 233r32
+188r25 t1{13|19R8[36|5]} 44|222b25 233r29
+188r28 t0{13|19R8[36|5]} 44|222b28 233r26
+188r31 target{13|19R8[36|5]} 44|222b31 231r22
+189f19 h{49|13F8} 44|223b19 231r29
+189f21 tol{49|13F8} 44|223b21 231r31 232r14
+189i44 pow{54|7I8} 44|223b44 231r35
+216U13*Quintic_Single_Real_Predictor 217=19 217>38 217>41 217>44 217>47 217>50
+. 218=19 219>19 219>22 219>25 219>28 219>31 219>34 220>19 220>21 220>44 44|237b13
+. 253l7 253t36
+217a19 x{16|16A8[39|4]} 44|238b19 251m7 251r59
+217a38 x4{16|16A8[39|4]} 44|238b38 251r56
+217a41 x3{16|16A8[39|4]} 44|238b41 251r53
+217a44 x2{16|16A8[39|4]} 44|238b44 251r50
+217a47 x1{16|16A8[39|4]} 44|238b47 251r47
+217a50 x0{16|16A8[39|4]} 44|238b50 251r44
+218r19 t{13|19R8[36|5]} 44|239b19 245r37 248r19 249m20 251r24
+219r19 t4{13|19R8[36|5]} 44|240b19 248r23 251r38
+219r22 t3{13|19R8[36|5]} 44|240b22 251r35
+219r25 t2{13|19R8[36|5]} 44|240b25 251r32
+219r28 t1{13|19R8[36|5]} 44|240b28 251r29
+219r31 t0{13|19R8[36|5]} 44|240b31 251r26
+219r34 target{13|19R8[36|5]} 44|240b34 249r22
+220f19 h{49|13F8} 44|241b19 249r29
+220f21 tol{49|13F8} 44|241b21 249r31 250r14
+220i44 pow{54|7I8} 44|241b44 249r35
+249U13*Secant_Single_Complex_Predictor 250=19 250>38 251=19 251>46 251>53
+. 252>19 252>21 252>25 252>51 44|277b13 294l7 294t38
+250a19 x{16|16A8[39|4]} 44|278b18 292m11 292r16 292r31
+250a38 prev_x{16|16A8[39|4]} 44|278b37 292r35
+251r19 t{13|19R8[36|5]} 44|279b18 287r19 288m23
+251r46 prev_t{13|19R8[36|5]} 44|279b45 287r23
+251r53 target{13|19R8[36|5]} 44|279b52 288r25
+252f19 h{49|13F8} 44|280b18 288r32
+252f21 tol{49|13F8} 44|280b20 288r34 290r14
+252f25 dist_t{49|13F8} 44|280b24 288r41
+252i51 trial{54|7I8} 44|280b50 288r48
+254U13*Secant_Multiple_Complex_Predictor 255=19 255>46 256=19 256>46 256>53
+. 257>19 257>21 257>25 257>32 258>19 44|296b13 317l7 317t40
+255a19 x{38|33A8} 44|297b18 312m24 314r14 315m7 315r7
+255a46 prev_x{38|33A8} 44|297b45 312r26
+256r19 t{13|19R8[36|5]} 44|298b18 307r19 308m23 315r17
+256r46 prev_t{13|19R8[36|5]} 44|298b45 307r23
+256r53 target{13|19R8[36|5]} 44|298b52 308r25
+257f19 h{49|13F8} 44|299b18 308r32
+257f21 tol{49|13F8} 44|299b20 308r34 310r14
+257f25 dist_x{49|13F8} 44|299b24 312r40
+257f32 dist_t{49|13F8} 44|299b31 308r41
+258i19 trial{54|7I8} 44|300b18 308r48
+280U13*Secant_Circular_Predictor 281=19 281>38 282=19 282=46 283>19 283>26
+. 283>40 284>19 284>21 44|319b13 336l7 336t32
+281a19 x{16|16A8[39|4]} 44|320b18 334m7 334r12 334r27
+281a38 prev_x{16|16A8[39|4]} 44|320b37 334r31
+282r19 t{13|19R8[36|5]} 44|321b18 326r42 330m26 333m26
+282f46 theta{49|13F8} 44|321b45 330m28 333m28
+283r19 prev_t{13|19R8[36|5]} 44|322b18 326r44
+283r26 t0_min_target{13|19R8[36|5]} 44|322b25 330r34 333r34
+283r40 target{13|19R8[36|5]} 44|322b39 330r48 333r48
+284f19 h{49|13F8} 44|323b18 330r55 332r24 333r55
+284f21 tol{49|13F8} 44|323b20 329r15
+303U13*Secant_Geometric_Predictor 304=18 304>37 305=18 305>45 305>52 306>18
+. 306>20 44|338b13 355l7 355t33
+304a18 x{16|16A8[39|4]} 44|339b18 353m11 353r16 353r31
+304a37 prev_x{16|16A8[39|4]} 44|339b37 353r35
+305r18 t{13|19R8[36|5]} 44|340b18 347r25 348r12 349m25 350r20
+305r45 prev_t{13|19R8[36|5]} 44|340b45 347r29
+305r52 target{13|19R8[36|5]} 44|340b52 349r27
+306f18 h{49|13F8} 44|341b18 349r34
+306f20 tol{49|13F8} 44|341b20 349r36 351r20
+326V19 Norm{31|14R8} 326>26 44|380s19
+326a26 x{16|16A8[39|4]}
+327V19 dH{16|16A8[39|4]} 327>24 327>36 44|377s14
+327a24 x{16|16A8[39|4]}
+327r36 t{13|19R8[36|5]}
+329V19 dH{15|16A8[35|5]} 329>24 329>36 44|374s10
+329a24 x{16|16A8[39|4]}
+329r36 t{13|19R8[36|5]}
+332u13*Tangent_Single_Real_Predictor 333=19 333=38 334>19 334>47 334>49 335>19
+. 44|357b13 387l7 387t36
+333a19 x{16|16A8[39|4]} 44|358b18 362r31 366r18 374r13 377r17 384m13
+333r38 t{13|19R8[36|5]} 44|358b37 369r41 372m20
+334r19 target{13|19R8[36|5]} 44|359b18 372r22
+334f47 h{49|13F8} 44|359b46 372r29
+334f49 tol{49|13F8} 44|359b48 372r31 381r21
+335i19 pow{54|7I8} 44|360b18 372r35
+339V19 Norm{31|14R8} 339>26 44|417s21
+339a26 x{16|16A8[39|4]}
+340V19 dH{16|16A8[39|4]} 340>24 340>36 44|413s16
+340a24 x{16|16A8[39|4]}
+340r36 t{13|19R8[36|5]}
+342V19 dH{15|16A8[35|5]} 342>24 342>36 44|410s12
+342a24 x{16|16A8[39|4]}
+342r36 t{13|19R8[36|5]}
+345u13*Tangent_Multiple_Real_Predictor 346=19 346=46 347>19 347>47 347>49
+. 347>53 348=19 348>44 44|389b13 436l7 436t38
+346a19 x{38|33A8} 44|390b18 394r31 394r33 401r25 408r10 409r14 410r15 413r19
+. 421r15 424r19 426m23 429m17 433r14 434m7 434r7
+346r46 t{13|19R8[36|5]} 44|390b45 403r41 406m20 434r17
+347r19 target{13|19R8[36|5]} 44|391b18 406r22
+347f47 h{49|13F8} 44|391b46 406r29
+347f49 tol{49|13F8} 44|391b48 406r31 418r23
+347f53 dist_x{49|13F8} 44|391b52 424r28
+348i19 nsys{54|7I8} 44|392b18 416m9 416r17
+348i44 pow{54|7I8} 44|392b43 406r35
+370V19 Norm{31|14R8} 370>26 44|461s19
+370a26 x{16|16A8[39|4]}
+371V19 dH{16|16A8[39|4]} 371>24 371>36 44|458s14
+371a24 x{16|16A8[39|4]}
+371r36 t{13|19R8[36|5]}
+373V19 dH{15|16A8[35|5]} 373>24 373>36 44|455s10
+373a24 x{16|16A8[39|4]}
+373r36 t{13|19R8[36|5]}
+376u13*Tangent_Single_Complex_Predictor 377=19 377=38 378>19 379>19 379>21
+. 379>25 379>51 44|438b13 468l7 468t39
+377a19 x{16|16A8[39|4]} 44|439b18 443r31 447r18 455r13 458r17 465m13
+377r38 t{13|19R8[36|5]} 44|439b37 450r41 453m23
+378r19 target{13|19R8[36|5]} 44|440b18 453r25
+379f19 h{49|13F8} 44|441b18 453r32
+379f21 tol{49|13F8} 44|441b20 453r34 462r21
+379f25 dist_t{49|13F8} 44|441b24 453r41
+379i51 trial{54|7I8} 44|441b50 453r48
+383V19 Norm{31|14R8} 383>26 44|499s21
+383a26 x{16|16A8[39|4]}
+384V19 dH{16|16A8[39|4]} 384>24 384>36 44|495s16
+384a24 x{16|16A8[39|4]}
+384r36 t{13|19R8[36|5]}
+386V19 dH{15|16A8[35|5]} 386>24 386>36 44|492s12
+386a24 x{16|16A8[39|4]}
+386r36 t{13|19R8[36|5]}
+389u13*Tangent_Multiple_Complex_Predictor 390=19 390=46 391>19 392>19 392>21
+. 392>25 392>32 393>19 393=41 44|470b13 518l7 518t41
+390a19 x{38|33A8} 44|471b18 476r31 476r33 483r25 490r10 491r14 492r15 495r19
+. 503r15 506r19 508m23 511m17 515r14 516m7 516r7
+390r46 t{13|19R8[36|5]} 44|471b45 485r41 488m23 516r17
+391r19 target{13|19R8[36|5]} 44|472b18 488r25
+392f19 h{49|13F8} 44|473b18 488r32
+392f21 tol{49|13F8} 44|473b20 488r34 500r23
+392f25 dist_x{49|13F8} 44|473b24 506r28
+392f32 dist_t{49|13F8} 44|473b31 488r41
+393i19 trial{54|7I8} 44|474b18 488r48
+393i41 nsys{54|7I8} 44|474b40 498m9 498r17
+417V19 Norm{31|14R8} 417>26 44|542s19
+417a26 x{16|16A8[39|4]}
+418V19 dH{16|16A8[39|4]} 418>24 418>36 44|536s14
+418a24 x{16|16A8[39|4]}
+418r36 t{13|19R8[36|5]}
+420V19 dH{15|16A8[35|5]} 420>24 420>36
+420a24 x{16|16A8[39|4]}
+420r36 t{13|19R8[36|5]}
+423u13*Tangent_Circular_Predictor 424=19 424=38 425=19 426>19 426>33 427>19
+. 427>21 44|520b13 548l7 548t33
+424a19 x{16|16A8[39|4]} 44|521b17 526r31 529r18 536r17 545m13
+424r38 t{13|19R8[36|5]} 44|521b36 536r19 540m24
+425f19 theta{49|13F8} 44|522b17 540m26
+426r19 t0_min_target{13|19R8[36|5]} 44|523b17 540r32
+426r33 target{13|19R8[36|5]} 44|523b31 540r46
+427f19 h{49|13F8} 44|524b17 540r53 544r24
+427f21 tol{49|13F8} 44|524b19 543r21
+435V19 Norm{31|14R8} 435>26 44|570s19
+435a26 x{16|16A8[39|4]}
+436V19 dH{16|16A8[39|4]} 436>24 436>36 44|567s14
+436a24 x{16|16A8[39|4]}
+436r36 t{13|19R8[36|5]}
+438V19 dH{15|16A8[35|5]} 438>24 438>36 44|564s10
+438a24 x{16|16A8[39|4]}
+438r36 t{13|19R8[36|5]}
+441u13*Tangent_Geometric_Predictor 442=18 442=37 443>18 443>46 443>48 44|550b13
+. 577l7 577t34
+442a18 x{16|16A8[39|4]} 44|551b18 554r31 557r18 564r13 567r17 574m13
+442r37 t{13|19R8[36|5]} 44|551b37 560r41 563m25 572r24
+443r18 target{13|19R8[36|5]} 44|552b18 563r27
+443f46 h{49|13F8} 44|552b46 563r34
+443f48 tol{49|13F8} 44|552b48 563r36 571r21
+451V19 Norm{31|14R8} 451>26
+451a26 x{16|16A8[39|4]}
+452V19 dH{16|16A8[39|4]} 452>24 452>36 44|649s12
+452a24 x{16|16A8[39|4]}
+452r36 t{13|19R8[36|5]}
+454V19 dH{15|16A8[35|5]} 454>24 454>36 44|646s10
+454a24 x{16|16A8[39|4]}
+454r36 t{13|19R8[36|5]}
+457u13*Hermite_Single_Real_Predictor 458=19 458>38 459=19 459>46 459>53 460=19
+. 460>38 461>19 461>21 461>44 44|631b13 662l7 662t36
+458a19 x{16|16A8[39|4]} 44|632b19 637r31 646r13 649r15 653m13 653r45
+458a38 prev_x{16|16A8[39|4]} 44|632b38 653r38
+459r19 t{13|19R8[36|5]} 44|633b19 642r37 645m20 652r49 653r36
+459r46 prev_t{13|19R8[36|5]} 44|633b46 652r17 653r26
+459r53 target{13|19R8[36|5]} 44|633b53 645r22
+460a19 v{16|16A8[39|4]} 44|634b19 649m7 650m11 651m24 653r54
+460a38 prev_v{16|16A8[39|4]} 44|634b38 653r47
+461f19 h{49|13F8} 44|635b19 645r29
+461f21 tol{49|13F8} 44|635b21 645r31
+461i44 pow{54|7I8} 44|635b44 645r35
+X 44 quaddobl_predictors.adb
+24r5 nt{13|19R8[36|5]} 30m7 35m7 37r18 38r30 43r16
+25r5 dd_h{31|14R8} 29m7 30r17 39m11 41r27
+25r10 one{31|14R8} 33m7 34r18
+25r14 dpw{31|14R8} 32m7 34r22
+25r18 inv_dpw{31|14R8} 34m7 35r52
+54r5 nt{13|19R8[36|5]} 64m7 65r30 76m11 84m11 85r37 86r55 88m17 97m11 98r37
+. 99r55 101m17 106r10
+54r8 target_direction{13|19R8[36|5]} 61m5 62r27 70m11 70r31 73r37 74r42 78r28
+. 79r28 91r28 92r28
+54r25 step{13|19R8[36|5]} 73m17 74m17 76r21 83m11 84r21 87m17 88r27 96m11
+. 97r21 100m17 101r27 104r30
+55f5 d{49|13F8} 62m5 63r8 70r57 71r20 74r26
+55f7 absnt{49|13F8} 85m11 86r15 98m11 99r15
+55f13 d_m_h{49|13F8} 71m11 72r14
+56r5 x{31|14R8} 81m11 83r26 94m11 96r26
+56r7 y{31|14R8} 82m11 83r28 87r37 95m11 96r28 100r38
+56r9 dre{31|14R8} 78m11 80r30 91m11 93r30
+56r13 dim{31|14R8} 79m11 80r26 92m11 93r26
+56r17 alfa{31|14R8} 80m11 81r24 82r24 93m11 94r24 95r24
+57r5 zero{31|14R8} 87r32 100r32
+58i5 tr3{54|7I8} 67m7 68r12
+114r5 e_i_theta{13|19R8[36|5]} 119m5 120r35
+115r5 dd_theta{31|14R8} 119r29 119r43
+127r5 nt{13|19R8[36|5]} 130m5 131r23 133r16
+139U13 Secant_Predictor 139b13 140=17 140>44 141>17 141>42 157l7 157t23 270s11
+. 312s7
+140a17 x{38|33A8} 144r25 147r10 148r14 149m7 149r7 149r17 149r34 151r17 153m21
+140a44 prev_x{38|33A8} 149r43
+141r17 fac{13|19R8[36|5]} 149r26
+141f42 dist_x{49|13F8} 151r26
+143i5 j{50|6I8} 150m7 151m33 151r33 152r10
+144a5 xx{38|33A8} 147m12 147r12 150r12 151r14 153r18 156m11 156r11
+148i9 i<long_integer> 149r9 149r19 149r36 149r50 151r19 151r24 152r15
+166r5 tmp{31|14R8} 171m5 173r8 174r31
+167f5 hh{49|13F8} 172m39 174r28
+168r5 factor{13|19R8[36|5]} 174m11 175r20
+189r5 tmp{31|14R8} 194m5 196r8
+190f5 hh{49|13F8} 195m39
+191r5 t2{13|19R8[36|5]} 197r32
+207r5 tmp{31|14R8} 212m5 214r8
+208f5 hh{49|13F8} 213m39
+209r5 t3{13|19R8[36|5]} 215r35
+225r5 tmp{31|14R8} 230m5 232r8
+226f5 hh{49|13F8} 231m39
+227r5 t4{13|19R8[36|5]} 233r38
+243r5 tmp{31|14R8} 248m5 250r8
+244f5 hh{49|13F8} 249m39
+245r5 t5{13|19R8[36|5]} 251r41
+260f5 hh{49|13F8} 266m39 267r21
+261r5 dd_hh{31|14R8} 267m5 269r28
+261r11 tmp{31|14R8} 265m5 268r8 269r34
+262r5 factor{13|19R8[36|5]} 269m11 270r37
+272i9 k<long_integer> 273r9
+282f5 hh{49|13F8} 288m38 289r21
+283r5 dd_hh{31|14R8} 289m5 291r28
+283r11 tmp{31|14R8} 287m5 290r8 291r34
+284r5 factor{13|19R8[36|5]} 291m11 292r20
+302f5 hh{49|13F8} 308m38 309r21
+303r5 dd_hh{31|14R8} 309m5 311r24
+303r11 tmp{31|14R8} 307m5 310r8 311r30
+304r5 factor{13|19R8[36|5]} 311m7 312r33
+314i9 k<long_integer> 315r9
+325r5 factor{13|19R8[36|5]} 332m7 334r16
+326r5 tmp{31|14R8} 329r8 332r26
+343r5 dist_prev{31|14R8} 347m5 351r8 352r33
+343r15 dist{31|14R8} 350m5 352r28
+344r5 factor{13|19R8[36|5]} 352m11 353r20
+344r12 tmp{13|19R8[36|5]} 348m5 350r24
+362i5 n{50|6I8} 367r19 367r24 368r47 375r13 379r17
+363i5 info{50|6I8} 375m20 376r8
+364f5 hh{49|13F8} 372m39 373r21
+365r5 norm_tan{31|14R8} 380m7 381r10 382r26
+365r14 dd_hh{31|14R8} 373m5 382m9 382r18 383r24
+366a5 rhs{16|16A8[39|4]} 377m7 378m11 378r11 379m24 379r24 380r24 383m13
+. 383r13 384r15
+367a5 j{15|16A8[35|5]} 374m5 375m11 375r11 379r15
+368a5 ipvt{16|16A8[52|4]} 375m15 379r19
+369r5 prev_t{13|19R8[36|5]} 374r15 377r19
+394i5 n{50|6I8} 397r21 399r19 399r24 400r47 411r15 415r19
+395f5 hh{49|13F8} 406m39 407r21
+396r5 norm_tan{31|14R8} 417m9 418r12 419r28
+396r14 dd_hh{31|14R8} 407m5 419m11 419r20 420r26
+397a5 rhs{16|16A8[39|4]} 413m9 414m13 414r13 415m26 415r26 417r26 420m15
+. 420r15 421r22
+398i5 info{50|6I8} 411m22 412r10
+399a5 j{15|16A8[35|5]} 410m7 411m13 411r13 415r17
+400a5 ipvt{16|16A8[52|4]} 411m17 415r21
+401a5 xx{38|33A8} 408m12 408r12 423r15 424r16 426r20 429r14 432m11 432r11
+402i5 jj{50|6I8} 423m9 424m35 424r35 425r12
+403r5 prev_t{13|19R8[36|5]} 410r22 413r26
+409i9 i<long_integer> 410r17 413r21 421r17 424r21 424r26 425r18
+433i9 k<long_integer> 434r9
+443i5 n{50|6I8} 448r19 448r24 449r47 456r13 460r17
+444i5 info{50|6I8} 456m20 457r8
+445f5 hh{49|13F8} 453m38 454r21
+446r5 norm_tan{31|14R8} 461m7 462r10 463r26
+446r14 dd_hh{31|14R8} 454m5 463m9 463r18 464r24
+447a5 rhs{16|16A8[39|4]} 458m7 459m11 459r11 460m24 460r24 461r24 464m13
+. 464r13 465r15
+448a5 j{15|16A8[35|5]} 455m5 456m11 456r11 460r15
+449a5 ipvt{16|16A8[52|4]} 456m15 460r19
+450r5 prev_t{13|19R8[36|5]} 455r15 458r19
+476i5 n{50|6I8} 479r21 481r19 481r24 482r47 493r15 497r19
+477f5 hh{49|13F8} 488m38 489r21
+478r5 norm_tan{31|14R8} 499m9 500r12 501r28
+478r14 dd_hh{31|14R8} 489m5 501m11 501r20 502r26
+479a5 rhs{16|16A8[39|4]} 495m9 496m13 496r13 497m26 497r26 499r26 502m15
+. 502r15 503r22
+480i5 info{50|6I8} 493m22 494r10
+481a5 j{15|16A8[35|5]} 492m7 493m13 493r13 497r17
+482a5 ipvt{16|16A8[52|4]} 493m17 497r21
+483a5 xx{38|33A8} 490m12 490r12 505r15 506r16 508r20 511r14 514m11 514r11
+484i5 jj{50|6I8} 505m9 506m35 506r35 507r12
+485r5 prev_t{13|19R8[36|5]} 492r22 495r26
+491i9 i<long_integer> 492r17 495r21 503r17 506r21 506r26 507r18
+515i9 k<long_integer> 516r9
+526i5 n{50|6I8} 530r19 530r24 531r47 534r13 538r17
+527i5 info{50|6I8} 534m20 535r8 541r8
+528r5 norm_tan{31|14R8} 542m7 543r10 544r26
+529a5 rhs{16|16A8[39|4]} 536m7 537m11 537r11 538m24 538r24 542r24 544m13
+. 544r13 545r15
+530a5 j{15|16A8[35|5]} 534m11 534r11 538r15
+531a5 ipvt{16|16A8[52|4]} 534m15 538r19
+554i5 n{50|6I8} 558r19 558r24 559r47 565r13 569r17
+555i5 info{50|6I8} 565m20 566r8
+556r5 norm_tan{31|14R8} 570m7 571r10 572r36
+556r14 step{31|14R8} 572m9 573r24
+557a5 rhs{16|16A8[39|4]} 567m7 568m11 568r11 569m24 569r24 570r24 573m13
+. 573r13 574r15
+558a5 j{15|16A8[35|5]} 564m5 565m11 565r11 569r15
+559a5 ipvt{16|16A8[52|4]} 565m15 569r19
+560r5 prev_t{13|19R8[36|5]} 564r15 567r19 572r26
+579V12 Hermite{13|19R8[36|5]} 579b12 579>22 579>25 579>28 579>30 579>33 579>36
+. 579>39 608l7 608t14 624s17
+579r22 t0{13|19R8[36|5]} 599r17 602r35 602r44 603r26 603r39 604r21 604r30
+. 604r39
+579r25 t1{13|19R8[36|5]} 599r12 602r24 602r32
+579r28 t{13|19R8[36|5]} 605r18 605r26 605r34
+579r30 x0{13|19R8[36|5]} 600r18 604r11
+579r33 x1{13|19R8[36|5]} 600r13
+579r36 v0{13|19R8[36|5]} 601r17 602r18 603r11
+579r39 v1{13|19R8[36|5]} 601r12
+594r5 a0{13|19R8[36|5]} 604m5 605r38
+594r8 a1{13|19R8[36|5]} 603m5 604r35 605r30
+594r11 a2{13|19R8[36|5]} 602m5 603r35 604r26 605r22
+594r14 a3{13|19R8[36|5]} 601m5 602r51 603r23 604r18 605r15
+594r17 t10{13|19R8[36|5]} 599m5 600r22 601r32 602r55
+594r21 v10{13|19R8[36|5]} 600m5 601r26 602r12
+595r5 two{31|14R8} 601r22 602r40 603r31
+596r5 three{31|14R8} 603r17
+610V12 Hermite{16|16A8[39|4]} 610b12 610>22 610>25 610>28 610>48 610>51 610>54
+. 610>57 629l7 629t14 653s18
+610r22 t0{13|19R8[36|5]} 624r25
+610r25 t1{13|19R8[36|5]} 624r28
+610r28 t{13|19R8[36|5]} 624r31
+610a48 x0{16|16A8[39|4]} 620r18 624r33
+610a51 x1{16|16A8[39|4]} 624r39
+610a54 v0{16|16A8[39|4]} 624r45
+610a57 v1{16|16A8[39|4]} 624r51
+620a5 res{16|16A8[39|4]} 623r14 624m7 626r12
+623i9 i<long_integer> 624r11 624r36 624r42 624r48 624r54
+637i5 n{50|6I8} 640r19 640r24 641r47 647r13 651r17
+638i5 info{50|6I8} 647m20 648r8
+639f5 hh{49|13F8} 645m39
+640a5 j{15|16A8[35|5]} 646m5 647m11 647r11 651r15
+641a5 ipvt{16|16A8[52|4]} 647m15 651r19
+642r5 t1{13|19R8[36|5]} 646r15 649r17 652r26 652r53 653r33
+X 49 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 43|2w6 2r46 49|58e30
+13F8*double_float<long_float> 43|56r30 57r28 76r30 76r53 77r33 84r60 86r25
+. 93r29 103r30 108r37 132r30 160r30 189r30 220r30 252r37 257r44 282r61 284r30
+. 306r29 334r58 347r65 379r37 392r44 425r34 427r30 443r57 461r30 44|21r28
+. 22r26 51r29 51r52 52r32 55r21 110r59 112r24 125r28 141r54 164r29 167r10
+. 187r30 190r10 205r30 208r10 223r30 226r10 241r30 244r10 258r36 260r10 280r36
+. 282r10 299r43 302r10 321r60 323r29 341r29 359r57 364r10 391r64 395r10 441r36
+. 445r10 473r43 477r10 522r32 524r28 552r57 635r30 639r10
+X 50 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 44|8w6 8r46 50|45e29
+6I8*integer32<long_integer> 44|143r9 362r18 363r12 394r18 398r12 402r10 443r18
+. 444r12 476r18 480r12 484r10 526r18 527r12 554r18 555r12 637r18 638r12
+X 52 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[16|8] 44|11w6 368r12 400r12 449r12 482r12 531r12
+. 559r12 641r12
+X 54 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 43|1w6 1r46 54|30e29
+7I8*natural32<long_integer> 43|56r53 77r58 103r53 108r60 132r53 160r53 189r53
+. 220r53 252r62 258r30 335r28 348r33 348r53 379r62 393r30 393r55 461r53 44|21r51
+. 52r57 58r11 164r52 187r53 205r53 223r53 241r53 258r59 280r61 300r29 360r27
+. 392r32 392r52 441r61 474r29 474r54 635r53
+

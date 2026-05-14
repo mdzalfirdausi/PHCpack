@@ -1,0 +1,939 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U quaddobl_homotopy%b	quaddobl_homotopy.adb	e7f616ce NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_jaco_matrices%s  quaddobl_complex_jaco_matrices.ads  quaddobl_complex_jaco_matrices.ali
+W quaddobl_complex_poly_functions%s  quaddobl_complex_poly_functions.ads  quaddobl_complex_poly_functions.ali
+W quaddobl_complex_poly_sysfun%s  quaddobl_complex_poly_sysfun.ads  quaddobl_complex_poly_sysfun.ali
+W quaddobl_complex_polynomials%s  quaddobl_complex_polynomials.ads  quaddobl_complex_polynomials.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U quaddobl_homotopy%s	quaddobl_homotopy.ads	84dfcd15 EE NE OO PK
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_poly_systems%s  quaddobl_complex_poly_systems.ads  quaddobl_complex_poly_systems.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_jaco_matrices.ads  20260513024558 aad21012 quaddobl_complex_jaco_matrices%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_functions.ads  20260513024558 0ffc73e2 quaddobl_complex_poly_functions%s
+D quaddobl_complex_poly_sysfun.ads  20260513024558 ddec787b quaddobl_complex_poly_sysfun%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_homotopy.ads	20260513024558 14be88e2 quaddobl_homotopy%s
+D quaddobl_homotopy.adb	20260513024558 b0adc9d5 quaddobl_homotopy%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [create quaddobl_homotopy 16 13 none]
+G c Z s b [create quaddobl_homotopy 23 13 none]
+G c Z s b [create quaddobl_homotopy 29 13 none]
+G c Z s b [create quaddobl_homotopy 41 13 none]
+G c Z s b [relaxation_power quaddobl_homotopy 49 12 none]
+G c Z s b [accessibility_constant quaddobl_homotopy 57 12 none]
+G c Z s b [dimension quaddobl_homotopy 65 12 none]
+G c Z s b [target_system quaddobl_homotopy 71 12 none]
+G c Z s b [start_system quaddobl_homotopy 78 12 none]
+G c Z s b [homotopy_system quaddobl_homotopy 85 12 none]
+G c Z s b [eval quaddobl_homotopy 92 12 none]
+G c Z s b [diff quaddobl_homotopy 97 12 none]
+G c Z s b [eval quaddobl_homotopy 104 12 none]
+G c Z s b [diff quaddobl_homotopy 109 12 none]
+G c Z s b [diff quaddobl_homotopy 114 12 none]
+G c Z s b [diff quaddobl_homotopy 120 12 none]
+G c Z s b [diff quaddobl_homotopy 127 12 none]
+G c Z s b [clear quaddobl_homotopy 136 13 none]
+G c Z b b [homdataIP quaddobl_homotopy 19 8 none]
+G c Z b b [mul quaddobl_homotopy 45 12 none]
+G c Z b b [mul quaddobl_homotopy 59 12 none]
+G c Z b b [linear_start_factor quaddobl_homotopy 77 12 none]
+G c Z b b [nonlinear_start_factor quaddobl_homotopy 105 12 none]
+G c Z b b [linear_target_factor quaddobl_homotopy 140 12 none]
+G c Z b b [linear_target_factor quaddobl_homotopy 160 12 none]
+G c Z b b [nonlinear_target_factor quaddobl_homotopy 180 12 none]
+G c Z b b [plus_one_unknown quaddobl_homotopy 214 12 none]
+G c Z b b [linear_homotopy quaddobl_homotopy 243 12 none]
+G c Z b b [linear_homotopy quaddobl_homotopy 266 12 none]
+G c Z b b [linear_homotopy quaddobl_homotopy 289 12 none]
+G c Z b b [nonlinear_homotopy quaddobl_homotopy 312 12 none]
+G c Z b b [free quaddobl_homotopy 788 13 none]
+G r c none [create quaddobl_homotopy 16 13 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r s jaco_mat [create quaddobl_homotopy 16 13 none] [jaco_matIP quaddobl_complex_jaco_matrices 40 8 11_1]
+G r s poly_sys [create quaddobl_homotopy 16 13 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create quaddobl_homotopy 16 13 none] [eval_poly_sysIP quaddobl_complex_poly_sysfun 33 8 9_1]
+G r s eval_jaco_mat [create quaddobl_homotopy 16 13 none] [eval_jaco_matIP quaddobl_complex_jaco_matrices 42 8 11_1]
+G r c none [create quaddobl_homotopy 16 13 none] [create quad_double_numbers 37 12 none]
+G r c none [create quaddobl_homotopy 16 13 none] [copy quaddobl_complex_poly_systems 29 13 5_1]
+G r s term [create quaddobl_homotopy 16 13 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [create quaddobl_homotopy 16 13 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [create quaddobl_homotopy 16 13 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [create quaddobl_homotopy 16 13 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+G r c none [create quaddobl_homotopy 16 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [create quaddobl_homotopy 16 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [create quaddobl_homotopy 16 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [create quaddobl_homotopy 16 13 none] [clear quaddobl_complex_jaco_matrices 86 13 11_1]
+G r c none [create quaddobl_homotopy 23 13 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r s jaco_mat [create quaddobl_homotopy 23 13 none] [jaco_matIP quaddobl_complex_jaco_matrices 40 8 11_1]
+G r s poly_sys [create quaddobl_homotopy 23 13 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create quaddobl_homotopy 23 13 none] [eval_poly_sysIP quaddobl_complex_poly_sysfun 33 8 9_1]
+G r s eval_jaco_mat [create quaddobl_homotopy 23 13 none] [eval_jaco_matIP quaddobl_complex_jaco_matrices 42 8 11_1]
+G r c none [create quaddobl_homotopy 23 13 none] [create quad_double_numbers 37 12 none]
+G r c none [create quaddobl_homotopy 23 13 none] [copy quaddobl_complex_poly_systems 29 13 5_1]
+G r s term [create quaddobl_homotopy 23 13 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [create quaddobl_homotopy 23 13 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [create quaddobl_homotopy 23 13 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [create quaddobl_homotopy 23 13 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+G r c none [create quaddobl_homotopy 23 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [create quaddobl_homotopy 23 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [create quaddobl_homotopy 23 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [create quaddobl_homotopy 23 13 none] [clear quaddobl_complex_jaco_matrices 86 13 11_1]
+G r c none [create quaddobl_homotopy 29 13 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r s jaco_mat [create quaddobl_homotopy 29 13 none] [jaco_matIP quaddobl_complex_jaco_matrices 40 8 11_1]
+G r s poly_sys [create quaddobl_homotopy 29 13 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create quaddobl_homotopy 29 13 none] [eval_poly_sysIP quaddobl_complex_poly_sysfun 33 8 9_1]
+G r s eval_jaco_mat [create quaddobl_homotopy 29 13 none] [eval_jaco_matIP quaddobl_complex_jaco_matrices 42 8 11_1]
+G r c none [create quaddobl_homotopy 29 13 none] [copy quaddobl_complex_poly_systems 29 13 5_1]
+G r c none [create quaddobl_homotopy 29 13 none] [create quad_double_numbers 37 12 none]
+G r s term [create quaddobl_homotopy 29 13 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [create quaddobl_homotopy 29 13 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [create quaddobl_homotopy 29 13 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [create quaddobl_homotopy 29 13 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [mul quaddobl_complex_polynomials 108 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [create quaddobl_homotopy 29 13 none] [mul quaddobl_complex_polynomials 107 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [add quaddobl_complex_polynomials 102 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [sub quaddobl_complex_polynomials 106 13 4_1]
+G r c none [create quaddobl_homotopy 29 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [create quaddobl_homotopy 29 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [create quaddobl_homotopy 29 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [create quaddobl_homotopy 29 13 none] [clear quaddobl_complex_jaco_matrices 86 13 11_1]
+G r c none [create quaddobl_homotopy 41 13 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r s poly_sys [create quaddobl_homotopy 41 13 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create quaddobl_homotopy 41 13 none] [eval_poly_sysIP quaddobl_complex_poly_sysfun 33 8 9_1]
+G r s jaco_mat [create quaddobl_homotopy 41 13 none] [jaco_matIP quaddobl_complex_jaco_matrices 40 8 11_1]
+G r s eval_jaco_mat [create quaddobl_homotopy 41 13 none] [eval_jaco_matIP quaddobl_complex_jaco_matrices 42 8 11_1]
+G r c none [create quaddobl_homotopy 41 13 none] [copy quaddobl_complex_poly_systems 29 13 5_1]
+G r c none [create quaddobl_homotopy 41 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [create quaddobl_homotopy 41 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [create quaddobl_homotopy 41 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [accessibility_constant quaddobl_homotopy 57 12 none] [create quad_double_numbers 37 12 none]
+G r c none [accessibility_constant quaddobl_homotopy 57 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [create quad_double_numbers 37 12 none]
+G r c none [eval quaddobl_homotopy 92 12 none] [eval quaddobl_complex_poly_sysfun 55 12 9_1]
+G r s poly_sys [eval quaddobl_homotopy 92 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [eval quaddobl_homotopy 92 12 none] [Omultiply quaddobl_complex_polynomials 95 12 4_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [eval quaddobl_homotopy 92 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [eval quaddobl_homotopy 92 12 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [eval quaddobl_homotopy 92 12 none] [Osubtract quaddobl_complex_numbers 54 12 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [add quaddobl_complex_poly_systems 48 13 5_1]
+G r c none [eval quaddobl_homotopy 92 12 none] [clear quaddobl_complex_poly_systems 60 13 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [create quad_double_numbers 37 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [diff quaddobl_complex_poly_systems 55 13 5_1]
+G r s poly_sys [diff quaddobl_homotopy 97 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [create quad_double_numbers 23 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [Omultiply quaddobl_complex_numbers 50 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [Omultiply quaddobl_complex_polynomials 95 12 4_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [add quaddobl_complex_poly_systems 48 13 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [clear quaddobl_complex_poly_systems 60 13 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [Oadd quad_double_numbers 163 12 none]
+G r c none [diff quaddobl_homotopy 97 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [Omultiply quaddobl_complex_poly_systems 45 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [Osubtract quaddobl_complex_numbers 54 12 5_1]
+G r c none [diff quaddobl_homotopy 97 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [eval quaddobl_homotopy 104 12 none] [create quad_double_numbers 37 12 none]
+G r c none [eval quaddobl_homotopy 104 12 none] [eval quaddobl_complex_poly_sysfun 57 12 9_1]
+G r c none [eval quaddobl_homotopy 104 12 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [eval quaddobl_homotopy 104 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [eval quaddobl_homotopy 104 12 none] [Omultiply quaddobl_complex_vectors 47 12 4_1]
+G r c none [eval quaddobl_homotopy 104 12 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [eval quaddobl_homotopy 104 12 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [eval quaddobl_homotopy 104 12 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [eval quaddobl_homotopy 104 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [diff quaddobl_homotopy 109 12 none] [eval quaddobl_complex_poly_functions 57 12 6_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [create quad_double_numbers 37 12 none]
+G r c none [diff quaddobl_homotopy 114 12 none] [eval quaddobl_complex_poly_functions 57 12 6_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [diff quaddobl_homotopy 114 12 none] [eval quaddobl_complex_jaco_matrices 77 12 11_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [Oabs quad_double_numbers 152 12 none]
+G r c none [diff quaddobl_homotopy 114 12 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [diff quaddobl_homotopy 114 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [diff quaddobl_homotopy 120 12 none] [eval quaddobl_complex_poly_functions 57 12 6_1]
+G r c none [diff quaddobl_homotopy 127 12 none] [eval quaddobl_complex_poly_functions 57 12 6_1]
+G r c none [clear quaddobl_homotopy 136 13 none] [clear quaddobl_complex_poly_systems 60 13 5_1]
+G r c none [clear quaddobl_homotopy 136 13 none] [clear quaddobl_complex_poly_sysfun 63 13 9_1]
+G r c none [clear quaddobl_homotopy 136 13 none] [clear quaddobl_complex_jaco_matrices 86 13 11_1]
+G r c none [clear quaddobl_homotopy 136 13 none] [clear quaddobl_complex_jaco_matrices 89 13 11_1]
+G r s poly_sys [homdataIP quaddobl_homotopy 19 8 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [homdataIP quaddobl_homotopy 19 8 none] [eval_poly_sysIP quaddobl_complex_poly_sysfun 33 8 9_1]
+G r s jaco_mat [homdataIP quaddobl_homotopy 19 8 none] [jaco_matIP quaddobl_complex_jaco_matrices 40 8 11_1]
+G r s eval_jaco_mat [homdataIP quaddobl_homotopy 19 8 none] [eval_jaco_matIP quaddobl_complex_jaco_matrices 42 8 11_1]
+G r s poly_sys [mul quaddobl_homotopy 45 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [mul quaddobl_homotopy 45 12 none] [Omultiply quaddobl_complex_polynomials 95 12 4_1]
+G r c none [mul quaddobl_homotopy 59 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [create quad_double_numbers 37 12 none]
+G r s term [linear_start_factor quaddobl_homotopy 77 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [linear_start_factor quaddobl_homotopy 77 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [create quad_double_numbers 37 12 none]
+G r s term [nonlinear_start_factor quaddobl_homotopy 105 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [mul quaddobl_complex_polynomials 108 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [mul quaddobl_complex_polynomials 107 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [add quaddobl_complex_polynomials 102 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [sub quaddobl_complex_polynomials 106 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_start_factor quaddobl_homotopy 105 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r c none [linear_target_factor quaddobl_homotopy 140 12 none] [create quad_double_numbers 37 12 none]
+G r s term [linear_target_factor quaddobl_homotopy 140 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [linear_target_factor quaddobl_homotopy 140 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [linear_target_factor quaddobl_homotopy 140 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [linear_target_factor quaddobl_homotopy 140 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r s term [linear_target_factor quaddobl_homotopy 160 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [linear_target_factor quaddobl_homotopy 160 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [linear_target_factor quaddobl_homotopy 160 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [create quad_double_numbers 37 12 none]
+G r s term [nonlinear_target_factor quaddobl_homotopy 180 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [mul quaddobl_complex_polynomials 108 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [mul quaddobl_complex_polynomials 107 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [sub quaddobl_complex_polynomials 106 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_target_factor quaddobl_homotopy 180 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [plus_one_unknown quaddobl_homotopy 214 12 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r s term [plus_one_unknown quaddobl_homotopy 214 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [plus_one_unknown quaddobl_homotopy 214 12 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r s poly_sys [linear_homotopy quaddobl_homotopy 243 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [create quad_double_numbers 37 12 none]
+G r s term [linear_homotopy quaddobl_homotopy 243 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [linear_homotopy quaddobl_homotopy 243 12 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 243 12 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+G r s poly_sys [linear_homotopy quaddobl_homotopy 266 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [create quad_double_numbers 37 12 none]
+G r s term [linear_homotopy quaddobl_homotopy 266 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [linear_homotopy quaddobl_homotopy 266 12 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 266 12 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+G r s poly_sys [linear_homotopy quaddobl_homotopy 289 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [create quad_double_numbers 37 12 none]
+G r s term [linear_homotopy quaddobl_homotopy 289 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [linear_homotopy quaddobl_homotopy 289 12 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [linear_homotopy quaddobl_homotopy 289 12 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+G r s poly_sys [nonlinear_homotopy quaddobl_homotopy 312 12 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [number_of_unknowns quaddobl_complex_polynomials 48 12 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [create quad_double_numbers 37 12 none]
+G r s term [nonlinear_homotopy quaddobl_homotopy 312 12 none] [termIP quaddobl_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [create quaddobl_complex_polynomials 38 12 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [sub quaddobl_complex_polynomials 104 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [mul quaddobl_complex_polynomials 108 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [mul quaddobl_complex_polynomials 107 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [add quaddobl_complex_polynomials 102 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [sub quaddobl_complex_polynomials 106 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [copy quaddobl_complex_polynomials 41 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [mul quaddobl_complex_polynomials 109 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [clear quaddobl_complex_polynomials 130 13 4_1]
+G r i none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [changing_iterator quaddobl_complex_polynomials 121 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [is_null quaddobl_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [head_of quaddobl_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [copy quaddobl_complex_polynomials 40 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [equal quaddobl_complex_numbers 40 12 5_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [append quaddobl_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [clear quaddobl_complex_polynomials 129 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [tail_of quaddobl_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [clear quaddobl_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [free quaddobl_complex_polynomials 20 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [shuffle quaddobl_complex_polynomials 22 13 4_1]
+G r c none [nonlinear_homotopy quaddobl_homotopy 312 12 none] [Oadd quaddobl_complex_polynomials 89 12 4_1]
+X 13 generic_complex_numbers.ads
+19R8*Complex_Number 40|17r29[31|5] 57r42[31|5] 92r23[31|5] 97r23[31|5] 104r35[31|5]
+. 109r35[31|5] 114r35[31|5] 120r35[31|5] 127r35[31|5] 41|78r59[31|5] 106r59[31|5]
+. 161r59[31|5] 181r59[31|5] 244r60[31|5] 336r29[31|5] 462r42[31|5] 523r23[31|5]
+. 565r23[31|5] 620r35[31|5] 660r35[31|5] 671r35[31|5] 733r35[31|5] 756r35[31|5]
+26V12*Create{19R8[31|5]} 41|92s13[31|5] 118s13[31|5] 151s13[31|5] 193s13[31|5]
+. 362s21[31|5] 392s21[31|5] 468s14[31|5] 474s30[31|5] 599s47[31|5]
+32V12*REAL_PART{26|14R8} 41|540s23[31|5] 597s24[31|5] 642s20[31|5] 705s20[31|5]
+33V12*IMAG_PART{26|14R8} 41|541s30[31|5] 598s31[31|5] 643s27[31|5] 706s27[31|5]
+35V12*AbsVal{26|14R8} 41|538s24[31|5] 587s24[31|5] 637s12[31|5] 696s12[31|5]
+50V13*"*"{19R8[31|5]} 41|584s44[31|5] 585s40[31|5]
+54V13*"-"{19R8[31|5]} 41|548s46[31|5] 602s41[31|5]
+61V13*"-"{19R8[31|5]} 41|125s13[31|5] 584s31[31|5]
+62V13*"*"{19R8[31|5]} 41|69s25[31|5] 548s50[31|5] 549s36[31|5]
+X 14 generic_jacobian_matrices.ads
+40A8*Jaco_Mat(20|28P8[35|4])<43|6I8><43|6I8> 41|23r10[29|11] 340r13[29|11]
+. 372r13[29|11] 403r14[29|11]
+42A8*Eval_Jaco_Mat(18|26P8[32|6])<43|6I8><43|6I8> 41|24r11[29|11] 32r19[29|11]
+64V12*Create{40A8[29|11]} 41|350s11[29|11] 351s11[29|11] 352s14[29|11] 382s11[29|11]
+. 383s11[29|11] 384s14[29|11] 416s11[29|11] 417s11[29|11] 418s14[29|11] 438s14[29|11]
+69V12*Create{42A8[29|11]} 41|353s15[29|11] 354s15[29|11] 355s15[29|11] 385s15[29|11]
+. 386s15[29|11] 387s15[29|11] 419s15[29|11] 420s15[29|11] 421s15[29|11] 439s15[29|11]
+77V12*Eval{16|16A8[30|5]} 41|698s49[29|11] 708s49[29|11]
+86U13*Clear 41|356s5[29|11] 356s16[29|11] 388s5[29|11] 388s16[29|11] 422s5[29|11]
+. 422s16[29|11] 797s9[29|11]
+89U13*Clear 41|797s23[29|11] 803s13[29|11] 803s28[29|11]
+X 16 generic_matrices.ads
+16A8*Matrix(13|19R8[31|5])<43|6I8><43|6I8> 40|114r59[30|5] 128r24[30|5] 41|59r22[30|5]
+. 59r50[30|5] 64r11[30|5] 671r59[30|5] 682r15[30|5] 698r26[30|5] 708r26[30|5]
+. 717r17[30|5] 757r24[30|5] 763r11[30|5]
+X 17 generic_poly_system_functions.ads
+33A8*Eval_Poly_Sys(18|26P8[32|6])<43|6I8> 41|22r10[33|9] 31r17[33|9]
+43V12*Create{33A8[33|9]} 41|347s14[33|9] 348s14[33|9] 349s14[33|9] 379s14[33|9]
+. 380s14[33|9] 381s14[33|9] 413s14[33|9] 414s14[33|9] 415s14[33|9] 437s14[33|9]
+55V12*Eval{19|22A8[34|5]} 41|531s16[33|9]
+57V12*Eval{22|16A8[38|4]} 41|634s18[33|9] 639s35[33|9] 640s24[33|9] 645s34[33|9]
+. 646s24[33|9] 654s20[33|9]
+63U13*Clear 41|796s23[33|9] 801s28[33|9] 802s28[33|9]
+X 18 generic_polynomial_functions.ads
+26P8*Eval_Poly
+57V12*Eval{13|19R8[31|5]} 41|690s25[32|6] 724s27[32|6] 751s17[32|6] 775s21[32|6]
+. 780s23[32|6]
+X 19 generic_polynomial_systems.ads
+22A8*Poly_Sys(20|28P8[35|4])<43|6I8> 40|16r31[34|5] 23r31[34|5] 29r31[34|5]
+. 41r29[34|5] 71r33[34|5] 78r32[34|5] 85r35[34|5] 92r47[34|5] 97r47[34|5]
+. 41|21r9[34|5] 30r15[34|5] 45r34[34|5] 45r52[34|5] 50r11[34|5] 244r25[34|5]
+. 245r21[34|5] 247r9[34|5] 267r25[34|5] 268r21[34|5] 270r9[34|5] 290r25[34|5]
+. 291r21[34|5] 293r9[34|5] 313r25[34|5] 314r21[34|5] 316r9[34|5] 335r31[34|5]
+. 368r31[34|5] 398r31[34|5] 429r29[34|5] 494r33[34|5] 502r32[34|5] 510r35[34|5]
+. 523r47[34|5] 535r21[34|5] 565r47[34|5] 577r17[34|5] 578r17[34|5]
+29U13*Copy 41|345s5[34|5] 345s19[34|5] 377s5[34|5] 377s19[34|5] 407s5[34|5]
+. 407s19[34|5] 436s5[34|5]
+45V13*"*"{22A8[34|5]} 41|599s59[34|5]
+48U13*Add 41|554s15[34|5] 591s17[34|5] 607s15[34|5]
+55V13*Diff{22A8[34|5]} 41|573s16[34|5]
+60U13*Clear 41|555s15[34|5] 592s17[34|5] 608s15[34|5] 796s9[34|5] 801s13[34|5]
+. 802s13[34|5]
+X 20 generic_polynomials.ads
+21P8*Degrees<22|17P8[46|4]>
+23R8*Term 41|86r9[35|4] 115r9[35|4] 148r9[35|4] 168r9[35|4] 190r9[35|4] 221r49[35|4]
+24r5*cf{13|19R8[31|5]} 41|89m7[35|4] 92m7[35|4] 118m7[35|4] 151m7[35|4] 171m7[35|4]
+. 193m7[35|4]
+25p5*dg{21P8[35|4]} 41|90m7[35|4] 94r7[35|4] 97m50[35|4] 119m7[35|4] 122r7[35|4]
+. 135m50[35|4] 152m7[35|4] 153r7[35|4] 156m50[35|4] 172m7[35|4] 173r7[35|4]
+. 176m50[35|4] 194m7[35|4] 196r7[35|4] 209m50[35|4] 223r35[35|4] 227r23[35|4]
+. 230m52[35|4] 231m9[35|4]
+28P8*Poly 41|79r21[35|4] 84r15[35|4] 107r21[35|4] 113r15[35|4] 141r60[35|4]
+. 146r11[35|4] 162r21[35|4] 167r11[35|4] 182r21[35|4] 188r15[35|4] 214r38[35|4]
+. 214r52[35|4] 219r11[35|4] 248r31[35|4] 271r31[35|4] 294r31[35|4] 317r31[35|4]
+38V12*Create{28P8[35|4]} 41|91s12[35|4] 93s12[35|4] 120s12[35|4] 121s12[35|4]
+. 154s12[35|4] 174s12[35|4] 195s12[35|4] 197s12[35|4]
+41U13*Copy 41|129s7[35|4] 203s7[35|4] 238s5[35|4]
+48V12*Number_of_Unknowns{44|7I8} 41|249s42[35|4] 272s42[35|4] 295s42[35|4]
+. 318s42[35|4] 339s42[35|4] 371s42[35|4] 402s42[35|4] 432s42[35|4]
+89V13*"+"{28P8[35|4]} 41|259s21[35|4] 282s21[35|4] 305s21[35|4] 328s21[35|4]
+95V13*"*"{28P8[35|4]} 41|54s21[35|4]
+102U13*Add 41|126s5[35|4]
+104U13*Sub 41|95s5[35|4] 123s5[35|4] 198s5[35|4]
+106U13*Sub 41|127s5[35|4] 201s5[35|4]
+107U13*Mul 41|125s5[35|4] 200s5[35|4]
+108U13*Mul 41|124s5[35|4] 199s5[35|4]
+109U13*Mul 41|99s7[35|4] 131s9[35|4] 205s9[35|4] 257s7[35|4] 258s7[35|4]
+. 280s7[35|4] 281s7[35|4] 303s7[35|4] 304s7[35|4] 326s7[35|4] 327s7[35|4]
+120U20 process 41|235r30[35|4]
+121u13*Changing_Iterator 41|235r11[35|4]
+130U13*Clear 41|101s5[35|4] 136s5[35|4] 210s5[35|4] 260s7[35|4] 260s21[35|4]
+. 262s5[35|4] 262s19[35|4] 283s7[35|4] 283s21[35|4] 284s7[35|4] 284s21[35|4]
+. 306s7[35|4] 306s21[35|4] 307s7[35|4] 307s21[35|4] 329s7[35|4] 329s21[35|4]
+. 330s7[35|4] 330s21[35|4]
+X 22 generic_vectors.ads
+16A8*Vector(13|19R8[31|5])<43|6I8> 40|23r66[38|4] 29r68[38|4] 104r23[38|4]
+. 104r59[38|4] 109r23[38|4] 109r59[38|4] 114r23[38|4] 120r23[38|4] 121r24[38|4]
+. 127r23[38|4] 41|34r22[38|4] 45r22[38|4] 59r34[38|4] 90r42[46|4] 119r42[46|4]
+. 152r42[46|4] 172r42[46|4] 194r42[46|4] 224r39[46|4] 231r44[46|4] 267r60[38|4]
+. 290r62[38|4] 313r62[38|4] 368r66[38|4] 398r68[38|4] 534r31[38|4] 576r31[38|4]
+. 620r23[38|4] 620r59[38|4] 629r15[38|4] 650r17[38|4] 660r23[38|4] 660r59[38|4]
+. 671r23[38|4] 683r15[38|4] 718r17[38|4] 733r23[38|4] 734r24[38|4] 739r9[38|4]
+. 740r11[38|4] 756r23[38|4] 762r9[38|4]
+17P8*Link_to_Vector(16A8[46|4]) 41|97r33[46|4] 135r33[46|4] 156r33[46|4]
+. 176r33[46|4] 209r33[46|4] 230r35[46|4]
+39V13*"*"{16A8[38|4]} 41|602s45[38|4] 603s31[38|4]
+47V13*"*"{16A8[38|4]} 41|639s33[38|4] 645s32[38|4]
+72U13*Clear 41|96s30[46|4] 134s30[46|4] 155s30[46|4] 175s30[46|4] 208s30[46|4]
+. 229s32[46|4]
+X 26 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 41|2w6 2r46 580r19
+14R8*quad_double 253e13 41|85r20 114r20 147r20 189r20 342r20 374r20 464r21
+. 526r20 568r20 579r27 623r20 676r20
+23V12*Create{14R8} 41|580s39
+37V12*Create{14R8} 41|85s35 114s35 147s35 189s35 342s35 374s35 464s36 526s35
+. 548s35 568s35 602s30 623s35 676s35
+98V12*is_zero{boolean} 41|538s16 587s16
+152V13*"abs"{14R8} 41|540s19 541s26 597s19 598s27 642s15 643s23 705s15 706s23
+160V13*"+"{14R8} 41|540s44 541s44 598s45 637s22 642s41 643s41 696s22 705s41
+. 706s41
+163V13*"+"{14R8} 41|597s45
+174V13*"-"{14R8} 41|540s36 597s37 642s33 705s33
+X 29 quaddobl_complex_jaco_matrices.ads
+11K9*QuadDobl_Complex_Jaco_Matrices[14|25] 41|7w6 7r46
+X 30 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[16|9] 40|5w6 5r46
+X 31 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[13|11] 40|3w6 3r46 41|599r22
+X 32 quaddobl_complex_poly_functions.ads
+6K9*QuadDobl_Complex_Poly_Functions[18|12] 41|5w6 5r46
+X 33 quaddobl_complex_poly_sysfun.ads
+9K9*QuadDobl_Complex_Poly_SysFun[17|19] 41|6w6 6r46
+X 34 quaddobl_complex_poly_systems.ads
+5K9*QuadDobl_Complex_Poly_Systems[19|12] 40|6w6 6r46
+X 35 quaddobl_complex_polynomials.ads
+4K9*QuadDobl_Complex_Polynomials[20|11] 41|4w6 4r46
+X 38 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[22|8] 40|4w6 4r46
+X 40 quaddobl_homotopy.ads
+8K9*QuadDobl_Homotopy 141l5 141e22 41|9b14 810l5 810t22
+16U13*Create 16>22 16>24 16>41 17>22 41|335b13 366l7 366t13
+16a22 p{19|22A8[34|5]} 41|335b22 338r32 339r61 339r63 345r10 346r29
+16a24 q{19|22A8[34|5]} 41|335b24 345r24 346r31
+16i41 k{44|7I8} 41|335b41 346r33 357r13
+17r22 a{13|19R8[31|5]} 41|336b22 346r35 359r22
+23U13*Create 23>22 23>24 23>41 23>59 41|368b13 396l7 396t13
+23a22 p{19|22A8[34|5]} 41|368b22 370r32 371r61 371r63 377r10 378r29
+23a24 q{19|22A8[34|5]} 41|368b24 377r24 378r31
+23i41 k{44|7I8} 41|368b41 378r33 389r13
+23a59 a{22|16A8[38|4]} 41|368b59 378r35 390r17
+29U13*Create 29>22 29>24 29>41 29>59 29>61 30>22 41|398b13 427l7 427t13
+29a22 p{19|22A8[34|5]} 41|398b22 401r32 402r61 402r63 407r10 410r35 411r38
+29a24 q{19|22A8[34|5]} 41|398b24 407r24 410r37 411r40
+29i41 k{44|7I8} 41|398b41 410r39 411r42 423r13
+29a59 a{22|16A8[38|4]} 41|398b59 410r41 411r44 424r17
+29a61 b{22|16A8[38|4]} 41|398b61 410r43 411r46 425r16
+30b22 linear{boolean} 41|399b22 408r18 409r8
+41U13*Create 41>22 41>39 41|429b13 442l7 442t13
+41a22 p{19|22A8[34|5]} 41|429b22 431r32 431r39 432r61 432r63 436r10
+41i39 k{43|6I8} 41|429b39 440r13
+49V12*Relaxation_Power{44|7I8} 41|446b12 460l7 460t23
+57V12*Accessibility_Constant{13|19R8[31|5]} 41|462b12 479l7 479t29
+65V12*Dimension{43|6I8} 41|481b12 492l7 492t16
+71V12*Target_System{19|22A8[34|5]} 41|494b12 500l7 500t20
+78V12*Start_System{19|22A8[34|5]} 41|502b12 508l7 508t19
+85V12*Homotopy_System{19|22A8[34|5]} 41|510b12 519l7 519t22
+92V12*Eval{19|22A8[34|5]} 92>19 41|523b12 563l7 563t11
+92r19 t{13|19R8[31|5]} 41|523b19 531r26 538r31 540r33 541r40 548r47 549r34
+97V12*Diff{19|22A8[34|5]} 97>19 41|565b12 616l7 616t11
+97r19 t{13|19R8[31|5]} 41|565b19 587r31 597r34 598r41 602r42 603r29
+104V12*Eval{22|16A8[38|4]} 104>19 104>31 41|620b12 658l7 658t11
+104a19 x{22|16A8[38|4]} 41|620b19 629r22 629r31 631r27 633r32 633r40 639r46
+. 640r35 645r45 646r35 650r24 650r33 652r15 652r27
+104r31 t{13|19R8[31|5]} 41|620b31 632r22 637r19 642r30 643r37 653r26
+109V12*Diff{22|16A8[38|4]} 109>19 109>31 41|660b12 669l7 669t11
+109a19 x{22|16A8[38|4]} 41|660b19 662r31 666r31 667r31
+109r31 t{13|19R8[31|5]} 41|660b31 666r33 667r33
+114V12*Diff{16|16A8[30|5]} 114>19 114>31 41|671b12 731l7 731t11
+114a19 x{22|16A8[38|4]} 41|671b19 685r27 687r30 698r61 708r61 720r25
+114r31 t{13|19R8[31|5]} 41|671b31 686r22 696r19 705r30 706r37 721r24
+120V12*Diff{22|16A8[38|4]} 120>19 120>31 120>51 41|666s26 667s26 733b12 754l7
+. 754t11
+120a19 x{22|16A8[38|4]} 41|733b19 744r35 746r38 747r31
+120r31 t{13|19R8[31|5]} 41|733b31 745r30 748r30
+120i51 k{43|6I8} 41|733b51 751r31
+127V12*Diff{16|16A8[30|5]} 127>19 127>31 127>51 41|756b12 784l7 784t11
+127a19 x{22|16A8[38|4]} 41|756b19 767r35 769r38 770r31
+127r31 t{13|19R8[31|5]} 41|756b31 768r30 771r30
+127i51 k{43|6I8} 41|756b51 773r18 778r15
+136U13*Clear 41|790b13 808l7 808t12
+X 41 quaddobl_homotopy.adb
+13E8 homtype 13e28 19r23
+13n20 nat{13E8} 27r12 433r18 455r16 474r16 516r12 530r12 572r12 627r12 666r12
+. 680r12 744r12 767r12 799r16
+13n24 art{13E8} 29r12 341r18 373r18 404r18 456r16 475r16 517r12 532r12 574r12
+. 636r12 667r12 695r12 747r12 770r12 800r16
+19R8 homdata 19d18 19d32 19d35 19d38 38e13 40r24 341r10 365r16 373r10 395r16
+. 404r10 426r16 433r10 441r16 452r14 471r14 487r14 496r10 504r10 512r10 525r10
+. 567r10 622r10 673r10 736r10 759r10 788r49 794r14
+19e18*ht{13E8} 26r10 665r14
+19i32*nq{43|6I8} 21r21 22r27 23r22 24r28 30r27 31r34 32r36 34r32
+19i35*nv{43|6I8} 32r42
+19i38*nv1{43|6I8} 23r28 24r34
+21a5*p{19|22A8[34|5]} 345m15 347r24 350r21 377m15 379r24 382r21 407m15 413r24
+. 416r21 436m15 437r24 438r24 499r15 516r29 531r24 542r37 552r38 573r24 589r40
+. 599r63 605r38 796m18
+22a5*pe{17|33A8[33|9]} 347m8 379m8 413m8 437m8 634r26 645r42 646r32 796m32
+23a5*dh{14|40A8[29|11]} 352m8 355r25 384m8 387r25 418m8 421r25 438m8 439r25
+. 797m18
+24a5*dhe{14|42A8[29|11]} 355m8 387m8 421m8 439m8 690r33 724r35 751r25 775r29
+. 780r31 797m32
+28i9*i{43|6I8} 440m8 531r31 573r29 631r19 631r35 632r16 633r16 633r37 666r39
+. 685r19 685r35 686r16 687r16 687r35 744r27 744r43 745r24 746r24 746r43 767r27
+. 767r43 768r24 769r24 769r43
+30a9*q{19|22A8[34|5]} 345m29 348r24 351r21 377m29 380r24 383r21 407m29 414r24
+. 417r21 507r15 539r38 553r38 590r40 595r40 606r38 801m22
+30a11*h{19|22A8[34|5]} 346m8 349r24 352r24 378m8 381r24 384r24 410m14 411m14
+. 415r24 418r24 517r29 802m22
+31a9*qe{17|33A8[33|9]} 348m8 380m8 414m8 639r43 640r32 801m37
+31a12*he{17|33A8[33|9]} 349m8 381m8 415m8 654r28 802m37
+32a9*dpe{14|42A8[29|11]} 353m8 385m8 419m8 708r57 803m22
+32a13*dqe{14|42A8[29|11]} 354m8 386m8 420m8 698r57 803m37
+33i9*k{44|7I8} 357m8 389m8 423m8 456r33 547r42 580r49 588r21 601r31
+34a9*gamma{22|16A8[38|4]} 359m10 390m8 424m8 475r33 539r29 545r35 584r35
+. 639r27 701r35
+34a15*beta{22|16A8[38|4]} 362m10 392m10 425m8 542r29 546r35 585r33 645r27
+. 711r35
+35b9*linear{boolean} 364m8 394m8 408m8 537r17 582r17 638r17 644r17 700r19
+. 710r19
+40P8 homtp(19R8) 41r9 788r57
+41p3 hom{40P8} 365m5 395m5 426m5 441m5 448r8 452r30 467r8 471r30 483r8 487r30
+. 496r26 504r26 512r26 525r26 567r26 622r26 665r10 666r35 673r26 736r26 759r26
+. 792r8 794r30 806m12 806r12
+45V12 Mul{19|22A8[34|5]} 45b12 45>18 45>30 57l7 57t10 539s22 542s22 552s22
+. 553s22 589s24 590s24 595s24 605s22 606s22
+45a18 v{22|16A8[38|4]} 54r17
+45a30 p{19|22A8[34|5]} 50r20 53r14 54r22
+50a5 res{19|22A8[34|5]} 54m7 56r12
+53i9 i<long_integer> 54r11 54r19 54r24
+59V12 Mul{16|16A8[30|5]} 59b12 59>18 59>30 73l7 73t10 701s26 711s26
+59a18 m{16|16A8[30|5]} 64r18 64r29 67r14 68r16 69r26
+59a30 v{22|16A8[38|4]} 69r21
+64a5 res{16|16A8[30|5]} 69m9 72r12
+67i9 i<long_integer> 69r13 69r23 69r28
+68i11 j<long_integer> 69r15 69r30
+77V12 Linear_Start_Factor{20|28P8[35|4]} 77b12 78>16 78>34 78>52 103l7 103t26
+. 252s14 276s16 299s16
+78i16 n{43|6I8} 90r53 94r10
+78i34 k{44|7I8} 98r17
+78r52 a{13|19R8[31|5]} 89r13
+84p5 res{20|28P8[35|4]} 91m5 99m11 99r11 102r12
+84p9 tmp{20|28P8[35|4]} 93m5 95m9 95r9 99r15 101m11 101r11
+85r5 one{26|14R8} 92r20
+86r5 t{20|23R8[35|4]} 89m5 90m5 91r19 92m5 93r19 94m5 94r5 95r13 97m48 97r48
+98i9 i<long_integer>
+105V12 Nonlinear_Start_Factor{20|28P8[35|4]} 105b12 106>16 106>34 106>52
+. 138l7 138t29 322s16
+106i16 n{43|6I8} 119r53 122r10
+106i34 k{44|7I8} 128r8 130r20
+106r52 a{13|19R8[31|5]} 125r14
+113p5 res{20|28P8[35|4]} 120m5 127m9 127r9 129r12 131m13 131r13 137r12
+113p9 tmp{20|28P8[35|4]} 121m5 123m9 123r9 124m9 124r9 125m9 125r9 126m9
+. 126r9 127r13 129m16 129r16 131r17 136m11 136r11
+114r5 one{26|14R8} 118r20
+115r5 t{20|23R8[35|4]} 118m5 119m5 120r19 121r19 122m5 122r5 123r13 124r13
+. 126r13 135m48 135r48
+130i11 i<long_integer>
+140V12 Linear_Target_Factor{20|28P8[35|4]} 140b12 141>16 141>34 158l7 158t27
+. 253s14 277s16
+141i16 n{43|6I8} 152r53 153r10
+141i34 k{44|7I8} 153r18
+146p5 res{20|28P8[35|4]} 154m5 157r12
+147r5 one{26|14R8} 151r20
+148r5 t{20|23R8[35|4]} 151m5 152m5 153m5 153r5 154r19 156m48 156r48
+160V12 Linear_Target_Factor{20|28P8[35|4]} 160b12 161>16 161>34 161>52 178l7
+. 178t27 300s16
+161i16 n{43|6I8} 172r53 173r10
+161i34 k{44|7I8} 173r18
+161r52 a{13|19R8[31|5]} 171r13
+167p5 res{20|28P8[35|4]} 174m5 177r12
+168r5 t{20|23R8[35|4]} 171m5 172m5 173m5 173r5 174r19 176m48 176r48
+180V12 Nonlinear_Target_Factor{20|28P8[35|4]} 180b12 181>16 181>34 181>52
+. 212l7 212t30 323s16
+181i16 n{43|6I8} 194r53 196r10
+181i34 k{44|7I8} 202r8 204r20
+181r52 a{13|19R8[31|5]} 200r13
+188p5 res{20|28P8[35|4]} 197m5 201m9 201r9 203r12 205m13 205r13 211r12
+188p9 tmp{20|28P8[35|4]} 195m5 198m9 198r9 199m9 199r9 200m9 200r9 201r13
+. 203m16 203r16 205r17 210m11 210r11
+189r5 one{26|14R8} 193r20
+190r5 t{20|23R8[35|4]} 193m5 194m5 195r19 196m5 196r5 197r19 198r13 199r13
+. 209m48 209r48
+204i11 i<long_integer>
+214V12 Plus_one_Unknown{20|28P8[35|4]} 214b12 214>31 241l7 241t23 255s16
+. 256s16 278s16 279s16 301s16 302s16 324s16 325s16
+214p31 p{20|28P8[35|4]} 238r10
+219p5 res{20|28P8[35|4]} 238m12 238r12 239m27 239r27 240r12
+221U15 Plus_Unknown_In_Term 221b15 221=38 221<55 233l9 233t29 235r41
+221r38 t{20|23R8[35|4]} 223r33 227r21 230m50 230r50 231m7
+221b55 c{boolean} 232m7
+223i7 n{43|6I8} 224r50 227r15 228r12
+224a7 temp{22|16A8[46|4]} 227m7 228m7 231r52
+234U15 Plus_Unknown_In_Terms[20|121] 239s5
+243V12 Linear_Homotopy{19|22A8[34|5]} 243b12 244>16 244>18 244>35 244>53
+. 264l7 264t22 346s13
+244a16 p{19|22A8[34|5]} 247r18 249r61 249r63 256r33
+244a18 q{19|22A8[34|5]} 255r33
+244i35 k{44|7I8} 252r37 253r38
+244r53 a{13|19R8[31|5]} 252r39
+247a5 h{19|22A8[34|5]} 254r14 259m7 263r12
+248p5 tempp{20|28P8[35|4]} 256m7 258m11 258r11 259r23 260m27 260r27
+248p11 tempq{20|28P8[35|4]} 255m7 257m11 257r11 259r15 260m13 260r13
+248p17 q_fac{20|28P8[35|4]} 252m5 257r17 262m11 262r11
+248p23 p_fac{20|28P8[35|4]} 253m5 258r17 262m25 262r25
+249i5 nv{43|6I8} 252r34 253r35
+254i9 i<long_integer> 255r35 256r35 259r9
+266V12 Linear_Homotopy{19|22A8[34|5]} 266b12 267>16 267>18 267>35 267>53
+. 287l7 287t22 378s13
+267a16 p{19|22A8[34|5]} 270r18 272r61 272r63 279r33
+267a18 q{19|22A8[34|5]} 278r33
+267i35 k{44|7I8} 276r39 277r40
+267a53 a{22|16A8[38|4]} 276r41
+270a5 h{19|22A8[34|5]} 275r14 282m7 286r12
+271p5 tempp{20|28P8[35|4]} 279m7 281m11 281r11 282r23 283m27 283r27
+271p11 tempq{20|28P8[35|4]} 278m7 280m11 280r11 282r15 283m13 283r13
+271p17 q_fac{20|28P8[35|4]} 276m7 280r17 284m13 284r13
+271p23 p_fac{20|28P8[35|4]} 277m7 281r17 284m27 284r27
+272i5 nv{43|6I8} 276r36 277r37
+275i9 i<long_integer> 276r43 278r35 279r35 282r9
+289V12 Linear_Homotopy{19|22A8[34|5]} 289b12 290>16 290>18 290>35 290>53
+. 290>55 310l7 310t22 410s19
+290a16 p{19|22A8[34|5]} 293r18 295r61 295r63 302r33
+290a18 q{19|22A8[34|5]} 301r33
+290i35 k{44|7I8} 299r39 300r40
+290a53 a{22|16A8[38|4]} 299r41
+290a55 b{22|16A8[38|4]} 300r42
+293a5 h{19|22A8[34|5]} 298r14 305m7 309r12
+294p5 tempp{20|28P8[35|4]} 302m7 304m11 304r11 305r23 306m27 306r27
+294p11 tempq{20|28P8[35|4]} 301m7 303m11 303r11 305r15 306m13 306r13
+294p17 q_fac{20|28P8[35|4]} 299m7 303r17 307m13 307r13
+294p23 p_fac{20|28P8[35|4]} 300m7 304r17 307m27 307r27
+295i5 nv{43|6I8} 299r36 300r37
+298i9 i<long_integer> 299r43 300r44 301r35 302r35 305r9
+312V12 Nonlinear_Homotopy{19|22A8[34|5]} 312b12 313>16 313>18 313>35 313>53
+. 313>55 333l7 333t25 411s19
+313a16 p{19|22A8[34|5]} 316r18 318r61 318r63 325r33
+313a18 q{19|22A8[34|5]} 324r33
+313i35 k{44|7I8} 322r42 323r43
+313a53 a{22|16A8[38|4]} 322r44
+313a55 b{22|16A8[38|4]} 323r45
+316a5 h{19|22A8[34|5]} 321r14 328m7 332r12
+317p5 tempp{20|28P8[35|4]} 325m7 327m11 327r11 328r23 329m27 329r27
+317p11 tempq{20|28P8[35|4]} 324m7 326m11 326r11 328r15 329m13 329r13
+317p17 q_fac{20|28P8[35|4]} 322m7 326r17 330m13 330r13
+317p23 p_fac{20|28P8[35|4]} 323m7 327r17 330m27 330r27
+318i5 nv{43|6I8} 322r39 323r40
+321i9 i<long_integer> 322r46 323r47 324r35 325r35 328r9
+338i5 nq{43|6I8} 340r25 341r22 358r17 361r17
+339i5 nv{43|6I8} 340r31 341r25 341r28
+340a5 dp{14|40A8[29|11]} 350m5 353r22 356m11 356r11
+340a8 dq{14|40A8[29|11]} 351m5 354r22 356m22 356r22
+341r5 ho{19R8} 345m12 345r12 345m26 345r26 346m5 347m5 347r21 348m5 348r21
+. 349m5 349r21 350r18 351r18 352m5 352r21 353m5 354m5 355m5 355r22 357m5
+. 359m7 362m7 364m5 365r25
+342r5 one{26|14R8} 362r28
+358i9 i<long_integer> 359r16
+361i9 i<long_integer> 362r15
+370i5 nq{43|6I8} 372r25 373r22 391r17
+371i5 nv{43|6I8} 372r31 373r25 373r28
+372a5 dp{14|40A8[29|11]} 382m5 385r22 388m11 388r11
+372a8 dq{14|40A8[29|11]} 383m5 386r22 388m22 388r22
+373r5 ho{19R8} 377m12 377r12 377m26 377r26 378m5 379m5 379r21 380m5 380r21
+. 381m5 381r21 382r18 383r18 384m5 384r21 385m5 386m5 387m5 387r22 389m5
+. 390m5 392m7 394m5 395r25
+374r5 one{26|14R8} 392r28
+391i9 i<long_integer> 392r15
+401i5 nq{43|6I8} 403r26 404r22
+402i5 nv{43|6I8} 403r32 404r25 404r28
+403a5 dp{14|40A8[29|11]} 416m5 419r22 422m11 422r11
+403a9 dq{14|40A8[29|11]} 417m5 420r22 422m22 422r22
+404r5 ho{19R8} 407m12 407r12 407m26 407r26 408m5 410m11 411m11 413m5 413r21
+. 414m5 414r21 415m5 415r21 416r18 417r18 418m5 418r21 419m5 420m5 421m5
+. 421r22 423m5 424m5 425m5 426r25
+431i5 nq{43|6I8} 433r22
+432i5 nv{43|6I8} 433r25 433r30
+433r5 ho{19R8} 436m12 436r12 437m5 437r21 438m5 438r21 439m5 439r22 440m5
+. 441r25
+452r9 ho{19R8} 454r14 456r30
+464r5 zero{26|14R8} 468r21 474r37
+471r9 ho{19R8} 473r14 475r30
+487r9 ho{19R8} 489r16
+496r5 ho{19R8} 499r12
+504r5 ho{19R8} 507r12
+512r5 ho{19R8} 515r10 516r26 517r26
+525r5 ho{19R8} 529r10 531r21 531r28 534r41 535r33 537r14 539r26 539r35 542r26
+. 542r34 544r27 545r32 546r32 547r39 552r35 553r35
+526r5 one{26|14R8} 540r38 540r46 540r52 541r46 541r52
+534a11 p_factor{22|16A8[38|4]} 546m17 549m19 549r38 552r26
+534a20 q_factor{22|16A8[38|4]} 545m17 548m19 548r52 553r26
+535a11 res{19|22A8[34|5]} 552m15 554m19 554r19 556r22 559r20
+535a15 tmp{19|22A8[34|5]} 553m15 554r23 555m21 555r21
+544i19 i<long_integer> 545r26 545r41 546r26 546r40
+547i21 i<long_integer> 548r28 548r61 549r28 549r47
+567r5 ho{19R8} 571r10 573r21 573r26 576r41 577r29 578r29 580r46 582r14 583r25
+. 584r32 585r30 588r18 589r37 590r37 595r37 599r60 601r28 605r35 606r35
+568r5 one{26|14R8} 597r39 597r53 598r47 598r53
+576a11 q_factor{22|16A8[38|4]} 584m15 590r28 595r28 602m17 602r47 606r26
+576a20 p_factor{22|16A8[38|4]} 585m15 589r28 603m17 603r33 605r26
+577a11 tmp{19|22A8[34|5]} 590m17 591r25 592m23 592r23 606m15 607r23 608m21
+. 608r21
+578a11 res{19|22A8[34|5]} 589m17 591m21 591r21 593r24 605m15 607m19 607r19
+. 609r22 612r20
+579r11 dd_k{26|14R8} 584r45 585r41 599r54
+583i17 i<long_integer> 584r24 584r41 585r24 585r38
+601i19 i<long_integer>
+622r5 ho{19R8} 626r10 631r16 631r32 632r13 633r13 633r34 634r23 638r14 639r24
+. 639r40 640r29 644r14 645r24 645r39 646r29 654r25
+623r5 one{26|14R8} 637r24 637r30 642r35 642r43 642r49 643r43 643r49
+629a11 y{22|16A8[38|4]} 631m11 632m11 633m11 633r21 634r29
+650a13 y{22|16A8[38|4]} 652m13 653m13 653r15 654r31
+662i5 n{43|6I8} 667r35
+673r5 ho{19R8} 674r28 675r28 679r10 685r16 685r32 686r13 687r13 687r32 690r30
+. 698r54 700r16 701r32 708r54 710r16 711r32 724r32
+674i5 nq{43|6I8} 682r25 688r23 698r36 708r36 717r27 722r25
+675i5 nv{43|6I8} 682r31 683r25 687r21 687r38 689r25 698r42 708r42 717r33
+. 718r27 720r18 721r15 723r27
+676r5 one{26|14R8} 696r24 696r30 705r35 705r43 705r49 706r43 706r49
+682a11 m{16|16A8[30|5]} 690m15 693r18
+683a11 y{22|16A8[38|4]} 685m11 686m11 687m11 690r42
+688i15 i<long_integer> 690r17 690r37
+689i17 j<long_integer> 690r19 690r39
+698a13 m{16|16A8[30|5]} 701r30 702r26
+708a13 m{16|16A8[30|5]} 711r30 712r26
+717a13 m{16|16A8[30|5]} 724m17 727r20
+718a13 y{22|16A8[38|4]} 720m13 721m13 724r44
+722i17 i<long_integer> 724r19 724r39
+723i19 j<long_integer> 724r21 724r41
+736r5 ho{19R8} 737r28 738r28 743r10 744r24 744r40 745r21 746r21 746r40 751r22
+737i5 nq{43|6I8} 740r21 750r17
+738i5 nv{43|6I8} 739r19 746r29 746r46 747r24 748r21
+739a5 y{22|16A8[38|4]} 744m19 745m19 746m19 747m19 748m19 751r34
+740a5 res{22|16A8[38|4]} 751m7 753r12
+750i9 i<long_integer> 751r11 751r29
+759r5 ho{19R8} 760r28 761r28 766r10 767r24 767r40 768r21 769r21 769r40 775r26
+. 780r28
+760i5 nq{43|6I8} 763r21 774r19 779r19
+761i5 nv{43|6I8} 762r19 763r27 769r29 769r46 770r24 771r21 778r22
+762a5 y{22|16A8[38|4]} 767m19 768m19 769m19 770m19 771m19 775r38 780r40
+763a5 res{16|16A8[30|5]} 775m9 780m9 783r12
+773i9 j<long_integer> 775r15 775r35
+774i11 i<long_integer> 775r13 775r33
+778i9 j<long_integer> 780r15 780r37
+779i11 i<long_integer> 780r13 780r35
+788U13 free[65|22] 806s7
+794r9 ho{19R8} 796r15 796r29 797r15 797r29 798r14 801r19 801r34 802r19 802r34
+. 803r19 803r34
+X 43 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 40|2w6 2r46 43|45e29
+6I8*integer32<long_integer> 40|41r46 65r29 120r55 127r55 41|19r44 28r13 78r23
+. 106r23 141r23 161r23 181r23 223r20 249r19 249r32 272r19 272r32 295r19 295r32
+. 318r19 318r32 338r19 339r19 339r32 370r19 371r19 371r32 401r19 402r19 402r32
+. 429r46 431r19 432r19 432r32 481r29 547r29 662r18 674r10 675r10 733r55 737r10
+. 738r10 756r55 760r10 761r10
+X 44 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 40|1w6 1r46 44|30e29
+7I8*natural32<long_integer> 40|16r48 23r48 29r48 49r36 41|33r13 78r41 106r41
+. 141r41 161r41 181r41 244r42 267r42 290r42 313r42 335r48 368r48 398r48 446r36
+X 46 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[22|8] 41|3w6 90r17 96r5 97r8 119r17 134r5 135r8
+. 152r17 155r5 156r8 172r17 175r5 176r8 194r17 208r5 209r8 224r14 229r7 230r10
+. 231r19
+X 65 unchdeal.ads
+22u11*Unchecked_Deallocation 41|1w6 788r25
+

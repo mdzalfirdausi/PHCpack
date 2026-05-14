@@ -1,0 +1,527 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U floating_linear_inequalities%b  floating_linear_inequalities.adb  1a2a9d76 NE OO PK
+W givens_rotations%s	givens_rotations.adb	givens_rotations.ali
+W linear_minimization%s	linear_minimization.adb	linear_minimization.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U floating_linear_inequalities%s  floating_linear_inequalities.ads  e2032098 EE NE OO PK
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D floating_linear_inequalities.ads  20260513024558 d6a9300a floating_linear_inequalities%s
+D floating_linear_inequalities.adb  20260513024558 706e3955 floating_linear_inequalities%b
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D givens_rotations.ads	20260513024558 65ca303e givens_rotations%s
+D linear_minimization.ads  20260513024558 db543bff linear_minimization%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [complementary_slackness floating_linear_inequalities 12 13 none]
+G c Z s b [complementary_slackness floating_linear_inequalities 20 13 none]
+G c Z b b [is_in_cone floating_linear_inequalities 10 13 none]
+G c Z b b [index_of_maximum floating_linear_inequalities 110 12 none]
+G c Z b b [norm floating_linear_inequalities 129 12 none]
+G c Z b b [norm floating_linear_inequalities 146 12 none]
+G c Z b b [scale floating_linear_inequalities 164 13 none]
+G c Z b b [norm floating_linear_inequalities 179 12 none]
+G c Z b b [scale floating_linear_inequalities 196 13 none]
+G c Z b b [inner_product floating_linear_inequalities 214 12 none]
+G c Z b b [maximal_product floating_linear_inequalities 230 12 none]
+G c Z b b [inner_product floating_linear_inequalities 251 12 none]
+G c Z b b [inner_products floating_linear_inequalities 267 12 none]
+G c Z b b [positive floating_linear_inequalities 284 12 none]
+G c Z b b [positive floating_linear_inequalities 299 12 none]
+G c Z b b [positive_diagonal floating_linear_inequalities 331 12 none]
+G c Z b b [interchange floating_linear_inequalities 361 13 none]
+G c Z b b [interchange_columns floating_linear_inequalities 373 13 none]
+G c Z b b [interchange_rows floating_linear_inequalities 386 13 none]
+G c Z b b [rotate floating_linear_inequalities 403 13 none]
+G c Z b b [upper_triangulate floating_linear_inequalities 427 13 none]
+G c Z b b [initialize floating_linear_inequalities 450 13 none]
+G c Z b b [initialize floating_linear_inequalities 505 13 none]
+G c Z b b [select_column floating_linear_inequalities 558 13 none]
+G c Z b b [select_column floating_linear_inequalities 611 13 none]
+G c Z b b [next floating_linear_inequalities 653 13 none]
+G c Z b b [next floating_linear_inequalities 711 13 none]
+G c Z b b [complementary_slackness1 floating_linear_inequalities 792 13 none]
+G c Z b b [complementary_slackness2 floating_linear_inequalities 909 13 none]
+G c Z b b [complementary_slackness_the_new floating_linear_inequalities 924 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 12 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [complementary_slackness floating_linear_inequalities 12 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 12 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 12 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 12 13 none] [solve givens_rotations 134 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 20 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [complementary_slackness floating_linear_inequalities 20 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 20 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 20 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [complementary_slackness floating_linear_inequalities 20 13 none] [solve givens_rotations 134 13 none]
+G r c none [norm floating_linear_inequalities 129 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [norm floating_linear_inequalities 146 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [scale floating_linear_inequalities 164 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [norm floating_linear_inequalities 179 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [scale floating_linear_inequalities 196 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [rotate floating_linear_inequalities 403 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [rotate floating_linear_inequalities 403 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [rotate floating_linear_inequalities 403 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [initialize floating_linear_inequalities 450 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [initialize floating_linear_inequalities 450 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [initialize floating_linear_inequalities 450 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [initialize floating_linear_inequalities 450 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [initialize floating_linear_inequalities 505 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [initialize floating_linear_inequalities 505 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [initialize floating_linear_inequalities 505 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [initialize floating_linear_inequalities 505 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [next floating_linear_inequalities 653 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [next floating_linear_inequalities 653 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [next floating_linear_inequalities 653 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [next floating_linear_inequalities 711 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [next floating_linear_inequalities 711 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [next floating_linear_inequalities 711 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [next floating_linear_inequalities 711 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [complementary_slackness1 floating_linear_inequalities 792 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [complementary_slackness1 floating_linear_inequalities 792 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [complementary_slackness1 floating_linear_inequalities 792 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [complementary_slackness1 floating_linear_inequalities 792 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [complementary_slackness1 floating_linear_inequalities 792 13 none] [solve givens_rotations 134 13 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [random standard_random_numbers 48 12 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [feasible linear_minimization 137 13 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [givens_factors givens_rotations 24 13 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [givens_rotation givens_rotations 40 13 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [givens_rotation givens_rotations 32 13 none]
+G r c none [complementary_slackness_the_new floating_linear_inequalities 924 13 none] [solve givens_rotations 134 13 none]
+X 2 floating_linear_inequalities.ads
+7K9*Floating_Linear_Inequalities 50l5 50e33 3|6b14 986l5 986t33
+12U13*Complementary_Slackness 13=20 13>45 14=20 15>20 16<20 17<20 18<20 3|788s5
+. 854b13 906l7 906t30 956s7
+13a20 tableau{4|16A8[9|5]} 3|855b20 867r46 875m16 878r12 881r18 882m16 884r23
+. 888r26 895r10 896r18 900r18
+13i45 lastcol{13|6I8} 3|855b45 867r64 875r24 878r33 882r24 888r44 889r32
+. 895r29 900r36
+14a20 rhs{5|16A8[12|4]} 3|856b20 868r44 868r59 875m32 877r15 877r19 882m32
+. 884r31 889r28 892r28
+15f20 tol{10|13F8} 3|857b20 875r40 877r34 882r47 884r35 889r45 891r38 892r35
+16a20 solution{5|16A8[12|4]} 3|858b20 894m7
+17a20 columns{5|16A8[15|4]} 3|859b20 897m11 901m11
+18b20 feasible{boolean} 3|860b20 905m5
+20U13*Complementary_Slackness 21=20 22=20 23>20 24<20 25<20 26<20 3|780b13
+. 790l7 790t30
+21a20 tableau{4|16A8[9|5]} 3|781b20 789m9 789r17
+22a20 rhs{5|16A8[12|4]} 3|782b20 789m33
+23f20 tol{10|13F8} 3|783b20 789r37
+24a20 solution{5|16A8[12|4]} 3|784b20 789m41
+25a20 columns{5|16A8[15|4]} 3|785b20 789m50
+26b20 feasible{boolean} 3|786b20 789m58
+X 3 floating_linear_inequalities.adb
+10U13 Is_In_Cone 10b13 10=26 10>47 11=26 12>26 13<26 14<26 15<26 106l7 106t17
+. 921s5
+10a26 tab{4|16A8[9|5]} 67r14 68r16 69r24 70r24 89r14
+10i47 lastcol{13|6I8} 33r32 67r28 89r28
+11a26 rhs{5|16A8[12|4]} 31r32 74r14 75r22 76r22 77r27 78r27
+12f26 tol{10|13F8} 90r24 101r17
+13a26 solution{5|16A8[12|4]} 92m9
+14a26 columns{5|16A8[15|4]} 93m9
+15b26 feasible{boolean} 102m11 104m5
+31i5 n{13|6I8} 32r34 33r40 49r21 52r18 58r17 59r20 60r22 62r21 70r15 76r13
+. 77r18 78r13 78r20 98r18
+32i5 m{13|6I8} 37r21
+33i5 nb{13|6I8} 37r26 38r47 38r58 49r18 52r15 52r24 59r17 59r26 60r19 77r15
+. 78r17 98r15 98r24
+37a5 mat{4|16A8[9|5]} 50m7 53m7 61m15 62m15 69m9 70m9 75m7 76m7 77m7 78m7
+38a5 sol{5|16A8[12|4]} 90r14 92r26 99r16
+42i5 cnt{13|6I8} 88m5 91m9 91r16 92r18 93r17
+43f5 s{10|13F8} 97m5 99m7 99r12 101r12
+49i9 i<long_integer> 50r13
+52i9 i<long_integer> 53r13
+58i9 i<long_integer> 60r12 61r19 62r19
+59i11 j<long_integer> 60r17 61r21 62r23
+67i9 j<long_integer> 69r15 69r30 70r17 70r30
+68i11 i<long_integer> 69r13 69r28 70r13 70r28
+74i9 i<long_integer> 75r11 75r26 76r11 76r26 77r11 77r13 77r31 78r11 78r15
+. 78r31
+89i9 i<long_integer> 90r18 92r30 93r25
+98i9 i<long_integer> 99r20
+110V12 Index_of_Maximum{13|6I8} 110b12 110>31 111>31 127l7 127t23 477s14
+. 531s14
+110a31 v{5|16A8[12|4]} 117r24 118r27 121r14 122r10 123r20
+111i31 lst{13|6I8} 121r25
+117i5 res{13|6I8} 118r29 123m26 126r12
+118f5 max{10|13F8} 122r17 123m13
+121i9 i<long_integer> 122r12 123r22 123r33
+129V12 Norm{10|13F8} 129b12 129>19 144l7 144t11 169s27 836s27 837s24 891s26
+. 892s23
+129a19 v{5|16A8[12|4]} 137r14 138r20 138r25
+134f5 res{10|13F8} 138m7 138r14 140r8 142r23
+137i9 j<long_integer> 138r22 138r27
+146V12 Norm{10|13F8} 146b12 146>19 147>19 162l7 162t11 766s39 816s10 826s24
+. 834s24 877s10 889s23
+146a19 v{5|16A8[12|4]} 155r20 156r20 156r25
+147i19 frst{13|6I8} 155r14
+152f5 res{10|13F8} 156m7 156r14 158r8 160r23
+155i9 j<long_integer> 156r22 156r27
+164U13 Scale 164b13 164=21 177l7 177t12 473s29 527s29
+164a21 v{5|16A8[12|4]} 169r32 173r16 174m9 174r17
+169f5 nrm{10|13F8} 172r8 174r22
+173i11 i<long_integer> 174r11 174r19
+179V12 Norm{10|13F8} 179b12 179>19 179>33 194l7 194t11 205s14
+179a19 mat{4|16A8[9|5]} 187r14 188r20 188r29
+179i33 i{13|6I8} 188r26 188r35
+184f5 res{10|13F8} 188m7 188r14 190r8 192r23
+187i9 j<long_integer> 188r24 188r33
+196U13 Scale 196b13 196=21 196>42 212l7 212t12 473s5 527s5
+196a21 mat{4|16A8[9|5]} 204r14 205r19 207r18 208m11 208r23
+196i42 lastcolumn{13|6I8} 204r28
+201f5 nrm{10|13F8} 205m7 206r10 208r32
+204i9 i<long_integer> 205r23 208r17 208r29
+207i13 j<long_integer> 208r15 208r27
+214V12 Inner_Product{10|13F8} 214b12 214>28 214>42 215>28 228l7 228t20 279s17
+214a28 mat{4|16A8[9|5]} 224r14 225r20
+214i42 i{13|6I8} 225r26
+215a28 v{5|16A8[12|4]} 225r29
+221f5 res{10|13F8} 225m7 225r14 227r12
+224i9 k<long_integer> 225r24 225r31
+230V12 Maximal_Product{13|6I8} 230b12 230>30 230>44 231>30 232>30 249l7 249t22
+. 489s16 542s16 573s23 589s13 632s13
+230a30 mat{4|16A8[9|5]} 238r27 243r14
+230i44 i{13|6I8} 238r35 243r20
+231a30 v{5|16A8[12|4]} 238r38 242r22 243r23
+232i30 frst{13|6I8} 237r24 242r14
+237i5 res{13|6I8} 238r31 238r40 245m25 248r12
+238f5 max{10|13F8} 244r16 245m13
+239f5 tmp{10|13F8} 243m7 244r10 245r20
+242i9 j<long_integer> 243r18 243r25 245r32
+251V12 Inner_Product{10|13F8} 251b12 252>16 252>30 252>32 265l7 265t20
+252a16 mat{4|16A8[9|5]} 261r14 262r20 262r29
+252i30 i{13|6I8} 262r26
+252i32 j{13|6I8} 262r35
+258f5 res{10|13F8} 262m7 262r14 264r12
+261i9 k<long_integer> 262r24 262r33
+267V12 Inner_Products{5|16A8[12|4]} 267b12 267>29 267>43 268>29 282l7 282t21
+. 476s12 530s12
+267a29 mat{4|16A8[9|5]} 275r44 279r31
+267i43 lastcol{13|6I8} 275r58
+268a29 v{5|16A8[12|4]} 279r37
+275a5 res{5|16A8[12|4]} 278r14 279m7 281r12
+278i9 i<long_integer> 279r11 279r35
+284V12 Positive{boolean} 284b12 284>23 285>23 285>40 297l7 297t15
+284a23 v{5|16A8[12|4]} 291r14 292r14 292r36
+285i23 lst{13|6I8} 291r23
+285f40 tol{10|13F8} 292r22
+291i9 i<long_integer> 292r16 292r38
+299V12 Positive{boolean} 299b12 300>18 300>32 301>18 301>22 302>18 302>41
+. 329l7 329t15 583s16 594s12 637s18
+300a18 mat{4|16A8[9|5]} 314r22 316r28 318r26 319r35
+300a32 rhs{5|16A8[12|4]} 319r18
+301i18 ind{13|6I8} 310r47 310r59 313r9 314r37 315r22 318r41
+301i22 col{13|6I8} 318r32
+302f18 solind{10|13F8} 313r17
+302f41 tol{10|13F8} 320r25
+310a5 sol{5|16A8[12|4]} 313m5 316m9 316r19 316r37 318m7 318r17 318r37 319m7
+. 319r27 320r15 320r40
+314i9 i<long_integer> 315r16 316r13 316r23 316r32 318r11 318r21 318r30 319r11
+. 319r22 319r31 319r39 319r41 320r19 320r44
+315i11 j<long_integer> 316r34 316r41
+331V12 Positive_Diagonal{boolean} 331b12 332>18 332>32 333>18 333>22 334>18
+. 334>41 357l7 357t24
+332a18 mat{4|16A8[9|5]} 346r22 347r27 347r48
+332a32 rhs{5|16A8[12|4]} 347r18
+333i18 ind{13|6I8} 342r47 342r59 345r9 346r37 347r42
+333i22 col{13|6I8} 347r33
+334f18 solind{10|13F8} 345r17
+334f41 tol{10|13F8} 348r25
+342a5 sol{5|16A8[12|4]} 345m5 347m7 347r38 348r15 348r40
+346i9 i<long_integer> 347r11 347r22 347r31 347r52 347r54 348r19 348r44
+361U13 Interchange 361b13 361=27 362>27 362>29 371l7 371t18 488s7 699s9
+361a27 v{5|16A8[12|4]} 370r13 370m19 370r27 370m33
+362i27 i{13|6I8} 370r15 370r21
+362i29 j{13|6I8} 370r29 370r35
+367f5 temp{10|13F8} 370m5 370r41
+373U13 Interchange_Columns 373b13 373=35 373>56 373>58 384l7 384t26 487s7
+. 541s7 698s9 758s11
+373a35 mat{4|16A8[9|5]} 381r14 382r15 382m25 382r37 382m47
+373i56 i{13|6I8} 382r21 382r31
+373i58 j{13|6I8} 382r43 382r53
+378f5 temp{10|13F8} 382m7 382r59
+381i9 k<long_integer> 382r19 382r29 382r41 382r51
+386U13 Interchange_Rows 386b13 387=20 387>41 388=20 389>20 389>22 401l7 401t23
+. 491s13 544s13 702s13 761s15
+387a20 mat{4|16A8[9|5]} 397r14 398r15 398m25 398r37 398m47
+387i41 lastcol{13|6I8} 397r28
+388a20 v{5|16A8[12|4]} 400r13 400m19 400r27 400m33
+389i20 i{13|6I8} 398r19 398r29 400r15 400r21
+389i22 j{13|6I8} 398r41 398r51 400r29 400r35
+394f5 temp{10|13F8} 398m7 398r59 400m5 400r41
+397i9 k<long_integer> 398r21 398r31 398r43 398r53
+403U13 Rotate 403b13 403=22 403>43 403>51 404=22 405>22 425l7 425t13 493s7
+. 546s7 704s7 763s9
+403a22 mat{4|16A8[9|5]} 418r19 419r14 420r24 421m25
+403i43 lastcol{13|6I8} 421r29
+403i51 i{13|6I8} 418r14 419r20 420r28 421r37 422r27
+404a22 v{5|16A8[12|4]} 422m25
+405f22 tol{10|13F8} 419r26
+415f5 cosi{10|13F8} 420m32 421r41 422r31
+415f10 sine{10|13F8} 420m37 421r46 422r36
+418i9 j<long_integer> 419r18 420r30 421r39 422r29
+427U13 Upper_Triangulate 427b13 427=33 427>54 427>62 428=33 429>33 446l7
+. 446t24
+427a33 mat{4|16A8[9|5]} 438r14 439r15 440r16 440r25 442m11 442r23 442r38
+427i54 lastcol{13|6I8} 441r21
+427i62 i{13|6I8} 438r29 439r21 440r22 440r29 440r31 441r18 442r42
+428a33 v{5|16A8[12|4]}
+429f33 tol{10|13F8} 439r27
+435f5 fac{10|13F8} 440m9 442r34
+438i9 j<long_integer> 439r19 440r20 442r15 442r27
+441i13 k<long_integer> 442r17 442r29 442r44
+450U13 Initialize 450b13 451=17 451>42 452=17 452=21 453>17 454=17 455<17
+. 456<17 503l7 503t17 814s5
+451a17 tableau{4|16A8[9|5]} 469r44 473m11 476r27 487m27 487r35 488r23 489r32
+. 489r40 490r19 491m30 491r50 493m14 493r30
+451i42 lastcol{13|6I8} 469r62 473r19 476r35 477r35 491r38 493r22
+452a17 rhs{5|16A8[12|4]} 473m35 476r43 479r19 480r30 489r57 489r61 491m46
+. 493m47 495r25 495r29
+452a21 sol{5|16A8[12|4]} 495m7 495r11
+453f17 tol{10|13F8} 478r27 480r44 493r51
+454a17 columns{5|16A8[15|4]} 485m7 485r15 486m7 486r25
+455a17 cosines{5|16A8[12|4]} 497m5
+456b17 feasible{boolean} 480m13 481m13 484m7
+469a5 ips{5|16A8[12|4]} 476m5 477r31 478r13 478r41 488m19 488r19 497r16
+470i5 index{13|6I8} 477m5 478r17 478r45 479r10 480r34 485r33 486r15 487r52
+. 488r40 489m7 490r10 491r67
+505U13 Initialize 505b13 506=17 506>42 507=17 507=21 508>17 509=17 510<17
+. 554l7 554t17 875s5
+506a17 tableau{4|16A8[9|5]} 523r44 527m11 530r27 541m27 541r35 542r32 542r40
+. 543r19 544m30 544r50 546m14 546r30
+506i42 lastcol{13|6I8} 523r62 527r19 530r35 531r35 544r38 546r22
+507a17 rhs{5|16A8[12|4]} 527m35 530r43 533r19 534r30 542r57 542r61 544m46
+. 546m47 548r25 548r29
+507a21 sol{5|16A8[12|4]} 548m7 548r11
+508f17 tol{10|13F8} 532r27 534r44 546r51
+509a17 columns{5|16A8[15|4]} 539m7 539r15 540m7 540r25
+510b17 feasible{boolean} 534m13 535m13 538m7
+523a5 ips{5|16A8[12|4]} 530m5 531r31 532r13 532r41
+524i5 index{13|6I8} 531m5 532r17 532r45 533r10 534r34 539r33 540r15 541r52
+. 542m7 543r10 544r67
+558U13 Select_Column 558b13 559>21 559>38 560>21 560>25 561>21 562>21 562<44
+. 562<48 609l7 609t20 690s5
+559a21 mat{4|16A8[9|5]} 573r39 581r13 583r25 583r50 589r29 592r15 594r21
+. 594r45
+559i38 lastcol{13|6I8} 588r23
+560a21 rhs{5|16A8[12|4]} 573r46 581r24 583r29 583r42 589r35 592r25 594r25
+. 594r37
+560a25 cosines{5|16A8[12|4]} 585r21 593r30 596r44
+561i21 index{13|6I8} 571r23 573r50 583r33 588r14 589r39 594r29 605r18 605r34
+562f21 tol{10|13F8} 582r15 583r61 593r17 594r55
+562i44 row{13|6I8} 602m22 605m27
+562i48 col{13|6I8} 602m11 605m11
+571i5 cl{13|6I8} 573r43 581r20 583r39 583r57 585r29 596m15 602r18
+572f5 maxcos{10|13F8} 585m11 586m11 593r43 596m34 601r8
+572f12 prod{10|13F8} 581m5 582r8 592m7 593r10
+573i5 rw{13|6I8} 581r17 581r28 583r46 583r54 596m24 602r29
+574i5 mp{13|6I8} 589m7 592r19 592r29 594r41 594r49 596r30
+588i9 i<long_integer> 589r33 592r22 593r38 594r35 594r52 596r21 596r52
+611U13 Select_Column 611b13 612>21 612>38 613>21 614>21 614>27 615>21 615<44
+. 615<48 651l7 651t20 750s7
+612a21 mat{4|16A8[9|5]} 632r29 635r15 637r27 637r51
+612i38 lastcol{13|6I8} 631r22
+613a21 rhs{5|16A8[12|4]} 632r35 635r25 637r31 637r43
+614i21 index{13|6I8} 623r23 632r39 637r35 641r24 643r14 647r18 647r34
+614i27 column{13|6I8} 631r14
+615f21 tol{10|13F8} 636r17 637r61
+615i44 row{13|6I8} 644m22 647m27
+615i48 col{13|6I8} 644m11 647m11
+623i5 cl{13|6I8} 639m13 641r18 643r8 644r18
+624f5 prod{10|13F8} 635m7 636r10
+625i5 rw{13|6I8} 639m22 644r29
+625i8 mp{13|6I8} 632m7 635r19 635r29 637r47 637r55 639r28
+631i9 i<long_integer> 632r33 635r22 637r41 637r58 639r19
+653U13 Next 653b13 653=20 653>45 654=20 654=24 654=28 655=20 656>20 657>20
+. 657=42 709l7 709t11 822s13
+653a20 tableau{4|16A8[9|5]} 690r19 698m29 702m30 704m14
+653i45 lastcol{13|6I8} 690r27 702r38 704r22
+654a20 rhs{5|16A8[12|4]} 690r35 702m46 704m36
+654a24 sol{5|16A8[12|4]}
+654a28 cosines{5|16A8[12|4]} 690r39 699m21
+655a20 pivots{5|16A8[15|4]} 696r16 696m29 696r44 697m9
+656f20 tol{10|13F8} 690r53 704r40
+657i20 index{13|6I8} 690r47 691r14 695r17 696r51 697r16 698r41 699r33 701r17
+. 702r54 704r30
+657b42 feasi{boolean} 692m7 694m7
+687i5 col{13|6I8} 690m61 691r8 695r10 696r23 696r36 698r37 699r29
+687i9 row{13|6I8} 690m57 701r10 702r50
+687i13 tmp{13|6I8} 696m9 697r26
+711U13 Next 711b13 711=20 711>45 712=20 712=24 713=20 714>20 715>20 715<42
+. 716=20 769s11 778l7 778t11 882s11
+711a20 tableau{4|16A8[9|5]} 750r21 758m31 761m32 763m16 765r47 769m16
+711i45 lastcol{13|6I8} 750r29 761r40 763r24 765r21 769r24
+712a20 rhs{5|16A8[12|4]} 750r37 761m48 763m38 766r44 769m32
+712a24 sol{5|16A8[12|4]} 769m36
+713a20 pivots{5|16A8[15|4]} 756r18 756m31 756r46 757m11 769m40
+714f20 tol{10|13F8} 750r54 763r42 766r59 769r47
+715i20 index{13|6I8} 748r15 750r41 755r19 756r53 757r18 758r43 760r19 761r56
+. 763r32 765r13 765r39 766r48 767r33 769r51
+715i42 rank{13|6I8} 767m25 769m59
+716b20 feasi{boolean} 752m9 754m9 769m64 770r14
+744i5 column{13|6I8} 748m5 750r47 751r16 772m17
+744i12 col{13|6I8} 750m62 751r10 755r12 756r25 756r38 758r39 772r27
+744i16 row{13|6I8} 750m58 760r12 761r52
+744i20 tmp{13|6I8} 756m11 757r28
+745b5 stop{boolean} 752m25 767m11 771m17 776r17
+792U13 Complementary_Slackness1 792b13 793=20 793>45 794=20 795>20 796<20
+. 797<20 798<20 851l7 851t31
+793a20 tableau{4|16A8[9|5]} 805r46 806r46 814m16 817r12 821r20 821r40 822m18
+. 829r23 833r27 840r11 841r19 845r19
+793i45 lastcol{13|6I8} 805r64 806r64 814r24 817r33 822r26 824r28 833r45 834r33
+. 840r30 845r37
+794a20 rhs{5|16A8[12|4]} 807r44 807r59 814m32 816r15 816r19 822m34 826r29
+. 829r31 834r29 837r29
+795f20 tol{10|13F8} 814r40 816r34 822r55 826r40 829r35 834r46 836r39 837r36
+796a20 solution{5|16A8[12|4]} 839m8
+797a20 columns{5|16A8[15|4]} 842m12 846m12
+798b20 feasible{boolean} 850m5
+804b5 feasi{boolean} 814m57 815r8 818m11 822m61 822r61 823r27 828r14 833r11
+. 834m14 836r11 837m14 850r17
+805a5 pivots{5|16A8[15|4]} 811r14 812m7 814m44 814r44 822m48 822r48 842r26
+. 846r26
+806a5 cosis{5|16A8[12|4]} 814m51 822m42 822r42
+807a5 sol{5|16A8[12|4]} 814m36 814r36 822m38 822r38 829m44 836r32 839r20
+808i5 rank{13|6I8} 820m11 825m13 825r21 829r39
+811i9 i<long_integer> 812r14 812r20
+821i15 i<long_integer> 822r59 824r24 826r33
+841i14 i<long_integer> 842r20 842r33
+845i14 i<long_integer> 846r20 846r33
+866b5 feasi{boolean} 875m51 876r8 879m11 882m60 882r60 883r14 888r10 889m13
+. 891r10 892m13 905r17
+867a5 pivots{5|16A8[15|4]} 872r14 873m7 875m44 875r44 882m40 882r40 897r25
+. 901r25
+868a5 sol{5|16A8[12|4]} 875m36 875r36 882m36 882r36 884m44 891r31 894r19
+869i5 ind{13|6I8} 881m11 882r51
+869i9 rank{13|6I8} 882m55 884r39
+872i9 i<long_integer> 873r14 873r20
+896i13 i<long_integer> 897r19 897r32
+900i13 i<long_integer> 901r19 901r32
+909U13 Complementary_Slackness2 909b13 910=20 910>45 911=20 912>20 913<20
+. 914<20 915<20 922l7 922t31
+910a20 tableau{4|16A8[9|5]} 921m16
+910i45 lastcol{13|6I8} 921r24
+911a20 rhs{5|16A8[12|4]} 921m32
+912f20 tol{10|13F8} 921r36
+913a20 solution{5|16A8[12|4]} 921m40
+914a20 columns{5|16A8[15|4]} 921m49
+915b20 feasible{boolean} 921m57
+924U13 Complementary_Slackness_the_New 924b13 926=20 926>45 927=20 928>20
+. 929<20 930<20 931<20 984l7 984t38
+926a20 tableau{4|16A8[9|5]} 936r35 946r24 948r28 957m10
+926i45 lastcol{13|6I8} 937r35 957r18
+927a20 rhs{5|16A8[12|4]} 934r8 934r12 948r43 957m26
+928f20 tol{10|13F8} 951r56 957r30
+929a20 solution{5|16A8[12|4]} 944m9 944r22 957m34
+930a20 columns{5|16A8[15|4]} 943m9 943r21 957m43
+931b20 feasible{boolean} 952m9 957m51
+936i9 n{13|6I8} 938r55 940r51 946r32 947r23 951r38
+937i9 m{13|6I8} 938r60 939r54 945r21 951r40
+938a9 lincff{4|16A8[9|5]} 948m13 951r42
+939a9 difrhs{5|16A8[12|4]} 946m11 951r49
+940a9 sol{5|16A8[12|4]} 951m60
+941b9 fail{boolean} 951m64 952r21
+945i13 j<long_integer> 946r18 946r36 948r22 948r38
+947i15 i<long_integer> 948r20 948r36 948r47
+X 4 generic_matrices.ads
+16A8*Matrix(10|13F8)<13|6I8><13|6I8> 2|13r37[9|5] 21r37[9|5] 3|10r39[9|5]
+. 37r11[9|5] 179r25[9|5] 196r34[9|5] 214r34[9|5] 230r36[9|5] 252r22[9|5]
+. 267r35[9|5] 300r24[9|5] 332r24[9|5] 373r48[9|5] 387r33[9|5] 403r35[9|5]
+. 427r46[9|5] 451r34[9|5] 506r34[9|5] 559r30[9|5] 612r30[9|5] 653r37[9|5]
+. 711r37[9|5] 781r37[9|5] 793r37[9|5] 855r37[9|5] 910r37[9|5] 926r37[9|5]
+. 938r45[9|5]
+X 5 generic_vectors.ads
+16A8*Vector(10|13F8)<13|6I8> 2|14r59[12|4] 16r61[12|4] 17r59[15|4] 22r59[12|4]
+. 24r61[12|4] 25r59[15|4] 3|11r65[12|4] 13r67[12|4] 14r65[15|4] 38r37[12|4]
+. 110r61[12|4] 129r49[12|4] 146r49[12|4] 164r58[12|4] 215r58[12|4] 231r60[12|4]
+. 268r59[12|4] 269r60[12|4] 275r37[12|4] 284r53[12|4] 300r64[12|4] 310r37[12|4]
+. 332r64[12|4] 342r37[12|4] 361r64[12|4] 388r57[12|4] 404r59[12|4] 428r70[12|4]
+. 452r60[12|4] 454r59[15|4] 455r57[12|4] 469r37[12|4] 507r60[12|4] 509r59[15|4]
+. 523r37[12|4] 560r64[12|4] 613r56[12|4] 654r71[12|4] 655r61[15|4] 712r63[12|4]
+. 713r61[15|4] 782r59[12|4] 784r61[12|4] 785r59[15|4] 794r59[12|4] 796r61[12|4]
+. 797r59[15|4] 805r39[15|4] 806r39[12|4] 807r37[12|4] 856r59[12|4] 858r61[12|4]
+. 859r59[15|4] 867r39[15|4] 868r37[12|4] 911r59[12|4] 913r61[12|4] 914r59[15|4]
+. 927r59[12|4] 929r61[12|4] 930r59[15|4] 939r44[12|4] 940r41[12|4]
+X 6 givens_rotations.ads
+7K9*Givens_Rotations 3|3w6 3r46 6|147e21
+24U13*Givens_Factors 3|420s9
+32U13*Givens_Rotation 3|422s9
+40U13*Givens_Rotation 3|421s9
+134U13*Solve 3|829s17 884s17
+X 7 linear_minimization.ads
+7K9*Linear_Minimization 3|4w6 951r9 7|307e24
+137U13*Feasible 3|951s29
+X 9 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[4|9] 2|5w6 5r46 3|938r18
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 2|2w6 2r46 10|58e30
+13F8*double_float<long_float> 2|15r29 23r29 3|12r35 43r9 118r11 129r65 134r11
+. 147r45 152r11 169r11 179r56 184r11 201r11 216r33 221r11 238r11 239r11 252r55
+. 258r11 285r46 302r27 302r47 334r27 334r47 367r12 378r12 394r12 405r31 415r17
+. 429r42 435r11 453r26 508r26 562r30 572r19 615r30 624r12 656r29 714r29 783r29
+. 795r29 857r29 912r29 928r29
+X 12 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[5|8] 2|4w6 4r46 14r33 16r35 22r33 24r35 3|11r39
+. 13r41 38r11 110r35 129r23 146r23 164r32 215r32 231r34 268r33 269r34 275r11
+. 284r27 300r38 310r11 332r38 342r11 361r38 388r31 404r33 428r44 452r34 455r31
+. 469r11 507r34 523r11 560r38 613r30 654r45 712r37 782r33 784r35 794r33 796r35
+. 806r13 807r11 856r33 858r35 868r11 911r33 913r35 927r33 929r35 939r18 940r15
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|1w6 1r46 13|45e29
+6I8*integer32<long_integer> 2|13r58 3|10r60 31r19 32r19 33r19 42r11 111r37
+. 111r56 117r11 147r26 179r37 196r58 214r46 230r48 232r37 232r56 237r11 252r36
+. 267r53 285r29 301r28 333r28 362r36 373r65 387r54 389r29 403r58 427r69 451r55
+. 470r13 506r55 524r13 559r51 561r32 562r58 571r10 573r10 574r10 612r51 614r39
+. 615r58 623r10 625r13 653r58 657r31 687r19 711r58 715r31 715r53 744r26 793r58
+. 808r12 855r58 869r16 910r58 926r58 936r22 937r22
+X 15 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[5|8] 2|3w6 3r46 17r34 25r34 3|14r40 454r34 509r34
+. 655r36 713r36 785r34 797r34 805r14 859r34 867r14 914r34 930r34
+X 16 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 3|2w6 2r46 16|64e36
+40V12*SQRT{10|13F8} 3|142s18 160s18 192s18
+X 18 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 3|1w6 1r46 18|112e28
+48V12*Random{10|13F8} 3|946s43
+

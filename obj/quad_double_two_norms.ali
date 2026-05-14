@@ -1,0 +1,91 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quad_double_two_norms%b  quad_double_two_norms.adb  7f841314 NE OO PK
+W quaddobl_mathematical_functions%s  quaddobl_mathematical_functions.adb  quaddobl_mathematical_functions.ali
+
+U quad_double_two_norms%s  quad_double_two_norms.ads  586bc3c8 EE NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quad_double_vectors%s	quad_double_vectors.ads	quad_double_vectors.ali
+W quad_double_vecvecs%s	quad_double_vecvecs.ads	quad_double_vecvecs.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_two_norms.ads  20260513024558 adb1feed quad_double_two_norms%s
+D quad_double_two_norms.adb  20260513024558 d69d3351 quad_double_two_norms%b
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quad_double_vecvecs.ads  20260513024558 5abfdeff quad_double_vecvecs%s
+D quaddobl_mathematical_functions.ads  20260513024558 04a8dea8 quaddobl_mathematical_functions%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [norm2 quad_double_two_norms 10 12 none]
+G c Z s b [normalize quad_double_two_norms 15 13 none]
+G c Z s b [normalize quad_double_two_norms 20 13 none]
+G r c none [norm2 quad_double_two_norms 10 12 none] [create quad_double_numbers 37 12 none]
+G r c none [norm2 quad_double_two_norms 10 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [norm2 quad_double_two_norms 10 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [norm2 quad_double_two_norms 10 12 none] [sqrt quaddobl_mathematical_functions 14 12 none]
+G r c none [normalize quad_double_two_norms 15 13 none] [create quad_double_numbers 37 12 none]
+G r c none [normalize quad_double_two_norms 15 13 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [normalize quad_double_two_norms 15 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [normalize quad_double_two_norms 15 13 none] [sqrt quaddobl_mathematical_functions 14 12 none]
+G r c none [normalize quad_double_two_norms 15 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [normalize quad_double_two_norms 20 13 none] [create quad_double_numbers 37 12 none]
+G r c none [normalize quad_double_two_norms 20 13 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [normalize quad_double_two_norms 20 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [normalize quad_double_two_norms 20 13 none] [sqrt quaddobl_mathematical_functions 14 12 none]
+G r c none [normalize quad_double_two_norms 20 13 none] [Odivide quad_double_numbers 206 12 none]
+X 3 generic_vectors.ads
+16A8*Vector(5|14R8)<13|6I8> 7|10r24[9|4] 15r36[9|4] 8|5r24[9|4] 17r36[9|4]
+17P8*Link_to_Vector(16A8[9|4])
+X 4 generic_vecvecs.ads
+14A8*VecVec(3|17P8[9|4])<13|6I8> 7|20r36[10|5] 8|27r35[10|5]
+X 5 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 7|1w6 1r46
+14R8*quad_double 253e13 7|10r40 8|5r40 7r11 19r20
+37V12*Create{14R8} 8|7s26
+160V13*"+"{14R8} 8|11s18
+189V13*"*"{14R8} 8|11s24
+206V13*"/"{14R8} 8|23s19
+X 7 quad_double_two_norms.ads
+5K9*Quad_Double_Two_Norms 25l5 25e26 8|3b14 34l5 34t26
+10V12*Norm2{5|14R8} 10>20 8|5b12 15l7 15t12 19s35
+10a20 v{3|16A8[9|4]} 8|5b20 10r14 11r20 11r25
+15U13*Normalize 15=25 8|17b13 25l7 25t16 30s7
+15a25 v{3|16A8[9|4]} 8|17b25 19r41 22r14 23m7 23r15
+20U13*Normalize 20=25 8|27b13 32l7 32t16
+20a25 v{4|14A8[10|5]} 8|27b24 29r14 30r17
+X 8 quad_double_two_norms.adb
+7r5 res{5|14R8} 11m7 11r14 13m5 13r17 14r12
+10i9 i<long_integer> 11r22 11r27
+19r5 nrm{5|14R8} 23r20
+22i9 i<long_integer> 23r9 23r17
+29i9 i<long_integer> 30r19
+X 9 quad_double_vectors.ads
+4K9*Quad_Double_Vectors[3|8] 7|2w6 2r46
+X 10 quad_double_vecvecs.ads
+5K9*Quad_Double_VecVecs[4|10] 7|3w6 3r46
+X 11 quaddobl_mathematical_functions.ads
+5K9*QuadDobl_Mathematical_Functions 8|1w6 1r46 11|59e36
+14V12*SQRT{5|14R8} 8|13s12
+

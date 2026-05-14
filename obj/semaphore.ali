@@ -1,0 +1,117 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV STATIC_PRIORITIES
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U semaphore%b		semaphore.adb		06506da7 NE OO PK
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U semaphore%s		semaphore.ads		4d315e0d EE NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrin.ads		20250808065140 5409c1a4 interfaces.c.strings%s
+D semaphore.ads		20260513024558 e5588193 semaphore%s
+D semaphore.adb		20260513024558 e308ec34 semaphore%b
+D system.ads		20250808065140 a869df9e system%s
+D s-atacco.ads		20250808065140 5868e3ba system.address_to_access_conversions%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-multip.ads		20250808065140 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20250808065140 35a74841 system.os_interface%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20250808065140 5be75682 system.stack_usage%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20250808065140 601f6b72 system.task_info%s
+D s-taspri.ads		20250808065140 602eebc0 system.task_primitives%s
+D s-taskin.ads		20250808065140 38289021 system.tasking%s
+D s-taprob.ads		20250808065140 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20250808065140 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20250808065140 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [is_available semaphore__binary_semaphore 15 14 none]
+G c Z s b [seize semaphore__binary_semaphore 17 11 none]
+G c Z s b [release semaphore__binary_semaphore 19 15 none]
+G c Z s b [binary_semaphore__is_availableN semaphore 15 5 none]
+G c Z s b [binary_semaphore__is_availableP semaphore 15 5 none]
+G c Z s b [binary_semaphore__releaseN semaphore 19 5 none]
+G c Z s b [binary_semaphore__releaseP semaphore 19 5 none]
+G c Z s b [available semaphore 28 12 none]
+G c Z s b [request semaphore 33 13 none]
+G c Z s b [release semaphore 38 13 none]
+G c Z s s [binary_semaphoreVDI semaphore 10 3 none]
+G c Z s s [binary_semaphoreVDF semaphore 10 3 none]
+G c Z s s [binary_semaphoreVIP semaphore 10 3 none]
+G c Z s s [lockDI semaphore 45 8 none]
+G c Z s s [lockDF semaphore 45 8 none]
+G c Z s s [lockIP semaphore 45 8 none]
+X 13 semaphore.ads
+3K9*Semaphore 45E8 49l5 49e14 14|1b14 37l5 37t14
+10W18*Binary_Semaphore 11d22 12d22 23E5 24l7 24e23 46r9 14|3b18 20l7 20t23
+11b22 initially_available{boolean} 23r28
+12i22 Ceiling{15|101I12} 14r21
+15V14 Is_Available{boolean} 14|5b14 8l9 8t21 24s16
+17Y11 Seize 14|10b11 13l9 13t14 29s9
+19U15 Release 14|15b15 18l9 18t16 34s9
+23b5 available{boolean} 14|7r14 10r22 12r7 17r7
+26R8*Lock 28r28 33r34 38r34 45c8 47e13 14|22r28 27r34 32r34
+28V12*Available{boolean} 28>24 14|22b12 25l7 25t16
+28r24 s{26R8} 14|22b24 24r12
+33U13*Request 33=23 14|27b13 30l7 30t14
+33r23 s{26R8} 14|27b23 29r5
+38U13*Release 38=23 14|32b13 35l7 35t14
+38r23 s{26R8} 14|32b23 34r5
+46w5*b{10W18} 14|24r14 29r7 34r7
+X 15 system.ads
+37K9*System 13|1w6 12r32 46r31 15|215e11
+100I12*Any_Priority{integer}
+101I12*Priority{100I12} 13|12r39
+104i4*Default_Priority{101I12} 13|46r38
+X 27 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+

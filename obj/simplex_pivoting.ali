@@ -1,0 +1,193 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U simplex_pivoting%b	simplex_pivoting.adb	5f792f4b NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U simplex_pivoting%s	simplex_pivoting.ads	cc2ddaec EE OO PK
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D simplex_pivoting.ads	20260513024558 f887ca7e simplex_pivoting%s
+D simplex_pivoting.adb	20260513024558 a7fee535 simplex_pivoting%b
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [search_outgoing simplex_pivoting 23 13 none]
+G c Z s b [search_outgoing simplex_pivoting 41 13 none]
+G c Z s b [search_incoming simplex_pivoting 62 13 none]
+G c Z s b [search_incoming simplex_pivoting 88 13 none]
+G c Z s b [search_incoming simplex_pivoting 117 13 none]
+G c Z s b [update_base simplex_pivoting 142 13 none]
+X 5 generic_matrices.ads
+16A8*Matrix(10|13F8)<13|6I8><13|6I8>
+17P8*Link_to_Matrix(16A8[9|5]) 7|26r55[9|5] 45r55[9|5] 66r57[9|5] 93r57[9|5]
+. 121r57[9|5] 144r59[9|5] 146r52[9|5] 8|6r55[9|5] 29r55[9|5] 54r57[9|5] 100r57[9|5]
+. 142r57[9|5] 183r59[9|5] 185r52[9|5]
+X 6 generic_vectors.ads
+16A8*Vector(13|6I8)<13|6I8> 7|92r51[12|4] 8|99r51[12|4]
+17P8*Link_to_Vector(16A8[12|4]) 7|25r51[12|4] 43r51[12|4] 44r53[15|4] 64r59[15|4]
+. 65r51[12|4] 90r59[15|4] 91r51[12|4] 119r53[15|4] 120r51[12|4] 143r57[15|4]
+. 8|5r51[12|4] 27r51[12|4] 28r53[15|4] 52r59[15|4] 53r51[12|4] 97r59[15|4]
+. 98r51[12|4] 140r53[15|4] 141r51[12|4] 182r57[15|4]
+X 7 simplex_pivoting.ads
+7K9*Simplex_Pivoting 164l5 164e21 8|1b14 215l5 215t21
+15f3*eps{10|13F8} 8|77r19 123r19 163r20 194r19
+16f3*DBL_MAX{10|13F8} 8|12r14 35r14 62r13 108r13 149r13
+18X3*singular_base 8|195r17
+19X3*unbounded_LP 8|91r17 177r17
+23U13*Search_Outgoing 24>18 25>18 26>18 27<18 27<43 8|3b13 23l7 23t22
+24i18 na{13|6I8} 8|4b18 13r18 15r20
+25p18 c{6|17P8[12|4]} 8|5b18 14r15 16r24
+26p18 Binv{5|17P8[9|5]} 8|6b18 14r20 16r29
+27f18 vmax{10|13F8} 8|7b18 12m5 18r17 19m9
+27i43 k{13|6I8} 8|7b43 20m9
+41U13*Search_Outgoing 42>18 43>18 44>18 45>18 46<18 46<43 8|25b13 48l7 48t22
+42i18 na{13|6I8} 8|26b18 36r18 39r22
+43p18 c{6|17P8[12|4]} 8|27b18 38r17 40r26
+44p18 Bidx{6|17P8[15|4]} 8|28b18 37r10
+45p18 Binv{5|17P8[9|5]} 8|29b18 38r22 40r31
+46f18 vmax{10|13F8} 8|30b18 35m5 42r19 43m11
+46i43 k{13|6I8} 8|30b43 44m11
+62U13*Search_Incoming 63>18 63>21 63>24 63>28 64>18 64>24 65>18 66>18 66>20
+. 67<18 67<43 8|50b13 93l7 93t22
+63i18 ma{13|6I8} 8|51b18 64r18
+63i21 na{13|6I8} 8|51b21 67r20 74r22 79r24
+63i24 nv1{13|6I8} 8|51b24 78r24
+63i28 k{13|6I8} 8|51b28 73r29 75r37
+64p18 LPidx{6|17P8[15|4]} 8|52b18 65r13
+64p24 Bidx{6|17P8[15|4]} 8|52b24 68r12
+65p18 x{6|17P8[12|4]} 8|53b18 80r34
+66p18 a{5|17P8[9|5]} 8|54b18 73r16 75r24 78r19 80r26
+66p20 Binv{5|17P8[9|5]} 8|54b20 73r24 75r32
+67f18 sigj{10|13F8} 8|55b18 62m5 83r20 84m13
+67i43 ell{13|6I8} 8|55b43 63m5 85m13 90r8
+88U13*Search_Incoming 89>18 89>21 89>24 89>28 90>18 90>24 91>18 92>18 93>18
+. 93>20 94<18 94<43 8|95b13 136l7 136t22
+89i18 ma{13|6I8} 8|96b18 110r18
+89i21 na{13|6I8} 8|96b21 113r20 120r22 125r24
+89i24 nv1{13|6I8} 8|96b24 124r24
+89i28 k{13|6I8} 8|96b28
+90p18 LPidx{6|17P8[15|4]} 8|97b18 111r13
+90p24 Bidx{6|17P8[15|4]} 8|97b24 114r12
+91p18 x{6|17P8[12|4]} 8|98b18 126r34
+92a18 v{6|16A8[12|4]} 8|99b18 119r24 121r32
+93p18 a{5|17P8[9|5]} 8|100b18 119r16 121r24 124r19 126r26
+93p20 Binv{5|17P8[9|5]} 8|100b20
+94f18 sigj{10|13F8} 8|101b18 108m5 129r20 130m13
+94i43 ell{13|6I8} 8|101b43 109m5 131m13
+117U13*Search_Incoming 118>18 118>21 118>24 118>29 119>18 120>18 121>18 121>20
+. 122<18 122<43 8|138b13 179l7 179t22
+118i18 ma{13|6I8} 8|139b18 151r18
+118i21 na{13|6I8} 8|139b21 153r20 160r22 165r24
+118i24 nVar{13|6I8} 8|139b24 164r23
+118i29 k{13|6I8} 8|139b29 159r28 161r36
+119p18 Bidx{6|17P8[15|4]} 8|140b18 154r12
+120p18 x{6|17P8[12|4]} 8|141b18 166r33
+121p18 a{5|17P8[9|5]} 8|142b18 159r16 161r24 164r19 166r26
+121p20 Binv{5|17P8[9|5]} 8|142b20 159r23 161r31
+122f18 sigj{10|13F8} 8|143b18 149m5 169r21 170m13
+122i43 ell{13|6I8} 8|143b43 150m5 171m13 176r8
+142U13*Update_Base 143=18 144=18 145>18 145>21 145>23 146>18 8|181b13 213l7
+. 213t18
+143p18 Bidx{6|17P8[15|4]} 8|182b18 212r5
+144p18 Binv{5|17P8[9|5]} 8|183b18 190r21 192r29 199r7 199r20 203r25 205r33
+. 208r11 208r24 208r40
+145i18 na{13|6I8} 8|184b18 191r18 198r18 201r18 204r22 207r22
+145i21 k{13|6I8} 8|184b21 190r26 192r34 199r12 199r25 202r15 208r45 212r10
+145i23 ell{13|6I8} 8|184b23 190r14 192r22 203r18 205r26 212r16
+146p18 a{5|17P8[9|5]} 8|185b18 190r12 192r20 203r16 205r24
+X 8 simplex_pivoting.adb
+9f5 dtmp{10|13F8} 14m7 16m9 16r17 18r10 19r17
+13i9 i<long_integer> 14r25 16r34 20r14
+15i11 j<long_integer> 16r26 16r36
+32f5 dtmp{10|13F8} 38m9 40m11 40r19 42r12 43r19
+36i9 i<long_integer> 37r15 38r27 40r36 44r16
+39i13 j<long_integer> 40r28 40r38
+57i5 ii{13|6I8} 65m7 68r22 73r18 75r26 78r21 80r28 85r20
+58b5 ibrk{boolean} 66m7 69m15 72r14
+59f5 bot{10|13F8} 73m9 75m11 75r18 77r12 82r22
+59f9 top{10|13F8} 78m11 80m13 80r20 82m11 82r18 83r14 84r21
+64i9 i<long_integer> 65r19
+67i11 j<long_integer> 68r17
+74i13 j<long_integer> 75r29 75r39
+79i15 j<long_integer> 80r31 80r36
+103b5 ibrk{boolean} 112m7 115m15 118r14
+104i5 ii{13|6I8} 111m7 114r22 119r18 121r26 124r21 126r28 131r20
+105f5 bot{10|13F8} 119m9 121m11 121r18 123r12 128r22
+105f9 top{10|13F8} 124m11 126m13 126r20 128m11 128r18 129r14 130r21
+110i9 i<long_integer> 111r19
+113i11 j<long_integer> 114r17
+120i13 j<long_integer> 121r29 121r34
+125i15 j<long_integer> 126r31 126r36
+145b5 ibrk{boolean} 152m7 155m15 158r14
+146f5 bot{10|13F8} 159m9 161m11 161r18 163r12 168r22
+146f9 top{10|13F8} 164m11 166m13 166r20 168m11 168r18 169r14 170r21
+151i9 i<long_integer> 154r22 159r18 161r26 164r21 166r28 171r20
+153i11 j<long_integer> 154r17
+160i13 j<long_integer> 161r28 161r38
+165i15 j<long_integer> 166r30 166r35
+187f5 top{10|13F8} 190m5 192m7 192r14 194r12 197m5 197r16 199r30 203m9 205m11
+. 205r18 208r36
+191i9 i<long_integer> 192r26 192r36
+198i9 i<long_integer> 199r14 199r27
+201i9 j<long_integer> 202r10 203r30 205r38 208r16 208r29
+204i13 i<long_integer> 205r30 205r40
+207i13 i<long_integer> 208r18 208r31 208r47
+X 9 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[5|9] 7|5w6 26r28 45r28 66r30 93r30 121r30
+. 144r32 146r25 8|6r28 29r28 54r30 100r30 142r30 183r32 185r25
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 7|2w6 2r45 10|58e30
+13F8*double_float<long_float> 7|15r18 16r22 27r29 46r29 67r29 94r29 122r29
+. 8|7r29 9r12 30r29 32r12 55r29 59r15 101r29 105r15 143r29 146r15 187r11
+X 12 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[6|8] 7|4w6 25r25 43r25 65r25 91r25 92r25 120r25
+. 8|5r25 27r25 53r25 98r25 99r25 141r25
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 7|1w6 1r45 13|45e29
+6I8*integer32<long_integer> 7|24r26 27r51 42r26 46r51 63r35 67r53 89r35 94r53
+. 118r36 122r53 145r32 8|4r26 7r51 26r26 30r51 51r35 55r53 57r10 96r35 101r53
+. 104r10 139r36 143r53 184r32
+X 15 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[6|8] 7|3w6 44r28 64r34 90r34 119r28 143r32 8|28r28
+. 52r34 97r34 140r28 182r32
+

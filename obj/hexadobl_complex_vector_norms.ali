@@ -1,0 +1,138 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U hexadobl_complex_vector_norms%b  hexadobl_complex_vector_norms.adb  bf1164e9 NE OO PK
+W hexadobl_mathematical_functions%s  hexadobl_mathematical_functions.adb  hexadobl_mathematical_functions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+U hexadobl_complex_vector_norms%s  hexadobl_complex_vector_norms.ads  ee6b0d01 EE NE OO PK
+W hexa_double_numbers%s	hexa_double_numbers.adb	hexa_double_numbers.ali
+W hexadobl_complex_numbers%s  hexadobl_complex_numbers.ads  hexadobl_complex_numbers.ali
+W hexadobl_complex_vectors%s  hexadobl_complex_vectors.ads  hexadobl_complex_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D deca_double_numbers.ads  20260513024558 96ba5284 deca_double_numbers%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D hexa_double_numbers.ads  20260513024558 2ab2fc6c hexa_double_numbers%s
+D hexa_double_ring.ads	20260513024558 a391cb52 hexa_double_ring%s
+D hexa_double_ring-ffield.ads  20260513024558 09eb549c hexa_double_ring.ffield%s
+D hexadobl_complex_numbers.ads  20260513024558 dc378e03 hexadobl_complex_numbers%s
+D hexadobl_complex_ring.ads  20260513024558 27afa511 hexadobl_complex_ring%s
+D hexadobl_complex_vector_norms.ads  20260513024558 bf6f8ec1 hexadobl_complex_vector_norms%s
+D hexadobl_complex_vector_norms.adb  20260513024558 46aa8402 hexadobl_complex_vector_norms%b
+D hexadobl_complex_vectors.ads  20260513024558 a781f1af hexadobl_complex_vectors%s
+D hexadobl_mathematical_functions.ads  20260513024558 39340c31 hexadobl_mathematical_functions%s
+D octo_double_numbers.ads  20260513024558 9005435d octo_double_numbers%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [conjugated_inner_product hexadobl_complex_vector_norms 10 12 none]
+G c Z s b [norm2 hexadobl_complex_vector_norms 16 12 none]
+G c Z s b [normalize hexadobl_complex_vector_norms 21 13 none]
+G c Z s b [sum_norm hexadobl_complex_vector_norms 26 12 none]
+G c Z s b [max_norm hexadobl_complex_vector_norms 31 12 none]
+G r c none [conjugated_inner_product hexadobl_complex_vector_norms 10 12 none] [create hexa_double_numbers 48 12 none]
+G r c none [conjugated_inner_product hexadobl_complex_vector_norms 10 12 none] [create hexadobl_complex_numbers 26 12 5_1]
+G r c none [conjugated_inner_product hexadobl_complex_vector_norms 10 12 none] [conjugate hexadobl_complex_numbers 28 12 5_1]
+G r c none [conjugated_inner_product hexadobl_complex_vector_norms 10 12 none] [Omultiply hexadobl_complex_numbers 62 12 5_1]
+G r c none [conjugated_inner_product hexadobl_complex_vector_norms 10 12 none] [Oadd hexadobl_complex_numbers 58 12 5_1]
+G r c none [norm2 hexadobl_complex_vector_norms 16 12 none] [create hexa_double_numbers 48 12 none]
+G r c none [norm2 hexadobl_complex_vector_norms 16 12 none] [real_part hexadobl_complex_numbers 32 12 5_1]
+G r c none [norm2 hexadobl_complex_vector_norms 16 12 none] [Omultiply hexa_double_numbers 264 12 none]
+G r c none [norm2 hexadobl_complex_vector_norms 16 12 none] [Oadd hexa_double_numbers 254 12 none]
+G r c none [norm2 hexadobl_complex_vector_norms 16 12 none] [imag_part hexadobl_complex_numbers 33 12 5_1]
+G r c none [norm2 hexadobl_complex_vector_norms 16 12 none] [sqrt hexadobl_mathematical_functions 9 12 none]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [create hexa_double_numbers 48 12 none]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [real_part hexadobl_complex_numbers 32 12 5_1]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [Omultiply hexa_double_numbers 264 12 none]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [Oadd hexa_double_numbers 254 12 none]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [imag_part hexadobl_complex_numbers 33 12 5_1]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [sqrt hexadobl_mathematical_functions 9 12 none]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [create hexadobl_complex_numbers 26 12 5_1]
+G r c none [normalize hexadobl_complex_vector_norms 21 13 none] [Odivide hexadobl_complex_numbers 63 12 5_1]
+G r c none [sum_norm hexadobl_complex_vector_norms 26 12 none] [create hexa_double_numbers 48 12 none]
+G r c none [sum_norm hexadobl_complex_vector_norms 26 12 none] [absval hexadobl_complex_numbers 35 12 5_1]
+G r c none [sum_norm hexadobl_complex_vector_norms 26 12 none] [Oadd hexa_double_numbers 254 12 none]
+G r c none [max_norm hexadobl_complex_vector_norms 31 12 none] [absval hexadobl_complex_numbers 35 12 5_1]
+G r c none [max_norm hexadobl_complex_vector_norms 31 12 none] [Ogt hexa_double_numbers 243 12 none]
+X 5 generic_complex_numbers.ads
+19R8*Complex_Number 12|10r61[10|5] 13|6r61[10|5] 9r11[10|5] 35r9[10|5]
+26V12*Create{19R8[10|5]} 13|9s29[10|5] 39s12[10|5]
+28V12*Conjugate{19R8[10|5]} 13|13s20[10|5]
+32V12*REAL_PART{7|25R8} 13|24s21[10|5] 24s37[10|5]
+33V12*IMAG_PART{7|25R8} 13|25s21[10|5] 25s37[10|5]
+35V12*AbsVal{7|25R8} 13|52s20[10|5] 59s26[10|5] 64s14[10|5]
+58V13*"+"{19R8[10|5]} 13|13s18[10|5]
+62V13*"*"{19R8[10|5]} 13|13s35[10|5]
+63V13*"/"{19R8[10|5]} 13|41s21[10|5]
+X 6 generic_vectors.ads
+16A8*Vector(5|19R8[10|5])<20|6I8> 12|10r45[14|4] 16r24[14|4] 21r36[14|4]
+. 26r27[14|4] 31r27[14|4] 13|6r45[14|4] 18r24[14|4] 31r36[14|4] 46r27[14|4]
+. 57r27[14|4]
+X 7 hexa_double_numbers.ads
+11K9*Hexa_Double_Numbers 335e24 12|1w6 1r46
+25R8*hexa_double 333e13 12|16r40 26r43 31r43 13|8r21 18r40 20r11 33r20 34r20
+. 46r43 48r11 57r43 59r11 60r11
+48V12*create{25R8} 13|8s36 20s26 34s35 48s26
+243V13*">"{boolean} 13|65s14
+254V13*"+"{25R8} 13|24s19 25s19 38s12 52s18
+264V13*"*"{25R8} 13|24s36 25s36
+X 10 hexadobl_complex_numbers.ads
+5K9*HexaDobl_Complex_Numbers[5|11] 12|2w6 2r46
+X 12 hexadobl_complex_vector_norms.ads
+5K9*HexaDobl_Complex_Vector_Norms 36l5 36e34 13|4b14 72l5 72t34
+10V12*Conjugated_Inner_Product{5|19R8[10|5]} 10>39 10>41 13|6b12 16l7 16t31
+10a39 v{6|16A8[14|4]} 13|6b39 12r14 13r30
+10a41 w{6|16A8[14|4]} 13|6b41 13r36
+16V12*Norm2{7|25R8} 16>20 13|18b12 29l7 29t12 33s35
+16a20 v{6|16A8[14|4]} 13|18b20 23r14 24r31 24r47 25r31 25r47
+21U13*Normalize 21=25 13|31b13 44l7 44t16
+21a25 v{6|16A8[14|4]} 13|31b25 33r41 40r16 41m9 41r17
+26V12*Sum_Norm{7|25R8} 26>23 13|46b12 55l7 55t15
+26a23 v{6|16A8[14|4]} 13|46b23 51r14 52r27
+31V12*Max_Norm{7|25R8} 31>23 13|57b12 70l7 70t15
+31a23 v{6|16A8[14|4]} 13|57b23 59r33 59r35 63r14 63r25 64r21
+X 13 hexadobl_complex_vector_norms.adb
+8r5 zero{7|25R8} 9r36
+9r5 res{5|19R8[10|5]} 13m7 13r14 15r12
+12i9 i<long_integer> 13r32 13r38
+20r5 res{7|25R8} 24m8 24r15 27m5 27r17 28r12
+23i9 i<long_integer> 24r33 24r49 25r33 25r49
+33r5 nrm{7|25R8} 38r8 39r19
+34r5 one{7|25R8} 38r14 38r21
+35r5 d{5|19R8[10|5]} 39m7 41r22
+40i11 i<long_integer> 41r11 41r19
+48r5 res{7|25R8} 52m7 52r14 54r12
+51i9 i<long_integer> 52r29
+59r5 res{7|25R8} 65r16 66m13 69r12
+60r5 tmp{7|25R8} 64m7 65r10 66r20
+63i9 i<long_integer> 64r23
+X 14 hexadobl_complex_vectors.ads
+4K9*HexaDobl_Complex_Vectors[6|8] 12|3w6 3r46
+X 15 hexadobl_mathematical_functions.ads
+3K9*HexaDobl_Mathematical_Functions 13|2w6 2r46 15|64e36
+9V12*SQRT{7|25R8} 13|27s12
+X 20 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 13|1w6 1r46 20|45e29
+

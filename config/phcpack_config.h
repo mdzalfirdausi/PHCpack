@@ -6,7 +6,6 @@
 #define CRATE_NAME "phcpack"
 
 #define ALIRE_HOST_OS "windows"
-// #define ALIRE_HOST_OS "linux"
 
 #define ALIRE_HOST_ARCH "x86_64"
 

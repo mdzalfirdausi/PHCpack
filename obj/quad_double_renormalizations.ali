@@ -1,0 +1,113 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quad_double_renormalizations%b  quad_double_renormalizations.adb  d8da2244 NE OO PK
+W double_double_basics%s  double_double_basics.adb  double_double_basics.ali
+
+U quad_double_renormalizations%s  quad_double_renormalizations.ads  cf9b062a EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+D double_double_basics.ads  20260513024558 41df7b4e double_double_basics%s
+D quad_double_renormalizations.ads  20260513024558 690d8747 quad_double_renormalizations%s
+D quad_double_renormalizations.adb  20260513024558 f008de4d quad_double_renormalizations%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [quick_renorm quad_double_renormalizations 10 13 none]
+G c Z s b [renorm4 quad_double_renormalizations 16 13 none]
+G c Z s b [renorm5 quad_double_renormalizations 22 13 none]
+G c Z s b [three_sum quad_double_renormalizations 28 13 none]
+G c Z s b [three_sum2 quad_double_renormalizations 33 13 none]
+G c Z s b [quick_three_accum quad_double_renormalizations 38 13 none]
+G r c none [quick_renorm quad_double_renormalizations 10 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [renorm4 quad_double_renormalizations 16 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [renorm5 quad_double_renormalizations 22 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [three_sum quad_double_renormalizations 28 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [three_sum2 quad_double_renormalizations 33 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [quick_three_accum quad_double_renormalizations 38 13 none] [two_sum double_double_basics 36 13 none]
+X 1 double_double_basics.ads
+3K9*Double_Double_Basics 99e25 3|1w6 1r46
+10U13*quick_two_sum 3|10s5 11s5 12s5 13s5 14s5 15s5 16s5 17s5 18s5 29s5 30s5
+. 31s5 34s7 36s13 37s13 40s7 42s13 43s13 56s5 57s5 58s5 59s5 61s5 63s7 65s9
+. 71s9 73s15 74s15 78s7 80s9 82s15 83s15 86s9 88s15 89s15
+36U13*two_sum 3|101s5 102s5 103s5 111s5 112s5 122s5 123s5
+X 2 quad_double_renormalizations.ads
+3K9*Quad_Double_Renormalizations 48l5 48e33 3|3b14 137l5 137t33
+10U13*quick_renorm 10=28 10=31 10=34 10=37 10=40 3|5b13 20l7 20t19
+10f28 c0{4|13F8} 3|5b28 13r19 13m24
+10f31 c1{4|13F8} 3|5b31 12r19 16m24
+10f34 c2{4|13F8} 3|5b34 11r19 18m24
+10f37 c3{4|13F8} 3|5b37 10r19 19m5
+10f40 c4{4|13F8} 3|5b40 10r22
+16U13*renorm4 16=23 16=26 16=29 16=32 3|22b13 47l7 47t14
+16f23 c0{4|13F8} 3|22b23 31r19 31m25 32r11 46m5
+16f26 c1{4|13F8} 3|22b26 30r19 31m28 32r21 46m15
+16f29 c2{4|13F8} 3|22b29 29r19 30m28 34r24 40r24 46m25
+16f32 c3{4|13F8} 3|22b32 29r22 29m28 36r30 37r30 42r30 43r30 46m35
+22U13*renorm5 22=23 22=26 22=29 22=32 22=35 3|49b13 94l7 94t14
+22f23 c0{4|13F8} 3|49b23 59r19 59m25 60r11 61r19 93m5
+22f26 c1{4|13F8} 3|49b26 58r19 59m28 60r21 61r22 93m15
+22f29 c2{4|13F8} 3|49b29 57r19 58m28 63r24 78r24 93m25
+22f32 c3{4|13F8} 3|49b32 56r19 57m28 65r26 71r26 80r26 86r26 93m35
+22f35 c4{4|13F8} 3|49b35 56r22 56m28 67r26 68r26 73r32 74r32 82r32 83r32
+. 88r32 89r32
+28U13*three_sum 28=25 28=27 28=29 3|96b13 104l7 104t16
+28f25 a{4|13F8} 3|96b25 101r13 102m18
+28f27 b{4|13F8} 3|96b27 101r15 103m19
+28f29 c{4|13F8} 3|96b29 102r13 103m21
+33U13*three_sum2 33=26 33=28 33=30 3|106b13 114l7 114t17
+33f26 a{4|13F8} 3|106b26 111r13 112m18
+33f28 b{4|13F8} 3|106b28 111r15 113m5
+33f30 c{4|13F8} 3|106b30 112r13
+38U13*quick_three_accum 39=17 39=19 39=21 39>46 3|116b13 135l7 135t24
+39f17 a{4|13F8} 3|117b17 123r13 123m19 124r12 130r18 130m21 131m13
+39f19 b{4|13F8} 3|117b19 122r13 122m19 125r12 130m13
+39f21 s{4|13F8} 3|117b21 122m17 123r15 123m17 130r26 131r18 133m7
+39f46 c{4|13F8} 3|117b46 122r15
+X 3 quad_double_renormalizations.adb
+7f5 s{4|13F8} 10m25 11r22 11m24 12r22 12m24 13r22 14m25 15r22 15m24 16r22
+. 17m25 18r22
+7f7 t0{4|13F8} 13m27 16r19 16m27 18r19 18m27 19r11
+7f10 t1{4|13F8} 12m26 15r19 15m26 17r19 17m27 19r16
+7f13 t2{4|13F8} 11m26 14r19 14m27 17r22
+7f16 t3{4|13F8} 10m27 14r22
+24f5 s0{4|13F8} 29m25 30r22 30m25 31r22 32m5 40r21 40m27 43r27 43m33 46r11
+24f8 s1{4|13F8} 32m15 33r8 34r21 34m27 37r27 37m33 40m30 41r10 42r27 42m33
+. 43m36 46r21
+25f5 s2{4|13F8} 34m30 35r10 36r27 36m33 37m36 42m36 46r31
+26f5 s3{4|13F8} 36m36 46r41
+51f5 s0{4|13F8} 56m25 57r22 57m25 58r22 58m25 59r22 60m5 61m25 78r21 78m27
+. 86r23 86m29 89r29 89m35 93r11
+51f8 s1{4|13F8} 60m15 61m28 62r8 63r21 63m27 71r23 71m29 74r29 74m35 78m30
+. 79r10 80r23 80m29 83r29 83m35 86m32 87r12 88r29 88m35 89m38 93r21
+52f5 s2{4|13F8} 63m30 64r10 65r23 65m29 68m15 68r21 71m32 72r12 73r29 73m35
+. 74m38 80m32 81r12 82r29 82m35 83m38 88m38 93r31
+53f5 s3{4|13F8} 65m32 66r12 67m15 67r21 73m38 82m38 93r41
+98f5 t1{4|13F8} 101m17 102r15
+98f8 t2{4|13F8} 101m20 103r13
+98f11 t3{4|13F8} 102m20 103r16
+108f5 t1{4|13F8} 111m17 112r15
+108f8 t2{4|13F8} 111m20 113r10
+108f11 t3{4|13F8} 112m20 113r15
+119b5 za{boolean} 124m5 126r8
+119b8 zb{boolean} 125m5 126r15 129r14
+X 4 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 2|1w6 1r46 4|58e30
+13F8*double_float<long_float> 2|10r52 16r44 22r47 28r40 33r41 39r32 39r53
+. 3|5r52 7r21 22r44 24r13 25r10 26r10 49r47 51r13 52r10 53r10 96r40 98r16
+. 106r41 108r16 117r32 117r53
+

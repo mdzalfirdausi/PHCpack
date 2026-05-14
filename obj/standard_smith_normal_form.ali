@@ -1,0 +1,270 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_smith_normal_form%b  standard_smith_normal_form.adb  9b20d2b9 NE OO PK
+W standard64_common_divisors%s  standard64_common_divisors.ads  standard64_common_divisors.ali
+W standard_common_divisors%s  standard_common_divisors.ads  standard_common_divisors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_smith_normal_form%s  standard_smith_normal_form.ads  e23b9e8e EE NE OO PK
+W standard_integer64_matrices%s  standard_integer64_matrices.ads  standard_integer64_matrices.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D standard64_common_divisors.ads  20260513024558 d6300ee4 standard64_common_divisors%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_ring-ddomain.ads  20260513024558 592f7659 standard_integer64_ring.ddomain%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_smith_normal_form.ads  20260513024558 061552cf standard_smith_normal_form%s
+D standard_smith_normal_form.adb  20260513024558 7e186342 standard_smith_normal_form%b
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [identity standard_smith_normal_form 11 12 none]
+G c Z s b [identity standard_smith_normal_form 12 12 none]
+G c Z s b [diagonal standard_smith_normal_form 17 12 none]
+G c Z s b [diagonal standard_smith_normal_form 18 12 none]
+G c Z s b [rank_of_diagonal_matrix standard_smith_normal_form 23 12 none]
+G c Z s b [rank_of_diagonal_matrix standard_smith_normal_form 25 12 none]
+G c Z s b [diagonalize standard_smith_normal_form 35 13 none]
+G c Z s b [diagonalize standard_smith_normal_form 37 13 none]
+G c Z b b [upper_triangulate standard_smith_normal_form 16 13 none]
+G c Z b b [upper_triangulate standard_smith_normal_form 56 13 none]
+G c Z b b [lower_triangulate standard_smith_normal_form 96 13 none]
+G c Z b b [lower_triangulate standard_smith_normal_form 136 13 none]
+G c Z b b [absolute_value standard_smith_normal_form 178 12 none]
+G c Z b b [absolute_value standard_smith_normal_form 190 12 none]
+G c Z b b [find_pivots standard_smith_normal_form 202 13 none]
+G c Z b b [find_pivots standard_smith_normal_form 234 13 none]
+G c Z b b [switch_rows_and_columns standard_smith_normal_form 266 13 none]
+G c Z b b [switch_rows_and_columns standard_smith_normal_form 317 13 none]
+G r c none [diagonalize standard_smith_normal_form 35 13 none] [gcd standard_common_divisors 28 13 5_1]
+G r c none [diagonalize standard_smith_normal_form 37 13 none] [gcd standard64_common_divisors 28 13 5_1]
+G r c none [upper_triangulate standard_smith_normal_form 16 13 none] [gcd standard_common_divisors 28 13 5_1]
+G r c none [upper_triangulate standard_smith_normal_form 56 13 none] [gcd standard64_common_divisors 28 13 5_1]
+G r c none [lower_triangulate standard_smith_normal_form 96 13 none] [gcd standard_common_divisors 28 13 5_1]
+G r c none [lower_triangulate standard_smith_normal_form 136 13 none] [gcd standard64_common_divisors 28 13 5_1]
+X 3 generic_matrices.ads
+16A8*Matrix(13|6I8)<13|6I8><13|6I8> 18|11r72[12|5] 12r74[8|5] 17r53[12|5]
+. 18r55[8|5] 24r46[12|5] 26r48[8|5] 36r58[12|5] 38r60[8|5] 19|17r56[12|5]
+. 57r58[8|5] 97r56[12|5] 137r58[8|5] 203r50[12|5] 235r52[8|5] 267r58[12|5]
+. 318r60[8|5] 371r65[12|5] 373r37[12|5] 388r67[8|5] 390r39[8|5] 404r53[12|5]
+. 419r48[8|5] 434r46[12|5] 450r48[8|5] 465r68[12|5] 490r60[8|5]
+X 5 greatest_common_divisors.ads
+28U13*gcd 19|32s9[7|5] 72s9[6|5] 112s9[7|5] 152s9[6|5]
+X 6 standard64_common_divisors.ads
+5K9*Standard64_Common_Divisors[5|9] 19|3w6 66r9 146r9
+X 7 standard_common_divisors.ads
+5K9*Standard_Common_Divisors[5|9] 19|2w6 27r9 107r9
+X 8 standard_integer64_matrices.ads
+5K9*Standard_Integer64_Matrices[3|9] 18|3w6 12r46 18r27 26r20 38r32 19|57r30
+. 137r30 235r24 318r32 388r39 390r11 419r20 450r20 490r32
+X 12 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[3|9] 18|2w6 11r46 17r27 24r20 36r32 19|17r30
+. 97r30 203r24 267r32 371r39 373r11 404r27 434r20 465r42
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 19|1w6 1r46
+6I8*integer32<long_integer> 19|18r30 26r33 58r30 98r30 106r33 138r30 178r33
+. 178r52 204r40 210r11 211r11 213r11 236r40 242r11 243r11 268r44 288r12 319r44
+. 373r47 373r63 390r49 390r65 467r11 468r11 469r21 492r11 493r11 494r21
+7I8*integer64<long_long_integer> 19|67r33 147r33 190r33 190r52 245r11 339r12
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 18|1w6 1r46
+7I8*natural32<long_integer> 18|11r27 12r27 24r62 26r64 19|371r20 388r20 434r62
+. 436r11 450r64 452r11
+X 18 standard_smith_normal_form.ads
+5K9*Standard_Smith_Normal_Form 53l5 53e31 19|5b14 514l5 514t31
+11V12*Identity{3|16A8[12|5]} 11>23 19|370b12 385l7 385t15
+11i23 n{17|7I8} 19|371b16 373r57 373r73
+12V12*Identity{3|16A8[8|5]} 12>23 19|387b12 402l7 402t15
+12i23 n{17|7I8} 19|388b16 390r59 390r75
+17V12*Diagonal{boolean} 17>23 19|404b12 416l7 416t15 472s15
+17a23 A{3|16A8[12|5]} 19|404b23 406r14 407r16 409r14
+18V12*Diagonal{boolean} 18>23 19|418b12 431l7 431t15 497s15
+18a23 A{3|16A8[8|5]} 19|419b16 421r14 422r16 424r14
+23V12*Rank_of_Diagonal_Matrix{17|7I8} 24>16 19|433b12 447l7 447t30
+24a16 D{3|16A8[12|5]} 19|434b16 439r14 440r21 441r10
+25V12*Rank_of_Diagonal_Matrix{17|7I8} 26>16 19|449b12 463l7 463t30
+26a16 D{3|16A8[8|5]} 19|450b16 455r14 456r21 457r10
+35U13*Diagonalize 36=17 36=19 36=21 19|465b13 487l7 487t18
+36a17 U{3|16A8[12|5]} 19|465b27 479m35 480m27
+36a19 A{3|16A8[12|5]} 19|465b29 467r24 468r24 472r24 473r14 474r14 477r21
+. 478r20 479m33 480m29 481m27 484r27 484r48
+36a21 V{3|16A8[12|5]} 19|465b31 479m37 481m29
+37U13*Diagonalize 38=17 38=19 38=21 19|489b13 512l7 512t18
+38a17 U{3|16A8[8|5]} 19|490b17 504m35 505m27
+38a19 A{3|16A8[8|5]} 19|490b19 492r24 493r24 497r24 498r14 499r14 502r21
+. 503r20 504m33 505m29 506m27 509r27 509r48
+38a21 V{3|16A8[8|5]} 19|490b21 504m37 506m29
+X 19 standard_smith_normal_form.adb
+16U13 Upper_Triangulate 16b13 17=17 17=19 18>17 18>21 54l7 54t24 480s9
+17a17 U{3|16A8[12|5]} 46r18 47r21 48r19 49m11 50m11
+17a19 A{3|16A8[12|5]} 30r23 31r10 32r13 32r24 33r15 33r39 40r18 41r21 42r19
+. 43m11 44m11
+18i17 row{13|6I8} 30r15 32r15 33r17 41r23 43r13 47r23 49r13
+18i21 col{13|6I8} 31r14 32r19 32r28 33r21 33r43
+26i5 aa{13|6I8} 33m9 34r13 37r13 44r38 50r38
+26i8 bb{13|6I8} 33m33 34r18 37r19 44r25 50r25
+26i11 ka{13|6I8} 32m33 34r32 35m15 37r33 38m15 43r26 49r26
+26i14 lb{13|6I8} 32m36 35r21 35m25 38r22 38m26 43r38 49r38
+26i17 d{13|6I8} 32m39 33r26 33r48
+26i19 a_rowk{13|6I8} 41m11 43r29 44r29 47m11 49r29 50r29
+26i26 a_ik{13|6I8} 42m11 43r41 44r41 48m11 49r41 50r41
+30i9 i<long_integer> 31r12 32r26 33r41 42r21 44r13 48r21 50r13
+40i13 k<long_integer> 41r27 42r23 43r17 44r15
+46i13 k<long_integer> 47r27 48r23 49r17 50r15
+56U13 Upper_Triangulate 56b13 57=17 57=19 58>17 58>21 94l7 94t24 505s9
+57a17 U{3|16A8[8|5]} 86r18 87r21 88r19 89m11 90m11
+57a19 A{3|16A8[8|5]} 70r23 71r10 72r13 72r24 73r15 73r39 80r18 81r21 82r19
+. 83m11 84m11
+58i17 row{13|6I8} 70r15 72r15 73r17 81r23 83r13 87r23 89r13
+58i21 col{13|6I8} 71r14 72r19 72r28 73r21 73r43
+67i5 aa{13|7I8} 73m9 74r13 77r13 84r38 90r38
+67i8 bb{13|7I8} 73m33 74r18 77r19 84r25 90r25
+67i11 ka{13|7I8} 72m33 74r32 75m15 77r33 78m15 83r26 89r26
+67i14 lb{13|7I8} 72m36 75r21 75m25 78r22 78m26 83r38 89r38
+67i17 d{13|7I8} 72m39 73r26 73r48
+67i19 a_rowk{13|7I8} 81m11 83r29 84r29 87m11 89r29 90r29
+67i26 a_ik{13|7I8} 82m11 83r41 84r41 88m11 89r41 90r41
+70i9 i<long_integer> 71r12 72r26 73r41 82r21 84r13 88r21 90r13
+80i13 k<long_integer> 81r27 82r23 83r17 84r15
+86i13 k<long_integer> 87r27 88r23 89r17 90r15
+96U13 Lower_Triangulate 96b13 97=17 97=19 98>17 98>21 134l7 134t24 481s9
+97a17 A{3|16A8[12|5]} 110r23 111r10 112r13 112r24 113r15 113r42 120r18 121r21
+. 122r19 123m11 124m11
+97a19 V{3|16A8[12|5]} 126r18 127r21 128r19 129m11 130m11
+98i17 row{13|6I8} 111r12 112r15 112r26 113r17 113r44
+98i21 col{13|6I8} 110r15 112r19 113r21 121r25 123r15 127r25 129r15
+106i5 aa{13|6I8} 113m9 114r13 117r13 124r43 130r43
+106i8 bb{13|6I8} 113m36 114r18 117r19 124r32 130r32
+106i11 ka{13|6I8} 112m33 114r32 115m15 117r33 118m15 123r30 129r30
+106i14 lb{13|6I8} 112m36 115r21 115m25 118r22 118m26 123r43 129r43
+106i17 d{13|6I8} 112m39 113r26 113r51
+106i19 a_kcol{13|6I8} 121m11 123r23 124r23 127m11 129r23 130r23
+106i26 a_kj{13|6I8} 122m11 123r38 124r38 128m11 129r38 130r38
+110i9 j<long_integer> 111r16 112r30 113r48 122r23 124r15 128r23 130r15
+120i13 k<long_integer> 121r23 122r21 123r13 124r13
+126i13 k<long_integer> 127r23 128r21 129r13 130r13
+136U13 Lower_Triangulate 136b13 137=17 137=19 138>17 138>21 174l7 174t24
+. 506s9
+137a17 A{3|16A8[8|5]} 150r23 151r10 152r13 152r24 153r15 153r42 160r18 161r21
+. 162r19 163m11 164m11
+137a19 V{3|16A8[8|5]} 166r18 167r21 168r19 169m11 170m11
+138i17 row{13|6I8} 151r12 152r15 152r26 153r17 153r44
+138i21 col{13|6I8} 150r15 152r19 153r21 161r25 163r15 167r25 169r15
+147i5 aa{13|7I8} 153m9 154r13 157r13 164r43 170r43
+147i8 bb{13|7I8} 153m36 154r18 157r19 164r32 170r32
+147i11 ka{13|7I8} 152m33 154r32 155m15 157r33 158m15 163r30 169r30
+147i14 lb{13|7I8} 152m36 155r21 155m25 158r22 158m26 163r43 169r43
+147i17 d{13|7I8} 152m39 153r26 153r51
+147i19 a_kcol{13|7I8} 161m11 163r23 164r23 167m11 169r23 170r23
+147i26 a_kj{13|7I8} 162m11 163r38 164r38 168m11 169r38 170r38
+150i9 j<long_integer> 151r16 152r30 153r48 162r23 164r15 168r23 170r15
+160i13 k<long_integer> 161r23 162r21 163r13 164r13
+166i13 k<long_integer> 167r23 168r21 169r13 170r13
+178V12 Absolute_Value{13|6I8} 178b12 178>29 188l7 188t21 220s20 223s18 224s20
+178i29 i{13|6I8} 184r8 185r19 186r18
+190V12 Absolute_Value{13|7I8} 190b12 190>29 200l7 200t21 252s20 255s18 256s20
+190i29 i{13|7I8} 196r8 197r19 198r18
+202U13 Find_Pivots 202b13 203>17 204=17 204=24 232l7 232t18 477s9
+203a17 A{3|16A8[12|5]} 216r22 217r24 218r13 220r35 223r33 224r35
+204i17 pivrow{13|6I8} 210r24 216r14 230m5
+204i24 pivcol{13|6I8} 211r24 217r16 231m5
+210i5 row{13|6I8} 221m13 225m13 230r15
+211i5 col{13|6I8} 221m23 225m23 231r15
+212b5 first_time{boolean} 219r14 222m13
+213i5 min{13|6I8} 220m13 223r43 224m13
+216i9 i<long_integer> 218r15 220r37 221r20 223r35 224r37 225r20
+217i11 j<long_integer> 218r17 220r39 221r30 223r37 224r39 225r30
+234U13 Find_Pivots 234b13 235>17 236=17 236=24 264l7 264t18 502s9
+235a17 A{3|16A8[8|5]} 248r22 249r24 250r13 252r35 255r33 256r35
+236i17 pivrow{13|6I8} 242r24 248r14 262m5
+236i24 pivcol{13|6I8} 243r24 249r16 263m5
+242i5 row{13|6I8} 253m13 257m13 262r15
+243i5 col{13|6I8} 253m23 257m23 263r15
+244b5 first_time{boolean} 251r14 254m13
+245i5 min{13|7I8} 252m13 255r43 256m13
+248i9 i<long_integer> 250r15 252r37 253r20 255r35 256r37 257r20
+249i11 j<long_integer> 250r17 252r39 253r30 255r37 256r39 257r30
+266U13 Switch_Rows_and_Columns 266b13 267=17 267=19 267=21 268>17 268>24
+. 268>28 268>35 315l7 315t30 479s9
+267a17 A{3|16A8[12|5]} 292r16 293r17 294m9 294r21 295m9 304r16 305r17 306m9
+. 306r21 307m9
+267a19 U{3|16A8[12|5]} 297r16 298r17 299m9 299r21 300m9
+267a21 V{3|16A8[12|5]} 309r16 310r17 311m9 311r21 312m9
+268i17 pivrow{13|6I8} 291r8 294r23 295r11 299r23 300r11
+268i24 row{13|6I8} 291r18 293r19 294r11 298r19 299r11
+268i28 pivcol{13|6I8} 303r8 306r25 307r13 311r25 312r13
+268i35 col{13|6I8} 303r18 305r21 306r13 310r21 311r13
+288i5 temp{13|6I8} 293m9 295r24 298m9 300r24 305m9 307r24 310m9 312r24
+292i11 k<long_integer> 293r23 294r15 294r30 295r18
+297i11 k<long_integer> 298r23 299r15 299r30 300r18
+304i11 k<long_integer> 305r19 306r11 306r23 307r11
+309i11 k<long_integer> 310r19 311r11 311r23 312r11
+317U13 Switch_Rows_and_Columns 317b13 318=17 318=19 318=21 319>17 319>24
+. 319>28 319>35 366l7 366t30 504s9
+318a17 A{3|16A8[8|5]} 343r16 344r17 345m9 345r21 346m9 355r16 356r17 357m9
+. 357r21 358m9
+318a19 U{3|16A8[8|5]} 348r16 349r17 350m9 350r21 351m9
+318a21 V{3|16A8[8|5]} 360r16 361r17 362m9 362r21 363m9
+319i17 pivrow{13|6I8} 342r8 345r23 346r11 350r23 351r11
+319i24 row{13|6I8} 342r18 344r19 345r11 349r19 350r11
+319i28 pivcol{13|6I8} 354r8 357r25 358r13 362r25 363r13
+319i35 col{13|6I8} 354r18 356r21 357r13 361r21 362r13
+339i5 temp{13|7I8} 344m9 346r24 349m9 351r24 356m9 358r24 361m9 363r24
+343i11 k<long_integer> 344r23 345r15 345r30 346r18
+348i11 k<long_integer> 349r23 350r15 350r30 351r18
+355i11 k<long_integer> 356r19 357r11 357r23 358r11
+360i11 k<long_integer> 361r19 362r11 362r23 363r11
+373a5 res{3|16A8[12|5]} 376r14 377r16 379m15 380m15 384r12
+376i9 i<long_integer> 378r12 379r19 380r19
+377i11 j<long_integer> 378r16 379r21 380r21
+390a5 res{3|16A8[8|5]} 393r14 394r16 396m15 397m15 401r12
+393i9 i<long_integer> 395r12 396r19 397r19
+394i11 j<long_integer> 395r16 396r21 397r21
+406i9 i<long_integer> 408r12 409r16
+407i11 j<long_integer> 408r17 409r18
+421i9 i<long_integer> 423r12 424r16
+422i11 j<long_integer> 423r17 424r18
+436i5 res{17|7I8} 442r20 443m13 443r20 446r12
+439i9 i<long_integer> 440r17 441r12 441r14
+452i5 res{17|7I8} 458r20 459m13 459r20 462r12
+455i9 i<long_integer> 456r17 457r12 457r14
+467i5 row{13|6I8} 473m7 476r19 479r46 480r31 481r31 482m9 482r16 484r21
+468i5 col{13|6I8} 474m7 476r34 479r57 480r35 481r35 483m9 483r16 484r42
+469i5 pivrow{13|6I8} 476m9 477m23 477r23 478r22 479r39
+469i12 pivcol{13|6I8} 476m24 477m30 477r30 478r29 479r50
+492i5 row{13|6I8} 498m7 501r19 504r46 505r31 506r31 507m9 507r16 509r21
+493i5 col{13|6I8} 499m7 501r34 504r57 505r35 506r35 508m9 508r16 509r42
+494i5 pivrow{13|6I8} 501m9 502m23 502r23 503r22 504r39
+494i12 pivcol{13|6I8} 501m24 502m30 502r30 503r29 504r50
+

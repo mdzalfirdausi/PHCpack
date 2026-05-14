@@ -1,0 +1,140 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SL ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LONG_LONG_INTEGERS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_integer_numbers%b  standard_integer_numbers.adb  b332bdc5 NE OO PK
+
+U standard_integer_numbers%s  standard_integer_numbers.ads  7fe0621b EE NE OO PK
+
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers.adb  20260513024558 ccd2dfde standard_integer_numbers%b
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [create standard_integer_numbers 9 12 none]
+G c Z s b [create standard_integer_numbers 10 12 none]
+G c Z s b [equal standard_integer_numbers 12 12 none]
+G c Z s b [equal standard_integer_numbers 13 12 none]
+G c Z s b [copy standard_integer_numbers 14 13 none]
+G c Z s b [copy standard_integer_numbers 15 13 none]
+G c Z s b [add standard_integer_numbers 17 13 none]
+G c Z s b [add standard_integer_numbers 18 13 none]
+G c Z s b [sub standard_integer_numbers 19 13 none]
+G c Z s b [sub standard_integer_numbers 20 13 none]
+G c Z s b [min standard_integer_numbers 21 13 none]
+G c Z s b [min standard_integer_numbers 22 13 none]
+G c Z s b [mul standard_integer_numbers 23 13 none]
+G c Z s b [mul standard_integer_numbers 24 13 none]
+G c Z s b [rmd standard_integer_numbers 26 13 none]
+G c Z s b [rmd standard_integer_numbers 27 13 none]
+G c Z s b [rmd standard_integer_numbers 28 13 none]
+G c Z s b [rmd standard_integer_numbers 29 13 none]
+G c Z s b [div standard_integer_numbers 31 13 none]
+G c Z s b [div standard_integer_numbers 32 13 none]
+G c Z s b [div standard_integer_numbers 33 13 none]
+G c Z s b [div standard_integer_numbers 35 13 none]
+G c Z s b [div standard_integer_numbers 37 13 none]
+G c Z s b [div standard_integer_numbers 39 13 none]
+G c Z s b [clear standard_integer_numbers 42 13 none]
+G c Z s b [clear standard_integer_numbers 43 13 none]
+X 1 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45l5 45e29 2|1b14 139l5 139t29
+6I8*integer32<long_integer> 9r42 12r26 14r27 14r49 17r30 17r48 19r30 19r48
+. 21r30 23r30 23r48 26r25 26r44 28r30 28r48 31r30 31r48 33r28 34r27 34r46
+. 37r30 37r48 38r27 42r32 2|3r42 5r12 13r26 23r27 23r49 33r30 33r48 43r30
+. 43r48 53r30 63r30 63r48 73r24 73r43 83r30 83r48 93r30 93r48 103r28 103r47
+. 103r66 115r30 116r26 116r45 129r32
+7I8*integer64<long_long_integer> 10r42 13r26 15r27 15r49 18r30 18r48 20r30
+. 20r48 22r30 24r30 24r48 27r25 27r44 29r30 29r48 32r30 32r48 35r28 36r27
+. 36r46 39r30 39r48 40r27 43r32 2|8r42 10r12 18r26 28r27 28r49 38r30 38r48
+. 48r30 48r48 58r30 68r30 68r48 78r24 78r43 88r30 88r48 98r30 98r48 109r28
+. 109r47 109r66 122r30 123r26 123r45 134r32
+9V12*Create{6I8} 9>21 2|3b12 6l7 6t13
+9i21 i{integer} 2|3b21 5r22
+10V12*Create{7I8} 10>21 2|8b12 11l7 11t13
+10i21 i{integer} 2|8b21 10r22
+12V12*Equal{boolean} 12>20 12>22 2|13b12 16l7 16t12
+12i20 a{6I8} 2|13b20 15r13
+12i22 b{6I8} 2|13b22 15r17
+13V12*Equal{boolean} 13>20 13>22 2|18b12 21l7 21t12
+13i20 a{7I8} 2|18b20 20r13
+13i22 b{7I8} 2|18b22 20r17
+14U13*Copy 14>20 14=38 2|23b13 26l7 26t11
+14i20 a{6I8} 2|23b20 25r10
+14i38 b{6I8} 2|23b38 25m5
+15U13*Copy 15>20 15=38 2|28b13 31l7 31t11
+15i20 a{7I8} 2|28b20 30r10
+15i38 b{7I8} 2|28b38 30m5
+17U13*Add 17=19 17>41 2|33b13 36l7 36t10
+17i19 a{6I8} 2|33b19 35m5 35r10
+17i41 b{6I8} 2|33b41 35r12
+18U13*Add 18=19 18>41 2|38b13 41l7 41t10
+18i19 a{7I8} 2|38b19 40m5 40r10
+18i41 b{7I8} 2|38b41 40r12
+19U13*Sub 19=19 19>41 2|43b13 46l7 46t10
+19i19 a{6I8} 2|43b19 45m5 45r10
+19i41 b{6I8} 2|43b41 45r12
+20U13*Sub 20=19 20>41 2|48b13 51l7 51t10
+20i19 a{7I8} 2|48b19 50m5 50r10
+20i41 b{7I8} 2|48b41 50r12
+21U13*Min 21=19 2|53b13 56l7 56t10
+21i19 a{6I8} 2|53b19 55m5 55r11
+22U13*Min 22=19 2|58b13 61l7 61t10
+22i19 a{7I8} 2|58b19 60m5 60r11
+23U13*Mul 23=19 23>41 2|63b13 66l7 66t10
+23i19 a{6I8} 2|63b19 65m5 65r10
+23i41 b{6I8} 2|63b41 65r12
+24U13*Mul 24=19 24>41 2|68b13 71l7 71t10
+24i19 a{7I8} 2|68b19 70m5 70r10
+24i41 b{7I8} 2|68b41 70r12
+26V13*Rmd{6I8} 26>19 26>21 2|73b12 76l7 76t10
+26i19 a{6I8} 2|73b18 75r12
+26i21 b{6I8} 2|73b20 75r18
+27V13*Rmd{7I8} 27>19 27>21 2|78b12 81l7 81t10
+27i19 a{7I8} 2|78b18 80r12
+27i21 b{7I8} 2|78b20 80r18
+28U13*Rmd 28=19 28>41 2|83b13 86l7 86t10
+28i19 a{6I8} 2|83b19 85m5 85r10
+28i41 b{6I8} 2|83b41 85r16
+29U13*Rmd 29=19 29>41 2|88b13 91l7 91t10
+29i19 a{7I8} 2|88b19 90m5 90r10
+29i41 b{7I8} 2|88b41 90r16
+31U13*Div 31=19 31>41 2|93b13 96l7 96t10
+31i19 a{6I8} 2|93b19 95m5 95r10
+31i41 b{6I8} 2|93b41 95r12
+32U13*Div 32=19 32>41 2|98b13 101l7 101t10
+32i19 a{7I8} 2|98b19 100m5 100r10
+32i41 b{7I8} 2|98b41 100r12
+33U13*Div 33>19 33>21 34<19 34<38 2|103b13 107l7 107t10
+33i19 a{6I8} 2|103b19 105r10 106r10
+33i21 b{6I8} 2|103b21 105r12 106r16
+34i19 q{6I8} 2|103b39 105m5
+34i38 r{6I8} 2|103b58 106m5
+35U13*Div 35>19 35>21 36<19 36<38 2|109b13 113l7 113t10
+35i19 a{7I8} 2|109b19 111r10 112r10
+35i21 b{7I8} 2|109b21 111r12 112r16
+36i19 q{7I8} 2|109b39 111m5
+36i38 r{7I8} 2|109b58 112m5
+37U13*Div 37=19 37>41 38<19 2|115b13 120l7 120t10
+37i19 a{6I8} 2|115b19 118r10 119m5 119r10
+37i41 b{6I8} 2|116b19 118r16 119r12
+38i19 r{6I8} 2|116b37 118m5
+39U13*Div 39=19 39>41 40<19 2|122b13 127l7 127t10
+39i19 a{7I8} 2|122b19 125r10 126m5 126r10
+39i41 b{7I8} 2|123b19 125r16 126r12
+40i19 r{7I8} 2|123b37 125m5
+42U13*Clear 42=21 2|129b13 132l7 132t12
+42i21 a{6I8} 2|129b21 131m5
+43U13*Clear 43=21 2|134b13 137l7 137t12
+43i21 a{7I8} 2|134b21 136m5
+

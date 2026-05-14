@@ -1,0 +1,511 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multprec_scaling%b	multprec_scaling.adb	3ce34a23 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W multprec_complex_linear_solvers%s  multprec_complex_linear_solvers.adb  multprec_complex_linear_solvers.ali
+W multprec_complex_matrices%s  multprec_complex_matrices.ads  multprec_complex_matrices.ali
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_mathematical_functions%s  multprec_mathematical_functions.adb  multprec_mathematical_functions.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+U multprec_scaling%s	multprec_scaling.ads	8ea5d63a EE NE OO PK
+W multprec_complex_poly_systems%s  multprec_complex_poly_systems.ads  multprec_complex_poly_systems.ali
+W multprec_complex_polynomials%s  multprec_complex_polynomials.ads  multprec_complex_polynomials.ali
+W multprec_complex_solutions%s  multprec_complex_solutions.adb  multprec_complex_solutions.ali
+W multprec_complex_vectors%s  multprec_complex_vectors.ads  multprec_complex_vectors.ali
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_linear_solvers.ads  20260513024558 171f5578 multprec_complex_linear_solvers%s
+D multprec_complex_matrices.ads  20260513024558 ed92d39d multprec_complex_matrices%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_poly_systems.ads  20260513024558 ff1af8f0 multprec_complex_poly_systems%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_complex_vecvecs.ads  20260513024558 b42f0858 multprec_complex_vecvecs%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_mathematical_functions.ads  20260513024558 8d7fddd2 multprec_mathematical_functions%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D multprec_scaling.ads	20260513024558 c16d51c6 multprec_scaling%s
+D multprec_scaling.adb	20260513024558 9c701869 multprec_scaling%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [scale multprec_scaling 14 13 none]
+G c Z s b [scale multprec_scaling 15 13 none]
+G c Z s b [scale multprec_scaling 21 13 none]
+G c Z s b [scale multprec_scaling 46 13 none]
+G c Z s b [scale multprec_scaling 48 13 none]
+G c Z b b [create multprec_scaling 45 12 none]
+G c Z b b [center_coefficients multprec_scaling 53 12 none]
+G c Z b b [reduce_variability multprec_scaling 121 12 none]
+G c Z b b [init_linear_system multprec_scaling 201 13 none]
+G c Z b b [make_linear_system multprec_scaling 216 13 none]
+G r c none [scale multprec_scaling 14 13 none] [create multprec_floating_numbers 20 12 none]
+G r s complex_number [scale multprec_scaling 14 13 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r i none [scale multprec_scaling 14 13 none] [visiting_iterator multprec_complex_polynomials 124 13 4_1]
+G r s term [scale multprec_scaling 14 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [scale multprec_scaling 14 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [scale multprec_scaling 14 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [scale multprec_scaling 14 13 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [scale multprec_scaling 14 13 none] [add multprec_floating_numbers 196 13 none]
+G r c none [scale multprec_scaling 14 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [scale multprec_scaling 14 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [scale multprec_scaling 14 13 none] [create multprec_complex_numbers 23 12 5_1]
+G r c none [scale multprec_scaling 14 13 none] [div multprec_complex_numbers 72 13 5_1]
+G r c none [scale multprec_scaling 14 13 none] [mul multprec_complex_polynomials 107 13 4_1]
+G r c none [scale multprec_scaling 14 13 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [scale multprec_scaling 15 13 none] [create multprec_floating_numbers 20 12 none]
+G r s complex_number [scale multprec_scaling 15 13 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r i none [scale multprec_scaling 15 13 none] [visiting_iterator multprec_complex_polynomials 124 13 4_1]
+G r s term [scale multprec_scaling 15 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [scale multprec_scaling 15 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [scale multprec_scaling 15 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [scale multprec_scaling 15 13 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [scale multprec_scaling 15 13 none] [add multprec_floating_numbers 196 13 none]
+G r c none [scale multprec_scaling 15 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [scale multprec_scaling 15 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [scale multprec_scaling 15 13 none] [create multprec_complex_numbers 23 12 5_1]
+G r c none [scale multprec_scaling 15 13 none] [div multprec_complex_numbers 72 13 5_1]
+G r c none [scale multprec_scaling 15 13 none] [mul multprec_complex_polynomials 107 13 4_1]
+G r c none [scale multprec_scaling 15 13 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [scale multprec_scaling 21 13 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s matrix [scale multprec_scaling 21 13 none] [matrixIP multprec_complex_matrices 16 8 5_1]
+G r s vector [scale multprec_scaling 21 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s term [scale multprec_scaling 21 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r i none [scale multprec_scaling 21 13 none] [visiting_iterator multprec_complex_polynomials 124 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [create multprec_floating_numbers 24 12 none]
+G r c none [scale multprec_scaling 21 13 none] [create multprec_complex_numbers 26 12 5_1]
+G r c none [scale multprec_scaling 21 13 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [scale multprec_scaling 21 13 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [scale multprec_scaling 21 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [scale multprec_scaling 21 13 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [add multprec_complex_polynomials 102 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [scale multprec_scaling 21 13 none] [log10 multprec_mathematical_functions 43 12 none]
+G r c none [scale multprec_scaling 21 13 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [add multprec_complex_polynomials 103 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [scale multprec_scaling 21 13 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [scale multprec_scaling 21 13 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r c none [scale multprec_scaling 21 13 none] [diff multprec_complex_polynomials 113 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [Osubtract multprec_complex_numbers 61 12 5_1]
+G r c none [scale multprec_scaling 21 13 none] [lufco multprec_complex_linear_solvers 114 13 none]
+G r c none [scale multprec_scaling 21 13 none] [lusolve multprec_complex_linear_solvers 155 13 none]
+G r i none [scale multprec_scaling 21 13 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [create multprec_floating_numbers 20 12 none]
+G r c none [scale multprec_scaling 21 13 none] [real_part multprec_complex_numbers 32 12 5_1]
+G r c none [scale multprec_scaling 21 13 none] [Omultiply multprec_floating_numbers 174 12 none]
+G r c none [scale multprec_scaling 21 13 none] [Oadd multprec_floating_numbers 161 12 none]
+G r c none [scale multprec_scaling 21 13 none] [Oexpon multprec_mathematical_functions 30 12 none]
+G r c none [scale multprec_scaling 21 13 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [scale multprec_scaling 21 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [scale multprec_scaling 21 13 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [scale multprec_scaling 21 13 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [scale multprec_scaling 21 13 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [scale multprec_scaling 21 13 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [scale multprec_scaling 46 13 none] [create multprec_floating_numbers 21 12 none]
+G r s floating_number [scale multprec_scaling 46 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [scale multprec_scaling 46 13 none] [real_part multprec_complex_numbers 32 12 5_1]
+G r c none [scale multprec_scaling 46 13 none] [Oexpon multprec_mathematical_functions 29 12 none]
+G r c none [scale multprec_scaling 46 13 none] [mul multprec_complex_numbers 71 13 5_1]
+G r c none [scale multprec_scaling 46 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [scale multprec_scaling 48 13 none] [is_null multprec_complex_solutions__list_of_solutions 72 12 28_3]
+G r c none [scale multprec_scaling 48 13 none] [head_of multprec_complex_solutions__list_of_solutions 77 12 28_3]
+G r s solution [scale multprec_scaling 48 13 none] [solutionIP multprec_complex_solutions 17 8 none]
+G r c none [scale multprec_scaling 48 13 none] [create multprec_floating_numbers 21 12 none]
+G r s floating_number [scale multprec_scaling 48 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [scale multprec_scaling 48 13 none] [real_part multprec_complex_numbers 32 12 5_1]
+G r c none [scale multprec_scaling 48 13 none] [Oexpon multprec_mathematical_functions 29 12 none]
+G r c none [scale multprec_scaling 48 13 none] [mul multprec_complex_numbers 71 13 5_1]
+G r c none [scale multprec_scaling 48 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [scale multprec_scaling 48 13 none] [clear multprec_complex_solutions 214 13 none]
+G r c none [scale multprec_scaling 48 13 none] [set_head multprec_complex_solutions__list_of_solutions 31 13 28_3]
+G r c none [scale multprec_scaling 48 13 none] [tail_of multprec_complex_solutions__list_of_solutions 84 12 28_3]
+G r c none [create multprec_scaling 45 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [create multprec_scaling 45 12 none] [create multprec_complex_numbers 26 12 5_1]
+G r s term [center_coefficients multprec_scaling 53 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r i none [center_coefficients multprec_scaling 53 12 none] [visiting_iterator multprec_complex_polynomials 124 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [center_coefficients multprec_scaling 53 12 none] [create multprec_complex_numbers 26 12 5_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [add multprec_complex_polynomials 102 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [log10 multprec_mathematical_functions 43 12 none]
+G r c none [center_coefficients multprec_scaling 53 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [add multprec_complex_polynomials 103 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r c none [center_coefficients multprec_scaling 53 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [reduce_variability multprec_scaling 121 12 none] [visiting_iterator multprec_complex_polynomials 124 13 4_1]
+G r s term [reduce_variability multprec_scaling 121 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [reduce_variability multprec_scaling 121 12 none] [create multprec_complex_numbers 26 12 5_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [add multprec_complex_polynomials 102 13 4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [reduce_variability multprec_scaling 121 12 none] [log10 multprec_mathematical_functions 43 12 none]
+G r c none [reduce_variability multprec_scaling 121 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [add multprec_complex_polynomials 103 13 4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r c none [reduce_variability multprec_scaling 121 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [init_linear_system multprec_scaling 201 13 none] [create multprec_floating_numbers 24 12 none]
+G r c none [init_linear_system multprec_scaling 201 13 none] [create multprec_complex_numbers 26 12 5_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [create multprec_floating_numbers 24 12 none]
+G r c none [make_linear_system multprec_scaling 216 13 none] [create multprec_complex_numbers 26 12 5_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [diff multprec_complex_polynomials 113 13 4_1]
+G r i none [make_linear_system multprec_scaling 216 13 none] [visiting_iterator multprec_complex_polynomials 124 13 4_1]
+G r s term [make_linear_system multprec_scaling 216 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [Osubtract multprec_complex_numbers 61 12 5_1]
+G r c none [make_linear_system multprec_scaling 216 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+X 14 generic_complex_numbers.ads
+19R8*Complex_Number 43|16r14[27|5] 45r47[27|5]
+23V12*Create{19R8[27|5]} 43|32s15[27|5]
+26V12*Create{19R8[27|5]} 43|50s12[27|5] 92s18[27|5] 162s18[27|5] 276s26[27|5]
+32V12*REAL_PART{35|16R8} 43|272s18[27|5] 274s48[27|5] 316s14[27|5]
+35V12*AbsVal{35|16R8} 43|20s35[27|5] 92s31[27|5] 162s31[27|5] 162s44[27|5]
+61V13*"-"{19R8[27|5]} 43|231s21[27|5]
+62V13*"*"{19R8[27|5]} 43|276s24[27|5]
+71U13*Mul 43|318s7[27|5]
+72U13*Div 43|33s5[27|5]
+82U13*Clear 43|35s5[27|5]
+X 15 generic_lists.ads
+12P8*List
+31U13*Set_Head 43|340s11[32|28]
+72V12*Is_Null{boolean} 43|327s12[32|28] 334s19[32|28]
+77V12*Head_Of{32|26P8} 43|330s26[32|28] 335s16[32|28]
+84V12*Tail_Of{12P8[32|28]} 43|341s19[32|28]
+X 16 generic_matrices.ads
+16A8*Matrix(14|19R8[27|5])<49|6I8><49|6I8> 43|201r42[26|5] 216r57[26|5] 255r11[26|5]
+. 259r36[26|5]
+X 17 generic_polynomial_systems.ads
+22A8*Poly_Sys(18|28P8[29|4])<49|6I8> 42|15r32[28|5] 21r32[28|5] 43|38r32[28|5]
+. 54r20[28|5] 122r20[28|5] 247r32[28|5] 258r34[28|5]
+X 18 generic_polynomials.ads
+21P8*Degrees<20|17P8[54|4]>
+23R8*Term 43|18r35[29|4] 73r16[29|4] 75r36[29|4] 77r14[29|4] 138r43[29|4]
+. 142r38[29|4] 144r14[29|4] 179r36[29|4] 223r36[29|4] 267r43[29|4]
+24r5*cf{14|19R8[27|5]} 43|20r44[29|4] 85m16[29|4] 92m12[29|4] 92r40[29|4]
+. 103m14[29|4] 155m18[29|4] 162m12[29|4] 162r40[29|4] 162r54[29|4] 228r31[29|4]
+. 231r24[29|4] 276m13[29|4] 276r21[29|4]
+25p5*dg{21P8[29|4]} 43|83r20[29|4] 84r16[29|4] 85r44[29|4] 86m16[29|4] 87r16[29|4]
+. 93m12[29|4] 104m14[29|4] 105r14[29|4] 151r23[29|4] 152r18[29|4] 152r30[29|4]
+. 153m18[29|4] 154r18[29|4] 155r46[29|4] 155r55[29|4] 161m12[29|4] 226r20[29|4]
+. 227r16[29|4] 273r22[29|4] 274r41[29|4]
+28P8*Poly 42|14r32[29|4] 43|12r32[29|4] 55r21[29|4] 68r14[29|4] 70r29[29|4]
+. 72r14[29|4] 78r16[29|4] 123r21[29|4] 136r14[29|4] 138r30[29|4] 145r16[29|4]
+. 175r30[29|4] 216r41[29|4] 219r11[29|4] 221r29[29|4] 251r20[29|4] 264r36[29|4]
+30p3*Null_Poly{28P8[29|4]} 43|112r11[29|4] 145r24[29|4] 192r11[29|4]
+38V12*Create{28P8[29|4]} 43|106s15[29|4]
+41U13*Copy 43|81s9[29|4] 300s7[29|4]
+48V12*Number_of_Unknowns{52|7I8} 43|241s27[29|4] 253s41[29|4]
+89V13*"+"{28P8[29|4]} 43|297s20[29|4]
+102U13*Add 43|88s13[29|4] 94s9[29|4] 156s15[29|4] 163s9[29|4]
+103U13*Add 43|97s9[29|4] 115s7[29|4] 166s9[29|4] 195s7[29|4]
+107U13*Mul 43|34s5[29|4]
+109U13*Mul 43|96s9[29|4] 165s9[29|4]
+113V13*Diff{28P8[29|4]} 43|242s43[29|4]
+121u13*Changing_Iterator 43|279r38[29|4]
+124u13*Visiting_Iterator 43|28r34[29|4] 100r35[29|4] 169r36[29|4] 185r35[29|4]
+. 233r35[29|4]
+129U13*Clear 43|89s13[29|4] 95s9[29|4] 107s7[29|4] 157s15[29|4] 164s9[29|4]
+130U13*Clear 43|98s9[29|4] 116s7[29|4] 167s9[29|4] 196s7[29|4] 298s7[29|4]
+. 298s18[29|4] 300s24[29|4] 303s5[29|4]
+X 20 generic_vectors.ads
+16A8*Vector(14|19R8[27|5])<49|6I8> 42|23r33[33|4] 46r54[33|4] 48r54[33|4]
+. 43|86r51[54|4] 93r47[54|4] 104r49[54|4] 153r53[54|4] 161r47[54|4] 201r58[33|4]
+. 217r46[33|4] 249r33[33|4] 256r13[33|4] 259r59[33|4] 262r39[51|4] 265r43[33|4]
+. 308r54[33|4] 324r54[33|4]
+17P8*Link_to_Vector(16A8[54|4])
+X 25 multprec_complex_linear_solvers.ads
+11K9*Multprec_Complex_Linear_Solvers 221e36 43|8w6 8r46
+114U13*lufco 43|286s7
+155U13*lusolve 43|287s7
+X 26 multprec_complex_matrices.ads
+5K9*Multprec_Complex_Matrices[16|9] 43|7w6 7r46
+X 27 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[14|11] 43|3w6 3r46
+X 28 multprec_complex_poly_systems.ads
+5K9*Multprec_Complex_Poly_Systems[17|12] 42|5w6 5r46
+X 29 multprec_complex_polynomials.ads
+4K9*Multprec_Complex_Polynomials[18|11] 42|4w6 4r46 43|242r14
+X 32 multprec_complex_solutions.ads
+9K9*Multprec_Complex_Solutions 230e31 42|6w6 6r46
+17R8*Solution 24e13 42|47r32 43|309r32 331r13 339r20
+17i19*n{49|6I8} 43|330r40
+20a5*v{20|16A8[33|4]} 43|315r16 318m13
+26P8*Link_to_Solution(17R8) 43|332r13
+29P8*Solution_List<15|12P8[28]> 42|49r35 43|325r35 329r16
+214U13*Clear 43|338s11
+X 33 multprec_complex_vectors.ads
+4K9*Multprec_Complex_Vectors[20|8] 42|3w6 3r46
+X 35 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 221e30 42|2w6 2r46 43|319r7 320r7
+16R8*Floating_Number 219e13 42|22r51 43|14r11 20r16 47r18 248r51 260r34 269r17
+. 311r16 312r15
+20V12*Create{16R8} 43|14s30 269s36
+21V12*Create{16R8} 43|311s35
+24V12*Create{16R8} 43|47s37
+161V13*"+"{16R8} 43|274s24
+174V13*"*"{16R8} 43|274s47
+191V13*"/"{16R8} 43|162s43
+196U13*Add 43|23s7
+210U13*Clear 43|24s7 35s20 319s33 320s33
+X 39 multprec_mathematical_functions.ads
+4K9*Multprec_Mathematical_Functions 72e36 43|4w6 4r46
+29V13*"**"{35|16R8} 43|317s22
+30V13*"**"{35|16R8} 43|276s51
+43V12*LOG10{35|16R8} 43|92s25 162s25
+X 42 multprec_scaling.ads
+8K9*Multprec_Scaling 55l5 55e21 43|10b14 347l5 347t21
+14U13*Scale 14=21 43|12b13 36l7 36t12 41s7
+14p21 p{18|28P8[29|4]} 43|12b21 31r17 34m9
+15U13*Scale 15=21 43|38b13 43l7 43t12
+15a21 s{17|22A8[28|5]} 43|38b21 40r14 41m13 41r13
+21U13*Scale 21=21 21>42 22>21 22<40 23<21 43|247b13 306l7 306t12
+21a21 s{17|22A8[28|5]} 43|247b21 252r31 253r60 253r62 294r31 296r32 304m11
+21i42 bas{52|7I8} 43|247b42 294r41 296r42 304r13
+22b21 diff{boolean} 43|248b21 295r8
+22r40 cond{35|16R8} 43|248b40 304m27
+23a21 sccff{20|16A8[33|4]} 43|249b21 305m5
+46U13*Scale 46>21 46>43 47=21 43|308b13 322l7 322t12 337s11
+46i21 basis{52|7I8} 43|308b21 311r42
+46a43 sccff{20|16A8[33|4]} 43|308b43 316r24
+47r21 s{32|17R8} 43|309b21 315r14 318m11 318r11
+48U13*Scale 48>21 48>43 49=21 43|324b13 345l7 345t12
+48i21 basis{52|7I8} 43|324b21 337r17
+48a43 sccff{20|16A8[33|4]} 43|324b43 337r23
+49p21 sols{32|29P8} 43|325b21 327r20 329r33 330r34
+X 43 multprec_scaling.adb
+14r5 sum{35|16R8} 23m11 23r11 33r16 35m26 35r26
+15i5 number{52|7I8} 25m7 25r17 32r22
+16r5 factor{14|19R8[27|5]} 32m5 33m9 33r9 34r11 35m11 35r11
+18U15 Add_To_Sum 18b15 18>28 18<41 27l9 27t19 28r52
+18r28 t{18|23R8[29|4]} 20r42
+18b41 continue{boolean} 26m7
+20r7 abstmp{35|16R8} 23r15 24m13 24r13
+28U15 Compute_Sum[18|124] 31s5
+40i9 i<long_integer> 41r15
+45V12 Create{14|19R8[27|5]} 45b12 45>21 51l7 51t13 85s22 103s20 155s24 209s15
+. 211s19
+45f21 x{48|13F8} 47r44
+47r5 f{35|16R8} 50r19
+53V12 Center_Coefficients{18|28P8[29|4]} 53b12 54>16 54>30 54>32 54>34 54>51
+. 119l7 119t26 294s11
+54a16 s{17|22A8[28|5]} 113r14 114r12
+54i30 n{49|6I8}
+54i32 m{49|6I8} 105r17
+54i34 npm{49|6I8} 86r62 93r58 104r60
+54i51 bas{52|7I8}
+68p5 r1{18|28P8[29|4]} 112m5 115m11 115r11 118r12
+68p8 r1i{18|28P8[29|4]} 97m13 97r13 115r14 116m13 116r13
+70U15 Scan 70b15 70>22 70>35 109l9 109t13 114s7
+70p22 p{18|28P8[29|4]} 108r18
+70i35 i{49|6I8} 105r19
+72p7 init{18|28P8[29|4]} 81r14 106m7
+73r7 t_init{18|23R8[29|4]} 103m7 104m7 105m7 105r7 106r22 107m13 107r13
+75U17 Scan_Term 75b17 75>29 75<42 99l11 99t20 100r53
+75r29 t{18|23R8[29|4]} 83r18 84r14 85r42 92r38
+75b42 continue{boolean} 82m9
+77r9 tt{18|23R8[29|4]} 85m13 86m13 87m13 87r13 88r22 89m19 89r19 92m9 93m9
+. 94r18 95m15 95r15
+78p9 temp{18|28P8[29|4]} 81m19 81r19 88m17 88r17 94m13 94r13 96m13 96r13
+. 96r18 97r17 98m15 98r15
+83i13 k<long_integer> 84r19 85r47 87r19
+100U17 Scan_Terms[18|124] 108s7
+113i9 i<long_integer> 114r14 114r17
+121V12 Reduce_Variability{18|28P8[29|4]} 121b12 122>16 122>30 122>32 122>34
+. 122>51 199l7 199t25 296s13
+122a16 s{17|22A8[28|5]} 193r14 194r13
+122i30 n{49|6I8}
+122i32 m{49|6I8}
+122i34 npm{49|6I8} 153r64 161r58
+122i51 bas{52|7I8}
+136p5 r2{18|28P8[29|4]} 192m5 195m11 195r11 198r12
+136p8 r2i{18|28P8[29|4]} 166m13 166r13 195r14 196m13 196r13
+138U15 Scan2 138b15 138>23 138>36 138>49 173l9 173t14 183s9
+138p23 p{18|28P8[29|4]} 172r19
+138r36 t{18|23R8[29|4]} 152r16 155r44 162r38
+138i49 nr{52|7I8} 150r20
+140i7 count{52|7I8} 149m9 149r18 150r12
+142U17 Scan2_Term 142b17 142>30 142<44 168l11 168t21 169r54
+142r30 t2{18|23R8[29|4]} 151r20 152r27 155r52 162r51
+142b44 continue{boolean} 148m9
+144r9 tt{18|23R8[29|4]} 153m15 154m15 154r15 155m15 156r24 157m21 157r21
+. 161m9 162m9 163r18 164m15 164r15
+145p9 temp{18|28P8[29|4]} 156m19 156r19 163m13 163r13 165m13 165r13 165r18
+. 166r17 167m15 167r15
+151i15 i<long_integer> 152r21 152r33 154r21 155r49 155r58
+169U17 Scan2_Terms[18|124] 172s7
+175U15 Scan1 175b15 175>23 189l9 189t14 194s7
+175p23 p{18|28P8[29|4]} 183r15 188r18
+177i7 nr{52|7I8} 181m9 181r15 183r19
+179U17 Scan_Term 179b17 179>29 179<42 184l11 184t20 185r53
+179r29 t{18|23R8[29|4]} 183r17
+179b42 continue{boolean} 182m9
+185U17 Scan_Terms[18|124] 188s7
+193i9 i<long_integer> 194r15
+201U13 Init_Linear_System 201b13 201<34 201<50 214l7 214t25 240s5
+201a34 m{16|16A8[26|5]} 208r14 210r16 211m9
+201a50 r{20|16A8[33|4]} 209m7
+208i9 i<long_integer> 209r9 211r11
+210i11 j<long_integer> 211r13
+216U13 Make_Linear_System 216b13 216>34 216<47 217<34 245l7 245t25 302s5
+216p34 r{18|28P8[29|4]} 241r46 242r48
+216a47 mat{16|16A8[26|5]} 228m17 240m24
+217a34 right{20|16A8[33|4]} 231m9 240m28
+219p5 drj{18|28P8[29|4]} 242m7 243r12
+221U15 Scan 221b15 221>22 221>35 237l9 237t13 243s7
+221p22 p{18|28P8[29|4]} 236r18
+221i35 j{49|6I8} 228r21 231r15
+223U17 Scan_Term 223b17 223>29 223<42 232l11 232t20 233r53
+223r29 t{18|23R8[29|4]} 226r18 227r14 228r29 231r22
+223b42 continue{boolean} 225m9
+226i13 i<long_integer> 227r19 228r23
+233U17 Scan_Terms[18|124] 236s7
+241i9 j<long_integer> 242r50 243r16
+251p5 r1{18|28P8[29|4]} 294m5 297r17 298m13 298r13 300r12 300m30 300r30
+251p8 r2{18|28P8[29|4]} 296m7 297r22 298m24 298r24
+251p11 target{18|28P8[29|4]} 297m7 300m15 300r15 302r24 303m11 303r11
+252i5 n{49|6I8} 254r33 294r33 296r34
+253i5 m{49|6I8} 254r35 272r41 294r35 296r36
+254i5 npm{49|6I8} 255r21 255r28 256r23 286r17 287r19 294r37 296r38
+255a5 mat{16|16A8[26|5]} 302m31 304m17 304r17
+256a5 right{20|16A8[33|4]} 302m35 304m21 304r21 305r14
+258U15 Scale 258b15 258=23 258>44 259=23 259=44 260<23 291l9 291t14 304s5
+258a23 s{17|22A8[28|5]} 288r16 289m15 289r15
+258i44 bas{52|7I8} 289r28
+259a23 mat{16|16A8[26|5]} 262r46 286m13 287r15
+259a44 right{20|16A8[33|4]} 287m28 289r22
+260r23 cond{35|16R8} 286m26
+262a7 ipvt{20|16A8[51|4]} 286m21 287r23
+264U17 Scale 264b17 264=25 264>42 265>25 265>51 283l11 283t16 289s9
+264p25 p{18|28P8[29|4]} 282m21
+264i42 ip{49|6I8} 272r43
+265a25 scalingcoeff{20|16A8[33|4]} 272r28 274r58
+265i51 bas{52|7I8} 276r46
+267U19 Scale_Term 267b19 267=32 267<49 278l13 278t23 279r56
+267r32 t{18|23R8[29|4]} 273r20 274r39 276m11 276r19
+267b49 continue{boolean} 277m11
+269r11 exp{35|16R8} 272m11 274m13 274r20 276r54
+273i15 k<long_integer> 274r44 274r71
+279U19 Scale_Terms[18|121] 282s9
+288i11 i<long_integer> 289r17 289r20
+311r5 mp_basis{35|16R8} 317r14
+312r5 rep{35|16R8} 316m7 317r24 319m39 319r39
+312r9 pwr{35|16R8} 317m7 318r18 320m39 320r39
+315i9 i<long_integer> 316r30 318r15
+329p9 temp{32|29P8} 334r27 335r24 340m20 340r20 341m11 341r27
+330i9 n{49|6I8} 331r22
+331r9 s{32|17R8} 336m11 337m29 337r29 339r30
+332p9 l{32|26P8} 335m11 336r16 338m17 338r17 339m11 340r25
+X 48 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 43|2w6 2r46 48|58e30
+13F8*double_float<long_float> 43|45r25 85r29 155r31 274r26 276r33
+X 49 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 43|1w6 1r46 49|45e29
+6I8*integer32<long_integer> 43|54r40 70r42 122r40 221r42 241r17 252r18 253r18
+. 253r31 254r20 264r50 330r13
+X 51 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[20|8] 43|6w6 262r14
+X 52 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 42|1w6 1r46 52|30e29
+7I8*natural32<long_integer> 42|21r51 46r32 48r32 43|15r14 54r57 122r57 138r57
+. 140r15 177r12 247r51 258r53 265r60 308r32 324r32
+X 54 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[20|8] 43|5w6 86r26 93r22 104r24 153r28 161r22
+

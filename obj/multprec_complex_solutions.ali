@@ -1,0 +1,580 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U multprec_complex_solutions%b  multprec_complex_solutions.adb  92bdb1d7 NE OO PK
+Z generic_lists%s	generic_lists.adb	generic_lists.ali  ED
+W multprec_complex_norms_equals%s  multprec_complex_norms_equals.adb  multprec_complex_norms_equals.ali
+W multprec_complex_number_tools%s  multprec_complex_number_tools.adb  multprec_complex_number_tools.ali
+W multprec_complex_vector_tools%s  multprec_complex_vector_tools.adb  multprec_complex_vector_tools.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U multprec_complex_solutions%s  multprec_complex_solutions.ads  15b56dd0 BN EE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_complex_vectors%s  multprec_complex_vectors.ads  multprec_complex_vectors.ali
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_norms_equals.ads  20260513024558 263b690a multprec_complex_norms_equals%s
+D multprec_complex_number_tools.ads  20260513024558 dea669ab multprec_complex_number_tools%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_solutions.adb  20260513024558 9b782dda multprec_complex_solutions%b
+D multprec_complex_vector_tools.ads  20260513024558 17145d41 multprec_complex_vector_tools%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_complex_vecvecs.ads  20260513024558 b42f0858 multprec_complex_vecvecs%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s multprec_complex_solutions 9 1 none]
+G c Z s s [create multprec_complex_solutions__list_of_solutions 21 12 28_3]
+G c Z s s [construct multprec_complex_solutions__list_of_solutions 26 13 28_3]
+G c Z s s [set_head multprec_complex_solutions__list_of_solutions 31 13 28_3]
+G c Z s s [swap_tail multprec_complex_solutions__list_of_solutions 38 13 28_3]
+G c Z s s [append multprec_complex_solutions__list_of_solutions 43 13 28_3]
+G c Z s s [concat multprec_complex_solutions__list_of_solutions 49 13 28_3]
+G c Z s s [copy multprec_complex_solutions__list_of_solutions 55 13 28_3]
+G c Z s s [is_equal multprec_complex_solutions__list_of_solutions 62 12 28_3]
+G c Z s s [length_of multprec_complex_solutions__list_of_solutions 67 12 28_3]
+G c Z s s [is_null multprec_complex_solutions__list_of_solutions 72 12 28_3]
+G c Z s s [head_of multprec_complex_solutions__list_of_solutions 77 12 28_3]
+G c Z s s [tail_of multprec_complex_solutions__list_of_solutions 84 12 28_3]
+G c Z s s [clear multprec_complex_solutions__list_of_solutions 93 13 28_3]
+G c Z s s [nodeIP multprec_complex_solutions__list_of_solutions 5 8 28_3]
+G c Z s s [set_next multprec_complex_solutions__list_of_solutions 14 13 28_3]
+G c Z s s [next_of multprec_complex_solutions__list_of_solutions 19 12 28_3]
+G c Z s s [free multprec_complex_solutions__list_of_solutions 24 13 28_3]
+G c Z s s [new_item multprec_complex_solutions__list_of_solutions 37 12 28_3]
+G c Z s b [create multprec_complex_solutions 39 12 none]
+G c Z s b [create multprec_complex_solutions 40 12 none]
+G c Z s b [create multprec_complex_solutions 45 12 none]
+G c Z s b [create multprec_complex_solutions 52 12 none]
+G c Z s b [equal multprec_complex_solutions 61 12 none]
+G c Z s b [equal multprec_complex_solutions 67 12 none]
+G c Z s b [equal multprec_complex_solutions 69 12 none]
+G c Z s b [equals multprec_complex_solutions 76 13 none]
+G c Z s b [equals multprec_complex_solutions 81 13 none]
+G c Z s b [copy multprec_complex_solutions 96 13 none]
+G c Z s b [copy multprec_complex_solutions 101 13 none]
+G c Z s b [copy multprec_complex_solutions 102 13 none]
+G c Z s b [number multprec_complex_solutions 109 12 none]
+G c Z s b [is_in multprec_complex_solutions 115 12 none]
+G c Z s b [is_in multprec_complex_solutions 117 12 none]
+G c Z s b [retrieve multprec_complex_solutions 123 12 none]
+G c Z s b [append multprec_complex_solutions 132 13 none]
+G c Z s b [append multprec_complex_solutions 139 13 none]
+G c Z s b [add multprec_complex_solutions 145 13 none]
+G c Z s b [add multprec_complex_solutions 150 13 none]
+G c Z s b [set_size multprec_complex_solutions 158 13 none]
+G c Z s b [set_size multprec_complex_solutions 159 13 none]
+G c Z s b [set_size multprec_complex_solutions 160 13 none]
+G c Z s b [change multprec_complex_solutions 165 13 none]
+G c Z s b [set_continuation_parameter multprec_complex_solutions 175 13 none]
+G c Z s b [change_multiplicity multprec_complex_solutions 181 13 none]
+G c Z s b [remove multprec_complex_solutions 191 13 none]
+G c Z s b [remove_all multprec_complex_solutions 205 13 none]
+G c Z s b [clear multprec_complex_solutions 212 13 none]
+G c Z s b [clear multprec_complex_solutions 213 13 none]
+G c Z s b [clear multprec_complex_solutions 214 13 none]
+G c Z s b [shallow_clear multprec_complex_solutions 215 13 none]
+G c Z s b [deep_clear multprec_complex_solutions 216 16 none]
+G c Z s b [clear multprec_complex_solutions 224 13 none]
+G c Z s b [clear multprec_complex_solutions 225 13 none]
+G c Z s s [solutionIP multprec_complex_solutions 17 8 none]
+G c Z s s [solution_arrayIP multprec_complex_solutions 31 8 none]
+G c Z s s [array_of_solution_listsIP multprec_complex_solutions 33 8 none]
+G r i none [s multprec_complex_solutions 9 1 none] [generic_lists standard 7 9 none]
+G r s complex_number [create multprec_complex_solutions 45 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s vector [create multprec_complex_solutions 45 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s floating_number [create multprec_complex_solutions 45 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [create multprec_complex_solutions 45 12 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [create multprec_complex_solutions 45 12 none] [create multprec_complex_vector_tools 12 12 none]
+G r c none [create multprec_complex_solutions 45 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [create multprec_complex_solutions 52 12 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [create multprec_complex_solutions 52 12 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r s complex_number [create multprec_complex_solutions 52 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s vector [create multprec_complex_solutions 52 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s floating_number [create multprec_complex_solutions 52 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [create multprec_complex_solutions 52 12 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [create multprec_complex_solutions 52 12 none] [create multprec_complex_vector_tools 12 12 none]
+G r c none [create multprec_complex_solutions 52 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [create multprec_complex_solutions 52 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [create multprec_complex_solutions 52 12 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [create multprec_complex_solutions 52 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [create multprec_complex_solutions 52 12 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [equal multprec_complex_solutions 61 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [equal multprec_complex_solutions 61 12 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [equal multprec_complex_solutions 67 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [equal multprec_complex_solutions 67 12 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [equal multprec_complex_solutions 69 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [equal multprec_complex_solutions 69 12 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [equals multprec_complex_solutions 76 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [equals multprec_complex_solutions 76 13 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [equals multprec_complex_solutions 81 13 none] [Osubtract multprec_complex_numbers 60 12 5_1]
+G r c none [equals multprec_complex_solutions 81 13 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [equals multprec_complex_solutions 81 13 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [copy multprec_complex_solutions 96 13 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [copy multprec_complex_solutions 96 13 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [copy multprec_complex_solutions 96 13 none] [copy multprec_floating_numbers 121 13 none]
+G r s complex_number [copy multprec_complex_solutions 101 13 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s vector [copy multprec_complex_solutions 101 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s floating_number [copy multprec_complex_solutions 101 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [copy multprec_complex_solutions 101 13 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [copy multprec_complex_solutions 101 13 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [copy multprec_complex_solutions 101 13 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [copy multprec_complex_solutions 102 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [copy multprec_complex_solutions 102 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [is_in multprec_complex_solutions 115 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [is_in multprec_complex_solutions 115 12 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [is_in multprec_complex_solutions 117 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [is_in multprec_complex_solutions 117 12 none] [equal multprec_complex_norms_equals 32 12 none]
+G r s complex_number [append multprec_complex_solutions 139 13 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s vector [append multprec_complex_solutions 139 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s floating_number [append multprec_complex_solutions 139 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [append multprec_complex_solutions 139 13 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [append multprec_complex_solutions 139 13 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [append multprec_complex_solutions 139 13 none] [copy multprec_floating_numbers 121 13 none]
+G r s complex_number [add multprec_complex_solutions 150 13 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s vector [add multprec_complex_solutions 150 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s floating_number [add multprec_complex_solutions 150 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [add multprec_complex_solutions 150 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [add multprec_complex_solutions 150 13 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [add multprec_complex_solutions 150 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [add multprec_complex_solutions 150 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [set_size multprec_complex_solutions 158 13 none] [set_size multprec_complex_vector_tools 24 13 none]
+G r c none [set_size multprec_complex_solutions 158 13 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [set_size multprec_complex_solutions 159 13 none] [set_size multprec_complex_vector_tools 24 13 none]
+G r c none [set_size multprec_complex_solutions 159 13 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [set_size multprec_complex_solutions 160 13 none] [set_size multprec_complex_vector_tools 24 13 none]
+G r c none [set_size multprec_complex_solutions 160 13 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [change multprec_complex_solutions 165 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [change multprec_complex_solutions 165 13 none] [equal multprec_complex_norms_equals 32 12 none]
+G r c none [set_continuation_parameter multprec_complex_solutions 175 13 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [remove multprec_complex_solutions 191 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [remove multprec_complex_solutions 191 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [remove_all multprec_complex_solutions 205 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [remove_all multprec_complex_solutions 205 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [clear multprec_complex_solutions 212 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [clear multprec_complex_solutions 212 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [clear multprec_complex_solutions 213 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [clear multprec_complex_solutions 213 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [clear multprec_complex_solutions 214 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [clear multprec_complex_solutions 214 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [deep_clear multprec_complex_solutions 216 16 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [deep_clear multprec_complex_solutions 216 16 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [clear multprec_complex_solutions 224 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [clear multprec_complex_solutions 224 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [clear multprec_complex_solutions 225 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [clear multprec_complex_solutions 225 13 none] [clear multprec_complex_vectors 71 13 4_1]
+G r s complex_number [solutionIP multprec_complex_solutions 17 8 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s vector [solutionIP multprec_complex_solutions 17 8 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s floating_number [solutionIP multprec_complex_solutions 17 8 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+X 12 generic_complex_numbers.ads
+19R8*Complex_Number 23|18r9[21|5] 176r55[21|5] 24|445r54[21|5]
+35V12*AbsVal{28|16R8} 24|186s12[21|5]
+40V12*Equal{boolean} 24|100s13[21|5]
+41U13*Copy 24|198s5[21|5] 454s9[21|5]
+60V13*"-"{19R8[21|5]} 24|186s30[21|5]
+X 13 generic_lists.ads
+7k9*Generic_Lists 104e18 23|5w6 28r36
+12P8*List 23|29r47[28] 24|616r47[23|28]
+26U13*Construct 24|44s9[23|28] 49s11[23|28] 308s7[23|28] 314s9[23|28] 339s7[23|28]
+. 346s7[23|28] 362s7[23|28] 377s7[23|28]
+31U13*Set_Head 24|168s26[23|28] 169s26[23|28] 410s9[23|28] 432s13[23|28]
+. 455s9[23|28] 475s9[23|28]
+38U13*Swap_Tail 24|50s11[23|28] 315s9[23|28] 347s7[23|28] 378s7[23|28] 504s9[23|28]
+. 541s15[23|28] 583s15[23|28]
+67V12*Length_Of{41|7I8} 24|14s38[23|28] 156s33[23|28] 420s15[23|28] 426s21[23|28]
+. 465s15[23|28] 486s15[23|28]
+72V12*Is_Null{boolean} 24|17s12[23|28] 22s19[23|28] 82s15[36|27] 109s8[23|28]
+. 109s24[23|28] 111s11[23|28] 111s26[23|28] 118s19[23|28] 118s42[23|28] 126s12[23|28]
+. 126s31[23|28] 213s15[23|28] 243s8[23|28] 249s19[23|28] 266s15[23|28] 293s17[23|28]
+. 296s8[23|28] 307s8[23|28] 338s8[23|28] 342s17[23|28] 361s8[23|28] 365s17[23|28]
+. 405s15[23|28] 450s15[23|28] 488s12[23|28] 515s15[23|28] 527s12[23|28] 533s19[23|28]
+. 557s15[23|28] 569s12[23|28] 575s19[23|28] 625s15[23|28]
+77V12*Head_Of{23|26P8} 24|23s34[23|28] 85s15[36|27] 119s24[23|28] 119s43[23|28]
+. 162s14[23|28] 165s16[23|28] 214s13[23|28] 250s14[23|28] 267s16[23|28] 298s18[23|28]
+. 366s15[23|28] 407s43[23|28] 427s17[23|28] 452s43[23|28] 473s15[23|28] 491s17[23|28]
+. 501s15[23|28] 517s34[23|28] 535s38[23|28] 559s34[23|28] 577s38[23|28] 626s13[23|28]
+84V12*Tail_Of{12P8[23|28]} 24|25s19[23|28] 51s19[23|28] 91s14[36|27] 122s22[23|28]
+. 123s22[23|28] 163s15[23|28] 171s17[23|28] 173s15[23|28] 221s14[23|28] 253s18[23|28]
+. 269s20[23|28] 294s14[23|28] 316s17[23|28] 344s17[23|28] 373s19[23|28] 412s14[23|28]
+. 438s19[23|28] 457s14[23|28] 471s19[23|28] 488s20[23|28] 493s19[23|28] 499s21[23|28]
+. 503s17[23|28] 521s19[23|28] 532s19[23|28] 540s23[23|28] 545s21[23|28] 563s19[23|28]
+. 574s19[23|28] 582s23[23|28] 587s21[23|28] 628s15[23|28]
+93U13*Clear 24|223s5[23|28] 489s11[23|28] 616s23[23|28]
+X 15 generic_vectors.ads
+16A8*Vector(34|11R8)<40|6I8> 23|20r9[26|4] 81r53[26|4] 24|177r53[26|4]
+24U13*Copy 24|200s5[26|4]
+71U13*Clear 24|600s5[26|4]
+X 19 multprec_complex_norms_equals.ads
+5K9*Multprec_Complex_Norms_Equals 40e34 24|4w6 4r46
+32V12*Equal{boolean} 24|102s18
+X 20 multprec_complex_number_tools.ads
+6K9*Multprec_Complex_Number_Tools 43e34 24|2w6 2r46
+31V12*Create{12|19R8[21|5]} 24|64s14
+X 21 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[12|11] 23|6w6 6r46
+X 23 multprec_complex_solutions.ads
+9K9*Multprec_Complex_Solutions 46r26 53r26 230l5 230e31 24|6b14 59r26 61r11
+. 74r26 76r20 86r23 660l5 660t31
+17R8*Solution 17d19 24e13 26r35 46r53 61r28 96r28 96r50 115r46 117r45 139r64
+. 145r55 150r55 158r35 166r29 213r32 24|23r24 40r15 41r38 48r21 59r53 61r38
+. 86r50 98r28 196r28 196r50 216r14 231r20 260r46 275r45 321r64 323r10 328r15
+. 332r55 335r43 351r55 355r34 356r10 384r35 417r29 595r31 605r50
+17i19*n{40|6I8} 20r19 24|39r48 100r43 100r51 216r26 323r21 356r21
+18r5*t{12|19R8[21|5]} 24|64m9 100r22 100r27 198r13 198m18 431m16 431r23 454m19
+19i5*m{40|6I8} 24|65m9 168m15 169m15 199m8 199r16 250r27 430m16 430r23 474m12
+. 519r29 538r33 561r15 580r19
+20a5*v{15|16A8[26|4]} 24|66m9 102r27 102r32 186r25 200r13 200m18 386m16 394m17
+. 429m16 429r23 600m13
+21r5*err{28|16R8} 24|67m9 201r13 201m20 387m16 395m17 597m13
+22r5*rco{28|16R8} 24|68m9 202r13 202m20 388m16 396m17 599m13
+23r5*res{28|16R8} 24|69m9 203r13 203m20 389m16 397m17 598m13
+26P8*Link_to_Solution(17R8) 28r50 31r58 124r28 133r30 159r32 214r33 24|41r14
+. 154r15 209r10 287r28 305r30 324r10 335r19 355r10 392r32 407r23 423r14 452r23
+. 468r14 483r10 517r14 535r18 559r14 577r18 603r33 605r59 622r10
+28K11*List_of_Solutions[13|7] 29r29 24|8r7 616r5 616r29
+29P8*Solution_List<13|12P8[28]> 34r37 39r26 40r50 53r53 67r28 76r36 101r28
+. 101r55 109r28 115r27 123r30 132r42 139r42 145r33 150r33 160r38 165r36 176r33
+. 182r33 191r36 200r36 205r40 215r41 216r41 24|12r26 20r16 32r50 34r10 42r20
+. 74r53 76r47 106r28 115r17 116r17 151r36 155r17 206r28 206r55 208r24 237r28
+. 247r15 260r27 263r11 286r30 289r11 304r42 312r15 321r42 332r33 334r21 351r33
+. 354r21 400r38 402r11 416r36 422r16 445r32 447r11 462r33 467r16 480r36 482r25
+. 509r36 529r24 536r20 551r40 571r24 578r20 614r41 619r38 621r12
+31A8*Solution_Array(26P8)<40|6I8> 39r49 40r26 69r28 81r30 102r28 102r56 117r25
+. 212r33 24|12r49 14r10 32r26 134r28 177r30 227r28 227r56 275r25 633r33
+33A8*Array_of_Solution_Lists(29P8)<40|6I8> 35r50 224r32 24|640r32 650r34
+35P8*Link_to_Array_of_Solution_Lists(33A8) 225r32 24|647r32 651r34
+39V12*Create{31A8} 39>21 24|12b12 30l7 30t13
+39p21 sl{29P8} 24|12b21 14r48 17r20 20r33
+40V12*Create{29P8} 40>21 24|32b12 56l7 56t13
+40a21 sa{31A8} 24|32b21 37r8 37r20 39r35 39r38 40r30 40r33 46r19 46r32 47r18
+45V12*Create{17R8} 45>21 24|58b12 71l7 71t13 87s15
+45r21 s{36|16R8} 24|58b21 61r47 64r21 65r14 66r21 67r23 68r23 69r23
+52V12*Create{29P8} 52>21 24|73b12 94l7 94t13
+52p21 l{36|28P8} 24|73b21 77r55
+61V12*Equal{boolean} 61>20 61>23 61>38 24|98b12 104l7 104t12 119s18 143s16
+. 166s12 267s10 279s10 367s12 434s17
+61r20 s1{17R8} 24|98b20 100r19 100r40 102r24
+61r23 s2{17R8} 24|98b23 100r24 100r48 102r29
+61r38 tol{28|16R8} 24|98b38 102r34
+67V12*Equal{boolean} 67>20 67>23 67>43 24|106b12 132l7 132t12
+67p20 s1{29P8} 24|106b20 109r16 111r19 115r34
+67p23 s2{29P8} 24|106b23 109r32 111r34 116r34 118r50
+67r43 tol{28|16R8} 24|106b43 119r62
+69V12*Equal{boolean} 69>20 69>23 69>44 24|134b12 149l7 149t12
+69a20 s1{31A8} 24|134b20 137r8 139r11 142r16 143r22
+69a23 s2{31A8} 24|134b23 137r20 139r22 143r32
+69r44 tol{28|16R8} 24|134b44 143r42
+76U13*Equals 76=22 76>51 77>22 77<48 24|151b13 175l7 175t13
+76p22 sols{29P8} 24|151b22 156r43 160r13
+76i51 flag{40|6I8} 24|151b51 168r20 169r20
+77r22 tol{28|16R8} 24|152b22 166r34
+77b48 same{boolean} 24|152b48 159m5 167m11
+81U13*Equals 81>22 81>46 81>61 82>22 82=48 24|177b13 194l7 194t13
+81a22 sa{31A8} 24|177b22 186r19
+81a46 x{15|16A8[26|4]} 24|177b46 185r16 186r32
+81i61 i{40|6I8} 24|177b61 183r15
+82r22 tol{28|16R8} 24|178b22 186r40
+82i48 j{40|6I8} 24|178b48 183r11 186r22 192m7 192r12
+96U13*Copy 96>20 96=38 24|196b13 204l7 204t11 218s9 327s5
+96r20 s1{17R8} 24|196b20 198r10 199r13 200r10 201r10 202r10 203r10
+96r38 s2{17R8} 24|196b38 198m15 198r15 199m5 200m15 200r15 201m17 201r17
+. 202m17 202r17 203m17 203r17
+101U13*Copy<13|55p13> 101>20 101=43 24|206b13 225l7 225t11
+101p20 s1{29P8} 24|206b20 212r12
+101p43 s2{29P8} 24|206b43 223m11 224m5
+102U13*Copy 102>20 102=44 24|227b13 233l7 233t11
+102a20 s1{31A8} 24|227b20 230r14 231r30
+102a44 s2{31A8} 24|227b44 229m11 231m7
+109V12*Number{41|7I8} 109>21 109>43 24|237b12 258l7 258t13
+109p21 sols{29P8} 24|237b21 243r16 247r32
+109i43 flag{40|6I8} 24|237b43 250r31
+115V12*Is_In{boolean} 115>20 115>42 115>56 24|260b12 273l7 273t12
+115p20 sols{29P8} 24|260b20 263r28
+115r42 s{17R8} 24|260b42 267r33
+115r56 tol{28|16R8} 24|260b56 267r35
+117V12*Is_In{boolean} 117>20 117>41 117>55 24|275b12 284l7 284t12
+117a20 sa{31A8} 24|275b20 278r14 279r16
+117r41 s{17R8} 24|275b41 279r26
+117r55 tol{28|16R8} 24|275b55 279r28
+123V12*Retrieve{26P8} 123>23 123>45 24|286b12 300l7 300t15
+123p23 sols{29P8} 24|286b23 289r28
+123i45 p{41|7I8} 24|286b45 292r18
+132U13*Append<13|43p13> 132=22 132=28 133>22 24|304b13 319l7 319t13 329s5
+132p22 first{29P8} 24|304b22 307r16 308m20 309r15
+132p28 last{29P8} 24|304b28 309m7 315m19 316m9 316r25
+133p22 ls{26P8} 24|305b22 308r17 314r19
+139U13*Append 139=22 139=28 139>57 24|89s9 219s9 321b13 330l7 330t13
+139p22 first{29P8} 24|321b22 329m12
+139p28 last{29P8} 24|321b28 329m18
+139r57 s{17R8} 24|321b57 323r19 327r10
+145U13*Add 145=19 145>48 24|332b13 349l7 349t10
+145p19 sols{29P8} 24|332b19 338r16 339m20 341r15
+145r48 s{17R8} 24|332b48 335r53
+150U13*Add 150=19 150>48 151>19 151<45 24|351b13 380l7 380t10
+150p19 sols{29P8} 24|351b19 361r16 362m20 364r15
+150r48 s{17R8} 24|351b48 355r44 356r19 367r18
+151r19 tol{28|16R8} 24|352b19 367r23
+151i45 other{40|6I8} 24|352b45 360m5 368m11
+158U13*Set_Size 158=24 158>45 24|384b13 390l7 390t15
+158r24 s{17R8} 24|384b24 386m14 386r14 387m14 387r14 388m14 388r14 389m14
+. 389r14
+158i45 size{41|7I8} 24|384b45 386r18 387r20 388r20 389r20
+159U13*Set_Size 159>24 159>50 24|392b13 398l7 398t15 409s9
+159p24 ls{26P8} 24|392b24 394r14 395r14 396r14 397r14
+159i50 size{41|7I8} 24|392b50 394r19 395r21 396r21 397r21
+160U13*Set_Size 160=24 160>53 24|400b13 414l7 414t15
+160p24 sols{29P8} 24|400b24 402r28
+160i53 size{41|7I8} 24|400b53 409r21
+165U13*Change 165=22 165>51 166>22 166>39 167<22 24|416b13 442l7 442t13
+165p22 sols{29P8} 24|416b22 420r25 422r33
+165i51 pos{41|7I8} 24|416b51 420r8 428r18
+166r22 s{17R8} 24|417b22 429r21 430r21 431r21 434r23
+166r39 tol{28|16R8} 24|417b39 434r32
+167i22 other{41|7I8} 24|418b22 425m9 435m13
+175U13*Set_Continuation_Parameter 176=19 176>48 24|444b13 459l7 459t33
+176p19 sols{29P8} 24|445b18 447r28
+176r48 t{12|19R8[21|5]} 24|445b47 454r14
+181U13*Change_Multiplicity 182=19 182>48 183>19 24|461b13 478l7 478t26
+182p19 sols{29P8} 24|462b19 465r25 467r33
+182i48 pos{41|7I8} 24|462b48 465r8 470r22
+183i19 m{40|6I8} 24|463b19 474r17
+191U13*Remove 191=22 191>51 24|480b13 507l7 507t13
+191p22 sols{29P8} 24|480b22 486r25 488r28 489m17 491r25 493m11 493r27 496r19
+191i51 pos{41|7I8} 24|480b51 486r8 487r10 497r22
+199V19 To_Be_Removed{boolean} 199>35 24|519s12 538s16
+199i35 flag{40|6I8}
+200u13*Delete 200=22 24|509b13 549l7 549t13
+200p22 sols{29P8} 24|509b22 515r23 517r42 521m11 521r27 527r20 531r18
+205U13*Remove_All 205=26 205>55 24|551b13 591l7 591t17
+205p26 sols{29P8} 24|551b26 557r23 559r42 563m11 563r27 569r20 573r18
+205i55 flag{40|6I8} 24|551b55 561r19 580r23
+212U13*Clear 212=21 24|229s5 633b13 638l7 638t12
+212a21 sa{31A8} 24|633b21 635r14 636m13 636r13
+213U13*Clear 213=21 24|595b13 601l7 601t12 609s11
+213r21 s{17R8} 24|595b20 597m11 597r11 598m11 598r11 599m11 599r11 600m11
+. 600r11
+214U13*Clear 214=21 24|369s11 492s11 502s9 520s11 539s15 562s11 581s15 603b13
+. 612l7 612t12 627s7 636s7
+214p21 ls{26P8} 24|603b21 608r8 609r17 611m10
+215U13*Shallow_Clear 215=29 24|614b13 617l7 617t20 630s5
+215p29 sl{29P8} 24|614b29 616m52 616r52
+216U16*Deep_Clear 216=29 24|619b13 631l7 631t17 643s7
+216p29 sl{29P8} 24|619b26 621r29 630m19
+224U13*Clear 224=21 24|640b13 645l7 645t12 655s7
+224a21 s{33A8} 24|640b21 642r14 643m18 643r18
+225U13*Clear 225=21 24|647b13 658l7 658t12
+225p21 s{35P8} 24|647b21 654r8 655r13 656m12
+X 24 multprec_complex_solutions.adb
+14a5 sa{23|31A8} 23m11 29r12
+19i9 i{40|6I8} 23r14 24m11 24r16
+20p9 temp{23|29P8} 22r27 23r42 25m11 25r27
+34p5 sl{23|29P8} 44m22 44r22 45r17 55r12
+39i9 n{40|6I8} 40r24
+40r9 sol{23|17R8} 41r48 47m11 48r31
+41p9 ls{23|26P8} 44r19 48m11 49r21
+42p9 last{23|29P8} 45m9 50m21 50r21 51m11 51r27
+42p14 tmp{23|29P8} 49m24 49r24 50m26 50r26
+46i13 i<long_integer> 47r21
+61r5 res{23|17R8} 64m5 65m5 66m5 67m5 68m5 69m5 70r12
+76p5 res{23|29P8} 89m16 89r16 93r12
+76p9 res_last{23|29P8} 89m20 89r20
+77p5 tmp{36|28P8} 82r23 85r23 91m7 91r22
+84p9 ls{36|25P8} 86r59 87r22
+86r9 ms{23|17R8} 89r29
+115p9 temp1{23|29P8} 118r27 119r32 122m13 122r30 126r20
+116p9 temp2{23|29P8} 119r51 123m13 123r30 126r39
+142i11 i<long_integer> 143r25 143r35
+154p5 ls1{23|26P8} 162m7 166r18 168r11 168r40
+154p9 ls2{23|26P8} 165m9 166r26 169r11 169r40
+155p5 tmp1{23|29P8} 160m5 162r22 163r23 168m35 168r35 173m7 173r23
+155p10 tmp2{23|29P8} 163m7 165r24 169m35 169r35 171m9 171r25
+156i5 len{41|7I8} 161r17 164r21
+161i9 i<long_integer> 164r16
+164i11 j<long_integer>
+180b5 eq{boolean} 184m7 187m15 189r23 191r17
+185i11 k<long_integer> 186r27 186r34
+208p5 tmp{23|29P8} 212m5 213r23 214r21 221m7 221r22
+208p9 res{23|29P8} 219m16 219r16 224r11
+208p13 res_last{23|29P8} 219m20 219r20
+209p5 ls{23|26P8} 214m7 216r23 218r14
+216r9 cp{23|17R8} 218m21 218r21 219r29
+230i9 i<long_integer> 231r10 231r33
+240i5 res{41|7I8} 244r14 251m17 251r24 256r14
+247p9 tmp{23|29P8} 249r27 250r22 253m11 253r26
+263p5 tmp{23|29P8} 266r23 267r24 269m13 269r28
+278i9 i<long_integer> 279r19
+289p5 tmp{23|29P8} 293r25 294m7 294r22 296r16 298r26
+292i9 i<long_integer>
+312p9 tmp{23|29P8} 314m22 314r22 315m24 315r24
+323r5 ss{23|17R8} 327m12 327r12 328r25
+324p5 ls{23|26P8} 328m5 329r23
+334p5 last{23|29P8} 343m9 347m17 347r17
+334p10 temp{23|29P8} 341m7 342r25 343r17 344m9 344r25
+334p15 tmp{23|29P8} 346m20 346r20 347m22 347r22
+335p5 ls{23|26P8} 339r17 346r17
+354p5 last{23|29P8} 372m11 378m17 378r17
+354p10 temp{23|29P8} 364m7 365r25 366r23 372r19 373m11 373r27
+354p15 tmp{23|29P8} 377m20 377r20 378m22 378r22
+355p5 ls{23|26P8} 362r17 369m17 369r17 377r17
+356r5 s2{23|17R8} 366m9 367r20
+357i5 count{40|6I8} 368r20 374m11 374r20
+402p5 tmp{23|29P8} 405r23 407r51 410m18 410r18 412m7 412r22
+407p9 ls{23|26P8} 409r18 410r22
+422p9 temp{23|29P8} 426r31 427r25 432m22 432r22 438m11 438r27
+423p9 ls{23|26P8} 427m11 429r13 430r13 431r13 432r27 434r25
+426i13 i<long_integer> 428r14 435r22
+447p5 tmp{23|29P8} 450r23 452r51 455m18 455r18 457m7 457r22
+452p9 ls{23|26P8} 454r16 455r22
+467p9 temp{23|29P8} 471m11 471r27 473r23 475m18 475r18
+468p9 ls{23|26P8} 473m9 474r9 475r23
+470i13 i<long_integer>
+482p5 first{23|29P8} 498m11 499r29 504m19 504r19
+482p11 second{23|29P8} 496m9 498r20 499m11 501r23 503r25
+482p18 temp{23|29P8} 503m9 504m25 504r25
+483p5 ls{23|26P8} 491m11 492m17 492r17 501m9 502m15 502r15
+497i13 i<long_integer>
+511b5 continue{boolean} 514m5 515r33 523m11
+517p9 ls{23|26P8} 519r26 520m17 520r17
+529p9 first{23|29P8} 531m9 532r27 541m25 541r25 544m11 545r29
+529p15 second{23|29P8} 532m9 533r27 535r46 540r31 544r20 545m11
+535p13 ls{23|26P8} 538r30 539m21 539r21
+536p13 temp{23|29P8} 540m15 541m31 541r31
+553b5 continue{boolean} 556m5 557r33 565m11
+559p9 ls{23|26P8} 561r12 562m17 562r17
+571p9 first{23|29P8} 573m9 574r27 583m25 583r25 586m11 587r29
+571p15 second{23|29P8} 574m9 575r27 577r46 582r31 586r20 587m11
+577p13 ls{23|26P8} 580r16 581m21 581r21
+578p13 temp{23|29P8} 582m15 583m31 583r31
+605U15 free[59|22] 611s5
+621p5 temp{23|29P8} 625r23 626r21 628m7 628r23
+622p5 ls{23|26P8} 626m7 627m13 627r13
+635i9 i<long_integer> 636r16
+642i9 i<long_integer> 643r20
+649U15 free[59|22] 656s7
+X 25 multprec_complex_vector_tools.ads
+7K9*Multprec_Complex_Vector_Tools 24|3w6 3r46 25|43e34
+12V12*Create{15|16A8[26|4]} 24|66s14
+24U13*Set_Size 24|386s5 394s5
+X 26 multprec_complex_vectors.ads
+4K9*Multprec_Complex_Vectors[15|8] 23|7w6 7r46
+X 28 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 23|4w6 4r46 28|221e30
+16R8*Floating_Number 23|21r11 22r11 23r11 61r44 67r49 69r50 77r31 82r31 115r62
+. 117r61 151r28 166r48 24|98r44 106r49 134r50 152r31 178r31 260r62 275r61
+. 352r28 417r48 28|219e13
+24V12*Create{16R8} 24|67s16 68s16 69s16
+116V13*">"{boolean} 24|186s38
+121U13*Copy 24|201s5 202s5 203s5
+148U13*Set_Size 24|387s5 388s5 389s5 395s5 396s5 397s5
+210U13*Clear 24|597s5 598s5 599s5
+X 36 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 23|3w6 45r25 52r25 24|58r25 73r25 77r11 79r9
+. 84r23 36|206e31
+16R8*Solution 23|45r52 24|58r52 36|23e13
+16i19*n{40|6I8} 24|61r49 86r62
+17r5*t{34|11R8} 24|64r23
+18i5*m{40|6I8} 24|65r16
+19a5*v{15|16A8[37|4]} 24|66r23
+20f5*err{39|13F8} 24|67r25
+21f5*rco{39|13F8} 24|68r25
+22f5*res{39|13F8} 24|69r25
+25P8*Link_to_Solution(16R8) 24|84r50
+28P8*Solution_List<13|12P8[27]> 23|52r52 24|73r52 77r38
+X 39 standard_floating_numbers.ads
+13F8*double_float<long_float>
+X 40 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 23|2w6 2r46 40|45e29
+6I8*integer32<long_integer> 23|17r23 19r9 31r34 34r13 76r61 81r68 82r59 109r50
+. 151r57 183r26 199r45 205r65 24|14r28 19r13 39r22 151r61 177r68 178r59 237r50
+. 352r57 357r13 463r26 551r65
+X 41 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 23|1w6 1r46 41|30e29
+7I8*natural32<long_integer> 23|109r69 123r49 158r55 159r60 160r63 165r60
+. 167r34 182r57 191r60 24|156r20 238r26 240r11 286r49 384r55 392r60 400r63
+. 416r60 418r34 462r57 480r60
+X 59 unchdeal.ads
+22u11*Unchecked_Deallocation 24|1w6 605r27 650r11
+

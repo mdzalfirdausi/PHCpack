@@ -1,0 +1,32 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U string_parsing%b	string_parsing.adb	7559962f NE OO PK
+
+U string_parsing%s	string_parsing.ads	7e6f8eba EE NE OO PK
+
+D string_parsing.ads	20260513024558 7e6f8eba string_parsing%s
+D string_parsing.adb	20260513024558 0b361895 string_parsing%b
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [scan string_parsing 7 12 none]
+X 1 string_parsing.ads
+1K9*String_Parsing 15l5 15e19 2|1b14 21l5 21t19
+7V12*Scan{integer} 7>19 7>31 2|3b12 19l7 19t11
+7a19 s{string} 2|3b19 8r14 9r10
+7a31 banner{string} 2|3b31 5r22 9r17 10r18 15r16
+X 2 string_parsing.adb
+5i5 ind{integer} 9r24 10r12 12m15 12r22 15m9
+8i9 i{integer} 9r12 11r22
+

@@ -1,0 +1,771 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main_reduction%b	main_reduction.adb	174a7258 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W dobldobl_complex_poly_systems_io%s  dobldobl_complex_poly_systems_io.adb  dobldobl_complex_poly_systems_io.ali
+W dobldobl_system_readers%s  dobldobl_system_readers.adb  dobldobl_system_readers.ali
+W numbers_io%s		numbers_io.adb		numbers_io.ali
+W quaddobl_complex_poly_systems_io%s  quaddobl_complex_poly_systems_io.adb  quaddobl_complex_poly_systems_io.ali
+W quaddobl_system_readers%s  quaddobl_system_readers.adb  quaddobl_system_readers.ali
+W reduction_of_nonsquare_systems%s  reduction_of_nonsquare_systems.adb  reduction_of_nonsquare_systems.ali
+W reduction_of_polynomial_systems%s  reduction_of_polynomial_systems.adb  reduction_of_polynomial_systems.ali
+W standard_complex_poly_systems_io%s  standard_complex_poly_systems_io.adb  standard_complex_poly_systems_io.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_system_readers%s  standard_system_readers.adb  standard_system_readers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+W total_degree_start_systems%s  total_degree_start_systems.adb  total_degree_start_systems.ali
+
+U main_reduction%s	main_reduction.ads	d87ba26f EE NE OO PK
+W dobldobl_complex_poly_systems%s  dobldobl_complex_poly_systems.ads  dobldobl_complex_poly_systems.ali
+W quaddobl_complex_poly_systems%s  quaddobl_complex_poly_systems.ads  quaddobl_complex_poly_systems.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_poly_systems_io.ads  20260513024558 e2b75c7f dobldobl_complex_poly_systems_io%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_system_readers.ads  20260513024558 f5a98f62 dobldobl_system_readers%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D main_reduction.ads	20260513024558 a8de4b4c main_reduction%s
+D main_reduction.adb	20260513024558 32acf9dd main_reduction%b
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D numbers_io.ads	20260513024558 7172a556 numbers_io%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_poly_systems_io.ads  20260513024558 4af9d455 quaddobl_complex_poly_systems_io%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_system_readers.ads  20260513024558 ae93d9a6 quaddobl_system_readers%s
+D reduction_of_nonsquare_systems.ads  20260513024558 9e146b9e reduction_of_nonsquare_systems%s
+D reduction_of_polynomial_systems.ads  20260513024558 d1b91ae1 reduction_of_polynomial_systems%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_systems_io.ads  20260513024558 30c463ef standard_complex_poly_systems_io%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_system_readers.ads  20260513024558 7e100b9c standard_system_readers%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D total_degree_start_systems.ads  20260513024558 521b1637 total_degree_start_systems%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [display_info main_reduction 14 13 none]
+G c Z s b [linear_reduction main_reduction 19 13 none]
+G c Z s b [linear_reduction main_reduction 23 13 none]
+G c Z s b [linear_reduction main_reduction 27 13 none]
+G c Z s b [sparse_linear_reduction main_reduction 36 13 none]
+G c Z s b [sparse_linear_reduction main_reduction 40 13 none]
+G c Z s b [sparse_linear_reduction main_reduction 44 13 none]
+G c Z s b [nonlinear_reduction main_reduction 53 13 none]
+G c Z s b [overconstrained_reduction main_reduction 61 13 none]
+G c Z s b [reduce main_reduction 67 13 none]
+G c Z s b [reduce main_reduction 71 13 none]
+G c Z s b [reduce main_reduction 75 13 none]
+G c Z s b [standard_main main_reduction 94 13 none]
+G c Z s b [dobldobl_main main_reduction 102 13 none]
+G c Z s b [quaddobl_main main_reduction 110 13 none]
+G c Z b b [display_menu main_reduction 42 13 none]
+G c Z b b [linear_display_menu main_reduction 78 13 none]
+G c Z b b [rationalize main_reduction 114 13 none]
+G c Z b b [write_diagnostics main_reduction 166 13 none]
+G c Z b b [write_diagnostics main_reduction 201 13 none]
+G c Z b b [write_diagnostics main_reduction 236 13 none]
+G c Z b b [write_results main_reduction 271 13 none]
+G c Z b b [write_results main_reduction 283 13 none]
+G c Z b b [write_results main_reduction 295 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [tstart timing_package 20 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [reduce reduction_of_polynomial_systems 12 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [tstop timing_package 24 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [total_degree total_degree_start_systems 46 12 none]
+G r c none [linear_reduction main_reduction 19 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [linear_reduction main_reduction 19 13 none] [print_times timing_package 49 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [tstart timing_package 20 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [reduce reduction_of_polynomial_systems 14 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [tstop timing_package 24 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [total_degree total_degree_start_systems 48 12 none]
+G r c none [linear_reduction main_reduction 23 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [put dobldobl_complex_poly_systems_io 29 13 none]
+G r c none [linear_reduction main_reduction 23 13 none] [print_times timing_package 49 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [tstart timing_package 20 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [reduce reduction_of_polynomial_systems 16 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [tstop timing_package 24 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [total_degree total_degree_start_systems 50 12 none]
+G r c none [linear_reduction main_reduction 27 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [put quaddobl_complex_poly_systems_io 29 13 none]
+G r c none [linear_reduction main_reduction 27 13 none] [print_times timing_package 49 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [tstart timing_package 20 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [sparse_reduce reduction_of_polynomial_systems 34 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [tstop timing_package 24 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [total_degree total_degree_start_systems 46 12 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [sparse_linear_reduction main_reduction 36 13 none] [print_times timing_package 49 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [tstart timing_package 20 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [sparse_reduce reduction_of_polynomial_systems 36 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [tstop timing_package 24 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [total_degree total_degree_start_systems 48 12 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [put dobldobl_complex_poly_systems_io 29 13 none]
+G r c none [sparse_linear_reduction main_reduction 40 13 none] [print_times timing_package 49 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [tstart timing_package 20 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [sparse_reduce reduction_of_polynomial_systems 38 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [tstop timing_package 24 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [total_degree total_degree_start_systems 50 12 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [put quaddobl_complex_poly_systems_io 29 13 none]
+G r c none [sparse_linear_reduction main_reduction 44 13 none] [print_times timing_package 49 13 none]
+G r s poly_sys [nonlinear_reduction main_reduction 53 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [degree standard_complex_polynomials 64 12 4_1]
+G r i none [nonlinear_reduction main_reduction 53 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [nonlinear_reduction main_reduction 53 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [read_natural numbers_io 14 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [tstart timing_package 20 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [reduce reduction_of_polynomial_systems 45 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [tstop timing_package 24 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [total_degree total_degree_start_systems 46 12 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [nonlinear_reduction main_reduction 53 13 none] [print_times timing_package 49 13 none]
+G r c none [overconstrained_reduction main_reduction 61 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r s poly_sys [overconstrained_reduction main_reduction 61 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [overconstrained_reduction main_reduction 61 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [overconstrained_reduction main_reduction 61 13 none] [random_square reduction_of_nonsquare_systems 9 12 none]
+G r c none [overconstrained_reduction main_reduction 61 13 none] [reduced_square reduction_of_nonsquare_systems 17 12 none]
+G r c none [overconstrained_reduction main_reduction 61 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [overconstrained_reduction main_reduction 61 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [reduce main_reduction 67 13 none] [tstart timing_package 20 13 none]
+G r c none [reduce main_reduction 67 13 none] [reduce reduction_of_polynomial_systems 12 13 none]
+G r c none [reduce main_reduction 67 13 none] [tstop timing_package 24 13 none]
+G r c none [reduce main_reduction 67 13 none] [total_degree total_degree_start_systems 46 12 none]
+G r c none [reduce main_reduction 67 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [reduce main_reduction 67 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [reduce main_reduction 67 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [reduce main_reduction 67 13 none] [print_times timing_package 49 13 none]
+G r c none [reduce main_reduction 67 13 none] [sparse_reduce reduction_of_polynomial_systems 34 13 none]
+G r s poly_sys [reduce main_reduction 67 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [reduce main_reduction 67 13 none] [degree standard_complex_polynomials 64 12 4_1]
+G r i none [reduce main_reduction 67 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [reduce main_reduction 67 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [reduce main_reduction 67 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [reduce main_reduction 67 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [reduce main_reduction 67 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [reduce main_reduction 67 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [reduce main_reduction 67 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [reduce main_reduction 67 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [reduce main_reduction 67 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [reduce main_reduction 67 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [reduce main_reduction 67 13 none] [read_natural numbers_io 14 13 none]
+G r c none [reduce main_reduction 67 13 none] [reduce reduction_of_polynomial_systems 45 13 none]
+G r c none [reduce main_reduction 67 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [reduce main_reduction 67 13 none] [random_square reduction_of_nonsquare_systems 9 12 none]
+G r c none [reduce main_reduction 67 13 none] [reduced_square reduction_of_nonsquare_systems 17 12 none]
+G r c none [reduce main_reduction 67 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [reduce main_reduction 67 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [reduce main_reduction 71 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [reduce main_reduction 71 13 none] [tstart timing_package 20 13 none]
+G r c none [reduce main_reduction 71 13 none] [reduce reduction_of_polynomial_systems 14 13 none]
+G r c none [reduce main_reduction 71 13 none] [tstop timing_package 24 13 none]
+G r c none [reduce main_reduction 71 13 none] [total_degree total_degree_start_systems 48 12 none]
+G r c none [reduce main_reduction 71 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [reduce main_reduction 71 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [reduce main_reduction 71 13 none] [put dobldobl_complex_poly_systems_io 29 13 none]
+G r c none [reduce main_reduction 71 13 none] [print_times timing_package 49 13 none]
+G r c none [reduce main_reduction 71 13 none] [sparse_reduce reduction_of_polynomial_systems 36 13 none]
+G r c none [reduce main_reduction 75 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [reduce main_reduction 75 13 none] [tstart timing_package 20 13 none]
+G r c none [reduce main_reduction 75 13 none] [reduce reduction_of_polynomial_systems 16 13 none]
+G r c none [reduce main_reduction 75 13 none] [tstop timing_package 24 13 none]
+G r c none [reduce main_reduction 75 13 none] [total_degree total_degree_start_systems 50 12 none]
+G r c none [reduce main_reduction 75 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [reduce main_reduction 75 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [reduce main_reduction 75 13 none] [put quaddobl_complex_poly_systems_io 29 13 none]
+G r c none [reduce main_reduction 75 13 none] [print_times timing_package 49 13 none]
+G r c none [reduce main_reduction 75 13 none] [sparse_reduce reduction_of_polynomial_systems 38 13 none]
+G r c none [standard_main main_reduction 94 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [standard_main main_reduction 94 13 none] [read_system standard_system_readers 11 13 none]
+G r c none [standard_main main_reduction 94 13 none] [get standard_complex_poly_systems_io 38 13 none]
+G r c none [standard_main main_reduction 94 13 none] [create_output_file communications_with_user 94 13 none]
+G r c none [standard_main main_reduction 94 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [standard_main main_reduction 94 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [standard_main main_reduction 94 13 none] [tstart timing_package 20 13 none]
+G r c none [standard_main main_reduction 94 13 none] [reduce reduction_of_polynomial_systems 12 13 none]
+G r c none [standard_main main_reduction 94 13 none] [tstop timing_package 24 13 none]
+G r c none [standard_main main_reduction 94 13 none] [total_degree total_degree_start_systems 46 12 none]
+G r c none [standard_main main_reduction 94 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [standard_main main_reduction 94 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [standard_main main_reduction 94 13 none] [print_times timing_package 49 13 none]
+G r c none [standard_main main_reduction 94 13 none] [sparse_reduce reduction_of_polynomial_systems 34 13 none]
+G r s poly_sys [standard_main main_reduction 94 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [standard_main main_reduction 94 13 none] [degree standard_complex_polynomials 64 12 4_1]
+G r i none [standard_main main_reduction 94 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [standard_main main_reduction 94 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [standard_main main_reduction 94 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [standard_main main_reduction 94 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [standard_main main_reduction 94 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [standard_main main_reduction 94 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [standard_main main_reduction 94 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [standard_main main_reduction 94 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [standard_main main_reduction 94 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [standard_main main_reduction 94 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [standard_main main_reduction 94 13 none] [read_natural numbers_io 14 13 none]
+G r c none [standard_main main_reduction 94 13 none] [reduce reduction_of_polynomial_systems 45 13 none]
+G r c none [standard_main main_reduction 94 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [standard_main main_reduction 94 13 none] [random_square reduction_of_nonsquare_systems 9 12 none]
+G r c none [standard_main main_reduction 94 13 none] [reduced_square reduction_of_nonsquare_systems 17 12 none]
+G r c none [standard_main main_reduction 94 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [standard_main main_reduction 94 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [standard_main main_reduction 94 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [read_system dobldobl_system_readers 11 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [get dobldobl_complex_poly_systems_io 12 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [create_output_file communications_with_user 94 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [put dobldobl_complex_poly_systems_io 29 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [tstart timing_package 20 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [reduce reduction_of_polynomial_systems 14 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [tstop timing_package 24 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [total_degree total_degree_start_systems 48 12 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [print_times timing_package 49 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [sparse_reduce reduction_of_polynomial_systems 36 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [dobldobl_main main_reduction 102 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [read_system quaddobl_system_readers 11 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [get quaddobl_complex_poly_systems_io 12 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [create_output_file communications_with_user 94 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [put quaddobl_complex_poly_systems_io 29 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [tstart timing_package 20 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [reduce reduction_of_polynomial_systems 16 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [tstop timing_package 24 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [total_degree total_degree_start_systems 50 12 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [print_times timing_package 49 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [sparse_reduce reduction_of_polynomial_systems 38 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [quaddobl_main main_reduction 110 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [display_menu main_reduction 42 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [linear_display_menu main_reduction 78 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [rationalize main_reduction 114 13 none] [degree standard_complex_polynomials 64 12 4_1]
+G r i none [rationalize main_reduction 114 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [rationalize main_reduction 114 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [rationalize main_reduction 114 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [rationalize main_reduction 114 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [rationalize main_reduction 114 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [rationalize main_reduction 114 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [rationalize main_reduction 114 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [rationalize main_reduction 114 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [rationalize main_reduction 114 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [rationalize main_reduction 114 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [rationalize main_reduction 114 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [rationalize main_reduction 114 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [rationalize main_reduction 114 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [write_diagnostics main_reduction 166 13 none] [total_degree total_degree_start_systems 46 12 none]
+G r c none [write_diagnostics main_reduction 166 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_diagnostics main_reduction 166 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_diagnostics main_reduction 201 13 none] [total_degree total_degree_start_systems 48 12 none]
+G r c none [write_diagnostics main_reduction 201 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_diagnostics main_reduction 201 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_diagnostics main_reduction 236 13 none] [total_degree total_degree_start_systems 50 12 none]
+G r c none [write_diagnostics main_reduction 236 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_diagnostics main_reduction 236 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_results main_reduction 271 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [write_results main_reduction 271 13 none] [print_times timing_package 49 13 none]
+G r c none [write_results main_reduction 283 13 none] [put dobldobl_complex_poly_systems_io 29 13 none]
+G r c none [write_results main_reduction 283 13 none] [print_times timing_package 49 13 none]
+G r c none [write_results main_reduction 295 13 none] [put quaddobl_complex_poly_systems_io 29 13 none]
+G r c none [write_results main_reduction 295 13 none] [print_times timing_package 49 13 none]
+X 12 a-textio.ads
+67P9*File_Type 37|20r28 24r28 28r28 37r28 41r28 45r28 54r28 67r32 71r32 75r32
+. 38|167r28 202r28 237r28 272r27 284r27 296r27 308r27 326r27 344r27 362r27
+. 381r27 400r27 419r29 512r32 537r32 556r32 581r22 603r19 619r22 641r19 657r22
+. 679r19
+131U14*Close 38|597s5 608s9 635s5 646s9 673s5 684s9
+277U14*New_Line 38|276s5 279s5 288s5 291s5 300s5 303s5 316s5 334s5 352s5
+. 371s5 390s5 409s5 435s5 444s25 446s25 448s25 463s5 466s25 468s25 470s25
+. 471s5 474s5 476s5 595s45 633s45 671s45
+284U14*New_Line 38|56s7 72s13 92s7 108s13 490s5 592s11 598s5 630s11 636s5
+. 668s11 674s5
+508U14*Put 38|185s9 189s9 220s9 224s9 255s9 259s9 443s5 445s5 447s5 460s5
+. 465s5 467s5 469s5
+515U14*Put 38|62s9 68s9 98s9 104s9 183s9 188s9 218s9 223s9 253s9 258s9 437s5
+. 439s5 441s5 459s5 495s5 587s7 599s5 625s7 637s5 663s7 675s5
+555U14*Put_Line 38|181s9 186s9 192s24 197s7 216s9 221s9 227s24 232s7 251s9
+. 256s9 262s24 267s7 277s5 289s5 301s5 317s5 335s5 353s5 372s5 391s5 410s5
+. 436s5 461s20 464s5 472s5
+565U14*Put_Line 38|38s7 57s7 60s11 66s11 93s7 96s11 102s11 180s9 184s9 192s9
+. 196s7 215s9 219s9 227s9 231s7 250s9 254s9 262s9 266s7 461s5 491s5 492s5
+. 493s5 494s5 522s11 546s11 565s11 588s7 605s9 626s7 643s9 664s7 681s9
+X 14 communications_with_user.ads
+4K9*Communications_with_User 127e29 38|1w6 1r46
+23U13*Ask_Yes_or_No 38|600s5 638s5 676s5
+29U13*Ask_Alternative 38|63s9 69s9 99s9 105s9 496s5
+60U13*Read_Name_and_Create_File 38|606s9 644s9 682s9
+94U13*Create_Output_File 38|594s5 632s5 670s5
+X 18 dobldobl_complex_poly_systems.ads
+5K9*DoblDobl_Complex_Poly_Systems[30|12] 37|5w6 25r29 42r29 72r33 38|203r25
+. 285r24 327r28 382r28 538r33 616r9
+X 19 dobldobl_complex_poly_systems_io.ads
+6K9*DoblDobl_Complex_Poly_Systems_io 56e37 38|9w6 9r46
+12U13*get 38|630s21
+29U13*put 38|290s5 633s5 645s9
+X 24 dobldobl_system_readers.ads
+5K9*DoblDobl_System_Readers 25e28 38|12w6 628r5
+11U13*Read_System 38|628s29
+X 30 generic_polynomial_systems.ads
+22A8*Poly_Sys(31|28P8[71|4])<76|6I8> 37|21r59[68|5] 25r59[18|5] 29r59[56|5]
+. 38r59[68|5] 42r59[18|5] 46r59[56|5] 55r59[68|5] 62r59[68|5] 68r63[68|5]
+. 72r63[18|5] 76r63[56|5] 38|115r58[68|5] 168r55[68|5] 203r55[18|5] 238r55[56|5]
+. 273r54[68|5] 285r54[18|5] 297r54[56|5] 309r58[68|5] 327r58[18|5] 345r58[56|5]
+. 363r58[68|5] 382r58[18|5] 401r58[56|5] 420r60[68|5] 425r11[68|5] 480r58[68|5]
+. 487r11[68|5] 513r63[68|5] 538r63[18|5] 557r63[56|5]
+23P8*Link_to_Poly_Sys(22A8[68|5]) 38|580r10[68|5] 618r10[18|5] 656r10[56|5]
+29U13*Copy 38|434s17[68|5] 457s15[68|5]
+60U13*Clear 38|434s5[68|5] 457s5[68|5] 457s28[68|5]
+X 31 generic_polynomials.ads
+21P8*Degrees<33|17P8[83|4]> 38|127r53[71|4]
+23R8*Term 38|125r39[71|4]
+25p5*dg{21P8[71|4]} 38|131r20[71|4] 133r25[71|4] 135r27[71|4] 139m54[71|4]
+. 140m11[71|4]
+28P8*Poly 38|123r40[71|4]
+41U13*Copy 38|504s9[71|4]
+48V12*Number_of_Unknowns{80|7I8} 38|486s41[71|4] 532s8[71|4]
+64V12*Degree{76|6I8} 38|153s12[71|4]
+121u13*Changing_Iterator 38|143r34[71|4]
+130U13*Clear 38|504s28[71|4] 507s9[71|4]
+X 33 generic_vectors.ads
+16A8*Vector(80|7I8)<76|6I8> 38|128r45[83|4]
+17P8*Link_to_Vector(16A8[83|4]) 38|139r37[83|4]
+72U13*Clear 38|138s34[83|4]
+X 37 main_reduction.ads
+8K9*Main_Reduction 118l5 118e19 38|18b14 596r5 634r5 672r5 689l5 689t19
+14U13*Display_Info 38|20b13 40l7 40t19 72s23 108s23
+19U13*Linear_Reduction 20>18 21=18 22<18 38|307b13 323l7 323t23 526s19
+20p18 file{12|67P9} 38|308b17 316r14 317r14 321r23 322r19
+21a18 p{30|22A8[68|5]} 38|309b17 319m12 321r28 322r24
+22i18 d{80|7I8} 38|310b17 321m61
+23U13*Linear_Reduction 24>18 25=18 26<18 38|325b13 341l7 341t23 550s19
+24p18 file{12|67P9} 38|326b17 334r14 335r14 339r23 340r19
+25a18 p{30|22A8[18|5]} 38|327b17 337m12 339r28 340r24
+26i18 d{80|7I8} 38|328b17 339m61
+27U13*Linear_Reduction 28>18 29=18 30<18 38|343b13 359l7 359t23 569s19
+28p18 file{12|67P9} 38|344b17 352r14 353r14 357r23 358r19
+29a18 p{30|22A8[56|5]} 38|345b17 355m12 357r28 358r24
+30i18 d{80|7I8} 38|346b17 357m61
+36U13*Sparse_Linear_Reduction 37>18 38=18 39<18 38|361b13 378l7 378t30 527s19
+. 528s19
+37p18 file{12|67P9} 38|362b17 371r14 372r14 376r23 377r19
+38a18 p{30|22A8[68|5]} 38|363b17 374m19 376r28 377r24
+39i18 d{80|7I8} 38|364b17 376m61
+40U13*Sparse_Linear_Reduction 41>18 42=18 43<18 38|380b13 397l7 397t30 551s19
+41p18 file{12|67P9} 38|381b17 390r14 391r14 395r23 396r19
+42a18 p{30|22A8[18|5]} 38|382b17 393m19 395r28 396r24
+43i18 d{80|7I8} 38|383b17 395m61
+44U13*Sparse_Linear_Reduction 45>18 46=18 47<18 38|399b13 416l7 416t30 570s19
+45p18 file{12|67P9} 38|400b17 409r14 410r14 414r23 415r19
+46a18 p{30|22A8[56|5]} 38|401b17 412m19 414r28 415r24
+47i18 d{80|7I8} 38|402b17 414m61
+53U13*Nonlinear_Reduction 54>18 55=18 56<18 38|418b13 477l7 477t26 529s19
+54p18 file{12|67P9} 38|419b19 435r14 436r14 443r9 444r9 444r34 445r9 446r9
+. 446r34 447r9 448r9 448r34 460r9 460r43 461r29 463r14 464r14 465r9 466r9
+. 466r34 467r9 468r9 468r34 469r9 470r9 470r34 471r14 472r14 473r9 474r14
+. 475r17 476r14
+55a18 p{30|22A8[68|5]} 38|420b19 425r20 433m17 434r22 454r12 457m11 457m24
+. 458r23 473r14 473r23
+56i18 d{80|7I8} 38|421b19 462m5
+61U13*Overconstrained_Reduction 62=18 38|479b13 510l7 510t32 533s11
+62a18 p{30|22A8[68|5]} 38|480b17 485r31 486r60 486r62 498r40 499r41 504m21
+. 504r21 507m15 507r15
+67U13*Reduce 67>22 68=22 69<22 69>41 70>22 38|512b13 535l7 535t13 596s20
+67p22 file{12|67P9} 38|512b22 526r36 527r43 528r43 529r39
+68a22 p{30|22A8[68|5]} 38|513b22 517r41 526m41 527m48 528m48 529m44 532r27
+. 532r29 533m37
+69i22 d{80|7I8} 38|514b22 526m43 527m50 528m50 529m46
+69b41 exit_option{boolean} 38|514b41 524r18
+70i22 verbose{76|6I8} 38|515b22 521r8
+71U13*Reduce 71>22 72=22 73<22 73>41 74>22 38|537b13 554l7 554t13 634s20
+71p22 file{12|67P9} 38|537b22 550r36 551r43
+72a22 p{30|22A8[18|5]} 38|538b22 550m41 551m48
+73i22 d{80|7I8} 38|539b22 550m43 551m50
+73b41 exit_option{boolean} 38|539b41 548r25
+74i22 verbose{76|6I8} 38|540b22 545r8
+75U13*Reduce 75>22 76=22 77<22 77>41 78>22 38|556b13 573l7 573t13 672s20
+75p22 file{12|67P9} 38|556b22 569r36 570r43
+76a22 p{30|22A8[56|5]} 38|557b22 569m41 570m48
+77i22 d{80|7I8} 38|558b22 569m43 570m50
+77b41 exit_option{boolean} 38|558b41 567r25
+78i22 verbose{76|6I8} 38|559b22 564r8
+94U13*Standard_Main 94>29 94>40 95>29 38|575b13 611l7 611t20
+94a29 infilename{string} 38|575b29 590r48
+94a40 outfilename{string} 38|575b40 594r32
+95i29 verbose{76|6I8} 38|576b29 586r8 587r37
+102U13*DoblDobl_Main 102>29 102>40 103>29 38|613b13 649l7 649t20
+102a29 infilename{string} 38|613b29 628r48
+102a40 outfilename{string} 38|613b40 632r32
+103i29 verbose{76|6I8} 38|614b29 624r8 625r37
+110U13*QuadDobl_Main 110>29 110>40 111>29 38|651b13 687l7 687t20
+110a29 infilename{string} 38|651b29 666r48
+110a40 outfilename{string} 38|651b40 670r32
+111i29 verbose{76|6I8} 38|652b29 662r8 663r37
+X 38 main_reduction.adb
+22a5 i(string) 25m5 26m5 27m5 28m5 29m5 30m5 31m5 32m5 33m5 34m5 35m5 36m5
+. 37r14 38r16
+37i9 k{integer} 38r18
+42U13 Display_Menu 42b13 42>28 42=51 76l7 76t19 524s5
+42b28 exit_opt{boolean} 58r10
+42e51 ans{character} 63m25 69m25 71r10 74r17
+48a5 m(string) 51m5 52m5 53m5 54m5 59r18 60r20 65r21 66r20
+59i13 i{integer} 60r22
+65i13 i{integer} 66r22
+78U13 Linear_Display_Menu 78b13 79>17 79=40 112l7 112t26 548s5 567s5
+79b17 exit_opt{boolean} 94r10
+79e40 ans{character} 99m25 105m25 107r10 110r17
+85a5 m(string) 88m5 89m5 90m5 95r18 96r20 101r21 102r20
+95i13 i{integer} 96r22
+101i13 i{integer} 102r22
+114U13 Rationalize 114b13 115=17 164l7 164t18 433s5
+115a17 p{30|22A8[68|5]} 120r31 153r19 160m23 160r23
+120i5 n{76|6I8} 128r56 150r25 152r19 159r21
+121b5 to_rationalize{boolean} 151m7 154m15 156r23 158r10
+123U15 rationalize 123b15 123=29 123>46 147l9 147t20 160s11
+123p29 p{31|28P8[71|4]} 146m17
+123i46 k{76|6I8} 132r18 134r21
+125U17 rat_term 125b17 125=28 125<45 142l11 142t19 143r52
+125r28 t{31|23R8[71|4]} 131r18 133r23 135r25 139m52 139r52 140m9
+125b45 cont{boolean} 141m9
+127p9 tmp{31|21P8[71|4]} 133r13 135r13 140r17
+131i13 i<long_integer> 132r14 133r17 133r28 134r17 135r17 135r30
+143U17 rat_terms[31|121] 146s7
+150i9 i<long_integer> 153r24 160r28
+152i11 j<long_integer> 153r21
+159i13 j<long_integer> 160r25
+166U13 Write_Diagnostics 166b13 167>18 168>18 169>18 169>27 169>40 170<18
+. 199l7 199t24 321s5 376s5
+167p18 file{12|67P9} 181r18 185r13 186r18 189r13 191r23 192r33 197r16
+168a18 p{30|22A8[68|5]} 190r27
+169b18 diagonal{boolean} 178r12
+169b27 inconsistent{boolean} 179r10
+169b40 infinite{boolean} 182r13
+170i18 d{80|7I8} 193m9
+175i5 b{80|7I8} 190m9 191r13 191r28 193r14
+201U13 Write_Diagnostics 201b13 202>18 203>18 204>18 204>27 204>40 205<18
+. 234l7 234t24 339s5 395s5
+202p18 file{12|67P9} 216r18 220r13 221r18 224r13 226r23 227r33 232r16
+203a18 p{30|22A8[18|5]} 225r27
+204b18 diagonal{boolean} 213r12
+204b27 inconsistent{boolean} 214r10
+204b40 infinite{boolean} 217r13
+205i18 d{80|7I8} 228m9
+210i5 b{80|7I8} 225m9 226r13 226r28 228r14
+236U13 Write_Diagnostics 236b13 237>18 238>18 239>18 239>27 239>40 240<18
+. 269l7 269t24 357s5 414s5
+237p18 file{12|67P9} 251r18 255r13 256r18 259r13 261r23 262r33 267r16
+238a18 p{30|22A8[56|5]} 260r27
+239b18 diagonal{boolean} 248r12
+239b27 inconsistent{boolean} 249r10
+239b40 infinite{boolean} 252r13
+240i18 d{80|7I8} 263m9
+245i5 b{80|7I8} 260m9 261r13 261r28 263r14
+271U13 Write_Results 271b13 272>17 273>17 274>17 274>43 281l7 281t20 322s5
+. 377s5
+272p17 file{12|67P9} 276r14 277r14 278r9 279r14 280r17
+273a17 p{30|22A8[68|5]} 278r24 278r32
+274p17 timer{108|16P8} 280r22
+274a43 banner{string} 280r28
+283U13 Write_Results 283b13 284>17 285>17 286>17 286>43 293l7 293t20 340s5
+. 396s5
+284p17 file{12|67P9} 288r14 289r14 290r9 291r14 292r17
+285a17 p{30|22A8[18|5]} 290r24 290r32
+286p17 timer{108|16P8} 292r22
+286a43 banner{string} 292r28
+295U13 Write_Results 295b13 296>17 297>17 298>17 298>43 305l7 305t20 358s5
+. 415s5
+296p17 file{12|67P9} 300r14 301r14 302r9 303r14 304r17
+297a17 p{30|22A8[56|5]} 302r24 302r32
+298p17 timer{108|16P8} 304r22
+298a43 banner{string} 304r28
+312p5 timer{108|16P8} 318m12 318r12 320m11 320r11 322r26
+313b5 diagonal{boolean} 319m14 319r14 321r30
+313b14 inconsistent{boolean} 319m23 319r23 321r39
+313b27 infinite{boolean} 319m36 319r36 321r52
+330p5 timer{108|16P8} 336m12 336r12 338m11 338r11 340r26
+331b5 diagonal{boolean} 337m14 337r14 339r30
+331b14 inconsistent{boolean} 337m23 337r23 339r39
+331b27 infinite{boolean} 337m36 337r36 339r52
+348p5 timer{108|16P8} 354m12 354r12 356m11 356r11 358r26
+349b5 diagonal{boolean} 355m14 355r14 357r30
+349b14 inconsistent{boolean} 355m23 355r23 357r39
+349b27 infinite{boolean} 355m36 355r36 357r52
+366p5 timer{108|16P8} 373m12 373r12 375m11 375r11 377r26
+367b5 diagonal{boolean} 376r30
+368b5 inconsistent{boolean} 374m21 374r21 376r39
+368b18 infinite{boolean} 374m34 374r34 376r52
+385p5 timer{108|16P8} 392m12 392r12 394m11 394r11 396r26
+386b5 diagonal{boolean} 395r30
+387b5 inconsistent{boolean} 393m21 393r21 395r39
+387b18 infinite{boolean} 393m34 393r34 395r52
+404p5 timer{108|16P8} 411m12 411r12 413m11 413r11 415r26
+405b5 diagonal{boolean} 414r30
+406b5 inconsistent{boolean} 412m21 412r21 414r39
+406b18 infinite{boolean} 412m34 412r34 414r52
+425a5 res{30|22A8[68|5]} 434m11 434r11 434m24 434r24 454m14 454r14 457r20
+. 457m34 457r34
+427i5 cnt_eq{80|7I8} 438m27 454m18 454r18 466r14
+427i12 cnt_sp{80|7I8} 440m27 454m32 454r32 468r14
+427i19 cnt_rp{80|7I8} 442m27 454m46 454r46 470r14
+427i26 max_eq{80|7I8} 438m18 444r14 454r25
+427i33 max_sp{80|7I8} 440m18 446r14 454r39
+427i40 max_rp{80|7I8} 442m18 448r14 454r53
+429p5 timer{108|16P8} 450m12 450r12 456m11 456r11 475r22
+430i5 b{80|7I8} 458m5 459r38 460r48 462r10
+484e5 ans{character} 496m21 497r10 502r8
+485i5 n{76|6I8} 506r21
+486i5 m{76|6I8} 487r23 503r19 506r16
+487a5 res{30|22A8[68|5]} 498m19 499m19 504r14 504m34 504r34
+503i11 i<long_integer> 504r18 504r23 504r38
+506i11 i<long_integer> 507r17
+517i5 n{80|7I8} 532r41
+518e5 ans{character} 524m30 524r30 525r10
+542e5 ans{character} 548m37 548r37 549r10
+561e5 ans{character} 567m37 567r37 568r10
+580p5 lp{30|23P8[68|5]} 590m59 590r59 591r8 592m25 592r25 595r27 595r36 596r35
+. 607r31 607r40
+581p5 infile{12|67P9} 590m41 590r41
+581p12 outfile{12|67P9} 594m24 594r24 595r9 595r54 596r27 597m11 597r11
+582i5 d{80|7I8} 596m42
+583e5 ans{character} 600m19 601r8
+603p9 redfile{12|67P9} 606m35 606r35 607r13 608m15 608r15
+618p5 lp{30|23P8[18|5]} 628m59 628r59 629r8 630m25 630r25 633r27 633r36 634r35
+. 645r31 645r40
+619p5 infile{12|67P9} 628m41 628r41
+619p12 outfile{12|67P9} 632m24 632r24 633r9 633r54 634r27 635m11 635r11
+620i5 d{80|7I8} 634m42
+621e5 ans{character} 638m19 639r8
+641p9 redfile{12|67P9} 644m35 644r35 645r13 646m15 646r15
+656p5 lp{30|23P8[56|5]} 666m59 666r59 667r8 668m25 668r25 671r27 671r36 672r35
+. 683r31 683r40
+657p5 infile{12|67P9} 666m41 666r41
+657p12 outfile{12|67P9} 670m24 670r24 671r9 671r54 672r27 673m11 673r11
+658i5 d{80|7I8} 672m42
+659e5 ans{character} 676m19 677r8
+679p9 redfile{12|67P9} 682m35 682r35 683r13 684m15 684r15
+X 49 numbers_io.ads
+7K9*Numbers_io 38|3w6 3r46 49|40e15
+14U13*Read_Natural 38|438s5 440s5 442s5
+X 56 quaddobl_complex_poly_systems.ads
+5K9*QuadDobl_Complex_Poly_Systems[30|12] 37|6w6 29r29 46r29 76r33 38|238r25
+. 297r24 345r28 401r28 557r33 654r9
+X 57 quaddobl_complex_poly_systems_io.ads
+6K9*QuadDobl_Complex_Poly_Systems_io 38|10w6 10r46 57|56e37
+12U13*get 38|668s21
+29U13*put 38|302s5 671s5 683s9
+X 62 quaddobl_system_readers.ads
+5K9*QuadDobl_System_Readers 38|13w6 666r5 62|25e28
+11U13*Read_System 38|666s29
+X 63 reduction_of_nonsquare_systems.ads
+3K9*Reduction_of_Nonsquare_Systems 38|16w6 16r46 63|27e35
+9V12*Random_Square{30|22A8[68|5]} 38|498s26
+17V12*Reduced_Square{30|22A8[68|5]} 38|499s26
+X 64 reduction_of_polynomial_systems.ads
+7K9*Reduction_of_Polynomial_Systems 38|15w6 15r46 64|83e36
+12U13*Reduce 38|319s5
+14U13*Reduce 38|337s5
+16U13*Reduce 38|355s5
+34U13*Sparse_Reduce 38|374s5
+36U13*Sparse_Reduce 38|393s5
+38U13*Sparse_Reduce 38|412s5
+45U13*Reduce 38|454s5
+X 68 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[30|12] 37|4w6 21r29 38r29 55r29 62r29 68r33
+. 38|115r28 168r25 273r24 309r28 363r28 420r30 423r9 480r28 482r9 513r33
+. 578r9
+X 69 standard_complex_poly_systems_io.ads
+6K9*Standard_Complex_Poly_Systems_io 38|8w6 8r46 69|130e37
+38U13*get 38|592s21
+53U13*put 38|278s5 473s5 595s5 607s9
+X 71 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[31|11] 38|7w6 7r46 127r24
+X 76 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 37|3w6 3r46 76|45e29
+6I8*integer32<long_integer> 37|70r35 74r35 78r35 95r42 103r42 111r42 38|120r18
+. 123r53 485r18 486r18 486r31 515r35 540r35 559r35 576r42 614r42 652r42
+X 77 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 38|5w6 5r46 77|47e32
+26U13*put 38|587s33 625s33 663s33
+X 80 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 37|2w6 2r46 80|30e29
+7I8*natural32<long_integer> 37|22r26 26r26 30r26 39r26 43r26 47r26 56r26
+. 69r30 73r30 77r30 38|170r26 175r9 205r26 210r9 240r26 245r9 278r14 290r14
+. 302r14 310r25 328r25 346r25 364r25 383r25 402r25 421r27 427r49 430r9 514r30
+. 517r18 517r31 539r30 558r30 582r9 595r17 607r21 620r9 633r17 645r21 658r9
+. 671r17 683r21
+X 81 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 38|4w6 4r46 81|35e32
+25U13*put 38|191s9 226s9 261s9 459s34
+26U13*put 38|191s19 226s19 261s19 444s5 446s5 448s5 460s39 466s5 468s5 470s5
+X 83 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[33|8] 38|6w6 128r20 138r9 139r12
+X 84 standard_system_readers.ads
+5K9*Standard_System_Readers 38|11w6 590r5 84|25e28
+11U13*Read_System 38|590s29
+X 107 text_io.ads
+27K9*Text_IO=27:29 37|1w6 1r46
+X 108 timing_package.ads
+3K9*Timing_Package 38|2w6 2r46 108|66e19
+16P8*Timing_Widget 38|274r28 286r28 298r28 312r13 330r13 348r13 366r13 385r13
+. 404r13 429r13
+20U13*tstart 38|318s5 336s5 354s5 373s5 392s5 411s5 450s5
+24U13*tstop 38|320s5 338s5 356s5 375s5 394s5 413s5 456s5
+49U13*print_times 38|280s5 292s5 304s5 475s5
+X 109 total_degree_start_systems.ads
+17K9*Total_Degree_Start_Systems 38|14w6 14r46 109|214e31
+46V12*Total_Degree{80|7I8} 38|190s14 458s10
+48V12*Total_Degree{80|7I8} 38|225s14
+50V12*Total_Degree{80|7I8} 38|260s14
+

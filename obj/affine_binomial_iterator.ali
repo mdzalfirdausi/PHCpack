@@ -1,0 +1,207 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U affine_binomial_iterator%b  affine_binomial_iterator.adb  3ad332d4 NE OO PK
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+
+U affine_binomial_iterator%s  affine_binomial_iterator.ads  68d5941a BN EE NE OO PK
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D affine_binomial_iterator.ads  20260513024558 0fbe36fc affine_binomial_iterator%s
+D affine_binomial_iterator.adb  20260513024558 02a48316 affine_binomial_iterator%b
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [initialize_subsets affine_binomial_iterator 13 13 none]
+G c Z s b [initialize_iterator affine_binomial_iterator 20 13 none]
+G c Z s b [set_to_zero affine_binomial_iterator 29 12 none]
+G c Z s b [all_set_to_zero affine_binomial_iterator 46 12 none]
+G c Z s b [set_nonzero affine_binomial_iterator 54 12 none]
+G c Z s b [update_present_variables affine_binomial_iterator 71 13 none]
+G c Z s b [next_subset affine_binomial_iterator 122 13 none]
+G c Z s b [next_selection affine_binomial_iterator 138 13 none]
+G c Z s b [clear_subsets affine_binomial_iterator 170 13 none]
+G c Z s b [clear_iterator affine_binomial_iterator 175 13 none]
+G r s vecvec [initialize_subsets affine_binomial_iterator 13 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r s vecvec [initialize_iterator affine_binomial_iterator 20 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [clear_subsets affine_binomial_iterator 170 13 none] [deep_clear standard_integer_vecvecs 36 13 5_1]
+G r c none [clear_subsets affine_binomial_iterator 170 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [clear_iterator affine_binomial_iterator 175 13 none] [clear standard_integer_matrices 67 13 5_1]
+G r c none [clear_iterator affine_binomial_iterator 175 13 none] [deep_clear standard_integer_vecvecs 36 13 5_1]
+G r c none [clear_iterator affine_binomial_iterator 175 13 none] [clear standard_integer_vectors 72 13 4_1]
+X 2 affine_binomial_iterator.ads
+6K9*Affine_Binomial_Iterator 180l5 180e29 3|3b14 415l5 415t29
+13U13*Initialize_Subsets 13>34 13>36 3|20b13 35l7 35t25
+13i34 n{8|6I8} 3|20b34 26r28 28r58 30r63 32r68
+13i36 max{8|6I8} 3|20b36 27r27
+20U13*Initialize_Iterator 21>17 22>17 3|37b13 66l7 66t26
+21a17 A{4|16A8[7|5]} 3|38b17 47r40 50r28 51r28 53r63 57r61 58r61
+22i17 max{8|6I8} 3|39b17 52r27
+29V12*Set_to_Zero{boolean} 30>17 30>55 31>17 3|68b12 78l7 78t18 85s14 145s13
+. 150s18 336s16 375s12
+30a17 A{4|16A8[7|5]} 3|69b16 72r14 73r10
+30i55 i{8|6I8} 3|69b54 73r12
+31a17 s{5|16A8[10|4]} 3|70b16 73r25
+46V12*All_Set_to_Zero{boolean} 47>16 48>16 3|80b12 90l7 90t22
+47a16 A{4|16A8[7|5]} 3|81b16 84r14 85r26
+48a16 s{5|16A8[10|4]} 3|82b16 85r30
+54V12*Set_Nonzero{boolean} 55>17 55>55 56>17 3|92b12 102l7 102t18 379s15
+55a17 A{4|16A8[7|5]} 3|93b16 96r14 97r10
+55i55 i{8|6I8} 3|93b54 97r12
+56a17 s{5|16A8[10|4]} 3|94b16 97r25
+71U13*Update_Present_Variables 72=17 73>17 73>58 3|104b13 113l7 113t31 159s13
+. 160s13 342s9 343s9
+72a17 s{5|16A8[10|4]} 3|105b17 110m13
+73a17 A{4|16A8[7|5]} 3|106b17 108r14 109r10
+73i58 i{8|6I8} 3|106b58 109r12
+82U20 Report 83>14 84>14 85>14 87>14 88<14 3|143s11
+83a14 setzero{5|16A8[10|4]}
+84i14 cntzero{8|6I8}
+85a14 nonzero{5|16A8[10|4]}
+87i14 cntrest{8|6I8}
+88b14 continue{boolean}
+106u13*Enumerate 107>17 108>17 3|115b13 186l7 186t16
+107a17 A{4|16A8[7|5]} 3|115b25 118r42 118r58 121r42 121r58 139r14 145r25
+. 150r30 159r41 160r41 168r22 169r18 184r10
+108i17 s0_max{8|6I8} 3|116b25 170r29
+122U13*Next_Subset 123<17 124<17 3|188b13 238l7 238t18
+123a17 setzero{5|16A8[10|4]} 3|189b17 205m11 206r14
+124i17 cntzero{8|6I8} 3|190b17 198m11 203m9 207m17 207r28 213m9 217m17 217r28
+. 228r12
+138U13*Next_Selection 139<17 140<17 141<17 142<17 3|256b13 392l7 392t21
+139a17 setzero{5|16A8[10|4]} 3|257b17 277m9 279r12
+140i17 cntzero{8|6I8} 3|258b17 275m7 280m15 280r26 292m7 297m15 297r26 309r10
+. 357m11 391m5
+141a17 nonzero{5|16A8[10|4]} 3|259b17 278m9
+142i17 cntrest{8|6I8} 3|260b17 283m7 357m26
+170U13*Clear_Subsets 3|399b13 403l7 403t20
+175U13*Clear_Iterator 3|405b13 413l7 413t21
+X 3 affine_binomial_iterator.adb
+7p3 incidence_matrix{4|17P8[7|5]} 53m5 311r14 336r28 342r42 343r42 375r24
+. 379r27 407m37 407r37
+8i3 number_of_variables{8|6I8} 26m5 50m5 192r31 263r32
+8i23 number_of_monomials{8|6I8} 51m5 262r32
+9i3 current_level{8|6I8} 33m5 34r26 64m5 65r26 197r8 200r11 201r36 204r29
+. 205r36 210m9 210r26 215r33 222r30 225r22 229m11 229r28 232r24 234r32 276r27
+. 277r34 278r34 283r38 294r34 295r34 300r33 315r28 316r28 318r36 319r35 320m15
+. 320r32 344m9 344r26 345r29 347r22 348r22 350r30 356r8 359r11 360r48 368m11
+. 368r28 378r32 382m11 382r28 386m11 386r28
+10p3 selections{6|15P8[11|5]} 28m5 29r14 30r7 54m5 56r14 57r7 204r18 205r25
+. 215r22 225r11 232r13 276r16 277r23 294r23 315r17 347r11 401m41 401r41 408m41
+. 408r41
+11p3 nonzerovar{6|15P8[11|5]} 55m5 58r7 278r23 295r23 316r17 348r11 409m41
+. 409r41
+12p3 number_of_selections{5|17P8[10|4]} 32m5 34r5 60m5 65r5 201r15 222r9
+. 234r11 318r15 350r9 360r27 378r11 402m36 402r36 410m36 410r36
+13p3 number_of_equations{5|17P8[10|4]} 62m5 283r18 300r13 319r15 345r9 411m36
+. 411r36
+14i3 maximum_selections{8|6I8} 27m5 52m5 228r22 309r20
+29i9 i<long_integer> 30r18
+47i5 stack_size{8|6I8} 54r58 55r58 61r50 63r50
+56i9 i<long_integer> 57r18 58r18
+72i9 k<long_integer> 73r14 73r27
+84i9 i<long_integer> 85r28
+96i9 k<long_integer> 97r14 97r27
+108i9 j<long_integer> 109r14 110r15
+118a5 s0{5|16A8[10|4]} 143r18 145r29 150r36 171m19 173m19
+120i5 s0_cnt{8|6I8} 143r21 170r20 171m31 171r41 173m31 173r41
+121a5 s1{5|16A8[10|4]} 143r28 157r63 157r76 159m38 159r38 160m38 160r38 162m13
+. 169r33
+126i5 eq_cnt{8|6I8} 143r31 152m17 152r27 163m13 163r23
+127b5 skip{boolean} 148m9 151m17 155r12
+128b5 continue{boolean} 143m38 166r12 176r29
+130U15 Enum 130b15 130>22 146s9 161s13 172s19 181l9 181t13 184s5
+130i22 k{8|6I8} 139r10 145r27 146r14 149r12 150r32 159r43 160r43 161r18 169r20
+. 172r24
+157a13 s1back{5|16A8[10|4]} 162r19
+168i17 j<long_integer> 169r22 169r36 171r22 173r22
+192i5 n{8|6I8} 194r47 202r17
+193i5 nbsl{8|6I8} 201m7 202r10 214r21 220m9 220r17 222r48 223r14 224r21 230r16
+. 231r23 234r50
+194a5 accu{5|16A8[10|4]} 215m11 216r14 223m9 225r43 230m11 232r45
+204i13 i<long_integer> 205r19 205r51 206r22
+214i13 i<long_integer> 215r16 215r48 216r19
+224i13 i<long_integer> 225r37 225r48
+231i15 i<long_integer> 232r39 232r50
+262i5 nm{8|6I8} 357r37 364r29
+263i5 nv{8|6I8} 264r50 265r50 310r29
+264a5 s0_accu{5|16A8[10|4]} 293r16 294m9 296r12 313m15 314r24 315r49 321m15
+. 336r68 346r18 347r43 375r62
+265a5 s1_accu{5|16A8[10|4]} 295m9 312r16 316r49 342m34 342r34 343m34 343r34
+. 348r43 379r65
+266i5 current_monomial{8|6I8} 311r31 318r54 335r10 336r49 341r14 360m7 364r10
+. 375r45 378r50 379r48
+266i22 k{8|6I8} 341m9 342r63 343r63 350r48
+266i24 eq{8|6I8} 300m7 319r53 345r47
+267b5 skip{boolean} 334m7 337m15 340r10
+269U15 Assign_Selection 269b15 284l9 284t25 367s11
+276i11 i<long_integer> 277r17 277r49 278r17 278r49 279r20
+286U15 Top_of_Stack 286b15 301l9 301t21 374s9
+293i11 i<long_integer> 294r17 294r49 295r17 295r49 296r20
+303U15 Push_Combinations 303b15 326l9 326t26 385s11
+310i13 j<long_integer> 311r48 312r24 313r23 321r23
+314i19 i<long_integer> 315r43 315r57 316r43 316r57
+328U15 Skip_Binomial 328b15 353l9 353t22 383s11 387s11
+346i13 i<long_integer> 347r37 347r51 348r37 348r51
+X 4 generic_matrices.ads
+16A8*Matrix(8|6I8)<8|6I8><8|6I8> 2|21r50[7|5] 30r47[7|5] 47r46[7|5] 55r47[7|5]
+. 73r50[7|5] 107r50[7|5] 3|38r50[7|5] 53r55[7|5] 69r46[7|5] 81r46[7|5] 93r46[7|5]
+. 106r50[7|5] 115r58[7|5]
+17P8*Link_to_Matrix(16A8[7|5]) 3|7r48[7|5]
+67U13*Clear 3|407s31[7|5]
+X 5 generic_vectors.ads
+16A8*Vector(8|6I8)<8|6I8> 2|31r46[10|4] 48r45[10|4] 56r46[10|4] 72r53[10|4]
+. 83r52[10|4] 85r52[10|4] 123r56[10|4] 139r56[10|4] 141r56[10|4] 3|30r53[10|4]
+. 32r58[10|4] 57r53[10|4] 58r53[10|4] 61r39[10|4] 63r39[10|4] 70r45[10|4]
+. 82r45[10|4] 94r45[10|4] 105r53[10|4] 118r35[10|4] 121r35[10|4] 157r56[10|4]
+. 189r56[10|4] 194r37[10|4] 257r56[10|4] 259r56[10|4] 264r40[10|4] 265r40[10|4]
+17P8*Link_to_Vector(16A8[10|4]) 3|12r51[10|4] 13r50[10|4]
+72U13*Clear 3|402s30[10|4] 410s30[10|4] 411s30[10|4]
+X 6 generic_vecvecs.ads
+14A8*VecVec(5|17P8[10|4])<8|6I8> 3|28r48[11|5] 54r48[11|5] 55r48[11|5]
+15P8*Link_to_VecVec(14A8[11|5]) 3|10r41[11|5] 11r41[11|5]
+36U13*Deep_Clear 3|401s30[11|5] 408s30[11|5] 409s30[11|5]
+X 7 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[4|9] 2|3w6 21r24 30r21 47r20 55r21 73r24 107r24
+. 3|7r22 38r24 53r29 69r20 81r20 93r20 106r24 115r32 407r5
+X 8 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|1w6 1r47 8|45e29
+6I8*integer32<long_integer> 2|13r45 22r26 30r59 55r59 73r65 84r27 87r27 108r29
+. 124r31 140r31 142r31 3|8r45 9r19 14r24 20r45 39r26 47r27 69r58 93r58 106r65
+. 116r37 120r14 126r14 130r29 190r31 192r18 193r12 258r31 260r31 262r19 263r19
+. 266r29
+X 10 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[5|8] 2|2w6 31r21 48r20 56r21 72r28 83r27 85r27
+. 123r31 139r31 141r31 3|12r26 13r25 30r28 32r33 57r28 58r28 61r14 63r14
+. 70r20 82r20 94r20 105r28 118r10 121r10 157r31 189r31 194r12 257r31 259r31
+. 264r15 265r15 402r5 410r5 411r5
+X 11 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[6|10] 3|1w6 10r16 11r16 28r23 54r23 55r23 401r5
+. 408r5 409r5
+

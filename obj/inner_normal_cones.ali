@@ -1,0 +1,656 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U inner_normal_cones%b	inner_normal_cones.adb	94342d38 NE OO PK
+W integer32_vectors_utilities%s  integer32_vectors_utilities.adb  integer32_vectors_utilities.ali
+W lists_of_vectors32_utilities%s  lists_of_vectors32_utilities.adb  lists_of_vectors32_utilities.ali
+W standard_integer32_transformations%s  standard_integer32_transformations.adb  standard_integer32_transformations.ali
+W standard_integer32_vertices%s  standard_integer32_vertices.adb  standard_integer32_vertices.ali
+W standard_integer_linear_solvers%s  standard_integer_linear_solvers.ads  standard_integer_linear_solvers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W transforming_integer32_vector_lists%s  transforming_integer32_vector_lists.adb  transforming_integer32_vector_lists.ali
+
+U inner_normal_cones%s	inner_normal_cones.ads	b0f2345e EE NE OO PK
+W integer_faces_of_polytope%s  integer_faces_of_polytope.adb  integer_faces_of_polytope.ali
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D inner_normal_cones.ads  20260513024558 011d01c2 inner_normal_cones%s
+D inner_normal_cones.adb  20260513024558 9a8b40d3 inner_normal_cones%b
+D integer32_vectors_utilities.ads  20260513024558 12c1da98 integer32_vectors_utilities%s
+D integer_faces_of_polytope.ads  20260513024558 db5070e9 integer_faces_of_polytope%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D lists_of_vectors32_utilities.ads  20260513024558 d5068cc9 lists_of_vectors32_utilities%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer32_transformations.ads  20260513024558 e2914cd8 standard_integer32_transformations%s
+D standard_integer32_vertices.ads  20260513024558 d2ef5e9b standard_integer32_vertices%s
+D standard_integer_linear_solvers.ads  20260513024558 34df0966 standard_integer_linear_solvers%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D transforming_integer32_vector_lists.ads  20260513024558 cdb3408c transforming_integer32_vector_lists%s
+G a e
+G c Z s b [generators inner_normal_cones 19 12 none]
+G c Z s b [generators inner_normal_cones 27 12 none]
+G c Z s b [inner_normal_cone inner_normal_cones 35 12 none]
+G c Z s b [included_normal_cone inner_normal_cones 44 12 none]
+G c Z s b [evaluate inner_normal_cones 60 12 none]
+G c Z s b [satisfies inner_normal_cones 65 12 none]
+G c Z s b [strictly_satisfies inner_normal_cones 66 12 none]
+G c Z s b [satisfies inner_normal_cones 74 12 none]
+G c Z s b [strictly_satisfies inner_normal_cones 75 12 none]
+G c Z s b [satisfies inner_normal_cones 80 12 none]
+G c Z s b [strictly_satisfies inner_normal_cones 81 12 none]
+G c Z s b [satisfy inner_normal_cones 88 12 none]
+G c Z s b [strictly_satisfy inner_normal_cones 89 12 none]
+G c Z s b [contained_in_cone inner_normal_cones 95 12 none]
+G c Z s b [strictly_contained_in_cone inner_normal_cones 96 12 none]
+G c Z s b [contained_in_cone inner_normal_cones 103 12 none]
+G c Z s b [strictly_contained_in_cone inner_normal_cones 104 12 none]
+G c Z s b [in_union inner_normal_cones 112 12 none]
+G c Z s b [in_union inner_normal_cones 121 12 none]
+G c Z b b [lower inner_normal_cones 21 12 none]
+G c Z b b [higher inner_normal_cones 35 12 none]
+G c Z b b [compute_facets inner_normal_cones 49 12 none]
+G c Z b b [shifted_points inner_normal_cones 74 13 none]
+G c Z b b [in_hull inner_normal_cones 90 12 none]
+G c Z b b [normal inner_normal_cones 109 13 none]
+G c Z b b [orientate_normal inner_normal_cones 125 13 none]
+G c Z b b [inner_normal inner_normal_cones 155 12 none]
+G c Z b b [inner_normals inner_normal_cones 175 13 none]
+G c Z b b [number_of_rows inner_normal_cones 200 12 none]
+G c Z b b [normal inner_normal_cones 217 12 none]
+G c Z b b [normals inner_normal_cones 249 13 none]
+G r c none [generators inner_normal_cones 19 12 none] [length_of integer_faces_of_polytope__lists_of_faces 67 12 20_3]
+G r c none [generators inner_normal_cones 19 12 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [generators inner_normal_cones 19 12 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [generators inner_normal_cones 19 12 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [generators inner_normal_cones 19 12 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [generators inner_normal_cones 19 12 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [generators inner_normal_cones 19 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [generators inner_normal_cones 19 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [generators inner_normal_cones 19 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [generators inner_normal_cones 19 12 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [Osubtract standard_integer_vectors 33 12 4_1]
+G r c none [generators inner_normal_cones 19 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [generators inner_normal_cones 19 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [generators inner_normal_cones 19 12 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [generators inner_normal_cones 19 12 none] [copy lists_of_integer_vectors 39 13 6_1]
+G r c none [generators inner_normal_cones 19 12 none] [remove lists_of_integer_vectors 93 13 6_1]
+G r c none [generators inner_normal_cones 19 12 none] [is_in_hull standard_integer32_vertices 15 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r c none [generators inner_normal_cones 19 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [generators inner_normal_cones 19 12 none] [pivot integer32_vectors_utilities 10 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [build_transfo standard_integer32_transformations 49 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [Omultiply standard_integer32_transformations 101 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [reduce integer32_vectors_utilities 17 13 none]
+G r c none [generators inner_normal_cones 19 12 none] [transpose standard_integer32_transformations 73 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [transform_and_reduce transforming_integer32_vector_lists 44 13 none]
+G r c none [generators inner_normal_cones 19 12 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [generators inner_normal_cones 19 12 none] [create integer_faces_of_polytope 28 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [generators inner_normal_cones 19 12 none] [insert_and_transform transforming_integer32_vector_lists 55 13 none]
+G r c none [generators inner_normal_cones 19 12 none] [pointer_to_last lists_of_vectors32_utilities 21 12 none]
+G r c none [generators inner_normal_cones 19 12 none] [clear standard_integer32_transformations 113 13 none]
+G r c none [generators inner_normal_cones 19 12 none] [deep_clear lists_of_integer_vectors 109 13 6_1]
+G r c none [generators inner_normal_cones 19 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [generators inner_normal_cones 19 12 none] [append_diff lists_of_integer_vectors 71 13 6_1]
+G r c none [generators inner_normal_cones 27 12 none] [copy lists_of_integer_vectors 39 13 6_1]
+G r c none [generators inner_normal_cones 27 12 none] [remove lists_of_integer_vectors 93 13 6_1]
+G r c none [generators inner_normal_cones 27 12 none] [is_in_hull standard_integer32_vertices 15 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r c none [generators inner_normal_cones 27 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [generators inner_normal_cones 27 12 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [generators inner_normal_cones 27 12 none] [create integer_faces_of_polytope 28 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [generators inner_normal_cones 27 12 none] [length_of integer_faces_of_polytope__lists_of_faces 67 12 20_3]
+G r c none [generators inner_normal_cones 27 12 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [generators inner_normal_cones 27 12 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [generators inner_normal_cones 27 12 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [generators inner_normal_cones 27 12 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [generators inner_normal_cones 27 12 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [generators inner_normal_cones 27 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [generators inner_normal_cones 27 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [generators inner_normal_cones 27 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [generators inner_normal_cones 27 12 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [Osubtract standard_integer_vectors 33 12 4_1]
+G r c none [generators inner_normal_cones 27 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [generators inner_normal_cones 27 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [generators inner_normal_cones 27 12 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [generators inner_normal_cones 27 12 none] [pivot integer32_vectors_utilities 10 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [build_transfo standard_integer32_transformations 49 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [Omultiply standard_integer32_transformations 101 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [reduce integer32_vectors_utilities 17 13 none]
+G r c none [generators inner_normal_cones 27 12 none] [transpose standard_integer32_transformations 73 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [transform_and_reduce transforming_integer32_vector_lists 44 13 none]
+G r c none [generators inner_normal_cones 27 12 none] [insert_and_transform transforming_integer32_vector_lists 55 13 none]
+G r c none [generators inner_normal_cones 27 12 none] [pointer_to_last lists_of_vectors32_utilities 21 12 none]
+G r c none [generators inner_normal_cones 27 12 none] [clear standard_integer32_transformations 113 13 none]
+G r c none [generators inner_normal_cones 27 12 none] [deep_clear lists_of_integer_vectors 109 13 6_1]
+G r c none [generators inner_normal_cones 27 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [generators inner_normal_cones 27 12 none] [append_diff lists_of_integer_vectors 71 13 6_1]
+G r c none [inner_normal_cone inner_normal_cones 35 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [inner_normal_cone inner_normal_cones 35 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [inner_normal_cone inner_normal_cones 35 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [inner_normal_cone inner_normal_cones 35 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [inner_normal_cone inner_normal_cones 35 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [included_normal_cone inner_normal_cones 44 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [included_normal_cone inner_normal_cones 44 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [included_normal_cone inner_normal_cones 44 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [included_normal_cone inner_normal_cones 44 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [satisfies inner_normal_cones 80 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [satisfies inner_normal_cones 80 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [satisfies inner_normal_cones 80 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [strictly_satisfies inner_normal_cones 81 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [strictly_satisfies inner_normal_cones 81 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [strictly_satisfies inner_normal_cones 81 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [satisfy inner_normal_cones 88 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [satisfy inner_normal_cones 88 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [satisfy inner_normal_cones 88 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [satisfy inner_normal_cones 88 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [strictly_satisfy inner_normal_cones 89 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [strictly_satisfy inner_normal_cones 89 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [strictly_satisfy inner_normal_cones 89 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [strictly_satisfy inner_normal_cones 89 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 95 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 95 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 95 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 95 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [contained_in_cone inner_normal_cones 95 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 96 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 96 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 96 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 96 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 96 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 103 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 103 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 103 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [contained_in_cone inner_normal_cones 103 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [contained_in_cone inner_normal_cones 103 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 104 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 104 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 104 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 104 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [strictly_contained_in_cone inner_normal_cones 104 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [in_union inner_normal_cones 112 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [in_union inner_normal_cones 121 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [in_union inner_normal_cones 121 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [in_union inner_normal_cones 121 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [in_union inner_normal_cones 121 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [compute_facets inner_normal_cones 49 12 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [compute_facets inner_normal_cones 49 12 none] [create integer_faces_of_polytope 28 12 none]
+G r c none [compute_facets inner_normal_cones 49 12 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [shifted_points inner_normal_cones 74 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [shifted_points inner_normal_cones 74 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [shifted_points inner_normal_cones 74 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [shifted_points inner_normal_cones 74 13 none] [append_diff lists_of_integer_vectors 71 13 6_1]
+G r c none [shifted_points inner_normal_cones 74 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [in_hull inner_normal_cones 90 12 none] [copy lists_of_integer_vectors 39 13 6_1]
+G r c none [in_hull inner_normal_cones 90 12 none] [remove lists_of_integer_vectors 93 13 6_1]
+G r c none [in_hull inner_normal_cones 90 12 none] [is_in_hull standard_integer32_vertices 15 12 none]
+G r c none [in_hull inner_normal_cones 90 12 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r c none [normal inner_normal_cones 109 13 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [normal inner_normal_cones 109 13 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [normal inner_normal_cones 109 13 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [orientate_normal inner_normal_cones 125 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [orientate_normal inner_normal_cones 125 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [orientate_normal inner_normal_cones 125 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [orientate_normal inner_normal_cones 125 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [orientate_normal inner_normal_cones 125 13 none] [Osubtract standard_integer_vectors 33 12 4_1]
+G r c none [orientate_normal inner_normal_cones 125 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [inner_normal inner_normal_cones 155 12 none] [Osubtract standard_integer_vectors 33 12 4_1]
+G r c none [inner_normal inner_normal_cones 155 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [inner_normals inner_normal_cones 175 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [inner_normals inner_normal_cones 175 13 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [inner_normals inner_normal_cones 175 13 none] [Osubtract standard_integer_vectors 33 12 4_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [inner_normals inner_normal_cones 175 13 none] [length_of integer_faces_of_polytope__lists_of_faces 67 12 20_3]
+G r c none [inner_normals inner_normal_cones 175 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [number_of_rows inner_normal_cones 200 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [number_of_rows inner_normal_cones 200 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [normal inner_normal_cones 217 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [normal inner_normal_cones 217 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [normal inner_normal_cones 217 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [normal inner_normal_cones 217 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [normal inner_normal_cones 217 12 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [normal inner_normal_cones 217 12 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [normal inner_normal_cones 217 12 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [normals inner_normal_cones 249 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [normals inner_normal_cones 249 13 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [normals inner_normal_cones 249 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [normals inner_normal_cones 249 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [normals inner_normal_cones 249 13 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [normals inner_normal_cones 249 13 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [normals inner_normal_cones 249 13 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [normals inner_normal_cones 249 13 none] [pivot integer32_vectors_utilities 10 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [Osubtract standard_integer_vectors 33 12 4_1]
+G r c none [normals inner_normal_cones 249 13 none] [build_transfo standard_integer32_transformations 49 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [Omultiply standard_integer32_transformations 101 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [reduce integer32_vectors_utilities 17 13 none]
+G r c none [normals inner_normal_cones 249 13 none] [transpose standard_integer32_transformations 73 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [transform_and_reduce transforming_integer32_vector_lists 44 13 none]
+G r c none [normals inner_normal_cones 249 13 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [normals inner_normal_cones 249 13 none] [create integer_faces_of_polytope 28 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [normals inner_normal_cones 249 13 none] [length_of integer_faces_of_polytope__lists_of_faces 67 12 20_3]
+G r c none [normals inner_normal_cones 249 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [normals inner_normal_cones 249 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [normals inner_normal_cones 249 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [normals inner_normal_cones 249 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [normals inner_normal_cones 249 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [normals inner_normal_cones 249 13 none] [insert_and_transform transforming_integer32_vector_lists 55 13 none]
+G r c none [normals inner_normal_cones 249 13 none] [pointer_to_last lists_of_vectors32_utilities 21 12 none]
+G r c none [normals inner_normal_cones 249 13 none] [clear standard_integer32_transformations 113 13 none]
+G r c none [normals inner_normal_cones 249 13 none] [deep_clear lists_of_integer_vectors 109 13 6_1]
+X 12 generic_integer_linear_solvers.ads
+26U13*Scale 20|119s27[36|8]
+41U13*Upper_Triangulate 20|119s5[36|8]
+144U13*Solve0 20|121s5[36|8]
+X 13 generic_lists.ads
+12P8*List
+26U13*Construct 20|67s9[14|21[25|6]]
+67V12*Length_Of{43|7I8} 20|192s12[22|20] 208s41[14|21[25|6]] 274s14[14|21[25|6]]
+. 280s18[22|20] 302s8[22|20] 308s10[14|21[25|6]] 331s10[14|21[25|6]] 334s10[22|20]
+. 338s12[14|21[25|6]] 356s43[14|21[25|6]] 378s43[14|21[25|6]] 510s49[14|21[25|6]]
+. 520s49[14|21[25|6]]
+72V12*Is_Null{boolean} 20|84s15[14|21[25|6]] 139s15[14|21[25|6]] 187s15[22|20]
+. 232s15[14|21[25|6]] 363s15[14|21[25|6]] 452s15[14|21[25|6]] 466s15[14|21[25|6]]
+. 483s15[14|21[25|6]] 498s15[14|21[25|6]] 532s15[14|21[25|6]] 547s15[14|21[25|6]]
+. 602s15[14|21[25|6]] 604s17[14|21[25|6]]
+77V12*Head_Of{16|17P8[41|4]} 20|85s32[14|21[25|6]] 134s17[14|21[25|6]] 140s13[14|21[25|6]]
+. 189s47[22|20] 207s31[14|21[25|6]] 225s38[14|21[25|6]] 233s14[14|21[25|6]]
+. 364s12[14|21[25|6]] 385s12[14|21[25|6]] 453s26[14|21[25|6]] 467s35[14|21[25|6]]
+. 484s22[14|21[25|6]] 485s33[14|21[25|6]] 499s31[14|21[25|6]] 500s33[14|21[25|6]]
+. 533s30[14|21[25|6]] 548s39[14|21[25|6]] 605s25[14|21[25|6]] 605s44[14|21[25|6]]
+84V12*Tail_Of{12P8[14|21[25|6]]} 20|86s14[14|21[25|6]] 151s14[14|21[25|6]]
+. 196s14[22|20] 229s19[14|21[25|6]] 238s14[14|21[25|6]] 371s14[14|21[25|6]]
+. 390s14[14|21[25|6]] 455s20[14|21[25|6]] 469s20[14|21[25|6]] 487s14[14|21[25|6]]
+. 502s14[14|21[25|6]] 536s20[14|21[25|6]] 550s20[14|21[25|6]] 607s24[14|21[25|6]]
+. 610s16[14|21[25|6]]
+93U13*Clear 20|103s5[14|21[25|6]]
+X 14 generic_lists_of_vectors.ads
+22P8*List<13|12P8[21[25|6]]> 19|19r29[25|6] 19r71[25|6] 27r29[25|6] 27r55[25|6]
+. 35r36[25|6] 44r40[25|6] 80r40[25|6] 81r49[25|6] 88r38[25|6] 88r52[25|6]
+. 89r47[25|6] 89r61[25|6] 95r36[25|6] 95r58[25|6] 96r45[25|6] 96r67[25|6]
+. 103r38[25|6] 104r47[25|6] 121r31[25|6] 20|49r33[25|6] 63r15[25|6] 74r37[25|6]
+. 75r52[25|6] 80r11[25|6] 90r26[25|6] 97r10[25|6] 125r39[25|6] 132r11[25|6]
+. 155r31[25|6] 175r36[25|6] 176r49[25|6] 200r33[25|6] 217r25[25|6] 229r11[25|6]
+. 249r30[25|6] 249r71[25|6] 272r16[25|6] 297r29[25|6] 297r71[25|6] 299r20[25|6]
+. 321r29[25|6] 321r55[25|6] 323r20[25|6] 354r36[25|6] 360r11[25|6] 376r40[25|6]
+. 380r11[25|6] 447r40[25|6] 449r11[25|6] 461r49[25|6] 463r11[25|6] 477r38[25|6]
+. 477r52[25|6] 479r24[25|6] 492r47[25|6] 492r61[25|6] 494r24[25|6] 507r36[25|6]
+. 507r58[25|6] 517r45[25|6] 517r67[25|6] 527r38[25|6] 529r11[25|6] 542r47[25|6]
+. 544r11[25|6] 596r31[25|6] 598r19[25|6]
+39U13*Copy<13|55p13> 20|100s5[25|6]
+52V12*Is_In{boolean} 20|59s8[25|6]
+65U13*Append 20|191s9[25|6] 193s15[25|6] 291s7[25|6] 291s31[25|6] 485s13[25|6]
+. 500s13[25|6]
+71U13*Append_Diff 20|85s7[25|6]
+93U13*Remove 20|101s5[25|6]
+109U13*Deep_Clear 20|288s21[25|6]
+X 15 generic_matrices.ads
+16A8*Matrix(38|6I8)<38|6I8><38|6I8> 19|35r62[37|5] 44r66[37|5] 60r27[37|5]
+. 65r28[37|5] 66r37[37|5] 74r28[37|5] 75r37[37|5] 80r28[37|5] 81r37[37|5]
+. 88r26[37|5] 89r35[37|5] 112r47[37|5] 121r45[37|5] 20|109r33[37|5] 161r9[37|5]
+. 226r9[37|5] 354r62[37|5] 357r11[37|5] 376r66[37|5] 379r11[37|5] 397r27[37|5]
+. 410r20[37|5] 419r20[37|5] 427r28[37|5] 437r37[37|5] 447r28[37|5] 461r37[37|5]
+. 477r26[37|5] 492r35[37|5] 510r21[37|5] 520r21[37|5] 558r47[37|5] 596r45[37|5]
+X 16 generic_vectors.ads
+16A8*Vector(38|6I8)<38|6I8> 19|19r55[41|4] 27r39[41|4] 35r46[41|4] 44r50[41|4]
+. 60r54[41|4] 65r55[41|4] 66r64[41|4] 74r40[41|4] 75r49[41|4] 95r46[41|4]
+. 96r55[41|4] 112r31[41|4] 20|49r43[41|4] 66r19[41|4] 74r50[41|4] 90r36[41|4]
+. 109r49[41|4] 116r11[41|4] 126r48[41|4] 134r10[41|4] 155r59[41|4] 160r15[41|4]
+. 189r22[41|4] 217r39[41|4] 228r11[41|4] 249r43[41|4] 257r20[41|4] 259r14[41|4]
+. 270r25[41|4] 297r55[41|4] 321r39[41|4] 354r46[41|4] 358r9[41|4] 376r50[41|4]
+. 381r9[41|4] 398r27[41|4] 410r47[41|4] 419r47[41|4] 427r40[41|4] 437r49[41|4]
+. 507r46[41|4] 517r55[41|4] 558r31[41|4] 565r21[41|4]
+17P8*Link_to_Vector(16A8[41|4]) 20|64r14[41|4] 225r20[41|4]
+21V12*Equal{boolean} 20|365s14[41|4]
+33V13*"-"{16A8[41|4]} 20|145s27[41|4] 193s33[41|4] 265s25[41|4] 291s49[41|4]
+35V13*"-"{16A8[41|4]} 20|85s48[41|4] 565s33[41|4]
+42V13*"*"{38|6I8} 20|133s46[41|4] 142s19[41|4] 386s31[41|4]
+X 17 generic_vecvecs.ads
+14A8*VecVec(16|17P8[41|4])<38|6I8>
+15P8*Link_to_VecVec(14A8[42|5])
+X 19 inner_normal_cones.ads
+7K9*Inner_Normal_Cones 130l5 130e23 20|11b14 615l5 615t23
+19V12*Generators{14|22P8[25|6]} 19>25 19>35 19>51 20|297b12 319l7 319t17
+. 335s16
+19p25 L{14|22P8[25|6]} 20|297b25 303r21 304r19 307r15 308r20 309r28
+19p35 facets{22|21P8} 20|297b35 302r18 303r23
+19a51 x{16|16A8[41|4]} 20|297b51 304r21 307r17 309r30
+27V12*Generators{14|22P8[25|6]} 27>25 27>35 20|321b12 350l7 350t17
+27p25 L{14|22P8[25|6]} 20|321b25 328r16 331r20 332r38 335r27 337r17 338r22
+. 339r30
+27a35 x{16|16A8[41|4]} 20|321b35 324r31 328r18 332r40 335r36 337r19 339r32
+35V12*Inner_Normal_Cone{15|16A8[37|5]} 35>32 35>42 20|354b12 374l7 374t24
+. 511s13 521s13
+35p32 L{14|22P8[25|6]} 20|354b32 356r53 360r19
+35a42 x{16|16A8[41|4]} 20|354b42 357r18 358r16 365r20 367r18 368r32
+44V12*Included_Normal_Cone{15|16A8[37|5]} 44>35 44>46 20|376b12 393l7 393t27
+44p35 gx{14|22P8[25|6]} 20|376b35 378r53 380r19
+44a46 x{16|16A8[41|4]} 20|376b46 379r18 379r29 381r16 386r30
+60V12*Evaluate{38|6I8} 60>23 60>35 60>50 20|397b12 407l7 407t15 413s19 414s19
+. 422s19 423s19 571s12 573s14 581s12 583s14
+60a23 m{15|16A8[37|5]} 20|397b23 404r20
+60i35 i{38|6I8} 20|397b35 404r24
+60a50 v{16|16A8[41|4]} 20|398b23 403r14 404r27
+65V12*Satisfies{boolean} 65>24 65>36 65>51 20|409b12 416l7 416t16 430s14
+65a24 m{15|16A8[37|5]} 20|410b16 412r8 413r28 413r38 414r28
+65i36 i{38|6I8} 20|410b28 413r30 413r42 414r30
+65a51 v{16|16A8[41|4]} 20|410b43 412r21 413r32 414r32
+66V12*Strictly_Satisfies{boolean} 66>33 66>45 66>60 20|418b12 425l7 425t25
+. 440s14
+66a33 m{15|16A8[37|5]} 20|419b16 421r8 422r28 422r37 423r28
+66i45 i{38|6I8} 20|419b28 422r30 422r41 423r30
+66a60 v{16|16A8[41|4]} 20|419b43 421r21 422r32 423r32
+74V12*Satisfies{boolean} 74>24 74>36 20|427b12 435l7 435t16 453s14 484s10
+74a24 m{15|16A8[37|5]} 20|427b24 429r14 430r24
+74a36 v{16|16A8[41|4]} 20|427b36 430r28
+75V12*Strictly_Satisfies{boolean} 75>33 75>45 20|437b12 445l7 445t25 467s14
+. 499s10
+75a33 m{15|16A8[37|5]} 20|437b33 439r14 440r33
+75a45 v{16|16A8[41|4]} 20|437b45 440r37
+80V12*Satisfies{boolean} 80>24 80>36 20|447b12 459l7 459t16 514s12
+80a24 m{15|16A8[37|5]} 20|447b24 453r24
+80p36 v{14|22P8[25|6]} 20|447b36 449r19
+81V12*Strictly_Satisfies{boolean} 81>33 81>45 20|461b12 473l7 473t25 524s12
+81a33 m{15|16A8[37|5]} 20|461b33 467r33
+81p45 v{14|22P8[25|6]} 20|461b45 463r19
+88V12*Satisfy{14|22P8[25|6]} 88>22 88>34 20|477b12 490l7 490t14
+88a22 m{15|16A8[37|5]} 20|477b22 484r20
+88p34 L{14|22P8[25|6]} 20|477b34 482r12
+89V12*Strictly_Satisfy{14|22P8[25|6]} 89>31 89>43 20|492b12 505l7 505t23
+89a31 m{15|16A8[37|5]} 20|492b31 499r29
+89p43 L{14|22P8[25|6]} 20|492b43 497r12
+95V12*Contained_in_Cone{boolean} 95>32 95>42 95>54 20|507b12 515l7 515t24
+. 533s10
+95p32 L{14|22P8[25|6]} 20|507b32 510r59 511r31
+95a42 x{16|16A8[41|4]} 20|507b42 510r28 511r33
+95p54 v{14|22P8[25|6]} 20|507b54 514r27
+96V12*Strictly_Contained_in_Cone{boolean} 96>41 96>51 96>63 20|517b12 525l7
+. 525t33 548s10
+96p41 L{14|22P8[25|6]} 20|517b41 520r59 521r31
+96a51 x{16|16A8[41|4]} 20|517b51 520r28 521r33
+96p63 v{14|22P8[25|6]} 20|517b63 524r36
+103V12*Contained_in_Cone{boolean} 103>32 103>34 20|527b12 540l7 540t24
+103p32 L{14|22P8[25|6]} 20|527b32 529r19 533r28
+103p34 v{14|22P8[25|6]} 20|527b34 533r47
+104V12*Strictly_Contained_in_Cone{boolean} 104>41 104>43 20|542b12 554l7
+. 554t33
+104p41 L{14|22P8[25|6]} 20|542b41 544r19 548r37
+104p43 v{14|22P8[25|6]} 20|542b43 548r56
+112V12*In_Union{boolean} 112>23 112>26 112>39 112>42 20|558b12 594l7 594t15
+. 605s16
+112a23 v1{16|16A8[41|4]} 20|558b23 565r31 573r28 583r28
+112a26 v2{16|16A8[41|4]} 20|558b26 565r34
+112a39 k1{15|16A8[37|5]} 20|558b39 570r14 571r21 573r23
+112a42 k2{15|16A8[37|5]} 20|558b42 580r14 581r21 583r23
+121V12*In_Union{boolean} 121>23 121>26 121>37 121>40 20|596b12 613l7 613t15
+121p23 v1{14|22P8[25|6]} 20|596b23 601r14
+121p26 v2{14|22P8[25|6]} 20|596b26 603r16
+121a37 k1{15|16A8[37|5]} 20|596b37 605r63
+121a40 k2{15|16A8[37|5]} 20|596b40 605r66
+X 20 inner_normal_cones.adb
+21V12 Lower{boolean} 21b12 21>20 21>23 21>26 21>29 33l7 33t12 574s12 593s16
+21i20 a1{38|6I8} 30r19 31r19
+21i23 b1{38|6I8} 29r8 30r30 31r30
+21i26 a2{38|6I8} 30r27 31r27
+21i29 b2{38|6I8} 29r11 30r22 31r22
+35V12 Higher{boolean} 35b12 35>21 35>24 35>27 35>30 47l7 47t13 584s12
+35i21 a1{38|6I8} 44r19 45r19
+35i24 b1{38|6I8} 43r8 44r30 45r30
+35i27 a2{38|6I8} 44r27 45r27
+35i30 b2{38|6I8} 43r11 44r22 45r22
+49V12 Compute_Facets{22|21P8} 49b12 49>29 49>39 72l7 72t21 278s42 332s23
+49p29 L{14|22P8[25|6]} 59r14 60r27 63r23
+49a39 x{16|16A8[41|4]} 56r31 59r16 60r29 66r27 68r33
+55p5 res{22|21P8} 60m7 68m9 71r12
+56i5 n{38|6I8} 60r21 60r25 68r23 68r27
+63p9 wrk{14|22P8[25|6]} 67m22 67r22 68r29
+64p9 lx{16|17P8[41|4]} 66m9 67r19
+74U13 Shifted_Points 74b13 74>30 74>43 75=30 75=34 88l7 88t21 309s13 339s15
+74p30 L{14|22P8[25|6]} 80r19 83r12
+74a43 x{16|16A8[41|4]} 85r49
+75p30 res{14|22P8[25|6]} 85m19
+75p34 res_last{14|22P8[25|6]} 85m23
+80p5 tmp{14|22P8[25|6]} 83m5 84r23 85r40 86m7 86r22
+90V12 In_Hull{boolean} 90b12 90>22 90>32 105l7 105t14 304s11 328s8
+90p22 L{14|22P8[25|6]} 100r10
+90a32 x{16|16A8[41|4]} 101r15 102r23
+96b5 res{boolean} 102m5 104r12
+97p5 lx{14|22P8[25|6]} 100m12 100r12 101m12 101r12 102r25 103m11 103r11
+109U13 Normal 109b13 109=22 109<41 123l7 123t13 170s5 245s5
+109a22 m{15|16A8[37|5]} 116r18 119m23 119m33 121r12
+109a41 v{16|16A8[41|4]} 122m5
+116a5 res{16|16A8[41|4]} 120m5 120r13 121m14 121r14 122r10
+125U13 Orientate_Normal 125b13 125>32 125>45 126=32 153l7 153t23 171s5
+125p32 L{14|22P8[25|6]} 132r19 134r25
+125p45 f{22|15P8} 133r32 133r34 141r20
+126a32 normal{16|16A8[41|4]} 133r47 142r20 145m17 145r28
+132p5 tmp{14|22P8[25|6]} 139r23 140r21 151m7 151r22
+133i5 ip{38|6I8} 143r20 144r21
+134a5 pt{16|16A8[41|4]} 140m7 141r22 142r17
+135b5 done{boolean} 147m11 150r17
+136i5 ptip{38|6I8} 142m9 143r12 144r14
+155V12 Inner_Normal{16|16A8[41|4]} 155b12 155>27 155>37 173l7 173t19 189s32
+155p27 L{14|22P8[25|6]} 171r22
+155p37 facet{22|15P8} 160r22 160r28 161r16 161r31 161r42 161r48 164r12 164r18
+. 167r19 171r24
+160a5 res{16|16A8[41|4]} 170m14 171m30 171r30 172r12
+160a9 fst{16|16A8[41|4]} 164m5 167r33
+161a5 m{15|16A8[37|5]} 165r14 165r26 166r16 167m9 170m12 170r12
+165i9 i<long_integer> 167r11 167r25
+166i11 j<long_integer> 167r13 167r28 167r37
+175U13 Inner_Normals 175b13 175>29 175>42 176=29 176=32 198l7 198t20 281s21
+. 303s7
+175p29 L{14|22P8[25|6]} 189r45
+175p42 facets{22|21P8} 184r20 192r22
+176p29 iv{14|22P8[25|6]} 191m16 193m22
+176p32 iv_last{14|22P8[25|6]} 191m19 193m25
+184p5 tmp{22|21P8} 187r23 189r55 196m7 196r22
+189a9 v{16|16A8[41|4]} 191r27 193r34
+200V12 Number_of_Rows{38|6I8} 200b12 200>29 215l7 215t21 226s19
+200p29 L{14|22P8[25|6]} 207r39 208r51
+207i5 n{38|6I8} 211r8 212r18
+208i5 m{38|6I8} 211r12 213r18
+217V12 Normal{16|16A8[41|4]} 217b12 217>21 247l7 247t13 257s30
+217p21 L{14|22P8[25|6]} 225r46 226r34 229r27
+225p5 fst{16|17P8[41|4]} 226r37 228r18 236r30
+226a5 m{15|16A8[37|5]} 236m9 240r21 241r16 242m9 245m12 245r12
+227i5 cnt{38|6I8} 234m7 234r14 236r11 240r14
+228a5 res{16|16A8[41|4]} 233m7 235r16 236r21 245m14 246r12
+229p5 tmp{14|22P8[25|6]} 232r23 233r22 238m7 238r22
+235i11 i<long_integer> 236r15 236r25 236r34
+240i9 i<long_integer> 242r11
+241i11 j<long_integer> 242r13
+249U13 Normals 249b13 249>23 249>36 249=51 249=54 275s13 282s21 293l7 293t14
+. 307s7 337s9
+249p23 L{14|22P8[25|6]} 257r37 272r51
+249a36 x{16|16A8[41|4]} 263r10 270r44
+249p51 iv{14|22P8[25|6]} 275m27 281m45 282m35 286m32 287r38 291m14 291m38
+249p54 iv_last{14|22P8[25|6]} 275m30 281m48 282m38 287m11 291m17 291m41
+257a5 nor{16|16A8[41|4]} 258r39 259r21 262r15 264r12 265r26 266r25 274r31
+. 291r25 291r50
+258i5 piv{38|6I8} 262r8 264r16 269r47 270r46 272r47 286r35
+259a5 pivnor{16|16A8[41|4]} 265m15 266m15 269r40
+269p11 t{34|13P8} 270r42 271r37 272r45 288m17 288r17
+270a11 tx{16|16A8[41|4]} 275r24 278r60 282r32
+271p11 tt{34|13P8} 286r41 288m43 288r43
+272p11 tl{14|22P8[25|6]} 274r24 275r21 278r57 281r35 282r29 288m32 288r32
+278p15 facets{22|21P8} 280r28 281r38
+299p5 res{14|22P8[25|6]} 303m30 303r30 305r14 307m19 307r19 309m32 309r32
+. 318r12
+299p9 res_last{14|22P8[25|6]} 303m34 303r34 307m23 307r23 309m36 309r36
+323p5 res{14|22P8[25|6]} 329r14 335m9 337m21 337r21 339m34 339r34 348r14
+323p9 res_last{14|22P8[25|6]} 337m25 337r25 339m38 339r38
+324i5 n{38|6I8} 331r35
+325p5 facets{22|21P8} 332m13 334r20 335r29
+356i5 len{38|6I8} 357r29
+357a5 res{15|16A8[37|5]} 368m11 373r12
+358a5 y{16|16A8[41|4]} 364m7 365r22 368r25
+359i5 cnt{38|6I8} 366m9 366r16 368r17
+360p5 tmp{14|22P8[25|6]} 363r23 364r20 371m7 371r22
+367i13 i<long_integer> 368r15 368r27 368r34
+378i5 len{38|6I8} 379r39
+379a5 res{15|16A8[37|5]} 384r14 386m7 386r11 387r16 387r32 388m9 392r12
+380p5 tmp{14|22P8[25|6]} 385r20 390m7 390r22
+381a5 v{16|16A8[41|4]} 385m7 386r32 388r21
+384i9 j<long_integer> 386r24 388r15
+387i11 i<long_integer> 388r13 388r23
+400i5 sum{38|6I8} 404m7 404r14 406r12
+403i9 j<long_integer> 404r22 404r29
+429i9 i<long_integer> 430r26
+439i9 i<long_integer> 440r35
+449p5 tmp{14|22P8[25|6]} 452r23 453r34 455m13 455r28
+463p5 tmp{14|22P8[25|6]} 466r23 467r43 469m13 469r28
+479p5 res{14|22P8[25|6]} 485m20 485r20 489r12
+479p9 res_last{14|22P8[25|6]} 485m24 485r24
+479p18 tmp{14|22P8[25|6]} 482m5 483r23 484r30 485r41 487m7 487r22
+494p5 res{14|22P8[25|6]} 500m20 500r20 504r12
+494p9 res_last{14|22P8[25|6]} 500m24 500r24
+494p18 tmp{14|22P8[25|6]} 497m5 498r23 499r39 500r41 502m7 502r22
+510a5 ineq{15|16A8[37|5]} 514r22
+520a5 ineq{15|16A8[37|5]} 524r31
+529p5 tmp{14|22P8[25|6]} 532r23 533r38 536m13 536r28
+544p5 tmp{14|22P8[25|6]} 547r23 548r47 550m13 550r28
+565a5 diff{16|16A8[41|4]} 571r26 581r26
+566i5 t1a{38|6I8} 569m5 574r22 575m15 593r22
+566i9 t1b{38|6I8} 569m15 574r26 575m25 593r26
+566i13 t2a{38|6I8} 579m5 584r23 585m15 593r30
+566i17 t2b{38|6I8} 579m15 584r27 585m25 593r34
+566i21 a{38|6I8} 573m9 574r18 575r22 583m9 584r19 585r22
+566i23 b{38|6I8} 571m7 572r10 574r20 575r32 581m7 582r10 584r21 585r32
+570i9 i<long_integer> 571r24 573r26
+580i9 i<long_integer> 581r24 583r26
+598p5 tmpv1{14|22P8[25|6]} 601m5 602r23 605r33 610m7 610r24
+598p11 tmpv2{14|22P8[25|6]} 603m7 604r25 605r52 607m15 607r32
+X 21 integer32_vectors_utilities.ads
+5K9*Integer32_Vectors_Utilities 20|5w6 5r46 21|45e32
+10V12*Pivot{38|6I8} 20|258s33
+17V13*Reduce{16|16A8[41|4]} 20|270s35
+X 22 integer_faces_of_polytope.ads
+7K9*Integer_Faces_of_Polytope 19|5w6 5r46 22|100e30
+15P8*Face<17|15P8[42|5]> 20|125r52 155r45
+21P8*Faces<13|12P8[20]> 19|19r44 20|49r59 55r11 175r54 184r11 278r33 297r44
+. 325r14
+28V12*Create{21P8} 20|60s14 68s16
+68V12*Is_In{boolean} 20|141s14
+X 25 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[14|12] 19|4w6 4r46
+X 26 lists_of_vectors32_utilities.ads
+6K9*Lists_of_Vectors32_Utilities 20|6w6 6r46 26|47e33
+21V12*Pointer_to_Last{14|22P8[25|6]} 20|287s22
+X 34 standard_integer32_transformations.ads
+8K9*Standard_Integer32_Transformations 20|3w6 4r6 34|124e39
+13P8*Transfo 20|269r15 271r16
+49V12*Build_Transfo{13P8} 20|269s26
+73V12*Transpose{13P8} 20|271s27
+101V13*"*"{16|16A8[41|4]} 20|270s43
+113U13*Clear 20|288s11 288s37
+X 35 standard_integer32_vertices.ads
+6K9*Standard_Integer32_Vertices 20|9w6 9r46 35|66e32
+15V12*Is_In_Hull{boolean} 20|102s12
+X 36 standard_integer_linear_solvers.ads
+8K9*Standard_Integer_Linear_Solvers[12|15] 20|2w6 2r46
+X 37 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[15|9] 19|3w6 3r46
+X 38 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 19|1w6 1r46 38|45e29
+6I8*integer32<long_integer> 19|60r39 60r70 65r40 66r49 20|21r34 35r35 56r18
+. 133r19 136r12 200r47 207r18 208r18 208r31 227r11 258r20 324r18 356r20 356r33
+. 359r11 378r20 378r33 397r39 398r43 400r11 410r32 419r32 510r39 520r39 566r27
+X 41 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[16|8] 19|2w6 2r46
+X 43 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 20|1w6 1r46 43|30e29
+7I8*natural32<long_integer> 20|331r25
+X 61 transforming_integer32_vector_lists.ads
+6K9*Transforming_Integer32_Vector_Lists 20|7w6 8r6 61|62e40
+44V13*Transform_and_Reduce{14|22P8[25|6]} 20|272s24
+55U13*Insert_and_Transform 20|286s11
+

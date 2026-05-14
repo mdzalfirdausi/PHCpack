@@ -1,0 +1,120 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_integer64_vectors%b  standard_integer64_vectors.ads  3427bed1 NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali  ED
+W standard_integer64_ring%s  standard_integer64_ring.ads  standard_integer64_ring.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z unchecked_deallocation%s
+
+U standard_integer64_vectors%s  standard_integer64_vectors.ads  582596b9 EB NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W standard_integer64_ring%s  standard_integer64_ring.ads  standard_integer64_ring.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors.adb	20260513024558 6464bd21 generic_vectors%b
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s standard_integer64_vectors 4 1 none]
+G c Z s s [equal standard_integer64_vectors 21 12 4_1]
+G c Z s s [equal standard_integer64_vectors 22 12 4_1]
+G c Z s s [copy standard_integer64_vectors 24 13 4_1]
+G c Z s s [copy standard_integer64_vectors 25 13 4_1]
+G c Z s s [Oadd standard_integer64_vectors 29 12 4_1]
+G c Z s s [Oadd standard_integer64_vectors 30 12 4_1]
+G c Z s s [Oadd standard_integer64_vectors 31 12 4_1]
+G c Z s s [Oadd standard_integer64_vectors 32 12 4_1]
+G c Z s s [Osubtract standard_integer64_vectors 33 12 4_1]
+G c Z s s [Osubtract standard_integer64_vectors 34 12 4_1]
+G c Z s s [Osubtract standard_integer64_vectors 35 12 4_1]
+G c Z s s [Osubtract standard_integer64_vectors 36 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 37 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 38 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 39 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 40 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 42 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 43 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 47 12 4_1]
+G c Z s s [Omultiply standard_integer64_vectors 48 12 4_1]
+G c Z s s [sum standard_integer64_vectors 52 12 4_1]
+G c Z s s [sum standard_integer64_vectors 53 12 4_1]
+G c Z s s [add standard_integer64_vectors 58 13 4_1]
+G c Z s s [add standard_integer64_vectors 59 13 4_1]
+G c Z s s [min standard_integer64_vectors 60 13 4_1]
+G c Z s s [min standard_integer64_vectors 61 13 4_1]
+G c Z s s [sub standard_integer64_vectors 62 13 4_1]
+G c Z s s [sub standard_integer64_vectors 63 13 4_1]
+G c Z s s [mul standard_integer64_vectors 64 13 4_1]
+G c Z s s [mul standard_integer64_vectors 65 13 4_1]
+G c Z s s [mul standard_integer64_vectors 66 13 4_1]
+G c Z s s [mul standard_integer64_vectors 67 13 4_1]
+G c Z s s [clear standard_integer64_vectors 71 13 4_1]
+G c Z s s [clear standard_integer64_vectors 72 13 4_1]
+G c Z s s [vectorIP standard_integer64_vectors 16 8 4_1]
+G r i none [s standard_integer64_vectors 4 1 none] [generic_vectors standard 8 9 none]
+G r c none [equal standard_integer64_vectors 21 12 4_1] [equal standard_integer_numbers 13 12 none]
+G r c none [equal standard_integer64_vectors 22 12 4_1] [equal standard_integer_numbers 13 12 none]
+G r c none [copy standard_integer64_vectors 24 13 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [copy standard_integer64_vectors 24 13 4_1] [copy standard_integer_numbers 15 13 none]
+G r c none [copy standard_integer64_vectors 25 13 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [Omultiply standard_integer64_vectors 42 12 4_1] [add standard_integer_numbers 18 13 none]
+G r c none [Omultiply standard_integer64_vectors 42 12 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [Omultiply standard_integer64_vectors 43 12 4_1] [add standard_integer_numbers 18 13 none]
+G r c none [Omultiply standard_integer64_vectors 43 12 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [sum standard_integer64_vectors 52 12 4_1] [copy standard_integer_numbers 15 13 none]
+G r c none [sum standard_integer64_vectors 52 12 4_1] [add standard_integer_numbers 18 13 none]
+G r c none [sum standard_integer64_vectors 53 12 4_1] [copy standard_integer_numbers 15 13 none]
+G r c none [sum standard_integer64_vectors 53 12 4_1] [add standard_integer_numbers 18 13 none]
+G r c none [add standard_integer64_vectors 58 13 4_1] [add standard_integer_numbers 18 13 none]
+G r c none [add standard_integer64_vectors 59 13 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [add standard_integer64_vectors 59 13 4_1] [add standard_integer_numbers 18 13 none]
+G r c none [min standard_integer64_vectors 60 13 4_1] [min standard_integer_numbers 22 13 none]
+G r c none [min standard_integer64_vectors 61 13 4_1] [min standard_integer_numbers 22 13 none]
+G r c none [sub standard_integer64_vectors 62 13 4_1] [sub standard_integer_numbers 20 13 none]
+G r c none [sub standard_integer64_vectors 63 13 4_1] [min standard_integer_numbers 22 13 none]
+G r c none [sub standard_integer64_vectors 63 13 4_1] [sub standard_integer_numbers 20 13 none]
+G r c none [mul standard_integer64_vectors 64 13 4_1] [mul standard_integer_numbers 24 13 none]
+G r c none [mul standard_integer64_vectors 65 13 4_1] [mul standard_integer_numbers 24 13 none]
+G r c none [mul standard_integer64_vectors 66 13 4_1] [mul standard_integer_numbers 24 13 none]
+G r c none [mul standard_integer64_vectors 67 13 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [mul standard_integer64_vectors 67 13 4_1] [mul standard_integer_numbers 24 13 none]
+G r c none [clear standard_integer64_vectors 71 13 4_1] [clear standard_integer_numbers 43 13 none]
+G r c none [clear standard_integer64_vectors 72 13 4_1] [clear standard_integer_numbers 43 13 none]
+X 2 generic_vectors.ads
+8k9*Generic_Vectors 74e20 6|2w6 5r7
+X 4 standard_integer64_ring.ads
+4K9*Standard_Integer64_Ring[1|25] 6|1w6 5r23
+X 6 standard_integer64_vectors.ads
+4K9*Standard_Integer64_Vectors[2|8]
+

@@ -1,0 +1,252 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_convolution_splitters%b  standard_convolution_splitters.adb  ae87ac85 NE OO PK
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W standard_vector_splitters%s  standard_vector_splitters.adb  standard_vector_splitters.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_convolution_splitters%s  standard_convolution_splitters.ads  4c2da808 EE NE OO PK
+W standard_coefficient_convolutions%s  standard_coefficient_convolutions.adb  standard_coefficient_convolutions.ali
+W standard_floating_vecvecvecs%s  standard_floating_vecvecvecs.adb  standard_floating_vecvecvecs.ali
+W standard_speelpenning_convolutions%s  standard_speelpenning_convolutions.ads  standard_speelpenning_convolutions.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_speelpenning_convolutions.ads  20260513024558 a14ddeea generic_speelpenning_convolutions%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_coefficient_convolutions.ads  20260513024558 cbd22682 standard_coefficient_convolutions%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_convolution_splitters.ads  20260513024558 1b4cac6e standard_convolution_splitters%s
+D standard_convolution_splitters.adb  20260513024558 55a1fffc standard_convolution_splitters%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecvecs.ads  20260513024558 05f205d7 standard_floating_vecvecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_speelpenning_convolutions.ads  20260513024558 99412733 standard_speelpenning_convolutions%s
+D standard_vector_splitters.ads  20260513024558 06bf457f standard_vector_splitters%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [split standard_convolution_splitters 11 12 none]
+G c Z s b [split standard_convolution_splitters 13 12 none]
+G c Z s b [split standard_convolution_splitters 15 12 none]
+G c Z s b [split standard_convolution_splitters 22 13 none]
+G c Z s b [split standard_convolution_splitters 31 12 none]
+G c Z s b [split standard_convolution_splitters 33 12 none]
+G r s circuit [split standard_convolution_splitters 11 12 none] [circuitIP standard_coefficient_convolutions 24 8 none]
+G r c none [split standard_convolution_splitters 11 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 11 12 none] [split_complex standard_vector_splitters 69 13 none]
+G r c none [split standard_convolution_splitters 11 12 none] [split_complex standard_vector_splitters 66 13 none]
+G r s circuit [split standard_convolution_splitters 13 12 none] [circuitIP standard_coefficient_convolutions 24 8 none]
+G r c none [split standard_convolution_splitters 13 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 13 12 none] [split_complex standard_vector_splitters 69 13 none]
+G r c none [split standard_convolution_splitters 13 12 none] [split_complex standard_vector_splitters 66 13 none]
+G r s circuits [split standard_convolution_splitters 15 12 none] [circuitsIP standard_coefficient_convolutions 46 8 none]
+G r s circuit [split standard_convolution_splitters 15 12 none] [circuitIP standard_coefficient_convolutions 24 8 none]
+G r c none [split standard_convolution_splitters 15 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 15 12 none] [split_complex standard_vector_splitters 69 13 none]
+G r c none [split standard_convolution_splitters 15 12 none] [split_complex standard_vector_splitters 66 13 none]
+G r s vecvecvec [split standard_convolution_splitters 22 13 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r c none [split standard_convolution_splitters 22 13 none] [split_complex standard_vector_splitters 72 13 none]
+G r s system [split standard_convolution_splitters 31 12 none] [systemIP standard_coefficient_convolutions 53 8 none]
+G r s circuits [split standard_convolution_splitters 31 12 none] [circuitsIP standard_coefficient_convolutions 46 8 none]
+G r s circuit [split standard_convolution_splitters 31 12 none] [circuitIP standard_coefficient_convolutions 24 8 none]
+G r c none [split standard_convolution_splitters 31 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 31 12 none] [split_complex standard_vector_splitters 69 13 none]
+G r c none [split standard_convolution_splitters 31 12 none] [split_complex standard_vector_splitters 66 13 none]
+G r c none [split standard_convolution_splitters 31 12 none] [copy standard_integer_vectors 24 13 4_1]
+G r s vecvecvec [split standard_convolution_splitters 31 12 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r c none [split standard_convolution_splitters 31 12 none] [split_complex standard_vector_splitters 72 13 none]
+G r c none [split standard_convolution_splitters 31 12 none] [copy standard_complex_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 31 12 none] [copy standard_complex_vecmats 20 13 6_1]
+G r s system [split standard_convolution_splitters 33 12 none] [systemIP standard_coefficient_convolutions 53 8 none]
+G r s circuits [split standard_convolution_splitters 33 12 none] [circuitsIP standard_coefficient_convolutions 46 8 none]
+G r s circuit [split standard_convolution_splitters 33 12 none] [circuitIP standard_coefficient_convolutions 24 8 none]
+G r c none [split standard_convolution_splitters 33 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 33 12 none] [split_complex standard_vector_splitters 69 13 none]
+G r c none [split standard_convolution_splitters 33 12 none] [split_complex standard_vector_splitters 66 13 none]
+G r c none [split standard_convolution_splitters 33 12 none] [copy standard_integer_vectors 24 13 4_1]
+G r s vecvecvec [split standard_convolution_splitters 33 12 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r c none [split standard_convolution_splitters 33 12 none] [split_complex standard_vector_splitters 72 13 none]
+G r c none [split standard_convolution_splitters 33 12 none] [copy standard_complex_vecvecs 25 13 5_1]
+G r c none [split standard_convolution_splitters 33 12 none] [copy standard_complex_vecmats 20 13 6_1]
+X 2 generic_matrices.ads
+16A8*Matrix(9|11R8)<21|6I8><21|6I8>
+17P8*Link_to_Matrix(16A8[8|5])
+X 3 generic_speelpenning_convolutions.ads
+28A8*VecVecVec(6|15P8[13|5])<21|6I8>
+32P8*Link_to_VecVecVec(28A8[26|8]) 14|23r59[26|8] 15|60r59[26|8]
+41R8*Circuit 14|11r59[26|8] 15|10r59[26|8]
+41i18*nbr{21|6I8} 15|13r55[26|8]
+41i22*dim{21|6I8} 15|13r61[26|8]
+41i26*dim1{21|6I8} 15|13r67[26|8]
+41i31*dim2{21|6I8} 15|13r74[26|8]
+42a5*xps{6|14A8[24|5]} 15|18r37[26|8]
+43a5*idx{6|14A8[24|5]} 15|19r37[26|8]
+44a5*fac{6|14A8[24|5]} 15|20r37[26|8]
+45a5*cff{6|14A8[13|5]} 15|21r47[26|8]
+46p5*cst{5|17P8[12|4]} 15|22r10[26|8] 23r53[26|8]
+48a5*forward{6|14A8[13|5]} 15|25r47[26|8]
+49a5*backward{6|14A8[13|5]} 15|26r47[26|8]
+49a14*cross{6|14A8[13|5]} 15|27r47[26|8]
+50p5*wrk{5|17P8[12|4]} 15|28r47[26|8]
+50p9*acc{5|17P8[12|4]} 15|29r47[26|8]
+53P8*Link_to_Circuit(41R8[26|8]) 14|13r59[26|8] 15|33r59[26|8]
+55A8*Circuits(53P8[26|8])<21|6I8> 14|15r59[26|8] 15|47r59[26|8]
+62R8*System 14|31r59[26|8] 15|83r59[26|8]
+62i17*neq{21|6I8} 15|87r16[26|8]
+62i21*neq1{21|6I8} 15|87r22[26|8]
+62i26*dim{21|6I8} 15|87r29[26|8]
+62i30*dim1{21|6I8} 15|87r35[26|8]
+62i35*deg{21|6I8} 15|87r42[26|8]
+63a5*crc{55A8[26|8]} 15|90r24[26|8]
+64a5*mxe{5|16A8[23|4]} 15|91r37[26|8]
+65p5*pwt{32P8[26|8]} 15|92r13[26|8]
+66a5*yd{6|14A8[13|5]} 15|93r47[26|8]
+67a5*vy{6|14A8[13|5]} 15|94r37[26|8]
+68a5*yv{6|14A8[13|5]} 15|95r37[26|8]
+69a5*vm{4|15A8[11|6]} 15|96r37[26|8]
+72P8*Link_to_System(62R8[26|8]) 14|33r59[26|8] 15|100r59[26|8]
+X 4 generic_vecmats.ads
+15A8*VecMat(2|17P8[8|5])<21|6I8>
+20U13*Copy 15|96s30[11|6]
+X 5 generic_vectors.ads
+16A8*Vector(16|13F8)<21|6I8>
+17P8*Link_to_Vector(16A8[12|4])
+24U13*Copy 15|91s30[23|4]
+X 6 generic_vecvecs.ads
+14A8*VecVec(5|17P8[12|4])<21|6I8>
+15P8*Link_to_VecVec(14A8[13|5])
+25U13*Copy 15|18s30[24|5] 19s30[24|5] 20s30[24|5] 94s30[13|5] 95s30[13|5]
+X 7 standard_coefficient_convolutions.ads
+11K9*Standard_Coefficient_Convolutions 692e38 14|3w6 12r25 14r25 16r25 32r25
+. 34r25 15|11r25 13r11 34r25 36r11 42r18 48r25 50r11 84r25 86r11 101r25 103r11
+. 109r18
+24R8*Circuit 42e13 14|12r59 15|11r59 13r45 42r52
+25a5*xps{6|14A8[24|5]} 15|18m45
+26a5*idx{6|14A8[24|5]} 15|19m45
+27a5*fac{6|14A8[24|5]} 15|20m45
+29a5*rcf{6|14A8[19|5]} 15|21m55
+30a5*icf{6|14A8[19|5]} 15|21m63
+32p5*rct{5|17P8[18|4]} 15|23m61
+33p5*ict{5|17P8[18|4]} 15|23m69
+36a5*rfwd{6|14A8[19|5]} 15|25m59
+36a10*ifwd{6|14A8[19|5]} 15|25m68
+37a5*rbck{6|14A8[19|5]} 15|26m60
+37a10*ibck{6|14A8[19|5]} 15|26m69
+38a5*rcrs{6|14A8[19|5]} 15|27m57
+38a10*icrs{6|14A8[19|5]} 15|27m66
+40p5*rwrk{5|17P8[18|4]} 15|28m55
+40p10*iwrk{5|17P8[18|4]} 15|28m64
+41p5*racc{5|17P8[18|4]} 15|29m55
+41p10*iacc{5|17P8[18|4]} 15|29m64
+44P8*Link_to_Circuit(24R8) 14|14r59 15|34r59 36r45
+46A8*Circuits(44P8)<21|6I8> 14|16r59 15|48r59 50r45
+53R8*System 67e13 14|32r59 15|84r59 86r45 109r52
+54a5*crc{46A8} 15|90m9
+55a5*mxe{5|16A8[23|4]} 15|91m45
+56p5*rpwt{20|13P8} 15|92m21
+57p5*ipwt{20|13P8} 15|92m30
+59a5*ryd{6|14A8[19|5]} 15|93m54
+60a5*iyd{6|14A8[19|5]} 15|93m62
+62a5*vy{6|14A8[13|5]} 15|94m44
+64a5*yv{6|14A8[13|5]} 15|95m44
+66a5*vm{4|15A8[11|6]} 15|96m44
+69P8*Link_to_System(53R8) 14|34r59 15|101r59 103r45
+X 11 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[4|11] 15|5w6 96r5
+X 12 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[5|8] 15|3w6 15r9
+X 13 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[6|10] 15|4w6 64r9 94r5 95r5
+X 14 standard_convolution_splitters.ads
+5K9*Standard_Convolution_Splitters 40l5 40e35 15|8b14 114l5 114t35
+11V12*Split{7|24R8} 11>20 15|10b12 31l7 31t12 42s61
+11r20 c{3|41R8[26|8]} 15|10b20 13r53 13r59 13r65 13r72 18r35 19r35 20r35
+. 21r45 22r8 23r51 25r45 26r45 27r45 28r45 29r45
+13V12*Split{7|44P8} 13>20 15|33b12 45l7 45t12 54s17
+13p20 c{3|53P8[26|8]} 15|33b20 41r8 42r67
+15V12*Split{7|46A8} 15>20 15|47b12 57l7 57t12 90s16
+15a20 c{3|55A8[26|8]} 15|47b20 50r54 53r14 54r23
+22U13*Split 23>17 24<17 25<17 15|59b13 81l7 81t12 92s5
+23p17 p{3|32P8[26|8]} 15|60b17 68r8 70r60 72r18 73r14 74r57
+24p17 rp{20|13P8} 15|61b17 77m9
+25p17 ip{20|13P8} 15|62b17 78m9
+31V12*Split{7|53R8} 31>20 15|83b12 98l7 98t12 109s60
+31r20 s{3|62R8[26|8]} 15|83b20 87r14 87r20 87r27 87r33 87r40 90r22 91r35
+. 92r11 93r45 94r35 95r35 96r35
+33V12*Split{7|69P8} 33>20 15|100b12 112l7 112t12
+33p20 s{3|72P8[26|8]} 15|100b20 108r8 109r66
+X 15 standard_convolution_splitters.adb
+13r5 res{7|24R8} 18m41 18r41 19m41 19r41 20m41 20r41 21m51 21r51 21m59 21r59
+. 23m57 23r57 23m65 23r65 25m55 25r55 25m64 25r64 26m56 26r56 26m65 26r65
+. 27m53 27r53 27m62 27r62 28m51 28r51 28m60 28r60 29m51 29r51 29m60 29r60
+. 30r12
+36p5 res{7|44P8} 42m7 44r12
+50a5 res{7|46A8} 54m7 56r12
+53i9 k<long_integer> 54r11 54r25
+70a9 rpwt{20|10A8} 74m62 74r62 77r59
+70a14 ipwt{20|10A8} 74m70 74r70 78r59
+72i13 k<long_integer> 73r16 74r59 74r67 74r75
+86r5 res{7|53R8} 90m5 91m41 91r41 92m17 92r17 92m26 92r26 93m50 93r50 93m58
+. 93r58 94m40 94r40 95m40 95r40 96m40 96r40 97r12
+103p5 res{7|69P8} 109m7 111r12
+X 16 standard_floating_numbers.ads
+13F8*double_float<long_float>
+X 20 standard_floating_vecvecvecs.ads
+4K9*Standard_Floating_VecVecVecs 14|1w6 24r26 25r26 15|61r26 62r26 70r21
+. 77r19 78r19 20|43e33
+10A8*VecVecVec(6|15P8[19|5])<21|6I8> 15|70r50 77r48 78r48
+13P8*Link_to_VecVecVec(10A8) 14|24r55 25r55 15|61r55 62r55
+X 21 standard_integer_numbers.ads
+6I8*integer32<long_integer>
+X 23 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[5|8] 15|1w6 91r5
+X 24 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[6|10] 15|2w6 18r5 19r5 20r5
+X 26 standard_speelpenning_convolutions.ads
+8K9*Standard_Speelpenning_Convolutions[3|18] 14|2w6 11r24 13r24 15r24 23r24
+. 31r24 33r24 15|10r24 33r24 38r9 47r24 60r24 65r9 83r24 100r24 105r9
+X 27 standard_vector_splitters.ads
+7K9*Standard_Vector_Splitters 15|6w6 21r5 23r11 25r5 26r5 27r5 28r5 29r5
+. 74r17 93r5 27|237e30
+66U13*Split_Complex 15|23s37 28s31 29s31
+69U13*Split_Complex 15|21s31 25s31 26s31 27s31 93s31
+72U13*Split_Complex 15|74s43
+

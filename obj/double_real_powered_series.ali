@@ -1,0 +1,243 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U double_real_powered_series%b  double_real_powered_series.adb  e62cb15b NE OO PK
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_random_vectors%s  standard_random_vectors.adb  standard_random_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U double_real_powered_series%s  double_real_powered_series.ads  76ceda5b EE NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D double_real_powered_series.ads  20260513024558 fd0c0247 double_real_powered_series%s
+D double_real_powered_series.adb  20260513024558 e56d1efc double_real_powered_series%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_random_vectors.ads  20260513024558 fc3e3208 standard_random_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [sort double_real_powered_series 18 13 none]
+G c Z s b [sort double_real_powered_series 23 13 none]
+G c Z s b [normalize double_real_powered_series 30 13 none]
+G c Z s b [normalize double_real_powered_series 39 13 none]
+G c Z s b [positive_minimum_index double_real_powered_series 46 12 none]
+G c Z s b [positive_minimum double_real_powered_series 56 12 none]
+G c Z s b [positive_minimum double_real_powered_series 64 12 none]
+G c Z s b [positive_minima double_real_powered_series 74 12 none]
+G c Z s b [coefficient double_real_powered_series 83 12 none]
+G c Z s b [coefficients double_real_powered_series 92 12 none]
+G c Z s b [random_leading_powers double_real_powered_series 102 12 none]
+G c Z s b [random_power_series double_real_powered_series 109 13 none]
+G c Z s b [evaluate_series double_real_powered_series 128 12 none]
+G r c none [normalize double_real_powered_series 30 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [normalize double_real_powered_series 30 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [normalize double_real_powered_series 39 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [normalize double_real_powered_series 39 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [positive_minimum_index double_real_powered_series 46 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [positive_minimum double_real_powered_series 64 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [positive_minima double_real_powered_series 74 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [coefficient double_real_powered_series 83 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [coefficients double_real_powered_series 92 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [random_leading_powers double_real_powered_series 102 12 none] [random standard_random_numbers 48 12 none]
+G r c none [random_power_series double_real_powered_series 109 13 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_power_series double_real_powered_series 109 13 none] [random standard_random_numbers 48 12 none]
+G r c none [evaluate_series double_real_powered_series 128 12 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [evaluate_series double_real_powered_series 128 12 none] [Omultiply standard_complex_numbers 43 12 none]
+G r c none [evaluate_series double_real_powered_series 128 12 none] [Oadd standard_complex_numbers 51 12 none]
+X 2 double_real_powered_series.ads
+10K9*Double_Real_Powered_Series 137l5 137e31 3|5b14 261l5 261t31
+18U13*Sort 18=20 3|7b13 21l7 21t11
+18a20 x{4|16A8[12|4]} 3|7b20 12r14 13r21 14r16 15r18 16m11 16r19 17m11
+23U13*Sort 23=20 24=20 3|23b13 42l7 42t11
+23a20 x{4|16A8[12|4]} 3|23b20 30r14 31r21 32r16 33r18 34m11 34r19 35m11
+24a20 y{4|16A8[8|4]} 3|24b20 36r18 37m11 37r19 38m11
+30U13*Normalize 30=25 31>25 32>25 3|44b13 59l7 59t16 66s7
+30a25 cf{4|16A8[8|4]} 3|44b25 51r14 51r24 52r21 55m9 55r18 55r26 56m9
+31a25 dg{4|16A8[12|4]} 3|45b25 53r20 53r28
+32f25 tol{10|13F8} 3|46b25 54r26
+39U13*Normalize 39>25 40>25 41>25 3|61b13 68l7 68t16
+39a25 cf{5|14A8[9|5]} 3|61b25 65r14 66r17
+40a25 dg{5|14A8[13|5]} 3|62b25 66r27
+41f25 tol{10|13F8} 3|63b25 66r37
+46V12*Positive_Minimum_Index{16|6I8} 47>16 48>16 49>16 3|70b12 97l7 97t29
+47a16 c{4|16A8[8|4]} 3|71b16 80r17 90r17
+48a16 v{4|16A8[12|4]} 3|72b16 79r14 81r12 83r18 89r21 91r12 91r32 92r22
+49f16 tol{10|13F8} 3|73b16 80r25 81r19 90r25 91r19
+56V12*Positive_Minimum{10|13F8} 57>16 58>16 3|99b12 120l7 120t23
+57a16 v{4|16A8[12|4]} 3|100b16 107r14 108r10 110r16 114r21 115r10 115r30
+. 116r20
+58f16 tol{10|13F8} 3|101b16 108r17 115r17
+64V12*Positive_Minimum{10|13F8} 65>16 66>16 67>16 3|122b12 148l7 148t23 160s17
+65a16 c{4|16A8[8|4]} 3|123b16 132r17 141r17
+66a16 v{4|16A8[12|4]} 3|124b16 131r14 133r12 135r18 140r21 142r12 142r32
+. 143r22
+67f16 tol{10|13F8} 3|125b16 132r25 133r19 141r25 142r19
+74V12*Positive_Minima{4|16A8[12|4]} 75>16 76>16 77>16 3|150b12 163l7 163t22
+75a16 c{5|14A8[9|5]} 3|151b16 156r44 159r14 160r34
+76a16 v{5|14A8[13|5]} 3|152b16 160r43
+77f16 tol{10|13F8} 3|153b16 160r52
+83V12*Coefficient{6|11R8} 83>26 84>26 85>26 85>44 3|165b12 176l7 176t18 188s17
+83a26 c{4|16A8[8|4]} 3|165b26 172r20
+84a26 e{4|16A8[12|4]} 3|166b26 170r14 171r14
+85f26 p{10|13F8} 3|167b26 171r21
+85f44 tol{10|13F8} 3|167b44 171r26
+92V12*Coefficients{4|16A8[8|4]} 92>27 93>27 94>27 95>27 3|178b12 191l7 191t19
+92a27 c{5|14A8[9|5]} 3|178b27 188r29
+93a27 e{5|14A8[13|5]} 3|179b27 188r38
+94a27 p{4|16A8[12|4]} 3|180b27 184r43 188r47
+95f27 tol{10|13F8} 3|181b27 188r52
+102V12*Random_Leading_Powers{4|16A8[12|4]} 103>16 3|193b12 208l7 208t28
+103i16 dim{16|6I8} 3|194b16 196r47 200r17
+109U13*Random_Power_Series 110>17 111>17 112<17 113<17 3|210b13 242l7 242t26
+110i17 dim{16|6I8} 3|211b17 219r17
+111a17 nbt{4|16A8[18|4]} 3|212b17 221r59 222r56 223r51 231r21
+112a17 cff{5|14A8[9|5]} 3|213b17 225m9
+113a17 pwr{5|14A8[13|5]} 3|214b17 239m9
+128V12*Evaluate_Series{4|16A8[8|4]} 129>16 130>16 130>56 3|244b12 259l7 259t22
+129a16 cff{5|14A8[9|5]} 3|245b16 249r43 253r17 254r19 255r28
+130a16 pwr{5|14A8[13|5]} 3|246b16 255r44
+130f56 tpt{10|13F8} 3|246b56 255r39
+X 3 double_real_powered_series.adb
+9f5 val{10|13F8} 14m9 15r12 17r19
+12i9 i<long_integer> 13r16 15r20 16r21 17r13
+13i11 j<long_integer> 14r18 16r13
+26f5 val{10|13F8} 32m9 33r12 35r19
+27r5 tmp{6|11R8} 36m11 38r19
+30i9 i<long_integer> 31r16 33r20 34r21 35r13 36r20 37r13
+31i11 j<long_integer> 32r18 34r13 37r21 38r13
+48f5 dif{10|13F8} 53m9 54r20
+51i9 i<long_integer> 52r16 53r23 55r12 55r21
+52i11 j<long_integer> 53r31 55r29 56r12
+65i9 i<long_integer> 66r20 66r30
+75i5 res{16|6I8} 88m5 92m28 96r12
+75i9 idx{16|6I8} 82m11 88r12 89r14
+76f5 psm{10|13F8} 83m11 91r39 92m15
+79i9 i<long_integer> 80r19 81r14 82r18 83r20
+89i9 i<long_integer> 90r19 91r14 91r34 92r24 92r35
+103f5 res{10|13F8} 110m9 115r37 116m13 119r12
+104i5 idx{16|6I8} 109m9 114r14
+107i9 i<long_integer> 108r12 109r16 110r18
+114i9 i<long_integer> 115r12 115r32 116r22
+127f5 res{10|13F8} 135m11 142r39 143m15 147r12
+128i5 idx{16|6I8} 134m11 140r14
+131i9 i<long_integer> 132r19 133r14 134r18 135r20
+140i9 i<long_integer> 141r19 142r14 142r34 143r24
+156a5 res{4|16A8[12|4]} 160m7 162r12
+159i9 i<long_integer> 160r11 160r36 160r45
+170i9 i<long_integer> 171r16 172r22
+184a5 res{4|16A8[8|4]} 187r14 188m7 190r12
+187i9 i<long_integer> 188r11 188r31 188r40 188r49
+196a5 res{4|16A8[12|4]} 202m7 203r13 204m9 204r19 207r12
+197f5 rnd{10|13F8} 201m7 202r21
+200i9 i<long_integer> 202r11 203r17 204r13 204r23
+216f5 rnd{10|13F8} 226m9 227r23 232m11 233r32 235m13 235r20 236r34
+219i9 i<long_integer> 221r63 222r60 223r55 225r13 231r25 239r13
+221a9 cfi{4|16A8[8|4]} 225r56
+223a9 pwi{4|16A8[12|4]} 227m9 228r15 229m11 229r21 233m11 233r21 234r17 234r30
+. 236m13 236r23 239r57
+231i13 j<long_integer> 233r15 233r25 234r21 234r34 236r17 236r27
+249a5 res{4|16A8[8|4]} 252r14 253m7 255m9 255r19 258r12
+252i9 i<long_integer> 253r11 253r21 254r23 255r13 255r23 255r32 255r48
+254i11 j<long_integer> 255r35 255r51
+X 4 generic_vectors.ads
+16A8*Vector(10|13F8)<16|6I8> 2|18r57[12|4] 23r57[12|4] 24r56[8|4] 30r62[8|4]
+. 31r59[12|4] 47r45[8|4] 48r46[12|4] 57r46[12|4] 65r45[8|4] 66r46[12|4] 78r47[12|4]
+. 83r55[8|4] 84r56[12|4] 94r57[12|4] 96r56[8|4] 103r67[12|4] 111r51[18|4]
+. 131r46[8|4] 3|7r57[12|4] 23r57[12|4] 24r56[8|4] 44r62[8|4] 45r59[12|4]
+. 71r45[8|4] 72r46[12|4] 100r46[12|4] 123r45[8|4] 124r46[12|4] 154r47[12|4]
+. 156r37[12|4] 165r55[8|4] 166r56[12|4] 180r57[12|4] 182r56[8|4] 184r36[8|4]
+. 194r67[12|4] 196r37[12|4] 212r51[18|4] 221r49[8|4] 223r41[12|4] 225r48[8|4]
+. 239r49[12|4] 247r46[8|4] 249r36[8|4]
+17P8*Link_to_Vector(16A8[8|4])
+X 5 generic_vecvecs.ads
+14A8*VecVec(4|17P8[8|4])<16|6I8> 2|39r58[9|5] 40r59[13|5] 75r45[9|5] 76r46[13|5]
+. 92r56[9|5] 93r57[13|5] 112r52[9|5] 113r53[13|5] 129r47[9|5] 130r48[13|5]
+. 3|61r58[9|5] 62r59[13|5] 151r45[9|5] 152r46[13|5] 178r56[9|5] 179r57[13|5]
+. 213r52[9|5] 214r53[13|5] 245r47[9|5] 246r48[13|5]
+X 6 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 2|3w6 3r45 6|92e29
+11R8*Complex_Number 2|86r31 3|27r11 168r31 6|90e15
+18V12*Create{11R8} 3|56s18 175s12
+27V12*AbsVal{10|13F8} 3|80s10 90s10 132s10 141s10
+43V13*"*"{11R8} 3|255s37
+51V13*"+"{11R8} 3|55s24 255s26
+X 8 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[4|8] 2|7w6 24r31 30r37 47r20 65r20 83r30 96r31
+. 131r21 3|24r31 44r37 71r20 123r20 165r30 182r31 184r11 221r24 225r23 247r21
+. 249r11
+X 9 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[5|10] 2|8w6 39r33 75r20 92r31 112r27 129r22
+. 3|61r33 151r20 178r31 213r27 245r22
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 2|2w6 2r45 10|58e30
+13F8*double_float<long_float> 2|32r34 41r34 49r22 58r22 58r55 67r22 67r55
+. 77r22 85r30 85r50 95r33 130r62 3|9r11 26r11 46r34 48r11 63r34 73r22 76r11
+. 101r22 101r55 103r11 125r22 125r55 127r11 153r22 167r30 167r50 181r33 197r11
+. 216r11 246r62
+X 12 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[4|8] 2|5w6 18r31 23r31 31r33 48r20 57r20 66r20
+. 78r21 84r30 94r31 103r41 3|7r31 23r31 45r33 72r20 100r20 124r20 154r21
+. 156r11 166r30 180r31 194r41 196r11 223r15 239r23
+X 13 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[5|10] 2|6w6 40r33 76r20 93r31 113r27 130r22
+. 3|62r33 152r20 179r31 214r27 246r22
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|1w6 1r45 16|45e29
+6I8*integer32<long_integer> 2|49r55 103r22 110r26 3|73r55 75r15 104r11 128r11
+. 194r22 211r26
+X 18 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[4|8] 2|4w6 111r26 3|212r26
+X 19 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 3|1w6 1r45 19|64e36
+25V13*"**"{10|13F8} 3|255s42
+X 21 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 3|2w6 201r14 226r16 232r22 21|112e28
+48V12*Random{10|13F8} 3|201s38 226s40 232s46
+X 22 standard_random_vectors.ads
+8K9*Standard_Random_Vectors 3|3w6 222r16 22|80e28
+58V12*Random_Vector{4|16A8[8|4]} 3|222s40
+

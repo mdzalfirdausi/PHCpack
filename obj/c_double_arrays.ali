@@ -1,0 +1,94 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U c_double_arrays%b	c_double_arrays.adb	17ee07a6 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U c_double_arrays%s	c_double_arrays.ads	3a546192 EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.ads	s-stoele.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_double_arrays.adb	20260513024558 2a7c63b2 c_double_arrays%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20250808065140 d1ac74b2 interfaces.c.pointers%b
+D i-cstrin.ads		20250808065140 5409c1a4 interfaces.c.strings%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [c_double_arrayIP c_double_arrays 12 8 none]
+G c Z s s [value c_double_arrays__c_dblarrs 54 13 17_3]
+G c Z s s [value c_double_arrays__c_dblarrs 58 13 17_3]
+G c Z s s [Oadd c_double_arrays__c_dblarrs 68 13 17_3]
+G c Z s s [Oadd c_double_arrays__c_dblarrs 69 13 17_3]
+G c Z s s [Osubtract c_double_arrays__c_dblarrs 70 13 17_3]
+G c Z s s [Osubtract c_double_arrays__c_dblarrs 71 13 17_3]
+G c Z s s [increment c_double_arrays__c_dblarrs 73 14 17_3]
+G c Z s s [decrement c_double_arrays__c_dblarrs 74 14 17_3]
+G c Z s s [virtual_length c_double_arrays__c_dblarrs 81 13 17_3]
+G c Z s s [copy_terminated_array c_double_arrays__c_dblarrs 85 14 17_3]
+G c Z s s [copy_array c_double_arrays__c_dblarrs 91 14 17_3]
+G c Z s s [to_pointer c_double_arrays__c_dblarrs 42 13 17_3]
+G c Z s s [to_addr c_double_arrays__c_dblarrs 43 13 17_3]
+G c Z s s [to_offset c_double_arrays__c_dblarrs 44 13 17_3]
+G c Z s s [to_ptrdiff c_double_arrays__c_dblarrs 45 13 17_3]
+G c Z s b [concat c_double_arrays 22 12 none]
+X 4 c_double_arrays.ads
+4K9*C_Double_Arrays 27l5 27e20 5|1b14 22l5 22t20
+12A8*C_Double_Array(7|102F9)<7|92M9> 15r44 20r31 22r27 22r51 5|3r27 3r51
+. 5r11
+15P8*Pointer_to_C_Double_Array(12A8)
+17K11*C_DblArrs[8|44]
+22V12*Concat{12A8} 22>21 22>23 5|3b12 20l7 20t13
+22a21 a{12A8} 5|3b21 5r49 11r14 12r19
+22a23 b{12A8} 5|3b23 5r58 15r14 16r19
+X 5 c_double_arrays.adb
+5a5 res{4|12A8} 12m7 16m7 19r12
+6m5 ind{7|92M9} 12r11 13m7 13r14 16r11 17m7 17r14
+11m9 i{7|92M9} 12r21
+15m9 i{7|92M9} 16r21
+X 6 interfac.ads
+47K9*Interfaces 4|1r6 2r6 13r13 13r55 18r9 18r31 19r31 5|5r29 6r11 8r9 6|247e15
+X 7 i-c.ads
+33K20*C 4|1w17 2r17 13r24 13r66 18r20 18r42 19r42 5|5r40 6r22 8r20 7|601e17
+92M9*size_t 4|13r26 18r44 5|5r42 6r24
+102F9*double<long_float> 4|13r68 19r44
+X 8 i-cpoint.ads
+44k22*Pointers 4|2w19 18r22 8|102e26
+

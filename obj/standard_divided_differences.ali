@@ -1,0 +1,1300 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U standard_divided_differences%b  standard_divided_differences.adb  ac6fc64c NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W rectangular_sample_grids%s  rectangular_sample_grids.adb  rectangular_sample_grids.ali
+W sample_points%s	sample_points.adb	sample_points.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers_io%s  standard_complex_numbers_io.adb  standard_complex_numbers_io.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U standard_divided_differences%s  standard_divided_differences.ads  3dc34850 EE OO PK
+W sample_point_lists%s	sample_point_lists.adb	sample_point_lists.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_stacked_sample_grids%s  standard_stacked_sample_grids.adb  standard_stacked_sample_grids.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_matrices.ads  20260513024558 ed92d39d multprec_complex_matrices%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_complex_vecvecs.ads  20260513024558 b42f0858 multprec_complex_vecvecs%s
+D multprec_floating_matrices.ads  20260513024558 120c027b multprec_floating_matrices%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_floating_vectors.ads  20260513024558 9fbd00e9 multprec_floating_vectors%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D rectangular_sample_grids.ads  20260513024556 c7f05147 rectangular_sample_grids%s
+D sample_point_lists.ads  20260513024556 dd69a1c7 sample_point_lists%s
+D sample_points.ads	20260513024556 868162e6 sample_points%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_divided_differences.ads  20260513024556 96d9069d standard_divided_differences%s
+D standard_divided_differences.adb  20260513024556 dc757a4c standard_divided_differences%b
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_stacked_sample_grids.ads  20260513024556 57d3ebb9 standard_stacked_sample_grids%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [create standard_divided_differences 30 12 none]
+G c Z s b [create standard_divided_differences 32 12 none]
+G c Z s b [create standard_divided_differences 50 12 none]
+G c Z s b [create standard_divided_differences 56 12 none]
+G c Z s b [create standard_divided_differences 63 12 none]
+G c Z s b [create standard_divided_differences 65 12 none]
+G c Z s b [expand standard_divided_differences 78 12 none]
+G c Z s b [expand standard_divided_differences 87 12 none]
+G c Z s b [expand standard_divided_differences 88 12 none]
+G c Z s b [degree standard_divided_differences 97 12 none]
+G c Z s b [degree standard_divided_differences 98 12 none]
+G c Z s b [dimension standard_divided_differences 103 12 none]
+G c Z s b [dimension standard_divided_differences 104 12 none]
+G c Z s b [errors standard_divided_differences 111 12 none]
+G c Z s b [maximal_error standard_divided_differences 119 12 none]
+G c Z s b [maximal_error standard_divided_differences 120 12 none]
+G c Z s b [maximal_error standard_divided_differences 128 12 none]
+G c Z s b [eval standard_divided_differences 137 12 none]
+G c Z s b [eval standard_divided_differences 143 12 none]
+G c Z s b [eval standard_divided_differences 150 12 none]
+G c Z s b [eval standard_divided_differences 151 12 none]
+G c Z s b [clear standard_divided_differences 159 13 none]
+G c Z s b [clear standard_divided_differences 160 13 none]
+G c Z s b [clear standard_divided_differences 161 13 none]
+G c Z s b [clear standard_divided_differences 162 13 none]
+G c Z b b [newton_interpolator1_repIP standard_divided_differences 15 8 none]
+G c Z b b [newton_taylor_form1_repIP standard_divided_differences 36 8 none]
+G c Z b b [newton_form_evaluator1_repIP standard_divided_differences 30 8 none]
+G c Z b b [newton_taylor_formsIP standard_divided_differences 43 8 none]
+G c Z b b [newton_taylor_form_repIP standard_divided_differences 46 8 none]
+G c Z b b [numerical_divided_differences standard_divided_differences 57 13 none]
+G c Z b b [eval standard_divided_differences 93 12 none]
+G c Z b b [eval standard_divided_differences 116 12 none]
+G c Z b b [eval standard_divided_differences 126 12 none]
+G c Z b b [eval standard_divided_differences 144 12 none]
+G c Z b b [mul_fac standard_divided_differences 165 13 none]
+G c Z b b [eval standard_divided_differences 192 12 none]
+G c Z b b [substitute standard_divided_differences 207 12 none]
+G c Z b b [degree standard_divided_differences 237 12 none]
+G c Z b b [extend_and_trunc standard_divided_differences 250 12 none]
+G c Z b b [extend_and_trunc standard_divided_differences 279 12 none]
+G c Z b b [expand standard_divided_differences 294 12 none]
+G c Z b b [symbolic_divided_differences standard_divided_differences 329 13 none]
+G c Z b b [write_divided_differences standard_divided_differences 369 13 none]
+G c Z b b [test_degrees standard_divided_differences 389 13 none]
+G c Z b b [test_evaluation1 standard_divided_differences 420 13 none]
+G c Z b b [test_evaluation standard_divided_differences 444 13 none]
+G c Z b b [create standard_divided_differences 488 12 none]
+G c Z b b [column_divided_differences standard_divided_differences 555 13 none]
+G c Z b b [row_divided_differences standard_divided_differences 579 13 none]
+G c Z b b [create standard_divided_differences 604 12 none]
+G c Z b b [create_constant standard_divided_differences 646 12 none]
+G c Z b b [adjust_divided_differences standard_divided_differences 677 13 none]
+G c Z b b [adjust_divided_differences standard_divided_differences 715 13 none]
+G c Z b b [access_to_adjust standard_divided_differences 788 13 none]
+G c Z b b [access_to_adjust standard_divided_differences 812 13 none]
+G c Z b b [get_constant standard_divided_differences 843 12 none]
+G c Z b b [shift_truncate standard_divided_differences 857 13 none]
+G c Z b b [combine_divided_differences standard_divided_differences 889 13 none]
+G c Z b b [combine_divided_differences standard_divided_differences 919 13 none]
+G c Z b b [truncate standard_divided_differences 963 12 none]
+G c Z b b [truncate standard_divided_differences 983 12 none]
+G c Z b b [truncate standard_divided_differences 1016 12 none]
+G c Z b b [truncate standard_divided_differences 1045 12 none]
+G c Z b b [create standard_divided_differences 1082 12 none]
+G c Z b b [create standard_divided_differences 1130 12 none]
+G r c none [create standard_divided_differences 30 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [create standard_divided_differences 30 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 30 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 30 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 30 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 30 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 30 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 30 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 30 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 30 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 30 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 30 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 30 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 32 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 32 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 32 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 32 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 32 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 32 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 32 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 32 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 32 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 32 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 32 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 32 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r s vecvec [create standard_divided_differences 50 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [create standard_divided_differences 50 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 50 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 50 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 50 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 50 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 50 12 none] [sub standard_complex_vectors 62 13 4_1]
+G r c none [create standard_divided_differences 50 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create standard_divided_differences 50 12 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [create standard_divided_differences 56 12 none] [inverse_rotate rectangular_sample_grids 204 12 none]
+G r c none [create standard_divided_differences 56 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 56 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 56 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 56 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 56 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 56 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create standard_divided_differences 63 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 63 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 63 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 63 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 63 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 63 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 63 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 63 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 63 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 63 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 63 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 63 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 63 12 none] [inverse_rotate rectangular_sample_grids 204 12 none]
+G r c none [create standard_divided_differences 63 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create standard_divided_differences 63 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create standard_divided_differences 63 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [create standard_divided_differences 65 12 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [create standard_divided_differences 65 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 65 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 65 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 65 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 65 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 65 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 65 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 65 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 65 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 65 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 65 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 65 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 65 12 none] [inverse_rotate rectangular_sample_grids 204 12 none]
+G r c none [create standard_divided_differences 65 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create standard_divided_differences 65 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [create standard_divided_differences 65 12 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [create standard_divided_differences 65 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [create standard_divided_differences 65 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create standard_divided_differences 65 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r s poly_sys [expand standard_divided_differences 78 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r s term [expand standard_divided_differences 78 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [expand standard_divided_differences 78 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [expand standard_divided_differences 78 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [expand standard_divided_differences 78 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [expand standard_divided_differences 78 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [expand standard_divided_differences 78 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [expand standard_divided_differences 78 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r s poly_sys [expand standard_divided_differences 87 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r i none [expand standard_divided_differences 87 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [expand standard_divided_differences 87 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [expand standard_divided_differences 87 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [expand standard_divided_differences 87 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [expand standard_divided_differences 87 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [Osubtract standard_complex_polynomials 90 12 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [expand standard_divided_differences 87 12 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r s poly_sys [expand standard_divided_differences 88 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r s term [expand standard_divided_differences 88 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [expand standard_divided_differences 88 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [expand standard_divided_differences 88 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [expand standard_divided_differences 88 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [expand standard_divided_differences 88 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [expand standard_divided_differences 88 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [Osubtract standard_complex_polynomials 90 12 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [expand standard_divided_differences 88 12 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [errors standard_divided_differences 111 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [errors standard_divided_differences 111 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [errors standard_divided_differences 111 12 none] [sample_point sample_points 162 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [errors standard_divided_differences 111 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [maximal_error standard_divided_differences 120 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [maximal_error standard_divided_differences 120 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [maximal_error standard_divided_differences 120 12 none] [sample_point sample_points 162 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [maximal_error standard_divided_differences 120 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [maximal_error standard_divided_differences 128 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [maximal_error standard_divided_differences 128 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [maximal_error standard_divided_differences 128 12 none] [sample_point sample_points 162 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [maximal_error standard_divided_differences 128 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [maximal_error standard_divided_differences 128 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [eval standard_divided_differences 137 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_divided_differences 137 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 137 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [eval standard_divided_differences 137 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 137 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [eval standard_divided_differences 137 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 137 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 143 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_divided_differences 143 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 143 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 143 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 143 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 150 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_divided_differences 150 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 150 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 150 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 150 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 151 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_divided_differences 151 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 151 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 151 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 151 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 151 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [clear standard_divided_differences 160 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r s vecvec [newton_form_evaluator1_repIP standard_divided_differences 30 8 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [numerical_divided_differences standard_divided_differences 57 13 none] [create standard_complex_numbers 17 12 none]
+G r c none [numerical_divided_differences standard_divided_differences 57 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [numerical_divided_differences standard_divided_differences 57 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [numerical_divided_differences standard_divided_differences 57 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 93 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [eval standard_divided_differences 93 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 93 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [eval standard_divided_differences 93 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 93 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 116 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 116 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [eval standard_divided_differences 116 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 116 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [eval standard_divided_differences 116 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 116 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 126 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 126 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 126 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 126 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 144 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [eval standard_divided_differences 144 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval standard_divided_differences 144 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 144 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [eval standard_divided_differences 144 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [eval standard_divided_differences 144 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [mul_fac standard_divided_differences 165 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [mul_fac standard_divided_differences 165 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [mul_fac standard_divided_differences 165 13 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [mul_fac standard_divided_differences 165 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [eval standard_divided_differences 192 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_divided_differences 192 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r s term [substitute standard_divided_differences 207 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [substitute standard_divided_differences 207 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [substitute standard_divided_differences 207 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [substitute standard_divided_differences 207 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [substitute standard_divided_differences 207 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [substitute standard_divided_differences 207 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [substitute standard_divided_differences 207 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [extend_and_trunc standard_divided_differences 250 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [extend_and_trunc standard_divided_differences 250 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [extend_and_trunc standard_divided_differences 250 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [extend_and_trunc standard_divided_differences 250 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [extend_and_trunc standard_divided_differences 250 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [extend_and_trunc standard_divided_differences 250 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [extend_and_trunc standard_divided_differences 250 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r s poly_sys [extend_and_trunc standard_divided_differences 279 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r i none [extend_and_trunc standard_divided_differences 279 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [extend_and_trunc standard_divided_differences 279 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [extend_and_trunc standard_divided_differences 279 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [extend_and_trunc standard_divided_differences 279 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [extend_and_trunc standard_divided_differences 279 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [extend_and_trunc standard_divided_differences 279 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [extend_and_trunc standard_divided_differences 279 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r s term [expand standard_divided_differences 294 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [Osubtract standard_complex_polynomials 90 12 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [expand standard_divided_differences 294 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [create standard_complex_numbers 17 12 none]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [sub standard_complex_vectors 62 13 4_1]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [symbolic_divided_differences standard_divided_differences 329 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [write_divided_differences standard_divided_differences 369 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [test_degrees standard_divided_differences 389 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [test_degrees standard_divided_differences 389 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [sample_point sample_points 162 12 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [test_evaluation1 standard_divided_differences 420 13 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [sample_point sample_points 162 12 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [test_evaluation standard_divided_differences 444 13 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 488 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 488 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 488 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 488 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 488 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 488 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 488 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 488 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 488 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 488 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 488 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 488 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [column_divided_differences standard_divided_differences 555 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [column_divided_differences standard_divided_differences 555 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [row_divided_differences standard_divided_differences 579 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [row_divided_differences standard_divided_differences 579 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 604 12 none] [inverse_rotate rectangular_sample_grids 204 12 none]
+G r c none [create standard_divided_differences 604 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 604 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 604 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 604 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 604 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 604 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [sample_point sample_points 162 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [create_constant standard_divided_differences 646 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create_constant standard_divided_differences 646 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 677 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 677 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 677 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 677 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 715 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [adjust_divided_differences standard_divided_differences 715 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [adjust_divided_differences standard_divided_differences 715 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 715 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [adjust_divided_differences standard_divided_differences 715 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [access_to_adjust standard_divided_differences 788 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [access_to_adjust standard_divided_differences 788 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [access_to_adjust standard_divided_differences 788 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [access_to_adjust standard_divided_differences 788 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [access_to_adjust standard_divided_differences 812 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [access_to_adjust standard_divided_differences 812 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [access_to_adjust standard_divided_differences 812 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [access_to_adjust standard_divided_differences 812 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [access_to_adjust standard_divided_differences 812 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [combine_divided_differences standard_divided_differences 889 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [combine_divided_differences standard_divided_differences 889 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [combine_divided_differences standard_divided_differences 889 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [combine_divided_differences standard_divided_differences 889 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [combine_divided_differences standard_divided_differences 919 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [combine_divided_differences standard_divided_differences 919 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [combine_divided_differences standard_divided_differences 919 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [combine_divided_differences standard_divided_differences 919 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [combine_divided_differences standard_divided_differences 919 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [combine_divided_differences standard_divided_differences 919 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [truncate standard_divided_differences 983 12 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [truncate standard_divided_differences 983 12 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [truncate standard_divided_differences 1045 12 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [truncate standard_divided_differences 1045 12 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [create standard_divided_differences 1082 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 1082 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 1082 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [inverse_rotate rectangular_sample_grids 204 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create standard_divided_differences 1082 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [create standard_divided_differences 1130 12 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [create standard_divided_differences 1130 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create standard_divided_differences 1130 12 none] [number_of_variables sample_points 148 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [sample_point sample_points 162 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [rotate_and_project rectangular_sample_grids 181 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [create standard_divided_differences 1130 12 none] [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [create standard_complex_numbers 17 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [inverse_rotate rectangular_sample_grids 204 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [create standard_divided_differences 1130 12 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [create standard_divided_differences 1130 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create standard_divided_differences 1130 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+X 12 a-textio.ads
+67P9*File_Type 52|65r28 53|370r27 389r38 421r28 445r28 716r28 813r28 920r27
+. 983r30 1045r30 1130r28 1202r28
+277U14*New_Line 53|379s36 410s53 438s9 463s11 473s7 748s9 751s9 765s9 768s9
+. 776s32 784s34 828s43 835s50 837s61 933s48 937s50 947s13 996s5 1009s35 1059s47
+508U14*Put 53|398s5 410s7 413s9 455s5 456s22 471s7 746s9 746s39 747s9 749s9
+. 749s39 750s9 763s9 763s39 764s9 766s9 766s39 767s9 773s9 773s39 774s24
+. 781s7 781s37 782s7 827s5 828s5 833s7 834s7 835s7 837s9 932s9 933s9 936s11
+. 937s11 940s11 943s13 944s13 945s13 946s13 951s11 994s5 995s5 1058s5 1059s5
+. 1143s7 1153s9 1165s7 1166s7
+555U14*Put_Line 53|399s5 414s9 433s5 457s25 743s5 760s5 779s5 941s11 952s11
+. 1006s7 1074s7 1144s27 1154s24 1167s27 1180s9 1211s5 1216s5 1218s5
+X 15 generic_lists.ads
+12P8*List
+67V12*Length_Of{60|7I8} 53|1332s42[40|23]
+72V12*Is_Null{boolean} 53|436s17[40|23] 461s19[40|23] 1381s19[40|23]
+77V12*Head_Of{41|17P8} 53|437s38[40|23] 462s40[40|23] 491s51[40|23] 493s50[40|23]
+. 504s14[40|23] 510s16[40|23] 1339s48[40|23] 1382s38[40|23]
+84V12*Tail_Of{12P8[40|23]} 53|439s16[40|23] 464s18[40|23] 508s14[40|23] 512s16[40|23]
+. 1340s16[40|23] 1387s18[40|23]
+X 16 generic_matrices.ads
+16A8*Matrix(55|13F8)<58|6I8><58|6I8> 52|112r68[54|5] 119r40[54|5] 53|17r37[42|5]
+. 40r37[42|5] 59r53[42|5] 93r66[42|5] 330r71[42|5] 556r57[42|5] 580r57[42|5]
+. 1330r68[54|5] 1332r11[54|5] 1346r40[54|5]
+X 17 generic_polynomial_systems.ads
+22A8*Poly_Sys(18|28P8[46|4])<58|6I8> 52|78r57[45|5] 87r55[45|5] 53|279r35[45|5]
+. 279r68[45|5] 285r11[45|5] 294r42[45|5] 1223r57[45|5] 1225r11[45|5] 1234r55[45|5]
+. 1237r14[45|5] 1248r11[45|5]
+60U13*Clear 53|1241s5[45|5] 1252s5[45|5]
+X 18 generic_polynomials.ads
+21P8*Degrees<20|17P8[62|4]>
+23R8*Term 53|214r9[46|4] 237r25[46|4] 258r34[46|4] 260r12[46|4] 307r9[46|4]
+24r5*cf{43|11R8} 53|218m7[46|4] 223m7[46|4] 226m7[46|4] 230m9[46|4] 266m12[46|4]
+. 266r20[46|4] 313m9[46|4] 319m9[46|4]
+25p5*dg{21P8[46|4]} 53|217m7[46|4] 219r7[46|4] 221r7[46|4] 222r7[46|4] 225r7[46|4]
+. 244r16[46|4] 245r32[46|4] 264m12[46|4] 265r12[46|4] 265r17[46|4] 265r32[46|4]
+. 310m7[46|4] 312r9[46|4] 315r9[46|4]
+28P8*Poly 52|87r73[46|4] 88r57[46|4] 53|207r70[46|4] 213r13[46|4] 250r35[46|4]
+. 250r66[46|4] 256r11[46|4] 295r26[46|4] 306r16[46|4] 1234r73[46|4] 1236r11[46|4]
+. 1245r57[46|4] 1247r11[46|4]
+30p3*Null_Poly{28P8[46|4]} 53|256r19[46|4]
+38V12*Create{28P8[46|4]} 53|220s10[46|4] 227s12[46|4]
+41U13*Copy 53|317s5[46|4]
+90V13*"-"{28P8[46|4]} 53|320s15[46|4]
+102U13*Add 53|224s5[46|4] 231s7[46|4] 267s9[46|4] 314s7[46|4]
+103U13*Add 53|322s7[46|4]
+109U13*Mul 53|229s7[46|4] 321s7[46|4]
+124u13*Visiting_Iterator 53|272r33[46|4]
+129U13*Clear 53|233s5[46|4] 268s9[46|4] 325s15[46|4]
+130U13*Clear 53|233s15[46|4] 323s7[46|4] 325s5[46|4]
+X 20 generic_vectors.ads
+16A8*Vector(43|11R8)<58|6I8> 52|56r51[50|4] 64r25[50|4] 66r45[50|4] 137r49[50|4]
+. 143r51[50|4] 150r48[50|4] 151r47[50|4] 53|16r11[50|4] 31r11[50|4] 32r11[50|4]
+. 37r11[50|4] 38r11[50|4] 49r28[50|4] 50r28[50|4] 58r31[50|4] 94r23[50|4]
+. 100r11[50|4] 116r53[50|4] 119r20[50|4] 126r52[50|4] 131r20[50|4] 144r51[50|4]
+. 165r35[50|4] 192r24[50|4] 207r30[50|4] 217r42[62|4] 264r47[62|4] 294r62[50|4]
+. 310r42[62|4] 352r21[50|4] 498r11[50|4] 557r25[50|4] 581r25[50|4] 604r55[50|4]
+. 608r10[50|4] 632r51[50|4] 647r41[50|4] 660r19[50|4] 890r46[50|4] 920r67[50|4]
+. 1083r60[50|4] 1131r60[50|4] 1189r25[50|4] 1203r45[50|4] 1280r49[50|4] 1289r51[50|4]
+. 1293r11[50|4] 1309r48[50|4] 1318r47[50|4]
+17P8*Link_to_Vector(16A8[50|4])
+42V13*"*"{43|11R8} 53|153s28[50|4]
+62U13*Sub 53|361s7[50|4]
+64U13*Mul 53|363s7[50|4]
+X 21 generic_vecvecs.ads
+14A8*VecVec(20|17P8[50|4])<58|6I8> 53|33r11[51|5] 330r31[51|5] 493r20[51|5]
+32U13*Clear 53|1426s11[51|5]
+X 39 rectangular_sample_grids.ads
+17K9*Rectangular_Sample_Grids 235e29 53|9w6 9r45
+181V12*Rotate_and_Project{20|16A8[50|4]} 53|119s36 131s36 505s14 1299s14
+194V12*Rotate_and_Project2{43|11R8} 53|511s25
+204V12*Inverse_Rotate{20|16A8[50|4]} 53|620s32
+X 40 sample_point_lists.ads
+14K9*Sample_Point_Lists 247e23 52|9w6 9r46
+24P8*Standard_Sample_List<15|12P8[23]> 53|430r11 452r11 495r11 1333r11 1373r11
+28A8*Array_of_Standard_Sample_Lists(24P8)<58|6I8> 52|30r28 32r28 112r28 122r23
+. 53|479r28 488r28 526r28 1330r28 1363r23
+X 41 sample_points.ads
+8K9*Sample_Points 218e18 53|8w6 8r45
+17P8*Standard_Sample 53|496r11 648r22
+148V12*Number_of_Variables{58|6I8} 53|491s31
+162V12*Sample_Point{49|16R8} 53|437s25 462s27 472s23 505s41 511s53 660s35
+. 1339s35 1382s25 1397s21
+173V12*Hyperplane_Sections{21|14A8[51|5]} 53|493s30 506s24
+X 42 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[16|9] 53|7w6 17r11 40r11 59r27 93r40 330r45
+. 556r31 580r31
+X 43 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 52|5w6 5r46
+11R8*Complex_Number 90e15 52|33r25 63r53 66r25 137r65 144r24 150r64 151r63
+. 53|58r47 76r11 94r39 99r11 117r24 120r20 127r24 129r11 130r11 145r24 147r15
+. 165r52 179r21 180r19 192r36 192r60 198r11 207r46 348r12 482r18 489r25 497r11
+. 527r25 661r22 678r49 697r20 717r31 740r11 789r49 814r49 844r32 897r15 927r15
+. 1083r40 1131r40 1188r53 1203r25 1281r24 1290r24 1292r11 1310r24 1319r24
+. 1374r11
+17V12*Create{11R8} 53|81s23 352s37 354s26 517s25
+18V12*Create{11R8} 53|362s15 711s26 1284s18 1297s14 1313s18 1322s18
+27V12*AbsVal{55|13F8} 53|404s14 1339s21 1383s21 1398s17
+51V13*"+"{11R8} 53|111s18 137s36 139s34 157s20 202s20 670s18 1303s20
+53V13*"-"{11R8} 53|85s20 85s44 89s25 89s47 110s24 137s27 139s25 156s25 179s41
+. 185s24 362s37 519s19 519s38 574s31 574s51 599s31 599s51 665s24 667s23 707s37
+. 775s37 783s43 902s31 934s31 1302s28
+54V13*"-"{11R8} 53|183s14 223s13 506s23 672s28
+55V13*"*"{11R8} 53|86s25 110s17 137s19 139s17 156s19 183s20 185s31 202s25
+. 520s41 668s23 669s17 702s35 757s35 1302s19
+56V13*"/"{11R8} 53|85s31 89s36 186s23 189s25 362s26 519s34 574s44 599s44
+. 672s32 697s51 707s51 754s25 775s51 783s61
+X 44 standard_complex_numbers_io.ads
+5K9*Standard_Complex_Numbers_io 49e32 53|3w6 3r45
+22U13*put 53|379s11 437s9 462s11 472s7 747s32 750s32 764s32 767s32 776s9
+. 784s7 1009s11
+X 45 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[17|12] 52|8w6 8r46
+X 46 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[18|11] 52|7w6 7r46
+X 49 standard_complex_solutions.ads
+19a5*v{20|16A8[50|4]} 53|437r52 462r54 472r46 505r59 511r71 660r53 1339r62
+. 1382r52 1397r44
+X 50 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[20|8] 52|6w6 6r46
+X 51 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[21|10] 53|6w6 6r45
+X 52 standard_divided_differences.ads
+12K9*Standard_Divided_Differences 170E8 182l5 182e33 53|11b14 1457l5 1457t33
+22P8*Newton_Interpolator1 31r26 33r49 50r25 56r25 97r25 103r28 111r25 121r20
+. 137r23 159r32 171c8 53|480r26 527r49 529r11 536r25 632r25 1258r25 1268r28
+. 1280r23 1329r25 1362r20 1408r32 1411r33
+23P8*Newton_Form_Evaluator1 50r55 78r25 87r25 88r25 98r25 104r28 143r23 160r32
+. 177c8 53|536r55 538r11 1223r25 1234r25 1245r25 1263r25 1273r28 1289r23
+. 1419r32 1422r35
+24P8*Newton_Taylor_Form1 57r26 150r23 161r32 174c8 53|633r26 635r11 1309r23
+. 1430r32 1433r32
+26P8*Newton_Taylor_Form 64r41 67r26 129r20 151r23 162r32 180c8 53|44r37 370r42
+. 389r56 649r21 658r11 790r29 791r29 815r29 816r29 843r31 858r28 1084r26
+. 1090r11 1132r26 1138r11 1189r41 1191r15 1204r26 1206r15 1318r23 1369r20
+. 1441r32 1444r31
+30V12*Create{22P8} 30>21 53|479b12 486l7 486t13
+30a21 grid{40|28A8} 53|479b21 485r19
+32V12*Create{22P8} 32>21 33>21 53|485s12 526b12 534l7 534t13
+32a21 grid{40|28A8} 53|526b21 532r49
+33r21 c{43|11R8} 53|527b21 532r54
+50V12*Create{23P8} 50>21 53|536b12 553l7 553t13
+50p21 q{22P8} 53|536b21 539r42 539r46 542r20 543r17 544r25 546r17 548r50
+. 548r60
+56V12*Create{24P8} 56>21 56>47 53|632b12 644l7 644t13
+56p21 q{22P8} 53|632b21 636r39 636r43 639r8 640r29
+56a47 y{20|16A8[50|4]} 53|632b47 640r35
+63V12*Create{26P8} 63>21 63>49 64>21 53|1188b12 1200l7 1200t13
+63r21 grid{64|28R8} 53|1188b21 1192r38 1192r55 1192r63 1195r19 1195r24 1196r25
+63r49 c{43|11R8} 53|1188b49 1195r31
+64a21 y{20|16A8[50|4]} 53|1189b21 1195r33
+65V12*Create{26P8} 65>21 65>39 66>21 66>41 53|1202b12 1221l7 1221t13
+65p21 file{12|67P9} 53|1202b21 1210r19 1211r14 1212r18 1213r25 1216r14 1217r18
+. 1218r14 1219r21
+65r39 grid{64|28R8} 53|1202b39 1207r38 1207r55 1207r63 1210r24 1210r29 1213r30
+. 1219r26
+66r21 c{43|11R8} 53|1203b21 1210r36
+66a41 y{20|16A8[50|4]} 53|1203b41 1210r38
+78V12*Expand{17|22A8[45|5]} 78>21 53|1223b12 1232l7 1232t13 1248s31
+78p21 q{23P8} 53|1223b21 1225r23 1229r28 1229r41 1229r50
+87V12*Expand{18|28P8[46|4]} 87>21 87>49 53|1234b12 1243l7 1243t13 1251s12
+87p21 q{23P8} 53|1234b21 1240r28 1240r34
+87a49 dvd{17|22A8[45|5]} 53|1234b49 1237r23 1237r54
+88V12*Expand{18|28P8[46|4]} 88>21 53|1245b12 1254l7 1254t13
+88p21 q{23P8} 53|1245b21 1248r23 1248r38 1251r19
+97V12*Degree{58|6I8} 97>21 53|1258b12 1261l7 1261t13
+97p21 q{22P8} 53|1258b21 1260r12
+98V12*Degree{58|6I8} 98>21 53|1263b12 1266l7 1266t13
+98p21 q{23P8} 53|1263b21 1265r12
+103V12*Dimension{58|6I8} 103>24 53|1268b12 1271l7 1271t16
+103p24 q{22P8} 53|1268b24 1270r12
+104V12*Dimension{58|6I8} 104>24 53|1273b12 1276l7 1276t16
+104p24 q{23P8} 53|1273b24 1275r12
+111V12*Errors{16|16A8[54|5]} 111>21 112>21 53|1329b12 1344l7 1344t13 1365s26
+111p21 q{22P8} 53|1329b21 1339r33
+112a21 grid{40|28A8} 53|1330b21 1332r18 1332r52 1332r57 1336r14 1337r14
+119V12*Maximal_Error{55|13F8} 119>28 53|1346b12 1359l7 1359t20 1365s12
+119a28 residuals{16|16A8[54|5]} 53|1346b28 1348r27 1348r37 1348r56 1351r14
+. 1352r16 1353r12 1354r22
+120V12*Maximal_Error{55|13F8} 121>16 122>16 53|1361b12 1366l7 1366t20
+121p16 q{22P8} 53|1362b16 1365r33
+122a16 grid{40|28A8} 53|1363b16 1365r35
+128V12*Maximal_Error{55|13F8} 129>16 129>40 53|1368b12 1392s19 1404l7 1404t20
+129p16 q{26P8} 53|1369b16 1382r23 1392r33 1397r19
+129r40 grid{64|28R8} 53|1369b40 1378r8 1379r16 1380r16 1391r19 1392r35 1397r34
+137V12*Eval{43|11R8} 137>19 137>45 53|1280b12 1287l7 1287t11 1339s28
+137p19 q{22P8} 53|1280b19 1283r8 1285r23
+137a45 x{20|16A8[50|4]} 53|1280b45 1285r29
+143V12*Eval{43|11R8} 143>19 143>47 53|1289b12 1307l7 1307t11
+143p19 q{23P8} 53|1289b19 1296r8 1299r33 1300r19 1301r19 1302r30 1303r27
+143a47 x{20|16A8[50|4]} 53|1289b47 1299r39
+150V12*Eval{43|11R8} 150>19 150>44 53|1309b12 1316l7 1316t11
+150p19 q{24P8} 53|1309b19 1312r8 1314r23
+150a44 x{20|16A8[50|4]} 53|1309b44 1314r29
+151V12*Eval{43|11R8} 151>19 151>43 53|154s14 157s22 664s12 670s20 1318b12
+. 1325l7 1325t11 1382s18 1397s14
+151p19 q{26P8} 53|1318b19 1321r8 1323r23
+151a43 x{20|16A8[50|4]} 53|1318b43 1323r29
+159U13*Clear 159=21 53|1408b13 1417l7 1417t12
+159p21 q{22P8} 53|1408b21 1414r8 1415m16
+160U13*Clear 160=21 53|1419b13 1428l7 1428t12
+160p21 q{23P8} 53|1419b21 1425r8 1426r17 1426m30
+161U13*Clear 161=21 53|1430b13 1439l7 1439t12
+161p21 q{24P8} 53|1430b21 1436r8 1437m16
+162U13*Clear 162=21 53|884s7 1198s5 1215s5 1441b13 1450s11 1455l7 1455t12
+162p21 q{26P8} 53|1441b21 1447r8 1448r10 1449r18 1450r17 1453m12
+170R8 Newton_Interpolator1_Rep 171r39 53|15c8 15d35 15d37 15d39 18e13 116r23
+. 489r49 494r11 532r16 604r25 1096r23 1146r23 1411r8
+173R8 Newton_Taylor_Form1_Rep 174r38 53|36c8 36d34 36d36 41e13 48r27 126r23
+. 422r25 605r26 607r11 636r15 641r22 679r26 680r30 718r26 719r30 963r42 964r28
+. 969r11 984r42 985r28 991r11 1099r23 1149r23 1433r8
+176R8 Newton_Form_Evaluator1_Rep 177r41 53|30c8 30d37 30d39 34e13 539r15
+. 551r16 1422r8
+179R8 Newton_Taylor_Form_Rep 180r37 53|46c8 46d33 46d35 46d37 53e13 144r23
+. 446r25 659r15 673r16 863r11 877r15 880r24 886r14 1016r42 1017r28 1024r11
+. 1034r29 1037r28 1040r24 1046r42 1047r28 1055r11 1067r29 1070r28 1073r24
+. 1091r15 1126r16 1139r15 1184r16 1192r15 1197r16 1207r15 1214r16 1444r8
+X 53 standard_divided_differences.adb
+15R8 Newton_Interpolator1_Rep
+15i35*n{58|6I8} 16r21 539r44 607r37 636r41 1270r14
+15i37*d{58|6I8} 17r47 120r45 539r48 543r19 546r19 548r62 607r41 613r19 616r19
+. 618r21 623r20 624r50 626r20 627r47 636r45 1260r14
+15i39*d1{58|6I8} 17r52
+16a5*rot{20|16A8[50|4]} 119r57 501m9 505r37 511r49 542r22 611r18 620r49
+17a5*pts{16|16A8[42|5]} 120r49 506m11 507m11 511m13 515m9 517m11 519r25 519r44
+. 520m13 520r31 544r27 548r52 614r21
+30R8 Newton_Form_Evaluator1_Rep
+30i37*n{58|6I8} 31r21 1275r14
+30i39*d{58|6I8} 32r21 33r21 1225r25 1248r25 1265r14 1301r21
+31a5*rot{20|16A8[50|4]} 542m13 1229r43 1229r52 1240r30 1299r35
+32a5*pts{20|16A8[50|4]} 544m15 1240r36 1302r32
+33a5*dvd{21|14A8[51|5]} 548m46 1229r30 1300r21 1303r29 1426m19
+36R8 Newton_Taylor_Form1_Rep
+36i34*n{58|6I8} 37r21 969r37 991r37
+36i36*d{58|6I8} 38r21 40r47 40r52 129r37 134r28 135r24 136r30 995r50 1005r14
+. 1007r23
+37a5*rot{20|16A8[50|4]} 131r57 611m9 972m9 972r18 997m9 997r18 1102m20 1102r30
+. 1155m20 1155r30
+38a5*x{20|16A8[50|4]} 139r28 614m11 617r20 624r46 973m9 973r16 998m9 998r16
+. 1103m20 1103r28 1156m20 1156r28
+38a7*y{20|16A8[50|4]} 137r30 612m9 627r43 974m9 974r16 999m9 999r16 1104m20
+. 1104r28 1157m20 1157r28
+40a5*dvd{16|16A8[42|5]} 129r31 135r16 137r40 379r25 404r26 620m13 624m38
+. 627m35 672m16 697r41 697r55 702m12 702r27 707m12 707r28 707r42 711m10 747r44
+. 750r44 754r15 754r29 757m12 757r27 764r44 767r44 775m12 775r28 775r42 776r21
+. 783m10 783r30 783r48 784r19 852r29 879m16 977m13 977r27 1002m13 1002r27
+. 1009r22 1107m24 1107r39 1160m24 1160r39
+43A8 Newton_Taylor_Forms(52|26P8)<58|6I8> 51r27 648r44 891r29 921r29 1115r15
+. 1171r15
+46R8 Newton_Taylor_Form_Rep
+46i33*k{58|6I8} 47r10 150r10 376r10 398r55 400r10 456r16 802r14 827r59 829r14
+. 851r10 863r36 871r10 1024r36 1027r10 1034r54 1055r36 1059r41 1060r10 1067r54
+. 1448r12
+46i35*n{58|6I8} 48r51 49r38 863r40 877r42 1024r40 1034r60 1055r40 1067r60
+46i37*d{58|6I8} 48r53 50r38 51r50 155r21 156r35 377r21 378r23 869r30 879r45
+. 883r19 946r57
+48r22*q1{36R8} 151r21 379r22 402r21 404r23 672m13 803r50 803m59 830r55 830m64
+. 852r26 879m13 904r58 904m67 938r63 938m72 1028m11 1028r30 1061m11 1061r35
+. 1102m17 1103m17 1104m17 1107m21 1155m17 1156m17 1157m17 1160m21
+49a22*rot{20|16A8[50|4]} 153r16 866m9 866r18 1030m11 1030r20 1063m11 1063r20
+. 1112m15 1168m15
+50a22*pts{20|16A8[50|4]} 156r29 867m9 867r18 1031m11 1031r20 1064m11 1064r20
+. 1113m15 1120r59 1123r63 1169m15 1176r64 1179r63
+51a22*qp{43A8} 154r21 157r29 383r18 384r42 412r21 415r29 805r22 806r29 807r48
+. 807r60 832r22 833r52 836r29 838r53 838r65 852r20 853r33 869m11 869r22 873m28
+. 880m11 884m15 907r51 907r64 949r42 949r55 1035r34 1037m15 1040m11 1040r50
+. 1068r39 1070m15 1073m11 1073r50 1075r23 1076r42 1121m17 1122m17 1177m17
+. 1178m17 1449r20 1450m19
+57U13 Numerical_Divided_Differences 57b13 58=18 58>39 59>18 60>18 60>20 60>22
+. 91l7 91t36 105s9
+58a18 dvd{20|16A8[50|4]} 81m13 82m13 86m9 86r19 89m7 89r18 89r27
+58r39 x2{43|11R8} 85r17
+59a18 pts{16|16A8[42|5]} 82r23 85r22 85r33 85r46 89r38 89r49
+60i18 i{58|6I8} 79r8 80r10 82r27 85r26 85r50 89r53
+60i20 j{58|6I8} 79r12 81r17 82r17 86r13 86r23 89r11 89r22 89r31 89r42
+60i22 d{58|6I8} 82r29 84r19 85r39
+76r5 acc{43|11R8} 85m9 86r26
+84i11 k<long_integer> 85r28 85r52
+93V12 Eval{43|11R8} 93b12 93>19 93>34 94>19 114l7 114t11 120s38
+93i19 d{58|6I8} 100r21 105r56 109r17
+93a34 pts{16|16A8[42|5]} 105r48 110r26
+94a19 x{20|16A8[50|4]} 105r43 110r19
+99r5 res{43|11R8} 108m5 110m7 110r14 111m7 111r14 113r12
+100a5 dvd{20|16A8[50|4]} 103r17 105m39 105r39 108r12 111r20
+103i9 i<long_integer> 104r27 105r52
+104i11 j<long_integer> 105r54
+109i9 i<long_integer> 110r30 111r24
+116V12 Eval{43|11R8} 116b12 116>19 116>49 124l7 124t11 620s25 1285s18
+116r19 q{15R8} 119r55 120r43 120r47
+116a49 x{20|16A8[50|4]} 119r61
+119a5 rpx{20|16A8[50|4]} 120r53
+120r5 res{43|11R8} 123r12
+126V12 Eval{43|11R8} 126b12 126>19 126>48 142l7 142t11 151s14 437s18 1314s18
+126r19 q{36R8} 129r29 129r35 131r55 134r26 135r14 135r22 136r28 137r28 137r38
+. 139r26
+126a48 x{20|16A8[50|4]} 131r61
+129r5 res{43|11R8} 139m7 139r14 141r12
+130r5 acc{43|11R8} 135m7 137m9 137r16 139r36
+131a5 rpx{20|16A8[50|4]} 137r21 139r19
+134i9 i<long_integer> 135r20 135r26 136r32 137r44 139r30
+136i11 j<long_integer> 137r32 137r46
+144V12 Eval{43|11R8} 144b12 144>19 144>47 161l7 161t11 462s20 472s16 1323s18
+144r19 q{46R8} 150r8 151r19 153r14 154r19 155r19 156r27 156r33 157r27
+144a47 x{20|16A8[50|4]} 151r24 153r20 153r29 154r27 157r35
+147r5 res{43|11R8} 154m7 156m9 156r16 157m9 157r16 159r14
+147r9 rpx{43|11R8} 153m7 156r21
+155i11 i<long_integer> 156r37 157r32
+165U13 Mul_Fac 165b13 165=23 165>43 165>45 190l7 190t14 358s9
+165a23 cf{20|16A8[50|4]} 183r15 184r17 185r16 185r26 186m7 189m5 189r8
+165r43 y{43|11R8} 179r43 183r21 185r32
+165r45 c{43|11R8} 179r39
+179r5 frac{43|11R8} 186r24 189r26
+180r5 newc0{43|11R8} 183m5 186r18 187m7 189r20
+180r11 newc1{43|11R8} 185m7 187r16
+184i9 i<long_integer> 185r19 185r29 186r10
+192V12 Eval{43|11R8} 192b12 192>19 192>32 205l7 205t11 1300s14 1303s22
+192a19 cf{20|16A8[50|4]} 198r29 198r32 201r25 202r14
+192r32 x{43|11R8} 202r26
+198r5 res{43|11R8} 202m7 202r22 204r12
+201i9 i<long_integer> 202r17
+207V12 Substitute{18|28P8[46|4]} 207b12 207>25 207>38 207>41 235l7 235t17
+. 1229s17
+207a25 cf{20|16A8[50|4]} 226r13 226r16 228r25 230r15
+207r38 a1{43|11R8} 223r14
+207r41 a2{43|11R8} 218r13
+213p5 res{18|28P8[46|4]} 227m5 229m11 229r11 231m11 231r11 234r12
+213p9 s{18|28P8[46|4]} 220m5 224m9 224r9 229r15 233m21 233r21
+214r5 t{18|23R8[46|4]} 217m5 218m5 219m5 219r5 220r17 221m5 221r5 222m5 222r5
+. 223m5 224r11 225m5 225r5 226m5 227r19 230m7 231r15 233m11 233r11
+228i9 i<long_integer> 230r18
+237V12 Degree{58|6I8} 237b12 237>21 248l7 248t13 263s10
+237r21 t{18|23R8[46|4]} 244r14 245r30
+241i5 res{58|6I8} 245m7 245r14 247r12
+244i9 i<long_integer> 245r35
+250V12 Extend_and_Trunc{18|28P8[46|4]} 250b12 250>31 250>41 250>43 277l7
+. 277t23 289s17
+250p31 p{18|28P8[46|4]} 275r16
+250i41 n{58|6I8} 264r58
+250i43 d{58|6I8} 263r23
+256p5 res{18|28P8[46|4]} 267m13 267r13 276r12
+258U15 Scan_Term 258b15 258>27 258<40 271l9 271t18 272r51
+258r27 t{18|23R8[46|4]} 263r17 265r15 265r30 266r18
+258b40 continue{boolean} 270m7
+260r7 et{18|23R8[46|4]} 264m9 265m9 265r9 266m9 267r17 268m15 268r15
+272U15 Scan_Terms[18|124] 275s5
+279V12 Extend_and_Trunc{17|22A8[45|5]} 279b12 279>31 279>45 292l7 292t23
+. 1237s37
+279a31 p{17|22A8[45|5]} 285r20 289r34
+279i45 n{58|6I8} 289r39
+285a5 res{17|22A8[45|5]} 288r14 289m7 291r12
+288i9 i<long_integer> 289r11 289r36 289r41
+294V12 Expand{18|28P8[46|4]} 294b12 294>21 294>36 294>52 294>56 327l7 327t13
+. 1240s12
+294i21 n{58|6I8} 310r53 311r17
+294a36 dvd{17|22A8[45|5]} 317r10 318r17 322r15
+294a52 rot{20|16A8[50|4]} 313r15
+294a56 pts{20|16A8[50|4]} 319r15
+306p5 res{18|28P8[46|4]} 317m17 317r17 321m11 321r11 322m11 322r11 326r12
+306p9 s{18|28P8[46|4]} 314m11 314r11 320r13 325m11 325r11
+306p11 s1{18|28P8[46|4]} 320m7 321r15 323m13 323r13
+307r5 t{18|23R8[46|4]} 310m5 312m7 312r7 313m7 314r13 315m7 315r7 319m7 320r17
+. 325m21 325r21
+311i9 i<long_integer> 312r12 313r19 315r12
+318i9 i<long_integer> 319r19 322r19
+329U13 Symbolic_Divided_Differences 329b13 330=18 330>39 331>18 331>20 331>22
+. 365l7 365t35 548s9
+330a18 dvd{21|14A8[51|5]} 352m7 354m13 354r13 355m13 355r13 358r17 361r11
+. 361r22 363r11
+330a39 pts{16|16A8[42|5]} 355r26 358r28 358r37 362r28 362r39
+331i18 i{58|6I8} 351r8 353r10 355r30 358r32 362r43
+331i20 j{58|6I8} 351r12 352r11 354r17 355r17 358r21 361r15 361r26 362r32
+. 363r15
+331i22 d{58|6I8} 352r32 355r32 357r19 358r43
+348r5 frac{43|11R8} 362m7 363r22
+357i11 k<long_integer> 358r34
+369U13 Write_Divided_Differences 369b13 370>17 370>38 384s9 387l7 387t32
+. 1076s9
+370p17 file{12|67P9} 379r15 379r45 384r35
+370p38 q{52|26P8} 376r8 377r19 378r21 379r20 383r16 384r40
+377i11 i<long_integer> 378r25 379r29
+378i13 j<long_integer> 379r31
+383i11 i<long_integer> 384r45
+389U13 Test_Degrees 389b13 389>28 389>49 415s9 418l7 418t19 941s32 952s32
+. 1212s5 1217s5
+389p28 file{12|67P9} 398r9 398r48 399r14 410r11 410r40 410r62 413r13 413r50
+. 414r18 415r22
+389p49 q{52|26P8} 398r53 400r8 402r19 404r21 412r19 415r27
+394f5 tol{55|13F8} 404r40
+395i5 deg{58|6I8} 401m7 405m17 407r22 410r45
+402i11 i<long_integer> 403r21 404r30 405r24 407r29
+403i13 j<long_integer> 404r32 404r34
+412i11 i<long_integer> 413r55 415r32
+420U13 Test_Evaluation1 420b13 421>18 421>39 422>18 442l7 442t23 1152s9
+421p18 file{12|67P9} 433r14 437r13 438r18
+421r39 grid{64|28R8} 434r14 435r14
+422r18 q{36R8} 437r23
+430p5 tmp{40|24P8} 435m7 436r25 437r46 439m9 439r24
+434i9 i<long_integer> 435r21
+444U13 Test_Evaluation 444b13 445>18 445>39 446>18 469s9 475l7 475t22 1181s9
+. 1219s5
+445p18 file{12|67P9} 455r9 456r9 456r26 457r9 457r34 462r15 463r20 469r25
+. 471r11 472r11 473r16
+445r39 grid{64|28R8} 457r14 458r8 459r16 460r16 468r19 469r30 472r36
+446r18 q{46R8} 456r14 462r25 469r44 472r21
+452p5 tmp{40|24P8} 460m9 461r27 462r48 464m11 464r26
+459i11 i<long_integer> 460r23
+468i11 i<long_integer> 469r37
+482r5 c{43|11R8} 485r24
+488V12 Create{15R8} 488b12 488>21 489>21 524l7 524t13 532s42 1098s15 1148s15
+488a21 grid{40|28A8} 491r59 492r31 493r58 503r14
+489r21 c{43|11R8} 515r23 519r17 519r36
+491i5 n{58|6I8} 494r36 501r34
+492i5 d{58|6I8} 494r38 494r40 502r17 509r19 515r15 516r17 517r17 518r19 520r19
+. 520r37
+493a5 hyp{21|14A8[51|5]} 501r16 501r20
+494r5 res{15R8} 501m5 505r33 506m7 507m7 511m9 511r45 515m5 517m7 519r21
+. 519r40 520m9 520r27 523r12
+495p5 tmp{40|24P8} 503m7 504r22 508m7 508r22 510r24 512m9 512r24
+496p5 spt{41|17P8} 504m7 505r54 506r44 510m9 511r66
+497r5 acc{43|11R8} 519m9 520r42
+498a5 rpx{20|16A8[50|4]} 505m7 507r23
+502i9 i<long_integer> 503r19 506r15 507r15 511r17
+509i11 j<long_integer> 511r19
+516i9 i<long_integer> 517r15 519r29 520r17 520r35
+518i11 j<long_integer> 519r31 519r50
+529p5 res{52|22P8} 532m5 533r12
+538p5 res{52|23P8} 551m5 552r12
+539r5 res_rep{30R8} 542m5 544m7 548m38 548r38 551r44
+543i9 i<long_integer> 544r19 544r31
+546i9 i<long_integer> 547r27 548r56
+547i11 j<long_integer> 548r58
+555U13 Column_Divided_Differences 555b13 556=18 557>18 557>33 557>35 577l7
+. 577t33 624s7
+556a18 dvd{16|16A8[42|5]} 574m9 574r22 574r33
+557a18 x{20|16A8[50|4]} 574r46 574r53
+557i33 d{58|6I8} 572r17 573r27
+557i35 j{58|6I8} 572r19 573r29 574r15 574r28 574r41
+572i9 k<long_integer> 573r24 574r57
+573i11 i<long_integer> 574r13 574r26 574r37 574r48 574r55
+579U13 Row_Divided_Differences 579b13 580=18 581>18 581>33 581>35 602l7 602t30
+. 627s7
+580a18 dvd{16|16A8[42|5]} 599m9 599r22 599r33
+581a18 y{20|16A8[50|4]} 599r46 599r53
+581i33 d{58|6I8} 597r18 598r28
+581i35 i{58|6I8} 597r20 598r30 599r13 599r26 599r37
+597i9 k<long_integer> 598r24 599r57
+598i11 j<long_integer> 599r15 599r28 599r39 599r48 599r55
+604V12 Create{36R8} 604b12 604>21 604>51 630l7 630t13 640s22 1100s15 1150s15
+604r21 q{15R8} 607r35 607r39 611r16 613r17 614r19 616r17 618r19 620r30 620r47
+. 623r18 624r48 626r18 627r45
+604a51 y{20|16A8[50|4]} 612r14 619r18
+607r5 res{36R8} 611m5 612m5 614m7 617r16 620m9 624m34 624r34 624r42 627m31
+. 627r31 627r39 629r12
+608a5 xy{20|16A8[50|4]} 617m7 619m9 620r53
+613i9 i<long_integer> 614r13 614r25
+616i9 i<long_integer> 617r22 618r23 620r17
+618i11 j<long_integer> 619r20 620r19
+623i9 j<long_integer> 624r52
+626i9 i<long_integer> 627r49
+635p5 res{52|24P8} 641m11 643r12
+636r5 res_rep{36R8} 640m11 641r47
+646V12 Create_Constant{52|26P8} 646b12 647>16 647>18 647>35 648>16 648>39
+. 675l7 675t22 1123s14 1179s14
+647i16 n{58|6I8} 659r40 660r29
+647i18 deg{58|6I8} 665r19 665r30 666r17 667r18 667r29
+647a35 pts{20|16A8[50|4]} 665r15 665r26 667r14 667r25
+648p16 spt{41|17P8} 660r48
+648a39 qp{43A8} 664r17 670r25
+658p5 res{52|26P8} 673m5 674r12
+659r5 res_rep{46R8} 672m5 673r40
+660a5 pt{20|16A8[50|4]} 664r23 670r31
+661r5 eva{43|11R8} 664m5 669m7 669r14 670m7 670r14 672r29
+661r9 dif{43|11R8} 667m7 668r24 669r18
+661r13 factor{43|11R8} 665m5 668m7 668r17 672r33
+666i9 i<long_integer> 667r33 670r28
+677U13 Adjust_Divided_Differences 677b13 678>18 678>36 679>18 680=18 713l7
+. 713t33 803s7 904s11
+678i18 d{58|6I8} 697r45 697r59 700r17 701r19 705r17 706r19 710r17 711r16
+678r36 divisor{43|11R8} 707r52
+679r18 q2{36R8} 697r38 707r25
+680r18 q1{36R8} 697r52 702m9 702r24 707m9 707r39 711m7
+697r5 fac{43|11R8} 702r36
+700i9 i<long_integer> 701r23 702r16 702r31
+701i11 j<long_integer> 702r18 702r33
+705i9 i<long_integer> 706r21 707r16 707r32 707r46
+706i11 j<long_integer> 707r18 707r34 707r48
+710i9 i<long_integer> 711r14 711r20
+715U13 Adjust_Divided_Differences 715b13 716>18 716>39 717>18 718>18 719=18
+. 786l7 786t33 830s7 938s11
+716p18 file{12|67P9} 743r14 746r13 746r28 746r43 746r58 747r13 747r36 748r18
+. 749r13 749r28 749r43 749r58 750r13 750r36 751r18 760r14 763r13 763r28 763r43
+. 763r58 764r13 764r36 765r18 766r13 766r28 766r43 766r58 767r13 767r36 768r18
+. 773r13 773r28 773r43 774r13 774r28 776r13 776r41 779r14 781r11 781r26 781r41
+. 781r56 782r11 784r11 784r43
+716i39 d{58|6I8} 744r17 745r19 754r19 754r33 755r17 756r19 761r17 762r19
+. 771r17 772r19 780r17 781r61 783r16 783r36 783r54 784r25
+717r18 divisor{43|11R8} 775r52 783r62
+718r18 q2{36R8} 750r41 754r12 767r41 775r25 783r27
+719r18 q1{36R8} 747r41 754r26 757m9 757r24 764r41 775m9 775r39 776r18 783m7
+. 783r45 784r16
+740r5 fac{43|11R8} 754m5 757r36
+744i9 i<long_integer> 745r23 746r33 747r48 749r33 750r48
+745i11 j<long_integer> 746r63 747r50 749r63 750r50
+755i9 i<long_integer> 756r23 757r16 757r31
+756i11 j<long_integer> 757r18 757r33
+761i9 i<long_integer> 762r23 763r33 764r48 766r33 767r48
+762i11 j<long_integer> 763r63 764r50 766r63 767r50
+771i9 i<long_integer> 772r21 773r33 775r16 775r32 775r46 776r25
+772i11 j<long_integer> 774r18 775r18 775r34 775r48 776r27
+780i9 i<long_integer> 781r31 781r65 783r14 783r20 783r34 783r40 783r52 783r58
+. 784r23 784r29
+788U13 Access_to_Adjust 788b13 789>18 789>36 790>18 791>18 807s9 810l7 810t23
+. 907s13
+789i18 d{58|6I8} 803r34 805r30
+789r36 divisor{43|11R8} 803r36 807r34
+790p18 upper{52|26P8} 802r8 803r44 805r16 806r23 807r42
+791p18 lower{52|26P8} 803r53 807r54
+799i5 shift{58|6I8} 805m7 806r16 807r28
+806i11 i<long_integer> 807r26 807r51 807r63
+812U13 Access_to_Adjust 812b13 813>18 814>18 814>36 815>18 816>18 838s9 841l7
+. 841t23 948s13
+813p18 file{12|67P9} 827r9 827r48 828r9 828r32 828r52 830r34 833r11 833r41
+. 834r11 834r31 835r11 835r35 835r59 837r13 837r50 837r70 838r26
+814i18 d{58|6I8} 828r37 830r39 832r30 834r36
+814r36 divisor{43|11R8} 830r41 838r39
+815p18 upper{52|26P8} 827r53 829r8 830r49 832r16 833r46 836r23 838r47
+816p18 lower{52|26P8} 830r58 838r59
+824i5 shift{58|6I8} 832m7 835r40 836r16 838r33
+836i11 i<long_integer> 837r55 838r31 838r56 838r68
+843V12 Get_Constant{43|11R8} 843b12 843>27 843>51 853s18 855l7 855t19 879s28
+843p27 q{52|26P8} 851r8 852r18 853r31
+843i51 d{58|6I8} 852r23 853r36 853r39
+857U13 Shift_Truncate 857b13 858=17 858>48 873s9 887l7 887t21 914s9 958s9
+858p17 q{52|26P8} 863r34 863r38 866r16 867r16 869r20 869r28 871r8 877r40
+. 879r41 879r43 883r17 884r13 886m5
+858i48 d{58|6I8} 863r42 867r25 868r17 869r32 872r19 879r47 883r21
+863r5 res{46R8} 866m5 867m5 869m7 873m24 873r24 880m7 886r38
+868i9 i<long_integer> 869r14 869r25
+872i11 i<long_integer> 873r31 873r34
+877r7 q1rep{46R8} 879m7 880r48
+883i9 i<long_integer> 884r18
+889U13 Combine_Divided_Differences 889b13 890>17 890>19 890>37 891=17 917l7
+. 917t34 1120s9
+890i17 k{58|6I8} 903r12 912r8
+890i19 d{58|6I8} 900r17 901r19 902r24 902r37 904r38 906r24 913r19
+890a37 pts{20|16A8[50|4]} 902r20 902r33
+891a17 qp{43A8} 904r50 904r61 907r43 907r58 914m24 914r24
+897r5 divisor{43|11R8} 902m9 904r42 907r35
+900i9 i<long_integer> 901r21 902r28 904r40 906r21 907r33
+901i11 j<long_integer> 902r26 902r39 904r53 904r64 907r46 907r61
+906i15 j2<long_integer> 907r30 907r54 907r67
+913i11 i<long_integer> 914r27 914r30
+919U13 Combine_Divided_Differences 919b13 920>17 920>38 920>40 920>58 921=17
+. 961l7 961t34 1176s9
+920p17 file{12|67P9} 932r13 932r51 933r13 933r37 933r57 936r15 936r44 937r15
+. 937r39 937r59 938r38 940r15 940r49 941r20 941r45 943r17 943r46 944r17 944r41
+. 945r17 945r43 946r17 946r46 947r22 949r16 951r15 951r62 952r20 952r45
+920i38 k{58|6I8} 935r12 936r49 943r51 956r8
+920i40 d{58|6I8} 930r17 931r19 934r24 934r37 937r44 938r43 942r24 957r19
+920a58 pts{20|16A8[50|4]} 934r20 934r33
+921a17 qp{43A8} 938r55 938r66 941r50 946r51 949r34 949r49 952r50 958m24 958r24
+927r5 divisor{43|11R8} 934m9 938r47 949r26
+930i9 i<long_integer> 931r21 932r56 934r28 938r45 942r21 945r51 949r24
+931i11 j<long_integer> 933r42 934r26 934r39 938r58 938r69 940r54 941r53 946r54
+. 949r37 949r52 951r67 952r53
+942i15 j2<long_integer> 944r46 945r48 949r21 949r45 949r58
+957i11 i<long_integer> 958r27 958r30
+963V12 Truncate{36R8} 963b12 963>23 963>38 981l7 981t15 1028s17
+963i23 d{58|6I8} 969r39 973r21 974r21 975r17 976r19
+963r38 q{36R8} 969r35 972r16 973r14 974r14 977r25
+969r5 res{36R8} 972m5 973m5 974m5 977m9 980r12
+975i9 i<long_integer> 976r21 977r17 977r31
+976i11 j<long_integer> 977r19 977r33
+983V12 Truncate{36R8} 983b12 983>23 984>23 984>38 1014l7 1014t15 1061s17
+983p23 file{12|67P9} 994r9 994r39 995r9 995r43 996r14 1006r16 1009r15 1009r44
+984i23 d{58|6I8} 991r39 994r44 998r21 999r21 1000r17 1001r19 1005r8 1007r16
+984r38 q{36R8} 991r35 995r48 997r16 998r14 999r14 1002r25 1005r12 1007r21
+. 1009r20
+991r5 res{36R8} 997m5 998m5 999m5 1002m9 1013r12
+1000i9 i<long_integer> 1001r21 1002r17 1002r31
+1001i11 j<long_integer> 1002r19 1002r33
+1007i11 i<long_integer> 1008r21 1009r28
+1008i13 j<long_integer> 1009r26 1009r30
+1016V12 Truncate{46R8} 1016b12 1016>23 1016>38 1035s21 1043l7 1043t15 1196s16
+1016i23 d{58|6I8} 1024r42 1028r26 1031r27 1032r19
+1016r38 q{46R8} 1024r34 1024r38 1027r8 1028r28 1030r18 1031r18 1034r52 1034r58
+. 1035r32 1040r48
+1024r5 res{46R8} 1028m7 1030m7 1031m7 1037m11 1040m7 1042r12
+1032i11 i<long_integer> 1034r62 1035r30 1035r37 1037r18
+1034r11 qp_rep{46R8} 1037r52
+1045V12 Truncate{46R8} 1045b12 1045>23 1046>23 1046>38 1068s21 1080l7 1080t15
+. 1213s16
+1045p23 file{12|67P9} 1058r9 1058r40 1059r9 1059r34 1059r56 1061r26 1068r30
+. 1074r16 1076r35
+1046i23 d{58|6I8} 1055r42 1058r45 1061r31 1064r27 1065r19 1075r16
+1046r38 q{46R8} 1055r34 1055r38 1059r39 1060r8 1061r33 1063r18 1064r18 1067r52
+. 1067r58 1068r37 1073r48 1075r21 1076r40
+1055r5 res{46R8} 1061m7 1063m7 1064m7 1070m11 1073m7 1079r12
+1065i11 i<long_integer> 1067r62 1068r35 1068r42 1070r18
+1067r11 qp_rep{46R8} 1070r52
+1075i11 i<long_integer> 1076r45
+1082V12 Create{52|26P8} 1082b12 1082>21 1083>21 1083>36 1083>56 1118s21 1128l7
+. 1128t13 1195s12
+1082r21 grid{64|28R8} 1091r38 1091r55 1094r8 1097r36 1097r44 1097r51 1098r22
+. 1099r57 1099r65 1112r22 1112r31 1112r52 1113r22 1115r38 1117r21 1118r28
+. 1118r42 1120r37 1120r44 1123r40 1123r48 1123r67
+1083i21 d{58|6I8} 1091r63 1103r33 1104r33 1105r21 1106r23
+1083r36 c{43|11R8} 1098r33 1118r49
+1083a56 y{20|16A8[50|4]} 1100r25 1118r51
+1090p5 res{52|26P8} 1126m5 1127r12
+1091r5 res_rep{46R8} 1102m9 1103m9 1104m9 1107m13 1112m7 1113m7 1120r51 1121m9
+. 1122m9 1123r55 1126r40
+1096r9 nq{15R8} 1100r22
+1099r9 tq{36R8} 1102r27 1103r25 1104r25 1107r36
+1105i13 i<long_integer> 1107r28 1107r43
+1106i15 j<long_integer> 1107r30 1107r45
+1115a9 wrk{43A8} 1118m11 1120m63 1120r63 1121r23 1123r76
+1117i13 i<long_integer> 1118r15 1118r35
+1130V12 Create{52|26P8} 1130b12 1130>21 1130>39 1131>21 1131>36 1131>56 1174s21
+. 1186l7 1186t13 1210s12
+1130p21 file{12|67P9} 1143r11 1144r11 1144r36 1152r26 1153r13 1154r13 1154r33
+. 1165r11 1165r45 1166r11 1167r11 1167r36 1174r28 1176r37 1180r18 1181r25
+1130r39 grid{64|28R8} 1139r38 1139r55 1142r8 1144r16 1147r36 1147r44 1147r51
+. 1148r22 1149r57 1149r65 1152r31 1165r50 1167r16 1168r22 1168r31 1168r52
+. 1169r22 1171r38 1173r21 1174r33 1174r47 1176r42 1176r49 1179r40 1179r48
+. 1179r67 1181r30
+1131i21 d{58|6I8} 1139r63 1154r18 1156r33 1157r33 1158r21 1159r23
+1131r36 c{43|11R8} 1148r33 1174r54
+1131a56 y{20|16A8[50|4]} 1150r25 1174r56
+1138p5 res{52|26P8} 1184m5 1185r12
+1139r5 res_rep{46R8} 1155m9 1156m9 1157m9 1160m13 1168m7 1169m7 1176r56 1177m9
+. 1178m9 1179r55 1181r35 1184r40
+1146r9 nq{15R8} 1150r22
+1149r9 tq{36R8} 1152r36 1155r27 1156r25 1157r25 1160r36
+1158i13 i<long_integer> 1160r28 1160r43
+1159i15 j<long_integer> 1160r30 1160r45
+1171a9 wrk{43A8} 1174m11 1176m68 1176r68 1177r23 1179r76
+1173i13 i<long_integer> 1174r15 1174r40
+1191p5 res{52|26P8} 1197m5 1199r12
+1191p9 wrk{52|26P8} 1195m5 1196r32 1198m11 1198r11
+1192r5 res_rep{46R8} 1196m5 1197r40
+1206p5 res{52|26P8} 1214m5 1217r23 1220r12
+1206p9 wrk{52|26P8} 1210m5 1212r23 1213r37 1215m11 1215r11
+1207r5 res_rep{46R8} 1213m5 1214r40 1219r31
+1225a5 res{17|22A8[45|5]} 1228r14 1229m7 1231r12
+1228i9 i<long_integer> 1229r11 1229r34
+1236p5 res{18|28P8[46|4]} 1240m5 1242r12
+1237a5 extdvd{17|22A8[45|5]} 1240r21 1241m11 1241r11
+1247p5 res{18|28P8[46|4]} 1251m5 1253r12
+1248a5 dvd{17|22A8[45|5]} 1251r21 1252m11 1252r11
+1292r5 res{43|11R8} 1297m7 1300m7 1302m9 1302r16 1303m9 1303r16 1306r12
+1293a5 rpx{20|16A8[50|4]} 1299m7 1300r32 1302r21 1303r40
+1301i11 i<long_integer> 1302r36 1303r33
+1332a5 res{16|16A8[54|5]} 1338r16 1339m9 1343r12
+1333p5 tmp{40|24P8} 1337m7 1339r56 1340m9 1340r24
+1336i9 i<long_integer> 1337r19 1339r13
+1338i11 j<long_integer> 1339r15
+1348f5 max{55|13F8} 1353r29 1354m15 1358r12
+1351i9 i<long_integer> 1353r22 1354r32
+1352i11 j<long_integer> 1353r24 1354r34
+1372f5 res{55|13F8} 1384r16 1384r36 1385m17 1393r21 1394m15 1399r10 1400m13
+. 1403r12
+1373p5 tmp{40|24P8} 1380m9 1381r27 1382r46 1387m11 1387r26
+1374r5 eva{43|11R8} 1382m11 1383r28 1397m7 1398r24
+1375f5 abseva{55|13F8} 1383m11 1384r42 1385r24 1392m9 1393r12 1394r22 1398m7
+. 1399r16 1400r20
+1379i11 i<long_integer> 1380r23
+1391i11 i<long_integer> 1392r42
+1410U15 free[86|22] 1415s11
+1421U15 free[86|22] 1426s25
+1432U15 free[86|22] 1437s11
+1443U15 free[86|22] 1453s7
+1449i13 i<long_integer> 1450r22
+X 54 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[16|9] 52|4w6 4r46
+X 55 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 52|3w6 3r46 55|58e30
+13F8*double_float<long_float> 52|119r56 122r63 130r21 53|394r20 1346r56 1348r11
+. 1363r63 1370r21 1372r11 1375r14
+X 58 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 52|2w6 2r46 58|45e29
+6I8*integer32<long_integer> 52|97r55 98r57 103r58 104r60 53|15r44 30r43 36r40
+. 44r13 46r41 60r29 93r23 237r39 241r11 245r20 250r47 279r49 294r25 331r26
+. 395r11 491r18 492r18 557r42 581r42 647r24 678r25 716r46 789r25 799r13 814r25
+. 824r13 843r55 858r55 890r26 920r47 963r27 984r27 1016r27 1046r27 1083r25
+. 1091r45 1097r26 1099r47 1112r42 1123r30 1131r25 1139r45 1147r26 1149r47
+. 1168r42 1179r30 1192r45 1207r45 1258r55 1263r57 1268r58 1273r60 1332r32
+X 59 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 53|2w6 2r45 59|47e32
+27U13*put 53|398s44 410s36 413s46 456s5 457s5 746s24 746s54 749s24 749s54
+. 763s24 763s54 766s24 766s54 773s24 774s9 781s22 781s52 827s44 828s28 833s37
+. 834s27 835s31 837s46 932s47 933s33 936s40 937s35 940s45 943s42 944s37 945s39
+. 946s42 951s58 994s35 995s39 1058s36 1059s30 1144s7 1154s9 1165s41 1167s7
+X 60 standard_natural_numbers.ads
+7I8*natural32<long_integer>
+X 62 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[20|8] 53|4w6 217r17 264r22 310r17
+X 63 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 53|5w6 5r45 63|112e28
+90V12*Random1{43|11R8} 53|482s36
+X 64 standard_stacked_sample_grids.ads
+10K9*Standard_Stacked_Sample_Grids 52|10w6 10r46 64|139e34
+20P8*Link_to_Array_of_Standard_Sample_Lists(40|28A8)
+23R8*Stacked_Sample_Grid 52|63r28 65r46 129r47 53|421r49 445r49 1082r28 1130r46
+. 1188r28 1202r46 1369r47 64|37e13
+24P8*Link_to_Stacked_Sample_Grid(23R8)
+25A8*Array_of_Stacked_Sample_Grids(24P8)<58|6I8>
+28R8*Stacked_Sample_Grid
+28i30*k{58|6I8} 53|457r19 458r13 1091r43 1094r13 1112r36 1120r42 1139r43
+. 1142r13 1165r55 1168r36 1176r47 1192r43 1207r43 1378r13
+28i32*d{58|6I8} 53|468r24 1097r49 1097r56 1099r70 1115r43 1117r26 1118r47
+. 1120r49 1123r53 1144r21 1147r49 1147r56 1149r70 1167r21 1171r43 1173r26
+. 1174r52 1176r54 1179r53 1192r68 1195r29 1196r30 1207r68 1210r34 1213r35
+29i5*n{60|7I8} 53|1091r60 1097r41 1099r62 1112r57 1123r45 1139r60 1147r41
+. 1149r62 1168r57 1179r45 1192r60 1207r60
+30a5*hyp{21|14A8[51|5]} 53|1112r27 1168r27
+31a5*pts{20|16A8[50|4]} 53|1113r27 1169r27
+33p17*g{20P8} 53|434r19 435r19 459r21 460r21 1098r27 1148r27 1379r21 1380r21
+34a22*a{25A8} 53|469r35 1118r33 1174r38 1391r24 1392r40
+35p22*spt{41|17P8} 53|472r41 1123r72 1179r72 1397r39
+X 85 text_io.ads
+27K9*Text_IO=27:29 52|1w6 1r46
+X 86 unchdeal.ads
+22u11*Unchecked_Deallocation 53|1w6 1410r27 1421r27 1432r27 1443r27
+

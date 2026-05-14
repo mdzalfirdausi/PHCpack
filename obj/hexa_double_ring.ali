@@ -1,0 +1,58 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U hexa_double_ring%s	hexa_double_ring.ads	6ee1443d EE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W hexa_double_numbers%s	hexa_double_numbers.adb	hexa_double_numbers.ali  AD
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D deca_double_numbers.ads  20260513024558 96ba5284 deca_double_numbers%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D hexa_double_numbers.ads  20260513024558 2ab2fc6c hexa_double_numbers%s
+D hexa_double_ring.ads	20260513024558 a391cb52 hexa_double_ring%s
+D octo_double_numbers.ads  20260513024558 9005435d octo_double_numbers%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c s s s [s hexa_double_ring 4 1 none]
+G r c none [s hexa_double_ring 4 1 none] [create hexa_double_numbers 48 12 none]
+G r i none [s hexa_double_ring 4 1 none] [abstract_ring standard 25 9 none]
+X 1 abstract_ring.ads
+25k9*Abstract_Ring 25e29 5|2w6 5r7
+X 4 hexa_double_numbers.ads
+11K9*Hexa_Double_Numbers 335e24 5|1w6 1r47
+25R8*hexa_double 333e13 5|5r21
+29V12*create{25R8} 5|6r21
+48V12*create{25R8} 5|5s33 5s45
+233V12*equal{boolean} 5|6r28
+250U13*copy 5|6r34
+254V13*"+"{25R8} 5|6r40
+257V13*"+"{25R8} 5|6r44
+259V13*"-"{25R8} 5|6r52
+260V13*"-"{25R8} 5|6r48
+264V13*"*"{25R8} 5|6r56
+291U13*Add 5|7r21
+292U13*Sub 5|7r25
+293U13*Min 5|7r29
+294U13*Mul 5|7r33
+299U13*clear 5|7r37
+X 5 hexa_double_ring.ads
+4K9*Hexa_Double_Ring[1|25]
+

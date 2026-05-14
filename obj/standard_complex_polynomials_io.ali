@@ -1,0 +1,1744 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U standard_complex_polynomials_io%b  standard_complex_polynomials_io.adb  396f7063 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W characters_and_numbers%s  characters_and_numbers.adb  characters_and_numbers.ali
+W line_breaks%s		line_breaks.adb		line_breaks.ali
+W parse_polynomial_exceptions%s  parse_polynomial_exceptions.ads  parse_polynomial_exceptions.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_parse_numbers%s  standard_parse_numbers.adb  standard_parse_numbers.ali
+W standard_write_numbers%s  standard_write_numbers.adb  standard_write_numbers.ali
+W symbol_table_io%s	symbol_table_io.adb	symbol_table_io.ali
+W write_factors%s	write_factors.adb	write_factors.ali
+
+U standard_complex_polynomials_io%s  standard_complex_polynomials_io.ads  9a807691 EE NE OO PK IL
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W symbol_table%s	symbol_table.adb	symbol_table.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D characters_and_numbers.ads  20260513024558 8b0f2874 characters_and_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D line_breaks.ads	20260513024558 5404403a line_breaks%s
+D parse_polynomial_exceptions.ads  20260513024558 c850508a parse_polynomial_exceptions%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials_io.ads  20260513024558 769210f2 standard_complex_polynomials_io%s
+D standard_complex_polynomials_io.adb  20260513024558 b2459560 standard_complex_polynomials_io%b
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_parse_numbers.ads  20260513024558 68327808 standard_parse_numbers%s
+D standard_write_numbers.ads  20260513024558 8275de88 standard_write_numbers%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbol_table_io.ads	20260513024558 426dcf93 symbol_table_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+D write_factors.ads	20260513024558 c670ed38 write_factors%s
+G a e
+G c Z s b [get standard_complex_polynomials_io 20 13 none]
+G c Z s b [get standard_complex_polynomials_io 21 13 none]
+G c Z s b [get standard_complex_polynomials_io 23 13 none]
+G c Z s b [get standard_complex_polynomials_io 24 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 54 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 55 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 56 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 57 13 none]
+G c Z s b [put standard_complex_polynomials_io 60 13 none]
+G c Z s b [put standard_complex_polynomials_io 61 13 none]
+G c Z s b [put standard_complex_polynomials_io 62 13 none]
+G c Z s b [put standard_complex_polynomials_io 63 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 66 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 67 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 68 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 69 13 none]
+G c Z s b [put standard_complex_polynomials_io 72 13 none]
+G c Z s b [put standard_complex_polynomials_io 73 13 none]
+G c Z s b [put standard_complex_polynomials_io 74 13 none]
+G c Z s b [put standard_complex_polynomials_io 75 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 78 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 79 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 81 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 83 13 none]
+G c Z s b [put standard_complex_polynomials_io 87 13 none]
+G c Z s b [put standard_complex_polynomials_io 88 13 none]
+G c Z s b [put standard_complex_polynomials_io 90 13 none]
+G c Z s b [put standard_complex_polynomials_io 92 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 115 13 none]
+G c Z s b [put_terms standard_complex_polynomials_io 116 13 none]
+G c Z s b [put standard_complex_polynomials_io 117 13 none]
+G c Z s b [put standard_complex_polynomials_io 118 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 124 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 125 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 126 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 127 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 128 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 129 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 131 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 132 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 133 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 134 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 136 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 137 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 139 13 none]
+G c Z s b [put_terms_line standard_complex_polynomials_io 141 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 143 13 none]
+G c Z s b [put_line standard_complex_polynomials_io 144 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 152 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 153 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 154 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 155 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 156 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 157 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 159 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 160 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 161 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 162 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 164 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 165 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 167 13 none]
+G c Z s b [put_terms_pair standard_complex_polynomials_io 169 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 171 13 none]
+G c Z s b [put_pair standard_complex_polynomials_io 172 13 none]
+G c Z s b [display_format standard_complex_polynomials_io 180 13 none]
+G c Z b b [read_term standard_complex_polynomials_io 18 13 none]
+G c Z b b [read_factor standard_complex_polynomials_io 36 13 none]
+G c Z b b [read_power_factor standard_complex_polynomials_io 55 13 none]
+G c Z b b [read_polynomial standard_complex_polynomials_io 94 13 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [get standard_natural_numbers_io 10 13 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [empty symbol_table 140 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [init symbol_table 32 13 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [maximal_size symbol_table 130 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r s term [get standard_complex_polynomials_io 20 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 20 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [get standard_complex_polynomials_io 20 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [get standard_natural_numbers_io 10 13 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [empty symbol_table 140 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [init symbol_table 32 13 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [maximal_size symbol_table 130 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r s term [get standard_complex_polynomials_io 21 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 21 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [get standard_complex_polynomials_io 21 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [maximal_size symbol_table 130 12 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r s term [get standard_complex_polynomials_io 23 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 23 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [get standard_complex_polynomials_io 23 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [maximal_size symbol_table 130 12 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r s term [get standard_complex_polynomials_io 24 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get standard_complex_polynomials_io 24 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [get standard_complex_polynomials_io 24 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 54 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 54 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 54 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 55 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 55 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 55 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms standard_complex_polynomials_io 56 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 56 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 56 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms standard_complex_polynomials_io 57 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 57 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 57 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 60 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 60 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 60 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 60 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 60 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 60 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 60 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 60 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 60 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 60 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 60 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 60 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 60 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 60 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 61 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 61 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 61 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 61 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 61 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 61 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 61 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 61 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 61 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 61 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 61 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 61 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 61 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 61 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put standard_complex_polynomials_io 62 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 62 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 62 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 62 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 62 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 62 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 62 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put standard_complex_polynomials_io 62 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 62 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 62 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 62 13 none] [write_factor write_factors 13 13 none]
+G r c none [put standard_complex_polynomials_io 62 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 62 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put standard_complex_polynomials_io 63 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 63 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 63 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 63 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 63 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 63 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 63 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put standard_complex_polynomials_io 63 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 63 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 63 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 63 13 none] [write_factor write_factors 13 13 none]
+G r c none [put standard_complex_polynomials_io 63 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 63 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 66 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 66 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 66 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 67 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 67 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 67 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms standard_complex_polynomials_io 68 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 68 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 68 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms standard_complex_polynomials_io 69 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 69 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 69 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 72 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 72 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 72 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 72 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 72 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 72 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 72 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 72 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 72 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 72 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 72 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 72 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 72 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 72 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 73 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 73 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 73 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 73 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 73 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 73 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 73 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 73 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 73 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 73 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 73 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 73 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 73 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 73 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put standard_complex_polynomials_io 74 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 74 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 74 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 74 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 74 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 74 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 74 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put standard_complex_polynomials_io 74 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 74 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 74 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 74 13 none] [write_factor write_factors 13 13 none]
+G r c none [put standard_complex_polynomials_io 74 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 74 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put standard_complex_polynomials_io 75 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 75 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 75 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 75 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 75 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 75 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 75 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put standard_complex_polynomials_io 75 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 75 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 75 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 75 13 none] [write_factor write_factors 13 13 none]
+G r c none [put standard_complex_polynomials_io 75 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 75 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 78 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 78 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 78 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 79 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 79 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 79 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [put standard_natural_numbers_io 26 13 none]
+G r i none [put_terms standard_complex_polynomials_io 81 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 81 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 81 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [put standard_natural_numbers_io 26 13 none]
+G r i none [put_terms standard_complex_polynomials_io 83 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 83 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 83 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 87 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 87 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 87 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 87 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 87 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 87 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 87 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 87 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 87 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 88 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 88 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 88 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 88 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 88 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 88 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 88 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 88 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 88 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 90 13 none] [put standard_natural_numbers_io 26 13 none]
+G r i none [put standard_complex_polynomials_io 90 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 90 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 90 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 90 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 90 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 90 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 90 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put standard_complex_polynomials_io 90 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 90 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 90 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 90 13 none] [write_factor write_factors 13 13 none]
+G r c none [put standard_complex_polynomials_io 90 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 90 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 92 13 none] [put standard_natural_numbers_io 26 13 none]
+G r i none [put standard_complex_polynomials_io 92 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 92 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 92 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 92 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 92 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 92 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 92 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put standard_complex_polynomials_io 92 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 92 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 92 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 92 13 none] [write_factor write_factors 13 13 none]
+G r c none [put standard_complex_polynomials_io 92 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 92 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 115 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 115 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 115 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms standard_complex_polynomials_io 116 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [init_line line_breaks 10 13 none]
+G r s term [put_terms standard_complex_polynomials_io 116 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [length line_breaks 22 12 none]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms standard_complex_polynomials_io 116 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 117 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 117 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 117 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 117 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 117 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 117 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 117 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 117 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 117 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 117 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 117 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 117 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 117 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 117 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 118 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put standard_complex_polynomials_io 118 13 none] [number symbol_table 135 12 none]
+G r i none [put standard_complex_polynomials_io 118 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [put standard_complex_polynomials_io 118 13 none] [init_line line_breaks 10 13 none]
+G r s term [put standard_complex_polynomials_io 118 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put standard_complex_polynomials_io 118 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 118 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put standard_complex_polynomials_io 118 13 none] [write_plus standard_write_numbers 72 13 none]
+G r c none [put standard_complex_polynomials_io 118 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put standard_complex_polynomials_io 118 13 none] [write_coefficient standard_write_numbers 59 13 none]
+G r c none [put standard_complex_polynomials_io 118 13 none] [length line_breaks 22 12 none]
+G r c none [put standard_complex_polynomials_io 118 13 none] [write_factor write_factors 20 13 none]
+G r c none [put standard_complex_polynomials_io 118 13 none] [line line_breaks 15 13 none]
+G r c none [put standard_complex_polynomials_io 118 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_line standard_complex_polynomials_io 124 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 124 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 124 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_line standard_complex_polynomials_io 125 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 125 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 125 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [number symbol_table 135 12 none]
+G r i none [put_line standard_complex_polynomials_io 126 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 126 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_line standard_complex_polynomials_io 126 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [number symbol_table 135 12 none]
+G r i none [put_line standard_complex_polynomials_io 127 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 127 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_line standard_complex_polynomials_io 127 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_line standard_complex_polynomials_io 128 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 128 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 128 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_line standard_complex_polynomials_io 129 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 129 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 129 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [number symbol_table 135 12 none]
+G r i none [put_line standard_complex_polynomials_io 131 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 131 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_line standard_complex_polynomials_io 131 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [number symbol_table 135 12 none]
+G r i none [put_line standard_complex_polynomials_io 132 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 132 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_line standard_complex_polynomials_io 132 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_line standard_complex_polynomials_io 133 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 133 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 133 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_line standard_complex_polynomials_io 134 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 134 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 134 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_line standard_complex_polynomials_io 136 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 136 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_line standard_complex_polynomials_io 136 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_line standard_complex_polynomials_io 137 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 137 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_line standard_complex_polynomials_io 137 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_line standard_complex_polynomials_io 139 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 139 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 139 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_line standard_complex_polynomials_io 141 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_line standard_complex_polynomials_io 141 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_line standard_complex_polynomials_io 141 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_line standard_complex_polynomials_io 143 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 143 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_line standard_complex_polynomials_io 143 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_line standard_complex_polynomials_io 144 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_line standard_complex_polynomials_io 144 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [line line_breaks 15 13 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_line standard_complex_polynomials_io 144 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_pair standard_complex_polynomials_io 152 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 152 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 152 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_pair standard_complex_polynomials_io 153 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 153 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 153 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [number symbol_table 135 12 none]
+G r i none [put_pair standard_complex_polynomials_io 154 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 154 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_pair standard_complex_polynomials_io 154 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [number symbol_table 135 12 none]
+G r i none [put_pair standard_complex_polynomials_io 155 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 155 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_pair standard_complex_polynomials_io 155 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_pair standard_complex_polynomials_io 156 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 156 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 156 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [number symbol_table 135 12 none]
+G r i none [put_terms_pair standard_complex_polynomials_io 157 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 157 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 157 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [number symbol_table 135 12 none]
+G r i none [put_pair standard_complex_polynomials_io 159 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 159 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_pair standard_complex_polynomials_io 159 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [number symbol_table 135 12 none]
+G r i none [put_pair standard_complex_polynomials_io 160 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 160 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [write_factor write_factors 20 13 none]
+G r c none [put_pair standard_complex_polynomials_io 160 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_pair standard_complex_polynomials_io 161 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 161 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 161 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_pair standard_complex_polynomials_io 162 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 162 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 162 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_pair standard_complex_polynomials_io 164 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 164 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_pair standard_complex_polynomials_io 164 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_pair standard_complex_polynomials_io 165 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 165 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_pair standard_complex_polynomials_io 165 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_pair standard_complex_polynomials_io 167 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 167 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 167 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_terms_pair standard_complex_polynomials_io 169 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_terms_pair standard_complex_polynomials_io 169 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [line line_breaks 15 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_terms_pair standard_complex_polynomials_io 169 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_pair standard_complex_polynomials_io 171 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 171 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_pair standard_complex_polynomials_io 171 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [put_pair standard_complex_polynomials_io 172 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [put_pair standard_complex_polynomials_io 172 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [is_real standard_write_numbers 19 12 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [init_line line_breaks 10 13 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [write_number standard_write_numbers 51 13 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [line line_breaks 15 13 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [sum standard_natural_vectors 53 12 4_1]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [write_factor write_factors 13 13 none]
+G r c none [put_pair standard_complex_polynomials_io 172 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r s term [read_term standard_complex_polynomials_io 18 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [maximal_size symbol_table 130 12 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [read_term standard_complex_polynomials_io 18 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [maximal_size symbol_table 130 12 none]
+G r s term [read_factor standard_complex_polynomials_io 36 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [read_factor standard_complex_polynomials_io 36 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [read_power_factor standard_complex_polynomials_io 55 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [read_power_factor standard_complex_polynomials_io 55 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r c none [read_power_factor standard_complex_polynomials_io 55 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [maximal_size symbol_table 130 12 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G r s term [read_polynomial standard_complex_polynomials_io 94 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [parse standard_parse_numbers 148 13 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [parse standard_parse_numbers 90 13 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [pow standard_complex_polynomials 111 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [parse_symbol symbol_table_io 45 13 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [check_symbol symbol_table 113 12 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [min standard_complex_polynomials 105 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [sub standard_complex_polynomials 106 13 4_1]
+G r c none [read_polynomial standard_complex_polynomials_io 94 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+X 11 a-textio.ads
+67P9*File_Type 26|21r29 24r29 55r35 57r35 61r29 63r29 67r35 69r35 73r29 75r29
+. 79r35 83r35 88r29 92r29 116r35 118r29 125r40 127r34 129r40 132r34 134r40
+. 137r34 141r40 144r34 153r40 155r34 157r40 160r34 162r40 165r34 169r40 172r34
+. 27|18r35 36r37 56r27 95r27 198r37 260r35 363r29 376r29 398r35 448r29 464r35
+. 472r29 490r35 495r29 510r35 516r29 533r35 578r29 597r35 606r29 625r35 631r29
+. 676r40 681r40 686r34 691r34 696r40 732r40 772r34 779r34 830r40 836r40 842r34
+. 848r34 855r29 891r29 929r34 937r34
+187V13*Standard_Input{67P9} 27|360s9 373s9
+188V13*Standard_Output{67P9} 27|390s15 395s9 456s15 461s9 482s15 487s9 502s15
+. 507s9 525s15 530s9 588s15 594s9 617s15 622s9 638s20 643s20 648s14 653s14
+. 658s20 663s20 668s14 673s14 789s20 795s20 801s14 807s14 812s20 817s20 822s14
+. 827s14
+277U14*New_Line 27|705s7 744s13 776s5 783s5 863s7 901s13 934s5 942s5
+414U14*Get 27|78s5 80s11 86s13 109s5 117s43 130s11 142s15 164s27 172s17 213s7
+. 224s7 230s13 233s7 235s9 241s15 285s7 289s7 292s7 296s9 306s43 308s11
+426U14*Put 27|430s19 451s5 560s19 582s5 719s13 759s13 775s5 782s5 877s13
+. 916s13 933s5 941s5
+439U14*Look_Ahead 27|140s13 170s15
+508U14*Put 27|708s15 712s15 748s15 752s15 866s15 870s15 905s15 909s15
+555U14*Put_Line 27|468s5 476s5 602s5 611s5
+565U14*Put_Line 27|975s7
+X 13 characters_and_numbers.ads
+6K9*Characters_and_Numbers 85e27 27|3w6 3r46
+19V12*Convert{31|7I8} 27|254s8
+X 15 generic_polynomials.ads
+21P8*Degrees<17|17P8[34|4]> 27|38r38[25|4] 200r38[25|4] 265r9[25|4]
+23R8*Term 27|267r11[25|4] 404r35[25|4] 538r35[25|4] 703r35[25|4] 740r35[25|4]
+. 858r35[25|4] 897r35[25|4]
+24r5*cf{23|11R8} 27|346m11[25|4] 417r31[25|4] 423r29[25|4] 425r34[25|4] 550r31[25|4]
+. 553r29[25|4] 555r34[25|4] 706r20[25|4] 707r24[25|4] 711r26[25|4] 711r54[25|4]
+. 715r38[25|4] 746r20[25|4] 747r24[25|4] 751r26[25|4] 751r54[25|4] 755r38[25|4]
+. 864r20[25|4] 865r24[25|4] 869r26[25|4] 869r54[25|4] 873r38[25|4] 903r20[25|4]
+. 904r24[25|4] 908r26[25|4] 908r54[25|4] 912r38[25|4]
+25p5*dg{21P8[25|4]} 27|347m11[25|4] 419r18[25|4] 420r28[25|4] 427r20[25|4]
+. 428r16[25|4] 433r43[25|4] 434r33[25|4] 552r16[25|4] 557r20[25|4] 558r16[25|4]
+. 563r43[25|4] 564r33[25|4] 716r16[25|4] 717r20[25|4] 718r16[25|4] 720r33[25|4]
+. 756r16[25|4] 757r20[25|4] 758r16[25|4] 760r33[25|4] 874r16[25|4] 875r20[25|4]
+. 876r16[25|4] 878r33[25|4] 913r16[25|4] 914r20[25|4] 915r16[25|4] 917r33[25|4]
+28P8*Poly 26|20r52[25|4] 22r52[25|4] 23r30[25|4] 24r51[25|4] 54r32[25|4]
+. 55r53[25|4] 56r32[25|4] 58r32[25|4] 60r26[25|4] 61r47[25|4] 62r26[25|4]
+. 64r26[25|4] 66r32[25|4] 67r53[25|4] 68r32[25|4] 70r32[25|4] 72r26[25|4]
+. 73r47[25|4] 74r26[25|4] 76r26[25|4] 78r50[25|4] 80r50[25|4] 81r50[25|4]
+. 84r50[25|4] 87r44[25|4] 89r44[25|4] 90r44[25|4] 93r44[25|4] 115r32[25|4]
+. 116r53[25|4] 117r26[25|4] 118r47[25|4] 124r37[25|4] 125r58[25|4] 126r31[25|4]
+. 127r52[25|4] 128r37[25|4] 130r37[25|4] 131r31[25|4] 132r52[25|4] 133r37[25|4]
+. 135r37[25|4] 136r31[25|4] 138r31[25|4] 139r37[25|4] 141r58[25|4] 143r31[25|4]
+. 145r31[25|4] 152r37[25|4] 153r58[25|4] 154r31[25|4] 155r52[25|4] 156r37[25|4]
+. 158r37[25|4] 159r31[25|4] 160r52[25|4] 161r37[25|4] 163r37[25|4] 164r31[25|4]
+. 166r31[25|4] 167r37[25|4] 169r58[25|4] 171r31[25|4] 173r31[25|4] 27|20r58[25|4]
+. 38r59[25|4] 57r28[25|4] 96r25[25|4] 104r20[25|4] 200r59[25|4] 262r58[25|4]
+. 266r14[25|4] 358r30[25|4] 363r51[25|4] 371r52[25|4] 377r52[25|4] 388r32[25|4]
+. 393r26[25|4] 398r53[25|4] 448r47[25|4] 454r50[25|4] 459r44[25|4] 465r32[25|4]
+. 473r26[25|4] 480r32[25|4] 485r26[25|4] 490r53[25|4] 495r47[25|4] 500r32[25|4]
+. 505r26[25|4] 511r32[25|4] 517r26[25|4] 522r32[25|4] 528r26[25|4] 533r53[25|4]
+. 579r26[25|4] 585r50[25|4] 591r44[25|4] 598r50[25|4] 607r44[25|4] 615r32[25|4]
+. 620r26[25|4] 626r33[25|4] 631r47[25|4] 636r37[25|4] 641r37[25|4] 646r31[25|4]
+. 651r31[25|4] 656r37[25|4] 661r37[25|4] 666r31[25|4] 671r31[25|4] 676r58[25|4]
+. 681r58[25|4] 686r52[25|4] 691r52[25|4] 697r37[25|4] 733r37[25|4] 772r52[25|4]
+. 779r52[25|4] 787r24[25|4] 793r24[25|4] 799r24[25|4] 805r24[25|4] 810r37[25|4]
+. 815r37[25|4] 820r31[25|4] 825r31[25|4] 830r58[25|4] 836r58[25|4] 842r52[25|4]
+. 848r52[25|4] 855r47[25|4] 891r47[25|4] 929r52[25|4] 937r52[25|4]
+30p3*Null_Poly{28P8[25|4]} 27|104r28[25|4] 187r20[25|4] 266r22[25|4] 271r16[25|4]
+. 272r18[25|4] 299r18[25|4]
+38V12*Create{28P8[25|4]} 27|348s16[25|4]
+41U13*Copy 27|147s51[25|4] 149s25[25|4] 273s15[25|4] 300s27[25|4]
+48V12*Number_of_Unknowns{31|7I8} 27|350s10[25|4] 400s32[25|4] 699s31[25|4]
+. 735s31[25|4]
+89V13*"+"{28P8[25|4]} 27|194s14[25|4]
+103U13*Add 27|121s11[25|4] 147s25[25|4] 148s25[25|4] 178s29[25|4]
+105U13*Min 27|149s41[25|4]
+106U13*Sub 27|179s29[25|4]
+109U13*Mul 27|150s25[25|4] 180s29[25|4] 274s15[25|4] 351s13[25|4]
+111U13*Pow 27|91s5[25|4]
+123U20 process 27|726r53[25|4] 766r53[25|4]
+124u13*Visiting_Iterator 27|441r34[25|4] 571r34[25|4] 726r34[25|4] 766r34[25|4]
+. 884r34[25|4] 923r34[25|4]
+129U13*Clear 27|349s7[25|4]
+130U13*Clear 27|121s26[25|4] 147s39[25|4] 148s38[25|4] 153s11[25|4] 184s13[25|4]
+. 195s5[25|4] 195s17[25|4] 273s29[25|4] 274s28[25|4] 300s15[25|4] 300s41[25|4]
+. 351s29[25|4]
+X 17 generic_vectors.ads
+16A8*Vector(31|7I8)<30|6I8> 27|265r49[34|4]
+17P8*Link_to_Vector(16A8[34|4])
+53V12*Sum{31|7I8} 27|552s10[34|4] 716s10[34|4] 756s10[34|4] 874s10[34|4]
+. 913s10[34|4]
+X 21 line_breaks.ads
+6K9*Line_Breaks 34e16 27|10w6 10r46
+10U13*Init_Line 27|444s5 574s5 715s7 755s7 873s7 912s7
+15U13*Line 27|437s9 451s26 567s9 582s26 715s46 755s46 873s46 912s46
+22V12*Length{31|7I8} 27|433s24 563s24
+X 22 parse_polynomial_exceptions.ads
+1K9*Parse_Polynomial_Exceptions 19e32 27|11w6 11r46
+7X3*ILLEGAL_CHARACTER 27|188r23 191r30 340r19
+10X3*ILLEGAL_OPERATION 27|151r34 181r38
+16X3*BAD_BRACKET 27|87r19 124r23 133r19 157r19 318r23 324r23 328r23
+X 23 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 27|5w6 5r46
+11R8*Complex_Number 90e15 27|264r9
+18V12*Create{11R8} 27|282s14 286s17 322s18 322s42 323s22 332s18 333s18 335s21
+. 345s13
+19V12*Create{11R8} 27|284s12 288s12 295s14
+24V12*REAL_PART{29|13F8} 27|295s25 707s12 711s14 747s12 751s14 865s12 869s14
+. 904s12 908s14
+25V12*IMAG_PART{29|13F8} 27|711s42 751s42 869s42 908s42
+X 25 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[15|11] 26|4w6 4r46
+X 26 standard_complex_polynomials_io.ads
+6K9*Standard_Complex_Polynomials_io 185l5 185e36 27|14b14 979l5 979t36
+20U13*get 20=19 20=41 27|371b13 374l7 374t10
+20i19 n{31|7I8} 27|371b19 373m24
+20p41 p{15|28P8[25|4]} 27|371b41 373m26
+21U13*get 21>19 22=19 22=41 27|373s5 376b13 384l7 384t10
+21p19 file{11|67P9} 27|376b19 379r9 383r9
+22i19 n{31|7I8} 27|377b19 379m14 381r29
+22p41 p{15|28P8[25|4]} 27|377b41 383m14
+23U13*get 23=19 27|358b13 361l7 361t10
+23p19 p{15|28P8[25|4]} 27|358b19 360m24
+24U13*get 24>19 24=40 27|360s5 363b13 369l7 369t10 383s5
+24p19 file{11|67P9} 27|363b19 368r21
+24p40 p{15|28P8[25|4]} 27|363b40 368m29
+54U13*put_terms 54>25 27|480b13 483l7 483t16
+54p25 p{15|28P8[25|4]} 27|480b25 482r31
+55U13*put_terms 55>25 55>46 27|490b13 493l7 493t16 628s5
+55p25 file{11|67P9} 27|490b25 492r15
+55p46 p{15|28P8[25|4]} 27|490b46 492r20
+56U13*put_terms 56>25 56>38 27|500b13 503l7 503t16
+56p25 p{15|28P8[25|4]} 27|500b25 502r31
+56a38 s{37|16A8} 27|500b38 502r33
+57U13*put_terms 57>25 58>25 58>38 27|502s5 510b13 514l7 514t16
+57p25 file{11|67P9} 27|510b25 513r15
+58p25 p{15|28P8[25|4]} 27|511b25 513r20
+58a38 s{37|16A8} 27|511b38 513r22
+60U13*put 60>19 27|485b13 488l7 488t10
+60p19 p{15|28P8[25|4]} 27|485b19 487r25
+61U13*put 61>19 61>40 27|495b13 498l7 498t10 633s5
+61p19 file{11|67P9} 27|495b19 497r9
+61p40 p{15|28P8[25|4]} 27|495b40 497r14
+62U13*put 62>19 62>32 27|505b13 508l7 508t10
+62p19 p{15|28P8[25|4]} 27|505b19 507r25
+62a32 s{37|16A8} 27|505b32 507r27
+63U13*put 63>19 64>19 64>32 27|507s5 516b13 520l7 520t10
+63p19 file{11|67P9} 27|516b19 519r9
+64p19 p{15|28P8[25|4]} 27|517b19 519r14
+64a32 s{37|16A8} 27|517b32 519r16
+66U13*put_terms 66>25 66>38 27|388b13 391l7 391t16
+66p25 p{15|28P8[25|4]} 27|388b25 390r31
+66e38 pow{37|11E8} 27|388b38 390r33
+67U13*put_terms 67>25 67>46 67>59 27|390s5 398b13 446l7 446t16 450s5 469s5
+. 482s5 492s5
+67p25 file{11|67P9} 27|398b25 417r24 423r22 425r27 430r23 434r26 437r14
+67p46 p{15|28P8[25|4]} 27|398b46 400r51 445r17
+67e59 pow{37|11E8} 27|398b59 433r61 434r61
+68U13*put_terms 68>25 68>38 68>63 27|522b13 526l7 526t16
+68p25 p{15|28P8[25|4]} 27|522b25 525r31
+68a38 s{37|16A8} 27|522b38 525r33
+68e63 pow{37|11E8} 27|523b25 525r35
+69U13*put_terms 69>25 70>25 70>38 70>63 27|513s5 525s5 533b13 576l7 576t16
+. 581s5 603s5
+69p25 file{11|67P9} 27|533b25 550r24 553r22 555r27 560r23 564r26 567r14
+70p25 p{15|28P8[25|4]} 27|533b46 575r17
+70a38 s{37|16A8} 27|534b25 564r39
+70e63 pow{37|11E8} 27|534b50 563r57 564r44
+72U13*put 72>19 72>32 27|393b13 396l7 396t10
+72p19 p{15|28P8[25|4]} 27|393b19 395r25
+72e32 pow{37|11E8} 27|393b32 395r27
+73U13*put 73>19 73>40 73>53 27|395s5 448b13 452l7 452t10 477s5 487s5 497s5
+73p19 file{11|67P9} 27|448b19 450r15 451r9 451r31
+73p40 p{15|28P8[25|4]} 27|448b40 450r20
+73e53 pow{37|11E8} 27|448b53 450r22
+74U13*put 74>19 74>32 74>57 27|528b13 531l7 531t10
+74p19 p{15|28P8[25|4]} 27|528b19 530r25
+74a32 s{37|16A8} 27|528b32 530r27
+74e57 pow{37|11E8} 27|528b57 530r29
+75U13*put 75>19 76>19 76>32 76>57 27|519s5 530s5 578b13 583l7 583t10 612s5
+75p19 file{11|67P9} 27|578b19 581r15 582r9 582r31
+76p19 p{15|28P8[25|4]} 27|579b19 581r20
+76a32 s{37|16A8} 27|579b32 581r22
+76e57 pow{37|11E8} 27|579b57 581r24
+78U13*put_terms 78>25 78>43 78>56 27|454b13 457l7 457t16
+78i25 n{31|7I8} 27|454b25 456r31
+78p43 p{15|28P8[25|4]} 27|454b43 456r33
+78e56 pow{37|11E8} 27|454b56 456r35
+79U13*put_terms 79>25 80>25 80>43 80>56 27|456s5 464b13 470l7 470t16
+79p25 file{11|67P9} 27|464b25 467r9 468r14 469r15
+80i25 n{31|7I8} 27|464b46 467r14
+80p43 p{15|28P8[25|4]} 27|465b25 469r20
+80e56 pow{37|11E8} 27|465b38 469r22
+81U13*put_terms 81>25 81>43 82>25 82>50 27|585b13 589l7 589t16
+81i25 n{31|7I8} 27|585b25 588r31
+81p43 p{15|28P8[25|4]} 27|585b43 588r33
+82a25 s{37|16A8} 27|586b25 588r35
+82e50 pow{37|11E8} 27|586b50 588r37
+83U13*put_terms 83>25 84>25 84>43 85>25 85>50 27|588s5 597b13 604l7 604t16
+83p25 file{11|67P9} 27|597b25 601r9 602r14 603r15
+84i25 n{31|7I8} 27|598b25 601r14
+84p43 p{15|28P8[25|4]} 27|598b43 603r20
+85a25 s{37|16A8} 27|599b25 603r22
+85e50 pow{37|11E8} 27|599b50 603r24
+87U13*put 87>19 87>37 87>50 27|459b13 462l7 462t10
+87i19 n{31|7I8} 27|459b19 461r25
+87p37 p{15|28P8[25|4]} 27|459b37 461r27
+87e50 pow{37|11E8} 27|459b50 461r29
+88U13*put 88>19 89>19 89>37 89>50 27|461s5 472b13 478l7 478t10
+88p19 file{11|67P9} 27|472b19 475r9 476r14 477r9
+89i19 n{31|7I8} 27|472b40 475r14
+89p37 p{15|28P8[25|4]} 27|473b19 477r14
+89e50 pow{37|11E8} 27|473b32 477r16
+90U13*put 90>19 90>37 91>19 91>44 27|591b13 595l7 595t10
+90i19 n{31|7I8} 27|591b19 594r25
+90p37 p{15|28P8[25|4]} 27|591b37 594r27
+91a19 s{37|16A8} 27|592b19 594r29
+91e44 pow{37|11E8} 27|592b44 594r31
+92U13*put 92>19 93>19 93>37 94>19 94>44 27|594s5 606b13 613l7 613t10
+92p19 file{11|67P9} 27|606b19 610r9 611r14 612r9
+93i19 n{31|7I8} 27|607b19 610r14
+93p37 p{15|28P8[25|4]} 27|607b37 612r14
+94a19 s{37|16A8} 27|608b19 612r16
+94e44 pow{37|11E8} 27|608b44 612r18
+115U13*put_terms 115>25 115>38 27|615b13 618l7 618t16
+115p25 p{15|28P8[25|4]} 27|615b25 617r31
+115i38 dp{31|7I8} 27|615b38 617r33
+116U13*put_terms 116>25 116>46 116>59 27|617s5 625b13 629l7 629t16
+116p25 file{11|67P9} 27|625b25 628r15
+116p46 p{15|28P8[25|4]} 27|626b26 628r20
+116i59 dp{31|7I8} 27|626b39
+117U13*put 117>19 117>32 27|620b13 623l7 623t10
+117p19 p{15|28P8[25|4]} 27|620b19 622r25
+117i32 dp{31|7I8} 27|620b32 622r27
+118U13*put 118>19 118>40 118>53 27|622s5 631b13 634l7 634t10
+118p19 file{11|67P9} 27|631b19 633r9
+118p40 p{15|28P8[25|4]} 27|631b40 633r14
+118i53 dp{31|7I8} 27|631b53
+124U13*put_terms_line 124>30 27|656b13 659l7 659t21
+124p30 p{15|28P8[25|4]} 27|656b30 658r36
+125U13*put_terms_line 125>30 125>51 27|676b13 679l7 679t21
+125p30 file{11|67P9} 27|676b30 678r20
+125p51 p{15|28P8[25|4]} 27|676b51 678r25
+126U13*put_line 126>24 27|666b13 669l7 669t15
+126p24 p{15|28P8[25|4]} 27|666b24 668r30
+127U13*put_line 127>24 127>45 27|686b13 689l7 689t15
+127p24 file{11|67P9} 27|686b24 688r14
+127p45 p{15|28P8[25|4]} 27|686b45 688r19
+128U13*put_terms_line 128>30 128>43 27|636b13 639l7 639t21
+128p30 p{15|28P8[25|4]} 27|636b30 638r36
+128e43 pow{37|11E8} 27|636b43 638r38
+129U13*put_terms_line 129>30 130>30 130>43 27|638s5 658s5 678s5 696b13 730l7
+. 730t21 774s5
+129p30 file{11|67P9} 27|696b30 705r16 708r19 712r19 715r31 715r51 719r17
+. 720r26
+130p30 p{15|28P8[25|4]} 27|697b30 699r50 729r17
+130e43 pow{37|11E8} 27|697b43 720r61
+131U13*put_line 131>24 131>37 27|646b13 649l7 649t15
+131p24 p{15|28P8[25|4]} 27|646b24 648r30
+131e37 pow{37|11E8} 27|646b37 648r32
+132U13*put_line 132>24 132>45 132>58 27|648s5 668s5 688s5 772b13 777l7 777t15
+132p24 file{11|67P9} 27|772b24 774r20 775r9 776r14
+132p45 p{15|28P8[25|4]} 27|772b45 774r25
+132e58 pow{37|11E8} 27|772b58 774r27
+133U13*put_terms_line 133>30 133>43 27|810b13 813l7 813t21
+133p30 p{15|28P8[25|4]} 27|810b30 812r36
+133a43 s{37|16A8} 27|810b43 812r38
+134U13*put_terms_line 134>30 135>30 135>43 27|830b13 834l7 834t21
+134p30 file{11|67P9} 27|830b30 833r20
+135p30 p{15|28P8[25|4]} 27|830b51 833r25
+135a43 s{37|16A8} 27|831b30 833r27
+136U13*put_line 136>24 136>37 27|820b13 823l7 823t15
+136p24 p{15|28P8[25|4]} 27|820b24 822r30
+136a37 s{37|16A8} 27|820b37 822r32
+137U13*put_line 137>24 138>24 138>37 27|842b13 846l7 846t15
+137p24 file{11|67P9} 27|842b24 845r14
+138p24 p{15|28P8[25|4]} 27|842b45 845r19
+138a37 s{37|16A8} 27|843b24 845r21
+139U13*put_terms_line 139>30 139>43 140>30 27|786b13 790l7 790t21
+139p30 p{15|28P8[25|4]} 27|787b17 789r36
+139a43 s{37|16A8} 27|787b30 789r38
+140e30 pow{37|11E8} 27|787b55 789r40
+141U13*put_terms_line 141>30 141>51 142>30 142>55 27|789s5 812s5 833s5 854b13
+. 888l7 888t21 932s5
+141p30 file{11|67P9} 27|855b19 863r16 866r19 870r19 873r31 873r51 877r17
+. 878r26
+141p51 p{15|28P8[25|4]} 27|855b40 887r17
+142a30 s{37|16A8} 27|856b19 878r39
+142e55 pow{37|11E8} 27|856b44 878r44
+143U13*put_line 143>24 143>37 143>62 27|798b13 802l7 802t15
+143p24 p{15|28P8[25|4]} 27|799b17 801r30
+143a37 s{37|16A8} 27|799b30 801r32
+143e62 pow{37|11E8} 27|799b55 801r34
+144U13*put_line 144>24 145>24 145>37 145>62 27|801s5 822s5 845s5 929b13 935l7
+. 935t15
+144p24 file{11|67P9} 27|929b24 932r20 933r9 934r14
+145p24 p{15|28P8[25|4]} 27|929b45 932r25
+145a37 s{37|16A8} 27|930b24 932r27
+145e62 pow{37|11E8} 27|930b49 932r29
+152U13*put_terms_pair 152>30 27|661b13 664l7 664t21
+152p30 p{15|28P8[25|4]} 27|661b30 663r36
+153U13*put_terms_pair 153>30 153>51 27|681b13 684l7 684t21
+153p30 file{11|67P9} 27|681b30 683r20
+153p51 p{15|28P8[25|4]} 27|681b51 683r25
+154U13*put_pair 154>24 27|671b13 674l7 674t15
+154p24 p{15|28P8[25|4]} 27|671b24 673r30
+155U13*put_pair 155>24 155>45 27|691b13 694l7 694t15
+155p24 file{11|67P9} 27|691b24 693r14
+155p45 p{15|28P8[25|4]} 27|691b45 693r19
+156U13*put_terms_pair 156>30 156>43 27|641b13 644l7 644t21
+156p30 p{15|28P8[25|4]} 27|641b30 643r36
+156e43 pow{37|11E8} 27|641b43 643r38
+157U13*put_terms_pair 157>30 158>30 158>43 27|643s5 663s5 683s5 732b13 770l7
+. 770t21 781s5
+157p30 file{11|67P9} 27|732b30 744r22 748r19 752r19 755r31 755r51 759r17
+. 760r26
+158p30 p{15|28P8[25|4]} 27|733b30 735r50 769r17
+158e43 pow{37|11E8} 27|733b43 760r61
+159U13*put_pair 159>24 159>37 27|651b13 654l7 654t15
+159p24 p{15|28P8[25|4]} 27|651b24 653r30
+159e37 pow{37|11E8} 27|651b37 653r32
+160U13*put_pair 160>24 160>45 160>58 27|653s5 673s5 693s5 779b13 784l7 784t15
+160p24 file{11|67P9} 27|779b24 781r20 782r9 783r14
+160p45 p{15|28P8[25|4]} 27|779b45 781r25
+160e58 pow{37|11E8} 27|779b58 781r27
+161U13*put_terms_pair 161>30 161>43 27|815b13 818l7 818t21
+161p30 p{15|28P8[25|4]} 27|815b30 817r36
+161a43 s{37|16A8} 27|815b43 817r38
+162U13*put_terms_pair 162>30 163>30 163>43 27|836b13 840l7 840t21
+162p30 file{11|67P9} 27|836b30 839r20
+163p30 p{15|28P8[25|4]} 27|836b51 839r25
+163a43 s{37|16A8} 27|837b30 839r27
+164U13*put_pair 164>24 164>37 27|825b13 828l7 828t15
+164p24 p{15|28P8[25|4]} 27|825b24 827r30
+164a37 s{37|16A8} 27|825b37 827r32
+165U13*put_pair 165>24 166>24 166>37 27|848b13 852l7 852t15
+165p24 file{11|67P9} 27|848b24 851r14
+166p24 p{15|28P8[25|4]} 27|848b45 851r19
+166a37 s{37|16A8} 27|849b24 851r21
+167U13*put_terms_pair 167>30 167>43 168>30 27|792b13 796l7 796t21
+167p30 p{15|28P8[25|4]} 27|793b17 795r36
+167a43 s{37|16A8} 27|793b30 795r38
+168e30 pow{37|11E8} 27|793b55 795r40
+169U13*put_terms_pair 169>30 169>51 170>30 170>55 27|795s5 817s5 839s5 890b13
+. 927l7 927t21 940s5
+169p30 file{11|67P9} 27|891b19 901r22 905r19 909r19 912r31 912r51 916r17
+. 917r26
+169p51 p{15|28P8[25|4]} 27|891b40 926r17
+170a30 s{37|16A8} 27|892b19 917r39
+170e55 pow{37|11E8} 27|892b44 917r44
+171U13*put_pair 171>24 171>37 171>62 27|804b13 808l7 808t15
+171p24 p{15|28P8[25|4]} 27|805b17 807r30
+171a37 s{37|16A8} 27|805b30 807r32
+171e62 pow{37|11E8} 27|805b55 807r34
+172U13*put_pair 172>24 173>24 173>37 173>62 27|807s5 827s5 851s5 937b13 943l7
+. 943t15
+172p24 file{11|67P9} 27|937b24 940r20 941r9 942r14
+173p24 p{15|28P8[25|4]} 27|937b45 940r25
+173a37 s{37|16A8} 27|938b24 940r27
+173e62 pow{37|11E8} 27|938b49 940r29
+180U13*Display_Format 27|945b13 977l7 977t21
+X 27 standard_complex_polynomials_io.adb
+18U13 Read_Term 18>25 18=46 19=25 20>25 20=43 114s5 120s11 165s13 255s11
+. 260b13 354l7 354t16
+18p25 file{11|67P9} 260b25 280r11 281r24 285r11 289r11 291r26 292r11 293r26
+. 296r13 298r21 306r47 308r15 308r39 334r25 336r25 338r31
+18i46 bc{30|6I8} 260b46 298m26 308m44 317r14 327r14 334m30 336m30
+19e25 char{character} 261b25 280m16 281m29 282r39 282r55 285m16 286r43 286r59
+. 289m16 290r11 291m31 292m16 293m31 294r11 294r27 296m18 298m29 305r12 306m52
+. 308m20 308m47 334m33 336m33 337r17 338m36
+20i25 n{31|7I8} 262b25 265r70 298r34 308r52 334r38 336r38
+20p43 termp{15|28P8[25|4]} 262b43 348m7 351m17
+36U13 Read_Factor 36>27 36=48 37=27 37>52 38=27 38=47 198b13 256s11 258l7
+. 258t18 298s9 308s27 334s13 336s13
+36p27 file{11|67P9} 198b27 209r24 212r23 213r11 214r26 216r31 220r34 222r24
+. 224r11 225r13 227r26 230r17 233r11 235r13 236r15 238r28 241r19 250r24 255r21
+. 256r23
+36i48 bc{30|6I8} 198b48 211m7 211r13 212m28 255m26 256m28
+37e27 char{character} 199b27 209m29 210r8 213m16 214m31 215r10 216m36 220m39
+. 222m29 223r8 224m16 225m18 227m31 228r10 230m22 232r11 233m16 234r10 235m18
+. 236m20 238m33 239r12 241m24 250m29 251r9 251r25 254r16 255m29 256m31
+37i52 n{31|7I8} 199b52 221r46 255r34 256r36
+38p27 d{15|21P8[25|4]} 200b27 226r7 226r15 237r9 237r17 244r9 244r17 247r7
+. 247r15 256m38
+38p47 pb{15|28P8[25|4]} 200b47 212m31 216m41 255m36 256m40
+55U13 Read_Power_Factor 55b13 56>17 56=38 57=17 92l7 92t24 138s13 143s15
+. 168s15 173s17 189s17 216s13 338s13
+56p17 file{11|67P9} 78r9 80r15 82r11 84r26 86r17
+56e38 char{character} 78m14 79r8 80m20 82m16 84m31 85r10 86m22
+57p17 p{15|28P8[25|4]} 91m9
+72i5 d{31|7I8} 90m5 91r11
+72i7 ne{31|7I8} 82m32
+72i10 ne2{31|7I8} 82m35
+73i5 expo{30|6I8} 82m21 90r20
+73i10 expo2{30|6I8} 82m26
+74e5 sign{character} 82m39
+75b5 bracket{boolean} 80m27 83r8
+94U13 Read_Polynomial 94b13 95>17 95=38 96<17 129s11 196l7 196t22 212s7 368s5
+95p17 file{11|67P9} 109r9 110r24 114r15 117r47 120r21 129r27 130r15 131r30
+. 138r31 140r24 142r19 143r33 164r31 165r23 166r32 168r33 170r26 172r21 173r35
+. 189r35
+95i38 bc{30|6I8} 114m20 120m26 123r14 128m11 128r17 129m32 155m11 155r17
+. 156r14 165m28
+96p17 p{15|28P8[25|4]} 194m5
+102i5 n{31|7I8} 114r28 120r34 165r36
+103e5 char{character} 109m14 110m29 110r29 111r8 114m23 114r23 116r12 117m52
+. 119r19 120m29 120r29 130m20 131m35 131r35 132r14 137r14 138m36 138r36 139r17
+. 142m24 143m38 143r38 164r21 164m36 165m31 165r31 166m37 166r37 167r16 168m38
+. 168r38 169r19 172m26 173m40 173r40 176r16 189m40 189r40
+103e10 oper{character} 108m5 112m11 119m11 146r16 164m13 177r20
+103e15 nextchar{character} 140m29 141r16 170m31 171r18
+104p5 term{15|28P8[25|4]} 120m36 120r36 121r19 121m32 121r32 129m35 129r35
+. 138m41 138r41 143m43 143r43 147r56 149r30 150r33 153m17 153r17 165m38 165r38
+. 168m43 168r43 173m45 173r45 178r37 179r37 180r37 184m19 184r19
+104p10 res{15|28P8[25|4]} 114m30 114r30 121m15 121r15 147r33 147m45 147r45
+. 147m61 147r61 148r33 148m44 148r44 149m35 149r35 149m45 149r45 150m29 150r29
+. 178m33 178r33 179m33 179r33 180m33 180r33 187r14 189m45 189r45 194r16 195m23
+. 195r23
+104p14 acc{15|28P8[25|4]} 147m29 147r29 148m29 148r29 194r10 195m11 195r11
+105b5 eol{boolean} 140m38 170m40
+202a5 sb{37|15A11} 220m44 221r48
+203i5 ne{31|7I8} 225m34 236m36
+203i8 ne2{31|7I8} 225m37 236m39
+204i5 k{30|6I8} 221m5 226r9 226r17 237r11 237r19 244r11 244r19 247r9 247r17
+205i5 expo{30|6I8} 225m23 226r32 236m25 237r34
+205i10 expo2{30|6I8} 225m28 236m30
+206e5 sign{character} 225m41 236m43
+264r5 c{23|11R8} 280m21 282r10 284m7 286r13 288m7 295m9 295r35 322r14 322r38
+. 323m17 332r14 333m13 335r17 345r8 346r17
+265p5 d{15|21P8[25|4]} 298m36 298r36 308m54 308r54 334m40 334r40 336m40 336r40
+. 347r17
+266p5 pb{15|28P8[25|4]} 271r10 273r20 273m35 273r35 274r23 274m34 274r34
+. 298m38 298r38 299r12 300r32 300m47 300r47 308m56 308r56 334m42 334r42 336m42
+. 336r42
+266p8 res{15|28P8[25|4]} 272r12 273m23 273r23 274m19 274r19 300m21 300r21
+. 300m35 300r35 338m41 338r41 350r29 351r23 351m35 351r35
+267r5 tmp{15|23R8[25|4]} 346m7 347m7 348r23 349m13 349r13
+269U15 Collect_Factor_Polynomial 269b15 277l9 277t34 309s11 342s11
+365i5 bc{30|6I8} 368m26 368r26
+400i5 nn{31|7I8} 401r60
+401b5 standard{boolean} 433r52 434r52
+402b5 first_time{boolean} 415r10 416m13
+404U15 Write_Term 404b15 404>28 404<41 440l9 440t19 441r52
+404r28 t{15|23R8[25|4]} 417r29 419r16 420r26 423r27 425r32 427r18 428r14
+. 433r41 434r31
+404b41 continue{boolean} 439m7
+409b7 passed{boolean} 426m9 429r16 431m19
+410i7 sc{31|7I8} 417m39 417r45 423m37 423r43 425m42 425r48 430m34 430r40
+. 433m13 433r19 437r19
+411i7 nc{31|7I8} 417m34 417r50 423m32 423r48 425m37 425r53
+412i7 degtg{31|7I8} 420m9 420r18 422r10
+419i11 i<long_integer> 420r31
+427i13 i<long_integer> 428r19 433r46 433r50 434r36 434r49
+441U15 Write_Terms[15|124] 445s5
+536b5 first_time{boolean} 548r10 549m13
+538U15 Write_Term 538b15 538>28 538<41 570l9 570t19 571r52
+538r28 t{15|23R8[25|4]} 550r29 552r14 553r27 555r32 557r18 558r14 563r41
+. 564r31
+538b41 continue{boolean} 569m7
+543b7 passed{boolean} 556m9 559r16 561m19
+544i7 sc{31|7I8} 550m39 550r45 553m37 553r43 555m42 555r48 560m34 560r40
+. 563m13 563r19 567r19
+545i7 nc{31|7I8} 550m34 550r50 553m32 553r48 555m37 555r53
+557i13 i<long_integer> 558r19 563r46 563r50 564r36 564r41
+571U15 Write_Terms[15|124] 575s5
+699i5 n{31|7I8} 700r60
+700b5 standard{boolean} 720r52
+701i5 nc{31|7I8} 715m41 715r56
+703U15 Write_Term 703b15 703>28 703<41 725l9 725t19 726r64
+703r28 t{15|23R8[25|4]} 706r18 707r22 711r24 711r52 715r36 716r14 717r18
+. 718r14 720r31
+703b41 continue{boolean} 724m7
+717i13 i<long_integer> 718r19 720r36 720r49
+726U15 Write_Terms[15|124] 729s5
+735i5 n{31|7I8} 736r60
+736b5 standard{boolean} 760r52
+737i5 cnt{31|7I8} 742m7 742r14 743r10
+738i5 nc{31|7I8} 755m41 755r56
+740U15 Write_Term 740b15 740>28 740<41 765l9 765t19 766r64
+740r28 t{15|23R8[25|4]} 746r18 747r22 751r24 751r52 755r36 756r14 757r18
+. 758r14 760r31
+740b41 continue{boolean} 764m7
+757i13 i<long_integer> 758r19 760r36 760r49
+766U15 Write_Terms[15|124] 769s5
+858U15 Write_Term 858b15 858>28 858<41 883l9 883t19 884r52
+858r28 t{15|23R8[25|4]} 864r18 865r22 869r24 869r52 873r36 874r14 875r18
+. 876r14 878r31
+858b41 continue{boolean} 882m7
+860i7 nc{31|7I8} 873m41 873r56
+875i13 i<long_integer> 876r19 878r36 878r41
+884U15 Write_Terms[15|124] 887s5
+894i5 cnt{31|7I8} 899m7 899r14 900r10
+895i5 nc{31|7I8} 912m41 912r56
+897U15 Write_Term 897b15 897>28 897<41 922l9 922t19 923r52
+897r28 t{15|23R8[25|4]} 903r18 904r22 908r24 908r52 912r36 913r14 914r18
+. 915r14 917r31
+897b41 continue{boolean} 921m7
+914i13 i<long_integer> 915r19 917r36 917r41
+923U15 Write_Terms[15|124] 926s5
+947a5 s(string) 950m5 951m5 952m5 953m5 954m5 955m5 956m5 957m5 958m5 959m5
+. 960m5 961m5 962m5 963m5 964m5 965m5 966m5 967m5 968m5 969m5 970m5 971m5
+. 972m5 973m5 974r14 975r16
+974i9 i{integer} 975r18
+X 29 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 27|4w6 4r46 29|58e30
+13F8*double_float<long_float>
+X 30 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 27|2w6 2r46 30|45e29
+6I8*integer32<long_integer> 27|18r58 36r60 73r18 95r50 198r60 204r9 205r18
+. 221r10 260r58 265r60 365r10 433r31 563r31
+X 31 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 26|2w6 2r46 31|30e29
+7I8*natural32<long_integer> 26|20r30 22r30 78r32 80r32 81r32 84r32 87r26
+. 89r26 90r26 93r26 115r46 116r67 117r40 118r61 27|20r32 37r59 72r16 90r10
+. 102r18 199r59 203r14 226r22 237r24 262r32 371r30 377r30 400r19 410r12 411r12
+. 412r15 434r39 454r32 459r26 464r53 472r47 544r12 545r12 585r32 591r26 598r32
+. 607r26 615r46 620r40 626r47 631r61 699r18 701r10 720r39 735r18 737r11 738r10
+. 760r39 860r12 894r11 895r10
+X 32 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 27|1w6 1r46 32|35e32
+10U13*get 27|379s5
+26U13*put 27|467s5 475s5 601s5 610s5
+X 34 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[17|8] 27|8w6 265r24
+X 35 standard_parse_numbers.ads
+7K9*Standard_Parse_Numbers 27|6w6 6r46 35|163e27
+25U13*Skip_Spaces_and_CR 27|84s7 110s5 131s11 166s13 209s5 214s7 222s5 227s7
+. 238s9 250s5 281s5 291s7 293s7
+90U13*Parse 27|82s5 225s7 236s9
+148U13*Parse 27|280s5
+X 36 standard_write_numbers.ads
+7K9*Standard_Write_Numbers 27|7w6 7r46 36|79e27
+19V12*Is_Real{boolean} 27|706s10 746s10 864s10 903s10
+51U13*Write_Number 27|423s9 553s9 715s18 755s18 873s18 912s18
+59U13*Write_Coefficient 27|425s9 555s9
+72U13*Write_Plus 27|417s13 550s13
+X 37 symbol_table.ads
+4K9*Symbol_Table 26|3w6 3r46 27|102r31 221r20 380r8 381r11 401r38 700r38
+. 736r38 37|175e17
+10e3*delimiter{character} 27|122r14 316r14 451r14 582r14 775r14 782r14 933r14
+. 941r14
+11E8*Power 26|66r47 67r68 68r72 70r72 72r41 73r62 74r66 76r66 78r65 80r65
+. 82r59 85r59 87r59 89r59 91r53 94r53 128r52 130r52 131r46 132r67 140r39
+. 142r64 143r71 145r71 156r52 158r52 159r46 160r67 168r39 170r64 171r71 173r71
+. 27|388r47 393r41 398r68 448r62 454r65 459r59 465r47 473r41 523r34 528r66
+. 534r59 579r66 586r59 592r53 599r59 608r53 636r52 641r52 646r46 651r46 697r52
+. 733r52 772r67 779r67 787r64 793r64 799r64 805r64 856r53 892r53 930r58 938r58
+. 37|11e26
+11n22*'^'{11E8} 27|482r33 487r27 492r22 497r16 513r24 519r18 658r38 663r38
+. 668r32 673r32 678r27 683r27 688r21 693r21 812r40 817r40 822r34 827r34 833r29
+. 839r29 845r23 851r23
+15A11*Symbol{string}<integer> 27|202r10
+16A8*Array_of_Symbols(15A11)<30|6I8> 26|56r45 58r45 62r39 64r39 68r45 70r45
+. 74r39 76r39 82r32 85r32 91r26 94r26 133r50 135r50 136r44 138r44 139r50
+. 142r37 143r44 145r44 161r50 163r50 164r44 166r44 167r50 170r37 171r44 173r44
+. 27|500r45 505r39 511r45 517r39 522r45 528r39 534r32 579r39 586r32 592r26
+. 599r32 608r26 787r37 793r37 799r37 805r37 810r50 815r50 820r44 825r44 831r37
+. 837r37 843r31 849r31 856r26 892r26 930r31 938r31
+32U13*Init 27|381s24
+113V12*Check_Symbol{31|7I8} 27|221s33
+130V12*Maximal_Size{31|7I8} 27|102s44
+135V12*Number{31|7I8} 27|401s51 700s51 736s51
+140V12*Empty{boolean} 27|380s21
+X 38 symbol_table_io.ads
+4K9*Symbol_Table_io 27|9w6 220r5 38|59e20
+45U13*Parse_Symbol 27|220s21
+X 59 text_io.ads
+27K9*Text_IO=27:29 26|1w6 1r46
+X 61 write_factors.ads
+5K9*Write_Factors 27|12w6 12r46 61|29e18
+13U13*Write_Factor 27|564s13 878s13 917s13
+20U13*Write_Factor 27|434s13 720s13 760s13
+

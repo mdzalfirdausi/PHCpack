@@ -1,0 +1,104 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_reduction%b	use_reduction.adb	530d13cb NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W reduction_interface%s	reduction_interface.adb	reduction_interface.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U use_reduction%s	use_reduction.ads	ccfd3bc4 EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D reduction_interface.ads  20260513024556 dfc5f3cf reduction_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D use_reduction.ads	20260513024556 3931d8bc use_reduction%s
+D use_reduction.adb	20260513024556 944bf020 use_reduction%b
+G a e
+G c Z s b [use_reduction standard 5 10 none]
+G r c none [use_reduction standard 5 10 none] [reduction_standard_linear reduction_interface 10 12 none]
+G r c none [use_reduction standard 5 10 none] [reduction_dobldobl_linear reduction_interface 25 12 none]
+G r c none [use_reduction standard 5 10 none] [reduction_quaddobl_linear reduction_interface 40 12 none]
+G r c none [use_reduction standard 5 10 none] [reduction_standard_nonlinear reduction_interface 55 12 none]
+X 9 a-textio.ads
+515U14*Put 35|23s20
+565U14*Put_Line 35|20s22 24s20 30s18
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 34|3w6 3r45
+17K11*C_DblArrs[15|44] 34|8r30 35|7r30
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 34|2w6 2r45
+13K11*C_intarrs[15|44] 34|6r30 7r30 35|5r30 6r30
+X 14 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 15 i-cpoint.ads
+47P9*Pointer(14|62I9) 34|6r40[12|13] 7r40[12|13] 8r40[11|17] 35|5r40[12|13]
+. 6r40[12|13] 7r40[11|17]
+X 17 reduction_interface.ads
+4K9*Reduction_Interface 75e24 35|2w6 12r9
+10V12*Reduction_Standard_Linear{18|6I8} 35|16s24
+25V12*Reduction_DoblDobl_Linear{18|6I8} 35|17s24
+40V12*Reduction_QuadDobl_Linear{18|6I8} 35|18s24
+55V12*Reduction_Standard_Nonlinear{18|6I8} 35|19s24
+X 18 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 34|1w6 1r45
+6I8*integer32<long_integer> 34|5r32 9r35 9r59 35|4r32 8r35 8r59 10r31
+X 33 text_io.ads
+27K9*Text_IO=27:29 35|1w6 1r46
+X 34 use_reduction.ads
+5V10*use_reduction{18|6I8} 5>26 6>26 7>26 8>26 9>26 35|4b10 32l5 32t18
+5i26 job{18|6I8} 35|4b26 15r10 31r25
+6p26 a{15|47P9[12|13]} 35|5b26 16r50 17r50 18r50 19r53
+7p26 b{15|47P9[12|13]} 35|6b26 19r55
+8p26 c{15|47P9[11|17]} 35|7b26
+9i26 vrblvl{18|6I8} 35|8b26 16r52 17r52 18r52 19r57
+X 35 use_reduction.adb
+10V12 Handle_Jobs{18|6I8} 10b12 25l7 25t18 28s10
+

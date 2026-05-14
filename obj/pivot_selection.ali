@@ -1,0 +1,98 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U pivot_selection%b	pivot_selection.adb	4e54dad3 NE OO PK
+
+U pivot_selection%s	pivot_selection.ads	705ed521 EE NE OO PK
+W boolean_matrices%s	boolean_matrices.ads	boolean_matrices.ali
+W boolean_vectors%s	boolean_vectors.ads	boolean_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D boolean_matrices.ads	20260513024558 6bd2b435 boolean_matrices%s
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_ring.ads	20260513024558 5e587f54 boolean_ring%s
+D boolean_vectors.ads	20260513024558 182f66ac boolean_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D pivot_selection.ads	20260513024558 4d4a91af pivot_selection%s
+D pivot_selection.adb	20260513024558 031e4b7c pivot_selection%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [is_in pivot_selection 24 12 none]
+G c Z s b [greedy_search pivot_selection 32 13 none]
+G c Z s b [dfs4bpm pivot_selection 56 13 none]
+G c Z s b [maxbpm pivot_selection 79 13 none]
+X 2 boolean_matrices.ads
+5K9*Boolean_Matrices[6|9] 8|6w6 33r26 57r28 80r28 9|16r26 35r28 66r28
+X 5 boolean_vectors.ads
+4K9*Boolean_Vectors[7|8] 8|5w6 59r31 9|37r31 70r12
+X 6 generic_matrices.ads
+16A8*Matrix(boolean)<10|6I8><10|6I8> 8|33r43[2|5] 57r45[2|5] 80r45[2|5] 9|16r43[2|5]
+. 35r45[2|5] 66r45[2|5]
+X 7 generic_vectors.ads
+16A8*Vector(13|7I8)<10|6I8> 8|24r51[15|4] 34r52[15|4] 59r47[5|4] 60r57[12|4]
+. 81r54[12|4] 9|3r51[15|4] 17r52[15|4] 37r47[5|4] 38r57[12|4] 67r54[12|4]
+. 70r28[5|4]
+X 8 pivot_selection.ads
+8K9*Pivot_Selection 95l5 95e20 9|1b14 85l5 85t20
+24V12*Is_In{boolean} 24>20 25>20 25>41 9|3b12 13l7 13t12 25s18
+24a20 vec{7|16A8[15|4]} 9|3b20 7r14 8r10
+25i20 vec_end{10|6I8} 9|4b20 7r25
+25i41 nbr{13|7I8} 9|4b41 8r19
+32U13*Greedy_Search 33>17 34<17 35<17 9|15b13 32l7 32t20
+33a17 mat{6|16A8[2|5]} 9|16b17 22r16 23r18 24r12
+34a17 prm{7|16A8[15|4]} 9|17b17 20m5 20r13 25r24 25r28 27m13
+35i17 size{10|6I8} 9|18b17 21m5 26m13 26r21
+56U13*dfs4bpm 57>17 58>17 59=17 60=17 61<17 9|34b13 54s13 63l7 63t14 78s7
+57a17 graph{6|16A8[2|5]} 9|35b17 41r16 43r17 44r12 54r21
+58i17 vtx{10|6I8} 9|36b17 44r22 51r27 56r33
+59a17 seen{7|16A8[5|4]} 9|37b17 44r35 45m11 54m38
+60a17 match{7|16A8[12|4]} 9|38b17 50r14 51m13 54r27 54m43 56m19
+61b17 found{boolean} 9|39b17 52m13 54m49 55r16 62m5
+79U13*maxBPM 80>17 81<17 82<17 9|65b13 83l7 83t13
+80a17 graph{6|16A8[2|5]} 9|66b17 70r35 76r16 78r15
+81a17 match{7|16A8[12|4]} 9|67b17 74m5 74r15 78m30
+82i17 size{13|7I8} 9|68b17 75m5 80m13 80r21
+X 9 pivot_selection.adb
+7i9 k<long_integer> 8r14
+22i9 row<long_integer> 24r16 27r17
+23i11 col<long_integer> 24r20 25r47 27r35
+41i9 col<long_integer> 43r10 44r18 44r40 45r16 50r20 51r19 54r33 56r25
+70a5 seen{7|16A8[5|4]} 77m7 77r16 78m25 78r25
+71b5 found{boolean} 78m36 79r10
+76i9 col<long_integer> 78r21
+X 10 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 8|2w6 2r46 10|45e29
+6I8*integer32<long_integer> 8|25r30 35r28 58r26 9|4r30 18r28 36r26
+X 12 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[7|8] 8|4w6 60r32 81r29 9|38r32 67r29
+X 13 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 8|1w6 1r46 13|30e29
+7I8*natural32<long_integer> 8|25r50 82r28 9|4r50 25r37 27r25 68r28
+X 15 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[7|8] 8|3w6 24r26 34r27 9|3r26 17r27
+

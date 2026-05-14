@@ -1,0 +1,175 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RECURSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_write_numbers%b  standard_write_numbers.adb  a66a0a5c NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+Z system.exn_llf%s	s-exnllf.ads		s-exnllf.ali
+
+U standard_write_numbers%s  standard_write_numbers.ads  8ced50a6 EE NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_write_numbers.ads  20260513024558 8275de88 standard_write_numbers%s
+D standard_write_numbers.adb  20260513024558 f6e2ad40 standard_write_numbers%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnllf.ads		20250808065140 17d83e5b system.exn_llf%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [is_imag standard_write_numbers 14 12 none]
+G c Z s b [is_real standard_write_numbers 19 12 none]
+G c Z s b [is_integer standard_write_numbers 24 12 none]
+G c Z s b [length standard_write_numbers 29 12 none]
+G c Z s b [length standard_write_numbers 30 12 none]
+G c Z s b [length standard_write_numbers 31 12 none]
+G c Z s b [write_number standard_write_numbers 36 13 none]
+G c Z s b [write_number standard_write_numbers 43 13 none]
+G c Z s b [write_number standard_write_numbers 51 13 none]
+G c Z s b [write_coefficient standard_write_numbers 59 13 none]
+G c Z s b [write_plus standard_write_numbers 72 13 none]
+G r c none [is_imag standard_write_numbers 14 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [is_real standard_write_numbers 19 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [length standard_write_numbers 31 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [length standard_write_numbers 31 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [write_number standard_write_numbers 36 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_number standard_write_numbers 43 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_number standard_write_numbers 43 13 none] [put standard_floating_numbers_io 28 13 none]
+G r c none [write_number standard_write_numbers 51 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [write_number standard_write_numbers 51 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [write_number standard_write_numbers 51 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_number standard_write_numbers 51 13 none] [put standard_floating_numbers_io 28 13 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_coefficient standard_write_numbers 59 13 none] [put standard_floating_numbers_io 28 13 none]
+G r c none [write_plus standard_write_numbers 72 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [write_plus standard_write_numbers 72 13 none] [imag_part standard_complex_numbers 25 12 none]
+X 9 a-textio.ads
+67P9*File_Type 19|36r38 43r38 51r38 59r43 72r36 20|33r38 48r38 79r38 110r43
+. 126r36
+426U14*Put 20|114s7 120s33 132s21
+508U14*Put 20|89s7 91s7 94s13 95s13 99s9 101s9 104s9 106s7 116s7 118s7
+X 13 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 19|5w6 5r46
+11R8*Complex_Number 90e15 19|14r26 19r26 31r25 51r56 59r61 72r54 20|6r26
+. 11r26 57r25 79r56 110r61 126r54
+18V12*Create{11R8} 20|113s16 119s23
+19V12*Create{11R8} 20|115s19 117s19
+24V12*REAL_PART{14|13F8} 20|8s14 67s25 86s25 92s25 129s29
+25V12*IMAG_PART{14|13F8} 20|13s14 68s10 70s13 73s29 88s25 93s10 98s10 100s13
+. 103s31 130s36
+33V12*Equal{boolean} 20|113s8 115s11 117s11 119s15
+X 14 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 19|4w6 4r46
+13F8*double_float<long_float> 19|24r29 30r25 43r56 20|16r29 18r19 40r25 48r56
+X 15 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 63e33 20|2w6 2r46
+28U13*put 20|53s11
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 19|3w6 3r46
+6I8*integer32<long_integer> 19|29r25 36r56 20|23r25 26r14 33r56 43r25 52r29
+X 17 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 20|1w6 1r46
+27U13*put 20|36s5
+X 18 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 19|2w6 2r46
+7I8*natural32<long_integer> 19|29r44 30r47 31r49 37r38 44r38 52r38 60r43
+. 73r36 20|23r44 27r16 34r38 40r47 49r38 57r49 59r11 80r38 82r10 111r43 127r36
+X 19 standard_write_numbers.ads
+7K9*Standard_Write_Numbers 79l5 79e27 20|4b14 137l5 137t27
+14V12*Is_Imag{boolean} 14>22 20|6b12 9l7 9t14 64s11 87s11 130s16 131s44
+14r22 c{13|11R8} 20|6b22 8r24
+19V12*Is_Real{boolean} 19>22 20|11b12 14l7 14t14 62s8 85s8 129s9 131s20
+19r22 c{13|11R8} 20|11b22 13r24
+24V12*Is_Integer{boolean} 24>25 20|16b12 21l7 21t17 42s8 51s8
+24f25 f{14|13F8} 20|16b25 18r15 18r40
+29V12*Length{18|7I8} 29>21 20|23b12 31l7 31t13 37s12 43s18
+29i21 n{16|6I8} 20|23b21 26r10
+30V12*Length{18|7I8} 30>21 20|40b12 46l7 46t13 67s18 73s22
+30f21 n{14|13F8} 20|40b21 42r19 43r35
+31V12*Length{18|7I8} 31>21 20|57b12 63s14 65s14 77l7 77t13
+31r21 n{13|11R8} 20|57b21 62r16 63r21 64r19 65r21 67r35 68r20 70r23 73r39
+36U13*Write_Number 36>28 36>49 37<28 20|33b13 38l7 38t19 52s11
+36p28 file{9|67P9} 20|33b28 36r9
+36i49 i{16|6I8} 20|33b49 36r14 37r19
+37i28 cnt{18|7I8} 20|34b28 37m5
+43U13*Write_Number 43>28 43>49 44<28 20|48b13 55l7 55t19 86s7 88s7 92s7 103s9
+43p28 file{9|67P9} 20|48b28 52r24 53r15
+43f49 f{14|13F8} 20|48b49 51r19 52r39 53r20
+44i28 cnt{18|7I8} 20|49b28 52m42 53m24
+51U13*Write_Number 51>28 51>49 52<28 20|79b13 108l7 108t19 120s7
+51p28 file{9|67P9} 20|79b28 86r20 88r20 89r11 91r11 92r20 94r17 95r17 99r13
+. 101r13 103r22 104r13 106r11
+51r49 c{13|11R8} 20|79b49 85r16 86r35 87r19 88r35 92r35 93r20 98r20 100r23
+. 103r41
+52i28 cnt{18|7I8} 20|80b28 86m38 88m38 89m23 89r30 91m22 97m7 97r14 99m24
+. 99r31 101m24 101r31 104m25 104r32 106m22 106r29
+59U13*Write_Coefficient 59>33 59>54 60<33 20|110b13 124l7 124t24
+59p33 file{9|67P9} 20|110b33 114r11 116r11 118r11 120r20 120r37
+59r54 c{13|11R8} 20|110b54 113r14 115r17 117r17 119r21 120r25
+60i33 cnt{18|7I8} 20|111b33 114m22 116m23 118m24 120m27 120m48 120r55 122m7
+72U13*Write_Plus 72>26 72>47 73<26 20|126b13 135l7 135t17
+72p26 file{9|67P9} 20|126b26 132r25
+72r47 c{13|11R8} 20|126b47 129r17 129r39 130r24 130r46 131r28 131r52
+73i26 cnt{18|7I8} 20|127b26 132m11 133m11
+X 20 standard_write_numbers.adb
+25i9 i{integer} 26r30 27r26
+59i5 res{18|7I8} 63m7 65m7 67m7 69m9 69r16 71m9 71r16 73m9 73r16 76r12
+82i5 nc{18|7I8} 92m38 97r20 103m45 104r38
+X 37 text_io.ads
+27K9*Text_IO=27:29 19|1w6 1r46
+

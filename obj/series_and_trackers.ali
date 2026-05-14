@@ -1,0 +1,846 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U series_and_trackers%b	series_and_trackers.adb	516b660d NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W dobldobl_complex_series_vecvecs%s  dobldobl_complex_series_vecvecs.ads  dobldobl_complex_series_vecvecs.ali
+W dobldobl_complex_solutions_io%s  dobldobl_complex_solutions_io.adb  dobldobl_complex_solutions_io.ali
+W dobldobl_cseries_jaco_matrices%s  dobldobl_cseries_jaco_matrices.ads  dobldobl_cseries_jaco_matrices.ali
+W dobldobl_cseries_poly_sysfun%s  dobldobl_cseries_poly_sysfun.ads  dobldobl_cseries_poly_sysfun.ali
+W dobldobl_pade_trackers%s  dobldobl_pade_trackers.adb  dobldobl_pade_trackers.ali
+W homotopy_mixed_residuals%s  homotopy_mixed_residuals.adb  homotopy_mixed_residuals.ali
+W quaddobl_complex_series_vecvecs%s  quaddobl_complex_series_vecvecs.ads  quaddobl_complex_series_vecvecs.ali
+W quaddobl_complex_solutions_io%s  quaddobl_complex_solutions_io.adb  quaddobl_complex_solutions_io.ali
+W quaddobl_cseries_jaco_matrices%s  quaddobl_cseries_jaco_matrices.ads  quaddobl_cseries_jaco_matrices.ali
+W quaddobl_cseries_poly_sysfun%s  quaddobl_cseries_poly_sysfun.ads  quaddobl_cseries_poly_sysfun.ali
+W quaddobl_pade_trackers%s  quaddobl_pade_trackers.adb  quaddobl_pade_trackers.ali
+W standard_complex_series_vecvecs%s  standard_complex_series_vecvecs.ads  standard_complex_series_vecvecs.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_cseries_jaco_matrices%s  standard_cseries_jaco_matrices.ads  standard_cseries_jaco_matrices.ali
+W standard_cseries_poly_sysfun%s  standard_cseries_poly_sysfun.ads  standard_cseries_poly_sysfun.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_pade_trackers%s  standard_pade_trackers.adb  standard_pade_trackers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+
+U series_and_trackers%s	series_and_trackers.ads	cb5ddc95 EE NE OO PK
+W dobldobl_complex_hessians%s  dobldobl_complex_hessians.ads  dobldobl_complex_hessians.ali
+W dobldobl_complex_jaco_matrices%s  dobldobl_complex_jaco_matrices.ads  dobldobl_complex_jaco_matrices.ali
+W dobldobl_complex_poly_sysfun%s  dobldobl_complex_poly_sysfun.ads  dobldobl_complex_poly_sysfun.ali
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W dobldobl_cseries_poly_systems%s  dobldobl_cseries_poly_systems.ads  dobldobl_cseries_poly_systems.ali
+W homotopy_continuation_parameters%s  homotopy_continuation_parameters.adb  homotopy_continuation_parameters.ali
+W quaddobl_complex_hessians%s  quaddobl_complex_hessians.ads  quaddobl_complex_hessians.ali
+W quaddobl_complex_jaco_matrices%s  quaddobl_complex_jaco_matrices.ads  quaddobl_complex_jaco_matrices.ali
+W quaddobl_complex_poly_sysfun%s  quaddobl_complex_poly_sysfun.ads  quaddobl_complex_poly_sysfun.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_cseries_poly_systems%s  quaddobl_cseries_poly_systems.ads  quaddobl_cseries_poly_systems.ali
+W standard_complex_hessians%s  standard_complex_hessians.ads  standard_complex_hessians.ali
+W standard_complex_jaco_matrices%s  standard_complex_jaco_matrices.ads  standard_complex_jaco_matrices.ali
+W standard_complex_poly_sysfun%s  standard_complex_poly_sysfun.ads  standard_complex_poly_sysfun.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_cseries_poly_systems%s  standard_cseries_poly_systems.ads  standard_cseries_poly_systems.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D dobldobl_complex_hessians.ads  20260513024558 b0fa2640 dobldobl_complex_hessians%s
+D dobldobl_complex_jaco_matrices.ads  20260513024558 835481de dobldobl_complex_jaco_matrices%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_functions.ads  20260513024558 c33d968a dobldobl_complex_poly_functions%s
+D dobldobl_complex_poly_sysfun.ads  20260513024558 d88794b5 dobldobl_complex_poly_sysfun%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_series.ads  20260513024558 c7e62693 dobldobl_complex_series%s
+D dobldobl_complex_series_matrices.ads  20260513024558 51378b78 dobldobl_complex_series_matrices%s
+D dobldobl_complex_series_ring.ads  20260513024558 56d41896 dobldobl_complex_series_ring%s
+D dobldobl_complex_series_vectors.ads  20260513024558 73f1bdf7 dobldobl_complex_series_vectors%s
+D dobldobl_complex_series_vecvecs.ads  20260513024558 fbfec89f dobldobl_complex_series_vecvecs%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_solutions_io.ads  20260513024558 138ef4d8 dobldobl_complex_solutions_io%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_cseries_jaco_matrices.ads  20260513024558 5388543b dobldobl_cseries_jaco_matrices%s
+D dobldobl_cseries_poly_functions.ads  20260513024558 04f3f910 dobldobl_cseries_poly_functions%s
+D dobldobl_cseries_poly_sysfun.ads  20260513024558 5f04acac dobldobl_cseries_poly_sysfun%s
+D dobldobl_cseries_poly_systems.ads  20260513024558 81cca503 dobldobl_cseries_poly_systems%s
+D dobldobl_cseries_polynomials.ads  20260513024558 09b49c12 dobldobl_cseries_polynomials%s
+D dobldobl_pade_approximants.ads  20260513024558 a3d61b56 dobldobl_pade_approximants%s
+D dobldobl_pade_trackers.ads  20260513024558 aec2d395 dobldobl_pade_trackers%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_hessian_matrices.ads  20260513024558 94ef11c9 generic_hessian_matrices%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D homotopy_continuation_parameters.ads  20260513024558 1c7e71d3 homotopy_continuation_parameters%s
+D homotopy_mixed_residuals.ads  20260513024558 060bbd02 homotopy_mixed_residuals%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_hessians.ads  20260513024558 5c958965 quaddobl_complex_hessians%s
+D quaddobl_complex_jaco_matrices.ads  20260513024558 aad21012 quaddobl_complex_jaco_matrices%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_functions.ads  20260513024558 0ffc73e2 quaddobl_complex_poly_functions%s
+D quaddobl_complex_poly_sysfun.ads  20260513024558 ddec787b quaddobl_complex_poly_sysfun%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_series.ads  20260513024558 f4dbe9a2 quaddobl_complex_series%s
+D quaddobl_complex_series_matrices.ads  20260513024558 7556bb24 quaddobl_complex_series_matrices%s
+D quaddobl_complex_series_ring.ads  20260513024558 f1150a42 quaddobl_complex_series_ring%s
+D quaddobl_complex_series_vectors.ads  20260513024558 21251b10 quaddobl_complex_series_vectors%s
+D quaddobl_complex_series_vecvecs.ads  20260513024558 03833e7a quaddobl_complex_series_vecvecs%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_solutions_io.ads  20260513024558 d7badfd9 quaddobl_complex_solutions_io%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_cseries_jaco_matrices.ads  20260513024558 1a87971e quaddobl_cseries_jaco_matrices%s
+D quaddobl_cseries_poly_functions.ads  20260513024558 dba05789 quaddobl_cseries_poly_functions%s
+D quaddobl_cseries_poly_sysfun.ads  20260513024558 b07adca4 quaddobl_cseries_poly_sysfun%s
+D quaddobl_cseries_poly_systems.ads  20260513024558 e0dbbc4e quaddobl_cseries_poly_systems%s
+D quaddobl_cseries_polynomials.ads  20260513024558 6e2fc98d quaddobl_cseries_polynomials%s
+D quaddobl_pade_approximants.ads  20260513024558 1cbfe37c quaddobl_pade_approximants%s
+D quaddobl_pade_trackers.ads  20260513024558 b571363e quaddobl_pade_trackers%s
+D series_and_trackers.ads  20260513024558 8f23f225 series_and_trackers%s
+D series_and_trackers.adb  20260513024558 d28859b9 series_and_trackers%b
+D standard_complex_hessians.ads  20260513024558 20800f66 standard_complex_hessians%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_series.ads  20260513024558 0ccca880 standard_complex_series%s
+D standard_complex_series_matrices.ads  20260513024558 85ee6636 standard_complex_series_matrices%s
+D standard_complex_series_ring.ads  20260513024558 855aaf79 standard_complex_series_ring%s
+D standard_complex_series_vectors.ads  20260513024558 35bf7d89 standard_complex_series_vectors%s
+D standard_complex_series_vecvecs.ads  20260513024558 cb543b9c standard_complex_series_vecvecs%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_cseries_jaco_matrices.ads  20260513024558 bd5e847d standard_cseries_jaco_matrices%s
+D standard_cseries_poly_functions.ads  20260513024558 85f6e457 standard_cseries_poly_functions%s
+D standard_cseries_poly_sysfun.ads  20260513024558 6fb2e92d standard_cseries_poly_sysfun%s
+D standard_cseries_poly_systems.ads  20260513024558 36080dc8 standard_cseries_poly_systems%s
+D standard_cseries_polynomials.ads  20260513024558 51e326d7 standard_cseries_polynomials%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_pade_approximants.ads  20260513024558 0b1f1e0c standard_pade_approximants%s
+D standard_pade_trackers.ads  20260513024558 d6c3813a standard_pade_trackers%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [update_counters series_and_trackers 30 13 none]
+G c Z s b [update_minmax series_and_trackers 37 13 none]
+G c Z s b [update_ratio_sum series_and_trackers 45 13 none]
+G c Z s b [update_ratio_sums series_and_trackers 51 13 none]
+G c Z s b [track_many_paths series_and_trackers 59 13 none]
+G c Z s b [track_many_paths series_and_trackers 68 13 none]
+G c Z s b [track_many_paths series_and_trackers 77 13 none]
+G c Z s b [track_many_paths series_and_trackers 108 13 none]
+G c Z s b [track_many_paths series_and_trackers 119 13 none]
+G c Z s b [track_many_paths series_and_trackers 130 13 none]
+G c Z s b [write_path_statistics series_and_trackers 164 13 none]
+G c Z s b [write_total_path_statistics series_and_trackers 183 13 none]
+G r c none [track_many_paths series_and_trackers 59 13 none] [standard_absval_homotopy homotopy_mixed_residuals 21 12 none]
+G r c none [track_many_paths series_and_trackers 59 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [track_many_paths series_and_trackers 59 13 none] [create standard_cseries_poly_sysfun 44 12 9_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [coeff standard_cseries_poly_sysfun 46 12 9_1]
+G r s eval_coeff_jaco_mat [track_many_paths series_and_trackers 59 13 none] [eval_coeff_jaco_matIP standard_cseries_jaco_matrices 50 8 11_1]
+G r s mult_factors [track_many_paths series_and_trackers 59 13 none] [mult_factorsIP standard_cseries_jaco_matrices 53 8 11_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [track_many_paths series_and_trackers 59 13 none] [create standard_cseries_jaco_matrices 71 13 11_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [track_one_path standard_pade_trackers 419 13 none]
+G r c none [track_many_paths series_and_trackers 59 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [track_many_paths series_and_trackers 59 13 none] [clear standard_cseries_poly_sysfun 65 13 9_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [clear standard_complex_series_vecvecs 32 13 5_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [clear standard_cseries_jaco_matrices 92 13 11_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [clear standard_cseries_jaco_matrices 96 13 11_1]
+G r c none [track_many_paths series_and_trackers 59 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [dobldobl_absval_homotopy homotopy_mixed_residuals 23 12 none]
+G r c none [track_many_paths series_and_trackers 68 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [track_many_paths series_and_trackers 68 13 none] [create dobldobl_cseries_poly_sysfun 44 12 9_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [coeff dobldobl_cseries_poly_sysfun 46 12 9_1]
+G r s eval_coeff_jaco_mat [track_many_paths series_and_trackers 68 13 none] [eval_coeff_jaco_matIP dobldobl_cseries_jaco_matrices 50 8 11_1]
+G r s mult_factors [track_many_paths series_and_trackers 68 13 none] [mult_factorsIP dobldobl_cseries_jaco_matrices 53 8 11_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [track_many_paths series_and_trackers 68 13 none] [create dobldobl_cseries_jaco_matrices 71 13 11_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [track_one_path dobldobl_pade_trackers 365 13 none]
+G r c none [track_many_paths series_and_trackers 68 13 none] [tail_of dobldobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [track_many_paths series_and_trackers 68 13 none] [clear dobldobl_cseries_poly_sysfun 65 13 9_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [clear dobldobl_complex_series_vecvecs 32 13 5_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [clear dobldobl_cseries_jaco_matrices 92 13 11_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [clear dobldobl_cseries_jaco_matrices 96 13 11_1]
+G r c none [track_many_paths series_and_trackers 68 13 none] [clear dobldobl_complex_poly_sysfun 63 13 9_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [quaddobl_absval_homotopy homotopy_mixed_residuals 25 12 none]
+G r c none [track_many_paths series_and_trackers 77 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [track_many_paths series_and_trackers 77 13 none] [create quaddobl_cseries_poly_sysfun 44 12 9_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [coeff quaddobl_cseries_poly_sysfun 46 12 9_1]
+G r s eval_coeff_jaco_mat [track_many_paths series_and_trackers 77 13 none] [eval_coeff_jaco_matIP quaddobl_cseries_jaco_matrices 50 8 11_1]
+G r s mult_factors [track_many_paths series_and_trackers 77 13 none] [mult_factorsIP quaddobl_cseries_jaco_matrices 53 8 11_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [track_many_paths series_and_trackers 77 13 none] [create quaddobl_cseries_jaco_matrices 71 13 11_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [track_one_path quaddobl_pade_trackers 365 13 none]
+G r c none [track_many_paths series_and_trackers 77 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [track_many_paths series_and_trackers 77 13 none] [clear quaddobl_cseries_poly_sysfun 65 13 9_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [clear quaddobl_complex_series_vecvecs 32 13 5_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [clear quaddobl_cseries_jaco_matrices 92 13 11_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [clear quaddobl_cseries_jaco_matrices 96 13 11_1]
+G r c none [track_many_paths series_and_trackers 77 13 none] [clear quaddobl_complex_poly_sysfun 63 13 9_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [standard_absval_homotopy homotopy_mixed_residuals 21 12 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [track_many_paths series_and_trackers 108 13 none] [create standard_cseries_poly_sysfun 44 12 9_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [coeff standard_cseries_poly_sysfun 46 12 9_1]
+G r s eval_coeff_jaco_mat [track_many_paths series_and_trackers 108 13 none] [eval_coeff_jaco_matIP standard_cseries_jaco_matrices 50 8 11_1]
+G r s mult_factors [track_many_paths series_and_trackers 108 13 none] [mult_factorsIP standard_cseries_jaco_matrices 53 8 11_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [track_many_paths series_and_trackers 108 13 none] [create standard_cseries_jaco_matrices 71 13 11_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [tstart timing_package 20 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [track_one_path standard_pade_trackers 467 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [put standard_complex_solutions_io 74 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [track_many_paths series_and_trackers 108 13 none] [tstop timing_package 24 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [put standard_floating_numbers_io 35 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [print_times timing_package 49 13 none]
+G r c none [track_many_paths series_and_trackers 108 13 none] [clear standard_cseries_poly_sysfun 65 13 9_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [clear standard_complex_series_vecvecs 32 13 5_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [clear standard_cseries_jaco_matrices 92 13 11_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [clear standard_cseries_jaco_matrices 96 13 11_1]
+G r c none [track_many_paths series_and_trackers 108 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [dobldobl_absval_homotopy homotopy_mixed_residuals 23 12 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [track_many_paths series_and_trackers 119 13 none] [create dobldobl_cseries_poly_sysfun 44 12 9_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [coeff dobldobl_cseries_poly_sysfun 46 12 9_1]
+G r s eval_coeff_jaco_mat [track_many_paths series_and_trackers 119 13 none] [eval_coeff_jaco_matIP dobldobl_cseries_jaco_matrices 50 8 11_1]
+G r s mult_factors [track_many_paths series_and_trackers 119 13 none] [mult_factorsIP dobldobl_cseries_jaco_matrices 53 8 11_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [track_many_paths series_and_trackers 119 13 none] [create dobldobl_cseries_jaco_matrices 71 13 11_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [tstart timing_package 20 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [track_one_path dobldobl_pade_trackers 413 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [put dobldobl_complex_solutions_io 47 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [tail_of dobldobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [track_many_paths series_and_trackers 119 13 none] [tstop timing_package 24 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [put standard_floating_numbers_io 35 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [print_times timing_package 49 13 none]
+G r c none [track_many_paths series_and_trackers 119 13 none] [clear dobldobl_cseries_poly_sysfun 65 13 9_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [clear dobldobl_complex_series_vecvecs 32 13 5_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [clear dobldobl_cseries_jaco_matrices 92 13 11_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [clear dobldobl_cseries_jaco_matrices 96 13 11_1]
+G r c none [track_many_paths series_and_trackers 119 13 none] [clear dobldobl_complex_poly_sysfun 63 13 9_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [quaddobl_absval_homotopy homotopy_mixed_residuals 25 12 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [track_many_paths series_and_trackers 130 13 none] [create quaddobl_cseries_poly_sysfun 44 12 9_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [coeff quaddobl_cseries_poly_sysfun 46 12 9_1]
+G r s eval_coeff_jaco_mat [track_many_paths series_and_trackers 130 13 none] [eval_coeff_jaco_matIP quaddobl_cseries_jaco_matrices 50 8 11_1]
+G r s mult_factors [track_many_paths series_and_trackers 130 13 none] [mult_factorsIP quaddobl_cseries_jaco_matrices 53 8 11_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [track_many_paths series_and_trackers 130 13 none] [create quaddobl_cseries_jaco_matrices 71 13 11_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [tstart timing_package 20 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [track_one_path quaddobl_pade_trackers 413 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [put quaddobl_complex_solutions_io 47 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [track_many_paths series_and_trackers 130 13 none] [tstop timing_package 24 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [put standard_floating_numbers_io 35 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [print_times timing_package 49 13 none]
+G r c none [track_many_paths series_and_trackers 130 13 none] [clear quaddobl_cseries_poly_sysfun 65 13 9_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [clear quaddobl_complex_series_vecvecs 32 13 5_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [clear quaddobl_cseries_jaco_matrices 92 13 11_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [clear quaddobl_cseries_jaco_matrices 96 13 11_1]
+G r c none [track_many_paths series_and_trackers 130 13 none] [clear quaddobl_complex_poly_sysfun 63 13 9_1]
+G r c none [write_path_statistics series_and_trackers 164 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_path_statistics series_and_trackers 164 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [write_total_path_statistics series_and_trackers 183 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_total_path_statistics series_and_trackers 183 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [write_total_path_statistics series_and_trackers 183 13 none] [put standard_floating_numbers_io 35 13 none]
+X 12 a-textio.ads
+67P9*File_Type 95|109r27 120r27 131r27 165r27 184r27 96|62r27 140r27 218r27
+. 437r27 461r27
+277U14*New_Line 96|118s55 130s5 196s55 208s5 274s55 286s5 443s27 445s27 447s25
+. 449s26 451s26 453s26 455s26 457s26 467s5 469s30 471s30 473s30 475s30 477s31
+. 479s30 481s30 483s30
+508U14*Put 96|106s13 117s7 184s13 195s7 262s13 273s7 442s5 444s5 446s5 448s5
+. 450s5 452s5 454s5 456s5 468s5 470s5 472s5 474s5 476s5 478s5 480s5 482s5
+555U14*Put_Line 96|106s56 117s45 184s56 195s45 262s56 273s45
+565U14*Put_Line 96|96s11 174s11 252s11 325s11 372s11 419s11
+X 14 dobldobl_complex_hessians.ads
+9K9*DoblDobl_Complex_Hessians[42|20] 95|14w6 70r25 122r25 96|142r25 344r25
+X 15 dobldobl_complex_jaco_matrices.ads
+11K9*DoblDobl_Complex_Jaco_Matrices[43|25] 95|13w6 69r25 121r25 96|141r25
+. 343r25
+X 19 dobldobl_complex_poly_sysfun.ads
+9K9*DoblDobl_Complex_Poly_SysFun[46|19] 95|12w6 96|153r11 214r5 354r11 386r5
+X 27 dobldobl_complex_series_vecvecs.ads
+5K9*DoblDobl_Complex_Series_VecVecs[51|10] 96|11w6 158r11 211r5 359r11 383r5
+X 28 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 235e31 95|7w6 72r31 124r31 96|144r31 151r9
+. 346r31 352r9
+19i19*n{122|6I8} 96|155r47 356r47
+28P8*Link_to_Solution(19R8) 96|164r10 365r10
+31P8*Solution_List<44|12P8[30]> 95|72r58 124r58 96|144r58 162r11 346r58 363r11
+X 29 dobldobl_complex_solutions_io.ads
+6K9*DoblDobl_Complex_Solutions_io 305e34 96|6w6 196r7
+47U13*put 96|196s37
+X 32 dobldobl_cseries_jaco_matrices.ads
+11K9*DoblDobl_CSeries_Jaco_Matrices[43|25] 96|13w6 160r11 161r11 176r5 212r5
+. 213r5 361r11 362r11 374r5 384r5 385r5
+X 34 dobldobl_cseries_poly_sysfun.ads
+9K9*DoblDobl_CSeries_Poly_SysFun[46|19] 96|12w6 156r11 157r12 159r12 210r5
+. 357r11 358r12 360r12 382r5
+X 35 dobldobl_cseries_poly_systems.ads
+5K9*DoblDobl_CSeries_Poly_Systems[48|12] 95|19w6 71r26 123r26 96|143r26 345r26
+X 38 dobldobl_pade_trackers.ads
+19K9*DoblDobl_Pade_Trackers 464e27 96|19w6 186r7 377r7
+365U13*Track_One_Path 96|377s30
+413U13*Track_One_Path 96|186s30
+X 41 generic_dense_series.ads
+22R8*Series
+25P8*Link_to_Series(22R8[106|6])
+X 42 generic_hessian_matrices.ads
+31A8*Hessian(49|28P8[104|4])<122|6I8><122|6I8>
+32P8*Link_to_Hessian(31A8[97|9])
+34A8*Array_of_Hessians(32P8[70|9])<122|6I8>
+35P8*Link_to_Array_of_Hessians(34A8[97|9]) 95|61r51[97|9] 70r51[14|9] 79r51[70|9]
+. 111r51[97|9] 122r51[14|9] 133r51[70|9] 96|64r51[97|9] 142r51[14|9] 220r51[70|9]
+. 297r51[97|9] 344r51[14|9] 391r51[70|9]
+X 43 generic_jacobian_matrices.ads
+40A8*Jaco_Mat(49|28P8[104|4])<122|6I8><122|6I8>
+41P8*Link_to_Jaco_Mat(40A8[98|11]) 95|60r56[98|11] 69r56[15|11] 78r56[71|11]
+. 110r56[98|11] 121r56[15|11] 132r56[71|11] 96|63r56[98|11] 141r56[15|11]
+. 219r56[71|11] 296r56[98|11] 343r56[15|11] 390r56[71|11]
+50A8*Eval_Coeff_Jaco_Mat(47|27P8[116|6])<122|6I8><122|6I8> 96|82r42[115|11]
+. 160r42[32|11] 238r42[88|11] 314r42[115|11] 361r42[32|11] 408r42[88|11]
+53A8*Mult_Factors(50|17P8[109|4])<122|6I8><122|6I8> 96|83r42[115|11] 161r42[32|11]
+. 239r42[88|11] 315r42[115|11] 362r42[32|11] 409r42[88|11]
+71U13*Create 96|98s36[115|11] 176s36[32|11] 254s36[88|11] 327s36[115|11]
+. 374s36[32|11] 421s36[88|11]
+92U13*Clear 96|134s36[115|11] 212s36[32|11] 290s36[88|11] 337s36[115|11]
+. 384s36[32|11] 431s36[88|11]
+96U13*Clear 96|135s36[115|11] 213s36[32|11] 291s36[88|11] 338s36[115|11]
+. 385s36[32|11] 432s36[88|11]
+X 44 generic_lists.ads
+12P8*List
+67V12*Length_Of{124|7I8} 96|85s43[111|27] 163s43[28|30] 241s43[84|30] 317s43[111|27]
+. 364s43[28|30] 411s43[84|30]
+77V12*Head_Of{111|25P8} 96|77s33[111|27] 104s13[111|27] 155s33[28|30] 182s13[28|30]
+. 233s33[84|30] 260s13[84|30] 309s33[111|27] 329s13[111|27] 356s33[28|30]
+. 376s13[28|30] 403s33[84|30] 423s13[84|30]
+84V12*Tail_Of{12P8[111|27]} 96|119s14[111|27] 197s14[28|30] 275s14[84|30]
+. 333s14[111|27] 380s14[28|30] 427s14[84|30]
+X 46 generic_poly_system_functions.ads
+33A8*Eval_Poly_Sys(47|26P8[101|6])<122|6I8> 96|75r40[102|9] 153r40[19|9]
+. 231r40[75|9] 307r40[102|9] 354r40[19|9] 401r40[75|9]
+35A8*Eval_Coeff_Poly_Sys(47|27P8[116|6])<122|6I8> 96|78r40[117|9] 156r40[34|9]
+. 234r40[90|9] 310r40[117|9] 357r40[34|9] 404r40[90|9]
+44V12*Create{35A8[117|9]} 96|79s41[117|9] 157s41[34|9] 235s41[90|9] 311s41[117|9]
+. 358s41[34|9] 405s41[90|9]
+46V12*Coeff{51|14A8[110|5]} 96|81s41[117|9] 159s41[34|9] 237s41[90|9] 313s41[117|9]
+. 360s41[34|9] 407s41[90|9]
+63U13*Clear 96|136s34[102|9] 214s34[19|9] 292s34[75|9] 339s34[102|9] 386s34[19|9]
+. 433s34[75|9]
+65U13*Clear 96|132s34[117|9] 210s34[34|9] 288s34[90|9] 335s34[117|9] 382s34[34|9]
+. 429s34[90|9]
+X 47 generic_polynomial_functions.ads
+26P8*Eval_Poly
+27P8*Eval_Coeff_Poly
+X 48 generic_polynomial_systems.ads
+22A8*Poly_Sys(49|28P8[119|4])<122|6I8> 95|62r56[118|5] 71r56[35|5] 80r56[91|5]
+. 112r56[118|5] 123r56[35|5] 134r56[91|5] 96|65r56[118|5] 143r56[35|5] 221r56[91|5]
+. 298r56[118|5] 345r56[35|5] 392r56[91|5]
+X 49 generic_polynomials.ads
+28P8*Poly
+X 50 generic_vectors.ads
+16A8*Vector(41|25P8[106|6])<122|6I8>
+17P8*Link_to_Vector(16A8[82|4]) 95|66r51[127|4] 75r51[127|4] 84r51[127|4]
+. 116r51[127|4] 127r51[127|4] 138r51[127|4] 96|69r51[127|4] 147r51[127|4]
+. 225r51[127|4] 302r51[127|4] 349r51[127|4] 396r51[127|4]
+X 51 generic_vecvecs.ads
+14A8*VecVec(50|17P8[109|4])<122|6I8> 96|80r43[110|5] 158r43[27|5] 236r43[83|5]
+. 312r43[110|5] 359r43[27|5] 406r43[83|5]
+32U13*Clear 96|133s37[110|5] 211s37[27|5] 289s37[83|5] 336s37[110|5] 383s37[27|5]
+. 430s37[83|5]
+X 52 homotopy_continuation_parameters.ads
+5K9*Homotopy_Continuation_Parameters 55e37 95|21w6 64r27 73r27 82r27 114r27
+. 125r27 136r27 96|67r27 145r27 223r27 300r27 347r27 394r27
+11R8*Parameters 24e13 95|64r60 73r60 82r60 114r60 125r60 136r60 96|67r60
+. 145r60 223r60 300r60 347r60 394r60
+20f5*maxsize{120|13F8} 96|101r22 179r22 257r22
+22i5*corsteps{124|7I8} 96|100r43 178r43 256r43
+23i5*maxsteps{124|7I8} 96|99r25 100r26 177r25 178r26 255r25 256r26
+X 53 homotopy_mixed_residuals.ads
+15K9*Homotopy_Mixed_Residuals 84e29 96|17w6 76r12 154r12 232r12 308r12 355r12
+. 402r12
+21V12*Standard_AbsVal_Homotopy{46|33A8[102|9]} 96|76s37 308s37
+23V12*DoblDobl_AbsVal_Homotopy{46|33A8[19|9]} 96|154s37 355s37
+25V12*QuadDobl_AbsVal_Homotopy{46|33A8[75|9]} 96|232s37 402s37
+X 70 quaddobl_complex_hessians.ads
+9K9*QuadDobl_Complex_Hessians[42|20] 95|17w6 79r25 133r25 96|220r25 391r25
+X 71 quaddobl_complex_jaco_matrices.ads
+11K9*QuadDobl_Complex_Jaco_Matrices[43|25] 95|16w6 78r25 132r25 96|219r25
+. 390r25
+X 75 quaddobl_complex_poly_sysfun.ads
+9K9*QuadDobl_Complex_Poly_SysFun[46|19] 95|15w6 96|231r11 292r5 401r11 433r5
+X 83 quaddobl_complex_series_vecvecs.ads
+5K9*QuadDobl_Complex_Series_VecVecs[51|10] 96|14w6 236r11 289r5 406r11 430r5
+X 84 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 235e31 95|8w6 81r31 135r31 96|222r31 229r9
+. 393r31 399r9
+19i19*n{122|6I8} 96|233r47 403r47
+28P8*Link_to_Solution(19R8) 96|242r10 412r10
+31P8*Solution_List<44|12P8[30]> 95|81r58 135r58 96|222r58 240r11 393r58 410r11
+X 85 quaddobl_complex_solutions_io.ads
+6K9*QuadDobl_Complex_Solutions_io 305e34 96|7w6 274r7
+47U13*put 96|274s37
+X 88 quaddobl_cseries_jaco_matrices.ads
+11K9*QuadDobl_CSeries_Jaco_Matrices[43|25] 96|16w6 238r11 239r11 254r5 290r5
+. 291r5 408r11 409r11 421r5 431r5 432r5
+X 90 quaddobl_cseries_poly_sysfun.ads
+9K9*QuadDobl_CSeries_Poly_SysFun[46|19] 96|15w6 234r11 235r12 237r12 288r5
+. 404r11 405r12 407r12 429r5
+X 91 quaddobl_cseries_poly_systems.ads
+5K9*QuadDobl_CSeries_Poly_Systems[48|12] 95|20w6 80r26 134r26 96|221r26 392r26
+X 94 quaddobl_pade_trackers.ads
+19K9*QuadDobl_Pade_Trackers 464e27 96|20w6 264r7 424r7
+365U13*Track_One_Path 96|424s30
+413U13*Track_One_Path 96|264s30
+X 95 series_and_trackers.ads
+23K9*Series_and_Trackers 203l5 203e24 96|22b14 486l5 486t24
+30U13*Update_Counters 31=17 31=24 31>51 96|24b13 32l7 32t22 120s7 121s7 198s7
+. 199s7 276s7 277s7
+31i17 mincnt{124|7I8} 96|25b17 27r14 28m7
+31i24 maxcnt{124|7I8} 96|25b24 29r17 30m7
+31i51 cnt{124|7I8} 96|25b51 27r8 28r17 29r11 30r17
+37U13*Update_MinMax 38=17 38=26 39>17 39>25 96|34b13 44l7 44t20 122s7 200s7
+. 278s7
+38f17 smallest{120|13F8} 96|35b17 38r18 39m11
+38f26 largest{120|13F8} 96|35b26 41r18 42m11
+39f17 minsize{120|13F8} 96|36b17 38r8 39r23
+39f25 maxsize{120|13F8} 96|36b25 41r8 42r22
+45U13*Update_Ratio_Sum 46=17 46>47 46>51 96|46b13 50l7 50t23 56s5 57s5 58s5
+46f17 ratsum{120|13F8} 96|47b17 49m5 49r15
+46i47 num{124|7I8} 96|47b47 49r37
+46i51 den{124|7I8} 96|47b51 49r55
+51U13*Update_Ratio_Sums 52=17 52=25 52=33 53>17 53>22 53>27 53>32 96|52b13
+. 59l7 59t24 123s7 201s7 279s7
+52f17 ratsum1{120|13F8} 96|53b17 56m22
+52f25 ratsum2{120|13F8} 96|53b25 57m22
+52f33 ratsum3{120|13F8} 96|53b33 58m22
+53i17 num1{124|7I8} 96|54b17 56r30
+53i22 num2{124|7I8} 96|54b22 57r30
+53i27 num3{124|7I8} 96|54b27 58r30
+53i32 den{124|7I8} 96|54b32 56r35 57r35 58r35
+59U13*Track_Many_Paths 60>17 61>17 62>17 63=17 64>17 65>17 66>17 67>17 96|295b13
+. 340l7 340t23
+60p17 jm{43|41P8[98|11]} 96|296b17 331r14
+61p17 hs{42|35P8[97|9]} 96|297b17 331r17
+62a17 hom{48|22A8[118|5]} 96|298b17 307r54 310r60 311r48 312r50 313r47 314r62
+. 315r55 327r43
+63p17 sols{111|28P8} 96|299b17 309r41 316r28 317r53
+64r17 pars{52|11R8} 96|300b17 331r43
+65i17 mhom{124|7I8} 96|301b17 331r48
+66p17 idz{50|17P8[127|4]} 96|302b17 331r53
+67i17 vrblvl{122|6I8} 96|303b17 324r8 332r65
+68U13*Track_Many_Paths 69>17 70>17 71>17 72=17 73>17 74>17 75>17 76>17 96|342b13
+. 387l7 387t23
+69p17 jm{43|41P8[15|11]} 96|343b17 378r14
+70p17 hs{42|35P8[14|9]} 96|344b17 378r17
+71a17 hom{48|22A8[35|5]} 96|345b17 354r54 357r60 358r48 359r50 360r47 361r62
+. 362r55 374r43
+72p17 sols{28|31P8} 96|346b17 356r41 363r28 364r53
+73r17 pars{52|11R8} 96|347b17 378r43
+74i17 mhom{124|7I8} 96|348b17 378r48
+75p17 idz{50|17P8[127|4]} 96|349b17 378r53
+76i17 vrblvl{122|6I8} 96|350b17 371r8 379r65
+77U13*Track_Many_Paths 78>17 79>17 80>17 81=17 82>17 83>17 84>17 85>17 96|389b13
+. 434l7 434t23
+78p17 jm{43|41P8[71|11]} 96|390b17 425r14
+79p17 hs{42|35P8[70|9]} 96|391b17 425r17
+80a17 hom{48|22A8[91|5]} 96|392b17 401r54 404r60 405r48 406r50 407r47 408r62
+. 409r55 421r43
+81p17 sols{84|31P8} 96|393b17 403r41 410r28 411r53
+82r17 pars{52|11R8} 96|394b17 425r43
+83i17 mhom{124|7I8} 96|395b17 425r48
+84p17 idz{50|17P8[127|4]} 96|396b17 425r53
+85i17 vrblvl{122|6I8} 96|397b17 418r8 426r65
+108U13*Track_Many_Paths 109>17 110>17 111>17 112>17 113=17 114>17 115>17
+. 116>17 117>17 117>25 118>17 96|61b13 137l7 137t23
+109p17 file{12|67P9} 96|62b17 106r17 106r45 106r65 109r10 114r12 117r11 117r34
+. 117r54 118r41 118r64 128r8 130r14 131r17
+110p17 jm{43|41P8[98|11]} 96|63b17 109r19
+111p17 hs{42|35P8[97|9]} 96|64b17 109r22
+112a17 hom{48|22A8[118|5]} 96|65b17 75r54 78r60 79r48 80r50 81r47 82r62 83r55
+. 98r43
+113p17 sols{111|28P8} 96|66b17 77r41 84r28 85r53
+114r17 pars{52|11R8} 96|67b17 99r20 100r21 100r38 101r17 109r48
+115i17 mhom{124|7I8} 96|68b17 109r53
+116p17 idz{50|17P8[127|4]} 96|69b17 109r58
+117b17 monitor{boolean} 96|70b17 105r10
+117b25 verbose{boolean} 96|70b25 111r10 112r10
+118i17 vrblvl{122|6I8} 96|71b17 95r8 111r18
+119U13*Track_Many_Paths 120>17 121>17 122>17 123>17 124=17 125>17 126>17
+. 127>17 128>17 128>25 129>17 96|139b13 215l7 215t23
+120p17 file{12|67P9} 96|140b17 184r17 184r45 184r65 187r10 192r12 195r11
+. 195r34 195r54 196r41 196r64 206r8 208r14 209r17
+121p17 jm{43|41P8[15|11]} 96|141b17 187r19
+122p17 hs{42|35P8[14|9]} 96|142b17 187r22
+123a17 hom{48|22A8[35|5]} 96|143b17 153r54 156r60 157r48 158r50 159r47 160r62
+. 161r55 176r43
+124p17 sols{28|31P8} 96|144b17 155r41 162r28 163r53
+125r17 pars{52|11R8} 96|145b17 177r20 178r21 178r38 179r17 187r48
+126i17 mhom{124|7I8} 96|146b17 187r53
+127p17 idz{50|17P8[127|4]} 96|147b17 187r58
+128b17 monitor{boolean} 96|148b17 183r10
+128b25 verbose{boolean} 96|148b25 189r10 190r10
+129i17 vrblvl{122|6I8} 96|149b17 173r8 189r18
+130U13*Track_Many_Paths 131>17 132>17 133>17 134>17 135=17 136>17 137>17
+. 138>17 139>17 139>25 140>17 96|217b13 293l7 293t23
+131p17 file{12|67P9} 96|218b17 262r17 262r45 262r65 265r10 270r12 273r11
+. 273r34 273r54 274r41 274r64 284r8 286r14 287r17
+132p17 jm{43|41P8[71|11]} 96|219b17 265r19
+133p17 hs{42|35P8[70|9]} 96|220b17 265r22
+134a17 hom{48|22A8[91|5]} 96|221b17 231r54 234r60 235r48 236r50 237r47 238r62
+. 239r55 254r43
+135p17 sols{84|31P8} 96|222b17 233r41 240r28 241r53
+136r17 pars{52|11R8} 96|223b17 255r20 256r21 256r38 257r17 265r48
+137i17 mhom{124|7I8} 96|224b17 265r53
+138p17 idz{50|17P8[127|4]} 96|225b17 265r58
+139b17 monitor{boolean} 96|226b17 261r10
+139b25 verbose{boolean} 96|226b25 267r10 268r10
+140i17 vrblvl{122|6I8} 96|227b17 251r8 267r18
+164U13*Write_Path_Statistics 165>17 166>17 166>26 166>35 166>42 167>17 167>25
+. 168>17 168>25 96|113s9 191s9 269s9 436b13 458l7 458t28
+165p17 file{12|67P9} 96|437b17 442r9 443r9 443r36 444r9 445r9 445r36 446r9
+. 447r9 447r34 448r9 449r9 449r35 450r9 451r9 451r35 452r9 453r9 453r35 454r9
+. 455r9 455r35 456r9 457r9 457r35
+166i17 nbrsteps{124|7I8} 96|438b17 443r14
+166i26 nbrcorrs{124|7I8} 96|438b26 445r14
+166i35 cntcut{124|7I8} 96|438b35 447r14
+166i42 cntfail{124|7I8} 96|438b42 449r14
+167f17 minsize{120|13F8} 96|439b17 451r14
+167f25 maxsize{120|13F8} 96|439b25 453r14
+168i17 cntdstp{124|7I8} 96|440b17 455r14
+168i25 cntpstp{124|7I8} 96|440b25 457r14
+183U13*Write_Total_Path_Statistics 184>17 185>17 185>29 186>17 186>29 187>17
+. 187>30 188>17 188>25 96|127s5 205s5 283s5 460b13 484l7 484t34
+184p17 file{12|67P9} 96|461b17 467r14 468r9 469r9 469r39 470r9 471r9 471r39
+. 472r9 473r9 473r39 474r9 475r9 475r39 476r9 477r9 477r40 478r9 479r9 479r39
+. 480r9 481r9 481r39 482r9 483r9 483r39
+185i17 minnbrsteps{124|7I8} 96|462b17 469r14
+185i29 maxnbrsteps{124|7I8} 96|462b29 471r14
+186i17 minnbrcorrs{124|7I8} 96|463b17 473r14
+186i29 maxnbrcorrs{124|7I8} 96|463b29 475r14
+187f17 smallestsize{120|13F8} 96|464b17 477r14
+187f30 largestsize{120|13F8} 96|464b30 479r14
+188f17 ratdstp{120|13F8} 96|465b17 481r14
+188f25 ratpstp{120|13F8} 96|465b25 483r14
+X 96 series_and_trackers.adb
+75a5 abh{46|33A8[102|9]} 109r15 136m40 136r40
+77i5 nvr{122|6I8} 82r75 83r68
+78a5 fhm{46|35A8[117|9]} 109r25 132m40 132r40
+80a5 fcf{51|14A8[110|5]} 109r29 133m43 133r43
+82a5 ejm{43|50A8[115|11]} 98m47 109r33 134m42 134r42
+83a5 mlt{43|53A8[115|11]} 98m51 109r37 135m42 135r42
+84p5 tmp{111|28P8} 104r21 119m7 119r22
+85i5 len{122|6I8} 103r17 124r44
+86p5 ls{111|25P8} 104m7 109r41 118r46
+87p5 timer{152|16P8} 102m12 102r12 126m11 126r11 131r22
+88i5 nbrsteps{124|7I8} 109m62 114r17 120r47 124r25
+88i14 minnbrsteps{124|7I8} 99m5 120m23 120r23 128r13
+88i26 maxnbrsteps{124|7I8} 99m37 120m35 120r35 128r25
+89i5 nbrcorrs{124|7I8} 109m71 114r26 121r47
+89i14 minnbrcorrs{124|7I8} 100m5 121m23 121r23 128r37
+89i26 maxnbrcorrs{124|7I8} 100m55 121m35 121r35 128r49
+89i38 cntcut{124|7I8} 110m10 114r35
+89i45 cntfail{124|7I8} 110m17 114r42
+90f5 minsize{120|13F8} 110m25 114r50 122r38
+90f13 maxsize{120|13F8} 110m33 114r58 122r46
+90f21 smallest{120|13F8} 101m5 122m21 122r21 128r61
+90f30 largest{120|13F8} 101m31 122m30 122r30 128r70
+91i5 cntsstp{124|7I8} 110m41 123r49
+91i13 cntdstp{124|7I8} 110m49 115r12 123r57
+91i21 cntpstp{124|7I8} 110m57 115r20 123r65
+92f5 ratsstp{120|13F8} 123m25 123r25
+92f13 ratdstp{120|13F8} 123m33 123r33 129r8
+92f21 ratpstp{120|13F8} 123m41 123r41 129r16
+103i9 i<long_integer> 106r50 117r39
+153a5 abh{46|33A8[19|9]} 187r15 214m40 214r40
+155i5 nvr{122|6I8} 160r75 161r68
+156a5 fhm{46|35A8[34|9]} 187r25 210m40 210r40
+158a5 fcf{51|14A8[27|5]} 187r29 211m43 211r43
+160a5 ejm{43|50A8[32|11]} 176m47 187r33 212m42 212r42
+161a5 mlt{43|53A8[32|11]} 176m51 187r37 213m42 213r42
+162p5 tmp{28|31P8} 182r21 197m7 197r22
+163i5 len{122|6I8} 181r17 202r44
+164p5 ls{28|28P8} 182m7 187r41 196r46
+165p5 timer{152|16P8} 180m12 180r12 204m11 204r11 209r22
+166i5 nbrsteps{124|7I8} 187m62 192r17 198r47 202r25
+166i14 minnbrsteps{124|7I8} 177m5 198m23 198r23 206r13
+166i26 maxnbrsteps{124|7I8} 177m37 198m35 198r35 206r25
+167i5 nbrcorrs{124|7I8} 187m71 192r26 199r47
+167i14 minnbrcorrs{124|7I8} 178m5 199m23 199r23 206r37
+167i26 maxnbrcorrs{124|7I8} 178m55 199m35 199r35 206r49
+167i38 cntcut{124|7I8} 188m10 192r35
+167i45 cntfail{124|7I8} 188m17 192r42
+168f5 minsize{120|13F8} 188m25 192r50 200r38
+168f13 maxsize{120|13F8} 188m33 192r58 200r46
+168f21 smallest{120|13F8} 179m5 200m21 200r21 206r61
+168f30 largest{120|13F8} 179m31 200m30 200r30 206r70
+169i5 cntsstp{124|7I8} 188m41 201r49
+169i13 cntdstp{124|7I8} 188m49 193r12 201r57
+169i21 cntpstp{124|7I8} 188m57 193r20 201r65
+170f5 ratsstp{120|13F8} 201m25 201r25
+170f13 ratdstp{120|13F8} 201m33 201r33 207r8
+170f21 ratpstp{120|13F8} 201m41 201r41 207r16
+181i9 i<long_integer> 184r50 195r39
+231a5 abh{46|33A8[75|9]} 265r15 292m40 292r40
+233i5 nvr{122|6I8} 238r75 239r68
+234a5 fhm{46|35A8[90|9]} 265r25 288m40 288r40
+236a5 fcf{51|14A8[83|5]} 265r29 289m43 289r43
+238a5 ejm{43|50A8[88|11]} 254m47 265r33 290m42 290r42
+239a5 mlt{43|53A8[88|11]} 254m51 265r37 291m42 291r42
+240p5 tmp{84|31P8} 260r21 275m7 275r22
+241i5 len{122|6I8} 259r17 280r44
+242p5 ls{84|28P8} 260m7 265r41 274r46
+243p5 timer{152|16P8} 258m12 258r12 282m11 282r11 287r22
+244i5 nbrsteps{124|7I8} 265m62 270r17 276r47 280r25
+244i14 minnbrsteps{124|7I8} 255m5 276m23 276r23 284r13
+244i26 maxnbrsteps{124|7I8} 255m37 276m35 276r35 284r25
+245i5 nbrcorrs{124|7I8} 265m71 270r26 277r47
+245i14 minnbrcorrs{124|7I8} 256m5 277m23 277r23 284r37
+245i26 maxnbrcorrs{124|7I8} 256m55 277m35 277r35 284r49
+245i38 cntcut{124|7I8} 266m10 270r35
+245i45 cntfail{124|7I8} 266m17 270r42
+246f5 minsize{120|13F8} 266m25 270r50 278r38
+246f13 maxsize{120|13F8} 266m33 270r58 278r46
+246f21 smallest{120|13F8} 257m5 278m21 278r21 284r61
+246f30 largest{120|13F8} 257m31 278m30 278r30 284r70
+247i5 cntsstp{124|7I8} 266m41 279r49
+247i13 cntdstp{124|7I8} 266m49 271r12 279r57
+247i21 cntpstp{124|7I8} 266m57 271r20 279r65
+248f5 ratsstp{120|13F8} 279m25 279r25
+248f13 ratdstp{120|13F8} 279m33 279r33 285r8
+248f21 ratpstp{120|13F8} 279m41 279r41 285r16
+259i9 i<long_integer> 262r50 273r39
+307a5 abh{46|33A8[102|9]} 331r10 339m40 339r40
+309i5 nvr{122|6I8} 314r75 315r68
+310a5 fhm{46|35A8[117|9]} 331r20 335m40 335r40
+312a5 fcf{51|14A8[110|5]} 331r24 336m43 336r43
+314a5 ejm{43|50A8[115|11]} 327m47 331r28 337m42 337r42
+315a5 mlt{43|53A8[115|11]} 327m51 331r32 338m42 338r42
+316p5 tmp{111|28P8} 329r21 333m7 333r22
+317i5 len{122|6I8} 328r17
+318p5 ls{111|25P8} 329m7 331r36
+319i5 nbrsteps{124|7I8} 331m57
+319i14 nbrcorrs{124|7I8} 331m66
+319i23 cntcut{124|7I8} 332m10
+319i30 cntfail{124|7I8} 332m17
+320f5 minsize{120|13F8} 332m25
+320f13 maxsize{120|13F8} 332m33
+321i5 cntsstp{124|7I8} 332m41
+321i13 cntdstp{124|7I8} 332m49
+321i21 cntpstp{124|7I8} 332m57
+328i9 i<long_integer>
+354a5 abh{46|33A8[19|9]} 378r10 386m40 386r40
+356i5 nvr{122|6I8} 361r75 362r68
+357a5 fhm{46|35A8[34|9]} 378r20 382m40 382r40
+359a5 fcf{51|14A8[27|5]} 378r24 383m43 383r43
+361a5 ejm{43|50A8[32|11]} 374m47 378r28 384m42 384r42
+362a5 mlt{43|53A8[32|11]} 374m51 378r32 385m42 385r42
+363p5 tmp{28|31P8} 376r21 380m7 380r22
+364i5 len{122|6I8} 375r17
+365p5 ls{28|28P8} 376m7 378r36
+366i5 nbrsteps{124|7I8} 378m57
+366i14 nbrcorrs{124|7I8} 378m66
+366i23 cntcut{124|7I8} 379m10
+366i30 cntfail{124|7I8} 379m17
+367f5 minsize{120|13F8} 379m25
+367f13 maxsize{120|13F8} 379m33
+368i5 cntsstp{124|7I8} 379m41
+368i13 cntdstp{124|7I8} 379m49
+368i21 cntpstp{124|7I8} 379m57
+375i9 i<long_integer>
+401a5 abh{46|33A8[75|9]} 425r10 433m40 433r40
+403i5 nvr{122|6I8} 408r75 409r68
+404a5 fhm{46|35A8[90|9]} 425r20 429m40 429r40
+406a5 fcf{51|14A8[83|5]} 425r24 430m43 430r43
+408a5 ejm{43|50A8[88|11]} 421m47 425r28 431m42 431r42
+409a5 mlt{43|53A8[88|11]} 421m51 425r32 432m42 432r42
+410p5 tmp{84|31P8} 423r21 427m7 427r22
+411i5 len{122|6I8} 422r17
+412p5 ls{84|28P8} 423m7 425r36
+413i5 nbrsteps{124|7I8} 425m57
+413i14 nbrcorrs{124|7I8} 425m66
+413i23 cntcut{124|7I8} 426m10
+413i30 cntfail{124|7I8} 426m17
+414f5 minsize{120|13F8} 426m25
+414f13 maxsize{120|13F8} 426m33
+415i5 cntsstp{124|7I8} 426m41
+415i13 cntdstp{124|7I8} 426m49
+415i21 cntpstp{124|7I8} 426m57
+422i9 i<long_integer>
+X 97 standard_complex_hessians.ads
+9K9*Standard_Complex_Hessians[42|20] 95|11w6 61r25 111r25 96|64r25 297r25
+X 98 standard_complex_jaco_matrices.ads
+11K9*Standard_Complex_Jaco_Matrices[43|25] 95|10w6 60r25 110r25 96|63r25
+. 296r25
+X 102 standard_complex_poly_sysfun.ads
+9K9*Standard_Complex_Poly_SysFun[46|19] 95|9w6 96|75r11 136r5 307r11 339r5
+X 110 standard_complex_series_vecvecs.ads
+5K9*Standard_Complex_Series_VecVecs[51|10] 96|8w6 80r11 133r5 312r11 336r5
+X 111 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 95|6w6 63r31 113r31 96|66r31 73r9 299r31 305r9
+. 111|206e31
+16i19*n{122|6I8} 96|77r47 309r47
+25P8*Link_to_Solution(16R8) 96|86r10 318r10
+28P8*Solution_List<44|12P8[27]> 95|63r58 113r58 96|66r58 84r11 299r58 316r11
+X 112 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 96|5w6 118r7 112|358e34
+74U13*put 96|118s37
+X 115 standard_cseries_jaco_matrices.ads
+11K9*Standard_CSeries_Jaco_Matrices[43|25] 96|10w6 82r11 83r11 98r5 134r5
+. 135r5 314r11 315r11 327r5 337r5 338r5
+X 117 standard_cseries_poly_sysfun.ads
+9K9*Standard_CSeries_Poly_SysFun[46|19] 96|9w6 78r11 79r12 81r12 132r5 310r11
+. 311r12 313r12 335r5
+X 118 standard_cseries_poly_systems.ads
+5K9*Standard_CSeries_Poly_Systems[48|12] 95|18w6 62r26 112r26 96|65r26 298r26
+X 120 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 95|4w6 4r46 120|58e30
+13F8*double_float<long_float> 95|38r43 39r38 46r33 52r50 167r38 187r47 188r38
+. 96|35r43 36r38 47r33 49r24 49r42 53r50 90r40 92r31 168r40 170r31 246r40
+. 248r31 320r23 367r23 414r23 439r38 464r47 465r38
+X 121 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 96|4w6 4r46 121|63e33
+35U13*put 96|481s5 483s5
+47U13*put 96|451s5 453s5 477s5 479s5
+X 122 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 95|3w6 3r46 122|45e29
+6I8*integer32<long_integer> 95|67r29 76r29 85r29 118r29 129r29 140r29 96|71r29
+. 77r20 85r20 85r33 149r29 155r20 163r20 163r33 227r29 233r20 241r20 241r33
+. 303r29 309r20 317r20 317r33 350r29 356r20 364r20 364r33 397r29 403r20 411r20
+. 411r33
+X 123 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 96|3w6 3r46 123|47e32
+27U13*put 96|106s41 117s30 184s41 195s30 262s41 273s30
+X 124 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 95|2w6 2r46 124|30e29
+7I8*natural32<long_integer> 95|31r40 31r60 46r60 53r41 65r27 74r27 83r27
+. 115r27 126r27 137r27 166r55 168r38 185r46 186r46 96|25r40 25r60 47r60 54r41
+. 68r27 88r40 89r55 91r31 124r34 146r27 166r40 167r55 169r31 202r34 224r27
+. 244r40 245r55 247r31 280r34 301r27 319r40 321r31 348r27 366r40 368r31 395r27
+. 413r40 415r31 438r55 440r38 462r46 463r46
+X 125 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 96|2w6 2r46 125|35e32
+26U13*put 96|443s5 445s5 447s5 449s5 455s5 457s5 469s5 471s5 473s5 475s5
+X 127 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[50|8] 95|5w6 66r26 75r26 84r26 116r26 127r26
+. 138r26 96|69r26 147r26 225r26 302r26 349r26 396r26
+X 129 standard_pade_trackers.ads
+19K9*Standard_Pade_Trackers 96|18w6 108r7 330r7 129|519e27
+419U13*Track_One_Path 96|330s30
+467U13*Track_One_Path 96|108s30
+X 151 text_io.ads
+27K9*Text_IO=27:29 95|1w6 1r46
+X 152 timing_package.ads
+3K9*Timing_Package 96|1w6 1r46 152|66e19
+16P8*Timing_Widget 96|87r13 165r13 243r13
+20U13*tstart 96|102s5 180s5 258s5
+24U13*tstop 96|126s5 204s5 282s5
+49U13*print_times 96|131s5 209s5 287s5
+

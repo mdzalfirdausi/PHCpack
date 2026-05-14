@@ -1,0 +1,86 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_series%b		use_series.adb		15b47a85 NE OO SU IL
+W power_series_interface%s  power_series_interface.adb  power_series_interface.ali
+
+U use_series%s		use_series.ads		9e338744 EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D power_series_interface.ads  20260513024556 7575bc31 power_series_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D use_series.ads	20260513024556 6bff643c use_series%s
+D use_series.adb	20260513024556 0b3ea288 use_series%b
+G a e
+G c Z s b [use_series standard 5 10 none]
+G r c none [use_series standard 5 10 none] [series_standard_newton_at_point power_series_interface 10 12 none]
+G r c none [use_series standard 5 10 none] [series_dobldobl_newton_at_point power_series_interface 28 12 none]
+G r c none [use_series standard 5 10 none] [series_quaddobl_newton_at_point power_series_interface 46 12 none]
+G r c none [use_series standard 5 10 none] [series_standard_newton_at_series power_series_interface 64 12 none]
+G r c none [use_series standard 5 10 none] [series_dobldobl_newton_at_series power_series_interface 82 12 none]
+G r c none [use_series standard 5 10 none] [series_quaddobl_newton_at_series power_series_interface 100 12 none]
+G r c none [use_series standard 5 10 none] [series_standard_pade power_series_interface 118 12 none]
+G r c none [use_series standard 5 10 none] [series_dobldobl_pade power_series_interface 136 12 none]
+G r c none [use_series standard 5 10 none] [series_quaddobl_pade power_series_interface 154 12 none]
+X 3 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 14|3w6 3r45
+17K11*C_DblArrs[7|44] 14|8r27 15|6r27
+X 4 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 14|2w6 2r45
+13K11*C_intarrs[7|44] 14|6r27 7r27 15|4r27 5r27
+X 6 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 7 i-cpoint.ads
+47P9*Pointer(6|62I9) 14|6r37[4|13] 7r37[4|13] 8r37[3|17] 15|4r37[4|13] 5r37[4|13]
+. 6r37[3|17]
+X 8 power_series_interface.ads
+4K9*Power_Series_Interface 172e27 15|1w6 11r9
+10V12*Series_Standard_Newton_at_Point{9|6I8} 15|15s24
+28V12*Series_DoblDobl_Newton_at_Point{9|6I8} 15|16s24
+46V12*Series_QuadDobl_Newton_at_Point{9|6I8} 15|17s24
+64V12*Series_Standard_Newton_at_Series{9|6I8} 15|18s24
+82V12*Series_DoblDobl_Newton_at_Series{9|6I8} 15|19s24
+100V12*Series_QuadDobl_Newton_at_Series{9|6I8} 15|20s24
+118V12*Series_Standard_Pade{9|6I8} 15|21s24
+136V12*Series_DoblDobl_Pade{9|6I8} 15|22s24
+154V12*Series_QuadDobl_Pade{9|6I8} 15|23s24
+X 9 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 14|1w6 1r45
+6I8*integer32<long_integer> 14|5r29 9r32 9r56 15|3r29 7r32 7r56 9r27
+X 14 use_series.ads
+5V10*use_series{9|6I8} 5>23 6>23 7>23 8>23 9>23 15|3b10 30l5 30t15
+5i23 job{9|6I8} 15|3b23 14r10
+6p23 a{7|47P9[4|13]} 15|4b23 15r56 16r56 17r56 18r57 19r57 20r57 21r45 22r45
+. 23r45
+7p23 b{7|47P9[4|13]} 15|5b23 15r58 16r58 17r58 18r59 19r59 20r59 21r47 22r47
+. 23r47
+8p23 c{7|47P9[3|17]} 15|6b23
+9i23 vrblvl{9|6I8} 15|7b23 15r60 16r60 17r60 18r61 19r61 20r61 21r49 22r49
+. 23r49
+X 15 use_series.adb
+9V12 do_jobs{9|6I8} 9b12 26l7 26t14 29s10
+

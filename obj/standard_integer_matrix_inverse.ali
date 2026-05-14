@@ -1,0 +1,176 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_integer_matrix_inverse%b  standard_integer_matrix_inverse.adb  f6044e0b NE OO PK
+W standard_integer64_linear_solvers%s  standard_integer64_linear_solvers.ads  standard_integer64_linear_solvers.ali
+W standard_integer64_vectors%s  standard_integer64_vectors.ads  standard_integer64_vectors.ali
+W standard_integer_linear_solvers%s  standard_integer_linear_solvers.ads  standard_integer_linear_solvers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_integer_matrix_inverse%s  standard_integer_matrix_inverse.ads  c1da1dc1 EE NE OO PK
+W standard_integer64_matrices%s  standard_integer64_matrices.ads  standard_integer64_matrices.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D standard64_common_divisors.ads  20260513024558 d6300ee4 standard64_common_divisors%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_integer64_linear_solvers.ads  20260513024558 261c3465 standard_integer64_linear_solvers%s
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_ring-ddomain.ads  20260513024558 592f7659 standard_integer64_ring.ddomain%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_linear_solvers.ads  20260513024558 34df0966 standard_integer_linear_solvers%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_matrix_inverse.ads  20260513024558 5b63d24a standard_integer_matrix_inverse%s
+D standard_integer_matrix_inverse.adb  20260513024558 0ad44c1c standard_integer_matrix_inverse%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [is_identity standard_integer_matrix_inverse 11 12 none]
+G c Z s b [is_identity standard_integer_matrix_inverse 13 12 none]
+G c Z s b [is_inverse_pair standard_integer_matrix_inverse 19 12 none]
+G c Z s b [is_inverse_pair standard_integer_matrix_inverse 21 12 none]
+G c Z s b [inverse_of_unimodular_upper standard_integer_matrix_inverse 28 12 none]
+G c Z s b [inverse_of_unimodular_upper standard_integer_matrix_inverse 31 12 none]
+G c Z s b [inverse standard_integer_matrix_inverse 40 13 none]
+G c Z s b [inverse standard_integer_matrix_inverse 43 13 none]
+G r c none [is_inverse_pair standard_integer_matrix_inverse 19 12 none] [Omultiply standard_integer_matrices 41 12 5_1]
+G r c none [is_inverse_pair standard_integer_matrix_inverse 21 12 none] [Omultiply standard_integer64_matrices 41 12 5_1]
+G r c none [inverse_of_unimodular_upper standard_integer_matrix_inverse 28 12 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [inverse_of_unimodular_upper standard_integer_matrix_inverse 31 12 none] [solve0 standard_integer64_linear_solvers 144 13 8_1]
+G r c none [inverse standard_integer_matrix_inverse 40 13 none] [upper_triangulate standard_integer_linear_solvers 40 13 8_1]
+G r c none [inverse standard_integer_matrix_inverse 40 13 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+G r c none [inverse standard_integer_matrix_inverse 40 13 none] [Omultiply standard_integer_matrices 41 12 5_1]
+G r c none [inverse standard_integer_matrix_inverse 43 13 none] [upper_triangulate standard_integer64_linear_solvers 40 13 8_1]
+G r c none [inverse standard_integer_matrix_inverse 43 13 none] [solve0 standard_integer64_linear_solvers 144 13 8_1]
+G r c none [inverse standard_integer_matrix_inverse 43 13 none] [Omultiply standard_integer64_matrices 41 12 5_1]
+X 3 generic_integer_linear_solvers.ads
+40U13*Upper_Triangulate 17|158s37[14|8] 182s39[9|8]
+144U13*Solve0 17|96s7[14|8] 132s7[9|8]
+X 4 generic_matrices.ads
+16A8*Matrix(18|6I8)<18|6I8><18|6I8> 16|12r47[15|5] 14r49[10|5] 20r49[15|5]
+. 22r51[10|5] 29r50[15|5] 30r48[15|5] 32r52[10|5] 33r50[10|5] 40r56[15|5]
+. 42r57[15|5] 43r58[10|5] 45r59[10|5] 17|9r46[15|5] 28r48[10|5] 47r48[15|5]
+. 50r19[15|5] 51r19[15|5] 61r50[10|5] 64r19[10|5] 65r19[10|5] 75r49[15|5]
+. 76r47[15|5] 81r11[15|5] 82r9[15|5] 111r51[10|5] 112r49[10|5] 117r11[10|5]
+. 118r9[10|5] 146r56[15|5] 148r57[15|5] 153r9[15|5] 154r9[15|5] 155r9[15|5]
+. 170r58[10|5] 172r59[10|5] 177r9[10|5] 178r9[10|5] 179r9[10|5]
+41V13*"*"{16A8[15|5]} 17|50s53[15|5] 51s53[15|5] 64s53[10|5] 65s53[10|5]
+. 166s13[15|5] 190s13[10|5]
+X 5 generic_vectors.ads
+16A8*Vector(18|6I8)<18|6I8> 17|83r34[21|4] 119r36[13|4]
+X 9 standard_integer64_linear_solvers.ads
+8K9*Standard_Integer64_Linear_Solvers[3|15] 17|4w6 115r9 182r5
+X 10 standard_integer64_matrices.ads
+5K9*Standard_Integer64_Matrices[4|9] 16|3w6 14r21 22r23 32r24 33r22 43r30
+. 45r31 17|28r20 61r22 63r9 111r23 112r21 114r9 170r30 172r31 174r9
+X 13 standard_integer64_vectors.ads
+4K9*Standard_Integer64_Vectors[5|8] 17|2w6 119r9
+X 14 standard_integer_linear_solvers.ads
+8K9*Standard_Integer_Linear_Solvers[3|15] 17|3w6 79r9 158r5
+X 15 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[4|9] 16|2w6 12r21 20r23 29r24 30r22 40r30 42r31
+. 17|9r20 47r22 49r9 75r23 76r21 78r9 146r30 148r31 150r9
+X 16 standard_integer_matrix_inverse.ads
+5K9*Standard_Integer_Matrix_Inverse 54l5 54e36 17|6b14 194l5 194t36
+11V12*Is_Identity{boolean} 12>17 17|8b12 25l7 25t18 54s12 54s35
+12a17 A{4|16A8[15|5]} 17|9b16 11r14 12r16 14r14 18r14
+13V12*Is_Identity{boolean} 14>17 17|27b12 44l7 44t18 68s12 68s35
+14a17 A{4|16A8[10|5]} 17|28b16 30r14 31r16 33r14 37r14
+19V12*Is_Inverse_Pair{boolean} 20>17 20>19 17|46b12 58l7 58t22
+20a17 A{4|16A8[15|5]} 17|47b16 50r26 50r52 51r37 51r54
+20a19 B{4|16A8[15|5]} 17|47b18 50r37 50r54 51r26 51r52
+21V12*Is_Inverse_Pair{boolean} 22>17 22>19 17|60b12 72l7 72t22
+22a17 A{4|16A8[10|5]} 17|61b16 64r26 64r52 65r37 65r54
+22a19 B{4|16A8[10|5]} 17|61b18 64r37 64r54 65r26 65r52
+28V12*Inverse_of_Unimodular_Upper{4|16A8[15|5]} 29>17 17|74b12 108l7 108t34
+. 165s12
+29a17 A{4|16A8[15|5]} 17|75b16 81r18 81r29 82r16 82r27 82r39 86r14 87r16
+. 88r19 91r14
+31V12*Inverse_of_Unimodular_Upper{4|16A8[10|5]} 32>17 17|110b12 144l7 144t34
+. 189s12
+32a17 A{4|16A8[10|5]} 17|111b16 117r18 117r29 118r16 118r27 118r39 122r14
+. 123r16 124r19 127r14
+40U13*Inverse 40>23 41<23 42<23 17|146b13 168l7 168t14
+40a23 A{4|16A8[15|5]} 17|146b23 153r16 153r27 154r16 154r27 154r42 155r16
+. 155r27
+41i23 determinant{18|6I8} 17|147b23 163m5
+42a23 B{4|16A8[15|5]} 17|148b23 166m7
+43U13*Inverse 43>23 44<23 45<23 17|170b13 192l7 192t14
+43a23 A{4|16A8[10|5]} 17|170b23 177r16 177r27 178r16 178r27 178r42 179r16
+. 179r27
+44i23 determinant{18|7I8} 17|171b23 187m5
+45a23 B{4|16A8[10|5]} 17|172b23 190m7
+X 17 standard_integer_matrix_inverse.adb
+11i9 i<long_integer> 13r12 14r16 18r16
+12i11 j<long_integer> 13r16 14r18 18r18
+30i9 i<long_integer> 32r12 33r16 37r16
+31i11 j<long_integer> 32r16 33r18 37r18
+50a5 AB{4|16A8[15|5]} 54r24
+51a5 BA{4|16A8[15|5]} 54r47
+64a5 AB{4|16A8[10|5]} 68r24
+65a5 BA{4|16A8[10|5]} 68r47
+81a5 res{4|16A8[15|5]} 98r18 99m11 102r18 103m11 107r12
+82a5 B{4|16A8[15|5]} 83r41 88m9 92r16 93m9 93r13 95m7 95r11 96r14
+83a5 x{5|16A8[21|4]} 96m16 96r16 97r10 97r12 99r23 103r24
+86i9 i<long_integer> 88r11 88r21
+87i11 j<long_integer> 88r13 88r23
+91i9 k<long_integer> 95r9 99r17 103r17
+92i11 i<long_integer> 93r11
+98i13 i<long_integer> 99r15 99r25
+102i13 i<long_integer> 103r15 103r26
+117a5 res{4|16A8[10|5]} 134r18 135m11 138r18 139m11 143r12
+118a5 B{4|16A8[10|5]} 119r43 124m9 128r16 129m9 129r13 131m7 131r11 132r14
+119a5 x{5|16A8[13|4]} 132m16 132r16 133r10 133r12 135r23 139r24
+122i9 i<long_integer> 124r11 124r21
+123i11 j<long_integer> 124r13 124r23
+127i9 k<long_integer> 131r9 135r17 139r17
+128i11 i<long_integer> 129r11
+134i13 i<long_integer> 135r15 135r25
+138i13 i<long_integer> 139r15 139r26
+152i5 d{18|6I8} 159m5 161m7 161r12 163r20 164r8 164r10
+153a5 U{4|16A8[15|5]} 158m55 166r14
+154a5 W{4|16A8[15|5]} 158m57 158r57 159r10 159r12 159r23 160r14 160r28 161r14
+. 165r40
+155a5 R{4|16A8[15|5]} 165m7 166r12
+160i9 i<long_integer> 161r16 161r18
+176i5 d{18|7I8} 183m5 185m7 185r12 187r20 188r8 188r10
+177a5 U{4|16A8[10|5]} 182m57 190r14
+178a5 W{4|16A8[10|5]} 182m59 182r59 183r10 183r12 183r23 184r14 184r28 185r14
+. 189r40
+179a5 R{4|16A8[10|5]} 189m7 190r12
+184i9 i<long_integer> 185r16 185r18
+X 18 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 16|1w6 1r46 18|45e29
+6I8*integer32<long_integer> 16|41r41 17|147r41 152r9
+7I8*integer64<long_long_integer> 16|44r41 17|171r41 176r9
+X 21 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[5|8] 17|1w6 83r9
+

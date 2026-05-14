@@ -1,0 +1,805 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U dobldobl_complex_singular_values%b  dobldobl_complex_singular_values.adb  70bd6870 NE OO PK
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_mathematical_functions%s  dobldobl_mathematical_functions.adb  dobldobl_mathematical_functions.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U dobldobl_complex_singular_values%s  dobldobl_complex_singular_values.ads  579cbe02 EE NE OO PK
+W dobldobl_complex_matrices%s  dobldobl_complex_matrices.ads  dobldobl_complex_matrices.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_singular_values.ads  20260513024558 c0031438 dobldobl_complex_singular_values%s
+D dobldobl_complex_singular_values.adb  20260513024558 ed68db6c dobldobl_complex_singular_values%b
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_mathematical_functions.ads  20260513024558 091149b0 dobldobl_mathematical_functions%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [min0 dobldobl_complex_singular_values 21 12 none]
+G c Z s b [svd dobldobl_complex_singular_values 25 13 none]
+G c Z s b [svd dobldobl_complex_singular_values 28 13 none]
+G c Z s b [rank dobldobl_complex_singular_values 81 12 none]
+G c Z s b [rank dobldobl_complex_singular_values 82 12 none]
+G c Z s b [inverse_condition_number dobldobl_complex_singular_values 90 12 none]
+G c Z s b [inverse_condition_number dobldobl_complex_singular_values 92 12 none]
+G c Z s b [conjugate_transpose dobldobl_complex_singular_values 104 12 none]
+G c Z s b [inverse dobldobl_complex_singular_values 109 12 none]
+G c Z s b [inverse dobldobl_complex_singular_values 110 12 none]
+G c Z s b [solve dobldobl_complex_singular_values 118 12 none]
+G c Z s b [solve dobldobl_complex_singular_values 119 12 none]
+G c Z s b [solve dobldobl_complex_singular_values 131 13 none]
+G c Z b b [max0 dobldobl_complex_singular_values 26 12 none]
+G c Z b b [dmax1 dobldobl_complex_singular_values 38 12 none]
+G c Z b b [dmax1 dobldobl_complex_singular_values 50 12 none]
+G c Z b b [dmax1 dobldobl_complex_singular_values 62 12 none]
+G c Z b b [dmax1 dobldobl_complex_singular_values 74 12 none]
+G c Z b b [cabs1 dobldobl_complex_singular_values 86 12 none]
+G c Z b b [cdabs dobldobl_complex_singular_values 99 12 none]
+G c Z b b [csign dobldobl_complex_singular_values 121 12 none]
+G c Z b b [dsign dobldobl_complex_singular_values 136 12 none]
+G c Z b b [dznrm2 dobldobl_complex_singular_values 149 12 none]
+G c Z b b [dznrm2 dobldobl_complex_singular_values 196 12 none]
+G c Z b b [zscal dobldobl_complex_singular_values 239 13 none]
+G c Z b b [zscal dobldobl_complex_singular_values 265 13 none]
+G c Z b b [zaxpy dobldobl_complex_singular_values 291 13 none]
+G c Z b b [zaxpy dobldobl_complex_singular_values 328 13 none]
+G c Z b b [zaxpy dobldobl_complex_singular_values 365 13 none]
+G c Z b b [zdotc dobldobl_complex_singular_values 403 12 none]
+G c Z b b [drotg dobldobl_complex_singular_values 442 13 none]
+G c Z b b [zdrot dobldobl_complex_singular_values 481 13 none]
+G c Z b b [zswap dobldobl_complex_singular_values 524 13 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [create double_double_numbers 35 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Oabs double_double_numbers 103 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Olt double_double_numbers 83 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Odivide double_double_numbers 139 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [sqr double_double_numbers 147 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Oadd double_double_numbers 113 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [is_zero double_double_numbers 60 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [absval double_double_numbers 104 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Osubtract dobldobl_complex_numbers 54 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Ogt double_double_numbers 90 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Oge double_double_numbers 94 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Oge double_double_numbers 93 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Odivide double_double_numbers 141 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Omultiply dobldobl_complex_numbers 48 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Osubtract double_double_numbers 119 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Odivide double_double_numbers 140 12 none]
+G r c none [svd dobldobl_complex_singular_values 25 13 none] [Olt double_double_numbers 84 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [create double_double_numbers 35 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Oabs double_double_numbers 103 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Olt double_double_numbers 83 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Odivide double_double_numbers 139 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [sqr double_double_numbers 147 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Oadd double_double_numbers 113 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [is_zero double_double_numbers 60 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [absval double_double_numbers 104 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Osubtract dobldobl_complex_numbers 54 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Ogt double_double_numbers 90 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Oge double_double_numbers 94 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Oge double_double_numbers 93 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Odivide double_double_numbers 141 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Omultiply dobldobl_complex_numbers 48 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Osubtract double_double_numbers 119 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Odivide double_double_numbers 140 12 none]
+G r c none [svd dobldobl_complex_singular_values 28 13 none] [Olt double_double_numbers 84 12 none]
+G r c none [rank dobldobl_complex_singular_values 81 12 none] [create double_double_numbers 35 12 none]
+G r c none [rank dobldobl_complex_singular_values 81 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [rank dobldobl_complex_singular_values 81 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [rank dobldobl_complex_singular_values 82 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [rank dobldobl_complex_singular_values 82 12 none] [Olt double_double_numbers 84 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 90 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 90 12 none] [create double_double_numbers 35 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 90 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 90 12 none] [Odivide double_double_numbers 139 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 92 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 92 12 none] [Olt double_double_numbers 84 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 92 12 none] [create double_double_numbers 35 12 none]
+G r c none [inverse_condition_number dobldobl_complex_singular_values 92 12 none] [Odivide double_double_numbers 139 12 none]
+G r c none [conjugate_transpose dobldobl_complex_singular_values 104 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [inverse dobldobl_complex_singular_values 109 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [inverse dobldobl_complex_singular_values 109 12 none] [create double_double_numbers 35 12 none]
+G r c none [inverse dobldobl_complex_singular_values 109 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [inverse dobldobl_complex_singular_values 109 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [inverse dobldobl_complex_singular_values 109 12 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [inverse dobldobl_complex_singular_values 109 12 none] [Omultiply dobldobl_complex_matrices 41 12 5_1]
+G r c none [inverse dobldobl_complex_singular_values 110 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [inverse dobldobl_complex_singular_values 110 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [inverse dobldobl_complex_singular_values 110 12 none] [Olt double_double_numbers 84 12 none]
+G r c none [inverse dobldobl_complex_singular_values 110 12 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [inverse dobldobl_complex_singular_values 110 12 none] [Omultiply dobldobl_complex_matrices 41 12 5_1]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [Omultiply dobldobl_complex_matrices 51 12 5_1]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [create double_double_numbers 35 12 none]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [solve dobldobl_complex_singular_values 118 12 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [Omultiply dobldobl_complex_matrices 51 12 5_1]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [create double_double_numbers 35 12 none]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [Olt double_double_numbers 84 12 none]
+G r c none [solve dobldobl_complex_singular_values 119 12 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [solve dobldobl_complex_singular_values 131 13 none] [create double_double_numbers 16 12 none]
+G r c none [solve dobldobl_complex_singular_values 131 13 none] [Omultiply dobldobl_complex_matrices 51 12 5_1]
+G r c none [solve dobldobl_complex_singular_values 131 13 none] [create dobldobl_complex_numbers 17 12 none]
+G r c none [solve dobldobl_complex_singular_values 131 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [solve dobldobl_complex_singular_values 131 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [solve dobldobl_complex_singular_values 131 13 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [dmax1 dobldobl_complex_singular_values 38 12 none] [Ogt double_double_numbers 90 12 none]
+G r c none [dmax1 dobldobl_complex_singular_values 50 12 none] [Ogt double_double_numbers 90 12 none]
+G r c none [dmax1 dobldobl_complex_singular_values 62 12 none] [Ogt double_double_numbers 90 12 none]
+G r c none [dmax1 dobldobl_complex_singular_values 74 12 none] [Ogt double_double_numbers 90 12 none]
+G r c none [cabs1 dobldobl_complex_singular_values 86 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [cabs1 dobldobl_complex_singular_values 86 12 none] [Oabs double_double_numbers 103 12 none]
+G r c none [cabs1 dobldobl_complex_singular_values 86 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [cabs1 dobldobl_complex_singular_values 86 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [is_zero double_double_numbers 60 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [absval double_double_numbers 104 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [sqr double_double_numbers 147 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [cdabs dobldobl_complex_singular_values 99 12 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [is_zero double_double_numbers 60 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [absval double_double_numbers 104 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [sqr double_double_numbers 147 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [Odivide double_double_numbers 139 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [csign dobldobl_complex_singular_values 121 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [dsign dobldobl_complex_singular_values 136 12 none] [Oge double_double_numbers 94 12 none]
+G r c none [dsign dobldobl_complex_singular_values 136 12 none] [Oabs double_double_numbers 103 12 none]
+G r c none [dsign dobldobl_complex_singular_values 136 12 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [create double_double_numbers 35 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [Oabs double_double_numbers 103 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [Olt double_double_numbers 83 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [Odivide double_double_numbers 139 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [sqr double_double_numbers 147 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [Oadd double_double_numbers 113 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 149 12 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [create double_double_numbers 35 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [Oabs double_double_numbers 103 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [Olt double_double_numbers 83 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [Odivide double_double_numbers 139 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [sqr double_double_numbers 147 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [Oadd double_double_numbers 113 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [dznrm2 dobldobl_complex_singular_values 196 12 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [zscal dobldobl_complex_singular_values 239 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [zscal dobldobl_complex_singular_values 265 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 291 13 none] [create double_double_numbers 35 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 291 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 291 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 291 13 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 328 13 none] [create double_double_numbers 35 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 328 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 328 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 328 13 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 365 13 none] [create double_double_numbers 35 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 365 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 365 13 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [zaxpy dobldobl_complex_singular_values 365 13 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [zdotc dobldobl_complex_singular_values 403 12 none] [create double_double_numbers 35 12 none]
+G r c none [zdotc dobldobl_complex_singular_values 403 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [zdotc dobldobl_complex_singular_values 403 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [zdotc dobldobl_complex_singular_values 403 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [zdotc dobldobl_complex_singular_values 403 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [create double_double_numbers 35 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Oabs double_double_numbers 103 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Ogt double_double_numbers 90 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Odivide double_double_numbers 139 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [sqr double_double_numbers 147 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Oge double_double_numbers 94 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Osubtract double_double_numbers 123 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Oge double_double_numbers 93 12 none]
+G r c none [drotg dobldobl_complex_singular_values 442 13 none] [Odivide double_double_numbers 141 12 none]
+G r c none [zdrot dobldobl_complex_singular_values 481 13 none] [Omultiply dobldobl_complex_numbers 48 12 none]
+G r c none [zdrot dobldobl_complex_singular_values 481 13 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [zdrot dobldobl_complex_singular_values 481 13 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+X 2 dobldobl_complex_matrices.ads
+5K9*DoblDobl_Complex_Matrices[10|9] 5|5w6 5r44
+X 3 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 6|7w6 7r45
+11R8*Complex_Number 85e15 6|86r24 99r24 121r28 121r52 239r47 265r47 291r46
+. 328r46 365r46 406r25 414r13 493r13 534r13 584r11
+17V12*Create{11R8} 6|1074s27
+18V12*Create{11R8} 6|127s13 414s31 625s25 626s23 663s23 664s23 670s26 694s27
+. 696s13 702s23 704s21 712s26 714s25 723s26 724s25 728s28 750s22 752s21 799s24
+. 815s26 834s21 840s22 851s22 855s21 887s40 896s22 905s22 912s27 1056s48
+. 1089s48
+19V12*Create{11R8} 6|617s19 658s19 759s14 767s14
+20V12*Conjugate{11R8} 6|420s26 432s26 644s21 666s20 676s25 1012s21
+24V12*REAL_PART{9|12R8} 6|96s17 111s37 169s12 170s23 214s12 215s23 833s16
+. 837s19 842s24 850s16 853s19 856s22 868s18 869s20 870s20 871s18 872s18 888s22
+. 888s43 890s22 897s22 897s43 899s22 909s14 917s23 917s43
+25V12*IMAG_PART{9|12R8} 6|96s37 112s37 178s12 179s23 222s12 223s23
+27V12*AbsVal{9|12R8} 6|303s23 340s23 378s23 947s10 957s10 967s38 977s16 988s38
+. 997s16 1026s18 1042s18 1060s18 1076s18 1093s18
+48V13*"*"{11R8} 6|499s21 499s38 500s28 500s45 513s21 513s35 514s25 514s39
+. 843s28 857s23 889s24 889s34 891s26 898s27 898s37 900s26
+51V13*"+"{11R8} 6|306s40 318s34 343s32 355s26 381s40 393s34 420s24 432s24
+. 499s35 513s32 626s35 664s35 724s37 898s33
+53V13*"-"{11R8} 6|500s42 514s36 889s30
+54V13*"-"{11R8} 6|630s19 638s26 666s19 676s35 719s22 744s20 898s24 910s22
+55V13*"*"{11R8} 6|127s40 252s24 257s21 278s28 283s25 306s43 318s37 343s35
+. 355s29 381s43 393s37 420s49 432s46 770s25
+56V13*"/"{11R8} 6|625s36 638s55 663s34 676s40 719s55 744s53 760s18 762s35
+. 768s15 1028s27 1044s27 1062s23 1078s23 1094s23
+X 5 dobldobl_complex_singular_values.ads
+7K9*DoblDobl_Complex_Singular_Values 151l5 151e37 6|10b14 1099l5 1099t37
+21V12*Min0{13|6I8} 21>19 21>21 6|14b12 24l7 24t11 602s29 608s12 609s19 690s10
+21i19 a{13|6I8} 6|14b19 20r8 21r18
+21i21 b{13|6I8} 6|14b21 20r12 22r18
+25U13*SVD 25=19 25>38 25>40 26<19 26<21 26<37 26<53 27>19 27<39 6|567b13
+. 575l7 575t10
+25a19 x{10|16A8[2|5]} 6|567b19 574m9
+25i38 n{13|6I8} 6|567b38 571r22 574r11
+25i40 p{13|6I8} 6|567b40 574r13
+26a19 s{11|16A8[7|4]} 6|568b19 574m15
+26a21 e{11|16A8[7|4]} 6|568b21 574m17
+26a37 u{10|16A8[2|5]} 6|568b37 574m19
+26a53 v{10|16A8[2|5]} 6|568b53 574m21
+27i19 job{13|6I8} 6|569b19 574r23
+27i39 info{13|6I8} 6|569b39 574m27
+28U13*SVD 28=19 28>38 28>40 29<19 29<21 29<37 29<53 30>19 30<39 31=19 6|574s5
+. 577b13 939l7 939t10
+28a19 x{10|16A8[2|5]} 6|577b19 617r39 620r22 621r38 625m42 626m13 626r37
+. 638r39 638r47 638r56 639r35 639m43 644r31 652r23 673r30 676m60 693r33 695r35
+28i38 n{13|6I8} 6|577b38 601r12 602r34 608r17 609r28 617r33 625r19 638r33
+. 639r27 651r23 667r21 669r27 673r21 676r21 690r17 694r8 701r23 711r25 719r29
+. 720r23 723r19 763r29 811r20 859r25 901r31 902r26 924r31 925r25
+28i40 p{13|6I8} 6|577b40 602r36 608r21 609r24 633r12 634r25 658r33 663r19
+. 672r27 675r27 682r27 690r15 693r14 738r19 739r15 743r27 744r27 745r21 749r21
+. 771r29 846r25 893r26 912r25 921r31 922r25
+29a19 s{11|16A8[7|4]} 6|578b19 617m11 619r20 621m19 621r33 625r37 630m11
+. 630r20 636r25 693m21 694m19 710r20 758r16 759r27 760r14 761m9 770m9 770r19
+. 796r23 796r38 813r33 815m17 837r29 840m13 853r29 855m13 866r33 866r45 867r33
+. 868r28 869r30 871r28 888r32 889r35 890r32 891m14 891r27 896m14 897r53 898m14
+. 898r38 909r24 910m13 910r23 917r33 917r53 918r18 919m13 919r22 920m13
+29a21 e{11|16A8[7|4]} 6|578b21 644m13 658m11 658r37 659r20 660r22 661m19
+. 661r33 661r38 663r35 663m40 664m13 664r37 666m11 666r30 667r33 673r25 676r36
+. 676r41 683r25 695m23 696m5 742r20 762m23 762r31 766r16 767r27 768r16 769m9
+. 797r31 799m15 811r48 812r51 833r26 834m11 842r34 843m15 843r29 850r26 851m11
+. 856r32 857m13 857r24 866r59 867r46 870r30 872r28 887m30 888r53 889m14 889r25
+. 897r32 898r28 899r32 900m14 900r27 905m12
+29a37 u{10|16A8[2|5]} 6|578b37 652m13 702m13 704m11 712m15 714m13 719r36
+. 719r46 719r56 720r32 720m42 723m43 724m13 724r39 728m17 763m33 859m27 859m35
+. 902m28 902m36 925m27 925m36
+29a53 v{10|16A8[2|5]} 6|578b53 683m15 744r32 744r43 744r54 745r28 745m39
+. 750m11 752m9 771m33 846m27 846m36 893m28 893m36 912m44 922m27 922m36
+30i19 job{13|6I8} 6|579b19 600r14 604r8
+30i39 info{13|6I8} 6|579b39 607m5 782m13
+31a19 work{11|16A8[7|4]} 6|580b19 670m15 673m40 676r49
+81V12*Rank{13|6I8} 81>19 6|941b12 952l7 952t11
+81a19 s{11|16A8[7|4]} 6|941b19 946r14 947r17 951r12
+82V12*Rank{13|6I8} 82>19 82>31 6|954b12 962l7 962t11
+82a19 s{11|16A8[7|4]} 6|954b19 956r14 957r17 961r12
+82f31 tol{12|13F8} 6|954b31 957r25
+90V12*Inverse_Condition_Number{9|12R8} 91>16 6|964b12 983l7 983t31
+91a16 s{11|16A8[7|4]} 6|965b16 967r45 967r47 976r16 976r27 977r23
+92V12*Inverse_Condition_Number{9|12R8} 93>16 93>28 6|985b12 1003l7 1003t31
+93a16 s{11|16A8[7|4]} 6|986b16 988r45 988r47 996r16 996r27 997r23
+93f28 tol{12|13F8} 6|986b28 992r15 998r26
+104V12*Conjugate_Transpose{10|16A8[2|5]} 104>34 6|1005b12 1016l7 1016t26
+. 1020s52 1037s52 1052s52 1086s52
+104a34 z{10|16A8[2|5]} 6|1005b34 1007r18 1007r29 1010r14 1011r16 1012r31
+109V12*Inverse{10|16A8[2|5]} 109>22 109>24 109>36 6|1018b12 1032l7 1032t14
+109a22 u{10|16A8[2|5]} 6|1018b22 1020r26 1020r37 1020r72 1021r17 1021r28
+109a24 v{10|16A8[2|5]} 6|1018b24 1031r12
+109a36 s{11|16A8[7|4]} 6|1018b36 1025r14 1026r25 1028r28
+110V12*Inverse{10|16A8[2|5]} 110>22 110>24 110>36 110>48 6|1034b12 1048l7
+. 1048t14
+110a22 u{10|16A8[2|5]} 6|1034b22 1037r26 1037r37 1037r72 1038r17 1038r28
+110a24 v{10|16A8[2|5]} 6|1034b24 1047r12
+110a36 s{11|16A8[7|4]} 6|1034b36 1041r14 1042r25 1044r28
+110f48 tol{12|13F8} 6|1034b48 1042r33
+118V12*Solve{11|16A8[7|4]} 118>20 118>22 118>34 118>36 6|1050b12 1065l7 1065t12
+118a20 u{10|16A8[2|5]} 6|1050b20 1052r26 1052r37 1052r72 1053r27
+118a22 v{10|16A8[2|5]} 6|1050b22 1056r18 1056r34 1064r12
+118a34 s{11|16A8[7|4]} 6|1050b34 1059r14 1060r25 1062r24
+118a36 b{11|16A8[7|4]} 6|1050b36 1053r45
+119V12*Solve{11|16A8[7|4]} 119>20 119>22 119>34 119>36 119>48 6|1083b12 1097l7
+. 1097t12
+119a20 u{10|16A8[2|5]} 6|1083b20 1086r26 1086r37 1086r72 1087r27
+119a22 v{10|16A8[2|5]} 6|1083b22 1089r18 1089r34 1096r12
+119a34 s{11|16A8[7|4]} 6|1083b34 1092r14 1093r25 1094r24
+119a36 b{11|16A8[7|4]} 6|1083b36 1087r45
+119f48 tol{12|13F8} 6|1083b48 1093r33
+131U13*Solve 131>21 131>24 131>39 131>41 132=21 132=25 132<46 6|1067b13 1081l7
+. 1081t12
+131a21 ut{10|16A8[2|5]} 6|1067b21 1073r12
+131a24 v{10|16A8[2|5]} 6|1067b24 1074r13 1080r12
+131a39 s{11|16A8[7|4]} 6|1067b39 1075r14 1076r25 1078r24
+131a41 b{11|16A8[7|4]} 6|1067b41 1073r15
+132a21 utb{11|16A8[7|4]} 6|1068b21 1073m5 1077r41 1078r17
+132a25 sub{11|16A8[7|4]} 6|1068b25 1074m5 1077r23 1078m7 1080r14
+132a46 sol{11|16A8[7|4]} 6|1068b46 1080m5
+X 6 dobldobl_complex_singular_values.adb
+26V12 Max0{13|6I8} 26b12 26>19 26>21 36l7 36t11 609s12 610s11
+26i19 a{13|6I8} 32r8 33r18
+26i21 b{13|6I8} 32r12 34r18
+38V12 dmax1{9|12R8} 38b12 38>20 38>23 48l7 48t12 57s18 58s18
+38r20 x1{9|12R8} 44r8 45r18
+38r23 x2{9|12R8} 44r13 46r18
+50V12 dmax1{9|12R8} 50b12 50>20 50>23 50>26 60l7 60t12 69s18 70s18
+50r20 x1{9|12R8} 56r8 57r24
+50r23 x2{9|12R8} 56r13 58r24
+50r26 x3{9|12R8} 57r27 58r27
+62V12 dmax1{9|12R8} 62b12 62>20 62>23 62>26 62>29 72l7 72t12 81s18 82s18
+62r20 x1{9|12R8} 68r8 69r24
+62r23 x2{9|12R8} 68r13 70r24
+62r26 x3{9|12R8} 69r27 70r27
+62r29 x4{9|12R8} 69r30 70r30
+74V12 dmax1{9|12R8} 74b12 74>20 74>23 74>26 74>29 74>32 84l7 84t12 866s21
+74r20 x1{9|12R8} 80r8 81r24
+74r23 x2{9|12R8} 80r13 82r24
+74r26 x3{9|12R8} 81r27 82r27
+74r29 x4{9|12R8} 81r30 82r30
+74r32 x5{9|12R8} 81r33 82r33
+86V12 cabs1{9|12R8} 86b12 86>20 97l7 97t12 619s14 636s19 659s14 667s27 710s14
+. 742s14 758s10 766s10
+86r20 z{3|11R8} 96r27 96r47
+99V12 cdabs{9|12R8} 99b12 99>20 119l7 119t12 127s20 127s30 620s16 660s16
+. 759s21 767s21 796s17 796s32 797s25 811s42 812s45 813s27 866s27 866s39 866s53
+. 867s27 867s40
+99r20 z{3|11R8} 111r47 112r47
+111r5 rpz{9|12R8} 116r25 117r27
+112r5 ipz{9|12R8} 115r16 117r38
+121V12 csign{3|11R8} 121b12 121>20 121>23 134l7 134t12 621s27 661s27
+121r20 z1{3|11R8} 127r26
+121r23 z2{3|11R8} 127r36 127r41
+136V12 dsign{9|12R8} 136b12 136>20 136>22 147l7 147t12 462s12
+136r20 a{9|12R8} 144r22 145r23
+136r22 b{9|12R8} 143r8
+149V12 dznrm2{9|12R8} 149b12 149>21 149>36 149>48 149>52 194l7 194t13 658s26
+149i21 n{13|6I8} 162r8 168r26
+149a36 x{11|16A8[7|4]} 169r22 170r33 178r22 179r33
+149i48 ind{13|6I8} 167r13 168r19
+149i52 incx{13|6I8} 162r17 168r31 187r20
+156i5 ix{13|6I8} 167m7 168r13 169r24 170r35 178r24 179r35 187m9 187r15
+157r5 zero{9|12R8} 163r15 165r16 169r32 178r32
+158r5 one{9|12R8} 166r14
+159r5 norm{9|12R8} 163m7 189m7 191r12
+159r10 scale{9|12R8} 165m7 171r14 172r34 173m13 175r35 180r14 181r34 182m13
+. 184r35 189r15
+159r16 ssq{9|12R8} 166m7 172m13 172r26 175m13 175r20 181m13 181r26 184m13
+. 184r20 189r26
+159r20 temp{9|12R8} 170m11 171r22 172r40 173r22 175r30 179m11 180r22 181r40
+. 182r22 184r30
+196V12 dznrm2{9|12R8} 196b12 196>21 196>36 196>48 196>52 196>56 237l7 237t13
+. 617s26
+196i21 n{13|6I8} 209r8 213r26
+196a36 x{10|16A8[2|5]} 214r22 215r33 222r22 223r33
+196i48 row{13|6I8} 212r40 213r19
+196i52 col{13|6I8} 214r27 215r38 222r27 223r38
+196i56 incx{13|6I8} 209r17 213r31 230r20
+203i5 ix{13|6I8} 212m34 213r13 214r24 215r35 222r24 223r35 230m9 230r15
+204r5 zero{9|12R8} 210r15 212r16 214r36 222r36
+205r5 one{9|12R8} 212r29
+206r5 norm{9|12R8} 210m7 232m7 234r12
+206r10 scale{9|12R8} 212m7 216r14 217r34 217m47 219r35 224r14 225r34 225m47
+. 227r35 232r15
+206r16 ssq{9|12R8} 212m22 217m13 217r26 219m13 219r20 225m13 225r26 227m13
+. 227r20 232r26
+206r20 temp{9|12R8} 215m11 216r22 217r40 217r56 219r30 223m11 224r22 225r40
+. 225r56 227r30
+239U13 zscal 239b13 239>21 239>39 240=21 240>41 240>45 263l7 263t12 663s13
+239i21 n{13|6I8} 248r8 251r19 256r19
+239r39 za{3|11R8} 252r22 257r19
+240a21 zx{11|16A8[7|4]} 252m9 252r25 257m9 257r22
+240i41 ind{13|6I8} 252r12 252r28 255r13
+240i45 incx{13|6I8} 248r18 250r11 258r20
+245i5 ix{13|6I8} 255m7 257r12 257r25 258m9 258r15
+251i11 i<long_integer> 252r16 252r32
+256i11 i<long_integer>
+265U13 zscal 265b13 265>21 265>39 266=21 266>41 266>45 266>49 289l7 289t12
+. 625s13 723s13 763s23 771s23 912s19
+265i21 n{13|6I8} 274r8 277r19 282r19
+265r39 za{3|11R8} 278r26 283r23
+266a21 zx{10|16A8[2|5]} 278m9 278r29 283m9 283r26
+266i41 row{13|6I8} 278r12 278r32 281r13
+266i45 col{13|6I8} 278r18 278r38 283r15 283r32
+266i49 incx{13|6I8} 274r18 276r11 284r20
+271i5 ix{13|6I8} 281m7 283r12 283r29 284m9 284r15
+277i11 i<long_integer> 278r16 278r36
+282i11 i<long_integer>
+291U13 zaxpy 291b13 291>21 291>39 292>21 292>36 292>40 293=21 293>40 293>44
+. 293>48 326l7 326t12 676s15
+291i21 n{13|6I8} 303r8 305r21 310r23 314r23 317r21
+291r39 z{3|11R8} 303r30 306r42 318r36
+292a21 x{11|16A8[7|4]} 306r44 318r38
+292i36 ind{13|6I8} 306r46 310r35 311r21
+292i40 incx{13|6I8} 304r10 309r12 310r28 320r22
+293a21 y{10|16A8[2|5]} 306m11 306r27 318m11 318r24
+293i40 rwy{13|6I8} 306r13 306r29 314r35 315r21
+293i44 cly{13|6I8} 306r19 306r35 318r16 318r29
+293i48 incy{13|6I8} 304r23 313r12 314r28 319r22
+299i5 ix{13|6I8} 310m15 311m15 318r40 320m11 320r17
+299i8 iy{13|6I8} 314m15 315m15 318r13 318r26 319m11 319r17
+300r5 zero{9|12R8} 303r36
+305i13 i<long_integer> 306r17 306r33 306r50
+317i13 i<long_integer>
+328U13 zaxpy 328b13 328>21 328>39 329>21 329>36 329>40 329>44 330=21 330>40
+. 330>44 363l7 363t12 673s15
+328i21 n{13|6I8} 340r8 342r21 347r23 351r23 354r21
+328r39 z{3|11R8} 340r30 343r34 355r28
+329a21 x{10|16A8[2|5]} 343r36 355r30
+329i36 rwx{13|6I8} 343r38 347r35 348r21
+329i40 clx{13|6I8} 343r44 355r35
+329i44 incx{13|6I8} 341r10 346r12 347r28 357r22
+330a21 y{11|16A8[7|4]} 343m11 343r23 355m11 355r20
+330i40 ind{13|6I8} 343r13 343r25 351r35 352r21
+330i44 incy{13|6I8} 341r23 350r12 351r28 356r22
+336r5 zero{9|12R8} 340r36
+337i5 ix{13|6I8} 347m15 348m15 355r32 357m11 357r17
+337i8 iy{13|6I8} 351m15 352m15 355r13 355r22 356m11 356r17
+342i13 i<long_integer> 343r17 343r29 343r42
+354i13 i<long_integer>
+365U13 zaxpy 365b13 365>21 365>39 366>21 366>36 366>40 366>44 367=21 367>40
+. 367>44 367>48 401l7 401t12 639s21 720s17 745s15
+365i21 n{13|6I8} 378r8 380r21 385r23 389r23 392r21
+365r39 z{3|11R8} 378r30 381r42 393r36
+366a21 x{10|16A8[2|5]} 381r44 393r38
+366i36 rwx{13|6I8} 381r46 385r35 386r21
+366i40 clx{13|6I8} 381r52 393r43
+366i44 incx{13|6I8} 379r10 384r12 385r28 395r22
+367a21 y{10|16A8[2|5]} 381m11 381r27 393m11 393r24
+367i40 rwy{13|6I8} 381r13 381r29 389r35 390r21
+367i44 cly{13|6I8} 381r19 381r35 393r16 393r29
+367i48 incy{13|6I8} 379r23 388r12 389r28 394r22
+374r5 zero{9|12R8} 378r36
+375i5 ix{13|6I8} 385m15 386m15 393r40 395m11 395r17
+375i8 iy{13|6I8} 389m15 390m15 393r13 393r26 394m11 394r17
+380i13 i<long_integer> 381r17 381r33 381r50
+392i13 i<long_integer>
+403V12 zdotc{3|11R8} 403b12 403>20 403>38 404>20 404>24 404>28 405>20 405>35
+. 405>39 405>43 440l7 440t12 638s27 719s23 744s21
+403i20 n{13|6I8} 419r19 424r21 428r21 431r19
+403a38 x{10|16A8[2|5]} 420r36 432r36
+404i20 rwx{13|6I8} 420r38 424r33 425r19
+404i24 clx{13|6I8} 420r44 432r41
+404i28 incx{13|6I8} 418r8 423r10 424r26 433r20
+405a20 y{10|16A8[2|5]} 420r50 432r47
+405i35 rwy{13|6I8} 420r52 428r33 429r19
+405i39 cly{13|6I8} 420r58 432r52
+405i43 incy{13|6I8} 418r21 427r10 428r26 434r20
+413r5 zero{9|12R8} 414r38
+414r5 ztemp{3|11R8} 420m9 420r18 432m9 432r18 437r12
+415i5 ix{13|6I8} 424m13 425m13 432r38 433m9 433r15
+415i8 iy{13|6I8} 428m13 429m13 432r49 434m9 434r15
+419i11 i<long_integer> 420r42 420r56
+431i11 i<long_integer>
+442U13 drotg 442b13 442=21 442=24 442=27 442=29 479l7 479t12 839s13 854s13
+. 886s14 895s14
+442r21 da{9|12R8} 455r12 455r38 456r18 461r27 463r12 466r14 467r25 471m5
+442r24 db{9|12R8} 454r12 455r22 456r28 461r43 464r12 466r24 467r14 472m5
+442r27 c{9|12R8} 458m7 463m7 467r33 468r22
+442r29 s{9|12R8} 458m18 464m7 466r38
+447r5 zero{9|12R8} 458r23 459r12 459r23 467r38
+448r5 one{9|12R8} 457r8 457r22 458r12 462r18 465r12
+449r5 roe{9|12R8} 454m5 455m31 462r22
+449r9 scale{9|12R8} 456m5 457r14 461r12 461r30 461r46
+449r15 r{9|12R8} 459m7 461m7 462m7 462r27 463r15 464r15 471r11
+449r17 z{9|12R8} 459m18 465m7 466m33 468m13 472r11
+481U13 zdrot 481b13 481>21 482=21 482>40 482>44 482>48 483=21 483>40 483>44
+. 483>48 484>21 484>23 522l7 522t12 846s19 859s19 893s20 902s20
+481i21 n{13|6I8} 496r8 498r21 505r23 509r23 512r21
+482a21 x{10|16A8[2|5]} 499r22 500r46 501m11 513r22 514r40 515m11
+482i40 rwx{13|6I8} 499r24 500r48 501r13 505r35 506r21
+482i44 clx{13|6I8} 499r30 500r54 501r19 513r27 514r45 515r16
+482i48 incx{13|6I8} 497r10 504r12 505r28 516r22
+483a21 y{10|16A8[2|5]} 499r39 500m11 500r29 513r36 514m11 514r26
+483i40 rwy{13|6I8} 499r41 500r13 500r31 509r35 510r21
+483i44 cly{13|6I8} 499r47 500r19 500r37 513r41 514r16 514r31
+483i48 incy{13|6I8} 497r23 508r12 509r28 516r39
+484r21 c{9|12R8} 499r20 500r27 513r20 514r24
+484r23 s{9|12R8} 499r37 500r44 513r34 514r38
+492i5 ix{13|6I8} 505m15 506m15 513r24 514r42 515r13 516m11 516r17
+492i8 iy{13|6I8} 509m15 510m15 513r38 514r13 514r28 516m28 516r34
+493r5 ztemp{3|11R8} 499m11 501r27 513m11 515r24
+498i13 i<long_integer> 499r28 499r45 500r17 500r35 500r52 501r17
+512i13 i<long_integer>
+524U13 zswap 524b13 524>21 525=21 525>40 525>44 525>48 526=21 526>40 526>44
+. 526>48 563l7 563t12 922s19 925s19
+524i21 n{13|6I8} 537r8 539r21 546r23 550r23 553r21
+525a21 x{10|16A8[2|5]} 540r20 541m11 554r20 555m11
+525i40 rwx{13|6I8} 540r22 541r13 546r35 547r21
+525i44 clx{13|6I8} 540r28 541r19 554r25 555r16
+525i48 incx{13|6I8} 538r10 545r12 546r28 557r22
+526a21 y{10|16A8[2|5]} 541r27 542m11 555r24 556m11
+526i40 rwy{13|6I8} 541r29 542r13 550r35 551r21
+526i44 cly{13|6I8} 541r35 542r19 555r29 556r16
+526i48 incy{13|6I8} 538r23 549r12 550r28 557r39
+533i5 ix{13|6I8} 546m15 547m15 554r22 555r13 557m11 557r17
+533i8 iy{13|6I8} 550m15 551m15 555r26 556r13 557m28 557r34
+534r5 ztemp{3|11R8} 540m11 542r27 554m11 556r24
+539i13 i<long_integer> 540r26 541r17 541r33 542r17
+553i13 i<long_integer>
+571a5 work{11|16A8[7|4]} 574m32 574r32
+582i5 iter{13|6I8} 776m5 781r10 906m12 906r20 929m11
+582i10 jobu{13|6I8} 600m5 602r8 603r8
+582i15 kase{13|6I8} 803m9 819m11 821m11 823m11 830r12
+582i20 kk{13|6I8} 836m13 837r31 840r15 841r16 842r36 843r17 843r31 846r31
+582i23 ll{13|6I8} 709m11 710r22 712r19 714r15 714r18 716r20 719r31 719r38
+. 719r41 719r48 719r58 719r61 720r25 720r34 720r37 720r44 723r21 723r45 723r48
+. 724r15 724r18 724r41 724r44 725r20 728r21 739m9 740r16 741r12 742r22 744r29
+. 744r38 744r60 745r23 745r34 750r15 752r11 752r14 794m9 795r20 796r25 796r40
+. 797r33 799r17 802r10 805r16 809r27 812r20 818r17 824m11 827m7 827r13 835r20
+. 836r29 841r22 850r28 851r13 852r20 859r39 867r35 867r48 871r30 872r30 885r21
+. 887r22 909r26 910r15 910r25 912r48 916r17 917r35 917r55 918r20 919r15 919r24
+. 920r15 921r26 922r31 922r40 924r26 925r31 925r40 927m13 927r19
+582i26 lm1{13|6I8} 725m13 726r16 727r27
+582i30 lp1{13|6I8} 613m9 633r17 634r20 658r39 660r24 661r40 663r42 664r15
+. 664r39 667r14 669r22 672r22 673r32 673r45 675r22 676r43 676r54 676r62 682r22
+. 716m13 717r23 718r24 740m9 743r22 744r34 744r45 744r56 745r30 745r41 805m9
+. 807r20 808r27
+582i34 ls{13|6I8} 808m11 809r22 811r14 811r50 812r14 812r53 813r35 815r19
+. 818r12 820r15 824r17
+582i37 lu{13|6I8} 610m5 611r8 612r19
+582i40 m{13|6I8} 690m5 694r12 694r21 695r16 695r43 696r7 757r17 762r16 765r22
+. 775r11 780r17 782r21 793r19 794r15 802r15 806r16 808r17 820r20 832r18 833r28
+. 834r13 846r40 852r24 866r35 866r47 866r61 868r30 869r32 870r32 884r19 905r14
+. 930m11 930r16
+582i42 maxit{13|6I8} 597m5 781r17
+583i5 mm{13|6I8} 775m5 916r23
+583i8 mm1{13|6I8} 832m11 835r24 836r19 884m12 885r25
+583i12 mp1{13|6I8} 806m9 807r25
+583i16 nct{13|6I8} 608m5 610r16 614r17 635r21 648r27 691r14 693r8 707r10
+. 708r21 709r17
+583i20 nctp1{13|6I8} 691m5 693r23 693r35 693r41 699r17 700r18
+583i26 ncu{13|6I8} 601m5 602m22 699r10 700r25 717r16 718r29
+583i30 nrt{13|6I8} 609m5 610r20 655r17 692r14 741r18
+583i34 nrtp1{13|6I8} 692m5 695r8 695r25 695r37
+584r5 t{3|11R8} 638m21 639r33 719m17 720r30 744m15 745r26 759m9 760r19 761r17
+. 767m9 768r14 769r17 918m13 920r24
+584r7 r{3|11R8} 760m9 762r36 763r31 768m9 770r26 771r31
+585r5 b{9|12R8} 873m12 876r15 877r32 878r17 879r26
+585r7 c{9|12R8} 874m12 876r27 877r35 879r23
+585r9 cs{9|12R8} 838m13 839m24 839r24 843r26 846r44 854m24 854r24 857r21
+. 859r46 886m24 886r24 888r19 889r22 891r24 893r46 895m24 895r24 897r19 898r35
+. 900r24 902r46
+585r12 el{9|12R8} 872m12 882r20
+585r15 emm1{9|12R8} 870m12 873r48 874r24
+585r20 f{9|12R8} 833m11 839m22 839r22 842m15 850m11 854m22 854r22 856m13
+. 881m12 886m20 886r20 887r47 888m14 895m20 895r20 896r29 897m14 905r29
+585r22 g{9|12R8} 882m12 886m22 886r22 890m14 895m22 895r22 899m14
+585r24 scale{9|12R8} 866m12 868r34 869r38 870r38 871r35 872r35
+585r30 shift{9|12R8} 875m12 877m14 878m30 878r40 879m14 879r30 881r39
+585r36 sl{9|12R8} 871m12 881r18 881r28 882r17
+585r39 sm{9|12R8} 868m12 873r26 873r38 874r21 881r23 881r33
+585r42 sn{9|12R8} 838m25 839m27 839r27 842r21 846r47 854m27 854r27 856r19
+. 859r49 886m27 886r27 888r40 889r32 890r19 893r49 895m27 895r27 897r40 898r25
+. 899r19 902r49
+586r5 smm1{9|12R8} 869m12 873r19 873r31
+586r10 t1{9|12R8} 837m13 839m19 839r19 840r29 853m13 854m19 854r19 855r28
+586r13 test{9|12R8} 796m9 797r18 798r20 810m11 811m27 811r35 812m30 812r38
+. 813r20 814r22
+586r18 ztest{9|12R8} 797m9 798r12 813m11 814r14
+587b5 wantu{boolean} 598m5 603m23 648r12 698r8 763r12 858r16 901r17 924r16
+587b11 wantv{boolean} 599m5 604m29 679r14 737r8 771r12 845r16 892r17 911r16
+. 921r16
+588r5 zero{9|12R8} 617r48 619r29 620r33 636r34 658r46 659r29 660r33 667r42
+. 670r33 694r34 696r20 702r30 710r29 712r33 728r35 742r30 750r29 758r25 759r33
+. 766r25 767r33 799r31 810r19 815r33 834r28 838r19 838r31 851r29 875r21 876r19
+. 876r31
+589r5 one{9|12R8} 625r32 626r30 663r30 664r30 704r28 714r32 724r32 752r28
+590r5 minusone{9|12R8} 723r33 912r34
+592i5 cntkase2{13|6I8} 862m11 862r23 863r14
+612i11 l<long_integer> 613r16 614r12 617r13 617r35 617r41 617r43 619r22 620r24
+. 620r26 621r21 621r35 621r40 621r42 625r21 625r39 625r44 625r46 626r15 626r17
+. 626r39 626r41 630r13 630r22 635r16 636r27 638r35 638r41 638r43 638r49 638r58
+. 638r60 639r29 639r37 639r39 639r45 644r33 648r22 651r20 652r17 652r27 655r12
+. 658r13 658r35 659r22 661r21 661r35 663r21 663r37 666r13 666r32 667r35 673r23
+. 676r23 683r19
+634i15 j<long_integer> 638r51 639r47 644r15 644r35
+651i15 i<long_integer> 652r15 652r25
+669i17 i<long_integer> 670r20
+672i17 j<long_integer> 673r27 673r36
+675i17 j<long_integer> 676r38 676r66
+682i17 i<long_integer> 683r17 683r27
+700i13 j<long_integer> 702r17 704r13 704r15
+701i15 i<long_integer> 702r15
+708i13 l<long_integer> 709r23
+711i17 i<long_integer> 712r17
+718i19 j<long_integer> 719r51 720r47
+727i19 i<long_integer> 728r19
+738i11 l<long_integer> 739r19
+743i17 j<long_integer> 744r49 745r45
+749i13 i<long_integer> 750r13
+757i9 i<long_integer> 758r18 759r29 760r16 761r11 762r12 762r25 762r33 763r37
+. 765r18 766r18 767r29 768r18 769r11 770r11 770r21 771r37
+793i11 l<long_integer> 794r19
+807i13 lls<long_integer> 808r21
+835i15 k<long_integer> 836r25
+852i15 k<long_integer> 853r31 855r15 856r34 857r15 857r26 859r31
+885i16 k<long_integer> 887r17 887r32 888r34 888r55 889r16 889r27 889r37 890r34
+. 891r16 891r29 893r32 893r40 896r16 897r34 897r55 898r16 898r30 898r40 899r34
+. 900r16 900r29 901r27 902r32 902r40
+943r5 one{9|12R8} 947r25 947r31
+946i9 i<long_integer> 947r19 948r20
+956i9 i<long_integer> 957r19 958r20
+967r5 smax{9|12R8} 972r8 975r15 981r19
+968r5 one{9|12R8} 972r15 972r21 978r26 978r32
+969r5 smin{9|12R8} 975m7 979m9 981r14
+969r10 val{9|12R8} 977m9 978r20 979r17
+976i11 i<long_integer> 977r25
+988r5 smax{9|12R8} 992r8 995r15 1001r19
+989r5 smin{9|12R8} 995m7 999m9 1001r14
+989r10 val{9|12R8} 997m9 998r20 999r17
+996i11 i<long_integer> 997r25
+1007a5 res{10|16A8[2|5]} 1012m9 1015r12
+1010i9 i<long_integer> 1012r15 1012r33
+1011i11 j<long_integer> 1012r13 1012r35
+1020a5 ut{10|16A8[2|5]} 1027r16 1028r20
+1021a5 su{10|16A8[2|5]} 1028m9 1031r14
+1022r5 one{9|12R8} 1026r33 1026r39
+1025i9 i<long_integer> 1026r27 1028r12 1028r23 1028r30
+1027i11 j<long_integer> 1028r14 1028r25
+1037a5 ut{10|16A8[2|5]} 1043r16 1044r20
+1038a5 su{10|16A8[2|5]} 1044m9 1047r14
+1041i9 i<long_integer> 1042r27 1044r12 1044r23 1044r30
+1043i11 j<long_integer> 1044r14 1044r25
+1052a5 ut{10|16A8[2|5]} 1053r42
+1053a5 utb{11|16A8[7|4]} 1061r41 1062r17
+1054r5 zero{9|12R8} 1056r55
+1055r5 one{9|12R8} 1060r33 1060r39
+1056a5 sub{11|16A8[7|4]} 1061r23 1062m7 1064r14
+1059i9 i<long_integer> 1060r27 1061r19 1061r37 1062r11 1062r21 1062r26
+1070r5 one{9|12R8} 1076r33 1076r39
+1075i9 i<long_integer> 1076r27 1077r19 1077r37 1078r11 1078r21 1078r26
+1086a5 ut{10|16A8[2|5]} 1087r42
+1087a5 utb{11|16A8[7|4]} 1094r17
+1088r5 zero{9|12R8} 1089r55
+1089a5 sub{11|16A8[7|4]} 1094m7 1096r14
+1092i9 i<long_integer> 1093r27 1094r11 1094r21 1094r26
+X 7 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[11|8] 5|4w6 4r44
+X 8 dobldobl_mathematical_functions.ads
+4K9*DoblDobl_Mathematical_Functions 6|8w6 8r45 8|59e36
+12V12*SQRT{9|12R8} 6|117s18 189s21 232s21 461s18 877s23
+X 9 double_double_numbers.ads
+5K9*Double_Double_Numbers 5|3w6 3r44 9|172e26
+12R8*double_double 5|91r36 93r56 6|38r28 38r51 50r31 50r54 62r34 62r57 74r37
+. 74r60 86r48 99r48 111r20 112r20 136r26 136r49 150r26 157r21 158r20 159r27
+. 197r26 204r21 205r20 206r27 300r21 336r21 374r21 413r21 442r40 447r21 448r20
+. 449r21 484r30 585r47 586r26 588r21 589r20 590r25 943r20 965r36 967r21 968r20
+. 969r16 986r56 988r21 989r16 1022r20 1054r21 1055r20 1070r20 1088r21 9|170e13
+16V12*Create{12R8} 6|1070s37
+35V12*Create{12R8} 6|157s38 158s37 204s38 205s37 300s38 336s38 374s38 413s38
+. 447s38 448s37 588s38 589s37 590s42 943s37 968s37 973s14 993s14 1022s37
+. 1054s38 1055s37 1088s38
+60V12*is_zero{boolean} 6|115s8
+83V13*"<"{boolean} 6|171s20 180s20 216s20 224s20
+84V13*"<"{boolean} 6|878s19 909s31 957s23 992s13 998s24 1042s31 1093s31
+90V13*">"{boolean} 6|44s11 56s11 68s11 80s11 455s16 466s18
+93V13*">="{boolean} 6|467s18 917s40
+94V13*">="{boolean} 6|143s10
+103V13*"abs"{12R8} 6|96s13 96s33 144s18 145s19 170s19 179s19 215s19 223s19
+. 455s8 455s18 456s14 456s24 466s10 466s20 467s10 467s21
+104V12*AbsVal{12R8} 6|116s18
+111V13*"+"{12R8} 6|96s31 117s32 175s24 184s24 219s24 227s24 456s22 457s12
+. 461s37 796s30 797s23 811s40 812s43 813s25 873s24 873s42 877s34 879s28 881s21
+. 881s37 888s38 897s38 947s23 972s13 978s24 1026s31 1060s31 1076s31
+113V13*"+"{12R8} 6|172s24 181s24 217s24 225s24
+119V13*"-"{12R8} 6|873s36 881s31
+123V13*"-"{12R8} 6|145s18 842s20 856s18 878s39
+128V13*"*"{12R8} 6|172s29 181s29 189s20 217s29 225s29 232s20 461s17 462s26
+. 842s23 856s21 873s29 874s23 881s26 882s19 888s21 888s42 890s21 897s21 897s42
+. 899s21
+139V13*"/"{12R8} 6|127s29 172s39 175s34 181s39 184s34 217s39 219s34 225s39
+. 227s34 461s29 461s45 463s14 464s14 868s33 869s37 870s37 871s34 872s34 879s24
+. 981s18 1001s18
+140V13*"/"{12R8} 6|873s54
+141V13*"/"{12R8} 6|468s21
+147V12*sqr{12R8} 6|117s23 117s34 172s30 175s26 181s30 184s26 217s30 219s26
+. 225s30 227s26 461s23 461s39 873s44 874s17 877s28
+X 10 generic_matrices.ads
+16A8*Matrix(3|11R8)<13|6I8><13|6I8> 5|25r30[2|5] 26r45[2|5] 26r61[2|5] 28r30[2|5]
+. 29r45[2|5] 29r61[2|5] 104r38[2|5] 104r54[2|5] 109r28[2|5] 109r56[2|5] 110r28[2|5]
+. 111r27[2|5] 118r26[2|5] 119r26[2|5] 131r31[2|5] 6|196r40[2|5] 266r33[2|5]
+. 293r32[2|5] 329r28[2|5] 366r28[2|5] 367r32[2|5] 403r45[2|5] 405r27[2|5]
+. 482r32[2|5] 483r32[2|5] 525r32[2|5] 526r32[2|5] 567r30[2|5] 568r45[2|5]
+. 568r61[2|5] 577r30[2|5] 578r45[2|5] 578r61[2|5] 1005r38[2|5] 1005r54[2|5]
+. 1007r11[2|5] 1018r28[2|5] 1018r56[2|5] 1020r19[2|5] 1021r10[2|5] 1034r28[2|5]
+. 1035r27[2|5] 1037r19[2|5] 1038r10[2|5] 1050r26[2|5] 1052r19[2|5] 1067r31[2|5]
+. 1083r26[2|5] 1086r19[2|5]
+41V13*"*"{16A8[2|5]} 6|1031s13[2|5] 1047s13[2|5]
+51V13*"*"{11|16A8[7|4]} 6|1053s44[2|5] 1064s13[2|5] 1073s14[2|5] 1080s13[2|5]
+. 1087s44[2|5] 1096s13[2|5]
+X 11 generic_vectors.ads
+16A8*Vector(3|11R8)<13|6I8> 5|26r29[7|4] 29r29[7|4] 31r33[7|4] 81r23[7|4]
+. 82r23[7|4] 91r20[7|4] 93r20[7|4] 109r40[7|4] 110r40[7|4] 118r40[7|4] 118r56[7|4]
+. 119r40[7|4] 120r25[7|4] 131r48[7|4] 132r38[7|4] 132r56[7|4] 6|149r40[7|4]
+. 240r33[7|4] 292r28[7|4] 330r32[7|4] 568r29[7|4] 571r12[7|4] 578r29[7|4]
+. 580r33[7|4] 941r23[7|4] 954r23[7|4] 965r20[7|4] 986r20[7|4] 1018r40[7|4]
+. 1034r40[7|4] 1050r40[7|4] 1050r56[7|4] 1053r20[7|4] 1056r11[7|4] 1067r48[7|4]
+. 1068r38[7|4] 1068r56[7|4] 1083r40[7|4] 1084r25[7|4] 1087r20[7|4] 1089r11[7|4]
+X 12 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 5|2w6 2r44 12|58e30
+13F8*double_float<long_float> 5|82r37 93r34 110r54 119r54 6|954r37 986r34
+. 1034r54 1083r54
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|1w6 1r44 13|45e29
+6I8*integer32<long_integer> 5|21r25 21r44 25r47 27r28 27r50 28r47 30r28 30r50
+. 81r39 82r59 6|14r25 14r44 26r25 26r44 149r25 149r59 156r10 196r25 196r63
+. 203r10 239r28 240r55 245r10 265r28 266r59 271r10 291r28 292r50 293r58 299r13
+. 328r28 329r54 330r54 337r13 365r28 366r54 367r58 375r13 403r27 404r38 405r53
+. 415r13 481r28 482r58 483r58 492r13 524r28 525r58 526r58 533r13 567r47 569r28
+. 569r50 577r47 579r28 579r50 582r50 583r42 592r16 941r39 954r59
+

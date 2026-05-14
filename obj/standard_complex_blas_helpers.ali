@@ -1,0 +1,331 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_complex_blas_helpers%b  standard_complex_blas_helpers.adb  8dbbe26f NE OO PK
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+
+U standard_complex_blas_helpers%s  standard_complex_blas_helpers.ads  0a31868d EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_complex_blas_helpers.ads  20260513024558 11cd2b6e standard_complex_blas_helpers%s
+D standard_complex_blas_helpers.adb  20260513024558 84855a90 standard_complex_blas_helpers%b
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [max0 standard_complex_blas_helpers 13 12 none]
+G c Z s b [dmax1 standard_complex_blas_helpers 18 12 none]
+G c Z s b [dmax1 standard_complex_blas_helpers 23 12 none]
+G c Z s b [dmax1 standard_complex_blas_helpers 28 12 none]
+G c Z s b [dmax1 standard_complex_blas_helpers 33 12 none]
+G c Z s b [cabs1 standard_complex_blas_helpers 38 12 none]
+G c Z s b [cdabs standard_complex_blas_helpers 47 12 none]
+G c Z s b [csign standard_complex_blas_helpers 53 12 none]
+G c Z s b [dsign standard_complex_blas_helpers 58 12 none]
+G c Z s b [dznrm2 standard_complex_blas_helpers 64 12 none]
+G c Z s b [dznrm2 standard_complex_blas_helpers 71 12 none]
+G c Z s b [zscal standard_complex_blas_helpers 78 13 none]
+G c Z s b [zscal standard_complex_blas_helpers 84 13 none]
+G c Z s b [zaxpy standard_complex_blas_helpers 90 13 none]
+G c Z s b [zaxpy standard_complex_blas_helpers 98 13 none]
+G c Z s b [zaxpy standard_complex_blas_helpers 106 13 none]
+G c Z s b [zdotc standard_complex_blas_helpers 115 12 none]
+G c Z s b [drotg standard_complex_blas_helpers 125 13 none]
+G c Z s b [zdrot standard_complex_blas_helpers 130 13 none]
+G c Z s b [zswap standard_complex_blas_helpers 141 13 none]
+G r c none [cabs1 standard_complex_blas_helpers 38 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [cabs1 standard_complex_blas_helpers 38 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [cdabs standard_complex_blas_helpers 47 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [cdabs standard_complex_blas_helpers 47 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [cdabs standard_complex_blas_helpers 47 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [csign standard_complex_blas_helpers 53 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [csign standard_complex_blas_helpers 53 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [csign standard_complex_blas_helpers 53 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [csign standard_complex_blas_helpers 53 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [csign standard_complex_blas_helpers 53 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [dznrm2 standard_complex_blas_helpers 64 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [dznrm2 standard_complex_blas_helpers 64 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [dznrm2 standard_complex_blas_helpers 64 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [dznrm2 standard_complex_blas_helpers 71 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [dznrm2 standard_complex_blas_helpers 71 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [dznrm2 standard_complex_blas_helpers 71 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [zscal standard_complex_blas_helpers 78 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [zscal standard_complex_blas_helpers 84 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 90 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 90 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 90 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 98 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 98 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 98 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 106 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 106 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [zaxpy standard_complex_blas_helpers 106 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [zdotc standard_complex_blas_helpers 115 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [zdotc standard_complex_blas_helpers 115 12 none] [conjugate standard_complex_numbers 20 12 none]
+G r c none [zdotc standard_complex_blas_helpers 115 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [zdotc standard_complex_blas_helpers 115 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [drotg standard_complex_blas_helpers 125 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [zdrot standard_complex_blas_helpers 130 13 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [zdrot standard_complex_blas_helpers 130 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [zdrot standard_complex_blas_helpers 130 13 none] [Osubtract standard_complex_numbers 53 12 none]
+X 2 generic_matrices.ads
+16A8*Matrix(7|11R8)<11|6I8><11|6I8> 4|71r40[6|5] 85r33[6|5] 92r32[6|5] 99r28[6|5]
+. 107r28[6|5] 108r32[6|5] 115r45[6|5] 117r27[6|5] 131r32[6|5] 132r32[6|5]
+. 142r32[6|5] 143r32[6|5] 5|115r40[6|5] 176r33[6|5] 200r32[6|5] 231r28[6|5]
+. 263r28[6|5] 264r32[6|5] 294r45[6|5] 296r27[6|5] 362r32[6|5] 363r32[6|5]
+. 399r32[6|5] 400r32[6|5]
+X 3 generic_vectors.ads
+16A8*Vector(7|11R8)<11|6I8> 4|64r40[9|4] 79r33[9|4] 91r28[9|4] 100r32[9|4]
+. 5|74r40[9|4] 153r33[9|4] 199r28[9|4] 232r32[9|4]
+X 4 standard_complex_blas_helpers.ads
+7K9*Standard_Complex_BLAS_Helpers 150l5 150e34 5|3b14 434l5 434t34
+13V12*Max0{11|6I8} 13>19 13>21 5|5b12 11l7 11t11
+13i19 a{11|6I8} 5|5b19 7r8 8r18
+13i21 b{11|6I8} 5|5b21 7r12 9r18
+18V12*dmax1{10|13F8} 18>20 18>23 5|13b12 19l7 19t12 24s18 25s18
+18f20 x1{10|13F8} 5|13b20 15r8 16r18
+18f23 x2{10|13F8} 5|13b23 15r13 17r18
+23V12*dmax1{10|13F8} 23>20 23>23 23>26 5|21b12 27l7 27t12 32s18 33s18
+23f20 x1{10|13F8} 5|21b20 23r8 24r24
+23f23 x2{10|13F8} 5|21b23 23r13 25r24
+23f26 x3{10|13F8} 5|21b26 24r27 25r27
+28V12*dmax1{10|13F8} 28>20 28>23 28>26 28>29 5|29b12 35l7 35t12 40s18 41s18
+28f20 x1{10|13F8} 5|29b20 31r8 32r24
+28f23 x2{10|13F8} 5|29b23 31r13 33r24
+28f26 x3{10|13F8} 5|29b26 32r27 33r27
+28f29 x4{10|13F8} 5|29b29 32r30 33r30
+33V12*dmax1{10|13F8} 33>20 33>23 33>26 33>29 33>32 5|37b12 43l7 43t12
+33f20 x1{10|13F8} 5|37b20 39r8 40r24
+33f23 x2{10|13F8} 5|37b23 39r13 41r24
+33f26 x3{10|13F8} 5|37b26 40r27 41r27
+33f29 x4{10|13F8} 5|37b29 40r30 41r30
+33f32 x5{10|13F8} 5|37b32 40r33 41r33
+38V12*cabs1{10|13F8} 38>20 5|45b12 48l7 48t12
+38r20 z{7|11R8} 5|45b20 47r27 47r47
+47V12*cdabs{10|13F8} 47>20 5|50b12 53l7 53t12 57s20 57s30
+47r20 z{7|11R8} 5|50b20 52r27 52r45
+53V12*csign{7|11R8} 53>20 53>23 5|55b12 64l7 64t12
+53r20 z1{7|11R8} 5|55b20 57r26
+53r23 z2{7|11R8} 5|55b23 57r36 57r41
+58V12*dsign{10|13F8} 58>20 58>22 5|66b12 72l7 72t12 342s12
+58f20 a{10|13F8} 5|66b20 69r22 70r23
+58f22 b{10|13F8} 5|66b22 68r8
+64V12*dznrm2{10|13F8} 64>21 64>36 64>48 64>52 5|74b12 113l7 113t13
+64i21 n{11|6I8} 5|74b21 81r8 87r26
+64a36 x{3|16A8[9|4]} 5|74b36 88r22 89r33 97r22 98r33
+64i48 ind{11|6I8} 5|74b48 86r13 87r19
+64i52 incx{11|6I8} 5|74b52 81r17 87r31 106r20
+71V12*dznrm2{10|13F8} 71>21 71>36 71>48 71>52 71>56 5|115b12 150l7 150t13
+71i21 n{11|6I8} 5|115b21 122r8 126r26
+71a36 x{2|16A8[6|5]} 5|115b36 127r22 128r33 135r22 136r33
+71i48 row{11|6I8} 5|115b48 125r39 126r19
+71i52 col{11|6I8} 5|115b52 127r27 128r38 135r27 136r38
+71i56 incx{11|6I8} 5|115b56 122r17 126r31 143r20
+78U13*zscal 78>21 78>39 79=21 79>41 79>45 5|152b13 173l7 173t12
+78i21 n{11|6I8} 5|152b21 158r8 161r19 166r19
+78r39 za{7|11R8} 5|152b39 162r22 167r19
+79a21 zx{3|16A8[9|4]} 5|153b21 162m9 162r25 167m9 167r22
+79i41 ind{11|6I8} 5|153b41 162r12 162r28 165r13
+79i45 incx{11|6I8} 5|153b45 158r18 160r11 168r20
+84U13*zscal 84>21 84>39 85=21 85>41 85>45 85>49 5|175b13 196l7 196t12
+84i21 n{11|6I8} 5|175b21 181r8 184r19 189r19
+84r39 za{7|11R8} 5|175b39 185r26 190r23
+85a21 zx{2|16A8[6|5]} 5|176b21 185m9 185r29 190m9 190r26
+85i41 row{11|6I8} 5|176b41 185r12 185r32 188r13
+85i45 col{11|6I8} 5|176b45 185r18 185r38 190r15 190r32
+85i49 incx{11|6I8} 5|176b49 181r18 183r11 191r20
+90U13*zaxpy 90>21 90>39 91>21 91>36 91>40 92=21 92>40 92>44 92>48 5|198b13
+. 228l7 228t12
+90i21 n{11|6I8} 5|198b21 205r8 207r21 212r23 216r23 219r21
+90r39 z{7|11R8} 5|198b39 205r30 208r42 220r36
+91a21 x{3|16A8[9|4]} 5|199b21 208r44 220r38
+91i36 ind{11|6I8} 5|199b36 208r46 212r35 213r21
+91i40 incx{11|6I8} 5|199b40 206r10 211r12 212r28 222r22
+92a21 y{2|16A8[6|5]} 5|200b21 208m11 208r27 220m11 220r24
+92i40 rwy{11|6I8} 5|200b40 208r13 208r29 216r35 217r21
+92i44 cly{11|6I8} 5|200b44 208r19 208r35 220r16 220r29
+92i48 incy{11|6I8} 5|200b48 206r23 215r12 216r28 221r22
+98U13*zaxpy 98>21 98>39 99>21 99>36 99>40 99>44 100=21 100>40 100>44 5|230b13
+. 260l7 260t12
+98i21 n{11|6I8} 5|230b21 237r8 239r21 244r23 248r23 251r21
+98r39 z{7|11R8} 5|230b39 237r30 240r34 252r28
+99a21 x{2|16A8[6|5]} 5|231b21 240r36 252r30
+99i36 rwx{11|6I8} 5|231b36 240r38 244r35 245r21
+99i40 clx{11|6I8} 5|231b40 240r44 252r35
+99i44 incx{11|6I8} 5|231b44 238r10 243r12 244r28 254r22
+100a21 y{3|16A8[9|4]} 5|232b21 240m11 240r23 252m11 252r20
+100i40 ind{11|6I8} 5|232b40 240r13 240r25 248r35 249r21
+100i44 incy{11|6I8} 5|232b44 238r23 247r12 248r28 253r22
+106U13*zaxpy 106>21 106>39 107>21 107>36 107>40 107>44 108=21 108>40 108>44
+. 108>48 5|262b13 292l7 292t12
+106i21 n{11|6I8} 5|262b21 269r8 271r21 276r23 280r23 283r21
+106r39 z{7|11R8} 5|262b39 269r30 272r42 284r36
+107a21 x{2|16A8[6|5]} 5|263b21 272r44 284r38
+107i36 rwx{11|6I8} 5|263b36 272r46 276r35 277r21
+107i40 clx{11|6I8} 5|263b40 272r52 284r43
+107i44 incx{11|6I8} 5|263b44 270r10 275r12 276r28 286r22
+108a21 y{2|16A8[6|5]} 5|264b21 272m11 272r27 284m11 284r24
+108i40 rwy{11|6I8} 5|264b40 272r13 272r29 280r35 281r21
+108i44 cly{11|6I8} 5|264b44 272r19 272r35 284r16 284r29
+108i48 incy{11|6I8} 5|264b48 270r23 279r12 280r28 285r22
+115V12*zdotc{7|11R8} 115>20 115>38 116>20 116>24 116>28 117>20 117>35 117>39
+. 117>43 5|294b12 325l7 325t12
+115i20 n{11|6I8} 5|294b20 304r19 309r21 313r21 316r19
+115a38 x{2|16A8[6|5]} 5|294b38 305r36 317r36
+116i20 rwx{11|6I8} 5|295b20 305r38 309r33 310r19
+116i24 clx{11|6I8} 5|295b24 305r44 317r41
+116i28 incx{11|6I8} 5|295b28 303r8 308r10 309r26 318r20
+117a20 y{2|16A8[6|5]} 5|296b20 305r50 317r47
+117i35 rwy{11|6I8} 5|296b35 305r52 313r33 314r19
+117i39 cly{11|6I8} 5|296b39 305r58 317r52
+117i43 incy{11|6I8} 5|296b43 303r21 312r10 313r26 319r20
+125U13*drotg 125=21 125=24 125=27 125=29 5|327b13 359l7 359t12
+125f21 da{10|13F8} 5|327b21 335r12 335r38 336r18 341r24 343r12 346r14 347r25
+. 351m5
+125f24 db{10|13F8} 5|327b24 334r12 335r22 336r28 341r40 344r12 346r24 347r14
+. 352m5
+125f27 c{10|13F8} 5|327b27 338m7 343m7 347r33 348r22
+125f29 s{10|13F8} 5|327b29 338m17 344m7 346r38
+130U13*zdrot 130>21 131=21 131>40 131>44 131>48 132=21 132>40 132>44 132>48
+. 133>21 133>23 5|361b13 396l7 396t12
+130i21 n{11|6I8} 5|361b21 370r8 372r21 379r23 383r23 386r21
+131a21 x{2|16A8[6|5]} 5|362b21 373r22 374r46 375m11 387r22 388r40 389m11
+131i40 rwx{11|6I8} 5|362b40 373r24 374r48 375r13 379r35 380r21
+131i44 clx{11|6I8} 5|362b44 373r30 374r54 375r19 387r27 388r45 389r16
+131i48 incx{11|6I8} 5|362b48 371r10 378r12 379r28 390r22
+132a21 y{2|16A8[6|5]} 5|363b21 373r39 374m11 374r29 387r36 388m11 388r26
+132i40 rwy{11|6I8} 5|363b40 373r41 374r13 374r31 383r35 384r21
+132i44 cly{11|6I8} 5|363b44 373r47 374r19 374r37 387r41 388r16 388r31
+132i48 incy{11|6I8} 5|363b48 371r23 382r12 383r28 390r39
+133f21 c{10|13F8} 5|364b21 373r20 374r27 387r20 388r24
+133f23 s{10|13F8} 5|364b23 373r37 374r44 387r34 388r38
+141U13*zswap 141>21 142=21 142>40 142>44 142>48 143=21 143>40 143>44 143>48
+. 5|398b13 432l7 432t12
+141i21 n{11|6I8} 5|398b21 406r8 408r21 415r23 419r23 422r21
+142a21 x{2|16A8[6|5]} 5|399b21 409r20 410m11 423r20 424m11
+142i40 rwx{11|6I8} 5|399b40 409r22 410r13 415r35 416r21
+142i44 clx{11|6I8} 5|399b44 409r28 410r19 423r25 424r16
+142i48 incx{11|6I8} 5|399b48 407r10 414r12 415r28 426r22
+143a21 y{2|16A8[6|5]} 5|400b21 410r27 411m11 424r24 425m11
+143i40 rwy{11|6I8} 5|400b40 410r29 411r13 419r35 420r21
+143i44 cly{11|6I8} 5|400b44 410r35 411r19 424r29 425r16
+143i48 incy{11|6I8} 5|400b48 407r23 418r12 419r28 426r39
+X 5 standard_complex_blas_helpers.adb
+77i5 ix{11|6I8} 86m7 87r13 88r24 89r35 97r24 98r35 106m9 106r15
+78f5 norm{10|13F8} 82m7 108m7 110r12
+78f10 scale{10|13F8} 84m7 90r14 91r31 92m13 94r32 99r14 100r31 101m13 103r32
+. 108r15
+78f16 ssq{10|13F8} 85m7 91m13 91r26 94m13 94r20 100m13 100r26 103m13 103r20
+. 108r26
+78f20 temp{10|13F8} 89m11 90r22 91r37 92r22 94r27 98m11 99r22 100r37 101r22
+. 103r27
+118i5 ix{11|6I8} 125m33 126r13 127r24 128r35 135r24 136r35 143m9 143r15
+119f5 norm{10|13F8} 123m7 145m7 147r12
+119f10 scale{10|13F8} 125m7 129r14 130r31 130m47 132r32 137r14 138r31 138m47
+. 140r32 145r15
+119f16 ssq{10|13F8} 125m21 130m13 130r26 132m13 132r20 138m13 138r26 140m13
+. 140r20 145r26
+119f20 temp{10|13F8} 128m11 129r22 130r37 130r56 132r27 136m11 137r22 138r37
+. 138r56 140r27
+155i5 ix{11|6I8} 165m7 167r12 167r25 168m9 168r15
+161i11 i<long_integer> 162r16 162r32
+166i11 i<long_integer>
+178i5 ix{11|6I8} 188m7 190r12 190r29 191m9 191r15
+184i11 i<long_integer> 185r16 185r36
+189i11 i<long_integer>
+202i5 ix{11|6I8} 212m15 213m15 220r40 222m11 222r17
+202i8 iy{11|6I8} 216m15 217m15 220r13 220r26 221m11 221r17
+207i13 i<long_integer> 208r17 208r33 208r50
+219i13 i<long_integer>
+234i5 ix{11|6I8} 244m15 245m15 252r32 254m11 254r17
+234i8 iy{11|6I8} 248m15 249m15 252r13 252r22 253m11 253r17
+239i13 i<long_integer> 240r17 240r29 240r42
+251i13 i<long_integer>
+266i5 ix{11|6I8} 276m15 277m15 284r40 286m11 286r17
+266i8 iy{11|6I8} 280m15 281m15 284r13 284r26 285m11 285r17
+271i13 i<long_integer> 272r17 272r33 272r50
+283i13 i<long_integer>
+299r5 ztemp{7|11R8} 305m9 305r18 317m9 317r18 322r12
+300i5 ix{11|6I8} 309m13 310m13 317r38 318m9 318r15
+300i8 iy{11|6I8} 313m13 314m13 317r49 319m9 319r15
+304i11 i<long_integer> 305r42 305r56
+316i11 i<long_integer>
+329f5 roe{10|13F8} 334m5 335m31 342r22
+329f9 scale{10|13F8} 336m5 337r14 341r12 341r27 341r43
+329f15 r{10|13F8} 339m7 341m7 342m7 342r27 343r15 344r15 351r11
+329f17 z{10|13F8} 339m17 345m7 346m33 348m13 352r11
+366i5 ix{11|6I8} 379m15 380m15 387r24 388r42 389r13 390m11 390r17
+366i8 iy{11|6I8} 383m15 384m15 387r38 388r13 388r28 390m28 390r34
+367r5 ztemp{7|11R8} 373m11 375r27 387m11 389r24
+372i13 i<long_integer> 373r28 373r45 374r17 374r35 374r52 375r17
+386i13 i<long_integer>
+402i5 ix{11|6I8} 415m15 416m15 423r22 424r13 426m11 426r17
+402i8 iy{11|6I8} 419m15 420m15 424r26 425r13 426m28 426r34
+403r5 ztemp{7|11R8} 409m11 411r27 423m11 425r24
+408i13 i<long_integer> 409r26 410r17 410r33 411r17
+422i13 i<long_integer>
+X 6 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[2|9] 4|5w6 5r44
+X 7 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 4|3w6 3r44 7|92e29
+11R8*Complex_Number 4|38r24 47r24 53r28 53r52 78r47 84r47 90r46 98r46 106r46
+. 118r25 5|45r24 50r24 55r28 55r52 152r47 175r47 198r46 230r46 262r46 297r25
+. 299r13 367r13 403r13 7|90e15
+18V12*Create{11R8} 5|57s13 299s31
+20V12*Conjugate{11R8} 5|305s26 317s26
+24V12*REAL_PART{10|13F8} 5|47s17 52s17 88s12 89s23 127s12 128s23
+25V12*IMAG_PART{10|13F8} 5|47s37 52s35 97s12 98s23 135s12 136s23
+27V12*AbsVal{10|13F8} 5|205s23 237s23 269s23
+48V13*"*"{11R8} 5|373s21 373s38 374s28 374s45 387s21 387s35 388s25 388s39
+51V13*"+"{11R8} 5|208s40 220s34 240s32 252s26 272s40 284s34 305s24 317s24
+. 373s35 387s32
+53V13*"-"{11R8} 5|374s42 388s36
+55V13*"*"{11R8} 5|57s40 162s24 167s21 185s28 190s25 208s43 220s37 240s35
+. 252s29 272s43 284s37 305s49 317s46
+X 9 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[3|8] 4|4w6 4r44
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 4|2w6 2r44 10|58e30
+13F8*double_float<long_float> 4|18r28 18r50 23r31 23r53 28r34 28r56 33r37
+. 33r59 38r48 47r48 58r26 58r48 65r26 72r26 125r40 133r30 5|13r28 13r50 21r31
+. 21r53 29r34 29r56 37r37 37r59 45r48 50r48 66r26 66r48 75r26 78r27 116r26
+. 119r27 327r40 329r21 364r30
+X 11 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 4|1w6 1r44 11|45e29
+6I8*integer32<long_integer> 4|13r25 13r44 64r25 64r59 71r25 71r63 78r28 79r55
+. 84r28 85r59 90r28 91r50 92r58 98r28 99r54 100r54 106r28 107r54 108r58 115r27
+. 116r38 117r53 130r28 131r58 132r58 141r28 142r58 143r58 5|5r25 5r44 74r25
+. 74r59 77r10 115r25 115r63 118r10 152r28 153r55 155r10 175r28 176r59 178r10
+. 198r28 199r50 200r58 202r13 230r28 231r54 232r54 234r13 262r28 263r54 264r58
+. 266r13 294r27 295r38 296r53 300r13 361r28 362r58 363r58 366r13 398r28 399r58
+. 400r58 402r13
+X 12 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 5|1w6 1r45 12|64e36
+40V12*SQRT{10|13F8} 5|52s12 108s21 145s21 341s18
+

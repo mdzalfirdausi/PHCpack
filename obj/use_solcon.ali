@@ -1,0 +1,346 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_solcon%b		use_solcon.adb		eaab6fb9 NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W dobldobl_solutions_interface%s  dobldobl_solutions_interface.adb  dobldobl_solutions_interface.ali
+W file_management_interface%s  file_management_interface.adb  file_management_interface.ali
+W multprec_solutions_interface%s  multprec_solutions_interface.adb  multprec_solutions_interface.ali
+W quaddobl_solutions_interface%s  quaddobl_solutions_interface.adb  quaddobl_solutions_interface.ali
+W standard_solutions_interface%s  standard_solutions_interface.adb  standard_solutions_interface.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U use_solcon%s		use_solcon.ads		8f3618de EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D dobldobl_solutions_interface.ads  20260513024556 00c7e162 dobldobl_solutions_interface%s
+D file_management_interface.ads  20260513024556 dd67a948 file_management_interface%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_solutions_interface.ads  20260513024556 48bf8346 multprec_solutions_interface%s
+D quaddobl_solutions_interface.ads  20260513024556 a7450489 quaddobl_solutions_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_solutions_interface.ads  20260513024556 f3767ef2 standard_solutions_interface%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D use_solcon.ads	20260513024556 7afafba6 use_solcon%s
+D use_solcon.adb	20260513024556 70cfed90 use_solcon%b
+G a e
+G c Z s b [use_solcon standard 5 10 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_read standard_solutions_interface 13 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_write standard_solutions_interface 47 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_size standard_solutions_interface 54 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_dimension standard_solutions_interface 67 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_get standard_solutions_interface 80 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_update standard_solutions_interface 97 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_add standard_solutions_interface 112 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_clear standard_solutions_interface 676 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_drop_by_index standard_solutions_interface 364 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_drop_by_name standard_solutions_interface 377 12 none]
+G r c none [use_solcon standard 5 10 none] [file_management_prompt_input_file file_management_interface 10 12 none]
+G r c none [use_solcon standard 5 10 none] [file_management_prompt_output_file file_management_interface 18 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_scan_banner standard_solutions_interface 596 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_read_dimensions standard_solutions_interface 604 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_write_dimensions standard_solutions_interface 620 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_read_next standard_solutions_interface 441 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_write_next standard_solutions_interface 462 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_close_input_file standard_solutions_interface 634 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_close_output_file standard_solutions_interface 647 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_banner_to_output standard_solutions_interface 654 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_dimensions_to_output standard_solutions_interface 661 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_next_to_file standard_solutions_interface 481 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_total_degree standard_solutions_interface 504 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_next_product standard_solutions_interface 527 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_lex_product standard_solutions_interface 550 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_next_witness standard_solutions_interface 574 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_string_size standard_solutions_interface 125 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_get_string standard_solutions_interface 142 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_intro_string_size standard_solutions_interface 192 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_intro_string standard_solutions_interface 205 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_vector_string_size standard_solutions_interface 224 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_vector_string standard_solutions_interface 241 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_diagnostics_string_size standard_solutions_interface 260 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_diagnostics_string standard_solutions_interface 274 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_add_string standard_solutions_interface 161 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_replace_string standard_solutions_interface 176 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_read dobldobl_solutions_interface 13 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_write dobldobl_solutions_interface 47 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_size dobldobl_solutions_interface 54 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_dimension dobldobl_solutions_interface 67 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_get dobldobl_solutions_interface 80 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_update dobldobl_solutions_interface 97 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_add dobldobl_solutions_interface 112 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_clear dobldobl_solutions_interface 325 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_drop_by_index dobldobl_solutions_interface 248 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_drop_by_name dobldobl_solutions_interface 261 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_string_size dobldobl_solutions_interface 125 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_get_string dobldobl_solutions_interface 142 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_add_string dobldobl_solutions_interface 161 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_read quaddobl_solutions_interface 13 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_write quaddobl_solutions_interface 47 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_size quaddobl_solutions_interface 54 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_dimension quaddobl_solutions_interface 67 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_get quaddobl_solutions_interface 80 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_update quaddobl_solutions_interface 97 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_add quaddobl_solutions_interface 112 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_clear quaddobl_solutions_interface 325 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_drop_by_index quaddobl_solutions_interface 248 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_drop_by_name quaddobl_solutions_interface 261 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_string_size quaddobl_solutions_interface 125 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_get_string quaddobl_solutions_interface 142 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_add_string quaddobl_solutions_interface 161 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_read multprec_solutions_interface 12 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_write multprec_solutions_interface 34 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_size multprec_solutions_interface 55 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_dimension multprec_solutions_interface 68 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_clear multprec_solutions_interface 186 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_string_size multprec_solutions_interface 81 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_get_string multprec_solutions_interface 98 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_add_string multprec_solutions_interface 117 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_retrieve_next standard_solutions_interface 292 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_retrieve_next dobldobl_solutions_interface 176 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_retrieve_next quaddobl_solutions_interface 191 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_set_pointer multprec_solutions_interface 132 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_move_pointer standard_solutions_interface 317 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_move_pointer dobldobl_solutions_interface 201 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_move_pointer quaddobl_solutions_interface 176 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_move_pointer multprec_solutions_interface 139 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_current_size standard_solutions_interface 332 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_current_size dobldobl_solutions_interface 216 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_current_size quaddobl_solutions_interface 216 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_current_size multprec_solutions_interface 154 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_current_string standard_solutions_interface 348 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_current_string dobldobl_solutions_interface 232 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_current_string quaddobl_solutions_interface 232 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_solutions_current_string multprec_solutions_interface 170 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_system_solutions_read_from_file standard_solutions_interface 34 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_system_solutions_read_from_file dobldobl_solutions_interface 34 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_system_solutions_read_from_file quaddobl_solutions_interface 34 12 none]
+G r c none [use_solcon standard 5 10 none] [multprec_system_solutions_read_from_file multprec_solutions_interface 20 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_tzero standard_solutions_interface 434 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_tzero dobldobl_solutions_interface 318 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_tzero quaddobl_solutions_interface 318 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_make_homogeneous standard_solutions_interface 392 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_make_homogeneous dobldobl_solutions_interface 276 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_make_homogeneous quaddobl_solutions_interface 276 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_multi_homogeneous standard_solutions_interface 399 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_multi_homogeneous dobldobl_solutions_interface 283 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_multi_homogeneous quaddobl_solutions_interface 283 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_1hom2affine standard_solutions_interface 411 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_1hom2affine dobldobl_solutions_interface 295 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_1hom2affine quaddobl_solutions_interface 295 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_mhom2affine standard_solutions_interface 419 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_mhom2affine dobldobl_solutions_interface 303 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_mhom2affine quaddobl_solutions_interface 303 12 none]
+G r c none [use_solcon standard 5 10 none] [standard_solutions_read_from_file standard_solutions_interface 21 12 none]
+G r c none [use_solcon standard 5 10 none] [dobldobl_solutions_read_from_file dobldobl_solutions_interface 21 12 none]
+G r c none [use_solcon standard 5 10 none] [quaddobl_solutions_read_from_file quaddobl_solutions_interface 21 12 none]
+X 9 a-textio.ads
+565U14*Put_Line 39|144s22
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 38|3w6 3r45
+17K11*C_DblArrs[17|44] 38|8r27 39|11r27
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 38|2w6 2r45
+13K11*C_intarrs[17|44] 38|6r27 7r27 39|9r27 10r27
+X 13 dobldobl_solutions_interface.ads
+5K9*DoblDobl_Solutions_Interface 331e33 39|4w6 18r9
+13V12*DoblDobl_Solutions_Read{21|6I8} 39|61s25
+21V12*DoblDobl_Solutions_Read_from_File{21|6I8} 39|142s26
+34V12*DoblDobl_System_Solutions_Read_from_File{21|6I8} 39|119s26
+47V12*DoblDobl_Solutions_Write{21|6I8} 39|62s25
+54V12*DoblDobl_Solutions_Size{21|6I8} 39|63s25
+67V12*DoblDobl_Solutions_Dimension{21|6I8} 39|64s25
+80V12*DoblDobl_Solutions_Get{21|6I8} 39|65s25
+97V12*DoblDobl_Solutions_Update{21|6I8} 39|66s25
+112V12*DoblDobl_Solutions_Add{21|6I8} 39|67s25
+125V12*DoblDobl_Solutions_String_Size{21|6I8} 39|71s25
+142V12*DoblDobl_Solutions_Get_String{21|6I8} 39|72s25
+161V12*DoblDobl_Solutions_Add_String{21|6I8} 39|73s25
+176V12*DoblDobl_Solutions_Retrieve_Next{21|6I8} 39|99s26
+201V12*DoblDobl_Solutions_Move_Pointer{21|6I8} 39|104s26
+216V12*DoblDobl_Solutions_Current_Size{21|6I8} 39|109s26
+232V12*DoblDobl_Solutions_Current_String{21|6I8} 39|114s26
+248V12*DoblDobl_Solutions_Drop_by_Index{21|6I8} 39|69s25
+261V12*DoblDobl_Solutions_Drop_by_Name{21|6I8} 39|70s25
+276V12*DoblDobl_Solutions_Make_Homogeneous{21|6I8} 39|128s26
+283V12*DoblDobl_Solutions_Multi_Homogeneous{21|6I8} 39|132s26
+295V12*DoblDobl_Solutions_1Hom2Affine{21|6I8} 39|136s26
+303V12*DoblDobl_Solutions_mHom2Affine{21|6I8} 39|139s26
+318V12*DoblDobl_Solutions_Tzero{21|6I8} 39|124s26
+325V12*DoblDobl_Solutions_Clear{21|6I8} 39|68s25
+X 14 file_management_interface.ads
+5K9*File_Management_Interface 85e30 39|2w6 16r9
+10V12*File_Management_Prompt_Input_File{21|6I8} 39|34s25
+18V12*File_Management_Prompt_Output_File{21|6I8} 39|35s25
+X 16 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 17 i-cpoint.ads
+47P9*Pointer(16|62I9) 38|6r37[12|13] 7r37[12|13] 8r37[11|17] 39|9r37[12|13]
+. 10r37[12|13] 11r37[11|17]
+X 19 multprec_solutions_interface.ads
+4K9*Multprec_Solutions_Interface 192e33 39|6w6 20r9
+12V12*Multprec_Solutions_Read{21|6I8} 39|89s26
+20V12*Multprec_System_Solutions_Read_from_File{21|6I8} 39|121s26
+34V12*Multprec_Solutions_Write{21|6I8} 39|90s26
+55V12*Multprec_Solutions_Size{21|6I8} 39|91s26
+68V12*Multprec_Solutions_Dimension{21|6I8} 39|92s26
+81V12*Multprec_Solutions_String_Size{21|6I8} 39|94s26
+98V12*Multprec_Solutions_Get_String{21|6I8} 39|95s26
+117V12*Multprec_Solutions_Add_String{21|6I8} 39|96s26
+132V12*Multprec_Solutions_Set_Pointer{21|6I8} 39|101s26
+139V12*Multprec_Solutions_Move_Pointer{21|6I8} 39|106s26
+154V12*Multprec_Solutions_Current_Size{21|6I8} 39|111s26
+170V12*Multprec_Solutions_Current_String{21|6I8} 39|116s26
+186V12*Multprec_Solutions_Clear{21|6I8} 39|93s26
+X 20 quaddobl_solutions_interface.ads
+5K9*QuadDobl_Solutions_Interface 331e33 39|5w6 19r9
+13V12*QuadDobl_Solutions_Read{21|6I8} 39|75s25
+21V12*QuadDobl_Solutions_Read_from_File{21|6I8} 39|143s26
+34V12*QuadDobl_System_Solutions_Read_from_File{21|6I8} 39|120s26
+47V12*QuadDobl_Solutions_Write{21|6I8} 39|76s25
+54V12*QuadDobl_Solutions_Size{21|6I8} 39|77s25
+67V12*QuadDobl_Solutions_Dimension{21|6I8} 39|78s25
+80V12*QuadDobl_Solutions_Get{21|6I8} 39|79s25
+97V12*QuadDobl_Solutions_Update{21|6I8} 39|80s25
+112V12*QuadDobl_Solutions_Add{21|6I8} 39|81s25
+125V12*QuadDobl_Solutions_String_Size{21|6I8} 39|85s26
+142V12*QuadDobl_Solutions_Get_String{21|6I8} 39|86s26
+161V12*QuadDobl_Solutions_Add_String{21|6I8} 39|87s26
+176V12*QuadDobl_Solutions_Move_Pointer{21|6I8} 39|105s26
+191V12*QuadDobl_Solutions_Retrieve_Next{21|6I8} 39|100s26
+216V12*QuadDobl_Solutions_Current_Size{21|6I8} 39|110s26
+232V12*QuadDobl_Solutions_Current_String{21|6I8} 39|115s26
+248V12*QuadDobl_Solutions_Drop_by_Index{21|6I8} 39|83s25
+261V12*QuadDobl_Solutions_Drop_by_Name{21|6I8} 39|84s25
+276V12*QuadDobl_Solutions_Make_Homogeneous{21|6I8} 39|129s26
+283V12*QuadDobl_Solutions_Multi_Homogeneous{21|6I8} 39|133s26
+295V12*QuadDobl_Solutions_1Hom2Affine{21|6I8} 39|137s26
+303V12*QuadDobl_Solutions_mHom2Affine{21|6I8} 39|140s26
+318V12*QuadDobl_Solutions_Tzero{21|6I8} 39|125s26
+325V12*QuadDobl_Solutions_Clear{21|6I8} 39|82s25
+X 21 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 38|1w6 1r45
+6I8*integer32<long_integer> 38|5r29 9r32 9r56 39|8r29 12r32 12r56 14r31
+X 22 standard_solutions_interface.ads
+5K9*Standard_Solutions_Interface 682e33 39|3w6 17r9
+13V12*Standard_Solutions_Read{21|6I8} 39|24s24
+21V12*Standard_Solutions_Read_from_File{21|6I8} 39|141s26
+34V12*Standard_System_Solutions_Read_from_File{21|6I8} 39|118s26
+47V12*Standard_Solutions_Write{21|6I8} 39|25s24
+54V12*Standard_Solutions_Size{21|6I8} 39|26s24
+67V12*Standard_Solutions_Dimension{21|6I8} 39|27s24
+80V12*Standard_Solutions_Get{21|6I8} 39|28s24
+97V12*Standard_Solutions_Update{21|6I8} 39|29s24
+112V12*Standard_Solutions_Add{21|6I8} 39|30s24
+125V12*Standard_Solutions_String_Size{21|6I8} 39|50s25
+142V12*Standard_Solutions_Get_String{21|6I8} 39|51s25
+161V12*Standard_Solutions_Add_String{21|6I8} 39|58s25
+176V12*Standard_Solutions_Replace_String{21|6I8} 39|59s25
+192V12*Standard_Solutions_Intro_String_Size{21|6I8} 39|52s25
+205V12*Standard_Solutions_Intro_String{21|6I8} 39|53s25
+224V12*Standard_Solutions_Vector_String_Size{21|6I8} 39|54s25
+241V12*Standard_Solutions_Vector_String{21|6I8} 39|55s25
+260V12*Standard_Solutions_Diagnostics_String_Size{21|6I8} 39|56s25
+274V12*Standard_Solutions_Diagnostics_String{21|6I8} 39|57s25
+292V12*Standard_Solutions_Retrieve_Next{21|6I8} 39|98s26
+317V12*Standard_Solutions_Move_Pointer{21|6I8} 39|103s26
+332V12*Standard_Solutions_Current_Size{21|6I8} 39|108s26
+348V12*Standard_Solutions_Current_String{21|6I8} 39|113s26
+364V12*Standard_Solutions_Drop_by_Index{21|6I8} 39|32s24
+377V12*Standard_Solutions_Drop_by_Name{21|6I8} 39|33s24
+392V12*Standard_Solutions_Make_Homogeneous{21|6I8} 39|127s26
+399V12*Standard_Solutions_Multi_Homogeneous{21|6I8} 39|131s26
+411V12*Standard_Solutions_1Hom2Affine{21|6I8} 39|135s26
+419V12*Standard_Solutions_mHom2Affine{21|6I8} 39|138s26
+434V12*Standard_Solutions_Tzero{21|6I8} 39|123s26
+441V12*Standard_Solutions_Read_Next{21|6I8} 39|39s25
+462V12*Standard_Solutions_Write_Next{21|6I8} 39|40s25
+481V12*Standard_Solutions_Next_to_File{21|6I8} 39|45s25
+504V12*Standard_Solutions_Total_Degree{21|6I8} 39|46s25
+527V12*Standard_Solutions_Next_Product{21|6I8} 39|47s25
+550V12*Standard_Solutions_Lex_Product{21|6I8} 39|48s25
+574V12*Standard_Solutions_Next_Witness{21|6I8} 39|49s25
+596V12*Standard_Solutions_Scan_Banner{21|6I8} 39|36s25
+604V12*Standard_Solutions_Read_Dimensions{21|6I8} 39|37s25
+620V12*Standard_Solutions_Write_Dimensions{21|6I8} 39|38s25
+634V12*Standard_Solutions_Close_Input_File{21|6I8} 39|41s25
+647V12*Standard_Solutions_Close_Output_File{21|6I8} 39|42s25
+654V12*Standard_Solutions_Banner_to_Output{21|6I8} 39|43s25
+661V12*Standard_Solutions_Dimensions_to_Output{21|6I8} 39|44s25
+676V12*Standard_Solutions_Clear{21|6I8} 39|31s24
+X 37 text_io.ads
+27K9*Text_IO=27:29 39|1w6 1r45
+X 38 use_solcon.ads
+5V10*use_solcon{21|6I8} 5>23 6>23 7>23 8>23 9>23 39|8b10 150l5 150t15
+5i23 job{21|6I8} 39|8b23 23r10
+6p23 a{17|47P9[12|13]} 39|9b23 28r47 29r50 32r57 33r56 37r60 38r61 39r54
+. 40r55 41r61 44r65 45r57 46r57 47r57 48r56 49r57 50r56 51r55 52r62 53r57
+. 54r63 55r58 57r63 58r55 59r59 65r48 66r51 69r58 70r57 71r56 72r55 73r55
+. 79r48 80r51 83r58 84r57 85r57 86r56 87r56 94r57 95r56 96r56 98r59 99r59
+. 100r59 103r58 104r58 105r58 106r58 108r58 109r58 110r58 111r58 113r60 114r60
+. 115r60 116r60 118r67 119r67 120r67 121r67 131r63 132r63 133r63 138r57 139r57
+. 140r57 141r60 142r60 143r60
+7p23 b{17|47P9[12|13]} 39|10b23 26r48 27r53 28r49 29r52 30r47 33r58 37r62
+. 38r63 39r56 40r57 44r67 45r59 46r59 47r59 48r58 49r59 50r58 51r57 52r64
+. 53r59 54r65 55r60 56r68 57r65 58r57 59r61 63r49 64r54 65r50 66r53 67r48
+. 70r59 71r58 72r57 73r57 77r49 78r54 79r50 80r53 81r48 84r59 85r59 86r58
+. 87r58 91r50 92r55 94r59 95r58 96r58 98r61 99r61 100r61 108r60 109r60 110r60
+. 111r60 113r62 114r62 115r62 116r62 118r69 119r69 120r69 121r69 138r59 139r59
+. 140r59 141r62 142r62 143r62
+8p23 c{17|47P9[11|17]} 39|11b23 28r51 29r54 30r49 39r58 40r59 45r61 46r61
+. 47r61 48r60 49r61 65r52 66r55 67r50 79r52 80r55 81r50 98r63 99r63 100r63
+9i23 vrblvl{21|6I8} 39|12b23 24r48 25r49 26r50 27r55 28r53 29r56 30r51 31r49
+. 32r59 33r60 34r59 35r60 36r56 37r64 38r65 39r60 40r61 41r63 42r62 43r61
+. 44r69 45r63 46r63 47r63 48r62 49r63 50r60 51r59 52r66 53r61 54r67 55r62
+. 56r70 57r67 58r59 59r63 61r49 62r50 63r51 64r56 65r54 66r57 67r52 68r50
+. 69r60 70r61 71r60 72r59 73r59 75r49 76r50 77r51 78r56 79r54 80r57 81r52
+. 82r50 83r60 84r61 85r61 86r60 87r60 89r50 90r51 91r52 92r57 93r51 94r61
+. 95r60 96r60 98r65 99r65 100r65 101r57 103r60 104r60 105r60 106r60 108r62
+. 109r62 110r62 111r62 113r64 114r64 115r64 116r64 118r71 119r71 120r71 121r71
+. 123r51 124r51 125r51 127r62 128r62 129r62 131r65 132r65 133r65 135r57 136r57
+. 137r57 138r61 139r61 140r61 141r64 142r64 143r64
+X 39 use_solcon.adb
+14V12 Handle_Jobs{21|6I8} 14b12 146l7 146t18 149s10
+

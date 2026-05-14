@@ -1,0 +1,133 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_complex_vector_norms%b  quaddobl_complex_vector_norms.adb  6d169622 NE OO PK
+W quaddobl_mathematical_functions%s  quaddobl_mathematical_functions.adb  quaddobl_mathematical_functions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+U quaddobl_complex_vector_norms%s  quaddobl_complex_vector_norms.ads  6796ead6 EE NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vector_norms.ads  20260513024558 fd063214 quaddobl_complex_vector_norms%s
+D quaddobl_complex_vector_norms.adb  20260513024558 eb581885 quaddobl_complex_vector_norms%b
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_mathematical_functions.ads  20260513024558 04a8dea8 quaddobl_mathematical_functions%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [conjugated_inner_product quaddobl_complex_vector_norms 11 12 none]
+G c Z s b [norm2 quaddobl_complex_vector_norms 17 12 none]
+G c Z s b [normalize quaddobl_complex_vector_norms 22 13 none]
+G c Z s b [sum_norm quaddobl_complex_vector_norms 27 12 none]
+G c Z s b [max_norm quaddobl_complex_vector_norms 32 12 none]
+G r c none [conjugated_inner_product quaddobl_complex_vector_norms 11 12 none] [create quad_double_numbers 37 12 none]
+G r c none [conjugated_inner_product quaddobl_complex_vector_norms 11 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [conjugated_inner_product quaddobl_complex_vector_norms 11 12 none] [conjugate quaddobl_complex_numbers 28 12 5_1]
+G r c none [conjugated_inner_product quaddobl_complex_vector_norms 11 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [conjugated_inner_product quaddobl_complex_vector_norms 11 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [norm2 quaddobl_complex_vector_norms 17 12 none] [create quad_double_numbers 37 12 none]
+G r c none [norm2 quaddobl_complex_vector_norms 17 12 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [norm2 quaddobl_complex_vector_norms 17 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [norm2 quaddobl_complex_vector_norms 17 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [norm2 quaddobl_complex_vector_norms 17 12 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [norm2 quaddobl_complex_vector_norms 17 12 none] [sqrt quaddobl_mathematical_functions 14 12 none]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [create quad_double_numbers 37 12 none]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [imag_part quaddobl_complex_numbers 33 12 5_1]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [sqrt quaddobl_mathematical_functions 14 12 none]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [normalize quaddobl_complex_vector_norms 22 13 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [sum_norm quaddobl_complex_vector_norms 27 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sum_norm quaddobl_complex_vector_norms 27 12 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [sum_norm quaddobl_complex_vector_norms 27 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [max_norm quaddobl_complex_vector_norms 32 12 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [max_norm quaddobl_complex_vector_norms 32 12 none] [Ogt quad_double_numbers 133 12 none]
+X 4 generic_complex_numbers.ads
+19R8*Complex_Number 11|11r61[9|5] 12|6r61[9|5] 9r11[9|5] 35r9[9|5]
+26V12*Create{19R8[9|5]} 12|9s29[9|5] 39s12[9|5]
+28V12*Conjugate{19R8[9|5]} 12|13s20[9|5]
+32V12*REAL_PART{6|14R8} 12|24s21[9|5] 24s37[9|5]
+33V12*IMAG_PART{6|14R8} 12|25s21[9|5] 25s37[9|5]
+35V12*AbsVal{6|14R8} 12|52s20[9|5] 59s26[9|5] 64s14[9|5]
+58V13*"+"{19R8[9|5]} 12|13s18[9|5]
+62V13*"*"{19R8[9|5]} 12|13s35[9|5]
+63V13*"/"{19R8[9|5]} 12|41s21[9|5]
+X 5 generic_vectors.ads
+16A8*Vector(4|19R8[9|5])<16|6I8> 11|11r45[13|4] 17r24[13|4] 22r36[13|4] 27r27[13|4]
+. 32r27[13|4] 12|6r45[13|4] 18r24[13|4] 31r36[13|4] 46r27[13|4] 57r27[13|4]
+X 6 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 11|1w6 1r46
+14R8*quad_double 253e13 11|17r40 27r43 32r43 12|8r21 18r40 20r11 33r20 34r20
+. 46r43 48r11 57r43 59r11 60r11
+37V12*Create{14R8} 12|8s36 20s26 34s35 48s26
+133V13*">"{boolean} 12|65s14
+160V13*"+"{14R8} 12|24s19 25s19 38s12 52s18
+189V13*"*"{14R8} 12|24s36 25s36
+X 9 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[4|11] 11|2w6 2r46
+X 11 quaddobl_complex_vector_norms.ads
+5K9*QuadDobl_Complex_Vector_Norms 37l5 37e34 12|4b14 72l5 72t34
+11V12*Conjugated_Inner_Product{4|19R8[9|5]} 11>39 11>41 12|6b12 16l7 16t31
+11a39 v{5|16A8[13|4]} 12|6b39 12r14 13r30
+11a41 w{5|16A8[13|4]} 12|6b41 13r36
+17V12*Norm2{6|14R8} 17>20 12|18b12 29l7 29t12 33s35
+17a20 v{5|16A8[13|4]} 12|18b20 23r14 24r31 24r47 25r31 25r47
+22U13*Normalize 22=25 12|31b13 44l7 44t16
+22a25 v{5|16A8[13|4]} 12|31b25 33r41 40r16 41m9 41r17
+27V12*Sum_Norm{6|14R8} 27>23 12|46b12 55l7 55t15
+27a23 v{5|16A8[13|4]} 12|46b23 51r14 52r27
+32V12*Max_Norm{6|14R8} 32>23 12|57b12 70l7 70t15
+32a23 v{5|16A8[13|4]} 12|57b23 59r33 59r35 63r14 63r25 64r21
+X 12 quaddobl_complex_vector_norms.adb
+8r5 zero{6|14R8} 9r36
+9r5 res{4|19R8[9|5]} 13m7 13r14 15r12
+12i9 i<long_integer> 13r32 13r38
+20r5 res{6|14R8} 24m8 24r15 27m5 27r17 28r12
+23i9 i<long_integer> 24r33 24r49 25r33 25r49
+33r5 nrm{6|14R8} 38r8 39r19
+34r5 one{6|14R8} 38r14 38r21
+35r5 d{4|19R8[9|5]} 39m7 41r22
+40i11 i<long_integer> 41r11 41r19
+48r5 res{6|14R8} 52m7 52r14 54r12
+51i9 i<long_integer> 52r29
+59r5 res{6|14R8} 65r16 66m13 69r12
+60r5 tmp{6|14R8} 64m7 65r10 66r20
+63i9 i<long_integer> 64r23
+X 13 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[5|8] 11|3w6 3r46
+X 14 quaddobl_mathematical_functions.ads
+5K9*QuadDobl_Mathematical_Functions 12|2w6 2r46 14|59e36
+14V12*SQRT{6|14R8} 12|27s12
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 12|1w6 1r46 16|45e29
+

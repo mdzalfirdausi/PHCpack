@@ -1,0 +1,303 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U standard_parse_numbers%b  standard_parse_numbers.adb  341d363b NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W characters_and_numbers%s  characters_and_numbers.adb  characters_and_numbers.ali
+Z system.exn_lflt%s	s-exnlfl.ads		s-exnlfl.ali
+
+U standard_parse_numbers%s  standard_parse_numbers.ads  66aaf626 EE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D characters_and_numbers.ads  20260513024558 8b0f2874 characters_and_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_parse_numbers.ads  20260513024558 68327808 standard_parse_numbers%s
+D standard_parse_numbers.adb  20260513024558 d7206647 standard_parse_numbers%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnlfl.ads		20250808065140 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [is_to_skip standard_parse_numbers 19 12 none]
+G c Z s b [skip_spaces_and_cr standard_parse_numbers 25 13 none]
+G c Z s b [skip_spaces_and_cr standard_parse_numbers 35 13 none]
+G c Z s b [parse standard_parse_numbers 45 13 none]
+G c Z s b [parse_also_brackets standard_parse_numbers 48 13 none]
+G c Z s b [parse standard_parse_numbers 68 13 none]
+G c Z s b [parse_also_brackets standard_parse_numbers 71 13 none]
+G c Z s b [parse standard_parse_numbers 90 13 none]
+G c Z s b [parse_also_brackets standard_parse_numbers 93 13 none]
+G c Z s b [parse standard_parse_numbers 113 13 none]
+G c Z s b [parse_also_brackets standard_parse_numbers 116 13 none]
+G c Z s b [parse standard_parse_numbers 136 13 none]
+G c Z s b [parse standard_parse_numbers 142 13 none]
+G c Z s b [parse standard_parse_numbers 148 13 none]
+G c Z s b [parse standard_parse_numbers 155 13 none]
+G r c none [parse standard_parse_numbers 45 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse_also_brackets standard_parse_numbers 48 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 68 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse_also_brackets standard_parse_numbers 71 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 90 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse_also_brackets standard_parse_numbers 93 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 113 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse_also_brackets standard_parse_numbers 116 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 136 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 142 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 148 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 148 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [parse standard_parse_numbers 155 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [parse standard_parse_numbers 155 13 none] [create standard_complex_numbers 18 12 none]
+X 9 a-textio.ads
+67P9*File_Type 18|26r31 45r31 49r31 90r31 94r31 136r31 148r31 19|11r27 30r31
+. 70r28 159r31 204r28 298r31 388r31
+341V13*End_Of_File{boolean} 19|14s17 44s10 57s12 173s10 189s19
+414U14*Get 19|15s7 45s7 58s9 80s7 87s9 174s7 190s9 214s7 221s9 313s9 321s11
+. 325s9 328s9 396s7
+X 11 characters_and_numbers.ads
+6K9*Characters_and_Numbers 85e27 19|1w6 1r46
+19V12*Convert{17|7I8} 19|49s15 111s15 178s15 246s15 314s17 361s17
+X 14 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 18|5w6 5r46
+11R8*Complex_Number 90e15 18|149r54 156r29 19|389r54 407r29
+18V12*Create{11R8} 19|398s12 400s12 416s12 418s12
+X 15 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 18|4w6 4r46
+13F8*double_float<long_float> 18|137r54 143r29 19|299r54 302r20 309r14 309r58
+. 317r21 318r21 345r29 348r20 355r14 355r58 364r21 365r21 391r13 409r13
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 18|3w6 3r46
+6I8*integer32<long_integer> 18|46r54 50r54 69r29 73r29 91r58 95r58 114r33
+. 118r33 19|31r54 34r11 52r27 71r51 93r29 96r11 114r27 134r26 160r58 163r17
+. 181r29 184r29 205r55 227r33 230r17 249r29 252r29 273r29 301r48 347r48
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 18|2w6 2r46
+7I8*natural32<long_integer> 18|47r30 51r30 69r49 73r49 92r35 96r35 114r58
+. 118r58 19|32r30 36r16 72r27 93r49 98r16 134r46 161r35 165r18 206r32 227r58
+. 232r18 273r54 303r34 349r34
+X 18 standard_parse_numbers.ads
+7K9*Standard_Parse_Numbers 163l5 163e27 19|3b14 40r5 47r5 77r5 81r7 83r5
+. 85r7 102r5 109r5 141r5 147r7 150r5 152r7 217r5 219r7 289r5 291r7 424l5
+. 424t27
+16X3*INFINITE_NUMBER 19|403r36 421r36
+19V12*Is_to_Skip{boolean} 19>25 19|5b12 8l7 8t17 13s11 23s13
+19e25 ch{character} 19|5b25 7r14 7r28 7r47
+25U13*Skip_Spaces_and_CR 26>21 26=42 19|10b13 17l7 17t25 40s28 47s28 77s28
+. 81s30 85s30 169s5 176s5 211s5 215s7 219s30
+26p21 file{9|67P9} 19|11b17 14r29 15r11
+26e42 ch{character} 19|11b38 13r22 15m16
+35U13*Skip_Spaces_and_CR 36>21 36=36 19|19b13 28l7 28t25 102s28 109s28 141s28
+. 147s30 152s30 236s5 243s5 280s5 286s7 291s30
+36a21 s{string} 19|20b17 22r15 22r34 23r24 25r24
+36i36 p{integer} 19|20b32 22r10 22r29 23r26 24m9 24r14 25r20
+45U13*Parse 45>21 46=21 46<46 47<21 47<41 19|30b13 67l7 67t12 83s28
+45p21 file{9|67P9} 19|30b21 40r47 44r22 45r11 47r47 57r24 58r13
+46e21 char{character} 19|31b21 40m52 41r9 41r25 42r15 43r15 45m16 47m52 49r23
+. 58m18
+46i46 i{16|6I8} 19|31b46 39m5 63m11 64m11
+47i21 ni{17|7I8} 19|32b21 39m13 66m5
+47e41 sign{character} 19|32b41 39m22 43m7
+48U13*Parse_also_Brackets 49>21 50=21 50<46 51<21 51<41 19|69b13 90l7 90t26
+49p21 file{9|67P9} 19|70b18 77r47 80r11 81r49 83r34 85r49 87r13
+50e21 char{character} 19|71b18 77m52 78r8 80m16 81m54 83m39 85m54 86r10 87m18
+50i46 i{16|6I8} 19|71b43 83m44
+51i21 ni{17|7I8} 19|72b18 83m46
+51e41 sign{character} 19|72b38 83m49
+68U13*Parse 68>21 68=36 69<21 69<40 70<21 19|92b13 130l7 130t12 150s28
+68a21 s{string} 19|92b21 102r47 103r13 104r9 104r25 105r15 106r15 109r47
+. 111r23 123r22
+68i36 p{integer} 19|92b36 102m49 103r9 104r11 104r27 105r17 106r17 107m7
+. 107r12 109m49 111r25 119m9 119r14 123r18
+69i21 i{16|6I8} 19|93b21 101m5 126m11 127m11
+69i40 ni{17|7I8} 19|93b40 101m13 129m5
+70e21 sign{character} 19|94b21 101m22 106m7
+71U13*Parse_also_Brackets 72>21 72=36 73<21 73<40 74<21 19|132b13 157l7 157t26
+72a21 s{string} 19|133b18 141r47 142r13 143r9 146r15 147r49 148r15 150r34
+. 152r49 153r10
+72i36 p{integer} 19|133b33 141m49 142r9 143r11 145m7 145r12 146r11 147m51
+. 148r11 150m36 152m51 153r12 154m9 154r14
+73i21 i{16|6I8} 19|134b18 140m5 150m38
+73i40 ni{17|7I8} 19|134b37 140m13 150m40
+74e21 sign{character} 19|135b18 140m22 150m43
+90U13*Parse 90>21 91=21 91<46 91<49 92<21 92<25 92<46 19|159b13 201l7 201t12
+. 217s28 308s5 316s11 322s11 326s9 329s9
+90p21 file{9|67P9} 19|159b21 169r24 173r22 174r11 176r24 189r31 190r13
+91e21 char{character} 19|160b21 169m29 170r9 170r25 171r15 172r15 174m16
+. 176m29 178r23 190m18
+91i46 i1{16|6I8} 19|160b46 168m5 196m11 197m11
+91i49 i2{16|6I8} 19|160b49 168m14 196m24 197m24
+92i21 ni1{17|7I8} 19|161b21 168m23 199m5
+92i25 ni2{17|7I8} 19|161b25 168m33 200m5
+92e46 sign{character} 19|161b46 168m43 172m7
+93U13*Parse_also_Brackets 94>21 95=21 95<46 95<49 96<21 96<25 96<46 19|203b13
+. 224l7 224t26
+94p21 file{9|67P9} 19|204b18 211r24 214r11 215r26 217r34 219r49 221r13
+95e21 char{character} 19|205b18 211m29 212r9 214m16 215m31 217m39 219m54
+. 220r10 221m18
+95i46 i1{16|6I8} 19|205b43 217m44
+95i49 i2{16|6I8} 19|205b46 217m47
+96i21 ni1{17|7I8} 19|206b18 217m50
+96i25 ni2{17|7I8} 19|206b22 217m54
+96e46 sign{character} 19|206b43 217m58
+113U13*Parse 113>21 113=36 114<21 114<24 114<44 114<48 115<21 19|226b13 269l7
+. 269t12 289s28 354s5 363s11 369s11 373s9
+113a21 s{string} 19|226b21 236r24 237r13 238r9 238r25 239r15 240r15 243r24
+. 244r13 246r23 261r22
+113i36 p{integer} 19|226b36 236m26 237r9 238r11 238r27 239r17 240r17 241m7
+. 241r12 243m26 244r9 246r25 257m9 257r14 261r18
+114i21 i1{16|6I8} 19|227b21 235m5 264m11 265m11
+114i24 i2{16|6I8} 19|227b24 235m14 264m24 265m24
+114i44 ni1{17|7I8} 19|227b44 235m23 267m5
+114i48 ni2{17|7I8} 19|227b48 235m33 268m5
+115e21 sign{character} 19|228b21 235m43 240m7
+116U13*Parse_also_Brackets 117>21 117=36 118<21 118<24 118<44 118<48 119<21
+. 19|271b13 296l7 296t26
+117a21 s{string} 19|272b17 280r24 281r13 282r9 285r15 286r26 287r15 289r34
+. 291r49 292r10
+117i36 p{integer} 19|272b32 280m26 281r9 282r11 284m7 284r12 285r11 286m28
+. 287r11 289m36 291m51 292r12 293m9 293r14
+118i21 i1{16|6I8} 19|273b17 279m5 289m38
+118i24 i2{16|6I8} 19|273b20 279m14 289m41
+118i44 ni1{17|7I8} 19|273b40 279m23 289m44
+118i48 ni2{17|7I8} 19|273b44 279m33 289m48
+119e21 sign{character} 19|274b17 279m43 289m52
+136U13*Parse 136>21 137=21 137<46 19|298b13 342l7 342t12 394s5 397s7
+136p21 file{9|67P9} 19|298b21 308r11 313r13 316r17 321r15 322r17 325r13 326r15
+. 328r13 329r15
+137e21 char{character} 19|299b21 308m16 311r10 313m18 314r25 316m22 320r13
+. 320r29 321m20 322m22 325m18 326m20 328m18 329m20
+137f46 f{15|13F8} 19|299b46 334m13 335m13 339m7
+142U13*Parse 142>21 142=36 143<21 19|344b13 386l7 386t12 412s5 415s7
+142a21 s{string} 19|344b21 354r11 357r12 358r10 361r25 363r17 367r13 367r29
+. 369r17 373r15
+142i36 p{integer} 19|344b36 354m13 357r8 358r12 360m9 360r14 361r27 363m19
+. 367r15 367r31 368m11 368r16 369m19 372m9 372r14 373m17
+143f21 f{15|13F8} 19|345b21 356m5 378m13 379m13 383m7
+148U13*Parse 148>21 149=21 149<46 19|388b13 404l7 404t12
+148p21 file{9|67P9} 19|388b21 394r11 396r11 397r13
+149e21 char{character} 19|389b21 394m16 395r8 396m16 397m18
+149r46 c{14|11R8} 19|389b46 398m7 400m7
+155U13*Parse 155>21 155=36 156<21 19|406b13 422l7 422t12
+155a21 s{string} 19|406b21 412r11 413r8 415r13
+155i36 p{integer} 19|406b36 412m13 413r10 414m7 414r12 415m15
+156r21 c{14|11R8} 19|407b21 416m7 418m7
+X 19 standard_parse_numbers.adb
+34i5 res{16|6I8} 52m11 52r18 63r17 64r16
+35b5 min{boolean} 42m7 62r8
+36i5 cnt{17|7I8} 51r12 53m11 53r18 66r11
+36i9 temp{17|7I8} 49m7 50r10 52r37
+74b5 bracket{boolean} 79m7 84r8
+96i5 res{16|6I8} 114m11 114r18 126r17 127r16
+97b5 min{boolean} 105m7 125r8
+98i5 cnt{17|7I8} 113r12 115m11 115r18 129r11
+98i9 temp{17|7I8} 111m7 112r10 114r37
+137b5 bracket{boolean} 144m7 151r8
+163i5 res1{16|6I8} 181m11 181r19 196r18 197r17
+163i10 res2{16|6I8} 184m11 184r19 196r31 197r30
+164b5 min{boolean} 171m7 195r8
+165i5 k1{17|7I8} 180r12 182m11 182r17 199r12
+165i8 k2{17|7I8} 183r15 185m11 185r17 200r12
+165i11 temp{17|7I8} 178m7 179r10 181r39 184r39
+208b5 bracket{boolean} 213m7 218r8
+230i5 res1{16|6I8} 249m11 249r19 264r18 265r17
+230i10 res2{16|6I8} 252m11 252r19 264r31 265r30
+231b5 min{boolean} 239m7 263r8
+232i5 k1{17|7I8} 248r12 250m11 250r17 267r12
+232i8 k2{17|7I8} 251r15 253m11 253r17 268r12
+232i11 temp{17|7I8} 246m7 247r10 249r39 252r39
+276b5 bracket{boolean} 283m7 290r8
+301i5 f_int1{16|6I8} 308m21 309r27
+301i12 f_int2{16|6I8} 308m28 309r71
+301i19 f_quot1{16|6I8} 316m27 317r34
+301i27 f_quot2{16|6I8} 316m35 318r34
+301i35 expo{16|6I8} 322m27 326m25 329m25 336r71 340r72
+301i40 expo2{16|6I8} 322m32 326m30 329m30
+302f5 f_int{15|13F8} 309m5 333r11 335r20 339r14
+302f11 f_quot{15|13F8} 317m11 333r29 336r13 340r14
+303i5 k1{17|7I8} 322m38 326m36 329m36
+303i8 k2{17|7I8} 322m41 326m39 329m39
+303i11 nq1{17|7I8} 316m43 333r48 336r36 340r37
+303i15 nq2{17|7I8} 316m47 317r59 336r49 340r50
+303i19 np1{17|7I8} 308m35 333r62
+303i23 np2{17|7I8} 308m39 309r51
+303i27 temp{17|7I8} 314m9 315r12
+304e5 sign{character} 308m43 310r13 316m51 322m44 326m42 329m42
+305b5 min{boolean} 310m5 332r8
+347i5 f_int1{16|6I8} 354m15 355r27
+347i12 f_int2{16|6I8} 354m22 355r71
+347i19 f_quot1{16|6I8} 363m21 364r34
+347i27 f_quot2{16|6I8} 363m29 365r34
+347i35 expo{16|6I8} 369m21 373m19 380r71 384r72
+347i40 expo2{16|6I8} 369m26 373m24
+348f5 f_int{15|13F8} 355m5 377r11 379r20 383r14
+348f11 f_quot{15|13F8} 364m11 377r29 380r13 384r14
+349i5 k1{17|7I8} 369m32 373m30
+349i8 k2{17|7I8} 369m35 373m33
+349i11 nq1{17|7I8} 363m37 377r48 380r36 384r37
+349i15 nq2{17|7I8} 363m41 364r59 380r49 384r50
+349i19 np1{17|7I8} 354m29 377r62
+349i23 np2{17|7I8} 354m33 355r51
+349i27 temp{17|7I8} 361m9 362r12
+350e5 sign{character} 354m37 356r23 363m45 369m38 373m36
+351b5 min{boolean} 356m15 376r8
+391f5 f1{15|13F8} 394m21 398r19 400r19
+391f8 f2{15|13F8} 397m23 398r22
+409f5 f1{15|13F8} 412m15 416r19 418r19
+409f8 f2{15|13F8} 415m17 416r22
+X 36 text_io.ads
+27K9*Text_IO=27:29 18|1w6 1r46
+

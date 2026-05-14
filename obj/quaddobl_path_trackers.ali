@@ -1,0 +1,957 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_path_trackers%b  quaddobl_path_trackers.adb  7e708ad7 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W directions_of_quaddobl_paths%s  directions_of_quaddobl_paths.adb  directions_of_quaddobl_paths.ali
+W process_io%s		process_io.adb		process_io.ali
+W quad_double_numbers_io%s  quad_double_numbers_io.adb  quad_double_numbers_io.ali
+W quad_double_vectors_io%s  quad_double_vectors_io.ads  quad_double_vectors_io.ali
+W quad_double_vecvecs%s	quad_double_vecvecs.ads	quad_double_vecvecs.ali
+W quaddobl_complex_equality_tests%s  quaddobl_complex_equality_tests.adb  quaddobl_complex_equality_tests.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_correctors%s	quaddobl_correctors.adb	quaddobl_correctors.ali
+W quaddobl_data_on_path%s  quaddobl_data_on_path.adb  quaddobl_data_on_path.ali
+W quaddobl_dispatch_predictors%s  quaddobl_dispatch_predictors.adb  quaddobl_dispatch_predictors.ali
+W quaddobl_orthogonal_correctors%s  quaddobl_orthogonal_correctors.adb  quaddobl_orthogonal_correctors.ali
+W quaddobl_predictors%s	quaddobl_predictors.adb	quaddobl_predictors.ali
+W standard_data_on_path%s  standard_data_on_path.adb  standard_data_on_path.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+
+U quaddobl_path_trackers%s  quaddobl_path_trackers.ads  1f6966c4 BN EE NE OO PK
+W continuation_parameters%s  continuation_parameters.adb  continuation_parameters.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quad_double_vectors%s	quad_double_vectors.ads	quad_double_vectors.ali
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W quaddobl_continuation_data%s  quaddobl_continuation_data.adb  quaddobl_continuation_data.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D continuation_parameters.ads  20260513024558 80b0c65f continuation_parameters%s
+D directions_of_quaddobl_paths.ads  20260513024558 71009fb2 directions_of_quaddobl_paths%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D process_io.ads	20260513024558 f33a87dd process_io%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_numbers_io.ads  20260513024558 34f2e427 quad_double_numbers_io%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quad_double_ring_io.ads  20260513024558 a7ff4e1f quad_double_ring_io%s
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quad_double_vectors_io.ads  20260513024558 85914a32 quad_double_vectors_io%s
+D quad_double_vecvecs.ads  20260513024558 5abfdeff quad_double_vecvecs%s
+D quaddobl_complex_equality_tests.ads  20260513024558 f3db9d96 quaddobl_complex_equality_tests%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_continuation_data.ads  20260513024558 555fad79 quaddobl_continuation_data%s
+D quaddobl_correctors.ads  20260513024558 cff73153 quaddobl_correctors%s
+D quaddobl_data_on_path.ads  20260513024558 24631daf quaddobl_data_on_path%s
+D quaddobl_dispatch_predictors.ads  20260513024558 3c88a96a quaddobl_dispatch_predictors%s
+D quaddobl_orthogonal_correctors.ads  20260513024558 7516c9ce quaddobl_orthogonal_correctors%s
+D quaddobl_path_trackers.ads  20260513024558 5a405221 quaddobl_path_trackers%s
+D quaddobl_path_trackers.adb  20260513024558 944e4d7b quaddobl_path_trackers%b
+D quaddobl_predictors.ads  20260513024558 dc91e26e quaddobl_predictors%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_continuation_data.ads  20260513024558 5caa45bb standard_continuation_data%s
+D standard_data_on_path.ads  20260513024558 2901c4e9 standard_data_on_path%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+X 13 a-textio.ads
+67P9*File_Type 61|71r29 101r29 158r29 182r29 214r29 228r29 62|110r27 326r27
+. 505r27 523r35 609r27 627r35 665r27 734r27
+X 15 continuation_parameters.ads
+4K9*Continuation_Parameters 170e28 61|10w6 10r46 62|223r16 342r16
+11R8*Pred_Pars 21e13 61|60r26 74r26 90r26 107r26 148r45 160r45 172r45 184r45
+. 218r45 232r45 62|25r24 113r24 211r24 332r24 457r43 507r43 561r43 611r43
+. 669r43 738r43
+13f5*minstep{70|13F8} 62|493r19 547r19 597r19 651r19 720r19 789r19
+13f13*maxstep{70|13F8} 62|31r30 119r30 217r30 336r30 461r30 511r30 565r30
+. 615r30 675r36 743r36
+16i5*success_steps{77|7I8} 62|233r38 352r38
+17i5*predictor_type{77|7I8} 62|58r10 65r12 67r15 70r15 81r12 84r15 88r15
+. 146r10 154r12 156r15 159r15 172r12 175r15 179r15 261r10 281r12 283r15 286r15
+. 297r12 300r15 304r15 385r10 406r12 408r15 411r15 424r12 427r15 431r15 695r10
+. 700r14 764r10 769r14
+18f5*dist_target{70|13F8} 62|63r40 102r20 152r40 193r20 269r40 318r20 394r40
+. 445r20 486r34 498r20 539r34 552r20 590r34 602r20 643r34 656r20
+23R8*Corr_Pars 31e13 61|60r44 74r44 90r44 107r44 148r63 160r63 172r63 184r63
+. 218r63 232r63 62|25r42 37r56 100r21 113r42 125r56 191r21 211r42 240r56
+. 316r21 332r42 359r56 443r21 457r61 475r32 496r21 507r61 525r32 550r21 561r61
+. 579r32 600r21 611r61 629r32 654r21 669r61 738r61
+29i11*maxtot{77|7I8} 62|64r62 153r62 270r62 395r62 487r56 540r56 591r56 644r56
+. 699r25 768r24
+129f3*tol_endg_inverse_condition{70|13F8} 62|223r40 342r40
+X 16 directions_of_quaddobl_paths.ads
+10K9*Directions_of_QuadDobl_Paths 351e33 62|14w6 14r46
+X 22 generic_complex_numbers.ads
+19R8*Complex_Number 61|53r40[52|5] 54r40[52|5] 55r40[52|5] 58r53[52|5] 66r40[52|5]
+. 67r40[52|5] 68r40[52|5] 72r53[52|5] 80r40[52|5] 81r40[52|5] 82r40[52|5]
+. 85r53[52|5] 96r40[52|5] 97r40[52|5] 98r40[52|5] 102r53[52|5] 141r40[52|5]
+. 142r40[52|5] 143r40[52|5] 147r31[52|5] 153r40[52|5] 154r40[52|5] 155r40[52|5]
+. 159r31[52|5] 165r40[52|5] 166r40[52|5] 167r40[52|5] 171r31[52|5] 177r40[52|5]
+. 178r40[52|5] 179r40[52|5] 183r31[52|5] 209r40[52|5] 210r40[52|5] 211r40[52|5]
+. 215r31[52|5] 223r40[52|5] 224r40[52|5] 225r40[52|5] 229r31[52|5] 62|23r51[52|5]
+. 28r44[52|5] 111r51[52|5] 116r44[52|5] 206r51[52|5] 214r44[52|5] 327r51[52|5]
+. 335r44[52|5] 456r29[52|5] 459r22[52|5] 506r29[52|5] 509r22[52|5] 560r29[52|5]
+. 563r22[52|5] 610r29[52|5] 613r22[52|5] 666r29[52|5] 671r20[52|5] 672r30[52|5]
+. 735r29[52|5] 740r20[52|5] 744r30[52|5]
+26V12*Create{19R8[52|5]} 62|681s48[52|5] 724s32[52|5] 727s24[52|5] 729s36[52|5]
+. 750s48[52|5] 793s32[52|5] 796s24[52|5] 798s32[52|5]
+60V13*"-"{19R8[52|5]} 62|672s56[52|5] 744s56[52|5]
+X 24 generic_matrices.ads
+16A8*Matrix(22|19R8[52|5])<74|6I8><74|6I8> 61|55r64[51|5] 68r64[51|5] 82r64[51|5]
+. 98r64[51|5] 143r64[51|5] 155r64[51|5] 167r64[51|5] 179r64[51|5] 211r64[51|5]
+. 225r64[51|5]
+X 25 generic_vectors.ads
+16A8*Vector(22|19R8[52|5])<74|6I8> 61|52r30[55|4] 53r28[55|4] 53r64[55|4]
+. 54r28[55|4] 54r64[55|4] 55r28[55|4] 65r30[55|4] 66r28[55|4] 66r64[55|4]
+. 67r28[55|4] 67r64[55|4] 68r28[55|4] 79r30[55|4] 80r28[55|4] 80r64[55|4]
+. 81r28[55|4] 81r64[55|4] 82r28[55|4] 95r30[55|4] 96r28[55|4] 96r64[55|4]
+. 97r28[55|4] 97r64[55|4] 98r28[55|4] 140r30[55|4] 141r28[55|4] 141r64[55|4]
+. 142r28[55|4] 142r64[55|4] 143r28[55|4] 152r30[55|4] 153r28[55|4] 153r64[55|4]
+. 154r28[55|4] 154r64[55|4] 155r28[55|4] 164r30[55|4] 165r28[55|4] 165r64[55|4]
+. 166r28[55|4] 166r64[55|4] 167r28[55|4] 176r30[55|4] 177r28[55|4] 177r64[55|4]
+. 178r28[55|4] 178r64[55|4] 179r28[55|4] 208r30[55|4] 209r28[55|4] 209r64[55|4]
+. 210r28[55|4] 210r64[55|4] 211r28[55|4] 217r37[55|4] 222r30[55|4] 223r28[55|4]
+. 223r64[55|4] 224r28[55|4] 224r64[55|4] 225r28[55|4] 231r37[55|4] 62|29r54[55|4]
+. 30r23[55|4] 117r54[55|4] 118r23[55|4] 215r54[55|4] 216r23[55|4] 227r38[47|4]
+. 231r32[47|4] 338r54[55|4] 339r23[55|4] 346r38[47|4] 350r32[47|4] 668r35[55|4]
+. 676r49[55|4] 681r23[55|4] 737r35[55|4] 745r49[55|4] 750r23[55|4]
+17P8*Link_to_Vector(16A8[47|4]) 61|88r50[47|4] 105r50[47|4] 62|209r48[47|4]
+. 330r48[47|4]
+37V13*"*"{16A8[55|4]} 62|724s31[55|4] 727s23[55|4] 729s35[55|4] 793s31[55|4]
+. 796s23[55|4] 798s31[55|4]
+39V13*"*"{16A8[55|4]} 62|681s62[55|4] 750s62[55|4]
+X 27 generic_vecvecs.ads
+14A8*VecVec(25|17P8[47|4])<74|6I8> 62|229r12[49|5] 230r22[49|5] 348r12[49|5]
+. 349r22[49|5]
+X 41 process_io.ads
+17K9*Process_io 178e15 62|13w6 13r46
+65U13*sWrite 62|151s5 171s7 197s7 390s5 423s7 537s7 641s7 698s5 714s7 767s5
+. 783s7
+77U13*pWrite 62|542s7 646s7
+88U13*pWrite 62|168s7 420s7 709s7 778s7
+X 42 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 61|5w6 5r46
+14R8*quad_double 253e13 61|52r46 65r46 79r46 89r35 95r45 106r35 140r46 152r46
+. 164r46 176r46 208r46 222r46 62|210r33 226r21 331r33 345r21 680r23 749r23
+37V12*Create{14R8} 62|226s36 345s36 680s38 749s38
+125V13*"<"{boolean} 62|273s37 398s37
+214V13*"/"{14R8} 62|724s42 727s34 729s46 793s42 796s34 798s42
+X 43 quad_double_numbers_io.ads
+6K9*Quad_Double_Numbers_io 99e27 62|3w6 3r46
+X 47 quad_double_vectors.ads
+4K9*Quad_Double_Vectors[25|8] 61|7w6 88r30 105r30 62|209r28 227r18 231r12
+. 330r28 346r18 350r12
+X 48 quad_double_vectors_io.ads
+5K9*Quad_Double_Vectors_io[26|11] 62|5w6 5r46
+X 49 quad_double_vecvecs.ads
+5K9*Quad_Double_VecVecs[27|10] 62|6w6 6r46
+X 50 quaddobl_complex_equality_tests.ads
+5K9*QuadDobl_Complex_Equality_Tests 24e36 62|7w6 7r46
+X 51 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[24|9] 61|9w6 9r46
+X 52 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[22|11] 61|6w6 6r46
+X 54 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 235e31 62|8w6 8r46
+20r5*t{22|19R8[52|5]} 62|63r29 97r23 152r29 168r30 188r23 269r29 275r70 313r23
+. 394r29 400r70 420r30 440r23 672r54 693r20 696r27 702m51 704m47 709r30 744r54
+. 762r20 765r27 771m50 773m47 778r30
+21i5*m{74|6I8} 62|267m17 275m42 277r26 392m17 400m42 402r26
+22a5*v{25|16A8[55|4]} 62|29r67 30r36 117r67 118r36 215r67 216r36 276r24 338r67
+. 339r36 401r24 676r62 681r36 681r69 693r45 694r29 696r53 702m29 704m39 745r62
+. 750r36 750r69 762r45 763r29 771m28 773m39
+28P8*Link_to_Solution(19R8)
+33A8*Solution_Array(28P8)<74|6I8> 62|460r25 510r25 564r25 614r25
+X 55 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[25|8] 61|8w6 8r46
+X 56 quaddobl_continuation_data.ads
+7K9*QuadDobl_Continuation_Data 138e31 61|11w6 11r46
+18R8*Solu_Info 32e13 61|58r30 61r49 72r30 75r49 85r30 91r49 102r30 108r49
+. 214r51 228r51 62|23r28 26r47 37r38 111r28 114r47 125r38 206r28 212r47 240r38
+. 327r28 333r47 359r38 665r49 734r49
+20p5*sol{54|28P8} 62|29r63 30r32 63r25 97r19 117r63 118r32 151r19 152r25
+. 168r26 168r34 171r21 188r19 197r21 215r63 216r32 267r13 269r25 275r38 275r66
+. 276r20 277r22 313r19 338r63 339r32 390r19 392r13 394r25 400r38 400r66 401r20
+. 402r22 420r26 420r34 423r21 440r19 672r50 676r58 681r32 681r65 693r16 693r41
+. 694r25 696r23 696r49 698r19 702m25 702m47 704m35 704m43 709r26 709r34 714r21
+. 744r50 745r58 750r32 750r65 762r16 762r41 763r25 765r23 767r19 771m24 771m46
+. 773m35 773m43 778r26 778r34 783r21
+22f25*rcond{70|13F8} 62|272r31 397r31
+29i17*niter{77|7I8} 62|64r51 153r51 270r51 395r51 487r45 540r45 591r45 644r45
+. 699r14 768r13
+29i23*nsyst{77|7I8} 62|706m21 706r32 775m21 775r32
+34A8*Solu_Info_Array(18R8)<74|6I8> 61|146r30 158r51 170r30 182r51 62|455r28
+. 473r36 505r49 523r57 559r28 577r36 609r49 627r57
+116U13*Copy 62|489s42 543s47 593s42 647s47
+117U13*Copy 62|477s7 527s7 581s7 631s7
+X 57 quaddobl_correctors.ads
+11K9*QuadDobl_Correctors 344e24 62|10w6 10r46
+62u13*Affine_Single_Severe_Normal_Silent_Corrector 62|40r13
+69u13*Affine_Single_Severe_Conditioned_Silent_Corrector 62|243r13
+76u13*Affine_Single_Severe_Normal_Reporting_Corrector 62|128r13 687r11
+84u13*Affine_Single_Severe_Conditioned_Reporting_Corrector 62|362r13 756r11
+104u13*Affine_Multiple_Loose_Normal_Silent_Corrector 62|469r11
+113u13*Affine_Multiple_Loose_Normal_Reporting_Corrector 62|519r11
+122u13*Affine_Multiple_Loose_Conditioned_Silent_Corrector 62|573r11
+131u13*Affine_Multiple_Loose_Conditioned_Reporting_Corrector 62|623r11
+226u13*Projective_Single_Severe_Normal_Silent_Corrector 62|42r13
+233u13*Projective_Single_Severe_Normal_Reporting_Corrector 62|130r13 689r11
+240u13*Projective_Single_Severe_Conditioned_Silent_Corrector 62|245r13
+247u13*Projective_Single_Severe_Conditioned_Reporting_Corrector 62|364r13
+. 758r11
+254u13*Projective_Multiple_Loose_Normal_Silent_Corrector 62|471r11
+263u13*Projective_Multiple_Loose_Normal_Reporting_Corrector 62|521r11
+272u13*Projective_Multiple_Loose_Conditioned_Silent_Corrector 62|575r11
+281u13*Projective_Multiple_Loose_Conditioned_Reporting_Corrector 62|625r11
+X 58 quaddobl_data_on_path.ads
+14K9*QuadDobl_Data_on_Path 319e26 62|16w6 16r46
+22V12*At_End{boolean} 62|63s16 152s16 269s16 394s16 486s16 539s16 590s16
+. 643s16
+34V12*Stop{boolean} 62|97s10 188s10 313s10 440s10
+50U13*Linear_Single_Initialize 62|57s5 145s5 260s5 384s5
+69U13*Linear_Single_Management 62|82s9 173s9 298s9 425s9
+97U13*Linear_Single_Quadratic_Management 62|85s9 176s9 301s9 428s9
+124U13*Linear_Single_Cubic_Management 62|89s9 180s9 305s9 432s9
+154U13*Linear_Single_Quartic_Management 62|93s9 184s9 309s9 436s9
+186U13*Linear_Multiple_Initialize 62|485s5 535s5 589s5 639s5
+194U13*Linear_Multiple_Management 62|491s7 545s7 595s7 649s7
+220U13*Circular_Management 62|715s7 784s7
+260U13*Update_Direction 62|274s15
+303U13*Update_Direction 62|399s15
+X 59 quaddobl_dispatch_predictors.ads
+11K9*QuadDobl_Dispatch_Predictors 178e33 62|12w6 12r46
+25u13*Single_Predictor 62|35r32 123r32 238r32 357r32
+58U13*Single_Quadratic_Predictor 62|68s9 157s9 284s9 409s9
+84U13*Single_Cubic_Predictor 62|71s9 160s9 287s9 412s9
+112U13*Single_Quartic_Predictor 62|75s9 164s9 291s9 416s9
+150u13*Multiple_Predictor 62|466r32 516r32 570r32 620r32
+X 60 quaddobl_orthogonal_correctors.ads
+10K9*QuadDobl_Orthogonal_Correctors 110e35 62|11w6 11r46
+26u13*Silent_QRLS_Corrector 62|44r13
+47u13*Reporting_QRLS_Corrector 62|132r13
+70u13*Silent_SVD_Corrector 62|247r13
+91u13*Reporting_SVD_Corrector 62|366r13
+X 61 quaddobl_path_trackers.ads
+13K9*QuadDobl_Path_Trackers 258l5 258e27 62|18b14 802l5 802t27
+52V19 Norm{42|14R8} 52>26 62|35r49 40r58 42r62 44r35
+52a26 x{25|16A8[55|4]}
+53V19 H{25|16A8[55|4]} 53>24 53>36 62|40r63 42r67 44r40
+53a24 x{25|16A8[55|4]}
+53r36 t{22|19R8[52|5]}
+54V19 dH{25|16A8[55|4]} 54>24 54>36 62|35r54
+54a24 x{25|16A8[55|4]}
+54r36 t{22|19R8[52|5]}
+55V19 dH{24|16A8[51|5]} 55>24 55>36 62|35r57 40r65 42r69 44r42
+55a24 x{25|16A8[55|4]}
+55r36 t{22|19R8[52|5]}
+57u13*Linear_Single_Normal_Silent_Continue 58=19 58>41 59>19 59>42 60>19
+. 60>37 60>55 61^19 62|22b13 107l7 107t43
+58r19 s{56|18R8} 62|23b17 29r61 30r30 57r30 63r23 64r49 66m19 69m12 72m12
+. 76m12 79m17 80r29 82m34 86m12 90m12 94m12 97r17 104m17 105r29
+58r41 target{22|19R8[52|5]} 62|23b39 63r31 66r57 69r55 73r12 77r28 97r25
+59f19 tol{70|13F8} 62|24b17 63r52 66r69 69r67 73r24 77r40 102r32
+59b42 proj{boolean} 62|24b40 47r10
+60r19 p{15|11R8} 62|25b17 31r28 57r32 58r8 63r38 65r10 66r21 67r13 69r14
+. 70r13 72r14 76r14 81r10 82r36 84r13 86r14 88r13 90r14 94r14 97r15 102r18
+60r37 c{15|23R8} 62|25b35 64r60 79r19 82r38 86r16 90r16 94r16 102r16
+60i55 nbq{74|6I8} 62|25b53 49r13 52r24
+61p19 f 62|26b17 80r11 80r27 105r11 105r27
+61r42 s{56|18R8}
+65V19 Norm{42|14R8} 65>26 62|123r49 128r61 130r65 132r38
+65a26 x{25|16A8[55|4]}
+66V19 H{25|16A8[55|4]} 66>24 66>36 62|128r66 130r70 132r43
+66a24 x{25|16A8[55|4]}
+66r36 t{22|19R8[52|5]}
+67V19 dH{25|16A8[55|4]} 67>24 67>36 62|123r54
+67a24 x{25|16A8[55|4]}
+67r36 t{22|19R8[52|5]}
+68V19 dH{24|16A8[51|5]} 68>24 68>36 62|123r57 128r68 130r72 132r45
+68a24 x{25|16A8[55|4]}
+68r36 t{22|19R8[52|5]}
+70u13*Linear_Single_Normal_Reporting_Continue 71>19 72=19 72>41 73>19 73>42
+. 74>19 74>37 74>55 75^19 62|109b13 203l7 203t46
+71p19 file{13|67P9} 62|110b17 136r30 138r26 140r24 151r12 168r14 171r14 197r14
+72r19 s{56|18R8} 62|111b17 117r61 118r30 145r30 151r17 152r23 153r49 155m19
+. 158m12 161m12 165m12 168r24 168r32 169m17 170r29 171r19 173m34 177m12 181m12
+. 185m12 188r17 195m17 196r29 197r19
+72r41 target{22|19R8[52|5]} 62|111b39 152r31 155r57 158r55 162r12 166r28
+. 188r25
+73f19 tol{70|13F8} 62|112b17 152r52 155r69 158r67 162r24 166r40 193r32
+73b42 proj{boolean} 62|112b40 135r10
+74r19 p{15|11R8} 62|113b17 119r28 145r32 146r8 152r38 154r10 155r21 156r13
+. 158r14 159r13 161r14 165r14 172r10 173r36 175r13 177r14 179r13 181r14 185r14
+. 188r15 193r18
+74r37 c{15|23R8} 62|113b35 153r60 169r19 173r38 177r16 181r16 185r16 193r16
+74i55 nbq{74|6I8} 62|113b53 137r13 140r29
+75p19 f 62|114b17 170r11 170r27 196r11 196r27
+75r42 s{56|18R8}
+79V19 Norm{42|14R8} 79>26 62|238r49 243r63 245r67 247r34
+79a26 x{25|16A8[55|4]}
+80V19 H{25|16A8[55|4]} 80>24 80>36 62|243r68 245r72 247r39
+80a24 x{25|16A8[55|4]}
+80r36 t{22|19R8[52|5]}
+81V19 dH{25|16A8[55|4]} 81>24 81>36 62|238r54
+81a24 x{25|16A8[55|4]}
+81r36 t{22|19R8[52|5]}
+82V19 dH{24|16A8[51|5]} 82>24 82>36 62|238r57 243r70 245r74 247r41
+82a24 x{25|16A8[55|4]}
+82r36 t{22|19R8[52|5]}
+84u13*Linear_Single_Conditioned_Silent_Continue 85=19 85>41 86>19 86>42 87>19
+. 87=42 88=19 89=19 90>19 90>37 90>55 91^19 62|205b13 323l7 323t48
+85r19 s{56|18R8} 62|206b17 215r61 216r30 260r30 267m11 267r11 269r23 270r49
+. 272r29 275r36 275r64 276r18 277r20 282m19 285m12 288m12 292m12 295m17 296r29
+. 298m34 302m12 306m12 310m12 313r17 320m17 321r29
+85r41 target{22|19R8[52|5]} 62|206b39 269r31 275r72 282r57 285r55 289r12
+. 293r28 313r25
+86f19 tol{70|13F8} 62|207b17 269r52 282r69 285r67 289r24 293r40 318r32
+86b42 proj{boolean} 62|207b40 250r10 275r18
+87i19 rtoric{74|6I8} 62|208b17 227r48 228r23 229r22 230r32 231r42 231r57
+. 266r8 271r11
+87i42 w{74|6I8} 62|208b40 277m15
+88p19 v{25|17P8[47|4]} 62|209b17 276r57
+89r19 errorv{42|14R8} 62|210b17 273r30 276m68
+90r19 p{15|11R8} 62|211b17 217r28 233r36 260r32 261r8 269r38 281r10 282r21
+. 283r13 285r14 286r13 288r14 292r14 297r10 298r36 300r13 302r14 304r13 306r14
+. 310r14 313r15 318r18
+90r37 c{15|23R8} 62|211b35 270r60 295r19 298r38 302r16 306r16 310r16 318r16
+90i55 nbq{74|6I8} 62|211b53 252r13 255r23
+91p19 f 62|212b17 296r11 296r27 321r11 321r27
+91r42 s{56|18R8}
+95V19 Norm{42|14R8} 95>26 62|357r49 362r66 364r70 366r37
+95a26 x{25|16A8[55|4]}
+96V19 H{25|16A8[55|4]} 96>24 96>36 62|362r71 364r75 366r42
+96a24 x{25|16A8[55|4]}
+96r36 t{22|19R8[52|5]}
+97V19 dH{25|16A8[55|4]} 97>24 97>36 62|357r54
+97a24 x{25|16A8[55|4]}
+97r36 t{22|19R8[52|5]}
+98V19 dH{24|16A8[51|5]} 98>24 98>36 62|357r57 362r73 364r77 366r44
+98a24 x{25|16A8[55|4]}
+98r36 t{22|19R8[52|5]}
+100u13*Linear_Single_Conditioned_Reporting_Continue 101>19 102=19 102>41
+. 103>19 103>42 104>19 104=42 105=19 106=19 107>19 107>37 107>55 108^19 62|325b13
+. 450l7 450t51
+101p19 file{13|67P9} 62|326b17 370r30 372r26 374r23 390r12 399r32 420r14
+. 423r14
+102r19 s{56|18R8} 62|327b17 338r61 339r30 384r30 390r17 392m11 392r11 394r23
+. 395r49 397r29 400r36 400r64 401r18 402r20 407m19 410m12 413m12 417m12 420r24
+. 420r32 421m17 422r29 423r19 425m34 429m12 433m12 437m12 440r17 447m17 448r29
+102r41 target{22|19R8[52|5]} 62|327b39 394r31 400r72 407r57 410r55 414r12
+. 418r28 440r25
+103f19 tol{70|13F8} 62|328b17 394r52 407r69 410r67 414r24 418r40 445r32
+103b42 proj{boolean} 62|328b40 369r10 400r18
+104i19 rtoric{74|6I8} 62|329b17 346r48 347r23 348r22 349r32 350r42 350r57
+. 391r8 396r11
+104i42 w{74|6I8} 62|329b40 402m15
+105p19 v{25|17P8[47|4]} 62|330b17 401r57
+106r19 errorv{42|14R8} 62|331b17 398r30 401m68
+107r19 p{15|11R8} 62|332b17 336r28 352r36 384r32 385r8 394r38 406r10 407r21
+. 408r13 410r14 411r13 413r14 417r14 424r10 425r36 427r13 429r14 431r13 433r14
+. 437r14 440r15 445r18
+107r37 c{15|23R8} 62|332b35 395r60 421r19 425r38 429r16 433r16 437r16 445r16
+107i55 nbq{74|6I8} 62|332b53 371r13 374r28
+108p19 f 62|333b17 422r11 422r27 448r11 448r27
+108r42 s{56|18R8}
+140V19 Norm{42|14R8} 140>26 62|466r51 469r57 471r61
+140a26 x{25|16A8[55|4]}
+141V19 H{25|16A8[55|4]} 141>24 141>36 62|469r62 471r66
+141a24 x{25|16A8[55|4]}
+141r36 t{22|19R8[52|5]}
+142V19 dH{25|16A8[55|4]} 142>24 142>36 62|466r56
+142a24 x{25|16A8[55|4]}
+142r36 t{22|19R8[52|5]}
+143V19 dH{24|16A8[51|5]} 143>24 143>36 62|466r59 469r64 471r68
+143a24 x{25|16A8[55|4]}
+143r36 t{22|19R8[52|5]}
+145u13*Linear_Multiple_Normal_Silent_Continue 146=19 147>19 147>47 147>51
+. 148>19 148>38 148>56 62|454b13 502l7 502t45
+146a19 s{56|34A8} 62|455b17 460r40 463r26 485r32 487r34 487r36 488m17 489m15
+. 489r47 491m34 500m15
+147r19 target{22|19R8[52|5]} 62|456b17 486r25 488r46
+147f47 tol{70|13F8} 62|456b45 486r46 488r58 498r32
+147f51 dist_sols{70|13F8} 62|456b49 488r62 489r23 500r23
+148b19 proj{boolean} 62|457b17 478r10
+148r38 p{15|11R8} 62|457b36 461r28 485r34 486r32 488r19 491r69 493r17 498r18
+148r56 c{15|23R8} 62|457b54 487r54 489r33 498r16
+152V19 Norm{42|14R8} 152>26 62|516r51 519r60 521r64
+152a26 x{25|16A8[55|4]}
+153V19 H{25|16A8[55|4]} 153>24 153>36 62|519r65 521r69
+153a24 x{25|16A8[55|4]}
+153r36 t{22|19R8[52|5]}
+154V19 dH{25|16A8[55|4]} 154>24 154>36 62|516r56
+154a24 x{25|16A8[55|4]}
+154r36 t{22|19R8[52|5]}
+155V19 dH{24|16A8[51|5]} 155>24 155>36 62|516r59 519r67 521r71
+155a24 x{25|16A8[55|4]}
+155r36 t{22|19R8[52|5]}
+157u13*Linear_Multiple_Normal_Reporting_Continue 158>19 158=40 159>19 159>47
+. 159>51 160>19 160>38 160>56 62|504b13 556l7 556t48
+158p19 file{13|67P9} 62|505b17 537r14 542r14 543r15 554r15
+158a40 s{56|34A8} 62|505b38 510r40 512r26 535r32 536r14 540r34 540r36 541m17
+. 543m20 543r52 545m34 554m20
+159r19 target{22|19R8[52|5]} 62|506b17 539r25 541r46
+159f47 tol{70|13F8} 62|506b45 539r46 541r58 552r32
+159f51 dist_sols{70|13F8} 62|506b49 541r62 543r28 554r28
+160b19 proj{boolean} 62|507b17 528r10
+160r38 p{15|11R8} 62|507b36 511r28 535r34 539r32 541r19 545r69 547r17 552r18
+160r56 c{15|23R8} 62|507b54 540r54 543r38 552r16
+164V19 Norm{42|14R8} 164>26 62|570r51 573r62 575r66
+164a26 x{25|16A8[55|4]}
+165V19 H{25|16A8[55|4]} 165>24 165>36 62|573r67 575r71
+165a24 x{25|16A8[55|4]}
+165r36 t{22|19R8[52|5]}
+166V19 dH{25|16A8[55|4]} 166>24 166>36 62|570r56
+166a24 x{25|16A8[55|4]}
+166r36 t{22|19R8[52|5]}
+167V19 dH{24|16A8[51|5]} 167>24 167>36 62|570r59 573r69 575r73
+167a24 x{25|16A8[55|4]}
+167r36 t{22|19R8[52|5]}
+169u13*Linear_Multiple_Conditioned_Silent_Continue 170=19 171>19 171>47 171>51
+. 172>19 172>38 172>56 62|558b13 606l7 606t50
+170a19 s{56|34A8} 62|559b17 564r40 566r26 589r32 591r34 591r36 592m17 593m15
+. 593r47 595m34 604m15
+171r19 target{22|19R8[52|5]} 62|560b17 590r25 592r46
+171f47 tol{70|13F8} 62|560b45 590r46 592r58 602r32
+171f51 dist_sols{70|13F8} 62|560b49 592r62 593r23 604r23
+172b19 proj{boolean} 62|561b17 582r10
+172r38 p{15|11R8} 62|561b36 565r28 589r34 590r32 592r19 595r69 597r17 602r18
+172r56 c{15|23R8} 62|561b54 591r54 593r33 602r16
+176V19 Norm{42|14R8} 176>26 62|620r51 623r65 625r69
+176a26 x{25|16A8[55|4]}
+177V19 H{25|16A8[55|4]} 177>24 177>36 62|623r70 625r74
+177a24 x{25|16A8[55|4]}
+177r36 t{22|19R8[52|5]}
+178V19 dH{25|16A8[55|4]} 178>24 178>36 62|620r56
+178a24 x{25|16A8[55|4]}
+178r36 t{22|19R8[52|5]}
+179V19 dH{24|16A8[51|5]} 179>24 179>36 62|620r59 623r72 625r76
+179a24 x{25|16A8[55|4]}
+179r36 t{22|19R8[52|5]}
+181u13*Linear_Multiple_Conditioned_Reporting_Continue 182>19 182=40 183>19
+. 183>47 183>51 184>19 184>38 184>56 62|608b13 660l7 660t53
+182p19 file{13|67P9} 62|609b17 641r14 646r14 647r15 658r15
+182a40 s{56|34A8} 62|609b38 614r40 616r26 639r32 640r14 644r34 644r36 645m17
+. 647m20 647r52 649m34 658m20
+183r19 target{22|19R8[52|5]} 62|610b17 643r25 645r46
+183f47 tol{70|13F8} 62|610b45 643r46 645r58 656r32
+183f51 dist_sols{70|13F8} 62|610b49 645r62 647r28 658r28
+184b19 proj{boolean} 62|611b17 632r10
+184r38 p{15|11R8} 62|611b36 615r28 639r34 643r32 645r19 649r69 651r17 656r18
+184r56 c{15|23R8} 62|611b54 644r54 647r38 656r16
+208V19 Norm{42|14R8} 208>26 62|684r63 687r59 689r63
+208a26 x{25|16A8[55|4]}
+209V19 H{25|16A8[55|4]} 209>24 209>36 62|687r64 689r68
+209a24 x{25|16A8[55|4]}
+209r36 t{22|19R8[52|5]}
+210V19 dH{25|16A8[55|4]} 210>24 210>36 62|684r68
+210a24 x{25|16A8[55|4]}
+210r36 t{22|19R8[52|5]}
+211V19 dH{24|16A8[51|5]} 211>24 211>36 62|684r71 687r66 689r70
+211a24 x{25|16A8[55|4]}
+211r36 t{22|19R8[52|5]}
+213u13*Circular_Single_Normal_Reporting_Continue 214>19 214=40 215>19 215>47
+. 215>51 216<19 216>39 217<19 217<23 218>19 218>38 218>56 62|664b13 731l7
+. 731t48
+214p19 file{13|67P9} 62|665b17 698r12 709r14 711r34 712r30 714r14
+214r40 s{56|18R8} 62|665b38 672r48 676r56 681r30 681r63 693r14 693r39 694r23
+. 696r21 696r47 698r17 699r12 702r23 702r45 704r33 704r41 706m19 706r30 709r24
+. 709r32 711m39 712m35 714r19 716m13
+215r19 target{22|19R8[52|5]} 62|666b17 672r58 703r44 704r70
+215f47 tol{70|13F8} 62|666b45 703r56 705r38 717r42
+215f51 epslop{70|13F8} 62|666b49 717r35
+216i19 wc{77|7I8} 62|667b17 692m5 722m5
+216i39 max_wc{77|7I8} 62|667b37 718r47
+217a19 sum{25|16A8[55|4]} 62|668b17 727m11
+217a23 all_sum{25|16A8[55|4]} 62|668b21 724m11 729m15
+218b19 proj{boolean} 62|669b17 710r10
+218r38 p{15|11R8} 62|669b36 675r34 695r8 700r12 716r15 720r17
+218r56 c{15|23R8} 62|669b54 699r23 711r41 712r37 716r17
+222V19 Norm{42|14R8} 222>26 62|753r63 756r64 758r68
+222a26 x{25|16A8[55|4]}
+223V19 H{25|16A8[55|4]} 223>24 223>36 62|756r69 758r73
+223a24 x{25|16A8[55|4]}
+223r36 t{22|19R8[52|5]}
+224V19 dH{25|16A8[55|4]} 224>24 224>36 62|753r68
+224a24 x{25|16A8[55|4]}
+224r36 t{22|19R8[52|5]}
+225V19 dH{24|16A8[51|5]} 225>24 225>36 62|753r71 756r71 758r75
+225a24 x{25|16A8[55|4]}
+225r36 t{22|19R8[52|5]}
+227u13*Circular_Single_Conditioned_Reporting_Continue 228>19 228=40 229>19
+. 229>47 229>51 230<19 230>39 231<19 231<23 232>19 232>38 232>56 62|733b13
+. 800l7 800t53
+228p19 file{13|67P9} 62|734b17 767r12 778r14 780r34 781r30 783r14
+228r40 s{56|18R8} 62|734b38 744r48 745r56 750r30 750r63 762r14 762r39 763r23
+. 765r21 767r17 768r11 771r22 771r44 773r33 773r41 775m19 775r30 778r24 778r32
+. 780m39 781m35 783r19 785m12
+229r19 target{22|19R8[52|5]} 62|735b17 744r58 772r43 774r33
+229f47 tol{70|13F8} 62|735b45 772r55 774r45 786r41
+229f51 epslop{70|13F8} 62|735b49 786r34
+230i19 wc{77|7I8} 62|736b17 761m5 791m5
+230i39 max_wc{77|7I8} 62|736b37 787r46
+231a19 sum{25|16A8[55|4]} 62|737b17 796m11 798m15
+231a23 all_sum{25|16A8[55|4]} 62|737b21 793m11
+232b19 proj{boolean} 62|738b17 779r10
+232r38 p{15|11R8} 62|738b36 743r34 764r8 769r12 785r14 789r17
+232r56 c{15|23R8} 62|738b54 768r22 780r41 781r37 785r16
+X 62 quaddobl_path_trackers.adb
+26r40 s{56|18R8}
+28r5 old_t{22|19R8[52|5]} 57m34 82m40 82r40 86m18 86r18 90m18 90r18 94m18
+. 94r18
+28r11 prev_t{22|19R8[52|5]} 57m40 59r18 60r18 61r18 66r50 69r40 72r50 76r60
+. 82m46 82r46 86m24 86r24 90m24 90r24 94m24 94r24
+28r18 prev_t2{22|19R8[52|5]} 61m7 76r67 94m31 94r31
+28r26 prev_t1{22|19R8[52|5]} 60m7 72r57 77r12 90m31 90r31 94m39 94r39
+28r34 prev_t0{22|19R8[52|5]} 59m7 69r47 72r65 77r20 86m31 86r31 90m39 90r39
+. 94m47 94r47
+29a5 old_sol{25|16A8[55|4]} 57m54 82m53 82r53 86m39 86r39 90m47 90r47 94m55
+. 94r55
+29a13 prev_sol{25|16A8[55|4]} 57m62 59r39 60r39 61r39 66r31 69r21 72r21 76r21
+. 82m61 82r61 86m47 86r47 90m55 90r55 94m63 94r63
+29a22 prev_sol2{25|16A8[55|4]} 61m26 76r30 95m12 95r12
+29a32 prev_sol1{25|16A8[55|4]} 60m26 72r30 76r40 90m64 90r64 95m22 95r22
+29a42 prev_sol0{25|16A8[55|4]} 59m26 69r30 72r40 76r50 86m56 86r56 91m12
+. 91r12 95m32 95r32
+30a5 old_v{25|16A8[55|4]} 83m34 83r34
+30a11 prev_v{25|16A8[55|4]} 57m47 66r40 83m40 83r40
+30a18 vv{25|16A8[55|4]} 66m47 66r47 83m47 83r47
+31f5 step{70|13F8} 66r64 69r62 73r19 77r35 83m50 83r50 87m12 87r12 91m22
+. 91r22 95m42 95r42 97r32
+32i5 nsuccess{77|7I8} 83m55 83r55 87m17 87r17 91m27 91r27 95m47 95r47
+32i14 trial{77|7I8} 66m73 66r73 83m64 83r64 87m26 87r26 91m36 91r36 95m56
+. 95r56
+33b5 success{boolean} 63r61 66r23 83m70 83r70 87m32 87r32 91m42 91r42 95m62
+. 95r62
+35U15 Predictor[59|25] 66s9
+37U15 Corrector 37b15 37=27 37>49 54l9 54t18 79s7 104s7
+37r27 s{56|18R8} 48m30 50m26 52m28
+37r49 c{15|23R8} 48r32 50r28 52r30
+39U17 Affine_Corrector[57|62] 50s9
+41U17 Projective_Corrector[57|226] 48s9
+43U17 QRLS_Corrector[60|26] 52s9
+100r7 cp{15|23R8} 104r19
+114r40 s{56|18R8}
+116r5 old_t{22|19R8[52|5]} 145m34 173m40 173r40 177m18 177r18 181m18 181r18
+. 185m18 185r18
+116r11 prev_t{22|19R8[52|5]} 145m40 147r18 148r18 149r18 155r50 158r40 161r50
+. 165r60 173m46 173r46 177m24 177r24 181m24 181r24 185m24 185r24
+116r18 prev_t2{22|19R8[52|5]} 149m7 165r67 185m31 185r31
+116r26 prev_t1{22|19R8[52|5]} 148m7 161r57 166r12 181m31 181r31 185m39 185r39
+116r34 prev_t0{22|19R8[52|5]} 147m7 158r47 161r65 166r20 177m31 177r31 181m39
+. 181r39 185m47 185r47
+117a5 old_sol{25|16A8[55|4]} 145m54 173m53 173r53 177m39 177r39 181m47 181r47
+. 185m55 185r55
+117a13 prev_sol{25|16A8[55|4]} 145m62 147r39 148r39 149r39 155r31 158r21
+. 161r21 165r21 173m61 173r61 177m47 177r47 181m55 181r55 185m63 185r63
+117a22 prev_sol2{25|16A8[55|4]} 149m26 165r30 186m12 186r12
+117a32 prev_sol1{25|16A8[55|4]} 148m26 161r30 165r40 181m64 181r64 186m22
+. 186r22
+117a42 prev_sol0{25|16A8[55|4]} 147m26 158r30 161r40 165r50 177m56 177r56
+. 182m12 182r12 186m32 186r32
+118a5 old_v{25|16A8[55|4]} 174m34 174r34
+118a11 prev_v{25|16A8[55|4]} 145m47 155r40 174m40 174r40
+118a18 vv{25|16A8[55|4]} 155m47 155r47 174m47 174r47
+119f5 step{70|13F8} 155r64 158r62 162r19 166r35 168r19 174m50 174r50 178m12
+. 178r12 182m22 182r22 186m42 186r42 188r32
+120i5 nsuccess{77|7I8} 174m55 174r55 178m17 178r17 182m27 182r27 186m47 186r47
+120i14 trial{77|7I8} 155m73 155r73 174m64 174r64 178m26 178r26 182m36 182r36
+. 186m56 186r56
+121b5 success{boolean} 152r61 155r23 174m70 174r70 178m32 178r32 182m42 182r42
+. 186m62 186r62
+123U15 Predictor[59|25] 155s9
+125U15 Corrector 125b15 125=27 125>49 142l9 142t18 169s7 195s7
+125r27 s{56|18R8} 136m35 138m31 140m33
+125r49 c{15|23R8} 136r37 138r33 140r35
+127U17 Affine_Corrector[57|76] 138s9
+129U17 Projective_Corrector[57|233] 136s9
+131U17 QRLS_Corrector[60|47] 140s9
+191r7 cp{15|23R8} 195r19
+212r40 s{56|18R8}
+214r5 old_t{22|19R8[52|5]} 260m34 298m40 298r40 302m18 302r18 306m18 306r18
+. 310m18 310r18
+214r11 prev_t{22|19R8[52|5]} 260m40 262r18 263r18 264r18 282r50 285r40 288r50
+. 292r60 298m46 298r46 302m24 302r24 306m24 306r24 310m24 310r24
+214r18 prev_t2{22|19R8[52|5]} 264m7 292r67 310m31 310r31
+214r26 prev_t1{22|19R8[52|5]} 263m7 288r57 293r12 306m31 306r31 310m39 310r39
+214r34 prev_t0{22|19R8[52|5]} 262m7 285r47 288r65 293r20 302m31 302r31 306m39
+. 306r39 310m47 310r47
+215a5 old_sol{25|16A8[55|4]} 260m54 298m53 298r53 302m39 302r39 306m47 306r47
+. 310m55 310r55
+215a13 prev_sol{25|16A8[55|4]} 260m62 262r39 263r39 264r39 282r31 285r21
+. 288r21 292r21 298m61 298r61 302m47 302r47 306m55 306r55 310m63 310r63
+215a22 prev_sol2{25|16A8[55|4]} 264m26 292r30 311m12 311r12
+215a32 prev_sol1{25|16A8[55|4]} 263m26 288r30 292r40 306m64 306r64 311m22
+. 311r22
+215a42 prev_sol0{25|16A8[55|4]} 262m26 285r30 288r40 292r50 302m56 302r56
+. 307m12 307r12 311m32 311r32
+216a5 old_v{25|16A8[55|4]} 299m34 299r34
+216a11 prev_v{25|16A8[55|4]} 260m47 282r40 299m40 299r40
+216a18 vv{25|16A8[55|4]} 282m47 282r47 299m47 299r47
+217f5 step{70|13F8} 282r64 285r62 289r19 293r35 299m50 299r50 303m12 303r12
+. 307m22 307r22 311m42 311r42 313r32
+218i5 nsuccess{77|7I8} 299m55 299r55 303m17 303r17 307m27 307r27 311m47 311r47
+218i14 trial{77|7I8} 282m73 282r73 299m64 299r64 303m26 303r26 307m36 307r36
+. 311m56 311r56
+219b5 success{boolean} 269r61 272r12 282r23 299m70 299r70 303m32 303r32 307m42
+. 307r42 311m62 311r62
+221f5 dls{70|13F8}
+221f9 stp{70|13F8}
+222f5 tolsing{70|13F8} 272r39
+224i5 r{74|6I8} 275m34 275r34
+225i5 er{74|6I8} 275m61 275r61 278m15
+226r5 zero{42|14R8} 228r33 231r67
+227a5 dt{25|16A8[47|4]} 276m26 276r26
+227a8 ds{25|16A8[47|4]} 276m29 276r29
+227a11 logs{25|16A8[47|4]} 276m32 276r32
+229a5 logx{27|14A8[49|5]} 276m37 276r37
+230a5 wvl0{27|14A8[49|5]} 276m42 276r42
+230a10 wvl1{27|14A8[49|5]} 276m47 276r47
+230a15 wvl2{27|14A8[49|5]} 276m52 276r52
+231a5 errv{25|16A8[47|4]} 276m63 276r63
+232i5 m{74|6I8} 234r25 267r22
+233i5 thresm{77|7I8} 236r26 275r54
+234i5 estm{74|6I8} 275m44 275r44
+235i5 fcnt{77|7I8} 275m23 275r23
+235i10 cntm{77|7I8} 275m49 275r49
+236i5 defer{77|7I8} 275m28 275r28
+238U15 Predictor[59|25] 282s9
+240U15 Corrector 240b15 240=27 240>49 257l9 257t18 295s7 320s7
+240r27 s{56|18R8} 251m30 253m26 255m27
+240r49 c{15|23R8} 251r32 253r28 255r29
+242U17 Affine_Corrector[57|69] 253s9
+244U17 Projective_Corrector[57|240] 251s9
+246U17 SVD_Corrector[60|70] 255s9
+316r7 cp{15|23R8} 320r19
+333r40 s{56|18R8}
+335r5 old_t{22|19R8[52|5]} 384m34 425m40 425r40 429m18 429r18 433m18 433r18
+. 437m18 437r18
+335r11 prev_t{22|19R8[52|5]} 384m40 386r18 387r18 388r18 407r50 410r40 413r50
+. 417r60 425m46 425r46 429m24 429r24 433m24 433r24 437m24 437r24
+335r18 prev_t2{22|19R8[52|5]} 388m7 417r67 437m31 437r31
+335r26 prev_t1{22|19R8[52|5]} 387m7 413r57 418r12 433m31 433r31 437m39 437r39
+335r34 prev_t0{22|19R8[52|5]} 386m7 410r47 413r65 418r20 429m31 429r31 433m39
+. 433r39 437m47 437r47
+336f5 step{70|13F8} 407r64 410r62 414r19 418r35 420r19 426m50 426r50 430m12
+. 430r12 434m22 434r22 438m42 438r42 440r32
+337i5 nsuccess{77|7I8} 426m55 426r55 430m17 430r17 434m27 434r27 438m47 438r47
+337i14 trial{77|7I8} 407m73 407r73 426m64 426r64 430m26 430r26 434m36 434r36
+. 438m56 438r56
+338a5 old_sol{25|16A8[55|4]} 384m54 425m53 425r53 429m39 429r39 433m47 433r47
+. 437m55 437r55
+338a13 prev_sol{25|16A8[55|4]} 384m62 386r39 387r39 388r39 407r31 410r21
+. 413r21 417r21 425m61 425r61 429m47 429r47 433m55 433r55 437m63 437r63
+338a22 prev_sol2{25|16A8[55|4]} 388m26 417r30 438m12 438r12
+338a32 prev_sol1{25|16A8[55|4]} 387m26 413r30 417r40 433m64 433r64 438m22
+. 438r22
+338a42 prev_sol0{25|16A8[55|4]} 386m26 410r30 413r40 417r50 429m56 429r56
+. 434m12 434r12 438m32 438r32
+339a5 old_v{25|16A8[55|4]} 426m34 426r34
+339a11 prev_v{25|16A8[55|4]} 384m47 407r40 426m40 426r40
+339a18 vv{25|16A8[55|4]} 407m47 407r47 426m47 426r47
+340b5 success{boolean} 394r61 397r12 407r23 426m70 426r70 430m32 430r32 434m42
+. 434r42 438m62 438r62
+341f5 tolsing{70|13F8} 397r39
+343i5 r{74|6I8} 400m34 400r34
+344i5 er{74|6I8} 400m61 400r61 403m15
+345r5 zero{42|14R8} 347r33 350r67
+346a5 dt{25|16A8[47|4]} 401m26 401r26
+346a8 ds{25|16A8[47|4]} 401m29 401r29
+346a11 logs{25|16A8[47|4]} 401m32 401r32
+348a5 logx{27|14A8[49|5]} 401m37 401r37
+349a5 wvl0{27|14A8[49|5]} 401m42 401r42
+349a10 wvl1{27|14A8[49|5]} 401m47 401r47
+349a15 wvl2{27|14A8[49|5]} 401m52 401r52
+350a5 errv{25|16A8[47|4]} 401m63 401r63
+351i5 m{74|6I8} 353r25 392r22
+352i5 thresm{77|7I8} 355r26 400r54
+353i5 estm{74|6I8} 400m44 400r44
+354i5 fcnt{77|7I8} 400m23 400r23
+354i10 cntm{77|7I8} 400m49 400r49
+355i5 defer{77|7I8} 400m28 400r28
+357U15 Predictor[59|25] 407s9
+359U15 Corrector 359b15 359=27 359>49 381l9 381t18 421s7 447s7
+359r27 s{56|18R8} 370m35 372m31 374m32
+359r49 c{15|23R8} 370r37 372r33 374r34
+361U17 Affine_Corrector[57|84] 372s9
+363U17 Projective_Corrector[57|247] 370s9
+365U17 SVD_Corrector[60|91] 374s9
+443r7 cp{15|23R8} 447r19
+459r5 t{22|19R8[52|5]} 485m36 486r23 488m37 488r37 491m54 491r54
+459r7 old_t{22|19R8[52|5]} 485m38 491m56 491r56
+459r13 prev_t{22|19R8[52|5]} 485m44 488r39 491m62 491r62
+460a5 sa{54|33A8} 477r12 485m51 485r51 488m26 488r26 489m49 489r49 491m36
+. 491r36
+460a8 old_sa{54|33A8} 485m54 485r54 491m39 491r39
+460a15 prev_sa{54|33A8} 485m61 485r61 488r29 491m46 491r46
+461f5 step{70|13F8} 488r53 491m71 491r71 493r10
+462i5 nsuccess{77|7I8} 492m40 492r40
+462i14 trial{77|7I8} 488r72 492m49 492r49
+463i5 pivot{74|6I8} 489m17 489r17 492r34 500m17 500r17
+464b5 success{boolean} 486r55 490m7 492r55
+464b13 fail{boolean} 489m35 490r22 500m36
+466U15 Predictor[59|150] 488s7
+468U15 Affine_Corrector[57|104] 480s13
+470U15 Projective_Corrector[57|254] 479s13
+473U15 Correct 473b15 473=25 474=25 474>51 475>25 475<43 482l9 482t16 489s7
+. 500s7
+473a25 s{56|34A8} 477m15 479m34 480m30
+474i25 pivot{74|6I8} 479m36 480m32
+474f51 dist_sols{70|13F8} 479r42 480r38
+475r25 c{15|23R8} 479r52 480r48
+475b43 fail{boolean} 479m54 480m50
+496r7 cp{15|23R8} 500r33
+509r5 t{22|19R8[52|5]} 535m36 539r23 541m37 541r37 542r24 545m54 545r54
+509r7 old_t{22|19R8[52|5]} 535m38 545m56 545r56
+509r13 prev_t{22|19R8[52|5]} 535m44 541r39 545m62 545r62
+510a5 sa{54|33A8} 527r12 535m51 535r51 537r19 541m26 541r26 543m54 543r54
+. 545m36 545r36
+510a8 old_sa{54|33A8} 535m54 535r54 545m39 545r39
+510a15 prev_sa{54|33A8} 535m61 535r61 541r29 545m46 545r46
+511f5 step{70|13F8} 541r53 542r19 545m71 545r71 547r10
+512i5 pivot{74|6I8} 543m22 543r22 546r34 554m22 554r22
+513i5 nsuccess{77|7I8} 546m40 546r40
+513i14 trial{77|7I8} 541r72 546m49 546r49
+514b5 success{boolean} 539r55 544m7 546r55
+514b13 fail{boolean} 543m40 544r22 554m41
+516U15 Predictor[59|150] 541s7
+518U15 Affine_Corrector[57|113] 530s13
+520U15 Projective_Corrector[57|263] 529s13
+523U15 Correct 523b15 523>25 523=46 524=25 524>51 525>25 525<43 532l9 532t16
+. 543s7 554s7
+523p25 file{13|67P9} 529r34 530r30
+523a46 s{56|34A8} 527m15 529m39 530m35
+524i25 pivot{74|6I8} 529m41 530m37
+524f51 dist_sols{70|13F8} 529r47 530r43
+525r25 c{15|23R8} 529r57 530r53
+525b43 fail{boolean} 529m59 530m55
+536i9 k<long_integer> 537r22
+550r7 cp{15|23R8} 554r38
+563r5 t{22|19R8[52|5]} 589m36 590r23 592m37 592r37 595m54 595r54
+563r7 old_t{22|19R8[52|5]} 589m38 595m56 595r56
+563r13 prev_t{22|19R8[52|5]} 589m44 592r39 595m62 595r62
+564a5 sa{54|33A8} 581r12 589m51 589r51 592m26 592r26 593m49 593r49 595m36
+. 595r36
+564a8 old_sa{54|33A8} 589m54 589r54 595m39 595r39
+564a15 prev_sa{54|33A8} 589m61 589r61 592r29 595m46 595r46
+565f5 step{70|13F8} 592r53 595m71 595r71 597r10
+566i5 pivot{74|6I8} 593m17 593r17 596r34 604m17 604r17
+567i5 nsuccess{77|7I8} 596m40 596r40
+567i14 trial{77|7I8} 592r72 596m49 596r49
+568b5 success{boolean} 590r55 594m7 596r55
+568b13 fail{boolean} 593m35 594r22 604m36
+570U15 Predictor[59|150] 592s7
+572U15 Affine_Corrector[57|122] 584s13
+574U15 Projective_Corrector[57|272] 583s13
+577U15 Correct 577b15 577=25 578=25 578>51 579>25 579<43 586l9 586t16 593s7
+. 604s7
+577a25 s{56|34A8} 581m15 583m34 584m30
+578i25 pivot{74|6I8} 583m36 584m32
+578f51 dist_sols{70|13F8} 583r42 584r38
+579r25 c{15|23R8} 583r52 584r48
+579b43 fail{boolean} 583m54 584m50
+600r7 cp{15|23R8} 604r33
+613r5 t{22|19R8[52|5]} 639m36 643r23 645m37 645r37 646r24 649m54 649r54
+613r7 old_t{22|19R8[52|5]} 639m38 649m56 649r56
+613r13 prev_t{22|19R8[52|5]} 639m44 645r39 649m62 649r62
+614a5 sa{54|33A8} 631r12 639m51 639r51 641r19 645m26 645r26 647m54 647r54
+. 649m36 649r36
+614a8 old_sa{54|33A8} 639m54 639r54 649m39 649r39
+614a15 prev_sa{54|33A8} 639m61 639r61 645r29 649m46 649r46
+615f5 step{70|13F8} 645r53 646r19 649m71 649r71 651r10
+616i5 pivot{74|6I8} 647m22 647r22 650r34 658m22 658r22
+617i5 nsuccess{77|7I8} 650m40 650r40
+617i14 trial{77|7I8} 645r72 650m49 650r49
+618b5 success{boolean} 643r55 648m7 650r55
+618b13 fail{boolean} 647m40 648r22 658m41
+620U15 Predictor[59|150] 645s7
+622U15 Affine_Corrector[57|131] 634s13
+624U15 Projective_Corrector[57|281] 633s13
+627U15 Correct 627b15 627>25 627=46 628=25 628>51 629>25 629<43 636l9 636t16
+. 647s7 658s7
+627p25 file{13|67P9} 633r34 634r30
+627a46 s{56|34A8} 631m15 633m39 634m35
+628i25 pivot{74|6I8} 633m41 634m37
+628f51 dist_sols{70|13F8} 633r47 634r43
+629r25 c{15|23R8} 633r57 634r53
+629b43 fail{boolean} 633m59 634m55
+640i9 k<long_integer> 641r22
+654r7 cp{15|23R8} 658r38
+671r5 old_t{22|19R8[52|5]} 693m5 716m19 716r19
+671r11 prev_t{22|19R8[52|5]} 696m11 703r23 716m25 716r25
+672r5 t0_min_target{22|19R8[52|5]} 703r30 704r56
+673f5 theta{70|13F8} 702m53 702r53 704m49 704r49 717m46 717r46
+673f11 old_theta{70|13F8} 717m52 717r52
+674f5 twopi{70|13F8} 675r28 717r29
+675f5 step{70|13F8} 703r51 705r33 709r19 718m13 718r13 720r10
+676a5 old_solution{25|16A8[55|4]} 693m23 716m47 716r47
+676a18 prev_solution{25|16A8[55|4]} 696m30 702r31 716m60 716r60
+676a32 start_solution{25|16A8[55|4]} 694m5 716r32
+677i5 w_c{77|7I8} 718m43 718r43 722r11
+677i9 nsuccess{77|7I8} 718m18 718r18
+678b5 success{boolean} 718m59 718r59
+679b5 stop{boolean} 718m54 718r54 719r17
+680r5 a_half{42|14R8} 681r55
+681a5 w_sum{25|16A8[55|4]} 717m13 717r13 727r18
+681a11 w_all_sum{25|16A8[55|4]} 717m19 717r19 724r22 729r26
+682i5 n_sum{77|7I8} 718m27 718r27 726r8 727r48
+682i11 n_all_sum{77|7I8} 718m33 718r33 723r8 724r56 728r12 729r60
+684U15 T_C_Predictor[63|423] 704s19
+686U15 Affine_Corrector[57|76] 712s13
+688U15 Projective_Corrector[57|233] 711s13
+740r5 old_t{22|19R8[52|5]} 762m5 785m18 785r18
+740r11 prev_t{22|19R8[52|5]} 765m11 772r22 785m24 785r24
+741f5 theta{70|13F8} 771m52 771r52 773m49 773r49 786m45 786r45
+741f11 old_theta{70|13F8} 786m51 786r51
+742f5 twopi{70|13F8} 743r28 786r28
+743f5 step{70|13F8} 772r50 774r40 778r19 787m12 787r12 789r10
+744r5 t0_min_target{22|19R8[52|5]} 772r29 773r55
+745a5 old_solution{25|16A8[55|4]} 762m23 765r47 785m46 785r46
+745a18 prev_solution{25|16A8[55|4]} 765m30 771r30 785m59 785r59
+745a32 start_solution{25|16A8[55|4]} 763m5 785r31
+746i5 w_c{77|7I8} 787m42 787r42 791r11
+746i9 nsuccess{77|7I8} 787m17 787r17
+747b5 success{boolean} 787m58 787r58
+748b5 stop{boolean} 787m53 787r53 788r17
+749r5 a_half{42|14R8} 750r55
+750a5 w_sum{25|16A8[55|4]} 786m12 786r12 796r18
+750a11 w_all_sum{25|16A8[55|4]} 786m18 786r18 793r22 798r22
+751i5 n_sum{77|7I8} 787m26 787r26 795r8 796r48
+751i11 n_all_sum{77|7I8} 787m32 787r32 792r8 793r56 797r12 798r56
+753U15 T_C_Predictor[63|423] 773s19
+755U15 Affine_Corrector[57|84] 781s13
+757U15 Projective_Corrector[57|247] 780s13
+X 63 quaddobl_predictors.ads
+9K9*QuadDobl_Predictors 62|9w6 9r46 63|485e24
+280U13*Secant_Circular_Predictor 62|701s19 770s19
+423u13*Tangent_Circular_Predictor 62|684r36 753r36
+X 69 standard_data_on_path.ads
+13K9*Standard_Data_on_Path 62|15w6 101r13 192r13 317r13 444r13 497r13 551r13
+. 601r13 655r13 69|367e26
+87V12*End_Game_Corrector_Parameters{15|23R8} 62|101s35 192s35 317s35 444s35
+. 497s35 551s35 601s35 655s35
+X 70 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 61|4w6 4r46 70|58e30
+13F8*double_float<long_float> 61|59r28 73r28 86r28 103r28 147r66 159r66 171r66
+. 183r66 215r63 229r63 62|24r26 31r12 112r26 119r12 207r26 217r12 221r15
+. 222r24 328r26 336r12 341r24 456r64 461r12 474r66 506r64 511r12 524r66 560r64
+. 565r12 578r66 610r64 615r12 628r66 666r61 673r23 674r22 675r12 724r43 727r35
+. 729r47 735r61 741r23 742r22 743r12 793r43 796r35 798r43
+X 74 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 61|3w6 3r46 74|45e29
+6I8*integer32<long_integer> 61|60r64 74r64 87r31 87r53 90r64 104r31 104r53
+. 107r64 62|25r62 113r62 208r29 208r51 211r62 224r9 225r10 232r18 234r12
+. 329r29 329r51 332r62 343r9 344r10 351r18 353r12 463r13 474r40 512r13 524r40
+. 566r13 578r40 616r13 628r40
+X 75 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 62|2w6 2r46 75|47e32
+X 76 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 62|4w6 674r42 742r42 76|64e36
+11N3*PI 62|674r74 742r74
+X 77 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 61|2w6 2r46 77|30e29
+7I8*natural32<long_integer> 61|216r28 216r51 230r28 230r51 62|32r22 120r22
+. 218r22 233r23 235r17 236r13 337r22 352r23 354r17 355r13 462r22 513r22 567r22
+. 617r22 667r26 667r49 677r20 682r23 736r26 736r49 746r20 751r23
+X 78 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 62|1w6 1r46 78|35e32
+X 99 text_io.ads
+27K9*Text_IO=27:29 61|1w6 1r46
+

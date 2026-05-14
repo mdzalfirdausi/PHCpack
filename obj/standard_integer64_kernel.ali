@@ -1,0 +1,143 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_integer64_kernel%b  standard_integer64_kernel.adb  5bdd5c46 NE OO PK
+W standard_integer64_linear_solvers%s  standard_integer64_linear_solvers.ads  standard_integer64_linear_solvers.ali
+W standard_integer_kernel%s  standard_integer_kernel.adb  standard_integer_kernel.ali
+W standard_integer_norms%s  standard_integer_norms.adb  standard_integer_norms.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_integer64_kernel%s  standard_integer64_kernel.ads  53529d4c EE NE OO PK
+W standard_integer64_matrices%s  standard_integer64_matrices.ads  standard_integer64_matrices.ali
+W standard_integer64_vectors%s  standard_integer64_vectors.ads  standard_integer64_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D standard64_common_divisors.ads  20260513024558 d6300ee4 standard64_common_divisors%s
+D standard_integer64_kernel.ads  20260513024558 e5472ceb standard_integer64_kernel%s
+D standard_integer64_kernel.adb  20260513024558 895b9da8 standard_integer64_kernel%b
+D standard_integer64_linear_solvers.ads  20260513024558 261c3465 standard_integer64_linear_solvers%s
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_ring-ddomain.ads  20260513024558 592f7659 standard_integer64_ring.ddomain%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_kernel.ads  20260513024558 b90d39c5 standard_integer_kernel%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_norms.ads  20260513024558 a8d0e0a5 standard_integer_norms%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [rank_upper standard_integer64_kernel 12 12 none]
+G c Z s b [pivots_in_upper standard_integer64_kernel 17 13 none]
+G c Z s b [normalize_sign standard_integer64_kernel 34 13 none]
+G c Z s b [upper_kernel standard_integer64_kernel 40 13 none]
+G c Z s b [kernel standard_integer64_kernel 58 13 none]
+G r c none [normalize_sign standard_integer64_kernel 34 13 none] [min standard_integer64_vectors 60 13 4_1]
+G r c none [upper_kernel standard_integer64_kernel 40 13 none] [complement standard_integer_kernel 44 12 none]
+G r c none [upper_kernel standard_integer64_kernel 40 13 none] [solve0 standard_integer64_linear_solvers 144 13 8_1]
+G r c none [upper_kernel standard_integer64_kernel 40 13 none] [normalize standard_integer_norms 19 13 none]
+G r c none [upper_kernel standard_integer64_kernel 40 13 none] [min standard_integer64_vectors 60 13 4_1]
+G r c none [kernel standard_integer64_kernel 58 13 none] [upper_triangulate standard_integer64_linear_solvers 41 13 8_1]
+G r c none [kernel standard_integer64_kernel 58 13 none] [complement standard_integer_kernel 44 12 none]
+G r c none [kernel standard_integer64_kernel 58 13 none] [solve0 standard_integer64_linear_solvers 144 13 8_1]
+G r c none [kernel standard_integer64_kernel 58 13 none] [normalize standard_integer_norms 19 13 none]
+G r c none [kernel standard_integer64_kernel 58 13 none] [min standard_integer64_vectors 60 13 4_1]
+X 3 generic_integer_linear_solvers.ads
+41U13*Upper_Triangulate 9|96s5[10|8]
+144U13*Solve0 9|74s7[10|8]
+X 4 generic_matrices.ads
+16A8*Matrix(18|7I8)<18|6I8><18|6I8> 8|12r29[11|5] 17r38[11|5] 40r35[11|5]
+. 58r29[11|5] 9|7r29[11|5] 23r38[11|5] 54r35[11|5] 58r9[11|5] 59r9[11|5]
+. 85r14[11|5] 88r29[11|5] 92r9[11|5]
+17P8*Link_to_Matrix(16A8[11|5]) 8|42r36[11|5] 59r49[11|5] 9|56r36[11|5] 89r49[11|5]
+X 5 generic_vectors.ads
+16A8*Vector(18|6I8)<18|6I8> 8|18r64[20|4] 34r68[14|4] 41r60[20|4] 9|24r64[20|4]
+. 42r68[14|4] 55r60[20|4] 60r36[14|4] 61r43[20|4] 93r39[20|4]
+60U13*Min 9|51s32[14|4]
+X 8 standard_integer64_kernel.ads
+6K9*Standard_Integer64_Kernel 72l5 72e30 9|5b14 104l5 104t30
+12V12*Rank_Upper{18|6I8} 12>25 9|7b12 21l7 21t17 97s10
+12a25 U{4|16A8[11|5]} 9|7b25 10r26 13r14 14r22 14r41 17r25
+17U13*Pivots_in_Upper 17>31 17<46 18<31 9|23b13 40l7 40t22 98s5
+17a31 U{4|16A8[11|5]} 9|23b31 26r26 32r14 33r22 33r41 36r25
+17i46 rank{18|6I8} 9|23b46 38m7
+18a31 p{5|16A8[20|4]} 9|24b31 29r14 30m7 37m7
+34U13*Normalize_Sign 34=30 9|42b13 52l7 52t21 76s7
+34a30 v{5|16A8[14|4]} 9|42b30 44r14 45r10 47r13 51m36
+40U13*Upper_Kernel 40>28 40>43 40>45 41>28 42<28 9|54b13 86l7 86t19 100s11
+40a28 U{4|16A8[11|5]} 9|54b28 67r19 72r27
+40i43 n{18|6I8} 9|54b43 58r19 58r24 61r53 62r45 77r19
+40i45 r{18|6I8} 9|54b45 58r26 59r19 59r24 61r55 62r47 65r17 66r19 80r19
+41a28 p{5|16A8[20|4]} 9|55b28 62r49 67r23 81r11
+42p28 V{4|17P8[11|5]} 9|56b28 85m5
+58U13*Kernel 58>22 59<22 59<41 9|88b13 102l7 102t13
+58a22 A{4|16A8[11|5]} 9|88b22 91r31 92r16 92r27 92r42 93r46
+59i22 r{18|6I8} 9|89b22 97m5 98m23 99r8 100r28
+59p41 V{4|17P8[11|5]} 9|89b41 100m37
+X 9 standard_integer64_kernel.adb
+9i5 res{18|6I8} 18m7 20r12
+10i5 pivot{18|6I8} 14r13 14r45 15m9 15r18 17r17
+13i9 i<long_integer> 14r43 18r14
+26i5 pivot{18|6I8} 33r13 33r45 34m9 34r18 36r17 37r15
+29i9 i<long_integer> 30r9
+32i9 i<long_integer> 33r43 37r9 38r15
+44i9 i<long_integer> 45r12 47r15
+58a5 W{4|16A8[11|5]} 70r14 78m9 81m9 83m7 85r22
+59a5 B{4|16A8[11|5]} 60r43 67m9 71r16 72m9 72r13 74r14
+60a5 x{5|16A8[14|4]} 74m16 74r16 75m17 75r17 76m22 76r22 81r22 83r20 83r22
+61a5 q{5|16A8[20|4]} 72r31 83r9
+65i9 j<long_integer> 67r13 67r25
+66i11 i<long_integer> 67r11 67r21
+70i9 k<long_integer> 72r33 78r13 81r16 83r11 83r14
+71i11 i<long_integer> 72r11 72r29
+77i11 i<long_integer> 78r11
+80i11 i<long_integer> 81r13 81r24
+91i5 n{18|6I8} 99r12 100r26
+92a5 U{4|16A8[11|5]} 96m23 96r23 97r21 98r21 100r24
+93a5 pivots{5|16A8[20|4]} 98m25 100r30
+X 10 standard_integer64_linear_solvers.ads
+8K9*Standard_Integer64_Linear_Solvers[3|15] 9|2w6 2r45
+X 11 standard_integer64_matrices.ads
+5K9*Standard_Integer64_Matrices[4|9] 8|4w6 4r45
+X 14 standard_integer64_vectors.ads
+4K9*Standard_Integer64_Vectors[5|8] 8|3w6 34r41 9|42r41 51r5 60r9
+X 15 standard_integer_kernel.ads
+5K9*Standard_Integer_Kernel 9|3w6 62r10 15|84e28
+44V12*Complement{5|16A8[20|4]} 9|62s34
+X 17 standard_integer_norms.ads
+5K9*Standard_Integer_Norms 9|1w6 1r45 17|24e27
+19U13*Normalize 9|75s7
+X 18 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 8|1w6 1r45 18|45e29
+6I8*integer32<long_integer> 8|12r45 17r57 40r52 59r30 9|7r45 9r11 10r13 23r57
+. 26r13 54r52 89r30 91r18
+7I8*integer64<long_long_integer>
+X 20 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[5|8] 8|2w6 18r39 41r35 9|24r39 55r35 61r18 93r14
+

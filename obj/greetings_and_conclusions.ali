@@ -1,0 +1,137 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U greetings_and_conclusions%b  greetings_and_conclusions.adb  057e1672 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W greeting_banners%s	greeting_banners.adb	greeting_banners.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W time_stamps%s		time_stamps.adb		time_stamps.ali
+W write_number_of_tasks%s  write_number_of_tasks.adb  write_number_of_tasks.ali
+W write_seed_number%s	write_seed_number.adb	write_seed_number.ali
+
+U greetings_and_conclusions%s  greetings_and_conclusions.ads  7223d659 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-calend.ads		20250808065140 bf7f3cc9 ada.calendar%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D greeting_banners.ads	20260513024558 0470dd63 greeting_banners%s
+D greetings_and_conclusions.ads  20260513024558 ed9943d9 greetings_and_conclusions%s
+D greetings_and_conclusions.adb  20260513024558 d33d3331 greetings_and_conclusions%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D time_stamps.ads	20260513024558 5fcbb190 time_stamps%s
+D write_number_of_tasks.ads  20260513024558 2fb093e5 write_number_of_tasks%s
+D write_seed_number.ads	20260513024558 541c31a7 write_seed_number%s
+G a e
+G c Z s b [write_greeting greetings_and_conclusions 12 13 none]
+G c Z s b [write_conclusion greetings_and_conclusions 20 13 none]
+G c Z s b [write_conclusion greetings_and_conclusions 27 13 none]
+G r c none [write_greeting greetings_and_conclusions 12 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_conclusion greetings_and_conclusions 20 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [write_conclusion greetings_and_conclusions 20 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [write_conclusion greetings_and_conclusions 20 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [write_conclusion greetings_and_conclusions 20 13 none] [write_seed_number standard 3 11 none]
+G r c none [write_conclusion greetings_and_conclusions 20 13 none] [version greeting_banners 64 12 none]
+G r c none [write_conclusion greetings_and_conclusions 27 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [write_conclusion greetings_and_conclusions 27 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [write_conclusion greetings_and_conclusions 27 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [write_conclusion greetings_and_conclusions 27 13 none] [write_seed_number standard 3 11 none]
+G r c none [write_conclusion greetings_and_conclusions 27 13 none] [version greeting_banners 64 12 none]
+X 1 ada.ads
+18K9*Ada 22e8 13|1r6 21r35 29r35 14|27r35 30r29 30r50 46r56 49r29 49r50
+X 2 a-calend.ads
+36K13*Calendar 440e17 13|1w10 21r39 29r39 14|27r39 30r33 30r54 46r60 49r33
+. 49r54
+42I9*Time<226I9> 13|21r48 29r48 14|27r48 30r42 46r69 49r42
+56V13*Clock{42I9} 14|30s63 49s63
+226I9 Time_Rep<long_long_integer>
+X 10 a-textio.ads
+67P9*File_Type 13|28r27 14|46r27
+188V13*Standard_Output{67P9} 14|35s34 37s34 39s36 40s27 41s23
+277U14*New_Line 14|52s5
+284U14*New_Line 14|33s5
+508U14*Put 14|53s5 55s5
+515U14*Put 14|12s5 14s11 15s11 15s43 34s5 36s5
+555U14*Put_Line 14|57s5 61s5
+565U14*Put_Line 14|11s5 18s7 20s7 22s7 38s5 42s5
+X 12 greeting_banners.ads
+1K9*Greeting_Banners 221e21 14|5w6 11r14 42r14 61r19
+7a3*welcome{string} 14|11r31
+64V12*Version{string} 14|42s31 61s36
+X 13 greetings_and_conclusions.ads
+5K9*Greetings_and_Conclusions 35l5 35e30 14|7b14 64l5 64t30
+12U13*Write_Greeting 12>30 12>38 14|9b13 24l7 24t21
+12i30 nbtasks{17|7I8} 14|9b30 13r8 15r31
+12i38 precision{17|7I8} 14|9b38 17r8 19r11
+20U13*Write_Conclusion 21>17 21>54 14|26b13 43l7 43t23
+21i17 start_moment{2|42I9} 14|27b17 35r50 39r52
+21i54 nbtasks{17|7I8} 14|28b17 40r43
+27U13*Write_Conclusion 28>17 29>17 29>54 14|45b13 62l7 62t23
+28p17 file{10|67P9} 14|46b17 52r14 53r9 54r34 55r9 56r34 57r14 58r36 59r27
+. 60r23 61r14
+29i17 start_moment{2|42I9} 14|46b38 54r39 58r41
+29i54 nbtasks{17|7I8} 14|47b17 59r32
+X 14 greetings_and_conclusions.adb
+30i5 ended_moment{2|42I9} 37r50 39r65
+49i5 ended_moment{2|42I9} 56r39 58r54
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 13|3w6 3r46 17|30e29
+7I8*natural32<long_integer> 13|12r53 21r67 29r67 14|9r53 28r30 47r30
+X 18 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 14|1w6 1r45 18|35e32
+25U13*put 14|15s27
+X 33 text_io.ads
+27K9*Text_IO=27:29 13|2w6 2r46
+X 34 time_stamps.ads
+4K9*Time_Stamps 14|2w6 35r5 37r5 39r5 54r5 56r5 58r5 34|41e16
+29U13*Write_Time_Stamp 14|35s17 37s17 54s17 56s17
+34U13*Write_Elapsed_Time 14|39s17 58s17
+X 35 write_number_of_tasks.ads
+4U11*Write_Number_of_Tasks 14|4w6 40s5 59s5
+X 36 write_seed_number.ads
+3U11*Write_Seed_Number 14|3w6 41s5 60s5
+

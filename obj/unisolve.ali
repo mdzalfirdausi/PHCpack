@@ -1,0 +1,111 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U unisolve%b		unisolve.adb		53b8a175 NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W text_io%s		text_io.ads		text_io.ali
+W univariate_solvers_interface%s  univariate_solvers_interface.adb  univariate_solvers_interface.ali
+
+U unisolve%s		unisolve.ads		8c8754ac EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unisolve.ads		20260513024556 794bb7d4 unisolve%s
+D unisolve.adb		20260513024556 4d3f405e unisolve%b
+D univariate_solvers_interface.ads  20260513024556 9c0c1f5b univariate_solvers_interface%s
+G a e
+G c Z s b [unisolve standard 5 10 none]
+G r c none [unisolve standard 5 10 none] [standard_univariate_solver univariate_solvers_interface 11 12 none]
+G r c none [unisolve standard 5 10 none] [dobldobl_univariate_solver univariate_solvers_interface 32 12 none]
+G r c none [unisolve standard 5 10 none] [quaddobl_univariate_solver univariate_solvers_interface 53 12 none]
+G r c none [unisolve standard 5 10 none] [multprec_univariate_solver univariate_solvers_interface 74 12 none]
+G r c none [unisolve standard 5 10 none] [put standard_integer_numbers_io 26 13 none]
+X 9 a-textio.ads
+515U14*Put 36|24s20
+565U14*Put_Line 36|21s22 25s32 31s18
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 35|3w6 3r45
+17K11*C_DblArrs[15|44] 35|8r25 36|8r25
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 35|2w6 2r45
+13K11*C_intarrs[15|44] 35|6r25 7r25 36|6r25 7r25
+X 14 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 15 i-cpoint.ads
+47P9*Pointer(14|62I9) 35|6r35[12|13] 7r35[12|13] 8r35[11|17] 36|6r35[12|13]
+. 7r35[12|13] 8r35[11|17]
+X 17 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 35|1w6 1r45
+6I8*integer32<long_integer> 35|5r27 9r30 9r54 36|5r27 9r30 9r54 11r31
+X 18 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 36|2w6 2r46
+26U13*put 36|25s20
+X 34 text_io.ads
+27K9*Text_IO=27:29 36|1w6 1r46
+X 35 unisolve.ads
+5V10*unisolve{17|6I8} 5>21 6>21 7>21 8>21 9>21 36|5b10 33l5 33t13
+5i21 job{17|6I8} 36|5b21 16r10 25r24 32r25
+6p21 a{15|47P9[12|13]} 36|6b21 17r51 18r51 19r51 20r51
+7p21 b{15|47P9[12|13]} 36|7b21 17r53 18r53 19r53 20r53
+8p21 c{15|47P9[11|17]} 36|8b21 17r55 18r55 19r55 20r55
+9i21 vrblvl{17|6I8} 36|9b21 17r57 18r57 19r57 20r57
+X 36 unisolve.adb
+11V12 Handle_Jobs{17|6I8} 11b12 26l7 26t18 29s10
+X 37 univariate_solvers_interface.ads
+5K9*Univariate_Solvers_Interface 36|3w6 13r9 37|96e33
+11V12*Standard_Univariate_Solver{17|6I8} 36|17s24
+32V12*DoblDobl_Univariate_Solver{17|6I8} 36|18s24
+53V12*QuadDobl_Univariate_Solver{17|6I8} 36|19s24
+74V12*Multprec_Univariate_Solver{17|6I8} 36|20s24
+

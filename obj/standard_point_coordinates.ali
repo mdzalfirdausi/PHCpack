@@ -1,0 +1,191 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_point_coordinates%b  standard_point_coordinates.adb  d15832a9 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_point_coordinates%s  standard_point_coordinates.ads  59325c89 EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_point_coordinates.ads  20260513024556 bf29d9e1 standard_point_coordinates%s
+D standard_point_coordinates.adb  20260513024556 6e71eb48 standard_point_coordinates%b
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [affine_coordinates standard_point_coordinates 16 12 none]
+G c Z s b [projective_coordinates standard_point_coordinates 22 12 none]
+G c Z s b [max_norm standard_point_coordinates 28 13 none]
+G c Z s b [scale standard_point_coordinates 34 13 none]
+G c Z s b [affine_expand standard_point_coordinates 39 12 none]
+G c Z s b [affine_expand standard_point_coordinates 44 12 none]
+G c Z s b [affine_expand standard_point_coordinates 50 12 none]
+G c Z s b [projective_expand standard_point_coordinates 58 12 none]
+G c Z s b [inner_product standard_point_coordinates 65 12 none]
+G c Z s b [project standard_point_coordinates 70 12 none]
+G c Z s b [project standard_point_coordinates 77 12 none]
+G r c none [affine_coordinates standard_point_coordinates 16 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [projective_coordinates standard_point_coordinates 22 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [max_norm standard_point_coordinates 28 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [scale standard_point_coordinates 34 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [scale standard_point_coordinates 34 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [affine_expand standard_point_coordinates 39 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [affine_expand standard_point_coordinates 39 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [affine_expand standard_point_coordinates 44 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [affine_expand standard_point_coordinates 44 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [affine_expand standard_point_coordinates 50 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [affine_expand standard_point_coordinates 50 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [projective_expand standard_point_coordinates 58 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [projective_expand standard_point_coordinates 58 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [inner_product standard_point_coordinates 65 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [inner_product standard_point_coordinates 65 12 none] [conjugate standard_complex_numbers 20 12 none]
+G r c none [inner_product standard_point_coordinates 65 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [inner_product standard_point_coordinates 65 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [project standard_point_coordinates 70 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [project standard_point_coordinates 70 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [project standard_point_coordinates 70 12 none] [conjugate standard_complex_numbers 20 12 none]
+G r c none [project standard_point_coordinates 70 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [project standard_point_coordinates 70 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [project standard_point_coordinates 77 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [project standard_point_coordinates 77 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [project standard_point_coordinates 77 12 none] [conjugate standard_complex_numbers 20 12 none]
+G r c none [project standard_point_coordinates 77 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [project standard_point_coordinates 77 12 none] [Oadd standard_complex_numbers 51 12 none]
+X 2 generic_matrices.ads
+16A8*Matrix(6|11R8)<11|6I8><11|6I8> 13|50r44[5|5] 58r48[5|5] 77r38[5|5] 14|71r44[5|5]
+. 85r48[5|5] 122r38[5|5]
+X 3 generic_vectors.ads
+16A8*Vector(6|11R8)<11|6I8> 13|16r37[8|4] 16r53[8|4] 22r41[8|4] 22r57[8|4]
+. 28r31[8|4] 34r32[8|4] 39r54[8|4] 39r70[8|4] 44r34[8|4] 44r62[8|4] 50r32[8|4]
+. 50r60[8|4] 58r36[8|4] 58r64[8|4] 65r34[8|4] 70r28[8|4] 70r56[8|4] 77r26[8|4]
+. 77r54[8|4] 14|3r37[8|4] 3r53[8|4] 5r11[8|4] 14r41[8|4] 14r57[8|4] 16r11[8|4]
+. 24r31[8|4] 41r32[8|4] 52r54[8|4] 52r70[8|4] 54r20[8|4] 60r34[8|4] 60r62[8|4]
+. 62r11[8|4] 71r32[8|4] 71r60[8|4] 73r11[8|4] 85r36[8|4] 85r64[8|4] 87r11[8|4]
+. 99r34[8|4] 110r28[8|4] 110r56[8|4] 112r18[8|4] 113r11[8|4] 122r26[8|4]
+. 122r54[8|4] 124r11[8|4] 125r9[8|4]
+17P8*Link_to_Vector(16A8[8|4])
+29V13*"+"{16A8[8|4]} 14|54s41[8|4] 66s18[8|4]
+35V13*"-"{16A8[8|4]} 14|112s38[8|4]
+39V13*"*"{16A8[8|4]} 14|54s44[8|4] 66s24[8|4]
+X 4 generic_vecvecs.ads
+14A8*VecVec(3|17P8[8|4])<11|6I8> 13|44r46[9|5] 70r40[9|5] 14|60r46[9|5] 110r40[9|5]
+X 5 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[2|9] 13|6w6 6r45
+X 6 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 13|3w6 3r45
+11R8*Complex_Number 90e15 13|39r32 65r50 14|52r32 99r50 101r11
+18V12*Create{11R8} 14|19s15 49s15 101s29 132s17
+20V12*Conjugate{11R8} 14|105s25 134s33
+27V12*AbsVal{10|13F8} 14|31s12 33s14
+51V13*"+"{11R8} 14|79s26 93s26 105s18 134s26
+53V13*"-"{11R8} 14|129s20
+55V13*"*"{11R8} 14|79s32 91s21 93s32 105s24 134s32
+56V13*"/"{11R8} 14|9s21 44s19 47s19
+X 8 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[3|8] 13|4w6 4r45
+X 9 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[4|10] 13|5w6 5r45
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 13|2w6 2r45
+13F8*double_float<long_float> 13|29r55 14|25r55 27r11
+X 11 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 13|1w6 1r45
+6I8*integer32<long_integer> 13|29r34 34r49 14|25r34 41r49
+X 13 standard_point_coordinates.ads
+8K9*Standard_Point_Coordinates 84l5 84e31 14|1b14 140l5 140t31
+16V12*Affine_Coordinates{3|16A8[8|4]} 16>33 14|3b12 12l7 12t25
+16a33 x{3|16A8[8|4]} 14|3b33 5r21 9r17 9r22
+22V12*Projective_Coordinates{3|16A8[8|4]} 22>37 14|14b12 22l7 22t29
+22a37 x{3|16A8[8|4]} 14|14b37 16r21 20r9 20r21
+28U13*Max_Norm 28>24 29<24 29<45 14|24b13 39l7 39t15
+28a24 x{3|16A8[8|4]} 14|24b24 30r12 31r19 32r14 32r25 33r21
+29i24 ind{11|6I8} 14|25b24 30m5 31r21 36m9
+29f45 nrm{10|13F8} 14|25b45 31m5 34r16 35m9
+34U13*Scale 34=21 34>40 14|41b13 50l7 50t12
+34a21 x{3|16A8[8|4]} 14|41b21 43r14 44m7 44r15 44r20 46r21 47m7 47r15 47r20
+. 49m5
+34i40 ind{11|6I8} 14|41b40 43r23 44r22 46r14 47r22 49r7
+39V12*Affine_Expand{3|16A8[8|4]} 39>28 39>48 39>50 14|52b12 58l7 58t20
+39r28 c{6|11R8} 14|52b28 54r43
+39a48 b{3|16A8[8|4]} 14|52b48 54r27 54r39
+39a50 v{3|16A8[8|4]} 14|52b50 54r45
+44V12*Affine_Expand{3|16A8[8|4]} 44>28 44>30 44>42 14|60b12 69l7 69t20
+44a28 c{3|16A8[8|4]} 14|60b28 66r20
+44a30 b{3|16A8[8|4]} 14|60b30 62r18 62r30
+44a42 v{4|14A8[9|5]} 14|60b42 65r14 66r25
+50V12*Affine_Expand{3|16A8[8|4]} 50>28 50>40 14|71b12 83l7 83t20
+50a28 c{3|16A8[8|4]} 14|71b28 79r28
+50a40 p{2|16A8[5|5]} 14|71b40 73r18 77r17 78r19 79r33
+58V12*Projective_Expand{3|16A8[8|4]} 58>32 58>44 14|85b12 97l7 97t24
+58a32 c{3|16A8[8|4]} 14|85b32 91r17 93r28
+58a44 p{2|16A8[5|5]} 14|85b44 87r18 91r22 92r19 93r33
+65V12*Inner_Product{6|11R8} 65>28 65>30 14|99b12 108l7 108t20 117s17
+65a28 u{3|16A8[8|4]} 14|99b28 104r14 105r20
+65a30 v{3|16A8[8|4]} 14|99b30 105r35
+70V12*Project{3|16A8[8|4]} 70>22 70>24 70>36 14|110b12 120l7 120t14
+70a22 x{3|16A8[8|4]} 14|110b22 112r37
+70a24 b{3|16A8[8|4]} 14|110b24 112r25 112r39
+70a36 v{4|14A8[9|5]} 14|110b36 113r18 117r33
+77V12*Project{3|16A8[8|4]} 77>22 77>34 14|122b12 138l7 138t14
+77a22 x{3|16A8[8|4]} 14|122b22 129r15
+77a34 p{2|16A8[5|5]} 14|122b34 124r21 125r16 128r14 129r22 134r43
+X 14 standard_point_coordinates.adb
+5a5 res{3|16A8[8|4]} 8r14 9m7 11r12
+8i9 i<long_integer> 9r11 9r19
+16a5 res{3|16A8[8|4]} 19m5 20m5 21r12
+27f5 tmp{10|13F8} 33m7 34r10 35r16
+32i9 i<long_integer> 33r23 36r16
+43i9 k<long_integer> 44r9 44r17
+46i9 k<long_integer> 47r9 47r17
+54a5 res{3|16A8[8|4]} 57r12
+62a5 res{3|16A8[8|4]} 66m7 66r14 68r12
+65i9 i<long_integer> 66r22 66r27
+73a5 res{3|16A8[8|4]} 76r14 77m7 79m9 79r19 82r12
+76i9 i<long_integer> 77r11 77r19 79r13 79r23 79r35
+78i11 j<long_integer> 79r30 79r37
+87a5 res{3|16A8[8|4]} 90r14 91m7 93m9 93r19 96r12
+90i9 i<long_integer> 91r11 91r24 93r13 93r23 93r35
+92i11 j<long_integer> 93r30 93r37
+101r5 res{6|11R8} 105m7 105r14 107r12
+104i9 i<long_integer> 105r22 105r37
+112a5 y{3|16A8[8|4]} 117r31
+113a5 res{3|16A8[8|4]} 116r14 117m7 119r12
+116i9 i<long_integer> 117r11 117r35
+124a5 res{3|16A8[8|4]} 131r14 132m7 134m9 134r19 137r12
+125a5 y{3|16A8[8|4]} 129m7 133r16 134r28
+128i9 i<long_integer> 129r9 129r17 129r24
+131i9 i<long_integer> 132r11 134r13 134r23 134r47
+133i11 j<long_integer> 134r30 134r45
+

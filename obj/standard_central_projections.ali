@@ -1,0 +1,166 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_central_projections%b  standard_central_projections.adb  21fbd70f NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_central_projections%s  standard_central_projections.ads  24697508 EE NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_central_projections.ads  20260513024556 4cea0eb0 standard_central_projections%s
+D standard_central_projections.adb  20260513024556 6d11d9bf standard_central_projections%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [intersect standard_central_projections 14 12 none]
+G c Z s b [intersect standard_central_projections 16 12 none]
+G c Z s b [intersect_base_points standard_central_projections 33 13 none]
+G c Z s b [intersect standard_central_projections 42 12 none]
+G c Z s b [intersect standard_central_projections 54 12 none]
+G c Z s b [intersect standard_central_projections 56 12 none]
+G r c none [intersect standard_central_projections 14 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [intersect standard_central_projections 14 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [intersect standard_central_projections 14 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [intersect standard_central_projections 14 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [intersect standard_central_projections 14 12 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [intersect standard_central_projections 16 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [intersect standard_central_projections 16 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [intersect standard_central_projections 16 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [intersect standard_central_projections 16 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [intersect standard_central_projections 16 12 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [intersect_base_points standard_central_projections 33 13 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [intersect_base_points standard_central_projections 33 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [intersect_base_points standard_central_projections 33 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [intersect_base_points standard_central_projections 33 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [intersect_base_points standard_central_projections 33 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [intersect_base_points standard_central_projections 33 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [intersect standard_central_projections 42 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [intersect standard_central_projections 42 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [intersect standard_central_projections 42 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [intersect standard_central_projections 42 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [intersect standard_central_projections 42 12 none] [mul standard_complex_vectors 64 13 4_1]
+G r s vecvec [intersect standard_central_projections 54 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [intersect standard_central_projections 54 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [intersect standard_central_projections 54 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [intersect standard_central_projections 54 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [intersect standard_central_projections 54 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [intersect standard_central_projections 54 12 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [intersect standard_central_projections 56 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r s vecvec [intersect standard_central_projections 56 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [intersect standard_central_projections 56 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [intersect standard_central_projections 56 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [intersect standard_central_projections 56 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [intersect standard_central_projections 56 12 none] [mul standard_complex_vectors 64 13 4_1]
+X 2 generic_vectors.ads
+16A8*Vector(6|11R8)<11|6I8> 4|14r41[8|4] 15r49[8|4] 16r41[8|4] 16r74[8|4]
+. 42r51[8|4] 43r29[8|4] 54r35[8|4] 56r35[8|4] 5|5r41[8|4] 6r49[8|4] 8r11[8|4]
+. 24r41[8|4] 25r29[8|4] 36r14[8|4] 43r24[8|4] 48r51[8|4] 49r29[8|4] 51r11[8|4]
+. 52r11[8|4] 65r35[8|4] 72r21[8|4] 77r35[8|4]
+17P8*Link_to_Vector(16A8[8|4])
+42V13*"*"{6|11R8} 5|12s31[8|4] 27s47[8|4] 80s47[8|4]
+64U13*Mul 5|17s5[8|4]
+72U13*Clear 5|42s9[8|4]
+X 3 generic_vecvecs.ads
+14A8*VecVec(2|17P8[8|4])<11|6I8> 4|33r46[9|5] 33r68[9|5] 42r35[9|5] 55r33[9|5]
+. 55r66[9|5] 56r52[9|5] 57r29[9|5] 5|33r46[9|5] 33r68[9|5] 48r35[9|5] 66r33[9|5]
+. 66r66[9|5] 68r11[9|5] 77r52[9|5] 78r29[9|5]
+X 4 standard_central_projections.ads
+6K9*Standard_Central_Projections 62l5 62e33 5|1b14 86l5 86t33
+14V12*Intersect{2|16A8[8|4]} 14>24 14>28 14>33 14>49 15>24 5|5b12 22l7 22t16
+. 30s12 72s29
+14a24 hyp{2|16A8[8|4]} 5|5b24 12r15 13r11
+14a28 base{2|16A8[8|4]} 5|5b28 15r17 19r26
+14a33 point{2|16A8[8|4]} 5|5b33 12r19 12r32 15r27
+14r49 evabas{6|11R8} 5|5b49 13r20 13r38
+15i24 dim{11|6I8} 5|6b24 8r21 14r17 18r17
+16V12*Intersect{2|16A8[8|4]} 16>24 16>28 16>33 16>49 5|24b12 31l7 31t16 41s19
+. 57s14
+16a24 hyp{2|16A8[8|4]} 5|24b24 27r32 30r22
+16a28 base{2|16A8[8|4]} 5|24b28 27r36 27r48 30r26
+16a33 point{2|16A8[8|4]} 5|24b33 30r31
+16i49 dim{11|6I8} 5|24b49 30r44
+33U13*Intersect_Base_Points 33>37 33=54 5|33b13 46l7 46t28
+33a37 hyp{3|14A8[9|5]} 5|33b37 41r29
+33a54 base{3|14A8[9|5]} 5|33b54 35r33 35r38 39r14 39r26 40r21 41r40 41r52
+. 42m15 42r15 43m9
+42V12*Intersect{2|16A8[8|4]} 42>24 42>28 42>43 42>59 5|48b12 61l7 61t16
+42a24 hyp{3|14A8[9|5]} 5|48b24 56r19 57r24
+42a28 base{3|14A8[9|5]} 5|48b28 55r14 56r38 57r35
+42a43 point{2|16A8[8|4]} 5|48b43 52r18 52r34
+42i59 dim{11|6I8} 5|48b59 51r21 59r19
+54V12*Intersect{3|14A8[9|5]} 54>24 54>28 54>43 55>24 55>41 5|65b12 75l7 75t16
+. 83s12
+54a24 hyp{2|16A8[8|4]} 5|65b24 72r39
+54a28 base{2|16A8[8|4]} 5|65b28 72r43
+54r43 evabas{6|11R8} 5|65b43 72r62
+55a24 points{3|14A8[9|5]} 5|66b24 68r18 72r48
+55i41 dim{11|6I8} 5|66b41 72r69
+56V12*Intersect{3|14A8[9|5]} 56>24 56>28 56>43 56>60 5|77b12 84l7 84t16
+56a24 hyp{2|16A8[8|4]} 5|77b24 80r32 83r22
+56a28 base{2|16A8[8|4]} 5|77b28 80r36 80r48 83r26
+56a43 points{3|14A8[9|5]} 5|77b43 83r38
+56i60 dim{11|6I8} 5|77b60 83r45
+X 5 standard_central_projections.adb
+8a5 res{2|16A8[8|4]} 15m7 17m9 17r9 19m7 19r17 21r12
+9r5 evapnt{6|11R8} 12m5 13r29
+9r12 t{6|11R8} 13m5 17r13
+14i9 i<long_integer> 15r11 15r22 15r33
+18i9 i<long_integer> 19r11 19r21 19r31
+27r5 evabas{6|11R8} 30r37
+35i5 dim{11|6I8} 36r24 41r64
+36a5 projpt{2|16A8[8|4]} 41m9 43r32
+39i9 i<long_integer> 40r16 41r33 41r45
+40i11 j<long_integer> 41r57 42r20 43r14
+51a5 res{2|16A8[8|4]} 59m5 60r12
+52a5 wrk{2|16A8[8|4]} 57m7 57r47 57r51 59r12
+55i9 i<long_integer> 56r23 56r43 57r28 57r40
+68a5 res{3|14A8[9|5]} 71r14 72m7 74r12
+71i9 i<long_integer> 72r11 72r55
+80r5 evabas{6|11R8} 83r31
+X 6 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 4|2w6 2r46 6|92e29
+11R8*Complex_Number 4|14r58 54r52 5|5r58 9r16 27r14 65r52 80r14 6|90e15
+51V13*"+"{11R8} 5|13s18 19s24
+53V13*"-"{11R8} 5|13s36 15s25
+56V13*"/"{11R8} 5|13s27
+X 8 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[2|8] 4|3w6 3r46
+X 9 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[3|10] 4|4w6 4r46
+X 11 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 4|1w6 1r46 11|45e29
+6I8*integer32<long_integer> 4|15r30 16r55 42r65 55r47 56r66 5|6r30 24r55
+. 35r20 48r65 66r47 77r66
+

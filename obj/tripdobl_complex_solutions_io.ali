@@ -1,0 +1,975 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tripdobl_complex_solutions_io%b  tripdobl_complex_solutions_io.adb  23a71309 NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W file_scanning%s	file_scanning.adb	file_scanning.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W symbol_table%s	symbol_table.adb	symbol_table.ali
+W symbols_io%s		symbols_io.adb		symbols_io.ali
+W tripdobl_complex_numbers_io%s  tripdobl_complex_numbers_io.adb  tripdobl_complex_numbers_io.ali
+W triple_double_numbers%s  triple_double_numbers.adb  triple_double_numbers.ali
+W triple_double_numbers_io%s  triple_double_numbers_io.adb  triple_double_numbers_io.ali
+
+U tripdobl_complex_solutions_io%s  tripdobl_complex_solutions_io.ads  d5d6067a EE NE OO PK IL
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+W tripdobl_complex_solutions%s  tripdobl_complex_solutions.adb  tripdobl_complex_solutions.ali
+W tripdobl_complex_vectors%s  tripdobl_complex_vectors.ads  tripdobl_complex_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D file_scanning.ads	20260513024558 8f200bcc file_scanning%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbols_io.ads	20260513024558 cd02322d symbols_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D tripdobl_complex_numbers.ads  20260513024558 c635fac5 tripdobl_complex_numbers%s
+D tripdobl_complex_numbers_io.ads  20260513024558 cf557543 tripdobl_complex_numbers_io%s
+D tripdobl_complex_ring.ads  20260513024558 dde813cb tripdobl_complex_ring%s
+D tripdobl_complex_solutions.ads  20260513024558 657ce24c tripdobl_complex_solutions%s
+D tripdobl_complex_solutions_io.ads  20260513024558 9e01f690 tripdobl_complex_solutions_io%s
+D tripdobl_complex_solutions_io.adb  20260513024558 112d5816 tripdobl_complex_solutions_io%b
+D tripdobl_complex_vectors.ads  20260513024558 0e6ebbef tripdobl_complex_vectors%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D triple_double_numbers_io.ads  20260513024558 b9c8806f triple_double_numbers_io%s
+D triple_double_ring.ads  20260513024558 6a90058c triple_double_ring%s
+D triple_double_ring-ffield.ads  20260513024558 d0c028cb triple_double_ring.ffield%s
+G a e
+G c Z s b [get_vector tripdobl_complex_solutions_io 13 13 none]
+G c Z s b [get_vector tripdobl_complex_solutions_io 14 13 none]
+G c Z s b [put_vector tripdobl_complex_solutions_io 19 13 none]
+G c Z s b [put_vector tripdobl_complex_solutions_io 20 13 none]
+G c Z s b [put_vector tripdobl_complex_solutions_io 22 13 none]
+G c Z s b [put_vector tripdobl_complex_solutions_io 23 13 none]
+G c Z s b [put_diagnostics tripdobl_complex_solutions_io 28 13 none]
+G c Z s b [put_diagnostics tripdobl_complex_solutions_io 29 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 36 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 37 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 38 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 39 13 none]
+G c Z s b [put tripdobl_complex_solutions_io 46 13 none]
+G c Z s b [put tripdobl_complex_solutions_io 47 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 55 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 56 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 57 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 58 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 59 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 60 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 61 13 none]
+G c Z s b [get tripdobl_complex_solutions_io 63 13 none]
+G c Z s b [put tripdobl_complex_solutions_io 73 13 none]
+G c Z s b [put tripdobl_complex_solutions_io 74 13 none]
+G c Z s b [put tripdobl_complex_solutions_io 75 13 none]
+G c Z s b [put tripdobl_complex_solutions_io 76 13 none]
+G c Z s b [display_format tripdobl_complex_solutions_io 86 13 none]
+G c Z s b [read tripdobl_complex_solutions_io 91 13 none]
+G c Z s b [write tripdobl_complex_solutions_io 97 13 none]
+G c Z s b [read_first tripdobl_complex_solutions_io 105 13 none]
+G c Z s b [read_first tripdobl_complex_solutions_io 123 13 none]
+G c Z s b [read_first tripdobl_complex_solutions_io 143 13 none]
+G c Z s b [write_first tripdobl_complex_solutions_io 169 13 none]
+G c Z s b [write_first tripdobl_complex_solutions_io 183 13 none]
+G c Z s b [write_first tripdobl_complex_solutions_io 185 13 none]
+G c Z s b [write_first tripdobl_complex_solutions_io 201 13 none]
+G c Z s b [read_next tripdobl_complex_solutions_io 222 13 none]
+G c Z s b [read_next tripdobl_complex_solutions_io 223 13 none]
+G c Z s b [read_next tripdobl_complex_solutions_io 240 13 none]
+G c Z s b [write_next tripdobl_complex_solutions_io 264 13 none]
+G c Z s b [write_next tripdobl_complex_solutions_io 266 13 none]
+G c Z s b [write_next tripdobl_complex_solutions_io 284 13 none]
+G c Z b b [scan_diagnostics tripdobl_complex_solutions_io 61 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [number symbol_table 135 12 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [clear symbol_table 170 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [init symbol_table 32 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [add symbol_table 79 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 13 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [number symbol_table 135 12 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [clear symbol_table 170 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [init symbol_table 32 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [add symbol_table 79 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get_vector tripdobl_complex_solutions_io 14 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [put_vector tripdobl_complex_solutions_io 19 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector tripdobl_complex_solutions_io 19 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 19 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 19 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 20 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector tripdobl_complex_solutions_io 20 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 20 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 20 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 22 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector tripdobl_complex_solutions_io 22 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 22 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 22 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 23 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector tripdobl_complex_solutions_io 23 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 23 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put_vector tripdobl_complex_solutions_io 23 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_diagnostics tripdobl_complex_solutions_io 28 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [put_diagnostics tripdobl_complex_solutions_io 29 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 36 13 none] [create triple_double_numbers 43 12 none]
+G r s solution [get tripdobl_complex_solutions_io 37 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 37 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 38 13 none] [create triple_double_numbers 43 12 none]
+G r s solution [get tripdobl_complex_solutions_io 39 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 39 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [put tripdobl_complex_solutions_io 46 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put tripdobl_complex_solutions_io 46 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put tripdobl_complex_solutions_io 46 13 none] [number symbol_table 135 12 none]
+G r c none [put tripdobl_complex_solutions_io 46 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put tripdobl_complex_solutions_io 46 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [put tripdobl_complex_solutions_io 47 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put tripdobl_complex_solutions_io 47 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put tripdobl_complex_solutions_io 47 13 none] [number symbol_table 135 12 none]
+G r c none [put tripdobl_complex_solutions_io 47 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put tripdobl_complex_solutions_io 47 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get tripdobl_complex_solutions_io 55 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 55 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get tripdobl_complex_solutions_io 56 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 56 13 none] [put standard_natural_numbers_io 25 13 none]
+G r s solution [get tripdobl_complex_solutions_io 57 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 57 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get tripdobl_complex_solutions_io 58 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 58 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get tripdobl_complex_solutions_io 59 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 59 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get tripdobl_complex_solutions_io 60 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 60 13 none] [put standard_natural_numbers_io 25 13 none]
+G r s solution [get tripdobl_complex_solutions_io 61 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 61 13 none] [put standard_natural_numbers_io 25 13 none]
+G r s solution [get tripdobl_complex_solutions_io 63 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [number symbol_table 135 12 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [clear symbol_table 170 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [init symbol_table 32 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [add symbol_table 79 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [create triple_double_numbers 24 12 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [create triple_double_numbers 43 12 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [get tripdobl_complex_solutions_io 63 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [number symbol_table 135 12 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [put tripdobl_complex_solutions_io 73 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [number symbol_table 135 12 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [put tripdobl_complex_solutions_io 74 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [number symbol_table 135 12 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [put tripdobl_complex_solutions_io 75 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [number symbol_table 135 12 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [put tripdobl_complex_solutions_io 76 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [read tripdobl_complex_solutions_io 91 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [number symbol_table 135 12 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [clear symbol_table 170 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [init symbol_table 32 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [add symbol_table 79 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [create triple_double_numbers 24 12 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [create triple_double_numbers 43 12 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [read tripdobl_complex_solutions_io 91 13 none] [clear tripdobl_complex_solutions__list_of_solutions 93 13 30_3]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [length_of tripdobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [number symbol_table 135 12 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write tripdobl_complex_solutions_io 97 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [read_first tripdobl_complex_solutions_io 105 13 none] [get standard_natural_numbers_io 10 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [read_first tripdobl_complex_solutions_io 123 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [number symbol_table 135 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [clear symbol_table 170 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [init symbol_table 32 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [add symbol_table 79 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [create triple_double_numbers 24 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 123 13 none] [create triple_double_numbers 43 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [read_first tripdobl_complex_solutions_io 143 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [number symbol_table 135 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [clear symbol_table 170 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [init symbol_table 32 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [add symbol_table 79 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [create triple_double_numbers 24 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [create triple_double_numbers 43 12 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [read_first tripdobl_complex_solutions_io 143 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 169 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 169 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [number symbol_table 135 12 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 183 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [number symbol_table 135 12 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 185 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [number symbol_table 135 12 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write_first tripdobl_complex_solutions_io 201 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [number symbol_table 135 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [clear symbol_table 170 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [init symbol_table 32 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [add symbol_table 79 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [create triple_double_numbers 24 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 222 13 none] [create triple_double_numbers 43 12 none]
+G r s solution [read_next tripdobl_complex_solutions_io 223 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [number symbol_table 135 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [clear symbol_table 170 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [init symbol_table 32 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [add symbol_table 79 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [create triple_double_numbers 24 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 223 13 none] [create triple_double_numbers 43 12 none]
+G r s solution [read_next tripdobl_complex_solutions_io 240 13 none] [solutionIP tripdobl_complex_solutions 19 8 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [get tripdobl_complex_numbers_io 12 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [number symbol_table 135 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [clear symbol_table 170 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [init symbol_table 32 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [add symbol_table 79 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [create triple_double_numbers 24 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [create triple_double_numbers 43 12 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [append tripdobl_complex_solutions 151 13 none]
+G r c none [read_next tripdobl_complex_solutions_io 240 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 264 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 264 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 264 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 264 13 none] [number symbol_table 135 12 none]
+G r c none [write_next tripdobl_complex_solutions_io 264 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 264 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 266 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 266 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 266 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 266 13 none] [number symbol_table 135 12 none]
+G r c none [write_next tripdobl_complex_solutions_io 266 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 266 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [number symbol_table 135 12 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [write_next tripdobl_complex_solutions_io 284 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [scan_diagnostics tripdobl_complex_solutions_io 61 13 none] [scan_line file_scanning 26 13 none]
+G r c none [scan_diagnostics tripdobl_complex_solutions_io 61 13 none] [create triple_double_numbers 24 12 none]
+G r c none [scan_diagnostics tripdobl_complex_solutions_io 61 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [scan_diagnostics tripdobl_complex_solutions_io 61 13 none] [create triple_double_numbers 43 12 none]
+X 12 a-textio.ads
+67P9*File_Type 71|14r36 20r36 23r36 29r41 38r29 39r29 47r29 59r29 60r29 61r29
+. 63r29 75r29 76r29 97r31 105r36 123r36 143r36 169r37 183r37 185r37 201r37
+. 222r35 223r35 240r35 264r36 266r36 284r36 72|24r36 62r27 106r29 138r29
+. 170r36 195r36 205r41 220r29 255r29 285r29 294r29 311r29 331r29 351r29 394r12
+. 408r31 417r36 427r36 449r36 477r37 483r37 503r37 512r37 518r35 533r35 543r35
+. 570r36 581r36 587r36
+131U14*Close 72|400s5 402s20
+187V13*Standard_Input{67P9} 72|21s16 98s9 103s9 237s9 242s9 247s9 252s9
+188V13*Standard_Output{67P9} 72|167s16 192s16 202s21 217s9 323s9 328s9
+277U14*New_Line 72|179s25 185s25 222s38 223s40 341s27 354s52 479s54 496s23
+. 576s21 600s23
+284U14*New_Line 72|40s65 52s65 124s22 135s20 271s24 279s10 304s10 404s36
+. 422s20 443s12 471s10 528s10 564s10
+290U14*Skip_Line 72|115s20 128s24 130s18 132s5 149s20 156s24 158s18 263s20
+. 264s20 276s18 434s18 435s18 460s20 461s20 523s18 524s18 553s20 554s20
+302V13*End_Of_Line{boolean} 72|127s12 155s12
+414U14*Get 72|111s5 112s5 113s5 114s5 118s7 119s7 120s7 121s7 128s11 130s5
+. 145s5 146s5 147s5 148s5 150s5 151s5 152s5 153s5 156s11 158s5 263s7 264s7
+. 276s5 434s5 435s5 460s7 461s7 523s5 524s5 553s7 554s7
+426U14*Put 72|183s9
+508U14*Put 72|178s9 178s40 184s51 207s5 208s5 208s45 209s5 209s45 210s5 210s45
+. 222s5 223s5 226s5 227s5 227s45 228s5 228s45 229s5 229s45 340s11 341s11
+. 354s22 479s22 495s7 496s7 575s5 576s5 599s7 600s7
+515U14*Put 72|40s16 52s16 280s10 305s10 306s10 307s10 423s20 472s10 565s10
+555U14*Put_Line 72|224s5 343s11 498s7 507s5 509s5 578s5 602s7
+565U14*Put_Line 72|125s22 135s30 272s24 281s20 307s43 388s7 397s5 403s20
+. 444s12 473s22 529s10 566s22
+X 14 communications_with_user.ads
+4K9*Communications_with_User 127e29 72|2w6 2r46
+46U13*Read_Name_and_Open_File 72|398s5
+X 15 file_scanning.ads
+3K9*File_Scanning 45e18 72|1w6 1r46
+26U13*Scan_Line 72|72s5 79s7 85s9
+X 16 generic_complex_numbers.ads
+19R8*Complex_Number
+X 17 generic_lists.ads
+12P8*List
+67V12*Length_Of{41|7I8} 72|411s20[70|30]
+72V12*Is_Null{boolean} 72|333s12[70|30] 339s19[70|30] 410s12[70|30] 492s15[70|30]
+. 596s15[70|30]
+77V12*Head_Of{70|28P8} 72|342s20[70|30] 411s46[70|30] 493s13[70|30] 597s13[70|30]
+84V12*Tail_Of{12P8[70|30]} 72|344s19[70|30] 499s14[70|30] 603s14[70|30]
+93U13*Clear 72|402s33[70|30]
+X 18 generic_vectors.ads
+16A8*Vector(16|19R8[67|5])<39|6I8> 71|19r58[73|4] 21r58[73|4] 72|165r58[73|4]
+. 171r58[73|4]
+X 35 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 358e34 72|8w6 111r18 112r18 113r18 114r18
+. 118r20 119r20 120r20 121r20 145r18 146r18 147r18 148r18 150r18 151r18 152r18
+. 153r18 338r9 480r5
+14U13*write_warning 72|111s48 112s48 113s48 114s48 118s50 119s50 120s50 121s50
+. 145s48 146s48 147s48 148s48 150s48 151s48 152s48 153s48
+111U13*put_bar 72|338s39 480s35
+X 37 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 72|6w6 6r46
+13F8*double_float<long_float> 72|69r25
+X 38 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 63e33 72|7w6 7r46
+15U13*get 72|78s7 84s9 88s15
+X 39 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 72|4w6 4r46
+6I8*integer32<long_integer> 72|26r11 48r18 141r18 173r18 266r22 437r22 463r22
+. 536r20 556r22
+X 40 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 72|5w6 5r46
+11U13*get 72|122s7 154s5
+26U13*put 72|40s55 52s55
+27U13*put 72|178s25 223s23
+X 41 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 71|2w6 2r46
+7I8*natural32<long_integer> 71|37r26 40r26 57r30 58r30 61r51 63r51 74r30
+. 76r51 105r61 123r61 143r54 144r44 169r61 183r61 185r61 201r63 202r37 223r55
+. 240r57 241r35 264r60 266r60 284r54 285r36 285r60 72|29r30 31r25 101r26
+. 139r26 176r30 184r36 234r30 240r30 255r51 259r9 285r51 297r13 326r30 335r17
+. 351r51 411r36 417r61 427r61 449r54 450r44 477r61 483r63 484r37 503r61 512r61
+. 533r55 543r57 544r35 570r60 581r60 587r54 588r36 588r60
+X 42 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 35e32 72|3w6 3r46
+10U13*get 72|300s5 300s20 420s5 420s20
+25U13*put 72|281s10 306s29 307s33 473s10 566s10
+26U13*put 72|340s34 354s5 354s37 479s5 479s37 495s30 575s28 599s30
+X 44 symbol_table.ads
+4K9*Symbol_Table 175e17 72|12w6 12r46 29r8 30r7 31r7 36r11 176r8
+15A11*Symbol{string}<integer> 72|34r25
+32U13*Init 72|31s20
+79U13*Add 72|36s24
+135V12*Number{41|7I8} 72|29s21 176s21
+170U13*Clear 72|30s20
+X 45 symbols_io.ads
+5K9*Symbols_io 39e15 72|13w6 34r35 37r11 48r28 49r11 184r9
+11U13*Skip_Symbol 72|37s22 49s22
+16V12*Read_Symbol{44|15A11} 72|34s46
+21V12*Get_Symbol{41|7I8} 72|48s39
+33U13*put_symbol 72|184s20
+X 66 text_io.ads
+27K9*Text_IO=27:29 71|1w6 1r46
+X 68 tripdobl_complex_numbers_io.ads
+5K9*TripDobl_Complex_Numbers_io 38e32 72|11w6 11r46
+12U13*get 72|37s41 49s41 115s5 149s5
+21U13*put 72|179s9 185s9 222s23
+X 70 tripdobl_complex_solutions.ads
+11K9*TripDobl_Complex_Solutions 235e31 71|4w6 4r46
+19R8*Solution 26e13 71|13r37 14r58 22r33 23r54 28r38 29r59 36r27 38r48 46r26
+. 47r47 184r34 222r54 265r33 72|19r37 24r58 96r27 106r48 141r9 160r15 190r33
+. 195r54 200r38 205r59 215r26 220r47 266r13 437r13 440r16 463r13 504r34 518r54
+. 536r11 540r14 556r13 571r33
+19i19*n{39|6I8} 72|29r42 31r37 411r60
+20r5*t{16|19R8[67|5]} 72|115m16 149m16 222r34
+21i5*m{39|6I8} 72|122m18 154m16 223r34
+22a5*v{18|16A8[73|4]} 72|32r18 37m52 45r18 49m52 197r23
+23r5*err{74|20R8} 72|133m29 208r37 227r37
+24r5*rco{74|20R8} 72|133m35 209r37 228r37
+25r5*res{74|20R8} 72|133m41 210r37 229r37
+28P8*Link_to_Solution(19R8) 71|37r46 40r46 124r34 186r34 224r33 267r33 72|101r46
+. 139r46 428r34 487r10 513r34 534r33 582r33 592r10
+31P8*Solution_List<17|12P8[30]> 71|55r33 56r43 57r55 58r65 59r54 60r64 62r33
+. 64r43 73r29 74r51 75r50 77r29 91r34 97r52 145r46 202r58 242r45 286r36 72|235r43
+. 240r55 245r43 250r33 256r43 286r33 288r17 295r43 311r54 313r17 321r29 326r51
+. 331r50 336r16 352r29 392r34 408r52 451r46 484r58 486r11 545r45 589r36 591r11
+151U13*Append 72|269s9 466s9 559s9
+X 71 tripdobl_complex_solutions_io.ads
+6K9*TripDobl_Complex_Solutions_io 305l5 305e34 72|15b14 608l5 608t34
+13U13*get_vector 13=26 72|19b13 22l7 22t17
+13r26 s{70|19R8} 72|19b26 21m31
+14U13*get_vector 14>26 14=47 72|21s5 24b13 57l7 57t17 131s5 159s5
+14p26 file{12|67P9} 72|24b26 34r58 37r34 37r45 48r50 49r34 49r45
+14r47 s{70|19R8} 72|24b47 29r40 31r35 32r16 37m50 37r50 45r16 49m50 49r50
+19U13*put_vector 19>26 72|165b13 168l7 168t17
+19a26 v{18|16A8[73|4]} 72|165b26 167r32
+20U13*put_vector 20>26 21>26 72|167s5 170b13 188l7 188t17 197s5
+20p26 file{12|67P9} 72|170b26 178r13 178r29 178r44 179r13 179r34 183r13 184r31
+. 184r55 185r13 185r34
+21a26 v{18|16A8[73|4]} 72|171b26 173r31 177r16 179r18 182r16 185r18
+22U13*put_vector 22>26 72|190b13 193l7 193t17
+22r26 s{70|19R8} 72|190b26 192r32
+23U13*put_vector 23>26 23>47 72|192s5 195b13 198l7 198t17 225s5
+23p26 file{12|67P9} 72|195b26 197r16
+23r47 s{70|19R8} 72|195b47 197r21
+28U13*put_diagnostics 28>31 72|200b13 203l7 203t22
+28r31 s{70|19R8} 72|200b31 202r37
+29U13*put_diagnostics 29>31 29>52 72|202s5 205b13 211l7 211t22
+29p31 file{12|67P9} 72|205b31 207r9 208r9 208r30 208r49 209r9 209r30 209r49
+. 210r9 210r30 210r49
+29r52 s{70|19R8} 72|205b52 208r35 209r35 210r35
+36U13*get 36<19 72|96b13 99l7 99t10
+36r19 s{70|19R8} 72|96b19 98m24
+37U13*get 37>19 37<37 72|101b13 104l7 104t10
+37i19 n{41|7I8} 72|101b19 103r24
+37p37 ls{70|28P8} 72|101b37 103m26
+38U13*get 38>19 38<40 72|98s5 106b13 136l7 136t10 268s9 439s7 465s9 525s5
+. 558s9
+38p19 file{12|67P9} 72|106b19 111r9 112r9 113r9 114r9 115r9 115r30 118r11
+. 119r11 120r11 121r11 122r11 127r24 128r15 128r34 130r9 130r28 131r16 132r15
+. 133r22
+38r40 s{70|19R8} 72|106b40 115m14 115r14 122m16 122r16 131m21 133m27 133r27
+. 133m33 133r33 133m39 133r39
+39U13*get 39>19 40>19 40<37 72|103s5 138b13 161l7 161t10
+39p19 file{12|67P9} 72|138b19 145r9 146r9 147r9 148r9 149r9 149r30 150r9
+. 151r9 152r9 153r9 154r9 155r24 156r15 156r34 158r9 158r28 159r16
+40i19 n{41|7I8} 72|139b19 141r28
+40p37 ls{70|28P8} 72|139b37 160m5
+46U13*put 46>19 72|215b13 218l7 218t10
+46r19 s{70|19R8} 72|215b19 217r25
+47U13*put 47>19 47>40 72|217s5 220b13 230l7 230t10 342s11 497s7 508s5 577s5
+. 601s7
+47p19 file{12|67P9} 72|220b19 222r9 222r27 222r47 223r9 223r27 223r49 224r14
+. 225r16 226r9 227r9 227r30 227r49 228r9 228r30 228r49 229r9 229r30 229r49
+47r40 s{70|19R8} 72|220b40 222r32 223r32 225r21 227r35 228r35 229r35
+55U13*get 55=19 72|250b13 253l7 253t10
+55p19 sols{70|31P8} 72|250b19 252m24
+56U13*get 56=19 56=24 72|245b13 248l7 248t10
+56p19 sols{70|31P8} 72|245b19 247m24
+56p24 sols_last{70|31P8} 72|245b24 247m29
+57U13*get 57>19 57>23 57=41 72|240b13 243l7 243t10
+57i19 len{41|7I8} 72|240b19 242r24
+57i23 n{41|7I8} 72|240b23 242r28
+57p41 sols{70|31P8} 72|240b41 242m30
+58U13*get 58>19 58>23 58=41 58=46 72|234b13 238l7 238t10
+58i19 len{41|7I8} 72|234b19
+58i23 n{41|7I8} 72|234b23
+58p41 sols{70|31P8} 72|235b19 237m24
+58p46 sols_last{70|31P8} 72|235b24 237m29
+59U13*get 59>19 59=40 72|252s5 311b13 317l7 317t10 399s5
+59p19 file{12|67P9} 72|311b19 316r9
+59p40 sols{70|31P8} 72|311b40 316m14
+60U13*get 60>19 60=40 60=45 72|237s5 247s5 294b13 309l7 309t10 316s5
+60p19 file{12|67P9} 72|294b19 300r9 300r24 301r9
+60p40 sols{70|31P8} 72|295b19 301m20
+60p45 sols_last{70|31P8} 72|295b24 301m25
+61U13*get 61>19 61>40 61>44 62=19 72|242s5 285b13 292l7 292t10
+61p19 file{12|67P9} 72|285b19 291r9
+61i40 len{41|7I8} 72|285b40 291r14
+61i44 n{41|7I8} 72|285b44 291r18
+62p19 sols{70|31P8} 72|286b19 291m20
+63U13*get 63>19 63>40 63>44 64=19 64=24 72|255b13 283l7 283t10 291s5 301s5
+63p19 file{12|67P9} 72|255b19 263r11 263r30 264r11 264r30 268r13 276r9 276r28
+63i40 len{41|7I8} 72|255b40 262r16
+63i44 n{41|7I8} 72|255b44 266r32
+64p19 sols{70|31P8} 72|256b19 269m16
+64p24 sols_last{70|31P8} 72|256b24 269m21
+73U13*put 73>19 72|321b13 324l7 324t10
+73p19 sols{70|31P8} 72|321b19 323r25
+74U13*put 74>19 74>23 74>41 72|326b13 329l7 329t10
+74i19 len{41|7I8} 72|326b19 328r25
+74i23 n{41|7I8} 72|326b23 328r29
+74p41 sols{70|31P8} 72|326b41 328r31
+75U13*put 75>19 75>40 72|323s5 331b13 349l7 349t10 355s5
+75p19 file{12|67P9} 72|331b19 338r47 340r15 340r38 341r15 341r36 342r15 343r20
+75p40 sols{70|31P8} 72|331b40 333r20 336r33
+76U13*put 76>19 76>40 76>44 77>19 72|328s5 351b13 356l7 356t10 411s11
+76p19 file{12|67P9} 72|351b19 354r9 354r26 354r41 354r61 355r9
+76i40 len{41|7I8} 72|351b40 354r14
+76i44 n{41|7I8} 72|351b44 354r46
+77p19 sols{70|31P8} 72|352b19 355r14
+86U13*Display_Format 72|358b13 390l7 390t21 404s20
+91U13*Read 91=20 72|392b13 405s20 406l7 406t11
+91p20 sols{70|31P8} 72|392b20 399m14 402m39 405m25
+97U13*Write 97>21 97>42 72|408b13 413l7 413t12
+97p21 file{12|67P9} 72|408b21 411r15
+97p42 sols{70|31P8} 72|408b42 410r20 411r30 411r54 411r63
+105U13*Read_First 105>26 105<47 105<51 72|417b13 425l7 425t17 433s5 457s5
+105p26 file{12|67P9} 72|417b26 420r9 420r24
+105i47 len{41|7I8} 72|417b47 419m5 420m14
+105i51 dim{41|7I8} 72|417b51 419m15 420m29
+123U13*Read_First 123>26 123<47 123<51 124<26 72|427b13 447l7 447t17
+123p26 file{12|67P9} 72|427b26 433r16 434r9 434r28 435r9 435r28 439r11
+123i47 len{41|7I8} 72|427b47 433m21
+123i51 dim{41|7I8} 72|427b51 433m25 437r32
+124p26 s{70|28P8} 72|428b26 440m7
+143U13*Read_First 143>26 143>47 144<26 144<30 144<34 145=26 145=32 72|449b13
+. 475l7 475t17
+143p26 file{12|67P9} 72|449b26 457r16 460r11 460r30 461r11 461r30 465r13
+143i47 n{41|7I8} 72|449b47 458r35
+144i26 len{41|7I8} 72|450b26 457m21 458r19
+144i30 dim{41|7I8} 72|450b30 457m25 463r32
+144i34 nbr{41|7I8} 72|450b34 456m5 458r12 458r29 459m7 459r14 473r14
+145p26 first{70|31P8} 72|451b26 466m16
+145p32 last{70|31P8} 72|451b32 466m22
+169U13*Write_First 169>27 169>48 169>52 72|477b13 481l7 481t18 490s5 506s5
+169p27 file{12|67P9} 72|477b27 479r9 479r26 479r41 479r63 480r43
+169i48 len{41|7I8} 72|477b48 479r14
+169i52 dim{41|7I8} 72|477b52 479r46
+183U13*Write_First 183>27 183>48 183>52 184>27 72|503b13 510l7 510t18 515s5
+183p27 file{12|67P9} 72|503b27 506r17 507r14 508r9 509r14
+183i48 len{41|7I8} 72|503b48 506r22
+183i52 dim{41|7I8} 72|503b52 506r26
+184r27 s{70|19R8} 72|504b27 508r14
+185U13*Write_First 185>27 185>48 185>52 186>27 72|512b13 516l7 516t18
+185p27 file{12|67P9} 72|512b27 515r17
+185i48 len{41|7I8} 72|512b48 515r22
+185i52 dim{41|7I8} 72|512b52 515r26
+186p27 s{70|28P8} 72|513b27 515r30
+201U13*Write_First 201>27 201>48 201>50 201>54 202<27 202>48 72|483b13 501l7
+. 501t18
+201p27 file{12|67P9} 72|483b27 490r17 495r11 495r34 496r11 496r32 497r11
+. 498r16
+201i48 n{41|7I8} 72|483b48 492r39
+201i50 len{41|7I8} 72|483b50 490r22
+201i54 dim{41|7I8} 72|483b54 490r26
+202i27 nbr{41|7I8} 72|484b27 491m5 492r33 494m7 494r14 495r39
+202p48 sols{70|31P8} 72|484b48 486r28
+222U13*Read_Next 222>25 222<46 72|518b13 531l7 531t16 539s5
+222p25 file{12|67P9} 72|518b25 523r9 523r28 524r9 524r28 525r9
+222r46 s{70|19R8} 72|518b46 525m14
+223U13*Read_Next 223>25 223>46 224<25 72|533b13 541l7 541t16
+223p25 file{12|67P9} 72|533b25 539r15
+223i46 dim{41|7I8} 72|533b46 536r30
+224p25 s{70|28P8} 72|534b25 540m5
+240U13*Read_Next 240>25 240>46 240>48 241<25 242=25 242=31 72|543b13 568l7
+. 568t16
+240p25 file{12|67P9} 72|543b25 553r11 553r30 554r11 554r30 558r13
+240i46 n{41|7I8} 72|543b46 551r18
+240i48 dim{41|7I8} 72|543b48 556r32
+241i25 nbr{41|7I8} 72|544b25 550m5 551r12 552m7 552r14 566r14
+242p25 first{70|31P8} 72|545b25 559m16
+242p31 last{70|31P8} 72|545b31 559m22
+264U13*Write_Next 264>26 264=47 265>26 72|570b13 579l7 579t17 584s5
+264p26 file{12|67P9} 72|570b26 575r9 575r32 576r9 576r30 577r9 578r14
+264i47 cnt{41|7I8} 72|570b47 574m5 574r12 575r37
+265r26 s{70|19R8} 72|571b26 577r14
+266U13*Write_Next 266>26 266=47 267>26 72|581b13 585l7 585t17
+266p26 file{12|67P9} 72|581b26 584r16
+266i47 cnt{41|7I8} 72|581b47 584m21
+267p26 s{70|28P8} 72|582b26 584r25
+284U13*Write_Next 284>26 284>47 285<26 285=47 286>26 72|587b13 606l7 606t17
+284p26 file{12|67P9} 72|587b26 599r11 599r34 600r11 600r32 601r11 602r16
+284i47 n{41|7I8} 72|587b47 596r39
+285i26 nbr{41|7I8} 72|588b26 595m5 596r33 604m7 604r14
+285i47 cnt{41|7I8} 72|588b47 598m7 598r14 599r39
+286p26 sols{70|31P8} 72|589b26 591r28
+X 72 tripdobl_complex_solutions_io.adb
+26i5 ind{39|6I8} 48m11 49r54
+32i11 i<long_integer> 37r54 40r59
+34a11 sb{44|15A11} 36r28
+45i11 i<long_integer> 52r59
+61U13 Scan_Diagnostics 61b13 62>17 62<38 62<42 62<46 92l7 92t23 133s5
+62p17 file{12|67P9} 72r15 78r11 79r17 84r13 85r19 88r19
+62r38 err{74|20R8} 74m7 78m24
+62r42 rco{74|20R8} 75m7 81m9 84m26
+62r46 res{74|20R8} 76m7 82m9 87m15 88m32
+68b5 found{boolean} 72m28 73r12 79m30 80r14 85m32 86r16
+69f5 d_err{37|13F8} 78m16 78r16 78r38
+69f11 d_rco{37|13F8} 84m18 84r18 84r40
+69f17 d_res{37|13F8} 88m24 88r24 88r46
+108e5 c{character} 111m14 111r66 112m14 112r66 113m14 113r66 114m14 114r66
+. 118m16 118r68 119m16 119r68 120m16 120r68 121m16 121r68 128m20 130m14
+141r5 s{70|19R8} 149m14 149r14 154m14 154r14 159m21 159r21 160r25
+142e5 c{character} 145m14 145r66 146m14 146r66 147m14 147r66 148m14 148r66
+. 150m14 150r66 151m14 151r66 152m14 152r66 153m14 153r66 156m20 158m14
+173i5 n{39|6I8} 176r40
+177i11 i<long_integer> 178r34 179r20
+182i11 i<long_integer> 184r46 185r20
+258e5 c{character} 263m16 264m16 276m14
+259i5 i{41|7I8} 262r11 274m7 274r12 281r14
+266r9 s{70|19R8} 268m18 269r31
+288p5 sols_last{70|31P8} 291m25 291r25
+297i5 len{41|7I8} 300m14 300r14 301r14 306r33
+297i9 n{41|7I8} 300m29 300r29 301r18 307r37
+313p5 sols_last{70|31P8} 316m19 316r19
+335i9 count{41|7I8} 340r43 345m11 345r20
+336p9 temp{70|31P8} 339r27 342r28 344m11 344r27
+360a5 s(string) 363m5 364m5 365m5 366m5 367m5 368m5 369m5 370m5 371m5 372m5
+. 373m5 374m5 375m5 376m5 377m5 378m5 379m5 380m5 381m5 382m5 383m5 384m5
+. 385m5 386m5 387r14 388r16
+387i9 i{integer} 388r18
+394p5 file{12|67P9} 398m29 398r29 399r9 400m11 400r11 402m26 402r26
+430e5 c{character} 434m14 435m14
+437r7 sol{70|19R8} 439m16 440r26
+453e5 c{character} 460m16 461m16
+463r9 s{70|19R8} 465m18 466r27
+486p5 tmp{70|31P8} 492r23 493r21 499m7 499r22
+487p5 ls{70|28P8} 493m7 497r16
+520e5 c{character} 523m14 524m14
+536r5 sol{70|19R8} 539m20 540r24
+547e5 c{character} 553m16 554m16
+556r9 s{70|19R8} 558m18 559r27
+591p5 tmp{70|31P8} 596r23 597r21 603m7 603r22
+592p5 ls{70|28P8} 597m7 601r16
+X 73 tripdobl_complex_vectors.ads
+4K9*TripDobl_Complex_Vectors[18|8] 71|3w6 19r33 21r33 72|165r33 171r33
+X 74 triple_double_numbers.ads
+5K9*Triple_Double_Numbers 72|9w6 9r46 74|199e26
+20R8*triple_double 72|62r56 74|197e13
+24V12*create{20R8} 72|74s14 75s14 76s14 81s16 82s16 87s22
+43V12*create{20R8} 72|78s31 84s33 88s39
+X 75 triple_double_numbers_io.ads
+6K9*Triple_Double_Numbers_io 72|10w6 10r46 75|99e29
+92U13*put 72|208s26 209s26 210s26 227s26 228s26 229s26
+

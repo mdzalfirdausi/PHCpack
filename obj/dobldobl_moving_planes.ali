@@ -1,0 +1,243 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dobldobl_moving_planes%b  dobldobl_moving_planes.adb  55512aa9 NE OO PK
+W dobldobl_complex_vector_norms%s  dobldobl_complex_vector_norms.adb  dobldobl_complex_vector_norms.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+W dobldobl_mathematical_functions%s  dobldobl_mathematical_functions.adb  dobldobl_mathematical_functions.ali
+W dobldobl_plane_representations%s  dobldobl_plane_representations.adb  dobldobl_plane_representations.ali
+W dobldobl_random_numbers%s  dobldobl_random_numbers.adb  dobldobl_random_numbers.ali
+W double_double_constants%s  double_double_constants.ads  double_double_constants.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U dobldobl_moving_planes%s  dobldobl_moving_planes.ads  98e486eb EE NE OO PK
+W dobldobl_complex_matrices%s  dobldobl_complex_matrices.ads  dobldobl_complex_matrices.ali
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_vector_norms.ads  20260513024558 560a00f8 dobldobl_complex_vector_norms%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_mathematical_functions.ads  20260513024558 091149b0 dobldobl_mathematical_functions%s
+D dobldobl_moving_planes.ads  20260513024556 45ed47a4 dobldobl_moving_planes%s
+D dobldobl_moving_planes.adb  20260513024556 904b14ca dobldobl_moving_planes%b
+D dobldobl_plane_representations.ads  20260513024556 74232c8b dobldobl_plane_representations%s
+D dobldobl_random_numbers.ads  20260513024558 decc7117 dobldobl_random_numbers%s
+D double_double_constants.ads  20260513024558 cdc4699f double_double_constants%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [random_plane dobldobl_moving_planes 12 12 none]
+G c Z s b [one_random_direction dobldobl_moving_planes 17 12 none]
+G c Z s b [rotate dobldobl_moving_planes 23 12 none]
+G c Z s b [rotating_plane dobldobl_moving_planes 29 12 none]
+G c Z s b [moving_plane dobldobl_moving_planes 35 12 none]
+G c Z s b [moving_plane dobldobl_moving_planes 40 12 none]
+G c Z s b [moving_directions dobldobl_moving_planes 46 12 none]
+G c Z s b [normalize dobldobl_moving_planes 63 13 none]
+G c Z s b [normalize dobldobl_moving_planes 64 13 none]
+G r c none [random_plane dobldobl_moving_planes 12 12 none] [random1 dobldobl_random_numbers 47 12 none]
+G r c none [random_plane dobldobl_moving_planes 12 12 none] [orthogonalize dobldobl_plane_representations 95 12 none]
+G r c none [one_random_direction dobldobl_moving_planes 17 12 none] [random1 dobldobl_random_numbers 47 12 none]
+G r c none [one_random_direction dobldobl_moving_planes 17 12 none] [orthogonalize dobldobl_plane_representations 95 12 none]
+G r c none [rotate dobldobl_moving_planes 23 12 none] [cos dobldobl_mathematical_functions 19 12 none]
+G r c none [rotate dobldobl_moving_planes 23 12 none] [sin dobldobl_mathematical_functions 18 12 none]
+G r c none [rotate dobldobl_moving_planes 23 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [rotate dobldobl_moving_planes 23 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [rotate dobldobl_moving_planes 23 12 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [rotate dobldobl_moving_planes 23 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [create double_double_numbers 35 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [cos dobldobl_mathematical_functions 19 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [sin dobldobl_mathematical_functions 18 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [rotating_plane dobldobl_moving_planes 29 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [moving_plane dobldobl_moving_planes 35 12 none] [create double_double_numbers 35 12 none]
+G r c none [moving_plane dobldobl_moving_planes 35 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [moving_plane dobldobl_moving_planes 35 12 none] [Osubtract dobldobl_complex_numbers 47 12 none]
+G r c none [moving_plane dobldobl_moving_planes 35 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [moving_plane dobldobl_moving_planes 35 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [moving_plane dobldobl_moving_planes 40 12 none] [create double_double_numbers 35 12 none]
+G r c none [moving_plane dobldobl_moving_planes 40 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [moving_plane dobldobl_moving_planes 40 12 none] [Osubtract dobldobl_complex_numbers 47 12 none]
+G r c none [moving_plane dobldobl_moving_planes 40 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [moving_plane dobldobl_moving_planes 40 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [moving_directions dobldobl_moving_planes 46 12 none] [create double_double_numbers 35 12 none]
+G r c none [moving_directions dobldobl_moving_planes 46 12 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [moving_directions dobldobl_moving_planes 46 12 none] [Osubtract dobldobl_complex_numbers 47 12 none]
+G r c none [moving_directions dobldobl_moving_planes 46 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [moving_directions dobldobl_moving_planes 46 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [moving_directions dobldobl_moving_planes 46 12 none] [orthogonalize dobldobl_plane_representations 95 12 none]
+G r c none [normalize dobldobl_moving_planes 63 13 none] [norm2 dobldobl_complex_vector_norms 17 12 none]
+G r c none [normalize dobldobl_moving_planes 63 13 none] [Odivide dobldobl_complex_numbers 44 12 none]
+G r c none [normalize dobldobl_moving_planes 64 13 none] [norm2 dobldobl_complex_vector_norms 17 12 none]
+G r c none [normalize dobldobl_moving_planes 64 13 none] [Odivide dobldobl_complex_numbers 44 12 none]
+X 2 dobldobl_complex_matrices.ads
+5K9*DoblDobl_Complex_Matrices[15|9] 9|4w6 4r45
+X 3 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 9|3w6 3r45
+11R8*Complex_Number 85e15 9|30r33 35r45 40r51 47r35 10|43r18 44r18 55r33
+. 69r45 82r23 95r51 109r23 110r23 124r35 138r23
+18V12*Create{11R8} 10|43s36 44s36 76s12 78s15 103s12 105s15 132s12 134s15
+24V12*REAL_PART{14|12R8} 10|57s36
+44V13*"/"{11R8} 10|165s27 180s27
+47V13*"-"{11R8} 10|82s53 109s53 138s53
+51V13*"+"{11R8} 10|49s30 86s35 110s44 114s35 142s35
+53V13*"-"{11R8} 10|48s30
+55V13*"*"{11R8} 10|48s21 48s33 49s21 49s33 86s27 86s38 110s51 110s53 114s27
+. 114s38 142s27 142s38
+X 5 dobldobl_complex_vector_norms.ads
+5K9*DoblDobl_Complex_Vector_Norms 37e34 10|5w6 163r12 178r12
+17V12*Norm2{14|12R8} 10|163s42 178s42
+X 6 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[16|8] 10|4w6 156r9 172r9
+X 8 dobldobl_mathematical_functions.ads
+4K9*DoblDobl_Mathematical_Functions 59e36 10|1w6 1r45
+18V12*SIN{14|12R8} 10|42s37
+19V12*COS{14|12R8} 10|41s37
+X 9 dobldobl_moving_planes.ads
+6K9*DoblDobl_Moving_Planes 73l5 73e27 10|8b14 184l5 184t27
+12V12*Random_Plane{15|16A8[2|5]} 12>27 12>29 10|10b12 21l7 21t19
+12i27 n{19|6I8} 10|10b27 12r21 15r17
+12i29 k{19|6I8} 10|10b29 12r26 16r19
+17V12*One_Random_Direction{15|16A8[2|5]} 17>35 10|23b12 35l7 35t27
+17a35 m{15|16A8[2|5]} 10|23b35 25r18 25r29 28r14 29r16 29r29 30r21 32r13
+23V12*Rotate{15|16A8[2|5]} 23>21 23>33 24>21 24>24 10|37b12 52l7 52t13 65s18
+23a21 A{15|16A8[2|5]} 10|37b21 40r18 40r29 40r44 47r17 48r22 48r34 49r22
+. 49r34
+23r33 theta{14|12R8} 10|37b33 41r41 42r41
+24i21 i1{19|6I8} 10|38b21 48r11 48r24 49r24
+24i24 i2{19|6I8} 10|38b24 48r36 49r11 49r36
+29V12*Rotating_Plane{15|16A8[2|5]} 29>29 29>41 29>44 30>29 10|54b12 67l7
+. 67t21
+29a29 A{15|16A8[2|5]} 10|54b29 64r18 65r25
+29i41 i1{19|6I8} 10|54b41 65r61
+29i44 i2{19|6I8} 10|54b44 65r64
+30r29 t{3|11R8} 10|55b29 57r46
+35V12*Moving_Plane{15|16A8[2|5]} 35>27 35>29 35>41 10|69b12 93l7 93t19
+35a27 A{15|16A8[2|5]} 10|69b27 71r18 71r29 77r14 84r18 85r20 86r28
+35a29 B{15|16A8[2|5]} 10|69b29 79r14 86r39
+35r41 t{3|11R8} 10|69b41 76r8 78r11 82r55 86r37
+40V12*Moving_Plane{15|16A8[2|5]} 40>27 40>29 40>41 40>47 10|95b12 121l7 121t19
+40a27 A{15|16A8[2|5]} 10|95b27 98r18 98r29 104r14 112r18 113r20 114r28
+40a29 B{15|16A8[2|5]} 10|95b29 106r14 114r39
+40r41 gamma{3|11R8} 10|95b41 110r46
+40r47 t{3|11R8} 10|95b47 103r8 105r11 109r55 110r52 114r37
+46V12*Moving_Directions{15|16A8[2|5]} 47>17 47>19 47>31 47>51 10|123b12 152l7
+. 152t24
+47a17 A{15|16A8[2|5]} 10|124b17 127r18 127r29 133r14 140r18 141r23 142r28
+47a19 B{15|16A8[2|5]} 10|124b19 135r14 142r39 144r23
+47r31 t{3|11R8} 10|124b31 132r8 134r11 138r55 142r37
+47b51 ortho{boolean} 10|124b51 147r10
+63U13*Normalize 63=25 63>44 10|154b13 167l7 167t16
+63a25 A{15|16A8[2|5]} 10|154b25 156r41 161r15 165m7 165r19
+63i44 col{19|6I8} 10|154b44 161r19 165r11 165r23
+64U13*Normalize 64=25 64>44 65<25 10|169b13 182l7 182t16
+64a25 A{15|16A8[2|5]} 10|169b25 172r41 176r15 180m7 180r19
+64i44 col{19|6I8} 10|169b44 176r19 180r11 180r23
+65r25 nrm{14|12R8} 10|170b25 178m5 180r28
+X 10 dobldobl_moving_planes.adb
+12a5 res{15|16A8[2|5]} 17m9 20r57
+15i9 i<long_integer> 17r13
+16i11 j<long_integer> 17r15
+25a5 res{15|16A8[2|5]} 30m9 32m7 34r57
+28i9 i<long_integer> 30r13 30r23 32r11
+29i11 j<long_integer> 30r15 30r25
+40a5 res{15|16A8[2|5]} 48m7 49m7 51r12
+41r5 cot{14|12R8} 43r43
+42r5 sit{14|12R8} 44r43
+43r5 c{3|11R8} 48r20 49r32
+44r5 s{3|11R8} 48r32 49r20
+47i9 j<long_integer> 48r14 48r27 48r39 49r14 49r27 49r39
+57r5 rt{14|12R8} 63r8 63r21 65r58
+58r5 zero{14|12R8} 63r13
+59r5 one{14|12R8} 63r26
+60r5 two{14|12R8} 65r27
+71a5 res{15|16A8[2|5]} 77m7 79m7 86m13 92r12
+72r5 zero{14|12R8} 76r19
+73r5 one{14|12R8} 78r22
+82r9 tt{3|11R8} 86r25
+84i13 i<long_integer> 86r17 86r30 86r41
+85i15 j<long_integer> 86r19 86r32 86r43
+98a5 res{15|16A8[2|5]} 104m7 106m7 114m13 120r12
+99r5 zero{14|12R8} 103r19
+100r5 one{14|12R8} 105r22
+109r9 mt{3|11R8} 110r41 110r54
+110r9 tt{3|11R8} 114r25
+112i13 i<long_integer> 114r17 114r30 114r41
+113i15 j<long_integer> 114r19 114r32 114r43
+127a5 res{15|16A8[2|5]} 133m7 135m7 142m13 144m11 148m13 148r65 151r12
+128r5 zero{14|12R8} 132r19
+129r5 one{14|12R8} 134r22
+138r9 tt{3|11R8} 142r25
+140i13 i<long_integer> 142r17 142r30 142r41 144r15 144r25
+141i15 j<long_integer> 142r19 142r32 142r43
+156a5 v{16|16A8[6|4]} 160r14 161m7 163r48 164r14
+157r5 nrm{14|12R8} 163m5 165r28
+160i9 i<long_integer> 161r9 161r17
+164i9 i<long_integer> 165r9 165r21
+172a5 v{16|16A8[6|4]} 175r14 176m7 178r48 179r14
+175i9 i<long_integer> 176r9 176r17
+179i9 i<long_integer> 180r9 180r21
+X 11 dobldobl_plane_representations.ads
+6K9*DoblDobl_Plane_Representations 10|6w6 20r12 34r12 148r20 11|131e35
+95V12*Orthogonalize{15|16A8[2|5]} 10|20s43 34s43 148s51
+X 12 dobldobl_random_numbers.ads
+6K9*DoblDobl_Random_Numbers 10|3w6 17r21 32r27 12|67e28
+47V12*Random1{3|11R8} 10|17s45 32s51
+X 13 double_double_constants.ads
+4K9*Double_Double_Constants 10|2w6 65r31 13|88e28
+14r3*pi{14|12R8} 10|65r55
+X 14 double_double_numbers.ads
+5K9*Double_Double_Numbers 9|2w6 2r45 14|172e26
+12R8*double_double 9|23r41 65r35 10|37r41 41r20 42r20 57r19 58r21 59r20 60r20
+. 72r21 73r20 99r21 100r20 128r21 129r20 157r11 170r35 14|170e13
+35V12*Create{12R8} 10|58s38 59s37 60s37 72s38 73s37 82s41 99s38 100s37 109s41
+. 128s38 129s37 138s41
+128V13*"*"{12R8} 10|65s30 65s57
+X 15 generic_matrices.ads
+16A8*Matrix(3|11R8)<19|6I8><19|6I8> 9|12r52[2|5] 17r39[2|5] 17r55[2|5] 23r25[2|5]
+. 24r48[2|5] 29r33[2|5] 30r57[2|5] 35r33[2|5] 35r69[2|5] 40r33[2|5] 41r32[2|5]
+. 47r23[2|5] 48r22[2|5] 63r36[2|5] 64r36[2|5] 10|10r52[2|5] 12r11[2|5] 23r39[2|5]
+. 23r55[2|5] 25r11[2|5] 37r25[2|5] 38r48[2|5] 40r11[2|5] 54r33[2|5] 55r57[2|5]
+. 69r33[2|5] 69r69[2|5] 71r11[2|5] 95r33[2|5] 96r32[2|5] 98r11[2|5] 124r23[2|5]
+. 125r22[2|5] 127r11[2|5] 154r36[2|5] 169r36[2|5]
+X 16 generic_vectors.ads
+16A8*Vector(3|11R8)<19|6I8> 10|156r34[6|4] 172r34[6|4]
+X 19 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 9|1w6 1r45 19|45e29
+6I8*integer32<long_integer> 9|12r33 24r29 29r49 63r53 64r53 10|10r33 38r29
+. 54r49 154r53 169r53
+

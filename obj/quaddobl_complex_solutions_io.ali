@@ -1,0 +1,954 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_complex_solutions_io%b  quaddobl_complex_solutions_io.adb  7f6046fd NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W file_scanning%s	file_scanning.adb	file_scanning.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quad_double_numbers_io%s  quad_double_numbers_io.adb  quad_double_numbers_io.ali
+W quaddobl_complex_numbers_io%s  quaddobl_complex_numbers_io.adb  quaddobl_complex_numbers_io.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W symbol_table%s	symbol_table.adb	symbol_table.ali
+W symbols_io%s		symbols_io.adb		symbols_io.ali
+
+U quaddobl_complex_solutions_io%s  quaddobl_complex_solutions_io.ads  f9516e05 EE NE OO PK IL
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D file_scanning.ads	20260513024558 8f200bcc file_scanning%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_numbers_io.ads  20260513024558 34f2e427 quad_double_numbers_io%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_numbers_io.ads  20260513024558 72b54512 quaddobl_complex_numbers_io%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_solutions_io.ads  20260513024558 d7badfd9 quaddobl_complex_solutions_io%s
+D quaddobl_complex_solutions_io.adb  20260513024558 053a944a quaddobl_complex_solutions_io%b
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbols_io.ads	20260513024558 cd02322d symbols_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [get_vector quaddobl_complex_solutions_io 13 13 none]
+G c Z s b [get_vector quaddobl_complex_solutions_io 14 13 none]
+G c Z s b [put_vector quaddobl_complex_solutions_io 19 13 none]
+G c Z s b [put_vector quaddobl_complex_solutions_io 20 13 none]
+G c Z s b [put_vector quaddobl_complex_solutions_io 22 13 none]
+G c Z s b [put_vector quaddobl_complex_solutions_io 23 13 none]
+G c Z s b [put_diagnostics quaddobl_complex_solutions_io 28 13 none]
+G c Z s b [put_diagnostics quaddobl_complex_solutions_io 29 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 36 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 37 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 38 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 39 13 none]
+G c Z s b [put quaddobl_complex_solutions_io 46 13 none]
+G c Z s b [put quaddobl_complex_solutions_io 47 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 55 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 56 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 57 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 58 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 59 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 60 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 61 13 none]
+G c Z s b [get quaddobl_complex_solutions_io 63 13 none]
+G c Z s b [put quaddobl_complex_solutions_io 73 13 none]
+G c Z s b [put quaddobl_complex_solutions_io 74 13 none]
+G c Z s b [put quaddobl_complex_solutions_io 75 13 none]
+G c Z s b [put quaddobl_complex_solutions_io 76 13 none]
+G c Z s b [display_format quaddobl_complex_solutions_io 86 13 none]
+G c Z s b [read quaddobl_complex_solutions_io 91 13 none]
+G c Z s b [write quaddobl_complex_solutions_io 97 13 none]
+G c Z s b [read_first quaddobl_complex_solutions_io 105 13 none]
+G c Z s b [read_first quaddobl_complex_solutions_io 123 13 none]
+G c Z s b [read_first quaddobl_complex_solutions_io 143 13 none]
+G c Z s b [write_first quaddobl_complex_solutions_io 169 13 none]
+G c Z s b [write_first quaddobl_complex_solutions_io 183 13 none]
+G c Z s b [write_first quaddobl_complex_solutions_io 185 13 none]
+G c Z s b [write_first quaddobl_complex_solutions_io 201 13 none]
+G c Z s b [read_next quaddobl_complex_solutions_io 222 13 none]
+G c Z s b [read_next quaddobl_complex_solutions_io 223 13 none]
+G c Z s b [read_next quaddobl_complex_solutions_io 240 13 none]
+G c Z s b [write_next quaddobl_complex_solutions_io 264 13 none]
+G c Z s b [write_next quaddobl_complex_solutions_io 266 13 none]
+G c Z s b [write_next quaddobl_complex_solutions_io 284 13 none]
+G c Z b b [scan_diagnostics quaddobl_complex_solutions_io 50 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [number symbol_table 135 12 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [clear symbol_table 170 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [init symbol_table 32 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [add symbol_table 79 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 13 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [number symbol_table 135 12 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [clear symbol_table 170 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [init symbol_table 32 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [add symbol_table 79 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get_vector quaddobl_complex_solutions_io 14 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [put_vector quaddobl_complex_solutions_io 19 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector quaddobl_complex_solutions_io 19 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 19 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 19 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 20 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector quaddobl_complex_solutions_io 20 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 20 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 20 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 22 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector quaddobl_complex_solutions_io 22 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 22 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 22 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 23 13 none] [number symbol_table 135 12 none]
+G r c none [put_vector quaddobl_complex_solutions_io 23 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 23 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put_vector quaddobl_complex_solutions_io 23 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put_diagnostics quaddobl_complex_solutions_io 28 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [put_diagnostics quaddobl_complex_solutions_io 29 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 36 13 none] [create quad_double_numbers 37 12 none]
+G r s solution [get quaddobl_complex_solutions_io 37 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 37 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 38 13 none] [create quad_double_numbers 37 12 none]
+G r s solution [get quaddobl_complex_solutions_io 39 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 39 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [put quaddobl_complex_solutions_io 46 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put quaddobl_complex_solutions_io 46 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put quaddobl_complex_solutions_io 46 13 none] [number symbol_table 135 12 none]
+G r c none [put quaddobl_complex_solutions_io 46 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put quaddobl_complex_solutions_io 46 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [put quaddobl_complex_solutions_io 47 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put quaddobl_complex_solutions_io 47 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put quaddobl_complex_solutions_io 47 13 none] [number symbol_table 135 12 none]
+G r c none [put quaddobl_complex_solutions_io 47 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put quaddobl_complex_solutions_io 47 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get quaddobl_complex_solutions_io 55 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 55 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get quaddobl_complex_solutions_io 56 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 56 13 none] [put standard_natural_numbers_io 25 13 none]
+G r s solution [get quaddobl_complex_solutions_io 57 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 57 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get quaddobl_complex_solutions_io 58 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 58 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get quaddobl_complex_solutions_io 59 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 59 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [get quaddobl_complex_solutions_io 60 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 60 13 none] [put standard_natural_numbers_io 25 13 none]
+G r s solution [get quaddobl_complex_solutions_io 61 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 61 13 none] [put standard_natural_numbers_io 25 13 none]
+G r s solution [get quaddobl_complex_solutions_io 63 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [number symbol_table 135 12 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [clear symbol_table 170 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [init symbol_table 32 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [add symbol_table 79 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [scan_line file_scanning 26 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [create quad_double_numbers 18 12 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [create quad_double_numbers 37 12 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [get quaddobl_complex_solutions_io 63 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [number symbol_table 135 12 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [put quaddobl_complex_solutions_io 73 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [number symbol_table 135 12 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [put quaddobl_complex_solutions_io 74 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [number symbol_table 135 12 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [put quaddobl_complex_solutions_io 75 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [number symbol_table 135 12 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [put quaddobl_complex_solutions_io 76 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [read quaddobl_complex_solutions_io 91 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [number symbol_table 135 12 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [clear symbol_table 170 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [init symbol_table 32 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [add symbol_table 79 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [create quad_double_numbers 18 12 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [create quad_double_numbers 37 12 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [read quaddobl_complex_solutions_io 91 13 none] [clear quaddobl_complex_solutions__list_of_solutions 93 13 30_3]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [number symbol_table 135 12 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write quaddobl_complex_solutions_io 97 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [read_first quaddobl_complex_solutions_io 105 13 none] [get standard_natural_numbers_io 10 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [read_first quaddobl_complex_solutions_io 123 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [number symbol_table 135 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [clear symbol_table 170 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [init symbol_table 32 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [add symbol_table 79 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [create quad_double_numbers 18 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 123 13 none] [create quad_double_numbers 37 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [get standard_natural_numbers_io 10 13 none]
+G r s solution [read_first quaddobl_complex_solutions_io 143 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [number symbol_table 135 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [clear symbol_table 170 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [init symbol_table 32 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [add symbol_table 79 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [create quad_double_numbers 18 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [create quad_double_numbers 37 12 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [read_first quaddobl_complex_solutions_io 143 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 169 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 169 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [number symbol_table 135 12 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 183 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [number symbol_table 135 12 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 185 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [number symbol_table 135 12 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write_first quaddobl_complex_solutions_io 201 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [number symbol_table 135 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [clear symbol_table 170 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [init symbol_table 32 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [add symbol_table 79 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [create quad_double_numbers 18 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 222 13 none] [create quad_double_numbers 37 12 none]
+G r s solution [read_next quaddobl_complex_solutions_io 223 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [number symbol_table 135 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [clear symbol_table 170 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [init symbol_table 32 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [add symbol_table 79 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [create quad_double_numbers 18 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 223 13 none] [create quad_double_numbers 37 12 none]
+G r s solution [read_next quaddobl_complex_solutions_io 240 13 none] [solutionIP quaddobl_complex_solutions 19 8 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [write_warning standard_complex_solutions_io 14 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [get quaddobl_complex_numbers_io 12 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [get standard_integer_numbers_io 11 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [number symbol_table 135 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [clear symbol_table 170 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [init symbol_table 32 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [read_symbol symbols_io 16 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [add symbol_table 79 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [skip_symbol symbols_io 11 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [get_symbol symbols_io 21 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [scan_line file_scanning 26 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [create quad_double_numbers 18 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [create quad_double_numbers 37 12 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [append quaddobl_complex_solutions 151 13 none]
+G r c none [read_next quaddobl_complex_solutions_io 240 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 264 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 264 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 264 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 264 13 none] [number symbol_table 135 12 none]
+G r c none [write_next quaddobl_complex_solutions_io 264 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 264 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 266 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 266 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 266 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 266 13 none] [number symbol_table 135 12 none]
+G r c none [write_next quaddobl_complex_solutions_io 266 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 266 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [put quaddobl_complex_numbers_io 21 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [number symbol_table 135 12 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [put_symbol symbols_io 33 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [put quad_double_numbers_io 92 13 none]
+G r c none [write_next quaddobl_complex_solutions_io 284 13 none] [tail_of quaddobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [scan_diagnostics quaddobl_complex_solutions_io 50 13 none] [scan_line file_scanning 26 13 none]
+G r c none [scan_diagnostics quaddobl_complex_solutions_io 50 13 none] [create quad_double_numbers 18 12 none]
+G r c none [scan_diagnostics quaddobl_complex_solutions_io 50 13 none] [get standard_floating_numbers_io 15 13 none]
+G r c none [scan_diagnostics quaddobl_complex_solutions_io 50 13 none] [create quad_double_numbers 37 12 none]
+X 12 a-textio.ads
+67P9*File_Type 41|14r36 20r36 23r36 29r41 38r29 39r29 47r29 59r29 60r29 61r29
+. 63r29 75r29 76r29 97r31 105r36 123r36 143r36 169r37 183r37 185r37 201r37
+. 222r35 223r35 240r35 264r36 266r36 284r36 42|24r36 51r27 95r29 119r29 151r36
+. 176r36 186r41 201r29 236r29 263r29 272r29 289r29 309r29 329r29 372r12 386r31
+. 395r36 405r36 427r36 455r37 461r37 481r37 490r37 496r35 511r35 521r35 548r36
+. 559r36 565r36
+131U14*Close 42|378s5 380s20
+187V13*Standard_Input{67P9} 42|21s16 87s9 92s9 218s9 223s9 228s9 233s9
+188V13*Standard_Output{67P9} 42|148s16 173s16 183s21 198s9 301s9 306s9
+277U14*New_Line 42|160s25 166s25 203s38 204s40 319s27 332s52 457s54 474s23
+. 554s21 578s23
+284U14*New_Line 42|257s10 282s10 382s36 400s20 421s12 449s10 506s10 542s10
+290U14*Skip_Line 42|104s20 111s24 113s18 115s5 130s20 137s24 139s18 244s20
+. 245s20 254s18 412s18 413s18 438s20 439s20 501s18 502s18 531s20 532s20
+302V13*End_Of_Line{boolean} 42|110s12 136s12
+414U14*Get 42|100s5 101s5 102s5 103s5 105s5 106s5 107s5 108s5 111s11 113s5
+. 126s5 127s5 128s5 129s5 131s5 132s5 133s5 134s5 137s11 139s5 244s7 245s7
+. 254s5 412s5 413s5 438s7 439s7 501s5 502s5 531s7 532s7
+426U14*Put 42|164s9
+508U14*Put 42|159s9 159s40 165s51 188s5 189s5 189s45 190s5 190s45 191s5 191s45
+. 203s5 204s5 207s5 208s5 208s45 209s5 209s45 210s5 210s45 318s11 319s11
+. 332s22 457s22 473s7 474s7 553s5 554s5 577s7 578s7
+515U14*Put 42|258s10 283s10 284s10 285s10 401s20 450s10 543s10
+555U14*Put_Line 42|205s5 321s11 476s7 485s5 487s5 556s5 580s7
+565U14*Put_Line 42|259s20 285s43 366s7 375s5 381s20 422s12 451s22 507s10
+. 544s22
+X 14 communications_with_user.ads
+4K9*Communications_with_User 127e29 42|2w6 2r46
+46U13*Read_Name_and_Open_File 42|376s5
+X 16 file_scanning.ads
+3K9*File_Scanning 45e18 42|1w6 1r46
+26U13*Scan_Line 42|61s5 68s7 74s9
+X 17 generic_complex_numbers.ads
+19R8*Complex_Number
+X 18 generic_lists.ads
+12P8*List
+67V12*Length_Of{53|7I8} 42|389s20[40|30]
+72V12*Is_Null{boolean} 42|311s12[40|30] 317s19[40|30] 388s12[40|30] 470s15[40|30]
+. 574s15[40|30]
+77V12*Head_Of{40|28P8} 42|320s20[40|30] 389s46[40|30] 471s13[40|30] 575s13[40|30]
+84V12*Tail_Of{12P8[40|30]} 42|322s19[40|30] 477s14[40|30] 581s14[40|30]
+93U13*Clear 42|380s33[40|30]
+X 19 generic_vectors.ads
+16A8*Vector(17|19R8[37|5])<51|6I8> 41|19r58[43|4] 21r58[43|4] 42|146r58[43|4]
+. 152r58[43|4]
+X 33 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 42|9w6 9r46
+14R8*quad_double 253e13 42|51r56
+18V12*Create{14R8} 42|63s14 64s14 65s14 70s16 71s16 76s22
+37V12*Create{14R8} 42|67s31 73s33 77s39
+X 34 quad_double_numbers_io.ads
+6K9*Quad_Double_Numbers_io 99e27 42|10w6 10r46
+92U13*put 42|189s26 190s26 191s26 208s26 209s26 210s26
+X 38 quaddobl_complex_numbers_io.ads
+5K9*QuadDobl_Complex_Numbers_io 38e32 42|11w6 11r46
+12U13*get 42|37s41 43s39 104s5 130s5
+21U13*put 42|160s9 166s9 203s23
+X 40 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 235e31 41|4w6 4r46
+19R8*Solution 26e13 41|13r37 14r58 22r33 23r54 28r38 29r59 36r27 38r48 46r26
+. 47r47 184r34 222r54 265r33 42|19r37 24r58 85r27 95r48 122r9 141r15 171r33
+. 176r54 181r38 186r59 196r26 201r47 247r13 415r13 418r16 441r13 482r34 496r54
+. 514r11 518r14 534r13 549r33
+19i19*n{51|6I8} 42|29r42 31r37 389r60
+20r5*t{17|19R8[37|5]} 42|104m16 130m16 203r34
+21i5*m{51|6I8} 42|109m16 135m16 204r34
+22a5*v{19|16A8[43|4]} 42|32r18 37m52 41r18 43m50 178r23
+23r5*err{33|14R8} 42|116m29 189r37 208r37
+24r5*rco{33|14R8} 42|116m35 190r37 209r37
+25r5*res{33|14R8} 42|116m41 191r37 210r37
+28P8*Link_to_Solution(19R8) 41|37r46 40r46 124r34 186r34 224r33 267r33 42|90r46
+. 120r46 406r34 465r10 491r34 512r33 560r33 570r10
+31P8*Solution_List<18|12P8[30]> 41|55r33 56r43 57r55 58r65 59r54 60r64 62r33
+. 64r43 73r29 74r51 75r50 77r29 91r34 97r52 145r46 202r58 242r45 286r36 42|216r43
+. 221r55 226r43 231r33 237r43 264r33 266r17 273r43 289r54 291r17 299r29 304r51
+. 309r50 314r16 330r29 370r34 386r52 429r46 462r58 464r11 523r45 567r36 569r11
+151U13*Append 42|250s9 444s9 537s9
+X 41 quaddobl_complex_solutions_io.ads
+6K9*QuadDobl_Complex_Solutions_io 305l5 305e34 42|15b14 586l5 586t34
+13U13*get_vector 13=26 42|19b13 22l7 22t17
+13r26 s{40|19R8} 42|19b26 21m31
+14U13*get_vector 14>26 14=47 42|21s5 24b13 46l7 46t17 114s5 140s5
+14p26 file{12|67P9} 42|24b26 34r58 37r34 37r45 42r48 43r32 43r43
+14r47 s{40|19R8} 42|24b47 29r40 31r35 32r16 37m50 37r50 41r16 43m48 43r48
+19U13*put_vector 19>26 42|146b13 149l7 149t17
+19a26 v{19|16A8[43|4]} 42|146b26 148r32
+20U13*put_vector 20>26 21>26 42|148s5 151b13 169l7 169t17 178s5
+20p26 file{12|67P9} 42|151b26 159r13 159r29 159r44 160r13 160r34 164r13 165r31
+. 165r55 166r13 166r34
+21a26 v{19|16A8[43|4]} 42|152b26 154r31 158r16 160r18 163r16 166r18
+22U13*put_vector 22>26 42|171b13 174l7 174t17
+22r26 s{40|19R8} 42|171b26 173r32
+23U13*put_vector 23>26 23>47 42|173s5 176b13 179l7 179t17 206s5
+23p26 file{12|67P9} 42|176b26 178r16
+23r47 s{40|19R8} 42|176b47 178r21
+28U13*put_diagnostics 28>31 42|181b13 184l7 184t22
+28r31 s{40|19R8} 42|181b31 183r37
+29U13*put_diagnostics 29>31 29>52 42|183s5 186b13 192l7 192t22
+29p31 file{12|67P9} 42|186b31 188r9 189r9 189r30 189r49 190r9 190r30 190r49
+. 191r9 191r30 191r49
+29r52 s{40|19R8} 42|186b52 189r35 190r35 191r35
+36U13*get 36<19 42|85b13 88l7 88t10
+36r19 s{40|19R8} 42|85b19 87m24
+37U13*get 37>19 37<37 42|90b13 93l7 93t10
+37i19 n{53|7I8} 42|90b19 92r24
+37p37 ls{40|28P8} 42|90b37 92m26
+38U13*get 38>19 38<40 42|87s5 95b13 117l7 117t10 249s9 417s7 443s9 503s5
+. 536s9
+38p19 file{12|67P9} 42|95b19 100r9 101r9 102r9 103r9 104r9 104r30 105r9 106r9
+. 107r9 108r9 109r9 110r24 111r15 111r34 113r9 113r28 114r16 115r15 116r22
+38r40 s{40|19R8} 42|95b40 104m14 104r14 109m14 109r14 114m21 116m27 116r27
+. 116m33 116r33 116m39 116r39
+39U13*get 39>19 40>19 40<37 42|92s5 119b13 142l7 142t10
+39p19 file{12|67P9} 42|119b19 126r9 127r9 128r9 129r9 130r9 130r30 131r9
+. 132r9 133r9 134r9 135r9 136r24 137r15 137r34 139r9 139r28 140r16
+40i19 n{53|7I8} 42|120b19 122r28
+40p37 ls{40|28P8} 42|120b37 141m5
+46U13*put 46>19 42|196b13 199l7 199t10
+46r19 s{40|19R8} 42|196b19 198r25
+47U13*put 47>19 47>40 42|198s5 201b13 211l7 211t10 320s11 475s7 486s5 555s5
+. 579s7
+47p19 file{12|67P9} 42|201b19 203r9 203r27 203r47 204r9 204r27 204r49 205r14
+. 206r16 207r9 208r9 208r30 208r49 209r9 209r30 209r49 210r9 210r30 210r49
+47r40 s{40|19R8} 42|201b40 203r32 204r32 206r21 208r35 209r35 210r35
+55U13*get 55=19 42|231b13 234l7 234t10
+55p19 sols{40|31P8} 42|231b19 233m24
+56U13*get 56=19 56=24 42|226b13 229l7 229t10
+56p19 sols{40|31P8} 42|226b19 228m24
+56p24 sols_last{40|31P8} 42|226b24 228m29
+57U13*get 57>19 57>23 57=41 42|221b13 224l7 224t10
+57i19 len{53|7I8} 42|221b19 223r24
+57i23 n{53|7I8} 42|221b23 223r28
+57p41 sols{40|31P8} 42|221b41 223m30
+58U13*get 58>19 58>23 58=41 58=46 42|215b13 219l7 219t10
+58i19 len{53|7I8} 42|215b19
+58i23 n{53|7I8} 42|215b23
+58p41 sols{40|31P8} 42|216b19 218m24
+58p46 sols_last{40|31P8} 42|216b24 218m29
+59U13*get 59>19 59=40 42|233s5 289b13 295l7 295t10 377s5
+59p19 file{12|67P9} 42|289b19 294r9
+59p40 sols{40|31P8} 42|289b40 294m14
+60U13*get 60>19 60=40 60=45 42|218s5 228s5 272b13 287l7 287t10 294s5
+60p19 file{12|67P9} 42|272b19 278r9 278r24 279r9
+60p40 sols{40|31P8} 42|273b19 279m20
+60p45 sols_last{40|31P8} 42|273b24 279m25
+61U13*get 61>19 61>40 61>44 62=19 42|223s5 263b13 270l7 270t10
+61p19 file{12|67P9} 42|263b19 269r9
+61i40 len{53|7I8} 42|263b40 269r14
+61i44 n{53|7I8} 42|263b44 269r18
+62p19 sols{40|31P8} 42|264b19 269m20
+63U13*get 63>19 63>40 63>44 64=19 64=24 42|236b13 261l7 261t10 269s5 279s5
+63p19 file{12|67P9} 42|236b19 244r11 244r30 245r11 245r30 249r13 254r9 254r28
+63i40 len{53|7I8} 42|236b40 243r16
+63i44 n{53|7I8} 42|236b44 247r32
+64p19 sols{40|31P8} 42|237b19 250m16
+64p24 sols_last{40|31P8} 42|237b24 250m21
+73U13*put 73>19 42|299b13 302l7 302t10
+73p19 sols{40|31P8} 42|299b19 301r25
+74U13*put 74>19 74>23 74>41 42|304b13 307l7 307t10
+74i19 len{53|7I8} 42|304b19 306r25
+74i23 n{53|7I8} 42|304b23 306r29
+74p41 sols{40|31P8} 42|304b41 306r31
+75U13*put 75>19 75>40 42|301s5 309b13 327l7 327t10 333s5
+75p19 file{12|67P9} 42|309b19 316r47 318r15 318r38 319r15 319r36 320r15 321r20
+75p40 sols{40|31P8} 42|309b40 311r20 314r33
+76U13*put 76>19 76>40 76>44 77>19 42|306s5 329b13 334l7 334t10 389s11
+76p19 file{12|67P9} 42|329b19 332r9 332r26 332r41 332r61 333r9
+76i40 len{53|7I8} 42|329b40 332r14
+76i44 n{53|7I8} 42|329b44 332r46
+77p19 sols{40|31P8} 42|330b19 333r14
+86U13*Display_Format 42|336b13 368l7 368t21 382s20
+91U13*Read 91=20 42|370b13 383s20 384l7 384t11
+91p20 sols{40|31P8} 42|370b20 377m14 380m39 383m25
+97U13*Write 97>21 97>42 42|386b13 391l7 391t12
+97p21 file{12|67P9} 42|386b21 389r15
+97p42 sols{40|31P8} 42|386b42 388r20 389r30 389r54 389r63
+105U13*Read_First 105>26 105<47 105<51 42|395b13 403l7 403t17 411s5 435s5
+105p26 file{12|67P9} 42|395b26 398r9 398r24
+105i47 len{53|7I8} 42|395b47 397m5 398m14
+105i51 dim{53|7I8} 42|395b51 397m15 398m29
+123U13*Read_First 123>26 123<47 123<51 124<26 42|405b13 425l7 425t17
+123p26 file{12|67P9} 42|405b26 411r16 412r9 412r28 413r9 413r28 417r11
+123i47 len{53|7I8} 42|405b47 411m21
+123i51 dim{53|7I8} 42|405b51 411m25 415r32
+124p26 s{40|28P8} 42|406b26 418m7
+143U13*Read_First 143>26 143>47 144<26 144<30 144<34 145=26 145=32 42|427b13
+. 453l7 453t17
+143p26 file{12|67P9} 42|427b26 435r16 438r11 438r30 439r11 439r30 443r13
+143i47 n{53|7I8} 42|427b47 436r35
+144i26 len{53|7I8} 42|428b26 435m21 436r19
+144i30 dim{53|7I8} 42|428b30 435m25 441r32
+144i34 nbr{53|7I8} 42|428b34 434m5 436r12 436r29 437m7 437r14 451r14
+145p26 first{40|31P8} 42|429b26 444m16
+145p32 last{40|31P8} 42|429b32 444m22
+169U13*Write_First 169>27 169>48 169>52 42|455b13 459l7 459t18 468s5 484s5
+169p27 file{12|67P9} 42|455b27 457r9 457r26 457r41 457r63 458r43
+169i48 len{53|7I8} 42|455b48 457r14
+169i52 dim{53|7I8} 42|455b52 457r46
+183U13*Write_First 183>27 183>48 183>52 184>27 42|481b13 488l7 488t18 493s5
+183p27 file{12|67P9} 42|481b27 484r17 485r14 486r9 487r14
+183i48 len{53|7I8} 42|481b48 484r22
+183i52 dim{53|7I8} 42|481b52 484r26
+184r27 s{40|19R8} 42|482b27 486r14
+185U13*Write_First 185>27 185>48 185>52 186>27 42|490b13 494l7 494t18
+185p27 file{12|67P9} 42|490b27 493r17
+185i48 len{53|7I8} 42|490b48 493r22
+185i52 dim{53|7I8} 42|490b52 493r26
+186p27 s{40|28P8} 42|491b27 493r30
+201U13*Write_First 201>27 201>48 201>50 201>54 202<27 202>48 42|461b13 479l7
+. 479t18
+201p27 file{12|67P9} 42|461b27 468r17 473r11 473r34 474r11 474r32 475r11
+. 476r16
+201i48 n{53|7I8} 42|461b48 470r39
+201i50 len{53|7I8} 42|461b50 468r22
+201i54 dim{53|7I8} 42|461b54 468r26
+202i27 nbr{53|7I8} 42|462b27 469m5 470r33 472m7 472r14 473r39
+202p48 sols{40|31P8} 42|462b48 464r28
+222U13*Read_Next 222>25 222<46 42|496b13 509l7 509t16 517s5
+222p25 file{12|67P9} 42|496b25 501r9 501r28 502r9 502r28 503r9
+222r46 s{40|19R8} 42|496b46 503m14
+223U13*Read_Next 223>25 223>46 224<25 42|511b13 519l7 519t16
+223p25 file{12|67P9} 42|511b25 517r15
+223i46 dim{53|7I8} 42|511b46 514r30
+224p25 s{40|28P8} 42|512b25 518m5
+240U13*Read_Next 240>25 240>46 240>48 241<25 242=25 242=31 42|521b13 546l7
+. 546t16
+240p25 file{12|67P9} 42|521b25 531r11 531r30 532r11 532r30 536r13
+240i46 n{53|7I8} 42|521b46 529r18
+240i48 dim{53|7I8} 42|521b48 534r32
+241i25 nbr{53|7I8} 42|522b25 528m5 529r12 530m7 530r14 544r14
+242p25 first{40|31P8} 42|523b25 537m16
+242p31 last{40|31P8} 42|523b31 537m22
+264U13*Write_Next 264>26 264=47 265>26 42|548b13 557l7 557t17 562s5
+264p26 file{12|67P9} 42|548b26 553r9 553r32 554r9 554r30 555r9 556r14
+264i47 cnt{53|7I8} 42|548b47 552m5 552r12 553r37
+265r26 s{40|19R8} 42|549b26 555r14
+266U13*Write_Next 266>26 266=47 267>26 42|559b13 563l7 563t17
+266p26 file{12|67P9} 42|559b26 562r16
+266i47 cnt{53|7I8} 42|559b47 562m21
+267p26 s{40|28P8} 42|560b26 562r25
+284U13*Write_Next 284>26 284>47 285<26 285=47 286>26 42|565b13 584l7 584t17
+284p26 file{12|67P9} 42|565b26 577r11 577r34 578r11 578r32 579r11 580r16
+284i47 n{53|7I8} 42|565b47 574r39
+285i26 nbr{53|7I8} 42|566b26 573m5 574r33 582m7 582r14
+285i47 cnt{53|7I8} 42|566b47 576m7 576r14 577r39
+286p26 sols{40|31P8} 42|567b26 569r28
+X 42 quaddobl_complex_solutions_io.adb
+26i5 ind{51|6I8} 42m9 43r52
+32i11 i<long_integer> 37r54
+34a11 sb{56|15A11} 36r28
+41i11 i<long_integer>
+50U13 Scan_Diagnostics 50b13 51>17 51<38 51<42 51<46 81l7 81t23 116s5
+51p17 file{12|67P9} 61r15 67r11 68r17 73r13 74r19 77r19
+51r38 err{33|14R8} 63m7 67m24
+51r42 rco{33|14R8} 64m7 70m9 73m26
+51r46 res{33|14R8} 65m7 71m9 76m15 77m32
+57b5 found{boolean} 61m28 62r12 68m30 69r14 74m32 75r16
+58f5 d_err{49|13F8} 67m16 67r16 67r38
+58f11 d_rco{49|13F8} 73m18 73r18 73r40
+58f17 d_res{49|13F8} 77m24 77r24 77r46
+97e5 c{character} 100m14 100r66 101m14 101r66 102m14 102r66 103m14 103r66
+. 105m14 105r66 106m14 106r66 107m14 107r66 108m14 108r66 111m20 113m14
+122r5 s{40|19R8} 130m14 130r14 135m14 135r14 140m21 140r21 141r25
+123e5 c{character} 126m14 126r66 127m14 127r66 128m14 128r66 129m14 129r66
+. 131m14 131r66 132m14 132r66 133m14 133r66 134m14 134r66 137m20 139m14
+154i5 n{51|6I8} 157r40
+158i11 i<long_integer> 159r34 160r20
+163i11 i<long_integer> 165r46 166r20
+239e5 c{character} 244m16 245m16 254m14
+240i5 i{53|7I8} 243r11 252m7 252r12 259r14
+247r9 s{40|19R8} 249m18 250r31
+266p5 sols_last{40|31P8} 269m25 269r25
+275i5 len{53|7I8} 278m14 278r14 279r14 284r33
+275i9 n{53|7I8} 278m29 278r29 279r18 285r37
+291p5 sols_last{40|31P8} 294m19 294r19
+313i9 count{53|7I8} 318r43 323m11 323r20
+314p9 temp{40|31P8} 317r27 320r28 322m11 322r27
+338a5 s(string) 341m5 342m5 343m5 344m5 345m5 346m5 347m5 348m5 349m5 350m5
+. 351m5 352m5 353m5 354m5 355m5 356m5 357m5 358m5 359m5 360m5 361m5 362m5
+. 363m5 364m5 365r14 366r16
+365i9 i{integer} 366r18
+372p5 file{12|67P9} 376m29 376r29 377r9 378m11 378r11 380m26 380r26
+408e5 c{character} 412m14 413m14
+415r7 sol{40|19R8} 417m16 418r26
+431e5 c{character} 438m16 439m16
+441r9 s{40|19R8} 443m18 444r27
+464p5 tmp{40|31P8} 470r23 471r21 477m7 477r22
+465p5 ls{40|28P8} 471m7 475r16
+498e5 c{character} 501m14 502m14
+514r5 sol{40|19R8} 517m20 518r24
+525e5 c{character} 531m16 532m16
+534r9 s{40|19R8} 536m18 537r27
+569p5 tmp{40|31P8} 574r23 575r21 581m7 581r22
+570p5 ls{40|28P8} 575m7 579r16
+X 43 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[19|8] 41|3w6 19r33 21r33 42|146r33 152r33
+X 47 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 42|8w6 100r18 101r18 102r18 103r18 105r18
+. 106r18 107r18 108r18 126r18 127r18 128r18 129r18 131r18 132r18 133r18 134r18
+. 316r9 458r5 47|358e34
+14U13*write_warning 42|100s48 101s48 102s48 103s48 105s48 106s48 107s48 108s48
+. 126s48 127s48 128s48 129s48 131s48 132s48 133s48 134s48
+111U13*put_bar 42|316s39 458s35
+X 49 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 42|6w6 6r46 49|58e30
+13F8*double_float<long_float> 42|58r25
+X 50 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 42|7w6 7r46 50|63e33
+15U13*get 42|67s7 73s9 77s15
+X 51 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 42|4w6 4r46 51|45e29
+6I8*integer32<long_integer> 42|26r11 42r16 122r18 154r18 247r22 415r22 441r22
+. 514r20 534r22
+X 52 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 42|5w6 5r46 52|47e32
+11U13*get 42|109s5 135s5
+27U13*put 42|159s25 204s23
+X 53 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 41|2w6 2r46 53|30e29
+7I8*natural32<long_integer> 41|37r26 40r26 57r30 58r30 61r51 63r51 74r30
+. 76r51 105r61 123r61 143r54 144r44 169r61 183r61 185r61 201r63 202r37 223r55
+. 240r57 241r35 264r60 266r60 284r54 285r36 285r60 42|29r30 31r25 90r26 120r26
+. 157r30 165r36 215r30 221r30 236r51 240r9 263r51 275r13 304r30 313r17 329r51
+. 389r36 395r61 405r61 427r54 428r44 455r61 461r63 462r37 481r61 490r61 511r55
+. 521r57 522r35 548r60 559r60 565r54 566r36 566r60
+X 54 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 42|3w6 3r46 54|35e32
+10U13*get 42|278s5 278s20 398s5 398s20
+25U13*put 42|259s10 284s29 285s33 451s10 544s10
+26U13*put 42|318s34 332s5 332s37 457s5 457s37 473s30 553s28 577s30
+X 56 symbol_table.ads
+4K9*Symbol_Table 42|12w6 12r46 29r8 30r7 31r7 36r11 157r8 56|175e17
+15A11*Symbol{string}<integer> 42|34r25
+32U13*Init 42|31s20
+79U13*Add 42|36s24
+135V12*Number{53|7I8} 42|29s21 157s21
+170U13*Clear 42|30s20
+X 57 symbols_io.ads
+5K9*Symbols_io 42|13w6 34r35 37r11 42r26 43r9 165r9 57|39e15
+11U13*Skip_Symbol 42|37s22 43s20
+16V12*Read_Symbol{56|15A11} 42|34s46
+21V12*Get_Symbol{53|7I8} 42|42s37
+33U13*put_symbol 42|165s20
+X 78 text_io.ads
+27K9*Text_IO=27:29 41|1w6 1r46
+

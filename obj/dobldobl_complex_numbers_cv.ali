@@ -1,0 +1,169 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dobldobl_complex_numbers_cv%b  dobldobl_complex_numbers_cv.adb  ab81bdd4 NE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W multprec_dobldobl_convertors%s  multprec_dobldobl_convertors.adb  multprec_dobldobl_convertors.ali
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+U dobldobl_complex_numbers_cv%s  dobldobl_complex_numbers_cv.ads  a69d3cb4 EE NE OO PK
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_numbers_cv.ads  20260513024558 fa753821 dobldobl_complex_numbers_cv%s
+D dobldobl_complex_numbers_cv.adb  20260513024558 91a26172 dobldobl_complex_numbers_cv%b
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_dobldobl_convertors.ads  20260513024558 a514bf41 multprec_dobldobl_convertors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none]
+G c Z s b [multprec_to_dobldobl_complex dobldobl_complex_numbers_cv 14 12 none]
+G c Z s b [dobldobl_complex_to_standard dobldobl_complex_numbers_cv 22 12 none]
+G c Z s b [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none]
+G r c none [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none] [create double_double_numbers 35 12 none]
+G r c none [standard_to_dobldobl_complex dobldobl_complex_numbers_cv 11 12 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [multprec_to_dobldobl_complex dobldobl_complex_numbers_cv 14 12 none] [real_part multprec_complex_numbers 32 12 5_1]
+G r c none [multprec_to_dobldobl_complex dobldobl_complex_numbers_cv 14 12 none] [imag_part multprec_complex_numbers 33 12 5_1]
+G r c none [multprec_to_dobldobl_complex dobldobl_complex_numbers_cv 14 12 none] [to_double_double multprec_dobldobl_convertors 23 12 none]
+G r c none [multprec_to_dobldobl_complex dobldobl_complex_numbers_cv 14 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [multprec_to_dobldobl_complex dobldobl_complex_numbers_cv 14 12 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [dobldobl_complex_to_standard dobldobl_complex_numbers_cv 22 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [dobldobl_complex_to_standard dobldobl_complex_numbers_cv 22 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [dobldobl_complex_to_standard dobldobl_complex_numbers_cv 22 12 none] [to_double double_double_numbers 102 12 none]
+G r c none [dobldobl_complex_to_standard dobldobl_complex_numbers_cv 22 12 none] [create standard_complex_numbers 19 12 none]
+G r s complex_number [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none] [to_floating_number multprec_dobldobl_convertors 12 12 none]
+G r c none [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none] [create multprec_complex_numbers 27 12 5_1]
+G r c none [dobldobl_complex_to_multprec dobldobl_complex_numbers_cv 25 12 none] [clear multprec_floating_numbers 210 13 none]
+X 12 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 13|2w6 13r21 16r21 23r20 26r20 14|10r21
+. 12r11 19r12 25r21 27r11 36r12 41r20 45r37 46r37 56r20 60r37 61r37
+11R8*Complex_Number 85e15 13|13r46 16r46 23r45 26r45 14|10r46 12r36 25r46
+. 27r36 41r45 56r45
+19V12*Create{11R8} 14|19s37 36s37
+24V12*REAL_PART{15|12R8} 14|45s62 60s62
+25V12*IMAG_PART{15|12R8} 14|46s62 61s62
+X 13 dobldobl_complex_numbers_cv.ads
+5K9*DoblDobl_Complex_Numbers_cv 33l5 33e32 14|6b14 72l5 72t32
+11V12*Standard_to_DoblDobl_Complex{12|11R8} 12>16 14|8b12 21l7 21t35
+12r16 c{27|11R8} 14|9b16 13r71 14r71
+14V12*Multprec_to_DoblDobl_Complex{12|11R8} 15>16 14|23b12 38l7 38t35
+15r16 c{16|19R8[19|5]} 14|24b16 28r65 29r65
+22V12*DoblDobl_Complex_to_Standard{27|11R8} 23>16 14|40b12 53l7 53t35
+23r16 c{12|11R8} 14|41b16 45r72 46r72
+25V12*DoblDobl_Complex_to_Multprec{16|19R8[19|5]} 26>16 14|55b12 70l7 70t35
+26r16 c{12|11R8} 14|56b16 60r72 61r72
+X 14 dobldobl_complex_numbers_cv.adb
+12r5 res{12|11R8} 19m5 20r12
+13f5 cre{28|13F8} 15r44
+14f5 cim{28|13F8} 16r44
+15r5 rre{15|12R8} 19r44
+16r5 rim{15|12R8} 19r48
+27r5 res{12|11R8} 36m5 37r12
+28r5 cre{21|16R8} 30r54 34m37 34r37
+29r5 cim{21|16R8} 31r54 35m37 35r37
+30r5 rre{15|12R8} 36r44
+31r5 rim{15|12R8} 36r48
+44r5 res{27|11R8} 51m5 52r12
+45r5 cre{15|12R8} 47r46
+46r5 cim{15|12R8} 48r46
+47f5 rre{28|13F8} 51r44
+48f5 rim{28|13F8} 51r48
+59r5 res{16|19R8[19|5]} 66m5 69r12
+60r5 cre{15|12R8} 62r49
+61r5 cim{15|12R8} 63r49
+62r5 rre{21|16R8} 66r44 67m37 67r37
+63r5 rim{21|16R8} 66r48 68m37 68r37
+X 15 double_double_numbers.ads
+5K9*Double_Double_Numbers 14|3w6 3r46 15|172e26
+12R8*double_double 14|15r20 16r20 30r20 31r20 45r20 46r20 60r20 61r20 15|170e13
+35V12*Create{12R8} 14|15s37 16s37
+102V12*to_double{28|13F8} 14|47s36 48s36
+X 16 generic_complex_numbers.ads
+19R8*Complex_Number 13|15r45[19|5] 27r46[19|5] 14|24r45[19|5] 57r46[19|5]
+. 59r36[19|5]
+27V12*Create{19R8[19|5]} 14|66s37[19|5]
+32V12*REAL_PART{21|16R8} 14|28s55[19|5]
+33V12*IMAG_PART{21|16R8} 14|29s55[19|5]
+X 19 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[16|11] 13|3w6 15r20 27r21 14|24r20 28r30 29r30
+. 57r21 59r11 66r12
+X 20 multprec_dobldobl_convertors.ads
+5K9*Multprec_DoblDobl_Convertors 14|4w6 4r46 20|29e33
+12V12*to_floating_number{21|16R8} 14|62s30 63s30
+23V12*to_double_double{15|12R8} 14|30s37 31s37
+X 21 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 14|2w6 2r46 34r5 35r5 67r5 68r5 21|221e30
+16R8*Floating_Number 14|28r11 29r11 62r11 63r11 21|219e13
+210U13*Clear 14|34s31 35s31 67s31 68s31
+X 27 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 13|1w6 12r20 24r21 14|9r20 13r36 14r36 42r21
+. 44r11 51r12 27|92e29
+11R8*Complex_Number 13|12r45 24r46 14|9r45 42r46 44r36 27|90e15
+19V12*Create{11R8} 14|51s37
+24V12*REAL_PART{28|13F8} 14|13s61
+25V12*IMAG_PART{28|13F8} 14|14s61
+X 28 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 14|1w6 1r46 28|58e30
+13F8*double_float<long_float> 14|13r20 14r20 47r20 48r20
+

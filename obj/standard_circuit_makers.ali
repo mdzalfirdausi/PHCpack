@@ -1,0 +1,934 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U standard_circuit_makers%b  standard_circuit_makers.adb  aae166a7 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W exponent_indices%s	exponent_indices.adb	exponent_indices.ali
+W quaddobl_complex_numbers_cv%s  quaddobl_complex_numbers_cv.adb  quaddobl_complex_numbers_cv.ali
+W quaddobl_complex_vectors_cv%s  quaddobl_complex_vectors_cv.adb  quaddobl_complex_vectors_cv.ali
+W standard_complex_numbers_io%s  standard_complex_numbers_io.adb  standard_complex_numbers_io.ali
+W standard_complex_poly_functions%s  standard_complex_poly_functions.ads  standard_complex_poly_functions.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors_io%s  standard_integer_vectors_io.ads  standard_integer_vectors_io.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_random_vectors%s  standard_random_vectors.adb  standard_random_vectors.ali
+W standard_vector_splitters%s  standard_vector_splitters.adb  standard_vector_splitters.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U standard_circuit_makers%s  standard_circuit_makers.ads  06f621db EE NE OO PK
+W quaddobl_complex_circuits%s  quaddobl_complex_circuits.adb  quaddobl_complex_circuits.ali
+W standard_coefficient_circuits%s  standard_coefficient_circuits.adb  standard_coefficient_circuits.ali
+W standard_coefficient_convolutions%s  standard_coefficient_convolutions.adb  standard_coefficient_convolutions.ali
+W standard_complex_circuits%s  standard_complex_circuits.adb  standard_complex_circuits.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_speelpenning_convolutions%s  standard_speelpenning_convolutions.ads  standard_speelpenning_convolutions.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D exponent_indices.ads	20260513024558 38ef4075 exponent_indices%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_speelpenning_convolutions.ads  20260513024558 a14ddeea generic_speelpenning_convolutions%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_circuits.ads  20260513024558 6a68f653 quaddobl_complex_circuits%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_numbers_cv.ads  20260513024558 dc890311 quaddobl_complex_numbers_cv%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vecmats.ads  20260513024558 3a6aa9c0 quaddobl_complex_vecmats%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vectors_cv.ads  20260513024558 4efd855e quaddobl_complex_vectors_cv%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D standard_circuit_makers.ads  20260513024558 aa480e22 standard_circuit_makers%s
+D standard_circuit_makers.adb  20260513024558 2d39e6bb standard_circuit_makers%b
+D standard_coefficient_circuits.ads  20260513024558 86f34e2e standard_coefficient_circuits%s
+D standard_coefficient_convolutions.ads  20260513024558 cbd22682 standard_coefficient_convolutions%s
+D standard_complex_circuits.ads  20260513024558 54da0c3e standard_complex_circuits%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecvecs.ads  20260513024558 05f205d7 standard_floating_vecvecvecs%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring_io.ads  20260513024558 bfea981c standard_integer_ring_io%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vectors_io.ads  20260513024558 aea9aff6 standard_integer_vectors_io%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_random_vectors.ads  20260513024558 fc3e3208 standard_random_vectors%s
+D standard_speelpenning_convolutions.ads  20260513024558 99412733 standard_speelpenning_convolutions%s
+D standard_vector_splitters.ads  20260513024558 06bf457f standard_vector_splitters%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D tripdobl_complex_numbers.ads  20260513024558 c635fac5 tripdobl_complex_numbers%s
+D tripdobl_complex_ring.ads  20260513024558 dde813cb tripdobl_complex_ring%s
+D tripdobl_complex_vectors.ads  20260513024558 0e6ebbef tripdobl_complex_vectors%s
+D tripdobl_complex_vecvecs.ads  20260513024558 e5269d04 tripdobl_complex_vecvecs%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D triple_double_ring.ads  20260513024558 6a90058c triple_double_ring%s
+D triple_double_ring-ffield.ads  20260513024558 d0c028cb triple_double_ring.ffield%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [random_indices standard_circuit_makers 23 12 none]
+G c Z s b [random_indices standard_circuit_makers 32 12 none]
+G c Z s b [random_complex_circuit standard_circuit_makers 43 12 none]
+G c Z s b [random_complex_circuit standard_circuit_makers 53 12 none]
+G c Z s b [random_complex_circuit standard_circuit_makers 56 12 none]
+G c Z s b [random_complex_circuits standard_circuit_makers 65 12 none]
+G c Z s b [random_complex_system standard_circuit_makers 73 12 none]
+G c Z s b [random_complex_system standard_circuit_makers 76 12 none]
+G c Z s b [to_double standard_circuit_makers 84 12 none]
+G c Z s b [to_double standard_circuit_makers 87 12 none]
+G c Z s b [to_double standard_circuit_makers 90 12 none]
+G c Z s b [to_double standard_circuit_makers 97 12 none]
+G c Z s b [to_double standard_circuit_makers 100 12 none]
+G c Z s b [split standard_circuit_makers 107 12 none]
+G c Z s b [split standard_circuit_makers 109 12 none]
+G c Z s b [split standard_circuit_makers 116 12 none]
+G c Z s b [split standard_circuit_makers 118 12 none]
+G c Z s b [make_polynomial standard_circuit_makers 125 12 none]
+G c Z s b [gradient standard_circuit_makers 136 12 none]
+G c Z s b [hessian standard_circuit_makers 144 12 none]
+G c Z s b [constant_coefficient standard_circuit_makers 151 12 none]
+G c Z s b [is_nonzero standard_circuit_makers 158 12 none]
+G c Z s b [make_complex_circuit standard_circuit_makers 165 12 none]
+G c Z s b [make_coefficient_circuit standard_circuit_makers 172 12 none]
+G c Z s b [make_complex_system standard_circuit_makers 179 12 none]
+G c Z s b [make_coefficient_system standard_circuit_makers 188 12 none]
+G c Z s b [write_matrix standard_circuit_makers 197 13 none]
+G c Z s b [make_complex_circuit standard_circuit_makers 205 12 none]
+G c Z s b [make_complex_circuit standard_circuit_makers 208 12 none]
+G c Z s b [make_complex_system standard_circuit_makers 218 12 none]
+G c Z s b [make_complex_system standard_circuit_makers 221 12 none]
+G c Z s b [make_coefficient_circuit standard_circuit_makers 231 12 none]
+G c Z s b [make_coefficient_circuit standard_circuit_makers 234 12 none]
+G c Z s b [make_coefficient_system standard_circuit_makers 245 12 none]
+G c Z s b [make_coefficient_system standard_circuit_makers 248 12 none]
+G r c none [random_indices standard_circuit_makers 23 12 none] [random standard_random_numbers 31 12 none]
+G r c none [random_indices standard_circuit_makers 32 12 none] [random standard_random_numbers 31 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 43 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 43 12 none] [random standard_random_numbers 31 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 43 12 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 43 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 43 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [random_vector standard_random_vectors 15 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 53 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [random_vector standard_random_vectors 15 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_complex_circuit standard_circuit_makers 56 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r s circuits [random_complex_circuits standard_circuit_makers 65 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [random_vector standard_random_vectors 15 12 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_complex_circuits standard_circuit_makers 65 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r s circuits [random_complex_system standard_circuit_makers 73 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [random_vector standard_random_vectors 15 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [random_complex_system standard_circuit_makers 73 12 none] [create standard_complex_circuits 71 12 none]
+G r s circuits [random_complex_system standard_circuit_makers 76 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [random_vector standard_random_vectors 15 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [random_complex_system standard_circuit_makers 76 12 none] [create standard_complex_circuits 71 12 none]
+G r c none [to_double standard_circuit_makers 84 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [to_double standard_circuit_makers 84 12 none] [quaddobl_complex_to_standard quaddobl_complex_vectors_cv 28 12 none]
+G r c none [to_double standard_circuit_makers 84 12 none] [quaddobl_complex_to_standard quaddobl_complex_numbers_cv 24 12 none]
+G r s circuit [to_double standard_circuit_makers 87 12 none] [circuitIP standard_complex_circuits 22 8 none]
+G r c none [to_double standard_circuit_makers 87 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [to_double standard_circuit_makers 87 12 none] [quaddobl_complex_to_standard quaddobl_complex_vectors_cv 28 12 none]
+G r c none [to_double standard_circuit_makers 87 12 none] [quaddobl_complex_to_standard quaddobl_complex_numbers_cv 24 12 none]
+G r s circuits [to_double standard_circuit_makers 90 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r s circuit [to_double standard_circuit_makers 90 12 none] [circuitIP standard_complex_circuits 22 8 none]
+G r c none [to_double standard_circuit_makers 90 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [to_double standard_circuit_makers 90 12 none] [quaddobl_complex_to_standard quaddobl_complex_vectors_cv 28 12 none]
+G r c none [to_double standard_circuit_makers 90 12 none] [quaddobl_complex_to_standard quaddobl_complex_numbers_cv 24 12 none]
+G r s circuits [to_double standard_circuit_makers 97 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r s circuit [to_double standard_circuit_makers 97 12 none] [circuitIP standard_complex_circuits 22 8 none]
+G r c none [to_double standard_circuit_makers 97 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [to_double standard_circuit_makers 97 12 none] [quaddobl_complex_to_standard quaddobl_complex_vectors_cv 28 12 none]
+G r c none [to_double standard_circuit_makers 97 12 none] [quaddobl_complex_to_standard quaddobl_complex_numbers_cv 24 12 none]
+G r c none [to_double standard_circuit_makers 97 12 none] [create standard_complex_circuits 71 12 none]
+G r s system [to_double standard_circuit_makers 100 12 none] [systemIP standard_complex_circuits 42 8 none]
+G r s circuits [to_double standard_circuit_makers 100 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r s circuit [to_double standard_circuit_makers 100 12 none] [circuitIP standard_complex_circuits 22 8 none]
+G r c none [to_double standard_circuit_makers 100 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [to_double standard_circuit_makers 100 12 none] [quaddobl_complex_to_standard quaddobl_complex_vectors_cv 28 12 none]
+G r c none [to_double standard_circuit_makers 100 12 none] [quaddobl_complex_to_standard quaddobl_complex_numbers_cv 24 12 none]
+G r c none [to_double standard_circuit_makers 100 12 none] [create standard_complex_circuits 71 12 none]
+G r c none [split standard_circuit_makers 107 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [split standard_circuit_makers 107 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [split standard_circuit_makers 107 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [split standard_circuit_makers 107 12 none] [split_complex standard_vector_splitters 60 13 none]
+G r c none [split standard_circuit_makers 107 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [split standard_circuit_makers 107 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r s circuits [split standard_circuit_makers 109 12 none] [circuitsIP standard_coefficient_circuits 48 8 none]
+G r c none [split standard_circuit_makers 109 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [split standard_circuit_makers 109 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [split standard_circuit_makers 109 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [split standard_circuit_makers 109 12 none] [split_complex standard_vector_splitters 60 13 none]
+G r c none [split standard_circuit_makers 109 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [split standard_circuit_makers 109 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r s circuits [split standard_circuit_makers 116 12 none] [circuitsIP standard_coefficient_circuits 48 8 none]
+G r c none [split standard_circuit_makers 116 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [split standard_circuit_makers 116 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [split standard_circuit_makers 116 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [split standard_circuit_makers 116 12 none] [split_complex standard_vector_splitters 60 13 none]
+G r c none [split standard_circuit_makers 116 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [split standard_circuit_makers 116 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [split standard_circuit_makers 116 12 none] [create standard_coefficient_circuits 88 12 none]
+G r s circuits [split standard_circuit_makers 118 12 none] [circuitsIP standard_coefficient_circuits 48 8 none]
+G r c none [split standard_circuit_makers 118 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [split standard_circuit_makers 118 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [split standard_circuit_makers 118 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [split standard_circuit_makers 118 12 none] [split_complex standard_vector_splitters 60 13 none]
+G r c none [split standard_circuit_makers 118 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [split standard_circuit_makers 118 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [split standard_circuit_makers 118 12 none] [create standard_coefficient_circuits 88 12 none]
+G r s term [make_polynomial standard_circuit_makers 125 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [make_polynomial standard_circuit_makers 125 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [make_polynomial standard_circuit_makers 125 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [make_polynomial standard_circuit_makers 125 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [gradient standard_circuit_makers 136 12 none] [diff standard_complex_polynomials 113 13 4_1]
+G r c none [gradient standard_circuit_makers 136 12 none] [eval standard_complex_poly_functions 53 12 6_1]
+G r c none [gradient standard_circuit_makers 136 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [hessian standard_circuit_makers 144 12 none] [diff standard_complex_polynomials 113 13 4_1]
+G r c none [hessian standard_circuit_makers 144 12 none] [eval standard_complex_poly_functions 53 12 6_1]
+G r c none [hessian standard_circuit_makers 144 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [constant_coefficient standard_circuit_makers 151 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [constant_coefficient standard_circuit_makers 151 12 none] [coeff standard_complex_polynomials 79 12 4_1]
+G r c none [constant_coefficient standard_circuit_makers 151 12 none] [clear standard_complex_polynomials 128 13 4_1]
+G r c none [is_nonzero standard_circuit_makers 158 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [is_nonzero standard_circuit_makers 158 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [number_of_terms standard_complex_polynomials 49 12 4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [coeff standard_complex_polynomials 79 12 4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [clear standard_complex_polynomials 128 13 4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [allocate standard_complex_circuits 57 12 none]
+G r i none [make_complex_circuit standard_circuit_makers 165 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [degree standard_complex_polynomials 63 12 4_1]
+G r s term [make_complex_circuit standard_circuit_makers 165 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 165 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [number_of_terms standard_complex_polynomials 49 12 4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [coeff standard_complex_polynomials 79 12 4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [clear standard_complex_polynomials 128 13 4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r i none [make_coefficient_circuit standard_circuit_makers 172 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [degree standard_complex_polynomials 63 12 4_1]
+G r s term [make_coefficient_circuit standard_circuit_makers 172 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 172 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r s circuits [make_complex_system standard_circuit_makers 179 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [number_of_terms standard_complex_polynomials 49 12 4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [coeff standard_complex_polynomials 79 12 4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [clear standard_complex_polynomials 128 13 4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [allocate standard_complex_circuits 57 12 none]
+G r i none [make_complex_system standard_circuit_makers 179 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [degree standard_complex_polynomials 63 12 4_1]
+G r s term [make_complex_system standard_circuit_makers 179 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [put standard_integer_vectors_io 37 13 5_1]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [put standard_integer_numbers_io 18 13 none]
+G r c none [make_complex_system standard_circuit_makers 179 12 none] [create standard_complex_circuits 71 12 none]
+G r s circuits [make_coefficient_system standard_circuit_makers 188 12 none] [circuitsIP standard_coefficient_circuits 48 8 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [number_of_terms standard_complex_polynomials 49 12 4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [coeff standard_complex_polynomials 79 12 4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [clear standard_complex_polynomials 128 13 4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r i none [make_coefficient_system standard_circuit_makers 188 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [degree standard_complex_polynomials 63 12 4_1]
+G r s term [make_coefficient_system standard_circuit_makers 188 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [exponent_index exponent_indices 29 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [factor_index exponent_indices 43 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [put standard_floating_numbers_io 26 13 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [put standard_integer_vectors_io 37 13 5_1]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [put standard_integer_numbers_io 18 13 none]
+G r c none [make_coefficient_system standard_circuit_makers 188 12 none] [create standard_coefficient_circuits 88 12 none]
+G r c none [write_matrix standard_circuit_makers 197 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [write_matrix standard_circuit_makers 197 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [make_complex_circuit standard_circuit_makers 205 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 205 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_complex_circuit standard_circuit_makers 205 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 205 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 208 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 208 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_complex_circuit standard_circuit_makers 208 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_complex_circuit standard_circuit_makers 208 12 none] [create standard_complex_numbers 18 12 none]
+G r s system [make_complex_system standard_circuit_makers 218 12 none] [systemIP standard_complex_circuits 42 8 none]
+G r s circuits [make_complex_system standard_circuit_makers 218 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r c none [make_complex_system standard_circuit_makers 218 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [make_complex_system standard_circuit_makers 218 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_complex_system standard_circuit_makers 218 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_complex_system standard_circuit_makers 218 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [make_complex_system standard_circuit_makers 218 12 none] [create standard_complex_circuits 71 12 none]
+G r s system [make_complex_system standard_circuit_makers 221 12 none] [systemIP standard_complex_circuits 42 8 none]
+G r s circuits [make_complex_system standard_circuit_makers 221 12 none] [circuitsIP standard_complex_circuits 37 8 none]
+G r c none [make_complex_system standard_circuit_makers 221 12 none] [allocate standard_complex_circuits 57 12 none]
+G r c none [make_complex_system standard_circuit_makers 221 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_complex_system standard_circuit_makers 221 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_complex_system standard_circuit_makers 221 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [make_complex_system standard_circuit_makers 221 12 none] [create standard_complex_circuits 71 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 231 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 231 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 231 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 234 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [make_coefficient_circuit standard_circuit_makers 234 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_coefficient_circuit standard_circuit_makers 234 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r s system [make_coefficient_system standard_circuit_makers 245 12 none] [systemIP standard_coefficient_circuits 53 8 none]
+G r s circuits [make_coefficient_system standard_circuit_makers 245 12 none] [circuitsIP standard_coefficient_circuits 48 8 none]
+G r c none [make_coefficient_system standard_circuit_makers 245 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 245 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_coefficient_system standard_circuit_makers 245 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 245 12 none] [create standard_coefficient_circuits 88 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 245 12 none] [allocate_hessian_space standard_coefficient_circuits 147 13 none]
+G r s system [make_coefficient_system standard_circuit_makers 248 12 none] [systemIP standard_coefficient_circuits 53 8 none]
+G r s circuits [make_coefficient_system standard_circuit_makers 248 12 none] [circuitsIP standard_coefficient_circuits 48 8 none]
+G r c none [make_coefficient_system standard_circuit_makers 248 12 none] [allocate standard_coefficient_circuits 74 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 248 12 none] [copy standard_integer_vecvecs 25 13 5_1]
+G r c none [make_coefficient_system standard_circuit_makers 248 12 none] [polynomial_degree exponent_indices 77 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 248 12 none] [create standard_coefficient_circuits 88 12 none]
+G r c none [make_coefficient_system standard_circuit_makers 248 12 none] [allocate_hessian_space standard_coefficient_circuits 147 13 none]
+X 13 a-textio.ads
+284U14*New_Line 58|539s47 541s24 542s53 567s29 569s52 570s53 583s22
+515U14*Put 58|542s9 566s29 569s25 570s9 582s9 582s30 582s50
+X 20 exponent_indices.ads
+5K9*Exponent_Indices 84e21 58|17w6 94r16 110r21 111r21 115r16 261r21 262r21
+. 450r25 451r25 507r25 508r25 604r16 699r16
+29V12*Exponent_Index{30|17P8[85|4]} 58|110s38 261s38 450s42 507s42
+43V12*Factor_Index{30|17P8[85|4]} 58|111s38 262s38 451s42 508s42
+77V12*Polynomial_Degree{81|6I8} 58|94s33 115s33 604s33 699s33
+X 21 generic_complex_numbers.ads
+19R8*Complex_Number
+X 23 generic_matrices.ads
+16A8*Matrix(63|11R8)<81|6I8><81|6I8> 57|146r53[62|5] 197r61[62|5] 58|360r53[62|5]
+. 362r37[62|5] 578r61[62|5]
+X 24 generic_polynomial_functions.ads
+53V12*Eval{63|11R8} 58|352s49[65|6] 374s21[65|6]
+X 25 generic_polynomial_systems.ads
+22A8*Poly_Sys(26|28P8[68|4])<81|6I8>
+23P8*Link_to_Poly_Sys(22A8[66|5]) 57|180r53[66|5] 189r53[66|5] 58|524r53[66|5]
+. 551r53[66|5]
+X 26 generic_polynomials.ads
+21P8*Degrees<30|17P8[90|4]> 58|389r11[68|4] 424r31[68|4] 480r31[68|4]
+23R8*Term 58|316r9[68|4] 438r35[68|4] 494r35[68|4]
+24r5*cf{63|11R8} 58|321m7[68|4] 324m9[68|4] 445r27[68|4] 501r62[68|4] 502r62[68|4]
+25p5*dg{21P8[68|4]} 58|320m7[68|4] 327r11[68|4] 329r13[68|4] 333r13[68|4]
+. 440r46[68|4] 443r24[68|4] 447r32[68|4] 496r46[68|4] 499r24[68|4] 504r32[68|4]
+28P8*Poly 57|128r50[68|4] 136r56[68|4] 144r55[68|4] 152r49[68|4] 166r49[68|4]
+. 173r49[68|4] 58|311r50[68|4] 315r11[68|4] 342r56[68|4] 347r39[68|4] 358r55[68|4]
+. 367r14[68|4] 383r49[68|4] 410r49[68|4] 466r49[68|4]
+38V12*Create{28P8[68|4]} 58|322s12[68|4]
+48V12*Number_of_Unknowns{88|7I8} 58|388s43[68|4] 416s43[68|4] 472s43[68|4]
+49V12*Number_of_Terms{88|7I8} 58|415s43[68|4] 471s43[68|4]
+63V12*Degree{81|6I8} 58|459s16[68|4] 516s16[68|4]
+79V12*Coeff{63|11R8} 58|390s63[68|4]
+102U13*Add 58|336s7[68|4]
+113V13*Diff{28P8[68|4]} 58|351s42[68|4] 371s13[68|4] 373s16[68|4]
+124u13*Visiting_Iterator 58|455r34[68|4] 512r34[68|4]
+128U13*Clear<30|72p13> 58|393s5[68|4]
+129U13*Clear 58|338s5[68|4]
+130U13*Clear 58|353s36[68|4] 375s9[68|4] 377s7[68|4]
+X 28 generic_speelpenning_convolutions.ads
+41R8*Circuit 57|206r55[93|8] 58|591r55[93|8]
+41i18*nbr{81|6I8} 58|594r47[93|8] 595r49[93|8] 605r19[93|8] 627r60[93|8]
+41i22*dim{81|6I8} 58|595r55[93|8]
+42a5*xps{32|14A8[87|5]} 58|601r37[93|8]
+43a5*idx{32|14A8[87|5]} 58|602r37[93|8]
+44a5*fac{32|14A8[87|5]} 58|603r37[93|8]
+45a5*cff{32|14A8[72|5]} 58|606r16[93|8]
+46p5*cst{30|17P8[71|4]} 58|609r10[93|8] 611r24[93|8]
+53P8*Link_to_Circuit(41R8[93|8]) 57|209r55[93|8] 58|617r55[93|8]
+55A8*Circuits(53P8[93|8])<81|6I8>
+62R8*System 57|219r55[93|8] 58|637r55[93|8]
+62i17*neq{81|6I8} 58|640r46[93|8] 662r59[93|8]
+62i26*dim{81|6I8} 58|640r52[93|8] 647r51[93|8] 662r65[93|8]
+63a5*crc{55A8[93|8]} 58|641r48[93|8] 645r40[93|8]
+72P8*Link_to_System(62R8[93|8]) 57|222r55[93|8] 58|652r55[93|8]
+X 30 generic_vectors.ads
+16A8*Vector(21|19R8[50|5])<81|6I8> 57|25r46[85|4] 34r46[85|4] 137r52[71|4]
+. 138r53[71|4] 145r51[71|4] 58|23r46[85|4] 25r36[85|4] 46r46[85|4] 48r36[85|4]
+. 90r50[85|4] 104r36[85|4] 109r50[85|4] 260r50[85|4] 320r42[90|4] 343r52[71|4]
+. 344r53[71|4] 346r36[71|4] 359r51[71|4] 389r51[90|4] 440r37[85|4] 449r54[85|4]
+. 496r37[85|4] 506r54[85|4]
+17P8*Link_to_Vector(16A8[90|4]) 58|317r36[85|4] 596r36[71|4] 679r37[76|4]
+X 31 generic_vectors_io.ads
+37U13*put 58|539s29[86|5] 567s11[86|5]
+X 32 generic_vecvecs.ads
+14A8*VecVec(30|17P8[71|4])<81|6I8>
+25U13*Copy 58|601s30[87|5] 602s30[87|5] 603s30[87|5] 684s30[87|5] 685s30[87|5]
+. 686s30[87|5]
+X 48 quaddobl_complex_circuits.ads
+10K9*QuadDobl_Complex_Circuits 753e30 57|12w6 85r20 88r20 91r20 98r20 101r20
+. 58|172r20 192r20 198r9 209r20 222r20 235r20 241r9
+22R8*Circuit 33e13 57|85r46 58|172r46
+22i18*nbr{81|6I8} 58|175r47 176r49 196r47
+23i5*dim{81|6I8} 58|176r55
+24i5*pdg{81|6I8} 58|182r18
+25a5*xps{32|14A8[87|5]} 58|183r18
+26a5*idx{32|14A8[87|5]} 58|184r18
+27a5*fac{32|14A8[87|5]} 58|185r18
+28a5*cff{30|16A8[54|4]} 58|186r47
+29r5*cst{21|19R8[50|5]} 58|187r47
+35P8*Link_to_Circuit(22R8) 57|88r46 58|192r46
+37A8*Circuits(35P8)<81|6I8> 57|91r46 58|209r46
+42R8*System 49e13 57|98r46 58|222r46
+42i17*neq{81|6I8} 58|225r60 227r55 238r46
+42i21*dim{81|6I8} 58|227r61 228r51 238r52
+43a5*crc{37A8} 58|226r24
+51P8*Link_to_System(42R8) 57|101r46 58|235r46
+X 51 quaddobl_complex_numbers_cv.ads
+7K9*QuadDobl_Complex_Numbers_cv 41e32 58|14w6 178r9
+24V12*QuadDobl_Complex_to_Standard{63|11R8} 58|187s16
+X 55 quaddobl_complex_vectors_cv.ads
+11K9*QuadDobl_Complex_Vectors_cv 82e32 58|15w6 179r9
+28V12*QuadDobl_Complex_to_Standard{30|16A8[71|4]} 58|186s16
+X 57 standard_circuit_makers.ads
+14K9*Standard_Circuit_Makers 256l5 256e28 58|19b14 759l5 759t28
+23V12*Random_Indices{30|16A8[85|4]} 24>16 58|21b12 42l7 42t21 90s58
+24i16 dim{81|6I8} 58|22b16 25r46 31r19
+32V12*Random_Indices{30|16A8[85|4]} 33>16 33>20 58|44b12 79l7 79t21
+33i16 dim{81|6I8} 58|45b16 56r49
+33i20 size{81|6I8} 58|45b20 48r46 48r59 53r17 67r17 69r21
+43V12*Random_Complex_Circuit{61|22R8} 44>16 44>20 58|81b12 96l7 96t29
+44i16 nbr{81|6I8} 58|82b16 85r45 86r47 89r17 92r56
+44i20 dim{81|6I8} 58|82b20 86r51 90r73
+53V12*Random_Complex_Circuit{61|22R8} 54>16 54>20 54>24 58|98b12 117l7 117t29
+. 124s12
+54i16 nbr{81|6I8} 58|99b16 102r45 103r47 107r17 113r56
+54i20 dim{81|6I8} 58|99b20 103r51 104r46 108r54
+54i24 pwr{81|6I8} 58|99b24 108r60
+56V12*Random_Complex_Circuit{61|35P8} 57>16 57>20 57>24 58|119b12 130l7 130t29
+. 140s17
+57i16 nbr{81|6I8} 58|120b16 123r54 124r35
+57i20 dim{81|6I8} 58|120b20 124r39
+57i24 pwr{81|6I8} 58|120b24 124r43
+65V12*Random_Complex_Circuits{61|37A8} 66>16 66>20 66>24 66>28 58|132b12
+. 143l7 143t30 150s12
+66i16 neq{81|6I8} 58|133b16 136r49 139r17
+66i20 nbr{81|6I8} 58|133b20 140r40
+66i24 dim{81|6I8} 58|133b24 140r44
+66i28 pwr{81|6I8} 58|133b28 140r48
+73V12*Random_Complex_System{61|42R8} 74>16 74>20 74>24 74>28 58|145b12 156l7
+. 156t28 163s12
+74i16 neq{81|6I8} 58|146b16 149r58 150r36 151r53
+74i20 nbr{81|6I8} 58|146b20 150r40
+74i24 dim{81|6I8} 58|146b24 150r44 151r57 152r49
+74i28 pwr{81|6I8} 58|146b28 150r48
+76V12*Random_Complex_System{61|51P8} 77>16 77>20 77>24 77>28 58|158b12 169l7
+. 169t28
+77i16 neq{81|6I8} 58|159b16 162r53 163r34
+77i20 nbr{81|6I8} 58|159b20 163r38
+77i24 dim{81|6I8} 58|159b24 162r57 163r42
+77i28 pwr{81|6I8} 58|159b28 163r46
+84V12*to_double{61|22R8} 85>16 58|171b12 189l7 189t16 202s14
+85r16 c{48|22R8} 58|172b16 175r45 176r47 176r53 182r16 183r16 184r16 185r16
+. 186r45 187r45
+87V12*to_double{61|35P8} 88>16 58|191b12 206l7 206t16 216s17
+88p16 c{48|35P8} 58|192b16 196r45 201r8 202r24
+90V12*to_double{61|37A8} 91>16 58|208b12 219l7 219t16 226s12
+91a16 c{48|37A8} 58|209b16 212r46 215r14 216r27
+97V12*to_double{61|42R8} 98>16 58|221b12 232l7 232t16 245s14
+98r16 s{48|42R8} 58|222b16 225r58 226r22 227r53 227r59 228r49
+100V12*to_double{61|51P8} 101>16 58|234b12 249l7 249t16
+101p16 s{48|51P8} 58|235b16 238r44 238r50 244r8 245r24
+107V12*Split{59|23R8} 107>20 58|251b12 268l7 268t12 280s62
+107r20 c{61|22R8} 58|251b20 254r49 255r51 255r57 258r16 259r17 260r58 264r19
+. 265r52 266r52
+109V12*Split{59|48A8} 109>20 58|270b12 284l7 284t12 290s12
+109a20 c{61|37A8} 58|270b20 273r50 276r14 278r60
+116V12*Split{59|53R8} 116>20 58|286b12 296l7 296t12 302s54
+116r20 s{61|42R8} 58|286b20 289r62 290r18 291r57 291r63 292r53
+118V12*Split{59|68P8} 118>20 58|298b12 306l7 306t12
+118p20 s{61|51P8} 58|298b20 302r60
+125V12*Make_Polynomial{26|28P8[68|4]} 126>16 127>16 58|308b12 340l7 340t22
+126r16 c{61|22R8} 58|309b16 320r53 321r13 323r17 324r15 325r14 327r25 332r21
+127b16 index{boolean} 58|310b16 326r10
+136V12*Gradient{30|16A8[71|4]} 136>23 137>23 58|342b12 356l7 356t15
+136p23 p{26|28P8[68|4]} 58|342b23 351r47
+137a23 x{30|16A8[71|4]} 58|343b23 346r43 350r14 352r57
+144V12*Hessian{23|16A8[62|5]} 144>22 145>22 58|358b12 380l7 380t14
+144p22 p{26|28P8[68|4]} 58|358b22 371r18
+145a22 x{30|16A8[71|4]} 58|359b22 362r44 362r52 374r30
+151V12*Constant_Coefficient{63|11R8} 152>16 58|382b12 395l7 395t27 418s12
+. 474s12
+152p16 p{26|28P8[68|4]} 58|383b16 388r62 390r69
+158V12*Is_NonZero{81|6I8} 158>25 58|397b12 407l7 407t17 419s33 475s33
+158r25 c{63|11R8} 58|397b25 400r43 402r46
+165V12*Make_Complex_Circuit{61|22R8} 166>16 58|409b12 463l7 463t27 536s28
+166p16 p{26|28P8[68|4]} 58|410b16 415r59 416r62 418r33 459r23 461r17
+172V12*Make_Coefficient_Circuit{59|23R8} 173>16 58|465b12 521l7 521t31 563s28
+173p16 p{26|28P8[68|4]} 58|466b16 471r59 472r62 474r33 516r23 519r17
+179V12*Make_Complex_System{61|51P8} 180>16 181>16 58|523b12 548l7 548t26
+180p16 p{25|23P8[66|5]} 58|524b16 531r18 536r49
+181b16 verbose{boolean} 58|525b16 537r10
+188V12*Make_Coefficient_System{59|68P8} 189>16 190>16 58|550b12 576l7 576t30
+189p16 p{25|23P8[66|5]} 58|551b16 558r18 563r53
+190b16 verbose{boolean} 58|552b16 564r10
+197U13*Write_Matrix 197>28 58|578b13 586l7 586t19
+197a28 A{23|16A8[62|5]} 58|578b28 580r14 581r16 583r13
+205V12*Make_Complex_Circuit{61|22R8} 206>16 58|590b12 614l7 614t27 628s16
+206r16 c{28|41R8[93|8]} 58|591b16 594r45 595r47 595r53 601r35 602r35 603r35
+. 605r17 606r14 609r8 611r22
+208V12*Make_Complex_Circuit{61|35P8} 209>16 58|616b12 634l7 634t27 645s17
+209p16 c{28|53P8[93|8]} 58|617b16 625r8 627r58 628r37
+218V12*Make_Complex_System{61|42R8} 219>16 58|636b12 649l7 649t26 663s16
+219r16 s{28|62R8[93|8]} 58|637b16 640r44 640r50 641r46 645r38 647r49
+221V12*Make_Complex_System{61|51P8} 222>16 58|651b12 669l7 669t26
+222p16 s{28|72P8[93|8]} 58|652b16 660r8 662r57 662r63 663r36
+231V12*Make_Coefficient_Circuit{59|23R8} 232>16 58|673b12 701l7 701t31 715s16
+232r16 c{60|24R8} 58|674b16 677r49 678r51 678r57 684r35 685r35 686r35 687r8
+. 689r23 691r8 693r23 695r17 696r14 697r14
+234V12*Make_Coefficient_Circuit{59|46P8} 235>16 58|703b12 721l7 721t31 732s17
+235p16 c{60|44P8} 58|704b16 712r8 714r62 715r41
+245V12*Make_Coefficient_System{59|53R8} 246>16 58|723b12 737l7 737t30 751s16
+246r16 s{60|53R8} 58|724b16 727r48 727r54 728r50 732r42 734r53
+248V12*Make_Coefficient_System{59|68P8} 249>16 58|739b12 757l7 757t30
+249p16 s{60|69P8} 58|740b16 748r8 750r61 750r67 751r40
+X 58 standard_circuit_makers.adb
+25a5 res{30|16A8[85|4]} 35m11 41r12
+26i5 cnt{81|6I8} 34m11 34r18 35r15 38r18 39m7 41r19
+27i5 rnd{81|6I8} 32m9 33r12
+31i11 k<long_integer> 35r23
+48a5 res{30|16A8[85|4]} 59r14 64m7 68r17 70r21 71r38 75m13 75r28 75m36 78r12
+49i5 rnd{81|6I8} 56m9 59r23 64r17
+49i9 minval{81|6I8} 68m7 70r12 71m28 75r46
+49i16 minidx{81|6I8} 68m25 71m15 74r10 75r17
+50b5 redo{boolean} 54m7 55r13 57m9 60m17
+53i9 k<long_integer> 58r21 64r11
+58i13 i<long_integer> 59r18
+67i9 k<long_integer> 68r21 68r35 69r16 74r20 75r32 75r40
+69i11 i<long_integer> 70r25 71r25 71r42
+85r5 res{61|22R8} 90m7 92m5 93m5 94m5 94r51 95r12
+89i9 k<long_integer> 90r15
+102r5 res{61|22R8} 109m7 110m7 110r53 111m7 111r51 113m5 114m5 115m5 115r51
+. 116r12
+104a5 xpk{30|16A8[85|4]} 108m7 109r58
+107i9 k<long_integer> 109r15 110r15 110r61 111r15 111r59
+123r5 crc{61|22R8} 126r51
+125p5 res{61|35P8} 129r12
+136a5 res{61|37A8} 140m7 142r12
+139i9 k<long_integer> 140r11
+149a5 crc{61|37A8} 152r45
+151r5 res{61|42R8} 155r12
+162r5 sys{61|42R8} 165r50
+164p5 res{61|51P8} 168r12
+175r5 res{61|22R8} 182m5 183m5 184m5 185m5 186m5 187m5 188r12
+195p5 res{61|35P8} 203m7 205r12
+196r5 crc{61|22R8} 202m7 203r53
+212a5 res{61|37A8} 216m7 218r12
+215i9 k<long_integer> 216r11 216r29
+225a5 crc{61|37A8} 228r45
+227r5 res{61|42R8} 231r12
+238r5 sys{61|42R8} 245m7 246r52
+239p5 res{61|51P8} 246m7 248r12
+254r5 res{59|23R8} 258m5 260m7 261m7 261r53 262m7 262r51 264m25 264r25 264m33
+. 264r33 265m5 266m5 267r12
+259i9 k<long_integer> 260r15 260r64 261r15 261r61 262r15 262r59
+273a5 res{59|48A8} 280m9 283r12
+276i9 k<long_integer> 278r62 280r13
+278r9 ck{61|22R8} 280r68
+289a5 crc{59|48A8} 292r49
+291r5 res{59|53R8} 295r12
+301p5 res{59|68P8} 305r12
+315p5 res{26|28P8[68|4]} 322m5 336m11 336r11 339r12
+316r5 t{26|23R8[68|4]} 320m5 321m5 322r19 324m7 327r9 329m11 329r11 333m11
+. 333r11 336r15 338m11 338r11
+317p5 lnk{30|17P8[85|4]} 325m7 328r18 329r16 333r32
+323i9 k<long_integer> 324r21 325r20
+328i13 i<long_integer> 329r20
+332i13 i<long_integer> 333r16 333r36
+346a5 res{30|16A8[71|4]} 352m7 355r12
+347p5 dp{26|28P8[68|4]} 351m7 352r54 353m42 353r42
+350i9 k<long_integer> 351r49 352r11
+362a5 res{23|16A8[62|5]} 370r14 372r16 374m9 379r12
+367p5 dp{26|28P8[68|4]} 371m7 373r21 377m13 377r13
+367p8 dp2{26|28P8[68|4]} 373m9 374r26 375m15 375r15
+370i9 i<long_integer> 371r20 374r13
+372i11 j<long_integer> 373r24 374r15
+388i5 dim{81|6I8} 389r62
+389p5 deg{26|21P8[68|4]} 390r71 393m11 393r11
+390r5 res{63|11R8} 394r12
+415i5 nbr{81|6I8} 420r45 421r47
+416i5 dim{81|6I8} 421r55 458r16
+417r5 cst{63|11R8} 419r44 460r16
+419i5 isz{81|6I8} 420r49 421r51
+420r5 res{61|22R8} 445m9 449m9 450m9 450r57 451m9 451r55 458m5 459m5 460m5
+. 462r12
+422i5 cnt{81|6I8} 444m9 444r16 445r17 449r17 450r17 450r65 451r17 451r63
+424V14 Is_Zero{boolean} 424b14 424>24 436l9 436t16 443s14
+424p24 d{26|21P8[68|4]} 430r16 431r12
+430i11 k<long_integer> 431r14
+438U15 Visit_Term 438b15 438>28 438<41 454l9 454t19 455r52
+438r28 t{26|23R8[68|4]} 440r44 443r22 445r25 447r30
+438b41 c{boolean} 453m7
+440a7 xp{30|16A8[85|4]} 446r18 447m11 449r62
+446i13 i<long_integer> 447r14 447r35
+455U15 Visit_Terms[26|124] 461s5
+471i5 nbr{81|6I8} 476r49 477r51
+472i5 dim{81|6I8} 477r59 515r16
+473r5 cst{63|11R8} 475r44 517r52 518r52
+475i5 isz{81|6I8} 476r53 477r55
+476r5 res{59|23R8} 501m9 502m9 506m9 507m9 507r57 508m9 508r55 515m5 516m5
+. 517m5 518m5 520r12
+478i5 cnt{81|6I8} 500m9 500r16 501r17 502r17 506r17 507r17 507r65 508r17
+. 508r63
+480V14 Is_Zero{boolean} 480b14 480>24 492l9 492t16 499s14
+480p24 d{26|21P8[68|4]} 486r16 487r12
+486i11 k<long_integer> 487r14
+494U15 Visit_Term 494b15 494>28 494<41 511l9 511t19 512r52
+494r28 t{26|23R8[68|4]} 496r44 499r22 501r60 502r60 504r30
+494b41 c{boolean} 510m7
+496a7 xp{30|16A8[85|4]} 503r18 504m11 506r62
+503i13 i<long_integer> 504r14 504r35
+512U15 Visit_Terms[26|124] 519s5
+530p5 res{61|51P8} 546m5 547r12
+531a5 c{61|37A8} 535r14 536m7 538r21 539r15 539r33 541r13 542r42 545r10 545r12
+. 546r31
+532i5 d{81|6I8} 545m5 546r33
+535i9 k<long_integer> 536r9 536r51 538r23 539r17 539r35 541r15 542r44
+538i13 i<long_integer> 539r24 539r42
+557p5 res{59|68P8} 574m5 575r12
+558a5 c{59|48A8} 562r14 563m7 565r21 566r15 566r44 567r15 569r13 569r40 570r42
+. 573r10 573r12 574r31
+559i5 d{81|6I8} 573m5 574r33
+562i9 k<long_integer> 563r9 563r55 565r23 566r17 566r46 567r17 569r15 569r42
+. 570r44
+565i13 i<long_integer> 566r24 566r53 567r24
+580i9 i<long_integer> 582r24 583r15
+581i11 j<long_integer> 582r44 583r17
+594r5 res{61|22R8} 601m41 601r41 602m41 602r41 603m41 603r41 604m5 604r51
+. 607m7 610m11 611m11 613r12
+596p5 lnk{30|17P8[71|4]} 606m7 607r21
+605i9 k<long_integer> 606r20 607r15
+620p5 res{61|35P8} 630m9 633r12
+627r9 crc{61|22R8} 630r55
+640r5 res{61|42R8} 647m5 648r12
+641a5 crc{61|37A8} 644r14 645m7 647r45
+644i9 k<long_integer> 645r11 645r44
+655p5 res{61|51P8} 665m9 668r12
+662r9 cfs{61|42R8} 665r54
+677r5 res{59|23R8} 684m41 684r41 685m41 685r41 686m41 686r41 688m11 689m11
+. 692m11 693m11 696m24 697m24 699m5 699r51 700r12
+679p5 lnk{30|17P8[76|4]} 696m7 696r38 697m7 697r38
+695i9 k<long_integer> 696r20 696r32 697r20 697r32
+707p5 res{59|46P8} 717m9 720r12
+714r9 crc{59|23R8} 717r59
+727r5 res{59|53R8} 734m5 735m58 735r58 736r12
+728a5 crc{59|48A8} 731r14 732m7 734r49
+731i9 k<long_integer> 732r11 732r48
+743p5 res{59|68P8} 753m9 756r12
+750r9 cfs{59|53R8} 753r58
+X 59 standard_coefficient_circuits.ads
+13K9*Standard_Coefficient_Circuits 57|10w6 108r25 110r25 117r25 119r25 174r21
+. 191r21 233r21 236r21 247r21 250r21 58|252r25 254r11 255r12 271r25 273r11
+. 280r23 287r25 289r20 291r20 292r12 299r25 301r20 302r16 467r21 476r11 477r12
+. 553r21 555r9 675r21 677r11 678r12 705r21 707r11 714r24 717r20 725r21 727r11
+. 728r11 734r12 735r5 741r21 743r11 750r24 753r20 59|1279e34
+23R8*Circuit 57|108r55 174r51 233r51 58|252r55 254r41 280r53 467r51 476r41
+. 563r19 675r51 677r41 714r54 717r50 59|44e13
+23i18*nbr{81|6I8} 58|565r26
+24i5*dim{81|6I8} 58|515m9 573r21
+25i5*pdg{81|6I8} 58|258m9 516m9 570r47 699m9
+26a5*xps{32|14A8[87|5]} 58|260m11 261r57 262r55 506m13 507r61 508r59 567r20
+. 684m45 699r55
+27a5*idx{32|14A8[87|5]} 58|261m11 507m13 685m45
+28a5*fac{32|14A8[87|5]} 58|262m11 508m13 686m45
+30a5*rcf{30|16A8[76|4]} 58|264m29 501m13 566r20 696m28
+31a5*icf{30|16A8[76|4]} 58|264m37 502m13 566r49 697m28
+33f5*rcst{73|13F8} 58|265m9 517m9 569r18 688m15 689m15
+34f5*icst{73|13F8} 58|266m9 518m9 569r45 692m15 693m15
+46P8*Link_to_Circuit(23R8) 57|236r51 58|705r51 707r41
+48A8*Circuits(46P8)<81|6I8> 57|110r55 58|271r55 273r41 289r50 558r9 728r41
+53R8*System 57|117r55 247r51 58|287r55 291r50 302r46 574r16 725r51 727r41
+. 750r54 753r50 59|66e13
+68P8*Link_to_System(53R8) 57|119r55 191r51 250r51 58|299r55 301r50 553r51
+. 557r11 741r51 743r41
+74V12*Allocate{23R8} 58|255s42 477s42 678s42
+88V12*Create{53R8} 58|292s42 574s24 734s42
+147U13*Allocate_Hessian_Space 58|735s35
+X 60 standard_coefficient_convolutions.ads
+11K9*Standard_Coefficient_Convolutions 57|11w6 232r20 235r20 246r20 249r20
+. 58|674r20 704r20 709r9 724r20 740r20 745r9 60|692e38
+24R8*Circuit 57|232r54 58|674r54 60|42e13
+24i18*nbr{81|6I8} 58|677r51 678r53 695r19 714r64
+24i22*dim{81|6I8} 58|678r59
+25a5*xps{32|14A8[87|5]} 58|684r37
+26a5*idx{32|14A8[87|5]} 58|685r37
+27a5*fac{32|14A8[87|5]} 58|686r37
+29a5*rcf{32|14A8[77|5]} 58|696r16
+30a5*icf{32|14A8[77|5]} 58|697r16
+32p5*rct{30|17P8[76|4]} 58|687r10 689r25
+33p5*ict{30|17P8[76|4]} 58|691r10 693r25
+44P8*Link_to_Circuit(24R8) 57|235r54 58|704r54
+46A8*Circuits(44P8)<81|6I8>
+53R8*System 57|246r54 58|724r54 60|67e13
+53i17*neq{81|6I8} 58|727r50 750r63
+53i26*dim{81|6I8} 58|727r56 734r55 750r69
+54a5*crc{46A8} 58|728r52 732r44
+69P8*Link_to_System(53R8) 57|249r54 58|740r54
+X 61 standard_complex_circuits.ads
+10K9*Standard_Complex_Circuits 57|8w6 45r21 55r21 58r21 67r21 75r21 78r21
+. 86r21 89r21 92r21 99r21 102r21 107r24 109r24 116r24 118r24 126r20 167r21
+. 182r21 207r21 210r21 220r21 223r21 58|83r21 85r11 86r12 100r21 102r11 103r12
+. 121r21 123r20 125r20 126r16 134r21 136r11 147r21 149r20 151r20 152r12 160r21
+. 162r20 164r20 165r16 173r21 175r11 176r12 193r21 195r11 196r11 203r18 210r21
+. 212r11 223r21 225r20 227r20 228r12 236r21 238r11 239r11 246r18 251r24 270r24
+. 278r23 286r24 298r24 309r20 411r21 420r11 421r12 526r21 528r9 592r21 594r11
+. 595r12 618r21 620r11 627r24 630r20 638r21 640r11 641r11 647r12 653r21 655r11
+. 662r24 665r20 61|753e30
+22R8*Circuit 57|45r47 55r47 86r47 107r50 126r46 167r47 207r47 58|83r47 85r37
+. 100r47 102r37 123r46 126r42 173r47 175r37 196r37 203r44 251r50 278r49 309r46
+. 411r47 420r37 536r19 592r47 594r37 627r50 630r46 61|33e13
+22i18*nbr{81|6I8} 58|254r51 255r53 259r19 323r19 538r26
+23i5*dim{81|6I8} 58|255r59 320r55 327r27 332r23 458m9 545r21
+24i5*pdg{81|6I8} 58|94m9 115m9 182m9 258r18 459m9 542r47 604m9
+25a5*xps{32|14A8[87|5]} 58|90m11 94r55 109m11 110r57 111r55 115r55 183m9
+. 260r60 325r16 449m13 450r61 451r59 539r38 601m45 604r55
+26a5*idx{32|14A8[87|5]} 58|110m11 184m9 450m13 602m45
+27a5*fac{32|14A8[87|5]} 58|111m11 185m9 451m13 603m45
+28a5*cff{30|16A8[71|4]} 58|92m9 113m9 186m9 264r21 324r17 445m13 539r20 607m11
+29r5*cst{63|11R8} 58|93m9 114m9 187m9 265r54 266r54 321r15 460m9 541r18 610m15
+. 611m15
+35P8*Link_to_Circuit(22R8) 57|58r47 89r47 210r47 58|121r47 125r46 193r47
+. 195r37 618r47 620r37
+37A8*Circuits(35P8)<81|6I8> 57|67r47 92r47 109r50 58|134r47 136r37 149r46
+. 210r47 212r37 225r46 270r50 531r9 641r37
+42R8*System 57|75r47 99r47 116r50 220r47 58|147r47 151r46 162r46 165r42 223r47
+. 227r46 238r37 246r44 286r50 546r16 638r47 640r37 662r50 665r46 61|49e13
+42i17*neq{81|6I8} 58|289r64 291r59
+42i21*dim{81|6I8} 58|291r65 292r55
+43a5*crc{37A8} 58|290r20
+51P8*Link_to_System(42R8) 57|78r47 102r47 118r50 182r47 223r47 58|160r47
+. 164r46 236r47 239r37 298r50 526r47 530r11 653r47 655r37
+57V12*Allocate{22R8} 58|86s38 103s38 176s38 421s38 595s38
+71V12*Create{42R8} 58|152s38 228s38 546s24 647s38
+X 62 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[23|9] 57|5w6 146r27 197r35 58|360r27 362r11
+. 578r35
+X 63 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 57|2w6 153r21 158r29 58|265r17 266r17 384r21
+. 390r20 397r29 400r8 402r11 417r20 473r20 501r25 502r25 517r17 518r17 610r22
+. 63|92e29
+11R8*Complex_Number 57|153r46 158r54 58|384r46 390r45 397r54 417r45 473r45
+. 63|90e15
+18V12*Create{11R8} 58|610s47
+24V12*REAL_PART{73|13F8} 58|265s42 400s33 501s50 517s42
+25V12*IMAG_PART{73|13F8} 58|266s42 402s36 502s50 518s42
+X 64 standard_complex_numbers_io.ads
+5K9*Standard_Complex_Numbers_io 58|6w6 6r47 64|49e32
+21U13*put 58|539s11 541s9 583s9
+X 65 standard_complex_poly_functions.ads
+6K9*Standard_Complex_Poly_Functions[24|12] 58|16w6 352r17 365r9
+X 66 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[25|12] 57|7w6 180r23 189r23 58|524r23 551r23
+X 68 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[26|11] 57|6w6 128r21 136r27 144r26 152r20
+. 166r20 173r20 58|311r21 313r9 342r27 347r10 351r13 353r7 358r26 364r9 383r20
+. 386r9 410r20 413r9 466r20 469r9
+X 71 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[30|8] 57|4w6 137r27 138r28 145r26 58|343r27
+. 344r28 346r11 359r26 596r11 598r9
+X 73 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58|4w6 4r47 73|58e30
+13F8*double_float<long_float>
+X 74 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 58|5w6 5r47 74|63e33
+26U13*put 58|566s11 566s40 569s9 569s36
+X 76 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[30|8] 58|10w6 679r11 681r9
+X 81 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 57|1w6 1r47 81|45e29
+6I8*integer32<long_integer> 57|24r22 33r27 44r26 54r30 57r30 66r34 74r34
+. 77r34 159r27 58|22r22 26r11 27r11 45r27 49r25 82r26 99r30 120r30 133r34
+. 146r34 159r34 388r20 388r33 398r27 415r20 415r33 416r20 416r33 419r20 422r11
+. 447r20 471r20 471r33 472r20 472r33 475r20 478r11 504r20 532r9 559r9
+X 82 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 58|3w6 3r47 82|47e32
+18U13*put 58|542s38 570s38
+26U13*put 58|582s20 582s40
+X 85 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[30|8] 57|3w6 25r21 34r21 58|23r21 25r11 46r21
+. 48r11 90r25 104r11 109r25 260r25 317r11 440r12 449r29 496r12 506r29
+X 86 standard_integer_vectors_io.ads
+5K9*Standard_Integer_Vectors_io[31|11] 58|9w6 9r47
+X 87 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[32|10] 58|12w6 601r5 602r5 603r5 684r5 685r5
+. 686r5
+X 88 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 58|2w6 2r47 88|30e29
+7I8*natural32<long_integer> 58|333r22
+X 90 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[30|8] 58|8w6 320r17 389r26
+X 91 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 58|7w6 32r16 56r16 93r16 114r16 91|112e28
+31V12*Random{81|6I8} 58|32s40 56s40
+90V12*Random1{63|11R8} 58|93s40 114s40
+X 92 standard_random_vectors.ads
+8K9*Standard_Random_Vectors 58|11w6 92r16 108r14 113r16 92|80e28
+15V12*Random_Vector{30|16A8[85|4]} 58|108s38
+58V12*Random_Vector{30|16A8[71|4]} 58|92s40 113s40
+X 93 standard_speelpenning_convolutions.ads
+8K9*Standard_Speelpenning_Convolutions[28|18] 57|9w6 206r20 209r20 219r20
+. 222r20 58|591r20 617r20 622r9 637r20 652r20 657r9
+X 94 standard_vector_splitters.ads
+7K9*Standard_Vector_Splitters 58|13w6 13r47 94|237e30
+60U13*Split_Complex 58|264s5
+X 115 text_io.ads
+27K9*Text_IO=27:29 58|1w6 1r47
+

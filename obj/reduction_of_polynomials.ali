@@ -1,0 +1,269 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U reduction_of_polynomials%b  reduction_of_polynomials.adb  6e7b2638 NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+U reduction_of_polynomials%s  reduction_of_polynomials.ads  f0cd1ad2 EE NE OO PK
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D reduction_of_polynomials.ads  20260513024558 913d0a16 reduction_of_polynomials%s
+D reduction_of_polynomials.adb  20260513024558 1ea5ced1 reduction_of_polynomials%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [spoly reduction_of_polynomials 8 12 none]
+G c Z s b [rpoly reduction_of_polynomials 20 12 none]
+G c Z b b [leading_term reduction_of_polynomials 10 12 none]
+G c Z b b [leq reduction_of_polynomials 31 12 none]
+G c Z b b [search reduction_of_polynomials 46 12 none]
+G c Z b b [purify reduction_of_polynomials 74 13 none]
+G r s term [spoly reduction_of_polynomials 8 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r i none [spoly reduction_of_polynomials 8 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [copy standard_natural_vectors 25 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [spoly reduction_of_polynomials 8 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [spoly reduction_of_polynomials 8 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [spoly reduction_of_polynomials 8 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [spoly reduction_of_polynomials 8 12 none] [Omultiply standard_complex_polynomials 97 12 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r i none [spoly reduction_of_polynomials 8 12 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [equal standard_complex_numbers 33 12 none]
+G r c none [spoly reduction_of_polynomials 8 12 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [spoly reduction_of_polynomials 8 12 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r s term [rpoly reduction_of_polynomials 20 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r i none [rpoly reduction_of_polynomials 20 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [copy standard_natural_vectors 25 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [Omultiply standard_complex_polynomials 97 12 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r i none [rpoly reduction_of_polynomials 20 12 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [equal standard_complex_numbers 33 12 none]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [rpoly reduction_of_polynomials 20 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r s term [leading_term reduction_of_polynomials 10 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r i none [leading_term reduction_of_polynomials 10 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [leading_term reduction_of_polynomials 10 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [leading_term reduction_of_polynomials 10 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [leading_term reduction_of_polynomials 10 12 none] [copy standard_natural_vectors 25 13 4_1]
+G r c none [leading_term reduction_of_polynomials 10 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r s term [search reduction_of_polynomials 46 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r i none [search reduction_of_polynomials 46 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [search reduction_of_polynomials 46 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [search reduction_of_polynomials 46 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [search reduction_of_polynomials 46 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [search reduction_of_polynomials 46 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [purify reduction_of_polynomials 74 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [purify reduction_of_polynomials 74 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [purify reduction_of_polynomials 74 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [purify reduction_of_polynomials 74 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [purify reduction_of_polynomials 74 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [purify reduction_of_polynomials 74 13 none] [clear standard_complex_polynomials 130 13 4_1]
+X 12 generic_polynomials.ads
+21P8*Degrees<14|17P8[27|4]> 18|31r26[20|4]
+23R8*Term 18|10r45[20|4] 15r11[20|4] 17r35[20|4] 46r35[20|4] 46r48[20|4]
+. 52r14[20|4] 54r36[20|4] 80r40[20|4] 102r25[20|4] 154r18[20|4] 161r19[20|4]
+24r5*cf{19|11R8} 18|21m11[20|4] 21r19[20|4] 57m20[20|4] 57r28[20|4] 69m12[20|4]
+. 82r19[20|4] 83m15[20|4] 124r26[20|4] 125r28[20|4] 126m16[20|4] 127m16[20|4]
+. 127r28[20|4] 127r37[20|4] 128m16[20|4] 128r26[20|4] 128r35[20|4] 129m16[20|4]
+. 158r15[20|4] 169m17[20|4] 169r28[20|4] 169r36[20|4]
+25p5*dg{21P8[20|4]} 18|20r27[20|4] 20m50[20|4] 56r16[20|4] 56r22[20|4] 58m20[20|4]
+. 58r64[20|4] 59r24[20|4] 60r22[20|4] 60r33[20|4] 115m10[20|4] 115r57[20|4]
+. 116m10[20|4] 116r57[20|4] 117r18[20|4] 118r14[20|4] 118r26[20|4] 119r18[20|4]
+. 119r31[20|4] 119r43[20|4] 120r18[20|4] 120r30[20|4] 121r22[20|4] 121r35[20|4]
+. 121r47[20|4] 135m56[20|4] 136m55[20|4] 137m56[20|4] 138m55[20|4] 163m17[20|4]
+. 163r64[20|4] 164r26[20|4] 165r22[20|4] 165r33[20|4] 166r25[20|4] 166r38[20|4]
+. 166r49[20|4] 173m63[20|4] 178m59[20|4] 179m58[20|4]
+28P8*Poly 17|8r26[20|4] 8r40[20|4] 20r26[20|4] 20r40[20|4] 18|10r31[20|4]
+. 46r24[20|4] 74r33[20|4] 99r26[20|4] 99r40[20|4] 101r15[20|4] 143r26[20|4]
+. 143r40[20|4] 160r20[20|4] 183r14[20|4]
+30p3*Null_Poly{28P8[20|4]} 18|93r16[20|4] 107r13[20|4] 108r20[20|4] 109r18[20|4]
+. 148r13[20|4] 149r14[20|4] 150r16[20|4] 151r14[20|4]
+41U13*Copy 18|185s7[20|4]
+48V12*Number_of_Unknowns{25|7I8} 18|91s8[20|4] 107s33[20|4] 108s40[20|4]
+. 148s33[20|4] 150s36[20|4]
+89V13*"+"{28P8[20|4]} 18|133s13[20|4] 171s20[20|4]
+97V13*"*"{28P8[20|4]} 18|131s16[20|4] 132s16[20|4] 170s23[20|4]
+121u13*Changing_Iterator 18|87r35[20|4]
+124u13*Visiting_Iterator 18|24r37[20|4] 66r35[20|4]
+130U13*Clear 18|92s11[20|4] 134s5[20|4] 134s16[20|4] 172s13[20|4]
+X 14 generic_vectors.ads
+16A8*Vector(25|7I8)<24|6I8> 18|58r55[27|4] 115r45[27|4] 116r45[27|4] 163r52[27|4]
+17P8*Link_to_Vector(16A8[27|4]) 18|20r10[27|4] 20r31[27|4] 135r36[27|4] 136r36[27|4]
+. 137r36[27|4] 138r36[27|4] 173r44[27|4] 178r40[27|4] 179r40[27|4]
+25U13*Copy 18|19s32[27|4]
+72U13*Clear 18|135s30[27|4] 136s30[27|4] 137s30[27|4] 138s30[27|4] 173s38[27|4]
+. 178s34[27|4] 179s34[27|4]
+X 17 reduction_of_polynomials.ads
+3K9*Reduction_of_Polynomials 29l5 29e29 18|6b14 190l5 190t29
+8V12*Spoly{12|28P8[20|4]} 8>20 8>22 18|99b12 141l7 141t12
+8p20 p{12|28P8[20|4]} 18|99b20 107r9 107r52 112r25 131r18
+8p22 q{12|28P8[20|4]} 18|99b22 108r16 108r59 113r25 132r18
+20V12*Rpoly{12|28P8[20|4]} 20>20 20>22 18|143b12 188l7 188t12
+20p20 p{12|28P8[20|4]} 18|143b20 148r9 148r52 156r29 171r18 185r12
+20p22 q{12|28P8[20|4]} 18|143b22 150r12 150r55 157r22 170r25
+X 18 reduction_of_polynomials.adb
+10V12 Leading_Term{12|23R8[20|4]} 10b12 10>27 29l7 29t19 112s12 113s12 156s16
+10p27 p{12|28P8[20|4]} 27r20
+15r5 res{12|23R8[20|4]} 20m46 20r46 21m7 28r12
+17U15 First_Term 17b15 17>28 17<41 23l9 23t19 24r55
+17r28 t{12|23R8[20|4]} 20r25 21r17
+17b41 continue{boolean} 22m7
+24U15 Get_First_Term[12|124] 27s5
+31V12 LEQ{boolean} 31b12 31>18 31>21 44l7 44t10 56s10
+31p18 d1{12|21P8[20|4]} 38r14 39r10
+31p21 d2{12|21P8[20|4]} 39r18
+38i9 i<long_integer> 39r13 39r21
+46V12 Search{12|23R8[20|4]} 46b12 46>20 46>30 72l7 72t13 157s15
+46p20 p{12|28P8[20|4]} 70r18
+46r30 pt{12|23R8[20|4]} 56r19
+52r5 result{12|23R8[20|4]} 57m13 58m13 60m15 60r15 69m5 71r12
+54U15 Search_Term 54b15 54>29 54<42 65l9 65t20 66r53
+54r29 t{12|23R8[20|4]} 56r14 57r26 58r62 59r22 60r31
+54b42 continue{boolean} 62m13 63m13
+59i17 i<long_integer> 60r25 60r36
+66U15 Search_Terms[12|124] 70s5
+74U13 Purify 74b13 74=22 74>39 95l7 95t13 139s5 174s13
+74p22 p{12|28P8[20|4]} 90m18 91r27 92m17 93m11
+74f39 tol{23|13F8} 82r25
+80U15 Purify_Term 80b15 80=29 80<46 86l9 86t20 87r53
+80r29 t{12|23R8[20|4]} 82r17 83m13
+80b46 continue{boolean} 85m7
+87U15 Purify_Terms[12|121] 90s5
+101p5 S{12|28P8[20|4]} 133m5 139m12 139r12 140r12
+101p7 pp{12|28P8[20|4]} 131m5 133r10 134m11 134r11
+101p10 qq{12|28P8[20|4]} 132m5 133r15 134m22 134r22
+102r5 tfp{12|23R8[20|4]} 112m5 115r53 117r14 118r10 119r27 120r14 121r43
+. 124r22 127r24 128r31 136m51 136r51
+102r9 tfq{12|23R8[20|4]} 113m5 116r53 118r22 119r39 120r26 121r31 125r24
+. 127r33 128r22 138m51 138r51
+102r13 facq{12|23R8[20|4]} 116m5 119m13 119r13 127m11 129m11 132r11 137m51
+. 137r51
+102r18 facp{12|23R8[20|4]} 115m5 121m17 121r17 126m11 128m11 131r11 135m51
+. 135r51
+103f5 abstmp{23|13F8} 124m5 125r8
+104f5 tol{23|13F8} 139r14
+117i9 i<long_integer> 118r17 118r29 119r21 119r34 119r46 120r21 120r33 121r25
+. 121r38 121r50
+145f5 tol{23|13F8} 174r22
+154r9 ltp{12|23R8[20|4]} 156m9 157r24 163r60 164r22 165r18 166r34 169r24
+. 178m55 178r55
+154r13 tq{12|23R8[20|4]} 157m9 158r12 165r30 166r46 169r33 179m55 179r55
+160p13 R{12|28P8[20|4]} 171m13 174m20 174r20 175r20
+160p15 qq{12|28P8[20|4]} 170m13 171r22 172m19 172r19
+161r13 fac{12|23R8[20|4]} 163m13 166m21 166r21 169m13 170r19 173m59 173r59
+164i17 i<long_integer> 165r25 165r36 166r28 166r41 166r52
+183p7 temp{12|28P8[20|4]} 185m14 185r14 186r14
+X 19 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 18|3w6 3r46 19|92e29
+18V12*Create{11R8} 18|69s18 83s21 126s22 129s22 158s21
+27V12*AbsVal{23|13F8} 18|82s10 124s15 125s17
+54V13*"-"{11R8} 18|127s22 169s23
+56V13*"/"{11R8} 18|127s31 128s29 169s31
+X 20 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[12|11] 17|1w6 1r46
+X 23 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 18|2w6 2r46 23|58e30
+13F8*double_float<long_float> 18|74r48 103r14 104r20 145r20
+X 25 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 18|1w6 1r46 25|30e29
+7I8*natural32<long_integer>
+X 27 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[14|8] 18|4w6 4r46 19r7 58r30 115r20 116r20 135r5
+. 136r5 137r5 138r5 163r27 173r13 178r9 179r9
+

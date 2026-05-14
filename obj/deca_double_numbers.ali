@@ -1,0 +1,1211 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U deca_double_numbers%b	deca_double_numbers.adb	551eb7fa NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W double_double_basics%s  double_double_basics.adb  double_double_basics.ali
+W fast_double_renormalizations%s  fast_double_renormalizations.adb  fast_double_renormalizations.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U deca_double_numbers%s	deca_double_numbers.ads	579dd309 EE NE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W octo_double_numbers%s	octo_double_numbers.adb	octo_double_numbers.ali
+W penta_double_numbers%s  penta_double_numbers.adb  penta_double_numbers.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W triple_double_numbers%s  triple_double_numbers.adb  triple_double_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D deca_double_numbers.ads  20260513024558 96ba5284 deca_double_numbers%s
+D deca_double_numbers.adb  20260513024558 4ecad01d deca_double_numbers%b
+D double_double_basics.ads  20260513024558 41df7b4e double_double_basics%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D fast_double_renormalizations.ads  20260513024558 f5f01524 fast_double_renormalizations%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D octo_double_numbers.ads  20260513024558 9005435d octo_double_numbers%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-fatgen.ads		20250808065140 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250808065140 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [create deca_double_numbers 28 12 none]
+G c Z s b [create deca_double_numbers 33 12 none]
+G c Z s b [create deca_double_numbers 34 12 none]
+G c Z s b [create deca_double_numbers 40 12 none]
+G c Z s b [create deca_double_numbers 41 12 none]
+G c Z s b [create deca_double_numbers 47 12 none]
+G c Z s b [create deca_double_numbers 52 12 none]
+G c Z s b [Oabs deca_double_numbers 61 12 none]
+G c Z s b [absval deca_double_numbers 66 12 none]
+G c Z s b [floor deca_double_numbers 68 12 none]
+G c Z s b [nint deca_double_numbers 73 12 none]
+G c Z s b [thumb_right deca_double_numbers 80 12 none]
+G c Z s b [index_right deca_double_numbers 85 12 none]
+G c Z s b [middle_right deca_double_numbers 90 12 none]
+G c Z s b [ring_right deca_double_numbers 95 12 none]
+G c Z s b [pink_right deca_double_numbers 100 12 none]
+G c Z s b [thumb_left deca_double_numbers 105 12 none]
+G c Z s b [index_left deca_double_numbers 110 12 none]
+G c Z s b [middle_left deca_double_numbers 115 12 none]
+G c Z s b [ring_left deca_double_numbers 120 12 none]
+G c Z s b [pink_left deca_double_numbers 125 12 none]
+G c Z s b [to_int deca_double_numbers 132 12 none]
+G c Z s b [to_double deca_double_numbers 137 12 none]
+G c Z s b [to_double_double deca_double_numbers 142 12 none]
+G c Z s b [to_triple_double deca_double_numbers 148 12 none]
+G c Z s b [to_quad_double deca_double_numbers 154 12 none]
+G c Z s b [to_penta_double deca_double_numbers 160 12 none]
+G c Z s b [to_octo_double deca_double_numbers 166 12 none]
+G c Z s b [is_zero deca_double_numbers 174 12 none]
+G c Z s b [is_one deca_double_numbers 179 12 none]
+G c Z s b [is_positive deca_double_numbers 184 12 none]
+G c Z s b [is_negative deca_double_numbers 189 12 none]
+G c Z s b [equal deca_double_numbers 194 12 none]
+G c Z s b [equal deca_double_numbers 195 12 none]
+G c Z s b [Olt deca_double_numbers 197 12 none]
+G c Z s b [Olt deca_double_numbers 198 12 none]
+G c Z s b [Olt deca_double_numbers 199 12 none]
+G c Z s b [Ole deca_double_numbers 200 12 none]
+G c Z s b [Ole deca_double_numbers 201 12 none]
+G c Z s b [Ole deca_double_numbers 202 12 none]
+G c Z s b [Ogt deca_double_numbers 204 12 none]
+G c Z s b [Ogt deca_double_numbers 205 12 none]
+G c Z s b [Ogt deca_double_numbers 206 12 none]
+G c Z s b [Oge deca_double_numbers 207 12 none]
+G c Z s b [Oge deca_double_numbers 208 12 none]
+G c Z s b [Oge deca_double_numbers 209 12 none]
+G c Z s b [copy deca_double_numbers 211 13 none]
+G c Z s b [Oadd deca_double_numbers 215 12 none]
+G c Z s b [Oadd deca_double_numbers 216 12 none]
+G c Z s b [Oadd deca_double_numbers 217 12 none]
+G c Z s b [Oadd deca_double_numbers 218 12 none]
+G c Z s b [Osubtract deca_double_numbers 220 12 none]
+G c Z s b [Osubtract deca_double_numbers 221 12 none]
+G c Z s b [Osubtract deca_double_numbers 222 12 none]
+G c Z s b [Osubtract deca_double_numbers 223 12 none]
+G c Z s b [Omultiply deca_double_numbers 225 12 none]
+G c Z s b [Omultiply deca_double_numbers 226 12 none]
+G c Z s b [Omultiply deca_double_numbers 227 12 none]
+G c Z s b [mul_pwr2 deca_double_numbers 229 12 none]
+G c Z s b [mul_pwr2 deca_double_numbers 231 13 none]
+G c Z s b [Odivide deca_double_numbers 234 12 none]
+G c Z s b [Odivide deca_double_numbers 235 12 none]
+G c Z s b [Odivide deca_double_numbers 236 12 none]
+G c Z s b [sqr deca_double_numbers 238 12 none]
+G c Z s b [Oexpon deca_double_numbers 239 12 none]
+G c Z s b [ldexp deca_double_numbers 241 12 none]
+G c Z s b [Oexpon deca_double_numbers 243 12 none]
+G c Z s b [Oexpon deca_double_numbers 244 12 none]
+G c Z s b [exp deca_double_numbers 246 12 none]
+G c Z s b [log deca_double_numbers 247 12 none]
+G c Z s b [log10 deca_double_numbers 248 12 none]
+G c Z s b [add deca_double_numbers 252 13 none]
+G c Z s b [sub deca_double_numbers 253 13 none]
+G c Z s b [min deca_double_numbers 254 13 none]
+G c Z s b [mul deca_double_numbers 255 13 none]
+G c Z s b [div deca_double_numbers 256 13 none]
+G c Z s b [clear deca_double_numbers 260 13 none]
+G c Z s s [deca_doubleIP deca_double_numbers 271 8 none]
+G r c none [floor deca_double_numbers 68 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [nint deca_double_numbers 73 12 none] [nint double_double_numbers 106 12 none]
+G r c none [nint deca_double_numbers 73 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [to_double_double deca_double_numbers 142 12 none] [create double_double_numbers 40 12 none]
+G r c none [to_triple_double deca_double_numbers 148 12 none] [create triple_double_numbers 48 12 none]
+G r c none [to_quad_double deca_double_numbers 154 12 none] [create quad_double_numbers 54 12 none]
+G r c none [to_penta_double deca_double_numbers 160 12 none] [create penta_double_numbers 47 12 none]
+G r c none [to_octo_double deca_double_numbers 166 12 none] [create octo_double_numbers 47 12 none]
+G r c none [Oadd deca_double_numbers 215 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd deca_double_numbers 215 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Oadd deca_double_numbers 216 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [Oadd deca_double_numbers 217 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [Osubtract deca_double_numbers 221 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract deca_double_numbers 221 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Osubtract deca_double_numbers 222 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [Osubtract deca_double_numbers 223 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [Omultiply deca_double_numbers 225 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply deca_double_numbers 225 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply deca_double_numbers 225 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Omultiply deca_double_numbers 226 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply deca_double_numbers 226 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply deca_double_numbers 226 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Omultiply deca_double_numbers 227 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply deca_double_numbers 227 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply deca_double_numbers 227 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Odivide deca_double_numbers 234 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide deca_double_numbers 234 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide deca_double_numbers 234 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Odivide deca_double_numbers 235 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide deca_double_numbers 235 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide deca_double_numbers 235 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Odivide deca_double_numbers 236 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide deca_double_numbers 236 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide deca_double_numbers 236 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [sqr deca_double_numbers 238 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [sqr deca_double_numbers 238 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [sqr deca_double_numbers 238 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Oexpon deca_double_numbers 239 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon deca_double_numbers 239 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon deca_double_numbers 239 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Oexpon deca_double_numbers 243 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon deca_double_numbers 243 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon deca_double_numbers 243 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon deca_double_numbers 243 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Oexpon deca_double_numbers 243 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [Oexpon deca_double_numbers 244 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon deca_double_numbers 244 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon deca_double_numbers 244 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon deca_double_numbers 244 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [Oexpon deca_double_numbers 244 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [exp deca_double_numbers 246 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [exp deca_double_numbers 246 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [exp deca_double_numbers 246 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [exp deca_double_numbers 246 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [log deca_double_numbers 247 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log deca_double_numbers 247 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log deca_double_numbers 247 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log deca_double_numbers 247 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [log deca_double_numbers 247 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [log10 deca_double_numbers 248 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log10 deca_double_numbers 248 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log10 deca_double_numbers 248 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log10 deca_double_numbers 248 12 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [log10 deca_double_numbers 248 12 none] [renorm_add1 fast_double_renormalizations 301 13 none]
+G r c none [add deca_double_numbers 252 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [add deca_double_numbers 252 13 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [sub deca_double_numbers 253 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [sub deca_double_numbers 253 13 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [mul deca_double_numbers 255 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul deca_double_numbers 255 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [mul deca_double_numbers 255 13 none] [fast_renorm fast_double_renormalizations 266 13 none]
+G r c none [div deca_double_numbers 256 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div deca_double_numbers 256 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [div deca_double_numbers 256 13 none] [fast_renorm fast_double_renormalizations 266 13 none]
+X 9 a-textio.ads
+565U14*Put_Line 12|1718s7
+X 11 deca_double_numbers.ads
+10K9*Deca_Double_Numbers 271E8 284l5 284e24 12|6b14 1790l5 1790t24
+24R8*deca_double 28r42 33r44 34r44 40r44 41r44 47r47 55r65 61r24 61r45 66r25
+. 66r46 68r24 68r45 73r23 73r44 80r30 85r30 90r31 95r29 100r29 105r29 110r29
+. 115r30 120r28 125r28 132r25 137r28 142r35 148r35 154r33 160r34 166r33 174r26
+. 179r25 184r30 189r30 194r26 195r24 197r24 198r22 199r40 200r25 201r23 202r41
+. 204r24 205r22 206r40 207r25 208r23 209r41 211r27 211r51 215r24 215r45 216r22
+. 216r61 217r40 217r61 218r22 218r43 220r22 220r43 221r24 221r45 222r22 222r61
+. 223r40 223r61 225r24 225r45 226r22 226r61 227r40 227r61 229r27 230r28 231r35
+. 234r24 234r45 235r22 235r61 236r40 236r61 238r22 238r43 239r23 239r57 241r24
+. 241r58 243r25 243r46 244r23 244r62 246r22 246r43 247r22 247r43 248r24 248r45
+. 252r30 252r50 253r30 253r50 254r30 255r30 255r50 256r30 256r50 260r32 271c8
+. 282e13 12|10r42 12r20 18r44 20r20 26r44 28r20 34r44 36r20 42r44 44r20 50r47
+. 52r20 62r65 64r11 80r24 80r45 82r11 103r25 103r46 105r11 126r24 126r45
+. 128r11 170r23 170r44 172r11 252r30 257r30 262r31 267r29 272r29 277r29 282r29
+. 287r30 292r28 297r28 304r25 309r28 314r35 322r35 331r33 340r34 350r33 362r26
+. 376r25 390r30 395r30 400r26 414r24 428r24 467r22 501r40 506r25 511r23 516r41
+. 521r24 526r22 560r40 565r25 570r23 575r41 580r27 580r51 596r24 596r45 600r11
+. 678r22 678r61 680r11 694r40 694r61 696r20 702r22 702r43 704r11 720r22 720r43
+. 722r11 738r24 738r45 740r20 741r20 747r22 747r61 750r20 756r40 756r61 758r20
+. 759r20 765r24 765r45 769r11 1275r22 1275r61 1279r11 1357r40 1357r61 1359r20
+. 1365r27 1366r28 1368r11 1384r35 1398r24 1398r45 1400r15 1423r22 1423r61
+. 1425r20 1426r20 1432r40 1432r61 1434r20 1435r20 1441r22 1441r43 1446r23
+. 1446r57 1448r15 1512r24 1512r58 1514r11 1532r25 1532r46 1537r23 1537r62
+. 1539r21 1545r22 1545r43 1557r11 1570r21 1581r21 1585r29 1587r13 1699r22
+. 1699r43 1712r15 1731r24 1731r45 1733r11 1744r23 1755r30 1755r50 1760r30
+. 1760r50 1765r30 1770r30 1770r50 1775r30 1775r50 1782r32
+28V12*create{24R8} 28>21 12|10b12 16l7 16t13
+28i21 i{integer} 12|10b21 12r55
+33V12*create{24R8} 33>21 12|18b12 24l7 24t13
+33i21 n{24|7I8} 12|18b21 20r55
+34V12*create{24R8} 34>21 12|26b12 32l7 32t13
+34i21 n{24|8I8} 12|26b21 28r55
+40V12*create{24R8} 40>21 12|34b12 40l7 40t13
+40i21 i{22|6I8} 12|34b21 36r55
+41V12*create{24R8} 41>21 12|42b12 48l7 48t13
+41i21 i{22|7I8} 12|42b21 44r55
+47V12*create{24R8} 47>21 12|12s35 20s35 28s35 36s35 44s35 50b12 57l7 57t13
+. 1425s35 1434s35 1539s36 1592s14 1594s14 1596s14 1716s14 1719s14 1721s14
+47f21 x{21|13F8} 12|50b21 53r19
+52V12*create{24R8} 52>21 52>33 52>45 53>21 53>32 54>21 54>32 54>43 55>21
+. 55>31 12|53s12 59b12 78l7 78t13 1570s36 1581s36 1600s19 1605s19 1610s19
+. 1615s19 1620s19 1625s19 1630s19 1635s19 1640s19 1645s19 1650s20 1655s20
+. 1660s20 1665s20 1670s20 1745s15
+52f21 right_thumb{21|13F8} 12|59b21 67r24
+52f33 right_index{21|13F8} 12|59b33 68r24
+52f45 right_middle{21|13F8} 12|59b45 69r25
+53f21 right_ring{21|13F8} 12|60b21 70r23
+53f32 right_pink{21|13F8} 12|60b32 71r23
+54f21 left_thumb{21|13F8} 12|61b21 72r23
+54f32 left_index{21|13F8} 12|61b32 73r23
+54f43 left_middle{21|13F8} 12|61b43 74r24
+55f21 left_ring{21|13F8} 12|62b21 75r22
+55f31 left_pink{21|13F8} 12|62b31 76r22
+61V13*"abs"{24R8} 61>20 12|80b13 101l8 101t12
+61r20 x{24R8} 12|80b20 85r8 86r27 86r62 87r28 87r63 88r26 89r26 89r59 90r27
+. 90r60 91r25 93r26 93r60 94r27 94r61 95r25 96r25 96r57 97r26 97r58 98r24
+66V12*AbsVal{24R8} 66>21 12|103b12 124l7 124t13
+66r21 x{24R8} 12|103b21 108r8 109r27 109r62 110r28 110r63 111r26 112r26 112r59
+. 113r27 113r60 114r25 116r26 116r60 117r27 117r61 118r25 119r25 119r57 120r26
+. 120r58 121r24
+68V12*floor{24R8} 68>20 12|126b12 168l7 168t12
+68r20 x{24R8} 12|126b20 132r30 135r13 136r32 137r15 138r34 139r17 140r36
+. 141r19 142r38 143r21 144r40 145r23 146r42 147r25 148r44 149r27 150r46 151r29
+. 152r48
+73V12*nint{24R8} 73>19 12|170b12 248l7 248t11
+73r19 x{24R8} 12|170b19 178r38 179r13 180r40 181r15 182r42 183r17 184r44
+. 185r19 186r46 187r21 188r48 189r23 190r50 191r25 192r52 193r27 194r54 195r29
+. 196r56 198r35 198r58 203r33 203r58 208r31 208r55 213r29 213r53 218r27 218r51
+. 223r25 223r49 228r23 228r49 233r21 233r46 238r19 238r44
+80V12*thumb_right{21|13F8} 80>26 12|252b12 255l7 255t18
+80r26 x{24R8} 12|252b26 254r12
+85V12*index_right{21|13F8} 85>26 12|257b12 260l7 260t18
+85r26 x{24R8} 12|257b26 259r12
+90V12*middle_right{21|13F8} 90>27 12|262b12 265l7 265t19
+90r27 x{24R8} 12|262b27 264r12
+95V12*ring_right{21|13F8} 95>25 12|267b12 270l7 270t17
+95r25 x{24R8} 12|267b25 269r12
+100V12*pink_right{21|13F8} 100>25 12|272b12 275l7 275t17
+100r25 x{24R8} 12|272b25 274r12
+105V12*thumb_left{21|13F8} 105>25 12|277b12 280l7 280t17
+105r25 x{24R8} 12|277b25 279r12
+110V12*index_left{21|13F8} 110>25 12|282b12 285l7 285t17
+110r25 x{24R8} 12|282b25 284r12
+115V12*middle_left{21|13F8} 115>26 12|287b12 290l7 290t18
+115r26 x{24R8} 12|287b26 289r12
+120V12*ring_left{21|13F8} 120>24 12|292b12 295l7 295t16
+120r24 x{24R8} 12|292b24 294r12
+125V12*pink_left{21|13F8} 125>24 12|297b12 300l7 300t16
+125r24 x{24R8} 12|297b24 299r12
+132V12*to_int{22|6I8} 132>21 12|304b12 307l7 307t13
+132r21 x{24R8} 12|304b21 306r22
+137V12*to_double{21|13F8} 137>24 12|309b12 312l7 312t16
+137r24 x{24R8} 12|309b24 311r12
+142V12*to_double_double{14|12R8} 142>31 12|314b12 320l7 320t23
+142r31 x{24R8} 12|314b31 316r44 316r58
+148V12*to_triple_double{42|20R8} 148>31 12|322b12 329l7 329t23
+148r31 x{24R8} 12|322b31 325r19 325r33 325r47
+154V12*to_quad_double{20|14R8} 154>29 12|331b12 338l7 338t21
+154r29 x{24R8} 12|331b29 334r19 334r33 334r47 334r62
+160V12*to_penta_double{19|19R8} 160>30 12|340b12 348l7 348t22
+160r30 x{24R8} 12|340b30 343r19 343r33 343r47 344r19 344r32
+166V12*to_octo_double{18|19R8} 166>29 12|350b12 358l7 358t21
+166r29 x{24R8} 12|350b29 353r19 353r33 353r47 353r62 354r19 354r32 354r45
+. 354r58
+174V12*is_zero{boolean} 174>22 12|362b12 374l7 374t14 1595s11
+174r22 x{24R8} 12|362b22 364r14 365r14 366r14 367r14 368r14 369r14 370r14
+. 371r14 372r14 373r14
+179V12*is_one{boolean} 179>21 12|376b12 388l7 388t13 1597s11 1715s8
+179r21 x{24R8} 12|376b21 378r14 379r14 380r14 381r14 382r14 383r14 384r14
+. 385r14 386r14 387r14
+184V12*is_positive{boolean} 184>26 12|390b12 393l7 393t18
+184r26 x{24R8} 12|390b26 392r13
+189V12*is_negative{boolean} 189>26 12|395b12 398l7 398t18
+189r26 x{24R8} 12|395b26 397r13
+194V12*equal{boolean} 194>20 194>22 12|400b12 412l7 412t12 508s23 567s23
+194r20 x{24R8} 12|400b20 402r14 403r14 404r14 405r14 406r14 407r14 408r14
+. 409r14 410r14 411r14
+194r22 y{24R8} 12|400b22 402r30 403r30 404r31 405r29 406r29 407r29 408r29
+. 409r30 410r28 411r28
+195V12*equal{boolean} 195>20 195>37 12|414b12 426l7 426t12 513s23 518s23
+. 572s23 577s23
+195r20 x{24R8} 12|414b20 416r14 417r14 418r14 419r14 420r14 421r14 422r14
+. 423r14 424r14 425r14
+195f37 y{21|13F8} 12|414b37 416r30
+197V13*"<"{boolean} 197>18 197>20 12|428b13 465l8 465t10 508s15 523s15
+197r18 x{24R8} 12|428b18 430r14 431r14 431r48 432r14 432r48 433r18 434r14
+. 434r48 435r18 436r18 437r14 437r48 438r18 439r18 439r50 440r14 440r48 441r18
+. 442r18 442r50 443r18 444r14 444r48 445r18 446r18 446r50 447r18 447r50 448r14
+. 448r48 449r18 450r18 450r50 451r18 451r50 452r18 453r14 453r48 454r18 455r18
+. 455r50 456r18 456r50 457r18 458r18 459r14 459r48 460r18 461r18 461r50 462r18
+. 462r50 463r18 464r18 464r48
+197r20 y{24R8} 12|428b20 430r30 431r30 431r64 432r30 432r64 433r35 434r30
+. 434r64 435r35 436r33 437r30 437r64 438r35 439r33 439r65 440r30 440r64 441r35
+. 442r33 442r65 443r33 444r30 444r64 445r35 446r33 446r65 447r33 447r65 448r30
+. 448r64 449r35 450r33 450r65 451r33 451r65 452r34 453r30 453r64 454r35 455r33
+. 455r65 456r33 456r65 457r34 458r32 459r30 459r64 460r35 461r33 461r65 462r33
+. 462r65 463r34 464r32 464r62
+198V13*"<"{boolean} 198>18 198>35 12|467b13 499l8 499t10 513s15 562s15
+198r18 x{24R8} 12|467b18 469r13 470r13 470r35 471r13 471r35 472r13 473r13
+. 473r35 474r13 474r38 475r13 475r35 476r13 476r38 477r13 478r13 478r35 479r13
+. 479r38 480r13 480r36 481r13 481r35 482r13 482r38 483r13 483r36 484r13 485r13
+. 485r35 486r13 486r38 487r13 487r36 488r13 488r36 489r13 489r35 490r13 490r38
+. 491r13 491r36 492r13 492r36 493r13 494r13 494r35 495r13 495r38 496r13 496r36
+. 497r13 497r36 498r13 498r35
+198f35 y{21|13F8} 12|467b35 469r29 470r29 471r29 473r29 475r29 478r29 481r29
+. 485r29 489r29 494r29
+199V13*"<"{boolean} 199>18 199>36 12|501b13 504l8 504t10 518s15
+199f18 x{21|13F8} 12|501b18 503r17
+199r36 y{24R8} 12|501b36 503r13
+200V13*"<="{boolean} 200>19 200>21 12|506b13 509l8 509t11
+200r19 x{24R8} 12|506b19 508r13 508r29
+200r21 y{24R8} 12|506b21 508r17 508r31
+201V13*"<="{boolean} 201>19 201>36 12|511b13 514l8 514t11
+201r19 x{24R8} 12|511b19 513r13 513r29
+201f36 y{21|13F8} 12|511b36 513r17 513r31
+202V13*"<="{boolean} 202>19 202>37 12|516b13 519l8 519t11
+202f19 x{21|13F8} 12|516b19 518r13 518r31
+202r37 y{24R8} 12|516b37 518r17 518r29
+204V13*">"{boolean} 204>18 204>20 12|521b13 524l8 524t10 567s15
+204r18 x{24R8} 12|521b18 523r17
+204r20 y{24R8} 12|521b20 523r13
+205V13*">"{boolean} 205>18 205>35 12|503s15 526b13 558l8 558t10 572s15
+205r18 x{24R8} 12|526b18 528r13 529r13 529r35 530r13 530r35 531r13 532r13
+. 532r35 533r13 533r38 534r13 534r35 535r13 535r38 536r13 537r13 537r35 538r13
+. 538r38 539r13 539r36 540r13 540r35 541r13 541r38 542r13 542r36 543r13 544r13
+. 544r35 545r13 545r38 546r13 546r36 547r13 547r36 548r13 548r35 549r13 549r38
+. 550r13 550r36 551r13 551r36 552r13 553r13 553r35 554r13 554r38 555r13 555r36
+. 556r13 556r36 557r13 557r35
+205f35 y{21|13F8} 12|526b35 528r29 529r29 530r29 532r29 534r29 537r29 540r29
+. 544r29 548r29 553r29
+206V13*">"{boolean} 206>18 206>36 12|560b13 563l8 563t10 577s15
+206f18 x{21|13F8} 12|560b18 562r17
+206r36 y{24R8} 12|560b36 562r13
+207V13*">="{boolean} 207>19 207>21 12|565b13 568l8 568t11
+207r19 x{24R8} 12|565b19 567r13 567r29
+207r21 y{24R8} 12|565b21 567r17 567r31
+208V13*">="{boolean} 208>19 208>36 12|570b13 573l8 573t11
+208r19 x{24R8} 12|570b19 572r13 572r29
+208f36 y{21|13F8} 12|570b36 572r17 572r31
+209V13*">="{boolean} 209>19 209>37 12|575b13 578l8 578t11
+209f19 x{21|13F8} 12|575b19 577r13 577r31
+209r37 y{24R8} 12|575b37 577r17 577r29
+211U13*copy 211>20 211=40 12|580b13 592l7 592t11
+211r20 x{24R8} 12|580b20 582r22 583r22 584r23 585r21 586r21 587r21 588r21
+. 589r22 590r20 591r20
+211r40 y{24R8} 12|580b40 582m5 583m5 584m5 585m5 586m5 587m5 588m5 589m5
+. 590m5 591m5
+215V13*"+"{24R8} 215>18 215>20 12|596b13 676l8 676t10 741s37 1677s16 1682s16
+. 1690s16 1724s20 1757s12
+215r18 x{24R8} 12|596b18 605r34 607r34 610r34 614r34 619r34 625r34 632r34
+. 640r34 649r34 659r34
+215r20 y{24R8} 12|596b20 605r46 607r46 610r48 614r47 619r47 625r47 632r47
+. 640r49 649r48 659r48
+216V13*"+"{24R8} 216>18 216>35 12|678b13 692l8 692t10 696s37 750s37 1692s16
+216r18 x{24R8} 12|678b18 683r17 683r31 683r45 684r17 684r30 685r17 685r30
+. 685r43 686r17 686r29
+216f35 y{21|13F8} 12|678b35 686r41
+217V13*"+"{24R8} 217>18 217>36 12|694b13 700l8 700t10 759s37
+217f18 x{21|13F8} 12|694b18 696r39
+217r36 y{24R8} 12|694b36 696r35
+218V13*"+"{24R8} 218>18 12|702b13 718l8 718t10
+218r18 x{24R8} 12|702b18 707r24 708r24 709r25 710r23 711r23 712r23 713r23
+. 714r24 715r22 716r22
+220V13*"-"{24R8} 220>18 12|720b13 736l8 736t10 740s35 758s35 1723s22 1767s10
+220r18 x{24R8} 12|720b18 725r25 726r25 727r26 728r24 729r24 730r24 731r24
+. 732r25 733r23 734r23
+221V13*"-"{24R8} 221>18 221>20 12|738b13 745l8 745t10 1404s64 1405s66 1406s66
+. 1407s66 1408s66 1409s66 1410s66 1411s66 1412s66 1413s66 1675s25 1762s12
+221r18 x{24R8} 12|738b18 741r35
+221r20 y{24R8} 12|738b20 740r36
+222V13*"-"{24R8} 222>18 222>35 12|747b13 754l8 754t10 1725s20
+222r18 x{24R8} 12|747b18 750r35
+222f35 y{21|13F8} 12|747b35 749r37
+223V13*"-"{24R8} 223>18 223>36 12|756b13 763l8 763t10
+223f18 x{21|13F8} 12|756b18 759r35
+223r36 y{24R8} 12|756b36 758r36
+225V13*"*"{24R8} 225>18 225>20 12|765b13 1273l8 1273t10 1443s13 1475s27 1479s27
+. 1534s17 1676s15 1680s15 1681s24 1689s15 1723s17 1772s11
+225r18 x{24R8} 12|765b18 773r12 774r18 775r18 776r18 777r18 778r18 779r18
+. 780r18 781r18 782r35 784r35 788r35 792r35 796r35 800r35 804r35 808r35 812r35
+. 816r35 820r35 823r35 829r35 835r35 841r35 847r35 853r35 859r35 865r35 871r35
+. 875r35 883r35 891r35 899r35 907r35 915r35 923r35 931r35 936r35 946r35 956r35
+. 966r35 976r35 986r35 996r35 1002r35 1014r35 1026r35 1038r35 1050r35 1062r35
+. 1069r35 1083r35 1097r35 1111r35 1125r35 1133r35 1149r35 1165r35 1181r35
+. 1190r35 1208r35 1226r35 1236r35 1256r35
+225r20 y{24R8} 12|765b20 773r26 774r33 775r31 776r31 777r31 778r31 779r32
+. 780r30 781r30 782r49 784r49 788r50 792r48 796r48 800r48 804r48 808r49 812r47
+. 816r47 820r49 823r49 829r50 835r48 841r48 847r48 853r48 859r49 865r47 871r49
+. 875r49 883r50 891r48 899r48 907r48 915r48 923r49 931r49 936r49 946r50 956r48
+. 966r48 976r48 986r48 996r49 1002r49 1014r50 1026r48 1038r48 1050r48 1062r49
+. 1069r49 1083r50 1097r48 1111r48 1125r49 1133r49 1149r50 1165r48 1181r49
+. 1190r49 1208r50 1226r49 1236r49 1256r49
+226V13*"*"{24R8} 226>18 226>35 12|1275b13 1355l8 1355t10 1359s36
+226r18 x{24R8} 12|1275b18 1284r35 1286r35 1289r35 1293r35 1298r35 1304r35
+. 1311r35 1319r35 1328r35 1338r35
+226f35 y{21|13F8} 12|1275b35 1284r47 1286r47 1289r49 1293r48 1298r48 1304r48
+. 1311r48 1319r50 1328r49 1338r49
+227V13*"*"{24R8} 227>18 227>36 12|1357b13 1363l8 1363t10 1404s51 1405s51
+. 1406s51 1407s51 1408s51 1409s51 1410s51 1411s51 1412s51 1413s51 1675s28
+227f18 x{21|13F8} 12|1357b18 1359r37
+227r36 y{24R8} 12|1357b36 1359r35
+229V12*Mul_pwr2{24R8} 229>23 229>40 12|1365b12 1382l7 1382t15 1675s14 1677s18
+. 1688s14
+229r23 x{24R8} 12|1365b23 1371r26 1372r26 1373r27 1374r25 1375r25 1376r25
+. 1377r25 1378r26 1379r24 1380r24
+229f40 y{21|13F8} 12|1365b40 1371r24 1372r24 1373r25 1374r23 1375r23 1376r23
+. 1377r23 1378r24 1379r22 1380r22
+231U13*Mul_pwr2 231=24 231>48 12|1384b13 1396l7 1396t15
+231r24 x{24R8} 12|1384b24 1386m5 1386r24 1387m5 1387r24 1388m5 1388r25 1389m5
+. 1389r23 1390m5 1390r23 1391m5 1391r23 1392m5 1392r23 1393m5 1393r24 1394m5
+. 1394r22 1395m5 1395r22
+231f48 y{21|13F8} 12|1384b48 1386r22 1387r22 1388r23 1389r21 1390r21 1391r21
+. 1392r21 1393r22 1394r20 1395r20
+234V13*"/"{24R8} 234>18 234>20 12|1398b13 1421l8 1421t10 1426s36 1435s38
+. 1749s18 1777s11
+234r18 x{24R8} 12|1398b18 1404r11 1404r62
+234r20 y{24R8} 12|1398b20 1404r25 1404r52 1405r27 1405r52 1406r27 1406r52
+. 1407r27 1407r52 1408r27 1408r52 1409r27 1409r52 1410r27 1410r52 1411r27
+. 1411r52 1412r27 1412r52 1413r27 1413r52 1414r28
+235V13*"/"{24R8} 235>18 235>35 12|1423b13 1430l8 1430t10
+235r18 x{24R8} 12|1423b18 1426r35
+235f35 y{21|13F8} 12|1423b35 1425r42
+236V13*"/"{24R8} 236>18 236>36 12|1432b13 1439l8 1439t10 1495s19
+236f18 x{21|13F8} 12|1432b18 1434r42
+236r36 y{24R8} 12|1432b36 1435r39
+238V12*sqr{24R8} 238>18 12|1441b12 1444l7 1444t10
+238r18 x{24R8} 12|1441b18 1443r12 1443r14
+239V13*"**"{24R8} 239>19 239>36 12|1446b13 1510l8 1510t11
+239r19 x{24R8} 12|1446b19 1462r26 1462r60 1463r27 1463r61 1464r25 1465r25
+. 1465r57 1466r26 1466r58 1467r24
+239i36 n{integer} 12|1446b36 1452r8 1458r10 1459r21 1460r22 1494r10
+241V12*ldexp{24R8} 241>20 241>37 12|1512b12 1530l7 1530t12 1694s14
+241r20 x{24R8} 12|1512b20 1519r32 1520r32 1521r33 1522r31 1523r31 1524r31
+. 1525r31 1526r32 1527r30 1528r30
+241i37 n{integer} 12|1512b37 1519r46 1520r46 1521r48 1522r44 1523r44 1524r44
+. 1525r44 1526r46 1527r42 1528r42
+243V13*"**"{24R8} 243>19 243>21 12|1532b13 1535l8 1535t11 1542s13
+243r19 x{24R8} 12|1532b19 1534r22
+243r21 y{24R8} 12|1532b21 1534r16
+244V13*"**"{24R8} 244>19 244>36 12|1537b13 1543l8 1543t11
+244r19 x{24R8} 12|1537b19 1542r12
+244f36 y{21|13F8} 12|1537b36 1539r43
+246V12*exp{24R8} 246>18 12|1534s12 1545b12 1697l7 1697t10 1723s18
+246r18 x{24R8} 12|1545b18 1584r53 1591r8 1593r11 1595r19 1597r18 1675r23
+247V12*log{24R8} 247>18 12|1534s18 1699b12 1729l7 1729t10 1749s12
+247r18 x{24R8} 12|1699b18 1715r15 1717r11 1721r56 1723r16
+248V12*log10{24R8} 248>20 12|1731b12 1751l7 1751t12
+248r20 x{24R8} 12|1731b20 1749r16
+252U13*Add 252=19 252>43 12|1755b13 1758l7 1758t10
+252r19 x{24R8} 12|1755b19 1757m5 1757r10
+252r43 y{24R8} 12|1755b43 1757r14
+253U13*Sub 253=19 253>43 12|1760b13 1763l7 1763t10
+253r19 x{24R8} 12|1760b19 1762m5 1762r10
+253r43 y{24R8} 12|1760b43 1762r14
+254U13*Min 254=19 12|1765b13 1768l7 1768t10
+254r19 x{24R8} 12|1765b19 1767m5 1767r11
+255U13*Mul 255=19 255>43 12|1770b13 1773l7 1773t10
+255r19 x{24R8} 12|1770b19 1772m5 1772r10
+255r43 y{24R8} 12|1770b43 1772r12
+256U13*Div 256=19 256>43 12|1775b13 1778l7 1778t10
+256r19 x{24R8} 12|1775b19 1777m5 1777r10
+256r43 y{24R8} 12|1775b43 1777r12
+260U13*clear 260=21 12|1782b13 1788l7 1788t12
+260r21 x{24R8} 12|1782b21 1784m5 1784m27 1785m5 1785m28 1785m49 1786m5 1786m26
+. 1787m5 1787m27 1787m47
+272f5*right_thumb{21|13F8} 12|67m9 85r10 86m11 86r29 93m11 93r28 108r10 109m11
+. 109r29 116m11 116r28 132r32 135r15 163m21 178r40 179r15 238r21 243m21 254r14
+. 306r24 311r14 316r46 325r21 334r21 343r21 353r21 364r16 378r16 392r15 397r15
+. 402r16 402r32 416r16 430r16 430r32 431r16 431r32 432r16 432r32 434r16 434r32
+. 437r16 437r32 440r16 440r32 444r16 444r32 448r16 448r32 453r16 453r32 459r16
+. 459r32 469r15 470r15 471r15 473r15 475r15 478r15 481r15 485r15 489r15 494r15
+. 528r15 529r15 530r15 532r15 534r15 537r15 540r15 544r15 548r15 553r15 582m7
+. 582r24 659r36 659r50 671m21 683r19 687m21 707m9 707r26 725m9 725r27 782r37
+. 816r49 820r37 865r49 871r37 923r51 931r37 986r50 996r37 1050r50 1062r37
+. 1111r50 1125r37 1165r50 1181r37 1208r52 1226r37 1236r51 1256r37 1256r51
+. 1268m21 1338r37 1350m21 1371m9 1371r28 1386m7 1386r26 1404r13 1404r27 1405r15
+. 1405r29 1406r15 1406r29 1407r15 1407r29 1408r15 1408r29 1409r15 1409r29
+. 1410r15 1410r29 1411r15 1411r29 1412r15 1412r29 1413r15 1413r29 1414r16
+. 1414r30 1416m21 1453m11 1462m11 1462r28 1468m11 1483m13 1483r32 1497m13
+. 1497r32 1519m9 1519r34 1584r55 1591r10 1593r13 1683r25 1717r13 1721r58
+. 1784m7
+273f5*right_index{21|13F8} 12|68m9 86m46 86r64 93m45 93r62 109m46 109r64
+. 116m45 116r62 136r34 137r17 163m37 180r42 181r17 233r23 238r46 243m37 259r14
+. 316r60 325r35 334r35 343r35 353r35 365r16 379r16 403r16 403r32 417r16 431r50
+. 431r66 432r50 432r66 434r50 434r66 437r50 437r66 440r50 440r66 444r50 444r66
+. 448r50 448r66 453r50 453r66 459r50 459r66 470r37 471r37 473r37 475r37 478r37
+. 481r37 485r37 489r37 494r37 529r37 530r37 532r37 534r37 537r37 540r37 544r37
+. 548r37 553r37 583m7 583r24 649r36 649r50 671m37 683r33 687m37 708m9 708r26
+. 726m9 726r27 773r14 781r32 784r37 812r49 823r37 859r51 875r37 915r50 936r37
+. 976r50 1002r37 1038r50 1069r37 1097r50 1133r37 1149r52 1190r37 1190r51
+. 1226r51 1236r37 1268m37 1328r37 1350m37 1372m9 1372r28 1387m7 1387r26 1416m37
+. 1453m35 1462m45 1462r62 1468m35 1484m13 1484r32 1498m13 1498r32 1520m9
+. 1520r34 1784m29
+274f5*right_middle{21|13F8} 12|69m9 87m11 87r30 94m11 94r29 110m11 110r30
+. 117m11 117r29 138r36 139r19 163m53 182r44 183r19 228r25 233r48 243m53 264r14
+. 325r49 334r49 343r49 353r49 366r16 380r16 404r16 404r33 418r16 433r20 433r37
+. 435r20 435r37 438r20 438r37 441r20 441r37 445r20 445r37 449r20 449r37 454r20
+. 454r37 460r20 460r37 472r15 474r15 476r15 479r15 482r15 486r15 490r15 495r15
+. 531r15 533r15 535r15 538r15 541r15 545r15 549r15 554r15 584m7 584r25 640r36
+. 640r51 671m53 683r47 687m53 709m9 709r27 727m9 727r28 774r20 780r32 788r37
+. 808r51 829r37 853r50 883r37 907r50 946r37 966r50 1014r37 1026r50 1083r37
+. 1083r52 1133r51 1149r37 1181r51 1208r37 1268m53 1319r37 1350m53 1373m9
+. 1373r29 1388m7 1388r27 1416m53 1454m11 1463m11 1463r29 1469m11 1485m13
+. 1485r33 1499m13 1499r33 1521m9 1521r35 1785m7
+275f5*right_ring{21|13F8} 12|70m9 87m48 87r65 94m47 94r63 110m48 110r65 117m47
+. 117r63 140r38 141r21 164m21 184r46 185r21 223r27 228r51 244m21 269r14 334r64
+. 344r21 353r64 367r16 381r16 405r16 405r31 419r16 436r20 436r35 439r20 439r35
+. 442r20 442r35 446r20 446r35 450r20 450r35 455r20 455r35 461r20 461r35 474r40
+. 476r40 479r40 482r40 486r40 490r40 495r40 533r40 535r40 538r40 541r40 545r40
+. 549r40 554r40 585m7 585r23 632r36 632r49 672m21 684r19 688m21 710m9 710r25
+. 728m9 728r26 775r20 779r34 792r37 804r50 835r37 847r50 891r37 899r50 956r37
+. 956r50 1014r52 1026r37 1069r51 1097r37 1125r51 1165r37 1269m21 1311r37
+. 1351m21 1374m9 1374r27 1389m7 1389r25 1417m21 1454m36 1463m47 1463r63 1469m36
+. 1486m13 1486r31 1500m13 1500r31 1522m9 1522r33 1785m30
+276f5*right_pink{21|13F8} 12|71m9 88m11 88r28 95m11 95r27 111m11 111r28 118m11
+. 118r27 142r40 143r23 164m36 186r48 187r23 218r29 223r51 244m36 274r14 344r34
+. 354r21 368r16 382r16 406r16 406r31 420r16 439r52 439r67 442r52 442r67 446r52
+. 446r67 450r52 450r67 455r52 455r67 461r52 461r67 477r15 480r15 483r15 487r15
+. 491r15 496r15 536r15 539r15 542r15 546r15 550r15 555r15 586m7 586r23 625r36
+. 625r49 672m36 684r32 688m36 711m9 711r25 729m9 729r26 776r20 778r33 796r37
+. 800r50 841r37 841r50 891r50 899r37 946r52 966r37 1002r51 1038r37 1062r51
+. 1111r37 1269m36 1304r37 1351m36 1375m9 1375r27 1390m7 1390r25 1417m36 1454m59
+. 1464m11 1464r27 1469m59 1487m13 1487r31 1501m13 1501r31 1523m9 1523r33
+. 1785m51
+277f5*left_thumb{21|13F8} 12|72m9 89m11 89r28 96m11 96r27 112m11 112r28 119m11
+. 119r27 144r42 145r25 165m21 188r50 189r25 213r31 218r53 245m21 279r14 354r34
+. 369r16 383r16 407r16 407r31 421r16 443r20 443r35 447r20 447r35 451r20 451r35
+. 456r20 456r35 462r20 462r35 480r38 483r38 487r38 491r38 496r38 539r38 542r38
+. 546r38 550r38 555r38 587m7 587r23 619r36 619r49 673m21 685r19 689m21 712m9
+. 712r25 730m9 730r26 777r20 777r33 796r50 800r37 835r50 847r37 883r52 907r37
+. 936r51 976r37 996r51 1050r37 1270m21 1298r37 1352m21 1376m9 1376r27 1391m7
+. 1391r25 1418m21 1455m11 1465m11 1465r27 1470m11 1488m13 1488r31 1502m13
+. 1502r31 1524m9 1524r33 1786m7
+278f5*left_index{21|13F8} 12|73m9 89m44 89r61 96m43 96r59 112m44 112r61 119m43
+. 119r59 146r44 147r27 165m36 190r52 191r27 208r33 213r55 245m36 284r14 354r47
+. 370r16 384r16 408r16 408r31 422r16 447r52 447r67 451r52 451r67 456r52 456r67
+. 462r52 462r67 484r15 488r15 492r15 497r15 543r15 547r15 551r15 556r15 588m7
+. 588r23 614r36 614r49 673m36 685r32 689m36 713m9 713r25 731m9 731r26 776r33
+. 778r20 792r50 804r37 829r52 853r37 875r51 915r37 931r51 986r37 1270m36
+. 1293r37 1352m36 1377m9 1377r27 1392m7 1392r25 1418m36 1455m34 1465m43 1465r59
+. 1470m34 1489m13 1489r31 1503m13 1503r31 1525m9 1525r33 1786m28
+279f5*left_middle{21|13F8} 12|74m9 90m11 90r29 97m11 97r28 113m11 113r29
+. 120m11 120r28 148r46 149r29 165m51 192r54 193r29 203r35 208r57 245m51 289r14
+. 354r60 371r16 385r16 409r16 409r32 423r16 452r20 452r36 457r20 457r36 463r20
+. 463r36 488r38 492r38 497r38 547r38 551r38 556r38 589m7 589r24 610r36 610r50
+. 673m51 685r45 689m51 714m9 714r26 732m9 732r27 775r33 779r20 788r52 808r37
+. 823r51 859r37 871r51 923r37 1270m51 1289r37 1352m51 1378m9 1378r28 1393m7
+. 1393r26 1418m51 1456m11 1466m11 1466r28 1471m11 1490m13 1490r32 1504m13
+. 1504r32 1526m9 1526r34 1787m7
+280f5*left_ring{21|13F8} 12|75m9 90m46 90r62 97m45 97r60 113m46 113r62 120m45
+. 120r60 150r48 151r31 166m21 194r56 195r31 196r58 198r37 203r60 246m21 294r14
+. 372r16 386r16 410r16 410r30 424r16 458r20 458r34 464r20 464r34 493r15 498r15
+. 552r15 557r15 590m7 590r22 607r36 607r48 674m21 686r19 690m21 715m9 715r24
+. 733m9 733r25 774r35 780r20 784r51 812r37 820r51 865r37 1271m21 1286r37
+. 1353m21 1379m9 1379r26 1394m7 1394r24 1419m21 1456m35 1466m45 1466r60 1471m35
+. 1491m13 1491r30 1505m13 1505r30 1527m9 1527r32 1787m29
+281f5*left_pink{21|13F8} 12|76m9 91m11 91r27 98m11 98r26 114m11 114r27 121m11
+. 121r26 152r50 166m35 198r60 246m35 299r14 373r16 387r16 411r16 411r30 425r16
+. 464r50 464r64 498r37 557r37 591m7 591r22 605r36 605r48 674m35 686r31 690m35
+. 716m9 716r24 734m9 734r25 773r28 781r20 782r51 816r37 1271m35 1284r37 1353m35
+. 1380m9 1380r26 1395m7 1395r24 1419m35 1456m57 1467m11 1467r26 1471m57 1492m13
+. 1492r30 1506m13 1506r30 1528m9 1528r32 1787m49
+X 12 deca_double_numbers.adb
+12r5 res{11|24R8} 15r12
+20r5 res{11|24R8} 23r12
+28r5 res{11|24R8} 31r12
+36r5 res{11|24R8} 39r12
+44r5 res{11|24R8} 47r12
+52r5 res{11|24R8} 56r12
+64r5 res{11|24R8} 67m5 68m5 69m5 70m5 71m5 72m5 73m5 74m5 75m5 76m5 77r12
+82r5 res{11|24R8} 86m7 86m42 87m7 87m44 88m7 89m7 89m40 90m7 90m42 91m7 93m7
+. 93m41 94m7 94m43 95m7 96m7 96m39 97m7 97m41 98m7 100r12
+105r5 res{11|24R8} 109m7 109m42 110m7 110m44 111m7 112m7 112m40 113m7 113m42
+. 114m7 116m7 116m41 117m7 117m43 118m7 119m7 119m39 120m7 120m41 121m7 123r12
+128r5 res{11|24R8} 163m17 163r17 163m33 163r33 163m49 163r49 164m17 164r17
+. 164m32 164r32 165m17 165r17 165m32 165r32 165m47 165r47 166m17 166r17 166m31
+. 166r31 167r12
+129f5 f0{21|13F8} 132m5 135r8 162r17
+129f8 f1{21|13F8} 133m5 136m7 137r10 162r20
+129f11 f2{21|13F8} 133m16 138m9 139r12 162r23
+129f14 f3{21|13F8} 133m27 140m11 141r14 162r26
+129f17 f4{21|13F8} 133m38 142m13 143r16 162r29
+129f20 f5{21|13F8} 133m49 144m15 145r18 162r32
+129f23 f6{21|13F8} 134m5 146m17 147r20 162r35
+129f26 f7{21|13F8} 134m16 148m19 149r22 162r38
+129f29 f8{21|13F8} 134m27 150m21 151r24 162r41
+129f32 f9{21|13F8} 134m38 152m23 162r44
+129f35 f10{21|13F8} 134m49 162r47
+172r5 res{11|24R8} 243m17 243r17 243m33 243r33 243m49 243r49 244m17 244r17
+. 244m32 244r32 245m17 245r17 245m32 245r32 245m47 245r47 246m17 246r17 246m31
+. 246r31 247r12
+173f5 x0{21|13F8} 178m5 179r8 238r14 239m13 239r19 242r17
+173f8 x1{21|13F8} 176m5 180m7 181r10 233r16 234m15 234r21 242r20
+173f11 x2{21|13F8} 176m16 182m9 183r12 228r18 229m17 229r23 242r23
+173f14 x3{21|13F8} 176m27 184m11 185r14 223r20 224m19 224r25 242r26
+173f17 x4{21|13F8} 176m38 186m13 187r16 218r22 219m21 219r27 242r29
+173f20 x5{21|13F8} 176m49 188m15 189r18 213r24 214m23 214r29 242r32
+173f23 x6{21|13F8} 177m5 190m17 191r20 208r26 209m25 209r31 242r35
+173f26 x7{21|13F8} 177m16 192m19 193r22 203r28 204m27 204r33 242r38
+173f29 x8{21|13F8} 177m27 194m21 195r24 198r30 199m29 199r35 242r41
+173f32 x9{21|13F8} 177m38 196m23 242r44
+173f35 x10{21|13F8} 177m49 242r47
+316r5 res{14|12R8} 319r12
+324r5 res{42|20R8} 328r12
+333r5 res{20|14R8} 337r12
+342r5 res{19|19R8} 347r12
+352r5 res{18|19R8} 357r12
+600r5 res{11|24R8} 671m17 671r17 671m33 671r33 671m49 671r49 672m17 672r17
+. 672m32 672r32 673m17 673r17 673m32 673r32 673m47 673r47 674m17 674r17 674m31
+. 674r31 675r12
+601f5 f0{21|13F8} 659m62 670r17
+601f8 f1{21|13F8} 649m62 660r34 660m39 670r20
+601f11 f2{21|13F8} 640m64 650r34 650m39 661r34 661m39 670r23
+601f14 f3{21|13F8} 632m60 641r34 641m39 651r34 651m39 662r34 662m39 670r26
+601f17 f4{21|13F8} 625m60 633r34 633m39 642r34 642m39 652r34 652m39 663r34
+. 663m39 670r29
+601f20 f5{21|13F8} 619m60 626r34 626m39 634r34 634m39 643r34 643m39 653r34
+. 653m39 664r34 664m39 670r32
+601f23 f6{21|13F8} 614m60 620r34 620m39 627r34 627m39 635r34 635m39 644r34
+. 644m39 654r34 654m39 665r34 665m39 670r35
+601f26 f7{21|13F8} 610m62 615r34 615m39 621r34 621m39 628r34 628m39 636r34
+. 636m39 645r34 645m39 655r34 655m39 666r34 666m39 670r38
+601f29 f8{21|13F8} 607m58 611r34 611m39 616r34 616m39 622r34 622m39 629r34
+. 629m39 637r34 637m39 646r34 646m39 656r34 656m39 667r34 667m39 670r41
+601f32 f9{21|13F8} 605m58 608r34 608m39 612r34 612m39 617r34 617m39 623r34
+. 623m39 630r34 630m39 638r34 638m39 647r34 647m39 657r34 657m39 668r34 668m39
+. 670r44
+601f35 f10{21|13F8} 604m5 606m5 606r12 609m5 609r12 613m5 613r12 618m5 618r12
+. 624m5 624r12 631m5 631r12 639m5 639r12 648m5 648r12 658m5 658r12 669m5
+. 669r12 670r47
+601f39 e{21|13F8} 605m61 606r18 607m61 608r37 608m42 609r18 610m65 611r37
+. 611m42 612r37 612m42 613r18 614m63 615r37 615m42 616r37 616m42 617r37 617m42
+. 618r18 619m63 620r37 620m42 621r37 621m42 622r37 622m42 623r37 623m42 624r18
+. 625m63 626r37 626m42 627r37 627m42 628r37 628m42 629r37 629m42 630r37 630m42
+. 631r18 632m63 633r37 633m42 634r37 634m42 635r37 635m42 636r37 636m42 637r37
+. 637m42 638r37 638m42 639r18 640m67 641r37 641m42 642r37 642m42 643r37 643m42
+. 644r37 644m42 645r37 645m42 646r37 646m42 647r37 647m42 648r18 649m65 650r37
+. 650m42 651r37 651m42 652r37 652m42 653r37 653m42 654r37 654m42 655r37 655m42
+. 656r37 656m42 657r37 657m42 658r18 659m65 660r37 660m42 661r37 661m42 662r37
+. 662m42 663r37 663m42 664r37 664m42 665r37 665m42 666r37 666m42 667r37 667m42
+. 668r37 668m42 669r18
+680r5 res{11|24R8} 687m17 687r17 687m33 687r33 687m49 687r49 688m17 688r17
+. 688m32 688r32 689m17 689r17 689m32 689r32 689m47 689r47 690m17 690r17 690m31
+. 690r31 691r12
+696r5 res{11|24R8} 699r12
+704r5 res{11|24R8} 707m5 708m5 709m5 710m5 711m5 712m5 713m5 714m5 715m5
+. 716m5 717r12
+722r5 res{11|24R8} 725m5 726m5 727m5 728m5 729m5 730m5 731m5 732m5 733m5
+. 734m5 735r12
+740r5 mny{11|24R8} 741r39
+741r5 res{11|24R8} 744r12
+749f5 mny{21|13F8} 750r39
+750r5 res{11|24R8} 753r12
+758r5 mny{11|24R8} 759r39
+759r5 res{11|24R8} 762r12
+769r5 res{11|24R8} 1268m17 1268r17 1268m33 1268r33 1268m49 1268r49 1269m17
+. 1269r17 1269m32 1269r32 1270m17 1270r17 1270m32 1270r32 1270m47 1270r47
+. 1271m17 1271r17 1271m31 1271r31 1272r12
+770f5 f0{21|13F8} 1256m63 1267r17
+770f8 f1{21|13F8} 1226m63 1246r34 1246m39 1257r34 1257m39 1267r20
+770f11 f2{21|13F8} 1181m64 1199r34 1199m39 1217r34 1217m39 1227r34 1227m39
+. 1237r34 1237m39 1247r34 1247m39 1258r34 1258m39 1267r23
+770f14 f3{21|13F8} 1125m62 1141r34 1141m39 1157r34 1157m39 1173r34 1173m39
+. 1182r34 1182m39 1191r34 1191m39 1200r34 1200m39 1209r34 1209m39 1218r34
+. 1218m39 1228r34 1228m39 1238r34 1238m39 1248r34 1248m39 1259r34 1259m39
+. 1267r26
+770f17 f4{21|13F8} 1062m62 1076r34 1076m39 1090r34 1090m39 1104r34 1104m39
+. 1118r34 1118m39 1126r34 1126m39 1134r34 1134m39 1142r34 1142m39 1150r34
+. 1150m39 1158r34 1158m39 1166r34 1166m39 1174r34 1174m39 1183r34 1183m39
+. 1192r34 1192m39 1201r34 1201m39 1210r34 1210m39 1219r34 1219m39 1229r34
+. 1229m39 1239r34 1239m39 1249r34 1249m39 1260r34 1260m39 1267r29
+770f20 f5{21|13F8} 996m62 1008r34 1008m39 1020r34 1020m39 1032r34 1032m39
+. 1044r34 1044m39 1056r34 1056m39 1063r34 1063m39 1070r34 1070m39 1077r34
+. 1077m39 1084r34 1084m39 1091r34 1091m39 1098r34 1098m39 1105r34 1105m39
+. 1112r34 1112m39 1119r34 1119m39 1127r34 1127m39 1135r34 1135m39 1143r34
+. 1143m39 1151r34 1151m39 1159r34 1159m39 1167r34 1167m39 1175r34 1175m39
+. 1184r34 1184m39 1193r34 1193m39 1202r34 1202m39 1211r34 1211m39 1220r34
+. 1220m39 1230r34 1230m39 1240r34 1240m39 1250r34 1250m39 1261r34 1261m39
+. 1267r32
+770f23 f6{21|13F8} 931m62 941r34 941m39 951r34 951m39 961r34 961m39 971r34
+. 971m39 981r34 981m39 991r34 991m39 997r34 997m39 1003r34 1003m39 1009r34
+. 1009m39 1015r34 1015m39 1021r34 1021m39 1027r34 1027m39 1033r34 1033m39
+. 1039r34 1039m39 1045r34 1045m39 1051r34 1051m39 1057r34 1057m39 1064r34
+. 1064m39 1071r34 1071m39 1078r34 1078m39 1085r34 1085m39 1092r34 1092m39
+. 1099r34 1099m39 1106r34 1106m39 1113r34 1113m39 1120r34 1120m39 1128r34
+. 1128m39 1136r34 1136m39 1144r34 1144m39 1152r34 1152m39 1160r34 1160m39
+. 1168r34 1168m39 1176r34 1176m39 1185r34 1185m39 1194r34 1194m39 1203r34
+. 1203m39 1212r34 1212m39 1221r34 1221m39 1231r34 1231m39 1241r34 1241m39
+. 1251r34 1251m39 1262r34 1262m39 1267r35
+770f26 f7{21|13F8} 871m63 879r34 879m39 887r34 887m39 895r34 895m39 903r34
+. 903m39 911r34 911m39 919r34 919m39 927r34 927m39 932r34 932m39 937r34 937m39
+. 942r34 942m39 947r34 947m39 952r34 952m39 957r34 957m39 962r34 962m39 967r34
+. 967m39 972r34 972m39 977r34 977m39 982r34 982m39 987r34 987m39 992r34 992m39
+. 998r34 998m39 1004r34 1004m39 1010r34 1010m39 1016r34 1016m39 1022r34 1022m39
+. 1028r34 1028m39 1034r34 1034m39 1040r34 1040m39 1046r34 1046m39 1052r34
+. 1052m39 1058r34 1058m39 1065r34 1065m39 1072r34 1072m39 1079r34 1079m39
+. 1086r34 1086m39 1093r34 1093m39 1100r34 1100m39 1107r34 1107m39 1114r34
+. 1114m39 1121r34 1121m39 1129r34 1129m39 1137r34 1137m39 1145r34 1145m39
+. 1153r34 1153m39 1161r34 1161m39 1169r34 1169m39 1177r34 1177m39 1186r34
+. 1186m39 1195r34 1195m39 1204r34 1204m39 1213r34 1213m39 1222r34 1222m39
+. 1232r34 1232m39 1242r34 1242m39 1252r34 1252m39 1263r34 1263m39 1267r38
+770f29 f8{21|13F8} 820m61 826r34 826m39 832r34 832m39 838r34 838m39 844r34
+. 844m39 850r34 850m39 856r34 856m39 862r34 862m39 868r34 868m39 872r34 872m39
+. 876r34 876m39 880r34 880m39 884r34 884m39 888r34 888m39 892r34 892m39 896r34
+. 896m39 900r34 900m39 904r34 904m39 908r34 908m39 912r34 912m39 916r34 916m39
+. 920r34 920m39 924r34 924m39 928r34 928m39 933r34 933m39 938r34 938m39 943r34
+. 943m39 948r34 948m39 953r34 953m39 958r34 958m39 963r34 963m39 968r34 968m39
+. 973r34 973m39 978r34 978m39 983r34 983m39 988r34 988m39 993r34 993m39 999r34
+. 999m39 1005r34 1005m39 1011r34 1011m39 1017r34 1017m39 1023r34 1023m39
+. 1029r34 1029m39 1035r34 1035m39 1041r34 1041m39 1047r34 1047m39 1053r34
+. 1053m39 1059r34 1059m39 1066r34 1066m39 1073r34 1073m39 1080r34 1080m39
+. 1087r34 1087m39 1094r34 1094m39 1101r34 1101m39 1108r34 1108m39 1115r34
+. 1115m39 1122r34 1122m39 1130r34 1130m39 1138r34 1138m39 1146r34 1146m39
+. 1154r34 1154m39 1162r34 1162m39 1170r34 1170m39 1178r34 1178m39 1187r34
+. 1187m39 1196r34 1196m39 1205r34 1205m39 1214r34 1214m39 1223r34 1223m39
+. 1233r34 1233m39 1243r34 1243m39 1253r34 1253m39 1264r34 1264m39 1267r41
+770f32 f9{21|13F8} 782m61 786r34 786m39 790r34 790m39 794r34 794m39 798r34
+. 798m39 802r34 802m39 806r34 806m39 810r34 810m39 814r34 814m39 818r34 818m39
+. 821r34 821m39 824r34 824m39 827r34 827m39 830r34 830m39 833r34 833m39 836r34
+. 836m39 839r34 839m39 842r34 842m39 845r34 845m39 848r34 848m39 851r34 851m39
+. 854r34 854m39 857r34 857m39 860r34 860m39 863r34 863m39 866r34 866m39 869r34
+. 869m39 873r34 873m39 877r34 877m39 881r34 881m39 885r34 885m39 889r34 889m39
+. 893r34 893m39 897r34 897m39 901r34 901m39 905r34 905m39 909r34 909m39 913r34
+. 913m39 917r34 917m39 921r34 921m39 925r34 925m39 929r34 929m39 934r34 934m39
+. 939r34 939m39 944r34 944m39 949r34 949m39 954r34 954m39 959r34 959m39 964r34
+. 964m39 969r34 969m39 974r34 974m39 979r34 979m39 984r34 984m39 989r34 989m39
+. 994r34 994m39 1000r34 1000m39 1006r34 1006m39 1012r34 1012m39 1018r34 1018m39
+. 1024r34 1024m39 1030r34 1030m39 1036r34 1036m39 1042r34 1042m39 1048r34
+. 1048m39 1054r34 1054m39 1060r34 1060m39 1067r34 1067m39 1074r34 1074m39
+. 1081r34 1081m39 1088r34 1088m39 1095r34 1095m39 1102r34 1102m39 1109r34
+. 1109m39 1116r34 1116m39 1123r34 1123m39 1131r34 1131m39 1139r34 1139m39
+. 1147r34 1147m39 1155r34 1155m39 1163r34 1163m39 1171r34 1171m39 1179r34
+. 1179m39 1188r34 1188m39 1197r34 1197m39 1206r34 1206m39 1215r34 1215m39
+. 1224r34 1224m39 1234r34 1234m39 1244r34 1244m39 1254r34 1254m39 1265r34
+. 1265m39 1267r44
+770f35 f10{21|13F8} 773m5 774m5 774r12 775m5 775r12 776m5 776r12 777m5 777r12
+. 778m5 778r12 779m5 779r12 780m5 780r12 781m5 781r12 783m5 783r12 785m5
+. 785r12 787m5 787r12 789m5 789r12 791m5 791r12 793m5 793r12 795m5 795r12
+. 797m5 797r12 799m5 799r12 801m5 801r12 803m5 803r12 805m5 805r12 807m5
+. 807r12 809m5 809r12 811m5 811r12 813m5 813r12 815m5 815r12 817m5 817r12
+. 819m5 819r12 822m5 822r12 825m5 825r12 828m5 828r12 831m5 831r12 834m5
+. 834r12 837m5 837r12 840m5 840r12 843m5 843r12 846m5 846r12 849m5 849r12
+. 852m5 852r12 855m5 855r12 858m5 858r12 861m5 861r12 864m5 864r12 867m5
+. 867r12 870m5 870r12 874m5 874r12 878m5 878r12 882m5 882r12 886m5 886r12
+. 890m5 890r12 894m5 894r12 898m5 898r12 902m5 902r12 906m5 906r12 910m5
+. 910r12 914m5 914r12 918m5 918r12 922m5 922r12 926m5 926r12 930m5 930r12
+. 935m5 935r12 940m5 940r12 945m5 945r12 950m5 950r12 955m5 955r12 960m5
+. 960r12 965m5 965r12 970m5 970r12 975m5 975r12 980m5 980r12 985m5 985r12
+. 990m5 990r12 995m5 995r12 1001m5 1001r12 1007m5 1007r12 1013m5 1013r12
+. 1019m5 1019r12 1025m5 1025r12 1031m5 1031r12 1037m5 1037r12 1043m5 1043r12
+. 1049m5 1049r12 1055m5 1055r12 1061m5 1061r12 1068m5 1068r12 1075m5 1075r12
+. 1082m5 1082r12 1089m5 1089r12 1096m5 1096r12 1103m5 1103r12 1110m5 1110r12
+. 1117m5 1117r12 1124m5 1124r12 1132m5 1132r12 1140m5 1140r12 1148m5 1148r12
+. 1156m5 1156r12 1164m5 1164r12 1172m5 1172r12 1180m5 1180r12 1189m5 1189r12
+. 1198m5 1198r12 1207m5 1207r12 1216m5 1216r12 1225m5 1225r12 1235m5 1235r12
+. 1245m5 1245r12 1255m5 1255r12 1266m5 1266r12 1267r47
+770f39 p{21|13F8} 784m61 786r37 788m64 790r37 792m61 794r37 796m61 798r37
+. 800m61 802r37 804m61 806r37 808m64 810r37 812m61 814r37 816m61 818r37 823m63
+. 826r37 829m63 832r37 835m61 838r37 841m61 844r37 847m61 850r37 853m63 856r37
+. 859m63 862r37 865m61 868r37 875m62 879r37 883m63 887r37 891m61 895r37 899m61
+. 903r37 907m63 911r37 915m62 919r37 923m63 927r37 936m62 941r37 946m63 951r37
+. 956m61 961r37 966m63 971r37 976m62 981r37 986m62 991r37 1002m62 1008r37
+. 1014m63 1020r37 1026m63 1032r37 1038m62 1044r37 1050m62 1056r37 1069m62
+. 1076r37 1083m65 1090r37 1097m62 1104r37 1111m62 1118r37 1133m64 1141r37
+. 1149m64 1157r37 1165m62 1173r37 1190m63 1199r37 1208m64 1217r37 1236m63
+. 1246r37
+770f41 e{21|13F8} 782m64 783r18 784m63 785r18 786m42 787r18 788m66 789r18
+. 790m42 791r18 792m63 793r18 794m42 795r18 796m63 797r18 798m42 799r18 800m63
+. 801r18 802m42 803r18 804m63 805r18 806m42 807r18 808m66 809r18 810m42 811r18
+. 812m63 813r18 814m42 815r18 816m63 817r18 818m42 819r18 820m64 821r37 821m42
+. 822r18 823m65 824r37 824m42 825r18 826m42 827r37 827m42 828r18 829m65 830r37
+. 830m42 831r18 832m42 833r37 833m42 834r18 835m63 836r37 836m42 837r18 838m42
+. 839r37 839m42 840r18 841m63 842r37 842m42 843r18 844m42 845r37 845m42 846r18
+. 847m63 848r37 848m42 849r18 850m42 851r37 851m42 852r18 853m65 854r37 854m42
+. 855r18 856m42 857r37 857m42 858r18 859m65 860r37 860m42 861r18 862m42 863r37
+. 863m42 864r18 865m63 866r37 866m42 867r18 868m42 869r37 869m42 870r18 871m66
+. 872r37 872m42 873r37 873m42 874r18 875m64 876r37 876m42 877r37 877m42 878r18
+. 879m42 880r37 880m42 881r37 881m42 882r18 883m65 884r37 884m42 885r37 885m42
+. 886r18 887m42 888r37 888m42 889r37 889m42 890r18 891m63 892r37 892m42 893r37
+. 893m42 894r18 895m42 896r37 896m42 897r37 897m42 898r18 899m63 900r37 900m42
+. 901r37 901m42 902r18 903m42 904r37 904m42 905r37 905m42 906r18 907m65 908r37
+. 908m42 909r37 909m42 910r18 911m42 912r37 912m42 913r37 913m42 914r18 915m64
+. 916r37 916m42 917r37 917m42 918r18 919m42 920r37 920m42 921r37 921m42 922r18
+. 923m65 924r37 924m42 925r37 925m42 926r18 927m42 928r37 928m42 929r37 929m42
+. 930r18 931m65 932r37 932m42 933r37 933m42 934r37 934m42 935r18 936m64 937r37
+. 937m42 938r37 938m42 939r37 939m42 940r18 941m42 942r37 942m42 943r37 943m42
+. 944r37 944m42 945r18 946m65 947r37 947m42 948r37 948m42 949r37 949m42 950r18
+. 951m42 952r37 952m42 953r37 953m42 954r37 954m42 955r18 956m63 957r37 957m42
+. 958r37 958m42 959r37 959m42 960r18 961m42 962r37 962m42 963r37 963m42 964r37
+. 964m42 965r18 966m65 967r37 967m42 968r37 968m42 969r37 969m42 970r18 971m42
+. 972r37 972m42 973r37 973m42 974r37 974m42 975r18 976m64 977r37 977m42 978r37
+. 978m42 979r37 979m42 980r18 981m42 982r37 982m42 983r37 983m42 984r37 984m42
+. 985r18 986m64 987r37 987m42 988r37 988m42 989r37 989m42 990r18 991m42 992r37
+. 992m42 993r37 993m42 994r37 994m42 995r18 996m65 997r37 997m42 998r37 998m42
+. 999r37 999m42 1000r37 1000m42 1001r18 1002m64 1003r37 1003m42 1004r37 1004m42
+. 1005r37 1005m42 1006r37 1006m42 1007r18 1008m42 1009r37 1009m42 1010r37
+. 1010m42 1011r37 1011m42 1012r37 1012m42 1013r18 1014m65 1015r37 1015m42
+. 1016r37 1016m42 1017r37 1017m42 1018r37 1018m42 1019r18 1020m42 1021r37
+. 1021m42 1022r37 1022m42 1023r37 1023m42 1024r37 1024m42 1025r18 1026m65
+. 1027r37 1027m42 1028r37 1028m42 1029r37 1029m42 1030r37 1030m42 1031r18
+. 1032m42 1033r37 1033m42 1034r37 1034m42 1035r37 1035m42 1036r37 1036m42
+. 1037r18 1038m64 1039r37 1039m42 1040r37 1040m42 1041r37 1041m42 1042r37
+. 1042m42 1043r18 1044m42 1045r37 1045m42 1046r37 1046m42 1047r37 1047m42
+. 1048r37 1048m42 1049r18 1050m64 1051r37 1051m42 1052r37 1052m42 1053r37
+. 1053m42 1054r37 1054m42 1055r18 1056m42 1057r37 1057m42 1058r37 1058m42
+. 1059r37 1059m42 1060r37 1060m42 1061r18 1062m65 1063r37 1063m42 1064r37
+. 1064m42 1065r37 1065m42 1066r37 1066m42 1067r37 1067m42 1068r18 1069m64
+. 1070r37 1070m42 1071r37 1071m42 1072r37 1072m42 1073r37 1073m42 1074r37
+. 1074m42 1075r18 1076m42 1077r37 1077m42 1078r37 1078m42 1079r37 1079m42
+. 1080r37 1080m42 1081r37 1081m42 1082r18 1083m67 1084r37 1084m42 1085r37
+. 1085m42 1086r37 1086m42 1087r37 1087m42 1088r37 1088m42 1089r18 1090m42
+. 1091r37 1091m42 1092r37 1092m42 1093r37 1093m42 1094r37 1094m42 1095r37
+. 1095m42 1096r18 1097m64 1098r37 1098m42 1099r37 1099m42 1100r37 1100m42
+. 1101r37 1101m42 1102r37 1102m42 1103r18 1104m42 1105r37 1105m42 1106r37
+. 1106m42 1107r37 1107m42 1108r37 1108m42 1109r37 1109m42 1110r18 1111m64
+. 1112r37 1112m42 1113r37 1113m42 1114r37 1114m42 1115r37 1115m42 1116r37
+. 1116m42 1117r18 1118m42 1119r37 1119m42 1120r37 1120m42 1121r37 1121m42
+. 1122r37 1122m42 1123r37 1123m42 1124r18 1125m65 1126r37 1126m42 1127r37
+. 1127m42 1128r37 1128m42 1129r37 1129m42 1130r37 1130m42 1131r37 1131m42
+. 1132r18 1133m66 1134r37 1134m42 1135r37 1135m42 1136r37 1136m42 1137r37
+. 1137m42 1138r37 1138m42 1139r37 1139m42 1140r18 1141m42 1142r37 1142m42
+. 1143r37 1143m42 1144r37 1144m42 1145r37 1145m42 1146r37 1146m42 1147r37
+. 1147m42 1148r18 1149m66 1150r37 1150m42 1151r37 1151m42 1152r37 1152m42
+. 1153r37 1153m42 1154r37 1154m42 1155r37 1155m42 1156r18 1157m42 1158r37
+. 1158m42 1159r37 1159m42 1160r37 1160m42 1161r37 1161m42 1162r37 1162m42
+. 1163r37 1163m42 1164r18 1165m64 1166r37 1166m42 1167r37 1167m42 1168r37
+. 1168m42 1169r37 1169m42 1170r37 1170m42 1171r37 1171m42 1172r18 1173m42
+. 1174r37 1174m42 1175r37 1175m42 1176r37 1176m42 1177r37 1177m42 1178r37
+. 1178m42 1179r37 1179m42 1180r18 1181m67 1182r37 1182m42 1183r37 1183m42
+. 1184r37 1184m42 1185r37 1185m42 1186r37 1186m42 1187r37 1187m42 1188r37
+. 1188m42 1189r18 1190m65 1191r37 1191m42 1192r37 1192m42 1193r37 1193m42
+. 1194r37 1194m42 1195r37 1195m42 1196r37 1196m42 1197r37 1197m42 1198r18
+. 1199m42 1200r37 1200m42 1201r37 1201m42 1202r37 1202m42 1203r37 1203m42
+. 1204r37 1204m42 1205r37 1205m42 1206r37 1206m42 1207r18 1208m66 1209r37
+. 1209m42 1210r37 1210m42 1211r37 1211m42 1212r37 1212m42 1213r37 1213m42
+. 1214r37 1214m42 1215r37 1215m42 1216r18 1217m42 1218r37 1218m42 1219r37
+. 1219m42 1220r37 1220m42 1221r37 1221m42 1222r37 1222m42 1223r37 1223m42
+. 1224r37 1224m42 1225r18 1226m66 1227r37 1227m42 1228r37 1228m42 1229r37
+. 1229m42 1230r37 1230m42 1231r37 1231m42 1232r37 1232m42 1233r37 1233m42
+. 1234r37 1234m42 1235r18 1236m65 1237r37 1237m42 1238r37 1238m42 1239r37
+. 1239m42 1240r37 1240m42 1241r37 1241m42 1242r37 1242m42 1243r37 1243m42
+. 1244r37 1244m42 1245r18 1246m42 1247r37 1247m42 1248r37 1248m42 1249r37
+. 1249m42 1250r37 1250m42 1251r37 1251m42 1252r37 1252m42 1253r37 1253m42
+. 1254r37 1254m42 1255r18 1256m66 1257r37 1257m42 1258r37 1258m42 1259r37
+. 1259m42 1260r37 1260m42 1261r37 1261m42 1262r37 1262m42 1263r37 1263m42
+. 1264r37 1264m42 1265r37 1265m42 1266r18
+1279r5 res{11|24R8} 1350m17 1350r17 1350m33 1350r33 1350m49 1350r49 1351m17
+. 1351r17 1351m32 1351r32 1352m17 1352r17 1352m32 1352r32 1352m47 1352r47
+. 1353m17 1353r17 1353m31 1353r31 1354r12
+1280f5 f0{21|13F8} 1338m51 1349r17
+1280f8 f1{21|13F8} 1328m51 1339r34 1339m39 1349r20
+1280f11 f2{21|13F8} 1319m52 1329r34 1329m39 1340r34 1340m39 1349r23
+1280f14 f3{21|13F8} 1311m50 1320r34 1320m39 1330r34 1330m39 1341r34 1341m39
+. 1349r26
+1280f17 f4{21|13F8} 1304m50 1312r34 1312m39 1321r34 1321m39 1331r34 1331m39
+. 1342r34 1342m39 1349r29
+1280f20 f5{21|13F8} 1298m50 1305r34 1305m39 1313r34 1313m39 1322r34 1322m39
+. 1332r34 1332m39 1343r34 1343m39 1349r32
+1280f23 f6{21|13F8} 1293m50 1299r34 1299m39 1306r34 1306m39 1314r34 1314m39
+. 1323r34 1323m39 1333r34 1333m39 1344r34 1344m39 1349r35
+1280f26 f7{21|13F8} 1289m51 1294r34 1294m39 1300r34 1300m39 1307r34 1307m39
+. 1315r34 1315m39 1324r34 1324m39 1334r34 1334m39 1345r34 1345m39 1349r38
+1280f29 f8{21|13F8} 1286m49 1290r34 1290m39 1295r34 1295m39 1301r34 1301m39
+. 1308r34 1308m39 1316r34 1316m39 1325r34 1325m39 1335r34 1335m39 1346r34
+. 1346m39 1349r41
+1280f32 f9{21|13F8} 1284m49 1287r34 1287m39 1291r34 1291m39 1296r34 1296m39
+. 1302r34 1302m39 1309r34 1309m39 1317r34 1317m39 1326r34 1326m39 1336r34
+. 1336m39 1347r34 1347m39 1349r44
+1280f35 f10{21|13F8} 1283m5 1285m5 1285r12 1288m5 1288r12 1292m5 1292r12
+. 1297m5 1297r12 1303m5 1303r12 1310m5 1310r12 1318m5 1318r12 1327m5 1327r12
+. 1337m5 1337r12 1348m5 1348r12 1349r47
+1280f39 e{21|13F8} 1284m52 1285r18 1286m52 1287r37 1287m42 1288r18 1289m54
+. 1290r37 1290m42 1291r37 1291m42 1292r18 1293m53 1294r37 1294m42 1295r37
+. 1295m42 1296r37 1296m42 1297r18 1298m53 1299r37 1299m42 1300r37 1300m42
+. 1301r37 1301m42 1302r37 1302m42 1303r18 1304m53 1305r37 1305m42 1306r37
+. 1306m42 1307r37 1307m42 1308r37 1308m42 1309r37 1309m42 1310r18 1311m53
+. 1312r37 1312m42 1313r37 1313m42 1314r37 1314m42 1315r37 1315m42 1316r37
+. 1316m42 1317r37 1317m42 1318r18 1319m55 1320r37 1320m42 1321r37 1321m42
+. 1322r37 1322m42 1323r37 1323m42 1324r37 1324m42 1325r37 1325m42 1326r37
+. 1326m42 1327r18 1328m54 1329r37 1329m42 1330r37 1330m42 1331r37 1331m42
+. 1332r37 1332m42 1333r37 1333m42 1334r37 1334m42 1335r37 1335m42 1336r37
+. 1336m42 1337r18 1338m54 1339r37 1339m42 1340r37 1340m42 1341r37 1341m42
+. 1342r37 1342m42 1343r37 1343m42 1344r37 1344m42 1345r37 1345m42 1346r37
+. 1346m42 1347r37 1347m42 1348r18
+1359r5 res{11|24R8} 1362r12
+1368r5 res{11|24R8} 1371m5 1372m5 1373m5 1374m5 1375m5 1376m5 1377m5 1378m5
+. 1379m5 1380m5 1381r12
+1400r5 res{11|24R8} 1404m55 1405r11 1405m55 1405r62 1406r11 1406m55 1406r62
+. 1407r11 1407m55 1407r62 1408r11 1408m55 1408r62 1409r11 1409m55 1409r62
+. 1410r11 1410m55 1410r62 1411r11 1411m55 1411r62 1412r11 1412m55 1412r62
+. 1413r11 1413m55 1413r62 1414r12 1416m17 1416r17 1416m33 1416r33 1416m49
+. 1416r49 1417m17 1417r17 1417m32 1417r32 1418m17 1418r17 1418m32 1418r32
+. 1418m47 1418r47 1419m17 1419r17 1419m31 1419r31 1420r12
+1400r9 acc{11|24R8} 1404m42 1404r66 1405m42 1405r68 1406m42 1406r68 1407m42
+. 1407r68 1408m42 1408r68 1409m42 1409r68 1410m42 1410r68 1411m42 1411r68
+. 1412m42 1412r68 1413m42 1413r68
+1401f5 q0{21|13F8} 1404m5 1404r49 1415r17
+1401f8 q1{21|13F8} 1405m5 1405r49 1415r20
+1401f11 q2{21|13F8} 1406m5 1406r49 1415r23
+1401f14 q3{21|13F8} 1407m5 1407r49 1415r26
+1401f17 q4{21|13F8} 1408m5 1408r49 1415r29
+1401f20 q5{21|13F8} 1409m5 1409r49 1415r32
+1401f23 q6{21|13F8} 1410m5 1410r49 1415r35
+1401f26 q7{21|13F8} 1411m5 1411r49 1415r38
+1401f29 q8{21|13F8} 1412m5 1412r49 1415r41
+1401f32 q9{21|13F8} 1413m5 1413r49 1415r44
+1401f35 q10{21|13F8} 1414m5 1415r47
+1425r5 ddy{11|24R8} 1426r37
+1426r5 res{11|24R8} 1429r12
+1434r5 ddx{11|24R8} 1435r35
+1435r5 res{11|24R8} 1438r12
+1448r5 res{11|24R8} 1453m7 1453m31 1454m7 1454m32 1454m55 1455m7 1455m30
+. 1456m7 1456m31 1456m53 1462m7 1462m41 1463m7 1463m43 1464m7 1465m7 1465m39
+. 1466m7 1466m41 1467m7 1475r28 1479m17 1479r24 1479r28 1483r28 1484r28 1485r29
+. 1486r27 1487r27 1488r27 1489r27 1490r28 1491r26 1492r26 1495m9 1497m9 1498m9
+. 1499m9 1500m9 1501m9 1502m9 1503m9 1504m9 1505m9 1506m9 1509r12
+1448r9 acc{11|24R8} 1468m7 1468m31 1469m7 1469m32 1469m55 1470m7 1470m30
+. 1471m7 1471m31 1471m53 1475m17 1475r24 1483m9 1484m9 1485m9 1486m9 1487m9
+. 1488m9 1489m9 1490m9 1491m9 1492m9 1495r20 1497r28 1498r28 1499r29 1500r27
+. 1501r27 1502r27 1503r27 1504r28 1505r26 1506r26
+1449i5 absn{natural} 1459m13 1460m13 1472r10 1473r15 1474r14 1477m11 1477r19
+. 1478r14
+1514r5 res{11|24R8} 1519m5 1520m5 1521m5 1522m5 1523m5 1524m5 1525m5 1526m5
+. 1527m5 1528m5 1529r12
+1515V14*C_ldexp{21|13F8} 1515>24 1515>42 1516b<c,ldexp>21 1519s24 1520s24
+. 1521s25 1522s23 1523s23 1524s23 1525s23 1526s24 1527s22 1528s22
+1515f24 x{21|13F8}
+1515i42 n{integer}
+1539r5 da_y{11|24R8} 1542r15
+1554V14*C_ldexp{21|13F8} 1554>24 1554>42 1555b<c,ldexp>21 1558s34
+1554f24 x{21|13F8}
+1554i42 n{integer}
+1557r5 res{11|24R8} 1592m7 1594m7 1596m7 1598m7 1675m7 1676r12 1676r16 1677r12
+. 1680r16 1692m7 1694m7 1694r20 1696r12
+1558f5 k{21|13F8} 1559r42
+1559f5 inv_k{21|13F8} 1583r36 1675r34
+1560f5 e0{21|13F8} 1570r43
+1561f5 e1{21|13F8} 1570r46
+1562f5 e2{21|13F8} 1570r49
+1563f5 e3{21|13F8} 1570r52
+1564f5 e4{21|13F8} 1570r55
+1565f5 e5{21|13F8} 1570r58
+1566f5 e6{21|13F8} 1570r61
+1567f5 e7{21|13F8} 1570r64
+1568f5 e8{21|13F8} 1570r67
+1569f5 e9{21|13F8} 1570r70
+1570r5 exp1{11|24R8} 1598r14
+1571f5 L0{21|13F8} 1581r43 1584r67
+1572f5 L1{21|13F8} 1581r46
+1573f5 L2{21|13F8} 1581r49
+1574f5 L3{21|13F8} 1581r52
+1575f5 L4{21|13F8} 1581r55
+1576f5 L5{21|13F8} 1581r58
+1577f5 L6{21|13F8} 1581r61
+1578f5 L7{21|13F8} 1581r64
+1579f5 L8{21|13F8} 1581r67
+1580f5 L9{21|13F8} 1581r70
+1581r5 log2{11|24R8} 1675r29
+1582f5 da_eps{21|13F8} 1583r42
+1583f5 tol{21|13F8} 1683r41
+1584f5 m{21|13F8} 1675r27 1693r22
+1585a5 i_fac(11|24R8) 1600m7 1605m7 1610m7 1615m7 1620m7 1625m7 1630m7 1635m7
+. 1640m7 1645m7 1650m7 1655m7 1660m7 1665m7 1670m7 1681r14
+1587r5 p{11|24R8} 1676m7 1677r27 1680m9 1680r14 1681r25 1688m9 1690r14
+1587r7 s{11|24R8} 1677m7 1682m9 1682r14 1688r23 1689r14 1689r16 1690m9 1692r14
+1587r9 t{11|24R8} 1681m9 1682r18 1683r23 1689m9 1690r18
+1588i5 cnt{integer} 1678m7 1681r20 1684m9 1684r16 1685r20 1693m7 1694r24
+1687i11 i{integer}
+1712r5 res{11|24R8} 1716m7 1719m7 1721m7 1723r23 1724m9 1724r16 1725m9 1725r16
+. 1728r12
+1712r9 acc{11|24R8} 1723m9 1724r22
+1722i11 i{integer}
+1733r5 res{11|24R8} 1749m5 1750r12
+1734f5 log10_0{21|13F8} 1745r22
+1735f5 log10_1{21|13F8} 1745r30
+1736f5 log10_2{21|13F8} 1745r38
+1737f5 log10_3{21|13F8} 1745r46
+1738f5 log10_4{21|13F8} 1745r54
+1739f5 log10_5{21|13F8} 1746r22
+1740f5 log10_6{21|13F8} 1746r30
+1741f5 log10_7{21|13F8} 1746r38
+1742f5 log10_8{21|13F8} 1746r46
+1743f5 log10_9{21|13F8} 1746r54
+1744r5 logten{11|24R8} 1749r19
+X 13 double_double_basics.ads
+3K9*Double_Double_Basics 12|3w6 605r5 607r5 608r5 610r5 611r5 612r5 614r5
+. 615r5 616r5 617r5 619r5 620r5 621r5 622r5 623r5 625r5 626r5 627r5 628r5
+. 629r5 630r5 632r5 633r5 634r5 635r5 636r5 637r5 638r5 640r5 641r5 642r5
+. 643r5 644r5 645r5 646r5 647r5 649r5 650r5 651r5 652r5 653r5 654r5 655r5
+. 656r5 657r5 659r5 660r5 661r5 662r5 663r5 664r5 665r5 666r5 667r5 668r5
+. 782r5 784r5 786r5 788r5 790r5 792r5 794r5 796r5 798r5 800r5 802r5 804r5
+. 806r5 808r5 810r5 812r5 814r5 816r5 818r5 820r5 821r5 823r5 824r5 826r5
+. 827r5 829r5 830r5 832r5 833r5 835r5 836r5 838r5 839r5 841r5 842r5 844r5
+. 845r5 847r5 848r5 850r5 851r5 853r5 854r5 856r5 857r5 859r5 860r5 862r5
+. 863r5 865r5 866r5 868r5 869r5 871r5 872r5 873r5 875r5 876r5 877r5 879r5
+. 880r5 881r5 883r5 884r5 885r5 887r5 888r5 889r5 891r5 892r5 893r5 895r5
+. 896r5 897r5 899r5 900r5 901r5 903r5 904r5 905r5 907r5 908r5 909r5 911r5
+. 912r5 913r5 915r5 916r5 917r5 919r5 920r5 921r5 923r5 924r5 925r5 927r5
+. 928r5 929r5 931r5 932r5 933r5 934r5 936r5 937r5 938r5 939r5 941r5 942r5
+. 943r5 944r5 946r5 947r5 948r5 949r5 951r5 952r5 953r5 954r5 956r5 957r5
+. 958r5 959r5 961r5 962r5 963r5 964r5 966r5 967r5 968r5 969r5 971r5 972r5
+. 973r5 974r5 976r5 977r5 978r5 979r5 981r5 982r5 983r5 984r5 986r5 987r5
+. 988r5 989r5 991r5 992r5 993r5 994r5 996r5 997r5 998r5 999r5 1000r5 1002r5
+. 1003r5 1004r5 1005r5 1006r5 1008r5 1009r5 1010r5 1011r5 1012r5 1014r5 1015r5
+. 1016r5 1017r5 1018r5 1020r5 1021r5 1022r5 1023r5 1024r5 1026r5 1027r5 1028r5
+. 1029r5 1030r5 1032r5 1033r5 1034r5 1035r5 1036r5 1038r5 1039r5 1040r5 1041r5
+. 1042r5 1044r5 1045r5 1046r5 1047r5 1048r5 1050r5 1051r5 1052r5 1053r5 1054r5
+. 1056r5 1057r5 1058r5 1059r5 1060r5 1062r5 1063r5 1064r5 1065r5 1066r5 1067r5
+. 1069r5 1070r5 1071r5 1072r5 1073r5 1074r5 1076r5 1077r5 1078r5 1079r5 1080r5
+. 1081r5 1083r5 1084r5 1085r5 1086r5 1087r5 1088r5 1090r5 1091r5 1092r5 1093r5
+. 1094r5 1095r5 1097r5 1098r5 1099r5 1100r5 1101r5 1102r5 1104r5 1105r5 1106r5
+. 1107r5 1108r5 1109r5 1111r5 1112r5 1113r5 1114r5 1115r5 1116r5 1118r5 1119r5
+. 1120r5 1121r5 1122r5 1123r5 1125r5 1126r5 1127r5 1128r5 1129r5 1130r5 1131r5
+. 1133r5 1134r5 1135r5 1136r5 1137r5 1138r5 1139r5 1141r5 1142r5 1143r5 1144r5
+. 1145r5 1146r5 1147r5 1149r5 1150r5 1151r5 1152r5 1153r5 1154r5 1155r5 1157r5
+. 1158r5 1159r5 1160r5 1161r5 1162r5 1163r5 1165r5 1166r5 1167r5 1168r5 1169r5
+. 1170r5 1171r5 1173r5 1174r5 1175r5 1176r5 1177r5 1178r5 1179r5 1181r5 1182r5
+. 1183r5 1184r5 1185r5 1186r5 1187r5 1188r5 1190r5 1191r5 1192r5 1193r5 1194r5
+. 1195r5 1196r5 1197r5 1199r5 1200r5 1201r5 1202r5 1203r5 1204r5 1205r5 1206r5
+. 1208r5 1209r5 1210r5 1211r5 1212r5 1213r5 1214r5 1215r5 1217r5 1218r5 1219r5
+. 1220r5 1221r5 1222r5 1223r5 1224r5 1226r5 1227r5 1228r5 1229r5 1230r5 1231r5
+. 1232r5 1233r5 1234r5 1236r5 1237r5 1238r5 1239r5 1240r5 1241r5 1242r5 1243r5
+. 1244r5 1246r5 1247r5 1248r5 1249r5 1250r5 1251r5 1252r5 1253r5 1254r5 1256r5
+. 1257r5 1258r5 1259r5 1260r5 1261r5 1262r5 1263r5 1264r5 1265r5 1284r5 1286r5
+. 1287r5 1289r5 1290r5 1291r5 1293r5 1294r5 1295r5 1296r5 1298r5 1299r5 1300r5
+. 1301r5 1302r5 1304r5 1305r5 1306r5 1307r5 1308r5 1309r5 1311r5 1312r5 1313r5
+. 1314r5 1315r5 1316r5 1317r5 1319r5 1320r5 1321r5 1322r5 1323r5 1324r5 1325r5
+. 1326r5 1328r5 1329r5 1330r5 1331r5 1332r5 1333r5 1334r5 1335r5 1336r5 1338r5
+. 1339r5 1340r5 1341r5 1342r5 1343r5 1344r5 1345r5 1346r5 1347r5 13|99e25
+36U13*two_sum 12|605s26 607s26 608s26 610s26 611s26 612s26 614s26 615s26
+. 616s26 617s26 619s26 620s26 621s26 622s26 623s26 625s26 626s26 627s26 628s26
+. 629s26 630s26 632s26 633s26 634s26 635s26 636s26 637s26 638s26 640s26 641s26
+. 642s26 643s26 644s26 645s26 646s26 647s26 649s26 650s26 651s26 652s26 653s26
+. 654s26 655s26 656s26 657s26 659s26 660s26 661s26 662s26 663s26 664s26 665s26
+. 666s26 667s26 668s26 786s26 790s26 794s26 798s26 802s26 806s26 810s26 814s26
+. 818s26 821s26 824s26 826s26 827s26 830s26 832s26 833s26 836s26 838s26 839s26
+. 842s26 844s26 845s26 848s26 850s26 851s26 854s26 856s26 857s26 860s26 862s26
+. 863s26 866s26 868s26 869s26 872s26 873s26 876s26 877s26 879s26 880s26 881s26
+. 884s26 885s26 887s26 888s26 889s26 892s26 893s26 895s26 896s26 897s26 900s26
+. 901s26 903s26 904s26 905s26 908s26 909s26 911s26 912s26 913s26 916s26 917s26
+. 919s26 920s26 921s26 924s26 925s26 927s26 928s26 929s26 932s26 933s26 934s26
+. 937s26 938s26 939s26 941s26 942s26 943s26 944s26 947s26 948s26 949s26 951s26
+. 952s26 953s26 954s26 957s26 958s26 959s26 961s26 962s26 963s26 964s26 967s26
+. 968s26 969s26 971s26 972s26 973s26 974s26 977s26 978s26 979s26 981s26 982s26
+. 983s26 984s26 987s26 988s26 989s26 991s26 992s26 993s26 994s26 997s26 998s26
+. 999s26 1000s26 1003s26 1004s26 1005s26 1006s26 1008s26 1009s26 1010s26
+. 1011s26 1012s26 1015s26 1016s26 1017s26 1018s26 1020s26 1021s26 1022s26
+. 1023s26 1024s26 1027s26 1028s26 1029s26 1030s26 1032s26 1033s26 1034s26
+. 1035s26 1036s26 1039s26 1040s26 1041s26 1042s26 1044s26 1045s26 1046s26
+. 1047s26 1048s26 1051s26 1052s26 1053s26 1054s26 1056s26 1057s26 1058s26
+. 1059s26 1060s26 1063s26 1064s26 1065s26 1066s26 1067s26 1070s26 1071s26
+. 1072s26 1073s26 1074s26 1076s26 1077s26 1078s26 1079s26 1080s26 1081s26
+. 1084s26 1085s26 1086s26 1087s26 1088s26 1090s26 1091s26 1092s26 1093s26
+. 1094s26 1095s26 1098s26 1099s26 1100s26 1101s26 1102s26 1104s26 1105s26
+. 1106s26 1107s26 1108s26 1109s26 1112s26 1113s26 1114s26 1115s26 1116s26
+. 1118s26 1119s26 1120s26 1121s26 1122s26 1123s26 1126s26 1127s26 1128s26
+. 1129s26 1130s26 1131s26 1134s26 1135s26 1136s26 1137s26 1138s26 1139s26
+. 1141s26 1142s26 1143s26 1144s26 1145s26 1146s26 1147s26 1150s26 1151s26
+. 1152s26 1153s26 1154s26 1155s26 1157s26 1158s26 1159s26 1160s26 1161s26
+. 1162s26 1163s26 1166s26 1167s26 1168s26 1169s26 1170s26 1171s26 1173s26
+. 1174s26 1175s26 1176s26 1177s26 1178s26 1179s26 1182s26 1183s26 1184s26
+. 1185s26 1186s26 1187s26 1188s26 1191s26 1192s26 1193s26 1194s26 1195s26
+. 1196s26 1197s26 1199s26 1200s26 1201s26 1202s26 1203s26 1204s26 1205s26
+. 1206s26 1209s26 1210s26 1211s26 1212s26 1213s26 1214s26 1215s26 1217s26
+. 1218s26 1219s26 1220s26 1221s26 1222s26 1223s26 1224s26 1227s26 1228s26
+. 1229s26 1230s26 1231s26 1232s26 1233s26 1234s26 1237s26 1238s26 1239s26
+. 1240s26 1241s26 1242s26 1243s26 1244s26 1246s26 1247s26 1248s26 1249s26
+. 1250s26 1251s26 1252s26 1253s26 1254s26 1257s26 1258s26 1259s26 1260s26
+. 1261s26 1262s26 1263s26 1264s26 1265s26 1287s26 1290s26 1291s26 1294s26
+. 1295s26 1296s26 1299s26 1300s26 1301s26 1302s26 1305s26 1306s26 1307s26
+. 1308s26 1309s26 1312s26 1313s26 1314s26 1315s26 1316s26 1317s26 1320s26
+. 1321s26 1322s26 1323s26 1324s26 1325s26 1326s26 1329s26 1330s26 1331s26
+. 1332s26 1333s26 1334s26 1335s26 1336s26 1339s26 1340s26 1341s26 1342s26
+. 1343s26 1344s26 1345s26 1346s26 1347s26
+72U13*two_prod 12|782s26 784s26 788s26 792s26 796s26 800s26 804s26 808s26
+. 812s26 816s26 820s26 823s26 829s26 835s26 841s26 847s26 853s26 859s26 865s26
+. 871s26 875s26 883s26 891s26 899s26 907s26 915s26 923s26 931s26 936s26 946s26
+. 956s26 966s26 976s26 986s26 996s26 1002s26 1014s26 1026s26 1038s26 1050s26
+. 1062s26 1069s26 1083s26 1097s26 1111s26 1125s26 1133s26 1149s26 1165s26
+. 1181s26 1190s26 1208s26 1226s26 1236s26 1256s26 1284s26 1286s26 1289s26
+. 1293s26 1298s26 1304s26 1311s26 1319s26 1328s26 1338s26
+X 14 double_double_numbers.ads
+5K9*Double_Double_Numbers 11|4w6 4r46 12|178r11 180r13 182r15 184r17 186r19
+. 188r21 190r23 192r25 194r27 196r29 14|172e26
+12R8*double_double 11|142r56 12|314r56 316r20 14|170e13
+40V12*Create{12R8} 12|316s37
+106V12*nint{21|13F8} 12|178s33 180s35 182s37 184s39 186s41 188s43 190s45
+. 192s47 194s49 196s51
+X 15 fast_double_renormalizations.ads
+3K9*Fast_Double_Renormalizations 12|4w6 4r46 15|488e33
+266U13*fast_renorm 12|162s5 242s5 670s5 1267s5 1349s5 1415s5
+301U13*renorm_add1 12|683s5
+X 18 octo_double_numbers.ads
+5K9*Octo_Double_Numbers 11|8w6 8r46 18|243e24
+19R8*octo_double 11|166r54 12|350r54 352r20 18|241e13
+47V12*create{19R8} 12|353s12
+X 19 penta_double_numbers.ads
+5K9*Penta_Double_Numbers 11|7w6 7r46 19|217e25
+19R8*penta_double 11|160r55 12|340r55 342r20 19|215e13
+47V12*create{19R8} 12|343s12
+X 20 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 11|6w6 6r46 20|255e24
+14R8*quad_double 11|154r54 12|331r54 333r20 20|253e13
+54V12*Create{14R8} 12|334s12
+X 21 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 11|3w6 3r46 21|58e30
+13F8*double_float<long_float> 11|47r25 52r60 53r45 54r57 55r43 80r51 85r51
+. 90r52 95r50 100r50 105r50 110r50 115r51 120r49 125r49 137r49 195r41 198r39
+. 199r22 201r40 202r23 205r39 206r22 208r40 209r23 216r39 217r22 222r39 223r22
+. 226r39 227r22 229r44 231r55 235r39 236r22 244r40 272r19 273r19 274r20 275r18
+. 276r18 277r18 278r18 279r19 280r17 281r17 12|12r42 20r42 28r42 36r42 44r42
+. 50r25 59r60 60r45 61r57 62r43 129r41 132r11 136r13 138r15 140r17 142r19
+. 144r21 146r23 148r25 150r27 152r29 173r41 252r51 257r51 262r52 267r50 272r50
+. 277r50 282r50 287r51 292r49 297r49 309r49 414r41 467r39 501r22 511r40 516r23
+. 526r39 560r22 570r40 575r23 601r43 678r39 694r22 747r39 749r20 756r22 770r45
+. 1275r39 1280r43 1357r22 1365r44 1384r55 1401r41 1423r39 1432r22 1515r28
+. 1515r63 1537r40 1554r28 1554r63 1558r18 1559r22 1560r19 1561r19 1562r19
+. 1563r19 1564r19 1565r19 1566r19 1567r19 1568r19 1569r19 1571r19 1572r19
+. 1573r19 1574r19 1575r19 1576r19 1577r19 1578r19 1579r19 1580r19 1582r23
+. 1583r20 1584r18 1584r34 1734r24 1735r24 1736r24 1737r24 1738r24 1739r24
+. 1740r24 1741r24 1742r24 1743r24
+X 22 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 11|2w6 2r46 22|45e29
+6I8*integer32<long_integer> 11|40r25 132r46 12|34r25 304r46 306r12
+7I8*integer64<long_long_integer> 11|41r25 12|42r25
+X 23 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 12|2w6 1721r21 23|64e36
+20V12*LN{21|13F8} 12|1721s53
+X 24 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 11|1w6 1r46 24|30e29
+7I8*natural32<long_integer> 11|33r25 12|18r25
+8I8*natural64<long_long_integer> 11|34r25 12|26r25
+X 41 text_io.ads
+27K9*Text_IO=27:29 12|1w6 1r46
+X 42 triple_double_numbers.ads
+5K9*Triple_Double_Numbers 11|5w6 5r46 42|199e26
+20R8*triple_double 11|148r56 12|322r56 324r20 42|197e13
+48V12*create{20R8} 12|325s12
+

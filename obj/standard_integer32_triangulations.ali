@@ -1,0 +1,473 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U standard_integer32_triangulations%b  standard_integer32_triangulations.adb  da209121 NE OO PK
+Z generic_lists%s	generic_lists.adb	generic_lists.ali  ED
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_integer32_triangulations%s  standard_integer32_triangulations.ads  f28ca94d EE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W standard_integer32_simplices%s  standard_integer32_simplices.adb  standard_integer32_simplices.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer32_simplices.ads  20260513024558 820106e8 standard_integer32_simplices%s
+D standard_integer32_triangulations.ads  20260513024558 aaed0a4a standard_integer32_triangulations%s
+D standard_integer32_triangulations.adb  20260513024558 1879129a standard_integer32_triangulations%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c s s s [s standard_integer32_triangulations 7 1 none]
+G c Z s s [create standard_integer32_triangulations__lists_of_simplices 21 12 15_3]
+G c Z s s [construct standard_integer32_triangulations__lists_of_simplices 26 13 15_3]
+G c Z s s [set_head standard_integer32_triangulations__lists_of_simplices 31 13 15_3]
+G c Z s s [swap_tail standard_integer32_triangulations__lists_of_simplices 38 13 15_3]
+G c Z s s [append standard_integer32_triangulations__lists_of_simplices 43 13 15_3]
+G c Z s s [concat standard_integer32_triangulations__lists_of_simplices 49 13 15_3]
+G c Z s s [copy standard_integer32_triangulations__lists_of_simplices 55 13 15_3]
+G c Z s s [is_equal standard_integer32_triangulations__lists_of_simplices 62 12 15_3]
+G c Z s s [length_of standard_integer32_triangulations__lists_of_simplices 67 12 15_3]
+G c Z s s [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G c Z s s [head_of standard_integer32_triangulations__lists_of_simplices 77 12 15_3]
+G c Z s s [tail_of standard_integer32_triangulations__lists_of_simplices 84 12 15_3]
+G c Z s s [clear standard_integer32_triangulations__lists_of_simplices 93 13 15_3]
+G c Z s s [nodeIP standard_integer32_triangulations__lists_of_simplices 5 8 15_3]
+G c Z s s [set_next standard_integer32_triangulations__lists_of_simplices 14 13 15_3]
+G c Z s s [next_of standard_integer32_triangulations__lists_of_simplices 19 12 15_3]
+G c Z s s [free standard_integer32_triangulations__lists_of_simplices 24 13 15_3]
+G c Z s s [new_item standard_integer32_triangulations__lists_of_simplices 37 12 15_3]
+G c Z s b [create standard_integer32_triangulations 23 12 none]
+G c Z s b [update standard_integer32_triangulations 28 13 none]
+G c Z s b [update standard_integer32_triangulations 29 13 none]
+G c Z s b [update_one standard_integer32_triangulations 36 13 none]
+G c Z s b [connect standard_integer32_triangulations 44 13 none]
+G c Z s b [flatten standard_integer32_triangulations 50 13 none]
+G c Z s b [is_vertex standard_integer32_triangulations 60 12 none]
+G c Z s b [vertices standard_integer32_triangulations 66 12 none]
+G c Z s b [vertices standard_integer32_triangulations 71 12 none]
+G c Z s b [is_in standard_integer32_triangulations 77 12 none]
+G c Z s b [is_in standard_integer32_triangulations 82 12 none]
+G c Z s b [is_in standard_integer32_triangulations 88 12 none]
+G c Z s b [volume standard_integer32_triangulations 93 12 none]
+G c Z s b [clear standard_integer32_triangulations 100 13 none]
+G c Z b b [matrix_of_triangulationsIP standard_integer32_triangulations 13 8 none]
+G c Z b b [hash_tableIP standard_integer32_triangulations 16 8 none]
+G c Z b b [init standard_integer32_triangulations 21 13 none]
+G c Z b b [hash_function standard_integer32_triangulations 43 13 none]
+G c Z b b [update standard_integer32_triangulations 57 13 none]
+G c Z b b [is_in standard_integer32_triangulations 69 12 none]
+G c Z b b [clear standard_integer32_triangulations 95 13 none]
+G c Z b b [is_inner standard_integer32_triangulations 122 12 none]
+G c Z b b [update standard_integer32_triangulations 132 13 none]
+G c Z b b [connect_and_update standard_integer32_triangulations 170 13 none]
+G c Z b b [collect_vertices standard_integer32_triangulations 224 13 none]
+G c Z b b [has_vertices_in_list standard_integer32_triangulations 245 12 none]
+G c Z b b [vertices standard_integer32_triangulations 454 12 none]
+G c Z b b [vertices standard_integer32_triangulations 480 12 none]
+G r i none [s standard_integer32_triangulations 7 1 none] [generic_lists standard 7 9 none]
+G r c none [update standard_integer32_triangulations 28 13 none] [neighbor standard_integer32_simplices 131 12 none]
+G r c none [update standard_integer32_triangulations 28 13 none] [position standard_integer32_simplices 139 12 none]
+G r c none [update standard_integer32_triangulations 28 13 none] [update standard_integer32_simplices 24 13 none]
+G r c none [update standard_integer32_triangulations 28 13 none] [connect standard_integer32_simplices 72 13 none]
+G r c none [update standard_integer32_triangulations 29 13 none] [neighbor standard_integer32_simplices 131 12 none]
+G r c none [update standard_integer32_triangulations 29 13 none] [position standard_integer32_simplices 139 12 none]
+G r c none [update standard_integer32_triangulations 29 13 none] [update standard_integer32_simplices 24 13 none]
+G r c none [update standard_integer32_triangulations 29 13 none] [connect standard_integer32_simplices 72 13 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [position standard_integer32_simplices 139 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [update_one standard_integer32_simplices 49 13 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [neighbor standard_integer32_simplices 131 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [update standard_integer32_simplices 24 13 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [random standard_random_numbers 31 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [vertex standard_integer32_simplices 109 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [equal standard_integer32_simplices 119 12 none]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r c none [update_one standard_integer32_triangulations 36 13 none] [connect standard_integer32_simplices 72 13 none]
+G r c none [connect standard_integer32_triangulations 44 13 none] [connect standard_integer32_simplices 72 13 none]
+G r c none [flatten standard_integer32_triangulations 50 13 none] [is_flat standard_integer32_simplices 97 12 none]
+G r c none [flatten standard_integer32_triangulations 50 13 none] [flatten standard_integer32_simplices 79 13 none]
+G r c none [is_vertex standard_integer32_triangulations 60 12 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r s vecvec [vertices standard_integer32_triangulations 66 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 66 12 none] [shallow_clear lists_of_integer_vectors 110 13 6_1]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r s vecvec [vertices standard_integer32_triangulations 71 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 71 12 none] [shallow_clear lists_of_integer_vectors 110 13 6_1]
+G r c none [is_in standard_integer32_triangulations 77 12 none] [is_in_all standard_integer32_simplices 149 12 none]
+G r c none [is_in standard_integer32_triangulations 82 12 none] [is_in_all standard_integer32_simplices 150 12 none]
+G r c none [is_in standard_integer32_triangulations 88 12 none] [equal standard_integer32_simplices 119 12 none]
+G r c none [volume standard_integer32_triangulations 93 12 none] [volume standard_integer32_simplices 191 12 none]
+G r c none [clear standard_integer32_triangulations 100 13 none] [clear standard_integer32_simplices 212 13 none]
+G r c none [init standard_integer32_triangulations 21 13 none] [random standard_random_numbers 31 12 none]
+G r c none [hash_function standard_integer32_triangulations 43 13 none] [vertex standard_integer32_simplices 109 12 none]
+G r c none [hash_function standard_integer32_triangulations 43 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [update standard_integer32_triangulations 57 13 none] [vertex standard_integer32_simplices 109 12 none]
+G r c none [update standard_integer32_triangulations 57 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [is_in standard_integer32_triangulations 69 12 none] [vertex standard_integer32_simplices 109 12 none]
+G r c none [is_in standard_integer32_triangulations 69 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [is_in standard_integer32_triangulations 69 12 none] [equal standard_integer32_simplices 119 12 none]
+G r c none [clear standard_integer32_triangulations 95 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [is_inner standard_integer32_triangulations 122 12 none] [neighbor standard_integer32_simplices 131 12 none]
+G r c none [update standard_integer32_triangulations 132 13 none] [position standard_integer32_simplices 139 12 none]
+G r c none [update standard_integer32_triangulations 132 13 none] [neighbor standard_integer32_simplices 131 12 none]
+G r c none [update standard_integer32_triangulations 132 13 none] [update standard_integer32_simplices 24 13 none]
+G r c none [connect_and_update standard_integer32_triangulations 170 13 none] [connect standard_integer32_simplices 72 13 none]
+G r c none [collect_vertices standard_integer32_triangulations 224 13 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [collect_vertices standard_integer32_triangulations 224 13 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [collect_vertices standard_integer32_triangulations 224 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [has_vertices_in_list standard_integer32_triangulations 245 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [has_vertices_in_list standard_integer32_triangulations 245 12 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [vertices standard_integer32_triangulations 454 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [vertices standard_integer32_triangulations 454 12 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [vertices standard_integer32_triangulations 454 12 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+G r c none [vertices standard_integer32_triangulations 480 12 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [vertices standard_integer32_triangulations 480 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [vertices standard_integer32_triangulations 480 12 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [vertices standard_integer32_triangulations 480 12 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+X 11 generic_lists.ads
+7k9*Generic_Lists 104e18 22|1w6 15r37
+12P8*List 22|16r48[15] 23|106r53[22|15] 221r49[22|15] 334r53[22|15] 341r51[22|15]
+. 367r49[22|15] 610r49[22|15]
+14p3*Null_List{12P8[22|15]} 22|19r58[15]
+26U13*Construct 23|66s5[22|15] 118s5[22|15] 142s11[22|15] 191s7[22|15] 239s11[13|21[18|6]]
+. 290s17[22|15] 314s19[22|15] 328s19[22|15] 348s5[22|15] 359s11[22|15]
+43U13*Append 23|471s17[13|21[18|6]] 498s22[13|21[18|6]]
+67V12*Length_Of{28|7I8} 23|512s31[13|21[18|6]] 529s31[13|21[18|6]]
+72V12*Is_Null{boolean} 23|182s15[22|15] 185s17[22|15] 203s15[22|15] 300s19[22|15]
+. 377s15[22|15] 380s17[22|15] 426s15[22|15] 445s15[22|15] 464s15[22|15] 487s15[22|15]
+. 573s15[22|15] 588s15[22|15] 602s15[22|15]
+77V12*Head_Of{21|14P8} 23|183s13[22|15] 186s15[22|15] 204s12[22|15] 264s20[22|15]
+. 301s17[22|15] 378s13[22|15] 381s15[22|15] 427s12[22|15] 446s20[22|15] 466s33[22|15]
+. 489s33[22|15] 517s17[13|21[18|6]] 534s17[13|21[18|6]] 559s22[22|15] 564s22[22|15]
+. 574s18[22|15] 589s27[22|15] 604s24[22|15]
+84V12*Tail_Of{12P8[22|15]} 23|184s15[22|15] 188s17[22|15] 190s15[22|15] 208s14[22|15]
+. 331s18[22|15] 379s15[22|15] 384s17[22|15] 387s15[22|15] 433s14[22|15] 449s14[22|15]
+. 475s14[22|15] 503s16[22|15] 518s14[13|21[18|6]] 535s14[13|21[18|6]] 576s20[22|15]
+. 590s14[22|15] 608s14[22|15]
+93U13*Clear 23|106s28[22|15] 221s24[22|15] 334s28[22|15] 341s26[22|15] 365s5[13|21[18|6]]
+. 367s24[22|15] 610s24[22|15]
+X 13 generic_lists_of_vectors.ads
+22P8*List<11|12P8[21[18|6]]> 23|225r46[18|6] 245r52[18|6] 269r23[18|6] 454r50[18|6]
+. 459r20[18|6] 480r62[18|6] 482r20[18|6] 511r14[18|6] 513r11[18|6] 528r14[18|6]
+. 530r11[18|6]
+52V12*Is_In{boolean} 23|235s14[18|6] 254s10[18|6]
+53V12*Is_In{boolean} 23|470s18[18|6] 497s23[18|6]
+110U13*Shallow_Clear 23|520s5[18|6] 537s5[18|6]
+X 14 generic_vectors.ads
+16A8*Vector(24|6I8)<24|6I8> 22|60r47[26|4] 71r46[26|4] 77r43[26|4] 82r43[26|4]
+. 23|28r23[26|4] 29r23[26|4] 135r20[26|4] 237r50[26|4] 268r11[26|4] 440r47[26|4]
+. 480r46[26|4] 526r46[26|4] 557r43[26|4] 562r43[26|4]
+17P8*Link_to_Vector(16A8[26|4]) 22|28r55[26|4] 29r55[26|4] 36r59[26|4] 23|17r23[26|4]
+. 133r29[26|4] 195r55[26|4] 214r55[26|4] 237r28[26|4] 262r50[26|4]
+42V13*"*"{24|6I8} 23|49s46[26|4] 50s46[26|4]
+72U13*Clear 23|102s5[26|4] 103s5[26|4]
+X 15 generic_vecvecs.ads
+14A8*VecVec(14|17P8[26|4])<24|6I8> 22|66r50[27|5] 71r62[27|5] 23|231r20[27|5]
+. 250r19[27|5] 467r22[27|5] 494r27[27|5] 509r50[27|5] 512r11[27|5] 526r62[27|5]
+. 529r11[27|5]
+X 18 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[13|12] 23|3w6 3r46
+X 21 standard_integer32_simplices.ads
+6K9*Standard_Integer32_Simplices 223e33 22|5w6 5r46
+14P8*Simplex 22|15r51 23r25 82r59 88r43 23|43r56 57r53 69r41 113r25 122r42
+. 132r59 179r13 199r9 225r26 245r39 264r9 265r16 278r18 287r26 374r13 419r9
+. 466r22 489r22 562r59 567r43 604r13
+15p3*Null_Simplex{14P8} 23|125r26 139r26 289r22 311r28 322r26 356r18
+24U13*Update 23|141s11 312s19 357s11
+49U13*Update_One 23|347s5
+72U13*Connect 23|187s9 382s9
+79U13*Flatten 23|430s7
+97V12*Is_Flat{boolean} 23|428s17
+104V12*Vertices{15|14A8[27|5]} 23|231s30 250s29 467s32 494s37
+109V12*Vertex{14|16A8[26|4]} 23|49s47 50s47
+114V12*Is_Vertex{boolean} 23|289s49 323s28 446s10 491s12
+119V12*Equal{boolean} 23|574s10
+131V12*Neighbor{14P8} 23|125s10 139s10 142s21 287s37 310s26 313s28 321s22
+. 355s16 358s18
+139V12*Position{14|16A8[26|4]} 23|135s41 306s20 346s12 351s18
+149V12*Is_In_All{boolean} 23|559s12
+150V12*Is_In_All{14P8} 23|564s12
+191V12*Volume{28|7I8} 23|589s20
+212U13*Clear 23|606s9
+X 22 standard_integer32_triangulations.ads
+7K9*Standard_Integer32_Triangulations 105l5 105e38 23|9b14 613l5 613t38
+15K11*Lists_of_Simplices[11|7] 16r29 19r39 23|106r9 106r34 221r5 221r30 334r9
+. 334r34 341r7 341r32 367r5 367r30 610r5 610r30
+16P8*Triangulation<11|12P8[15]> 18r33 19r25 23r42 28r33 29r33 30r33 36r37
+. 44r34 50r34 60r28 66r27 71r27 77r24 82r24 88r24 93r25 100r32 23|14r57 113r42
+. 115r11 132r33 171r30 171r57 177r12 178r12 195r33 196r33 198r11 200r11 214r33
+. 216r11 262r28 266r18 277r23 370r34 372r12 373r12 416r34 418r11 440r28 442r11
+. 454r27 460r11 480r27 483r11 509r27 526r27 557r24 562r24 567r24 569r11 582r25
+. 584r11 597r32 599r11
+18p3*Null_Triangulation{16P8} 23|38r25 298r22 333r32
+23V12*Create{16P8}<11|21p12> 23>21 23|113b12 120l7 120t13
+23p21 s{21|14P8} 23|113b21 118r15
+28U13*Update 28=22 28>48 23|214b13 222l7 222t13
+28p22 t{16P8} 23|214b22 219m12
+28p48 x{14|17P8[26|4]} 23|214b48 219r14
+29U13*Update 29=22 29>48 30<22 23|195b13 212l7 212t13 219s5
+29p22 t{16P8} 23|195b22 198r28 210m28
+29p48 x{14|17P8[26|4]} 23|195b48 205r23 206r26
+30p22 newt{16P8} 23|196b22 211m5
+36U13*Update_One 36=26 36>52 23|261b13 368l7 368t17
+36p26 t{16P8} 23|262b17 264r28 366m28
+36p52 x{14|17P8[26|4]} 23|262b43 267r25 268r21 283r17 283r25 285r16 289r63
+. 305r27 306r32 307r22 312r29 320r20 323r44 346r23 347r18 351r29 353r14 357r20
+44U13*Connect 44=23 23|370b13 389l7 389t14
+44p23 t{16P8} 23|370b23 372r29
+50U13*Flatten 50=23 23|416b13 436l7 436t14
+50p23 t{16P8} 23|416b23 418r28
+60V12*Is_Vertex{boolean} 60>24 60>43 23|440b12 452l7 452t16
+60p24 t{16P8} 23|440b24 442r28
+60a43 x{14|16A8[26|4]} 23|440b43 446r33
+66V12*Vertices{15|14A8[27|5]} 66>23 23|509b12 524l7 524t15
+66p23 t{16P8} 23|509b23 511r31
+71V12*Vertices{15|14A8[27|5]} 71>23 71>42 23|526b12 541l7 541t15
+71p23 t{16P8} 23|526b23 528r31
+71a42 x{14|16A8[26|4]} 23|526b42 528r33
+77V12*Is_In{boolean} 77>20 77>39 23|557b12 560l7 560t12
+77p20 t{16P8} 23|557b20 559r30
+77a39 x{14|16A8[26|4]} 23|557b39 559r33
+82V12*Is_In{21|14P8} 82>20 82>39 23|562b12 565l7 565t12
+82p20 t{16P8} 23|562b20 564r30
+82a39 x{14|16A8[26|4]} 23|562b39 564r33
+88V12*Is_In{boolean} 88>20 88>39 23|78s12 325s28 326s28 567b12 580l7 580t12
+88p20 t{16P8} 23|567b20 569r28
+88p39 s{21|14P8} 23|567b39 574r16
+93V12*Volume{28|7I8} 93>21 23|582b12 593l7 593t13
+93p21 t{16P8} 23|582b21 584r28
+100U13*Clear<11|93p13> 100=21 23|597b13 611l7 611t12
+100p21 t{16P8} 23|597b21 599r28 610m54 610r54
+X 23 standard_integer32_triangulations.adb
+13A8 Matrix_of_Triangulations(22|16P8)<24|6I8><24|6I8> 18r12
+16R8 Hash_Table 16d21 19e13 21r32 43r37 57r34 69r25 95r33 267r12
+16i21*n{24|6I8} 18r40 18r45 53r21 54r21
+17p5*weight1{14|17P8[26|4]} 28m8 31r10 34r8 49r35 102m14
+17p13*weight2{14|17P8[26|4]} 29m8 32r10 35r8 50r35 103m14
+18a5*data{13A8} 36r17 37r19 38m12 66m20 78r21 104r17 105r19 106m61
+21U13 Init 21b13 21=20 21>44 21>50 41l7 41t11 283s7
+21r20 ht{16R8} 28m5 29m5 31m7 31r7 32m7 32r7 34m5 34r5 35m5 35r5 36r14 37r16
+. 38m9
+21i44 first{24|6I8} 28r30 29r30 30r14
+21i50 last{24|6I8} 28r37 29r37 30r21 31r32 31r37 32r32 32r37 34r16 35r16
+30i9 i<long_integer> 31r18 32r18
+36i9 i<long_integer> 38r17
+37i11 j<long_integer> 38r19
+43U13 Hash_Function 43b13 43>29 43>49 44<29 44<31 55l7 55t20 65s5 77s5
+43r29 ht{16R8} 49r32 50r32 53r18 54r18
+43p49 s{21|14P8} 49r54 50r54
+44i29 i{24|6I8} 53m5
+44i31 j{24|6I8} 54m5
+49i5 r1{24|6I8} 53r10
+50i5 r2{24|6I8} 54r10
+57U13 Update 57b13 57=22 57>46 67l7 67t13 284s7 303s11
+57r22 ht{16R8} 65r19 66m17 66r17
+57p46 s{21|14P8} 65r22 66r15
+62i5 i{24|6I8} 65m24 66r25
+62i7 j{24|6I8} 65m26 66r27
+69V12 Is_In{boolean} 69b12 69>20 69>37 79l7 79t12 327s28
+69r20 ht{16R8} 77r19 78r18
+69p37 s{21|14P8} 77r22 78r31
+74i5 i{24|6I8} 77m24 78r26
+74i7 j{24|6I8} 77m26 78r28
+95U13 Clear 95b13 95=21 109l7 109t12 340s7
+95r21 ht{16R8} 102m11 102r11 103m11 103r11 104r14 105r16 106m58 106r58
+104i9 i<long_integer> 106r66
+105i11 j<long_integer> 106r68
+115p5 res{22|16P8} 118m17 118r17 119r12
+122V12 Is_Inner{boolean} 122b12 122>23 122>38 130l7 130t15 205s14 305s18
+122i23 n{24|6I8} 124r17
+122p38 s{21|14P8} 125r19
+124i9 k<long_integer> 125r21
+132U13 Update 132b13 132=22 132=48 133>22 146l7 146t13 206s13
+132p22 t{22|16P8} 142m35
+132p48 s{21|14P8} 135r50 139r19 141m18 142r30
+133p22 x{14|17P8[26|4]} 135r30 135r52 138r14 141r20
+135a5 pos{14|16A8[26|4]} 140r12 140r21 140r25
+138i9 k<long_integer> 139r21 140r16 141r22 142r32
+170U13 Connect_and_Update 170b13 171>22 171=45 193l7 193t25 210s5 366s5
+171p22 t1{22|16P8} 177r29
+171p45 t2{22|16P8} 191m20
+177p5 tmp1{22|16P8} 182r23 183r21 184r23 190m7 190r23
+178p5 tmp2{22|16P8} 184m7 185r25 186r23 188m9 188r25
+179p5 s1{21|14P8} 183m7 187m17 187r17 191r17
+179p8 s2{21|14P8} 186m9 187m20 187r20
+198p5 tmp{22|16P8} 203r23 204r20 208m7 208r22
+199p5 s{21|14P8} 204m7 205r30 206m24 206r24
+200p5 nwt{22|16P8} 206m20 206r20 210r24 211r13
+216p5 nwt{22|16P8} 219m16 219r16 221m54 221r54
+224U13 Collect_Vertices 224b13 225>19 225=35 243l7 243t23 315s19 349s5 360s11
+225p19 s{21|14P8} 231r39
+225p35 l{13|22P8[18|6]} 235r20 239m27
+231a5 pts{15|14A8[27|5]} 234r14 235r22 237r58
+234i9 k<long_integer> 235r26 237r62
+237p11 newpt{14|17P8[26|4]} 239r21
+245V12 Has_Vertices_in_List{boolean} 245b12 245>35 245>48 259l7 259t27 324s24
+245p35 s{21|14P8} 250r38
+245p48 l{13|22P8[18|6]} 254r16
+250a4 pts{15|14A8[27|5]} 253r14 254r18
+253i9 k<long_integer> 254r22
+264p5 s{21|14P8} 284r19 287r46 345r12 346r21 347m16 347r16 350r8 351r27 355r25
+. 357m18 357r18 358r27
+265p5 news{21|14P8} 347m24 347r24 348r15 349r22
+265p10 nei{21|14P8} 345m5 350r13 355m9 356r12 358m11 359r21 360r28
+266p5 nwt{22|16P8} 314m35 314r35 348m20 348r20 359m25 359r25 366r24 367m54
+. 367r54
+266p9 leaves{22|16P8} 290m31 290r31 299r16 325r34 334m58 334r58 335m9 341m56
+. 341r56
+267r5 root{16R8} 283m12 283r12 284m14 284r14 303m18 303r18 327r34 340m13
+. 340r13
+268a5 pos{14|16A8[26|4]} 306m13 309r18 309r27 309r31 346m5 347r20 351m11
+. 354r10 354r19 354r23
+269p5 border_vertices{13|22P8[18|6]} 315m42 315r42 324r51 349m27 349r27 360m32
+. 360r32 365m11 365r11
+271U15 Process_Tree_of_Updates 271b15 342l9 342t32 364s5
+277p7 tmp{22|16P8} 299m9 300r27 301r25 331m11 331r26
+277p11 newleaves{22|16P8} 298m9 326r34 328m35 328r35 333r20 335r19
+278p7 si{21|14P8} 301m11 303r23 305r34 306r29 310r35 312m26 312r26 313r37
+. 321r31
+278p10 neisi{21|14P8} 310m17 311r20 313m19 314r29 315r36 321m13 322r17 323r38
+. 324r45 325r41 326r44 327r39 328r29
+285i11 k<long_integer> 287r48
+287p11 nei{21|14P8} 289r15 289r59 290r27
+307i17 k<long_integer> 309r22 310r38 312r31 313r40
+320i15 l<long_integer> 321r34
+353i9 k<long_integer> 354r14 355r27 357r22 358r29
+372p5 tmp1{22|16P8} 377r23 378r21 379r23 387m7 387r23
+373p5 tmp2{22|16P8} 379m7 380r25 381r23 384m9 384r25
+374p5 s1{21|14P8} 378m7 382m17 382r17
+374p8 s2{21|14P8} 381m9 382m20 382r20
+418p5 tmp{22|16P8} 426r23 427r20 433m7 433r22
+419p5 s{21|14P8} 427m7 428r25 430m15 430r15
+442p5 tmp{22|16P8} 445r23 446r28 449m7 449r22
+454V12 Vertices{13|22P8[18|6]} 454b12 454>23 478l7 478t15 511s22
+454p23 t{22|16P8} 460r28
+459p5 res{13|22P8[18|6]} 463r17 470r24 471m24 471r24 477r12
+459p9 res_last{13|22P8[18|6]} 463m5 471m28 471r28
+460p5 tmp{22|16P8} 464r23 466r41 475m7 475r22
+466p9 s{21|14P8} 467r41
+467a9 v{15|14A8[27|5]} 469r18 470r28 471r37
+469i13 i<long_integer> 470r30 471r39
+480V12 Vertices{13|22P8[18|6]} 480b12 480>23 480>42 507l7 507t15 528s22
+480p23 t{22|16P8} 483r28
+480a42 x{14|16A8[26|4]} 491r24
+482p5 res{13|22P8[18|6]} 486r17 497r29 498m29 498r29 506r12
+482p9 res_last{13|22P8[18|6]} 486m5 498m33 498r33
+483p5 tmp{22|16P8} 487r23 489r41 503m9 503r24
+489p9 s{21|14P8} 491r22 494r46
+494a14 v{15|14A8[27|5]} 496r23 497r33 498r42
+496i18 i<long_integer> 497r35 498r44
+511p5 vertri{13|22P8[18|6]} 512r41 513r19 520m19 520r19
+512a5 res{15|14A8[27|5]} 516r14 517m7 523r12
+513p5 tmp{13|22P8[18|6]} 517r25 518m7 518r22
+516i9 i<long_integer> 517r11
+528p5 vertri{13|22P8[18|6]} 529r41 530r19 537m19 537r19
+529a5 res{15|14A8[27|5]} 533r14 534m7 540r12
+530p5 tmp{13|22P8[18|6]} 534r25 535m7 535r22
+533i9 i<long_integer> 534r11
+569p5 tmp{22|16P8} 573r23 574r26 576m13 576r28
+584p5 tmp{22|16P8} 588r23 589r35 590m7 590r22
+585i5 vol{28|7I8} 589m7 589r14 592r12
+599p5 tmp{22|16P8} 602r23 604r32 608m7 608r22
+604p9 s{21|14P8} 606m15 606r15
+X 24 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 23|1w6 1r46 24|45e29
+6I8*integer32<long_integer> 23|14r13 14r33 16r25 21r60 44r39 49r19 50r19
+. 62r11 74r11 122r27 512r21 529r21
+X 26 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[14|8] 22|3w6 3r46
+X 27 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[15|10] 22|4w6 4r46
+X 28 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 22|2w6 2r46 28|30e29
+7I8*natural32<long_integer> 22|93r48 23|582r48 585r11
+X 29 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 23|2w6 2r46 29|112e28
+31V12*Random{24|6I8} 23|31s24 32s24
+

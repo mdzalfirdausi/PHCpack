@@ -1,0 +1,100 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_integer_linear_equalities%b  standard_integer_linear_equalities.adb  9b4ec892 NE OO PK
+W standard_common_divisors%s  standard_common_divisors.ads  standard_common_divisors.ali
+
+U standard_integer_linear_equalities%s  standard_integer_linear_equalities.ads  5a621312 EE NE OO PK
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_integer_linear_equalities.ads  20260513024558 3d09b1f4 standard_integer_linear_equalities%s
+D standard_integer_linear_equalities.adb  20260513024558 ecbaf6ad standard_integer_linear_equalities%b
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [triangulate standard_integer_linear_equalities 11 13 none]
+G c Z s b [triangulate standard_integer_linear_equalities 13 13 none]
+G c Z s b [triangulate standard_integer_linear_equalities 31 13 none]
+G r c none [triangulate standard_integer_linear_equalities 11 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [triangulate standard_integer_linear_equalities 13 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [triangulate standard_integer_linear_equalities 31 13 none] [lcm standard_common_divisors 23 12 5_1]
+X 3 generic_matrices.ads
+16A8*Matrix(10|6I8)<10|6I8><10|6I8> 7|11r52[9|5] 12r68[9|5] 13r52[9|5] 14r63[9|5]
+. 31r69[9|5] 8|6r52[9|5] 7r63[9|5] 26r52[9|5] 27r68[9|5] 36r69[9|5]
+X 5 greatest_common_divisors.ads
+23V12*lcm{10|6I8} 8|14s16[6|5] 80s25[6|5] 82s25[6|5]
+X 6 standard_common_divisors.ads
+5K9*Standard_Common_Divisors[5|9] 8|1w6 1r46
+X 7 standard_integer_linear_equalities.ads
+5K9*Standard_Integer_Linear_Equalities 47l5 47e39 8|4b14 118l5 118t39
+11U13*Triangulate 11>27 11>45 12>27 12>33 12=54 8|26b13 34l7 34t18
+11i27 L{10|6I8} 8|26b27 30r17 31r25
+11a45 m{3|16A8[9|5]} 8|26b45 31r27
+12i27 first{10|6I8} 8|27b27 29r14
+12i33 last{10|6I8} 8|27b33 29r21
+12a54 ineq{3|16A8[9|5]} 8|27b54 30r10 31m31
+13U13*Triangulate 13>27 13>45 14>27 14=49 8|6b13 24l7 24t18 31s13
+13i27 L{10|6I8} 8|6b27 12r19 13r14 13r16 13r36 20r16 21r54
+13a45 m{3|16A8[9|5]} 8|6b45 13r12 21r52
+14i27 index{10|6I8} 8|7b27 12r13 13r30 21r14 21r36
+14a49 ineq{3|16A8[9|5]} 8|7b49 12r8 13r25 20r19 21m9 21r31
+31U13*Triangulate 31>27 31>33 31=55 8|36b13 116l7 116t18
+31i27 index{10|6I8} 8|36b27 52r49 55r24 60r28 61r17 78r20 85r18 87r28 91r20
+. 91r42 100r27
+31i33 start{10|6I8} 8|36b33 38r27 63r20 90r22
+31a55 ineq{3|16A8[9|5]} 8|36b55 39r30 52r22 52r44 55r19 55r61 61r12 61r31
+. 66r23 78r15 78r41 85r13 85r24 87r23 87r34 88r36 88r46 90r29 91m15 91r37
+. 91r58 95r26 102r29 109r28
+X 8 standard_integer_linear_equalities.adb
+9i5 a{10|6I8} 13m7 14r20 16r21
+9i7 b{10|6I8} 13m20 14r22 16r39
+9i9 lcmab{10|6I8} 14m7 15r10 15m25 15r35 16r15 16r33
+9i15 faca{10|6I8} 16m7 18m28 18r37 21r47
+9i20 facb{10|6I8} 16m25 17r10 18m13 18r22 21r26
+20i11 j<long_integer> 21r20 21r42 21r56
+29i9 i<long_integer> 30r15 31r29
+38i5 column{10|6I8} 52r13 52r55 53m9 53r19 55r30 55r52 61r23 61r38 63r27
+. 78r26 78r51 94m13 94r23 103m16 103r26 109r18
+39i5 firstineq{10|6I8} 60r16 95m13 98m13 100r14 102m16
+40b5 found{boolean} 59m7 62m11 66m13 68r27 70r14 72r19 74r21
+41i5 ind2{10|6I8} 70m25 78r46 88r41 91r63 98r26
+41i10 a{10|6I8} 78m10 79r13 80r30 81r32 82r29 83r50
+41i12 b{10|6I8} 78m36 80r32 81r50 82r32 83r32
+41i14 lcmab{10|6I8} 80m16 81r24 81r44 82m16 83r24 83r44
+41i20 faca{10|6I8} 81m16 83m36 87r18 91r32
+41i25 facb{10|6I8} 81m36 83m16 88r31 91r53
+60i11 k<long_integer> 61r36 66r28 70r33
+63i15 l<long_integer> 66r30
+90i17 l<long_integer> 91r26 91r48 91r68
+X 9 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[3|9] 7|3w6 3r46
+X 10 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 7|1w6 1r46 10|45e29
+6I8*integer32<long_integer> 7|11r34 12r43 13r34 14r38 31r44 8|6r34 7r38 9r27
+. 26r34 27r43 36r44 38r14 39r17 41r32
+X 13 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[4|8] 7|2w6 2r46
+

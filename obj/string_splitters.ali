@@ -1,0 +1,163 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U string_splitters%b	string_splitters.adb	a5653cf9 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W file_scanning%s	file_scanning.adb	file_scanning.ali
+W integer_io%s		integer_io.ads		integer_io.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U string_splitters%s	string_splitters.ads	09f98fc8 EE NE OO PK
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-tiinio.ads		20250808065140 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D file_scanning.ads	20260513024558 8f200bcc file_scanning%s
+D integer_io.ads	20260513024558 83adf5a5 integer_io%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D string_splitters.adb	20260513024558 a0e69364 string_splitters%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [read_string string_splitters 17 12 none]
+G c Z s b [append string_splitters 23 13 none]
+G c Z s b [read_till_delimiter string_splitters 28 12 none]
+G c Z s b [read_till_delimiter string_splitters 36 12 none]
+G c Z s b [get string_splitters 44 13 none]
+G c Z s b [get string_splitters 45 13 none]
+G c Z s b [count_delimiters string_splitters 56 12 none]
+G c Z s b [split string_splitters 61 12 none]
+G c Z s b [clear string_splitters 75 13 none]
+G c Z s b [clear string_splitters 76 13 none]
+G c Z s b [clear string_splitters 77 13 none]
+G c Z s s [array_of_stringsIP string_splitters 12 8 none]
+G r c none [get string_splitters 44 13 none] [scan_line_for_number file_scanning 8 12 none]
+G r c none [get string_splitters 45 13 none] [scan_line_for_number file_scanning 8 12 none]
+X 9 a-textio.ads
+67P9*File_Type 16|29r26 37r26 45r29 17|33r26 61r26 81r29
+187V13*Standard_Input{67P9} 17|78s9
+341V13*End_Of_File{boolean} 17|42s15 68s10
+414U14*Get 17|43s7
+515U14*Put 17|13s5
+535U14*Get_Line 17|14s5
+X 10 a-tiinio.ads
+53U14*Get 17|84s5[13|3]
+X 12 file_scanning.ads
+3K9*File_Scanning 45e18 17|3w6 3r46
+8V12*Scan_Line_for_Number{natural} 17|85s10
+X 13 integer_io.ads
+3K9*integer_io[10|46] 17|2w6 2r46
+X 16 string_splitters.ads
+3K9*String_Splitters 82l5 82e21 17|5b14 164l5 164t21
+11P8*Link_to_String(string) 12r58 23r33 30r21 75r32 17|18r33 34r21 36r11
+. 133r32 135r57
+12A8*Array_of_Strings(11P8)<integer> 13r43 38r21 62r25 76r32 17|62r21 64r11
+. 90r11 93r16 111r25 113r11 143r32 153r34
+13P8*Link_to_Array_of_Strings(12A8) 44r46 46r46 77r32 17|76r46 82r46 150r32
+. 153r51
+17V12*Read_String{string} 17|7b12 16l7 16t18
+23U13*Append 23=22 23>49 17|18b13 30l7 30t13 47s9 56s5
+23p22 s{11P8} 17|18b22 20r8 21m7 24r33 26m15 27m9
+23a49 t{string} 17|18b49 21r24 24r41
+28V12*Read_till_Delimiter{11P8} 29>16 29>37 17|32b12 58l7 58t26 70s23
+29p16 file{9|67P9} 17|33b16 42r27 43r11
+29e37 d{character} 17|33b37 44r22 52r12
+36V12*Read_till_Delimiter{12A8} 37>16 37>37 37>53 17|60b12 74l7 74t26 92s12
+37p16 file{9|67P9} 17|61b16 68r22 70r43
+37i37 n{natural} 17|61b37 64r31 67r17
+37e53 d{character} 17|61b53 70r48
+44U13*get 44<19 44<21 44<38 17|76b13 79l7 79t10
+44i19 n{natural} 17|76b19 78m24
+44i21 m{natural} 17|76b21 78m26
+44p38 p{13P8} 17|76b38 78m28
+45U13*get 45>19 46<19 46<21 46<38 17|78s5 81b13 95l7 95t10
+45p19 file{9|67P9} 17|81b19 84r9 85r31 92r32
+46i19 n{natural} 17|82b19 84m14 87r16 90r31 92r37
+46i21 m{natural} 17|82b21 85m5 86r8 87m11
+46p38 p{13P8} 17|82b38 93m7
+56V12*Count_Delimiters{natural} 56>31 56>43 17|97b12 108l7 108t23
+56a31 s{string} 17|97b31 102r14 103r10
+56e43 d{character} 17|97b43 103r17
+61V12*Split{12A8} 61>20 61>33 61>45 17|110b12 129l7 129t12
+61i20 n{natural} 17|110b20 113r31
+61a33 s{string} 17|110b33 115r18 119r14 121r19 122r10
+61e45 d{character} 17|110b45 122r17
+75U13*Clear 75=21 17|26s9 133b13 141l7 141t12 146s7 158s9
+75p21 s{11P8} 17|133b21 138r8 139m16
+76U13*Clear 76=21 17|143b13 148l7 148t12
+76a21 s{12A8} 17|143b21 145r14 146m13 146r13
+77U13*Clear 77=21 17|150b13 162l7 162t12
+77p21 s{13P8} 17|150b21 156r8 157r16 158r15 160m12
+X 17 string_splitters.adb
+9a5 temp{string} 14m14 15r12
+10i5 cnt{natural} 14m19 15r20
+24a9 ns=24:39{string} 27r26
+36p5 res{16|11P8} 47m16 47r16 56m12 56r12 57r12
+37a5 buffer{string} 46r16 47r20 50m7 54m7 56r16
+38e5 c{character} 43m16 44r18 50r22 52r8 54r22
+39i5 ind{natural} 45m7 45r14 46r10 48m9 50r14 53m7 53r14 54r14 56r26
+64a5 res{16|12A8} 69m13 70m13 73r12
+67i9 i{integer} 69r17 70r17
+90a7 s{16|12A8} 92m7 93r34
+99i5 res{natural} 104m13 104r20 107r12
+102i9 i{integer} 103r12
+113a5 res{16|12A8} 124m9 128r12
+114i5 ind{integer} 123m9 123r16 124r13
+115a5 buf{string} 116r22 121m7 124r33 124r37 125r16
+116i5 cnt{integer} 120m7 120r14 121r11 124r48 125m9
+119i9 i{integer} 121r21 122r12
+135U15 free[33|22] 139s11
+145i9 i{integer} 146r15
+152U15 free[33|22] 160s7
+157i11 i{integer} 158r17
+X 32 text_io.ads
+27K9*Text_IO=27:29 16|1w6 1r46
+X 33 unchdeal.ads
+22u11*Unchecked_Deallocation 17|1w6 135r27 153r11
+

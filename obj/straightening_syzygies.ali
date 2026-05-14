@@ -1,0 +1,411 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U straightening_syzygies%b  straightening_syzygies.adb  21bfd910 NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U straightening_syzygies%s  straightening_syzygies.ads  47293a64 BN EE NE OO PK
+W bracket_monomials%s	bracket_monomials.adb	bracket_monomials.ali
+W brackets%s		brackets.adb		brackets.ali
+W standard_bracket_polynomials%s  standard_bracket_polynomials.ads  standard_bracket_polynomials.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D bracket_monomials.ads	20260513024558 25a514e4 bracket_monomials%s
+D bracket_monomials.adb	20260513024558 f8740a1d bracket_monomials%b
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D generic_bracket_polynomials.ads  20260513024558 b17bef7c generic_bracket_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D standard_bracket_polynomials.ads  20260513024558 ee5285d9 standard_bracket_polynomials%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D straightening_syzygies.ads  20260513024558 fb5f352c straightening_syzygies%s
+D straightening_syzygies.adb  20260513024558 e3028c64 straightening_syzygies%b
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [laplace_expansion straightening_syzygies 11 12 none]
+G c Z s b [straightening_syzygy straightening_syzygies 20 12 none]
+G c Z s b [straightening_syzygy straightening_syzygies 29 12 none]
+G c Z s b [nonstandard_monomials straightening_syzygies 37 12 none]
+G c Z s b [straighten straightening_syzygies 54 12 none]
+G c Z s b [straighten straightening_syzygies 61 12 none]
+G c Z s b [straighten straightening_syzygies 62 12 none]
+G c Z s b [straighten straightening_syzygies 63 12 none]
+G c Z b b [create straightening_syzygies 9 12 none]
+G c Z b b [sort straightening_syzygies 38 12 none]
+G c Z b b [sign straightening_syzygies 63 12 none]
+G c Z b b [complement straightening_syzygies 80 12 none]
+G c Z b b [enumerate straightening_syzygies 104 13 none]
+G c Z b b [create straightening_syzygies 149 12 none]
+G c Z b b [enumerate2 straightening_syzygies 161 13 none]
+G c Z b b [enumerate1 straightening_syzygies 207 13 none]
+G c Z b b [enumerate3 straightening_syzygies 229 13 none]
+G r s bracket_term [laplace_expansion straightening_syzygies 11 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [create brackets 21 13 none]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [is_zero brackets 50 12 none]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [create bracket_monomials 18 12 none]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [frontal_add standard_bracket_polynomials 86 13 4_1]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [frontal_min standard_bracket_polynomials 124 13 4_1]
+G r c none [laplace_expansion straightening_syzygies 11 12 none] [clear standard_bracket_polynomials 153 13 4_1]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [is_standard brackets 70 12 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [create bracket_monomials 18 12 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [create standard_bracket_polynomials 29 12 4_1]
+G r s bracket_term [straightening_syzygy straightening_syzygies 20 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [create brackets 21 13 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [is_zero brackets 50 12 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [frontal_add standard_bracket_polynomials 86 13 4_1]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [frontal_min standard_bracket_polynomials 124 13 4_1]
+G r c none [straightening_syzygy straightening_syzygies 20 12 none] [clear standard_bracket_polynomials 153 13 4_1]
+G r i none [straightening_syzygy straightening_syzygies 29 12 none] [enumerate_brackets bracket_monomials 112 13 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [is_null bracket_monomials 69 12 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [head_of bracket_monomials__lists_of_brackets 77 12 129_3]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [tail_of bracket_monomials__lists_of_brackets 84 12 129_3]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [is_standard brackets 70 12 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [create bracket_monomials 18 12 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [create standard_bracket_polynomials 29 12 4_1]
+G r s bracket_term [straightening_syzygy straightening_syzygies 29 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [create brackets 21 13 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [is_zero brackets 50 12 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [frontal_add standard_bracket_polynomials 86 13 4_1]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [frontal_min standard_bracket_polynomials 124 13 4_1]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [clear standard_bracket_polynomials 153 13 4_1]
+G r c none [straightening_syzygy straightening_syzygies 29 12 none] [clear brackets 87 13 none]
+G r c none [nonstandard_monomials straightening_syzygies 37 12 none] [Olt brackets 60 12 none]
+G r c none [nonstandard_monomials straightening_syzygies 37 12 none] [is_standard brackets 70 12 none]
+G r c none [nonstandard_monomials straightening_syzygies 37 12 none] [create bracket_monomials 18 12 none]
+G r s bracket_term [nonstandard_monomials straightening_syzygies 37 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [nonstandard_monomials straightening_syzygies 37 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [nonstandard_monomials straightening_syzygies 37 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [nonstandard_monomials straightening_syzygies 37 12 none] [add standard_bracket_polynomials 81 13 4_1]
+G r c none [straighten straightening_syzygies 54 12 none] [is_standard brackets 70 12 none]
+G r c none [straighten straightening_syzygies 54 12 none] [create bracket_monomials 18 12 none]
+G r c none [straighten straightening_syzygies 54 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [straighten straightening_syzygies 54 12 none] [create standard_bracket_polynomials 29 12 4_1]
+G r s bracket_term [straighten straightening_syzygies 54 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [straighten straightening_syzygies 54 12 none] [create brackets 21 13 none]
+G r c none [straighten straightening_syzygies 54 12 none] [is_zero brackets 50 12 none]
+G r c none [straighten straightening_syzygies 54 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [straighten straightening_syzygies 54 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [straighten straightening_syzygies 54 12 none] [frontal_add standard_bracket_polynomials 86 13 4_1]
+G r c none [straighten straightening_syzygies 54 12 none] [frontal_min standard_bracket_polynomials 124 13 4_1]
+G r c none [straighten straightening_syzygies 54 12 none] [clear standard_bracket_polynomials 153 13 4_1]
+G r s bracket_term [create straightening_syzygies 9 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [create straightening_syzygies 9 12 none] [create brackets 21 13 none]
+G r c none [create straightening_syzygies 9 12 none] [is_zero brackets 50 12 none]
+G r c none [create straightening_syzygies 9 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create straightening_syzygies 9 12 none] [create bracket_monomials 18 12 none]
+G r c none [create straightening_syzygies 9 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [create straightening_syzygies 9 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [sign straightening_syzygies 63 12 none] [create brackets 21 13 none]
+G r s bracket_term [enumerate straightening_syzygies 104 13 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [enumerate straightening_syzygies 104 13 none] [create brackets 21 13 none]
+G r c none [enumerate straightening_syzygies 104 13 none] [is_zero brackets 50 12 none]
+G r c none [enumerate straightening_syzygies 104 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [enumerate straightening_syzygies 104 13 none] [create bracket_monomials 18 12 none]
+G r c none [enumerate straightening_syzygies 104 13 none] [multiply bracket_monomials 23 13 none]
+G r c none [enumerate straightening_syzygies 104 13 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [enumerate straightening_syzygies 104 13 none] [frontal_add standard_bracket_polynomials 86 13 4_1]
+G r c none [enumerate straightening_syzygies 104 13 none] [frontal_min standard_bracket_polynomials 124 13 4_1]
+G r c none [enumerate straightening_syzygies 104 13 none] [clear standard_bracket_polynomials 153 13 4_1]
+G r c none [create straightening_syzygies 149 12 none] [create bracket_monomials 18 12 none]
+G r s bracket_term [create straightening_syzygies 149 12 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [create straightening_syzygies 149 12 none] [multiply bracket_monomials 23 13 none]
+G r c none [create straightening_syzygies 149 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [enumerate2 straightening_syzygies 161 13 none] [Olt brackets 60 12 none]
+G r c none [enumerate2 straightening_syzygies 161 13 none] [is_standard brackets 70 12 none]
+G r c none [enumerate2 straightening_syzygies 161 13 none] [create bracket_monomials 18 12 none]
+G r s bracket_term [enumerate2 straightening_syzygies 161 13 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [enumerate2 straightening_syzygies 161 13 none] [multiply bracket_monomials 23 13 none]
+G r c none [enumerate2 straightening_syzygies 161 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [enumerate2 straightening_syzygies 161 13 none] [add standard_bracket_polynomials 81 13 4_1]
+G r c none [enumerate1 straightening_syzygies 207 13 none] [Olt brackets 60 12 none]
+G r c none [enumerate1 straightening_syzygies 207 13 none] [is_standard brackets 70 12 none]
+G r c none [enumerate1 straightening_syzygies 207 13 none] [create bracket_monomials 18 12 none]
+G r s bracket_term [enumerate1 straightening_syzygies 207 13 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [enumerate1 straightening_syzygies 207 13 none] [multiply bracket_monomials 23 13 none]
+G r c none [enumerate1 straightening_syzygies 207 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [enumerate1 straightening_syzygies 207 13 none] [add standard_bracket_polynomials 81 13 4_1]
+G r s bracket_term [enumerate3 straightening_syzygies 229 13 none] [bracket_termIP standard_bracket_polynomials 18 8 4_1]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [create brackets 21 13 none]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [is_zero brackets 50 12 none]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [create bracket_monomials 18 12 none]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [multiply bracket_monomials 23 13 none]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [frontal_add standard_bracket_polynomials 86 13 4_1]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [frontal_min standard_bracket_polynomials 124 13 4_1]
+G r c none [enumerate3 straightening_syzygies 229 13 none] [clear standard_bracket_polynomials 153 13 4_1]
+X 11 bracket_monomials.ads
+6K9*Bracket_Monomials 132e22 27|2w15 2r55
+12P8*Bracket_Monomial<15|12P8[129]> 27|29r39 61r29 28|14r10 151r10 289r10
+. 316r39 371r29
+18V12*Create{12P8} 28|26s15 151s30 294s13
+23U13*Multiply 28|27s9 155s5 295s7
+112u13*Enumerate_Brackets 28|330r35
+X 13 brackets.ads
+5K9*Brackets 93e13 27|2w6 2r46 28|193r14
+13A8*Bracket<16|16A8[26|4]>(1|3I8[25|4])<23|6I8> 27|20r43 54r33 28|11r10
+. 12r10 69r9 106r46 149r29 162r52 163r31 208r61 285r43 322r37 325r23 326r23
+. 343r13 363r33
+15P8*Link_to_Bracket(13A8) 28|319r13
+21U13*Create 28|18s5 22s7 76s5
+50V12*Is_Zero{boolean} 28|19s8 23s10
+60V13*"<"{boolean} 28|192s12
+70V12*Is_Standard{24|7I8} 28|193s23 288s41
+87U13*Clear 28|335s5 335s16
+X 14 generic_bracket_polynomials.ads
+18R8*Bracket_Term 27|62r29[19|4] 28|9r45[19|4] 15r10[19|4] 130r16[19|4] 149r46[19|4]
+. 152r10[19|4] 252r13[19|4] 353r39[19|4] 379r29[19|4]
+19r5*coeff{20|11R8} 28|20m10[19|4] 24m12[19|4] 29m18[19|4] 30m18[19|4] 132r17[19|4]
+. 156m8[19|4]
+20p5*monom{11|12P8} 28|34m8[19|4] 157m8[19|4] 355r38[19|4]
+23P8*Bracket_Polynomial<15|12P8[161[19|4]]> 27|11r57[19|4] 20r60[19|4] 30r40[19|4]
+. 37r61[19|4] 45r37[19|4] 47r41[19|4] 54r50[19|4] 61r55[19|4] 62r51[19|4]
+. 63r29[19|4] 63r57[19|4] 28|107r48[19|4] 165r33[19|4] 210r33[19|4] 231r29[19|4]
+. 275r57[19|4] 277r11[19|4] 286r40[19|4] 290r10[19|4] 317r40[19|4] 320r10[19|4]
+. 340r41[19|4] 342r14[19|4] 351r41[19|4] 363r50[19|4] 365r19[19|4] 371r55[19|4]
+. 373r10[19|4] 379r51[19|4] 381r10[19|4] 387r29[19|4] 387r57[19|4] 389r10[19|4]
+29V12*Create{23P8[19|4]} 28|296s13[19|4]
+81U13*Add 28|196s43[19|4]
+86U13*Frontal_Add 28|134s19[19|4] 260s15[19|4]
+124U13*Frontal_Min 28|135s19[19|4] 261s15[19|4]
+144u13*Enumerate_Terms 28|357r39[19|4]
+153U13*Clear 28|138s11[19|4] 263s9[19|4]
+X 15 generic_lists.ads
+12P8*List
+X 16 generic_vectors.ads
+16A8*Vector(24|7I8)<23|6I8> 28|9r29[26|4] 38r23[26|4] 38r39[26|4] 43r11[26|4]
+. 63r27[26|4] 70r9[26|4] 80r44[26|4] 80r60[26|4] 85r11[26|4] 105r57[26|4]
+. 107r28[26|4] 113r13[26|4] 118r25[26|4] 121r39[26|4] 125r54[26|4] 230r59[26|4]
+. 250r25[26|4] 251r16[26|4] 278r11[26|4] 300r17[26|4] 301r16[26|4]
+X 19 standard_bracket_polynomials.ads
+4K9*Standard_Bracket_Polynomials[14|10] 27|3w6 3r46
+X 20 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 28|2w6 2r46
+18V12*Create{11R8} 28|20s19 24s21 29s27 30s28 132s26 156s17
+54V13*"-"{11R8} 28|30s27
+X 23 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 28|1w6 1r46
+6I8*integer32<long_integer> 28|13r17 44r11 63r43 68r18 71r11 80r29 86r11
+. 93r12 105r32 106r24 123r30 127r26 162r34 164r43 208r31 209r43 220r24 230r34
+. 278r21 281r16 281r29 288r18 288r31 299r23 343r24 344r24 347r16 347r29
+X 24 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 27|1w6 1r46
+7I8*natural32<long_integer> 27|11r38 37r42 28|45r11 98r41 143r20 188r9 201r20
+. 223r20 267r20 275r38 340r22
+X 26 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[16|8] 28|3w6 3r46 121r14 125r29
+X 27 straightening_syzygies.ads
+5K9*Straightening_Syzygies 69l5 69e27 28|5b14 395l5 395t27
+11V12*Laplace_Expansion{14|23P8[19|4]} 11>32 11>34 28|275b12 283l7 283t24
+11i32 n{24|7I8} 28|275b32 281r26
+11i34 d{24|7I8} 28|275b34 278r31 281r39
+20V12*Straightening_Syzygy{14|23P8[19|4]} 20>35 20>38 28|285b12 314l7 314t27
+. 334s11 365s41
+20a35 b1{13|13A8} 28|285b35 288r53 294r20 299r36 303r21 304r27 310r33
+20a38 b2{13|13A8} 28|285b38 288r56 295r19 306r18 307r28 310r36
+29V12*Straightening_Syzygy{14|23P8[19|4]} 29>35 28|316b12 337l7 337t27 355s15
+29p35 b{11|12P8} 28|316b35 333r18
+37V12*nonStandard_Monomials{14|23P8[19|4]} 37>36 37>38 28|339b12 349l7 349t28
+37i36 n{24|7I8} 28|340b16 347r26
+37i38 d{24|7I8} 28|340b18 343r34 347r39
+45U20 Process 45>30 46<30 28|355s7
+45p30 s{14|23P8[19|4]}
+46b30 continue{boolean}
+47u13*Enumerate_Syzygies 47>34 28|351b13 361l7 361t25
+47p34 p{14|23P8[19|4]} 28|351b34 360r22
+54V12*Straighten{14|23P8[19|4]} 54>25 54>28 28|363b12 369l7 369t17
+54a25 b1{13|13A8} 28|363b25 365r62
+54a28 b2{13|13A8} 28|363b28 365r65
+61V12*Straighten{14|23P8[19|4]} 61>25 28|371b12 377l7 377t17
+61p25 b{11|12P8} 28|371b25
+62V12*Straighten{14|23P8[19|4]} 62>25 28|379b12 385l7 385t17
+62r25 b{14|18R8[19|4]} 28|379b25
+63V12*Straighten{14|23P8[19|4]} 63>25 28|387b12 393l7 393t17
+63p25 b{14|23P8[19|4]} 28|387b25
+X 28 straightening_syzygies.adb
+9V12 Create{14|18R8[19|4]} 9b12 9>21 9>24 36l7 36t13 130s32 258s14
+9a21 v1{16|16A8[26|4]} 11r18 18r12
+9a24 v2{16|16A8[26|4]} 12r18 22r14
+11a5 b1{13|13A8} 18m15 19r16 26r22
+12a5 b2{13|13A8} 22m17 23r18 27r21
+13i5 sig1{23|6I8} 18m18 28r12
+13i10 sig2{23|6I8} 22m20 28r17
+14p5 bm{11|12P8} 26m9 27m18 27r18 34r17
+15r5 bt{14|18R8[19|4]} 20m7 24m9 29m15 30m15 34m5 35r12
+38V12 Sort{16|16A8[26|4]} 38b12 38>19 61l7 61t11 309s18
+38a19 v{16|16A8[26|4]} 43r18 43r30 48r14 48r23
+43a5 res{16|16A8[26|4]} 49r14 51r21 52r12 53r22 57m13 57r25 57m33 60r12
+44i5 ind{23|6I8} 50m7 53m30 56r10 57r17
+45i5 min{24|7I8} 49m7 52r21 53m15 57r43
+48i9 i<long_integer> 49r18 50r14 51r16 56r17 57r29 57r37
+51i11 j<long_integer> 52r16 53r26 53r37
+63V12 Sign{23|6I8} 63b12 63>19 63>22 78l7 78t11 133s16 259s12
+63a19 v1{16|16A8[26|4]} 68r31 74r7 74r20 75r7
+63a22 v2{16|16A8[26|4]} 68r41 75r29
+68i5 d{23|6I8} 69r20 70r19
+69a5 b{13|13A8} 76m14
+70a5 v{16|16A8[26|4]} 74m5 75m5 75r18 76r12
+71i5 sig{23|6I8} 76m16 77r12
+80V12 Complement{16|16A8[26|4]} 80b12 80>25 80>40 102l7 102t17 118s35 250s35
+80i25 n{23|6I8} 85r21 90r17
+80a40 v{16|16A8[26|4]} 85r23 92r16 93r22
+85a5 res{16|16A8[26|4]} 98m29 101r12
+86i5 cnt{23|6I8} 98m13 98r20 98r33
+87b5 found{boolean} 91m7 94m15 97r14
+90i9 i<long_integer> 93r30 98r51
+92i11 j<long_integer> 93r24
+104U13 Enumerate 104b13 105>17 105>23 105>25 105=43 106>17 106>35 106>38
+. 107>17 107=36 144s9 147l7 147t16 310s9
+105i17 start{23|6I8} 142r18
+105i23 i{23|6I8} 116r8 143r14 144r25
+105i25 n{23|6I8} 118r46 142r25 144r29
+105a43 accu{16|16A8[26|4]} 116r12 118r48 122r18 123r40 133r21 143m9 144m31
+106i17 s{23|6I8} 120r22 121r59 123r14 125r12 125r64 144r36
+106a35 b1{13|13A8} 113r23 120r12 121r46 121r49 144r38
+106a38 b2{13|13A8} 125r17 125r61 125r69 144r41
+107a17 frame{16|16A8[26|4]} 123r24 127r20 144r44
+107p36 bp{14|23P8[19|4]} 134m31 135m31 144m50
+113a5 v1{16|16A8[26|4]} 120m9 123m11 130r39
+113a8 v2{16|16A8[26|4]} 125m9 127m11 130r42
+118a9 comp{16|16A8[26|4]} 126r18 127r36 133r26
+122i13 j<long_integer> 123r16 123r45
+126i13 j<long_integer> 127r14 127r41
+130r11 bt{14|18R8[19|4]} 132r14 134r34 135r34 138m17 138r17
+142i11 ell<long_integer> 143r30 144r19
+149V12 Create{14|18R8[19|4]} 149b12 149>21 149>24 159l7 159t13 196s54
+149a21 b1{13|13A8} 151r37
+149a24 b2{13|13A8} 155r17
+151p5 bm{11|12P8} 155m14 155r14 157r17
+152r5 bt{14|18R8[19|4]} 156m5 157m5 158r12
+161U13 Enumerate2 161b13 162>17 162>19 162>21 162>23 162>45 163=17 164=17
+. 164=24 165=17 202s9 205l7 205t17 220s7
+162i17 n{23|6I8} 200r25 202r20
+162i19 d{23|6I8} 191r12 202r22
+162i21 k{23|6I8} 191r8 201r14 202r24
+162i23 start{23|6I8} 200r18
+162a45 b{13|13A8} 192r10 193r35 196r61 202r34
+163a17 accu{13|13A8} 192r14 193r37 196r63 201m9 202m36
+164i17 cntstd{23|6I8} 195m15 195r25 202m41
+164i24 cntnonstd{23|6I8} 196m15 196r28 202m48
+165p17 nonstd{14|23P8[19|4]} 196m47 202m58
+188i5 s{24|7I8} 193m9 194r12
+200i11 ell<long_integer> 201r30 202r28
+207U13 Enumerate1 207b13 208>17 208>19 208>21 208>23 208=42 208=47 209=17
+. 209=24 210=17 224s9 227l7 227t17 347s5
+208i17 n{23|6I8} 220r18 222r25 224r20
+208i19 d{23|6I8} 219r12 220r20 224r22
+208i21 k{23|6I8} 219r8 223r14 224r24
+208i23 start{23|6I8} 222r18
+208a42 acc1{13|13A8} 220r34 220r43 223m9 224m34
+208a47 acc2{13|13A8} 220m48 224m39
+209i17 cntstd{23|6I8} 220m53 224m44
+209i24 cntnonstd{23|6I8} 220m60 224m51
+210p17 nonstd{14|23P8[19|4]} 220m70 224m61
+222i11 ell<long_integer> 223r30 224r28
+229U13 Enumerate3 229b13 230>17 230>19 230>21 230>23 230=45 231=17 268s9
+. 271l7 271t17 281s5
+230i17 n{23|6I8} 250r46 266r25 268r20
+230i19 d{23|6I8} 248r12 251r26 256r17 256r33 266r27 268r22
+230i21 k{23|6I8} 248r8 266r29 267r14 268r24
+230i23 start{23|6I8} 266r18
+230a45 accu{16|16A8[26|4]} 250r48 256r25 259r17 267m9 268m34
+231p17 bp{14|23P8[19|4]} 260m27 261m27 268m39
+250a9 comp{16|16A8[26|4]} 258r26 259r22
+251a9 acc0{16|16A8[26|4]} 255m9 256m9 258r21
+252r9 t{14|18R8[19|4]} 258m9 260r30 261r30 263m15 263r15
+266i11 ell<long_integer> 267r30 268r28
+277p5 res{14|23P8[19|4]} 281m50 281r50 282r12
+278a5 acc{16|16A8[26|4]} 281m46 281r46
+288i5 s{23|6I8} 293r8 301r29 303r18 304r19 306r28 307r20 310r31
+289p5 bm{11|12P8} 294m7 295m16 295r16 296r20
+290p5 bp{14|23P8[19|4]} 296m7 310m45 310r45 313r12
+299i9 d1{23|6I8} 300r27 301r26 307r17 310r23
+300a9 frame{16|16A8[26|4]} 304m11 307m11 309m9 309r23 310r39
+301a9 accu{16|16A8[26|4]} 310m26 310r26
+303i13 i<long_integer> 304r17 304r30
+306i13 i<long_integer> 307r22 307r31
+319p5 b1{13|15P8} 324r10 325m13 334r32 335m11 335r11
+319p8 b2{13|15P8} 326m13 334r39 335m22 335r22
+320p5 bp{14|23P8[19|4]} 334m5 336r12
+322U15 Get_Bracket 322b15 322>29 322<46 329l9 329t20 330r54
+322a29 bb{13|13A8} 325r32 326r32
+322b46 continue{boolean} 328m7
+330U15 Get_Brackets[11|112] 12|299b13 28|333s5
+342p5 nonstd{14|23P8[19|4]} 347m69 347r69 348r12
+343a5 b1{13|13A8} 347m46 347r46
+343a8 b2{13|13A8} 347m49 347r49
+344i5 cntstd{23|6I8} 347m52 347r52
+344i12 cntnonstd{23|6I8} 347m59 347r59
+353U15 Process_Syzygy 353b15 353>32 353<53 356l9 356t23 357r55
+353r32 t{14|18R8[19|4]} 355r36
+353b53 continue{boolean} 355m45
+357U15 Process_Syzygies[14|144] 360s5
+365p5 bp{14|23P8[19|4]} 368r12
+373p5 bp{14|23P8[19|4]} 376r12
+381p5 bp{14|23P8[19|4]} 384r12
+389p5 bp{14|23P8[19|4]} 392r12
+

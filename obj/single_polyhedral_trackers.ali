@@ -1,0 +1,873 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U single_polyhedral_trackers%b  single_polyhedral_trackers.adb  bcd14ca4 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W continuation_parameters%s  continuation_parameters.adb  continuation_parameters.ali
+W dobldobl_complex_matrices%s  dobldobl_complex_matrices.ads  dobldobl_complex_matrices.ali
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_vector_norms%s  dobldobl_complex_vector_norms.adb  dobldobl_complex_vector_norms.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+W dobldobl_continuation_data%s  dobldobl_continuation_data.adb  dobldobl_continuation_data.ali
+W dobldobl_path_trackers%s  dobldobl_path_trackers.adb  dobldobl_path_trackers.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W double_double_vectors%s  double_double_vectors.ads  double_double_vectors.ali
+W polyhedral_coefficient_homotopies%s  polyhedral_coefficient_homotopies.adb  polyhedral_coefficient_homotopies.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quad_double_vectors%s	quad_double_vectors.ads	quad_double_vectors.ali
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vector_norms%s  quaddobl_complex_vector_norms.adb  quaddobl_complex_vector_norms.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W quaddobl_continuation_data%s  quaddobl_continuation_data.adb  quaddobl_continuation_data.ali
+W quaddobl_path_trackers%s  quaddobl_path_trackers.adb  quaddobl_path_trackers.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_norms_equals%s  standard_complex_norms_equals.adb  standard_complex_norms_equals.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_continuation_data%s  standard_continuation_data.adb  standard_continuation_data.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_path_trackers%s  standard_path_trackers.adb  standard_path_trackers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U single_polyhedral_trackers%s  single_polyhedral_trackers.ads  8cf0f1f6 EE NE OO PK
+W arrays_of_floating_vector_lists%s  arrays_of_floating_vector_lists.ads  arrays_of_floating_vector_lists.ali
+W dobldobl_complex_laur_jacomats%s  dobldobl_complex_laur_jacomats.ads  dobldobl_complex_laur_jacomats.ali
+W dobldobl_complex_laur_sysfun%s  dobldobl_complex_laur_sysfun.ads  dobldobl_complex_laur_sysfun.ali
+W dobldobl_complex_laur_systems%s  dobldobl_complex_laur_systems.ads  dobldobl_complex_laur_systems.ali
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W dobldobl_complex_vecvecs%s  dobldobl_complex_vecvecs.ads  dobldobl_complex_vecvecs.ali
+W exponent_vectors%s	exponent_vectors.adb	exponent_vectors.ali
+W quaddobl_complex_laur_jacomats%s  quaddobl_complex_laur_jacomats.ads  quaddobl_complex_laur_jacomats.ali
+W quaddobl_complex_laur_sysfun%s  quaddobl_complex_laur_sysfun.ads  quaddobl_complex_laur_sysfun.ali
+W quaddobl_complex_laur_systems%s  quaddobl_complex_laur_systems.ads  quaddobl_complex_laur_systems.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_complex_vecvecs%s  quaddobl_complex_vecvecs.ads  quaddobl_complex_vecvecs.ali
+W standard_complex_laur_jacomats%s  standard_complex_laur_jacomats.ads  standard_complex_laur_jacomats.ali
+W standard_complex_laur_sysfun%s  standard_complex_laur_sysfun.ads  standard_complex_laur_sysfun.ali
+W standard_complex_laur_systems%s  standard_complex_laur_systems.ads  standard_complex_laur_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_floating_vector_lists.ads  20260513024558 692438df arrays_of_floating_vector_lists%s
+D arrays_of_integer_vector_lists.ads  20260513024558 1062c910 arrays_of_integer_vector_lists%s
+D continuation_parameters.ads  20260513024558 80b0c65f continuation_parameters%s
+D directions_of_dobldobl_paths.ads  20260513024558 5550ea28 directions_of_dobldobl_paths%s
+D directions_of_quaddobl_paths.ads  20260513024558 71009fb2 directions_of_quaddobl_paths%s
+D dobldobl_complex_equality_tests.ads  20260513024558 ffd1d216 dobldobl_complex_equality_tests%s
+D dobldobl_complex_laur_functions.ads  20260513024558 21d985d5 dobldobl_complex_laur_functions%s
+D dobldobl_complex_laur_jacomats.ads  20260513024558 0db367b1 dobldobl_complex_laur_jacomats%s
+D dobldobl_complex_laur_sysfun.ads  20260513024558 7bfc0ee3 dobldobl_complex_laur_sysfun%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_linear_solvers.ads  20260513024558 3781665e dobldobl_complex_linear_solvers%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_qr_least_squares.ads  20260513024558 8d058e2f dobldobl_complex_qr_least_squares%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_ring-ffield.ads  20260513024558 916869d0 dobldobl_complex_ring.ffield%s
+D dobldobl_complex_singular_values.ads  20260513024558 c0031438 dobldobl_complex_singular_values%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vector_norms.ads  20260513024558 560a00f8 dobldobl_complex_vector_norms%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_continuation_data.ads  20260513024558 559bc7dd dobldobl_continuation_data%s
+D dobldobl_correctors.ads  20260513024558 a5351cac dobldobl_correctors%s
+D dobldobl_correctors.adb  20260513024558 c65f32d5 dobldobl_correctors%b
+D dobldobl_data_on_path.ads  20260513024558 1fd21314 dobldobl_data_on_path%s
+D dobldobl_dispatch_predictors.ads  20260513024558 dd6129c0 dobldobl_dispatch_predictors%s
+D dobldobl_dispatch_predictors.adb  20260513024558 f4937dc8 dobldobl_dispatch_predictors%b
+D dobldobl_extrapolators.ads  20260513024558 0b5a3b76 dobldobl_extrapolators%s
+D dobldobl_mathematical_functions.ads  20260513024558 091149b0 dobldobl_mathematical_functions%s
+D dobldobl_orthogonal_correctors.ads  20260513024558 97526d42 dobldobl_orthogonal_correctors%s
+D dobldobl_orthogonal_correctors.adb  20260513024558 f6f1e70a dobldobl_orthogonal_correctors%b
+D dobldobl_path_trackers.ads  20260513024558 e473aa57 dobldobl_path_trackers%s
+D dobldobl_path_trackers.adb  20260513024558 e4275045 dobldobl_path_trackers%b
+D dobldobl_predictors.ads  20260513024558 588c179b dobldobl_predictors%s
+D dobldobl_predictors.adb  20260513024558 8ae7fd80 dobldobl_predictors%b
+D double_double_constants.ads  20260513024558 cdc4699f double_double_constants%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_numbers_io.ads  20260513024558 bc33146a double_double_numbers_io%s
+D double_double_ring.ads  20260513024558 2b06ea65 double_double_ring%s
+D double_double_ring_io.ads  20260513024558 1a24aaa9 double_double_ring_io%s
+D double_double_vectors.ads  20260513024558 ffed19bd double_double_vectors%s
+D double_double_vectors_io.ads  20260513024558 27cc2b67 double_double_vectors_io%s
+D double_double_vecvecs.ads  20260513024558 e534e05b double_double_vecvecs%s
+D exponent_vectors.ads	20260513024558 60f6182d exponent_vectors%s
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_jaco_matrices.ads  20260513024558 2a609a16 generic_laur_jaco_matrices%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D handle_underflow_gracefully.ads  20260513024558 ced720f2 handle_underflow_gracefully%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D lists_of_floating_vectors.ads  20260513024558 ac5cfddf lists_of_floating_vectors%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D polyhedral_coefficient_homotopies.ads  20260513024558 b0aaf8ef polyhedral_coefficient_homotopies%s
+D process_io.ads	20260513024558 f33a87dd process_io%s
+D quad_double_constants.ads  20260513024558 b4a277a9 quad_double_constants%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_numbers_io.ads  20260513024558 34f2e427 quad_double_numbers_io%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quad_double_ring_io.ads  20260513024558 a7ff4e1f quad_double_ring_io%s
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quad_double_vectors_io.ads  20260513024558 85914a32 quad_double_vectors_io%s
+D quad_double_vecvecs.ads  20260513024558 5abfdeff quad_double_vecvecs%s
+D quaddobl_complex_equality_tests.ads  20260513024558 f3db9d96 quaddobl_complex_equality_tests%s
+D quaddobl_complex_laur_functions.ads  20260513024558 d2fb7c00 quaddobl_complex_laur_functions%s
+D quaddobl_complex_laur_jacomats.ads  20260513024558 9838ef7b quaddobl_complex_laur_jacomats%s
+D quaddobl_complex_laur_sysfun.ads  20260513024558 476c72d8 quaddobl_complex_laur_sysfun%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_linear_solvers.ads  20260513024558 86e310a9 quaddobl_complex_linear_solvers%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_qr_least_squares.ads  20260513024558 e2714a26 quaddobl_complex_qr_least_squares%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_ring-ffield.ads  20260513024558 c4890148 quaddobl_complex_ring.ffield%s
+D quaddobl_complex_singular_values.ads  20260513024558 640661d4 quaddobl_complex_singular_values%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vector_norms.ads  20260513024558 fd063214 quaddobl_complex_vector_norms%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_continuation_data.ads  20260513024558 555fad79 quaddobl_continuation_data%s
+D quaddobl_correctors.ads  20260513024558 cff73153 quaddobl_correctors%s
+D quaddobl_correctors.adb  20260513024558 b31049a8 quaddobl_correctors%b
+D quaddobl_data_on_path.ads  20260513024558 24631daf quaddobl_data_on_path%s
+D quaddobl_dispatch_predictors.ads  20260513024558 3c88a96a quaddobl_dispatch_predictors%s
+D quaddobl_dispatch_predictors.adb  20260513024558 75f81fd8 quaddobl_dispatch_predictors%b
+D quaddobl_extrapolators.ads  20260513024558 5b5f58f8 quaddobl_extrapolators%s
+D quaddobl_mathematical_functions.ads  20260513024558 04a8dea8 quaddobl_mathematical_functions%s
+D quaddobl_orthogonal_correctors.ads  20260513024558 7516c9ce quaddobl_orthogonal_correctors%s
+D quaddobl_orthogonal_correctors.adb  20260513024558 5599dc91 quaddobl_orthogonal_correctors%b
+D quaddobl_path_trackers.ads  20260513024558 5a405221 quaddobl_path_trackers%s
+D quaddobl_path_trackers.adb  20260513024558 944e4d7b quaddobl_path_trackers%b
+D quaddobl_predictors.ads  20260513024558 dc91e26e quaddobl_predictors%s
+D quaddobl_predictors.adb  20260513024558 5cd6eb23 quaddobl_predictors%b
+D single_polyhedral_trackers.ads  20260513024558 94cdb592 single_polyhedral_trackers%s
+D single_polyhedral_trackers.adb  20260513024558 f54990b6 single_polyhedral_trackers%b
+D standard_complex_laur_functions.ads  20260513024558 b680d0a9 standard_complex_laur_functions%s
+D standard_complex_laur_jacomats.ads  20260513024558 c8a210ce standard_complex_laur_jacomats%s
+D standard_complex_laur_sysfun.ads  20260513024558 7ae1e81b standard_complex_laur_sysfun%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_norms_equals.ads  20260513024558 14f0dc59 standard_complex_norms_equals%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_qr_least_squares.ads  20260513024558 d778cd55 standard_complex_qr_least_squares%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring-ffield.ads  20260513024558 bbb2cc35 standard_complex_ring.ffield%s
+D standard_complex_singular_values.ads  20260513024558 c29c8bc2 standard_complex_singular_values%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_continuation_data.ads  20260513024558 5caa45bb standard_continuation_data%s
+D standard_correctors.ads  20260513024558 f5a901a8 standard_correctors%s
+D standard_correctors.adb  20260513024558 29f03630 standard_correctors%b
+D standard_data_on_path.ads  20260513024558 2901c4e9 standard_data_on_path%s
+D standard_dispatch_predictors.ads  20260513024558 63cac21d standard_dispatch_predictors%s
+D standard_dispatch_predictors.adb  20260513024558 1fe27ecb standard_dispatch_predictors%b
+D standard_extrapolators.ads  20260513024558 0f6a9fd6 standard_extrapolators%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring_io.ads  20260513024558 cf09bbdc standard_floating_ring_io%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vectors_io.ads  20260513024558 9f873e12 standard_floating_vectors_io%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_orthogonal_correctors.ads  20260513024558 5bb92a6f standard_orthogonal_correctors%s
+D standard_orthogonal_correctors.adb  20260513024558 1e4cc590 standard_orthogonal_correctors%b
+D standard_path_trackers.ads  20260513024558 27a46896 standard_path_trackers%s
+D standard_path_trackers.adb  20260513024558 b85f6c59 standard_path_trackers%b
+D standard_predictors.ads  20260513024558 84a6f1dc standard_predictors%s
+D standard_predictors.adb  20260513024558 0799e174 standard_predictors%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnlfl.ads		20250808065140 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [track_path single_polyhedral_trackers 29 13 none]
+G c Z s b [track_path single_polyhedral_trackers 41 13 none]
+G c Z s b [track_path single_polyhedral_trackers 53 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [power_transform polyhedral_coefficient_homotopies 158 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [scale polyhedral_coefficient_homotopies 61 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [shallow_create standard_continuation_data 42 12 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [eval polyhedral_coefficient_homotopies 188 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [eval standard_complex_laur_jacomats 81 12 12_1]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [hermite standard_predictors 573 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [eval standard_complex_laur_sysfun 57 12 10_1]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [track_path single_polyhedral_trackers 29 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [track_path single_polyhedral_trackers 29 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [track_path single_polyhedral_trackers 29 13 none] [solve standard_complex_singular_values 117 12 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [linear_single_normal_silent_continue dobldobl_path_trackers 57 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [linear_single_conditioned_silent_continue dobldobl_path_trackers 84 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create double_double_numbers 35 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [power_transform polyhedral_coefficient_homotopies 158 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [scale polyhedral_coefficient_homotopies 61 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [shallow_create dobldobl_continuation_data 42 12 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [single_predictor dobldobl_dispatch_predictors 25 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [linear_single_initialize dobldobl_data_on_path 50 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [at_end dobldobl_data_on_path 22 12 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [tangent_single_real_predictor dobldobl_predictors 331 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [tangent_single_complex_predictor dobldobl_predictors 375 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [tangent_geometric_predictor dobldobl_predictors 440 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [hermite_single_real_predictor dobldobl_predictors 456 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [real_predictor dobldobl_predictors 54 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [complex_predictor dobldobl_predictors 74 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [geometric_predictor dobldobl_predictors 91 14 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [secant_single_real_predictor dobldobl_predictors 100 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [secant_single_complex_predictor dobldobl_predictors 248 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [secant_geometric_predictor dobldobl_predictors 302 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [eval polyhedral_coefficient_homotopies 205 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [eval dobldobl_complex_laur_jacomats 81 12 12_1]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [lufac dobldobl_complex_linear_solvers 36 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [min dobldobl_complex_vectors 60 13 4_1]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [lusolve dobldobl_complex_linear_solvers 163 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [max_norm dobldobl_complex_vector_norms 32 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [Ogt double_double_numbers 91 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [Odivide double_double_numbers 139 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [mul dobldobl_complex_vectors 64 13 4_1]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [add dobldobl_complex_vectors 58 13 4_1]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [absval dobldobl_complex_numbers 27 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [hermite dobldobl_predictors 609 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [single_quadratic_predictor dobldobl_dispatch_predictors 58 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [single_cubic_predictor dobldobl_dispatch_predictors 84 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [single_quartic_predictor dobldobl_dispatch_predictors 112 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [affine_single_severe_normal_silent_corrector dobldobl_correctors 62 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [projective_single_severe_normal_silent_corrector dobldobl_correctors 226 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [silent_qrls_corrector dobldobl_orthogonal_correctors 26 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [eval dobldobl_complex_laur_sysfun 57 12 10_1]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [create dobldobl_complex_numbers 17 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [qrd dobldobl_complex_qr_least_squares 14 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [qrls dobldobl_complex_qr_least_squares 80 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [linear_single_management dobldobl_data_on_path 69 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [linear_single_quadratic_management dobldobl_data_on_path 97 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [linear_single_cubic_management dobldobl_data_on_path 124 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [linear_single_quartic_management dobldobl_data_on_path 154 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [stop dobldobl_data_on_path 34 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [track_path single_polyhedral_trackers 41 13 none] [vecvecIP double_double_vecvecs 14 8 5_1]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [Olt double_double_numbers 84 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [update_direction dobldobl_data_on_path 260 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [affine_single_severe_conditioned_silent_corrector dobldobl_correctors 69 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [projective_single_severe_conditioned_silent_corrector dobldobl_correctors 240 13 none]
+G r i none [track_path single_polyhedral_trackers 41 13 none] [silent_svd_corrector dobldobl_orthogonal_correctors 70 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [norm1 dobldobl_complex_linear_solvers 30 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [estco dobldobl_complex_linear_solvers 78 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [min0 dobldobl_complex_singular_values 21 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [svd dobldobl_complex_singular_values 25 13 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [inverse_condition_number dobldobl_complex_singular_values 90 12 none]
+G r c none [track_path single_polyhedral_trackers 41 13 none] [solve dobldobl_complex_singular_values 118 12 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [linear_single_normal_silent_continue quaddobl_path_trackers 57 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [linear_single_conditioned_silent_continue quaddobl_path_trackers 84 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create quad_double_numbers 37 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [power_transform polyhedral_coefficient_homotopies 158 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [scale polyhedral_coefficient_homotopies 61 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [shallow_create quaddobl_continuation_data 42 12 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [single_predictor quaddobl_dispatch_predictors 25 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [linear_single_initialize quaddobl_data_on_path 50 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [at_end quaddobl_data_on_path 22 12 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [tangent_single_real_predictor quaddobl_predictors 332 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [tangent_single_complex_predictor quaddobl_predictors 376 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [tangent_geometric_predictor quaddobl_predictors 441 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [hermite_single_real_predictor quaddobl_predictors 457 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [real_predictor quaddobl_predictors 54 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [complex_predictor quaddobl_predictors 74 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [geometric_predictor quaddobl_predictors 91 14 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [secant_single_real_predictor quaddobl_predictors 100 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [secant_single_complex_predictor quaddobl_predictors 249 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [secant_geometric_predictor quaddobl_predictors 303 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [eval polyhedral_coefficient_homotopies 222 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [eval quaddobl_complex_laur_jacomats 81 12 12_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [lufac quaddobl_complex_linear_solvers 36 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [min quaddobl_complex_vectors 60 13 4_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [lusolve quaddobl_complex_linear_solvers 162 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [max_norm quaddobl_complex_vector_norms 32 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [mul quaddobl_complex_vectors 64 13 4_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [add quaddobl_complex_vectors 58 13 4_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [hermite quaddobl_predictors 610 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [single_quadratic_predictor quaddobl_dispatch_predictors 58 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [single_cubic_predictor quaddobl_dispatch_predictors 84 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [single_quartic_predictor quaddobl_dispatch_predictors 112 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [affine_single_severe_normal_silent_corrector quaddobl_correctors 62 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [projective_single_severe_normal_silent_corrector quaddobl_correctors 226 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [silent_qrls_corrector quaddobl_orthogonal_correctors 26 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [eval quaddobl_complex_laur_sysfun 57 12 10_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [create quaddobl_complex_numbers 25 12 5_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [qrd quaddobl_complex_qr_least_squares 14 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [qrls quaddobl_complex_qr_least_squares 80 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [linear_single_management quaddobl_data_on_path 69 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [linear_single_quadratic_management quaddobl_data_on_path 97 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [linear_single_cubic_management quaddobl_data_on_path 124 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [linear_single_quartic_management quaddobl_data_on_path 154 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [stop quaddobl_data_on_path 34 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [track_path single_polyhedral_trackers 53 13 none] [vecvecIP quad_double_vecvecs 14 8 5_1]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [Olt quad_double_numbers 125 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [update_direction quaddobl_data_on_path 260 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [affine_single_severe_conditioned_silent_corrector quaddobl_correctors 69 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [projective_single_severe_conditioned_silent_corrector quaddobl_correctors 240 13 none]
+G r i none [track_path single_polyhedral_trackers 53 13 none] [silent_svd_corrector quaddobl_orthogonal_correctors 70 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [norm1 quaddobl_complex_linear_solvers 30 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [estco quaddobl_complex_linear_solvers 77 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [min0 quaddobl_complex_singular_values 21 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [svd quaddobl_complex_singular_values 25 13 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [inverse_condition_number quaddobl_complex_singular_values 90 12 none]
+G r c none [track_path single_polyhedral_trackers 53 13 none] [solve quaddobl_complex_singular_values 118 12 none]
+X 15 arrays_of_floating_vector_lists.ads
+7K9*Arrays_of_Floating_Vector_Lists[62|15] 137|7w6 31r27 43r27 55r27 138|32r27
+. 132r27 236r27
+X 17 continuation_parameters.ads
+4K9*Continuation_Parameters 170e28 138|19w6 100r13 101r14 102r22 103r14 104r22
+. 105r14 106r22 107r14 202r13 203r14 204r22 205r14 206r22 207r14 208r22 209r14
+. 306r13 307r14 308r22 309r14 310r22 311r14 312r22 313r14
+11R8*Pred_Pars 21e13 138|100r37 102r46 202r37 204r46 306r37 308r46
+18f5*dist_target{164|13F8} 138|119m13 221m13 325m13
+23R8*Corr_Pars 31e13 138|104r46 106r46 206r46 208r46 310r46 312r46
+161V12*Create_for_Path{11R8} 138|101s38 203s38 307s38
+162V12*Create_End_Game{11R8} 138|103s38 205s38 309s38
+163V12*Create_for_Path{23R8} 138|105s38 207s38 311s38
+164V12*Create_End_Game{23R8} 138|107s38 209s38 313s38
+X 22 dobldobl_complex_laur_jacomats.ads
+12K9*DoblDobl_Complex_Laur_Jacomats[64|27] 137|13w6 50r27 51r27 138|139r27
+. 140r27 146r9
+X 23 dobldobl_complex_laur_sysfun.ads
+10K9*DoblDobl_Complex_Laur_SysFun[67|21] 137|12w6 49r27 138|138r27 145r9
+X 24 dobldobl_complex_laur_systems.ads
+5K9*DoblDobl_Complex_Laur_Systems[66|12] 137|11w6
+X 27 dobldobl_complex_matrices.ads
+5K9*DoblDobl_Complex_Matrices[71|9] 138|17w6 177r25 179r12
+X 28 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 138|6w6 143r9 161r24
+11R8*Complex_Number 85e15 138|153r25 161r49 176r24 200r21
+18V12*Create{11R8} 138|200s39 214s16
+24V12*REAL_PART{54|12R8} 138|156s16 168s16 182s16
+X 35 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 235e31 137|19w6 52r27 138|141r27 147r9
+20r5*t{28|11R8} 138|214m11
+23r5*err{54|12R8} 138|224m13
+24r5*rco{54|12R8} 138|225m13
+25r5*res{54|12R8} 138|226m13
+28P8*Link_to_Solution(19R8) 137|52r54 138|141r54
+X 36 dobldobl_complex_vector_norms.ads
+5K9*DoblDobl_Complex_Vector_Norms 37e34 138|13w6 144r9
+32V12*Max_Norm{54|12R8} 138|192r48 194r53
+X 37 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[74|8] 138|12w6 152r25 154r26 160r24 162r25 164r13
+. 175r24
+X 38 dobldobl_complex_vecvecs.ads
+5K9*DoblDobl_Complex_VecVecs[76|10] 137|5w6 45r27 47r27 138|134r27 136r27
+X 39 dobldobl_continuation_data.ads
+7K9*DoblDobl_Continuation_Data 138e31 138|22w6 148r9
+18R8*Solu_Info 32e13 138|216r13
+22f10*cora{164|13F8} 138|224r29
+22f20*resa{164|13F8} 138|226r29
+22f25*rcond{164|13F8} 138|225r29
+42V12*Shallow_Create{18R8} 138|216s26
+X 44 dobldobl_dispatch_predictors.adb
+13U15 TR_Predictor[51|331] 52|356b13[50|35[138|191]]
+14U15 TC_Predictor[51|375] 52|437b13[50|35[138|191]]
+15U15 TG_Predictor[51|440] 52|549b13[50|35[138|191]]
+16U15 HR_Predictor[51|456] 52|630b13[50|238[138|193]]
+X 49 dobldobl_path_trackers.ads
+13K9*DoblDobl_Path_Trackers 259e27 138|23w6 149r9
+57u13*Linear_Single_Normal_Silent_Continue 138|192r11
+84u13*Linear_Single_Conditioned_Silent_Continue 138|194r11
+X 50 dobldobl_path_trackers.adb
+35U15 Predictor[43|25] 44|5b13[138|191]
+39U17 Affine_Corrector[40|62] 41|36b13[138|191]
+41U17 Projective_Corrector[40|226] 41|320b13[138|191]
+43U17 QRLS_Corrector[47|26] 48|11b13[138|191]
+238U15 Predictor[43|25] 44|5b13[138|193]
+242U17 Affine_Corrector[40|69] 41|78b13[138|193]
+244U17 Projective_Corrector[40|240] 41|333b13[138|193]
+246U17 SVD_Corrector[47|70] 48|87b13[138|193]
+X 54 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 138|3w6 3r46
+12R8*double_double 170e13 138|198r23 199r22 219r13
+35V12*Create{12R8} 138|198s40 199s39 219s30 224s20 225s20 226s20
+X 58 double_double_vectors.ads
+4K9*Double_Double_Vectors[74|8] 138|10w6 218r13
+X 61 exponent_vectors.ads
+20K9*Exponent_Vectors 105e21 137|17w6 36r27 48r27 60r27 138|37r27 137r27
+. 241r27
+27A8*Exponent_Vectors_Array(76|15P8[175|5])<171|6I8> 137|36r44 48r44 60r44
+. 138|37r44 137r44 241r44
+X 62 generic_arrays_of_vector_lists.ads
+24A8*Array_of_Lists(70|22P8[81|6])<171|6I8> 137|31r59[15|7] 43r59[15|7] 55r59[15|7]
+. 138|32r59[15|7] 132r59[15|7] 236r59[15|7]
+X 63 generic_complex_numbers.ads
+19R8*Complex_Number 138|257r25[112|5] 265r49[112|5] 280r24[112|5] 304r21[112|5]
+26V12*Create{19R8[112|5]} 138|304s39[112|5] 318s16[112|5]
+32V12*REAL_PART{96|14R8} 138|260s16[112|5] 272s16[112|5] 286s16[112|5]
+X 64 generic_laur_jaco_matrices.ads
+52A8*Eval_Coeff_Jaco_Mat(65|31P8[139|7])<171|6I8><171|6I8> 137|38r58[140|12]
+. 50r58[22|12] 62r58[106|12] 138|39r58[140|12] 139r58[22|12] 243r58[106|12]
+55A8*Mult_Factors(74|17P8[155|4])<171|6I8><171|6I8> 137|39r58[140|12] 51r58[22|12]
+. 63r58[106|12] 138|40r58[140|12] 140r58[22|12] 244r58[106|12]
+81V12*Eval{147|11R8} 138|70s19[140|12] 85s22[140|12] 170s19[22|12] 185s22[22|12]
+. 274s19[106|12] 289s22[106|12]
+X 65 generic_laur_poly_functions.ads
+31P8*Eval_Coeff_Poly
+X 67 generic_laur_system_functions.ads
+37A8*Eval_Coeff_Laur_Sys(65|31P8[139|7])<171|6I8> 137|37r56[141|10] 49r56[23|10]
+. 61r56[107|10] 138|38r56[141|10] 138r56[23|10] 242r56[107|10]
+57V12*Eval{74|16A8[155|4]} 138|57s14[141|10] 157s14[23|10] 261s14[107|10]
+X 69 generic_lists.ads
+12P8*List
+X 70 generic_lists_of_vectors.ads
+22P8*List<69|12P8[21[81|6]]>
+X 71 generic_matrices.ads
+16A8*Matrix(147|11R8)<171|6I8><171|6I8> 138|77r51[145|5] 79r38[145|5] 177r51[27|5]
+. 179r38[27|5] 281r51[111|5] 283r38[111|5]
+X 74 generic_vectors.ads
+16A8*Vector(164|13F8)<171|6I8> 137|30r52[174|4] 42r52[174|4] 54r52[174|4]
+. 138|31r52[174|4] 52r50[155|4] 54r51[155|4] 60r49[155|4] 62r50[155|4] 64r38[155|4]
+. 75r49[155|4] 131r52[174|4] 152r50[37|4] 154r51[37|4] 160r49[37|4] 162r50[37|4]
+. 164r38[37|4] 175r49[37|4] 235r52[174|4] 256r50[121|4] 258r51[121|4] 264r49[121|4]
+. 266r50[121|4] 268r38[121|4] 279r49[121|4]
+17P8*Link_to_Vector(16A8[37|4]) 137|32r53[168|4] 44r53[168|4] 56r53[168|4]
+. 138|33r53[168|4] 116r39[168|4] 133r53[168|4] 218r35[58|4] 237r53[168|4]
+. 322r33[101|4]
+X 76 generic_vecvecs.ads
+14A8*VecVec(74|17P8[174|4])<171|6I8> 137|33r52[156|5] 45r52[38|5] 57r52[122|5]
+. 138|34r52[156|5] 134r52[38|5] 238r52[122|5]
+15P8*Link_to_VecVec(14A8[175|5]) 137|34r53[170|5] 35r52[156|5] 46r53[170|5]
+. 47r52[38|5] 58r53[170|5] 59r52[122|5] 138|35r53[170|5] 36r52[156|5] 135r53[170|5]
+. 136r52[38|5] 239r53[170|5] 240r52[122|5]
+X 93 polyhedral_coefficient_homotopies.ads
+21K9*Polyhedral_Coefficient_Homotopies 235e38 138|26w6 50r9 111r7 150r9 213r7
+. 254r9 317r7
+61U13*Scale 138|111s41 213s41 317s41
+158U13*Power_Transform 138|110s7 212s7 316s7
+188U13*Eval 138|56s7 68s7 82s7
+205U13*Eval 138|156s7 168s7 182s7
+222U13*Eval 138|260s7 272s7 286s7
+X 96 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 138|4w6 4r46
+14R8*quad_double 253e13 138|302r23 303r22 323r13
+37V12*Create{14R8} 138|302s38 303s37 323s28 328s20 329s20 330s20
+X 101 quad_double_vectors.ads
+4K9*Quad_Double_Vectors[74|8] 138|11w6 322r13
+X 106 quaddobl_complex_laur_jacomats.ads
+12K9*QuadDobl_Complex_Laur_Jacomats[64|27] 137|16w6 62r27 63r27 138|243r27
+. 244r27 250r9
+X 107 quaddobl_complex_laur_sysfun.ads
+10K9*QuadDobl_Complex_Laur_SysFun[67|21] 137|15w6 61r27 138|242r27 249r9
+X 108 quaddobl_complex_laur_systems.ads
+5K9*QuadDobl_Complex_Laur_Systems[66|12] 137|14w6
+X 111 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[71|9] 138|18w6 281r25 283r12
+X 112 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[63|11] 138|7w6 247r9 265r24
+X 119 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 235e31 137|20w6 64r27 138|245r27 251r9
+20r5*t{63|19R8[112|5]} 138|318m11
+23r5*err{96|14R8} 138|328m13
+24r5*rco{96|14R8} 138|329m13
+25r5*res{96|14R8} 138|330m13
+28P8*Link_to_Solution(19R8) 137|64r54 138|245r54
+X 120 quaddobl_complex_vector_norms.ads
+5K9*QuadDobl_Complex_Vector_Norms 37e34 138|15w6 248r9
+32V12*Max_Norm{96|14R8} 138|296r48 298r53
+X 121 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[74|8] 138|14w6 256r25 258r26 264r24 266r25 268r13
+. 279r24
+X 122 quaddobl_complex_vecvecs.ads
+5K9*QuadDobl_Complex_VecVecs[76|10] 137|6w6 57r27 59r27 138|238r27 240r27
+X 123 quaddobl_continuation_data.ads
+7K9*QuadDobl_Continuation_Data 138e31 138|24w6 252r9
+18R8*Solu_Info 32e13 138|320r13
+22f10*cora{164|13F8} 138|328r29
+22f20*resa{164|13F8} 138|330r29
+22f25*rcond{164|13F8} 138|329r29
+42V12*Shallow_Create{18R8} 138|320s26
+X 128 quaddobl_dispatch_predictors.adb
+13U15 TR_Predictor[135|332] 136|357b13[134|238[138|297]]
+14U15 TC_Predictor[135|376] 136|438b13[134|238[138|297]]
+15U15 TG_Predictor[135|441] 136|550b13[134|238[138|297]]
+16U15 HR_Predictor[135|457] 136|631b13[134|35[138|295]]
+X 133 quaddobl_path_trackers.ads
+13K9*QuadDobl_Path_Trackers 258e27 138|25w6 253r9
+57u13*Linear_Single_Normal_Silent_Continue 138|296r11
+84u13*Linear_Single_Conditioned_Silent_Continue 138|298r11
+X 134 quaddobl_path_trackers.adb
+35U15 Predictor[127|25] 128|5b13[138|295]
+39U17 Affine_Corrector[124|62] 125|37b13[138|295]
+41U17 Projective_Corrector[124|226] 125|321b13[138|295]
+43U17 QRLS_Corrector[131|26] 132|11b13[138|295]
+238U15 Predictor[127|25] 128|5b13[138|297]
+242U17 Affine_Corrector[124|69] 125|79b13[138|297]
+244U17 Projective_Corrector[124|240] 125|334b13[138|297]
+246U17 SVD_Corrector[131|70] 132|87b13[138|297]
+X 137 single_polyhedral_trackers.ads
+22K9*Single_Polyhedral_Trackers 86l5 86e31 138|28b14 338l5 338t31
+29U13*Track_Path 30>18 31>18 32>18 33>18 34>18 35>18 36>18 37>18 38>18 39>18
+. 40>18 138|30b13 128l7 128t17
+30a18 mxt{74|16A8[174|4]} 138|31b18 110r31
+31a18 lft{62|24A8[15|7]} 138|32b18 110r27
+32p18 nor{74|17P8[168|4]} 138|33b18 110r35
+33a18 cff{76|14A8[156|5]} 138|34b18 56r12 68r12 82r12
+34p18 dpw{76|15P8[170|5]} 138|35b18 56r29 68r29 82r29 110r43 111r47
+35p18 cft{76|15P8[156|5]} 138|36b18 56r37 57r23 68r37 70r50 82r37 85r49
+36a18 epv{61|27A8} 138|37b18 110r23
+37a18 hom{67|37A8[141|10]} 138|38b18 57r19 64r45
+38a18 ejf{64|52A8[140|12]} 138|39b18 70r24 85r27
+39a18 jmf{64|55A8[140|12]} 138|40b18 70r35 85r36
+40p18 sol{154|25P8} 138|41b18 112r7 114r41 122r9 122r28 122r48
+41U13*Track_Path 42>18 43>18 44>18 45>18 46>18 47>18 48>18 49>18 50>18 51>18
+. 52>18 138|130b13 232l7 232t17
+42a18 mxt{74|16A8[174|4]} 138|131b18 212r31
+43a18 lft{62|24A8[15|7]} 138|132b18 212r27
+44p18 nor{74|17P8[168|4]} 138|133b18 212r35
+45a18 cff{76|14A8[38|5]} 138|134b18 156r12 168r12 182r12
+46p18 dpw{76|15P8[170|5]} 138|135b18 156r29 168r29 182r29 212r43 213r47
+47p18 cft{76|15P8[38|5]} 138|136b18 156r37 157r23 168r37 170r50 182r37 185r49
+48a18 epv{61|27A8} 138|137b18 212r23
+49a18 hom{67|37A8[23|10]} 138|138b18 157r19 164r45
+50a18 ejf{64|52A8[22|12]} 138|139b18 170r24 185r27
+51a18 jmf{64|55A8[22|12]} 138|140b18 170r35 185r36
+52p18 sol{35|28P8} 138|141b18 214r7 216r41 224r9 225r9 226r9
+53U13*Track_Path 54>18 55>18 56>18 57>18 58>18 59>18 60>18 61>18 62>18 63>18
+. 64>18 138|234b13 336l7 336t17
+54a18 mxt{74|16A8[174|4]} 138|235b18 316r31
+55a18 lft{62|24A8[15|7]} 138|236b18 316r27
+56p18 nor{74|17P8[168|4]} 138|237b18 316r35
+57a18 cff{76|14A8[122|5]} 138|238b18 260r12 272r12 286r12
+58p18 dpw{76|15P8[170|5]} 138|239b18 260r29 272r29 286r29 316r43 317r47
+59p18 cft{76|15P8[122|5]} 138|240b18 260r37 261r23 272r37 274r50 286r37 289r49
+60a18 epv{61|27A8} 138|241b18 316r23
+61a18 hom{67|37A8[107|10]} 138|242b18 261r19 268r45
+62a18 ejf{64|52A8[106|12]} 138|243b18 274r24 289r27
+63a18 jmf{64|55A8[106|12]} 138|244b18 274r35 289r36
+64p18 sol{119|28P8} 138|245b18 318r7 320r41 328r9 329r9 330r9
+X 138 single_polyhedral_trackers.adb
+52V14 Eval{74|16A8[155|4]} 52b14 52>21 53>21 58l9 58t13 92r57 94r62
+52a21 x{74|16A8[155|4]} 57r31
+53r21 t{147|11R8} 56r26
+60V14 dHt{74|16A8[155|4]} 60b14 60>20 61>20 73l9 73t12 92r62 94r67
+60a20 x{74|16A8[155|4]} 65r35 70r61
+61r20 t{147|11R8} 68r26
+64a7 res{74|16A8[155|4]} 69r16 70m9 72r14
+65i7 xtl{171|6I8} 70r30 70r41
+69i11 k<long_integer> 70r13 70r28 70r39 70r54
+75V14 dHx{71|16A8[145|5]} 75b14 75>20 76>20 89l9 89t12 92r66 94r71
+75a20 x{74|16A8[155|4]} 79r45 79r53 85r60
+76r20 t{147|11R8} 82r26
+79a7 mt{71|16A8[145|5]} 83r16 84r18 85m11 88r14
+83i11 k<long_integer> 85r14 85r31 85r40 85r53
+84i13 L<long_integer> 85r16 85r33 85r42
+91U15 Track_Path_along_Path[184|56] 120s9 185|23b13
+93U15 Track_Path_at_End[184|83] 121s9 185|204b13
+96U15 Main 96b15 124l9 124t13 127s5
+98r7 t1{147|11R8} 120r33 121r29
+99f7 tol{164|13F8} 120r36 121r32
+100r7 pp1{17|11R8} 119m9 120r46
+102r7 pp2{17|11R8} 121r50
+104r7 cp1{17|23R8} 120r50
+106r7 cp2{17|23R8} 121r54
+114r9 s{157|18R8} 120m31 120r31 121m27 121r27 122r20 122r39 122r59
+115i9 w{171|6I8} 121m44 121r44
+116p9 v{74|17P8[168|4]} 121m46 121r46
+117f9 e{164|13F8} 121m48 121r48
+152V14 Eval{74|16A8[37|4]} 152b14 152>21 153>21 158l9 158t13 192r57 194r62
+152a21 x{74|16A8[37|4]} 157r31
+153r21 t{28|11R8} 156r26
+160V14 dHt{74|16A8[37|4]} 160b14 160>20 161>20 173l9 173t12 192r62 194r67
+160a20 x{74|16A8[37|4]} 165r35 170r61
+161r20 t{28|11R8} 168r26
+164a7 res{74|16A8[37|4]} 169r16 170m9 172r14
+165i7 xtl{171|6I8} 170r30 170r41
+169i11 k<long_integer> 170r13 170r28 170r39 170r54
+175V14 dHx{71|16A8[27|5]} 175b14 175>20 176>20 189l9 189t12 192r66 194r71
+175a20 x{74|16A8[37|4]} 179r45 179r53 185r60
+176r20 t{28|11R8} 182r26
+179a7 mt{71|16A8[27|5]} 183r16 184r18 185m11 188r14
+183i11 k<long_integer> 185r14 185r31 185r40 185r53
+184i13 L<long_integer> 185r16 185r33 185r42
+191U15 Track_Path_along_Path[49|57] 50|22b13 138|222s9
+193U15 Track_Path_at_End[49|84] 50|205b13 138|223s9
+196U15 Main 196b15 228l9 228t13 231s5
+198r7 zero{54|12R8} 214r23
+199r7 one{54|12R8} 200r46
+200r7 t1{28|11R8} 222r33 223r29
+201f7 tol{164|13F8} 222r36 223r32
+202r7 pp1{17|11R8} 221m9 222r46
+204r7 pp2{17|11R8} 223r50
+206r7 cp1{17|23R8} 222r50
+208r7 cp2{17|23R8} 223r54
+216r9 s{39|18R8} 222m31 222r31 223m27 223r27 224r27 225r27 226r27
+217i9 w{171|6I8} 223m44 223r44
+218p9 v{74|17P8[58|4]} 223m46 223r46
+219r9 e{54|12R8} 223m48 223r48
+256V14 Eval{74|16A8[121|4]} 256b14 256>21 257>21 262l9 262t13 296r57 298r62
+256a21 x{74|16A8[121|4]} 261r31
+257r21 t{63|19R8[112|5]} 260r26
+264V14 dHt{74|16A8[121|4]} 264b14 264>20 265>20 277l9 277t12 296r62 298r67
+264a20 x{74|16A8[121|4]} 269r35 274r61
+265r20 t{63|19R8[112|5]} 272r26
+268a7 res{74|16A8[121|4]} 273r16 274m9 276r14
+269i7 xtl{171|6I8} 274r30 274r41
+273i11 k<long_integer> 274r13 274r28 274r39 274r54
+279V14 dHx{71|16A8[111|5]} 279b14 279>20 280>20 293l9 293t12 296r66 298r71
+279a20 x{74|16A8[121|4]} 283r45 283r53 289r60
+280r20 t{63|19R8[112|5]} 286r26
+283a7 mt{71|16A8[111|5]} 287r16 288r18 289m11 292r14
+287i11 k<long_integer> 289r14 289r31 289r40 289r53
+288i13 L<long_integer> 289r16 289r33 289r42
+295U15 Track_Path_along_Path[133|57] 134|22b13 138|326s9
+297U15 Track_Path_at_End[133|84] 134|205b13 138|327s9
+300U15 Main 300b15 332l9 332t13 335s5
+302r7 zero{96|14R8} 318r23
+303r7 one{96|14R8} 304r46
+304r7 t1{63|19R8[112|5]} 326r33 327r29
+305f7 tol{164|13F8} 326r36 327r32
+306r7 pp1{17|11R8} 325m9 326r46
+308r7 pp2{17|11R8} 327r50
+310r7 cp1{17|23R8} 326r50
+312r7 cp2{17|23R8} 327r54
+320r9 s{123|18R8} 326m31 326r31 327m27 327r27 328r27 329r27 330r27
+321i9 w{171|6I8} 327m44 327r44
+322p9 v{74|17P8[101|4]} 327m46 327r46
+323r9 e{96|14R8} 327m48 327r48
+X 140 standard_complex_laur_jacomats.ads
+12K9*Standard_Complex_Laur_Jacomats[64|27] 137|10w6 38r27 39r27 138|39r27
+. 40r27 46r9
+X 141 standard_complex_laur_sysfun.ads
+10K9*Standard_Complex_Laur_SysFun[67|21] 137|9w6 37r27 138|38r27 45r9
+X 142 standard_complex_laur_systems.ads
+5K9*Standard_Complex_Laur_Systems[66|12] 137|8w6
+X 145 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[71|9] 138|16w6 77r25 79r12
+X 146 standard_complex_norms_equals.ads
+6K9*Standard_Complex_Norms_Equals 138|9w6 44r9 146|57e34
+29V12*Max_Norm{164|13F8} 138|92r48 94r53
+X 147 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 138|5w6 43r9 61r24 147|92e29
+11R8*Complex_Number 138|53r25 61r49 76r24 98r21 147|90e15
+18V12*Create{11R8} 138|98s39 112s16
+24V12*REAL_PART{164|13F8} 138|56s16 68s16 82s16
+X 154 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 137|18w6 40r27 138|41r27 47r9 154|206e31
+17r5*t{147|11R8} 138|112m11
+20f5*err{164|13F8} 138|122m13
+21f5*rco{164|13F8} 138|122m32
+22f5*res{164|13F8} 138|122m52
+25P8*Link_to_Solution(16R8) 137|40r54 138|41r54
+X 155 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[74|8] 138|8w6 52r25 54r26 60r24 62r25 64r13
+. 75r24
+X 156 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[76|10] 137|4w6 33r27 35r27 138|34r27 36r27
+X 157 standard_continuation_data.ads
+7K9*Standard_Continuation_Data 138|20w6 48r9 157|138e31
+18R8*Solu_Info 138|114r13 157|32e13
+22f10*cora{164|13F8} 138|122r22
+22f20*resa{164|13F8} 138|122r61
+22f25*rcond{164|13F8} 138|122r41
+42V12*Shallow_Create{18R8} 138|114s26
+X 162 standard_dispatch_predictors.adb
+13U15 TR_Predictor[186|330] 187|330b13[185|235[138|93]]
+14U15 TC_Predictor[186|374] 187|407b13[185|235[138|93]]
+15U15 TG_Predictor[186|439] 187|515b13[185|235[138|93]]
+16U15 HR_Predictor[186|455] 187|594b13[185|235[138|93]]
+X 164 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 138|2w6 2r46 164|58e30
+13F8*double_float<long_float> 138|99r22 117r13 201r22 305r22
+X 168 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[74|8] 137|2w6 32r27 44r27 56r27 138|33r27 116r13
+. 133r27 237r27
+X 170 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[76|10] 137|3w6 34r27 46r27 58r27 138|35r27
+. 135r27 239r27
+X 171 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 138|1w6 1r46 171|45e29
+6I8*integer32<long_integer> 138|65r22 115r13 165r22 217r13 269r22 321r13
+X 174 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[74|8] 137|1w6 30r27 42r27 54r27 138|31r27 131r27
+. 235r27
+X 184 standard_path_trackers.ads
+12K9*Standard_Path_Trackers 138|21w6 49r9 184|258e27
+56u13*Linear_Single_Normal_Silent_Continue 138|92r11
+83u13*Linear_Single_Conditioned_Silent_Continue 138|94r11
+X 185 standard_path_trackers.adb
+36U15 Predictor[161|24] 162|5b13[138|91]
+40U17 Affine_Corrector[158|114] 159|277b13[138|91]
+42U17 Projective_Corrector[158|242] 159|753b13[138|91]
+44U17 QRLS_Corrector[182|25] 183|10b13[138|91]
+235U15 Predictor[161|24] 162|5b13[138|93]
+239U17 Affine_Corrector[158|128] 159|363b13[138|93]
+241U17 Projective_Corrector[158|256] 159|855b13[138|93]
+243U17 SVD_Corrector[182|69] 183|86b13[138|93]
+

@@ -1,0 +1,100 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U file_scanning%b	file_scanning.adb	40bb28b7 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+U file_scanning%s	file_scanning.ads	ae92c354 EE NE OO PK
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D file_scanning.ads	20260513024558 8f200bcc file_scanning%s
+D file_scanning.adb	20260513024558 cf9b237b file_scanning%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [scan_line_for_number file_scanning 8 12 none]
+G c Z s b [scan file_scanning 15 13 none]
+G c Z s b [scan file_scanning 24 13 none]
+G c Z s b [scan_line file_scanning 26 13 none]
+G c Z s b [scan_and_skip file_scanning 39 13 none]
+X 9 a-textio.ads
+67P9*File_Type 11|8r45 15r30 24r30 26r35 39r39 12|3r45 28r30 44r30 72r35
+. 100r39
+290U14*Skip_Line 12|108s11
+302V13*End_Of_Line{boolean} 12|9s15 79s15
+341V13*End_Of_File{boolean} 12|34s15 51s15
+414U14*Get 12|10s7 35s7 52s7 80s7
+X 11 file_scanning.ads
+3K9*File_Scanning 45l5 45e18 12|1b14 113l5 113t18
+8V12*Scan_Line_for_Number{natural} 8>35 12|3b12 26l7 26t27
+8p35 file{9|67P9} 12|3b35 9r27 10r11
+15U13*Scan 15>20 15>41 16<20 12|28b13 42l7 42t11
+15p20 file{9|67P9} 12|28b20 34r27 35r11
+15e41 ch{character} 12|28b41 36r14
+16b20 found{boolean} 12|29b20 37m13 41m5
+24U13*Scan 24>20 24>41 25<20 12|44b13 70l7 70t11 106s5
+24p20 file{9|67P9} 12|44b20 51r27 52r11
+24a41 banner{string} 12|44b41 47r24 53r18 54r21 54r28 55r28 57r21 59r28 62r25
+. 64r16
+25b20 found{boolean} 12|45b20 65m11 66m11 69m20
+26U13*Scan_Line 26>25 26>46 27<25 12|72b13 98l7 98t16
+26p25 file{9|67P9} 12|72b25 79r27 80r11
+26a46 banner{string} 12|72b46 75r24 81r18 82r21 82r28 83r28 85r21 87r28 90r25
+. 92r16
+27b25 found{boolean} 12|73b25 93m11 94m11 97m20
+39U13*Scan_and_Skip 39>29 39>50 40<29 12|100b13 111l7 111t20
+39p29 file{9|67P9} 12|100b29 106r10 108r21
+39a50 banner{string} 12|100b50 106r15
+40b29 found{boolean} 12|101b29 110m5
+X 12 file_scanning.adb
+5i5 m{natural} 12m21 12r29 13m21 13r29 14m21 14r29 15m21 15r29 16m21 16r29
+. 17m21 17r29 18m21 18r29 19m21 19r29 20m21 20r29 21m21 21r29 25r12
+6e5 ch{character} 10m16 11r12
+31e5 c{character} 35m16 36r10
+47i5 index{natural} 53r10 55m19 57r28 58m19 58r28 59m19 62r17 64r8
+48e5 ch{character} 52m16 54r16 57r16
+75i5 index{natural} 81r10 83m19 85r28 86m19 86r28 87m19 90r17 92r8
+76e5 ch{character} 80m16 82r16 85r16
+103b5 fnd{boolean} 106m22 107r8 110r14
+X 29 text_io.ads
+27K9*Text_IO=27:29 11|1w6 1r46
+

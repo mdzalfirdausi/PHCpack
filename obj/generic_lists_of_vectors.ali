@@ -1,0 +1,202 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_lists_of_vectors%b  generic_lists_of_vectors.adb  cee08cc8 NE OO PK GE
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+U generic_lists_of_vectors%s  generic_lists_of_vectors.ads  f028056e BN EE NE OO PK GE
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W generic_vecvecs%s	generic_vecvecs.adb	generic_vecvecs.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_lists_of_vectors.adb  20260513024558 d56bc479 generic_lists_of_vectors%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [generic_lists_of_vectors standard 12 9 none]
+X 1 abstract_ring.ads
+3+8 number
+25k9*Abstract_Ring 25e29 4|1w6 8r28
+X 2 generic_lists.ads
+7k9*Generic_Lists 104e18 4|4w6 21r31
+12P8 List 4|22r33[21] 5|303r37[4|21]
+26U13 Construct 5|80s7[4|21] 86s9[4|21]
+31U13 Set_Head 5|214s13[4|21] 215s13[4|21]
+38U13 Swap_Tail 5|87s9[4|21] 186s11[4|21]
+43U13 Append 5|24s7[4|21] 103s11[4|21]
+49U13 Concat 5|125s5[4|21]
+67V12 Length_Of{9|7I8} 5|31s31[4|21] 48s31[4|21]
+72V12 Is_Null{boolean} 5|67s15[4|21] 79s8[4|21] 113s12[4|21] 115s17[4|21]
+. 134s12[4|21] 136s17[4|21] 150s12[4|21] 152s17[4|21] 167s12[4|21] 176s19[4|21]
+. 207s12[4|21] 211s19[4|21] 241s15[4|21] 264s15[4|21] 293s15[4|21]
+77V12 Head_Of{6|17P8[4|9]} 5|37s40[4|21] 53s17[4|21] 68s13[4|21] 116s15[4|21]
+. 137s15[4|21] 153s15[4|21] 168s14[4|21] 177s18[4|21] 208s16[4|21] 212s17[4|21]
+. 242s13[4|21] 265s23[4|21] 294s12[4|21]
+84V12 Tail_Of{12P8[4|21]} 5|41s14[4|21] 54s14[4|21] 70s14[4|21] 88s17[4|21]
+. 118s16[4|21] 139s16[4|21] 155s16[4|21] 171s14[4|21] 175s15[4|21] 181s17[4|21]
+. 185s17[4|21] 210s16[4|21] 219s18[4|21] 245s20[4|21] 267s20[4|21] 296s14[4|21]
+93U13 Clear 5|303s18[4|21]
+X 4 generic_lists_of_vectors.ads
+8K16 Ring[1|25] 9r47 10r47
+9K16 Vectors[6|8] 10r52 17r7 5|37r22
+10K16 VecVecs[7|10] 17r15
+12k9*Generic_Lists_of_Vectors 8z16 9z16 10z16 117l5 117e29 5|3b14 306l5 306t29
+21K11*Vector_Lists[2|7] 22r20 5|303r5 303r24
+22P8*List<2|12P8[21]> 26r49 27r49 29r33 30r33 39r28 39r46 45r28 52r24 53r24
+. 58r31 65r42 71r47 72r47 77r50 77r63 78r50 78r63 85r55 85r68 86r55 86r68
+. 93r33 94r33 99r40 100r40 109r40 110r40 5|7r46 9r20 18r49 20r20 29r30 32r11
+. 46r33 49r11 59r28 59r46 61r19 74r42 84r15 93r47 100r47 107r47 107r60 109r11
+. 123r50 123r63 128r52 128r65 130r11 144r55 144r68 146r11 160r33 164r13 192r33
+. 199r40 203r11 225r40 234r24 236r11 251r24 259r31 261r11 273r28 286r37 288r11
+. 301r40
+26V12*Deep_Create{22P8} 26>29 5|7b12 16l7 16t18
+26a29 v{7|14A8[10]} 5|7b26 12r14 13r27
+27V12*Shallow_Create{22P8} 27>29 5|18b12 27l7 27t21
+27a29 v{7|14A8[10]} 5|18b29 23r14 24r27
+29V12*Deep_Create{7|14A8[10]} 29>29 5|29b12 44l7 44t18
+29p29 L{22P8} 5|29b26 31r41 32r19
+30V12*Shallow_Create{7|14A8[10]} 30>29 5|46b12 57l7 57t21
+30p29 L{22P8} 5|46b29 48r41 49r19
+39U13*Copy<2|55p13> 39>20 39=34 5|59b13 72l7 72t11
+39p20 L1{22P8} 5|59b20 66r12
+39p34 L2{22P8} 5|59b34 65m16 69m14
+45V12*Equal{boolean} 45>20 45>23 5|273b12 282l7 282t12
+45p20 L1{22P8} 5|273b20 275r21 277r27
+45p23 L2{22P8} 5|273b23 275r24 277r24
+52V12*Is_In{boolean} 52>20 52>30 5|95s12 234b12 249l7 249t12 255s18
+52p20 L{22P8} 5|234b20 240r12
+52a30 v{6|16A8[9]} 5|234b30 243r23
+53V12*Is_In{boolean} 53>20 53>30 5|102s31 251b12 257l7 257t12 265s14
+53p20 L{22P8} 5|251b20 255r24
+53p30 v{6|17P8[9]} 5|251b30 253r8 255r26
+58V12*Sub_List{boolean} 58>23 58>26 5|259b12 271l7 271t15 275s12 277s15
+58p23 L1{22P8} 5|259b23 261r19
+58p26 L2{22P8} 5|259b26 265r20
+65U13*Append 65=22 65=28 65>48 5|13s7 69s7 74b13 91l7 91t13 96s11 117s9
+65p22 first{22P8} 5|74b22 79r16 80m20 81r15
+65p28 last{22P8} 5|74b28 81m7 87m19 88m9 88r25
+65a48 v{6|16A8[9]} 5|74b48 76r40
+71U13*Append_Diff 71=27 71=33 71>53 5|93b13 98l7 98t18 138s9
+71p27 first{22P8} 5|93b27 95r18 96m18
+71p33 last{22P8} 5|93b33 96m24
+71a53 v{6|16A8[9]} 5|93b53 95r24 96r29
+72U13*Append_Diff 72=27 72=33 72>53 5|100b13 105l7 105t18 154s9
+72p27 first{22P8} 5|100b27 102r37 103m18
+72p33 last{22P8} 5|100b33 103m24
+72p53 v{6|17P8[9]} 5|100b53 102r8 102r43 103r29
+77U13*Deep_Concat 77=30 77=36 77>56 5|107b13 121l7 121t18
+77p30 first{22P8} 5|107b27 117m16
+77p36 last{22P8} 5|107b33 117m22
+77p56 L{22P8} 5|107b53 113r20 114r14
+78U13*Shallow_Concat 78=30 78=36 78>56 5|123b13 126l7 126t21
+78p30 first{22P8} 5|123b30 125m12
+78p36 last{22P8} 5|123b36 125m18
+78p56 L{22P8} 5|123b56 125r23
+85U13*Deep_Concat_Diff 85=35 85=41 85>61 5|128b13 142l7 142t23
+85p35 first{22P8} 5|128b32 138m21
+85p41 last{22P8} 5|128b38 138m27
+85p61 L{22P8} 5|128b58 134r20 135r14
+86U13*Shallow_Concat_Diff 86=35 86=41 86>61 5|144b13 158l7 158t26
+86p35 first{22P8} 5|144b35 154m21
+86p41 last{22P8} 5|144b41 154m27
+86p61 L{22P8} 5|144b61 150r20 151r14
+93U13*Remove 93=22 93>39 5|160b13 190l7 190t13 195s11
+93p22 L{22P8} 5|160b22 167r20 168r22 171m9 171r22 174r15
+93a39 x{6|16A8[9]} 5|160b39 169r20 178r31
+94U13*Remove 94=22 94>39 5|192b13 197l7 197t13
+94p22 L{22P8} 5|192b22 195m18
+94p39 x{6|17P8[9]} 5|192b39 194r8 195r20
+99U13*Swap_to_Front 99=29 99>46 5|199b13 223l7 223t20 228s11
+99p29 L{22P8} 5|199b29 207r20 208r24 210r24 215m22
+99a46 x{6|16A8[9]} 5|199b46 209r23 213r23
+100U13*Swap_to_Front 100=29 100>46 5|225b13 230l7 230t20
+100p29 L{22P8} 5|225b29 228m25
+100p46 x{6|17P8[9]} 5|225b46 227r8 228r27
+109U13*Deep_Clear 109=29 5|65s5 286b13 299l7 299t17
+109p29 L{22P8} 5|286b26 292r12 298m19
+110U13*Shallow_Clear 110=29 5|298s5 301b13 304l7 304t20
+110p29 L{22P8} 5|301b29 303m42 303r42
+X 5 generic_lists_of_vectors.adb
+9p5 res{4|22P8} 13m14 13r14 15r12
+9p9 res_last{4|22P8} 13m18 13r18
+12i9 i<long_integer> 13r29
+20p5 res{4|22P8} 24m14 24r14 26r12
+20p9 res_last{4|22P8} 24m18 24r18
+23i9 i<long_integer> 24r29
+31a5 res{7|14A8[4|10]} 35r14 39m9 43r12
+32p5 tmp{4|22P8} 37r48 41m7 41r22
+35i9 i<long_integer> 39r13
+37a9 v{6|16A8[4|9]} 39r31
+48a5 res{7|14A8[4|10]} 52r14 53m7 56r12
+49p5 tmp{4|22P8} 53r25 54m7 54r22
+52i9 i<long_integer> 53r11
+61p5 tmp{4|22P8} 66m5 67r23 68r21 70m7 70r22
+61p9 L2_last{4|22P8} 69m17 69r17
+62p5 lv{6|17P8[4|9]} 68m7 69r25
+76p5 lv{6|17P8[4|9]} 80r17 86r19
+84p9 tmp{4|22P8} 86m22 86r22 87m24 87r24
+109p5 tmp{4|22P8} 114m7 115r25 116r23 118m9 118r24
+110p5 lv{6|17P8[4|9]} 116m9 117r27
+130p5 tmp{4|22P8} 135m7 136r25 137r23 139m9 139r24
+131p5 lv{6|17P8[4|9]} 137m9 138r32
+146p5 tmp{4|22P8} 151m7 152r25 153r23 155m9 155r24
+147p5 lv{6|17P8[4|9]} 153m9 154r32
+162p5 lpt{6|17P8[4|9]} 168m7 169r10 170m15 170r15 177m11 178r21 184m17 184r17
+163b5 found{boolean} 173m9 178m11 179r21 183r12
+164p5 L1{4|22P8} 174m9 175r23 180m11 181r25 186m21 186r21
+164p8 L2{4|22P8} 175m9 176r27 177r26 180r17 181m11 185m11 185r25 186m24 186r24
+201p5 first{6|17P8[4|9]} 208m7 209r10 214r26
+202p5 pt{6|17P8[4|9]} 212m11 213r14 215r24
+203p5 tmp{4|22P8} 210m9 211r27 212r25 214m22 214r22 219m11 219r26
+204b5 done{boolean} 216m13 218r21
+236p5 tmp{4|22P8} 240m5 241r23 242r21 245m13 245r28
+237p5 v2{6|17P8[4|9]} 242m7 243r16
+261p5 tmp{4|22P8} 264r23 265r31 267m13 267r28
+288p5 tmp{4|22P8} 292m5 293r23 294r20 296m7 296r22
+289p5 v{6|17P8[4|9]} 294m7 295m13 295r13
+X 6 generic_vectors.ads
+8k9*Generic_Vectors 4|2w6 9r31 6|74e20
+16A8 Vector(1|3+8[4|8])<8|6I8> 4|52r34[9] 65r55[9] 71r60[9] 93r46[9] 99r53[9]
+. 5|37r30[4|9] 39r23[4|9] 74r55[4|9] 76r32[4|9] 93r60[4|9] 160r46[4|9] 199r53[4|9]
+. 234r34[4|9]
+17P8 Link_to_Vector(16A8[4|9]) 4|21r45[9] 53r34[9] 72r60[9] 94r46[9] 100r53[9]
+. 5|62r10[4|9] 76r10[4|9] 100r60[4|9] 110r10[4|9] 131r10[4|9] 147r10[4|9]
+. 162r11[4|9] 192r46[4|9] 201r13[4|9] 202r10[4|9] 225r53[4|9] 237r10[4|9]
+. 251r34[4|9] 289r9[4|9]
+21V12 Equal{boolean} 5|243s10[4|9]
+72U13 Clear 5|170s9[4|9] 184s11[4|9] 295s7[4|9]
+X 7 generic_vecvecs.ads
+10k9*Generic_VecVecs 4|3w6 10r31 7|43e20
+14A8 VecVec(6|17P8[4|9])<8|6I8> 4|26r33[10] 27r33[10] 29r47[10] 30r47[10]
+. 5|7r30[4|10] 18r33[4|10] 29r44[4|10] 31r11[4|10] 46r47[4|10] 48r11[4|10]
+X 8 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|1w6 1r47 8|45e29
+6I8*integer32<long_integer> 5|31r21 48r21
+X 9 standard_natural_numbers.ads
+7I8*natural32<long_integer>
+

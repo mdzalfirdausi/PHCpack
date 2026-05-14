@@ -1,0 +1,98 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dobldobl_univariate_interpolators%b  dobldobl_univariate_interpolators.adb  5f329300 NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U dobldobl_univariate_interpolators%s  dobldobl_univariate_interpolators.ads  393d9107 EE NE OO PK
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_univariate_interpolators.ads  20260513024556 d53d7b1f dobldobl_univariate_interpolators%s
+D dobldobl_univariate_interpolators.adb  20260513024556 f5ef8a04 dobldobl_univariate_interpolators%b
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [create dobldobl_univariate_interpolators 13 12 none]
+G c Z s b [expand dobldobl_univariate_interpolators 34 12 none]
+G c Z s b [evalf dobldobl_univariate_interpolators 45 12 none]
+G c Z s b [evalc dobldobl_univariate_interpolators 52 12 none]
+G r c none [create dobldobl_univariate_interpolators 13 12 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [create dobldobl_univariate_interpolators 13 12 none] [Odivide dobldobl_complex_numbers 56 12 none]
+G r c none [expand dobldobl_univariate_interpolators 34 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [expand dobldobl_univariate_interpolators 34 12 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [expand dobldobl_univariate_interpolators 34 12 none] [Osubtract dobldobl_complex_numbers 54 12 none]
+G r c none [expand dobldobl_univariate_interpolators 34 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [evalf dobldobl_univariate_interpolators 45 12 none] [Osubtract dobldobl_complex_numbers 53 12 none]
+G r c none [evalf dobldobl_univariate_interpolators 45 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [evalf dobldobl_univariate_interpolators 45 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [evalc dobldobl_univariate_interpolators 52 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [evalc dobldobl_univariate_interpolators 52 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+X 2 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 5|1w6 1r44
+11R8*Complex_Number 85e15 5|45r38 45r62 52r36 52r60 6|38r38 38r62 40r11 50r36
+. 50r60 52r11
+51V13*"+"{11R8} 6|31s30 45s18 57s18
+53V13*"-"{11R8} 6|14s27 14s43 29s28 44s21
+54V13*"-"{11R8} 6|31s17
+55V13*"*"{11R8} 6|29s34 31s22 44s17 56s17
+56V13*"/"{11R8} 6|14s36
+X 4 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[8|8] 5|2w6 2r44
+X 5 dobldobl_univariate_interpolators.ads
+4K9*DoblDobl_Univariate_Interpolators 59l5 59e38 6|3b14 62l5 62t38
+13V12*Create{8|16A8[4|4]} 13>21 13>23 6|7b12 18l7 18t13
+13a21 x{8|16A8[4|4]} 6|7b21 14r38 14r45
+13a23 y{8|16A8[4|4]} 6|7b23 9r18 9r30 12r17
+34V12*Expand{8|16A8[4|4]} 34>21 34>23 6|20b12 34l7 34t13
+34a21 f{8|16A8[4|4]} 6|20b21 22r18 25r15 25r17 26r25 27r11 27r28 28r27 31r32
+34a23 x{8|16A8[4|4]} 6|20b23 29r30 31r18
+45V12*Evalf{2|11R8} 45>20 45>22 45>34 6|38b12 48l7 48t12
+45a20 f{8|16A8[4|4]} 6|38b20 40r29 40r31 43r25 45r20
+45a22 x{8|16A8[4|4]} 6|38b22 44r23
+45r34 a{2|11R8} 6|38b34 44r19
+52V12*Evalc{2|11R8} 52>20 52>32 6|50b12 60l7 60t12
+52a20 c{8|16A8[4|4]} 6|50b20 52r29 52r31 55r25 57r20
+52r32 x{2|11R8} 6|50b32 56r18
+X 6 dobldobl_univariate_interpolators.adb
+9a5 res{8|16A8[4|4]} 14m9 14r20 14r29 17r12
+12i9 i<long_integer> 13r20 14r13 14r33 14r47
+13i11 j<long_integer> 14r24 14r40
+22a5 res{8|16A8[4|4]} 25m5 27m7 27r24 29m9 29r19 29r35 31m7 31r23 33r12
+26i9 i<long_integer> 27r18 27r35 28r34 29r32 31r20 31r34
+28i11 j<long_integer> 29r13 29r23 29r39
+40r5 res{2|11R8} 44m7 44r14 45m7 45r14 47r12
+43i9 i<long_integer> 44r25 45r22
+52r5 res{2|11R8} 56m7 56r14 57m7 57r14 59r12
+55i9 i<long_integer> 57r22
+X 8 generic_vectors.ads
+16A8*Vector(2|11R8)<10|6I8> 5|13r27[4|4] 13r43[4|4] 34r27[4|4] 34r43[4|4]
+. 45r26[4|4] 52r24[4|4] 6|7r27[4|4] 7r43[4|4] 9r11[4|4] 20r27[4|4] 20r43[4|4]
+. 22r11[4|4] 38r26[4|4] 50r24[4|4]
+X 10 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 6|1w6 1r46 10|45e29
+

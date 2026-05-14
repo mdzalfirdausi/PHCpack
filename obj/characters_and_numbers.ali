@@ -1,0 +1,178 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U characters_and_numbers%b  characters_and_numbers.adb  d0c89005 NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_conversion%s
+
+U characters_and_numbers%s  characters_and_numbers.ads  72bc624b EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D characters_and_numbers.ads  20260513024558 8b0f2874 characters_and_numbers%s
+D characters_and_numbers.adb  20260513024558 91e82669 characters_and_numbers%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchconv.ads		20250808065140 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [integer_to_character characters_and_numbers 12 12 none]
+G c Z s b [character_to_integer characters_and_numbers 13 12 none]
+G c Z s b [convert characters_and_numbers 19 12 none]
+G c Z s b [convert characters_and_numbers 25 12 none]
+G c Z s b [convert characters_and_numbers 26 12 none]
+G c Z s b [convert characters_and_numbers 32 12 none]
+G c Z s b [convert characters_and_numbers 33 12 none]
+G c Z s b [convert characters_and_numbers 39 12 none]
+G c Z s b [convert_decimal characters_and_numbers 45 12 none]
+G c Z s b [convert_hexadecimal characters_and_numbers 50 12 none]
+G c Z s b [convert_hexadecimal characters_and_numbers 56 12 none]
+G c Z s b [nconvert characters_and_numbers 61 12 none]
+G c Z s b [nconvert characters_and_numbers 62 12 none]
+G c Z s b [convert characters_and_numbers 67 12 none]
+G c Z s b [convert characters_and_numbers 68 12 none]
+G c Z s b [skip_spaces characters_and_numbers 73 13 none]
+G c Z s b [skip_underscores characters_and_numbers 79 13 none]
+X 9 a-textio.ads
+67P9*File_Type 11|73r37 79r42 12|252r37 260r42
+302V13*End_Of_Line{boolean} 12|255s27 263s27
+414U14*Get 12|254s5 256s7 262s5 264s7
+X 11 characters_and_numbers.ads
+6K9*Characters_and_Numbers 85l5 85e27 12|3b14 268l5 268t27
+12V12*Integer_to_Character{character} 12>35 12|7b12 14l7 14t27
+12i35 i{16|6I8} 12|7b35 13r45
+13V12*Character_to_Integer{16|6I8} 13>35 12|16b12 23l7 23t27
+13e35 c{character} 12|16b35 22r45
+19V12*Convert{17|7I8} 19>22 12|25b12 40l7 40t14 106s14 121s24 182s14
+19e22 c{character} 12|25b22 27r10
+25V12*Convert{17|7I8} 25>22 12|99b12 112l7 112t14 142s19 145s19
+25a22 s{string} 12|99b22 105r14 106r22
+26V12*Convert{17|8I8} 26>22 12|114b12 127l7 127t14 165s19 168s19
+26a22 s{string} 12|114b22 120r14 121r32
+32V12*Convert{16|6I8} 32>22 12|129b12 150l7 150t14
+32a22 s{string} 12|129b22 133r22 136r11 138r24 140r15 141r10 142r27 142r36
+. 145r27 145r34
+33V12*Convert{16|7I8} 33>22 12|152b12 173l7 173t14
+33a22 s{string} 12|152b22 156r22 159r11 161r24 163r15 164r10 165r27 165r36
+. 168r27 168r34
+39V12*Convert{15|13F8} 39>22 12|175b12 188l7 188t14
+39a22 s{string} 12|175b22 181r14 182r22
+45V12*Convert_Decimal{character} 45>30 12|42b12 57l7 57t22 85s14 196s19 207s26
+. 219s19 230s26
+45i30 n{17|7I8} 12|42b30 44r10
+50V12*Convert_Hexadecimal{17|7I8} 50>34 12|59b12 80l7 80t26
+50e34 c{character} 12|59b34 61r11
+56V12*Convert_Hexadecimal{character} 56>34 12|82b12 97l7 97t26
+56i34 n{17|7I8} 12|82b34 84r8 85r30 87r12
+61V12*nConvert{string} 61>23 12|190b12 211l7 211t15 239s24 240s18
+61i23 n{17|7I8} 12|190b23 192r8 196r35 201r38 202r38
+62V12*nConvert{string} 62>23 12|213b12 226s38 234l7 234t15 247s24 248s18
+62i23 n{17|8I8} 12|213b23 215r8 219r45 224r38 225r38
+67V12*Convert{string} 67>22 12|203s38 236b12 242l7 242t14
+67i22 i{16|6I8} 12|236b22 238r8 239r44 240r37
+68V12*Convert{string} 68>22 12|244b12 250l7 250t14
+68i22 i{16|7I8} 12|244b22 246r8 247r44 248r37
+73U13*Skip_Spaces 73>27 73=48 12|252b13 258l7 258t18
+73p27 file{9|67P9} 12|252b27 254r9 255r39 256r11
+73e48 c{character} 12|252b48 254m14 255r11 256m16
+79U13*Skip_Underscores 79>32 79=53 12|260b13 266l7 266t23
+79p32 file{9|67P9} 12|260b32 262r9 263r39 264r11
+79e53 c{character} 12|260b53 262m14 263r11 264m16
+X 12 characters_and_numbers.adb
+5I11 short_int{integer} 10r28 13r35 19r38
+9V14 short_int_to_character[33|22]{character} 13s12
+18V14 character_to_short_int[33|22]{integer} 22s22
+101i5 acc{17|7I8} 108m13 108r20 111r12
+102i5 cvn{17|7I8} 106m7 107r10 108r29
+105i9 i{integer} 106r24
+116i5 acc{17|8I8} 123m13 123r20 126r12
+117i5 cvn{17|8I8} 121m7 122r10 123r29
+120i9 i{integer} 121r34
+131i5 res{16|6I8} 143m9 146m9 149r12
+132i5 resnat{17|7I8} 142m9 143r27 145m9 146r26
+133i5 pos{integer} 136r13 137m7 137r14 138r18 140r8 141r12 142r29 145r29
+154i5 res{16|7I8} 166m9 169m9 172r12
+155i5 resnat{17|8I8} 165m9 166r27 168m9 169r26
+156i5 pos{integer} 159r13 160m7 160r14 161r18 163r8 164r12 165r29 168r29
+177f5 acc{15|13F8} 184m13 184r20 187r12
+178i5 cvn{17|7I8} 182m7 183r10 184r44
+181i9 i{integer} 182r24
+194a9 res{string} 196m9 197r16
+201i9 rest{17|7I8} 207r42
+202i9 head{17|7I8} 203r56
+203a9 headstr{string} 204r25 206r13 206r31
+204a9 res{string} 206m9 207m9 207r13 208r16
+217a9 res{string} 219m9 220r16
+224i9 rest{17|8I8} 230r52
+225i9 head{17|8I8} 226r47
+226a9 headstr{string} 227r25 229r13 229r31
+227a9 res{string} 229m9 230m9 230r13 231r16
+X 15 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 11|4w6 4r46 15|58e30
+13F8*double_float<long_float> 11|39r42 12|175r42 177r11 184r31
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 11|3w6 3r46 16|45e29
+6I8*integer32<long_integer> 11|12r39 13r58 32r42 67r26 12|7r39 16r58 22r12
+. 129r42 131r11 143r17 146r16 203r46 236r26
+7I8*integer64<long_long_integer> 11|33r42 68r26 12|152r42 154r11 166r17 169r16
+. 244r26
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 11|2w6 2r46 17|30e29
+7I8*natural32<long_integer> 11|19r45 25r42 45r34 50r57 56r38 61r27 12|25r45
+. 42r34 59r57 82r38 99r42 101r11 102r11 132r14 178r11 190r27 201r25 202r25
+. 219r35 230r42 239r33 240r27
+8I8*natural64<long_long_integer> 11|26r42 62r27 12|114r42 116r11 117r11 121r14
+. 155r14 213r27 224r25 225r25 247r33 248r27
+X 32 text_io.ads
+27K9*Text_IO=27:29 11|1w6 1r46
+X 33 unchconv.ads
+22v10*Unchecked_Conversion 12|1w6 10r7 19r7
+

@@ -1,0 +1,611 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pieri_homotopies%b	pieri_homotopies.adb	f48459d7 NE OO PK
+W brackets%s		brackets.adb		brackets.ali
+W curves_into_grassmannian%s  curves_into_grassmannian.adb  curves_into_grassmannian.ali
+W determinantal_systems%s  determinantal_systems.adb  determinantal_systems.ali
+W numeric_minor_equations%s  numeric_minor_equations.adb  numeric_minor_equations.ali
+W specialization_of_planes%s  specialization_of_planes.adb  specialization_of_planes.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pieri_homotopies%s	pieri_homotopies.ads	8605a9dc EE NE OO PK
+W localization_posets%s	localization_posets.adb	localization_posets.ali
+W standard_bracket_polynomials%s  standard_bracket_polynomials.ads  standard_bracket_polynomials.ali
+W standard_bracket_systems%s  standard_bracket_systems.adb  standard_bracket_systems.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_matrices%s  standard_complex_poly_matrices.ads  standard_complex_poly_matrices.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D bracket_monomials.ads	20260513024558 25a514e4 bracket_monomials%s
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D curves_into_grassmannian.ads  20260513024558 2fcb651e curves_into_grassmannian%s
+D determinantal_systems.ads  20260513024558 c67fa371 determinantal_systems%s
+D generic_bracket_polynomials.ads  20260513024558 b17bef7c generic_bracket_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D localization_posets.ads  20260513024558 4bb547ea localization_posets%s
+D numeric_minor_equations.ads  20260513024558 067b2bd9 numeric_minor_equations%s
+D pieri_homotopies.ads	20260513024558 31f17c67 pieri_homotopies%s
+D pieri_homotopies.adb	20260513024558 fbb702e2 pieri_homotopies%b
+D specialization_of_planes.ads  20260513024558 d5241c1d specialization_of_planes%s
+D standard_bracket_polynomials.ads  20260513024558 ee5285d9 standard_bracket_polynomials%s
+D standard_bracket_systems.ads  20260513024558 ecae3e0b standard_bracket_systems%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_matrices.ads  20260513024558 88f232bd standard_complex_poly_matrices%s
+D standard_complex_poly_ring.ads  20260513024558 71b6d611 standard_complex_poly_ring%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_vectors.ads  20260513024558 1f5698c4 standard_complex_poly_vectors%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [moving_parameter pieri_homotopies 27 12 none]
+G c Z s b [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none]
+G c Z s b [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none]
+G c Z s b [one_general_pieri_homotopy pieri_homotopies 76 12 none]
+G c Z s b [two_general_pieri_homotopy pieri_homotopies 96 12 none]
+G c Z s b [one_quantum_pieri_homotopy pieri_homotopies 121 12 none]
+G c Z s b [two_quantum_pieri_homotopy pieri_homotopies 138 12 none]
+G c Z s b [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none]
+G c Z b b [first_bottom_pivot pieri_homotopies 15 12 none]
+G c Z b b [multiply pieri_homotopies 34 13 none]
+G c Z b b [multiply pieri_homotopies 51 13 none]
+G c Z b b [add_first pieri_homotopies 66 13 none]
+G c Z b b [constant_parameter pieri_homotopies 159 12 none]
+G r s term [moving_parameter pieri_homotopies 27 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [moving_parameter pieri_homotopies 27 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r s poly_sys [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none] [special_plane specialization_of_planes 37 12 none]
+G r c none [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none] [expanded_minors numeric_minor_equations 60 12 none]
+G r c none [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none] [embed numeric_minor_equations 137 13 none]
+G r c none [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none] [linear_homotopy numeric_minor_equations 145 12 none]
+G r c none [one_hypersurface_pieri_homotopy pieri_homotopies 42 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r s poly_sys [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none] [special_plane specialization_of_planes 37 12 none]
+G r c none [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none] [expanded_minors numeric_minor_equations 60 12 none]
+G r c none [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none] [embed numeric_minor_equations 137 13 none]
+G r c none [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none] [linear_homotopy numeric_minor_equations 145 12 none]
+G r c none [two_hypersurface_pieri_homotopy pieri_homotopies 59 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [one_general_pieri_homotopy pieri_homotopies 76 12 none] [moving_u_matrix specialization_of_planes 69 12 none]
+G r s poly_sys [one_general_pieri_homotopy pieri_homotopies 76 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [one_general_pieri_homotopy pieri_homotopies 76 12 none] [polynomial_equations determinantal_systems 55 12 none]
+G r c none [one_general_pieri_homotopy pieri_homotopies 76 12 none] [concat determinantal_systems 49 13 none]
+G r c none [one_general_pieri_homotopy pieri_homotopies 76 12 none] [embed numeric_minor_equations 137 13 none]
+G r c none [one_general_pieri_homotopy pieri_homotopies 76 12 none] [lifted_expanded_minors numeric_minor_equations 103 12 none]
+G r c none [one_general_pieri_homotopy pieri_homotopies 76 12 none] [clear standard_complex_poly_matrices 66 13 5_1]
+G r c none [two_general_pieri_homotopy pieri_homotopies 96 12 none] [moving_u_matrix specialization_of_planes 69 12 none]
+G r s poly_sys [two_general_pieri_homotopy pieri_homotopies 96 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [two_general_pieri_homotopy pieri_homotopies 96 12 none] [polynomial_equations determinantal_systems 55 12 none]
+G r c none [two_general_pieri_homotopy pieri_homotopies 96 12 none] [concat determinantal_systems 49 13 none]
+G r c none [two_general_pieri_homotopy pieri_homotopies 96 12 none] [embed numeric_minor_equations 137 13 none]
+G r c none [two_general_pieri_homotopy pieri_homotopies 96 12 none] [lifted_expanded_minors numeric_minor_equations 103 12 none]
+G r c none [two_general_pieri_homotopy pieri_homotopies 96 12 none] [clear standard_complex_poly_matrices 66 13 5_1]
+G r s poly_sys [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r s matrix [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [matrixIP standard_complex_poly_matrices 16 8 5_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [modulo brackets 36 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [special_plane specialization_of_planes 37 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [copy standard_complex_poly_matrices 26 13 5_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [swap curves_into_grassmannian 139 13 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [eval curves_into_grassmannian 59 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [expanded_minors numeric_minor_equations 60 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [clear standard_complex_poly_matrices 66 13 5_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [linear_interpolation numeric_minor_equations 150 12 none]
+G r s term [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [divide_common_factor numeric_minor_equations 156 13 none]
+G r c none [one_quantum_pieri_homotopy pieri_homotopies 121 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r s poly_sys [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [modulo brackets 36 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [special_plane specialization_of_planes 37 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [insert curves_into_grassmannian 145 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [expanded_minors numeric_minor_equations 60 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [linear_interpolation numeric_minor_equations 150 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [divide_common_factor numeric_minor_equations 156 13 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [create standard_complex_numbers 18 12 none]
+G r s term [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [swap curves_into_grassmannian 139 13 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [eval curves_into_grassmannian 59 12 none]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [clear standard_complex_poly_matrices 66 13 5_1]
+G r c none [two_quantum_pieri_homotopy pieri_homotopies 138 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r s matrix [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [matrixIP standard_complex_poly_matrices 16 8 5_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [moving_u_matrix specialization_of_planes 69 12 none]
+G r s poly_sys [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [copy standard_complex_poly_matrices 26 13 5_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [swap curves_into_grassmannian 139 13 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [absval standard_complex_numbers 27 12 none]
+G r i none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [equal standard_complex_numbers 33 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [eval curves_into_grassmannian 59 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [polynomial_equations determinantal_systems 55 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [concat determinantal_systems 49 13 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [clear standard_complex_poly_matrices 66 13 5_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [expanded_minors numeric_minor_equations 99 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [divide_common_factor numeric_minor_equations 156 13 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [one_general_quantum_pieri_homotopy pieri_homotopies 155 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [first_bottom_pivot pieri_homotopies 15 12 none] [absval standard_complex_numbers 27 12 none]
+G r i none [multiply pieri_homotopies 34 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [multiply pieri_homotopies 34 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [multiply pieri_homotopies 34 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [multiply pieri_homotopies 34 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r i none [multiply pieri_homotopies 51 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r s term [multiply pieri_homotopies 51 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [multiply pieri_homotopies 51 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [multiply pieri_homotopies 51 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [add_first pieri_homotopies 66 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [add_first pieri_homotopies 66 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r s term [constant_parameter pieri_homotopies 159 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [constant_parameter pieri_homotopies 159 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [constant_parameter pieri_homotopies 159 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [constant_parameter pieri_homotopies 159 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [constant_parameter pieri_homotopies 159 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [constant_parameter pieri_homotopies 159 12 none] [clear standard_complex_polynomials 129 13 4_1]
+X 12 brackets.ads
+5K9*Brackets 93e13 28|5w6 5r45
+13A8*Bracket<22|16A8[52|4]>(1|3I8[51|4])<48|6I8>
+36V12*Modulo{13A8} 28|333s49 337s38 380s36 382s36
+X 13 curves_into_grassmannian.ads
+11K9*Curves_into_Grassmannian 151e29 28|9w6 9r45
+59V12*Eval{17|16A8[34|5]} 28|344s16 401s16 459s14
+139U13*Swap 28|335s22 397s5 408s5 446s22
+145V12*Insert{17|16A8[34|5]} 28|385s12
+X 14 determinantal_systems.ads
+12K9*Determinantal_Systems 156e26 28|7w6 7r45
+49U13*Concat 28|258s7 266s5 294s7 303s5 304s5 460s7 481s5 513s5
+55V12*Polynomial_Equations{18|22A8[36|5]} 28|258s18 294s18 460s18
+X 15 generic_bracket_polynomials.ads
+23P8*Bracket_Polynomial<16|12P8[161[30|4]]> 27|43r55[30|4] 60r55[30|4] 122r55[30|4]
+. 139r55[30|4] 28|183r53[30|4] 213r53[30|4] 311r53[30|4] 371r53[30|4]
+X 16 generic_lists.ads
+12P8*List
+X 17 generic_matrices.ads
+16A8*Matrix(19|28P8[39|4])<48|6I8><48|6I8> 27|44r58[34|5] 61r58[34|5] 78r62[32|5]
+. 79r58[34|5] 100r51[32|5] 101r58[34|5] 123r58[34|5] 140r58[34|5] 158r62[32|5]
+. 159r58[34|5] 28|16r47[32|5] 51r68[34|5] 66r69[34|5] 184r56[34|5] 190r41[32|5]
+. 214r56[34|5] 220r54[32|5] 223r54[32|5] 246r60[32|5] 247r56[34|5] 252r51[34|5]
+. 274r47[32|5] 275r54[34|5] 285r49[34|5] 287r49[34|5] 312r56[34|5] 327r41[32|5]
+. 329r42[34|5] 343r46[34|5] 372r56[34|5] 379r54[32|5] 381r54[32|5] 384r42[34|5]
+. 400r46[34|5] 424r62[32|5] 425r58[34|5] 434r46[34|5] 436r49[34|5]
+17P8*Link_to_Matrix(16A8[32|5])
+26U13*Copy 28|334s53[34|5] 445s53[34|5]
+66U13*Clear 28|267s36[34|5] 305s36[34|5] 306s36[34|5] 347s40[34|5] 364s42[34|5]
+. 404s40[34|5] 417s36[34|5] 461s38[34|5] 483s42[34|5]
+X 18 generic_polynomial_systems.ads
+22A8*Poly_Sys(19|28P8[39|4])<48|6I8> 27|45r46[36|5] 62r46[36|5] 124r58[36|5]
+. 141r58[36|5] 28|185r44[36|5] 187r11[36|5] 215r44[36|5] 217r11[36|5] 254r14[36|5]
+. 289r18[36|5] 290r18[36|5] 313r56[36|5] 320r11[36|5] 373r56[36|5] 375r11[36|5]
+. 438r14[36|5] 439r14[36|5]
+23P8*Link_to_Poly_Sys(22A8[36|5]) 27|80r46[36|5] 102r46[36|5] 160r58[36|5]
+. 28|248r44[36|5] 250r11[36|5] 276r42[36|5] 283r11[36|5] 426r58[36|5] 428r11[36|5]
+X 19 generic_polynomials.ads
+21P8*Degrees<22|17P8[52|4]>
+23R8*Term 28|40r42[39|4] 133r9[39|4] 166r9[39|4]
+24r5*cf{33|11R8} 28|138m7[39|4] 140m7[39|4] 140r16[39|4] 143m7[39|4] 147m7[39|4]
+. 147r16[39|4] 150m7[39|4] 152m7[39|4] 171m7[39|4] 174m7[39|4]
+25p5*dg{21P8[39|4]} 28|42r9[39|4] 42r22[39|4] 137m7[39|4] 141r7[39|4] 144r7[39|4]
+. 145r7[39|4] 148r7[39|4] 153r7[39|4] 169m7[39|4] 170r7[39|4] 173r7[39|4]
+28P8*Poly 27|28r70[39|4] 28|34r35[39|4] 118r70[39|4] 132r11[39|4] 160r38[39|4]
+. 165r11[39|4] 191r20[39|4] 226r49[39|4] 328r20[39|4] 383r49[39|4]
+30p3*Null_Poly{28P8[39|4]} 28|60r24[39|4] 74r22[39|4] 75r25[39|4]
+38V12*Create{28P8[39|4]} 28|139s12[39|4] 172s12[39|4]
+41U13*Copy 28|76s15[39|4]
+102U13*Add 28|142s5[39|4] 146s5[39|4] 149s5[39|4] 151s5[39|4] 154s5[39|4]
+. 175s5[39|4]
+103U13*Add 28|77s15[39|4]
+121u13*Changing_Iterator 28|45r37[39|4]
+129U13*Clear 28|155s5[39|4] 176s5[39|4]
+130U13*Clear 28|208s5[39|4] 208s20[39|4] 236s5[39|4] 236s24[39|4] 240s5[39|4]
+. 240s24[39|4] 366s5[39|4] 366s20[39|4] 395s5[39|4] 395s24[39|4] 416s5[39|4]
+. 416s24[39|4]
+X 21 generic_vecmats.ads
+15A8*VecMat(17|17P8[32|5])<48|6I8> 27|45r30[42|6] 62r30[42|6] 80r30[42|6]
+. 102r30[42|6] 124r30[42|6] 141r30[42|6] 160r30[42|6] 28|185r28[42|6] 215r28[42|6]
+. 248r28[42|6] 276r26[42|6] 313r28[42|6] 373r28[42|6] 426r30[42|6]
+X 22 generic_vectors.ads
+16A8*Vector(33|11R8)<48|6I8> 27|124r42[43|4] 141r42[43|4] 160r42[43|4] 28|137r42[52|4]
+. 169r42[52|4] 313r40[43|4] 373r40[43|4] 426r42[43|4]
+17P8*Link_to_Vector(16A8[52|4])
+X 25 localization_posets.ads
+6K9*Localization_Posets 271e24 27|12w6 12r46
+19n22*top{19E8} 28|195r12 333r12 363r16 445r12 482r16 502r16
+19n26*bottom{19E8} 28|197r12 336r12 353r16 447r12 492r16 506r16
+21R8*Node 41e13 27|43r41 60r41 77r45 97r45 122r41 139r41 156r45 28|183r39
+. 213r39 245r43 272r41 311r39 371r39 422r45
+32R8*Node
+32i15*p{48|6I8} 28|188r34 218r34 251r38 284r38 321r34 376r34 429r34
+33e5*tp{19E8} 28|194r13 332r13 353r11 363r11 444r13 482r11 491r17 501r17
+34i5*level{48|6I8} 28|187r26 201r20 205r41 207r12 217r26 229r20 233r45 235r12
+. 237r45 239r12 320r26 323r38 341r20 350r41 352r12 355r15 356r68 358r15 360r49
+. 361r36 375r26 378r38 389r45 391r12 392r33 393r12 394r68 398r20 409r45 411r12
+. 412r12 414r45 415r33 430r38
+36a5*top{12|13A8} 28|195r52 221r39 333r59 380r46
+36a9*bottom{12|13A8} 28|197r52 224r39 337r48 382r46
+X 26 numeric_minor_equations.ads
+13K9*Numeric_Minor_Equations 162e28 28|6w6 6r45
+60V12*Expanded_Minors{19|28P8[39|4]} 28|202s17 205s15 206s14 230s17 233s19
+. 234s18 237s19 238s18 346s19 350s15 351s14 389s19 390s18 403s19 409s19 410s18
+99V12*Expanded_Minors{18|22A8[36|5]} 28|470s15
+103V12*Lifted_Expanded_Minors{18|22A8[36|5]} 28|265s15 301s19 302s19
+137U13*Embed 28|203s7 231s7 262s9 298s13
+145V12*Linear_Homotopy{19|28P8[39|4]} 28|207s22 235s22 239s24
+150V12*Linear_Interpolation{19|28P8[39|4]} 28|352s22 391s24 411s22
+156U13*Divide_Common_Factor 28|361s8 392s5 415s5 485s13
+X 27 pieri_homotopies.ads
+14K9*Pieri_Homotopies 205l5 205e21 28|11b14 530l5 530t21
+27V12*Moving_Parameter{19|28P8[39|4]} 27>31 27>33 27>36 28>31 28>37 28|117b12
+. 157l7 157t23 356s14 359s14 394s10 413s10 494s18 504s18 508s18
+27i31 n{48|6I8} 28|117b31 137r53
+27i33 xk{48|6I8} 28|117b33 145r10 153r10
+27i36 tk{48|6I8} 28|117b36 141r10 144r10 148r10
+28r31 start{33|11R8} 28|118b31 138r16
+28r37 target{33|11R8} 28|118b37 152r14
+42V12*One_Hypersurface_Pieri_Homotopy{18|22A8[36|5]} 43>21 43>36 43>47 44>21
+. 45>21 28|182b12 210l7 210t38
+43i21 n{48|6I8} 28|183b19 189r31 190r51
+43r36 nd{25|32R8} 28|183b34 187r23 188r31 194r10 195r49 197r49 201r17 205r38
+. 207r9
+43p47 expbp{15|23P8[30|4]} 28|183b45 202r51 205r56 206r42
+44a21 xpm{17|16A8[34|5]} 28|184b19 202r47 205r52 206r38
+45a21 planes{21|15A8[42|6]} 28|185b19 202r33 205r31
+59V12*Two_Hypersurface_Pieri_Homotopy{18|22A8[36|5]} 60>21 60>36 60>47 61>21
+. 62>21 28|212b12 242l7 242t38
+60i21 n{48|6I8} 28|213b19 219r31
+60r36 nd{25|32R8} 28|213b34 217r23 218r31 221r36 224r36 229r17 233r42 235r9
+. 237r42 239r9
+60p47 expbp{15|23P8[30|4]} 28|213b45 230r51 233r60 234r50 237r62 238r50
+61a21 xpm{17|16A8[34|5]} 28|214b19 230r47 233r56 234r46 237r58 238r46
+62a21 planes{21|15A8[42|6]} 28|215b19 230r33 233r35 237r35
+76V12*One_General_Pieri_Homotopy{18|23P8[36|5]} 77>21 77>23 77>40 77>51 78>21
+. 78>27 79>21 80>21 28|244b12 269l7 269t33
+77i21 n{48|6I8} 28|245b19 251r33 252r61
+77i23 ind{48|6I8} 28|245b21 257r17
+77r40 nd{25|32R8} 28|245b38 251r35
+77a51 bs{31|11A8} 28|245b49 254r26 265r55
+78a21 start{17|16A8[32|5]} 28|246b19 253r41
+78a27 target{17|16A8[32|5]} 28|246b25 252r63 253r47
+79a21 xpm{17|16A8[34|5]} 28|247b19 258r53 265r51
+80a21 planes{21|15A8[42|6]} 28|248b19 258r39
+96V12*Two_General_Pieri_Homotopy{18|23P8[36|5]} 97>21 97>23 97>40 98>21 98>28
+. 99>21 99>31 99>42 99>52 101>21 102>21 28|271b12 308l7 308t33
+97i21 n{48|6I8} 28|272b17 284r33 285r59 287r59
+97i23 ind{48|6I8} 28|272b19 293r17
+97r40 nd{25|32R8} 28|272b36 284r35
+98a21 top_bs{31|11A8} 28|272b47 289r30 301r57
+98a28 bot_bs{31|11A8} 28|272b54 290r30 302r57
+99a21 top_start{17|16A8[32|5]} 28|273b17 286r39
+99a31 top_target{17|16A8[32|5]} 28|273b27 285r61 286r49
+99a42 bot_start{17|16A8[32|5]} 28|273b38 288r39
+99a52 bot_target{17|16A8[32|5]} 28|273b48 287r61 288r49
+101a21 xpm{17|16A8[34|5]} 28|275b17 294r53 301r53 302r53
+102a21 planes{21|15A8[42|6]} 28|276b17 294r39
+121V12*One_Quantum_Pieri_Homotopy{18|22A8[36|5]} 122>21 122>36 122>47 123>21
+. 124>21 124>38 28|310b12 368l7 368t33
+122i21 n{48|6I8} 28|311b19 322r31 327r51 329r52
+122r36 nd{25|32R8} 28|311b34 320r23 321r31 323r35 332r10 333r56 337r45 341r17
+. 350r38 352r9 353r8 355r12 356r65 358r12 360r46 361r33 363r8
+122p47 expbp{15|23P8[30|4]} 28|311b45 346r53 350r56 351r42
+123a21 xpm{17|16A8[34|5]} 28|312b19 334r58 338r29 343r53 343r66 344r21
+124a21 planes{21|15A8[42|6]} 28|313b19 346r35 350r31
+124a38 s{22|16A8[43|4]} 28|313b36 344r25 356r63 360r44
+138V12*Two_Quantum_Pieri_Homotopy{18|22A8[36|5]} 139>21 139>36 139>47 140>21
+. 141>21 141>38 28|370b12 419l7 419t33
+139i21 n{48|6I8} 28|371b19 377r31
+139r36 nd{25|32R8} 28|371b34 375r23 376r31 378r35 380r43 382r43 389r42 391r9
+. 392r30 393r9 394r65 398r17 409r42 411r9 412r9 414r42 415r30
+139p47 expbp{15|23P8[30|4]} 28|371b45 389r62 390r50 403r53 409r60 410r50
+140a21 xpm{17|16A8[34|5]} 28|372b19 384r49 384r62 385r19
+141a21 planes{21|15A8[42|6]} 28|373b19 389r35 403r35 409r35
+141a38 s{22|16A8[43|4]} 28|373b36 394r63 401r25 414r40
+155V12*One_General_Quantum_Pieri_Homotopy{18|23P8[36|5]} 156>21 156>23 156>40
+. 156>51 157>21 158>21 158>27 159>21 160>21 160>38 28|421b12 515l7 515t41
+156i21 n{48|6I8} 28|422b21 434r56 436r59
+156i23 ind{48|6I8} 28|422b23 458r17 505r50 508r69
+156r40 nd{25|32R8} 28|422b40 429r31 430r35 444r10 482r8 491r14 501r14
+156i51 s_mode{50|7I8} 28|422b51 450r8 489r10
+157a21 bs{31|11A8} 28|423b21 438r26 470r48
+158a21 start{17|16A8[32|5]} 28|424b21 437r32 451r37
+158a27 target{17|16A8[32|5]} 28|424b27 436r61 437r38
+159a21 xpm{17|16A8[34|5]} 28|425b21 445r58 447r29
+160a21 planes{21|15A8[42|6]} 28|426b21 460r39
+160a38 s{22|16A8[43|4]} 28|426b38 459r23 505r48 508r67
+X 28 pieri_homotopies.adb
+15V12 First_Bottom_Pivot{48|6I8} 15b12 16>15 32l7 32t25 451s18
+16a15 mat{17|16A8[32|5]} 26r22 27r17 31r12
+23f5 tol{45|13F8} 27r29
+26i9 i<long_integer> 27r21 28r20
+34U13 Multiply 34b13 34=24 35>24 35>44 49l7 49t15 61s13
+34p24 p{19|28P8[39|4]} 48m20
+35i24 var{48|6I8} 42r12 42r25
+35i44 deg{50|7I8} 42r32
+40U15 Multiply_Term 40b15 40=31 40<48 44l9 44t22 45r55
+40r31 t{19|23R8[39|4]} 42m7 42r7 42r20
+40b48 continue{boolean} 43m7
+45U15 Multiply_Terms[19|121] 48s5
+51U13 Multiply 51b13 51=24 52>24 52>28 52>32 52>52 64l7 64t15 454s17
+51a24 xpm{17|16A8[34|5]} 59r19 60r10 61m22 61r22
+52i24 row{48|6I8} 59r14
+52i28 col{48|6I8} 60r16 61r28
+52i32 var{48|6I8} 61r33
+52i52 deg{50|7I8} 61r37
+59i9 i<long_integer> 60r14 61r26
+66U13 Add_First 66b13 66=25 67>25 81l7 81t16 455s17
+66a25 xpm{17|16A8[34|5]} 73r14 74r10 75r12 76r20 76m29 76r29 77m19 77r19
+. 77r30
+67i25 col{48|6I8} 75r18 76r35 77r25 77r36
+73i9 i<long_integer> 74r14 75r16 76r24 76r33 77r23 77r34
+132p5 res{19|28P8[39|4]} 139m5 142m9 142r9 146m9 146r9 149m9 149r9 151m9
+. 151r9 154m9 154r9 156r12
+133r5 t{19|23R8[39|4]} 137m5 138m5 139r19 140m5 140r14 141m5 141r5 142r13
+. 143m5 144m5 144r5 145m5 145r5 146r13 147m5 147r14 148m5 148r5 149r13 150m5
+. 151r13 152m5 153m5 153r5 154r13 155m11 155r11
+134r5 c{33|11R8} 138r14 143r13
+159V12 Constant_Parameter{19|28P8[39|4]} 159b12 159>33 159>35 159>50 178l7
+. 178t25 499s22
+159i33 n{48|6I8} 169r53
+159i35 i{48|6I8} 170r10 173r10
+159r50 s{33|11R8} 174r14
+165p5 res{19|28P8[39|4]} 172m5 175m9 175r9 177r12
+166r5 t{19|23R8[39|4]} 169m5 170m5 170r5 171m5 172r19 173m5 173r5 174m5 175r13
+. 176m11 176r11
+187a5 res{18|22A8[36|5]} 202m7 203m13 203r13 207m5 209r12
+188i5 p{48|6I8} 189r33
+189i5 m{48|6I8} 190r56 195r47 197r47
+190a5 special{17|16A8[32|5]} 195m22 197m22 206r30
+191p5 target{19|28P8[39|4]} 205m5 207r38 208m11 208r11
+191p12 start{19|28P8[39|4]} 206m5 207r45 208m26 208r26
+201i9 i<long_integer> 202r11 202r40 203r17
+217a5 res{18|22A8[36|5]} 230m7 231m13 231r13 235m5 239m5 241r12
+218i5 p{48|6I8} 219r33
+219i5 m{48|6I8} 221r34 224r34
+220a5 top_special{17|16A8[32|5]} 234r34
+223a5 bot_special{17|16A8[32|5]} 238r34
+226p5 top_start{19|28P8[39|4]} 234m5 235r49 236m30 236r30
+226p15 bot_start{19|28P8[39|4]} 238m5 239r51 240m30 240r30
+226p25 top_target{19|28P8[39|4]} 233m5 235r38 236m11 236r11
+226p36 bot_target{19|28P8[39|4]} 237m5 239r40 240m11 240r11
+229i9 i<long_integer> 230r11 230r40 231r17
+250p5 res{18|23P8[36|5]} 258m14 258r14 260r8 261r16 262r15 266m12 266r12
+. 268r12
+251i5 nva{48|6I8} 253r37
+252a5 moving_plane{17|16A8[34|5]} 265r38 267m42 267r42
+254a5 moving{18|22A8[36|5]} 265m5 266r16
+257i9 i<long_integer> 258r46
+261i11 i<long_integer> 262r19
+283p5 res{18|23P8[36|5]} 294m14 294r14 296r8 297r20 298r19 303m12 303r12
+. 304m12 304r12 307r12
+284i5 nva{48|6I8} 286r35 288r35
+285a5 top_moving{17|16A8[34|5]} 301r42 305m42 305r42
+287a5 bot_moving{17|16A8[34|5]} 302r42 306m42 306r42
+289a5 top_movsys{18|22A8[36|5]} 301m5 303r16
+290a5 bot_movsys{18|22A8[36|5]} 302m5 304r16
+293i9 i<long_integer> 294r46
+297i15 i<long_integer> 298r23
+320a5 res{18|22A8[36|5]} 346m9 352m5 355m8 358m8 361m29 361r29 367r12
+321i5 p{48|6I8} 322r33 323r46 329r57 333r75 337r67
+322i5 m{48|6I8} 327r56 333r47 333r73 337r36 337r65
+323i5 nvars{48|6I8} 335r31 335r39 352r56 356r31 356r37 356r45 359r31 359r37
+. 359r45 361r43
+327a5 special{17|16A8[32|5]} 333m22 336m22 351r30
+328p5 target{19|28P8[39|4]} 350m5 352r43 366m11 366r11
+328p12 start{19|28P8[39|4]} 351m5 352r50 366m26 366r26
+329a5 map{17|16A8[34|5]} 334m62 334r62 335m27 335r27 338m22 350r52 351r38
+. 364m48 364r48
+341i9 i<long_integer> 344r27 346r13 346r42
+343a9 eva{17|16A8[34|5]} 346r49 347m46 347r46
+375a5 res{18|22A8[36|5]} 391m5 392m26 392r26 393m5 403m9 411m5 412m5 415m26
+. 415r26 418r12
+376i5 p{48|6I8} 377r33 378r46 380r62 382r65
+377i5 m{48|6I8} 380r34 380r60 382r34 382r63
+378i5 nvars{48|6I8} 385r23 391r66 392r42 394r27 394r35 394r43 397r14 397r22
+. 408r14 408r20 411r64 413r27 413r35 413r41 415r40
+379a5 top_special{17|16A8[32|5]} 410r34
+381a5 bot_special{17|16A8[32|5]} 390r34
+383p5 top_start{19|28P8[39|4]} 410m5 411r54 416m30 416r30
+383p15 bot_start{19|28P8[39|4]} 390m5 391r56 395m30 395r30
+383p25 top_target{19|28P8[39|4]} 409m5 411r43 416m11 416r11
+383p36 bot_target{19|28P8[39|4]} 389m5 391r45 395m11 395r11
+384a5 map{17|16A8[34|5]} 389r58 390r46 397m10 397r10 400r53 400r66 401r21
+. 408m10 408r10 409r56 410r46 417m42 417r42
+398i9 i<long_integer> 401r27 403r13 403r42
+400a9 eva{17|16A8[34|5]} 403r49 404m46 404r46
+428p5 res{18|23P8[36|5]} 460m14 460r14 463r8 465r21 481m12 481r12 484r30
+. 485r34 513m12 513r12 514r12
+429i5 p{48|6I8} 430r46 434r61
+430i5 nvars{48|6I8} 437r26 446r31 446r39 454r36 485r41 494r35 494r41 494r49
+. 499r41 499r47 504r35 504r41 504r49 508r35 508r41 508r49
+434a5 eva{17|16A8[34|5]} 459m7 460r53 461m44 461r44
+434a9 map{17|16A8[34|5]} 445m62 445r62 446m27 446r27 447m22 454m26 454r26
+. 455m27 455r27 459r19 470r44 483m48 483r48
+435a5 moving_plane{17|16A8[34|5]} 470r31
+438a5 moving{18|22A8[36|5]} 470m5 481r16
+439a5 movpar{18|22A8[36|5]} 493m13 499m9 503m13 507m13 513r16
+440i5 inddiv{48|6I8} 464m11 465m11 484r20
+440i12 row{48|6I8} 451m11 452r14 454r30
+458i9 i<long_integer> 459r25 460r46
+484i15 i<long_integer> 485r38
+X 29 specialization_of_planes.ads
+6K9*Specialization_of_Planes 28|8w6 8r45 29|115e29
+37V12*Special_Plane{17|16A8[32|5]} 28|195s33 197s33 221s20 224s20 333s33
+. 336s33 380s20 382s20
+69V12*Moving_U_Matrix{17|16A8[34|5]} 28|253s21 286s19 288s19 437s10
+X 30 standard_bracket_polynomials.ads
+4K9*Standard_Bracket_Polynomials[15|10] 27|10w6 10r46
+X 31 standard_bracket_systems.ads
+5K9*Standard_Bracket_Systems 27|11w6 11r46 31|24e29
+11A8*Bracket_System(15|23P8[30|4])<48|6I8> 27|77r56 98r37 157r26 28|245r54
+. 272r63 423r26
+X 32 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[17|9] 27|5w6 78r36 100r25 158r36 28|16r21 190r15
+. 220r28 223r28 246r34 274r21 327r15 379r28 381r28 424r36
+X 33 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 27|3w6 3r46 33|92e29
+11R8*Complex_Number 27|28r46 28|118r46 134r18 159r54 33|90e15
+18V12*Create{11R8} 28|150s13 171s13 344s30 356s51 359s51 360s32 394s51 401s30
+. 413s49 414s28 459s28 495s35 495s47 499s55 504s55 505s36 508s55
+27V12*AbsVal{45|13F8} 28|27s10
+54V13*"-"{11R8} 28|138s13 140s13 147s13 152s13 174s13
+55V13*"*"{11R8} 28|138s15
+56V13*"/"{11R8} 28|360s43 414s39 505s47
+X 34 standard_complex_poly_matrices.ads
+5K9*Standard_Complex_Poly_Matrices[17|9] 27|7w6 44r27 61r27 79r27 101r27
+. 123r27 140r27 159r27 28|51r37 66r38 184r25 214r25 247r25 252r20 267r5 275r23
+. 285r18 287r18 305r5 306r5 312r25 329r11 334r22 343r15 347r9 364r11 372r25
+. 384r11 400r15 404r9 417r5 425r27 434r15 436r18 445r22 461r7 483r11
+X 36 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[18|12] 27|9w6 9r46
+X 39 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[19|11] 27|8w6 8r46
+X 42 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[21|11] 27|6w6 6r46
+X 43 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[22|8] 27|4w6 4r46
+X 45 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 28|2w6 2r45 45|58e30
+13F8*double_float<long_float> 28|23r20
+X 48 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 27|2w6 2r46 28|1w6 1r45 48|45e29
+6I8*integer32<long_integer> 27|27r41 43r25 60r25 77r29 97r29 122r25 139r25
+. 156r29 28|16r63 35r33 52r41 67r34 117r41 159r39 183r23 188r18 189r18 213r23
+. 218r18 219r18 245r27 251r20 272r25 284r20 311r23 321r18 322r18 323r22 371r23
+. 376r18 377r18 378r22 422r29 429r18 430r22 440r18
+X 50 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 27|1w6 1r46 50|30e29
+7I8*natural32<long_integer> 27|156r60 28|35r50 52r61 333r63 337r55 380r50
+. 382r53 422r60
+X 52 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[22|8] 28|4w6 137r17 169r17
+X 53 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 28|3w6 3r45 53|112e28
+90V12*Random1{33|11R8} 28|134s36
+

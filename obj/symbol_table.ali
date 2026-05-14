@@ -1,0 +1,259 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U symbol_table%b	symbol_table.adb	41ef8731 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W characters_and_numbers%s  characters_and_numbers.adb  characters_and_numbers.ali
+W parse_polynomial_exceptions%s  parse_polynomial_exceptions.ads  parse_polynomial_exceptions.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U symbol_table%s	symbol_table.ads	d3b0dc24 EE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D characters_and_numbers.ads  20260513024558 8b0f2874 characters_and_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D parse_polynomial_exceptions.ads  20260513024558 c850508a parse_polynomial_exceptions%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbol_table.adb	20260513024558 8ed23685 symbol_table%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [init symbol_table 32 13 none]
+G c Z s b [standard_symbols symbol_table 37 12 none]
+G c Z s b [init symbol_table 42 13 none]
+G c Z s b [enlarge symbol_table 47 13 none]
+G c Z s b [downsize symbol_table 53 13 none]
+G c Z s b [replace symbol_table 60 13 none]
+G c Z s b [create symbol_table 65 12 none]
+G c Z s b [add_string symbol_table 72 13 none]
+G c Z s b [add_string symbol_table 73 13 none]
+G c Z s b [add symbol_table 79 13 none]
+G c Z s b [add symbol_table 80 13 none]
+G c Z s b [remove symbol_table 86 13 none]
+G c Z s b [remove symbol_table 87 13 none]
+G c Z s b [length symbol_table 94 12 none]
+G c Z s b [equal symbol_table 99 12 none]
+G c Z s b [is_valid symbol_table 104 12 none]
+G c Z s b [check_symbol symbol_table 113 12 none]
+G c Z s b [Olt symbol_table 123 12 none]
+G c Z s b [Ogt symbol_table 124 12 none]
+G c Z s b [maximal_size symbol_table 130 12 none]
+G c Z s b [number symbol_table 135 12 none]
+G c Z s b [empty symbol_table 140 12 none]
+G c Z s b [get symbol_table 146 12 none]
+G c Z s b [get symbol_table 152 12 none]
+G c Z s b [content symbol_table 157 12 none]
+G c Z s b [clear symbol_table 165 13 none]
+G c Z s b [clear symbol_table 170 13 none]
+G c Z s s [array_of_symbolsIP symbol_table 16 8 none]
+G c Z b b [symbol_tableIP symbol_table 9 8 none]
+G r c none [standard_symbols symbol_table 37 12 none] [convert characters_and_numbers 67 12 none]
+G r c none [is_valid symbol_table 104 12 none] [convert characters_and_numbers 19 12 none]
+G r c none [check_symbol symbol_table 113 12 none] [convert characters_and_numbers 19 12 none]
+X 11 characters_and_numbers.ads
+6K9*Characters_and_Numbers 85e27 19|2w6 2r46 32r33
+19V12*Convert{17|7I8} 19|227s8
+67V12*Convert{string} 19|32s56
+X 14 parse_polynomial_exceptions.ads
+1K9*Parse_Polynomial_Exceptions 19e32 19|3w6 3r46
+13X3*OVERFLOW_OF_UNKNOWNS 19|258r20 263r13
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 18|2w6 2r46
+6I8*integer32<long_integer> 18|16r36 37r35 19|9r29 21r28 25r35 48r20 49r11
+. 66r37 84r10 88r39 91r23 92r28 98r24 99r23 113r18 161r16 193r27 194r20 194r49
+. 320r25 334r27
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 18|1w6 1r46
+7I8*natural32<long_integer> 18|32r29 47r32 53r31 60r30 73r51 80r45 87r29
+. 94r41 113r31 113r63 130r32 135r26 146r39 152r22 19|10r14 19r29 53r18 60r32
+. 67r26 67r45 81r31 89r28 89r41 106r30 146r51 154r45 171r11 179r20 185r29
+. 202r41 204r11 241r31 241r63 243r11 292r32 296r18 300r26 313r39 327r22
+X 18 symbol_table.ads
+4K9*Symbol_Table 175l5 175e17 19|5b14 369l5 369t17
+10e3*delimiter{character} 19|233r16
+11E8*Power 11e26
+11n18*'*'{11E8}
+11n22*'^'{11E8}
+15A11*Symbol{string}<integer> 16r60 60r49 65r41 79r27 80r27 86r30 94r25 99r28
+. 104r28 113r47 123r26 124r26 146r23 152r41 19|33r14 106r49 118r41 120r11
+. 140r19 148r19 154r27 169r27 177r30 202r25 214r28 225r28 241r47 268r26 280r26
+. 313r23 327r41
+16A8*Array_of_Symbols(15A11)<16|6I8> 17r43 37r54 42r27 157r27 19|11r12 25r54
+. 27r11 46r27 66r17 88r19 338r27 340r11 354r34
+17P8*Link_to_Array_of_Symbols(16A8) 165r33 19|351r33 354r51
+21X5*OVERFLOW_IN_THE_SYMBOL_TABLE 19|166r13 256r14
+24X5*INDEX_OUT_OF_RANGE 19|333r17
+27X5*INVALID_SYMBOL 19|247r17
+32U13*Init 32>20 19|19b13 23l7 23t11 63s7 73s9 96s11
+32i20 max{17|7I8} 19|19b20 21r38
+37V12*Standard_Symbols{16A8} 37>31 19|25b12 44l7 44t23
+37i31 n{16|6I8} 19|25b31 27r31 30r17
+42U13*Init 42>20 19|46b13 58l7 58t11
+42a20 s{16A8} 19|46b20 48r33 48r42 54r14 56r23
+47U13*Enlarge 47>23 19|60b13 79l7 79t14
+47i23 max{17|7I8} 19|60b23 63r12 67r39
+53U13*Downsize 53>24 19|81b13 104l7 104t15
+53i24 n{17|7I8} 19|81b24 84r20 89r61
+60U13*Replace 60>23 60>41 19|106b13 116l7 116t14
+60i23 i{17|7I8} 19|106b23 111r8 113r28
+60a41 sb{15A11} 19|106b41 112r16 113r38
+65V12*Create{15A11} 65>21 19|118b12 134l7 134t13 140s29 148s29
+65a21 s{string} 19|118b21 127r10 129r22 130r17
+72U13*Add_String 72>26 19|138b13 144l7 144t17
+72a26 s{string} 19|138b26 140r36
+73U13*Add_String 73>26 73<41 19|146b13 152l7 152t17
+73a26 s{string} 19|146b26 148r36
+73i41 pos{17|7I8} 19|146b41 151m12
+79U13*Add 79>19 19|75s11 99s13 143s5 169b13 175l7 175t10
+79a19 sb{15A11} 19|169b19 174r9
+80U13*Add 80>19 80<35 19|151s5 154b13 167l7 167t10 174s5 254s9
+80a19 sb{15A11} 19|154b19 160r14 161r45
+80i35 pos{17|7I8} 19|154b35 163m5
+86U13*Remove 86>22 19|177b13 183l7 183t13
+86a22 sb{15A11} 19|177b22 179r37
+87U13*Remove 87>22 19|182s5 185b13 198l7 198t13
+87i22 i{17|7I8} 19|185b22 190r10 190r42 192r16
+94V12*Length{17|7I8} 94>21 19|202b12 212l7 212t13
+94a21 s{15A11} 19|202b21 207r14 208r17
+99V12*Equal{boolean} 99>20 99>23 19|214b12 223l7 223t12 320s10
+99a20 s1{15A11} 19|214b20 216r14 217r10 220r19
+99a23 s2{15A11} 19|214b23 217r19 220r37
+104V12*Is_Valid{boolean} 104>23 19|225b12 239l7 239t15 246s12
+104a23 sb{15A11} 19|225b23 227r16 230r19 231r14
+113V12*Check_Symbol{17|7I8} 113>27 113>42 19|241b12 266l7 266t19
+113i27 n{17|7I8} 19|241b27 261r14
+113a42 sb{15A11} 19|241b42 246r21 249r16 254r13
+123V13*"<"{boolean} 123>18 123>21 19|268b13 278l8 278t10
+123a18 s1{15A11} 19|268b18 270r14 271r10 273r13
+123a21 s2{15A11} 19|268b21 271r18 273r21
+124V13*">"{boolean} 124>18 124>21 19|280b13 290l8 290t10
+124a18 s1{15A11} 19|280b18 282r14 283r10 285r13
+124a21 s2{15A11} 19|280b21 283r18 285r21
+130V12*Maximal_Size{17|7I8} 19|292b12 298l7 298t19
+135V12*Number{17|7I8} 19|300b12 306l7 306t13
+140V12*Empty{boolean} 19|62s8 83s12 308b12 311l7 311t12
+146V12*Get{17|7I8} 146>18 19|179s33 249s12 313b12 325l7 325t10
+146a18 sb{15A11} 19|313b18 320r39
+152V12*Get{15A11} 152>18 19|327b12 336l7 336t10
+152i18 i{17|7I8} 19|327b18 332r8 334r37
+157V12*Content{16A8} 19|338b12 347l7 347t14
+165U13*Clear 165=21 19|351b13 358l7 358t12
+165p21 ls{17P8} 19|351b21 357m10
+170U13*Clear 19|72s9 85s9 95s11 360b13 367l7 367t12
+X 19 symbol_table.adb
+9R8 Symbol_Table 9d23 12e13 13r39 21r15 52r15 108r11 156r11 187r11 315r11
+. 329r11 363r34
+9i23*max{16|6I8} 11r32 67r58 84r29 89r54 296r31
+10i5*number{17|7I8} 22m12 53m8 66r50 88r52 92r41 111r17 159m9 159r23 161r30
+. 163r16 190r32 191m11 191r25 192r23 304r25 318r21 332r16
+11a5*syms{18|16A8} 56m10 70r26 93r28 113m13 161m11 193r22 194m15 194r44 320r20
+. 334r22 340r31 343r17 344r20
+13P8 Link_to_Symbol_Table(9R8) 15r8 363r47
+15p3 st{13P8} 21m5 22r5 52m5 53r5 56r7 66r47 67r55 70r23 84r26 88r49 89r51
+. 92r38 93r25 108r32 156r32 187r32 294r8 296r28 302r8 304r18 310r13 315r32
+. 329r32 340r28 343r14 344r17 366m10 366r10
+27a5 res{18|16A8} 40m9 43r12
+30i9 i<long_integer> 32r64 40r13
+32a9 nb{string} 37r18 38r27 38r40
+33a9 sb{18|15A11} 35m9 35r16 36m9 36r12 38m11 38r14 40r19
+37i13 j{integer} 38r25 38r43
+48i5 max{16|6I8} 52r28 53r28
+49i5 ind{16|6I8} 55m7 55r14 56r15
+54i9 i<long_integer> 56r25
+66a9 oldst{18|16A8} 69r18 70m11 74r18 75r15
+67i9 maxst{17|7I8} 73r14
+69i13 i<long_integer> 70r17 70r31
+74i13 i<long_integer> 75r21
+88a11 oldst{18|16A8} 93m13 98r39 99r17
+89i11 maxst{17|7I8} 91r33 96r16 97r23
+91i15 i<long_integer> 92r24 93r19 93r33
+97i15 i<long_integer> 98r34 99r33
+108r5 tab{9R8} 111r13 113r9
+112i11 j{integer} 113r32 113r41
+120a5 res{18|15A11} 124r14 125m7 128r14 130m7 133r12
+121i5 k{integer} 127m5 129r18 130r19 131m7 131r12
+124i9 i{integer} 125r11
+128i9 i{integer} 130r11
+140a5 sb{18|15A11} 143r9
+148a5 sb{18|15A11} 151r9
+156r5 tab{9R8} 159r5 159r19 161r7 161r26 163r12
+160i9 i{integer} 161r39 161r48
+171i5 pos{17|7I8} 174m12
+179i5 pos{17|7I8} 182r12
+187r5 tab{9R8} 190r28 191r7 191r21 192r19 193r18 194r11 194r40
+192i11 j<long_integer> 193r37 194r30 194r59
+193i13 k{integer} 194r34 194r65
+204i5 res{17|7I8} 209m7 209r14 211r12
+207i9 i{integer} 208r19
+216i9 i{integer} 217r13 217r22 220r22 220r40
+230i11 j{integer} 231r17
+243i5 res{17|7I8} 249m5 251r8 254m16 261r8 265r12
+270i9 i{integer} 271r13 271r21 273r16 273r24
+282i9 i{integer} 283r13 283r21 285r16 285r24
+315r5 tab{9R8} 318r17 320r16
+318i9 i<long_integer> 320r35 321r20
+329r5 tab{9R8} 332r12 334r18
+340a5 res{18|16A8} 344m7 346r12
+343i9 i<long_integer> 344r11 344r25
+353U15 free[35|22] 357s5
+362U15 free[35|22] 366s5
+X 35 unchdeal.ads
+22u11*Unchecked_Deallocation 19|1w6 354r11 363r11
+

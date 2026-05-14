@@ -4,7 +4,6 @@ abstract project Phcpack_Config is
    Crate_Name := "phcpack";
 
    Alire_Host_OS := "windows";
-  -- Alire_Host_OS := "linux";
 
    Alire_Host_Arch := "x86_64";
 
@@ -42,6 +41,7 @@ abstract project Phcpack_Config is
            ,"-gnatyt" -- Check token spacing
            ,"-gnatyu" -- Check unnecessary blank lines
            ,"-gnatyx" -- Check extra parentheses
+           ,"-gnatW8" -- UTF-8 encoding for wide characters
           );
 
    type Build_Profile_Kind is ("release", "validation", "development");

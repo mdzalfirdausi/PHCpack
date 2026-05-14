@@ -1,0 +1,95 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pentdobl_random_vectors%b  pentdobl_random_vectors.adb  1bbf1636 NE OO PK
+W pentdobl_random_numbers%s  pentdobl_random_numbers.adb  pentdobl_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pentdobl_random_vectors%s  pentdobl_random_vectors.ads  e62511d9 EE NE OO PK
+W penta_double_vectors%s  penta_double_vectors.ads  penta_double_vectors.ali
+W pentdobl_complex_vectors%s  pentdobl_complex_vectors.ads  pentdobl_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D penta_double_vectors.ads  20260513024558 7b05173f penta_double_vectors%s
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_ring.ads  20260513024558 45ee875d pentdobl_complex_ring%s
+D pentdobl_complex_vectors.ads  20260513024558 25aaa105 pentdobl_complex_vectors%s
+D pentdobl_random_numbers.ads  20260513024558 1370436b pentdobl_random_numbers%s
+D pentdobl_random_vectors.ads  20260513024558 c76ac5f8 pentdobl_random_vectors%s
+D pentdobl_random_vectors.adb  20260513024558 cfa590a5 pentdobl_random_vectors%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [random_vector pentdobl_random_vectors 12 12 none]
+G c Z s b [random_vector pentdobl_random_vectors 19 13 none]
+G c Z s b [random_vector pentdobl_random_vectors 28 12 none]
+G c Z s b [random_vector pentdobl_random_vectors 35 13 none]
+G r c none [random_vector pentdobl_random_vectors 12 12 none] [random pentdobl_random_numbers 14 12 none]
+G r c none [random_vector pentdobl_random_vectors 19 13 none] [random_penta_double pentdobl_random_numbers 19 13 none]
+G r c none [random_vector pentdobl_random_vectors 28 12 none] [random1 pentdobl_random_numbers 40 12 none]
+G r c none [random_vector pentdobl_random_vectors 35 13 none] [random1_complex_number pentdobl_random_numbers 45 13 none]
+X 3 generic_complex_numbers.ads
+19R8*Complex_Number
+X 4 generic_vectors.ads
+16A8*Vector(5|19R8)<16|6I8> 13|13r54[8|4] 21r46[8|4] 29r58[11|4] 37r50[11|4]
+. 14|6r54[8|4] 8r32[8|4] 19r46[8|4] 27r58[11|4] 29r36[11|4] 40r50[11|4]
+X 8 penta_double_vectors.ads
+4K9*Penta_Double_Vectors[4|8] 13|2w6 13r33 21r25 14|6r33 8r11 19r25
+X 11 pentdobl_complex_vectors.ads
+4K9*PentDobl_Complex_Vectors[4|8] 13|3w6 29r33 37r25 14|27r33 29r11 40r25
+X 12 pentdobl_random_numbers.ads
+5K9*PentDobl_Random_Numbers 53e28 14|1w6 12r17 22r7 33r17 43r7
+14V12*Random{5|19R8} 14|12s41
+19U13*Random_Penta_Double 14|22s31
+40V12*Random1{3|19R8[9|5]} 14|33s41
+45U13*Random1_Complex_Number 14|43s31
+X 13 pentdobl_random_vectors.ads
+5K9*PentDobl_Random_Vectors 44l5 44e28 14|3b14 47l5 47t28
+12V12*Random_Vector{4|16A8[8|4]} 12>28 12>34 14|5b12 15l7 15t20
+12i28 first{16|6I8} 14|5b28 8r39
+12i34 last{16|6I8} 14|5b34 8r46
+19U13*Random_Vector 20=17 21<17 14|17b13 24l7 24t20
+20i17 seed{16|6I8} 14|18b17 22m51
+21a17 v{4|16A8[8|4]} 14|19b17 21r14 22m56 22r56
+28V12*Random_Vector{4|16A8[11|4]} 28>28 28>34 14|26b12 36l7 36t20
+28i28 first{16|6I8} 14|26b28 29r43
+28i34 last{16|6I8} 14|26b34 29r50
+35U13*Random_Vector 36=17 37<17 14|38b13 45l7 45t20
+36i17 seed{16|6I8} 14|39b17 43m54
+37a17 v{4|16A8[11|4]} 14|40b17 42r14 43m59 43r59
+X 14 pentdobl_random_vectors.adb
+8a5 res{4|16A8[8|4]} 11r14 12m7 14r12
+11i9 i<long_integer> 12r11
+21i9 i<long_integer> 22r58
+29a5 res{4|16A8[11|4]} 32r14 33m7 35r12
+32i9 i<long_integer> 33r11
+42i9 i<long_integer> 43r61
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 13|1w6 1r46 16|45e29
+6I8*integer32<long_integer> 13|12r41 20r31 28r41 36r31 14|5r41 18r31 26r41
+. 39r31
+

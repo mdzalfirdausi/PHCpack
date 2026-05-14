@@ -1,0 +1,169 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_lists_of_terms%b  generic_lists_of_terms.adb  91249e74 NE OO PK GE
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+U generic_lists_of_terms%s  generic_lists_of_terms.ads  258732a6 BN EE NE OO PK GE
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W generic_polynomials%s	generic_polynomials.adb	generic_polynomials.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_lists_of_terms.ads  20260513024558 d5cf5f8e generic_lists_of_terms%s
+D generic_lists_of_terms.adb  20260513024558 f5c207a8 generic_lists_of_terms%b
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [generic_lists_of_terms standard 11 9 none]
+X 1 abstract_ring.ads
+3+8 number
+10U18 Copy 5|41s5[4|8] 63s7[4|8] 83s11[4|8]
+18U18 Add 5|76s13[4|8]
+25k9*Abstract_Ring 25e29 4|2w6 8r28
+X 2 generic_lists.ads
+7k9*Generic_Lists 104e18 4|3w6 21r32
+12P8 List 4|22r39[21] 5|197r45[4|21]
+26U13 Construct 5|44s7[4|21] 50s9[4|21] 65s7[4|21] 85s11[4|21]
+31U13 Set_Head 5|77s13[4|21]
+38U13 Swap_Tail 5|51s9[4|21] 86s11[4|21]
+72V12 Is_Null{boolean} 5|29s15[4|21] 43s8[4|21] 62s8[4|21] 73s19[4|21] 82s12[4|21]
+. 99s15[4|21] 113s15[4|21] 128s12[4|21] 131s15[4|21] 146s15[4|21] 163s15[4|21]
+. 179s15[4|21] 196s12[4|21]
+77V12 Head_Of{6|23R8[4|9]} 5|30s15[4|21] 74s18[4|21] 100s13[4|21] 114s13[4|21]
+. 132s12[4|21] 147s13[4|21] 164s12[4|21] 180s12[4|21]
+84V12 Tail_Of{12P8[4|21]} 5|31s14[4|21] 52s17[4|21] 79s20[4|21] 87s19[4|21]
+. 102s14[4|21] 116s14[4|21] 134s14[4|21] 150s20[4|21] 167s14[4|21] 182s14[4|21]
+93U13 Clear 5|197s25[4|21]
+X 4 generic_lists_of_terms.ads
+8K16 Ring[1|25] 9r55 17r7
+9K16 Polynomials[6|11] 17r12
+11k9*Generic_Lists_of_Terms 8z16 9z16 99l5 99e27 5|3b14 208l5 208t27
+21K11*List_of_Terms[2|7] 22r25 5|197r11 197r31
+22P8*Term_List<2|12P8[21]> 23r63 27r39 32r25 37r42 43r48 52r42 52r60 58r48
+. 58r66 67r27 67r56 75r27 82r31 90r32 92r40 5|7r39 9r20 23r25 26r11 36r42
+. 48r15 57r48 69r15 71r18 93r42 93r60 95r11 106r48 107r35 109r11 122r27 122r56
+. 124r11 140r27 142r11 156r31 158r11 173r32 175r11 194r40
+23A8*Array_of_Term_Lists(22P8)<8|6I8> 91r32 93r40 5|187r32 201r40
+27V12*Create{22P8} 27>21 5|7b12 21l7 21t13
+27p21 p{6|28P8[9]} 5|7b21 19r18
+32V12*Create{6|28P8[9]} 32>21 5|23b12 34l7 34t13
+32p21 t{22P8} 5|23b21 26r24
+37U13*Append<2|43p13> 37=22 37=28 37>53 5|13s7 36b13 55l7 55t13 101s7 133s7
+37p22 first{22P8} 5|36b22 43r16 44m20 45r15
+37p28 last{22P8} 5|36b28 45m7 51m19 52m9 52r25
+37r53 t{6|23R8[9]} 5|36b53 41r10 42r10
+43U13*Merge_Append 43=28 43=34 43>59 5|57b13 91l7 91t19 115s7
+43p28 first{22P8} 5|57b28 62r16 65m20 66r15 69r28
+43p34 last{22P8} 5|57b34 66m7 86m21 87m11 87r27
+43r59 t{6|23R8[9]} 5|57b59 63r12 64r12 75r56 76r24 83r16 84r16
+52U13*Concat<2|49p13> 52=22 52=28 52>53 5|93b13 104l7 104t13
+52p22 first{22P8} 5|93b22 101m14
+52p28 last{22P8} 5|93b28 101m20
+52p53 t{22P8} 5|93b53 95r24
+58U13*Merge_Concat 58=28 58=34 58>59 5|106b13 118l7 118t19
+58p28 first{22P8} 5|106b28 115m20
+58p34 last{22P8} 5|106b34 115m26
+58p59 t{22P8} 5|107b28 109r24
+67U13*Copy 67>20 67=38 67=40 5|122b13 136l7 136t11
+67p20 p{22P8} 5|122b20 124r24
+67p38 q{22P8} 5|122b38 128r20 129m17 129r31 133m14
+67p40 q_last{22P8} 5|122b40 129m21 133m16
+75V12*Is_In{boolean} 75>20 75>38 5|140b12 154l7 154t12
+75p20 p{22P8} 5|140b20 142r24
+75r38 t{6|23R8[9]} 5|140b38 148r19
+81U20 process 81>30 81<43 5|165s7
+81r30 t{6|23R8[9]}
+81b43 continue{boolean}
+82u13*Iterator 82>24 5|156b13 169l7 169t15
+82p24 p{22P8} 5|156b24 158r24
+90U13*Clear<2|93p13> 90=21 5|129s11 173b13 185l7 185t12 190s7
+90p21 p{22P8} 5|173b21 175r24 184m19
+91U13*Clear 91=21 5|187b13 192l7 192t12
+91a21 p{23A8} 5|187b21 189r14 190m13 190r13
+92U13*Shallow_Clear 92=29 5|184s5 194b13 199l7 199t20 204s7
+92p29 p{22P8} 5|194b29 196r20 197m50 197r50
+93U13*Shallow_Clear 93=29 5|201b13 206l7 206t20
+93a29 p{23A8} 5|201b29 203r14 204m21 204r21
+X 5 generic_lists_of_terms.adb
+9p5 res{4|22P8} 13m14 13r14 20r12
+9p9 res_last{4|22P8} 13m18 13r18
+11U15 Append_Term 11b15 11>29 11<42 15l9 15t20 16r53
+11r29 t{6|23R8[4|9]} 13r27
+11b42 continue{boolean} 14m7
+16U15 Append_Terms[6|124] 19s5
+25p5 res{6|28P8[4|9]} 30m11 30r11 33r12
+26p5 tmp{4|22P8} 29r23 30r23 31m7 31r22
+38r5 tt{6|23R8[4|9]} 41m15 41r15 42m15 42r15 44r17 50r19
+48p9 tmp{4|22P8} 50m22 50r22 51m24 51r24
+59r5 tt{6|23R8[4|9]} 63m17 63r17 64m17 64r17 65r17 83m21 83r21 84m21 84r21
+. 85r21
+69p9 tmp{4|22P8} 73r27 74r26 77m22 77r22 79m13 79r28 82r20
+70r9 ttt{6|23R8[4|9]} 74m11 75r45 76m17 76r17 77r26
+71p9 newtmp{4|22P8} 85m24 85r24 86m26 86r26
+95p5 tmp{4|22P8} 99r23 100r21 102m7 102r22
+96r5 tt{6|23R8[4|9]} 100m7 101r25
+109p5 tmp{4|22P8} 113r23 114r21 116m7 116r22
+110r5 tt{6|23R8[4|9]} 114m7 115r31
+124p5 tmp{4|22P8} 131r23 132r20 134m7 134r22
+125r5 t{6|23R8[4|9]} 132m7 133r23
+142p5 tmp{4|22P8} 146r23 147r21 150m13 150r28
+143r5 tp{6|23R8[4|9]} 147m7 148r16
+158p5 tmp{4|22P8} 163r23 164r20 167m7 167r22
+159r5 t{6|23R8[4|9]} 164m7 165r15
+160b5 cont{boolean} 165m17 166r21
+175p5 tmp{4|22P8} 179r23 180r20 182m7 182r22
+176r5 t{6|23R8[4|9]} 180m7 181m13 181r13
+189i9 i<long_integer> 190r15
+203i9 i<long_integer> 204r23
+X 6 generic_polynomials.ads
+11k9*Generic_Polynomials 4|4w6 9r35 6|145e24
+21P8 Degrees<7|17P8[11|4]>
+23R8 Term 4|21r46[9] 37r60[9] 43r66[9] 75r45[9] 81r37[9] 5|11r36[4|9] 36r60[4|9]
+. 38r10[4|9] 57r66[4|9] 59r10[4|9] 70r15[4|9] 96r10[4|9] 110r10[4|9] 125r9[4|9]
+. 140r45[4|9] 143r10[4|9] 159r9[4|9] 176r9[4|9]
+24*5 cf{1|3+8[4|8]} 5|41r12[4|9] 41m18[4|9] 63r14[4|9] 63m20[4|9] 76m21[4|9]
+. 76r26[4|9] 83r18[4|9] 83m24[4|9]
+25p5 dg{21P8[4|9]} 5|42r12[4|9] 42m18[4|9] 64r14[4|9] 64m20[4|9] 75r49[4|9]
+. 75r58[4|9] 84r18[4|9] 84m24[4|9]
+28P8 Poly 4|27r25[9] 32r44[9] 5|7r25[4|9] 23r44[4|9] 25r11[4|9]
+30p3 Null_Poly{28P8[4|9]} 5|25r19[4|9]
+45V12 Equal{boolean} 5|148s10[4|9]
+102U13 Add 5|30s7[4|9]
+124u13 Visiting_Iterator 5|16r35[4|9]
+129U13 Clear 5|181s7[4|9]
+X 7 generic_vectors.ads
+16A8*Vector(9|7I8)<8|6I8>
+17P8*Link_to_Vector(16A8[11|4])
+21V12*Equal{boolean} 5|75s39[11|4]
+25U13*Copy 5|42s5[11|4] 64s7[11|4] 84s11[11|4]
+X 8 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 4|1w6 1r46 8|45e29
+6I8*integer32<long_integer> 4|23r39
+X 9 standard_natural_numbers.ads
+7I8*natural32<long_integer>
+X 11 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[7|8] 5|1w6 75r14
+

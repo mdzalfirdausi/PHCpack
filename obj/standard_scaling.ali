@@ -1,0 +1,436 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_scaling%b	standard_scaling.adb	1d11cdd5 NE OO PK
+W standard_complex_linear_solvers%s  standard_complex_linear_solvers.adb  standard_complex_linear_solvers.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+U standard_scaling%s	standard_scaling.ads	fe5f691f EE NE OO PK
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_scaling.ads	20260513024558 6230a083 standard_scaling%s
+D standard_scaling.adb	20260513024558 eff5b4e6 standard_scaling%b
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [scale standard_scaling 13 13 none]
+G c Z s b [scale standard_scaling 14 13 none]
+G c Z s b [scale standard_scaling 20 13 none]
+G c Z s b [scale standard_scaling 45 13 none]
+G c Z s b [scale standard_scaling 47 13 none]
+G c Z b b [center_coefficients standard_scaling 47 12 none]
+G c Z b b [reduce_variability standard_scaling 115 12 none]
+G c Z b b [init_linear_system standard_scaling 195 13 none]
+G c Z b b [make_linear_system standard_scaling 210 13 none]
+G r i none [scale standard_scaling 13 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [scale standard_scaling 13 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [scale standard_scaling 13 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [scale standard_scaling 13 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [scale standard_scaling 13 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [scale standard_scaling 13 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [scale standard_scaling 13 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [scale standard_scaling 13 13 none] [mul standard_complex_polynomials 107 13 4_1]
+G r i none [scale standard_scaling 14 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [scale standard_scaling 14 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [scale standard_scaling 14 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [scale standard_scaling 14 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [scale standard_scaling 14 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [scale standard_scaling 14 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [scale standard_scaling 14 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [scale standard_scaling 14 13 none] [mul standard_complex_polynomials 107 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r s term [scale standard_scaling 20 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r i none [scale standard_scaling 20 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [scale standard_scaling 20 13 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [scale standard_scaling 20 13 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [scale standard_scaling 20 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [scale standard_scaling 20 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [scale standard_scaling 20 13 none] [log10 standard_mathematical_functions 35 12 none]
+G r c none [scale standard_scaling 20 13 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [scale standard_scaling 20 13 none] [Oadd standard_complex_polynomials 89 12 4_1]
+G r c none [scale standard_scaling 20 13 none] [diff standard_complex_polynomials 113 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [scale standard_scaling 20 13 none] [lufco standard_complex_linear_solvers 118 13 none]
+G r c none [scale standard_scaling 20 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r i none [scale standard_scaling 20 13 none] [changing_iterator standard_complex_polynomials 121 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [copy standard_complex_polynomials 40 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [scale standard_scaling 20 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [scale standard_scaling 20 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [scale standard_scaling 20 13 none] [equal standard_complex_numbers 33 12 none]
+G r c none [scale standard_scaling 20 13 none] [append standard_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [scale standard_scaling 20 13 none] [clear standard_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [scale standard_scaling 20 13 none] [free standard_complex_polynomials 20 13 4_1]
+G r c none [scale standard_scaling 20 13 none] [shuffle standard_complex_polynomials 22 13 4_1]
+G r c none [scale standard_scaling 45 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [scale standard_scaling 45 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [scale standard_scaling 45 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [scale standard_scaling 45 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [scale standard_scaling 47 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [scale standard_scaling 47 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r s solution [scale standard_scaling 47 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [scale standard_scaling 47 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [scale standard_scaling 47 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [scale standard_scaling 47 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [scale standard_scaling 47 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [scale standard_scaling 47 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [scale standard_scaling 47 13 none] [set_head standard_complex_solutions__list_of_solutions 31 13 27_3]
+G r c none [scale standard_scaling 47 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r s term [center_coefficients standard_scaling 47 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r i none [center_coefficients standard_scaling 47 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [center_coefficients standard_scaling 47 12 none] [create standard_complex_polynomials 38 12 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [center_coefficients standard_scaling 47 12 none] [log10 standard_mathematical_functions 35 12 none]
+G r c none [center_coefficients standard_scaling 47 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [center_coefficients standard_scaling 47 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r i none [reduce_variability standard_scaling 115 12 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [reduce_variability standard_scaling 115 12 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [reduce_variability standard_scaling 115 12 none] [add standard_complex_polynomials 102 13 4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [clear standard_complex_polynomials 129 13 4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [reduce_variability standard_scaling 115 12 none] [log10 standard_mathematical_functions 35 12 none]
+G r c none [reduce_variability standard_scaling 115 12 none] [mul standard_complex_polynomials 109 13 4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [reduce_variability standard_scaling 115 12 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [init_linear_system standard_scaling 195 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [make_linear_system standard_scaling 210 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [make_linear_system standard_scaling 210 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [make_linear_system standard_scaling 210 13 none] [diff standard_complex_polynomials 113 13 4_1]
+G r i none [make_linear_system standard_scaling 210 13 none] [visiting_iterator standard_complex_polynomials 124 13 4_1]
+G r s term [make_linear_system standard_scaling 210 13 none] [termIP standard_complex_polynomials 23 8 4_1]
+G r c none [make_linear_system standard_scaling 210 13 none] [is_null standard_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [make_linear_system standard_scaling 210 13 none] [head_of standard_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [make_linear_system standard_scaling 210 13 none] [Osubtract standard_complex_numbers 54 12 none]
+G r c none [make_linear_system standard_scaling 210 13 none] [tail_of standard_complex_polynomials__term_list 84 12 134_3_4_1]
+X 11 generic_lists.ads
+12P8*List
+31U13*Set_Head 40|326s11[27|27]
+72V12*Is_Null{boolean} 40|313s12[27|27] 320s19[27|27]
+77V12*Head_Of{27|25P8} 40|316s26[27|27] 321s16[27|27]
+84V12*Tail_Of{12P8[27|27]} 40|327s19[27|27]
+X 12 generic_matrices.ads
+16A8*Matrix(22|11R8)<31|6I8><31|6I8> 40|195r42[21|5] 210r57[21|5] 249r11[21|5]
+. 253r36[21|5]
+X 13 generic_polynomial_systems.ads
+22A8*Poly_Sys(14|28P8[24|4])<31|6I8> 39|14r32[23|5] 20r32[23|5] 40|38r32[23|5]
+. 48r20[23|5] 116r20[23|5] 241r32[23|5] 252r34[23|5]
+X 14 generic_polynomials.ads
+21P8*Degrees<16|17P8[38|4]>
+23R8*Term 40|24r35[24|4] 67r16[24|4] 69r36[24|4] 71r14[24|4] 132r43[24|4]
+. 136r38[24|4] 138r14[24|4] 173r36[24|4] 217r36[24|4] 261r43[24|4]
+24r5*cf{22|11R8} 40|26r29[24|4] 79m16[24|4] 86m12[24|4] 86r40[24|4] 97m14[24|4]
+. 149m18[24|4] 156m12[24|4] 156r40[24|4] 156r54[24|4] 222r31[24|4] 225r24[24|4]
+. 270m13[24|4] 270r21[24|4]
+25p5*dg{21P8[24|4]} 40|77r20[24|4] 78r16[24|4] 79r44[24|4] 80m16[24|4] 81r16[24|4]
+. 87m12[24|4] 98m14[24|4] 99r14[24|4] 145r23[24|4] 146r18[24|4] 146r30[24|4]
+. 147m18[24|4] 148r18[24|4] 149r46[24|4] 149r55[24|4] 155m12[24|4] 220r20[24|4]
+. 221r16[24|4] 267r22[24|4] 268r41[24|4]
+28P8*Poly 39|13r32[24|4] 40|18r32[24|4] 49r21[24|4] 62r14[24|4] 64r29[24|4]
+. 66r14[24|4] 72r16[24|4] 117r21[24|4] 130r14[24|4] 132r30[24|4] 139r16[24|4]
+. 169r30[24|4] 210r41[24|4] 213r11[24|4] 215r29[24|4] 245r20[24|4] 258r36[24|4]
+30p3*Null_Poly{28P8[24|4]} 40|106r11[24|4] 139r24[24|4] 186r11[24|4]
+38V12*Create{28P8[24|4]} 40|100s15[24|4]
+41U13*Copy 40|75s9[24|4] 294s7[24|4]
+48V12*Number_of_Unknowns{36|7I8} 40|235s27[24|4] 247s41[24|4]
+89V13*"+"{28P8[24|4]} 40|291s20[24|4]
+102U13*Add 40|82s13[24|4] 88s9[24|4] 150s15[24|4] 157s9[24|4]
+103U13*Add 40|91s9[24|4] 109s7[24|4] 160s9[24|4] 189s7[24|4]
+107U13*Mul 40|35s5[24|4]
+109U13*Mul 40|90s9[24|4] 159s9[24|4]
+113V13*Diff{28P8[24|4]} 40|236s43[24|4]
+121u13*Changing_Iterator 40|273r38[24|4]
+124u13*Visiting_Iterator 40|30r34[24|4] 94r35[24|4] 163r36[24|4] 179r35[24|4]
+. 227r35[24|4]
+129U13*Clear 40|83s13[24|4] 89s9[24|4] 101s7[24|4] 151s15[24|4] 158s9[24|4]
+130U13*Clear 40|92s9[24|4] 110s7[24|4] 161s9[24|4] 190s7[24|4] 292s7[24|4]
+. 292s18[24|4] 294s24[24|4] 297s5[24|4]
+X 16 generic_vectors.ads
+16A8*Vector(22|11R8)<31|6I8> 39|22r33[28|4] 45r54[28|4] 47r54[28|4] 40|80r51[38|4]
+. 87r47[38|4] 98r49[38|4] 147r53[38|4] 155r47[38|4] 195r58[28|4] 211r46[28|4]
+. 243r33[28|4] 250r13[28|4] 253r59[28|4] 256r39[33|4] 259r43[28|4] 302r54[28|4]
+. 310r54[28|4]
+17P8*Link_to_Vector(16A8[38|4])
+X 20 standard_complex_linear_solvers.ads
+9K9*Standard_Complex_Linear_Solvers 257e36 40|7w6 7r46
+118U13*lufco 40|280s7
+162U13*lusolve 40|281s7
+X 21 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[12|9] 40|6w6 6r46
+X 22 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 40|2w6 2r46
+11R8*Complex_Number 90e15 40|22r14
+18V12*Create{11R8} 40|34s15 79s22 86s18 97s20 149s24 156s18 203s15 205s19
+. 270s26 306s17
+24V12*REAL_PART{30|13F8} 40|266s18 268s48 306s45
+27V12*AbsVal{30|13F8} 40|26s20 86s31 156s31 156s44
+54V13*"-"{11R8} 40|225s21
+55V13*"*"{11R8} 40|270s24 306s66
+X 23 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[13|12] 39|5w6 5r46
+X 24 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[14|11] 39|4w6 4r46 40|236r14
+X 27 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 206e31 39|6w6 6r46
+16R8*Solution 23e13 39|46r32 40|303r32 317r13 325r20
+16i19*n{31|6I8} 40|316r40
+19a5*v{16|16A8[28|4]} 40|305r16 306m9 306r70
+25P8*Link_to_Solution(16R8) 40|318r13
+28P8*Solution_List<11|12P8[27]> 39|48r35 40|311r35 315r16
+190U13*Clear 40|324s11
+X 28 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[16|8] 39|3w6 3r46
+X 30 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 39|2w6 2r46
+13F8*double_float<long_float> 39|21r51 40|20r11 34r22 79r29 149r31 242r51
+. 254r34 263r17 268r26 270r33 306r24
+X 31 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 40|1w6 1r46
+6I8*integer32<long_integer> 40|48r40 64r42 116r40 215r42 235r17 246r18 247r18
+. 247r31 248r20 258r50 316r13
+X 33 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[16|8] 40|5w6 256r14
+X 34 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 64e36 40|3w6 3r46
+25V13*"**"{30|13F8} 40|270s51 306s43
+35V12*LOG10{30|13F8} 40|86s25 156s25
+X 36 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 39|1w6 1r46
+7I8*natural32<long_integer> 39|20r51 45r32 47r32 40|21r14 48r57 116r57 132r57
+. 134r15 171r12 241r51 252r53 259r60 302r32 310r32
+X 38 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[16|8] 40|4w6 80r26 87r22 98r24 147r28 155r22
+X 39 standard_scaling.ads
+8K9*Standard_Scaling 54l5 54e21 40|9b14 333l5 333t21
+13U13*Scale 13=21 40|18b13 36l7 36t12 41s7
+13p21 p{14|28P8[24|4]} 40|18b21 33r17 35m9
+14U13*Scale 14=21 40|38b13 43l7 43t12
+14a21 s{13|22A8[23|5]} 40|38b21 40r14 41m13 41r13
+20U13*Scale 20=21 20>42 21>21 21<40 22<21 40|241b13 300l7 300t12
+20a21 s{13|22A8[23|5]} 40|241b21 246r31 247r60 247r62 288r31 290r32 298m11
+20i42 bas{36|7I8} 40|241b42 288r41 290r42 298r13
+21b21 diff{boolean} 40|242b21 289r8
+21f40 cond{30|13F8} 40|242b40 298m27
+22a21 sccff{16|16A8[28|4]} 40|243b21 299m5
+45U13*Scale 45>21 45>43 46=21 40|302b13 308l7 308t12 323s11
+45i21 basis{36|7I8} 40|302b21 306r37
+45a43 sccff{16|16A8[28|4]} 40|302b43 306r55
+46r21 s{27|16R8} 40|303b21 305r14 306m7 306r68
+47U13*Scale 47>21 47>43 48=21 40|310b13 331l7 331t12
+47i21 basis{36|7I8} 40|310b21 323r17
+47a43 sccff{16|16A8[28|4]} 40|310b43 323r23
+48p21 sols{27|28P8} 40|311b21 313r20 315r33 316r34
+X 40 standard_scaling.adb
+20f5 sum{30|13F8} 26m7 26r14 34r43
+21i5 number{36|7I8} 27m7 27r17 34r35
+22r5 factor{22|11R8} 34m5 35r11
+24U15 Add_To_Sum 24b15 24>28 24<41 29l9 29t19 30r52
+24r28 t{14|23R8[24|4]} 26r27
+24b41 continue{boolean} 28m7
+30U15 Compute_Sum[14|124] 33s5
+40i9 i<long_integer> 41r15
+47V12 Center_Coefficients{14|28P8[24|4]} 47b12 48>16 48>30 48>32 48>34 48>51
+. 113l7 113t26 288s11
+48a16 s{13|22A8[23|5]} 107r14 108r12
+48i30 n{31|6I8}
+48i32 m{31|6I8} 99r17
+48i34 npm{31|6I8} 80r62 87r58 98r60
+48i51 bas{36|7I8}
+62p5 r1{14|28P8[24|4]} 106m5 109m11 109r11 112r12
+62p8 r1i{14|28P8[24|4]} 91m13 91r13 109r14 110m13 110r13
+64U15 Scan 64b15 64>22 64>35 103l9 103t13 108s7
+64p22 p{14|28P8[24|4]} 102r18
+64i35 i{31|6I8} 99r19
+66p7 init{14|28P8[24|4]} 75r14 100m7
+67r7 t_init{14|23R8[24|4]} 97m7 98m7 99m7 99r7 100r22 101m13 101r13
+69U17 Scan_Term 69b17 69>29 69<42 93l11 93t20 94r53
+69r29 t{14|23R8[24|4]} 77r18 78r14 79r42 86r38
+69b42 continue{boolean} 76m9
+71r9 tt{14|23R8[24|4]} 79m13 80m13 81m13 81r13 82r22 83m19 83r19 86m9 87m9
+. 88r18 89m15 89r15
+72p9 temp{14|28P8[24|4]} 75m19 75r19 82m17 82r17 88m13 88r13 90m13 90r13
+. 90r18 91r17 92m15 92r15
+77i13 k<long_integer> 78r19 79r47 81r19
+94U17 Scan_Terms[14|124] 102s7
+107i9 i<long_integer> 108r14 108r17
+115V12 Reduce_Variability{14|28P8[24|4]} 115b12 116>16 116>30 116>32 116>34
+. 116>51 193l7 193t25 290s13
+116a16 s{13|22A8[23|5]} 187r14 188r13
+116i30 n{31|6I8}
+116i32 m{31|6I8}
+116i34 npm{31|6I8} 147r64 155r58
+116i51 bas{36|7I8}
+130p5 r2{14|28P8[24|4]} 186m5 189m11 189r11 192r12
+130p8 r2i{14|28P8[24|4]} 160m13 160r13 189r14 190m13 190r13
+132U15 Scan2 132b15 132>23 132>36 132>49 167l9 167t14 177s9
+132p23 p{14|28P8[24|4]} 166r19
+132r36 t{14|23R8[24|4]} 146r16 149r44 156r38
+132i49 nr{36|7I8} 144r20
+134i7 count{36|7I8} 143m9 143r18 144r12
+136U17 Scan2_Term 136b17 136>30 136<44 162l11 162t21 163r54
+136r30 t2{14|23R8[24|4]} 145r20 146r27 149r52 156r51
+136b44 continue{boolean} 142m9
+138r9 tt{14|23R8[24|4]} 147m15 148m15 148r15 149m15 150r24 151m21 151r21
+. 155m9 156m9 157r18 158m15 158r15
+139p9 temp{14|28P8[24|4]} 150m19 150r19 157m13 157r13 159m13 159r13 159r18
+. 160r17 161m15 161r15
+145i15 i<long_integer> 146r21 146r33 148r21 149r49 149r58
+163U17 Scan2_Terms[14|124] 166s7
+169U15 Scan1 169b15 169>23 183l9 183t14 188s7
+169p23 p{14|28P8[24|4]} 177r15 182r18
+171i7 nr{36|7I8} 175m9 175r15 177r19
+173U17 Scan_Term 173b17 173>29 173<42 178l11 178t20 179r53
+173r29 t{14|23R8[24|4]} 177r17
+173b42 continue{boolean} 176m9
+179U17 Scan_Terms[14|124] 182s7
+187i9 i<long_integer> 188r15
+195U13 Init_Linear_System 195b13 195<34 195<50 208l7 208t25 234s5
+195a34 m{12|16A8[21|5]} 202r14 204r16 205m9
+195a50 r{16|16A8[28|4]} 203m7
+202i9 i<long_integer> 203r9 205r11
+204i11 j<long_integer> 205r13
+210U13 Make_Linear_System 210b13 210>34 210<47 211<34 239l7 239t25 296s5
+210p34 r{14|28P8[24|4]} 235r46 236r48
+210a47 mat{12|16A8[21|5]} 222m17 234m24
+211a34 right{16|16A8[28|4]} 225m9 234m28
+213p5 drj{14|28P8[24|4]} 236m7 237r12
+215U15 Scan 215b15 215>22 215>35 231l9 231t13 237s7
+215p22 p{14|28P8[24|4]} 230r18
+215i35 j{31|6I8} 222r21 225r15
+217U17 Scan_Term 217b17 217>29 217<42 226l11 226t20 227r53
+217r29 t{14|23R8[24|4]} 220r18 221r14 222r29 225r22
+217b42 continue{boolean} 219m9
+220i13 i<long_integer> 221r19 222r23
+227U17 Scan_Terms[14|124] 230s7
+235i9 j<long_integer> 236r50 237r16
+245p5 r1{14|28P8[24|4]} 288m5 291r17 292m13 292r13 294r12 294m30 294r30
+245p8 r2{14|28P8[24|4]} 290m7 291r22 292m24 292r24
+245p11 target{14|28P8[24|4]} 291m7 294m15 294r15 296r24 297m11 297r11
+246i5 n{31|6I8} 248r33 288r33 290r34
+247i5 m{31|6I8} 248r35 266r41 288r35 290r36
+248i5 npm{31|6I8} 249r21 249r28 250r23 280r17 281r19 288r37 290r38
+249a5 mat{12|16A8[21|5]} 296m31 298m17 298r17
+250a5 right{16|16A8[28|4]} 296m35 298m21 298r21 299r14
+252U15 Scale 252b15 252=23 252>44 253=23 253=44 254<23 285l9 285t14 298s5
+252a23 s{13|22A8[23|5]} 282r16 283m15 283r15
+252i44 bas{36|7I8} 283r28
+253a23 mat{12|16A8[21|5]} 256r46 280m13 281r15
+253a44 right{16|16A8[28|4]} 281m28 283r22
+254f23 cond{30|13F8} 280m26
+256a7 ipvt{16|16A8[33|4]} 280m21 281r23
+258U17 Scale 258b17 258=25 258>42 259>25 259>51 277l11 277t16 283s9
+258p25 p{14|28P8[24|4]} 276m21
+258i42 ip{31|6I8} 266r43
+259a25 scalingcoeff{16|16A8[28|4]} 266r28 268r58
+259i51 bas{36|7I8} 270r46
+261U19 Scale_Term 261b19 261=32 261<49 272l13 272t23 273r56
+261r32 t{14|23R8[24|4]} 267r20 268r39 270m11 270r19
+261b49 continue{boolean} 271m11
+263f11 exp{30|13F8} 266m11 268m13 268r20 270r54
+267i15 k<long_integer> 268r44 268r71
+273U19 Scale_Terms[14|121] 276s9
+282i11 i<long_integer> 283r17 283r20
+305i9 i<long_integer> 306r11 306r61 306r72
+315p9 temp{27|28P8} 320r27 321r24 326m20 326r20 327m11 327r27
+316i9 n{31|6I8} 317r22
+317r9 s{27|16R8} 322m11 323m29 323r29 325r30
+318p9 l{27|25P8} 321m11 322r16 324m17 324r17 325m11 326r25
+

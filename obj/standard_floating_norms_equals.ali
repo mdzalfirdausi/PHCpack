@@ -1,0 +1,90 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_floating_norms_equals%b  standard_floating_norms_equals.ads  76ba452e NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z abstract_ring.field%s	abstract_ring-field.ads	abstract_ring-field.ali
+Z generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+W generic_norms_equals%s  generic_norms_equals.adb  generic_norms_equals.ali  ED
+Z generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_ring%s  standard_floating_ring.ads  standard_floating_ring.ali
+W standard_floating_ring.ffield%s  standard_floating_ring-ffield.ads  standard_floating_ring-ffield.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+U standard_floating_norms_equals%s  standard_floating_norms_equals.ads  3409ec2f EB NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z abstract_ring.field%s	abstract_ring-field.ads	abstract_ring-field.ali
+Z generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+W generic_norms_equals%s  generic_norms_equals.adb  generic_norms_equals.ali
+Z generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_ring%s  standard_floating_ring.ads  standard_floating_ring.ali
+W standard_floating_ring.ffield%s  standard_floating_ring-ffield.ads  standard_floating_ring-ffield.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_norms_equals.ads  20260513024558 e71ebd4a generic_norms_equals%s
+D generic_norms_equals.adb  20260513024558 e5ab5486 generic_norms_equals%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_norms_equals.ads  20260513024558 76ba452e standard_floating_norms_equals%s
+D standard_floating_norms_equals.ads  20260513024558 76ba452e standard_floating_norms_equals%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring-ffield.ads  20260513024558 bc4d2762 standard_floating_ring.ffield%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c s s s [s standard_floating_norms_equals 7 1 none]
+G c Z s s [max_norm standard_floating_norms_equals 20 12 7_1]
+G c Z s s [sum_norm standard_floating_norms_equals 25 12 7_1]
+G c Z s s [max_norm standard_floating_norms_equals 30 12 7_1]
+G c Z s s [equal standard_floating_norms_equals 35 12 7_1]
+G c Z s s [equal standard_floating_norms_equals 40 12 7_1]
+G r i none [s standard_floating_norms_equals 7 1 none] [generic_norms_equals standard 13 9 none]
+G r c none [max_norm standard_floating_norms_equals 20 12 7_1] [absval standard_floating_numbers 28 12 none]
+G r c none [max_norm standard_floating_norms_equals 20 12 7_1] [copy standard_floating_numbers 31 13 none]
+G r c none [max_norm standard_floating_norms_equals 20 12 7_1] [clear standard_floating_numbers 56 13 none]
+G r c none [sum_norm standard_floating_norms_equals 25 12 7_1] [absval standard_floating_numbers 28 12 none]
+G r c none [sum_norm standard_floating_norms_equals 25 12 7_1] [add standard_floating_numbers 34 13 none]
+G r c none [sum_norm standard_floating_norms_equals 25 12 7_1] [clear standard_floating_numbers 56 13 none]
+G r c none [max_norm standard_floating_norms_equals 30 12 7_1] [create standard_floating_numbers 18 12 none]
+G r c none [max_norm standard_floating_norms_equals 30 12 7_1] [absval standard_floating_numbers 28 12 none]
+G r c none [max_norm standard_floating_norms_equals 30 12 7_1] [copy standard_floating_numbers 31 13 none]
+G r c none [max_norm standard_floating_norms_equals 30 12 7_1] [clear standard_floating_numbers 56 13 none]
+G r c none [equal standard_floating_norms_equals 35 12 7_1] [absval standard_floating_numbers 28 12 none]
+G r c none [equal standard_floating_norms_equals 35 12 7_1] [clear standard_floating_numbers 56 13 none]
+G r c none [equal standard_floating_norms_equals 40 12 7_1] [absval standard_floating_numbers 28 12 none]
+G r c none [equal standard_floating_norms_equals 40 12 7_1] [clear standard_floating_numbers 56 13 none]
+X 4 generic_norms_equals.ads
+13k9*Generic_Norms_Equals 48e25 9|5w6 8r7
+X 7 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[3|9] 9|4w6 11r28
+X 9 standard_floating_norms_equals.ads
+7K9*Standard_Floating_Norms_Equals[4|13]
+X 11 standard_floating_ring.ads
+4K9*Standard_Floating_Ring[1|25] 9|1w6 2r6 8r28 9r28
+X 12 standard_floating_ring-ffield.ads
+5K32*FField[2|12] 9|2w29 9r51
+X 13 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[6|8] 9|3w6 10r28
+

@@ -1,0 +1,89 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_vecvecs%b	generic_vecvecs.adb	da6c59d7 NE OO PK GE
+W unchecked_deallocation%s
+
+U generic_vecvecs%s	generic_vecvecs.ads	862a5d50 BN EE NE OO PK GE
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D generic_vecvecs.adb	20260513024558 61b4adca generic_vecvecs%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [generic_vecvecs standard 10 9 none]
+X 1 abstract_ring.ads
+3+8 number
+25k9*Abstract_Ring 25e29 3|2w6 7r28
+X 2 generic_vectors.ads
+8k9*Generic_Vectors 74e20 3|3w6 8r31
+16A8 Vector(1|3+8[3|7])<5|6I8> 4|12r27[3|8] 37r26[3|8] 39r23[3|8]
+17P8 Link_to_Vector(16A8[3|8]) 3|14r50[8]
+72U13 Clear 4|48s15[3|8]
+X 3 generic_vecvecs.ads
+7K16 Ring[1|25] 8r47
+8K16 Vectors[2|8] 12r7 4|48r7
+10k9*Generic_VecVecs 7z16 8z16 43l5 43e20 4|3b14 92l5 92t20
+14A8*VecVec(2|17P8[8])<5|6I8> 15r33 19r30 19r46 25r27 25r46 32r32 4|5r30
+. 5r46 7r11 25r27 31r27 31r46 45r32 54r50
+15P8*Link_to_VecVec(14A8) 16r60 34r40 36r37 4|52r40 54r57 76r37
+16A8*Array_of_VecVecs(15P8)<5|6I8> 17r43 20r30 20r56 33r32 4|18r30 18r56
+. 20r11 63r34 69r32
+17P8*Link_to_Array_of_VecVecs(16A8) 35r40 37r37 4|60r40 63r51 84r37
+19V12*Create_Copy{14A8} 19>26 4|5b12 16l7 16t18 25s35
+19a26 v{14A8} 4|5b26 7r18 10r14 11r10 12r35
+20V12*Create_Copy{16A8} 20>26 4|18b12 29l7 29t18
+20a26 v{16A8} 4|18b26 20r28 23r14 24r10 25r47
+25U13*Copy 25>20 25=35 4|31b13 43l7 43t11
+25a20 v{14A8} 4|31b20 34r14 35r10 37r36
+25a35 w{14A8} 4|31b35 33m11 39m11
+32U13*Clear 32=21 4|33s5 45b13 50l7 50t12 79s11
+32a21 v{14A8} 4|45b21 47r14 48m21 48r21
+33U13*Clear 33=21 4|69b13 74l7 74t12 87s11
+33a21 v{16A8} 4|69b21 71r14 72m18 72r18
+34U13*Shallow_Clear 34=29 4|52b13 58l7 58t20 80s11
+34p29 v{15P8} 4|52b29 57m10
+35U13*Shallow_Clear 35=29 4|60b13 67l7 67t20 88s11
+35p29 v{17P8} 4|60b29 66m10
+36U13*Deep_Clear 36=26 4|72s7 76b13 82l7 82t17
+36p26 v{15P8} 4|76b26 78r8 79r17 80m25
+37U13*Deep_Clear 37=26 4|84b13 90l7 90t17
+37p26 v{17P8} 4|84b26 86r8 87r17 88m25
+X 4 generic_vecvecs.adb
+7a5 res{3|14A8} 12m13 15r12
+10i9 i<long_integer> 11r12 12r17 12r37
+20a5 res{3|16A8} 25m13 28r12
+23i9 i<long_integer> 24r12 25r17 25r49
+34i9 i<long_integer> 35r12 37r38 39r13
+37a11 vec{2|16A8[3|8]} 39r31
+47i9 i<long_integer> 48r23
+54U15 free[7|22] 57s5
+62U15 free[7|22] 66s5
+71i9 i<long_integer> 72r20
+X 5 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 3|1w6 1r45 5|45e29
+6I8*integer32<long_integer> 3|14r26 16r36
+X 7 unchdeal.ads
+22u11*Unchecked_Deallocation 4|1w6 54r27 63r11
+

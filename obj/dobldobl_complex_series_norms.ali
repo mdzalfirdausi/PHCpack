@@ -1,0 +1,163 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dobldobl_complex_series_norms%b  dobldobl_complex_series_norms.adb  15de1c19 NE OO PK
+W dobldobl_complex_algebraic_series%s  dobldobl_complex_algebraic_series.adb  dobldobl_complex_algebraic_series.ali
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_numbers_polar%s  dobldobl_complex_numbers_polar.adb  dobldobl_complex_numbers_polar.ali
+W dobldobl_mathematical_functions%s  dobldobl_mathematical_functions.adb  dobldobl_mathematical_functions.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U dobldobl_complex_series_norms%s  dobldobl_complex_series_norms.ads  8ea60a88 EE NE OO PK
+W dobldobl_complex_series%s  dobldobl_complex_series.ads  dobldobl_complex_series.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_complex_algebraic_series.ads  20260513024558 cd069fed dobldobl_complex_algebraic_series%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_numbers_polar.ads  20260513024558 cbc58781 dobldobl_complex_numbers_polar%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_series.ads  20260513024558 c7e62693 dobldobl_complex_series%s
+D dobldobl_complex_series_norms.ads  20260513024558 d31ebd1a dobldobl_complex_series_norms%s
+D dobldobl_complex_series_norms.adb  20260513024558 9dd51e4b dobldobl_complex_series_norms%b
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_mathematical_functions.ads  20260513024558 091149b0 dobldobl_mathematical_functions%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [conjugate dobldobl_complex_series_norms 11 12 none]
+G c Z s b [conjugate dobldobl_complex_series_norms 17 12 none]
+G c Z s b [norm dobldobl_complex_series_norms 23 12 none]
+G c Z s b [normalize dobldobl_complex_series_norms 28 13 none]
+G c Z s b [normalize dobldobl_complex_series_norms 33 12 none]
+G c Z s b [max_norm dobldobl_complex_series_norms 38 12 none]
+G c Z s b [two_norm dobldobl_complex_series_norms 44 12 none]
+G r s series [conjugate dobldobl_complex_series_norms 11 12 none] [seriesIP dobldobl_complex_series 22 8 6_1]
+G r c none [conjugate dobldobl_complex_series_norms 11 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r s series [conjugate dobldobl_complex_series_norms 17 12 none] [seriesIP dobldobl_complex_series 22 8 6_1]
+G r c none [conjugate dobldobl_complex_series_norms 17 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r s series [norm dobldobl_complex_series_norms 23 12 none] [seriesIP dobldobl_complex_series 22 8 6_1]
+G r c none [norm dobldobl_complex_series_norms 23 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [norm dobldobl_complex_series_norms 23 12 none] [Omultiply dobldobl_complex_series 311 12 6_1]
+G r c none [norm dobldobl_complex_series_norms 23 12 none] [sqrt dobldobl_complex_algebraic_series 13 12 none]
+G r s series [normalize dobldobl_complex_series_norms 28 13 none] [seriesIP dobldobl_complex_series 22 8 6_1]
+G r c none [normalize dobldobl_complex_series_norms 28 13 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [normalize dobldobl_complex_series_norms 28 13 none] [Omultiply dobldobl_complex_series 311 12 6_1]
+G r c none [normalize dobldobl_complex_series_norms 28 13 none] [sqrt dobldobl_complex_algebraic_series 13 12 none]
+G r c none [normalize dobldobl_complex_series_norms 28 13 none] [div dobldobl_complex_series 422 13 6_1]
+G r s series [normalize dobldobl_complex_series_norms 33 12 none] [seriesIP dobldobl_complex_series 22 8 6_1]
+G r c none [normalize dobldobl_complex_series_norms 33 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [normalize dobldobl_complex_series_norms 33 12 none] [Omultiply dobldobl_complex_series 311 12 6_1]
+G r c none [normalize dobldobl_complex_series_norms 33 12 none] [sqrt dobldobl_complex_algebraic_series 13 12 none]
+G r c none [normalize dobldobl_complex_series_norms 33 12 none] [Odivide dobldobl_complex_series 405 12 6_1]
+G r c none [max_norm dobldobl_complex_series_norms 38 12 none] [radius dobldobl_complex_numbers_polar 11 12 none]
+G r c none [max_norm dobldobl_complex_series_norms 38 12 none] [Ogt double_double_numbers 90 12 none]
+G r s series [two_norm dobldobl_complex_series_norms 44 12 none] [seriesIP dobldobl_complex_series 22 8 6_1]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [conjugate dobldobl_complex_numbers 20 12 none]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [Omultiply dobldobl_complex_series 311 12 6_1]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [create double_double_numbers 35 12 none]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [two_norm dobldobl_complex_series_norms 44 12 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+X 2 dobldobl_complex_algebraic_series.ads
+6K9*DoblDobl_Complex_Algebraic_Series 58e38 8|4w6 40r12
+13V12*sqrt{12|22R8[6|6]} 8|40s46
+X 3 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 8|1w6 14r21 78r9
+20V12*Conjugate{11R8} 8|14s46
+24V12*REAL_PART{11|12R8} 8|86s14
+X 4 dobldobl_complex_numbers_polar.ads
+6K9*DoblDobl_Complex_Numbers_Polar 34e35 8|3w6 63r28 68r14
+11V12*Radius{11|12R8} 8|63s59 68s45
+X 6 dobldobl_complex_series.ads
+6K9*DoblDobl_Complex_Series[12|12] 7|2w6 2r45
+X 7 dobldobl_complex_series_norms.ads
+4K9*DoblDobl_Complex_Series_Norms 49l5 49e34 8|6b14 92l5 92t34
+11V12*Conjugate{12|22R8[6|6]} 11>24 8|8b12 17l7 17t16 25s41 35s35 80s35
+11r24 s{12|22R8[6|6]} 8|8b24 10r18 14r56
+17V12*Conjugate{12|25P8[6|6]} 17>24 8|19b12 31l7 31t16
+17p24 s{12|25P8[6|6]} 8|19b24 21r8 22r14 25r31 25r51
+23V12*Norm{12|22R8[6|6]} 23>19 8|33b12 42l7 42t11 46s29 54s36
+23r19 s{12|22R8[6|6]} 8|33b19 35r25 35r45 36r25 36r37 37r18
+28U13*Normalize 28=25 8|44b13 50l7 50t16
+28r25 s{12|22R8[6|6]} 8|44b25 46r34 49m9
+33V12*Normalize{12|22R8[6|6]} 33>24 8|52b12 59l7 59t16
+33r24 s{12|22R8[6|6]} 8|52b24 54r26 54r41 55r27 55r37
+38V12*Max_Norm{11|12R8} 38>23 8|61b12 74l7 74t15
+38r23 s{12|22R8[6|6]} 8|61b23 63r66 67r17 68r52
+44V12*Two_Norm{11|12R8} 44>23 8|76b12 90l7 90t15
+44r23 s{12|22R8[6|6]} 8|76b23 80r25 80r45 81r25 81r37
+X 8 dobldobl_complex_series_norms.adb
+10r5 res{12|22R8[6|6]} 13r17 14m7 16r12
+13i9 i<long_integer> 14r15 14r62
+25r9 sco{12|22R8[6|6]} 26r54
+26p9 res{12|25P8[6|6]} 28r16
+35r5 c{12|22R8[6|6]} 36r35
+36r5 p{12|22R8[6|6]} 40r51
+37r5 res{12|22R8[6|6]} 40m5 41r12
+46r5 ns{12|22R8[6|6]} 49r11
+54r5 ns{12|22R8[6|6]} 55r39
+55r5 res{12|22R8[6|6]} 58r12
+63r5 res{11|12R8} 69r16 70m13 73r12
+64r5 rad{11|12R8} 68m7 69r10 70r20
+67i9 i<long_integer> 68r58
+80r5 c{12|22R8[6|6]} 81r35
+81r5 p{12|22R8[6|6]} 85r17 86r24
+82r5 res{11|12R8} 87m7 87r14 89r49
+82r9 cff{11|12R8} 86m7 87r20 87r24
+85i9 i<long_integer> 86r30
+X 10 dobldobl_mathematical_functions.ads
+4K9*DoblDobl_Mathematical_Functions 8|2w6 89r12 10|59e36
+12V12*SQRT{11|12R8} 8|89s44
+X 11 double_double_numbers.ads
+5K9*Double_Double_Numbers 7|1w6 1r45 11|172e26
+12R8*double_double 7|38r43 44r43 8|61r43 63r11 64r11 76r43 82r15 11|170e13
+35V12*Create{12R8} 8|82s32
+90V13*">"{boolean} 8|69s14
+111V13*"+"{12R8} 8|87s18
+128V13*"*"{12R8} 8|87s23
+X 12 generic_dense_series.ads
+22R8*Series 7|11r28[6|6] 11r44[6|6] 23r23[6|6] 23r39[6|6] 28r36[6|6] 33r28[6|6]
+. 33r44[6|6] 38r27[6|6] 44r27[6|6] 8|8r28[6|6] 8r44[6|6] 10r11[6|6] 25r24[6|6]
+. 26r46[6|6] 33r23[6|6] 33r39[6|6] 35r18[6|6] 36r18[6|6] 37r11[6|6] 44r36[6|6]
+. 46r19[6|6] 52r28[6|6] 52r44[6|6] 54r19[6|6] 55r20[6|6] 61r27[6|6] 76r27[6|6]
+. 80r18[6|6] 81r18[6|6]
+22i17*deg{15|6I8} 8|10r20[6|6] 25r33[6|6] 35r27[6|6] 36r27[6|6] 37r20[6|6]
+. 54r28[6|6] 55r29[6|6] 67r19[6|6] 80r27[6|6] 81r27[6|6]
+23a5*cff{13|16A8[9|4]} 8|14m11[6|6] 14r58[6|6] 63r68[6|6] 68r54[6|6] 86r26[6|6]
+25P8*Link_to_Series(22R8[6|6]) 7|17r28[6|6] 17r52[6|6] 8|19r28[6|6] 19r52[6|6]
+. 26r24[6|6]
+311V13*"*"{22R8[6|6]} 8|36s36[6|6] 81s36[6|6]
+405V13*"/"{22R8[6|6]} 8|55s38[6|6]
+422U13*Div 8|49s5[6|6]
+X 13 generic_vectors.ads
+16A8*Vector(3|11R8)<15|6I8>
+X 15 standard_integer_numbers.ads
+6I8*integer32<long_integer>
+

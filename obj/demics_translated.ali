@@ -1,0 +1,694 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U demics_translated%b	demics_translated.adb	f82181f5 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W arrays_of_integer_vector_lists_io%s  arrays_of_integer_vector_lists_io.ads  arrays_of_integer_vector_lists_io.ali
+W demics_input_data%s	demics_input_data.adb	demics_input_data.ali
+W demics_mvc%s		demics_mvc.adb		demics_mvc.ali
+W demics_output_cells%s	demics_output_cells.adb	demics_output_cells.ali
+W demics_output_convertors%s  demics_output_convertors.adb  demics_output_convertors.ali
+W demics_translated_setup%s  demics_translated_setup.adb  demics_translated_setup.ali
+W floating_lifting_functions%s  floating_lifting_functions.adb  floating_lifting_functions.ali
+W floating_mixed_subdivisions_io%s  floating_mixed_subdivisions_io.adb  floating_mixed_subdivisions_io.ali
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W mixed_volume_computation%s  mixed_volume_computation.adb  mixed_volume_computation.ali
+W standard_floating_vecvecs_io%s  standard_floating_vecvecs_io.ads  standard_floating_vecvecs_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors_io%s  standard_integer_vectors_io.ads  standard_integer_vectors_io.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W supports_of_polynomial_systems%s  supports_of_polynomial_systems.adb  supports_of_polynomial_systems.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U demics_translated%s	demics_translated.ads	2565de05 EE NE OO PK
+W arrays_of_floating_vector_lists%s  arrays_of_floating_vector_lists.ads  arrays_of_floating_vector_lists.ali
+W arrays_of_integer_vector_lists%s  arrays_of_integer_vector_lists.ads  arrays_of_integer_vector_lists.ali
+W floating_mixed_subdivisions%s  floating_mixed_subdivisions.adb  floating_mixed_subdivisions.ali
+W standard_complex_laur_systems%s  standard_complex_laur_systems.ads  standard_complex_laur_systems.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_floating_vector_lists.ads  20260513024558 692438df arrays_of_floating_vector_lists%s
+D arrays_of_integer_vector_lists.ads  20260513024558 1062c910 arrays_of_integer_vector_lists%s
+D arrays_of_integer_vector_lists_io.ads  20260513024558 78206f5f arrays_of_integer_vector_lists_io%s
+D demics_ftest.ads	20260513024558 305c1729 demics_ftest%s
+D demics_input_data.ads	20260513024558 35b6eb7b demics_input_data%s
+D demics_itest.ads	20260513024558 f6e1bf2f demics_itest%s
+D demics_mvc.ads	20260513024558 a2d16a8f demics_mvc%s
+D demics_output_cells.ads  20260513024558 0ef4930b demics_output_cells%s
+D demics_output_convertors.ads  20260513024558 f9dcb0f6 demics_output_convertors%s
+D demics_reltab.ads	20260513024558 eb626193 demics_reltab%s
+D demics_simplex.ads	20260513024558 28576470 demics_simplex%s
+D demics_translated.ads	20260513024558 7732ff9d demics_translated%s
+D demics_translated.adb	20260513024558 6a18aace demics_translated%b
+D demics_translated_setup.ads  20260513024558 7dea4a5e demics_translated_setup%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D floating_faces_of_polytope.ads  20260513024558 3104a49b floating_faces_of_polytope%s
+D floating_lifting_functions.ads  20260513024558 201836a4 floating_lifting_functions%s
+D floating_mixed_subdivisions.ads  20260513024558 bc3e2850 floating_mixed_subdivisions%s
+D floating_mixed_subdivisions_io.ads  20260513024558 8ecaaee4 floating_mixed_subdivisions_io%s
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_arrays_of_vector_lists_io.ads  20260513024558 d37d045b generic_arrays_of_vector_lists_io%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_lists_of_vectors_io.ads  20260513024558 04663747 generic_lists_of_vectors_io%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D generic_vecvecs_io.ads  20260513024558 6b4e3e63 generic_vecvecs_io%s
+D integer_mixed_subdivisions.ads  20260513024558 ed6fb1b5 integer_mixed_subdivisions%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D lists_of_floating_vectors.ads  20260513024558 ac5cfddf lists_of_floating_vectors%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D lists_of_integer_vectors_io.ads  20260513024558 de566e5c lists_of_integer_vectors_io%s
+D mixed_volume_computation.ads  20260513024558 d4e144f7 mixed_volume_computation%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D standard_complex_laur_functions.ads  20260513024558 b680d0a9 standard_complex_laur_functions%s
+D standard_complex_laur_sysfun.ads  20260513024558 7ae1e81b standard_complex_laur_sysfun%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring-ffield.ads  20260513024558 bbb2cc35 standard_complex_ring.ffield%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring_io.ads  20260513024558 cf09bbdc standard_floating_ring_io%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vectors_io.ads  20260513024558 9f873e12 standard_floating_vectors_io%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecs_io.ads  20260513024558 c069744a standard_floating_vecvecs_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring_io.ads  20260513024558 bfea981c standard_integer_ring_io%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vectors_io.ads  20260513024558 aea9aff6 standard_integer_vectors_io%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D supports_of_polynomial_systems.ads  20260513024558 6db479ad supports_of_polynomial_systems%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-memory.ads		20250808065140 18949c1a system.memory%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [mixed_volume demics_translated 21 12 none]
+G c Z s b [mixed_volume demics_translated 26 12 none]
+G c Z s b [mixed_labels demics_translated 46 12 none]
+G c Z s b [mixed_labels demics_translated 52 12 none]
+G c Z s b [mixed_cells demics_translated 66 12 none]
+G c Z s b [extract_supports demics_translated 79 13 none]
+G c Z s b [extract_supports demics_translated 84 13 none]
+G c Z s b [extract_supports demics_translated 93 13 none]
+G c Z s b [extract_supports demics_translated 98 13 none]
+G c Z s b [random_lifting demics_translated 109 12 none]
+G c Z s b [flatten demics_translated 118 12 none]
+G c Z s b [call_demics demics_translated 126 13 none]
+G c Z s b [show_output demics_translated 152 13 none]
+G c Z s b [process_output demics_translated 157 13 none]
+G c Z s b [clear demics_translated 183 13 none]
+G c Z b b [compute_mixed_volume demics_translated 22 13 none]
+G c Z b b [compute_mixed_labels demics_translated 53 13 none]
+G c Z b b [size demics_translated 385 12 none]
+G r s dataset [mixed_volume demics_translated 21 12 none] [datasetIP demics_input_data__class_dataset 16 10 none]
+G r s array_of_lists [mixed_volume demics_translated 21 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [mixed_volume demics_translated 21 12 none] [make_data demics_translated_setup 43 12 none]
+G r c none [mixed_volume demics_translated 21 12 none] [create supports_of_polynomial_systems 150 12 none]
+G r c none [mixed_volume demics_translated 21 12 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [mixed_volume demics_translated 21 12 none] [store_dimension_and_mixture demics_output_cells 44 13 none]
+G r c none [mixed_volume demics_translated 21 12 none] [user_lifting demics_translated_setup 106 12 none]
+G r c none [mixed_volume demics_translated 21 12 none] [lifting_bound floating_lifting_functions 97 12 none]
+G r c none [mixed_volume demics_translated 21 12 none] [add_artificial_origins demics_translated_setup 145 13 none]
+G r c none [mixed_volume demics_translated 21 12 none] [random_lifting demics_translated_setup 115 12 none]
+G r c none [mixed_volume demics_translated 21 12 none] [make_data demics_translated_setup 32 13 none]
+G r c none [mixed_volume demics_translated 21 12 none] [info_preamble demics_input_data__class_dataset 141 15 none]
+G r c none [mixed_volume demics_translated 21 12 none] [info_supports demics_input_data__class_dataset 148 15 none]
+G r c none [mixed_volume demics_translated 21 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [mixed_volume demics_translated 21 12 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [mixed_volume demics_translated 21 12 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [mixed_volume demics_translated 21 12 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [mixed_volume demics_translated 21 12 none] [enum demics_mvc__class_mvc 493 15 none]
+G r s dataset [mixed_volume demics_translated 26 12 none] [datasetIP demics_input_data__class_dataset 16 10 none]
+G r s array_of_lists [mixed_volume demics_translated 26 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [mixed_volume demics_translated 26 12 none] [make_data demics_translated_setup 54 12 none]
+G r c none [mixed_volume demics_translated 26 12 none] [create supports_of_polynomial_systems 152 12 none]
+G r c none [mixed_volume demics_translated 26 12 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [mixed_volume demics_translated 26 12 none] [make_data demics_translated_setup 32 13 none]
+G r c none [mixed_volume demics_translated 26 12 none] [store_dimension_and_mixture demics_output_cells 44 13 none]
+G r c none [mixed_volume demics_translated 26 12 none] [user_lifting demics_translated_setup 106 12 none]
+G r c none [mixed_volume demics_translated 26 12 none] [info_preamble demics_input_data__class_dataset 141 15 none]
+G r c none [mixed_volume demics_translated 26 12 none] [info_supports demics_input_data__class_dataset 148 15 none]
+G r c none [mixed_volume demics_translated 26 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [mixed_volume demics_translated 26 12 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [mixed_volume demics_translated 26 12 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [mixed_volume demics_translated 26 12 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [mixed_volume demics_translated 26 12 none] [enum demics_mvc__class_mvc 493 15 none]
+G r s dataset [mixed_labels demics_translated 46 12 none] [datasetIP demics_input_data__class_dataset 16 10 none]
+G r s array_of_lists [mixed_labels demics_translated 46 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [mixed_labels demics_translated 46 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [mixed_labels demics_translated 46 12 none] [make_data demics_translated_setup 43 12 none]
+G r c none [mixed_labels demics_translated 46 12 none] [create supports_of_polynomial_systems 150 12 none]
+G r c none [mixed_labels demics_translated 46 12 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [mixed_labels demics_translated 46 12 none] [store_dimension_and_mixture demics_output_cells 44 13 none]
+G r c none [mixed_labels demics_translated 46 12 none] [user_lifting demics_translated_setup 106 12 none]
+G r c none [mixed_labels demics_translated 46 12 none] [lifting_bound floating_lifting_functions 97 12 none]
+G r c none [mixed_labels demics_translated 46 12 none] [add_artificial_origins demics_translated_setup 145 13 none]
+G r c none [mixed_labels demics_translated 46 12 none] [random_lifting demics_translated_setup 115 12 none]
+G r c none [mixed_labels demics_translated 46 12 none] [make_data demics_translated_setup 32 13 none]
+G r c none [mixed_labels demics_translated 46 12 none] [info_preamble demics_input_data__class_dataset 141 15 none]
+G r c none [mixed_labels demics_translated 46 12 none] [info_supports demics_input_data__class_dataset 148 15 none]
+G r c none [mixed_labels demics_translated 46 12 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [mixed_labels demics_translated 46 12 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [mixed_labels demics_translated 46 12 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [mixed_labels demics_translated 46 12 none] [enum demics_mvc__class_mvc 493 15 none]
+G r s dataset [mixed_labels demics_translated 52 12 none] [datasetIP demics_input_data__class_dataset 16 10 none]
+G r s array_of_lists [mixed_labels demics_translated 52 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [mixed_labels demics_translated 52 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [mixed_labels demics_translated 52 12 none] [make_data demics_translated_setup 54 12 none]
+G r c none [mixed_labels demics_translated 52 12 none] [create supports_of_polynomial_systems 152 12 none]
+G r c none [mixed_labels demics_translated 52 12 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [mixed_labels demics_translated 52 12 none] [make_data demics_translated_setup 32 13 none]
+G r c none [mixed_labels demics_translated 52 12 none] [store_dimension_and_mixture demics_output_cells 44 13 none]
+G r c none [mixed_labels demics_translated 52 12 none] [user_lifting demics_translated_setup 106 12 none]
+G r c none [mixed_labels demics_translated 52 12 none] [info_preamble demics_input_data__class_dataset 141 15 none]
+G r c none [mixed_labels demics_translated 52 12 none] [info_supports demics_input_data__class_dataset 148 15 none]
+G r c none [mixed_labels demics_translated 52 12 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [mixed_labels demics_translated 52 12 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [mixed_labels demics_translated 52 12 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [mixed_labels demics_translated 52 12 none] [enum demics_mvc__class_mvc 493 15 none]
+G r c none [mixed_cells demics_translated 66 12 none] [get_mixture demics_output_cells 90 12 none]
+G r c none [mixed_cells demics_translated 66 12 none] [extract_supports demics_translated_setup 74 12 none]
+G r s array_of_lists [mixed_cells demics_translated 66 12 none] [array_of_listsIP arrays_of_floating_vector_lists 24 8 7_1]
+G r c none [mixed_cells demics_translated 66 12 none] [retrieve_cell_indices demics_output_cells 128 12 none]
+G r c none [mixed_cells demics_translated 66 12 none] [put arrays_of_integer_vector_lists_io 46 13 10_1]
+G r c none [mixed_cells demics_translated 66 12 none] [apply_lifting demics_translated_setup 93 12 none]
+G r c none [mixed_cells demics_translated 66 12 none] [put floating_mixed_subdivisions_io 44 13 none]
+G r c none [mixed_cells demics_translated 66 12 none] [make_mixed_cells demics_output_convertors 271 12 none]
+G r c none [extract_supports demics_translated 79 13 none] [create supports_of_polynomial_systems 150 12 none]
+G r c none [extract_supports demics_translated 79 13 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [extract_supports demics_translated 79 13 none] [put arrays_of_integer_vector_lists_io 46 13 10_1]
+G r c none [extract_supports demics_translated 79 13 none] [put standard_integer_vectors_io 35 13 5_1]
+G r c none [extract_supports demics_translated 84 13 none] [create supports_of_polynomial_systems 152 12 none]
+G r c none [extract_supports demics_translated 84 13 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [extract_supports demics_translated 84 13 none] [put arrays_of_integer_vector_lists_io 46 13 10_1]
+G r c none [extract_supports demics_translated 84 13 none] [put standard_integer_vectors_io 35 13 5_1]
+G r c none [extract_supports demics_translated 93 13 none] [create supports_of_polynomial_systems 150 12 none]
+G r c none [extract_supports demics_translated 93 13 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [extract_supports demics_translated 93 13 none] [put arrays_of_integer_vector_lists_io 46 13 10_1]
+G r c none [extract_supports demics_translated 93 13 none] [put standard_integer_vectors_io 35 13 5_1]
+G r c none [extract_supports demics_translated 98 13 none] [create supports_of_polynomial_systems 152 12 none]
+G r c none [extract_supports demics_translated 98 13 none] [compute_mixture mixed_volume_computation 20 13 none]
+G r c none [extract_supports demics_translated 98 13 none] [put arrays_of_integer_vector_lists_io 46 13 10_1]
+G r c none [extract_supports demics_translated 98 13 none] [put standard_integer_vectors_io 35 13 5_1]
+G r s vecvec [random_lifting demics_translated 109 12 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [random_lifting demics_translated 109 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [random_lifting demics_translated 109 12 none] [random standard_random_numbers 48 12 none]
+G r s dataset [call_demics demics_translated 126 13 none] [datasetIP demics_input_data__class_dataset 16 10 none]
+G r c none [call_demics demics_translated 126 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [call_demics demics_translated 126 13 none] [add_artificial_origins demics_translated_setup 145 13 none]
+G r c none [call_demics demics_translated 126 13 none] [random_lifting demics_translated_setup 115 12 none]
+G r c none [call_demics demics_translated 126 13 none] [make_data demics_translated_setup 32 13 none]
+G r c none [call_demics demics_translated 126 13 none] [store_dimension_and_mixture demics_output_cells 44 13 none]
+G r c none [call_demics demics_translated 126 13 none] [info_preamble demics_input_data__class_dataset 141 15 none]
+G r c none [call_demics demics_translated 126 13 none] [info_supports demics_input_data__class_dataset 148 15 none]
+G r c none [call_demics demics_translated 126 13 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [call_demics demics_translated 126 13 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [call_demics demics_translated 126 13 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [call_demics demics_translated 126 13 none] [enum demics_mvc__class_mvc 493 15 none]
+G r c none [show_output demics_translated 152 13 none] [lifting_values demics_output_cells 105 12 none]
+G r c none [show_output demics_translated 152 13 none] [retrieve_cell_indices demics_output_cells 128 12 none]
+G r c none [show_output demics_translated 152 13 none] [put standard_floating_vecvecs_io 40 13 7_1]
+G r c none [show_output demics_translated 152 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [show_output demics_translated 152 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [show_output demics_translated 152 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [show_output demics_translated 152 13 none] [put standard_integer_vectors_io 37 13 5_1]
+G r c none [show_output demics_translated 152 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [process_output demics_translated 157 13 none] [retrieve_cell_indices demics_output_cells 128 12 none]
+G r c none [process_output demics_translated 157 13 none] [apply_lifting demics_translated_setup 93 12 none]
+G r c none [process_output demics_translated 157 13 none] [put floating_mixed_subdivisions_io 44 13 none]
+G r c none [process_output demics_translated 157 13 none] [make_mixed_cells demics_output_convertors 271 12 none]
+G r c none [clear demics_translated 183 13 none] [delete_mvc demics_mvc__class_mvc 318 15 none]
+G r c none [compute_mixed_volume demics_translated 22 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [compute_mixed_volume demics_translated 22 13 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [compute_mixed_volume demics_translated 22 13 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [compute_mixed_volume demics_translated 22 13 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [compute_mixed_volume demics_translated 22 13 none] [enum demics_mvc__class_mvc 493 15 none]
+G r c none [compute_mixed_labels demics_translated 53 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [compute_mixed_labels demics_translated 53 13 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [compute_mixed_labels demics_translated 53 13 none] [new_mvc demics_mvc__class_mvc 313 14 none]
+G r c none [compute_mixed_labels demics_translated 53 13 none] [allocateandini demics_mvc__class_mvc 323 15 none]
+G r c none [compute_mixed_labels demics_translated 53 13 none] [enum demics_mvc__class_mvc 493 15 none]
+X 4 ada.ads
+18K9*Ada 22e8 27|1r6 1r45
+X 13 a-textio.ads
+58K13*Text_IO 785e16 27|1w10 1r49
+284U14*New_Line 27|307s49 321s49 322s49 339s49 353s49 354s49 470s52 471s59
+. 495s17 498s44
+515U14*Put 27|36s7 67s7 186s7 231s7 307s7 321s7 322s7 339s7 353s7 354s7 444s7
+. 470s13 471s13 494s7 494s33 498s5
+565U14*Put_Line 27|37s23 68s23 99s11 111s7 113s7 138s11 158s7 160s7 187s23
+. 207s7 209s7 232s23 244s7 246s7 260s11 276s13 280s9 306s7 320s7 338s7 352s7
+. 416s11 445s22 456s7 458s7 488s5 490s5 515s11 519s7 532s11
+X 15 arrays_of_floating_vector_lists.ads
+7K9*Arrays_of_Floating_Vector_Lists[40|15] 26|9w6 161r27 27|268r16 505r27
+X 16 arrays_of_integer_vector_lists.ads
+7K9*Arrays_of_Integer_Vector_Lists[40|15] 26|8w6 82r32 87r32 96r32 101r32
+. 111r22 128r30 160r26 27|93r11 128r11 176r11 225r11 266r22 297r33 314r33
+. 329r32 346r32 360r22 430r30 504r26
+X 17 arrays_of_integer_vector_lists_io.ads
+10K9*Arrays_of_Integer_Vector_Lists_io[41|26] 27|7w6 7r45
+X 19 demics_input_data.ads
+8K9*demics_input_data 155e22 27|12w6 23r27 54r27 92r12 112r7 114r7 127r12
+. 159r7 161r7 175r12 208r7 210r7 224r12 245r7 247r7 436r12 457r7 459r7
+14K11*class_dataSet 153e20 27|23r45 54r45 92r30 112r25 114r25 127r30 159r25
+. 161r25 175r30 208r25 210r25 224r30 245r25 247r25 436r30 457r25 459r25
+16R10*dataSet 36e15 27|23r59 54r59 92r44 127r44 175r44 224r44 436r44
+141U15*info_preamble 27|112s39 159s39 208s39 245s39 457s39
+148U15*info_supports 27|114s39 161s39 210s39 247s39 459s39
+X 21 demics_mvc.ads
+13K9*demics_mvc 500e15 27|13w6 20r13 31r9 62r9 534r5
+19K11*class_mvc 498e16 27|20r24 43r20 43r35 45r11 46r11 48r5 74r20 74r35
+. 76r11 77r11 79r5 534r16
+21R10*mvc 59e15 27|43r30 74r30
+22i7*dim{98|6I8} 27|263r43
+56p7*the_Simplex{25|163P10} 27|49r33 80r33 270r22 509r20
+61P10*Link_to_mvc(21R10) 27|20r34
+313V14*new_mvc{21R10} 27|43s45 74s45
+318U15*delete_mvc 27|534s26
+323U15*allocateAndIni 27|45s21 46s21 76s21 77s21
+493U15*enum 27|48s15 79s15
+X 22 demics_output_cells.ads
+9K9*DEMiCs_Output_Cells 170e24 27|14w6 50r5 81r5 107r7 145r7 152r9 153r9
+. 194r7 201r9 202r9 212r5 240r7 249r5 265r14 272r17 450r7 451r7 454r5 462r11
+. 479r16 481r14 484r32 511r15
+18i3*mixed_volume{98|6I8} 27|50m25 81m25 484r52
+19b3*monitor{boolean} 27|212m25 249m25 462m31
+20b3*stable{boolean} 27|152m29 201m29 450m27
+21f3*stlb{90|13F8} 27|153m29 202m29 451m27
+44U13*Store_Dimension_and_Mixture 27|107s27 145s27 194s27 240s27 454s25
+90V12*Get_Mixture{55|17P8[102|4]} 27|265s34
+105V12*Lifting_Values{57|15P8[96|5]} 27|479s36
+128V12*Retrieve_Cell_Indices{48|22P8[64|6]} 27|272s37 481s34 511s35
+X 23 demics_output_convertors.ads
+13K9*DEMiCs_Output_Convertors 290e29 27|15w6 282r16 285r16 521r14 524r14
+271V12*Make_Mixed_Cells{38|35P8} 27|282s41 285s41 521s39 524s39
+X 25 demics_simplex.ads
+118f7*mixedVol{90|13F8} 27|49r45 80r45
+160p7*lifting{55|17P8[94|4]} 27|270r34 509r32
+163P10*Link_to_simplex(107R10)
+X 26 demics_translated.ads
+12K9*DEMiCs_Translated 188l5 188e22 27|18b14 537l5 537t22
+21V12*Mixed_Volume{98|6I8} 22>16 22>30 23>16 24>16 25>16 27|120b12 165l7
+. 165t19
+22a16 p{53|22A8[83|5]} 27|121b16 128r57 141r49 143r52 149r58
+22i30 seednbr{98|6I8} 27|121b30 163r35
+23b16 stablemv{boolean} 27|122b16 140r13 148r13
+24b16 userlifting{boolean} 27|123b16 140r32 146r10
+25i16 vrblvl{98|6I8} 27|124b16 137r8 141r57 155r54 157r8 163r50
+26V12*Mixed_Volume{98|6I8} 27>16 27>30 28>16 29>16 27|86b12 118l7 118t19
+27a16 p{44|22A8[78|5]} 27|87b16 93r57 102r49 104r52
+27i30 seednbr{98|6I8} 27|87b30 116r35
+28b16 userlifting{boolean} 27|88b16 101r12
+29i16 vrblvl{98|6I8} 27|89b16 98r8 102r57 106r54 110r8 116r50
+46V12*Mixed_Labels{98|6I8} 47>16 47>30 48>16 49>16 50>16 51>16 27|167b12
+. 215l7 215t19
+47a16 p{53|22A8[83|5]} 27|168b16 176r57 190r49 192r52 198r58
+47b30 monitor{boolean} 27|168b30 212r36
+48i16 seednbr{98|6I8} 27|169b16 187r11 213r35
+49b16 stablemv{boolean} 27|170b16 189r13 197r13
+50b16 userlifting{boolean} 27|171b16 189r32 195r10
+51i16 vrblvl{98|6I8} 27|172b16 185r8 190r56 204r54 206r8 213r50
+52V12*Mixed_Labels{98|6I8} 53>16 53>30 54>16 55>16 56>16 27|217b12 252l7
+. 252t19
+53a16 p{44|22A8[78|5]} 27|218b16 225r57 235r49 237r52
+53b30 monitor{boolean} 27|218b30 249r36
+54i16 seednbr{98|6I8} 27|219b16 232r11 250r35
+55b16 userlifting{boolean} 27|220b16 234r12
+56i16 vrblvl{98|6I8} 27|221b16 230r8 235r56 239r54 243r8 250r50
+66V12*Mixed_Cells{38|35P8} 66>26 27|254b12 290l7 290t18
+66i26 vrblvl{98|6I8} 27|254b26 259r8 267r63 275r10 278r67 279r10
+79U13*Extract_Supports 80>17 81<17 82<17 83>17 27|294b13 309l7 309t23
+80a17 p{53|22A8[83|5]} 27|295b18 303r55
+81p17 mix{55|17P8[102|4]} 27|296b18 304m55 307r39
+82a17 supports{40|24A8[16|7]} 27|297b18 303m5 304m46 306r40
+83b17 verbose{boolean} 27|298b18 305r8
+84U13*Extract_Supports 85>17 86<17 87<17 88>17 27|326b13 341l7 341t23
+85a17 p{44|22A8[78|5]} 27|327b17 335r55
+86p17 mix{55|17P8[102|4]} 27|328b17 336m55 339r39
+87a17 supports{40|24A8[16|7]} 27|329b17 335m5 336m46 338r40
+88b17 verbose{boolean} 27|330b17 337r8
+93U13*Extract_Supports 94>17 95<17 95<21 96<17 97>17 27|311b13 324l7 324t23
+94a17 p{53|22A8[83|5]} 27|312b18 317r55
+95p17 mix{55|17P8[102|4]} 27|313b18 318m55 321r39
+95p21 perm{55|17P8[102|4]} 27|313b22 318m59 322r38
+96a17 supports{40|24A8[16|7]} 27|314b18 317m5 318m46 320r40
+97b17 verbose{boolean} 27|315b18 319r8
+98U13*Extract_Supports 99>17 100<17 100<21 101<17 102>17 27|343b13 356l7
+. 356t23
+99a17 p{44|22A8[78|5]} 27|344b17 349r55
+100p17 mix{55|17P8[102|4]} 27|345b17 350m55 353r39
+100p21 perm{55|17P8[102|4]} 27|345b21 350m59 354r38
+101a17 supports{40|24A8[16|7]} 27|346b17 349m5 350m46 352r40
+102b17 verbose{boolean} 27|347b17 351r8
+109V12*Random_Lifting{57|15P8[96|5]} 110>16 111>16 27|358b12 383l7 383t21
+110p16 mix{55|17P8[102|4]} 27|359b16 364r47 379r20
+111a16 sup{40|24A8[16|7]} 27|360b16 370r59
+118V12*Flatten{55|17P8[94|4]} 118>22 119>22 27|400b12 426l7 426t14
+118p22 v{57|15P8[96|5]} 27|400b22 411r56 418r14 419r16 420r25
+119i22 vrblvl{98|6I8} 27|401b22 415r8
+126U13*Call_DEMiCs 127>17 128=17 129>17 130>17 131>17 27|428b13 474l7 474t18
+127p17 mix{55|17P8[102|4]} 27|429b17 439r45 449r56 453r48 454r57
+128a17 sup{40|24A8[16|7]} 27|430b17 435r33 448m58 449r60 453r44
+129f17 stlb{90|13F8} 27|431b17 447r8 449r64 451r35 464r8 469r10
+130p17 lft{55|17P8[94|4]} 27|432b17 465r42
+131i17 vrblvl{98|6I8} 27|433b17 443r8 445r11 453r52 455r8 461r8 465r46 466r49
+. 468r8
+152U13*Show_Output 27|476b13 499l7 499t18
+157U13*Process_Output 158>17 159>17 160>17 161<17 162<17 162>46 27|501b13
+. 527l7 527t21
+158i17 dim{98|6I8} 27|502b17 522r17 525r17
+159p17 mix{55|17P8[102|4]} 27|503b17 517r50 522r21 525r21
+160a17 sup{40|24A8[16|7]} 27|504b17 517r54
+161a17 lif{40|24A8[15|7]} 27|505b17 517m5 520r42 522r36 525r36
+162p17 mcc{38|35P8} 27|506b17 521m7 524m7
+162i46 vrblvl{98|6I8} 27|506b46 514r8 517r62 518r8
+183U13*Clear 183>21 27|529b13 535l7 535t12
+183i21 vrblvl{98|6I8} 27|529b21 531r8
+X 27 demics_translated.adb
+20p3 ptr2MVC{21|61P10} 43m5 45r36 46r36 48r20 49r25 74m5 76r36 77r36 79r20
+. 80r25 263r35 267r55 270r14 509r12 534r37
+22U13 Compute_Mixed_Volume 22b13 23>17 24<17 24>41 25>17 26>17 51l7 51t27
+. 116s5 163s5
+23r17 data{19|16R10} 45r44 46r44
+24i17 mixvol{98|6I8} 49m5 50r41
+24i41 seednbr{98|6I8} 37r11 39r8 41r19
+25p17 uselif{55|17P8[94|4]} 45r56 46r56
+26i17 vrblvl{98|6I8} 35r8 44r8 45r63 48r28
+32i5 seed{98|6I8} 40m11 41m11 45r49 46r49
+53U13 Compute_Mixed_Labels 53b13 54>17 55<17 55>41 56>17 57>17 82l7 82t27
+. 213s5 250s5 465s11 466s11
+54r17 data{19|16R10} 76r44 77r44
+55i17 mixvol{98|6I8} 80m5 81r41
+55i41 seednbr{98|6I8} 68r11 70r8 72r19
+56p17 uselif{55|17P8[94|4]} 76r56 77r56
+57i17 vrblvl{98|6I8} 66r8 75r8 76r63 79r28
+63i5 seed{98|6I8} 71m11 72m11 76r49 77r49
+91i5 res{98|6I8} 116m31 117r12
+92r5 data{19|16R10} 102m7 106m41 112r53 114r53 116r26
+93a5 sup{40|24A8[16|7]} 104m7 105m48 105r48 106r46 107r55 108r58
+94p5 mix{55|17P8[102|4]} 105m52 105r52 106r50 107r64 108r54
+94p9 prm{55|17P8[102|4]} 105m56 105r56
+95p5 uselif{55|17P8[94|4]} 108m7 116r43
+126i5 res{98|6I8} 163m31 164r12
+127r5 data{19|16R10} 141m7 155m41 159r53 161r53 163r26
+128a5 sup{40|24A8[16|7]} 132r33 134r45 143m7 144m48 144r48 145r55 147r60
+. 150m60 150r60 151r62 155r46
+129p5 mix{55|17P8[102|4]} 144m52 144r52 145r64 147r56 151r58 155r50
+129p9 prm{55|17P8[102|4]} 144m56 144r56
+130p5 uselif{55|17P8[94|4]} 147m9 151m9 163r43
+131f5 stlb{90|13F8} 149m9 151r66 153r37
+132i5 dim{98|6I8} 150r56
+133i5 nbrad{98|6I8} 150m64
+134a5 added{55|16A8[102|4]} 150m70 151r71
+174i5 res{98|6I8} 213m31 214r12
+175r5 data{19|16R10} 190m7 204m41 208r53 210r53 213r26
+176a5 sup{40|24A8[16|7]} 180r33 182r45 192m7 193m48 193r48 194r55 196r60
+. 199m60 199r60 200r62 204r46
+177p5 mix{55|17P8[102|4]} 193m52 193r52 194r64 196r56 200r58 204r50
+177p9 prm{55|17P8[102|4]} 193m56 193r56
+178p5 uselif{55|17P8[94|4]} 196m9 200m9 213r43
+179f5 stlb{90|13F8} 198m9 200r66 202r37
+180i5 dim{98|6I8} 199r56
+181i5 nbrad{98|6I8} 199m64
+182a5 added{55|16A8[102|4]} 199m70 200r71
+223i5 res{98|6I8} 250m31 251r12
+224r5 data{19|16R10} 235m7 239m41 245r53 247r53 250r26
+225a5 sup{40|24A8[16|7]} 237m7 238m48 238r48 239r46 240r55 241r58
+226p5 mix{55|17P8[102|4]} 238m52 238r52 239r50 240r64 241r54
+226p9 prm{55|17P8[102|4]} 238m56 238r56
+227p5 uselif{55|17P8[94|4]} 241m7 250r43
+256p5 res{38|35P8} 282m9 285m9 289r12
+263i7 dim{98|6I8} 283r19 286r19
+264p7 mix{55|17P8[102|4]} 278r55 283r23 286r23
+266a7 sup{40|24A8[16|7]} 268r63 276r56 278r59
+268a7 lifsup{40|24A8[15|7]} 278m7 281r44 283r38 286r38
+269p7 lft{55|17P8[94|4]} 278r63
+271p7 labels{48|22P8[64|6]} 283r31 286r31
+300p5 perm{55|17P8[102|4]} 304m59 304r59
+332p5 perm{55|17P8[102|4]} 336m59 336r59
+363p5 res{57|15P8[96|5]} 381m5 382r12
+364a5 resrep{57|14A8[96|5]} 369r14 377m9 381r50
+365i5 idx{98|6I8} 370r63 379m7 379r14
+366i5 len{98|6I8} 370m7 372r52 374r21
+369i9 i<long_integer> 377r16 379r24
+372a9 vals{55|16A8[94|4]} 375m11 377r60
+374i13 j<long_integer> 375r16
+385V12 Size{98|6I8} 385b12 385>19 398l7 398t11 411s51
+385p19 v{57|15P8[96|5]} 394r14 395r20
+391i5 res{98|6I8} 395m7 395r14 397r12
+394i9 i<long_integer> 395r22
+410p5 res{55|17P8[94|4]} 424m5 425r12
+411a5 res_rep{55|16A8[94|4]} 420m9 424r50
+412i5 idx{98|6I8} 420r17 421m9 421r16
+418i9 i<long_integer> 419r18 420r27
+419i11 j<long_integer> 420r30
+435i5 dim{98|6I8} 448r54 454r53
+436r5 data{19|16R10} 453m39 457r53 459r53 465r32 466r32
+437i5 mv{98|6I8} 465m37 466m37 470r45 471r52
+438i5 nbrad{98|6I8} 448m62
+439a5 added{55|16A8[102|4]} 448m68 449r69
+440p5 rndlif{55|17P8[94|4]} 449m7 466r42
+478p5 lifting{57|15P8[96|5]} 489r9
+480p5 cells{48|22P8[64|6]} 482r44
+482p5 tmp{48|22P8[64|6]} 491r48 492r47 496m7 496r47
+483p5 lpt{55|17P8[102|4]} 492m7 495r11
+484i5 mv{98|6I8} 498r37
+485i5 cnt{98|6I8} 493m7 493r14 494r25
+508p5 lft{55|17P8[94|4]} 517r58
+510p5 labels{48|22P8[64|6]} 522r29 525r29
+X 28 demics_translated_setup.ads
+13K9*DEMiCs_Translated_Setup 27|16w6 102r15 106r7 108r17 141r15 147r19 150r9
+. 151r19 155r7 190r15 196r19 199r9 200r19 204r7 235r15 239r7 241r17 267r14
+. 278r17 448r7 449r17 453r5 517r12 28|163e28
+32U13*Make_Data 27|106s31 155s31 204s31 239s31 453s29
+43V12*Make_Data{19|16R10} 27|141s39 190s39
+54V12*Make_Data{19|16R10} 27|102s39 235s39
+74V12*Extract_Supports{40|24A8[16|7]} 27|267s38
+93V12*Apply_Lifting{40|24A8[15|7]} 27|278s41 517s36
+106V12*User_Lifting{55|17P8[94|4]} 27|108s41 147s43 196s43 241s41
+115V12*Random_Lifting{55|17P8[94|4]} 27|151s43 200s43 449s41
+145U13*Add_Artificial_Origins 27|150s33 199s33 448s31
+X 37 floating_lifting_functions.ads
+20K9*Floating_Lifting_Functions 27|9w6 149r17 198r17 37|139e31
+97V12*Lifting_Bound{90|13F8} 27|149s44 198s44
+X 38 floating_mixed_subdivisions.ads
+12K9*Floating_Mixed_Subdivisions 26|10w6 10r46 38|311e32
+25P8*Mixed_Subdivision 26|66r59 162r27 27|254r59 256r11 506r27
+35P8*Mixed_Subdivision<47|12P8[34]>
+X 39 floating_mixed_subdivisions_io.ads
+11K9*Floating_Mixed_Subdivisions_io 27|10w6 281r9 520r7 39|269e35
+44U13*put 27|281s40 520s38
+X 40 generic_arrays_of_vector_lists.ads
+24A8*Array_of_Lists(48|22P8[64|6])<98|6I8> 26|82r63[16|7] 87r63[16|7] 96r63[16|7]
+. 101r63[16|7] 111r53[16|7] 128r61[16|7] 160r57[16|7] 161r59[15|7] 27|93r42[16|7]
+. 128r42[16|7] 176r42[16|7] 225r42[16|7] 266r53[16|7] 268r48[15|7] 297r64[16|7]
+. 314r64[16|7] 329r63[16|7] 346r63[16|7] 360r53[16|7] 430r61[16|7] 504r57[16|7]
+. 505r59[15|7]
+X 41 generic_arrays_of_vector_lists_io.ads
+46U13*put 27|276s52[17|10] 306s36[17|10] 320s36[17|10] 338s36[17|10] 352s36[17|10]
+X 44 generic_laur_poly_systems.ads
+22A8*Laur_Sys(46|30P8[79|4])<98|6I8> 26|27r20[78|5] 53r20[78|5] 85r24[78|5]
+. 99r24[78|5] 27|87r20[78|5] 218r20[78|5] 327r24[78|5] 344r24[78|5]
+X 46 generic_laurent_polynomials.ads
+30P8*Poly
+X 47 generic_lists.ads
+12P8*List
+67V12*Length_Of{105|7I8} 27|370s49[48|21[64|6]]
+72V12*Is_Null{boolean} 27|491s40[48|21[64|6]]
+77V12*Head_Of{55|17P8[102|4]} 27|492s39[48|21[64|6]]
+84V12*Tail_Of{12P8[48|21[64|6]]} 27|496s39[48|21[64|6]]
+X 48 generic_lists_of_vectors.ads
+22P8*List<47|12P8[21[63|6]]> 27|271r50[64|6] 480r47[64|6] 482r36[64|6] 510r48[64|6]
+X 53 generic_polynomial_systems.ads
+22A8*Poly_Sys(54|28P8[84|4])<98|6I8> 26|22r20[83|5] 47r20[83|5] 80r24[83|5]
+. 94r24[83|5] 27|121r20[83|5] 168r20[83|5] 295r25[83|5] 312r25[83|5]
+X 54 generic_polynomials.ads
+28P8*Poly
+X 55 generic_vectors.ads
+16A8*Vector(98|6I8)<98|6I8> 27|134r38[102|4] 182r38[102|4] 372r42[94|4] 377r52[94|4]
+. 411r41[94|4] 424r42[94|4] 439r38[102|4]
+17P8*Link_to_Vector(16A8[102|4]) 26|81r52[102|4] 86r52[102|4] 95r57[102|4]
+. 100r57[102|4] 110r47[102|4] 120r53[94|4] 127r51[102|4] 130r52[94|4] 159r51[102|4]
+. 27|25r55[94|4] 56r55[94|4] 94r40[102|4] 95r40[94|4] 129r40[102|4] 130r40[94|4]
+. 177r40[102|4] 178r40[94|4] 226r40[102|4] 227r40[94|4] 264r47[102|4] 269r48[94|4]
+. 296r53[102|4] 300r37[102|4] 313r58[102|4] 328r52[102|4] 332r37[102|4] 345r57[102|4]
+. 359r47[102|4] 402r53[94|4] 410r37[94|4] 429r51[102|4] 432r52[94|4] 440r40[94|4]
+. 483r36[102|4] 503r51[102|4] 508r46[94|4]
+X 56 generic_vectors_io.ads
+35U13*put 27|307s35[103|5] 321s35[103|5] 322s34[103|5] 339s35[103|5] 353s35[103|5]
+. 354s34[103|5]
+37U13*put 27|495s7[103|5]
+X 57 generic_vecvecs.ads
+14A8*VecVec(55|17P8[94|4])<98|6I8> 27|364r40[96|5] 381r42[96|5]
+15P8*Link_to_VecVec(14A8[96|5]) 26|112r47[96|5] 118r52[96|5] 27|361r47[96|5]
+. 363r37[96|5] 385r49[96|5] 400r52[96|5] 478r50[96|5]
+X 58 generic_vecvecs_io.ads
+40U13*put 27|489s5[97|7]
+X 64 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[48|12] 27|6w6 271r25 370r24 480r22 482r11 491r15
+. 492r14 496r14 510r23
+X 66 mixed_volume_computation.ads
+12K9*Mixed_Volume_Computation 27|11w6 105r7 144r7 193r7 238r7 304r5 318r5
+. 336r5 350r5 66|192e29
+20U13*Compute_Mixture 27|105s32 144s32 193s32 238s32 304s30 318s30 336s30
+. 350s30
+X 78 standard_complex_laur_systems.ads
+5K9*Standard_Complex_Laur_Systems[44|12] 26|7w6 7r46
+X 83 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[53|12] 26|6w6 6r46
+X 90 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 26|2w6 2r46 90|58e30
+13F8*double_float<long_float> 26|129r27 27|131r12 179r12 431r27
+X 94 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[55|8] 26|4w6 120r27 130r26 27|25r29 56r29 95r14
+. 130r14 178r14 227r14 269r22 372r16 377r26 402r27 410r11 411r15 424r16 432r26
+. 440r14 508r20
+X 96 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[57|10] 26|5w6 112r21 118r26 27|361r21 363r11
+. 364r14 381r16 385r23 400r26 478r24
+X 97 standard_floating_vecvecs_io.ads
+7K9*Standard_Floating_VecVecs_io[58|15] 27|5w6 5r45
+X 98 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 26|1w6 1r46 98|45e29
+6I8*integer32<long_integer> 26|22r40 25r25 25r49 27r40 29r25 29r49 48r26
+. 51r25 51r49 54r26 56r25 56r49 66r35 119r31 131r29 158r26 162r58 183r33
+. 27|24r30 24r54 26r29 32r12 49r15 55r30 55r54 57r29 63r12 80r15 87r40 89r25
+. 89r49 91r11 121r40 124r25 124r49 126r11 132r20 133r13 169r26 172r25 172r49
+. 174r11 180r20 181r13 219r26 221r25 221r49 223r11 254r35 263r22 365r11 366r11
+. 370r14 386r24 391r11 401r31 412r11 433r29 435r20 437r10 438r13 484r19 485r11
+. 502r26 506r58 529r33
+X 99 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 27|2w6 2r45 99|47e32
+26U13*put 27|37s7 68s7 187s7 232s7 445s7 470s41 471s48 494s21 498s33
+X 102 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[55|8] 26|3w6 81r27 86r27 95r32 100r32 110r22
+. 127r26 159r26 27|94r15 129r15 134r13 177r15 182r13 226r15 264r22 296r28
+. 300r12 313r33 328r27 332r12 345r32 359r22 429r26 439r13 483r11 503r26
+X 103 standard_integer_vectors_io.ads
+5K9*Standard_Integer_Vectors_io[56|11] 27|4w6 4r45
+X 105 standard_natural_numbers.ads
+7I8*natural32<long_integer>
+X 108 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 27|3w6 40r19 71r19 375r22 108|112e28
+18V12*Get_Seed{98|6I8} 27|40s43 71s43
+48V12*Random{90|13F8} 27|375s46
+X 110 supports_of_polynomial_systems.ads
+25K9*Supports_of_Polynomial_Systems 27|8w6 104r14 143r14 192r14 237r14 303r17
+. 317r17 335r17 349r17 110|409e35
+150V12*Create{40|24A8[16|7]} 27|143s45 192s45 303s48 317s48
+152V12*Create{40|24A8[16|7]} 27|104s45 237s45 335s48 349s48
+X 111 system.ads
+67M9*Address
+X 117 s-memory.ads
+51V13*Alloc{111|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{111|67M9} 103i<c,__gnat_realloc>22
+

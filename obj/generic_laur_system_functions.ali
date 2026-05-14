@@ -1,0 +1,165 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_laur_system_functions%b  generic_laur_system_functions.adb  fac1fba7 NE OO PK GE
+W unchecked_deallocation%s
+
+U generic_laur_system_functions%s  generic_laur_system_functions.ads  e6a6cc40 BN EE NE OO PK GE
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W abstract_ring.field%s	abstract_ring-field.ads	abstract_ring-field.ali
+W generic_laur_poly_functions%s  generic_laur_poly_functions.adb  generic_laur_poly_functions.ali
+W generic_laur_poly_systems%s  generic_laur_poly_systems.adb  generic_laur_poly_systems.ali
+W generic_laurent_polynomials%s  generic_laurent_polynomials.adb  generic_laurent_polynomials.ali
+Z generic_lists%s	generic_lists.adb	generic_lists.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W generic_vecvecs%s	generic_vecvecs.adb	generic_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+Z standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laur_system_functions.adb  20260513024558 8eed5c05 generic_laur_system_functions%b
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [generic_laur_system_functions standard 21 9 none]
+X 1 abstract_ring.ads
+3+8 number 5|54r37[11] 6|44r37[5|11]
+25k9*Abstract_Ring 25e29 5|2w6 3r6 11r28
+X 2 abstract_ring-field.ads
+12k23 Field 12e35 5|3w20
+X 3 generic_laur_poly_functions.ads
+14k9*Generic_Laur_Poly_Functions 95e32 5|6w6 17r14
+30P8 Eval_Poly 5|35r57[16]
+31P8 Eval_Coeff_Poly 5|37r63[16]
+35V12 Create{30P8[5|16]} 6|15s17[5|16]
+36V12 Create{31P8[5|16]} 6|26s17[5|16]
+43V12 Coeff{10|16A8[5|13]} 6|37s29[5|16]
+47V12 Eval{7|30P8[5|15]} 6|50s17[5|16]
+57V12 Eval{1|3+8[5|11]} 6|61s17[5|16]
+61V12 Eval{1|3+8[5|11]} 6|72s17[5|16]
+62V12 Eval{1|3+8[5|11]} 6|84s17[5|16]
+67U13 Clear 6|94s7[5|16]
+68U13 Clear 6|112s7[5|16]
+X 4 generic_laur_poly_systems.ads
+12k9*Generic_Laur_Poly_Systems 70e30 5|7w6 19r14
+22A8 Laur_Sys(7|30P8[5|15])<12|6I8> 5|42r25[18] 43r25[18] 45r24[18] 54r23[18]
+. 54r68[18] 55r23[18] 6|9r25[5|18] 20r25[5|18] 31r24[5|18] 44r23[5|18] 44r68[5|18]
+. 46r11[5|18] 55r23[5|18]
+X 5 generic_laur_system_functions.ads
+11K16 Ring[1|25] 12r29 13r47 14r47 15r63 17r42 19r40 27r7
+12K16 Field[2|12] 17r47 27r12
+13K16 Vectors[10|8] 14r52 17r53 27r18
+14K16 VecVecs[11|10] 27r26
+15K16 Polynomials[7|12] 17r61 19r45 6|5r7
+16K16 Poly_Functions[3|14] 27r34 6|5r19
+18K16 Poly_Systems[4|12] 27r49
+21k9*Generic_Laur_System_Functions 11z16 12z16 13z16 14z16 15z16 16z16 18z16
+. 67l5 67e34 6|3b14 128l5 128t34
+31P8*Evaluator(10|16A8[13]) 31>39
+31a39 x{10|16A8[13]}
+35A8*Eval_Laur_Sys(3|30P8[16])<12|6I8> 36r40 42r43 56r23 62r32 6|9r43 11r11
+. 66r23 91r32 101r34
+36P8*Link_to_Eval_Laur_Sys(35A8) 63r32 6|98r32 101r48
+37A8*Eval_Coeff_Laur_Sys(3|31P8[16])<12|6I8> 38r46 43r43 57r23 64r32 6|20r43
+. 22r11 77r23 109r32 119r34
+38P8*Link_to_Eval_Coeff_Laur_Sys(37A8) 65r32 6|116r32 120r34
+42V12*Create{35A8} 42>21 6|9b12 18l7 18t13
+42a21 p{4|22A8[18]} 6|9b21 11r25 14r14 15r24
+43V12*Create{37A8} 43>21 6|20b12 29l7 29t13
+43a21 p{4|22A8[18]} 6|20b21 22r31 25r14 26r24
+45V12*Coeff{11|14A8[14]} 45>20 6|31b12 40l7 40t12
+45a20 p{4|22A8[18]} 6|31b20 33r18 36r14 37r35
+54V12*Eval{4|22A8[18]} 54>19 54>33 54>45 6|44b12 53l7 53t11
+54a19 p{4|22A8[18]} 6|44b19 46r20 49r14 50r22
+54*33 x{1|3+8[11]} 6|44b33 50r27
+54i45 i{12|6I8} 6|44b45 50r29
+55V12*Eval{10|16A8[13]} 55>19 55>33 6|55b12 64l7 64t11
+55a19 p{4|22A8[18]} 6|55b19 57r18 60r14 61r22
+55a33 x{10|16A8[13]} 6|55b33 61r27
+56V12*Eval{10|16A8[13]} 56>19 56>38 6|66b12 75l7 75t11
+56a19 p{35A8} 6|66b19 68r18 71r14 72r22
+56a38 x{10|16A8[13]} 6|66b38 72r27
+57V12*Eval{10|16A8[13]} 57>19 57>44 57>56 6|77b12 87l7 87t11
+57a19 p{37A8} 6|77b19 80r18 83r14 84r22
+57a44 c{11|14A8[14]} 6|77b44 84r27
+57a56 x{10|16A8[13]} 6|77b56 84r36
+62U13*Clear 62=21 6|91b13 96l7 96t12 105s11
+62a21 p{35A8} 6|91b21 93r14 94m13 94r13
+63U13*Clear 63=21 6|98b13 107l7 107t12
+63p21 p{36P8} 6|98b21 104r8 105r17 105m30
+64U13*Clear 64=21 6|109b13 114l7 114t12 124s11
+64a21 p{37A8} 6|109b21 111r14 112m13 112r13
+65U13*Clear 65=21 6|116b13 126l7 126t12
+65p21 p{38P8} 6|116b21 123r8 124r17 124m30
+X 6 generic_laur_system_functions.adb
+11a5 res{5|35A8} 15m7 17r12
+14i9 k<long_integer> 15r11 15r26
+22a5 res{5|37A8} 26m7 28r12
+25i9 k<long_integer> 26r11 26r26
+33a5 res{11|14A8[5|14]} 37m7 39r12
+36i9 i<long_integer> 37r11 37r37
+46a5 res{4|22A8[5|18]} 50m7 52r12
+49i9 j<long_integer> 50r11 50r24
+57a5 res{10|16A8[5|13]} 61m7 63r12
+60i9 i<long_integer> 61r11 61r24
+68a5 res{10|16A8[5|13]} 72m7 74r12
+71i9 i<long_integer> 72r11 72r24
+80a5 res{10|16A8[5|13]} 84m7 86r12
+83i9 i<long_integer> 84r11 84r24 84r29
+93i9 k<long_integer> 94r15
+100U15 free[19|22] 105s25
+111i9 k<long_integer> 112r15
+118U15 free[19|22] 124s25
+X 7 generic_laurent_polynomials.ads
+12k9*Generic_Laurent_Polynomials 5|5w6 15r35 7|144e32
+30P8 Poly
+X 10 generic_vectors.ads
+8k9*Generic_Vectors 5|4w6 13r31 10|74e20
+16A8 Vector(1|3+8[5|11])<12|6I8> 5|31r43[13] 31r59[13] 55r37[13] 55r53[13]
+. 56r42[13] 56r58[13] 57r60[13] 58r24[13] 6|37r21[5|13] 55r37[5|13] 55r53[5|13]
+. 57r11[5|13] 66r42[5|13] 66r58[5|13] 68r11[5|13] 77r60[5|13] 78r24[5|13]
+. 80r11[5|13]
+17P8 Link_to_Vector(16A8[5|13])
+X 11 generic_vecvecs.ads
+10k9*Generic_VecVecs 5|4w22 14r31 11|43e20
+14A8 VecVec(10|17P8[5|13])<12|6I8> 5|45r42[14] 57r48[14] 6|31r42[5|14] 33r11[5|14]
+. 77r48[5|14]
+X 12 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|1w6 1r46 12|45e29
+6I8*integer32<long_integer> 5|35r33 37r39 54r49 6|44r49
+X 19 unchdeal.ads
+22u11*Unchecked_Deallocation 6|1w6 101r11 119r11
+

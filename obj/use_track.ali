@@ -1,0 +1,280 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_track%b		use_track.adb		393de276 NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W cascade_homotopy_interface%s  cascade_homotopy_interface.adb  cascade_homotopy_interface.ali
+W diagonal_homotopy_interface%s  diagonal_homotopy_interface.adb  diagonal_homotopy_interface.ali
+W dobldobl_polysys_interface%s  dobldobl_polysys_interface.adb  dobldobl_polysys_interface.ali
+W file_management_interface%s  file_management_interface.adb  file_management_interface.ali
+W linear_products_interface%s  linear_products_interface.adb  linear_products_interface.ali
+W newton_interface%s	newton_interface.adb	newton_interface.ali
+W path_trackers_interface%s  path_trackers_interface.adb  path_trackers_interface.ali
+W quaddobl_polysys_interface%s  quaddobl_polysys_interface.adb  quaddobl_polysys_interface.ali
+W standard_polysys_interface%s  standard_polysys_interface.adb  standard_polysys_interface.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U use_track%s		use_track.ads		6a0ff995 EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D cascade_homotopy_interface.ads  20260513024556 c4e49803 cascade_homotopy_interface%s
+D diagonal_homotopy_interface.ads  20260513024556 4e30196f diagonal_homotopy_interface%s
+D dobldobl_polysys_interface.ads  20260513024556 821e92cf dobldobl_polysys_interface%s
+D file_management_interface.ads  20260513024556 dd67a948 file_management_interface%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D linear_products_interface.ads  20260513024556 717e5fa9 linear_products_interface%s
+D newton_interface.ads	20260513024556 162b5341 newton_interface%s
+D path_trackers_interface.ads  20260513024556 31d906f2 path_trackers_interface%s
+D quaddobl_polysys_interface.ads  20260513024556 736eb92b quaddobl_polysys_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_polysys_interface.ads  20260513024556 10315eab standard_polysys_interface%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D use_track.ads		20260513024556 9fc31aed use_track%s
+D use_track.adb		20260513024556 67326772 use_track%b
+G a e
+G c Z s b [use_track standard 5 10 none]
+G r c none [use_track standard 5 10 none] [newton_standard_polynomial_refine newton_interface 21 12 none]
+G r c none [use_track standard 5 10 none] [standard_polysys_prompt_for_target standard_polysys_interface 314 12 none]
+G r c none [use_track standard 5 10 none] [standard_polysys_prompt_for_start standard_polysys_interface 321 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_homotopy_random path_trackers_interface 10 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_homotopy_gamma path_trackers_interface 17 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_homotopy_clear path_trackers_interface 30 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_silent_track path_trackers_interface 202 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_report_track path_trackers_interface 271 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_write_solution path_trackers_interface 338 12 none]
+G r c none [use_track standard 5 10 none] [file_management_write_string file_management_interface 46 12 none]
+G r c none [use_track standard 5 10 none] [file_management_write_integers file_management_interface 59 12 none]
+G r c none [use_track standard 5 10 none] [file_management_write_doubles file_management_interface 72 12 none]
+G r c none [use_track standard 5 10 none] [standard_polysys_read_target_on_file standard_polysys_interface 328 12 none]
+G r c none [use_track standard 5 10 none] [standard_polysys_read_start_on_file standard_polysys_interface 343 12 none]
+G r c none [use_track standard 5 10 none] [linear_products_system_read linear_products_interface 45 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_standard_polynomial cascade_homotopy_interface 9 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_polynomial_make diagonal_homotopy_interface 97 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_prompt_set diagonal_homotopy_interface 243 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_reset_input diagonal_homotopy_interface 259 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_cascade_dimension diagonal_homotopy_interface 275 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_hyperset diagonal_homotopy_interface 294 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_collapse diagonal_homotopy_interface 309 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_cut_slack cascade_homotopy_interface 51 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_homotopy_random path_trackers_interface 37 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_homotopy_gamma path_trackers_interface 44 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_homotopy_clear path_trackers_interface 57 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_silent_track path_trackers_interface 225 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_report_track path_trackers_interface 292 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_write_solution path_trackers_interface 354 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_dobldobl_polynomial cascade_homotopy_interface 16 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_homotopy_random path_trackers_interface 64 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_homotopy_gamma path_trackers_interface 71 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_homotopy_clear path_trackers_interface 84 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_silent_track path_trackers_interface 248 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_report_track path_trackers_interface 315 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_write_solution path_trackers_interface 370 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_quaddobl_polynomial cascade_homotopy_interface 23 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_polynomial_set diagonal_homotopy_interface 10 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_start_solutions diagonal_homotopy_interface 201 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_symbols_doubler diagonal_homotopy_interface 181 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_dobldobl_polynomial_make diagonal_homotopy_interface 111 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_quaddobl_polynomial_make diagonal_homotopy_interface 125 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_dobldobl_start_solutions diagonal_homotopy_interface 215 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_quaddobl_start_solutions diagonal_homotopy_interface 229 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_dobldobl_collapse diagonal_homotopy_interface 322 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_quaddobl_collapse diagonal_homotopy_interface 335 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_dobldobl_polynomial_set diagonal_homotopy_interface 39 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_quaddobl_polynomial_set diagonal_homotopy_interface 68 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_multprec_homotopy_random path_trackers_interface 91 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_multprec_homotopy_gamma path_trackers_interface 98 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_multprec_homotopy_clear path_trackers_interface 111 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_crude_track path_trackers_interface 470 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_crude_track path_trackers_interface 483 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_crude_track path_trackers_interface 496 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_standard_laurent cascade_homotopy_interface 30 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_dobldobl_laurent cascade_homotopy_interface 37 12 none]
+G r c none [use_track standard 5 10 none] [cascade_homotopy_quaddobl_laurent cascade_homotopy_interface 44 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_laurent_make diagonal_homotopy_interface 139 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_dobldobl_laurent_make diagonal_homotopy_interface 153 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_quaddobl_laurent_make diagonal_homotopy_interface 167 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_standard_laurential_set diagonal_homotopy_interface 24 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_dobldobl_laurential_set diagonal_homotopy_interface 53 12 none]
+G r c none [use_track standard 5 10 none] [diagonal_homotopy_quaddobl_laurential_set diagonal_homotopy_interface 82 12 none]
+G r c none [use_track standard 5 10 none] [dobldobl_polysys_prompt_for_target dobldobl_polysys_interface 287 12 none]
+G r c none [use_track standard 5 10 none] [quaddobl_polysys_prompt_for_target quaddobl_polysys_interface 287 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_laurent_homotopy_gamma path_trackers_interface 125 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_laurent_homotopy_gamma path_trackers_interface 153 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_laurent_homotopy_gamma path_trackers_interface 181 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_standard_laurent_homotopy_clear path_trackers_interface 139 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_dobldobl_laurent_homotopy_clear path_trackers_interface 167 12 none]
+G r c none [use_track standard 5 10 none] [path_trackers_quaddobl_laurent_homotopy_clear path_trackers_interface 195 12 none]
+X 9 a-textio.ads
+565U14*Put_Line 43|130s22
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 42|3w6 3r45
+17K11*C_DblArrs[19|44] 42|8r26 43|15r26
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 42|2w6 2r45
+13K11*C_intarrs[19|44] 42|6r26 7r26 43|13r26 14r26
+X 13 cascade_homotopy_interface.ads
+4K9*Cascade_Homotopy_Interface 64e31 43|9w6 27r9
+9V12*Cascade_Homotopy_Standard_Polynomial{25|6I8} 43|47s25
+16V12*Cascade_Homotopy_DoblDobl_Polynomial{25|6I8} 43|63s25
+23V12*Cascade_Homotopy_QuadDobl_Polynomial{25|6I8} 43|71s25
+30V12*Cascade_Homotopy_Standard_Laurent{25|6I8} 43|103s25
+37V12*Cascade_Homotopy_DoblDobl_Laurent{25|6I8} 43|104s25
+44V12*Cascade_Homotopy_QuadDobl_Laurent{25|6I8} 43|105s25
+51V12*Cascade_Homotopy_Cut_Slack{25|6I8} 43|55s25
+X 14 diagonal_homotopy_interface.ads
+4K9*Diagonal_Homotopy_Interface 348e32 43|10w6 28r9
+10V12*Diagonal_Homotopy_Standard_Polynomial_Set{25|6I8} 43|74s16
+24V12*Diagonal_Homotopy_Standard_Laurential_Set{25|6I8} 43|110s16
+39V12*Diagonal_Homotopy_DoblDobl_Polynomial_Set{25|6I8} 43|91s16
+53V12*Diagonal_Homotopy_DoblDobl_Laurential_Set{25|6I8} 43|112s16
+68V12*Diagonal_Homotopy_QuadDobl_Polynomial_Set{25|6I8} 43|93s16
+82V12*Diagonal_Homotopy_QuadDobl_Laurential_Set{25|6I8} 43|114s16
+97V12*Diagonal_Homotopy_Standard_Polynomial_Make{25|6I8} 43|49s16
+111V12*Diagonal_Homotopy_DoblDobl_Polynomial_Make{25|6I8} 43|80s16
+125V12*Diagonal_Homotopy_QuadDobl_Polynomial_Make{25|6I8} 43|82s16
+139V12*Diagonal_Homotopy_Standard_Laurent_Make{25|6I8} 43|106s25
+153V12*Diagonal_Homotopy_DoblDobl_Laurent_Make{25|6I8} 43|107s25
+167V12*Diagonal_Homotopy_QuadDobl_Laurent_Make{25|6I8} 43|108s25
+181V12*Diagonal_Homotopy_Symbols_Doubler{25|6I8} 43|77s25
+201V12*Diagonal_Homotopy_Standard_Start_Solutions{25|6I8} 43|76s16
+215V12*Diagonal_Homotopy_DoblDobl_Start_Solutions{25|6I8} 43|84s16
+229V12*Diagonal_Homotopy_QuadDobl_Start_Solutions{25|6I8} 43|86s16
+243V12*Diagonal_Homotopy_Prompt_Set{25|6I8} 43|50s25
+259V12*Diagonal_Homotopy_Reset_Input{25|6I8} 43|51s25
+275V12*Diagonal_Homotopy_Cascade_Dimension{25|6I8} 43|52s25
+294V12*Diagonal_Homotopy_Standard_Hyperset{25|6I8} 43|53s25
+309V12*Diagonal_Homotopy_Standard_Collapse{25|6I8} 43|54s25
+322V12*Diagonal_Homotopy_DoblDobl_Collapse{25|6I8} 43|87s25
+335V12*Diagonal_Homotopy_QuadDobl_Collapse{25|6I8} 43|88s25
+X 15 dobldobl_polysys_interface.ads
+5K9*DoblDobl_PolySys_Interface 294e31 43|4w6 22r9
+287V12*DoblDobl_PolySys_Prompt_for_Target{25|6I8} 43|115s25
+X 16 file_management_interface.ads
+5K9*File_Management_Interface 85e30 43|2w6 20r9
+46V12*File_Management_Write_String{25|6I8} 43|41s24
+59V12*File_Management_Write_Integers{25|6I8} 43|42s24
+72V12*File_Management_Write_Doubles{25|6I8} 43|43s25
+X 18 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 19 i-cpoint.ads
+47P9*Pointer(18|62I9) 42|6r36[12|13] 7r36[12|13] 8r36[11|17] 43|13r36[12|13]
+. 14r36[12|13] 15r36[11|17]
+X 21 linear_products_interface.ads
+4K9*Linear_Products_Interface 168e30 43|6w6 24r9
+45V12*Linear_Products_System_Read{25|6I8} 43|46s25
+X 22 newton_interface.ads
+5K9*Newton_Interface 145e21 43|7w6 25r9
+21V12*Newton_Standard_Polynomial_Refine{25|6I8} 43|32s25
+X 23 path_trackers_interface.ads
+5K9*Path_Trackers_Interface 509e28 43|8w6 26r9
+10V12*Path_Trackers_Standard_Homotopy_Random{25|6I8} 43|35s24
+17V12*Path_Trackers_Standard_Homotopy_Gamma{25|6I8} 43|36s24
+30V12*Path_Trackers_Standard_Homotopy_Clear{25|6I8} 43|37s24
+37V12*Path_Trackers_DoblDobl_Homotopy_Random{25|6I8} 43|57s25
+44V12*Path_Trackers_DoblDobl_Homotopy_Gamma{25|6I8} 43|58s25
+57V12*Path_Trackers_DoblDobl_Homotopy_Clear{25|6I8} 43|59s25
+64V12*Path_Trackers_QuadDobl_Homotopy_Random{25|6I8} 43|65s25
+71V12*Path_Trackers_QuadDobl_Homotopy_Gamma{25|6I8} 43|66s25
+84V12*Path_Trackers_QuadDobl_Homotopy_Clear{25|6I8} 43|67s25
+91V12*Path_Trackers_Multprec_Homotopy_Random{25|6I8} 43|95s25
+98V12*Path_Trackers_Multprec_Homotopy_Gamma{25|6I8} 43|96s25
+111V12*Path_Trackers_Multprec_Homotopy_Clear{25|6I8} 43|97s25
+125V12*Path_Trackers_Standard_Laurent_Homotopy_Gamma{25|6I8} 43|119s16
+139V12*Path_Trackers_Standard_Laurent_Homotopy_Clear{25|6I8} 43|125s16
+153V12*Path_Trackers_DoblDobl_Laurent_Homotopy_Gamma{25|6I8} 43|121s16
+167V12*Path_Trackers_DoblDobl_Laurent_Homotopy_Clear{25|6I8} 43|127s16
+181V12*Path_Trackers_QuadDobl_Laurent_Homotopy_Gamma{25|6I8} 43|123s16
+195V12*Path_Trackers_QuadDobl_Laurent_Homotopy_Clear{25|6I8} 43|129s16
+202V12*Path_Trackers_Standard_Silent_Track{25|6I8} 43|38s24
+225V12*Path_Trackers_DoblDobl_Silent_Track{25|6I8} 43|60s25
+248V12*Path_Trackers_QuadDobl_Silent_Track{25|6I8} 43|68s25
+271V12*Path_Trackers_Standard_Report_Track{25|6I8} 43|39s24
+292V12*Path_Trackers_DoblDobl_Report_Track{25|6I8} 43|61s25
+315V12*Path_Trackers_QuadDobl_Report_Track{25|6I8} 43|69s25
+338V12*Path_Trackers_Standard_Write_Solution{25|6I8} 43|40s24
+354V12*Path_Trackers_DoblDobl_Write_Solution{25|6I8} 43|62s25
+370V12*Path_Trackers_QuadDobl_Write_Solution{25|6I8} 43|70s25
+470V12*Path_Trackers_Standard_Crude_Track{25|6I8} 43|99s25
+483V12*Path_Trackers_DoblDobl_Crude_Track{25|6I8} 43|100s25
+496V12*Path_Trackers_QuadDobl_Crude_Track{25|6I8} 43|101s25
+X 24 quaddobl_polysys_interface.ads
+5K9*QuadDobl_PolySys_Interface 294e31 43|5w6 23r9
+287V12*QuadDobl_PolySys_Prompt_for_Target{25|6I8} 43|116s25
+X 25 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 42|1w6 1r45
+6I8*integer32<long_integer> 42|5r28 9r31 9r55 43|12r28 16r31 16r55 18r31
+X 26 standard_polysys_interface.ads
+5K9*Standard_PolySys_Interface 358e31 43|3w6 21r9
+314V12*Standard_PolySys_Prompt_for_Target{25|6I8} 43|33s24
+321V12*Standard_PolySys_Prompt_for_Start{25|6I8} 43|34s24
+328V12*Standard_PolySys_Read_Target_on_File{25|6I8} 43|44s25
+343V12*Standard_PolySys_Read_Start_on_File{25|6I8} 43|45s25
+X 41 text_io.ads
+27K9*Text_IO=27:29 43|1w6 1r45
+X 42 use_track.ads
+5V10*use_track{25|6I8} 5>22 6>22 7>22 8>22 9>22 43|12b10 136l5 136t14
+5i22 job{25|6I8} 43|12b22 31r10
+6p22 a{19|47P9[12|13]} 43|13b22 36r62 38r60 39r60 40r62 41r53 42r55 43r55
+. 44r62 45r61 46r53 49r59 50r54 51r55 52r61 53r61 54r61 55r52 58r63 60r61
+. 61r61 62r63 66r63 68r61 69r61 70r63 74r58 76r59 77r59 80r59 82r59 84r59
+. 86r59 87r61 88r61 91r58 93r58 96r63 99r60 100r60 101r60 106r65 107r65 108r65
+. 110r58 112r58 114r58 119r62 121r62 123r62
+7p22 b{19|47P9[12|13]} 43|14b22 32r59 38r62 39r62 40r64 41r55 42r57 44r64
+. 45r63 46r55 49r61 50r56 51r57 52r63 53r63 60r63 61r63 62r65 68r63 69r63
+. 70r65 74r60 76r61 77r61 80r61 82r61 84r61 86r61 91r60 93r60 106r67 107r67
+. 108r67 110r60 112r60 114r60
+8p22 c{19|47P9[11|17]} 43|15b22 32r61 36r64 38r64 39r64 40r66 43r57 58r65
+. 60r65 61r65 62r67 66r65 68r65 69r65 70r67 96r65 119r64 121r64 123r64
+9i22 vrblvl{25|6I8} 43|16b22 32r63 33r59 34r58 35r63 36r66 37r62 38r66 39r66
+. 40r68 41r57 42r59 43r59 44r66 45r65 46r57 47r62 49r63 50r58 51r59 52r65
+. 53r65 54r63 55r54 57r64 58r67 59r63 60r67 61r67 62r69 63r62 65r64 66r67
+. 67r63 68r67 69r67 70r69 71r62 74r62 76r63 77r63 80r63 82r63 84r63 86r63
+. 87r63 88r63 91r62 93r62 95r64 96r67 97r63 99r62 100r62 101r62 103r59 104r59
+. 105r59 106r69 107r69 108r69 110r62 112r62 114r62 115r60 116r60 119r66 121r66
+. 123r66 125r62 127r62 129r62
+X 43 use_track.adb
+18V12 Handle_Jobs{25|6I8} 18b12 132l7 132t18 135s10
+

@@ -1,0 +1,148 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tripdobl_random_numbers%b  tripdobl_random_numbers.adb  8e46eaab NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W tripdobl_mathematical_functions%s  tripdobl_mathematical_functions.adb  tripdobl_mathematical_functions.ali
+W triple_double_constants%s  triple_double_constants.ads  triple_double_constants.ali
+
+U tripdobl_random_numbers%s  tripdobl_random_numbers.ads  ad0c2589 EE NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W tripdobl_complex_numbers%s  tripdobl_complex_numbers.ads  tripdobl_complex_numbers.ali
+W triple_double_numbers%s  triple_double_numbers.adb  triple_double_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D tripdobl_complex_numbers.ads  20260513024558 c635fac5 tripdobl_complex_numbers%s
+D tripdobl_mathematical_functions.ads  20260513024558 decb0e57 tripdobl_mathematical_functions%s
+D tripdobl_random_numbers.ads  20260513024558 f1bd9741 tripdobl_random_numbers%s
+D tripdobl_random_numbers.adb  20260513024558 a3c209a6 tripdobl_random_numbers%b
+D triple_double_constants.ads  20260513024558 bee4f70f triple_double_constants%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D triple_double_ring.ads  20260513024558 6a90058c triple_double_ring%s
+D triple_double_ring-ffield.ads  20260513024558 d0c028cb triple_double_ring.ffield%s
+G a e
+G c Z s b [random tripdobl_random_numbers 14 12 none]
+G c Z s b [random_triple_double tripdobl_random_numbers 19 13 none]
+G c Z s b [random tripdobl_random_numbers 26 12 none]
+G c Z s b [random_complex_number tripdobl_random_numbers 32 13 none]
+G c Z s b [random1 tripdobl_random_numbers 40 12 none]
+G c Z s b [random1_complex_number tripdobl_random_numbers 45 13 none]
+G r c none [random tripdobl_random_numbers 14 12 none] [random standard_random_numbers 48 12 none]
+G r c none [random tripdobl_random_numbers 14 12 none] [create triple_double_numbers 43 12 none]
+G r c none [random tripdobl_random_numbers 14 12 none] [Oadd triple_double_numbers 144 12 none]
+G r c none [random_triple_double tripdobl_random_numbers 19 13 none] [random_double_float standard_random_numbers 53 13 none]
+G r c none [random_triple_double tripdobl_random_numbers 19 13 none] [create triple_double_numbers 43 12 none]
+G r c none [random_triple_double tripdobl_random_numbers 19 13 none] [Oadd triple_double_numbers 144 12 none]
+G r c none [random tripdobl_random_numbers 26 12 none] [random standard_random_numbers 48 12 none]
+G r c none [random tripdobl_random_numbers 26 12 none] [create triple_double_numbers 43 12 none]
+G r c none [random tripdobl_random_numbers 26 12 none] [Oadd triple_double_numbers 144 12 none]
+G r c none [random tripdobl_random_numbers 26 12 none] [create tripdobl_complex_numbers 27 12 5_1]
+G r c none [random_complex_number tripdobl_random_numbers 32 13 none] [random_double_float standard_random_numbers 53 13 none]
+G r c none [random_complex_number tripdobl_random_numbers 32 13 none] [create triple_double_numbers 43 12 none]
+G r c none [random_complex_number tripdobl_random_numbers 32 13 none] [Oadd triple_double_numbers 144 12 none]
+G r c none [random_complex_number tripdobl_random_numbers 32 13 none] [create tripdobl_complex_numbers 27 12 5_1]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [random standard_random_numbers 48 12 none]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [create triple_double_numbers 43 12 none]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [Oadd triple_double_numbers 144 12 none]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [Omultiply triple_double_numbers 154 12 none]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [cos tripdobl_mathematical_functions 20 12 none]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [sin tripdobl_mathematical_functions 15 12 none]
+G r c none [random1 tripdobl_random_numbers 40 12 none] [create tripdobl_complex_numbers 27 12 5_1]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [random_double_float standard_random_numbers 53 13 none]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [create triple_double_numbers 43 12 none]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [Oadd triple_double_numbers 144 12 none]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [Omultiply triple_double_numbers 154 12 none]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [cos tripdobl_mathematical_functions 20 12 none]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [sin tripdobl_mathematical_functions 15 12 none]
+G r c none [random1_complex_number tripdobl_random_numbers 45 13 none] [create tripdobl_complex_numbers 27 12 5_1]
+X 3 generic_complex_numbers.ads
+19R8*Complex_Number 12|26r26[10|5] 33r50[10|5] 40r27[10|5] 46r50[10|5] 13|42r26[10|5]
+. 44r11[10|5] 54r50[10|5] 64r27[10|5] 66r11[10|5] 79r50[10|5]
+27V12*Create{19R8[10|5]} 13|49s12[10|5] 61s10[10|5] 74s12[10|5] 88s10[10|5]
+X 5 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 13|1w6 1r46
+13F8*double_float<long_float> 13|11r22 12r23 13r22 14r20 15r23 28r26 29r20
+. 30r23
+X 6 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 12|1w6 1r46
+6I8*integer32<long_integer> 12|20r31 33r31 46r31 13|25r31 54r31 79r31
+X 8 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 112e28 13|2w6 11r38 12r39 13r38 33r5 34r5 35r5
+48V12*Random{5|13F8} 13|11s62 12s63 13s62
+53U13*Random_Double_Float 13|33s29 34s29 35s29
+X 10 tripdobl_complex_numbers.ads
+5K9*TripDobl_Complex_Numbers[3|11] 12|3w6 3r46
+X 11 tripdobl_mathematical_functions.ads
+3K9*TripDobl_Mathematical_Functions 64e36 13|4w6 72r11 73r11 86r11 87r11
+15V12*SIN{15|20R8} 13|73s43 87s43
+20V12*COS{15|20R8} 13|72s43 86s43
+X 12 tripdobl_random_numbers.ads
+5K9*TripDobl_Random_Numbers 53l5 53e28 13|6b14 67r28 91l5 91t28
+14V12*Random{15|20R8} 13|8b12 22l7 22t13 45s42 46s42 67s52
+19U13*Random_Triple_Double 20=17 20<42 13|24b13 40l7 40t27 59s5 60s5 84s5
+20i17 seed{6|6I8} 13|25b17 33m49 34m49 35m49
+20r42 f{15|20R8} 13|25b42 39m5
+26V12*Random{3|19R8[10|5]} 13|42b12 51l7 51t13
+32U13*Random_Complex_Number 33=17 33<42 13|53b13 62l7 62t28
+33i17 seed{6|6I8} 13|54b17 59m26 60m26
+33r42 c{3|19R8[10|5]} 13|54b42 61m5
+40V12*Random1{3|19R8[10|5]} 13|64b12 76l7 76t14
+45U13*Random1_Complex_Number 46=17 46<42 13|78b13 89l7 89t29
+46i17 seed{6|6I8} 13|79b17 84m26
+46r42 c{3|19R8[10|5]} 13|79b42 88m5
+X 13 tripdobl_random_numbers.adb
+10r5 res{15|20R8} 18m5 19m5 19r12 20m5 20r12 21r12
+11f5 first{5|13F8} 18r19
+12f5 second{5|13F8} 19r22
+13f5 third{5|13F8} 20r25
+14f5 eps{5|13F8} 19r18
+15f5 dd_eps{5|13F8} 20r18
+27r5 res{15|20R8} 36m5 37m5 37r12 38m5 38r12 39r10
+28f5 first{5|13F8} 33m54 36r19
+28f11 second{5|13F8} 34m54 37r22
+28f18 third{5|13F8} 35m54 38r25
+29f5 eps{5|13F8} 37r18
+30f5 dd_eps{5|13F8} 38r18
+44r5 res{3|19R8[10|5]} 49m5 50r12
+45r5 realpart{15|20R8} 49r19
+46r5 imagpart{15|20R8} 49r28
+56r5 realpart{15|20R8} 59m31 61r17
+56r14 imagpart{15|20R8} 60m31 61r26
+66r5 res{3|19R8[10|5]} 74m5 75r12
+67r5 arg{15|20R8} 71m5 71r12 72r47 73r47
+68r5 cs{15|20R8} 72m5 74r19
+68r8 sn{15|20R8} 73m5 74r22
+81r5 arg{15|20R8} 84m31 85m5 85r12 86r47 87r47
+81r9 cs{15|20R8} 86m5 88r17
+81r12 sn{15|20R8} 87m5 88r20
+X 14 triple_double_constants.ads
+4K9*Triple_Double_Constants 13|3w6 71r16 85r16 14|1716e28
+14r3*pi{15|20R8} 13|71r40 85r40
+X 15 triple_double_numbers.ads
+5K9*Triple_Double_Numbers 12|2w6 2r46 15|199e26
+20R8*triple_double 12|14r26 20r50 13|8r26 10r11 25r50 27r11 45r25 46r25 56r25
+. 67r11 68r13 81r17 15|197e13
+43V12*create{20R8} 13|18s12 36s12
+144V13*"+"{20R8} 13|19s16 20s16 37s16 38s16
+154V13*"*"{20R8} 13|71s15 85s15
+

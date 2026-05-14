@@ -1,0 +1,296 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U cayley_embedding%b	cayley_embedding.adb	ecdb7001 NE OO PK
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U cayley_embedding%s	cayley_embedding.ads	c2905ec6 EE NE OO PK
+W arrays_of_integer_vector_lists%s  arrays_of_integer_vector_lists.ads  arrays_of_integer_vector_lists.ali
+W integer_mixed_subdivisions%s  integer_mixed_subdivisions.adb  integer_mixed_subdivisions.ali
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W standard_integer32_simplices%s  standard_integer32_simplices.adb  standard_integer32_simplices.ali
+W standard_integer32_triangulations%s  standard_integer32_triangulations.adb  standard_integer32_triangulations.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_integer_vector_lists.ads  20260513024558 1062c910 arrays_of_integer_vector_lists%s
+D cayley_embedding.ads	20260513024558 e412fcc6 cayley_embedding%s
+D cayley_embedding.adb	20260513024558 3f000bf9 cayley_embedding%b
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D integer_mixed_subdivisions.ads  20260513024558 ed6fb1b5 integer_mixed_subdivisions%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D standard_integer32_simplices.ads  20260513024558 820106e8 standard_integer32_simplices%s
+D standard_integer32_triangulations.ads  20260513024558 aaed0a4a standard_integer32_triangulations%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [embedding_before_lifting cayley_embedding 19 12 none]
+G c Z s b [extract cayley_embedding 30 12 none]
+G c Z s b [extract_mixed_cell cayley_embedding 37 12 none]
+G c Z s b [extract_mixed_cells cayley_embedding 45 12 none]
+G c Z s b [extract_non_flat_mixed_cells cayley_embedding 54 12 none]
+G c Z s b [deflate cayley_embedding 62 13 none]
+G c Z s b [deflate cayley_embedding 69 13 none]
+G c Z s b [deflate cayley_embedding 76 13 none]
+G c Z b b [is_good_point cayley_embedding 7 12 none]
+G c Z b b [project cayley_embedding 32 13 none]
+G c Z b b [extract cayley_embedding 78 12 none]
+G r c none [embedding_before_lifting cayley_embedding 19 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [embedding_before_lifting cayley_embedding 19 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [embedding_before_lifting cayley_embedding 19 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [embedding_before_lifting cayley_embedding 19 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [extract cayley_embedding 30 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [extract cayley_embedding 30 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [extract cayley_embedding 30 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [extract cayley_embedding 30 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r s mixed_cell [extract_mixed_cell cayley_embedding 37 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r s array_of_lists [extract_mixed_cell cayley_embedding 37 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [extract_mixed_cell cayley_embedding 37 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [extract_mixed_cell cayley_embedding 37 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [extract_mixed_cell cayley_embedding 37 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [extract_mixed_cell cayley_embedding 37 12 none] [normal standard_integer32_simplices 92 12 none]
+G r c none [extract_mixed_cell cayley_embedding 37 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [head_of standard_integer32_triangulations__lists_of_simplices 77 12 15_3]
+G r s mixed_cell [extract_mixed_cells cayley_embedding 45 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r s array_of_lists [extract_mixed_cells cayley_embedding 45 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [normal standard_integer32_simplices 92 12 none]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [append integer_mixed_subdivisions__lists_of_mixed_cells 43 13 23_3]
+G r c none [extract_mixed_cells cayley_embedding 45 12 none] [tail_of standard_integer32_triangulations__lists_of_simplices 84 12 15_3]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [head_of standard_integer32_triangulations__lists_of_simplices 77 12 15_3]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [is_flat standard_integer32_simplices 97 12 none]
+G r s mixed_cell [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r s array_of_lists [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [normal standard_integer32_simplices 92 12 none]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [append integer_mixed_subdivisions__lists_of_mixed_cells 43 13 23_3]
+G r c none [extract_non_flat_mixed_cells cayley_embedding 54 12 none] [tail_of standard_integer32_triangulations__lists_of_simplices 84 12 15_3]
+G r c none [deflate cayley_embedding 62 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [deflate cayley_embedding 62 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [deflate cayley_embedding 62 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [deflate cayley_embedding 62 13 none] [set_head lists_of_integer_vectors__vector_lists 31 13 21_3_6_1]
+G r c none [deflate cayley_embedding 62 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [deflate cayley_embedding 69 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [deflate cayley_embedding 69 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [deflate cayley_embedding 69 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [deflate cayley_embedding 69 13 none] [set_head lists_of_integer_vectors__vector_lists 31 13 21_3_6_1]
+G r c none [deflate cayley_embedding 69 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [deflate cayley_embedding 76 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [deflate cayley_embedding 76 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [deflate cayley_embedding 76 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [deflate cayley_embedding 76 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [deflate cayley_embedding 76 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [deflate cayley_embedding 76 13 none] [set_head lists_of_integer_vectors__vector_lists 31 13 21_3_6_1]
+G r c none [deflate cayley_embedding 76 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [deflate cayley_embedding 76 13 none] [set_head integer_mixed_subdivisions__lists_of_mixed_cells 31 13 23_3]
+G r c none [deflate cayley_embedding 76 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [project cayley_embedding 32 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [extract cayley_embedding 78 12 none] [append lists_of_integer_vectors 65 13 6_1]
+X 11 arrays_of_integer_vector_lists.ads
+7K9*Arrays_of_Integer_Vector_Lists[14|15] 12|4w6 4r46
+X 12 cayley_embedding.ads
+9K9*Cayley_Embedding 83l5 83e21 13|3b14 226l5 226t21
+19V12*Embedding_Before_Lifting{16|22P8[22|6]} 20>18 13|48b12 76l7 76t31
+20a18 supports{14|24A8[11|7]} 13|49b18 52r32 57r14 58r14
+30V12*Extract{16|22P8[22|6]} 30>22 30>26 30>41 13|91b12 110l7 110t14
+30i22 vtp{25|6I8} 13|91b22 104r24
+30i26 n{25|6I8} 13|91b26 104r28
+30p41 pts{16|22P8[22|6]} 13|91b41 101r12
+37V12*Extract_Mixed_Cell{19|17R8} 38>16 38>31 38>45 13|112b12 135l7 135t25
+. 150s29 175s29
+38i16 n{25|6I8} 13|113b16 123r30
+38a31 mix{17|16A8[27|4]} 13|113b31 116r27 122r14 124r50
+38p45 s{23|14P8} 13|113b45 119r39 130r37
+45V12*Extract_Mixed_Cells{19|24P8} 46>16 46>31 46>45 13|137b12 159l7 159t26
+46i16 n{25|6I8} 13|138b16 150r48
+46a31 mix{17|16A8[27|4]} 13|138b31 150r50
+46p45 t{24|16P8} 13|138b45 146r12
+54V12*Extract_non_Flat_Mixed_Cells{19|24P8} 55>16 55>31 55>45 13|161b12 184l7
+. 184t35
+55i16 n{25|6I8} 13|162b16 175r48
+55a31 mix{17|16A8[27|4]} 13|162b31 175r50
+55p45 t{24|16P8} 13|162b45 170r12
+62U13*Deflate 62>23 62=38 13|186b13 200l7 200t14 206s7
+62i23 n{25|6I8} 13|186b23 195r17
+62p38 L{16|22P8[22|6]} 13|186b38 188r19
+69U13*Deflate 69>23 69=38 13|202b13 208l7 208t14 219s9
+69i23 n{25|6I8} 13|202b23 204r13 206r15
+69r38 mic{19|17R8} 13|202b38 204m15 204r15 205r14 206r17
+76U13*Deflate 76>23 76=38 13|210b13 224l7 224t14
+76i23 n{25|6I8} 13|210b23 219r17
+76p38 mixsub{19|24P8} 13|210b38 212r32
+X 13 cayley_embedding.adb
+7V12 Is_Good_Point{boolean} 7b12 8>16 8>20 8>35 30l7 30t20 84s10 104s10
+8i16 cnt{25|6I8} 18r8 27r24
+8i20 n{25|6I8} 20r34
+8p35 pt{17|17P8[27|4]} 20r16 20r26 21r12 27r21
+15b5 goodpoint{boolean} 19m7 22m15 24r23 27m7 29r12
+20i11 L<long_integer> 21r15
+32U13 Project 32b13 32>23 32=38 44l7 44t14 195s9 204s5
+32i23 n{25|6I8} 40r27 41r13 41r30
+32p38 v{17|17P8[27|4]} 41r21 41r23 41r33 42m11 43m5
+37p5 newv{17|17P8[27|4]} 40m5 41r5 43r10
+51p5 tmp{16|22P8[22|6]} 58m7 59r25 60r23 71m9 71r24
+51p9 res{16|22P8[22|6]} 69m18 69r18 75r12
+51p13 res_last{16|22P8[22|6]} 69m22 69r22
+52i5 r1{25|6I8} 62r42 65r36 65r67
+53p5 pt{17|17P8[27|4]} 60m9 62r24 62r34 64r24 64r50
+54i5 cnt{25|6I8} 66r14 67r21 73m7 73r14
+57i9 k<long_integer> 58r23
+62a11 npt{17|16A8[27|4]} 64m11 64r15 64r37 65m11 65r15 65r26 65r46 65r57
+. 67m17 69r31
+78V12 Extract{16|22P8[22|6]} 78b12 78>22 78>26 78>41 89l7 89t14 123s18
+78i22 vtp{25|6I8} 84r24
+78i26 n{25|6I8} 84r28
+78a41 pts{18|14A8[28|5]} 83r14 84r30 85r33
+80p5 res{16|22P8[22|6]} 85m20 85r20 88r12
+80p9 res_last{16|22P8[22|6]} 85m24 85r24
+83i9 k<long_integer> 84r34 85r37
+97p5 tmp{16|22P8[22|6]} 101m5 102r23 103r21 107m7 107r22
+97p9 res{16|22P8[22|6]} 105m20 105r20 109r12
+97p13 res_last{16|22P8[22|6]} 105m24 105r24
+98p5 pt{17|17P8[27|4]} 103m7 104r30 105r33
+115r5 res{19|17R8} 129m7 130m7 134r12
+116a5 work{14|24A8[11|7]} 123m7 124r38 129r38 132m18 132r18
+117i5 cnt{25|6I8} 123r26 126m7 126r14
+118b5 iscell{boolean} 124m7 125r21 128r8
+119a5 pts{18|14A8[28|5]} 123r32
+122i9 k<long_integer> 123r12 124r43 124r54
+141p5 res{19|24P8} 153m22 153r22 158r12
+141p9 res_last{19|24P8} 153m26 153r26
+142p5 s{23|14P8} 148m7 150r54
+143p5 tmp{24|16P8} 146m5 147r23 148r20 156m7 156r22
+150r9 mic{19|17R8} 152r12 153r35
+165p5 res{19|24P8} 178m22 178r22 183r12
+165p9 res_last{19|24P8} 178m26 178r26
+166p5 s{23|14P8} 172m7 173r25 175r54
+167p5 tmp{24|16P8} 170m5 171r23 172r20 181m7 181r22
+175r9 mic{19|17R8} 177r12 178r35
+188p5 tmp{16|22P8[22|6]} 191r23 193r40 196m18 196r18 198m7 198r22
+193p9 pt{17|17P8[27|4]} 195m19 195r19 196r22
+205i9 k<long_integer> 206r25
+212p5 tmp{19|24P8} 215r23 217r37 220m18 220r18 222m7 222r22
+217r9 mic{19|17R8} 219m19 219r19 220r22
+X 14 generic_arrays_of_vector_lists.ads
+24A8*Array_of_Lists(16|22P8[22|6])<25|6I8> 12|20r29[11|7] 13|49r29[11|7]
+. 116r12[11|7] 129r22[11|7]
+25P8*Link_to_Array_of_Lists(24A8[11|7])
+64U13*Deep_Clear 13|132s7[11|7]
+X 15 generic_lists.ads
+12P8*List
+31U13*Set_Head 13|196s9[16|21[22|6]] 220s9[19|23]
+43U13*Append 13|153s15[19|23] 178s15[19|23]
+67V12*Length_Of{29|7I8} 13|124s28[16|21[22|6]]
+72V12*Is_Null{boolean} 13|59s17[16|21[22|6]] 102s15[16|21[22|6]] 147s15[24|15]
+. 171s15[24|15] 191s15[16|21[22|6]] 215s15[19|23]
+77V12*Head_Of{17|17P8[27|4]} 13|60s15[16|21[22|6]] 103s13[16|21[22|6]] 148s12[24|15]
+. 172s12[24|15] 193s32[16|21[22|6]] 217s29[19|23]
+84V12*Tail_Of{12P8[16|21[22|6]]} 13|71s16[16|21[22|6]] 107s14[16|21[22|6]]
+. 156s14[24|15] 181s14[24|15] 198s14[16|21[22|6]] 222s14[19|23]
+X 16 generic_lists_of_vectors.ads
+22P8*List<15|12P8[21[22|6]]> 12|20r53[22|6] 30r47[22|6] 30r61[22|6] 62r49[22|6]
+. 13|49r53[22|6] 51r24[22|6] 78r63[22|6] 80r20[22|6] 91r47[22|6] 91r61[22|6]
+. 97r24[22|6] 186r49[22|6] 188r11[22|6]
+65U13*Append 13|69s11[22|6] 85s13[22|6] 105s13[22|6]
+X 17 generic_vectors.ads
+16A8*Vector(25|6I8)<25|6I8> 12|38r37[27|4] 46r37[27|4] 55r37[27|4] 13|40r17[27|4]
+. 62r17[27|4] 113r37[27|4] 130r22[27|4] 138r37[27|4] 162r37[27|4]
+17P8*Link_to_Vector(16A8[27|4]) 13|8r40[27|4] 32r49[27|4] 37r12[27|4] 53r10[27|4]
+. 98r10[27|4] 193r14[27|4]
+72U13*Clear 13|42s5[27|4]
+X 18 generic_vecvecs.ads
+14A8*VecVec(17|17P8[27|4])<25|6I8> 13|78r47[28|5] 119r20[28|5]
+X 19 integer_mixed_subdivisions.ads
+6K9*Integer_Mixed_Subdivisions 12|7w6 7r46 19|139e31
+14P8*Mixed_Subdivision 12|47r21 56r21 76r54 13|139r21 141r20 163r21 165r20
+. 210r54 212r11
+17R8*Mixed_Cell 12|38r66 69r51 13|113r66 115r11 150r15 175r15 202r51 217r15
+. 19|21e13
+18p5*nor{17|17P8[27|4]} 13|130m11 152r16 177r16 204m19
+19p5*pts{14|25P8[11|7]} 13|129m11 205r18 206m21
+24P8*Mixed_Subdivision<15|12P8[23]>
+X 22 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[16|12] 12|3w6 3r46
+X 23 standard_integer32_simplices.ads
+6K9*Standard_Integer32_Simplices 12|5w6 5r46 23|223e33
+14P8*Simplex 12|38r49 13|113r49 142r9 166r9
+92V12*Normal{17|16A8[27|4]} 13|130s30
+97V12*Is_Flat{boolean} 13|173s17
+104V12*Vertices{18|14A8[28|5]} 13|119s30
+X 24 standard_integer32_triangulations.ads
+7K9*Standard_Integer32_Triangulations 12|6w6 6r46 24|105e38
+16P8*Triangulation<15|12P8[15]> 12|46r49 55r49 13|138r49 143r11 162r49 167r11
+X 25 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 12|1w6 1r46 25|45e29
+6I8*integer32<long_integer> 12|30r30 38r20 46r20 55r20 62r27 69r27 76r27
+. 13|8r24 32r27 52r19 54r11 78r30 91r30 113r20 117r11 124r18 138r20 162r20
+. 186r27 202r27 210r27
+X 27 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[17|8] 12|2w6 2r46
+X 28 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[18|10] 13|1w6 1r46
+X 29 standard_natural_numbers.ads
+7I8*natural32<long_integer>
+

@@ -1,0 +1,131 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_c2pieri%b		use_c2pieri.adb		f35d173f NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W pieri_interface%s	pieri_interface.adb	pieri_interface.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U use_c2pieri%s		use_c2pieri.ads		97a6ea9a EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D pieri_interface.ads	20260513024556 0ae76ec5 pieri_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D use_c2pieri.ads	20260513024556 626a09e2 use_c2pieri%s
+D use_c2pieri.adb	20260513024556 ba62b880 use_c2pieri%b
+G a e
+G c Z s b [use_c2pieri standard 5 10 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_write_menu pieri_interface 10 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_initialize_dimensions pieri_interface 16 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_initialize_input_planes pieri_interface 29 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_initialize_interpolation_points pieri_interface 47 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_store_start_pivots pieri_interface 65 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_store_target_pivots pieri_interface 78 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_store_start_coefficients pieri_interface 91 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_get_target_solution pieri_interface 105 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_silent_track pieri_interface 120 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_report_track pieri_interface 126 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_silent_verify pieri_interface 132 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_report_verify pieri_interface 145 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_clear pieri_interface 247 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_root_count pieri_interface 158 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_localization_string pieri_interface 175 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_run_homotopies pieri_interface 193 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_real_osculating_planes pieri_interface 212 12 none]
+G r c none [use_c2pieri standard 5 10 none] [pieri_make_target_system pieri_interface 230 12 none]
+X 9 a-textio.ads
+565U14*Put_Line 35|34s22
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 34|3w6 3r45
+17K11*C_DblArrs[15|44] 34|8r28 35|7r28
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 34|2w6 2r45
+13K11*C_intarrs[15|44] 34|6r28 7r28 35|5r28 6r28
+X 14 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 15 i-cpoint.ads
+47P9*Pointer(14|62I9) 34|6r38[12|13] 7r38[12|13] 8r38[11|17] 35|5r38[12|13]
+. 6r38[12|13] 7r38[11|17]
+X 17 pieri_interface.ads
+5K9*Pieri_Interface 252e20 35|2w6 12r9
+10V12*Pieri_Write_Menu{18|6I8} 35|16s24
+16V12*Pieri_Initialize_Dimensions{18|6I8} 35|17s24
+29V12*Pieri_Initialize_Input_Planes{18|6I8} 35|18s24
+47V12*Pieri_Initialize_Interpolation_Points{18|6I8} 35|19s24
+65V12*Pieri_Store_Start_Pivots{18|6I8} 35|20s24
+78V12*Pieri_Store_Target_Pivots{18|6I8} 35|21s24
+91V12*Pieri_Store_Start_Coefficients{18|6I8} 35|22s24
+105V12*Pieri_Get_Target_Solution{18|6I8} 35|23s24
+120V12*Pieri_Silent_Track{18|6I8} 35|24s24
+126V12*Pieri_Report_Track{18|6I8} 35|25s24
+132V12*Pieri_Silent_Verify{18|6I8} 35|26s25
+145V12*Pieri_Report_Verify{18|6I8} 35|27s25
+158V12*Pieri_Root_Count{18|6I8} 35|29s25
+175V12*Pieri_Localization_String{18|6I8} 35|30s25
+193V12*Pieri_Run_Homotopies{18|6I8} 35|31s25
+212V12*Pieri_Real_Osculating_Planes{18|6I8} 35|32s25
+230V12*Pieri_Make_Target_System{18|6I8} 35|33s25
+247V12*Pieri_Clear{18|6I8} 35|28s25
+X 18 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 34|1w6 1r45
+6I8*integer32<long_integer> 34|5r30 9r33 9r57 35|4r30 8r33 8r57 10r31
+X 33 text_io.ads
+27K9*Text_IO=27:29 35|1w6 1r45
+X 34 use_c2pieri.ads
+5V10*use_c2pieri{18|6I8} 5>24 6>24 7>24 8>24 9>24 35|4b10 40l5 40t16
+5i24 job{18|6I8} 35|4b24 15r10
+6p24 a{15|47P9[12|13]} 35|5b24 17r52 18r54 19r62 20r49 21r50 22r55 23r50
+. 29r42 30r51 31r46 32r54 33r50
+7p24 b{15|47P9[12|13]} 35|6b24 18r56 19r64 20r51 21r52 29r44 30r53 31r48
+8p24 c{15|47P9[11|17]} 35|7b24 18r58 19r66 22r57 23r52 26r45 27r45 31r50
+. 32r56 33r52
+9i24 vrblvl{18|6I8} 35|8b24 17r54 18r60 19r68 20r53 21r54 22r59 23r54 24r43
+. 25r43 26r47 27r47 28r37 29r46 30r55 31r52 32r58 33r54
+X 35 use_c2pieri.adb
+10V12 Handle_Jobs{18|6I8} 10b12 36l7 36t18 39s10
+

@@ -1,0 +1,227 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U basis_exchanges%b	basis_exchanges.adb	36c601d0 NE OO PK
+W standard_floating_linear_solvers%s  standard_floating_linear_solvers.ads  standard_floating_linear_solvers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U basis_exchanges%s	basis_exchanges.ads	5c7ff5f1 BN EE NE OO PK
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D basis_exchanges.ads	20260513024558 68d5e563 basis_exchanges%s
+D basis_exchanges.adb	20260513024558 39e2223e basis_exchanges%b
+D generic_floating_linear_solvers.ads  20260513024558 2b54c7f5 generic_floating_linear_solvers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_linear_solvers.ads  20260513024558 67f1c68d standard_floating_linear_solvers%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring-ffield.ads  20260513024558 bc4d2762 standard_floating_ring.ffield%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [initial_basis basis_exchanges 15 13 none]
+G c Z s b [solve basis_exchanges 41 12 none]
+G c Z s b [update basis_exchanges 53 13 none]
+G c Z s b [column_basis basis_exchanges 85 13 none]
+G c Z s b [column_solve basis_exchanges 109 13 none]
+G c Z b b [is_in basis_exchanges 7 12 none]
+G c Z b b [multipliers basis_exchanges 24 12 none]
+G c Z b b [multiply basis_exchanges 47 13 none]
+G r c none [column_basis basis_exchanges 85 13 none] [lufac standard_floating_linear_solvers 27 13 7_1]
+G r c none [column_basis basis_exchanges 85 13 none] [lusolve standard_floating_linear_solvers 88 13 7_1]
+G r c none [column_solve basis_exchanges 109 13 none] [lufac standard_floating_linear_solvers 27 13 7_1]
+G r c none [column_solve basis_exchanges 109 13 none] [lusolve standard_floating_linear_solvers 88 13 7_1]
+X 3 basis_exchanges.ads
+7K9*Basis_Exchanges 173l5 173e20 4|3b14 282l5 282t20
+15U13*Initial_Basis 16>19 16>21 17>19 18>19 19<19 20<19 21<19 4|74b13 123l7
+. 123t20
+16i19 n{14|6I8} 4|75b18 82r51 82r56 83r55 84r51 84r58 88r17 90r19 97r17 99r20
+. 104r17 106r16 106r23 109r18 109r22 119r17 120r31
+16i21 m{14|6I8} 4|75b20 84r56 98r19 106r21 109r20
+17a19 mat{6|16A8[9|5]} 4|76b18 99r26
+18f19 tol{10|13F8} 4|77b18 109r50
+19a19 binv{6|16A8[9|5]} 4|78b18 118m5
+20a19 cols{7|16A8[16|4]} 4|79b18 120m7
+21b19 fail{boolean} 4|80b18 102m5 122m5
+41V12*Solve{7|16A8[13|4]} 41>20 42>20 43>20 44>20 4|125b12 141l7 141t12
+41i20 n{14|6I8} 4|125b20 131r47 134r17 136r19
+42a20 binv{6|16A8[9|5]} 4|126b20 137r28
+43a20 rhs{7|16A8[13|4]} 4|127b20 137r38
+44a20 cols{7|16A8[16|4]} 4|128b20 137r42
+53U13*Update 53>22 53>24 54=22 55>22 56>22 57>22 57>31 57>55 58<22 4|109s11
+. 143b13 166l7 166t13 263s13
+53i22 n{14|6I8} 4|143b22 150r56 153r17 155r19
+53i24 m{14|6I8} 4|143b24
+54a22 binv{6|16A8[9|5]} 4|144b22 156r36 164m20
+55a22 mat{6|16A8[9|5]} 4|145b22 156r46
+56a22 cols{7|16A8[16|4]} 4|146b22
+57i22 binv_row{14|6I8} 4|147b22 159r20 163r39 164r30
+57i31 mat_col{14|6I8} 4|147b31 156r52
+57f55 tol{10|13F8} 4|147b55 159r33
+58b22 fail{boolean} 4|148b22 161m11 162m11
+85U13*Column_Basis 86>19 87>19 88>19 89<19 90<19 4|170b13 202l7 202t19
+86i19 n{14|6I8} 4|171b19 177r47 179r48 179r53 180r47 183r17 184r19 188r15
+. 193r19 194r20 196r21 197r21
+87a19 mat{6|16A8[9|5]} 4|172b19 185r21
+88a19 cols{7|16A8[16|4]} 4|173b19 185r27
+89a19 binv{6|16A8[9|5]} 4|174b19 198m11
+90b19 fail{boolean} 4|175b19 190m7 192m7
+109U13*Column_Solve 110>19 111>19 112>19 113>19 114<19 115<19 4|204b13 232l7
+. 232t19
+110i19 n{14|6I8} 4|205b19 212r47 214r48 214r53 217r17 218r19 222r15 227r19
+. 230r19
+111a19 mat{6|16A8[9|5]} 4|206b19 219r21
+112a19 cols{7|16A8[16|4]} 4|207b19 219r27 228r23
+113a19 rhs{7|16A8[13|4]} 4|208b19 228r19
+114a19 sol{7|16A8[13|4]} 4|209b19 228m9 230m26
+115b19 fail{boolean} 4|210b19 224m7 226m7
+138U20 Report 138>29 139>29 140>29 140<51 4|265s15
+138a29 invbas{6|16A8[9|5]}
+139a29 matcls{7|16A8[16|4]}
+140i29 level{14|6I8}
+140b51 continue{boolean}
+153u13*Enumerate_Basis_Inverses 154>19 154>21 155>19 155>23 156>19 157>19
+. 4|236b13 280l7 280t31
+154i19 n{14|6I8} 4|237b19 251r54 251r59 259r23 263r20
+154i21 m{14|6I8} 4|237b21 257r23 263r22
+155a19 mat{6|16A8[9|5]} 4|238b19 263r32
+155a23 binv{6|16A8[9|5]} 4|238b23 279r15
+156a19 mat_cols{7|16A8[16|4]} 4|239b19 279r20 279r29
+157f19 tol{10|13F8} 4|240b19 263r48
+X 4 basis_exchanges.adb
+7V12 Is_In{boolean} 7b12 7>20 7>57 20l7 20t12 107s16 107s41 258s16
+7a20 v{7|16A8[16|4]} 14r14 15r10
+7i57 k{14|6I8} 15r17
+14i9 i<long_integer> 15r12
+24V12 Multipliers{7|16A8[13|4]} 24b12 24>26 25>26 45l7 45t18 163s19
+24a26 matcol{7|16A8[13|4]} 35r44 40r27 41r24 41r34
+25i26 pivot{14|6I8} 39r14 40r34 41r41
+35a5 res{7|16A8[13|4]} 38r14 40m13 41m13 44r12
+38i9 j<long_integer> 39r10 40r17 41r17 41r31
+47U13 Multiply 47b13 47=24 48>24 49>24 70l7 70t15 164s11
+47a24 binv{6|16A8[9|5]} 56r48 59r14 62r37 63r37 63r53 66r16 67m9
+48a24 mult{7|16A8[13|4]} 60r16 62r29 63r29
+49i24 pivot{14|6I8} 61r16 62r42 63r42
+56a5 new_col{7|16A8[13|4]} 62m15 63m15 67r22
+59i9 j<long_integer> 62r48 63r48 63r60 67r16
+60i11 i<long_integer> 61r12 62r23 62r34 63r23 63r34 63r58
+66i11 i<long_integer> 67r14 67r30
+82a5 invbas{6|16A8[9|5]} 92m15 93m15 109m24 109r24 118r13
+83a5 matcols{7|16A8[16|4]} 89m7 107r22 108m11 109r38 120r18
+83a13 used{7|16A8[16|4]} 103m5 103r14 107r47 111m17 114r20
+84a5 cffmat{6|16A8[9|5]} 92m35 93m35 99m9 109r31
+85b5 todo{boolean} 105m7 109m54 110r18 116r17 122r13
+88i9 i<long_integer> 89r15 89r21 91r12 92r22 92r42 93r22 93r42
+90i11 j<long_integer> 91r16 92r24 92r44 93r24 93r44
+97i9 i<long_integer> 99r16 99r30
+98i11 j<long_integer> 99r18 99r32
+104i9 i<long_integer> 108r19 109r46 111r22 114r25
+106i11 j<long_integer> 107r30 107r52 108r25 109r48 111r28
+119i9 i<long_integer> 120r12 120r26
+131a5 res{7|16A8[13|4]} 135m7 137m9 137r19 140r12
+134i9 i<long_integer> 135r11 137r13 137r23 137r35
+136i11 j<long_integer> 137r33 137r47
+150a5 binvmat{7|16A8[13|4]} 154m7 156m9 156r23 159r12 163r31
+150a13 mult{7|16A8[13|4]} 163m11 164r25
+153i9 i<long_integer> 154r15 156r17 156r31 156r41
+155i11 j<long_integer> 156r43 156r50
+177a5 ipvt{7|16A8[16|4]} 188m17 196r23
+178i5 info{14|6I8} 188m22 189r8
+179a5 sys{6|16A8[9|5]} 185m9 188m11 188r11 196r17
+180a5 rhs{7|16A8[13|4]} 194m9 195m9 196m28 196r28 198r24
+183i9 i<long_integer> 185r13 185r25
+184i11 j<long_integer> 185r15 185r32
+193i11 i<long_integer> 195r13 198r18
+197i13 j<long_integer> 198r16 198r28
+212a5 ipvt{7|16A8[16|4]} 222m17 230r21
+213i5 info{14|6I8} 222m22 223r8
+214a5 sys{6|16A8[9|5]} 219m9 222m11 222r11 230r15
+217i9 i<long_integer> 219r13 219r32
+218i11 j<long_integer> 219r15 219r25
+227i11 i<long_integer> 228r13 228r28
+242b5 continue{boolean} 265m44 266r18 271r27 274r23
+244U15 Enumerate 244b15 244>27 245>27 246>27 246>33 267s21 276l9 276t18 279s5
+244a27 bas{6|16A8[9|5]} 260r24
+245a27 act{7|16A8[16|4]} 252r49 252r63 258r22 261r20
+246i27 start{14|6I8} 257r16
+246i33 level{14|6I8} 265r38 267r51
+251a7 new_bas{6|16A8[9|5]} 260m13 263m24 263r24 265r22 267r31
+252a7 new_act{7|16A8[16|4]} 262m13 263r36 265r30 267r39 269m15
+253i7 ind{14|6I8} 261m13 269r29
+254b7 fail{boolean} 263m52 264r20
+257i11 i<long_integer> 258r26 262r27 263r46 267r47
+259i15 j<long_integer> 261r24 262r21 263r44 269r23
+X 5 generic_floating_linear_solvers.ads
+27U13*lufac 4|188s5[8|7] 222s5[8|7]
+88U13*lusolve 4|196s9[8|7] 230s7[8|7]
+X 6 generic_matrices.ads
+16A8*Matrix(10|13F8)<14|6I8><14|6I8> 3|17r55[9|5] 19r57[9|5] 42r54[9|5] 54r63[9|5]
+. 55r58[9|5] 87r55[9|5] 89r57[9|5] 111r55[9|5] 138r68[9|5] 155r60[9|5] 4|47r65[9|5]
+. 76r54[9|5] 78r56[9|5] 82r41[9|5] 84r41[9|5] 126r54[9|5] 144r63[9|5] 145r58[9|5]
+. 172r55[9|5] 174r57[9|5] 179r38[9|5] 206r55[9|5] 214r38[9|5] 238r60[9|5]
+. 244r63[9|5] 251r44[9|5]
+X 7 generic_vectors.ads
+16A8*Vector(14|6I8)<14|6I8> 3|20r55[16|4] 43r52[13|4] 44r52[16|4] 45r51[13|4]
+. 56r57[16|4] 88r54[16|4] 112r54[16|4] 113r54[13|4] 114r55[13|4] 139r66[16|4]
+. 156r58[16|4] 4|7r49[16|4] 24r61[13|4] 26r57[13|4] 35r37[13|4] 48r60[13|4]
+. 56r41[13|4] 79r54[16|4] 83r45[16|4] 127r52[13|4] 128r52[16|4] 129r51[13|4]
+. 131r37[13|4] 146r57[16|4] 150r46[13|4] 173r54[16|4] 177r37[16|4] 180r37[13|4]
+. 207r54[16|4] 208r54[13|4] 209r55[13|4] 212r37[16|4] 239r58[16|4] 245r61[16|4]
+. 252r42[16|4]
+X 8 standard_floating_linear_solvers.ads
+7K9*Standard_Floating_Linear_Solvers[5|14] 4|1w6 1r46
+X 9 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[6|9] 3|5w6 17r28 19r30 42r27 54r36 55r31 87r28
+. 89r30 111r28 138r41 155r33 4|47r38 76r27 78r29 82r14 84r14 126r27 144r36
+. 145r31 172r28 174r30 179r11 206r28 214r11 238r33 244r36 251r17
+X 10 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 3|2w6 2r44 10|58e30
+13F8*double_float<long_float> 3|18r28 57r64 157r28 4|77r27 147r64 240r28
+X 13 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[7|8] 3|4w6 43r26 45r25 113r28 114r29 4|24r35
+. 26r31 35r11 48r34 56r15 127r26 129r25 131r11 150r20 180r11 208r28 209r29
+X 14 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 3|1w6 1r44 14|45e29
+6I8*integer32<long_integer> 3|16r28 41r24 53r31 57r44 86r26 110r26 140r40
+. 154r28 4|7r61 25r34 49r35 75r27 125r24 143r31 147r44 171r26 178r12 205r26
+. 213r12 237r28 246r44 253r13
+X 16 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[7|8] 3|3w6 20r30 44r27 56r32 88r29 112r29 139r41
+. 156r33 4|7r24 79r29 83r20 128r27 146r32 173r29 177r12 207r29 212r12 239r33
+. 245r36 252r17
+

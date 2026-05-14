@@ -1,0 +1,695 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U double_double_numbers%b  double_double_numbers.adb  26e7fc30 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W double_double_basics%s  double_double_basics.adb  double_double_basics.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U double_double_numbers%s  double_double_numbers.ads  425f13a6 EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_basics.ads  20260513024558 41df7b4e double_double_basics%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_numbers.adb  20260513024558 c4274d76 double_double_numbers%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-fatgen.ads		20250808065140 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250808065140 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [create double_double_numbers 16 12 none]
+G c Z s b [create double_double_numbers 21 12 none]
+G c Z s b [create double_double_numbers 22 12 none]
+G c Z s b [create double_double_numbers 28 12 none]
+G c Z s b [create double_double_numbers 29 12 none]
+G c Z s b [create double_double_numbers 35 12 none]
+G c Z s b [create double_double_numbers 40 12 none]
+G c Z s b [hi_part double_double_numbers 48 12 none]
+G c Z s b [lo_part double_double_numbers 53 12 none]
+G c Z s b [is_zero double_double_numbers 60 12 none]
+G c Z s b [is_one double_double_numbers 65 12 none]
+G c Z s b [is_positive double_double_numbers 70 12 none]
+G c Z s b [is_negative double_double_numbers 75 12 none]
+G c Z s b [equal double_double_numbers 80 12 none]
+G c Z s b [equal double_double_numbers 81 12 none]
+G c Z s b [Olt double_double_numbers 83 12 none]
+G c Z s b [Olt double_double_numbers 84 12 none]
+G c Z s b [Olt double_double_numbers 85 12 none]
+G c Z s b [Ole double_double_numbers 86 12 none]
+G c Z s b [Ole double_double_numbers 87 12 none]
+G c Z s b [Ole double_double_numbers 88 12 none]
+G c Z s b [Ogt double_double_numbers 90 12 none]
+G c Z s b [Ogt double_double_numbers 91 12 none]
+G c Z s b [Ogt double_double_numbers 92 12 none]
+G c Z s b [Oge double_double_numbers 93 12 none]
+G c Z s b [Oge double_double_numbers 94 12 none]
+G c Z s b [Oge double_double_numbers 95 12 none]
+G c Z s b [copy double_double_numbers 97 13 none]
+G c Z s b [to_int double_double_numbers 101 12 none]
+G c Z s b [to_double double_double_numbers 102 12 none]
+G c Z s b [Oabs double_double_numbers 103 12 none]
+G c Z s b [absval double_double_numbers 104 12 none]
+G c Z s b [floor double_double_numbers 105 12 none]
+G c Z s b [nint double_double_numbers 106 12 none]
+G c Z s b [nint double_double_numbers 107 12 none]
+G c Z s b [Oadd double_double_numbers 111 12 none]
+G c Z s b [Oadd double_double_numbers 112 12 none]
+G c Z s b [Oadd double_double_numbers 113 12 none]
+G c Z s b [Oadd double_double_numbers 114 12 none]
+G c Z s b [Oadd double_double_numbers 115 12 none]
+G c Z s b [add double_double_numbers 116 13 none]
+G c Z s b [add double_double_numbers 117 13 none]
+G c Z s b [Osubtract double_double_numbers 119 12 none]
+G c Z s b [Osubtract double_double_numbers 120 12 none]
+G c Z s b [Osubtract double_double_numbers 121 12 none]
+G c Z s b [Osubtract double_double_numbers 122 12 none]
+G c Z s b [Osubtract double_double_numbers 123 12 none]
+G c Z s b [min double_double_numbers 124 13 none]
+G c Z s b [sub double_double_numbers 125 13 none]
+G c Z s b [sub double_double_numbers 126 13 none]
+G c Z s b [Omultiply double_double_numbers 128 12 none]
+G c Z s b [Omultiply double_double_numbers 129 12 none]
+G c Z s b [Omultiply double_double_numbers 130 12 none]
+G c Z s b [Omultiply double_double_numbers 131 12 none]
+G c Z s b [mul double_double_numbers 132 13 none]
+G c Z s b [mul double_double_numbers 133 13 none]
+G c Z s b [mul_pwr2 double_double_numbers 134 12 none]
+G c Z s b [mul_pwr2 double_double_numbers 136 13 none]
+G c Z s b [Odivide double_double_numbers 139 12 none]
+G c Z s b [Odivide double_double_numbers 140 12 none]
+G c Z s b [Odivide double_double_numbers 141 12 none]
+G c Z s b [Odivide double_double_numbers 142 12 none]
+G c Z s b [div double_double_numbers 143 13 none]
+G c Z s b [div double_double_numbers 144 13 none]
+G c Z s b [sqr double_double_numbers 146 12 none]
+G c Z s b [sqr double_double_numbers 147 12 none]
+G c Z s b [Oexpon double_double_numbers 148 12 none]
+G c Z s b [Oexpon double_double_numbers 149 12 none]
+G c Z s b [Oexpon double_double_numbers 150 12 none]
+G c Z s b [ldexp double_double_numbers 152 12 none]
+G c Z s b [Oexpon double_double_numbers 154 12 none]
+G c Z s b [Oexpon double_double_numbers 155 12 none]
+G c Z s b [exp double_double_numbers 157 12 none]
+G c Z s b [log double_double_numbers 158 12 none]
+G c Z s b [log10 double_double_numbers 159 12 none]
+G c Z s b [clear double_double_numbers 163 13 none]
+G c Z s s [double_doubleIP double_double_numbers 167 8 none]
+G r c none [floor double_double_numbers 105 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [nint double_double_numbers 107 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [nint double_double_numbers 107 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd double_double_numbers 111 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd double_double_numbers 111 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oadd double_double_numbers 112 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd double_double_numbers 112 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oadd double_double_numbers 113 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd double_double_numbers 113 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oadd double_double_numbers 114 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [add double_double_numbers 116 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [add double_double_numbers 116 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [add double_double_numbers 117 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [add double_double_numbers 117 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Osubtract double_double_numbers 119 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Osubtract double_double_numbers 119 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Osubtract double_double_numbers 120 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Osubtract double_double_numbers 120 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Osubtract double_double_numbers 121 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Osubtract double_double_numbers 121 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Osubtract double_double_numbers 122 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [sub double_double_numbers 125 13 none] [two_diff double_double_basics 48 13 none]
+G r c none [sub double_double_numbers 125 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [sub double_double_numbers 126 13 none] [two_diff double_double_basics 48 13 none]
+G r c none [sub double_double_numbers 126 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Omultiply double_double_numbers 128 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply double_double_numbers 128 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Omultiply double_double_numbers 129 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply double_double_numbers 129 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Omultiply double_double_numbers 130 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply double_double_numbers 130 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Omultiply double_double_numbers 131 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul double_double_numbers 132 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul double_double_numbers 132 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [mul double_double_numbers 133 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul double_double_numbers 133 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide double_double_numbers 139 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide double_double_numbers 139 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide double_double_numbers 139 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Odivide double_double_numbers 139 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide double_double_numbers 140 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide double_double_numbers 140 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Odivide double_double_numbers 140 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide double_double_numbers 141 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide double_double_numbers 141 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Odivide double_double_numbers 141 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Odivide double_double_numbers 141 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide double_double_numbers 142 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide double_double_numbers 142 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Odivide double_double_numbers 142 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [div double_double_numbers 143 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div double_double_numbers 143 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [div double_double_numbers 143 13 none] [two_diff double_double_basics 48 13 none]
+G r c none [div double_double_numbers 143 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [div double_double_numbers 144 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div double_double_numbers 144 13 none] [two_diff double_double_basics 48 13 none]
+G r c none [div double_double_numbers 144 13 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [sqr double_double_numbers 146 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [sqr double_double_numbers 147 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [sqr double_double_numbers 147 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon double_double_numbers 148 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon double_double_numbers 148 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon double_double_numbers 148 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon double_double_numbers 148 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Oexpon double_double_numbers 148 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon double_double_numbers 149 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon double_double_numbers 149 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon double_double_numbers 149 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon double_double_numbers 149 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Oexpon double_double_numbers 149 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon double_double_numbers 150 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon double_double_numbers 150 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon double_double_numbers 150 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon double_double_numbers 150 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Oexpon double_double_numbers 150 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon double_double_numbers 154 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon double_double_numbers 154 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon double_double_numbers 154 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon double_double_numbers 154 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Oexpon double_double_numbers 154 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon double_double_numbers 154 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon double_double_numbers 155 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon double_double_numbers 155 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon double_double_numbers 155 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [Oexpon double_double_numbers 155 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [Oexpon double_double_numbers 155 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [Oexpon double_double_numbers 155 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [exp double_double_numbers 157 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [exp double_double_numbers 157 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [exp double_double_numbers 157 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [exp double_double_numbers 157 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [exp double_double_numbers 157 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log double_double_numbers 158 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log double_double_numbers 158 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log double_double_numbers 158 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [log double_double_numbers 158 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [log double_double_numbers 158 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [log double_double_numbers 158 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log10 double_double_numbers 159 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log10 double_double_numbers 159 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log10 double_double_numbers 159 12 none] [quick_two_sum double_double_basics 10 13 none]
+G r c none [log10 double_double_numbers 159 12 none] [two_diff double_double_basics 48 13 none]
+G r c none [log10 double_double_numbers 159 12 none] [two_sqr double_double_basics 84 13 none]
+G r c none [log10 double_double_numbers 159 12 none] [two_sum double_double_basics 36 13 none]
+X 9 a-textio.ads
+565U14*Put_Line 13|837s7
+X 11 double_double_basics.ads
+3K9*Double_Double_Basics 99e25 13|3w6 3r46
+10U13*quick_two_sum 13|234s7 284s5 286s5 298s5 310s5 341s5 343s5 353s5 365s5
+. 367s5 379s5 391s5 428s5 430s5 440s5 451s5 463s5 475s5 495s5 505s5 538s5
+. 555s5 580s5 597s5 612s5 633s5
+36U13*two_sum 13|281s5 282s5 296s5 308s5 319s5 338s5 339s5 351s5
+48U13*two_diff 13|362s5 363s5 377s5 389s5 400s5 425s5 426s5 438s5 551s5 577s5
+. 608s5
+72U13*two_prod 13|449s5 461s5 473s5 484s5 493s5 503s5 550s5 576s5 607s5
+84U13*two_sqr 13|620s5 630s5
+X 12 double_double_numbers.ads
+5K9*Double_Double_Numbers 167E8 172l5 172e26 13|5b14 869l5 869t26
+12R8*double_double 16r42 21r44 22r44 28r44 29r44 35r47 40r51 48r26 53r26
+. 60r26 65r25 70r30 75r30 80r26 81r24 83r24 84r22 85r40 86r25 87r23 88r41
+. 90r24 91r22 92r40 93r25 94r23 95r41 97r27 97r53 101r25 102r28 103r24 103r47
+. 104r25 104r48 105r24 105r47 107r23 107r46 111r24 111r47 112r22 112r63 113r40
+. 113r63 114r46 115r22 115r45 116r30 116r52 117r30 119r24 119r47 120r22 120r63
+. 121r40 121r63 122r46 123r22 123r45 124r30 125r30 125r52 126r30 128r24 128r47
+. 129r22 129r63 130r40 130r63 131r46 132r30 132r52 133r30 134r27 135r28 136r35
+. 139r24 139r47 140r22 140r63 141r40 141r63 142r46 143r30 143r52 144r30 146r44
+. 147r22 147r45 148r23 148r59 149r23 149r61 150r23 150r61 152r24 152r60 154r25
+. 154r48 155r23 155r64 157r22 157r45 158r22 158r45 159r24 159r47 163r32 167c8
+. 170e13 13|9r42 11r9 19r44 21r9 29r44 31r9 39r44 41r9 49r44 51r9 59r47 61r9
+. 69r51 71r9 81r26 86r26 93r26 98r25 103r30 108r30 113r26 118r24 123r24 128r22
+. 133r40 138r25 143r23 148r41 153r24 158r22 163r40 168r25 173r23 178r41 183r27
+. 183r53 191r25 196r28 201r24 201r47 203r11 213r25 213r48 215r11 225r24 225r47
+. 227r11 257r23 257r46 259r18 266r23 275r24 275r47 277r11 290r22 290r63 292r11
+. 302r40 302r63 304r11 314r46 316r11 323r22 323r45 325r11 333r30 333r52 346r30
+. 356r24 356r47 358r11 371r22 371r63 373r11 383r40 383r63 385r11 395r46 397r11
+. 404r22 404r45 406r11 414r30 420r30 420r52 433r30 443r24 443r47 445r11 455r22
+. 455r63 457r11 467r40 467r63 469r11 479r46 481r11 488r30 488r52 498r30 508r27
+. 509r28 511r11 519r35 525r24 525r47 527r15 543r22 543r63 545r11 559r40 559r63
+. 561r10 569r46 571r11 584r30 584r52 586r11 601r30 615r44 617r11 624r22 624r45
+. 626r11 637r23 637r59 639r15 673r23 673r61 678r23 678r61 680r15 714r24 714r60
+. 716r11 726r25 726r48 731r23 731r64 733r21 739r22 739r45 748r11 755r21 758r21
+. 760r29 762r13 815r22 815r45 831r15 850r24 850r47 852r11 855r23 864r32
+16V12*Create{12R8} 16>21 13|9b12 17l7 17t13
+16i21 i{integer} 13|9b21 14r26
+21V12*Create{12R8} 21>21 13|19b12 27l7 27t13
+21i21 n{19|7I8} 13|19b21 24r26
+22V12*Create{12R8} 22>21 13|29b12 37l7 37t13
+22i21 n{19|8I8} 13|29b21 34r26
+28V12*Create{12R8} 28>21 13|39b12 47l7 47t13
+28i21 i{17|6I8} 13|39b21 44r26
+29V12*Create{12R8} 29>21 13|49b12 57l7 57t13
+29i21 i{17|7I8} 13|49b21 54r26
+35V12*Create{12R8} 35>21 13|59b12 67l7 67t13 733s38
+35f21 f{16|13F8} 13|59b21 64r13
+40V12*Create{12R8} 40>21 40>24 13|69b12 77l7 77t13 755s38 758s38 775s20 776s20
+. 777s20 778s20 779s20 780s20 781s20 782s20 783s20 784s20 785s20 786s20 787s20
+. 788s20 789s20 855s40
+40f21 hi{16|13F8} 13|69b21 74r13
+40f24 lo{16|13F8} 13|69b24 75r13
+48V12*hi_part{16|13F8} 48>22 13|86b12 89l7 89t14
+48r22 d{12R8} 13|86b22 88r12
+53V12*lo_part{16|13F8} 53>22 13|81b12 84l7 84t14
+53r22 d{12R8} 13|81b22 83r12
+60V12*is_zero{boolean} 60>22 13|93b12 96l7 96t14 770s11
+60r22 d{12R8} 13|93b22 95r14 95r31
+65V12*is_one{boolean} 65>21 13|98b12 101l7 101t13 772s11 834s8
+65r21 d{12R8} 13|98b21 100r14 100r31
+70V12*is_positive{boolean} 70>26 13|103b12 106l7 106t18
+70r26 d{12R8} 13|103b26 105r13
+75V12*is_negative{boolean} 75>26 13|108b12 111l7 111t18
+75r26 d{12R8} 13|108b26 110r13
+80V12*equal{boolean} 80>20 80>22 13|113b12 116l7 116t12
+80r20 x{12R8} 13|113b20 115r13 115r29
+80r22 y{12R8} 13|113b22 115r20 115r36
+81V12*equal{boolean} 81>20 81>39 13|118b12 121l7 121t12
+81r20 x{12R8} 13|118b20 120r13 120r26
+81f39 y{16|13F8} 13|118b39 120r20
+83V13*"<"{boolean} 83>18 83>20 13|123b13 126l8 126t10
+83r18 x{12R8} 13|123b18 125r13 125r30 125r46
+83r20 y{12R8} 13|123b20 125r20 125r37 125r53
+84V13*"<"{boolean} 84>18 84>37 13|128b13 131l8 131t10
+84r18 x{12R8} 13|128b18 130r13 130r27 130r40
+84f37 y{16|13F8} 13|128b37 130r20 130r34
+85V13*"<"{boolean} 85>18 85>36 13|133b13 136l8 136t10
+85f18 x{16|13F8} 13|133b18 135r13 135r27
+85r36 y{12R8} 13|133b36 135r17 135r31 135r40
+86V13*"<="{boolean} 86>19 86>21 13|138b13 141l8 141t11
+86r19 x{12R8} 13|138b19 140r13 140r30 140r46
+86r21 y{12R8} 13|138b21 140r20 140r37 140r54
+87V13*"<="{boolean} 87>19 87>38 13|143b13 146l8 146t11
+87r19 x{12R8} 13|143b19 145r13 145r27 145r40
+87f38 y{16|13F8} 13|143b38 145r20 145r34
+88V13*"<="{boolean} 88>19 88>37 13|148b13 151l8 151t11
+88f19 x{16|13F8} 13|148b19 150r13 150r27
+88r37 y{12R8} 13|148b37 150r17 150r31 150r40
+90V13*">"{boolean} 90>18 90>20 13|153b13 156l8 156t10
+90r18 x{12R8} 13|153b18 155r13 155r30 155r46
+90r20 y{12R8} 13|153b20 155r20 155r37 155r53
+91V13*">"{boolean} 91>18 91>37 13|158b13 161l8 161t10
+91r18 x{12R8} 13|158b18 160r13 160r27 160r40
+91f37 y{16|13F8} 13|158b37 160r20 160r34
+92V13*">"{boolean} 92>18 92>36 13|163b13 166l8 166t10
+92f18 x{16|13F8} 13|163b18 165r13 165r27
+92r36 y{12R8} 13|163b36 165r17 165r31 165r40
+93V13*">="{boolean} 93>19 93>21 13|168b13 171l8 171t11
+93r19 x{12R8} 13|168b19 170r13 170r30 170r46
+93r21 y{12R8} 13|168b21 170r20 170r37 170r54
+94V13*">="{boolean} 94>19 94>38 13|173b13 176l8 176t11
+94r19 x{12R8} 13|173b19 175r13 175r27 175r40
+94f38 y{16|13F8} 13|173b38 175r20 175r34
+95V13*">="{boolean} 95>19 95>37 13|178b13 181l8 181t11
+95f19 x{16|13F8} 13|178b19 180r13 180r27
+95r37 y{12R8} 13|178b37 180r17 180r31 180r40
+97U13*copy 97>20 97=42 13|183b13 187l7 187t11
+97r20 x{12R8} 13|183b20 185r13 186r13
+97r42 y{12R8} 13|183b42 185m5 186m5
+101V12*to_int{17|6I8} 101>21 13|191b12 194l7 194t13
+101r21 x{12R8} 13|191b21 193r22
+102V12*to_double{16|13F8} 102>24 13|196b12 199l7 199t16
+102r24 x{12R8} 13|196b24 198r12
+103V13*"abs"{12R8} 103>20 13|201b13 211l8 211t12
+103r20 x{12R8} 13|201b20 206r8 207r22 207r39 208r22 208r39
+104V12*AbsVal{12R8} 104>21 13|213b12 223l7 223t13
+104r21 x{12R8} 13|213b21 218r8 219r22 219r39 220r22 220r39
+105V12*floor{12R8} 105>20 13|225b12 239l7 239t12 259s35 266s40
+105r20 x{12R8} 13|225b20 228r54 232r13 233r32
+106V12*nint{16|13F8} 106>19 13|241b12 255l7 255t11
+106f19 x{16|13F8} 13|241b19 243r53 246r8 247r14 250r58
+107V12*nint{12R8} 107>19 13|257b12 271l7 271t11
+107r19 x{12R8} 13|257b19 259r41 262r8 263r14 266r46
+111V13*"+"{12R8} 111>18 111>20 13|275b13 288l8 288t10 792s16 797s16 804s14
+. 806s30 844s18
+111r18 x{12R8} 13|275b18 281r13 282r13
+111r20 y{12R8} 13|275b20 281r18 282r18
+112V13*"+"{12R8} 112>18 112>37 13|266s47 290b13 300l8 300t10 808s16
+112r18 x{12R8} 13|290b18 296r13 297r16
+112f37 y{16|13F8} 13|290b37 296r18
+113V13*"+"{12R8} 113>18 113>36 13|302b13 312l8 312t10
+113f18 x{16|13F8} 13|302b18 308r13
+113r36 y{12R8} 13|302b36 308r15 309r16
+114V13*"+"{12R8} 114>18 114>20 13|314b13 321l8 321t10
+114f18 x{16|13F8} 13|314b18 319r13
+114f20 y{16|13F8} 13|314b20 319r15
+115V13*"+"{12R8} 115>18 13|323b13 331l8 331t10
+115r18 x{12R8} 13|323b18 328r15 329r15
+116U13*Add 116=19 116>45 13|333b13 344l7 344t10
+116r19 x{12R8} 13|333b19 338r13 339r13 343m25 343r25 343m30 343r30
+116r45 y{12R8} 13|333b45 338r18 339r18
+117U13*Add 117=19 117>45 13|346b13 354l7 354t10 539s5 598s5
+117r19 x{12R8} 13|346b19 351r13 352r16 353m25 353r25 353m30 353r30
+117f45 y{16|13F8} 13|346b45 351r18
+119V13*"-"{12R8} 119>18 119>20 13|356b13 369l8 369t10 533s14 790s25
+119r18 x{12R8} 13|356b18 362r14 363r14
+119r20 y{12R8} 13|356b20 362r19 363r19
+120V13*"-"{12R8} 120>18 120>37 13|371b13 381l8 381t10 845s18
+120r18 x{12R8} 13|371b18 377r14 378r16
+120f37 y{16|13F8} 13|371b37 377r19
+121V13*"-"{12R8} 121>18 121>36 13|383b13 393l8 393t10
+121f18 x{16|13F8} 13|383b18 389r14
+121r36 y{12R8} 13|383b36 389r16 390r16
+122V13*"-"{12R8} 122>18 122>20 13|395b13 402l8 402t10
+122f18 x{16|13F8} 13|395b18 400r14
+122f20 y{16|13F8} 13|395b20 400r16
+123V13*"-"{12R8} 123>18 13|404b13 412l8 412t10 843s20
+123r18 x{12R8} 13|404b18 409r16 410r16
+124U13*Min 124=19 13|414b13 418l7 418t10
+124r19 x{12R8} 13|414b19 416m5 416r14 417m5 417r14
+125U13*Sub 125=19 125>45 13|420b13 431l7 431t10 536s5 592s5 595s5
+125r19 x{12R8} 13|420b19 425r14 426r14 430m25 430r25 430m30 430r30
+125r45 y{12R8} 13|420b45 425r19 426r19
+126U13*Sub 126=19 126>45 13|433b13 441l7 441t10
+126r19 x{12R8} 13|433b19 438r14 439r16 440m25 440r25 440m30 440r30
+126f45 y{16|13F8} 13|433b45 438r19
+128V13*"*"{12R8} 128>18 128>20 13|443b13 453l8 453t10 728s17 793s13 794s13
+. 798s15 799s26 843s15
+128r18 x{12R8} 13|443b18 449r14 450r17 450r31
+128r20 y{12R8} 13|443b20 449r19 450r24 450r38
+129V13*"*"{12R8} 129>18 129>37 13|455b13 465l8 465t10
+129r18 x{12R8} 13|455b18 461r14 462r17
+129f37 y{16|13F8} 13|455b37 461r19 462r24
+130V13*"*"{12R8} 130>18 130>36 13|467b13 477l8 477t10 532s14 535s14 591s14
+. 594s14 790s28
+130f18 x{16|13F8} 13|467b18 473r14 474r24
+130r36 y{12R8} 13|467b36 473r16 474r17
+131V13*"*"{12R8} 131>18 131>20 13|479b13 486l8 486t10
+131f18 x{16|13F8} 13|479b18 484r14
+131f20 y{16|13F8} 13|479b20 484r16
+132U13*Mul 132=19 132>45 13|488b13 496l7 496t10 655s17 696s17
+132r19 x{12R8} 13|488b19 493r14 494r24 494r31 495m25 495r25 495m30 495r30
+132r45 y{12R8} 13|488b45 493r19 494r17 494r38
+133U13*Mul 133=19 133>45 13|498b13 506l7 506t10
+133r19 x{12R8} 13|498b19 503r14 504r16 505m25 505r25 505m30 505r30
+133f45 y{16|13F8} 13|498b45 503r19 504r23
+134V12*Mul_pwr2{12R8} 134>23 134>42 13|508b12 517l7 517t15 790s14 792s18
+. 806s14
+134r23 x{12R8} 13|508b23 514r15 515r15
+134f42 y{16|13F8} 13|508b42 514r20 515r20
+136U13*Mul_pwr2 136=24 136>50 13|519b13 523l7 523t15
+136r24 x{12R8} 13|519b24 521m5 521r13 522m5 522r13
+136f50 y{16|13F8} 13|519b50 521r18 522r18
+139V13*"/"{12R8} 139>18 139>20 13|525b13 541l8 541t10 566s14 858s18
+139r18 x{12R8} 13|525b18 531r11 533r12
+139r20 y{12R8} 13|525b20 531r16 532r15 534r18 535r15 537r18
+140V13*"/"{12R8} 140>18 140>37 13|543b13 557l8 557t10
+140r18 x{12R8} 13|543b18 549r11 551r14 552r14
+140f37 y{16|13F8} 13|543b37 549r16 550r17 554r19
+141V13*"/"{12R8} 141>18 141>36 13|559b13 567l8 567t10 666s23 707s23
+141f18 x{16|13F8} 13|559b18 564r14
+141r36 y{12R8} 13|559b36 566r15
+142V13*"/"{12R8} 142>18 142>20 13|569b13 582l8 582t10
+142f18 x{16|13F8} 13|569b18 575r11 577r14
+142f20 y{16|13F8} 13|569b20 575r13 576r17 579r19
+143U13*Div 143=19 143>45 13|584b13 599l7 599t10
+143r19 x{12R8} 13|584b19 590r11 592m9 593r11 595m9 596r11 597m25 597r25 597m30
+. 597r30 598m9
+143r45 y{12R8} 13|584b45 590r16 591r15 593r16 594r15 596r16
+144U13*Div 144=19 144>45 13|601b13 613l7 613t10
+144r19 x{12R8} 13|601b19 606r11 608r14 609r14 612m25 612r25 612m30 612r30
+144f45 y{16|13F8} 13|601b45 606r16 607r17 611r19
+146V12*sqr{12R8} 146>18 13|615b12 622l7 622t10
+146f18 x{16|13F8} 13|615b18 620r13
+147V12*sqr{12R8} 147>18 13|624b12 635l7 635t10 659s24 700s24 791s12 806s32
+147r18 x{12R8} 13|624b18 630r13 631r22 631r29 632r16 632r23
+148V13*"**"{12R8} 148>19 148>38 13|637b13 671l8 671t11 675s13
+148r19 x{12R8} 13|637b19 650r17 650r33
+148i38 n{integer} 13|637b38 643r8 646r10 647r21 648r22 665r10
+149V13*"**"{12R8} 149>19 149>38 13|673b13 676l8 676t11
+149r19 x{12R8} 13|673b19 675r12
+149i38 n{17|6I8} 13|673b38 675r23
+150V13*"**"{12R8} 150>19 150>38 13|678b13 712l8 712t11
+150r19 x{12R8} 13|678b19 691r17 691r33
+150i38 n{17|7I8} 13|678b38 684r8 687r10 688r31 689r32 706r10
+152V12*ldexp{12R8} 152>20 152>39 13|714b12 724l7 724t12 810s14
+152r20 x{12R8} 13|714b20 721r23 722r23
+152i39 n{integer} 13|714b39 721r28 722r28
+154V13*"**"{12R8} 154>19 154>21 13|726b13 729l8 729t11 736s13
+154r19 x{12R8} 13|726b19 728r22
+154r21 y{12R8} 13|726b21 728r16
+155V13*"**"{12R8} 155>19 155>38 13|731b13 737l8 737t11
+155r19 x{12R8} 13|731b19 736r12
+155f38 y{16|13F8} 13|731b38 733r45
+157V12*exp{12R8} 157>18 13|728s12 739b12 813l7 813t10 843s16
+157r18 x{12R8} 13|739b18 759r53 766r8 768r11 770r19 772r18 790r23
+158V12*log{12R8} 158>18 13|728s18 815b12 848l7 848t10 858s12
+158r18 x{12R8} 13|815b18 834r15 836r11 840r52 843r14
+159V12*log10{12R8} 159>20 13|850b12 860l7 860t12
+159r20 x{12R8} 13|850b20 858r16
+163U13*clear 163=21 13|864b13 867l7 867t12
+163r21 d{12R8} 13|864b21 866m5 866m18
+168f5*hi{16|13F8} 13|14m7 24m7 34m7 44m7 54m7 64m7 74m7 88r14 95r16 100r16
+. 105r15 110r15 115r15 115r22 120r15 125r15 125r22 125r32 125r39 130r15 130r29
+. 135r19 135r33 140r15 140r22 140r32 140r39 145r15 145r29 150r19 150r33 155r15
+. 155r22 155r32 155r39 160r15 160r29 165r19 165r33 170r15 170r22 170r32 170r39
+. 175r15 175r29 180r19 180r33 185m7 185r15 193r24 198r14 206r10 207m15 207r24
+. 208m15 208r24 218r10 219m15 219r24 220m15 220r24 228r56 232r15 234m31 236m11
+. 281r15 281r20 286m29 296r15 298m29 308r17 310m29 319m21 328m9 328r17 338r15
+. 338r20 343m27 351r15 353m27 362r16 362r21 367m29 377r16 379m29 389r18 391m29
+. 400m22 409m9 409r18 416m7 416r16 425r16 425r21 430m27 438r16 440m27 449r16
+. 449r21 450r19 450r40 451m29 461r16 463m29 473r18 475m29 484m22 493r16 493r21
+. 494r26 494r40 495m27 503r16 505m27 514m9 514r17 521m7 521r15 531r13 531r18
+. 534r15 534r20 537r15 537r20 538m29 549r13 551r16 555m29 564m8 580m29 590r13
+. 590r18 593r13 593r18 596r13 596r18 597m27 606r13 608r16 612m27 620m19 630r15
+. 631r24 633m29 644m11 650m11 650r19 651m11 663m13 663r23 667m17 667r27 685m11
+. 691m11 691r19 692m11 704m13 704r23 708m17 708r27 721m9 721r25 759r55 766r10
+. 767m11 768r13 769m11 771m11 800r25 835m11 836r13 838m11 840m11 840r54 866m7
+169f5*lo{16|13F8} 13|15m7 25m7 35m7 45m7 55m7 65m7 75m7 83r14 95r33 100r33
+. 115r31 115r38 120r28 125r48 125r55 130r42 135r42 140r48 140r56 145r42 150r42
+. 155r48 155r55 160r42 165r42 170r48 170r56 175r42 180r42 186m7 186r15 207m32
+. 207r41 208m32 208r41 219m32 219r41 220m32 220r41 233r34 234m38 236m25 282r15
+. 282r20 286m36 297r18 298m36 309r18 310m36 319m28 329m9 329r17 339r15 339r20
+. 343m32 352r18 353m32 363r16 363r21 367m36 378r18 379m36 390r18 391m36 400m29
+. 410m9 410r18 417m7 417r16 426r16 426r21 430m32 439r18 440m32 450r26 450r33
+. 451m36 462r19 463m36 474r19 475m36 484m29 494r19 494r33 495m32 504r18 505m32
+. 515m9 515r17 522m7 522r15 538m36 552r16 555m36 565m8 580m36 597m32 609r16
+. 612m32 620m26 631r31 632r18 632r25 633m36 644m26 650m27 650r35 651m27 663m31
+. 663r41 667m35 667r45 685m26 691m27 691r35 692m27 704m31 704r41 708m35 708r45
+. 722m9 722r25 767m26 769m27 771m26 835m26 838m27 842m11 866m20
+X 13 double_double_numbers.adb
+11r5 d{12|12R8} 14m5 15m5 16r12
+21r5 d{12|12R8} 24m5 25m5 26r12
+31r5 d{12|12R8} 34m5 35m5 36r12
+41r5 d{12|12R8} 44m5 45m5 46r12
+51r5 d{12|12R8} 54m5 55m5 56r12
+61r5 d{12|12R8} 64m5 65m5 66r12
+71r5 d{12|12R8} 74m5 75m5 76r12
+203r5 res{12|12R8} 207m11 207m28 208m11 208m28 210r12
+215r5 res{12|12R8} 219m11 219m28 220m11 220m28 222r12
+227r5 res{12|12R8} 234m27 234r27 234m34 234r34 236m7 236m21 238r12
+228f5 hi{16|13F8} 232r8 234r21 236r17
+229f5 lo{16|13F8} 233m7 234r24 236r31
+243f5 f{16|13F8} 246r12
+250f9 ff{16|13F8} 252r16
+259r5 f{12|12R8} 262r12
+266r9 ff{12|12R8} 268r16
+277r5 res{12|12R8} 286m25 286r25 286m32 286r32 287r12
+278f5 s1{16|13F8} 281m23 284r19 284m25 286r19
+278f8 s2{16|13F8} 281m26 283m5 283r11 284r22 284m28 285m5 285r11 286r22
+278f11 t1{16|13F8} 282m23 283r16
+278f14 t2{16|13F8} 282m26 285r16
+292r5 res{12|12R8} 298m25 298r25 298m32 298r32 299r12
+293f5 s1{16|13F8} 296m20 298r19
+293f8 s2{16|13F8} 296m23 297m5 297r11 298r22
+304r5 res{12|12R8} 310m25 310r25 310m32 310r32 311r12
+305f5 s1{16|13F8} 308m20 310r19
+305f8 s2{16|13F8} 308m23 309m5 309r11 310r22
+316r5 res{12|12R8} 319m17 319r17 319m24 319r24 320r12
+325r5 res{12|12R8} 328m5 329m5 330r12
+335f5 s1{16|13F8} 338m23 341r19 341m25 343r19
+335f8 s2{16|13F8} 338m26 340m5 340r11 341r22 341m28 342m5 342r11 343r22
+335f11 t1{16|13F8} 339m23 340r16
+335f14 t2{16|13F8} 339m26 342r16
+348f5 s1{16|13F8} 351m20 353r19
+348f8 s2{16|13F8} 351m23 352m5 352r11 353r22
+358r5 res{12|12R8} 367m25 367r25 367m32 367r32 368r12
+359f5 s1{16|13F8} 362m24 365r19 365m25 367r19
+359f8 s2{16|13F8} 362m27 364m5 364r11 365r22 365m28 366m5 366r11 367r22
+359f11 t1{16|13F8} 363m24 364r16
+359f14 t2{16|13F8} 363m27 366r16
+373r5 res{12|12R8} 379m25 379r25 379m32 379r32 380r12
+374f5 s1{16|13F8} 377m21 379r19
+374f8 s2{16|13F8} 377m24 378m5 378r11 379r22
+385r5 res{12|12R8} 391m25 391r25 391m32 391r32 392r12
+386f5 s1{16|13F8} 389m21 391r19
+386f8 s2{16|13F8} 389m24 390m5 390r11 391r22
+397r5 res{12|12R8} 400m18 400r18 400m25 400r25 401r12
+406r5 res{12|12R8} 409m5 410m5 411r12
+422f5 s1{16|13F8} 425m24 428r19 428m25 430r19
+422f8 s2{16|13F8} 425m27 427m5 427r11 428r22 428m28 429m5 429r11 430r22
+422f11 t1{16|13F8} 426m24 427r16
+422f14 t2{16|13F8} 426m27 429r16
+435f5 s1{16|13F8} 438m21 440r19
+435f8 s2{16|13F8} 438m24 439m5 439r11 440r22
+445r5 res{12|12R8} 451m25 451r25 451m32 451r32 452r12
+446f5 p1{16|13F8} 449m24 451r19
+446f8 p2{16|13F8} 449m27 450m5 450r11 451r22
+457r5 res{12|12R8} 463m25 463r25 463m32 463r32 464r12
+458f5 p1{16|13F8} 461m21 463r19
+458f8 p2{16|13F8} 461m24 462m5 462r11 463r22
+469r5 res{12|12R8} 475m25 475r25 475m32 475r32 476r12
+470f5 p1{16|13F8} 473m21 475r19
+470f8 p2{16|13F8} 473m24 474m5 474r11 475r22
+481r5 res{12|12R8} 484m18 484r18 484m25 484r25 485r12
+490f5 p1{16|13F8} 493m24 495r19
+490f8 p2{16|13F8} 493m27 494m5 494r11 495r22
+500f5 p1{16|13F8} 503m21 505r19
+500f8 p2{16|13F8} 503m24 504m5 504r11 505r22
+511r5 res{12|12R8} 514m5 515m5 516r12
+527r5 res{12|12R8} 533m5 534r11 536m9 536r9 537r11 538m25 538r25 538m32 538r32
+. 539m9 539r9 540r12
+527r9 acc{12|12R8} 532m5 533r16 535m5 536r13
+528f5 q1{16|13F8} 531m5 532r12 538r19
+528f8 q2{16|13F8} 534m5 535r12 538r22
+528f11 q3{16|13F8} 537m5 539r13
+545r5 res{12|12R8} 555m25 555r25 555m32 555r32 556r12
+546f5 q1{16|13F8} 549m5 550r14 555r19
+546f8 q2{16|13F8} 554m5 555r22
+546f11 p1{16|13F8} 550m19 551r19
+546f14 p2{16|13F8} 550m22 553r14
+546f17 s{16|13F8} 551m22 554r12
+546f19 e{16|13F8} 551m24 552m5 552r10 553m5 553r10 554r16
+561r5 xx{12|12R8} 564m5 565m5 566r12
+571r5 res{12|12R8} 580m25 580r25 580m32 580r32 581r12
+572f5 q1{16|13F8} 575m5 576r14 580r19
+572f8 q2{16|13F8} 579m5 580r22
+572f11 p1{16|13F8} 576m19 577r16
+572f14 p2{16|13F8} 576m22 578r14
+572f17 s{16|13F8} 577m19 579r12
+572f19 e{16|13F8} 577m21 578m5 578r10 579r16
+586r5 acc{12|12R8} 591m5 592r11 594m5 595r11
+587f5 q1{16|13F8} 590m5 591r12 597r19
+587f8 q2{16|13F8} 593m5 594r12 597r22
+587f11 q3{16|13F8} 596m5 598r11
+603f5 q1{16|13F8} 606m5 607r14 612r19
+603f8 q2{16|13F8} 611m5 612r22
+603f11 p1{16|13F8} 607m19 608r19
+603f14 p2{16|13F8} 607m22 610r14
+603f17 s{16|13F8} 608m22 611r12
+603f19 e{16|13F8} 608m24 609m5 609r10 610m5 610r10 611r16
+617r5 res{12|12R8} 620m15 620r15 620m22 620r22 621r12
+626r5 res{12|12R8} 633m25 633r25 633m32 633r32 634r12
+627f5 p1{16|13F8} 630m18 633r19
+627f8 p2{16|13F8} 630m21 631m5 631r11 632m5 632r11 633r22
+639r5 res{12|12R8} 644m7 644m22 650m7 650m23 655r25 659m17 659r28 663r19
+. 663r37 666m13 667m13 667m31 670r12
+639r9 acc{12|12R8} 651m7 651m23 655m21 655r21 663m9 663m27 666r24 667r23
+. 667r41
+640i5 absn{natural} 647m13 648m13 652r10 653r15 654r14 657m11 657r19 658r14
+680r5 res{12|12R8} 685m7 685m22 691m7 691m23 696r25 700m17 700r28 704r19
+. 704r37 707m13 708m13 708m31 711r12
+680r9 acc{12|12R8} 692m7 692m23 696m21 696r21 704m9 704m27 707r24 708r23
+. 708r41
+681i5 absn{19|8I8} 688m13 689m13 693r10 694r15 695r14 698m11 698r19 699r14
+716r5 res{12|12R8} 721m5 722m5 723r12
+717V14*C_ldexp{16|13F8} 717>24 717>42 718b<c,ldexp>21 721s15 722s15
+717f24 x{16|13F8}
+717i42 n{integer}
+733r5 dd_y{12|12R8} 736r15
+748r5 res{12|12R8} 767m7 767m22 769m7 769m23 771m7 771m22 773m7 790m7 791r16
+. 792r12 793r14 798r16 808m7 810m7 810r20 812r12
+749f5 k{16|13F8} 750r42
+750f5 inv_k{16|13F8} 752r36 790r34
+751f5 dd_eps{16|13F8} 752r42
+752f5 tol{16|13F8} 800r32
+753f5 exp1hi{16|13F8} 755r45
+754f5 exp1lo{16|13F8} 755r52
+755r5 exp1{12|12R8} 773r14
+756f5 log2hi{16|13F8} 758r45 759r58
+757f5 log2lo{16|13F8} 758r52
+758r5 log2{12|12R8} 790r29
+759f5 m{16|13F8} 790r27 809r22
+760a5 i_fac(12|12R8) 775m7 776m7 777m7 778m7 779m7 780m7 781m7 782m7 783m7
+. 784m7 785m7 786m7 787m7 788m7 789m7 794r14 799r14
+762r5 p{12|12R8} 791m7 792r27 793m7 793r12 794r12 798m9 798r14 799r27
+762r7 s{12|12R8} 792m7 797m9 797r14 804m7 804r12 806m9 806r23 806r36 808r14
+762r9 t{12|12R8} 794m7 797r18 799m9 800r23 804r16
+763i5 cnt{integer} 795m7 799r20 801m9 801r16 802r20 809m7 810r24
+805i11 i{integer}
+831r5 res{12|12R8} 835m7 835m22 838m7 838m23 840m7 842m7 843r21 844m7 844r14
+. 845m7 845r14 847r12
+831r9 acc{12|12R8} 843m7 844r20
+852r5 res{12|12R8} 858m5 859r12
+853f5 log10hi{16|13F8} 855r47
+854f5 log10lo{16|13F8} 855r55
+855r5 logten{12|12R8} 858r19
+X 16 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 12|3w6 3r46 16|58e30
+13F8*double_float<long_float> 12|35r25 40r29 48r49 53r49 81r43 84r41 85r22
+. 87r42 88r23 91r41 92r22 94r42 95r23 102r51 106r23 106r45 112r41 113r22
+. 114r24 117r52 120r41 121r22 122r24 126r52 129r41 130r22 131r24 133r52 134r46
+. 136r57 140r41 141r22 142r24 144r52 146r22 155r42 168r10 169r10 13|14r13
+. 24r13 34r13 44r13 54r13 59r25 69r29 81r49 86r49 118r43 128r41 133r22 143r42
+. 148r23 158r41 163r22 173r42 178r23 196r51 228r19 228r35 229r10 233r13 241r23
+. 241r45 243r18 243r34 250r23 250r39 278r19 290r41 293r13 302r22 305r13 314r24
+. 335r19 346r52 348r13 359r19 371r41 374r13 383r22 386r13 395r24 422r19 433r52
+. 435r13 446r13 455r41 458r13 467r22 470r13 479r24 490r13 498r52 500r13 508r46
+. 519r57 528r16 543r41 546r23 559r22 569r24 572r23 587r16 601r52 603r23 615r22
+. 627r13 717r28 717r63 731r42 749r18 750r22 751r23 752r20 753r23 754r23 756r23
+. 757r23 759r18 759r34 853r24 854r24
+X 17 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 12|2w6 2r46 17|45e29
+6I8*integer32<long_integer> 12|28r25 101r48 149r42 13|39r25 191r48 193r12
+. 673r42
+7I8*integer64<long_long_integer> 12|29r25 150r42 13|49r25 678r42
+X 18 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 13|2w6 840r17 18|64e36
+20V12*LN{16|13F8} 13|840s49
+X 19 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 12|1w6 1r46 19|30e29
+7I8*natural32<long_integer> 12|21r25 13|19r25
+8I8*natural64<long_long_integer> 12|22r25 13|29r25 681r12 688r21 689r21
+X 36 text_io.ads
+27K9*Text_IO=27:29 13|1w6 1r46
+

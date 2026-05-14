@@ -1,0 +1,702 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tripdobl_fabry_on_homotopy%b  tripdobl_fabry_on_homotopy.adb  eef5abc1 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W convergence_radius_estimates%s  convergence_radius_estimates.adb  convergence_radius_estimates.ali
+W fabry_on_homotopy_helpers%s  fabry_on_homotopy_helpers.adb  fabry_on_homotopy_helpers.ali
+W multitasked_power_newton%s  multitasked_power_newton.adb  multitasked_power_newton.ali
+W numbers_io%s		numbers_io.adb		numbers_io.ali
+W solution_drops%s	solution_drops.adb	solution_drops.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_parameter_systems%s  standard_parameter_systems.adb  standard_parameter_systems.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W time_stamps%s		time_stamps.adb		time_stamps.ali
+W tripdobl_complex_numbers%s  tripdobl_complex_numbers.ads  tripdobl_complex_numbers.ali
+W tripdobl_complex_numbers_io%s  tripdobl_complex_numbers_io.adb  tripdobl_complex_numbers_io.ali
+W tripdobl_complex_poly_systems%s  tripdobl_complex_poly_systems.ads  tripdobl_complex_poly_systems.ali
+W tripdobl_complex_poly_systems_io%s  tripdobl_complex_poly_systems_io.adb  tripdobl_complex_poly_systems_io.ali
+W tripdobl_complex_polynomials%s  tripdobl_complex_polynomials.ads  tripdobl_complex_polynomials.ali
+W tripdobl_complex_vecvecs%s  tripdobl_complex_vecvecs.ads  tripdobl_complex_vecvecs.ali
+W tripdobl_complex_vecvecs_io%s  tripdobl_complex_vecvecs_io.ads  tripdobl_complex_vecvecs_io.ali
+W tripdobl_homotopy%s	tripdobl_homotopy.adb	tripdobl_homotopy.ali
+W tripdobl_homotopy_convolutions_io%s  tripdobl_homotopy_convolutions_io.adb  tripdobl_homotopy_convolutions_io.ali
+W tripdobl_newton_convolution_steps%s  tripdobl_newton_convolution_steps.adb  tripdobl_newton_convolution_steps.ali
+W tripdobl_newton_convolutions%s  tripdobl_newton_convolutions.adb  tripdobl_newton_convolutions.ali
+W tripdobl_random_numbers%s  tripdobl_random_numbers.adb  tripdobl_random_numbers.ali
+W tripdobl_system_and_solutions_io%s  tripdobl_system_and_solutions_io.adb  tripdobl_system_and_solutions_io.ali
+W triple_double_numbers%s  triple_double_numbers.adb  triple_double_numbers.ali
+W triple_double_numbers_io%s  triple_double_numbers_io.adb  triple_double_numbers_io.ali
+
+U tripdobl_fabry_on_homotopy%s  tripdobl_fabry_on_homotopy.ads  92940d3e EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+W tripdobl_complex_solutions%s  tripdobl_complex_solutions.adb  tripdobl_complex_solutions.ali
+W tripdobl_complex_vectors%s  tripdobl_complex_vectors.ads  tripdobl_complex_vectors.ali
+W tripdobl_speelpenning_convolutions%s  tripdobl_speelpenning_convolutions.ads  tripdobl_speelpenning_convolutions.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-calend.ads		20250808065140 bf7f3cc9 ada.calendar%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D convergence_radius_estimates.ads  20260513024558 57fd7af7 convergence_radius_estimates%s
+D deca_double_numbers.ads  20260513024558 96ba5284 deca_double_numbers%s
+D deca_double_ring.ads	20260513024558 a76e2e05 deca_double_ring%s
+D deca_double_ring-ffield.ads  20260513024558 feb5272d deca_double_ring.ffield%s
+D decadobl_complex_matrices.ads  20260513024558 475d7e6e decadobl_complex_matrices%s
+D decadobl_complex_numbers.ads  20260513024558 ebde9c60 decadobl_complex_numbers%s
+D decadobl_complex_ring.ads  20260513024558 1a00ba5c decadobl_complex_ring%s
+D decadobl_complex_solutions.ads  20260513024558 95adc3c2 decadobl_complex_solutions%s
+D decadobl_complex_vecmats.ads  20260513024558 c9b3d3cb decadobl_complex_vecmats%s
+D decadobl_complex_vectors.ads  20260513024558 4d9bee00 decadobl_complex_vectors%s
+D decadobl_complex_vecvecs.ads  20260513024558 e08fc24c decadobl_complex_vecvecs%s
+D decadobl_speelpenning_convolutions.ads  20260513024558 b0b7f572 decadobl_speelpenning_convolutions%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vecmats.ads  20260513024558 1b09f088 dobldobl_complex_vecmats%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_speelpenning_convolutions.ads  20260513024558 a1bd69cf dobldobl_speelpenning_convolutions%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D fabry_on_homotopy_helpers.ads  20260513024558 562ec4fc fabry_on_homotopy_helpers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_speelpenning_convolutions.ads  20260513024558 a14ddeea generic_speelpenning_convolutions%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D generic_vecvecs_io.ads  20260513024558 6b4e3e63 generic_vecvecs_io%s
+D hexa_double_numbers.ads  20260513024558 2ab2fc6c hexa_double_numbers%s
+D hexa_double_ring.ads	20260513024558 a391cb52 hexa_double_ring%s
+D hexa_double_ring-ffield.ads  20260513024558 09eb549c hexa_double_ring.ffield%s
+D hexadobl_complex_matrices.ads  20260513024558 f8985ee3 hexadobl_complex_matrices%s
+D hexadobl_complex_numbers.ads  20260513024558 dc378e03 hexadobl_complex_numbers%s
+D hexadobl_complex_ring.ads  20260513024558 27afa511 hexadobl_complex_ring%s
+D hexadobl_complex_solutions.ads  20260513024558 773acff2 hexadobl_complex_solutions%s
+D hexadobl_complex_vecmats.ads  20260513024558 2e71ed50 hexadobl_complex_vecmats%s
+D hexadobl_complex_vectors.ads  20260513024558 a781f1af hexadobl_complex_vectors%s
+D hexadobl_complex_vecvecs.ads  20260513024558 9e0b8be9 hexadobl_complex_vecvecs%s
+D hexadobl_speelpenning_convolutions.ads  20260513024558 9a0a431c hexadobl_speelpenning_convolutions%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multitasked_power_newton.ads  20260513024558 3804150b multitasked_power_newton%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D numbers_io.ads	20260513024558 7172a556 numbers_io%s
+D octo_double_numbers.ads  20260513024558 9005435d octo_double_numbers%s
+D octo_double_ring.ads	20260513024558 338f1b2e octo_double_ring%s
+D octo_double_ring-ffield.ads  20260513024558 4fc02caf octo_double_ring.ffield%s
+D octodobl_complex_matrices.ads  20260513024558 52e2be35 octodobl_complex_matrices%s
+D octodobl_complex_numbers.ads  20260513024558 050d17ae octodobl_complex_numbers%s
+D octodobl_complex_ring.ads  20260513024558 165674da octodobl_complex_ring%s
+D octodobl_complex_solutions.ads  20260513024558 32e510b8 octodobl_complex_solutions%s
+D octodobl_complex_vecmats.ads  20260513024558 cf96617b octodobl_complex_vecmats%s
+D octodobl_complex_vectors.ads  20260513024558 dd7cfb0a octodobl_complex_vectors%s
+D octodobl_complex_vecvecs.ads  20260513024558 92f09117 octodobl_complex_vecvecs%s
+D octodobl_speelpenning_convolutions.ads  20260513024558 4d2fd92a octodobl_speelpenning_convolutions%s
+D partitions_of_sets_of_unknowns.ads  20260513024558 836df61b partitions_of_sets_of_unknowns%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D pentdobl_complex_matrices.ads  20260513024558 dd59e9a1 pentdobl_complex_matrices%s
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_ring.ads  20260513024558 45ee875d pentdobl_complex_ring%s
+D pentdobl_complex_solutions.ads  20260513024558 c539479f pentdobl_complex_solutions%s
+D pentdobl_complex_vecmats.ads  20260513024558 940d409f pentdobl_complex_vecmats%s
+D pentdobl_complex_vectors.ads  20260513024558 25aaa105 pentdobl_complex_vectors%s
+D pentdobl_complex_vecvecs.ads  20260513024558 aeca69ac pentdobl_complex_vecvecs%s
+D pentdobl_speelpenning_convolutions.ads  20260513024558 b05385c4 pentdobl_speelpenning_convolutions%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vecmats.ads  20260513024558 3a6aa9c0 quaddobl_complex_vecmats%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_speelpenning_convolutions.ads  20260513024558 f1767277 quaddobl_speelpenning_convolutions%s
+D sets_of_unknowns.ads	20260513024558 4fd99d24 sets_of_unknowns%s
+D solution_drops.ads	20260513024558 6496a63a solution_drops%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_parameter_systems.ads  20260513024558 65a6eaf3 standard_parameter_systems%s
+D standard_speelpenning_convolutions.ads  20260513024558 99412733 standard_speelpenning_convolutions%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D time_stamps.ads	20260513024558 5fcbb190 time_stamps%s
+D tripdobl_complex_laur_systems.ads  20260513024558 b2c339b2 tripdobl_complex_laur_systems%s
+D tripdobl_complex_laurentials.ads  20260513024558 d0ec0b11 tripdobl_complex_laurentials%s
+D tripdobl_complex_matrices.ads  20260513024558 fe1644d8 tripdobl_complex_matrices%s
+D tripdobl_complex_numbers.ads  20260513024558 c635fac5 tripdobl_complex_numbers%s
+D tripdobl_complex_numbers_io.ads  20260513024558 cf557543 tripdobl_complex_numbers_io%s
+D tripdobl_complex_poly_systems.ads  20260513024558 61e39000 tripdobl_complex_poly_systems%s
+D tripdobl_complex_poly_systems_io.ads  20260513024558 875f09af tripdobl_complex_poly_systems_io%s
+D tripdobl_complex_polynomials.ads  20260513024558 a47e8bf7 tripdobl_complex_polynomials%s
+D tripdobl_complex_ring.ads  20260513024558 dde813cb tripdobl_complex_ring%s
+D tripdobl_complex_ring_io.ads  20260513024558 1e066fca tripdobl_complex_ring_io%s
+D tripdobl_complex_solutions.ads  20260513024558 657ce24c tripdobl_complex_solutions%s
+D tripdobl_complex_vecmats.ads  20260513024558 ff632c84 tripdobl_complex_vecmats%s
+D tripdobl_complex_vectors.ads  20260513024558 0e6ebbef tripdobl_complex_vectors%s
+D tripdobl_complex_vectors_io.ads  20260513024558 ba0c178a tripdobl_complex_vectors_io%s
+D tripdobl_complex_vecvecs.ads  20260513024558 e5269d04 tripdobl_complex_vecvecs%s
+D tripdobl_complex_vecvecs_io.ads  20260513024558 0d32ab89 tripdobl_complex_vecvecs_io%s
+D tripdobl_fabry_on_homotopy.ads  20260513024558 c3ff8c8f tripdobl_fabry_on_homotopy%s
+D tripdobl_fabry_on_homotopy.adb  20260513024558 ef06db7e tripdobl_fabry_on_homotopy%b
+D tripdobl_homotopy.ads	20260513024558 72c30fc2 tripdobl_homotopy%s
+D tripdobl_homotopy_convolutions_io.ads  20260513024558 4cb3b321 tripdobl_homotopy_convolutions_io%s
+D tripdobl_newton_convolution_steps.ads  20260513024558 a3d9e2b4 tripdobl_newton_convolution_steps%s
+D tripdobl_newton_convolutions.ads  20260513024558 a00ace50 tripdobl_newton_convolutions%s
+D tripdobl_random_numbers.ads  20260513024558 f1bd9741 tripdobl_random_numbers%s
+D tripdobl_speelpenning_convolutions.ads  20260513024558 c3ca922d tripdobl_speelpenning_convolutions%s
+D tripdobl_system_and_solutions_io.ads  20260513024558 403ebc28 tripdobl_system_and_solutions_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D triple_double_numbers_io.ads  20260513024558 b9c8806f triple_double_numbers_io%s
+D triple_double_ring.ads  20260513024558 6a90058c triple_double_ring%s
+D triple_double_ring-ffield.ads  20260513024558 d0c028cb triple_double_ring.ffield%s
+G a e
+G c Z s b [newton_fabry tripdobl_fabry_on_homotopy 15 13 none]
+G c Z s b [run tripdobl_fabry_on_homotopy 27 13 none]
+G c Z s b [run tripdobl_fabry_on_homotopy 42 13 none]
+G c Z s b [artificial_setup tripdobl_fabry_on_homotopy 63 13 none]
+G c Z s b [natural_setup tripdobl_fabry_on_homotopy 73 13 none]
+G c Z s b [main tripdobl_fabry_on_homotopy 81 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [series_coefficients tripdobl_newton_convolutions 21 12 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [prompt_for_parameters fabry_on_homotopy_helpers 27 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [read_natural numbers_io 14 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 80 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [tripdobl_run multitasked_power_newton 81 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 70 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [tripdobl_run multitasked_power_newton 72 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [put_line tripdobl_complex_vecvecs_io 51 13 7_1]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [fabry convergence_radius_estimates 155 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [write_report fabry_on_homotopy_helpers 73 13 none]
+G r c none [newton_fabry tripdobl_fabry_on_homotopy 15 13 none] [clear tripdobl_complex_vectors 72 13 4_1]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [make_homotopy tripdobl_homotopy_convolutions_io 16 12 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [series_coefficients tripdobl_newton_convolutions 21 12 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [prompt_for_parameters fabry_on_homotopy_helpers 27 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [read_natural numbers_io 14 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 80 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [tripdobl_run multitasked_power_newton 81 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 70 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [tripdobl_run multitasked_power_newton 72 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [put_line tripdobl_complex_vecvecs_io 51 13 7_1]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [fabry convergence_radius_estimates 155 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [write_report fabry_on_homotopy_helpers 73 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [clear tripdobl_complex_vectors 72 13 4_1]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 27 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [series_coefficients tripdobl_newton_convolutions 21 12 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [make_homotopy tripdobl_homotopy_convolutions_io 16 12 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 80 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [tripdobl_run multitasked_power_newton 81 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 70 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [tripdobl_run multitasked_power_newton 72 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [put_line tripdobl_complex_vecvecs_io 52 13 7_1]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [fabry convergence_radius_estimates 155 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [write_report fabry_on_homotopy_helpers 73 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [clear tripdobl_complex_vectors 72 13 4_1]
+G r c none [run tripdobl_fabry_on_homotopy 42 13 none] [clear tripdobl_speelpenning_convolutions 259 13 8_1]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [get tripdobl_complex_poly_systems_io 12 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [number_of_unknowns tripdobl_complex_polynomials 48 12 4_1]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [get tripdobl_system_and_solutions_io 13 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [length_of tripdobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [random1 tripdobl_random_numbers 40 12 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [create tripdobl_complex_numbers 25 12 5_1]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [read_positive numbers_io 13 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [prompt_and_write fabry_on_homotopy_helpers 43 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put standard_integer_numbers_io 19 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put tripdobl_complex_poly_systems_io 21 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put tripdobl_system_and_solutions_io 34 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [create tripdobl_homotopy 15 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [make_homotopy tripdobl_homotopy_convolutions_io 16 12 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [series_coefficients tripdobl_newton_convolutions 21 12 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [prompt_for_parameters fabry_on_homotopy_helpers 27 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [read_natural numbers_io 14 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 80 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [tripdobl_run multitasked_power_newton 81 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 70 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [tripdobl_run multitasked_power_newton 72 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put_line tripdobl_complex_vecvecs_io 51 13 7_1]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [fabry convergence_radius_estimates 155 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [write_report fabry_on_homotopy_helpers 73 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [clear tripdobl_complex_vectors 72 13 4_1]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put_line tripdobl_complex_vecvecs_io 52 13 7_1]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [artificial_setup tripdobl_fabry_on_homotopy 63 13 none] [clear tripdobl_speelpenning_convolutions 259 13 8_1]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [get tripdobl_system_and_solutions_io 13 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [number_of_unknowns tripdobl_complex_polynomials 48 12 4_1]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [length_of tripdobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [define_parameters standard_parameter_systems 107 12 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [drop solution_drops 44 12 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [read_positive numbers_io 13 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [prompt_and_write fabry_on_homotopy_helpers 43 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put tripdobl_system_and_solutions_io 34 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [create tripdobl_homotopy 40 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [make_homotopy tripdobl_homotopy_convolutions_io 16 12 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [series_coefficients tripdobl_newton_convolutions 21 12 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [prompt_for_parameters fabry_on_homotopy_helpers 27 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [read_natural numbers_io 14 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 80 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [tripdobl_run multitasked_power_newton 81 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 70 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [tripdobl_run multitasked_power_newton 72 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put_line tripdobl_complex_vecvecs_io 51 13 7_1]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [fabry convergence_radius_estimates 155 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [write_report fabry_on_homotopy_helpers 73 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [clear tripdobl_complex_vectors 72 13 4_1]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put_line tripdobl_complex_vecvecs_io 52 13 7_1]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [natural_setup tripdobl_fabry_on_homotopy 73 13 none] [clear tripdobl_speelpenning_convolutions 259 13 8_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [get tripdobl_complex_poly_systems_io 12 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [number_of_unknowns tripdobl_complex_polynomials 48 12 4_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [get tripdobl_system_and_solutions_io 13 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [length_of tripdobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [head_of tripdobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [random1 tripdobl_random_numbers 40 12 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [create tripdobl_complex_numbers 25 12 5_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [read_positive numbers_io 13 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [prompt_and_write fabry_on_homotopy_helpers 43 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put tripdobl_complex_numbers_io 21 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put standard_integer_numbers_io 19 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put tripdobl_complex_poly_systems_io 21 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put tripdobl_system_and_solutions_io 34 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [create tripdobl_homotopy 15 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [make_homotopy tripdobl_homotopy_convolutions_io 16 12 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [is_null tripdobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [series_coefficients tripdobl_newton_convolutions 21 12 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [prompt_for_parameters fabry_on_homotopy_helpers 27 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [read_natural numbers_io 14 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 80 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [tripdobl_run multitasked_power_newton 81 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [lu_newton_steps tripdobl_newton_convolution_steps 70 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [tripdobl_run multitasked_power_newton 72 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put_line tripdobl_complex_vecvecs_io 51 13 7_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [fabry convergence_radius_estimates 155 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [write_report fabry_on_homotopy_helpers 73 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [clear tripdobl_complex_vectors 72 13 4_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [tail_of tripdobl_complex_solutions__list_of_solutions 84 12 30_3]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put_line tripdobl_complex_vecvecs_io 52 13 7_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put triple_double_numbers_io 92 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [clear tripdobl_speelpenning_convolutions 259 13 8_1]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [define_parameters standard_parameter_systems 107 12 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [drop solution_drops 44 12 none]
+G r c none [main tripdobl_fabry_on_homotopy 81 13 none] [create tripdobl_homotopy 40 13 none]
+X 4 ada.ads
+18K9*Ada 22e8 176|1r6 128r20 133r15 174r14
+X 5 a-calend.ads
+36K13*Calendar 440e17 176|1w10 128r24 133r19 174r18
+42I9*Time<226I9> 176|128r33
+56V13*Clock{42I9} 176|133s28 174s27
+226I9 Time_Rep<long_long_integer>
+X 14 a-textio.ads
+67P9*File_Type 175|42r29 176|106r29 191r15 272r15
+188V13*Standard_Output{67P9} 176|63s12 67s12 82s8 83s44
+212U14*Flush 176|165s40
+277U14*New_Line 176|157s7 158s48 159s48 165s24 166s7 175s5 242s54 243s55
+. 244s9 245s35 247s9 256s9 323s55 324s9 340s9
+284U14*New_Line 176|56s7 202s5 207s5 210s5 219s7 222s7 226s9 230s7 236s7
+. 283s5 288s5 298s7 302s22 309s7 313s9 317s7 357s5
+508U14*Put 176|154s7 158s7 159s7 160s7 162s13 163s13 242s9 243s9 323s9
+515U14*Put 176|57s7 100s7 208s5 208s33 220s7 220s36 223s7 231s7 237s7 289s5
+. 289s33 296s7 296s36 301s7 310s7 318s7 358s5
+555U14*Put_Line 176|155s40 248s9
+565U14*Put_Line 176|80s5 200s11 203s5 209s19 211s5 216s7 221s21 227s9 281s11
+. 284s5 290s22 293s7 297s24 304s9 306s9 314s9 355s11
+X 16 communications_with_user.ads
+4K9*Communications_with_User 127e29 176|3w6 3r46
+23U13*Ask_Yes_or_No 176|100s56 223s39 231s37 310s39 358s52
+60U13*Read_Name_and_Create_File 176|228s9 315s9
+X 17 convergence_radius_estimates.ads
+36K9*Convergence_Radius_Estimates 319e33 176|25w6 81r5 167r7
+155U13*Fabry 176|81s34 167s36
+X 38 fabry_on_homotopy_helpers.ads
+21K9*Fabry_on_Homotopy_Helpers 108e30 176|26w6 54r5 83r5 168r7 241r9 322r9
+27U13*Prompt_for_Parameters 176|54s31
+43U13*Prompt_and_Write 176|241s35 322s35
+73U13*Write_Report 176|83s31 168s33
+X 39 generic_complex_numbers.ads
+19R8*Complex_Number 176|51r36[162|5] 127r36[162|5] 186r38[162|5]
+25V12*Create{19R8[162|5]} 176|234s47[162|5]
+X 42 generic_lists.ads
+12P8*List
+67V12*Length_Of{130|7I8} 176|214s52[169|30] 291s52[169|30]
+72V12*Is_Null{boolean} 176|97s42[169|30] 170s44[169|30]
+77V12*Head_Of{169|28P8} 176|98s40[169|30] 115s38[169|30] 171s40[169|30] 218s43[169|30]
+. 295s46[169|30]
+84V12*Tail_Of{12P8[169|30]} 176|102s41[169|30] 169s41[169|30]
+X 44 generic_polynomial_systems.ads
+22A8*Poly_Sys(45|28P8[166|4])<125|6I8>
+23P8*Link_to_Poly_Sys(22A8[164|5]) 176|184r50[164|5] 265r41[164|5]
+X 45 generic_polynomials.ads
+28P8*Poly
+48V12*Number_of_Unknowns{130|7I8} 176|206s24[166|4] 287s27[166|4]
+X 46 generic_speelpenning_convolutions.ads
+62R8*System
+62i35*deg{125|6I8} 176|37r37[182|8]
+72P8*Link_to_System(62R8[182|8]) 175|17r61[182|8] 176|33r61[182|8] 90r46[182|8]
+. 112r46[182|8]
+259U13*Clear 176|178s40[182|8]
+X 48 generic_vectors.ads
+16A8*Vector(39|19R8[162|5])<125|6I8> 175|18r51[171|4] 176|34r51[171|4] 45r37[128|4]
+. 47r41[171|4] 121r37[128|4] 123r41[171|4] 269r36[128|4]
+17P8*Link_to_Vector(16A8[171|4]) 176|46r36[171|4] 122r36[171|4]
+72U13*Clear 176|84s30[171|4] 177s30[171|4]
+X 50 generic_vecvecs.ads
+14A8*VecVec(48|17P8[171|4])<125|6I8> 176|38r45[173|5] 117r36[173|5]
+X 51 generic_vecvecs_io.ads
+51U13*put_line 176|80s52[174|7]
+52U13*put_line 176|156s7[174|7]
+X 66 multitasked_power_newton.ads
+28K9*Multitasked_Power_Newton 205e29 176|27w6 66r9 75r9 140r11 149r11
+72U13*TripDobl_Run 176|75s34 149s36
+81U13*TripDobl_Run 176|66s34 140s36
+X 77 numbers_io.ads
+7K9*Numbers_io 40e15 176|6w6 58r7 238r7 319r7
+13U13*Read_Positive 176|238s18 319s18
+14U13*Read_Natural 176|58s18
+X 113 solution_drops.ads
+11K9*Solution_Drops 68e19 176|21w6 307r21
+44V12*Drop{169|31P8} 176|307s36
+X 123 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 175|4w6 4r46
+13F8*double_float<long_float> 175|44r50 176|44r11 108r50 193r11 274r11
+X 124 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 63e33 176|5w6 5r46
+47U13*put 176|165s7
+X 125 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 175|3w6 3r46
+6I8*integer32<long_integer> 175|27r61 43r61 44r30 64r53 74r53 81r56 176|36r20
+. 37r20 40r13 42r15 42r28 43r18 58r51 87r61 107r61 108r30 116r20 119r24 119r37
+. 120r18 129r11 182r53 188r34 206r14 214r15 238r48 263r53 268r53 287r17 291r15
+. 319r48 349r56
+X 126 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 176|4w6 4r46
+19U13*put 176|245s9
+26U13*put 176|208s19 209s5 220s21 221s7 289s19 290s5 296s21 297s7 302s7
+27U13*put 176|155s23 160s29 243s35 323s35
+X 128 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[48|8] 176|12w6 45r12 121r12 269r11
+X 130 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 175|2w6 2r46
+7I8*natural32<long_integer> 175|16r26 27r28 43r28 64r30 74r30 81r33 176|32r26
+. 41r14 87r28 107r28 182r30 192r11 263r30 273r11 307r46 349r33
+X 133 standard_parameter_systems.ads
+9K9*Standard_Parameter_Systems 157e31 176|20w6 299r14
+107V12*Define_Parameters{48|16A8[128|4]} 176|299s41
+X 157 text_io.ads
+27K9*Text_IO=27:29 175|1w6 1r46
+X 158 time_stamps.ads
+4K9*Time_Stamps 41e16 176|2w6 176r5
+34U13*Write_Elapsed_Time 176|176s17
+X 162 tripdobl_complex_numbers.ads
+5K9*TripDobl_Complex_Numbers[39|11] 176|9w6 51r11 127r11 186r13 234r22
+X 163 tripdobl_complex_numbers_io.ads
+5K9*TripDobl_Complex_Numbers_io 38e32 176|10w6 10r46
+21U13*put 176|242s34
+X 164 tripdobl_complex_poly_systems.ads
+5K9*TripDobl_Complex_Poly_Systems[44|12] 176|16w6 184r20 265r11
+X 165 tripdobl_complex_poly_systems_io.ads
+6K9*TripDobl_Complex_Poly_Systems_io 56e37 176|17w6 17r46
+12U13*get 176|204s5
+21U13*put 176|246s9
+X 166 tripdobl_complex_polynomials.ads
+4K9*TripDobl_Complex_Polynomials[45|11] 176|15w6 196r9 277r9
+X 169 tripdobl_complex_solutions.ads
+11K9*TripDobl_Complex_Solutions 235e31 175|6w6 28r33 45r33 176|88r33 91r11
+. 92r10 97r15 98r13 102r14 109r33 113r11 114r10 115r11 169r14 170r17 171r13
+. 185r12 214r25 218r16 266r21 291r25 295r19
+19i19*n{125|6I8} 176|218r57 295r60
+22a5*v{48|16A8[171|4]} 176|99r31 116r36 118r64 172r66
+28P8*Link_to_Solution(19R8) 176|92r37 114r37
+31P8*Solution_List<42|12P8[30]> 175|28r60 45r60 176|88r60 91r38 109r60 113r38
+. 185r39 266r48
+X 171 tripdobl_complex_vectors.ads
+4K9*TripDobl_Complex_Vectors[48|8] 175|5w6 18r26 176|34r26 46r11 47r16 84r5
+. 122r11 123r16 177r5
+X 173 tripdobl_complex_vecvecs.ads
+5K9*TripDobl_Complex_VecVecs[50|10] 176|13w6 38r20 117r11
+X 174 tripdobl_complex_vecvecs_io.ads
+7K9*TripDobl_Complex_VecVecs_io[51|15] 176|14w6 14r46
+X 175 tripdobl_fabry_on_homotopy.ads
+9K9*TripDobl_Fabry_on_Homotopy 88l5 88e31 176|29b14 365l5 365t31
+15U13*Newton_Fabry 16>17 17>17 18>17 176|31b13 85l7 85t19 99s7
+16i17 nbt{130|7I8} 176|32b17 42r38
+17p17 cfs{46|72P8[182|8]} 176|33b17 37r33 63r28 67r46 73r12 76r30
+18a17 sol{48|16A8[171|4]} 176|34b17 36r33 39r61
+27U13*Run 27>19 27>39 27>45 27>52 28=19 176|87b13 104l7 104t10 254s9 336s15
+. 337s15
+27i19 nbt{130|7I8} 176|87b19 99r20
+27i39 nbequ{125|6I8} 176|87b39 96r60
+27i45 idxpar{125|6I8} 176|87b45 96r66
+27i52 deg{125|6I8} 176|87b52 96r73
+28p19 sols{169|31P8} 176|88b19 91r55
+42U13*Run 42>19 43>19 43>39 43>45 43>52 44>19 44>41 45=19 46>19 176|106b13
+. 179l7 179t10 257s9 342s15 343s15
+42p19 file{14|67P9} 176|106b19 138r14 141r14 154r11 155r27 155r49 156r16
+. 157r16 158r11 158r33 158r57 159r11 159r33 159r57 160r11 160r33 162r17 163r17
+. 165r11 165r33 165r46 166r16 167r42 168r46 175r14 176r36
+43i19 nbt{130|7I8} 176|107b19 119r47
+43i39 nbequ{125|6I8} 176|107b39 132r60
+43i45 idxpar{125|6I8} 176|107b45 132r66
+43i52 deg{125|6I8} 176|107b52 118r66 132r73 172r68
+44i19 maxit{125|6I8} 176|108b19 138r27 141r31 147r22 150r26
+44f41 tol{123|13F8} 176|108b41 138r39 141r45 147r34 150r40 165r16
+45p19 sols{169|31P8} 176|109b19 113r55 115r46
+46b19 verbose{boolean} 176|110b19 135r10
+63U13*Artificial_Setup 64>17 64>41 176|181b13 260l7 260t23 360s11
+64i17 nbtasks{130|7I8} 176|182b17 192r24 254r13
+64i41 vrblvl{125|6I8} 176|182b41 199r8
+73U13*Natural_Setup 74>17 74>41 176|262b13 347l7 347t20 361s11
+74i17 nbtasks{130|7I8} 176|263b17 273r24 336r19 337r19
+74i41 vrblvl{125|6I8} 176|263b41 280r8
+81U13*Main 81>20 81>44 176|349b13 363l7 363t11
+81i20 nbtasks{130|7I8} 176|349b20 360r28 361r25
+81i44 vrblvl{125|6I8} 176|349b44 354r8 360r36 361r33
+X 176 tripdobl_fabry_on_homotopy.adb
+36i5 dim{125|6I8} 38r55 45r47 47r51 67r36 76r20
+37i5 deg{125|6I8} 39r65 40r26
+38a5 scf{50|14A8[173|5]} 63r32 67r50 73r16 76r34 80r61 82r24
+40i5 maxit{125|6I8} 54m53 54r53 63r36 67r40 73r20 76r24
+41i5 natnbt{130|7I8} 58m31 58r61
+42i5 nbtasks{125|6I8} 55r8 58m40 61r10 67r28 71r10 76r12
+43i5 nbrit{125|6I8} 63m42 68m17 73m26 77m17
+43i11 info{125|6I8} 68m12 77m12
+44f5 tol{123|13F8} 54m59 54r59 63r48 67r54 73r32 76r38
+45a5 ipvt{48|16A8[128|4]} 64m12 73m53
+46p5 wrk{48|17P8[171|4]} 64r17 73r58 84m36 84r36
+48b5 fail{boolean} 63m58 67m63 73m42 76m47 82m40 83r72
+48b10 verbose{boolean} 54m63 60r8
+49r5 absdx{184|20R8} 63m52 68m29 73m36 77m29
+49r11 rcond{184|20R8} 63m63 68m23 73m47 77m23
+49r17 rad{184|20R8} 82m32 83r60
+49r21 err{184|20R8} 82m36 83r64
+50b5 scale{boolean} 64r21 73r62
+51r5 zpt{39|19R8[162|5]} 82m28 83r68
+90p5 cvh{46|72P8[182|8]} 96m5 99r24
+91p5 tmp{169|31P8} 97r50 98r48 102m7 102r49
+92p5 ls{169|28P8} 98m7 99r28
+93e5 ans{character} 100m70 101r18
+112p5 cvh{46|72P8[182|8]} 132m5 138r19 141r37 147r14 150r32 178m46 178r46
+113p5 tmp{169|31P8} 169m7 169r49 170r52 171r48
+114p5 ls{169|28P8} 116r33 118r61 171m7 172r63
+116i5 dim{125|6I8} 117r46 121r47 123r51 141r27 150r22
+117a5 scf{50|14A8[173|5]} 138r23 141r41 147r18 150r36 156r21 167r47 172m7
+119i5 nbtasks{125|6I8} 136r12 141r19 145r12 150r14
+120i5 nbrit{125|6I8} 138m33 142m19 147m28 151m19 160r38
+120i11 info{125|6I8} 142m14 151m14
+121a5 ipvt{48|16A8[128|4]} 138m60 147m55
+122p5 wrk{48|17P8[171|4]} 138r65 147r60 177m36 177r36
+124b5 fail{boolean} 138m49 141m54 147m44 150m49 161r10 167m63 168r63
+125r5 absdx{184|20R8} 138m43 142m31 147m38 151m31 159r38
+125r11 rcond{184|20R8} 138m54 142m25 147m49 151m25 158r38
+125r17 rad{184|20R8} 167m55 168r51
+125r21 err{184|20R8} 167m59 168r55
+126b5 scale{boolean} 138r69 147r64
+127r5 zpt{39|19R8[162|5]} 167m51 168r59
+128i5 tstart{5|42I9} 133m5 176r41
+128i12 tstop{5|42I9} 174m5 176r48
+129i5 cnt{125|6I8} 155m7 155r14 155r32
+184p5 target{44|23P8[164|5]} 204m9 204r9 205r14 206r43 206r50 245r21 246r21
+. 252r32
+184p12 start{44|23P8[164|5]} 213m42 213r42 250r20 252r43
+185p5 sols{169|31P8} 213m48 213r48 214r62 218r51 250r30 254m39 254r39 257m51
+. 257r51
+186r5 gamma{39|19R8[162|5]} 233m13 234m13 242r46 252r55
+187i5 posdeg{positive} 238m32 238r58
+188i5 nbequ{125|6I8} 205m5 208r23 254r21 257r25
+188i11 nbvar{125|6I8} 206m5 209r9 218m7 221r11 254r27 257r31
+188i17 nbsols{125|6I8} 214m5 215r8 220r25
+188i24 deg{125|6I8} 238m41 240r16 243r47 254r35 257r39
+188i28 mxt{125|6I8} 240m9 241m64 241r64 257r43
+189e5 ans{character} 223m53 224r18 231m51 232r10
+190b5 tofile{boolean} 224m7 225r10 239r10 253r14
+191p5 outfile{14|67P9} 228m35 228r35 241r52 242r13 242r38 242r63 243r13 243r39
+. 243r64 244r18 245r13 245r44 246r13 247r18 248r18 250r12 256r18 257r13
+192i5 nbt{130|7I8} 241m60 241r60 257r21
+193f5 tol{123|13F8} 241m68 241r68 257r47
+194b5 vrb{boolean} 241m72 257r56
+265p5 hom{44|23P8[164|5]} 285m42 285r42 286r14 287r46 287r50 327r22 330r22
+. 333r32
+266p5 sols{169|31P8} 285m46 285r46 291r62 295r54 307r41 327r30 336m44 336r44
+. 342m56 342r56
+266p10 dropsols{169|31P8} 307m9 330r30 337m44 337r44 343m56 343r56
+267i5 posdeg{positive} 319m32 319r58
+268i5 nbequ{125|6I8} 286m5 289r23 299r59 303r21 325r23 335r23 336r27 337r27
+. 341r23 342r31 343r31
+268i11 sysnbvar{125|6I8} 287m5 290r9 299r65
+268i20 solnbvar{125|6I8} 295m7 297r11 303r10 325r12 335r12 341r12
+268i29 nbsols{125|6I8} 291m5 292r8 296r25
+268i36 idxpar{125|6I8} 300m7 302r11 307r56 333r40 336r33 337r33 342r37 343r37
+268i43 deg{125|6I8} 319m41 321r16 323r47 336r40 337r40 342r44 343r44
+268i47 mxt{125|6I8} 321m9 322m64 322r64 342r48 343r48
+269a5 par{48|16A8[128|4]} 299m7 300r17
+270e5 ans{character} 310m53 311r18
+271b5 tofile{boolean} 311m7 312r10 320r10 334r14
+272p5 outfile{14|67P9} 315m35 315r35 322r52 323r13 323r39 323r64 324r18 327r14
+. 330r14 340r18 342r19 343r19
+273i5 nbt{130|7I8} 322m60 322r60 342r27 343r27
+274f5 tol{123|13F8} 322m68 322r68 342r52 343r52
+275b5 vrb{boolean} 322m72 342r61 343r65
+351e5 ans{character} 358m66 359r8
+X 177 tripdobl_homotopy.ads
+8K9*TripDobl_Homotopy 176|19w6 252r7 333r7 177|140e22
+15U13*Create 176|252s25
+40U13*Create 176|333s25
+X 178 tripdobl_homotopy_convolutions_io.ads
+9K9*TripDobl_Homotopy_Convolutions_io 176|22w6 96r12 132r12 178|75e38
+16V12*Make_Homotopy{46|72P8[182|8]} 176|96s46 132s46
+X 179 tripdobl_newton_convolution_steps.ads
+11K9*TripDobl_Newton_Convolution_Steps 176|24w6 62r9 72r9 137r11 146r11 179|267e38
+70U13*LU_Newton_Steps 176|72s43 146s45
+80U13*LU_Newton_Steps 176|62s43 137s45
+X 180 tripdobl_newton_convolutions.ads
+11K9*TripDobl_Newton_Convolutions 176|23w6 39r12 118r12 172r14 180|336e33
+21V12*Series_Coefficients{50|14A8[173|5]} 176|39s41 118s41 172s43
+X 181 tripdobl_random_numbers.ads
+5K9*TripDobl_Random_Numbers 176|11w6 233r22 181|53e28
+40V12*Random1{39|19R8[162|5]} 176|233s46
+X 182 tripdobl_speelpenning_convolutions.ads
+8K9*TripDobl_Speelpenning_Convolutions[46|18] 175|7w6 17r26 176|33r26 90r11
+. 112r11 178r5
+X 183 tripdobl_system_and_solutions_io.ads
+6K9*TripDobl_System_and_Solutions_io 176|18w6 213r5 249r9 285r5 326r11 329r11
+. 183|58e37
+13U13*get 176|213s38 285s38
+34U13*put 176|249s42 326s44 329s44
+X 184 triple_double_numbers.ads
+5K9*Triple_Double_Numbers 176|7w6 7r46 184|199e26
+20R8*triple_double 176|49r27 125r27 184|197e13
+X 185 triple_double_numbers_io.ads
+6K9*Triple_Double_Numbers_io 176|8w6 8r46 185|99e29
+92U13*put 176|158s29 159s29
+

@@ -1,0 +1,151 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multprec_univariate_interpolators%b  multprec_univariate_interpolators.adb  7748df46 NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U multprec_univariate_interpolators%s  multprec_univariate_interpolators.ads  7fa89f77 EE NE OO PK
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_complex_vectors%s  multprec_complex_vectors.ads  multprec_complex_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D multprec_univariate_interpolators.ads  20260513024556 bbf04412 multprec_univariate_interpolators%s
+D multprec_univariate_interpolators.adb  20260513024556 b358f94f multprec_univariate_interpolators%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [create multprec_univariate_interpolators 13 12 none]
+G c Z s b [expand multprec_univariate_interpolators 34 12 none]
+G c Z s b [evalf multprec_univariate_interpolators 45 12 none]
+G c Z s b [evalc multprec_univariate_interpolators 52 12 none]
+G r s vector [create multprec_univariate_interpolators 13 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [create multprec_univariate_interpolators 13 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [create multprec_univariate_interpolators 13 12 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [create multprec_univariate_interpolators 13 12 none] [Osubtract multprec_complex_numbers 60 12 5_1]
+G r c none [create multprec_univariate_interpolators 13 12 none] [min multprec_complex_numbers 76 13 5_1]
+G r c none [create multprec_univariate_interpolators 13 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [create multprec_univariate_interpolators 13 12 none] [div multprec_complex_numbers 78 13 5_1]
+G r c none [create multprec_univariate_interpolators 13 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r s vector [expand multprec_univariate_interpolators 34 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [expand multprec_univariate_interpolators 34 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [expand multprec_univariate_interpolators 34 12 none] [mul multprec_complex_numbers 77 13 5_1]
+G r c none [expand multprec_univariate_interpolators 34 12 none] [min multprec_complex_numbers 76 13 5_1]
+G r c none [expand multprec_univariate_interpolators 34 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r s complex_number [evalf multprec_univariate_interpolators 45 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [evalf multprec_univariate_interpolators 45 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [evalf multprec_univariate_interpolators 45 12 none] [Osubtract multprec_complex_numbers 60 12 5_1]
+G r c none [evalf multprec_univariate_interpolators 45 12 none] [mul multprec_complex_numbers 77 13 5_1]
+G r c none [evalf multprec_univariate_interpolators 45 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [evalf multprec_univariate_interpolators 45 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r s complex_number [evalc multprec_univariate_interpolators 52 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [evalc multprec_univariate_interpolators 52 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [evalc multprec_univariate_interpolators 52 12 none] [mul multprec_complex_numbers 77 13 5_1]
+G r c none [evalc multprec_univariate_interpolators 52 12 none] [add multprec_complex_numbers 74 13 5_1]
+X 12 generic_complex_numbers.ads
+19R8*Complex_Number 25|45r38[16|5] 45r62[16|5] 52r36[16|5] 52r60[16|5] 26|10r11[16|5]
+. 48r38[16|5] 48r62[16|5] 50r15[16|5] 63r36[16|5] 63r60[16|5] 65r11[16|5]
+41U13*Copy 26|31s5[16|5] 33s7[16|5] 53s5[16|5] 68s5[16|5]
+60V13*"-"{19R8[16|5]} 26|16s21[16|5] 55s16[16|5]
+74U13*Add 26|18s9[16|5] 37s9[16|5] 41s7[16|5] 57s7[16|5] 71s7[16|5]
+76U13*Min 26|17s9[16|5] 36s9[16|5] 40s7[16|5]
+77U13*Mul 26|35s9[16|5] 39s7[16|5] 56s7[16|5] 70s7[16|5]
+78U13*Div 26|19s9[16|5]
+82U13*Clear 26|20s9[16|5] 58s7[16|5]
+X 13 generic_vectors.ads
+16A8*Vector(12|19R8[16|5])<28|6I8> 25|13r27[18|4] 13r43[18|4] 34r27[18|4]
+. 34r43[18|4] 45r26[18|4] 52r24[18|4] 26|7r27[18|4] 7r43[18|4] 9r11[18|4]
+. 26r27[18|4] 26r43[18|4] 28r11[18|4] 48r26[18|4] 63r24[18|4]
+24U13*Copy 26|13s5[18|4]
+X 16 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[12|11] 25|1w6 1r44
+X 18 multprec_complex_vectors.ads
+4K9*Multprec_Complex_Vectors[13|8] 25|2w6 2r44
+X 25 multprec_univariate_interpolators.ads
+4K9*Multprec_Univariate_Interpolators 59l5 59e38 26|3b14 76l5 76t38
+13V12*Create{13|16A8[18|4]} 13>21 13>23 26|7b12 24l7 24t13
+13a21 x{13|16A8[18|4]} 26|7b21 16r16 16r23
+13a23 y{13|16A8[18|4]} 26|7b23 9r18 13r10 14r17
+34V12*Expand{13|16A8[18|4]} 34>21 34>23 26|26b12 44l7 44t13
+34a21 f{13|16A8[18|4]} 26|26b21 28r18 31r10 31r12 32r25 33r16 33r32 34r27
+. 41r18
+34a23 x{13|16A8[18|4]} 26|26b23 35r20 39r18
+45V12*Evalf{12|19R8[16|5]} 45>20 45>22 45>34 26|48b12 61l7 61t12
+45a20 f{13|16A8[18|4]} 26|48b20 53r10 53r12 54r25 57r15
+45a22 x{13|16A8[18|4]} 26|48b22 55r18
+45r34 a{12|19R8[16|5]} 26|48b34 55r14
+52V12*Evalc{12|19R8[16|5]} 52>20 52>32 26|63b12 74l7 74t12
+52a20 c{13|16A8[18|4]} 26|63b20 68r10 68r12 69r25 71r15
+52r32 x{12|19R8[16|5]} 26|63b32 70r15
+X 26 multprec_univariate_interpolators.adb
+9a5 res{13|16A8[18|4]} 13m12 13r12 17m13 17r13 18m13 18r13 18r20 19m13 19r13
+. 23r12
+10r5 dif{12|19R8[16|5]} 16m9 19r20 20m15 20r15
+14i9 i<long_integer> 15r20 16r25 17r17 18r17 19r17
+15i11 j<long_integer> 16r18 18r24
+28a5 res{13|16A8[18|4]} 31m20 31r20 33r12 33m28 33r28 35m13 35r13 36m13 36r13
+. 37m13 37r13 37r20 39m11 39r11 40m11 40r11 41m11 41r11 43r12
+32i9 i<long_integer> 33r23 33r39 34r34 35r22 39r20 41r20
+34i11 j<long_integer> 35r17 36r17 37r17 37r24
+50r5 res{12|19R8[16|5]} 53m20 53r20 56m11 56r11 57m11 57r11 60r12
+50r9 dif{12|19R8[16|5]} 55m7 56r15 58m13 58r13
+54i9 i<long_integer> 55r20 57r17
+65r5 res{12|19R8[16|5]} 68m20 68r20 70m11 70r11 71m11 71r11 73r12
+69i9 i<long_integer> 71r17
+X 28 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 26|1w6 1r45 28|45e29
+

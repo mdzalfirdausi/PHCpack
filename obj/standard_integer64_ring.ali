@@ -1,0 +1,40 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_integer64_ring%s  standard_integer64_ring.ads  70b59781 NE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c s s s [s standard_integer64_ring 4 1 none]
+G r i none [s standard_integer64_ring 4 1 none] [abstract_ring standard 25 9 none]
+X 1 abstract_ring.ads
+25k9*Abstract_Ring 25e29 2|2w6 5r7
+X 2 standard_integer64_ring.ads
+4K9*Standard_Integer64_Ring[1|25]
+X 3 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|1w6 1r46 3|45e29
+7I8*integer64<long_long_integer> 2|5r21
+10V12*Create{7I8} 2|5r35
+13V12*Equal{boolean} 2|5r42
+15U13*Copy 2|5r48
+18U13*Add 2|6r21
+20U13*Sub 2|6r25
+22U13*Min 2|6r29
+24U13*Mul 2|6r33
+43U13*Clear 2|6r37
+

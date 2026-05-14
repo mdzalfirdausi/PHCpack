@@ -1,0 +1,236 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U lexicographical_supports%b  lexicographical_supports.adb  7fafe605 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U lexicographical_supports%s  lexicographical_supports.ads  874cca9f EE NE OO PK
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lexicographical_supports.ads  20260513024558 4291fa77 lexicographical_supports%s
+D lexicographical_supports.adb  20260513024558 3d3e1c72 lexicographical_supports%b
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [lexless lexicographical_supports 13 12 none]
+G c Z s b [degless lexicographical_supports 21 12 none]
+G c Z s b [swap lexicographical_supports 29 13 none]
+G c Z s b [sort lexicographical_supports 36 12 none]
+G c Z s b [index lexicographical_supports 42 12 none]
+G c Z s b [first_positive lexicographical_supports 53 12 none]
+G c Z s b [factor lexicographical_supports 61 13 none]
+G c Z s b [factor lexicographical_supports 70 12 none]
+G c Z s b [compress lexicographical_supports 86 12 none]
+G c Z s b [compress lexicographical_supports 95 12 none]
+G c Z s b [decrement lexicographical_supports 103 12 none]
+G c Z s b [nodes lexicographical_supports 112 12 none]
+G r c none [degless lexicographical_supports 21 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [sort lexicographical_supports 36 12 none] [copy lists_of_integer_vectors 39 13 6_1]
+G r c none [sort lexicographical_supports 36 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [sort lexicographical_supports 36 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [sort lexicographical_supports 36 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [sort lexicographical_supports 36 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [sort lexicographical_supports 36 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [index lexicographical_supports 42 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [index lexicographical_supports 42 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [first_positive lexicographical_supports 53 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [first_positive lexicographical_supports 53 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [first_positive lexicographical_supports 53 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [factor lexicographical_supports 70 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r s vecvec [factor lexicographical_supports 70 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [factor lexicographical_supports 70 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [factor lexicographical_supports 70 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [factor lexicographical_supports 70 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r s vecvec [compress lexicographical_supports 95 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [nodes lexicographical_supports 112 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [nodes lexicographical_supports 112 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [nodes lexicographical_supports 112 12 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [nodes lexicographical_supports 112 12 none] [append lists_of_integer_vectors 65 13 6_1]
+X 11 generic_lists.ads
+12P8*List
+67V12*Length_Of{24|7I8} 18|49s8[12|21[19|6]] 153s56[12|21[19|6]]
+72V12*Is_Null{boolean} 18|51s17[12|21[19|6]] 54s19[12|21[19|6]] 106s15[12|21[19|6]]
+. 161s15[12|21[19|6]]
+77V12*Head_Of{13|17P8[22|4]} 18|52s14[12|21[19|6]] 55s16[12|21[19|6]] 107s14[12|21[19|6]]
+. 162s14[12|21[19|6]]
+84V12*Tail_Of{12P8[12|21[19|6]]} 18|53s19[12|21[19|6]] 60s21[12|21[19|6]]
+. 62s18[12|21[19|6]] 121s14[12|21[19|6]] 173s14[12|21[19|6]]
+X 12 generic_lists_of_vectors.ads
+22P8*List<11|12P8[21[19|6]]> 17|36r23[19|6] 36r37[19|6] 53r33[19|6] 70r25[19|6]
+. 112r65[19|6] 18|42r23[19|6] 42r37[19|6] 44r24[19|6] 98r33[19|6] 101r11[19|6]
+. 151r25[19|6] 155r11[19|6] 234r65[19|6] 236r20[19|6]
+39U13*Copy<11|55p13> 18|48s5[19|6]
+52V12*Is_In{boolean} 18|247s20[19|6]
+65U13*Append 18|248s19[19|6]
+X 13 generic_vectors.ads
+16A8*Vector(20|6I8)<20|6I8> 17|13r53[22|4] 21r53[22|4] 43r49[22|4] 86r52[22|4]
+. 87r53[22|4] 103r53[22|4] 104r54[22|4] 18|3r53[22|4] 15r53[22|4] 69r49[22|4]
+. 133r34[22|4] 165r38[22|4] 170r50[22|4] 180r52[22|4] 181r53[22|4] 183r36[22|4]
+. 209r47[22|4] 211r48[22|4] 219r53[22|4] 220r54[22|4] 222r36[22|4] 243r47[22|4]
+17P8*Link_to_Vector(16A8[22|4]) 17|29r58[22|4] 18|30r58[22|4] 45r36[22|4]
+. 102r36[22|4] 130r43[22|4] 131r34[22|4] 157r36[22|4] 208r38[22|4] 237r36[22|4]
+21V12*Equal{boolean} 18|78s37[22|4] 84s35[22|4]
+52V12*Sum{20|6I8} 18|17s60[22|4] 18s60[22|4] 245s37[22|4]
+X 14 generic_vecvecs.ads
+14A8*VecVec(13|17P8[22|4])<20|6I8> 17|42r49[23|5] 61r58[23|5] 62r60[23|5]
+. 70r64[23|5] 95r52[23|5] 96r53[23|5] 112r49[23|5] 18|68r49[23|5] 126r58[23|5]
+. 127r60[23|5] 151r64[23|5] 153r36[23|5] 154r36[23|5] 200r52[23|5] 201r53[23|5]
+. 203r36[23|5] 234r49[23|5]
+X 17 lexicographical_supports.ads
+7K9*Lexicographical_Supports 120l5 120e29 18|1b14 257l5 257t29
+13V12*LexLess{boolean} 13>22 13>24 18|3b12 13l7 13t14 26s14
+13a22 a{13|16A8[22|4]} 18|3b22 5r14 6r10 8r13
+13a24 b{13|16A8[22|4]} 18|3b24 6r17 8r20
+21V12*DegLess{boolean} 21>22 21>24 18|15b12 28l7 28t14 57s14 87s13
+21a22 a{13|16A8[22|4]} 18|15b22 17r64 26r22
+21a24 b{13|16A8[22|4]} 18|15b24 18r64 26r24
+29U13*Swap 29=20 29=22 18|30b13 40l7 40t11 58s17
+29p20 a{13|17P8[22|4]} 18|30b20 35r14 36r14 37r7
+29p22 b{13|17P8[22|4]} 18|30b22 37r15 38r7
+36V12*Sort{12|22P8[19|6]} 36>19 18|42b12 66l7 66t11
+36p19 s{12|22P8[19|6]} 18|42b19 48r10
+42V12*Index{20|6I8} 42>20 43>20 18|68b12 94l7 94t12 246s14
+42a20 s{14|14A8[23|5]} 18|68b20 71r27 72r26 78r43 84r41 87r21
+43a20 v{13|16A8[22|4]} 18|69b20 78r57 84r55 87r35
+53V12*First_Positive{24|7I8} 53>29 18|98b12 124l7 124t21 158s45
+53p29 s{12|22P8[19|6]} 18|98b29 101r19
+61U13*Factor 61=22 62=22 63>22 63>28 18|126b13 149l7 149t13 171s9
+61a22 v{14|14A8[23|5]} 18|126b22 130r61
+62a22 org{14|14A8[23|5]} 18|127b22 137r12
+63i22 start{20|6I8} 18|128b22 136r22
+63i28 k{20|6I8} 18|128b28 130r63 136r30
+70V12*Factor{14|14A8[23|5]} 70>21 18|151b12 176l7 176t13
+70p21 s{12|22P8[19|6]} 18|151b21 153r66 155r19 158r60
+86V12*Compress{13|16A8[22|4]} 86>23 18|180b12 198l7 198t15 209s57
+86a23 v{13|16A8[22|4]} 18|180b23 183r43 183r52 187r8 188r25 188r27 190r17
+. 191r10 193r23
+95V12*Compress{14|14A8[23|5]} 95>23 18|200b12 215l7 215t15
+95a23 v{14|14A8[23|5]} 18|200b23 203r43 206r14 208r56
+103V12*Decrement{13|16A8[22|4]} 103>24 18|219b12 232l7 232t16 243s57
+103a24 v{13|16A8[22|4]} 18|219b24 222r43 225r14 226r10 228r23
+112V12*Nodes{12|22P8[19|6]} 112>20 18|234b12 255l7 255t12
+112a20 s{14|14A8[23|5]} 18|234b20 240r14 241r14 246r20
+X 18 lexicographical_supports.adb
+5i9 i<long_integer> 6r12 6r19 8r15 8r22
+17i5 deg_a{20|6I8} 21r8 23r11
+18i5 deg_b{20|6I8} 21r16 23r19
+32i5 tmp{20|6I8} 36m7 38r15
+35i9 i<long_integer> 36r16 37r9 37r17 38r9
+44p5 res{12|22P8[19|6]} 48m12 48r12 49r18 50r16 65r12
+44p9 first{12|22P8[19|6]} 50m7 51r25 52r22 53r27 62m9 62r26
+44p15 second{12|22P8[19|6]} 53m9 54r27 55r24 60m11 60r29
+45p5 A{13|17P8[22|4]} 52m9 57r28 58m22 58r22
+45p7 B{13|17P8[22|4]} 55m11 57r22 58m24 58r24
+71i5 sfirst{20|6I8} 76r11 77r10 78r45 79r22 83r18 88m9
+72i5 slast{20|6I8} 76r21 77r19 83r25 90m9
+73i5 middle{20|6I8} 83m7 84r43 85r16 87r23 88r19 90r18
+100i5 res{24|7I8} 108m7 108r14 119r20
+101p5 tmp{12|22P8[19|6]} 106r23 107r22 121m7 121r22
+102p5 ptr{13|17P8[22|4]} 107m7 110r16 111r12 113r15
+103b5 neg{boolean} 109m7 112m11 116r19 118r22
+103b9 pos{boolean} 109m21 114m11 118r10
+110i11 i<long_integer> 111r16 113r19
+130p5 w{13|17P8[22|4]} 133r41 140r17 146r13
+131p5 p{13|17P8[22|4]} 137m7 139r19 140r24
+132b5 divides{boolean} 138m7 142m15 145r10
+133a5 d{13|16A8[22|4]} 137m20 140m9 141r12 146r22
+136i9 i<long_integer> 137r16 137r28
+139i11 j<long_integer> 140r11 140r19 140r26 141r14
+153a5 res{14|14A8[23|5]} 154r43 170m9 171m16 171r16 175r12
+154a5 org{14|14A8[23|5]} 169m9 171m20 171r20
+155p5 tmp{12|22P8[19|6]} 161r23 162r22 173m7 173r22
+156i5 ind{20|6I8} 163m7 163r14 169r13 170r13 171r30
+157p5 ptr{13|17P8[22|4]} 162m7 165r48 168r11 168r25 169r21
+158i5 start{20|6I8} 171r24
+165a9 v{13|16A8[22|4]} 167m9 168m9 170r58
+183a5 res{13|16A8[22|4]} 188m7 188r11 192m9 193m9 197r12 197r16
+184i5 ind{20|6I8} 192r13 193r13 194m9 194r16 197r27
+190i9 i<long_integer> 191r12 192r21 193r25
+203a5 res{14|14A8[23|5]} 211m9 214r12
+206i9 i<long_integer> 208r58 211r13
+208p9 p{13|17P8[22|4]} 209r66
+209a9 c{13|16A8[22|4]} 211r56
+222a5 res{13|16A8[22|4]} 227m13 228m13 231r12
+225i9 i<long_integer> 226r12 227r17 228r17 228r25
+236p5 res{12|22P8[19|6]} 247r26 248m26 248r26 254r12
+236p9 res_last{12|22P8[19|6]} 248m30 248r30
+237p5 ptr{13|17P8[22|4]} 241m7 243r67
+240i9 i<long_integer> 241r16
+243a9 d{13|16A8[22|4]} 245r41 246r22 247r30 248r39
+X 19 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[12|12] 17|5w6 5r46
+X 20 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 17|2w6 2r46 20|45e29
+6I8*integer32<long_integer> 17|43r65 63r35 18|17r22 18r22 32r11 69r65 71r14
+. 72r13 73r14 128r35 153r46 156r11 158r22 158r35 184r11
+X 22 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[13|8] 17|3w6 13r28 21r28 29r33 43r24 86r27 87r28
+. 103r28 104r29 18|3r28 15r28 17r35 18r35 30r33 45r11 69r24 78r12 84r10 102r11
+. 130r18 131r9 133r9 157r11 165r13 170r25 180r27 181r28 183r11 208r13 209r22
+. 211r23 219r28 220r29 222r11 237r11 243r22 245r12
+X 23 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[14|10] 17|4w6 42r24 61r33 62r35 70r39 95r27
+. 96r28 112r24 18|68r24 126r33 127r35 151r39 153r11 154r11 200r27 201r28
+. 203r11 234r24
+X 24 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 17|1w6 1r46 24|30e29
+7I8*natural32<long_integer> 17|53r47 18|98r47 100r11
+

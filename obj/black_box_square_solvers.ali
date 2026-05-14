@@ -1,0 +1,858 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U black_box_square_solvers%b  black_box_square_solvers.adb  47ab33e4 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W black_box_binomial_solvers%s  black_box_binomial_solvers.adb  black_box_binomial_solvers.ali
+W black_box_helpers%s	black_box_helpers.adb	black_box_helpers.ali
+W black_box_root_counters%s  black_box_root_counters.adb  black_box_root_counters.ali
+W black_box_simplex_solvers%s  black_box_simplex_solvers.adb  black_box_simplex_solvers.ali
+W dobldobl_blackbox_continuations%s  dobldobl_blackbox_continuations.adb  dobldobl_blackbox_continuations.ali
+W dobldobl_complex_laur_systems_io%s  dobldobl_complex_laur_systems_io.adb  dobldobl_complex_laur_systems_io.ali
+W dobldobl_complex_poly_systems_io%s  dobldobl_complex_poly_systems_io.adb  dobldobl_complex_poly_systems_io.ali
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W dobldobl_complex_solutions_io%s  dobldobl_complex_solutions_io.adb  dobldobl_complex_solutions_io.ali
+W dobldobl_monomial_maps%s  dobldobl_monomial_maps.adb  dobldobl_monomial_maps.ali
+W dobldobl_scaling%s	dobldobl_scaling.adb	dobldobl_scaling.ali
+W greeting_banners%s	greeting_banners.adb	greeting_banners.ali
+W quaddobl_blackbox_continuations%s  quaddobl_blackbox_continuations.adb  quaddobl_blackbox_continuations.ali
+W quaddobl_complex_laur_systems_io%s  quaddobl_complex_laur_systems_io.adb  quaddobl_complex_laur_systems_io.ali
+W quaddobl_complex_poly_systems_io%s  quaddobl_complex_poly_systems_io.adb  quaddobl_complex_poly_systems_io.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_complex_solutions_io%s  quaddobl_complex_solutions_io.adb  quaddobl_complex_solutions_io.ali
+W quaddobl_monomial_maps%s  quaddobl_monomial_maps.adb  quaddobl_monomial_maps.ali
+W quaddobl_scaling%s	quaddobl_scaling.adb	quaddobl_scaling.ali
+W standard_blackbox_continuations%s  standard_blackbox_continuations.adb  standard_blackbox_continuations.ali
+W standard_complex_laur_systems_io%s  standard_complex_laur_systems_io.adb  standard_complex_laur_systems_io.ali
+W standard_complex_poly_systems_io%s  standard_complex_poly_systems_io.adb  standard_complex_poly_systems_io.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_monomial_maps%s  standard_monomial_maps.adb  standard_monomial_maps.ali
+W standard_monomial_maps_io%s  standard_monomial_maps_io.adb  standard_monomial_maps_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_scaling%s	standard_scaling.adb	standard_scaling.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+W time_stamps%s		time_stamps.adb		time_stamps.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+W write_number_of_tasks%s  write_number_of_tasks.adb  write_number_of_tasks.ali
+W write_seed_number%s	write_seed_number.adb	write_seed_number.ali
+
+U black_box_square_solvers%s  black_box_square_solvers.ads  66e852fa EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W dobldobl_complex_laur_systems%s  dobldobl_complex_laur_systems.ads  dobldobl_complex_laur_systems.ali
+W dobldobl_complex_poly_systems%s  dobldobl_complex_poly_systems.ads  dobldobl_complex_poly_systems.ali
+W quaddobl_complex_laur_systems%s  quaddobl_complex_laur_systems.ads  quaddobl_complex_laur_systems.ali
+W quaddobl_complex_poly_systems%s  quaddobl_complex_poly_systems.ads  quaddobl_complex_poly_systems.ali
+W standard_complex_laur_systems%s  standard_complex_laur_systems.ads  standard_complex_laur_systems.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-calend.ads		20250808065140 bf7f3cc9 ada.calendar%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_floating_vector_lists.ads  20260513024558 692438df arrays_of_floating_vector_lists%s
+D black_box_binomial_solvers.ads  20260513024558 d647f6f6 black_box_binomial_solvers%s
+D black_box_helpers.ads	20260513024558 43fdd4e8 black_box_helpers%s
+D black_box_root_counters.ads  20260513024558 7a8b1027 black_box_root_counters%s
+D black_box_simplex_solvers.ads  20260513024558 fa6639fd black_box_simplex_solvers%s
+D black_box_square_solvers.ads  20260513024558 4278083e black_box_square_solvers%s
+D black_box_square_solvers.adb  20260513024558 f6dc4900 black_box_square_solvers%b
+D dobldobl_blackbox_continuations.ads  20260513024558 8127bbe3 dobldobl_blackbox_continuations%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laur_systems_io.ads  20260513024558 d4f608ee dobldobl_complex_laur_systems_io%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_poly_systems_io.ads  20260513024558 e2b75c7f dobldobl_complex_poly_systems_io%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_solutions_io.ads  20260513024558 138ef4d8 dobldobl_complex_solutions_io%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_monomial_maps.ads  20260513024558 82734b4d dobldobl_monomial_maps%s
+D dobldobl_scaling.ads	20260513024558 b5caac77 dobldobl_scaling%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D floating_mixed_subdivisions.ads  20260513024558 bc3e2850 floating_mixed_subdivisions%s
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D greeting_banners.ads	20260513024558 0470dd63 greeting_banners%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D lists_of_floating_vectors.ads  20260513024558 ac5cfddf lists_of_floating_vectors%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D partitions_of_sets_of_unknowns.ads  20260513024558 836df61b partitions_of_sets_of_unknowns%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_blackbox_continuations.ads  20260513024558 f88cd0c4 quaddobl_blackbox_continuations%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laur_systems_io.ads  20260513024558 8a0822df quaddobl_complex_laur_systems_io%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_poly_systems_io.ads  20260513024558 4af9d455 quaddobl_complex_poly_systems_io%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_solutions_io.ads  20260513024558 d7badfd9 quaddobl_complex_solutions_io%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_monomial_maps.ads  20260513024558 33f00b38 quaddobl_monomial_maps%s
+D quaddobl_scaling.ads	20260513024558 b2c7ac9d quaddobl_scaling%s
+D sets_of_unknowns.ads	20260513024558 4fd99d24 sets_of_unknowns%s
+D standard_blackbox_continuations.ads  20260513024558 b55cf6d8 standard_blackbox_continuations%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laur_systems_io.ads  20260513024558 f1988953 standard_complex_laur_systems_io%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_systems_io.ads  20260513024558 30c463ef standard_complex_poly_systems_io%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_monomial_maps.ads  20260513024558 1e177823 standard_monomial_maps%s
+D standard_monomial_maps_io.ads  20260513024558 b9646bfb standard_monomial_maps_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_scaling.ads	20260513024558 6230a083 standard_scaling%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D time_stamps.ads	20260513024558 5fcbb190 time_stamps%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D write_number_of_tasks.ads  20260513024558 2fb093e5 write_number_of_tasks%s
+D write_seed_number.ads	20260513024558 541c31a7 write_seed_number%s
+G a e
+G c Z s b [solve black_box_square_solvers 17 13 none]
+G c Z s b [solve black_box_square_solvers 22 13 none]
+G c Z s b [solve black_box_square_solvers 26 13 none]
+G c Z s b [solve black_box_square_solvers 54 13 none]
+G c Z s b [solve black_box_square_solvers 58 13 none]
+G c Z s b [solve black_box_square_solvers 62 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [ask_output_file black_box_helpers 62 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [tstart timing_package 20 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [are_constants_in black_box_helpers 28 12 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_simplex_solver black_box_simplex_solvers 45 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_simplex_solver black_box_simplex_solvers 19 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r s poly_sys [solve black_box_square_solvers 17 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [solve black_box_square_solvers 17 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [solve black_box_square_solvers 17 13 none] [pipelined_root_counting black_box_root_counters 684 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_root_counting black_box_root_counters 421 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [pipelined_root_counting black_box_root_counters 570 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_root_counting black_box_root_counters 307 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [scale standard_scaling 14 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 139 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 143 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 131 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 135 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [push standard_complex_solutions 110 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [tstop timing_package 24 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [elapsed_user_time timing_package 29 12 none]
+G r c none [solve black_box_square_solvers 17 13 none] [print_times timing_package 49 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [timing_summary black_box_helpers 38 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [solve black_box_square_solvers 17 13 none] [write_seed_number standard 3 11 none]
+G r c none [solve black_box_square_solvers 17 13 none] [version greeting_banners 64 12 none]
+G r c none [solve black_box_square_solvers 17 13 none] [append_solutions_to_input_file black_box_helpers 44 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [put standard_complex_solutions_io 118 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [solve black_box_square_solvers 17 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [solve black_box_square_solvers 17 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [ask_output_file black_box_helpers 62 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [put dobldobl_complex_poly_systems_io 21 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [tstart timing_package 20 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [are_constants_in black_box_helpers 30 12 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_simplex_solver black_box_simplex_solvers 50 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_simplex_solver black_box_simplex_solvers 23 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r s poly_sys [solve black_box_square_solvers 22 13 none] [poly_sysIP dobldobl_complex_poly_systems 22 8 5_1]
+G r c none [solve black_box_square_solvers 22 13 none] [copy dobldobl_complex_poly_systems 29 13 5_1]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_root_counting black_box_root_counters 429 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [pipelined_root_counting black_box_root_counters 578 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_root_counting black_box_root_counters 315 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [scale dobldobl_scaling 15 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 126 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 130 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 119 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 122 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [push dobldobl_complex_solutions 138 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [tstop timing_package 24 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [elapsed_user_time timing_package 29 12 none]
+G r c none [solve black_box_square_solvers 22 13 none] [print_times timing_package 49 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [timing_summary black_box_helpers 38 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [solve black_box_square_solvers 22 13 none] [write_seed_number standard 3 11 none]
+G r c none [solve black_box_square_solvers 22 13 none] [version greeting_banners 64 12 none]
+G r c none [solve black_box_square_solvers 22 13 none] [append_solutions_to_input_file black_box_helpers 48 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [put dobldobl_complex_solutions_io 74 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [solve black_box_square_solvers 22 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [solve black_box_square_solvers 22 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [ask_output_file black_box_helpers 62 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [put quaddobl_complex_poly_systems_io 21 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [tstart timing_package 20 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [are_constants_in black_box_helpers 32 12 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_simplex_solver black_box_simplex_solvers 55 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_simplex_solver black_box_simplex_solvers 27 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r s poly_sys [solve black_box_square_solvers 26 13 none] [poly_sysIP quaddobl_complex_poly_systems 22 8 5_1]
+G r c none [solve black_box_square_solvers 26 13 none] [copy quaddobl_complex_poly_systems 29 13 5_1]
+G r c none [solve black_box_square_solvers 26 13 none] [pipelined_root_counting black_box_root_counters 700 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_root_counting black_box_root_counters 437 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [pipelined_root_counting black_box_root_counters 586 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_root_counting black_box_root_counters 323 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [scale quaddobl_scaling 15 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 126 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 130 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 119 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 122 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [push quaddobl_complex_solutions 138 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [tstop timing_package 24 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [elapsed_user_time timing_package 29 12 none]
+G r c none [solve black_box_square_solvers 26 13 none] [print_times timing_package 49 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [timing_summary black_box_helpers 38 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [solve black_box_square_solvers 26 13 none] [write_seed_number standard 3 11 none]
+G r c none [solve black_box_square_solvers 26 13 none] [version greeting_banners 64 12 none]
+G r c none [solve black_box_square_solvers 26 13 none] [append_solutions_to_input_file black_box_helpers 52 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [put quaddobl_complex_solutions_io 74 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [get_seed standard_random_numbers 18 12 none]
+G r c none [solve black_box_square_solvers 26 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [solve black_box_square_solvers 26 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [ask_output_file black_box_helpers 62 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [put standard_complex_laur_systems_io 48 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [tstart timing_package 20 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_simplex_solver black_box_simplex_solvers 61 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_simplex_solver black_box_simplex_solvers 32 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_binomial_solver black_box_binomial_solvers 81 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_binomial_solver black_box_binomial_solvers 65 13 none]
+G r s laur_sys [solve black_box_square_solvers 54 13 none] [laur_sysIP standard_complex_laur_systems 22 8 5_1]
+G r c none [solve black_box_square_solvers 54 13 none] [copy standard_complex_laur_systems 29 13 5_1]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_root_counting black_box_root_counters 827 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 216 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 225 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_root_counting black_box_root_counters 740 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 199 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [black_box_polynomial_continuation standard_blackbox_continuations 207 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [tstop timing_package 24 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [elapsed_user_time timing_package 29 12 none]
+G r c none [solve black_box_square_solvers 54 13 none] [print_times timing_package 49 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [timing_summary black_box_helpers 38 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [solve black_box_square_solvers 54 13 none] [write_seed_number standard 3 11 none]
+G r c none [solve black_box_square_solvers 54 13 none] [version greeting_banners 64 12 none]
+G r c none [solve black_box_square_solvers 54 13 none] [append standard_monomial_maps_io 141 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [append_solutions_to_input_file black_box_helpers 44 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [put standard_monomial_maps_io 106 13 none]
+G r c none [solve black_box_square_solvers 54 13 none] [put standard_complex_solutions_io 118 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [ask_output_file black_box_helpers 62 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [put dobldobl_complex_laur_systems_io 19 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [tstart timing_package 20 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_simplex_solver black_box_simplex_solvers 66 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_simplex_solver black_box_simplex_solvers 36 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_binomial_solver black_box_binomial_solvers 86 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_binomial_solver black_box_binomial_solvers 70 13 none]
+G r s laur_sys [solve black_box_square_solvers 58 13 none] [laur_sysIP dobldobl_complex_laur_systems 22 8 5_1]
+G r c none [solve black_box_square_solvers 58 13 none] [copy dobldobl_complex_laur_systems 29 13 5_1]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_root_counting black_box_root_counters 835 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 199 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 208 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_root_counting black_box_root_counters 748 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 182 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [black_box_polynomial_continuation dobldobl_blackbox_continuations 190 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [tstop timing_package 24 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [elapsed_user_time timing_package 29 12 none]
+G r c none [solve black_box_square_solvers 58 13 none] [print_times timing_package 49 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [timing_summary black_box_helpers 38 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [solve black_box_square_solvers 58 13 none] [write_seed_number standard 3 11 none]
+G r c none [solve black_box_square_solvers 58 13 none] [version greeting_banners 64 12 none]
+G r c none [solve black_box_square_solvers 58 13 none] [append_solutions_to_input_file black_box_helpers 48 13 none]
+G r c none [solve black_box_square_solvers 58 13 none] [put dobldobl_complex_solutions_io 74 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [ask_output_file black_box_helpers 62 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [put quaddobl_complex_laur_systems_io 19 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [tstart timing_package 20 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_simplex_solver black_box_simplex_solvers 71 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_simplex_solver black_box_simplex_solvers 40 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_binomial_solver black_box_binomial_solvers 91 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_binomial_solver black_box_binomial_solvers 75 13 none]
+G r s laur_sys [solve black_box_square_solvers 62 13 none] [laur_sysIP quaddobl_complex_laur_systems 22 8 5_1]
+G r c none [solve black_box_square_solvers 62 13 none] [copy quaddobl_complex_laur_systems 29 13 5_1]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_root_counting black_box_root_counters 843 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 199 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 208 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_root_counting black_box_root_counters 756 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 182 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [black_box_polynomial_continuation quaddobl_blackbox_continuations 190 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [tstop timing_package 24 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [elapsed_user_time timing_package 29 12 none]
+G r c none [solve black_box_square_solvers 62 13 none] [print_times timing_package 49 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [timing_summary black_box_helpers 38 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [write_number_of_tasks standard 4 11 none]
+G r c none [solve black_box_square_solvers 62 13 none] [write_seed_number standard 3 11 none]
+G r c none [solve black_box_square_solvers 62 13 none] [version greeting_banners 64 12 none]
+G r c none [solve black_box_square_solvers 62 13 none] [append_solutions_to_input_file black_box_helpers 52 13 none]
+G r c none [solve black_box_square_solvers 62 13 none] [put quaddobl_complex_solutions_io 74 13 none]
+X 3 ada.ads
+18K9*Ada 22e8 20|1r6 18r39 23r39 27r39 55r39 59r39 63r39 21|39r39 47r20 109r21
+. 148r39 156r20 218r21 259r39 267r20 329r21 370r39 383r20 465r21 508r39 520r20
+. 605r21 648r39 660r20 744r21
+X 4 a-calend.ads
+36K13*Calendar 440e17 20|1w10 18r43 23r43 27r43 55r43 59r43 63r43 21|39r43
+. 47r24 109r25 148r43 156r24 218r25 259r43 267r24 329r25 370r43 383r24 465r25
+. 508r43 520r24 605r25 648r43 660r24 744r25
+42I9*Time<226I9> 20|18r52 23r52 27r52 55r52 59r52 63r52 21|39r52 47r33 148r52
+. 156r33 259r52 267r33 370r52 383r33 508r52 520r33 648r52 660r33
+56V13*Clock{42I9} 21|109s34 218s34 329s34 465s34 605s34 744s34
+226I9 Time_Rep<long_long_integer>
+X 13 a-textio.ads
+67P9*File_Type 21|48r15 157r15 268r15 378r15 515r15 655r15
+131U14*Close 21|122s7 231s7 342s7 480s9 620s9 759s9
+188V13*Standard_Output{67P9} 21|136s40 137s46 138s39 140s26 141s29 142s25
+. 247s40 248s46 249s39 251s26 252s29 253s25 358s40 359s46 360s39 362s26 363s29
+. 364s25 491s40 492s46 493s39 495s26 496s29 497s25 631s40 632s46 633s39 635s26
+. 636s29 637s25 770s40 771s46 772s39 774s26 775s29 776s25
+277U14*New_Line 21|111s7 113s7 220s7 222s7 331s7 333s7 469s9 471s9 531s41
+. 609s9 611s9 671s41 748s9 750s9
+284U14*New_Line 21|130s7 240s7 351s7 488s7 504s34 628s7 644s34 767s7 783s34
+508U14*Put 21|115s7 116s7 224s7 225s7 335s7 336s7 473s9 474s9 613s9 614s9
+. 752s9 753s9
+515U14*Put 21|137s7 138s7 248s7 249s7 359s7 360s7 492s7 493s7 503s7 504s7
+. 632s7 633s7 643s7 644s7 771s7 772s7 782s7 783s7
+555U14*Put_Line 21|117s7 121s7 226s7 230s7 337s7 341s7 475s9 479s9 615s9
+. 619s9 754s9 758s9
+565U14*Put_Line 21|58s7 59s7 131s7 139s7 143s7 167s7 168s7 241s7 250s7 254s7
+. 278s7 279s7 352s7 361s7 365s7 388s7 390s7 484s24 489s7 494s7 498s7 502s7
+. 525s7 527s7 624s24 629s7 634s7 638s7 642s7 665s7 667s7 763s24 768s7 773s7
+. 777s7 781s7
+X 16 black_box_binomial_solvers.ads
+13K9*Black_Box_Binomial_Solvers 111e31 21|23w6 23r46
+65U13*Black_Box_Binomial_Solver 21|73s13
+70U13*Black_Box_Binomial_Solver 21|182s13
+75U13*Black_Box_Binomial_Solver 21|293s13
+81U13*Black_Box_Binomial_Solver 21|72s13
+86U13*Black_Box_Binomial_Solver 21|181s13
+91U13*Black_Box_Binomial_Solver 21|292s13
+X 17 black_box_helpers.ads
+13K9*Black_Box_Helpers 78e22 21|34w6 61r5 114r7 126r9 136r7 170r5 223r7 236r7
+. 247r7 281r5 334r7 347r7 358r7 392r5 397r8 472r9 481r9 491r7 529r5 535r8
+. 612r9 621r9 631r7 669r5 675r8 751r9 760r9 770r7
+28V12*Are_Constants_In{boolean} 21|397s26
+30V12*Are_Constants_In{boolean} 21|535s26
+32V12*Are_Constants_In{boolean} 21|675s26
+38U13*Timing_Summary 21|114s25 136s25 223s25 247s25 334s25 358s25 472s27
+. 491s25 612s27 631s25 751s27 770s25
+44U13*Append_Solutions_to_Input_File 21|126s27 481s27
+48U13*Append_Solutions_to_Input_File 21|236s25 621s27
+52U13*Append_Solutions_to_Input_File 21|347s25 760s27
+62U13*Ask_Output_File 21|61s23 170s23 281s23 392s23 529s23 669s23
+X 18 black_box_root_counters.ads
+21K9*Black_Box_Root_Counters 1014e28 21|29w6 29r46
+307U13*Black_Box_Root_Counting 21|425s13
+315U13*Black_Box_Root_Counting 21|565s13
+323U13*Black_Box_Root_Counting 21|704s13
+421U13*Black_Box_Root_Counting 21|416s13
+429U13*Black_Box_Root_Counting 21|552s13 556s13
+437U13*Black_Box_Root_Counting 21|695s13
+570U13*Pipelined_Root_Counting 21|422s13
+578U13*Pipelined_Root_Counting 21|562s13
+586U13*Pipelined_Root_Counting 21|701s13
+684U13*Pipelined_Root_Counting 21|413s13
+700U13*Pipelined_Root_Counting 21|692s13
+740U13*Black_Box_Root_Counting 21|94s11
+748U13*Black_Box_Root_Counting 21|203s11
+756U13*Black_Box_Root_Counting 21|314s11
+827U13*Black_Box_Root_Counting 21|82s11
+835U13*Black_Box_Root_Counting 21|191s11
+843U13*Black_Box_Root_Counting 21|302s11
+X 19 black_box_simplex_solvers.ads
+13K9*Black_Box_Simplex_Solvers 89e30 21|24w6 24r46
+19U13*Black_Box_Simplex_Solver 21|400s13
+23U13*Black_Box_Simplex_Solver 21|538s13
+27U13*Black_Box_Simplex_Solver 21|678s13
+32U13*Black_Box_Simplex_Solver 21|68s11
+36U13*Black_Box_Simplex_Solver 21|177s11
+40U13*Black_Box_Simplex_Solver 21|288s11
+45U13*Black_Box_Simplex_Solver 21|399s13
+50U13*Black_Box_Simplex_Solver 21|537s13
+55U13*Black_Box_Simplex_Solver 21|677s13
+61U13*Black_Box_Simplex_Solver 21|67s11
+66U13*Black_Box_Simplex_Solver 21|176s11
+71U13*Black_Box_Simplex_Solver 21|287s11
+X 20 black_box_square_solvers.ads
+11K9*Black_Box_Square_Solvers 89l5 89e29 21|36b14 786l5 786t29
+17U13*Solve 17>21 17>40 17>51 18>21 19>21 20>21 20>29 21>21 21|369b13 505l7
+. 505t12
+17i21 nt{107|7I8} 21|369b21 412r14 414r34 417r34 421r14 423r26 426r26 437r16
+. 442r44 449r16 454r36 477r39 496r45
+17a40 infilename{string} 21|369b40 482r12
+17a51 outfilename{string} 21|369b51 392r47
+18i21 start_moment{4|42I9} 21|370b21 473r64 476r36 492r62 495r42
+19p21 p{45|23P8[88|5]} 21|371b21 394r33 394r41 397r43 399r46 400r38 408r55
+. 410r44 490r37
+20b21 deflate{boolean} 21|372b21 439r26 442r26 451r18 454r18
+20b29 append_sols{boolean} 21|372b29 482r28
+21i21 verbose{100|6I8} 21|373b21 387r8 399r62 400r54 418r16 427r16 439r55
+. 442r69 451r47 454r61
+22U13*Solve 22>21 22>40 22>51 23>21 24>21 25>21 25>47 21|507b13 645l7 645t12
+22i21 nt{107|7I8} 21|507b21 551r14 553r34 557r34 561r14 563r26 566r26 577r16
+. 582r36 589r16 594r28 617r39 636r45
+22a40 infilename{string} 21|507b40 622r12
+22a51 outfilename{string} 21|507b51 529r47
+23i21 start_moment{4|42I9} 21|508b21 613r64 616r36 632r62 635r42
+24p21 p{45|23P8[27|5]} 21|509b21 531r29 532r19 535r43 537r46 538r38 546r55
+. 548r44 630r37
+25b21 append_sols{boolean} 21|510b21 622r28
+25i47 verbose{100|6I8} 21|510b47 524r8 537r62 538r54 554r16 558r16 567r16
+. 579r47 582r61 591r39 594r53
+26U13*Solve 26>21 26>40 26>51 27>21 28>21 29>21 29>47 21|647b13 784l7 784t12
+26i21 nt{107|7I8} 21|647b21 691r14 693r34 696r34 700r14 702r26 705r26 716r16
+. 721r36 728r16 733r28 756r39 775r45
+26a40 infilename{string} 21|647b40 761r12
+26a51 outfilename{string} 21|647b51 669r47
+27i21 start_moment{4|42I9} 21|648b21 752r64 755r36 771r62 774r42
+28p21 p{45|23P8[73|5]} 21|649b21 671r29 672r19 675r43 677r46 678r38 686r55
+. 688r44 769r37
+29b21 append_sols{boolean} 21|650b21 761r28
+29i47 verbose{100|6I8} 21|650b47 664r8 677r62 678r54 697r16 706r16 718r47
+. 721r61 730r39 733r53
+54U13*Solve 54>21 54>40 54>51 55>21 56>21 57>21 57>47 21|38b13 145l7 145t12
+54i21 nt{107|7I8} 21|38b21 83r32 85r16 90r36 95r24 97r16 101r28 119r37 141r45
+54a40 infilename{string} 21|38b40 124r16 127r12
+54a51 outfilename{string} 21|38b51 61r47
+55i21 start_moment{4|42I9} 21|39b21 115r62 118r34 137r62 140r42
+56p21 p{40|23P8[84|5]} 21|40b21 63r33 63r41 67r44 68r36 72r47 73r39 78r55
+. 80r44 134r43
+57b21 append_sols{boolean} 21|41b21 127r28
+57i47 verbose{100|6I8} 21|41b47 57r8 67r60 68r52 72r63 73r61 83r59 87r41
+. 90r55 95r57 98r64 101r47
+58U13*Solve 58>21 58>40 58>51 59>21 60>21 61>21 61>47 21|147b13 256l7 256t12
+58i21 nt{107|7I8} 21|147b21 192r32 194r16 199r36 204r24 206r16 210r28 228r37
+. 252r45
+58a40 infilename{string} 21|147b40 237r10
+58a51 outfilename{string} 21|147b51 170r47
+59i21 start_moment{4|42I9} 21|148b21 224r62 227r34 248r62 251r42
+60p21 p{40|23P8[23|5]} 21|149b21 172r23 176r44 177r36 181r47 182r39 187r55
+. 189r44 245r37
+61b21 append_sols{boolean} 21|150b21 237r26
+61i47 verbose{100|6I8} 21|150b47 166r8 176r60 177r52 181r63 182r61 192r59
+. 196r41 199r55 204r57 207r64 210r47
+62U13*Solve 62>21 62>40 62>51 63>21 64>21 65>21 65>47 21|258b13 367l7 367t12
+62i21 nt{107|7I8} 21|258b21 303r32 305r16 310r36 315r24 317r16 321r28 339r37
+. 363r45
+62a40 infilename{string} 21|258b40 348r10
+62a51 outfilename{string} 21|258b51 281r47
+63i21 start_moment{4|42I9} 21|259b21 335r62 338r34 359r62 362r42
+64p21 p{40|23P8[69|5]} 21|260b21 283r23 287r44 288r36 292r47 293r39 298r55
+. 300r44 356r37
+65b21 append_sols{boolean} 21|261b21 348r26
+65i47 verbose{100|6I8} 21|261b47 277r8 287r60 288r52 292r63 293r61 303r59
+. 307r41 310r55 315r57 318r64 321r47
+X 21 black_box_square_solvers.adb
+46p5 timer{137|16P8} 65m12 65r12 107m11 107r11 108r32 112r27
+47i5 ended_moment{4|42I9} 109m5 116r55 118r47 138r55 140r55
+48p5 outfile{13|67P9} 61m39 61r39 63r15 67r36 72r39 83r14 87r18 90r18 111r16
+. 112r19 113r16 114r40 115r11 115r54 116r11 116r47 117r16 118r26 119r29 120r25
+. 121r16 122m13 122r13
+49b5 output_to_file{boolean} 61m59 62r8 66r8 71r10 81r12 110r8
+50b5 fail{boolean} 67m55 68m47 70r8 72m58 73m56 76r8
+51p5 sols{92|28P8} 67m50 67r50 68m42 68r42 70r27 76r27 83m44 83r44 87m31
+. 87r31 90m45 90r45 95m42 95r42 98m54 98r54 101m37 101r37 127r23 134r27 134r51
+52p5 maps{105|37P8} 72m53 72r53 73m51 73r51 123r10 124r27 132r10 133r17
+53i5 rc{107|7I8} 83m39 84r14 95m37 96r14
+54o5 roco{duration} 83m49 95m47 114r48 136r56
+54o10 hoco{duration} 83m54 95m52 114r53 136r61
+54o15 poco{duration} 87m36 90m50 98m59 101m42 114r58 136r66
+54o20 total{duration} 108m5 114r63 136r71
+78a9 pp{40|22A8[84|5]} 80m50 80r50 83m36 83r36 87r26 90r40 95m34 95r34 98r49
+. 101r32
+78a12 q{40|22A8[84|5]} 83m42 87r29 90r43 95m40 98r52 101r35
+155p5 timer{137|16P8} 174m12 174r12 216m11 216r11 217r32 221r27
+156i5 ended_moment{4|42I9} 218m5 225r55 227r47 249r55 251r55
+157p5 outfile{13|67P9} 170m39 170r39 172r15 176r36 181r39 192r14 196r18 199r18
+. 220r16 221r19 222r16 223r40 224r11 224r54 225r11 225r47 226r16 227r26 228r29
+. 229r25 230r16 231m13 231r13
+158b5 output_to_file{boolean} 170m59 171r8 175r8 180r10 190r12 219r8
+159b5 fail{boolean} 176m55 177m47 179r8 181m58 182m56 185r8
+160p5 sols{31|31P8} 176m50 176r50 177m42 177r42 179r27 185r27 192m44 192r44
+. 196m31 196r31 199m45 199r45 204m42 204r42 207m54 207r54 210m37 210r37 237r21
+. 245r21 245r45
+161p5 maps{34|38P8} 181m53 181r53 182m51 182r51
+162i5 rc{107|7I8} 192m39 193r14 204m37 205r14
+163o5 roco{duration} 192m49 204m47 223r48 247r56
+163o10 hoco{duration} 192m54 204m52 223r53 247r61
+163o15 poco{duration} 196m36 199m50 207m59 210m42 223r58 247r66
+163o20 total{duration} 217m5 223r63 247r71
+187a9 pp{40|22A8[23|5]} 189m50 189r50 192m36 192r36 196r26 199r40 204m34
+. 204r34 207r49 210r32
+187a12 q{40|22A8[23|5]} 192m42 196r29 199r43 204m40 207r52 210r35
+266p5 timer{137|16P8} 285m12 285r12 327m11 327r11 328r32 332r27
+267i5 ended_moment{4|42I9} 329m5 336r55 338r47 360r55 362r55
+268p5 outfile{13|67P9} 281m39 281r39 283r15 287r36 292r39 303r14 307r18 310r18
+. 331r16 332r19 333r16 334r40 335r11 335r54 336r11 336r47 337r16 338r26 339r29
+. 340r25 341r16 342m13 342r13
+269b5 output_to_file{boolean} 281m59 282r8 286r8 291r10 301r12 330r8
+270b5 fail{boolean} 287m55 288m47 290r8 292m58 293m56 296r8
+271p5 sols{77|31P8} 287m50 287r50 288m42 288r42 290r27 296r27 303m44 303r44
+. 307m31 307r31 310m45 310r45 315m42 315r42 318m54 318r54 321m37 321r37 348r21
+. 356r21 356r45
+272p5 maps{80|38P8} 292m53 292r53 293m51 293r51
+273i5 rc{107|7I8} 303m39 304r14 315m37 316r14
+274o5 roco{duration} 303m49 315m47 334r48 358r56
+274o10 hoco{duration} 303m54 315m52 334r53 358r61
+274o15 poco{duration} 307m36 310m50 318m59 321m42 334r58 358r66
+274o20 total{duration} 328m5 334r63 358r71
+298a9 pp{40|22A8[69|5]} 300m50 300r50 303m36 303r36 307r26 310r40 315m34
+. 315r34 318r49 321r32
+298a12 q{40|22A8[69|5]} 303m42 307r29 310r43 315m40 318r52 321r35
+377p5 timer{137|16P8} 396m12 396r12 463m11 463r11 464r32 470r29
+378p5 outfile{13|67P9} 392m39 392r39 394r15 399r38 414r16 417r16 439r18 442r18
+. 469r18 470r21 471r18 472r42 473r13 473r56 474r13 474r49 475r18 476r28 477r31
+. 478r27 479r18 480m15 480r15
+379i5 rc{107|7I8} 414m47 417m47 423m45 426m45 434r12 504r27
+380p5 sols{92|28P8} 399m52 399r52 400m44 400r44 402r35 414m52 414r52 417m52
+. 417r52 423m50 423r50 426m50 426r50 439m39 439r39 442m53 442r53 451m31 451r31
+. 454m45 454r45 459m22 459r22 482r23 490r21 490r45
+380p10 sols0{92|28P8} 414m57 414r57 417m57 417r57 423m55 423r55 426m55 426r55
+. 439m44 439r44 442m58 442r58 451m36 451r36 454m50 454r50 459r16
+381o5 roco{duration} 414m63 417m63 423m61 426m61 472r50 491r56
+381o10 hoco{duration} 414m68 417m68 423m66 426m66 472r55 491r61
+381o15 poco{duration} 439m50 442m64 451m42 454m56 472r60 491r66
+381o20 total{duration} 464m5 472r65 491r71
+382b5 fail{boolean} 399m57 400m49 402m7 402r16 404m7 406r8
+383i5 ended_moment{4|42I9} 465m5 474r57 476r49 493r55 495r55
+384b5 output_to_file{boolean} 392m59 393r8 398r10 411r12 436r14 466r8
+408a9 pp{45|22A8[88|5]} 410m50 410r50 414m38 414r38 417m38 417r38 423m36
+. 423r36 426m36 426r36 435m34 435r34 439r34 442r48 451r26 454r40
+408a12 q{45|22A8[88|5]} 414m50 417m50 423m48 426m48 439r37 442r51 451r29
+. 454r43
+514p5 timer{137|16P8} 534m12 534r12 603m11 603r11 604r32 610r29
+515p5 outfile{13|67P9} 529m39 529r39 531r11 531r50 532r11 537r38 553r16 557r16
+. 579r18 582r18 609r18 610r21 611r18 612r42 613r13 613r56 614r13 614r49 615r18
+. 616r28 617r31 618r27 619r18 620m15 620r15
+516i5 rc{107|7I8} 553m47 557m47 563m45 566m45 574r12 644r27
+517p5 sols{31|31P8} 537m52 537r52 538m44 538r44 540r35 553m52 553r52 557m52
+. 557r52 563m50 563r50 566m50 566r50 579m31 579r31 582m45 582r45 591m23 591r23
+. 594m37 594r37 599m22 599r22 622r23 630r21 630r45
+517p10 sols0{31|31P8} 553m57 553r57 557m57 557r57 563m55 563r55 566m55 566r55
+. 579m36 579r36 582m50 582r50 591m28 591r28 594m42 594r42 599r16
+518o5 roco{duration} 553m63 557m63 563m61 566m61 612r50 631r56
+518o10 hoco{duration} 553m68 557m68 563m66 566m66 612r55 631r61
+518o15 poco{duration} 579m42 582m56 591m34 594m48 612r60 631r66
+518o20 total{duration} 604m5 612r65 631r71
+519b5 fail{boolean} 537m57 538m49 540m7 540r16 542m7 544r8
+520i5 ended_moment{4|42I9} 605m5 614r57 616r49 633r55 635r55
+521b5 output_to_file{boolean} 529m59 530r8 536r10 550r12 576r14 606r8
+546a9 pp{45|22A8[27|5]} 548m50 548r50 553m38 553r38 557m38 557r38 563m36
+. 563r36 566m36 566r36 575m34 575r34 579r26 582r40 591r18 594r32
+546a12 q{45|22A8[27|5]} 553m50 557m50 563m48 566m48 579r29 582r43 591r21
+. 594r35
+654p5 timer{137|16P8} 674m12 674r12 742m11 742r11 743r32 749r29
+655p5 outfile{13|67P9} 669m39 669r39 671r11 671r50 672r11 677r38 693r16 696r16
+. 718r18 721r18 748r18 749r21 750r18 751r42 752r13 752r56 753r13 753r49 754r18
+. 755r28 756r31 757r27 758r18 759m15 759r15
+656i5 rc{107|7I8} 693m47 696m47 702m45 705m45 713r12 783r27
+657p5 sols{77|31P8} 677m52 677r52 678m44 678r44 680r35 693m52 693r52 696m52
+. 696r52 702m50 702r50 705m50 705r50 718m31 718r31 721m45 721r45 730m23 730r23
+. 733m37 733r37 738m22 738r22 761r23 769r21 769r45
+657p10 sols0{77|31P8} 693m57 693r57 696m57 696r57 702m55 702r55 705m55 705r55
+. 718m36 718r36 721m50 721r50 730m28 730r28 733m42 733r42 738r16
+658o5 roco{duration} 693m63 696m63 702m61 705m61 751r50 770r56
+658o10 hoco{duration} 693m68 696m68 702m66 705m66 751r55 770r61
+658o15 poco{duration} 718m42 721m56 730m34 733m48 751r60 770r66
+658o20 total{duration} 743m5 751r65 770r71
+659b5 fail{boolean} 677m57 678m49 680m7 680r16 682m7 684r8
+660i5 ended_moment{4|42I9} 744m5 753r57 755r49 772r55 774r55
+661b5 output_to_file{boolean} 669m59 670r8 676r10 690r12 715r14 745r8
+686a9 pp{45|22A8[73|5]} 688m50 688r50 693m38 693r38 696m38 696r38 702m36
+. 702r36 705m36 705r36 714m34 714r34 718r26 721r40 730r18 733r32
+686a12 q{45|22A8[73|5]} 693m50 696m50 702m48 705m48 718r29 721r43 730r21
+. 733r35
+X 22 dobldobl_blackbox_continuations.ads
+8K9*DoblDobl_BlackBox_Continuations 21|31w6 31r46 22|246e36
+119U13*Black_Box_Polynomial_Continuation 21|590s15
+122U13*Black_Box_Polynomial_Continuation 21|593s15
+126U13*Black_Box_Polynomial_Continuation 21|578s15
+130U13*Black_Box_Polynomial_Continuation 21|581s15
+182U13*Black_Box_Polynomial_Continuation 21|207s15
+190U13*Black_Box_Polynomial_Continuation 21|209s15
+199U13*Black_Box_Polynomial_Continuation 21|195s15
+208U13*Black_Box_Polynomial_Continuation 21|198s15
+X 23 dobldobl_complex_laur_systems.ads
+5K9*DoblDobl_Complex_Laur_Systems[40|12] 20|7w6 60r28 21|149r28 187r16 189r9
+X 24 dobldobl_complex_laur_systems_io.ads
+5K9*DoblDobl_Complex_Laur_Systems_io 21|11w6 11r46 24|53e37
+19U13*put 21|172s11
+X 27 dobldobl_complex_poly_systems.ads
+5K9*DoblDobl_Complex_Poly_Systems[45|12] 20|6w6 24r28 21|509r28 546r16 548r9
+X 28 dobldobl_complex_poly_systems_io.ads
+6K9*DoblDobl_Complex_Poly_Systems_io 21|10w6 10r46 28|56e37
+21U13*put 21|532s7
+X 31 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 21|16w6 152r9 512r9 31|235e31
+31P8*Solution_List<42|12P8[30]> 21|160r12 517r18
+138U13*Push 21|599s11
+X 32 dobldobl_complex_solutions_io.ads
+6K9*DoblDobl_Complex_Solutions_io 21|17w6 17r46 32|305e34
+74U13*put 21|245s7 630s7
+X 34 dobldobl_monomial_maps.ads
+10K9*DoblDobl_Monomial_Maps 21|27w6 153r9 34|177e27
+34P8*Monomial_Map_List<42|12P8[33]>
+36A8*Array_of_Monomial_Map_Lists(34P8)<100|6I8>
+38P8*Link_to_Array_of_Monomial_Map_Lists(36A8) 21|161r12
+X 35 dobldobl_scaling.ads
+8K9*DoblDobl_Scaling 21|21w6 575r11 35|55e21
+15U13*Scale 21|575s28
+X 40 generic_laur_poly_systems.ads
+22A8*Laur_Sys(41|30P8[86|4])<100|6I8> 21|78r46[84|5] 187r46[23|5] 298r46[69|5]
+23P8*Link_to_Laur_Sys(22A8[84|5]) 20|56r58[84|5] 60r58[23|5] 64r58[69|5]
+. 21|40r58[84|5] 149r58[23|5] 260r58[69|5]
+29U13*Copy 21|80s39[84|5] 189s39[23|5] 300s39[69|5]
+X 41 generic_laurent_polynomials.ads
+30P8*Poly
+X 42 generic_lists.ads
+12P8*List
+67V12*Length_Of{107|7I8} 21|70s17[92|27] 76s17[92|27] 134s17[92|27] 179s17[31|30]
+. 185s17[31|30] 245s11[31|30] 290s17[77|30] 296s17[77|30] 356s11[77|30] 402s25[92|27]
+. 490s11[92|27] 540s25[31|30] 630s11[31|30] 680s25[77|30] 769s11[77|30]
+X 45 generic_polynomial_systems.ads
+22A8*Poly_Sys(46|28P8[90|4])<100|6I8> 21|408r46[88|5] 546r46[27|5] 686r46[73|5]
+23P8*Link_to_Poly_Sys(22A8[88|5]) 20|19r58[88|5] 24r58[27|5] 28r58[73|5]
+. 21|371r58[88|5] 509r58[27|5] 649r58[73|5]
+29U13*Copy 21|410s39[88|5] 548s39[27|5] 688s39[73|5]
+X 46 generic_polynomials.ads
+28P8*Poly
+X 49 greeting_banners.ads
+1K9*Greeting_Banners 21|33w6 121r24 143r16 230r24 254r16 341r24 365r16 479r26
+. 498r16 619r26 638r16 758r26 777r16 49|221e21
+64V12*Version{string} 21|121s41 143s33 230s41 254s33 341s41 365s33 479s43
+. 498s33 619s43 638s33 758s43 777s33
+X 68 quaddobl_blackbox_continuations.ads
+8K9*QuadDobl_BlackBox_Continuations 21|32w6 32r46 68|246e36
+119U13*Black_Box_Polynomial_Continuation 21|729s15
+122U13*Black_Box_Polynomial_Continuation 21|732s15
+126U13*Black_Box_Polynomial_Continuation 21|717s15
+130U13*Black_Box_Polynomial_Continuation 21|720s15
+182U13*Black_Box_Polynomial_Continuation 21|318s15
+190U13*Black_Box_Polynomial_Continuation 21|320s15
+199U13*Black_Box_Polynomial_Continuation 21|306s15
+208U13*Black_Box_Polynomial_Continuation 21|309s15
+X 69 quaddobl_complex_laur_systems.ads
+5K9*QuadDobl_Complex_Laur_Systems[40|12] 20|9w6 64r28 21|260r28 298r16 300r9
+X 70 quaddobl_complex_laur_systems_io.ads
+5K9*QuadDobl_Complex_Laur_Systems_io 21|13w6 13r46 70|51e37
+19U13*put 21|283s11
+X 73 quaddobl_complex_poly_systems.ads
+5K9*QuadDobl_Complex_Poly_Systems[45|12] 20|8w6 28r28 21|649r28 686r16 688r9
+X 74 quaddobl_complex_poly_systems_io.ads
+6K9*QuadDobl_Complex_Poly_Systems_io 21|12w6 12r46 74|56e37
+21U13*put 21|672s7
+X 77 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 21|18w6 263r9 652r9 77|235e31
+31P8*Solution_List<42|12P8[30]> 21|271r12 657r18
+138U13*Push 21|738s11
+X 78 quaddobl_complex_solutions_io.ads
+6K9*QuadDobl_Complex_Solutions_io 21|19w6 19r46 78|305e34
+74U13*put 21|356s7 769s7
+X 80 quaddobl_monomial_maps.ads
+10K9*QuadDobl_Monomial_Maps 21|28w6 264r9 80|177e27
+34P8*Monomial_Map_List<42|12P8[33]>
+36A8*Array_of_Monomial_Map_Lists(34P8)<100|6I8>
+38P8*Link_to_Array_of_Monomial_Map_Lists(36A8) 21|272r12
+X 81 quaddobl_scaling.ads
+8K9*QuadDobl_Scaling 21|22w6 714r11 81|55e21
+15U13*Scale 21|714s28
+X 83 standard_blackbox_continuations.ads
+8K9*Standard_BlackBox_Continuations 21|30w6 30r46 83|263e36
+131U13*Black_Box_Polynomial_Continuation 21|450s15
+135U13*Black_Box_Polynomial_Continuation 21|453s15
+139U13*Black_Box_Polynomial_Continuation 21|438s15
+143U13*Black_Box_Polynomial_Continuation 21|441s15
+199U13*Black_Box_Polynomial_Continuation 21|98s15
+207U13*Black_Box_Polynomial_Continuation 21|100s15
+216U13*Black_Box_Polynomial_Continuation 21|86s15
+225U13*Black_Box_Polynomial_Continuation 21|89s15
+X 84 standard_complex_laur_systems.ads
+5K9*Standard_Complex_Laur_Systems[40|12] 20|5w6 56r28 21|40r28 78r16 80r9
+X 85 standard_complex_laur_systems_io.ads
+6K9*Standard_Complex_Laur_Systems_io 21|9w6 9r46 85|94e37
+48U13*put 21|63s11
+X 88 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[45|12] 20|4w6 19r28 21|371r28 408r16 410r9
+X 89 standard_complex_poly_systems_io.ads
+6K9*Standard_Complex_Poly_Systems_io 21|8w6 8r46 89|130e37
+53U13*put 21|394s11
+X 92 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 21|14w6 43r9 375r9 92|206e31
+28P8*Solution_List<42|12P8[27]> 21|51r12 380r18
+110U13*Push 21|459s11
+X 93 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 21|15w6 15r46 93|358e34
+118U13*put 21|134s13 490s7
+X 100 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 20|3w6 3r46 100|45e29
+6I8*integer32<long_integer> 20|21r34 25r60 29r60 57r60 61r60 65r60 21|41r60
+. 83r22 90r26 95r14 101r18 150r60 192r22 199r26 204r14 210r18 261r60 303r22
+. 310r26 315r14 321r18 373r34 414r24 417r24 423r16 426r16 442r34 454r26 510r60
+. 553r24 557r24 563r16 566r16 582r26 594r18 650r60 693r24 696r24 702r16 705r16
+. 721r26 733r18
+X 101 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 21|4w6 4r46 101|47e32
+26U13*put 21|503s23 643s23 782s23
+X 105 standard_monomial_maps.ads
+10K9*Standard_Monomial_Maps 21|25w6 44r9 105|176e27
+33P8*Monomial_Map_List<42|12P8[32]>
+35A8*Array_of_Monomial_Map_Lists(33P8)<100|6I8>
+37P8*Link_to_Array_of_Monomial_Map_Lists(35A8) 21|52r12
+X 106 standard_monomial_maps_io.ads
+7K9*Standard_Monomial_Maps_io 21|26w6 26r46 106|197e30
+106U13*put 21|133s13
+141U13*Append 21|124s9
+X 107 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 20|2w6 2r46 107|30e29
+7I8*natural32<long_integer> 20|17r29 22r29 26r29 54r29 58r29 62r29 21|38r29
+. 53r10 63r23 134r33 147r29 162r10 245r27 258r29 273r10 356r27 369r29 379r10
+. 394r23 490r27 507r29 516r10 531r19 630r27 647r29 656r10 671r19 769r27
+X 108 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 21|3w6 3r46 108|35e32
+25U13*put 21|504s23 644s23 783s23
+26U13*put 21|531s7 671s7
+X 111 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 21|5w6 503r27 643r27 782r27 111|112e28
+18V12*Get_Seed{100|6I8} 21|503s51 643s51 782s51
+X 112 standard_scaling.ads
+8K9*Standard_Scaling 21|20w6 435r11 112|54e21
+14U13*Scale 21|435s28
+X 135 text_io.ads
+27K9*Text_IO=27:29 21|1w6 1r46
+X 136 time_stamps.ads
+4K9*Time_Stamps 21|2w21 2r61 136|41e16
+29U13*Write_Time_Stamp 21|115s37 116s30 137s29 138s22 224s37 225s30 248s29
+. 249s22 335s37 336s30 359s29 360s22 473s39 474s32 492s29 493s22 613s39 614s32
+. 632s29 633s22 752s39 753s32 771s29 772s22
+34U13*Write_Elapsed_Time 21|118s7 140s7 227s7 251s7 338s7 362s7 476s9 495s7
+. 616s9 635s7 755s9 774s7
+X 137 timing_package.ads
+3K9*Timing_Package 21|2w6 2r46 137|66e19
+16P8*Timing_Widget 21|46r13 155r13 266r13 377r13 514r13 654r13
+20U13*tstart 21|65s5 174s5 285s5 396s5 534s5 674s5
+24U13*tstop 21|107s5 216s5 327s5 463s5 603s5 742s5
+29V12*Elapsed_User_Time{duration} 21|108s14 217s14 328s14 464s14 604s14 743s14
+49U13*print_times 21|112s7 221s7 332s7 470s9 610s9 749s9
+X 139 write_number_of_tasks.ads
+4U11*Write_Number_of_Tasks 21|7w6 119s7 141s7 228s7 252s7 339s7 363s7 477s9
+. 496s7 617s9 636s7 756s9 775s7
+X 140 write_seed_number.ads
+3U11*Write_Seed_Number 21|6w6 120s7 142s7 229s7 253s7 340s7 364s7 478s9 497s7
+. 618s9 637s7 757s9 776s7
+

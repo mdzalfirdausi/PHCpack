@@ -1,0 +1,64 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U valid_vector_checks%b	valid_vector_checks.adb	9252223e NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+U valid_vector_checks%s	valid_vector_checks.ads	7f1945fb EE NE OO PK
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D valid_vector_checks.ads  20260513024558 478cebd6 valid_vector_checks%s
+D valid_vector_checks.adb  20260513024558 84638c94 valid_vector_checks%b
+G a e
+G c Z s b [is_valid valid_vector_checks 9 12 none]
+G c Z s b [is_valid valid_vector_checks 10 12 none]
+G r c none [is_valid valid_vector_checks 9 12 none] [is_valid standard_floating_numbers 49 12 none]
+G r c none [is_valid valid_vector_checks 10 12 none] [is_valid standard_complex_numbers 75 12 none]
+X 2 generic_vectors.ads
+16A8*Vector(6|13F8)<9|6I8> 12|9r53[8|4] 10r52[5|4] 13|6r53[8|4] 16r52[5|4]
+X 3 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 13|2w6 19r14
+75V12*is_valid{boolean} 13|19s39
+X 5 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[2|8] 12|2w6 10r27 13|16r27
+X 6 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 13|1w6 9r14
+13F8*double_float<long_float>
+49V12*Is_Valid{boolean} 13|9s40
+X 8 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[2|8] 12|1w6 9r27 13|6r27
+X 12 valid_vector_checks.ads
+4K9*Valid_Vector_Checks 16l5 16e24 13|4b14 26l5 26t24
+9V12*is_valid{boolean} 9>23 13|6b12 14l7 14t15
+9a23 v{2|16A8[8|4]} 13|6b23 8r14 9r49
+10V12*is_valid{boolean} 10>23 13|16b12 24l7 24t15
+10a23 v{2|16A8[5|4]} 13|16b23 18r14 19r48
+X 13 valid_vector_checks.adb
+8i9 i<long_integer> 9r51
+18i9 i<long_integer> 19r50
+

@@ -1,0 +1,802 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U staggered_newton_convolutions%b  staggered_newton_convolutions.adb  6603103f NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W newton_coefficient_convolutions%s  newton_coefficient_convolutions.adb  newton_coefficient_convolutions.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_newton_convolutions%s  standard_newton_convolutions.adb  standard_newton_convolutions.ali
+
+U staggered_newton_convolutions%s  staggered_newton_convolutions.ads  4eafc569 EE NE OO PK
+W standard_coefficient_convolutions%s  standard_coefficient_convolutions.adb  standard_coefficient_convolutions.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_floating_vecvecvecs%s  standard_floating_vecvecvecs.adb  standard_floating_vecvecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D dobldobl_coefficient_convolutions.ads  20260513024558 d7baa975 dobldobl_coefficient_convolutions%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_vecmats.ads  20260513024558 1b09f088 dobldobl_complex_vecmats%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_speelpenning_convolutions.ads  20260513024558 a14ddeea generic_speelpenning_convolutions%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D newton_coefficient_convolutions.ads  20260513024558 fc225a3e newton_coefficient_convolutions%s
+D staggered_newton_convolutions.ads  20260513024558 f5da4d14 staggered_newton_convolutions%s
+D staggered_newton_convolutions.adb  20260513024558 42f00ddb staggered_newton_convolutions%b
+D standard_coefficient_convolutions.ads  20260513024558 cbd22682 standard_coefficient_convolutions%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecvecs.ads  20260513024558 05f205d7 standard_floating_vecvecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_newton_convolutions.ads  20260513024558 fff6735a standard_newton_convolutions%s
+D standard_speelpenning_convolutions.ads  20260513024558 99412733 standard_speelpenning_convolutions%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [indexed_lu_newton_steps staggered_newton_convolutions 29 13 none]
+G c Z s b [indexed_lu_newton_steps staggered_newton_convolutions 44 13 none]
+G c Z s b [indexed_lu_newton_steps staggered_newton_convolutions 118 13 none]
+G c Z s b [indexed_lu_newton_steps staggered_newton_convolutions 133 13 none]
+G c Z s b [inlined_lu_newton_steps staggered_newton_convolutions 207 13 none]
+G c Z s b [inlined_lu_newton_steps staggered_newton_convolutions 221 13 none]
+G c Z s b [inlined_lu_newton_steps staggered_newton_convolutions 289 13 none]
+G c Z s b [inlined_lu_newton_steps staggered_newton_convolutions 303 13 none]
+G c Z s b [lu_newton_steps staggered_newton_convolutions 371 13 none]
+G c Z s b [lu_newton_steps staggered_newton_convolutions 382 13 none]
+G c Z s b [lu_newton_steps staggered_newton_convolutions 425 13 none]
+G c Z s b [lu_newton_steps staggered_newton_convolutions 436 13 none]
+G c Z s b [qr_newton_steps staggered_newton_convolutions 480 13 none]
+G c Z s b [qr_newton_steps staggered_newton_convolutions 494 13 none]
+G c Z s b [svd_newton_steps staggered_newton_convolutions 549 13 none]
+G c Z s b [svd_newton_steps staggered_newton_convolutions 563 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 29 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 76 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 29 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 29 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 44 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 116 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 44 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 44 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 118 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 216 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 118 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 118 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 133 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 256 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 133 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [indexed_lu_newton_steps staggered_newton_convolutions 133 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 207 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 63 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 207 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 207 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 207 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 221 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 103 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 221 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 221 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 221 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 289 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 203 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 289 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 289 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 289 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 303 13 none] [inlined_lu_newton_step newton_coefficient_convolutions 243 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 303 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 303 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [inlined_lu_newton_steps staggered_newton_convolutions 303 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 371 13 none] [lu_newton_step newton_coefficient_convolutions 344 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 371 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 371 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 371 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 382 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 382 13 none] [lu_newton_step newton_coefficient_convolutions 364 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 382 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 382 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 425 13 none] [lu_newton_step newton_coefficient_convolutions 458 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 425 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 425 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 425 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 436 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 436 13 none] [lu_newton_step newton_coefficient_convolutions 478 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 436 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [lu_newton_steps staggered_newton_convolutions 436 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 480 13 none] [qr_newton_step newton_coefficient_convolutions 580 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 480 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 480 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 480 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 494 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 494 13 none] [qr_newton_step newton_coefficient_convolutions 606 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 494 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [qr_newton_steps staggered_newton_convolutions 494 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 549 13 none] [svd_newton_step newton_coefficient_convolutions 730 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 549 13 none] [maxidx standard_newton_convolutions 120 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 549 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 549 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 563 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 563 13 none] [svd_newton_step newton_coefficient_convolutions 756 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 563 13 none] [maxidx standard_newton_convolutions 105 13 none]
+G r c none [svd_newton_steps staggered_newton_convolutions 563 13 none] [put standard_floating_numbers_io 47 13 none]
+X 10 a-textio.ads
+67P9*File_Type 28|45r27 134r27 222r27 304r27 383r27 437r27 495r27 564r27
+. 29|70r27 192r27 304r27 405r27 501r27 593r27 689r27 787r27
+277U14*New_Line 29|112s9 234s9 338s56 439s56 531s56 623s56 723s56 821s56
+284U14*New_Line 29|51s55 173s55 288s46 389s46 485s46 577s46 673s46 771s46
+508U14*Put 29|110s9 111s9 232s9 233s9 335s9 338s15 436s9 439s15 523s7 528s9
+. 531s15 615s7 620s9 623s15 714s7 720s9 723s15 812s7 818s9 821s15
+515U14*Put 29|33s7 50s9 51s9 93s7 155s7 172s9 173s9 215s7 276s7 285s9 288s15
+. 326s7 377s7 386s9 389s15 427s7 482s9 485s15 574s9 577s15 670s9 673s15 768s9
+. 771s15
+555U14*Put_Line 29|104s17 226s13 337s15 438s15 523s41 530s15 615s41 622s15
+. 714s41 722s15 812s41 820s15
+565U14*Put_Line 29|34s7 44s17 94s7 156s7 166s17 216s7 277s7 287s15 327s7
+. 378s7 388s15 428s7 475s7 484s15 520s7 567s7 576s15 612s7 662s7 672s15 711s7
+. 760s7 770s15 809s7
+X 20 generic_matrices.ads
+16A8*Matrix(32|11R8)<43|6I8><43|6I8> 28|557r53[31|5] 572r53[31|5] 29|746r53[31|5]
+. 795r53[31|5]
+X 23 generic_vectors.ads
+16A8*Vector(37|13F8)<43|6I8> 28|37r53[46|4] 53r53[46|4] 126r53[46|4] 142r53[46|4]
+. 214r53[46|4] 229r53[46|4] 296r53[46|4] 311r53[46|4] 378r53[46|4] 390r53[46|4]
+. 432r53[46|4] 444r53[46|4] 487r54[35|4] 488r66[35|4] 490r53[46|4] 502r54[35|4]
+. 503r66[35|4] 505r53[46|4] 556r52[35|4] 571r52[35|4] 29|18r53[46|4] 78r53[46|4]
+. 140r53[46|4] 200r53[46|4] 261r53[46|4] 311r53[46|4] 362r53[46|4] 412r53[46|4]
+. 463r53[46|4] 508r53[46|4] 555r53[46|4] 600r53[46|4] 647r54[35|4] 648r66[35|4]
+. 650r53[46|4] 696r54[35|4] 697r66[35|4] 699r53[46|4] 745r52[35|4] 794r52[35|4]
+17P8*Link_to_Vector(16A8[40|4]) 28|41r54[40|4] 57r54[40|4] 130r54[40|4] 146r54[40|4]
+. 218r54[40|4] 233r54[40|4] 300r54[40|4] 315r54[40|4] 379r51[35|4] 391r51[35|4]
+. 433r51[35|4] 445r51[35|4] 491r51[35|4] 506r51[35|4] 559r52[35|4] 560r52[35|4]
+. 574r52[35|4] 575r52[35|4] 29|22r54[40|4] 82r54[40|4] 144r54[40|4] 204r54[40|4]
+. 265r54[40|4] 315r54[40|4] 366r54[40|4] 416r54[40|4] 464r51[35|4] 509r51[35|4]
+. 556r51[35|4] 601r51[35|4] 651r51[35|4] 700r51[35|4] 748r52[35|4] 749r52[35|4]
+. 797r52[35|4] 798r52[35|4]
+X 24 generic_vecvecs.ads
+14A8*VecVec(23|17P8[40|4])<43|6I8> 28|31r51[36|5] 47r51[36|5] 120r51[36|5]
+. 136r51[36|5] 209r51[36|5] 224r51[36|5] 291r51[36|5] 306r51[36|5] 373r51[36|5]
+. 385r51[36|5] 427r51[36|5] 439r51[36|5] 482r57[36|5] 497r57[36|5] 551r57[36|5]
+. 566r57[36|5] 29|12r51[36|5] 72r51[36|5] 134r51[36|5] 194r51[36|5] 256r51[36|5]
+. 306r51[36|5] 357r51[36|5] 407r51[36|5] 458r51[36|5] 503r51[36|5] 550r51[36|5]
+. 595r51[36|5] 642r57[36|5] 691r57[36|5] 740r57[36|5] 789r57[36|5]
+15P8*Link_to_VecVec(14A8[41|5]) 28|32r54[41|5] 38r54[41|5] 40r54[41|5] 48r54[41|5]
+. 54r54[41|5] 56r54[41|5] 121r54[41|5] 127r54[41|5] 129r54[41|5] 137r54[41|5]
+. 143r54[41|5] 145r54[41|5] 210r54[41|5] 215r54[41|5] 217r54[41|5] 225r54[41|5]
+. 230r54[41|5] 232r54[41|5] 292r54[41|5] 297r54[41|5] 299r54[41|5] 307r54[41|5]
+. 312r54[41|5] 314r54[41|5] 374r54[41|5] 386r54[41|5] 428r54[41|5] 440r54[41|5]
+. 483r54[41|5] 498r54[41|5] 552r54[41|5] 567r54[41|5] 29|13r54[41|5] 19r54[41|5]
+. 21r54[41|5] 73r54[41|5] 79r54[41|5] 81r54[41|5] 135r54[41|5] 141r54[41|5]
+. 143r54[41|5] 195r54[41|5] 201r54[41|5] 203r54[41|5] 257r54[41|5] 262r54[41|5]
+. 264r54[41|5] 307r54[41|5] 312r54[41|5] 314r54[41|5] 358r54[41|5] 363r54[41|5]
+. 365r54[41|5] 408r54[41|5] 413r54[41|5] 415r54[41|5] 459r54[41|5] 504r54[41|5]
+. 551r54[41|5] 596r54[41|5] 643r54[41|5] 692r54[41|5] 741r54[41|5] 790r54[41|5]
+X 27 newton_coefficient_convolutions.ads
+18K9*Newton_Coefficient_Convolutions 888e36 29|4w6 37r7 97r7 159r7 219r7
+. 280r7 330r7 381r7 431r7 478r7 524r7 570r7 616r7 665r7 715r7 763r7 813r7
+63U13*Inlined_LU_Newton_Step 29|280s39
+76U13*Inlined_LU_Newton_Step 29|37s39
+103U13*Inlined_LU_Newton_Step 29|330s39
+116U13*Inlined_LU_Newton_Step 29|97s39
+203U13*Inlined_LU_Newton_Step 29|381s39
+216U13*Inlined_LU_Newton_Step 29|159s39
+243U13*Inlined_LU_Newton_Step 29|431s39
+256U13*Inlined_LU_Newton_Step 29|219s39
+344U13*LU_Newton_Step 29|478s39
+364U13*LU_Newton_Step 29|524s39
+458U13*LU_Newton_Step 29|570s39
+478U13*LU_Newton_Step 29|616s39
+580U13*QR_Newton_Step 29|665s39
+606U13*QR_Newton_Step 29|715s39
+730U13*SVD_Newton_Step 29|763s39
+756U13*SVD_Newton_Step 29|813s39
+X 28 staggered_newton_convolutions.ads
+13K9*Staggered_Newton_Convolutions 634l5 634e34 29|6b14 836l5 836t34
+29U13*Indexed_LU_Newton_Steps 30>17 31>17 32>17 32>20 33>17 33<39 34>17 34<40
+. 35<17 35<43 36<17 37<17 38>17 38>20 39>17 39>20 40>17 40>20 41>17 41>20
+. 42>17 42>45 43>17 29|10b13 67l7 67t30
+30p17 csr{30|69P8} 29|11b17 38r24 59r19 63r19 64r23
+31a17 scf{24|14A8[36|5]} 29|12b17 38r28
+32p17 rx{24|15P8[41|5]} 29|13b17 38r32
+32p20 ix{24|15P8[41|5]} 29|13b20 38r35
+33i17 maxit{43|6I8} 29|14b17 31r28 36r17
+33i39 nbrit{43|6I8} 29|14b39 31m19 46m11 55m30 60m28
+34f17 tol{37|13F8} 29|15b17 38r38 54r21
+34i40 idxtoldx{43|6I8} 29|15b40 38m42 51r42 58r17
+35f17 absdx{37|13F8} 29|16b17 38m51 50r32 54r12
+35b43 fail{boolean} 29|16b43 31m5 55m15 60m13
+36i17 info{43|6I8} 29|17b17 41m9 42r12
+37a17 ipvt{23|16A8[46|4]} 29|18b17 38m65
+38p17 rc{24|15P8[41|5]} 29|19b17 39r10
+38p20 ic{24|15P8[41|5]} 29|19b20 39r13
+39p17 rv{42|13P8} 29|20b17 39r16
+39p20 iv{42|13P8} 29|20b20 39r19
+40p17 rb{24|15P8[41|5]} 29|21b17 39r22
+40p20 ib{24|15P8[41|5]} 29|21b20 39r25
+41p17 ry{23|17P8[40|4]} 29|22b17 39r28
+41p20 iy{23|17P8[40|4]} 29|22b20 39r31
+42b17 scale{boolean} 29|23b17 39r34
+42b45 verbose{boolean} 29|23b45 43r14 49r10
+43i17 vrblvl{43|6I8} 29|24b17 32r8 39r40
+44U13*Indexed_LU_Newton_Steps 45>17 46>17 47>17 48>17 48>20 49>17 49<39 50>17
+. 50<40 51<17 51<43 52<17 53<17 54>17 54>20 55>17 55>20 56>17 56>20 57>17
+. 57>20 58>17 58>45 59>17 29|69b13 128l7 128t30
+45p17 file{10|67P9} 29|70b17 98r10 104r26 110r13 110r37 111r13 111r47 112r18
+46p17 csr{30|69P8} 29|71b17 98r29 120r19 124r19 125r23
+47a17 scf{24|14A8[36|5]} 29|72b17 98r33
+48p17 rx{24|15P8[41|5]} 29|73b17 98r37
+48p20 ix{24|15P8[41|5]} 29|73b20 98r40
+49i17 maxit{43|6I8} 29|74b17 91r28 96r17
+49i39 nbrit{43|6I8} 29|74b39 91m19 106m11 116m30 121m28
+50f17 tol{37|13F8} 29|75b17 98r43 115r21
+50i40 idxtoldx{43|6I8} 29|75b40 98m47 111r52 119r17
+51f17 absdx{37|13F8} 29|76b17 98m56 110r42 115r12
+51b43 fail{boolean} 29|76b43 91m5 116m15 121m13
+52i17 info{43|6I8} 29|77b17 101m9 102r12
+53a17 ipvt{23|16A8[46|4]} 29|78b17 98m70
+54p17 rc{24|15P8[41|5]} 29|79b17 99r10
+54p20 ic{24|15P8[41|5]} 29|79b20 99r13
+55p17 rv{42|13P8} 29|80b17 99r16
+55p20 iv{42|13P8} 29|80b20 99r19
+56p17 rb{24|15P8[41|5]} 29|81b17 99r22
+56p20 ib{24|15P8[41|5]} 29|81b20 99r25
+57p17 ry{23|17P8[40|4]} 29|82b17 99r28
+57p20 iy{23|17P8[40|4]} 29|82b20 99r31
+58b17 scale{boolean} 29|83b17 99r34
+58b45 verbose{boolean} 29|83b45 103r14 109r10
+59i17 vrblvl{43|6I8} 29|84b17 92r8 99r40
+118U13*Indexed_LU_Newton_Steps 119>17 120>17 121>17 121>20 122>17 122<39
+. 123>17 123<40 124<17 124<43 125<17 126<17 127>17 127>20 128>17 128>20 129>17
+. 129>20 130>17 130>20 131>17 131>45 132>17 29|132b13 189l7 189t30
+119p17 csr{30|69P8} 29|133b17 160r24 181r19 185r19 186r23
+120a17 scf{24|14A8[36|5]} 29|134b17 160r28
+121p17 rx{24|15P8[41|5]} 29|135b17 160r32
+121p20 ix{24|15P8[41|5]} 29|135b20 160r35
+122i17 maxit{43|6I8} 29|136b17 153r28 158r17
+122i39 nbrit{43|6I8} 29|136b39 153m19 168m11 177m30 182m28
+123f17 tol{37|13F8} 29|137b17 160r38 176r21
+123i40 idxtoldx{43|6I8} 29|137b40 160m42 173r42 180r17
+124f17 absdx{37|13F8} 29|138b17 160m51 172r32 176r12
+124b43 fail{boolean} 29|138b43 153m5 177m15 182m13
+125f17 rcond{37|13F8} 29|139b17 163m9 164r18
+126a17 ipvt{23|16A8[46|4]} 29|140b17 160m66
+127p17 rc{24|15P8[41|5]} 29|141b17 161r10
+127p20 ic{24|15P8[41|5]} 29|141b20 161r13
+128p17 rv{42|13P8} 29|142b17 161r16
+128p20 iv{42|13P8} 29|142b20 161r19
+129p17 rb{24|15P8[41|5]} 29|143b17 161r22
+129p20 ib{24|15P8[41|5]} 29|143b20 161r25
+130p17 ry{23|17P8[40|4]} 29|144b17 161r28
+130p20 iy{23|17P8[40|4]} 29|144b20 161r31
+131b17 scale{boolean} 29|145b17 161r34
+131b45 verbose{boolean} 29|145b45 165r14 171r10
+132i17 vrblvl{43|6I8} 29|146b17 154r8 161r40
+133U13*Indexed_LU_Newton_Steps 134>17 135>17 136>17 137>17 137>20 138>17
+. 138<39 139>17 139<40 140<17 140<43 141<17 142<17 143>17 143>20 144>17 144>20
+. 145>17 145>20 146>17 146>20 147>17 147>45 148>17 29|191b13 250l7 250t30
+134p17 file{10|67P9} 29|192b17 220r10 226r22 232r13 232r37 233r13 233r47
+. 234r18
+135p17 csr{30|69P8} 29|193b17 220r29 242r19 246r19 247r23
+136a17 scf{24|14A8[36|5]} 29|194b17 220r33
+137p17 rx{24|15P8[41|5]} 29|195b17 220r37
+137p20 ix{24|15P8[41|5]} 29|195b20 220r40
+138i17 maxit{43|6I8} 29|196b17 213r28 218r17
+138i39 nbrit{43|6I8} 29|196b39 213m19 228m11 238m30 243m28
+139f17 tol{37|13F8} 29|197b17 220r43 237r21
+139i40 idxtoldx{43|6I8} 29|197b40 220m47 233r52 241r17
+140f17 absdx{37|13F8} 29|198b17 220m56 232r42 237r12
+140b43 fail{boolean} 29|198b43 213m5 238m15 243m13
+141f17 rcond{37|13F8} 29|199b17 223m9 224r18
+142a17 ipvt{23|16A8[46|4]} 29|200b17 220m71
+143p17 rc{24|15P8[41|5]} 29|201b17 221r10
+143p20 ic{24|15P8[41|5]} 29|201b20 221r13
+144p17 rv{42|13P8} 29|202b17 221r16
+144p20 iv{42|13P8} 29|202b20 221r19
+145p17 rb{24|15P8[41|5]} 29|203b17 221r22
+145p20 ib{24|15P8[41|5]} 29|203b20 221r25
+146p17 ry{23|17P8[40|4]} 29|204b17 221r28
+146p20 iy{23|17P8[40|4]} 29|204b20 221r31
+147b17 scale{boolean} 29|205b17 221r34
+147b45 verbose{boolean} 29|205b45 225r14 231r10
+148i17 vrblvl{43|6I8} 29|206b17 214r8 221r40
+207U13*Inlined_LU_Newton_Steps 208>17 209>17 210>17 210>20 211>17 211<39
+. 212>17 212<40 213<17 213<37 214<17 215>17 215>20 216>17 216>20 217>17 217>20
+. 218>17 218>20 219>17 219>45 220>17 29|254b13 301l7 301t30
+208p17 csr{30|69P8} 29|255b17 281r17 283r50 286r18 297r19 298r23
+209a17 scf{24|14A8[36|5]} 29|256b17 281r21
+210p17 rx{24|15P8[41|5]} 29|257b17 281r25
+210p20 ix{24|15P8[41|5]} 29|257b20 281r28
+211i17 maxit{43|6I8} 29|258b17 274r28 279r17
+211i39 nbrit{43|6I8} 29|258b39 274m19 293m30
+212f17 tol{37|13F8} 29|259b17 283r57 292r21
+212f40 absdx{37|13F8} 29|259b40 281m31 292r12
+213b17 fail{boolean} 29|260b17 274m5 293m15
+213i37 info{43|6I8} 29|260b37 281m37
+214a17 ipvt{23|16A8[46|4]} 29|261b17 281m42
+215p17 rc{24|15P8[41|5]} 29|262b17 282r10
+215p20 ic{24|15P8[41|5]} 29|262b20 282r13
+216p17 rv{42|13P8} 29|263b17 282r16
+216p20 iv{42|13P8} 29|263b20 282r19
+217p17 rb{24|15P8[41|5]} 29|264b17 282r22
+217p20 ib{24|15P8[41|5]} 29|264b20 282r25
+218p17 ry{23|17P8[40|4]} 29|265b17 282r28
+218p20 iy{23|17P8[40|4]} 29|265b20 282r31
+219b17 scale{boolean} 29|266b17 282r34
+219b45 verbose{boolean} 29|266b45 284r10
+220i17 vrblvl{43|6I8} 29|267b17 275r8 282r40
+221U13*Inlined_LU_Newton_Steps 222>17 223>17 224>17 225>17 225>20 226>17
+. 226<39 227>17 227<40 228<17 228<37 229<17 230>17 230>20 231>17 231>20 232>17
+. 232>20 233>17 233>20 234>17 234>45 235>17 29|303b13 351l7 351t30
+222p17 file{10|67P9} 29|304b17 331r10 335r13 335r37 337r24 338r19 338r43
+. 338r65
+223p17 csr{30|69P8} 29|305b17 331r22 333r50 336r18 347r19 348r23
+224a17 scf{24|14A8[36|5]} 29|306b17 331r26
+225p17 rx{24|15P8[41|5]} 29|307b17 331r30
+225p20 ix{24|15P8[41|5]} 29|307b20 331r33
+226i17 maxit{43|6I8} 29|308b17 324r28 329r17
+226i39 nbrit{43|6I8} 29|308b39 324m19 343m30
+227f17 tol{37|13F8} 29|309b17 333r57 342r21
+227f40 absdx{37|13F8} 29|309b40 331m36 342r12
+228b17 fail{boolean} 29|310b17 324m5 343m15
+228i37 info{43|6I8} 29|310b37 331m42
+229a17 ipvt{23|16A8[46|4]} 29|311b17 331m47
+230p17 rc{24|15P8[41|5]} 29|312b17 332r10
+230p20 ic{24|15P8[41|5]} 29|312b20 332r13
+231p17 rv{42|13P8} 29|313b17 332r16
+231p20 iv{42|13P8} 29|313b20 332r19
+232p17 rb{24|15P8[41|5]} 29|314b17 332r22
+232p20 ib{24|15P8[41|5]} 29|314b20 332r25
+233p17 ry{23|17P8[40|4]} 29|315b17 332r28
+233p20 iy{23|17P8[40|4]} 29|315b20 332r31
+234b17 scale{boolean} 29|316b17 332r34
+234b45 verbose{boolean} 29|316b45 334r10
+235i17 vrblvl{43|6I8} 29|317b17 325r8 332r40
+289U13*Inlined_LU_Newton_Steps 290>17 291>17 292>17 292>20 293>17 293<39
+. 294>17 294<40 295<17 295<37 296<17 297>17 297>20 298>17 298>20 299>17 299>20
+. 300>17 300>20 301>17 301>45 302>17 29|355b13 402l7 402t30
+290p17 csr{30|69P8} 29|356b17 382r17 384r50 387r18 398r19 399r23
+291a17 scf{24|14A8[36|5]} 29|357b17 382r21
+292p17 rx{24|15P8[41|5]} 29|358b17 382r25
+292p20 ix{24|15P8[41|5]} 29|358b20 382r28
+293i17 maxit{43|6I8} 29|359b17 375r28 380r17
+293i39 nbrit{43|6I8} 29|359b39 375m19 394m30
+294f17 tol{37|13F8} 29|360b17 384r57 393r21
+294f40 absdx{37|13F8} 29|360b40 382m31 393r12
+295b17 fail{boolean} 29|361b17 375m5 394m15
+295f37 rcond{37|13F8} 29|361b37 382m37
+296a17 ipvt{23|16A8[46|4]} 29|362b17 382m43
+297p17 rc{24|15P8[41|5]} 29|363b17 383r10
+297p20 ic{24|15P8[41|5]} 29|363b20 383r13
+298p17 rv{42|13P8} 29|364b17 383r16
+298p20 iv{42|13P8} 29|364b20 383r19
+299p17 rb{24|15P8[41|5]} 29|365b17 383r22
+299p20 ib{24|15P8[41|5]} 29|365b20 383r25
+300p17 ry{23|17P8[40|4]} 29|366b17 383r28
+300p20 iy{23|17P8[40|4]} 29|366b20 383r31
+301b17 scale{boolean} 29|367b17 383r34
+301b45 verbose{boolean} 29|367b45 385r10
+302i17 vrblvl{43|6I8} 29|368b17 376r8 383r40
+303U13*Inlined_LU_Newton_Steps 304>17 305>17 306>17 307>17 307>20 308>17
+. 308<39 309>17 309<40 310<17 310<37 311<17 312>17 312>20 313>17 313>20 314>17
+. 314>20 315>17 315>20 316>17 316>45 317>17 29|404b13 452l7 452t30
+304p17 file{10|67P9} 29|405b17 432r10 436r13 436r37 438r24 439r19 439r43
+. 439r65
+305p17 csr{30|69P8} 29|406b17 432r22 434r50 437r18 448r19 449r23
+306a17 scf{24|14A8[36|5]} 29|407b17 432r26
+307p17 rx{24|15P8[41|5]} 29|408b17 432r30
+307p20 ix{24|15P8[41|5]} 29|408b20 432r33
+308i17 maxit{43|6I8} 29|409b17 425r28 430r17
+308i39 nbrit{43|6I8} 29|409b39 425m19 444m30
+309f17 tol{37|13F8} 29|410b17 434r57 443r21
+309f40 absdx{37|13F8} 29|410b40 432m36 443r12
+310b17 fail{boolean} 29|411b17 425m5 444m15
+310f37 rcond{37|13F8} 29|411b37 432m42
+311a17 ipvt{23|16A8[46|4]} 29|412b17 432m48
+312p17 rc{24|15P8[41|5]} 29|413b17 433r10
+312p20 ic{24|15P8[41|5]} 29|413b20 433r13
+313p17 rv{42|13P8} 29|414b17 433r16
+313p20 iv{42|13P8} 29|414b20 433r19
+314p17 rb{24|15P8[41|5]} 29|415b17 433r22
+314p20 ib{24|15P8[41|5]} 29|415b20 433r25
+315p17 ry{23|17P8[40|4]} 29|416b17 433r28
+315p20 iy{23|17P8[40|4]} 29|416b20 433r31
+316b17 scale{boolean} 29|417b17 433r34
+316b45 verbose{boolean} 29|417b45 435r10
+317i17 vrblvl{43|6I8} 29|418b17 426r8 433r40
+371U13*LU_Newton_Steps 372>17 373>17 374>17 374>20 375>17 375<39 376>17 376<40
+. 377<17 377<37 378<17 379>17 380>17 380>45 381>17 29|456b13 498l7 498t22
+372p17 csr{30|69P8} 29|457b17 479r17 480r50 483r18 494r19 495r23
+373a17 scf{24|14A8[36|5]} 29|458b17 479r21
+374p17 rx{24|15P8[41|5]} 29|459b17 479r25
+374p20 ix{24|15P8[41|5]} 29|459b20 479r28
+375i17 maxit{43|6I8} 29|460b17 473r28 477r17
+375i39 nbrit{43|6I8} 29|460b39 473m19 490m30
+376f17 tol{37|13F8} 29|461b17 480r57 489r21
+376f40 absdx{37|13F8} 29|461b40 479m31 489r12
+377b17 fail{boolean} 29|462b17 473m5 490m15
+377i37 info{43|6I8} 29|462b37 479m37
+378a17 ipvt{23|16A8[46|4]} 29|463b17 479m42
+379p17 wrk{23|17P8[35|4]} 29|464b17 479r47
+380b17 scale{boolean} 29|465b17 479r51
+380b45 verbose{boolean} 29|465b45 481r10
+381i17 vrblvl{43|6I8} 29|466b17 474r8 479r57
+382U13*LU_Newton_Steps 383>17 384>17 385>17 386>17 386>20 387>17 387<39 388>17
+. 388<40 389<17 389<37 390<17 391>17 392>17 392>45 393>17 29|500b13 544l7
+. 544t22
+383p17 file{10|67P9} 29|501b17 523r11 523r30 523r50 525r10 528r13 528r37
+. 530r24 531r19 531r43 531r65
+384p17 csr{30|69P8} 29|502b17 525r22 526r50 529r18 540r19 541r23
+385a17 scf{24|14A8[36|5]} 29|503b17 525r26
+386p17 rx{24|15P8[41|5]} 29|504b17 525r30
+386p20 ix{24|15P8[41|5]} 29|504b20 525r33
+387i17 maxit{43|6I8} 29|505b17 518r28 522r17
+387i39 nbrit{43|6I8} 29|505b39 518m19 536m30
+388f17 tol{37|13F8} 29|506b17 526r57 535r21
+388f40 absdx{37|13F8} 29|506b40 525m36 535r12
+389b17 fail{boolean} 29|507b17 518m5 536m15
+389i37 info{43|6I8} 29|507b37 525m42
+390a17 ipvt{23|16A8[46|4]} 29|508b17 525m47
+391p17 wrk{23|17P8[35|4]} 29|509b17 525r52
+392b17 scale{boolean} 29|510b17 525r56
+392b45 verbose{boolean} 29|510b45 527r10
+393i17 vrblvl{43|6I8} 29|511b17 519r8 525r62
+425U13*LU_Newton_Steps 426>17 427>17 428>17 428>20 429>17 429<39 430>17 430<40
+. 431<17 431<37 432<17 433>17 434>17 434>45 435>17 29|548b13 590l7 590t22
+426p17 csr{30|69P8} 29|549b17 571r17 572r50 575r18 586r19 587r23
+427a17 scf{24|14A8[36|5]} 29|550b17 571r21
+428p17 rx{24|15P8[41|5]} 29|551b17 571r25
+428p20 ix{24|15P8[41|5]} 29|551b20 571r28
+429i17 maxit{43|6I8} 29|552b17 565r28 569r17
+429i39 nbrit{43|6I8} 29|552b39 565m19 582m30
+430f17 tol{37|13F8} 29|553b17 572r57 581r21
+430f40 absdx{37|13F8} 29|553b40 571m31 581r12
+431b17 fail{boolean} 29|554b17 565m5 582m15
+431f37 rcond{37|13F8} 29|554b37 571m37
+432a17 ipvt{23|16A8[46|4]} 29|555b17 571m43
+433p17 wrk{23|17P8[35|4]} 29|556b17 571r48
+434b17 scale{boolean} 29|557b17 571r52
+434b45 verbose{boolean} 29|557b45 573r10
+435i17 vrblvl{43|6I8} 29|558b17 566r8 571r58
+436U13*LU_Newton_Steps 437>17 438>17 439>17 440>17 440>20 441>17 441<39 442>17
+. 442<40 443<17 443<37 444<17 445>17 446>17 446>45 447>17 29|592b13 636l7
+. 636t22
+437p17 file{10|67P9} 29|593b17 615r11 615r30 615r50 617r10 620r13 620r37
+. 622r24 623r19 623r43 623r65
+438p17 csr{30|69P8} 29|594b17 617r22 618r50 621r18 632r19 633r23
+439a17 scf{24|14A8[36|5]} 29|595b17 617r26
+440p17 rx{24|15P8[41|5]} 29|596b17 617r30
+440p20 ix{24|15P8[41|5]} 29|596b20 617r33
+441i17 maxit{43|6I8} 29|597b17 610r28 614r17
+441i39 nbrit{43|6I8} 29|597b39 610m19 628m30
+442f17 tol{37|13F8} 29|598b17 618r57 627r21
+442f40 absdx{37|13F8} 29|598b40 617m36 627r12
+443b17 fail{boolean} 29|599b17 610m5 628m15
+443f37 rcond{37|13F8} 29|599b37 617m42
+444a17 ipvt{23|16A8[46|4]} 29|600b17 617m48
+445p17 wrk{23|17P8[35|4]} 29|601b17 617r53
+446b17 scale{boolean} 29|602b17 617r57
+446b45 verbose{boolean} 29|602b45 619r10
+447i17 vrblvl{43|6I8} 29|603b17 611r8 617r63
+480U13*QR_Newton_Steps 481>17 482>17 482>21 482>24 483>17 483>20 484>17 484<39
+. 485>17 485<40 486<17 487<17 488=17 488=20 488=23 488=26 488=29 489<17 490<17
+. 491>17 492>17 492>45 493>17 29|640b13 686l7 686t22
+481p17 csr{30|69P8} 29|641b17 666r17 668r50 671r18 682r19 683r23
+482a17 scf{24|14A8[36|5]} 29|642b17 666r21
+482a21 dx{24|14A8[36|5]} 29|642b21 666r25
+482a24 xd{24|14A8[36|5]} 29|642b24 666r28
+483p17 rx{24|15P8[41|5]} 29|643b17 666r31
+483p20 ix{24|15P8[41|5]} 29|643b20 666r34
+484i17 maxit{43|6I8} 29|644b17 660r28 664r17
+484i39 nbrit{43|6I8} 29|644b39 660m19 678m30
+485f17 tol{37|13F8} 29|645b17 668r57 677r21
+485f40 absdx{37|13F8} 29|645b40 666m37 677r12
+486b17 fail{boolean} 29|646b17 660m5 678m15
+487a17 qraux{23|16A8[35|4]} 29|647b17 666m43
+488a17 w1{23|16A8[35|4]} 29|648b17 666m49
+488a20 w2{23|16A8[35|4]} 29|648b20 666m52
+488a23 w3{23|16A8[35|4]} 29|648b23 666m55
+488a26 w4{23|16A8[35|4]} 29|648b26 666m58
+488a29 w5{23|16A8[35|4]} 29|648b29 666m61
+489i17 info{43|6I8} 29|649b17 666m64
+490a17 ipvt{23|16A8[46|4]} 29|650b17 666m69
+491p17 wrk{23|17P8[35|4]} 29|651b17 666r74
+492b17 scale{boolean} 29|652b17 667r10
+492b45 verbose{boolean} 29|652b45 669r10
+493i17 vrblvl{43|6I8} 29|653b17 661r8 667r16
+494U13*QR_Newton_Steps 495>17 496>17 497>17 497>21 497>24 498>17 498>20 499>17
+. 499<39 500>17 500<40 501<17 502<17 503=17 503=20 503=23 503=26 503=29 504<17
+. 505<17 506>17 507>17 507>45 508>17 29|688b13 734l7 734t22
+495p17 file{10|67P9} 29|689b17 714r11 714r30 714r50 716r10 720r13 720r37
+. 722r24 723r19 723r43 723r65
+496p17 csr{30|69P8} 29|690b17 716r22 718r50 721r18 730r19 731r23
+497a17 scf{24|14A8[36|5]} 29|691b17 716r26
+497a21 dx{24|14A8[36|5]} 29|691b21 716r30
+497a24 xd{24|14A8[36|5]} 29|691b24 716r33
+498p17 rx{24|15P8[41|5]} 29|692b17 716r36
+498p20 ix{24|15P8[41|5]} 29|692b20 716r39
+499i17 maxit{43|6I8} 29|693b17 709r28 713r17
+499i39 nbrit{43|6I8} 29|693b39 709m19 727m28
+500f17 tol{37|13F8} 29|694b17 718r57 726r19
+500f40 absdx{37|13F8} 29|694b40 716m42 726r10
+501b17 fail{boolean} 29|695b17 709m5 727m13
+502a17 qraux{23|16A8[35|4]} 29|696b17 716m48
+503a17 w1{23|16A8[35|4]} 29|697b17 716m54
+503a20 w2{23|16A8[35|4]} 29|697b20 716m57
+503a23 w3{23|16A8[35|4]} 29|697b23 716m60
+503a26 w4{23|16A8[35|4]} 29|697b26 716m63
+503a29 w5{23|16A8[35|4]} 29|697b29 716m66
+504i17 info{43|6I8} 29|698b17 717m10
+505a17 ipvt{23|16A8[46|4]} 29|699b17 717m15
+506p17 wrk{23|17P8[35|4]} 29|700b17 717r20
+507b17 scale{boolean} 29|701b17 717r24
+507b45 verbose{boolean} 29|701b45 719r10
+508i17 vrblvl{43|6I8} 29|702b17 710r8 717r30
+549U13*SVD_Newton_Steps 550>17 551>17 551>21 551>24 552>17 552>20 553>17
+. 553<39 554>17 554<40 555<17 556<17 557<17 557<19 558<17 558<39 559>17 560>17
+. 561>17 561>45 562>17 29|738b13 784l7 784t23
+550p17 csr{30|69P8} 29|739b17 764r17 766r50 769r18 780r19 781r23
+551a17 scf{24|14A8[36|5]} 29|740b17 764r21
+551a21 dx{24|14A8[36|5]} 29|740b21 764r25
+551a24 xd{24|14A8[36|5]} 29|740b24 764r28
+552p17 rx{24|15P8[41|5]} 29|741b17 764r31
+552p20 ix{24|15P8[41|5]} 29|741b20 764r34
+553i17 maxit{43|6I8} 29|742b17 758r28 762r17
+553i39 nbrit{43|6I8} 29|742b39 758m19 776m30
+554f17 tol{37|13F8} 29|743b17 766r57 775r21
+554f40 absdx{37|13F8} 29|743b40 764m37 775r12
+555b17 fail{boolean} 29|744b17 758m5 776m15
+556a17 svl{23|16A8[35|4]} 29|745b17 764m43
+557a17 U{20|16A8[31|5]} 29|746b17 764m47
+557a19 V{20|16A8[31|5]} 29|746b19 764m49
+558i17 info{43|6I8} 29|747b17 764m51
+558f39 rcond{37|13F8} 29|747b39 764m56
+559p17 ewrk{23|17P8[35|4]} 29|748b17 764r62
+560p17 wrkv{23|17P8[35|4]} 29|749b17 764r67
+561b17 scale{boolean} 29|750b17 765r10
+561b45 verbose{boolean} 29|750b45 767r10
+562i17 vrblvl{43|6I8} 29|751b17 759r8 765r16
+563U13*SVD_Newton_Steps 564>17 565>17 566>17 566>21 566>24 567>17 567>20
+. 568>17 568<39 569>17 569<40 570<17 571<17 572<17 572<19 573<17 573<39 574>17
+. 575>17 576>17 576>45 577>17 29|786b13 834l7 834t23
+564p17 file{10|67P9} 29|787b17 812r11 812r30 812r50 814r10 818r13 818r37
+. 820r24 821r19 821r43 821r65
+565p17 csr{30|69P8} 29|788b17 814r22 816r43 819r18 830r19 831r23
+566a17 scf{24|14A8[36|5]} 29|789b17 814r26
+566a21 dx{24|14A8[36|5]} 29|789b21 814r30
+566a24 xd{24|14A8[36|5]} 29|789b24 814r33
+567p17 rx{24|15P8[41|5]} 29|790b17 814r36
+567p20 ix{24|15P8[41|5]} 29|790b20 814r39
+568i17 maxit{43|6I8} 29|791b17 807r28 811r17
+568i39 nbrit{43|6I8} 29|791b39 807m19 826m30
+569f17 tol{37|13F8} 29|792b17 816r50 825r21
+569f40 absdx{37|13F8} 29|792b40 814m42 825r12
+570b17 fail{boolean} 29|793b17 807m5 826m15
+571a17 svl{23|16A8[35|4]} 29|794b17 814m48
+572a17 U{20|16A8[31|5]} 29|795b17 814m52
+572a19 V{20|16A8[31|5]} 29|795b19 814m54
+573i17 info{43|6I8} 29|796b17 814m56
+573f39 rcond{37|13F8} 29|796b39 814m61
+574p17 ewrk{23|17P8[35|4]} 29|797b17 814r67
+575p17 wrkv{23|17P8[35|4]} 29|798b17 814r72
+576b17 scale{boolean} 29|799b17 815r10
+576b45 verbose{boolean} 29|799b45 817r10
+577i17 vrblvl{43|6I8} 29|800b17 808r8 815r16
+X 29 staggered_newton_convolutions.adb
+26i5 idxrun{43|6I8} 38r10 58m7 59r10
+27i5 degrun{43|6I8} 38r17 53r10 62m7 62r19 63r10 64m13
+28i5 wrkinfo{43|6I8} 38m57 41r17
+36i9 k<long_integer> 40r10 55r39 60r37
+86i5 idxrun{43|6I8} 98r15 119m7 120r10
+87i5 degrun{43|6I8} 98r22 114r10 123m7 123r19 124r10 125m13
+88i5 wrkinfo{43|6I8} 98m62 101r17
+96i9 k<long_integer> 100r10 116r39 121r37
+148i5 idxrun{43|6I8} 160r10 180m7 181r10
+149i5 degrun{43|6I8} 160r17 175r10 184m7 184r19 185r10 186m13
+150f5 wrkrcond{37|13F8} 160m57 163r18
+158i9 k<long_integer> 162r10 177r39 182r37
+208i5 idxrun{43|6I8} 220r15 241m7 242r10
+209i5 degrun{43|6I8} 220r22 236r10 245m7 245r19 246r10 247m13
+210f5 wrkrcond{37|13F8} 220m62 223r18
+218i9 k<long_integer> 222r10 238r39 243r37
+269f5 maxval{37|13F8} 283m61 285r32
+270i5 idx{43|6I8} 283m68 286r12 288r38
+271i5 wrkdeg{43|6I8} 281r10 283r43 291r10 296m7 296r19 297r10 298m13
+279i9 k<long_integer> 293r39
+319f5 maxval{37|13F8} 333m61 335r42
+320i5 idx{43|6I8} 333m68 336r12 338r48
+321i5 wrkdeg{43|6I8} 331r15 333r43 341r10 346m7 346r19 347r10 348m13
+329i9 k<long_integer> 343r39
+370f5 maxval{37|13F8} 384m61 386r32
+371i5 idx{43|6I8} 384m68 387r12 389r38
+372i5 wrkdeg{43|6I8} 382r10 384r43 392r10 397m7 397r19 398r10 399m13
+380i9 k<long_integer> 394r39
+420f5 maxval{37|13F8} 434m61 436r42
+421i5 idx{43|6I8} 434m68 437r12 439r48
+422i5 wrkdeg{43|6I8} 432r15 434r43 442r10 447m7 447r19 448r10 449m13
+430i9 k<long_integer> 444r39
+468f5 maxval{37|13F8} 480m61 482r32
+469i5 idx{43|6I8} 480m68 483r12 485r38
+470i5 wrkdeg{43|6I8} 479r10 480r43 488r10 493m7 493r19 494r10 495m13
+477i9 k<long_integer> 490r39
+513f5 maxval{37|13F8} 526m61 528r42
+514i5 idx{43|6I8} 526m68 529r12 531r48
+515i5 wrkdeg{43|6I8} 525r15 526r43 534r10 539m7 539r19 540r10 541m13
+522i9 k<long_integer> 523r35 536r39
+560f5 maxval{37|13F8} 572m61 574r32
+561i5 idx{43|6I8} 572m68 575r12 577r38
+562i5 wrkdeg{43|6I8} 571r10 572r43 580r10 585m7 585r19 586r10 587m13
+569i9 k<long_integer> 582r39
+605f5 maxval{37|13F8} 618m61 620r42
+606i5 idx{43|6I8} 618m68 621r12 623r48
+607i5 wrkdeg{43|6I8} 617r15 618r43 626r10 631m7 631r19 632r10 633m13
+614i9 k<long_integer> 615r35 628r39
+655f5 maxval{37|13F8} 668m61 670r32
+656i5 idx{43|6I8} 668m68 671r12 673r38
+657i5 wrkdeg{43|6I8} 666r10 668r43 676r10 681m7 681r19 682r10 683m13
+664i9 k<long_integer> 678r39
+704f5 maxval{37|13F8} 718m61 720r42
+705i5 idx{43|6I8} 718m68 721r12 723r48
+706i5 wrkdeg{43|6I8} 716r15 718r43 729m7 729r19 730r10 731m13
+713i9 k<long_integer> 714r35 727r37
+753f5 maxval{37|13F8} 766m61 768r32
+754i5 idx{43|6I8} 766m68 769r12 771r38
+755i5 wrkdeg{43|6I8} 764r10 766r43 774r10 779m7 779r19 780r10 781m13
+762i9 k<long_integer> 776r39
+802f5 maxval{37|13F8} 816m54 818r42
+803i5 idx{43|6I8} 816m61 819r12 821r48
+804i5 wrkdeg{43|6I8} 814r15 824r10 829m7 829r19 830r10 831m13
+811i9 k<long_integer> 812r35 826r39
+X 30 standard_coefficient_convolutions.ads
+11K9*Standard_Coefficient_Convolutions 28|11w6 30r26 46r26 119r26 135r26
+. 208r26 223r26 290r26 305r26 372r26 384r26 426r26 438r26 481r26 496r26 550r26
+. 565r26 29|11r26 71r26 133r26 193r26 255r26 305r26 356r26 406r26 457r26
+. 502r26 549r26 594r26 641r26 690r26 739r26 788r26 30|692e38
+53i35*deg{43|6I8} 29|59r23 63r23 64r27 120r23 124r23 125r27 181r23 185r23
+. 186r27 242r23 246r23 247r27 297r23 298r27 347r23 348r27 398r23 399r27 448r23
+. 449r27 494r23 495r27 540r23 541r27 586r23 587r27 632r23 633r27 682r23 683r27
+. 730r23 731r27 780r23 781r27 830r23 831r27
+62a5*vy{24|14A8[36|5]} 29|283r54 286r22 333r54 336r22 384r54 387r22 434r54
+. 437r22 480r54 483r22 526r54 529r22 572r54 575r22 618r54 621r22 668r54 671r22
+. 718r54 721r22 766r54 769r22 816r47 819r22
+69P8*Link_to_System(53R8) 28|30r60 46r60 119r60 135r60 208r60 223r60 290r60
+. 305r60 372r60 384r60 426r60 438r60 481r60 496r60 550r60 565r60 29|11r60
+. 71r60 133r60 193r60 255r60 305r60 356r60 406r60 457r60 502r60 549r60 594r60
+. 641r60 690r60 739r60 788r60
+X 31 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[20|9] 28|10w6 557r27 572r27 29|746r27 795r27
+X 35 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[23|8] 28|8w6 379r26 391r26 433r26 445r26 487r29
+. 488r41 491r26 502r29 503r41 506r26 556r27 559r27 560r27 571r27 574r27 575r27
+. 29|464r26 509r26 556r26 601r26 647r29 648r41 651r26 696r29 697r41 700r26
+. 745r27 748r27 749r27 794r27 797r27 798r27
+X 36 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[24|10] 28|9w6 31r26 47r26 120r26 136r26 209r26
+. 224r26 291r26 306r26 373r26 385r26 427r26 439r26 482r32 497r32 551r32 566r32
+. 29|12r26 72r26 134r26 194r26 256r26 306r26 357r26 407r26 458r26 503r26
+. 550r26 595r26 642r32 691r32 740r32 789r32
+X 37 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 28|3w6 3r46 37|58e30
+13F8*double_float<long_float> 28|34r26 35r29 50r26 51r29 123r26 124r29 125r29
+. 139r26 140r29 141r29 212r26 212r52 227r26 227r52 294r26 294r52 295r49 309r26
+. 309r52 310r49 376r26 376r52 388r26 388r52 430r26 430r52 431r49 442r26 442r52
+. 443r49 485r26 485r52 500r26 500r52 554r26 554r52 558r51 569r26 569r52 573r51
+. 29|15r26 16r29 75r26 76r29 137r26 138r29 139r29 150r16 197r26 198r29 199r29
+. 210r16 259r26 259r52 269r14 309r26 309r52 319r14 360r26 360r52 361r49 370r14
+. 410r26 410r52 411r49 420r14 461r26 461r52 468r14 506r26 506r52 513r14 553r26
+. 553r52 554r49 560r14 598r26 598r52 599r49 605r14 645r26 645r52 655r14 694r26
+. 694r52 704r14 743r26 743r52 747r51 753r14 792r26 792r52 796r51 802r14
+X 38 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 29|2w6 2r46 38|63e33
+45U13*put 29|50s28 172s28 285s28 386s28 482s28 574s28 670s28 768s28
+47U13*put 29|110s33 232s33 335s33 436s33 528s33 620s33 720s33 818s33
+X 40 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[23|8] 28|5w6 41r28 57r28 130r28 146r28 218r28
+. 233r28 300r28 315r28 29|22r28 82r28 144r28 204r28 265r28 315r28 366r28
+. 416r28
+X 41 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[24|10] 28|6w6 32r28 38r28 40r28 48r28 54r28
+. 56r28 121r28 127r28 129r28 137r28 143r28 145r28 210r28 215r28 217r28 225r28
+. 230r28 232r28 292r28 297r28 299r28 307r28 312r28 314r28 374r28 386r28 428r28
+. 440r28 483r28 498r28 552r28 567r28 29|13r28 19r28 21r28 73r28 79r28 81r28
+. 135r28 141r28 143r28 195r28 201r28 203r28 257r28 262r28 264r28 307r28 312r28
+. 314r28 358r28 363r28 365r28 408r28 413r28 415r28 459r28 504r28 551r28 596r28
+. 643r28 692r28 741r28 790r28
+X 42 standard_floating_vecvecvecs.ads
+4K9*Standard_Floating_VecVecVecs 28|7w6 39r28 55r28 128r28 144r28 216r28
+. 231r28 298r28 313r28 29|20r28 80r28 142r28 202r28 263r28 313r28 364r28
+. 414r28 42|43e33
+10A8*VecVecVec(24|15P8[41|5])<43|6I8>
+13P8*Link_to_VecVecVec(10A8) 28|39r57 55r57 128r57 144r57 216r57 231r57 298r57
+. 313r57 29|20r57 80r57 142r57 202r57 263r57 313r57 364r57 414r57
+X 43 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 28|2w6 2r46 43|45e29
+6I8*integer32<long_integer> 28|33r28 33r51 34r55 36r28 43r29 49r28 49r51
+. 50r55 52r28 59r29 122r28 122r51 123r55 132r29 138r28 138r51 139r55 148r29
+. 211r28 211r51 213r48 220r29 226r28 226r51 228r48 235r29 293r28 293r51 302r29
+. 308r28 308r51 317r29 375r28 375r51 377r48 381r29 387r28 387r51 389r48 393r29
+. 429r28 429r51 435r29 441r28 441r51 447r29 484r28 484r51 489r28 493r29 499r28
+. 499r51 504r28 508r29 553r28 553r51 558r28 562r29 568r28 568r51 573r28 577r29
+. 29|14r28 14r51 15r55 17r28 24r29 26r14 27r14 28r15 74r28 74r51 75r55 77r28
+. 84r29 86r14 87r14 88r15 136r28 136r51 137r55 146r29 148r14 149r14 196r28
+. 196r51 197r55 206r29 208r14 209r14 258r28 258r51 260r48 267r29 270r11 271r14
+. 308r28 308r51 310r48 317r29 320r11 321r14 359r28 359r51 368r29 371r11 372r14
+. 409r28 409r51 418r29 421r11 422r14 460r28 460r51 462r48 466r29 469r11 470r14
+. 505r28 505r51 507r48 511r29 514r11 515r14 552r28 552r51 558r29 561r11 562r14
+. 597r28 597r51 603r29 606r11 607r14 644r28 644r51 649r28 653r29 656r11 657r14
+. 693r28 693r51 698r28 702r29 705r11 706r14 742r28 742r51 747r28 751r29 754r11
+. 755r14 791r28 791r51 796r28 800r29 803r11 804r14
+X 44 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 29|1w6 1r46 44|47e32
+26U13*put 29|51s38 173s38 288s34 389s34 485s34 577s34 673s34 771s34
+27U13*put 29|111s43 233s43 338s39 439s39 523s26 531s39 615s26 623s39 714s26
+. 723s39 812s26 821s39
+X 46 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[23|8] 28|4w6 37r28 53r28 126r28 142r28 214r28
+. 229r28 296r28 311r28 378r28 390r28 432r28 444r28 490r28 505r28 29|18r28
+. 78r28 140r28 200r28 261r28 311r28 362r28 412r28 463r28 508r28 555r28 600r28
+. 650r28 699r28
+X 49 standard_newton_convolutions.ads
+10K9*Standard_Newton_Convolutions 29|3w6 283r7 333r7 384r7 434r7 480r7 526r7
+. 572r7 618r7 668r7 718r7 766r7 816r7 49|344e33
+105U13*MaxIdx 29|816s36
+120U13*MaxIdx 29|283s36 333s36 384s36 434s36 480s36 526s36 572s36 618s36
+. 668s36 718s36 766s36
+X 65 text_io.ads
+27K9*Text_IO=27:29 28|1w6 1r46
+

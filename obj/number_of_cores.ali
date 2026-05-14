@@ -1,0 +1,43 @@
+V "GNAT Lib v15"
+M F W=b
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U number_of_cores%b	number_of_cores.adb	acc680df NE OO SU
+W system%s		system.ads		system.ali
+W system.multiprocessors%s  s-multip.adb	s-multip.ali
+
+U number_of_cores%s	number_of_cores.ads	364f4b98 EE NE OO SU
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D number_of_cores.ads	20260513024558 49af2983 number_of_cores%s
+D number_of_cores.adb	20260513024558 ddc5362f number_of_cores%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-multip.ads		20250808065140 38ac9f73 system.multiprocessors%s
+G a e
+G c Z s b [number_of_cores standard 3 10 none]
+X 1 number_of_cores.ads
+3V10*Number_of_Cores{3|6I8} 2|3b10 10l5 10t20
+X 2 number_of_cores.adb
+5i3 res{3|6I8} 9r10
+X 3 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 1|1w6 1r45 3|45e29
+6I8*integer32<long_integer> 1|3r33 2|3r33 5r18 6r10
+X 4 system.ads
+37K9*System 2|1r6 6r20 4|215e11
+X 5 s-multip.ads
+20K16*Multiprocessors 2|1w13 6r27 5|32e27
+23I9*CPU_Range<integer>
+25I12*CPU{23I9}
+29V13*Number_Of_CPUs{25I12} 2|6s43
+

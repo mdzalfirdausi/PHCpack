@@ -1,0 +1,157 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U brackets%b		brackets.adb		5d62a841 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U brackets%s		brackets.ads		b9483a3c EE NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D brackets.adb		20260513024558 0ad14141 brackets%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [create brackets 21 13 none]
+G c Z s b [create brackets 29 13 none]
+G c Z s b [modulo brackets 36 12 none]
+G c Z s b [modulo brackets 41 13 none]
+G c Z s b [is_zero brackets 50 12 none]
+G c Z s b [is_equal brackets 55 12 none]
+G c Z s b [Olt brackets 60 12 none]
+G c Z s b [Ogt brackets 65 12 none]
+G c Z s b [is_standard brackets 70 12 none]
+G c Z s b [Ole brackets 79 12 none]
+G c Z s b [clear brackets 87 13 none]
+G c Z s b [clear brackets 88 13 none]
+G c Z s s [array_of_bracketsIP brackets 17 8 none]
+G c Z b b [swap brackets 7 13 none]
+G r c none [is_equal brackets 55 12 none] [equal standard_natural_vectors 21 12 4_1]
+X 2 brackets.ads
+5K9*Brackets 93l5 93e13 3|3b14 203l5 203t13
+13A8*Bracket<4|16A8[8|4]>(1|3I8[7|4])<5|6I8> 15r34 22r30 31r30 36r25 36r57
+. 41r29 43r31 50r26 55r31 60r26 65r26 70r34 79r32 3|22r30 27r10 27r30 50r30
+. 55r10 55r30 82r25 82r57 84r11 99r29 101r31 103r11 120r26 131r31 142r26
+. 154r26 166r34 176r32 190r50
+15P8*Link_to_Bracket(13A8) 17r61 87r32 3|188r32 190r58
+17A8*Array_of_Brackets(15P8)<5|6I8> 88r32 3|196r32
+21U13*Create 21>22 22<22 22<39 3|21b13 46l7 46t13 95s5
+21a22 v{4|16A8[8|4]} 3|21b22 27r18 27r38
+22a22 b{13A8} 3|22b22 44m5
+22i39 sign{5|6I8} 3|22b39 45m5
+29U13*Create 29>22 30<22 31<22 31<39 3|48b13 80l7 80t13 114s5
+29a22 v{4|16A8[8|4]} 3|48b22 55r18 55r38 56r42
+30a22 perm{4|16A8[8|4]} 3|49b22 77m5
+31a22 b{13A8} 3|50b22 78m5
+31i39 sign{5|6I8} 3|50b39 79m5
+36V12*Modulo{13A8} 36>21 36>34 3|82b12 97l7 97t13
+36a21 b{13A8} 3|82b21 84r19 85r46 89r14 90r20
+36i34 n{6|7I8} 3|82b34 90r29 92r26
+41U13*Modulo 41>22 41>38 42<22 43<22 3|99b13 116l7 116t13
+41a22 b{13A8} 3|99b22 103r19 104r46 108r14 109r20
+41i38 n{6|7I8} 3|99b38 109r29 111r26
+42a22 perm{4|16A8[8|4]} 3|100b22 114m19
+43a22 mb{13A8} 3|101b22 115m5
+50V12*Is_Zero{boolean} 50>22 3|120b12 129l7 129t14
+50a22 b{13A8} 3|120b22 123r14 123r23 124r10 124r17
+55V12*Is_Equal{boolean} 55>23 55>26 3|131b12 140l7 140t15
+55a23 b1{13A8} 3|131b23 136r8 138r31
+55a26 b2{13A8} 3|131b26 136r21 138r42
+60V13*"<"{boolean} 60>18 60>21 3|142b13 152l8 152t10
+60a18 b1{13A8} 3|142b18 144r14 145r10 147r13
+60a21 b2{13A8} 3|142b21 145r18 147r21
+65V13*">"{boolean} 65>18 65>21 3|154b13 164l8 164t10
+65a18 b1{13A8} 3|154b18 156r14 157r10 159r13
+65a21 b2{13A8} 3|154b21 157r18 159r21
+70V12*Is_Standard{6|7I8} 70>26 70>29 3|166b12 174l7 174t18
+70a26 b1{13A8} 3|166b26 168r14 169r10
+70a29 b2{13A8} 3|166b29 169r18
+79V13*"<="{boolean} 79>19 79>25 3|176b13 184l8 184t11
+79a19 alpha{13A8} 3|176b19 178r14 179r10
+79a25 beta{13A8} 3|176b25 179r21
+87U13*Clear 87=21 3|188b13 194l7 194t12 199s7
+87p21 b{15P8} 3|188b21 193m10
+88U13*Clear 88=21 3|196b13 201l7 201t12
+88a21 b{17A8} 3|196b21 198r14 199m13 199r13
+X 3 brackets.adb
+7U13 Swap 7b13 7=20 8>20 8>22 17l7 17t11 40s9 72s9 73s9
+7a20 v{4|16A8[8|4]} 13r33 16m5 16r13 16m19
+8i20 i{5|6I8} 13r35 16r7
+8i22 j{5|6I8} 16r15 16r21
+13i5 tmp{6|7I8} 16r27
+24i5 sig{5|6I8} 41m9 41r17 45r13
+25i5 min{6|7I8} 31m7 34r20 36m11
+26i5 ind{5|6I8} 32m7 35m11 39r10 40r52
+27a5 bb{2|13A8} 30r14 30r24 31r14 33r21 34r12 36r18 40m46 40r46 44r10
+30i9 i<long_integer> 31r17 32r14 33r16 39r17 40r50
+33i11 j<long_integer> 34r15 35r18 36r21
+52i5 sig{5|6I8} 74m9 74r17 79r13
+53i5 min{6|7I8} 63m7 66r20 68m11
+54i5 ind{5|6I8} 64m7 67m11 71r10 72r52 73r19
+55a5 bb{2|13A8} 62r14 62r24 63r14 65r21 66r12 68r18 72m46 72r46 78r10
+56a5 pp{4|16A8[8|4]} 59r14 60m7 73m14 73r14 77r13
+59i9 i<long_integer> 60r10 60r26
+62i9 i<long_integer> 63r17 64r14 65r16 71r17 72r50 73r17
+65i11 j<long_integer> 66r15 67r18 68r21
+84a5 res{2|13A8} 95m19 96r12
+85a5 modvec{4|16A8[8|4]} 90m7 91r10 92m13 95r12
+86i5 sig{5|6I8} 95m23
+89i9 i<long_integer> 90r14 90r22 91r17 92r20
+103a5 res{2|13A8} 114m24 115r11
+104a5 modvec{4|16A8[8|4]} 109m7 110r10 111m13 114r12
+105i5 sig{5|6I8} 114m28
+108i9 i<long_integer> 109r14 109r22 110r17 111r20
+123i9 i<long_integer> 124r12 124r19
+144i9 i<long_integer> 145r13 145r21 147r16 147r24
+156i9 i<long_integer> 157r13 157r21 159r16 159r24
+168i9 i<long_integer> 169r13 169r21 170r30
+178i9 i<long_integer> 179r16 179r26
+190U15 free[13|22] 193s5
+198i9 i<long_integer> 199r15
+X 4 generic_vectors.ads
+16A8*Vector(6|7I8)<5|6I8> 2|13r48[8|4] 21r54[8|4] 29r54[8|4] 30r58[8|4] 42r58[8|4]
+. 3|7r56[8|4] 21r54[8|4] 40r39[8|4] 48r54[8|4] 49r58[8|4] 56r35[8|4] 72r39[8|4]
+. 85r39[8|4] 100r58[8|4] 104r39[8|4] 138r24[8|4] 138r35[8|4]
+21V12*Equal{boolean} 3|138s18[8|4]
+X 5 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|2w6 2r46 5|45e29
+6I8*integer32<long_integer> 2|17r37 22r50 31r50 3|8r29 22r50 24r11 26r11
+. 50r50 52r11 54r11 86r11 105r11
+X 6 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 2|1w6 1r46 6|30e29
+7I8*natural32<long_integer> 2|36r38 41r45 70r51 3|13r20 25r11 53r11 60r16
+. 82r38 99r45 166r51 170r20
+X 8 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[4|8] 2|3w6 13r23 21r29 29r29 30r33 42r33 3|7r31
+. 21r29 40r14 48r29 49r33 56r10 72r14 85r14 100r33 104r14 133r9
+X 13 unchdeal.ads
+22u11*Unchecked_Deallocation 3|1w6 190r27
+

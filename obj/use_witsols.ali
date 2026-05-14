@@ -1,0 +1,99 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_witsols%b		use_witsols.adb		636a61df NE OO SU IL
+W irreducible_components_interface%s  irreducible_components_interface.adb  irreducible_components_interface.ali
+
+U use_witsols%s		use_witsols.ads		4f75a81e EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D irreducible_components_interface.ads  20260513024556 cbede93b irreducible_components_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D use_witsols.ads	20260513024556 bab94b66 use_witsols%s
+D use_witsols.adb	20260513024556 123ec382 use_witsols%b
+G a e
+G c Z s b [use_witsols standard 5 10 none]
+G r c none [use_witsols standard 5 10 none] [standard_polynomial_solver irreducible_components_interface 10 12 none]
+G r c none [use_witsols standard 5 10 none] [standard_laurent_solver irreducible_components_interface 32 12 none]
+G r c none [use_witsols standard 5 10 none] [dobldobl_polynomial_solver irreducible_components_interface 54 12 none]
+G r c none [use_witsols standard 5 10 none] [dobldobl_laurent_solver irreducible_components_interface 76 12 none]
+G r c none [use_witsols standard 5 10 none] [quaddobl_polynomial_solver irreducible_components_interface 98 12 none]
+G r c none [use_witsols standard 5 10 none] [quaddobl_laurent_solver irreducible_components_interface 120 12 none]
+G r c none [use_witsols standard 5 10 none] [standard_polynomial_witset_copy irreducible_components_interface 142 12 none]
+G r c none [use_witsols standard 5 10 none] [standard_laurent_witset_copy irreducible_components_interface 154 12 none]
+G r c none [use_witsols standard 5 10 none] [dobldobl_polynomial_witset_copy irreducible_components_interface 166 12 none]
+G r c none [use_witsols standard 5 10 none] [dobldobl_laurent_witset_copy irreducible_components_interface 178 12 none]
+G r c none [use_witsols standard 5 10 none] [quaddobl_polynomial_witset_copy irreducible_components_interface 190 12 none]
+G r c none [use_witsols standard 5 10 none] [quaddobl_laurent_witset_copy irreducible_components_interface 202 12 none]
+G r c none [use_witsols standard 5 10 none] [standard_witset_clear irreducible_components_interface 214 12 none]
+G r c none [use_witsols standard 5 10 none] [dobldobl_witset_clear irreducible_components_interface 221 12 none]
+G r c none [use_witsols standard 5 10 none] [quaddobl_witset_clear irreducible_components_interface 228 12 none]
+G r c none [use_witsols standard 5 10 none] [irreducible_factor_string irreducible_components_interface 235 12 none]
+X 3 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 14|3w6 3r45
+17K11*C_DblArrs[7|44] 14|8r28 15|6r28
+X 4 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 14|2w6 2r45
+13K11*C_intarrs[7|44] 14|6r28 7r28 15|4r28 5r28
+X 6 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 7 i-cpoint.ads
+47P9*Pointer(6|62I9) 14|6r38[4|13] 7r38[4|13] 8r38[3|17] 15|4r38[4|13] 5r38[4|13]
+. 6r38[3|17]
+X 8 irreducible_components_interface.ads
+4K9*Irreducible_Components_Interface 247e37 15|1w6 11r9
+10V12*Standard_Polynomial_Solver{9|6I8} 15|15s25
+32V12*Standard_Laurent_Solver{9|6I8} 15|16s25
+54V12*DoblDobl_Polynomial_Solver{9|6I8} 15|17s25
+76V12*DoblDobl_Laurent_Solver{9|6I8} 15|18s25
+98V12*QuadDobl_Polynomial_Solver{9|6I8} 15|19s25
+120V12*QuadDobl_Laurent_Solver{9|6I8} 15|20s25
+142V12*Standard_Polynomial_WitSet_Copy{9|6I8} 15|21s25
+154V12*Standard_Laurent_WitSet_Copy{9|6I8} 15|22s25
+166V12*DoblDobl_Polynomial_WitSet_Copy{9|6I8} 15|23s25
+178V12*DoblDobl_Laurent_WitSet_Copy{9|6I8} 15|24s25
+190V12*QuadDobl_Polynomial_WitSet_Copy{9|6I8} 15|25s25
+202V12*QuadDobl_Laurent_WitSet_Copy{9|6I8} 15|26s25
+214V12*Standard_WitSet_Clear{9|6I8} 15|27s25
+221V12*DoblDobl_WitSet_Clear{9|6I8} 15|28s25
+228V12*QuadDobl_WitSet_Clear{9|6I8} 15|29s25
+235V12*Irreducible_Factor_String{9|6I8} 15|30s25
+X 9 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 14|1w6 1r45
+6I8*integer32<long_integer> 14|5r30 9r33 9r57 15|3r30 7r33 7r57 9r27
+X 14 use_witsols.ads
+5V10*use_witsols{9|6I8} 5>24 6>24 7>24 8>24 9>24 15|3b10 37l5 37t16
+5i24 job{9|6I8} 15|3b24 14r10
+6p24 a{7|47P9[4|13]} 15|4b24 15r52 16r49 17r52 18r49 19r52 20r49 21r57 22r54
+. 23r57 24r54 25r57 26r54 30r51
+7p24 b{7|47P9[4|13]} 15|5b24 15r54 16r51 17r54 18r51 19r54 20r51 30r53
+8p24 c{7|47P9[3|17]} 15|6b24
+9i24 vrblvl{9|6I8} 15|7b24 15r56 16r53 17r56 18r53 19r56 20r53 21r59 22r56
+. 23r59 24r56 25r59 26r56 27r47 28r47 29r47 30r55
+X 15 use_witsols.adb
+9V12 do_jobs{9|6I8} 9b12 33l7 33t14 36s10
+

@@ -1,0 +1,1606 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV MAX_TASKS=1+
+
+U multitasked_path_convolutions%b  multitasked_path_convolutions.adb  da6c1f5a NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W corrector_convolutions%s  corrector_convolutions.adb  corrector_convolutions.ali
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+W dobldobl_predictor_convolutions%s  dobldobl_predictor_convolutions.adb  dobldobl_predictor_convolutions.ali
+W dobldobl_solutions_queue%s  dobldobl_solutions_queue.adb  dobldobl_solutions_queue.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W greeting_banners%s	greeting_banners.adb	greeting_banners.ali
+W multitasking%s	multitasking.adb	multitasking.ali
+W predictor_corrector_trackers%s  predictor_corrector_trackers.adb  predictor_corrector_trackers.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W quaddobl_predictor_convolutions%s  quaddobl_predictor_convolutions.adb  quaddobl_predictor_convolutions.ali
+W quaddobl_solutions_queue%s  quaddobl_solutions_queue.adb  quaddobl_solutions_queue.ali
+W residual_convolution_circuits%s  residual_convolution_circuits.adb  residual_convolution_circuits.ali
+W standard_circuit_makers%s  standard_circuit_makers.adb  standard_circuit_makers.ali
+W standard_coefficient_storage%s  standard_coefficient_storage.adb  standard_coefficient_storage.ali
+W standard_complex_circuits%s  standard_complex_circuits.adb  standard_complex_circuits.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_convolution_splitters%s  standard_convolution_splitters.adb  standard_convolution_splitters.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_floating_vecvecvecs%s  standard_floating_vecvecvecs.adb  standard_floating_vecvecvecs.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_newton_circuits%s  standard_newton_circuits.adb  standard_newton_circuits.ali
+W standard_predictor_convolutions%s  standard_predictor_convolutions.adb  standard_predictor_convolutions.ali
+W standard_solutions_queue%s  standard_solutions_queue.adb  standard_solutions_queue.ali
+W standard_vector_splitters%s  standard_vector_splitters.adb  standard_vector_splitters.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W time_stamps%s		time_stamps.adb		time_stamps.ali
+W track_path_convolutions%s  track_path_convolutions.adb  track_path_convolutions.ali
+W write_seed_number%s	write_seed_number.adb	write_seed_number.ali
+
+U multitasked_path_convolutions%s  multitasked_path_convolutions.ads  7325afe2 EE NE OO PK
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W dobldobl_complex_vecvecs%s  dobldobl_complex_vecvecs.ads  dobldobl_complex_vecvecs.ali
+W dobldobl_speelpenning_convolutions%s  dobldobl_speelpenning_convolutions.ads  dobldobl_speelpenning_convolutions.ali
+W homotopy_continuation_parameters%s  homotopy_continuation_parameters.adb  homotopy_continuation_parameters.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_complex_vecvecs%s  quaddobl_complex_vecvecs.ads  quaddobl_complex_vecvecs.ali
+W quaddobl_speelpenning_convolutions%s  quaddobl_speelpenning_convolutions.ads  quaddobl_speelpenning_convolutions.ali
+W standard_coefficient_circuits%s  standard_coefficient_circuits.adb  standard_coefficient_circuits.ali
+W standard_coefficient_convolutions%s  standard_coefficient_convolutions.adb  standard_coefficient_convolutions.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_speelpenning_convolutions%s  standard_speelpenning_convolutions.ads  standard_speelpenning_convolutions.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-calend.ads		20250808065140 bf7f3cc9 ada.calendar%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-reatim.ads		20250808065140 d11673fd ada.real_time%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D corrector_convolutions.ads  20260513024558 3147bbed corrector_convolutions%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vecmats.ads  20260513024558 1b09f088 dobldobl_complex_vecmats%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_predictor_convolutions.ads  20260513024558 694ae2b4 dobldobl_predictor_convolutions%s
+D dobldobl_solutions_queue.ads  20260513024558 165544f3 dobldobl_solutions_queue%s
+D dobldobl_speelpenning_convolutions.ads  20260513024558 a1bd69cf dobldobl_speelpenning_convolutions%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_speelpenning_convolutions.ads  20260513024558 a14ddeea generic_speelpenning_convolutions%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D greeting_banners.ads	20260513024558 0470dd63 greeting_banners%s
+D homotopy_continuation_parameters.ads  20260513024558 1c7e71d3 homotopy_continuation_parameters%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrin.ads		20250808065140 5409c1a4 interfaces.c.strings%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multitasked_path_convolutions.ads  20260513024558 561727b7 multitasked_path_convolutions%s
+D multitasked_path_convolutions.adb  20260513024558 3612f682 multitasked_path_convolutions%b
+D multitasking.ads	20260513024558 74dd7dbf multitasking%s
+D multitasking.adb	20260513024558 d1b2e4b0 multitasking%b
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D predictor_corrector_trackers.ads  20260513024558 450e706f predictor_corrector_trackers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_circuits.ads  20260513024558 6a68f653 quaddobl_complex_circuits%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vecmats.ads  20260513024558 3a6aa9c0 quaddobl_complex_vecmats%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_predictor_convolutions.ads  20260513024558 298267bc quaddobl_predictor_convolutions%s
+D quaddobl_solutions_queue.ads  20260513024558 c07df3d6 quaddobl_solutions_queue%s
+D quaddobl_speelpenning_convolutions.ads  20260513024558 f1767277 quaddobl_speelpenning_convolutions%s
+D residual_convolution_circuits.ads  20260513024558 6de52357 residual_convolution_circuits%s
+D standard_circuit_makers.ads  20260513024558 aa480e22 standard_circuit_makers%s
+D standard_coefficient_circuits.ads  20260513024558 86f34e2e standard_coefficient_circuits%s
+D standard_coefficient_convolutions.ads  20260513024558 cbd22682 standard_coefficient_convolutions%s
+D standard_coefficient_storage.ads  20260513024558 56c7c3eb standard_coefficient_storage%s
+D standard_complex_circuits.ads  20260513024558 54da0c3e standard_complex_circuits%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_convolution_splitters.ads  20260513024558 1b4cac6e standard_convolution_splitters%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecvecs.ads  20260513024558 05f205d7 standard_floating_vecvecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_newton_circuits.ads  20260513024558 f3912603 standard_newton_circuits%s
+D standard_predictor_convolutions.ads  20260513024558 f44c47c9 standard_predictor_convolutions%s
+D standard_solutions_queue.ads  20260513024558 321d1a44 standard_solutions_queue%s
+D standard_speelpenning_convolutions.ads  20260513024558 99412733 standard_speelpenning_convolutions%s
+D standard_vector_splitters.ads  20260513024558 06bf457f standard_vector_splitters%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D system.ads		20250808065140 a869df9e system%s
+D s-atacco.ads		20250808065140 5868e3ba system.address_to_access_conversions%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-multip.ads		20250808065140 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20250808065140 35a74841 system.os_interface%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20250808065140 5be75682 system.stack_usage%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-tasinf.ads		20250808065140 601f6b72 system.task_info%s
+D s-taspri.ads		20250808065140 602eebc0 system.task_primitives%s
+D s-taprop.ads		20250808065140 750673ca system.task_primitives.operations%s
+D s-taskin.ads		20250808065140 38289021 system.tasking%s
+D s-tassta.ads		20250808065140 cca55c94 system.tasking.stages%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D time_stamps.ads	20260513024558 5fcbb190 time_stamps%s
+D track_path_convolutions.ads  20260513024558 51c9d4f1 track_path_convolutions%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D write_seed_number.ads	20260513024558 541c31a7 write_seed_number%s
+G a e
+G c Z s b [allocate multitasked_path_convolutions 26 13 none]
+G c Z s b [allocate multitasked_path_convolutions 32 13 none]
+G c Z s b [allocate multitasked_path_convolutions 34 13 none]
+G c Z s b [allocate multitasked_path_convolutions 36 13 none]
+G c Z s b [allocate multitasked_path_convolutions 38 13 none]
+G c Z s b [standard_multitasked_tracker multitasked_path_convolutions 45 13 none]
+G c Z s b [standard_multitasked_tracker multitasked_path_convolutions 76 13 none]
+G c Z s b [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none]
+G c Z s b [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none]
+G c Z s b [track multitasked_path_convolutions 125 13 none]
+G c Z s b [track multitasked_path_convolutions 162 13 none]
+G c Z s b [track multitasked_path_convolutions 171 13 none]
+G c Z s b [track multitasked_path_convolutions 180 13 none]
+G c Z s b [standard_main multitasked_path_convolutions 216 13 none]
+G c Z s b [dobldobl_main multitasked_path_convolutions 217 13 none]
+G c Z s b [quaddobl_main multitasked_path_convolutions 218 13 none]
+G r s system_array [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [system_arrayIP standard_coefficient_convolutions 71 8 none]
+G r s vecvecvec [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r s system_array [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [system_arrayIP standard_coefficient_circuits 70 8 none]
+G r s vecvec [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [create standard_predictor_convolutions 187 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [create standard_predictor_convolutions 197 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [create standard_predictor_convolutions 209 12 none]
+G r s vecvec [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r s vecmat_array [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [vecmat_arrayIP standard_complex_vecmats 18 8 6_1]
+G r s vecvecvec [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [vecvecvecIP standard_speelpenning_convolutions 28 8 8_1]
+G r i none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [silent_workers multitasking 44 13 none]
+G r i none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [copy standard_coefficient_convolutions 168 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [copy standard_coefficient_circuits 174 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [allocate standard_complex_circuits 77 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [allocate standard_vector_splitters 132 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [allocate_floating_coefficients standard_vector_splitters 102 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [allocate_and_store standard_coefficient_storage 30 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [to_string multitasking 23 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [to_string multitasking 24 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [track_one_path predictor_corrector_trackers 41 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [restore standard_coefficient_storage 75 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [evalcffrad standard_predictor_convolutions 654 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [lu_newton_steps standard_newton_circuits 416 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_coefficient_convolutions 687 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_coefficient_circuits 1274 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_predictor_convolutions 1093 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_predictor_convolutions 1111 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_predictor_convolutions 1112 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_floating_vecvecs 32 13 5_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_floating_vecvecvecs 37 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_floating_vecvecvecs 36 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 45 13 none] [clear standard_complex_vecmats 37 13 6_1]
+G r s system_array [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [system_arrayIP standard_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [vecvecvecIP standard_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [vecvecvec_arrayIP standard_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r s vecvec [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [create standard_predictor_convolutions 187 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [create standard_predictor_convolutions 197 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [create standard_predictor_convolutions 209 12 none]
+G r i none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [silent_workers multitasking 44 13 none]
+G r i none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [copy standard_speelpenning_convolutions 208 13 8_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [allocate_leading_coefficients corrector_convolutions 32 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [store_leading_coefficients corrector_convolutions 81 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [allocate_coefficients corrector_convolutions 131 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [store_coefficients corrector_convolutions 177 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [allocate_coefficients standard_speelpenning_convolutions 274 12 8_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [to_string multitasking 23 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [to_string multitasking 24 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [track_one_path predictor_corrector_trackers 226 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [restore_coefficients corrector_convolutions 196 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [update_radii_of_constants residual_convolution_circuits 139 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [step_coefficient corrector_convolutions 248 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [lu_newton_steps corrector_convolutions 483 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [restore_leading_coefficients corrector_convolutions 98 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_speelpenning_convolutions 260 13 8_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_speelpenning_convolutions 243 13 8_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_speelpenning_convolutions 245 13 8_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_predictor_convolutions 1093 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_predictor_convolutions 1111 13 none]
+G r c none [standard_multitasked_tracker multitasked_path_convolutions 76 13 none] [clear standard_predictor_convolutions 1112 13 none]
+G r s system_array [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [system_arrayIP dobldobl_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [vecvecvecIP dobldobl_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [vecvecvec_arrayIP dobldobl_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r s vecvec [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [create dobldobl_predictor_convolutions 164 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [create dobldobl_predictor_convolutions 173 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [create dobldobl_predictor_convolutions 185 12 none]
+G r i none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [silent_workers multitasking 44 13 none]
+G r i none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [copy dobldobl_speelpenning_convolutions 208 13 8_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [allocate_leading_coefficients corrector_convolutions 35 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [store_leading_coefficients corrector_convolutions 84 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [allocate_coefficients corrector_convolutions 134 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [store_coefficients corrector_convolutions 181 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [allocate_coefficients dobldobl_speelpenning_convolutions 274 12 8_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [to_string multitasking 23 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [to_string multitasking 24 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [create double_double_numbers 35 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [track_one_path predictor_corrector_trackers 262 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [restore_coefficients corrector_convolutions 199 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [update_radii_of_constants residual_convolution_circuits 142 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [step_coefficient corrector_convolutions 251 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [lu_newton_steps corrector_convolutions 505 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [restore_leading_coefficients corrector_convolutions 101 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_speelpenning_convolutions 260 13 8_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_speelpenning_convolutions 243 13 8_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_speelpenning_convolutions 245 13 8_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_complex_vecvecs 32 13 5_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_predictor_convolutions 583 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_predictor_convolutions 600 13 none]
+G r c none [dobldobl_multitasked_tracker multitasked_path_convolutions 85 13 none] [clear dobldobl_predictor_convolutions 601 13 none]
+G r s system_array [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [system_arrayIP quaddobl_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [vecvecvecIP quaddobl_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [vecvecvec_arrayIP quaddobl_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r s vecvec [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [create quaddobl_predictor_convolutions 164 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [create quaddobl_predictor_convolutions 173 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [create quaddobl_predictor_convolutions 185 12 none]
+G r i none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [silent_workers multitasking 44 13 none]
+G r i none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [copy quaddobl_speelpenning_convolutions 208 13 8_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [allocate_leading_coefficients corrector_convolutions 38 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [store_leading_coefficients corrector_convolutions 87 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [allocate_coefficients corrector_convolutions 137 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [store_coefficients corrector_convolutions 185 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [allocate_coefficients quaddobl_speelpenning_convolutions 274 12 8_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [to_string multitasking 23 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [to_string multitasking 24 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [create quad_double_numbers 37 12 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [track_one_path predictor_corrector_trackers 298 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [restore_coefficients corrector_convolutions 202 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [update_radii_of_constants residual_convolution_circuits 145 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [step_coefficient corrector_convolutions 254 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [lu_newton_steps corrector_convolutions 527 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [restore_leading_coefficients corrector_convolutions 104 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_speelpenning_convolutions 260 13 8_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_speelpenning_convolutions 243 13 8_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_speelpenning_convolutions 245 13 8_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_complex_vecvecs 32 13 5_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_predictor_convolutions 582 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_predictor_convolutions 599 13 none]
+G r c none [quaddobl_multitasked_tracker multitasked_path_convolutions 94 13 none] [clear quaddobl_predictor_convolutions 600 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [standard_write_homotopy track_path_convolutions 21 13 none]
+G r s system_array [track multitasked_path_convolutions 125 13 none] [system_arrayIP standard_coefficient_convolutions 71 8 none]
+G r s vecvecvec [track multitasked_path_convolutions 125 13 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r s system_array [track multitasked_path_convolutions 125 13 none] [system_arrayIP standard_coefficient_circuits 70 8 none]
+G r s vecvec [track multitasked_path_convolutions 125 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [track multitasked_path_convolutions 125 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [track multitasked_path_convolutions 125 13 none] [create standard_predictor_convolutions 187 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [create standard_predictor_convolutions 197 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [create standard_predictor_convolutions 209 12 none]
+G r s vecvec [track multitasked_path_convolutions 125 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r s vecmat_array [track multitasked_path_convolutions 125 13 none] [vecmat_arrayIP standard_complex_vecmats 18 8 6_1]
+G r s vecvecvec [track multitasked_path_convolutions 125 13 none] [vecvecvecIP standard_speelpenning_convolutions 28 8 8_1]
+G r i none [track multitasked_path_convolutions 125 13 none] [silent_workers multitasking 44 13 none]
+G r i none [track multitasked_path_convolutions 125 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [copy standard_coefficient_convolutions 168 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [copy standard_coefficient_circuits 174 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [allocate standard_complex_circuits 77 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [allocate standard_vector_splitters 132 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [allocate_floating_coefficients standard_vector_splitters 102 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [allocate_and_store standard_coefficient_storage 30 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [to_string multitasking 23 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [track multitasked_path_convolutions 125 13 none] [to_string multitasking 24 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [track_one_path predictor_corrector_trackers 41 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [restore standard_coefficient_storage 75 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [evalcffrad standard_predictor_convolutions 654 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [lu_newton_steps standard_newton_circuits 416 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_coefficient_convolutions 687 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_coefficient_circuits 1274 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_predictor_convolutions 1093 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_predictor_convolutions 1111 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_predictor_convolutions 1112 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_floating_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_floating_vecvecvecs 37 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_floating_vecvecvecs 36 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [clear standard_complex_vecmats 37 13 6_1]
+G r c none [track multitasked_path_convolutions 125 13 none] [standard_write_solutions track_path_convolutions 52 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track multitasked_path_convolutions 125 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [standard_write_homotopy track_path_convolutions 21 13 none]
+G r s system_array [track multitasked_path_convolutions 162 13 none] [system_arrayIP standard_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [track multitasked_path_convolutions 162 13 none] [vecvecvecIP standard_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [track multitasked_path_convolutions 162 13 none] [vecvecvec_arrayIP standard_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [track multitasked_path_convolutions 162 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r s vecvec [track multitasked_path_convolutions 162 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [track multitasked_path_convolutions 162 13 none] [create standard_predictor_convolutions 187 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [create standard_predictor_convolutions 197 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [create standard_predictor_convolutions 209 12 none]
+G r i none [track multitasked_path_convolutions 162 13 none] [silent_workers multitasking 44 13 none]
+G r i none [track multitasked_path_convolutions 162 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [copy standard_speelpenning_convolutions 208 13 8_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [allocate_leading_coefficients corrector_convolutions 32 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [store_leading_coefficients corrector_convolutions 81 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [allocate_coefficients corrector_convolutions 131 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [store_coefficients corrector_convolutions 177 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [allocate_coefficients standard_speelpenning_convolutions 274 12 8_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [to_string multitasking 23 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [track multitasked_path_convolutions 162 13 none] [to_string multitasking 24 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [track_one_path predictor_corrector_trackers 226 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [restore_coefficients corrector_convolutions 196 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [update_radii_of_constants residual_convolution_circuits 139 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [step_coefficient corrector_convolutions 248 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [lu_newton_steps corrector_convolutions 483 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [restore_leading_coefficients corrector_convolutions 98 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_speelpenning_convolutions 260 13 8_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_speelpenning_convolutions 243 13 8_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_speelpenning_convolutions 245 13 8_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_predictor_convolutions 1093 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_predictor_convolutions 1111 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [clear standard_predictor_convolutions 1112 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [standard_write_solutions track_path_convolutions 52 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track multitasked_path_convolutions 162 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [dobldobl_write_homotopy track_path_convolutions 26 13 none]
+G r s system_array [track multitasked_path_convolutions 171 13 none] [system_arrayIP dobldobl_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [track multitasked_path_convolutions 171 13 none] [vecvecvecIP dobldobl_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [track multitasked_path_convolutions 171 13 none] [vecvecvec_arrayIP dobldobl_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [track multitasked_path_convolutions 171 13 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r s vecvec [track multitasked_path_convolutions 171 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [track multitasked_path_convolutions 171 13 none] [create dobldobl_predictor_convolutions 164 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [create dobldobl_predictor_convolutions 173 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [create dobldobl_predictor_convolutions 185 12 none]
+G r i none [track multitasked_path_convolutions 171 13 none] [silent_workers multitasking 44 13 none]
+G r i none [track multitasked_path_convolutions 171 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [copy dobldobl_speelpenning_convolutions 208 13 8_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [allocate_leading_coefficients corrector_convolutions 35 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [store_leading_coefficients corrector_convolutions 84 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [allocate_coefficients corrector_convolutions 134 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [store_coefficients corrector_convolutions 181 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [allocate_coefficients dobldobl_speelpenning_convolutions 274 12 8_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [to_string multitasking 23 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [track multitasked_path_convolutions 171 13 none] [to_string multitasking 24 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [create double_double_numbers 35 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [track_one_path predictor_corrector_trackers 262 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [restore_coefficients corrector_convolutions 199 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [update_radii_of_constants residual_convolution_circuits 142 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [step_coefficient corrector_convolutions 251 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [lu_newton_steps corrector_convolutions 505 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [restore_leading_coefficients corrector_convolutions 101 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_speelpenning_convolutions 260 13 8_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_speelpenning_convolutions 243 13 8_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_speelpenning_convolutions 245 13 8_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_complex_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_predictor_convolutions 583 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_predictor_convolutions 600 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [clear dobldobl_predictor_convolutions 601 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [dobldobl_write_solutions track_path_convolutions 57 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track multitasked_path_convolutions 171 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [quaddobl_write_homotopy track_path_convolutions 31 13 none]
+G r s system_array [track multitasked_path_convolutions 180 13 none] [system_arrayIP quaddobl_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [track multitasked_path_convolutions 180 13 none] [vecvecvecIP quaddobl_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [track multitasked_path_convolutions 180 13 none] [vecvecvec_arrayIP quaddobl_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [track multitasked_path_convolutions 180 13 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r s vecvec [track multitasked_path_convolutions 180 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [track multitasked_path_convolutions 180 13 none] [create quaddobl_predictor_convolutions 164 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [create quaddobl_predictor_convolutions 173 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [create quaddobl_predictor_convolutions 185 12 none]
+G r i none [track multitasked_path_convolutions 180 13 none] [silent_workers multitasking 44 13 none]
+G r i none [track multitasked_path_convolutions 180 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [copy quaddobl_speelpenning_convolutions 208 13 8_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [allocate_leading_coefficients corrector_convolutions 38 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [store_leading_coefficients corrector_convolutions 87 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [allocate_coefficients corrector_convolutions 137 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [store_coefficients corrector_convolutions 185 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [allocate_coefficients quaddobl_speelpenning_convolutions 274 12 8_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [to_string multitasking 23 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [track multitasked_path_convolutions 180 13 none] [to_string multitasking 24 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [create quad_double_numbers 37 12 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [track_one_path predictor_corrector_trackers 298 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [restore_coefficients corrector_convolutions 202 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [update_radii_of_constants residual_convolution_circuits 145 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [step_coefficient corrector_convolutions 254 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [lu_newton_steps corrector_convolutions 527 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [restore_leading_coefficients corrector_convolutions 104 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_speelpenning_convolutions 260 13 8_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_speelpenning_convolutions 243 13 8_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_speelpenning_convolutions 245 13 8_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_complex_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_predictor_convolutions 582 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_predictor_convolutions 599 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [clear quaddobl_predictor_convolutions 600 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [quaddobl_write_solutions track_path_convolutions 62 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [track multitasked_path_convolutions 180 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [main track_path_convolutions 176 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [get standard_integer_numbers_io 10 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [standard_write_homotopy track_path_convolutions 21 13 none]
+G r s system_array [standard_main multitasked_path_convolutions 216 13 none] [system_arrayIP standard_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [standard_main multitasked_path_convolutions 216 13 none] [vecvecvecIP standard_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [standard_main multitasked_path_convolutions 216 13 none] [vecvecvec_arrayIP standard_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [standard_main multitasked_path_convolutions 216 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r s vecvec [standard_main multitasked_path_convolutions 216 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [create standard_predictor_convolutions 187 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [create standard_predictor_convolutions 197 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [create standard_predictor_convolutions 209 12 none]
+G r i none [standard_main multitasked_path_convolutions 216 13 none] [silent_workers multitasking 44 13 none]
+G r i none [standard_main multitasked_path_convolutions 216 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [copy standard_speelpenning_convolutions 208 13 8_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate_leading_coefficients corrector_convolutions 32 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [store_leading_coefficients corrector_convolutions 81 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate_coefficients corrector_convolutions 131 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [store_coefficients corrector_convolutions 177 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate_coefficients standard_speelpenning_convolutions 274 12 8_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [initialize standard_solutions_queue 10 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [to_string multitasking 23 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [next standard_solutions_queue 15 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [next_counter standard_solutions_queue 28 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [to_string multitasking 24 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [track_one_path predictor_corrector_trackers 226 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [restore_coefficients corrector_convolutions 196 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [update_radii_of_constants residual_convolution_circuits 139 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [step_coefficient corrector_convolutions 248 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [lu_newton_steps corrector_convolutions 483 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [restore_leading_coefficients corrector_convolutions 98 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_speelpenning_convolutions 260 13 8_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_speelpenning_convolutions 243 13 8_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_speelpenning_convolutions 245 13 8_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_predictor_convolutions 1093 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_predictor_convolutions 1111 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_predictor_convolutions 1112 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [standard_write_solutions track_path_convolutions 52 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [split standard_convolution_splitters 33 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [make_coefficient_system standard_circuit_makers 248 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [copy standard_coefficient_circuits 174 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [absval standard_coefficient_circuits 187 13 none]
+G r s system_array [standard_main multitasked_path_convolutions 216 13 none] [system_arrayIP standard_coefficient_convolutions 71 8 none]
+G r s vecvecvec [standard_main multitasked_path_convolutions 216 13 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r s system_array [standard_main multitasked_path_convolutions 216 13 none] [system_arrayIP standard_coefficient_circuits 70 8 none]
+G r s vecvec [standard_main multitasked_path_convolutions 216 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r s vecmat_array [standard_main multitasked_path_convolutions 216 13 none] [vecmat_arrayIP standard_complex_vecmats 18 8 6_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [copy standard_coefficient_convolutions 168 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate standard_complex_circuits 77 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate standard_vector_splitters 132 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate_floating_coefficients standard_vector_splitters 102 12 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [allocate_and_store standard_coefficient_storage 30 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [track_one_path predictor_corrector_trackers 41 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [restore standard_coefficient_storage 75 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [evalcffrad standard_predictor_convolutions 654 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [lu_newton_steps standard_newton_circuits 416 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_coefficient_convolutions 687 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_coefficient_circuits 1274 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_floating_vecvecs 32 13 5_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_floating_vecvecvecs 37 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_floating_vecvecvecs 36 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [clear standard_complex_vecmats 37 13 6_1]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [write_seed_number standard 3 11 none]
+G r c none [standard_main multitasked_path_convolutions 216 13 none] [version greeting_banners 64 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [main track_path_convolutions 185 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [get standard_integer_numbers_io 10 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [dobldobl_write_homotopy track_path_convolutions 26 13 none]
+G r s system_array [dobldobl_main multitasked_path_convolutions 217 13 none] [system_arrayIP dobldobl_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [dobldobl_main multitasked_path_convolutions 217 13 none] [vecvecvecIP dobldobl_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [dobldobl_main multitasked_path_convolutions 217 13 none] [vecvecvec_arrayIP dobldobl_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [dobldobl_main multitasked_path_convolutions 217 13 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r s vecvec [dobldobl_main multitasked_path_convolutions 217 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [create dobldobl_predictor_convolutions 164 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [create dobldobl_predictor_convolutions 173 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [create dobldobl_predictor_convolutions 185 12 none]
+G r i none [dobldobl_main multitasked_path_convolutions 217 13 none] [silent_workers multitasking 44 13 none]
+G r i none [dobldobl_main multitasked_path_convolutions 217 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [copy dobldobl_speelpenning_convolutions 208 13 8_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [allocate_leading_coefficients corrector_convolutions 35 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [store_leading_coefficients corrector_convolutions 84 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [allocate_coefficients corrector_convolutions 134 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [store_coefficients corrector_convolutions 181 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [allocate_coefficients dobldobl_speelpenning_convolutions 274 12 8_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [initialize dobldobl_solutions_queue 10 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [to_string multitasking 23 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [next dobldobl_solutions_queue 15 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [next_counter dobldobl_solutions_queue 28 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [to_string multitasking 24 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [create double_double_numbers 35 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [track_one_path predictor_corrector_trackers 262 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [restore_coefficients corrector_convolutions 199 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [update_radii_of_constants residual_convolution_circuits 142 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [step_coefficient corrector_convolutions 251 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [lu_newton_steps corrector_convolutions 505 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [create dobldobl_complex_numbers 18 12 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [restore_leading_coefficients corrector_convolutions 101 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_speelpenning_convolutions 260 13 8_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_speelpenning_convolutions 243 13 8_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_speelpenning_convolutions 245 13 8_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_complex_vecvecs 32 13 5_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_predictor_convolutions 583 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_predictor_convolutions 600 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [clear dobldobl_predictor_convolutions 601 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [dobldobl_write_solutions track_path_convolutions 57 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [write_seed_number standard 3 11 none]
+G r c none [dobldobl_main multitasked_path_convolutions 217 13 none] [version greeting_banners 64 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [main track_path_convolutions 194 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [get standard_integer_numbers_io 10 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [quaddobl_write_homotopy track_path_convolutions 31 13 none]
+G r s system_array [quaddobl_main multitasked_path_convolutions 218 13 none] [system_arrayIP quaddobl_speelpenning_convolutions 74 8 8_1]
+G r s vecvecvec [quaddobl_main multitasked_path_convolutions 218 13 none] [vecvecvecIP quaddobl_speelpenning_convolutions 28 8 8_1]
+G r s vecvecvec_array [quaddobl_main multitasked_path_convolutions 218 13 none] [vecvecvec_arrayIP quaddobl_speelpenning_convolutions 34 8 8_1]
+G r s vecvec [quaddobl_main multitasked_path_convolutions 218 13 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r s vecvec [quaddobl_main multitasked_path_convolutions 218 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [create quaddobl_predictor_convolutions 164 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [create quaddobl_predictor_convolutions 173 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [create quaddobl_predictor_convolutions 185 12 none]
+G r i none [quaddobl_main multitasked_path_convolutions 218 13 none] [silent_workers multitasking 44 13 none]
+G r i none [quaddobl_main multitasked_path_convolutions 218 13 none] [reporting_workers multitasking 58 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [copy quaddobl_speelpenning_convolutions 208 13 8_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [allocate_leading_coefficients corrector_convolutions 38 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [store_leading_coefficients corrector_convolutions 87 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [allocate_coefficients corrector_convolutions 137 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [store_coefficients corrector_convolutions 185 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [allocate_coefficients quaddobl_speelpenning_convolutions 274 12 8_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [initialize quaddobl_solutions_queue 10 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [to_string multitasking 23 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [next quaddobl_solutions_queue 15 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [next_counter quaddobl_solutions_queue 28 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [to_string multitasking 24 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [create quad_double_numbers 37 12 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [track_one_path predictor_corrector_trackers 298 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [restore_coefficients corrector_convolutions 202 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [update_radii_of_constants residual_convolution_circuits 145 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [step_coefficient corrector_convolutions 254 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [lu_newton_steps corrector_convolutions 527 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [restore_leading_coefficients corrector_convolutions 104 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_speelpenning_convolutions 260 13 8_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_speelpenning_convolutions 243 13 8_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_speelpenning_convolutions 245 13 8_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_complex_vecvecs 32 13 5_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear standard_integer_vecvecs 32 13 5_1]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_predictor_convolutions 582 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_predictor_convolutions 599 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [clear quaddobl_predictor_convolutions 600 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [quaddobl_write_solutions track_path_convolutions 62 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [write_elapsed_time time_stamps 34 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [write_time_stamp time_stamps 29 13 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [write_seed_number standard 3 11 none]
+G r c none [quaddobl_main multitasked_path_convolutions 218 13 none] [version greeting_banners 64 12 none]
+X 3 ada.ads
+18K9*Ada 22e8 45|1r6 645r30 650r20 652r19 671r30 676r20 678r19 697r30 702r20
+. 704r19 723r30 728r20 730r19 748r33 773r21 788r21 808r33 811r21 826r21 846r33
+. 849r21 864r21
+X 4 a-calend.ads
+36K13*Calendar 440e17 45|1w10 645r34 650r24 652r23 671r34 676r24 678r23 697r34
+. 702r24 704r23 723r34 728r24 730r23 748r37 773r25 788r25 808r37 811r25 826r25
+. 846r37 849r25 864r25
+42I9*Time<226I9> 45|645r43 671r43 697r43 723r43 748r46 808r46 846r46
+56V13*Clock{42I9} 45|650s33 652s32 676s33 678s32 702s33 704s32 728s33 730s32
+. 773s34 788s34 811s34 826s34 849s34 864s34
+226I9 Time_Rep<long_long_integer>
+X 14 a-textio.ads
+67P9*File_Type 44|126r27 163r27 172r27 181r27 45|635r27 661r27 687r27 713r27
+. 747r12 807r12 845r12
+277U14*New_Line 45|654s5 680s5 706s5 732s5 793s22 831s22 869s22
+284U14*New_Line 45|759s7 770s5 819s7 822s5 857s7 860s5
+295U14*Skip_Line 45|760s53 820s53 858s53
+508U14*Put 45|655s5 681s5 707s5 733s5 789s5 790s5 792s5 827s5 828s5 830s5
+. 865s5 866s5 868s5
+515U14*Put 45|760s7 820s7 858s7
+555U14*Put_Line 45|656s22 682s22 708s22 734s22 791s5 795s5 829s5 833s5 867s5
+. 871s5
+565U14*Put_Line 45|166s9 318s9 452s9 586s9 753s11 771s5 813s11 823s5 851s11
+. 861s5
+X 16 communications_with_user.ads
+4K9*Communications_with_User 127e29 45|2w6 2r46
+60U13*Read_Name_and_Create_File 45|772s5 824s5 862s5
+X 17 corrector_convolutions.ads
+23K9*Corrector_Convolutions 577e27 45|29w6 29r46
+32U13*Allocate_Leading_Coefficients 45|344s7 345s7
+35U13*Allocate_Leading_Coefficients 45|478s7 479s7
+38U13*Allocate_Leading_Coefficients 45|612s7 613s7
+81U13*Store_Leading_Coefficients 45|346s7 347s7
+84U13*Store_Leading_Coefficients 45|480s7 481s7
+87U13*Store_Leading_Coefficients 45|614s7 615s7
+98U13*Restore_Leading_Coefficients 45|293s9 334s9
+101U13*Restore_Leading_Coefficients 45|426s9 468s9
+104U13*Restore_Leading_Coefficients 45|560s9 602s9
+131U13*Allocate_Coefficients 45|348s7
+134U13*Allocate_Coefficients 45|482s7
+137U13*Allocate_Coefficients 45|616s7
+177U13*Store_Coefficients 45|349s7
+181U13*Store_Coefficients 45|483s7
+185U13*Store_Coefficients 45|617s7
+196U13*Restore_Coefficients 45|284s9 294s9 325s9 335s9
+199U13*Restore_Coefficients 45|417s9 427s9 459s9 469s9
+202U13*Restore_Coefficients 45|551s9 561s9 593s9 603s9
+248U13*Step_Coefficient 45|287s9 328s9
+251U13*Step_Coefficient 45|420s9 462s9
+254U13*Step_Coefficient 45|554s9 596s9
+483U13*LU_Newton_Steps 45|288s9 329s9
+505U13*LU_Newton_Steps 45|421s9 463s9
+527U13*LU_Newton_Steps 45|555s9 597s9
+X 19 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 45|10w6 424r37 466r37
+18V12*Create{11R8} 45|424s62 466s62
+X 21 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 235e31 44|11w6 89r31 175r31 45|370r31 376r9
+. 690r31 800r12
+20r5*t{19|11R8} 45|424m32 466m32
+22a5*v{36|16A8[23|4]} 45|388r33 413r26 424m12 455r26 466m12
+23r5*err{28|12R8} 45|422m32 464m32
+24r5*rco{28|12R8} 45|422m68 464m68
+25r5*res{28|12R8} 45|422m39 464m39
+28P8*Link_to_Solution(19R8) 45|386r22 401r12 438r12
+31P8*Solution_List<30|12P8[30]> 44|89r58 175r58 45|370r58 400r15 437r15 690r58
+. 800r39
+X 23 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[36|8] 45|16w6 68r19
+X 24 dobldobl_complex_vecvecs.ads
+5K9*DoblDobl_Complex_VecVecs[37|10] 44|8w6 36r35 45|64r35 383r10 384r11 494r5
+. 495r5
+X 25 dobldobl_predictor_convolutions.ads
+13K9*DoblDobl_Predictor_Convolutions 606e36 45|22w6 377r9
+78n31*SVD{78E8} 45|389r65
+87A8*Predictor_Array(80R8)<94|6I8> 45|387r11
+90a5*sol{36|16A8[23|4]} 45|413m16 424r24 455m16 466r24
+96P8*Link_to_Predictor_Vectors(89R8)
+98A8*Predictor_Vectors_Array(96P8)<94|6I8> 45|390r11
+118P8*Link_to_SVD_Hessians(108R8)
+120A8*SVD_Hessians_Array(118P8)<94|6I8> 45|392r11
+164V12*Create{87A8} 45|388s12
+173V12*Create{98A8} 45|391s12
+185V12*Create{120A8} 45|392s45
+583U13*Clear 45|497s5
+600U13*Clear 45|497s17
+601U13*Clear 45|497s29
+X 26 dobldobl_solutions_queue.ads
+4K9*DoblDobl_Solutions_Queue 34e29 45|33w6 410r18 448r18 449r16 487r5
+10U13*Initialize 45|487s30
+15V12*Next{21|31P8} 45|410s43 448s43
+28V12*Next_Counter{94|6I8} 45|449s41
+X 27 dobldobl_speelpenning_convolutions.ads
+8K9*DoblDobl_Speelpenning_Convolutions[34|18] 44|14w6 87r26 88r26 173r26
+. 174r26 45|368r26 369r26 376r36 688r26 689r26 801r21
+X 28 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 45|7w6 7r46
+12R8*double_double 170e13 45|402r18 440r18
+35V12*Create{12R8} 45|413s34 455s34
+X 29 generic_complex_numbers.ads
+19R8*Complex_Number
+26V12*Create{19R8[64|5]} 45|558s62[64|5] 600s62[64|5]
+X 30 generic_lists.ads
+12P8*List
+72V12*Is_Null{boolean} 45|125s19[84|27] 163s19[84|27] 278s19[84|27] 316s19[84|27]
+. 411s19[21|30] 450s19[21|30] 545s19[66|30] 584s19[66|30]
+77V12*Head_Of{84|25P8} 45|99s42[84|27] 126s15[84|27] 164s15[84|27] 254s42[84|27]
+. 279s15[84|27] 317s15[84|27] 386s42[21|30] 412s15[21|30] 451s15[21|30] 520s42[66|30]
+. 546s15[66|30] 585s15[66|30]
+X 31 generic_matrices.ads
+16A8*Matrix(80|11R8)<94|6I8><94|6I8>
+17P8*Link_to_Matrix(16A8[79|5])
+X 34 generic_speelpenning_convolutions.ads
+28A8*VecVecVec(37|15P8[87|5])<94|6I8> 45|109r47[105|8] 249r23[105|8] 381r23[27|8]
+. 515r23[72|8]
+32P8*Link_to_VecVecVec(28A8[105|8])
+34A8*VecVecVec_Array(32P8[105|8])<94|6I8> 45|250r14[105|8] 382r14[27|8] 516r14[72|8]
+41R8*Circuit
+53P8*Link_to_Circuit(41R8[72|8])
+55A8*Circuits(53P8[72|8])<94|6I8>
+62R8*System
+62i17*neq{94|6I8} 45|256r39[105|8] 259r39[105|8] 388r39[27|8] 391r39[27|8]
+. 522r39[72|8] 525r39[72|8] 675r17[105|8] 701r17[27|8] 727r17[72|8]
+62i26*dim{94|6I8} 45|259r31[105|8] 260r64[105|8] 351r23[105|8] 351r45[105|8]
+. 391r31[27|8] 392r64[27|8] 485r23[27|8] 485r45[27|8] 525r31[72|8] 526r64[72|8]
+. 619r23[72|8] 619r45[72|8]
+62i35*deg{94|6I8} 45|256r47[105|8] 352r46[105|8] 388r47[27|8] 486r46[27|8]
+. 522r47[72|8] 620r46[72|8]
+63a5*crc{55A8[105|8]} 45|284r49[105|8] 293r58[105|8] 294r49[105|8] 325r49[105|8]
+. 334r58[105|8] 335r49[105|8] 344r41[105|8] 345r41[105|8] 346r38[105|8] 347r38[105|8]
+. 348r33[105|8] 349r30[105|8] 417r49[27|8] 426r58[27|8] 427r49[27|8] 459r49[27|8]
+. 468r58[27|8] 469r49[27|8] 478r41[27|8] 479r41[27|8] 480r38[27|8] 481r38[27|8]
+. 482r33[27|8] 483r30[27|8] 551r49[72|8] 560r58[72|8] 561r49[72|8] 593r49[72|8]
+. 602r58[72|8] 603r49[72|8] 612r41[72|8] 613r41[72|8] 614r38[72|8] 615r38[72|8]
+. 616r33[72|8] 617r30[72|8]
+72P8*Link_to_System(62R8[105|8]) 44|78r61[105|8] 79r61[105|8] 87r61[27|8]
+. 88r61[27|8] 96r61[72|8] 97r61[72|8] 164r61[105|8] 165r61[105|8] 173r61[27|8]
+. 174r61[27|8] 182r61[72|8] 183r61[72|8] 45|236r61[105|8] 237r61[105|8] 368r61[27|8]
+. 369r61[27|8] 502r61[72|8] 503r61[72|8] 662r61[105|8] 663r61[105|8] 688r61[27|8]
+. 689r61[27|8] 714r61[72|8] 715r61[72|8] 741r56[105|8] 801r56[27|8] 839r56[72|8]
+74A8*System_Array(72P8[105|8])<94|6I8> 45|248r19[105|8] 380r19[27|8] 514r19[72|8]
+208U13*Copy 45|343s7[105|8] 343s27[105|8] 477s7[27|8] 477s27[27|8] 611s7[72|8]
+. 611s27[72|8]
+243U13*Clear 45|359s5[105|8] 359s21[105|8] 493s5[27|8] 493s21[27|8] 627s5[72|8]
+. 627s21[72|8]
+245U13*Clear 45|359s37[105|8] 493s37[27|8] 627s37[72|8]
+260U13*Clear 45|358s5[105|8] 358s19[105|8] 492s5[27|8] 492s19[27|8] 626s5[72|8]
+. 626s19[72|8]
+274V12*Allocate_Coefficients{37|14A8[87|5]} 45|352s12[105|8] 486s12[27|8]
+. 620s12[72|8]
+X 35 generic_vecmats.ads
+15A8*VecMat(31|17P8[79|5])<94|6I8> 45|195r48[85|6] 207r47[85|6]
+16P8*Link_to_VecMat(15A8[85|6])
+18A8*VecMat_Array(16P8[85|6])<94|6I8> 45|108r35[85|6]
+37U13*Clear 45|231s30[85|6]
+X 36 generic_vectors.ads
+16A8*Vector(99|7I8)<94|6I8> 45|44r44[97|4] 52r45[91|4] 60r44[86|4] 68r44[23|4]
+. 76r44[68|4] 197r49[91|4] 202r49[91|4]
+17P8*Link_to_Vector(16A8[23|4]) 44|52r51[101|4] 83r51[101|4] 92r51[101|4]
+. 101r51[101|4] 132r51[101|4] 169r51[101|4] 178r51[101|4] 187r51[101|4] 45|87r51[101|4]
+. 241r51[101|4] 373r51[101|4] 507r51[101|4] 641r51[101|4] 667r51[101|4] 693r51[101|4]
+. 719r51[101|4] 745r36[101|4] 805r36[101|4] 843r36[101|4]
+X 37 generic_vecvecs.ads
+14A8*VecVec(36|17P8[97|4])<94|6I8> 44|26r60[98|5] 32r61[92|5] 34r60[87|5]
+. 36r60[24|5] 38r60[69|5] 45|40r60[98|5] 48r61[92|5] 56r60[87|5] 64r60[24|5]
+. 72r60[69|5] 98r37[98|5] 107r43[92|5] 199r48[87|5] 208r49[87|5] 251r35[87|5]
+. 252r36[87|5] 253r37[98|5] 383r35[24|5] 384r36[24|5] 385r37[98|5] 517r35[69|5]
+. 518r36[69|5] 519r37[98|5]
+15P8*Link_to_VecVec(14A8[69|5])
+32U13*Clear 45|223s30[98|5] 224s31[92|5] 225s31[92|5] 226s31[92|5] 360s30[87|5]
+. 361s30[87|5] 362s30[98|5] 494s30[24|5] 495s30[24|5] 496s30[98|5] 628s30[69|5]
+. 629s30[69|5] 630s30[98|5]
+X 38 greeting_banners.ads
+1K9*Greeting_Banners 221e21 45|36w6 795r19 833r19 871r19
+64V12*Version{string} 45|795s36 833s36 871s36
+X 39 homotopy_continuation_parameters.ads
+5K9*Homotopy_Continuation_Parameters 55e37 44|16w6 50r27 81r27 90r27 99r27
+. 130r27 167r27 176r27 185r27 45|85r27 239r27 371r27 505r27 639r27 665r27
+. 691r27 717r27 742r12 802r12 840r12
+11R8*Parameters 24e13 44|50r60 81r60 90r60 99r60 130r60 167r60 176r60 185r60
+. 45|85r60 239r60 371r60 505r60 639r60 665r60 691r60 717r60 742r45 802r45
+. 840r45
+16f5*tolres{89|13F8} 45|137r31 137r43 178r31 178r43 289r22 330r22 422r22
+. 464r22 556r22 598r22
+18i5*numdeg{99|7I8} 45|93r50 102r34 247r50 257r34 379r50 389r34 513r50 523r34
+19i5*dendeg{99|7I8} 45|93r64 102r57 247r64 257r57 379r64 389r57 513r64 523r57
+22i5*corsteps{99|7I8} 45|137r17 178r17 288r69 329r69 421r69 463r69 555r69
+. 597r69
+X 44 multitasked_path_convolutions.ads
+20K9*Multitasked_Path_Convolutions 228l5 228e34 45|38b14 874l5 874t34
+26U13*Allocate 26=24 27>24 45|40b13 46l7 46t15 212s5 351s5 485s5 619s5
+26a24 v{37|14A8[98|5]} 45|40b24 43r14 44m7
+27i24 n{94|6I8} 45|41b24 44r54
+32U13*Allocate 32=24 33>24 45|48b13 54l7 54t15 213s5 213s27
+32a24 v{37|14A8[92|5]} 45|48b24 51r14 52m7
+33i24 n{94|6I8} 45|49b24 52r56
+34U13*Allocate 34=24 35>24 45|56b13 62l7 62t15 351s29
+34a24 v{37|14A8[87|5]} 45|56b24 59r14 60m7
+35i24 n{94|6I8} 45|57b24 60r54
+36U13*Allocate 36=24 37>24 45|64b13 70l7 70t15 485s29
+36a24 v{37|14A8[24|5]} 45|64b24 67r14 68m7
+37i24 n{94|6I8} 45|65b24 68r54
+38U13*Allocate 38=24 39>24 45|72b13 78l7 78t15 619s29
+38a24 v{37|14A8[69|5]} 45|72b24 75r14 76m7
+39i24 n{94|6I8} 45|73b24 76r54
+45U13*Standard_Multitasked_Tracker 46>17 47>17 48>17 48>21 49=17 50>17 51>17
+. 52>17 53>17 45|80b13 232l7 232t35 651s5
+46i17 nbtasks{94|6I8} 45|81b17 94r63 96r55 97r65 98r47 100r30 101r19 103r38
+. 104r19 105r33 105r52 107r53 108r51 109r60 190r17 216r26 217r26
+47p17 hom{76|69P8} 45|82b17 101r35 101r43 104r27 104r35 105r60 191r46 195r58
+. 196r50 196r58 197r59 198r19 199r58 200r50 200r58 204r21 204r29 206r21 206r29
+. 211r53 212r19 213r17 213r39
+48p17 cfh{75|68P8} 45|83b17 192r54
+48p21 abh{75|68P8} 45|83b21 193r54
+49p17 sols{84|28P8} 45|84b17 99r50 214r41
+50r17 pars{39|11R8} 45|85b17 93r45 93r59 102r29 102r52 129r47 137r12 137r26
+. 137r38 170r47 178r12 178r26 178r38
+51i17 mhom{94|6I8} 45|86b17 129r58 170r58
+52p17 idz{36|17P8[101|4]} 45|87b17 129r63 170r63
+53b17 verbose{boolean} 45|88b17 215r8
+76U13*Standard_Multitasked_Tracker 77>17 78>17 79>17 80=17 81>17 82>17 83>17
+. 84>17 45|234b13 364l7 364t35 677s5
+77i17 nbtasks{94|6I8} 45|235b17 248r35 249r36 250r33 251r45 252r46 253r47
+. 255r30 256r19 258r38 259r19 260r33 260r52 342r17 352r34 355r26 356r26
+78p17 hom{34|72P8[105|8]} 45|236b17 256r35 256r43 259r27 259r35 260r60 343r12
+. 344r37 346r34 348r29 349r26 351r19 351r41 352r42
+79p17 abh{34|72P8[105|8]} 45|237b17 343r32 345r37 347r34
+80p17 sols{84|28P8} 45|238b17 254r50 353r41
+81r17 pars{39|11R8} 45|239b17 247r45 247r59 257r29 257r52 281r64 288r64 289r17
+. 322r64 329r64 330r17
+82i17 mhom{94|6I8} 45|240b17 282r11 323r11
+83p17 idz{36|17P8[101|4]} 45|241b17 282r16 323r16
+84b17 verbose{boolean} 45|242b17 354r8
+85U13*DoblDobl_Multitasked_Tracker 86>17 87>17 88>17 89=17 90>17 91>17 92>17
+. 93>17 45|366b13 498l7 498t35 703s5
+86i17 nbtasks{94|6I8} 45|367b17 380r35 381r36 382r33 383r45 384r46 385r47
+. 387r30 388r19 390r38 391r19 392r33 392r52 486r34 489r26 490r26
+87p17 hom{34|72P8[27|8]} 45|368b17 388r35 388r43 391r27 391r35 392r60 477r12
+. 478r37 480r34 482r29 483r26 485r19 485r41 486r42
+88p17 abh{34|72P8[27|8]} 45|369b17 477r32 479r37 481r34
+89p17 sols{21|31P8} 45|370b17 386r50 487r41
+90r17 pars{39|11R8} 45|371b17 379r45 379r59 389r29 389r52 414r64 421r64 422r17
+. 456r64 463r64 464r17
+91i17 mhom{94|6I8} 45|372b17 415r11 457r11
+92p17 idz{36|17P8[101|4]} 45|373b17 415r16 457r16
+93b17 verbose{boolean} 45|374b17 488r8
+94U13*QuadDobl_Multitasked_Tracker 95>17 96>17 97>17 98=17 99>17 100>17 101>17
+. 102>17 45|500b13 632l7 632t35 729s5
+95i17 nbtasks{94|6I8} 45|501b17 514r35 515r36 516r33 517r45 518r46 519r47
+. 521r30 522r19 524r38 525r19 526r33 526r52 620r34 623r26 624r26
+96p17 hom{34|72P8[72|8]} 45|502b17 522r35 522r43 525r27 525r35 526r60 611r12
+. 612r37 614r34 616r29 617r26 619r19 619r41 620r42
+97p17 abh{34|72P8[72|8]} 45|503b17 611r32 613r37 615r34
+98p17 sols{66|31P8} 45|504b17 520r50 621r41
+99r17 pars{39|11R8} 45|505b17 513r45 513r59 523r29 523r52 548r64 555r64 556r17
+. 590r64 597r64 598r17
+100i17 mhom{94|6I8} 45|506b17 549r11 591r11
+101p17 idz{36|17P8[101|4]} 45|507b17 549r16 591r16
+102b17 verbose{boolean} 45|508b17 622r8
+125U13*Track 126>17 127>17 128>17 128>21 129=17 130>17 131>17 131>21 132>17
+. 133>17 45|634b13 658l7 658t12 785s9
+126p17 file{14|67P9} 45|635b17 649r8 653r54 654r14 655r9 656r9 656r31 657r36
+127p17 hom{76|69P8} 45|636b17 649r13 651r38
+128p17 cfh{75|68P8} 45|637b17 651r42
+128p21 abh{75|68P8} 45|637b21 651r46
+129p17 sols{84|28P8} 45|638b17 649r21 651m50 653m73
+130r17 pars{39|11R8} 45|639b17 649r26 651r55
+131i17 nbt{94|6I8} 45|640b17 651r34 656r14
+131i21 mhom{94|6I8} 45|640b21 651r60 653r64
+132p17 idz{36|17P8[101|4]} 45|641b17 651r65 653r69
+133b17 arth{boolean} 45|642b17 649r31 653r59
+162U13*Track 163>17 164>17 165>17 166=17 167>17 168>17 168>21 169>17 170>17
+. 45|660b13 684l7 684t12 775s7
+163p17 file{14|67P9} 45|661b17 675r8 679r54 680r14 681r9 682r9 682r31 683r36
+164p17 hom{34|72P8[105|8]} 45|662b17 675r13 677r38
+165p17 abh{34|72P8[105|8]} 45|663b17 677r42
+166p17 sols{84|28P8} 45|664b17 675r21 677m46 679m73
+167r17 pars{39|11R8} 45|665b17 675r26 677r51
+168i17 nbt{94|6I8} 45|666b17 677r34 682r14
+168i21 mhom{94|6I8} 45|666b21 677r56 679r64
+169p17 idz{36|17P8[101|4]} 45|667b17 677r61 679r69
+170b17 arth{boolean} 45|668b17 675r31 679r59
+171U13*Track 172>17 173>17 174>17 175=17 176>17 177>17 177>21 178>17 179>17
+. 45|686b13 710l7 710t12 825s5
+172p17 file{14|67P9} 45|687b17 701r8 705r54 706r14 707r9 708r9 708r31 709r36
+173p17 hom{34|72P8[27|8]} 45|688b17 701r13 703r38
+174p17 abh{34|72P8[27|8]} 45|689b17 703r42
+175p17 sols{21|31P8} 45|690b17 701r21 703m46 705m73
+176r17 pars{39|11R8} 45|691b17 701r26 703r51
+177i17 nbt{94|6I8} 45|692b17 703r34 708r14
+177i21 mhom{94|6I8} 45|692b21 703r56 705r64
+178p17 idz{36|17P8[101|4]} 45|693b17 703r61 705r69
+179b17 arth{boolean} 45|694b17 701r31 705r59
+180U13*Track 181>17 182>17 183>17 184=17 185>17 186>17 186>21 187>17 188>17
+. 45|712b13 736l7 736t12 863s5
+181p17 file{14|67P9} 45|713b17 727r8 731r54 732r14 733r9 734r9 734r31 735r36
+182p17 hom{34|72P8[72|8]} 45|714b17 727r13 729r38
+183p17 abh{34|72P8[72|8]} 45|715b17 729r42
+184p17 sols{66|31P8} 45|716b17 727r21 729m46 731m73
+185r17 pars{39|11R8} 45|717b17 727r26 729r51
+186i17 nbt{94|6I8} 45|718b17 729r34 734r14
+186i21 mhom{94|6I8} 45|718b21 729r56 731r64
+187p17 idz{36|17P8[101|4]} 45|719b17 729r61 731r69
+188b17 arth{boolean} 45|720b17 727r31 731r59
+216U13*Standard_Main 216>29 216>48 45|738b13 796l7 796t20
+216i29 nt{99|7I8} 45|738b29 756r8 757r24
+216i48 vrb{94|6I8} 45|738b48 752r8
+217U13*DoblDobl_Main 217>29 217>48 45|798b13 834l7 834t20
+217i29 nt{99|7I8} 45|798b29 816r8 817r24
+217i48 vrb{94|6I8} 45|798b48 812r8
+218U13*QuadDobl_Main 218>29 218>48 45|836b13 872l7 872t20
+218i29 nt{99|7I8} 45|836b29 854r8 855r24
+218i48 vrb{94|6I8} 45|836b48 850r8
+X 45 multitasked_path_convolutions.adb
+43i9 k<long_integer> 44r9
+51i9 k<long_integer> 52r9
+59i9 k<long_integer> 60r9
+67i9 k<long_integer> 68r9
+75i9 k<long_integer> 76r9
+93i5 maxit{94|6I8} 129r52 170r52
+94a5 homsa{76|71A8} 129r12 133r54 134r20 142r54 170r12 174r54 175r20 183r54
+. 191m50 191r50 219m45 219r45
+95p5 rcf{93|13P8} 129r21 133r46 142r46 170r21 174r46 183r46 211m61 211r61
+. 227m40 227r40
+95p9 icf{93|13P8} 129r25 133r50 142r50 170r25 174r50 183r50 211m65 211r65
+. 228m40 228r40
+96a5 rx{93|10A8} 130r37 171r37 203m9 229m40 229r40
+96a8 ix{93|10A8} 130r43 171r43 205m9 230m40 230r40
+97a5 cfhsa{75|70A8} 129r29 134r29 136r12 170r29 175r29 177r12 192m7 220m41
+. 220r41
+97a11 abhsa{75|70A8} 129r38 134r38 136r21 170r38 175r38 177r21 193m7 221m41
+. 221r41
+98a5 ipvt{37|14A8[98|5]} 131r34 137r50 172r34 178r50 212m14 212r14 223m36
+. 223r36
+99p5 first{84|25P8} 101r27
+100a5 prd{103|97A8} 130m12 130r12 171m12 171r12 222m11 222r11
+103a5 psv{103|108A8} 127m9 127r9 130r19 136r30 136r41 140r17 165m9 165r9
+. 171r19 177r30 177r41 181r17 222m23 222r23
+105a5 svh{103|138A8} 130r30 171r30 222m35 222r35
+106i5 xtr{99|7I8} 138r51 179r51
+107a5 xr{37|14A8[92|5]} 130r49 136r55 171r49 177r55 213m14 213r14 225m37
+. 225r37
+107a8 xi{37|14A8[92|5]} 130r55 136r61 171r55 177r61 213m36 213r36 226m37
+. 226r37
+107a11 pwt{37|14A8[92|5]} 131r46 172r46 202m9 224m37 224r37
+108a5 vh{35|18A8[85|6]} 131r12 172r12 207m9 231m36 231r36
+109a5 svls{34|28A8[105|8]} 131r22 172r22 208m9
+111U15 Silent_Track 111b15 111>30 111>32 144l9 144t21 145r65
+111i30 i{94|6I8} 127r13 129r18 129r35 129r44 130r16 130r23 130r34 130r40
+. 130r46 130r52 130r58 131r15 131r27 131r39 131r50 133r60 134r26 134r35 134r44
+. 136r18 136r27 136r34 136r45 136r58 136r64 137r55 140r21 142r60
+111i32 n{94|6I8}
+116p7 myptr{84|28P8} 124m9 125r27 126r23
+117p7 ls{84|25P8} 126m9 127r23 138r12 138r19 138r26 140r9 140r29
+118f7 t{89|13F8} 127m29 131m53 131r53 134r47 140r69
+118f9 initres{89|13F8} 137m62
+118f17 mixres{89|13F8} 131m55 131r55 138m33
+118f24 minstpz{89|13F8} 132m48
+118f32 maxstpz{89|13F8} 132m56
+119i7 tnbrit{99|7I8} 132m12 139m9 139r19
+119i14 nbpole{99|7I8} 132m19
+119i21 nbhess{99|7I8} 132m26
+119i28 nbmaxm{99|7I8} 132m33
+119i35 nbsteps{99|7I8} 132m40
+119i43 nbrit{99|7I8} 138m40 139r28
+120b7 fail{boolean} 132m64 138m46
+145U15 silent_do_jobs[46|44] 217s11 47|61b13
+147U15 Report_Track 147b15 147>30 147>32 185l9 185t21 187r42
+147i30 i{94|6I8} 165r13 166r51 170r18 170r35 170r44 171r16 171r23 171r34
+. 171r40 171r46 171r52 171r58 172r15 172r27 172r39 172r50 174r60 175r26 175r35
+. 175r44 177r18 177r27 177r34 177r45 177r58 177r64 178r55 181r21 183r60
+147i32 n{94|6I8}
+152p7 myptr{84|28P8} 161m9 163r27 164r23
+153p7 ls{84|25P8} 164m9 165r23 179r12 179r19 179r26 181r9 181r29
+154i7 cnt{94|6I8} 162m9 168r51
+155f7 t{89|13F8} 165m29 172m53 172r53 175r47 181r69
+155f9 initres{89|13F8} 178m62
+155f17 mixres{89|13F8} 172m55 172r55 179m33
+155f24 minstpz{89|13F8} 173m48
+155f32 maxstpz{89|13F8} 173m56
+156i7 tnbrit{99|7I8} 173m12 180m9 180r19
+156i14 nbpole{99|7I8} 173m19
+156i21 nbhess{99|7I8} 173m26
+156i28 nbmaxm{99|7I8} 173m33
+156i35 nbsteps{99|7I8} 173m40
+156i43 nbrit{99|7I8} 179m40 180r28
+157b7 fail{boolean} 173m64 179m46
+186U15 report_do_jobs[46|58] 216s11 47|92b13
+190i9 k<long_integer> 191r56 192r13 193r13 202r13 203r12 205r12 207r12 208r14
+195a9 vm{35|15A8[85|6]} 207r55
+197a9 rz{36|16A8[91|4]} 202r57
+199a9 sv{37|14A8[87|5]} 208r57
+247i5 maxit{94|6I8} 281r69 322r69
+248a5 homsa{34|74A8[105|8]} 281r24 284r40 286r21 287r26 288r25 294r40 322r24
+. 325r40 327r21 328r26 329r25 335r40 343m16 343r16 358m11 358r11
+248a11 abhsa{34|74A8[105|8]} 281r33 286r12 288r34 293r49 322r33 327r12 329r34
+. 334r49 343m36 343r36 358m25 358r25
+249a5 homlead{34|28A8[105|8]} 281r42 322r42 344m45 344r45 346r42 359m11 359r11
+249a13 abhlead{34|28A8[105|8]} 281r53 293r38 322r53 334r38 345m45 345r45
+. 347r42 359m27 359r27
+250a5 homcff{34|34A8[105|8]} 284r30 294r30 325r30 335r30 348m37 348r37 349r34
+. 359m43 359r43
+251a5 dx{37|14A8[87|5]} 282r45 289r43 323r45 330r43 351m38 351r38 360m36
+. 360r36
+252a5 wrk{37|14A8[87|5]} 282r67 323r67 352m5 361m36 361r36
+253a5 ipvt{37|14A8[98|5]} 282r55 289r53 323r55 330r53 351m14 351r14 362m36
+. 362r36
+254p5 first{84|25P8} 256r27
+255a5 prd{103|97A8} 282m20 282r20 323m20 323r20 363m11 363r11
+258a5 psv{103|108A8} 280m9 280r9 282r27 288r43 291r17 321m9 321r9 323r27
+. 329r43 332r17 363m23 363r23
+260a5 svh{103|138A8} 282r38 323r38 363m35 363r35
+261i5 xtr{94|6I8} 290r16 331r16
+263U15 Silent_Track 263b15 263>30 263>32 296l9 296t21 297r65
+263i30 i{94|6I8} 280r13 281r30 281r39 281r50 281r61 282r24 282r31 282r42
+. 282r48 282r60 282r71 284r37 284r46 286r18 286r27 287r32 288r31 288r40 288r47
+. 289r46 289r58 291r21 293r46 293r55 294r37 294r46
+263i32 n{94|6I8}
+268p7 myptr{84|28P8} 277m9 278r27 279r23
+269p7 ls{84|25P8} 279m9 280r23 289r29 289r36 289r65 291r9 291r29
+270f7 t{89|13F8} 280m29 283m11 283r11 287r35 291r69
+270f9 mixres{89|13F8} 283m13 283r13
+270f16 minstpz{89|13F8} 283m56
+270f24 maxstpz{89|13F8} 283m64
+271i7 tnbrit{99|7I8} 283m20
+271i14 nbpole{99|7I8} 283m27
+271i21 nbhess{99|7I8} 283m34
+271i28 nbmaxm{99|7I8} 283m41
+271i35 nbsteps{99|7I8} 283m48
+272i7 nbrit{94|6I8} 289m11
+273b7 fail{boolean} 283m72 290m11
+297U15 silent_do_jobs[46|44] 356s11 47|61b13
+299U15 Report_Track 299b15 299>30 299>32 337l9 337t21 339r42
+299i30 i{94|6I8} 318r51 321r13 322r30 322r39 322r50 322r61 323r24 323r31
+. 323r42 323r48 323r60 323r71 325r37 325r46 327r18 327r27 328r32 329r31 329r40
+. 329r47 330r46 330r58 332r21 334r46 334r55 335r37 335r46
+299i32 n{94|6I8}
+304p7 myptr{84|28P8} 314m9 316r27 317r23
+305p7 ls{84|25P8} 317m9 321r23 330r29 330r36 330r65 332r9 332r29
+306i7 cnt{94|6I8} 315m9 320r51
+307f7 t{89|13F8} 321m29 324m11 324r11 328r35 332r69
+307f9 mixres{89|13F8} 324m13 324r13
+307f16 minstpz{89|13F8} 324m56
+307f24 maxstpz{89|13F8} 324m64
+308i7 tnbrit{99|7I8} 324m20
+308i14 nbpole{99|7I8} 324m27
+308i21 nbhess{99|7I8} 324m34
+308i28 nbmaxm{99|7I8} 324m41
+308i35 nbsteps{99|7I8} 324m48
+309i7 nbrit{94|6I8} 330m11
+310b7 fail{boolean} 324m72 331m11
+338U15 report_do_jobs[46|58] 355s11 47|92b13
+342i9 k<long_integer> 343r22 343r42 344r53 345r53 346r50 347r50 348r44 349r41
+379i5 maxit{94|6I8} 414r69 456r69
+380a5 homsa{34|74A8[27|8]} 414r24 417r40 419r21 420r26 421r25 427r40 456r24
+. 459r40 461r21 462r26 463r25 469r40 476r14 477m16 477r16 492m11 492r11
+380a11 abhsa{34|74A8[27|8]} 414r33 419r12 421r34 426r49 456r33 461r12 463r34
+. 468r49 477m36 477r36 492m25 492r25
+381a5 homlead{34|28A8[27|8]} 414r42 456r42 478m45 478r45 480r42 493m11 493r11
+381a13 abhlead{34|28A8[27|8]} 414r53 426r38 456r53 468r38 479m45 479r45 481r42
+. 493m27 493r27
+382a5 homcff{34|34A8[27|8]} 417r30 427r30 459r30 469r30 482m37 482r37 483r34
+. 493m43 493r43
+383a5 dx{37|14A8[24|5]} 415r45 422r43 457r45 464r43 485m38 485r38 494m36
+. 494r36
+384a5 wrk{37|14A8[24|5]} 415r67 457r67 486m5 495m36 495r36
+385a5 ipvt{37|14A8[98|5]} 415r55 422r53 457r55 464r53 485m14 485r14 496m36
+. 496r36
+386p5 first{21|28P8} 388r27
+387a5 prd{25|87A8} 415m20 415r20 457m20 457r20 497m11 497r11
+390a5 psv{25|98A8} 413m9 413r9 415r27 421r43 424r17 455m9 455r9 457r27 463r43
+. 466r17 497m23 497r23
+392a5 svh{25|120A8} 415r38 457r38 497m35 497r35
+393i5 xtr{94|6I8} 423r16 465r16
+395U15 Silent_Track 395b15 395>30 395>32 429l9 429t21 430r65
+395i30 i{94|6I8} 413r13 414r30 414r39 414r50 414r61 415r24 415r31 415r42
+. 415r48 415r60 415r71 417r37 417r46 419r18 419r27 420r32 421r31 421r40 421r47
+. 422r46 422r58 424r21 426r46 426r55 427r37 427r46
+395i32 n{94|6I8}
+400p7 myptr{21|31P8} 410m9 411r27 412r23
+401p7 ls{21|28P8} 412m9 413r23 422r29 422r36 422r65 424r9 424r29
+402r7 t{28|12R8} 413m29 416m11 416r11 420r35 424r69
+402r9 mixres{28|12R8} 416m13 416r13
+403i7 tnbrit{99|7I8} 416m20
+403i14 nbpole{99|7I8} 416m27
+403i21 nbhess{99|7I8} 416m34
+403i28 nbmaxm{99|7I8} 416m41
+403i35 nbsteps{99|7I8} 416m48
+404f7 minstpz{89|13F8} 416m56
+404f15 maxstpz{89|13F8} 416m64
+405i7 nbrit{94|6I8} 422m11
+406b7 fail{boolean} 416m72 423m11
+430U15 silent_do_jobs[46|44] 490s11 47|61b13
+432U15 Report_Track 432b15 432>30 432>32 471l9 471t21 473r42
+432i30 i{94|6I8} 452r51 455r13 456r30 456r39 456r50 456r61 457r24 457r31
+. 457r42 457r48 457r60 457r71 459r37 459r46 461r18 461r27 462r32 463r31 463r40
+. 463r47 464r46 464r58 466r21 468r46 468r55 469r37 469r46
+432i32 n{94|6I8}
+437p7 myptr{21|31P8} 448m9 450r27 451r23
+438p7 ls{21|28P8} 451m9 455r23 464r29 464r36 464r65 466r9 466r29
+439i7 cnt{94|6I8} 449m9 454r51
+440r7 t{28|12R8} 455m29 458m11 458r11 462r35 466r69
+440r9 mixres{28|12R8} 458m13 458r13
+441i7 tnbrit{99|7I8} 458m20
+441i14 nbpole{99|7I8} 458m27
+441i21 nbhess{99|7I8} 458m34
+441i28 nbmaxm{99|7I8} 458m41
+441i35 nbsteps{99|7I8} 458m48
+442f7 minstpz{89|13F8} 458m56
+442f15 maxstpz{89|13F8} 458m64
+443i7 nbrit{94|6I8} 464m11
+444b7 fail{boolean} 458m72 465m11
+472U15 report_do_jobs[46|58] 489s11 47|92b13
+476i9 k<long_integer> 477r22 477r42 478r53 479r53 480r50 481r50 482r44 483r41
+513i5 maxit{94|6I8} 548r69 590r69
+514a5 homsa{34|74A8[72|8]} 548r24 551r40 553r21 554r26 555r25 561r40 590r24
+. 593r40 595r21 596r26 597r25 603r40 610r14 611m16 611r16 626m11 626r11
+514a11 abhsa{34|74A8[72|8]} 548r33 553r12 555r34 560r49 590r33 595r12 597r34
+. 602r49 611m36 611r36 626m25 626r25
+515a5 homlead{34|28A8[72|8]} 548r42 590r42 612m45 612r45 614r42 627m11 627r11
+515a13 abhlead{34|28A8[72|8]} 548r53 560r38 590r53 602r38 613m45 613r45 615r42
+. 627m27 627r27
+516a5 homcff{34|34A8[72|8]} 551r30 561r30 593r30 603r30 616m37 616r37 617r34
+. 627m43 627r43
+517a5 dx{37|14A8[69|5]} 549r45 556r43 591r45 598r43 619m38 619r38 628m36
+. 628r36
+518a5 wrk{37|14A8[69|5]} 549r67 591r67 620m5 629m36 629r36
+519a5 ipvt{37|14A8[98|5]} 549r55 556r53 591r55 598r53 619m14 619r14 630m36
+. 630r36
+520p5 first{66|28P8} 522r27
+521a5 prd{70|87A8} 549m20 549r20 591m20 591r20 631m11 631r11
+524a5 psv{70|98A8} 547m9 547r9 549r27 555r43 558r17 589m9 589r9 591r27 597r43
+. 600r17 631m23 631r23
+526a5 svh{70|120A8} 549r38 591r38 631m35 631r35
+527i5 xtr{94|6I8} 557r16 599r16
+529U15 Silent_Track 529b15 529>30 529>32 563l9 563t21 564r65
+529i30 i{94|6I8} 547r13 548r30 548r39 548r50 548r61 549r24 549r31 549r42
+. 549r48 549r60 549r71 551r37 551r46 553r18 553r27 554r32 555r31 555r40 555r47
+. 556r46 556r58 558r21 560r46 560r55 561r37 561r46
+529i32 n{94|6I8}
+534p7 myptr{66|31P8} 544m9 545r27 546r23
+535p7 ls{66|28P8} 546m9 547r23 556r29 556r36 556r65 558r9 558r29
+536r7 t{59|14R8} 547m29 550m11 550r11 554r35 558r69
+536r9 mixres{59|14R8} 550m13 550r13
+537i7 tnbrit{99|7I8} 550m20
+537i14 nbpole{99|7I8} 550m27
+537i21 nbhess{99|7I8} 550m34
+537i28 nbmaxm{99|7I8} 550m41
+537i35 nbsteps{99|7I8} 550m48
+538f7 minstpz{89|13F8} 550m56
+538f15 maxstpz{89|13F8} 550m64
+539i7 nbrit{94|6I8} 556m11
+540b7 fail{boolean} 550m72 557m11
+564U15 silent_do_jobs[46|44] 624s11 47|61b13
+566U15 Report_Track 566b15 566>30 566>32 605l9 605t21 607r42
+566i30 i{94|6I8} 586r51 589r13 590r30 590r39 590r50 590r61 591r24 591r31
+. 591r42 591r48 591r60 591r71 593r37 593r46 595r18 595r27 596r32 597r31 597r40
+. 597r47 598r46 598r58 600r21 602r46 602r55 603r37 603r46
+566i32 n{94|6I8}
+571p7 myptr{66|31P8} 582m9 584r27 585r23
+572p7 ls{66|28P8} 585m9 589r23 598r29 598r36 598r65 600r9 600r29
+573i7 cnt{94|6I8} 583m9 588r51
+574r7 t{59|14R8} 589m29 592m11 592r11 596r35 600r69
+574r9 mixres{59|14R8} 592m13 592r13
+575i7 tnbrit{99|7I8} 592m20
+575i14 nbpole{99|7I8} 592m27
+575i21 nbhess{99|7I8} 592m34
+575i28 nbmaxm{99|7I8} 592m41
+575i35 nbsteps{99|7I8} 592m48
+576f7 minstpz{89|13F8} 592m56
+576f15 maxstpz{89|13F8} 592m64
+577i7 nbrit{94|6I8} 598m11
+578b7 fail{boolean} 592m72 599m11
+606U15 report_do_jobs[46|58] 623s11 47|92b13
+610i9 k<long_integer> 611r22 611r42 612r53 613r53 614r50 615r50 616r44 617r41
+644b5 verbose{boolean} 649m36 651r69
+645i5 startmoment{4|42I9} 650m5 657r41
+645i17 stopmoment{4|42I9} 652m5 657r53
+670b5 verbose{boolean} 675m36 677r65
+671i5 startmoment{4|42I9} 676m5 683r41
+671i17 stopmoment{4|42I9} 678m5 683r53
+696b5 verbose{boolean} 701m36 703r65
+697i5 startmoment{4|42I9} 702m5 709r41
+697i17 stopmoment{4|42I9} 704m5 709r53
+722b5 verbose{boolean} 727m36 729r65
+723i5 startmoment{4|42I9} 728m5 735r41
+723i17 stopmoment{4|42I9} 730m5 735r53
+740p5 sols{84|28P8} 755m64 755r64 775m32 775r32 785m35 785r35
+741p5 cnvhom{34|72P8[105|8]} 755m34 755r34 775r18 781r56
+741p12 abshom{34|72P8[105|8]} 755m41 755r41 775r25
+742r5 pars{39|11R8} 755m59 775r37 785r40
+743i5 nbt{94|6I8} 757m7 760m47 760r47 775r42 785r45 793r14
+744i5 mhom{99|7I8} 755m69 762r8 775r56 785r59
+745p5 idz{36|17P8[101|4]} 755m74 755r74 775r62 785r65
+746b5 artificial{boolean} 755m48 775r66 785r69
+747p5 file{14|67P9} 772m31 772r31 775r13 785r15 789r9 789r49 790r9 790r42
+. 791r14 792r9 793r9 793r31 794r23 795r14
+748i5 start_moment{4|42I9} 773m5 789r54
+748i18 ended_moment{4|42I9} 788m5 790r47
+749e5 ans{character} 763m7 768m7 774r8
+778p9 cffhom{76|69P8} 781m9 782r64 785r20
+779p9 cfs{75|68P8} 782m9 783r51 785r27
+779p13 abh{75|68P8} 783m9 784r46 785r31
+800p5 sols{21|31P8} 815m64 815r64 825m30 825r30
+801p5 cnvhom{34|72P8[27|8]} 815m34 815r34 825r16
+801p12 abshom{34|72P8[27|8]} 815m41 815r41 825r23
+802r5 pars{39|11R8} 815m59 825r35
+803i5 nbt{94|6I8} 817m7 820m47 820r47 825r40 831r14
+804i5 mhom{99|7I8} 815m69 825r54
+805p5 idz{36|17P8[101|4]} 815m74 815r74 825r60
+806b5 artificial{boolean} 815m48 825r64
+807p5 file{14|67P9} 824m31 824r31 825r11 827r9 827r49 828r9 828r42 829r14
+. 830r9 831r9 831r31 832r23 833r14
+808i5 start_moment{4|42I9} 811m5 827r54
+808i18 ended_moment{4|42I9} 826m5 828r47
+838p5 sols{66|31P8} 853m64 853r64 863m30 863r30
+839p5 cnvhom{34|72P8[72|8]} 853m34 853r34 863r16
+839p12 abshom{34|72P8[72|8]} 853m41 853r41 863r23
+840r5 pars{39|11R8} 853m59 863r35
+841i5 nbt{94|6I8} 855m7 858m47 858r47 863r40 869r14
+842i5 mhom{99|7I8} 853m69 863r54
+843p5 idz{36|17P8[101|4]} 853m74 853r74 863r60
+844b5 artificial{boolean} 853m48 863r64
+845p5 file{14|67P9} 862m31 862r31 863r11 865r9 865r49 866r9 866r42 867r14
+. 868r9 869r9 869r31 870r23 871r14
+846i5 start_moment{4|42I9} 849m5 865r54
+846i18 ended_moment{4|42I9} 864m5 866r47
+X 46 multitasking.ads
+4K9*Multitasking 45|35w6 145r37 166r28 168r28 187r11 297r37 318r28 320r28
+. 339r11 430r37 452r28 454r28 473r11 564r37 586r28 588r28 607r11 46|105e17
+24V12*to_string{string} 45|166s41 168s41 318s41 320s41 452s41 454s41 586s41
+. 588s41
+44u13*Silent_Workers 45|145r50 297r50 430r50 564r50
+58u13*Reporting_Workers 45|187r24 339r24 473r24 607r24
+X 58 predictor_corrector_trackers.ads
+32K9*Predictor_Corrector_Trackers 45|30w6 30r46 128r9 169r9 58|469e33
+41U13*Track_One_Path 45|128s38 169s38
+226U13*Track_One_Path 45|281s9 322s9
+262U13*Track_One_Path 45|414s9 456s9
+298U13*Track_One_Path 45|548s9 590s9
+X 59 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 45|8w6 8r46 59|255e24
+14R8*quad_double 45|536r18 574r18 59|253e13
+37V12*Create{14R8} 45|547s34 589s34
+X 64 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[29|11] 45|11w6 558r37 600r37
+X 66 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 44|12w6 98r31 184r31 45|504r31 510r9 716r31
+. 838r12 66|235e31
+20r5*t{29|19R8[64|5]} 45|558m32 600m32
+22a5*v{36|16A8[68|4]} 45|522r33 547r26 558m12 589r26 600m12
+23r5*err{59|14R8} 45|556m32 598m32
+24r5*rco{59|14R8} 45|556m68 598m68
+25r5*res{59|14R8} 45|556m39 598m39
+28P8*Link_to_Solution(19R8) 45|520r22 535r12 572r12
+31P8*Solution_List<30|12P8[30]> 44|98r58 184r58 45|504r58 534r15 571r15 716r58
+. 838r39
+X 68 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[36|8] 45|17w6 76r19
+X 69 quaddobl_complex_vecvecs.ads
+5K9*QuadDobl_Complex_VecVecs[37|10] 44|9w6 38r35 45|72r35 517r10 518r11 628r5
+. 629r5
+X 70 quaddobl_predictor_convolutions.ads
+13K9*QuadDobl_Predictor_Convolutions 45|23w6 511r9 70|605e36
+78n31*SVD{78E8} 45|523r65
+87A8*Predictor_Array(80R8)<94|6I8> 45|521r11
+90a5*sol{36|16A8[68|4]} 45|547m16 558r24 589m16 600r24
+96P8*Link_to_Predictor_Vectors(89R8)
+98A8*Predictor_Vectors_Array(96P8)<94|6I8> 45|524r11
+118P8*Link_to_SVD_Hessians(108R8)
+120A8*SVD_Hessians_Array(118P8)<94|6I8> 45|526r11
+164V12*Create{87A8} 45|522s12
+173V12*Create{98A8} 45|525s12
+185V12*Create{120A8} 45|526s45
+582U13*Clear 45|631s5
+599U13*Clear 45|631s17
+600U13*Clear 45|631s29
+X 71 quaddobl_solutions_queue.ads
+4K9*QuadDobl_Solutions_Queue 45|34w6 544r18 582r18 583r16 621r5 71|34e29
+10U13*Initialize 45|621s30
+15V12*Next{66|31P8} 45|544s43 582s43
+28V12*Next_Counter{94|6I8} 45|583s41
+X 72 quaddobl_speelpenning_convolutions.ads
+8K9*QuadDobl_Speelpenning_Convolutions[34|18] 44|15w6 96r26 97r26 182r26
+. 183r26 45|502r26 503r26 510r36 714r26 715r26 839r21
+X 73 residual_convolution_circuits.ads
+15K9*Residual_Convolution_Circuits 45|24w6 285r9 326r9 418r9 460r9 552r9
+. 594r9 73|152e34
+139U13*Update_Radii_of_Constants 45|285s39 326s39
+142U13*Update_Radii_of_Constants 45|418s39 460s39
+145U13*Update_Radii_of_Constants 45|552s39 594s39
+X 74 standard_circuit_makers.ads
+14K9*Standard_Circuit_Makers 45|25w6 782r16 74|256e28
+248V12*Make_Coefficient_System{75|68P8} 45|782s40
+X 75 standard_coefficient_circuits.ads
+13K9*Standard_Coefficient_Circuits 44|17w6 48r30 128r30 45|83r30 97r19 192r19
+. 193r19 220r5 221r5 637r30 779r19 783r16 784r9 75|1279e34
+68P8*Link_to_System(53R8) 44|48r60 128r60 45|83r60 637r60 779r49
+70A8*System_Array(68P8)<94|6I8> 45|97r49
+174V12*Copy{68P8} 45|192s49 193s49 783s46
+187U13*AbsVal 45|784s39
+1274U13*Clear 45|220s35 221s35
+X 76 standard_coefficient_convolutions.ads
+11K9*Standard_Coefficient_Convolutions 44|18w6 47r26 127r26 45|82r26 94r13
+. 191r7 219r5 636r26 778r18 76|692e38
+44P8*Link_to_Circuit(24R8)
+46A8*Circuits(44P8)<94|6I8>
+53i17*neq{94|6I8} 45|101r39 104r39 195r62 196r54 200r54 649r17
+53i26*dim{94|6I8} 45|104r31 105r64 196r62 199r62 200r62 204r25 206r25 212r23
+. 213r21 213r43
+53i35*deg{94|6I8} 45|101r47 197r63 198r23 204r33 206r33
+54a5*crc{46A8} 45|133r63 142r63 174r63 183r63 211r57
+69P8*Link_to_System(53R8) 44|47r60 127r60 45|82r60 636r60 778r52
+71A8*System_Array(69P8)<94|6I8> 45|94r47
+168U13*Copy 45|191s41
+687U13*Clear 45|219s39
+X 77 standard_coefficient_storage.ads
+5K9*Standard_Coefficient_Storage 45|28w6 133r9 142r9 174r9 183r9 211r5 77|84e33
+30U13*Allocate_and_Store 45|211s34
+75U13*Restore 45|133s38 142s38 174s38 183s38
+X 78 standard_complex_circuits.ads
+10K9*Standard_Complex_Circuits 45|20w6 196r15 78|753e30
+77V12*Allocate{35|15A8[85|6]} 45|196s41
+X 80 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 45|9w6 140r37 181r37 291r37 332r37 80|92e29
+18V12*Create{11R8} 45|140s62 181s62 291s62 332s62
+X 84 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 44|10w6 49r31 80r31 129r31 166r31 45|84r31
+. 90r9 238r31 244r9 638r31 664r31 740r12 84|206e31
+17r5*t{80|11R8} 45|140m32 181m32 291m32 332m32
+19a5*v{36|16A8[86|4]} 45|101r33 127r26 140m12 165r26 181m12 256r33 280r26
+. 291m12 321r26 332m12
+20f5*err{89|13F8} 45|138m29 179m29 289m32 330m32
+21f5*rco{89|13F8} 45|138m22 179m22 289m68 330m68
+22f5*res{89|13F8} 45|138m15 179m15 289m39 330m39
+25P8*Link_to_Solution(16R8) 45|99r22 117r12 153r12 254r22 269r12 305r12
+28P8*Solution_List<30|12P8[27]> 44|49r58 80r58 129r58 166r58 45|84r58 116r15
+. 152r15 238r58 268r15 304r15 638r58 664r58 740r39
+X 85 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[35|11] 45|19w6 108r10 195r23 207r22 231r5
+X 86 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[36|8] 45|15w6 60r19
+X 87 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[37|10] 44|7w6 34r35 45|56r35 199r23 208r24 251r10
+. 252r11 360r5 361r5
+X 88 standard_convolution_splitters.ads
+5K9*Standard_Convolution_Splitters 45|26w6 781r19 88|40e35
+33V12*Split{76|69P8} 45|781s50
+X 89 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 45|6w6 6r46 89|58e30
+13F8*double_float<long_float> 45|118r42 155r42 270r34 307r34 404r25 442r25
+. 538r25 576r25
+X 91 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[36|8] 45|13w6 52r19 197r23 202r23
+X 92 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[37|10] 44|6w6 32r35 45|48r35 107r17 224r5 225r5
+. 226r5
+X 93 standard_floating_vecvecvecs.ads
+4K9*Standard_Floating_VecVecVecs 45|14w6 95r15 96r13 227r5 228r5 229r5 230r5
+. 93|43e33
+10A8*VecVecVec(37|15P8[92|5])<94|6I8> 45|96r42
+13P8*Link_to_VecVecVec(10A8) 45|95r44
+36U13*Clear 45|229s34 230s34
+37U13*Clear 45|227s34 228s34
+X 94 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 44|3w6 3r46 94|45e29
+6I8*integer32<long_integer> 44|27r31 33r31 35r31 37r31 39r31 46r30 51r27
+. 77r30 82r27 86r30 91r27 95r30 100r27 131r31 168r31 177r31 186r31 216r57
+. 217r57 218r57 45|41r31 49r31 57r31 65r31 73r31 81r30 86r27 93r22 93r35
+. 102r19 102r42 111r39 147r39 154r13 235r30 240r27 247r22 247r35 257r19 257r42
+. 261r20 263r39 272r15 288r54 299r39 306r13 309r15 329r54 367r30 372r27 379r22
+. 379r35 389r19 389r42 393r20 395r39 405r15 421r54 432r39 439r13 443r15 463r54
+. 501r30 506r27 513r22 513r35 523r19 523r42 527r20 529r39 539r15 555r54 566r39
+. 573r13 577r15 597r54 640r31 666r31 692r31 718r31 738r57 743r11 757r14 775r46
+. 785r49 798r57 803r11 817r14 825r44 836r57 841r11 855r14 863r44
+X 95 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 45|5w6 5r46 95|47e32
+10U13*get 45|760s43 820s43 858s43
+27U13*put 45|656s5 682s5 708s5 734s5 793s5 831s5 869s5
+X 97 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[36|8] 45|12w6 44r19
+X 98 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[37|10] 44|5w6 26r35 45|40r35 98r12 223r5 253r12
+. 362r5 385r12 496r5 519r12 630r5
+X 99 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 44|2w6 2r46 99|30e29
+7I8*natural32<long_integer> 44|216r37 217r37 218r37 45|106r20 119r51 156r51
+. 271r45 308r45 403r45 441r45 537r45 575r45 738r37 744r12 798r37 804r12 836r37
+. 842r12
+X 101 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[36|8] 44|4w6 52r26 83r26 92r26 101r26 132r26
+. 169r26 178r26 187r26 45|87r26 241r26 373r26 507r26 641r26 667r26 693r26
+. 719r26 745r11 805r11 843r11
+X 102 standard_newton_circuits.ads
+10K9*Standard_Newton_Circuits 45|27w6 135r9 176r9 102|485e29
+416U13*LU_Newton_Steps 45|135s34 176s34
+X 103 standard_predictor_convolutions.ads
+18K9*Standard_Predictor_Convolutions 45|21w6 91r9 245r9 103|1117e36
+88n27*LU{88E8} 45|102r65
+88n31*SVD{88E8} 45|257r65
+97A8*Predictor_Array(90R8)<94|6I8> 45|100r11 255r11
+100a5*sol{36|16A8[86|4]} 45|127m16 136m37 140r24 165m16 177m37 181r24 280m16
+. 291r24 321m16 332r24
+101a5*radsol{36|16A8[86|4]} 45|136m48 177m48
+106P8*Link_to_Predictor_Vectors(99R8)
+108A8*Predictor_Vectors_Array(106P8)<94|6I8> 45|103r11 258r11
+136P8*Link_to_SVD_Hessians(118R8)
+138A8*SVD_Hessians_Array(136P8)<94|6I8> 45|105r11 260r11
+187V12*Create{97A8} 45|101s12 256s12
+197V12*Create{108A8} 45|104s12 259s12
+209V12*Create{138A8} 45|105s45 260s45
+654U13*EvalCffRad 45|134s9 175s9
+1093U13*Clear 45|222s5 363s5
+1111U13*Clear 45|222s17 363s17
+1112U13*Clear 45|222s29 363s29
+X 104 standard_solutions_queue.ads
+4K9*Standard_Solutions_Queue 45|32w6 124r18 161r18 162r16 214r5 277r18 314r18
+. 315r16 353r5 104|34e29
+10U13*Initialize 45|214s30 353s30
+15V12*Next{84|28P8} 45|124s43 161s43 277s43 314s43
+28V12*Next_Counter{94|6I8} 45|162s41 315s41
+X 105 standard_speelpenning_convolutions.ads
+8K9*Standard_Speelpenning_Convolutions[34|18] 44|13w6 78r26 79r26 164r26
+. 165r26 45|109r12 236r26 237r26 244r36 662r26 663r26 741r21
+X 106 standard_vector_splitters.ads
+7K9*Standard_Vector_Splitters 45|18w6 200r15 203r18 205r18 106|237e30
+102V12*Allocate_Floating_Coefficients{37|15P8[92|5]} 45|203s44 205s44
+132V12*Allocate{37|14A8[87|5]} 45|200s41
+X 124 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 137 text_io.ads
+27K9*Text_IO=27:29 44|1w6 1r46
+X 138 time_stamps.ads
+4K9*Time_Stamps 45|3w6 3r46 657r5 683r5 709r5 735r5 138|41e16
+29U13*Write_Time_Stamp 45|789s32 790s25 827s32 828s25 865s32 866s25
+34U13*Write_Elapsed_Time 45|657s17 683s17 709s17 735s17
+X 139 track_path_convolutions.ads
+15K9*Track_Path_Convolutions 45|31w6 648r5 653r5 674r5 679r5 700r5 705r5
+. 726r5 731r5 755r5 815r5 853r5 139|229e28
+21U13*Standard_Write_Homotopy 45|648s29 674s29
+26U13*DoblDobl_Write_Homotopy 45|700s29
+31U13*QuadDobl_Write_Homotopy 45|726s29
+52U13*Standard_Write_Solutions 45|653s29 679s29
+57U13*DoblDobl_Write_Solutions 45|705s29
+62U13*QuadDobl_Write_Solutions 45|731s29
+176U13*Main 45|755s29
+185U13*Main 45|815s29
+194U13*Main 45|853s29
+X 141 write_seed_number.ads
+3U11*Write_Seed_Number 45|4w6 794s5 832s5 870s5
+

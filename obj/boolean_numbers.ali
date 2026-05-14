@@ -1,0 +1,94 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U boolean_numbers%b	boolean_numbers.adb	14d5a679 NE OO PK
+
+U boolean_numbers%s	boolean_numbers.ads	464cf11b EE NE OO PK
+
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_numbers.adb	20260513024558 52995762 boolean_numbers%b
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [create boolean_numbers 7 12 none]
+G c Z s b [equal boolean_numbers 9 12 none]
+G c Z s b [copy boolean_numbers 10 13 none]
+G c Z s b [Oadd boolean_numbers 12 12 none]
+G c Z s b [Oadd boolean_numbers 13 12 none]
+G c Z s b [Osubtract boolean_numbers 14 12 none]
+G c Z s b [Osubtract boolean_numbers 15 12 none]
+G c Z s b [Omultiply boolean_numbers 16 12 none]
+G c Z s b [add boolean_numbers 18 13 none]
+G c Z s b [sub boolean_numbers 19 13 none]
+G c Z s b [min boolean_numbers 20 13 none]
+G c Z s b [mul boolean_numbers 21 13 none]
+G c Z s b [rmd boolean_numbers 23 13 none]
+G c Z s b [rmd boolean_numbers 24 13 none]
+G c Z s b [div boolean_numbers 26 13 none]
+G c Z s b [div boolean_numbers 27 13 none]
+G c Z s b [div boolean_numbers 29 13 none]
+G c Z s b [clear boolean_numbers 32 13 none]
+X 1 boolean_numbers.ads
+1K9*Boolean_Numbers 34l5 34e20 2|1b14 127l5 127t20
+7V12*Create{boolean} 7>21 2|3b12 9l7 9t13
+7i21 i{integer} 2|3b21 5r8
+9V12*Equal{boolean} 9>20 9>22 2|11b12 14l7 14t12
+9b20 a{boolean} 2|11b20 13r13
+9b22 b{boolean} 2|11b22 13r17
+10U13*Copy 10>20 10=36 2|16b13 19l7 19t11
+10b20 a{boolean} 2|16b20 18r10
+10b36 b{boolean} 2|16b36 18m5
+12V13*"+"{boolean} 12>18 12>20 2|21b13 31l8 31t10
+12b18 a{boolean} 2|21b18 24r14 26r10
+12b20 b{boolean} 2|21b20 23r12
+13V13*"+"{boolean} 13>18 2|33b13 36l8 36t10
+13b18 a{boolean} 2|33b18 35r12
+14V13*"-"{boolean} 14>18 14>20 2|38b13 48l8 48t10
+14b18 a{boolean} 2|38b18 41r14 43r10
+14b20 b{boolean} 2|38b20 40r12
+15V13*"-"{boolean} 15>18 2|50b13 53l8 53t10
+15b18 a{boolean} 2|50b18 52r12
+16V13*"*"{boolean} 16>18 16>20 2|55b13 61l8 61t10
+16b18 a{boolean} 2|55b18 58r18
+16b20 b{boolean} 2|55b20 57r8
+18U13*Add 18=19 18>39 2|63b13 71l7 71t10
+18b19 a{boolean} 2|63b19 66r10 67m13 68m13
+18b39 b{boolean} 2|63b39 65r8
+19U13*Sub 19=19 19>39 2|73b13 81l7 81t10
+19b19 a{boolean} 2|73b19 76r10 77m13 78m13
+19b39 b{boolean} 2|73b39 75r8
+20U13*Min 20=19 2|83b13 86l7 86t10
+20b19 a{boolean} 2|83b19
+21U13*Mul 21=19 21>39 2|88b13 93l7 93t10
+21b19 a{boolean} 2|88b19 91m11
+21b39 b{boolean} 2|88b39 90r12
+23V13*Rmd{boolean} 23>19 23>21 2|95b12 98l7 98t10
+23b19 a{boolean} 2|95b18 97r12
+23b21 b{boolean} 2|95b20
+24U13*Rmd 24=19 24>39 2|100b13 103l7 103t10
+24b19 a{boolean} 2|100b19
+24b39 b{boolean} 2|100b39
+26U13*Div 26=19 26>39 2|105b13 108l7 108t10
+26b19 a{boolean} 2|105b19
+26b39 b{boolean} 2|105b39
+27U13*Div 27>19 27>21 28<19 28<36 2|110b13 114l7 114t10
+27b19 a{boolean} 2|110b19 112r10 113r10
+27b21 b{boolean} 2|110b21
+28b19 q{boolean} 2|110b37 112m5
+28b36 r{boolean} 2|110b54 113m5
+29U13*Div 29=19 29>39 30<19 2|116b13 120l7 120t10
+29b19 a{boolean} 2|116b19 119r10
+29b39 b{boolean} 2|117b19
+30b19 r{boolean} 2|117b35 119m5
+32U13*Clear 32=21 2|122b13 125l7 125t12
+32b21 a{boolean} 2|122b21 124m5
+

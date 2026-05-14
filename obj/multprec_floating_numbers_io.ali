@@ -1,0 +1,647 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multprec_floating_numbers_io%b  multprec_floating_numbers_io.adb  c42ed68d NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W characters_and_numbers%s  characters_and_numbers.adb  characters_and_numbers.ali
+W multprec_integer_numbers%s  multprec_integer_numbers.adb  multprec_integer_numbers.ali
+W multprec_integer_numbers_io%s  multprec_integer_numbers_io.adb  multprec_integer_numbers_io.ali
+W multprec_natural_coefficients%s  multprec_natural_coefficients.adb  multprec_natural_coefficients.ali
+W multprec_natural_numbers%s  multprec_natural_numbers.adb  multprec_natural_numbers.ali
+W multprec_natural_numbers_io%s  multprec_natural_numbers_io.adb  multprec_natural_numbers_io.ali
+W multprec_parse_numbers%s  multprec_parse_numbers.adb  multprec_parse_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+
+U multprec_floating_numbers_io%s  multprec_floating_numbers_io.ads  c5786e4b EE NE OO PK IL
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D characters_and_numbers.ads  20260513024558 8b0f2874 characters_and_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_numbers_io.ads  20260513024558 bc378ca8 multprec_floating_numbers_io%s
+D multprec_floating_numbers_io.adb  20260513024558 0da56b47 multprec_floating_numbers_io%b
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_integer_numbers_io.ads  20260513024558 131060ad multprec_integer_numbers_io%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D multprec_natural_numbers_io.ads  20260513024558 18c2a3ce multprec_natural_numbers_io%s
+D multprec_parse_numbers.ads  20260513024558 df8ac437 multprec_parse_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [get multprec_floating_numbers_io 10 13 none]
+G c Z s b [get multprec_floating_numbers_io 11 13 none]
+G c Z s b [get multprec_floating_numbers_io 12 13 none]
+G c Z s b [get multprec_floating_numbers_io 13 13 none]
+G c Z s b [get multprec_floating_numbers_io 22 13 none]
+G c Z s b [put multprec_floating_numbers_io 29 13 none]
+G c Z s b [put multprec_floating_numbers_io 30 13 none]
+G c Z s b [put multprec_floating_numbers_io 32 13 none]
+G c Z s b [put multprec_floating_numbers_io 33 13 none]
+G c Z s b [put multprec_floating_numbers_io 50 13 none]
+G c Z s b [put multprec_floating_numbers_io 51 13 none]
+G c Z s b [character_size multprec_floating_numbers_io 56 12 none]
+G c Z s b [put multprec_floating_numbers_io 62 13 none]
+G c Z b b [head multprec_floating_numbers_io 19 12 none]
+G c Z b b [tail multprec_floating_numbers_io 48 12 none]
+G c Z b b [write_number multprec_floating_numbers_io 102 13 none]
+G c Z b b [write_block multprec_floating_numbers_io 117 13 none]
+G c Z b b [write_zero_block multprec_floating_numbers_io 153 13 none]
+G c Z b b [put multprec_floating_numbers_io 168 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [get multprec_integer_numbers_io 28 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [get multprec_integer_numbers_io 12 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [sub multprec_integer_numbers 188 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [add multprec_integer_numbers 181 13 none]
+G r c none [get multprec_floating_numbers_io 10 13 none] [create multprec_floating_numbers 31 12 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [get multprec_integer_numbers_io 28 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [get multprec_integer_numbers_io 12 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [sub multprec_integer_numbers 188 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [add multprec_integer_numbers 181 13 none]
+G r c none [get multprec_floating_numbers_io 11 13 none] [create multprec_floating_numbers 31 12 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [get multprec_integer_numbers_io 28 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [get multprec_integer_numbers_io 12 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [sub multprec_integer_numbers 188 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [add multprec_integer_numbers 181 13 none]
+G r c none [get multprec_floating_numbers_io 12 13 none] [create multprec_floating_numbers 31 12 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [get multprec_integer_numbers_io 28 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [convert characters_and_numbers 19 12 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [get multprec_integer_numbers_io 12 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [sub multprec_integer_numbers 188 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [add multprec_integer_numbers 181 13 none]
+G r c none [get multprec_floating_numbers_io 13 13 none] [create multprec_floating_numbers 31 12 none]
+G r c none [get multprec_floating_numbers_io 22 13 none] [parse multprec_parse_numbers 69 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [put multprec_integer_numbers_io 46 13 none]
+G r c none [put multprec_floating_numbers_io 29 13 none] [clear multprec_natural_numbers 207 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [put multprec_integer_numbers_io 46 13 none]
+G r c none [put multprec_floating_numbers_io 30 13 none] [clear multprec_natural_numbers 207 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [size multprec_natural_numbers 68 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [coefficient multprec_natural_numbers 87 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [unsigned multprec_integer_numbers 92 12 none]
+G r c none [put multprec_floating_numbers_io 32 13 none] [clear multprec_natural_numbers 207 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [size multprec_natural_numbers 68 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [coefficient multprec_natural_numbers 87 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [unsigned multprec_integer_numbers 92 12 none]
+G r c none [put multprec_floating_numbers_io 33 13 none] [clear multprec_natural_numbers 207 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [size multprec_natural_numbers 68 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [coefficient multprec_natural_numbers 87 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [unsigned multprec_integer_numbers 92 12 none]
+G r c none [put multprec_floating_numbers_io 50 13 none] [clear multprec_natural_numbers 207 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [decimal_places multprec_integer_numbers 73 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [size multprec_natural_numbers 68 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [coefficient multprec_natural_numbers 87 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [unsigned multprec_integer_numbers 92 12 none]
+G r c none [put multprec_floating_numbers_io 51 13 none] [clear multprec_natural_numbers 207 13 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [unsigned multprec_integer_numbers 92 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [character_size multprec_floating_numbers_io 56 12 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [fraction multprec_floating_numbers 38 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [unsigned multprec_integer_numbers 92 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [exponent multprec_floating_numbers 39 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [Oadd multprec_integer_numbers 144 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [div multprec_integer_numbers 196 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [create multprec_integer_numbers 42 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [size multprec_integer_numbers 58 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [div multprec_integer_numbers 201 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [create multprec_integer_numbers 29 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [add multprec_integer_numbers 182 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [create multprec_natural_numbers 30 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [equal multprec_integer_numbers 100 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [convert_decimal characters_and_numbers 45 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [equal multprec_natural_numbers 101 12 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [put multprec_natural_numbers_io 37 13 none]
+G r c none [put multprec_floating_numbers_io 62 13 none] [put multprec_integer_numbers_io 51 13 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [div multprec_integer_numbers 196 13 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [create multprec_integer_numbers 42 12 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [head multprec_floating_numbers_io 19 12 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [size multprec_integer_numbers 58 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [positive multprec_integer_numbers 79 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [copy multprec_integer_numbers 121 13 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [Ogt multprec_integer_numbers 113 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [div multprec_integer_numbers 201 13 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [create multprec_integer_numbers 29 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [mul multprec_integer_numbers 190 13 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [add multprec_integer_numbers 182 13 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [clear multprec_integer_numbers 215 13 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [negative multprec_integer_numbers 80 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [Olt multprec_integer_numbers 106 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [coefficient multprec_integer_numbers 63 12 none]
+G r c none [tail multprec_floating_numbers_io 48 12 none] [create multprec_natural_numbers 30 12 none]
+G r c none [write_number multprec_floating_numbers_io 102 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_block multprec_floating_numbers_io 117 13 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [write_block multprec_floating_numbers_io 117 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_zero_block multprec_floating_numbers_io 153 13 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [put multprec_floating_numbers_io 168 13 none] [decimal_places multprec_natural_numbers 78 12 none]
+G r c none [put multprec_floating_numbers_io 168 13 none] [put multprec_natural_numbers_io 32 13 none]
+G r c none [put multprec_floating_numbers_io 168 13 none] [size multprec_natural_numbers 68 12 none]
+G r c none [put multprec_floating_numbers_io 168 13 none] [coefficient multprec_natural_numbers 87 12 none]
+G r c none [put multprec_floating_numbers_io 168 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [put multprec_floating_numbers_io 168 13 none] [exponent multprec_natural_coefficients 31 12 none]
+X 12 a-textio.ads
+67P9*File_Type 21|11r29 13r29 30r29 33r29 51r29 22|102r38 117r37 153r42 168r29
+. 219r29 267r29 292r29 336r29 417r29
+187V13*Standard_Input{67P9} 22|211s9 216s9
+188V13*Standard_Output{67P9} 22|289s9 333s9
+302V13*End_Of_Line{boolean} 22|234s19
+414U14*Get 22|230s7 235s9
+508U14*Put 22|129s9 143s9 162s7 184s9 302s7 305s23 311s11 315s9 319s9 321s15
+. 348s9 350s7 352s9 354s7 356s9 362s11 366s11 369s23 375s11 380s11 390s7
+. 392s9 394s11 398s15 399s15 402s11
+X 14 characters_and_numbers.ads
+6K9*Characters_and_Numbers 85e27 22|1w6 1r46
+19V12*Convert{34|7I8} 22|237s10
+45V12*Convert_Decimal{character} 22|466s25 481s23
+X 20 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 221e30 21|3w6 3r46
+16R8*Floating_Number 219e13 21|10r30 11r51 12r30 14r30 22r45 29r26 30r47
+. 32r26 34r26 50r26 52r26 56r33 62r42 22|209r30 214r30 219r51 267r51 275r45
+. 287r26 292r47 331r26 337r26 412r26 418r26 423r33 448r42
+31V12*Create{16R8} 22|264s10
+38V12*Fraction{25|15P8} 22|300s10 306s20 345s10 370s20 425s48 434s14 436s20
+. 450s56 452s37 453s42 461s14
+39V12*Exponent{25|15P8} 22|317s15 388s15 426s28 451s37
+X 21 multprec_floating_numbers_io.ads
+5K9*Multprec_Floating_Numbers_io 69l5 69e33 22|12b14 507l5 507t33
+10U13*get 10=19 22|209b13 212l7 212t10
+10r19 f{20|16R8} 22|209b19 211m24
+11U13*get 11>19 11=40 22|211s5 267b13 273l7 273t10
+11p19 file{12|67P9} 22|267b19 272r9
+11r40 f{20|16R8} 22|267b40 272m14
+12U13*get 12=19 12=47 22|214b13 217l7 217t10
+12r19 f{20|16R8} 22|214b19 216m24
+12e47 c{character} 22|214b47 216m26
+13U13*get 13>19 14=19 14=47 22|216s5 219b13 265l7 265t10 272s5
+13p19 file{12|67P9} 22|219b19 228r9 230r11 234r31 235r13 238r13 252r11
+14r19 f{20|16R8} 22|219b40 264m5
+14e47 c{character} 22|220b19 228m14 229r8 230m16 231r13 235m18 237r18 238m18
+. 250r8 250r19 251m7 252m16
+22U13*get 22>19 22=34 23<19 22|275b13 283l7 283t10
+22a19 s{string} 22|275b19 278r22 281r34
+22r34 f{20|16R8} 22|275b34 281m40
+23i19 last{integer} 22|276b19 282m5
+29U13*put 29>19 22|287b13 290l7 290t10
+29r19 f{20|16R8} 22|287b19 289r25
+30U13*put 30>19 30>40 22|289s5 292b13 329l7 329t10
+30p19 file{12|67P9} 22|292b19 302r11 305r11 305r27 311r15 313r13 315r13 319r13
+. 321r19 323r13
+30r40 f{20|16R8} 22|292b40 300r19 306r29 317r24
+32U13*put 32>19 32>43 32>48 32>52 22|331b13 334l7 334t10 414s5
+32r19 f{20|16R8} 22|331b19 333r25
+32i43 fore{34|7I8} 22|331b43 333r27
+32i48 aft{34|7I8} 22|331b48 333r32
+32i52 exp{34|7I8} 22|331b52 333r36
+33U13*put 33>19 34>19 34>43 34>48 34>52 22|333s5 336b13 410l7 410t10 420s5
+33p19 file{12|67P9} 22|336b19 348r13 350r11 352r13 354r11 356r13 362r15 366r15
+. 369r11 369r27 375r15 380r15 385r19 390r11 392r13 394r15 398r19 399r19 402r15
+. 404r13
+34r19 f{20|16R8} 22|337b19 345r19 370r29 388r24
+34i43 fore{34|7I8} 22|337b43 347r20 361r22 365r22
+34i48 aft{34|7I8} 22|337b48 351r19 374r21 378r16
+34i52 exp{34|7I8} 22|337b52 355r20 393r22 401r22
+50U13*put 50>19 50>43 22|412b13 415l7 415t10
+50r19 f{20|16R8} 22|412b19 414r9
+50i43 dp{34|7I8} 22|412b43 414r11 414r14 414r17
+51U13*put 51>19 52>19 52>43 22|417b13 421l7 421t10
+51p19 file{12|67P9} 22|417b19 420r9
+52r19 f{20|16R8} 22|418b19 420r14
+52i43 dp{34|7I8} 22|418b43 420r16 420r19 420r22
+56V12*Character_Size{34|7I8} 56>29 22|423b12 446l7 446t21
+56r29 f{20|16R8} 22|423b29 425r57 426r37 434r23 436r29
+62U13*put 62<19 62>35 22|448b13 505l7 505t10
+62a19 s{string} 22|448b19 462m7 462r9 465m9 465r11 466m9 466r11 467m9 467r11
+. 469m11 469r13 470r18 472r18 474m13 477m15 477r15 477r22 478r18 481m9 481r11
+. 482m9 482r11 484m11 484r13 485r18 487r18 489m13 492m15 492r15 492r22 493r18
+. 497m9 499m19 499r19 499r28 500m15 501m19 501r19 501r28
+62r35 f{20|16R8} 22|448b35 450r65 451r46 452r46 453r51 461r23
+X 22 multprec_floating_numbers_io.adb
+19V12 Head{32|6I8} 19b12 19>19 46l7 46t11 304s13 359s13 452s32
+19p19 i{25|15P8} 28r42 29r12 35r20 36r12
+24i5 res{32|6I8} 33m7 40m7 43m7 45r12
+25p5 wrk{25|15P8} 29m14 29r14 30r13 31m13 31r13 33r21 34m13 34r13 36m14 36r14
+. 37r13 38m13 38r13 40r21 41m13 41r13
+48V12 Tail{28|11P8} 48b12 48>19 100l7 100t11 306s15 370s15 453s37
+48p19 i{25|15P8} 55r41 61r42 62r12 76r20 77r12
+54p5 res{28|11P8} 98m5 99r12
+55a5 res_rep{27|17A8} 94r14 95m7 98r19
+56p5 acc{25|15P8} 71m15 71r15 86m15 86r15 92m7 95r33 97m11 97r11
+56p9 wrk{25|15P8} 62m14 62r14 63r13 65m13 65r13 75m13 75r13 77m14 77r14 78r13
+. 80m13 80r13 90m13 90r13
+56p13 prod{25|15P8} 67m11 69m17 69r17 71r19 72m17 72r17 82m11 84m17 84r17
+. 86r19 87m17 87r17
+57i5 cnt{34|7I8} 64m9 64r16 68r23 79m9 79r16 83r23
+58i5 r{32|6I8} 65m20 66r12 67r26 80m20 81r12 82r26
+68i15 i<long_integer>
+83i15 i<long_integer>
+94i9 i<long_integer> 95r15 95r37
+102U13 Write_Number 102b13 102>28 102>49 103=28 109s7 115l7 115t19 148s13
+. 193s13
+102p28 file{12|67P9} 106r11 109r20 111r13
+102i49 n{34|7I8} 105r8 106r16 109r25 111r18
+103i28 cnt{34|7I8} 107m7 107r14 109m30 110r10 112m9 112r16
+117U13 Write_Block 117b13 117>27 117>48 118=27 151l7 151t18 196s13
+117p27 file{12|67P9} 129r13 143r13 148r26
+117i48 n{34|7I8} 127r8 136r12 148r31
+118i27 cnt{34|7I8} 130m9 130r16 131r20 144m9 144r16 145r20 147r10 148m33
+123i5 expo{34|7I8} 128r19 135r20 137r22
+124i5 nbz{34|7I8} 137m15 140r20 142r19
+124i9 acc{34|7I8} 134m7 136r16 138m15 138r22
+128i11 i<long_integer>
+135i11 i<long_integer> 137r27
+142i11 i<long_integer>
+153U13 Write_Zero_Block 153b13 153>32 153=53 166l7 166t23 199s11
+153p32 file{12|67P9} 162r11
+153i53 cnt{34|7I8} 163m7 163r14 164r18
+158i5 expo{34|7I8} 161r17
+161i9 i<long_integer>
+168U13 put 168b13 168>19 169>19 169>42 205l7 205t10 385s15
+168p19 file{12|67P9} 182r11 184r13 193r26 196r25 199r28
+169p19 n{28|11P8} 176r53 182r16 189r32 190r30
+169i42 dp{34|7I8} 181r20 183r20 188r14
+176i5 deciplan{34|7I8} 181r8 183r23
+177b5 first{boolean} 187m7 192r14 194m13 198r19
+178i5 coeff{34|7I8} 190m9 191r12 193r31 196r30
+178i11 cnt{34|7I8} 188m7 193m37 193r37 196m36 196r36 199m33 199r33 202r20
+183i11 i<long_integer>
+189i11 i<long_integer> 190r32
+222p5 fraction{25|15P8} 228m16 228r16 232m13 232r13 242m15 242r15 244r21
+. 245m19 245r19 246m19 246r19 253r16 259r17 264r17
+222p14 decifrac{25|15P8} 238m20 238r20 239r36 245r28 246r28
+222p23 exponent{25|15P8} 252m18 252r18 254m15 254r15 255m9 257m13 257r13
+. 260m7 262m7 264r26
+223i5 shifexpo{32|6I8} 233m9 233r21 240m9 240r21 256r13 257r22 262r26
+224i5 deciplac{34|7I8} 239m9 240r42 241r21
+225b5 nonneg{boolean} 228m25
+241i13 i<long_integer>
+269e5 c{character} 272m16 272r16
+278i5 pos{integer} 281m36 281r36 282r13
+294p5 frac{25|15P8} 300m22 300r22 301r14 304r18 307r34 328m11 328r11
+294p10 expo{25|15P8} 317m7 318r20 320r12 323r18 326m13 326r13
+295p5 tafr{28|11P8} 306m7 308r34 309r20 313r18 325m13 325r13
+296i5 decifrac{34|7I8} 307m7 310r21 317r39
+296i14 decitafr{34|7I8} 308m7 310r30
+297i5 hd{32|6I8} 304m7 305r16
+310i13 i<long_integer>
+339p5 frac{25|15P8} 345m22 345r22 346r14 359r18 371r34 409m11 409r11
+339p10 expo{25|15P8} 388m7 389r34 391r16 397r12 404r27 407m13 407r13
+340p5 tafr{28|11P8} 370m7 372r34 373r16 385r24 406m13 406r13
+341i5 decifrac{34|7I8} 371m7 379r21 388r39
+341i14 decitafr{34|7I8} 372m7 379r30
+341i23 deciexpo{34|7I8} 389m7 401r26
+341i32 cnt{34|7I8} 378m9 381m11 381r18 382r22 384r12 385r29
+342i5 hd{32|6I8} 359m7 360r10 369r16
+347i11 i<long_integer>
+351i11 i<long_integer>
+355i11 i<long_integer>
+361i13 i<long_integer>
+365i13 i<long_integer>
+374i13 i<long_integer>
+379i13 i<long_integer>
+393i13 i<long_integer>
+401i13 i<long_integer>
+425i5 dpf{34|7I8} 426r52 431r8 432m11 432r18 437r14 439r14
+426p5 ef{25|15P8} 427r57 441r18 444m11 444r11
+427i5 dpe{34|7I8} 442r24
+428i5 res{34|7I8} 437m7 439m7 442m11 442r18 445r12
+450i5 dp{34|7I8} 451r61 457r8 459r26 473r23 488r23
+451p5 ef{25|15P8} 496r20 498r21 499r36 501r36
+452i5 hd{32|6I8} 464r10 466r52 481r49
+453p5 tl{28|11P8} 468r18 473r41 477r37 483r18 488r41 492r35
+454i5 ind{natural} 470m11 472m11 474r15 475m13 475r20 477r17 478m11 485m11
+. 487m11 489r15 490m13 490r20 492r17 493m11 497r11 499r21 500r17 501r21
+454i9 dpf{natural} 458m11 459m11 477r30 478r26 492r30 493r26
+473i15 i<long_integer>
+488i15 i<long_integer>
+X 25 multprec_integer_numbers.ads
+6K9*Multprec_Integer_Numbers 22|8w6 8r46 28r8 61r8 25|225e29
+15P8*Integer_Number 22|19r23 25r11 48r23 56r20 222r34 294r17 339r17 426r10
+. 451r19
+29V12*Create{15P8} 22|67s19 82s19 92s14 255s21 260s19 262s19
+42V12*Create{32|6I8} 22|33s14 40s14
+58V12*Size{34|7I8} 22|55s36
+63V12*Coefficient{34|7I8} 22|95s21
+73V12*Decimal_Places{34|7I8} 22|239s21 307s19 371s19 389s19
+79V12*Positive{boolean} 22|28s33 61s33
+80V12*Negative{boolean} 22|35s11 76s11 244s12 436s11 498s12
+92V12*Unsigned{28|11P8} 22|404s18 425s39 427s48 450s47
+100V12*Equal{boolean} 22|253s10 259s11 301s8 318s14 346s8 391s10 434s8 441s12
+. 461s8 496s14
+106V13*"<"{boolean} 22|37s17 78s17
+113V13*">"{boolean} 22|30s17 63s17 320s17 397s17
+121U13*Copy 22|29s7 36s7 62s7 77s7 300s5 345s5
+144V13*"+"{15P8} 22|317s27 388s27 426s40 451s49
+181U13*Add 22|257s9
+182U13*Add 22|71s11 86s11 246s15
+188U13*Sub 22|245s15
+190U13*Mul 22|69s13 84s13 232s9 242s11
+196U13*Div 22|31s9 38s9
+201U13*Div 22|65s9 80s9
+215U13*Clear 22|34s7 41s7 72s11 75s7 87s11 90s7 97s5 254s9 326s7 328s5 407s7
+. 409s5 444s5
+X 26 multprec_integer_numbers_io.ads
+5K9*Multprec_Integer_Numbers_io 22|9w6 9r46 26|75e32
+12U13*get 22|238s9 252s7
+28U13*get 22|228s5
+46U13*put 22|323s9
+51U13*put 22|499s15 501s15
+X 27 multprec_natural_coefficients.ads
+3K9*Multprec_Natural_Coefficients 22|5w6 5r46 123r34 158r34 27|228e34
+17A8*Array_of_Naturals(34|7I8)<34|7I8> 22|55r15
+31V12*Exponent{34|7I8} 22|123s64 158s64
+X 28 multprec_natural_numbers.ads
+4K9*Multprec_Natural_Numbers 22|6w6 6r46 28|217e29
+11P8*Natural_Number 22|48r47 54r11 169r26 295r12 340r12 453r19
+30V12*Create{11P8} 22|98s12
+68V12*Size{34|7I8} 22|189s27
+78V12*Decimal_Places{34|7I8} 22|176s38 308s19 372s19 425s24 427s33 450s32
+. 473s26 488s26
+87V12*Coefficient{34|7I8} 22|190s18
+101V12*Equal{boolean} 22|309s14 373s10 468s12 483s12
+207U13*Clear 22|325s7 406s7
+X 29 multprec_natural_numbers_io.ads
+6K9*Multprec_Natural_Numbers_io 22|7w6 7r46 29|65e32
+32U13*put 22|182s7 313s9 404s9
+37U13*put 22|477s11 492s11
+X 30 multprec_parse_numbers.ads
+7K9*Multprec_Parse_Numbers 22|10w6 281r5 30|93e27
+69U13*Parse 22|281s28
+X 32 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 22|3w6 3r46 32|45e29
+6I8*integer32<long_integer> 22|19r47 24r11 58r9 92r21 223r16 240r32 255r28
+. 260r26 297r10 317r29 342r10 388r29 426r42 451r51 452r19
+X 33 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 22|4w6 4r46 33|47e32
+27U13*put 22|305s7 369s7
+X 34 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 21|2w6 2r46 34|30e29
+7I8*natural32<long_integer> 21|32r61 34r61 50r51 52r51 56r58 22|57r11 102r56
+. 103r41 117r55 118r40 123r21 124r15 153r66 158r21 169r50 176r25 178r17 224r16
+. 296r25 331r61 337r61 341r38 412r51 418r51 423r58 425r11 427r20 428r11 450r19
+. 466r41 481r39
+X 35 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 22|2w6 2r46 35|35e32
+26U13*put 22|106s7 111s9
+X 56 text_io.ads
+27K9*Text_IO=27:29 21|1w6 1r46
+

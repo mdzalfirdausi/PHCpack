@@ -1,0 +1,165 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+
+U symbol_table_io%b	symbol_table_io.adb	2392cfc7 NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+U symbol_table_io%s	symbol_table_io.ads	cef8d8e5 EE NE OO PK IL
+W symbol_table%s	symbol_table.adb	symbol_table.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbol_table_io.ads	20260513024558 426dcf93 symbol_table_io%s
+D symbol_table_io.adb	20260513024558 61ff0054 symbol_table_io%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [get symbol_table_io 9 13 none]
+G c Z s b [get symbol_table_io 10 13 none]
+G c Z s b [get symbol_table_io 11 13 none]
+G c Z s b [get symbol_table_io 12 13 none]
+G c Z s b [get symbol_table_io 14 13 none]
+G c Z s b [get symbol_table_io 15 13 none]
+G c Z s b [get symbol_table_io 17 13 none]
+G c Z s b [get symbol_table_io 19 13 none]
+G c Z s b [put symbol_table_io 31 13 none]
+G c Z s b [put symbol_table_io 32 13 none]
+G c Z s b [write symbol_table_io 38 13 none]
+G c Z s b [write symbol_table_io 39 13 none]
+G c Z s b [parse_symbol symbol_table_io 45 13 none]
+G c Z s b [parse_symbol symbol_table_io 52 13 none]
+G r c none [write symbol_table_io 38 13 none] [number symbol_table 135 12 none]
+G r c none [write symbol_table_io 38 13 none] [get symbol_table 152 12 none]
+G r c none [write symbol_table_io 39 13 none] [number symbol_table 135 12 none]
+G r c none [write symbol_table_io 39 13 none] [get symbol_table 152 12 none]
+X 9 a-textio.ads
+67P9*File_Type 16|14r29 15r29 17r29 19r29 32r29 39r31 45r38 17|24r29 33r29
+. 43r29 70r29 102r29 115r31 127r38
+187V13*Standard_Input{67P9} 17|5s25 10s25 15s25 21s25
+188V13*Standard_Output{67P9} 17|99s9 112s11
+302V13*End_Of_Line{boolean} 17|59s12 64s19 86s12 91s19
+341V13*End_Of_File{boolean} 17|142s14
+414U14*Get 17|29s13 39s13 51s17 61s17 78s17 88s17 143s11
+426U14*Put 17|106s15
+508U14*Put 17|118s15
+X 14 standard_natural_numbers.ads
+7I8*natural32<long_integer>
+X 15 symbol_table.ads
+4K9*Symbol_Table 175e17 16|2w6 2r46 17|117r17 120r33
+10e3*delimiter{character} 17|137r14 158r14
+15A11*Symbol{string}<integer> 16|9r31 10r31 11r54 12r54 14r52 15r52 18r54
+. 20r54 31r27 32r48 46r37 53r37 17|3r31 8r31 13r54 18r54 24r52 33r52 44r31
+. 71r31 97r27 102r48 120r23 128r37 149r37
+27X5*INVALID_SYMBOL 17|138r27 159r27
+135V12*Number{14|7I8} 17|117s30
+152V12*Get{15A11} 17|120s46
+X 16 symbol_table_io.ads
+4K9*Symbol_Table_io 59l5 59e20 17|1b14 5r5 10r5 15r5 21r5 30r5 40r5 122r9
+. 169l5 169t20
+9U13*get 9=19 17|3b13 6l7 6t10
+9a19 sb{15|15A11} 17|3b19 5m40
+10U13*get 10=19 10>39 17|8b13 11l7 11t10
+10a19 sb{15|15A11} 17|8b19 10m40
+10e39 delimiter{character} 17|8b39 10r43
+11U13*get 11=19 11=42 17|13b13 16l7 16t10
+11e19 ch{character} 17|13b19 15m40
+11a42 sb{15|15A11} 17|13b42 15m43
+12U13*get 12=19 12=42 13>19 17|18b13 22l7 22t10
+12e19 ch{character} 17|18b19 21m40
+12a42 sb{15|15A11} 17|18b42 21m43
+13e19 delimiter{character} 17|19b19 21r46
+14U13*get 14>19 14=40 17|5s21 24b13 31l7 31t10
+14p19 file{9|67P9} 17|24b19 29r17 30r25
+14a40 sb{15|15A11} 17|24b40 30m33
+15U13*get 15>19 15=40 16>19 17|10s21 33b13 41l7 41t10
+15p19 file{9|67P9} 17|33b19 39r17 40r25
+15a40 sb{15|15A11} 17|33b40 40m33
+16e19 delimiter{character} 17|34b19 40r36
+17U13*get 17>19 18=19 18=42 17|15s21 30s21 43b13 68l7 68t10
+17p19 file{9|67P9} 17|43b19 51r21 59r24 61r21 64r31
+18e19 ch{character} 17|43b40 49r8 50r13 51m26 53r10 54r29 57r23 61m26 62r19
+. 63r18
+18a42 sb{15|15A11} 17|44b19 54m13 54r16 57m7 57r10 60r16 60r28 63m9 67m5
+. 67r13 67r31
+19U13*get 19>19 20=19 20=42 21>19 17|21s21 40s21 70b13 95l7 95t10
+19p19 file{9|67P9} 17|70b19 78r21 86r24 88r21 91r31
+20e19 ch{character} 17|70b40 76r8 77r13 78m26 80r10 81r29 84r23 88m26 89r19
+. 89r36 90r18
+20a42 sb{15|15A11} 17|71b19 81m13 81r16 84m7 84r10 87r16 87r28 90m9 94m5
+. 94r13 94r31
+21e19 delimiter{character} 17|71b39 89r41
+31U13*put 31>19 17|97b13 100l7 100t10
+31a19 sb{15|15A11} 17|97b19 99r25
+32U13*put 32>19 32>40 17|99s5 102b13 108l7 108t10 122s25
+32p19 file{9|67P9} 17|102b19 106r19
+32a40 sb{15|15A11} 17|102b40 104r14 105r17 106r24
+38U13*Write 17|110b13 113l7 113t12
+39U13*Write 39>21 17|112s5 115b13 125l7 125t12
+39p21 file{9|67P9} 17|115b21 118r19 122r29
+45U13*Parse_Symbol 45>28 45=49 46<28 17|127b13 146l7 146t19
+45p28 file{9|67P9} 17|127b28 142r26 143r15
+45e49 ch{character} 17|127b49 135r12 140r20 143m20
+46a28 sb{15|15A11} 17|128b28 133m5 133r12 140m11
+52U13*Parse_Symbol 52>28 52=43 53<28 17|148b13 167l7 167t19
+52a28 s{string} 17|148b28 156r12 161r20 164r18
+52i43 p{integer} 17|148b43 156r14 161r22 163m11 163r16 164r14
+53a28 sb{15|15A11} 17|149b28 154m5 154r12 161m11
+X 17 symbol_table_io.adb
+26e5 ch{character} 29m22 30m30 30r30
+36e5 ch{character} 39m22 40m30 40r30
+46i5 cnt{natural} 54m33 57m27 61m31 63m22 67r8 67r26
+60i11 i{integer} 61r38 63r12 63r29
+73i5 cnt{natural} 81m33 84m27 88m31 90m22 94r8 94r26
+87i11 i{integer} 88r38 90r12 90r29
+104i9 i{integer} 105r20 106r27
+117i9 i<long_integer> 120r50
+120a9 sb{15|15A11} 122r34
+130i5 i{positive} 140r14 141m11 141r16
+151i5 i{positive} 161r14 162m11 162r16
+X 32 text_io.ads
+27K9*Text_IO=27:29 16|1w6 1r46 17|29r5 39r5 51r9 61r9 78r9 88r9 106r7 118r7
+

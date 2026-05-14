@@ -1,0 +1,161 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dobldobl_complex_vector_series%b  dobldobl_complex_vector_series.adb  2f77e51e NE OO PK
+W dobldobl_complex_series%s  dobldobl_complex_series.ads  dobldobl_complex_series.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U dobldobl_complex_vector_series%s  dobldobl_complex_vector_series.ads  5a11a87e EE NE OO PK
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_series_vectors%s  dobldobl_complex_series_vectors.ads  dobldobl_complex_series_vectors.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+W dobldobl_complex_vecvecs%s  dobldobl_complex_vecvecs.ads  dobldobl_complex_vecvecs.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_series.ads  20260513024558 c7e62693 dobldobl_complex_series%s
+D dobldobl_complex_series_ring.ads  20260513024558 56d41896 dobldobl_complex_series_ring%s
+D dobldobl_complex_series_vectors.ads  20260513024558 73f1bdf7 dobldobl_complex_series_vectors%s
+D dobldobl_complex_vector_series.ads  20260513024558 30fdaf4f dobldobl_complex_vector_series%s
+D dobldobl_complex_vector_series.adb  20260513024558 f9297a66 dobldobl_complex_vector_series%b
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [create dobldobl_complex_vector_series 24 12 none]
+G c Z s b [create dobldobl_complex_vector_series 39 12 none]
+G c Z s b [eval dobldobl_complex_vector_series 54 12 none]
+G c Z s b [eval dobldobl_complex_vector_series 57 12 none]
+G c Z s b [clear dobldobl_complex_vector_series 68 13 none]
+G c Z s b [clear dobldobl_complex_vector_series 69 13 none]
+G c Z s s [vectorIP dobldobl_complex_vector_series 16 8 none]
+G r s vecvec [create dobldobl_complex_vector_series 24 12 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r s vector [create dobldobl_complex_vector_series 39 12 none] [vectorIP dobldobl_complex_series_vectors 16 8 4_1]
+G r c none [create dobldobl_complex_vector_series 39 12 none] [create dobldobl_complex_series 48 12 6_1]
+G r c none [eval dobldobl_complex_vector_series 54 12 none] [Omultiply dobldobl_complex_numbers 43 12 none]
+G r c none [eval dobldobl_complex_vector_series 54 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [eval dobldobl_complex_vector_series 57 12 none] [Omultiply dobldobl_complex_numbers 55 12 none]
+G r c none [eval dobldobl_complex_vector_series 57 12 none] [Oadd dobldobl_complex_numbers 51 12 none]
+G r c none [clear dobldobl_complex_vector_series 68 13 none] [clear dobldobl_complex_vectors 72 13 4_1]
+G r c none [clear dobldobl_complex_vector_series 69 13 none] [clear dobldobl_complex_vectors 72 13 4_1]
+G r s vecvec [vectorIP dobldobl_complex_vector_series 16 8 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+X 2 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 7|3w6 3r45
+11R8*Complex_Number 85e15 7|58r23 8|66r23
+43V13*"*"{11R8} 8|59s25
+51V13*"+"{11R8} 8|59s28 77s28
+55V13*"*"{11R8} 8|77s25
+X 4 dobldobl_complex_series.ads
+6K9*DoblDobl_Complex_Series[12|12] 8|2w6 35r17
+X 6 dobldobl_complex_series_vectors.ads
+4K9*DoblDobl_Complex_Series_Vectors[13|8] 7|6w6 24r25 40r26 8|8r25 28r26
+. 31r11
+X 7 dobldobl_complex_vector_series.ads
+8K9*DoblDobl_Complex_Vector_Series 25r26 39r25 54r23 57r23 68r32 69r32 74l5
+. 74e35 8|4b14 9r26 13r11 27r25 47r23 65r23 85r32 93r28 97r14 98r14 107l5
+. 107t35
+16R8*Vector 16d17 19e13 20r33 25r57 39r56 54r54 57r54 68r63 8|9r57 13r42
+. 27r56 47r54 65r54 85r63 97r45
+16i17*deg{16|6I8} 18r46 8|35r52 37r19 52r62 56r28 70r62 74r28 87r19
+18a5*cff{14|14A8[10|5]} 8|17m11 21r13 30r35 30r41 39r28 51r35 51r41 52r56
+. 57r16 69r35 69r41 70r56 75r16 88m40
+20P8*Link_to_Vector(16R8) 69r63 8|93r59 98r45
+24V12*Create{16R8} 24>21 8|8b12 25l7 25t13
+24a21 v{13|16A8[6|4]} 8|8b21 11r33 12r33 12r35 19r14 20r19 21r26
+39V12*Create{13|16A8[6|4]} 39>21 8|27b12 43l7 43t13
+39r21 v{16R8} 8|27b21 30r33 30r39 35r50 37r17 39r26
+54V12*Eval{13|16A8[9|4]} 54>19 55>19 8|47b12 63l7 63t11
+54r19 v{16R8} 8|47b19 51r33 51r39 52r54 52r60 56r26 57r14
+55r19 t{11|12R8} 8|48b19 59r26
+57V12*Eval{13|16A8[9|4]} 57>19 58>19 8|65b12 81l7 81t11
+57r19 v{16R8} 8|65b19 69r33 69r39 70r54 70r60 74r26 75r14
+58r19 t{2|11R8} 8|66b19 77r26
+68U13*Clear 68=21 8|85b13 90l7 90t12 102s7
+68r21 v{16R8} 8|85b21 87r17 88m38 88r38
+69U13*Clear 69=21 8|92b13 105l7 105t12
+69p21 v{20P8} 8|93b17 101r8 102r13 103m12
+X 8 dobldobl_complex_vector_series.adb
+11i5 dim{16|6I8} 17r60
+12i5 deg{16|6I8} 13r49
+13r5 res{7|16R8} 16r17 17m7 21m9 21r9 24r12
+16i9 i<long_integer> 17r15
+19i9 i<long_integer> 20r21 21r20 21r28
+20i11 j<long_integer> 21r17 21r35
+30i5 dim{16|6I8} 31r53
+31a5 res{13|16A8[6|4]} 34r14 35m7 38r16 39m9 39r9 42r12
+34i9 i<long_integer> 35r11
+37i9 i<long_integer> 39r20 39r32
+38i11 j<long_integer> 39r13 39r35
+51i5 dim{16|6I8} 53r46 58r19
+52p5 cff{13|17P8[9|4]} 53r54 57m7 59r30
+53a5 res{13|16A8[9|4]} 59m9 59r19 62r12
+56i9 i<long_integer> 57r20
+58i11 j<long_integer> 59r13 59r23 59r34
+69i5 dim{16|6I8} 71r46 76r19
+70p5 cff{13|17P8[9|4]} 71r54 75m7 77r30
+71a5 res{13|16A8[9|4]} 77m9 77r19 80r12
+74i9 i<long_integer> 75r20
+76i11 j<long_integer> 77r13 77r23 77r34
+87i9 i<long_integer> 88r44
+95U15 free[22|22] 103s7
+X 9 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[13|8] 7|4w6 56r24 59r24 8|17r25 49r24 52r11
+. 53r11 67r24 70r11 71r11 88r7
+X 10 dobldobl_complex_vecvecs.ads
+5K9*DoblDobl_Complex_VecVecs[14|10] 7|5w6 18r11
+X 11 double_double_numbers.ads
+5K9*Double_Double_Numbers 7|2w6 2r45 11|172e26
+12R8*double_double 7|55r23 8|48r23 11|170e13
+X 12 generic_dense_series.ads
+22R8*Series
+22i17*deg{16|6I8} 8|12r44[4|6] 20r24[4|6]
+23a5*cff{13|16A8[9|4]} 8|21r31[4|6] 39m16[4|6]
+25P8*Link_to_Series(22R8[4|6])
+48V12*Create{25P8[4|6]} 8|35s41[4|6]
+X 13 generic_vectors.ads
+16A8*Vector(12|25P8[4|6])<16|6I8> 7|24r57[6|4] 40r58[6|4] 56r49[9|4] 59r49[9|4]
+. 8|8r57[6|4] 17r50[9|4] 28r58[6|4] 31r43[6|4] 49r49[9|4] 53r36[9|4] 67r49[9|4]
+. 71r36[9|4]
+17P8*Link_to_Vector(16A8[9|4]) 8|52r36[9|4] 70r36[9|4]
+72U13*Clear 8|88s32[9|4]
+X 14 generic_vecvecs.ads
+14A8*VecVec(13|17P8[9|4])<16|6I8> 7|18r36[10|5]
+X 16 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 7|1w6 1r45 16|45e29
+6I8*integer32<long_integer> 7|16r23 8|11r20 12r20 30r20 51r20 69r20
+X 22 unchdeal.ads
+22u11*Unchecked_Deallocation 8|1w6 96r11
+

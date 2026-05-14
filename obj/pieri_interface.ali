@@ -1,0 +1,949 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U pieri_interface%b	pieri_interface.adb	93ad08d7 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W assignments_in_ada_and_c%s  assignments_in_ada_and_c.adb  assignments_in_ada_and_c.ali
+W brackets%s		brackets.adb		brackets.ali
+W curves_into_grassmannian%s  curves_into_grassmannian.adb  curves_into_grassmannian.ali
+W curves_into_grassmannian_io%s  curves_into_grassmannian_io.adb  curves_into_grassmannian_io.ali
+W deformation_posets%s	deformation_posets.adb	deformation_posets.ali
+W determinantal_systems%s  determinantal_systems.adb  determinantal_systems.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W localization_poset_strings%s  localization_poset_strings.adb  localization_poset_strings.ali
+W localization_posets%s	localization_posets.adb	localization_posets.ali
+W main_pieri_homotopies%s  main_pieri_homotopies.adb  main_pieri_homotopies.ali
+W make_input_planes%s	make_input_planes.adb	make_input_planes.ali
+W matrix_indeterminates%s  matrix_indeterminates.adb  matrix_indeterminates.ali
+W pieri_homotopy%s	pieri_homotopy.adb	pieri_homotopy.ali
+W pieri_root_count%s	pieri_root_count.adb	pieri_root_count.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_matrices%s  standard_complex_poly_matrices.ads  standard_complex_poly_matrices.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_matrices%s  standard_natural_matrices.ads  standard_natural_matrices.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_polysys_container%s  standard_polysys_container.adb  standard_polysys_container.ali
+W standard_root_refiners%s  standard_root_refiners.adb  standard_root_refiners.ali
+W standard_solutions_container%s  standard_solutions_container.adb  standard_solutions_container.ali
+W symbolic_minor_equations%s  symbolic_minor_equations.adb  symbolic_minor_equations.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U pieri_interface%s	pieri_interface.ads	ff2b8dbd EE NE OO PK
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D assignments_in_ada_and_c.ads  20260513024558 9973cc07 assignments_in_ada_and_c%s
+D bracket_monomials.ads	20260513024558 25a514e4 bracket_monomials%s
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D curves_into_grassmannian.ads  20260513024558 2fcb651e curves_into_grassmannian%s
+D curves_into_grassmannian_io.ads  20260513024558 8941b5f7 curves_into_grassmannian_io%s
+D deformation_posets.ads  20260513024558 5692d6e9 deformation_posets%s
+D determinantal_systems.ads  20260513024558 c67fa371 determinantal_systems%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_matrices.ads  20260513024558 bc2be122 dobldobl_complex_poly_matrices%s
+D dobldobl_complex_poly_ring.ads  20260513024558 53fa9d0d dobldobl_complex_poly_ring%s
+D dobldobl_complex_poly_vectors.ads  20260513024558 6f84740e dobldobl_complex_poly_vectors%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_ring.ads  20260513024558 2b06ea65 double_double_ring%s
+D double_double_vectors.ads  20260513024558 ffed19bd double_double_vectors%s
+D generic_bracket_polynomials.ads  20260513024558 b17bef7c generic_bracket_polynomials%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_laur_jaco_matrices.ads  20260513024558 2a609a16 generic_laur_jaco_matrices%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D localization_poset_strings.ads  20260513024558 17f18c73 localization_poset_strings%s
+D localization_posets.ads  20260513024558 4bb547ea localization_posets%s
+D main_pieri_homotopies.ads  20260513024558 7cbd1457 main_pieri_homotopies%s
+D make_input_planes.ads	20260513024558 68ecc42d make_input_planes%s
+D matrix_indeterminates.ads  20260513024558 7df843f7 matrix_indeterminates%s
+D pieri_homotopy.ads	20260513024556 93c82229 pieri_homotopy%s
+D pieri_interface.ads	20260513024556 0ae76ec5 pieri_interface%s
+D pieri_interface.adb	20260513024556 9be1b541 pieri_interface%b
+D pieri_root_count.ads	20260513024558 d1b9fb5d pieri_root_count%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_matrices.ads  20260513024558 5647f8e0 quaddobl_complex_poly_matrices%s
+D quaddobl_complex_poly_ring.ads  20260513024558 ff9ddd68 quaddobl_complex_poly_ring%s
+D quaddobl_complex_poly_vectors.ads  20260513024558 dfbe5d64 quaddobl_complex_poly_vectors%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D standard_bracket_polynomials.ads  20260513024558 ee5285d9 standard_bracket_polynomials%s
+D standard_bracket_systems.ads  20260513024558 ecae3e0b standard_bracket_systems%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_laur_functions.ads  20260513024558 b680d0a9 standard_complex_laur_functions%s
+D standard_complex_laur_jacomats.ads  20260513024558 c8a210ce standard_complex_laur_jacomats%s
+D standard_complex_laur_sysfun.ads  20260513024558 7ae1e81b standard_complex_laur_sysfun%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_matrices.ads  20260513024558 88f232bd standard_complex_poly_matrices%s
+D standard_complex_poly_ring.ads  20260513024558 71b6d611 standard_complex_poly_ring%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_vectors.ads  20260513024558 1f5698c4 standard_complex_poly_vectors%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring-ffield.ads  20260513024558 bbb2cc35 standard_complex_ring.ffield%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_point_lists.ads  20260513024558 c6ecf08d standard_point_lists%s
+D standard_polysys_container.ads  20260513024556 a4b8f51b standard_polysys_container%s
+D standard_root_refiners.ads  20260513024558 d689ce53 standard_root_refiners%s
+D standard_solutions_container.ads  20260513024558 4d86700f standard_solutions_container%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbolic_minor_equations.ads  20260513024558 2c3b46e8 symbolic_minor_equations%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [pieri_write_menu pieri_interface 10 12 none]
+G c Z s b [pieri_initialize_dimensions pieri_interface 16 12 none]
+G c Z s b [pieri_initialize_input_planes pieri_interface 29 12 none]
+G c Z s b [pieri_initialize_interpolation_points pieri_interface 47 12 none]
+G c Z s b [pieri_store_start_pivots pieri_interface 65 12 none]
+G c Z s b [pieri_store_target_pivots pieri_interface 78 12 none]
+G c Z s b [pieri_store_start_coefficients pieri_interface 91 12 none]
+G c Z s b [pieri_get_target_solution pieri_interface 105 12 none]
+G c Z s b [pieri_silent_track pieri_interface 120 12 none]
+G c Z s b [pieri_report_track pieri_interface 126 12 none]
+G c Z s b [pieri_silent_verify pieri_interface 132 12 none]
+G c Z s b [pieri_report_verify pieri_interface 145 12 none]
+G c Z s b [pieri_root_count pieri_interface 158 12 none]
+G c Z s b [pieri_localization_string pieri_interface 175 12 none]
+G c Z s b [pieri_run_homotopies pieri_interface 193 12 none]
+G c Z s b [pieri_real_osculating_planes pieri_interface 212 12 none]
+G c Z s b [pieri_make_target_system pieri_interface 230 12 none]
+G c Z s b [pieri_clear pieri_interface 247 12 none]
+G c Z b b [get_dimensions pieri_interface 74 13 none]
+G c Z b b [get_all_dimensions pieri_interface 92 13 none]
+G c Z b b [get_and_initialize_input_planes pieri_interface 106 13 none]
+G c Z b b [get_and_initialize_interpolation_points pieri_interface 143 13 none]
+G c Z b b [get_complex_vector pieri_interface 170 12 none]
+G c Z b b [get_number pieri_interface 196 12 none]
+G c Z b b [get_pivots pieri_interface 208 13 none]
+G c Z b b [construct_input_planes pieri_interface 592 12 none]
+G c Z b b [refine_roots pieri_interface 621 13 none]
+G c Z b b [extract_system_and_solutions pieri_interface 638 13 none]
+G c Z b b [solve_hypersurface_schubert_problem pieri_interface 675 13 none]
+G c Z b b [extract_system_and_solutions pieri_interface 721 13 none]
+G c Z b b [solve_quantum_schubert_problem pieri_interface 759 13 none]
+G c Z b b [flatten pieri_interface 834 12 none]
+G c Z b b [standard_localization_map pieri_interface 904 12 none]
+G c Z b b [hypersurface_target_system pieri_interface 931 13 none]
+G r c none [pieri_initialize_dimensions pieri_interface 16 12 none] [initialize_dimensions pieri_homotopy 14 13 none]
+G r s vecmat [pieri_initialize_input_planes pieri_interface 29 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [pieri_initialize_input_planes pieri_interface 29 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [pieri_initialize_input_planes pieri_interface 29 12 none] [initialize_input_planes pieri_homotopy 21 13 none]
+G r c none [pieri_initialize_interpolation_points pieri_interface 47 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [pieri_initialize_interpolation_points pieri_interface 47 12 none] [initialize_interpolation_points pieri_homotopy 27 13 none]
+G r c none [pieri_store_start_pivots pieri_interface 65 12 none] [store_start_pivots pieri_homotopy 40 13 none]
+G r c none [pieri_store_target_pivots pieri_interface 78 12 none] [store_target_pivots pieri_homotopy 48 13 none]
+G r c none [pieri_store_start_coefficients pieri_interface 91 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [pieri_store_start_coefficients pieri_interface 91 12 none] [store_start pieri_homotopy 65 13 none]
+G r c none [pieri_get_target_solution pieri_interface 105 12 none] [retrieve_target pieri_homotopy 73 13 none]
+G r c none [pieri_get_target_solution pieri_interface 105 12 none] [assign assignments_in_ada_and_c 80 13 none]
+G r c none [pieri_silent_track pieri_interface 120 12 none] [track_path pieri_homotopy 81 13 none]
+G r c none [pieri_report_track pieri_interface 126 12 none] [track_path pieri_homotopy 82 13 none]
+G r c none [pieri_silent_verify pieri_interface 132 12 none] [verify_determinants pieri_homotopy 89 12 none]
+G r c none [pieri_silent_verify pieri_interface 132 12 none] [assign assignments_in_ada_and_c 27 13 none]
+G r c none [pieri_report_verify pieri_interface 145 12 none] [verify_determinants pieri_homotopy 90 12 none]
+G r c none [pieri_report_verify pieri_interface 145 12 none] [assign assignments_in_ada_and_c 27 13 none]
+G r c none [pieri_root_count pieri_interface 158 12 none] [pieri_root_count standard 3 10 none]
+G r c none [pieri_root_count pieri_interface 158 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [trivial_root localization_posets 62 12 none]
+G r s array_of_nodes [pieri_localization_string pieri_interface 175 12 none] [array_of_nodesIP localization_posets 24 8 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [q_top_bottom_create localization_posets 129 13 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [create_leveled_poset localization_posets 151 12 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [count_roots localization_posets 221 13 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [poset_to_string localization_poset_strings 29 12 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [string_to_integer_vector assignments_in_ada_and_c 140 12 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [pieri_localization_string pieri_interface 175 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r s vecmat [pieri_run_homotopies pieri_interface 193 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [trivial_root localization_posets 55 12 none]
+G r s array_of_nodes [pieri_run_homotopies pieri_interface 193 12 none] [array_of_nodesIP localization_posets 24 8 none]
+G r s array_of_array_of_nodes [pieri_run_homotopies pieri_interface 193 12 none] [array_of_array_of_nodesIP localization_posets 26 8 none]
+G r s array_of_array_of_vecmats [pieri_run_homotopies pieri_interface 193 12 none] [array_of_array_of_vecmatsIP deformation_posets 20 8 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [top_bottom_create localization_posets 124 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [create_leveled_poset localization_posets 151 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [count_roots localization_posets 221 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [create_indexed_poset localization_posets 156 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [create deformation_posets 27 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [initialize_symbols matrix_indeterminates 15 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [solve deformation_posets 45 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [localization_pattern symbolic_minor_equations 37 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [standard_coordinate_frame determinantal_systems 20 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [create_hypersurface_system main_pieri_homotopies 15 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [solution_planes main_pieri_homotopies 25 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [reduce_symbols matrix_indeterminates 51 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [initialize standard_polysys_container 16 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [initialize standard_solutions_container 12 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [trivial_root localization_posets 62 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [q_top_bottom_create localization_posets 129 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [solve deformation_posets 135 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [symbolic_create curves_into_grassmannian 27 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [standard_coordinate_frame curves_into_grassmannian 50 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [solution_planes determinantal_systems 136 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [create_polynomial_system determinantal_systems 144 12 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [two_set_up_symbol_table curves_into_grassmannian_io 13 13 none]
+G r c none [pieri_run_homotopies pieri_interface 193 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r s vecmat [pieri_real_osculating_planes pieri_interface 212 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [pieri_real_osculating_planes pieri_interface 212 12 none] [osculating_input_planes make_input_planes 94 12 none]
+G r c none [pieri_real_osculating_planes pieri_interface 212 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [pieri_real_osculating_planes pieri_interface 212 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r s vecmat [pieri_make_target_system pieri_interface 230 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [trivial_root localization_posets 55 12 none]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [localization_pattern symbolic_minor_equations 37 12 none]
+G r s poly_sys [pieri_make_target_system pieri_interface 230 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [initialize_symbols matrix_indeterminates 15 13 none]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [reduce_symbols matrix_indeterminates 51 13 none]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [create_hypersurface_system main_pieri_homotopies 15 12 none]
+G r c none [pieri_make_target_system pieri_interface 230 12 none] [initialize standard_polysys_container 16 13 none]
+G r c none [pieri_clear pieri_interface 247 12 none] [clear pieri_homotopy 97 13 none]
+G r s vecmat [get_and_initialize_input_planes pieri_interface 106 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [get_and_initialize_input_planes pieri_interface 106 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [get_and_initialize_input_planes pieri_interface 106 13 none] [initialize_input_planes pieri_homotopy 21 13 none]
+G r c none [get_and_initialize_interpolation_points pieri_interface 143 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [get_and_initialize_interpolation_points pieri_interface 143 13 none] [initialize_interpolation_points pieri_homotopy 27 13 none]
+G r c none [get_complex_vector pieri_interface 170 12 none] [create standard_complex_numbers 19 12 none]
+G r s vecmat [construct_input_planes pieri_interface 592 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [construct_input_planes pieri_interface 592 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [refine_roots pieri_interface 621 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [localization_pattern symbolic_minor_equations 37 12 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [standard_coordinate_frame determinantal_systems 20 12 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [create_hypersurface_system main_pieri_homotopies 15 12 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [solution_planes main_pieri_homotopies 25 12 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [reduce_symbols matrix_indeterminates 51 13 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [initialize standard_polysys_container 16 13 none]
+G r c none [extract_system_and_solutions pieri_interface 638 13 none] [initialize standard_solutions_container 12 13 none]
+G r s vecmat [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [trivial_root localization_posets 55 12 none]
+G r s array_of_nodes [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [array_of_nodesIP localization_posets 24 8 none]
+G r s array_of_array_of_nodes [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [array_of_array_of_nodesIP localization_posets 26 8 none]
+G r s array_of_array_of_vecmats [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [array_of_array_of_vecmatsIP deformation_posets 20 8 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [top_bottom_create localization_posets 124 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [create_leveled_poset localization_posets 151 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [count_roots localization_posets 221 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [create_indexed_poset localization_posets 156 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [create deformation_posets 27 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [initialize_symbols matrix_indeterminates 15 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [solve deformation_posets 45 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [localization_pattern symbolic_minor_equations 37 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [standard_coordinate_frame determinantal_systems 20 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [create_hypersurface_system main_pieri_homotopies 15 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [solution_planes main_pieri_homotopies 25 12 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [reduce_symbols matrix_indeterminates 51 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [initialize standard_polysys_container 16 13 none]
+G r c none [solve_hypersurface_schubert_problem pieri_interface 675 13 none] [initialize standard_solutions_container 12 13 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [symbolic_create curves_into_grassmannian 27 12 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [standard_coordinate_frame curves_into_grassmannian 50 12 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [solution_planes determinantal_systems 136 12 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [create_polynomial_system determinantal_systems 144 12 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [two_set_up_symbol_table curves_into_grassmannian_io 13 13 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [initialize standard_polysys_container 16 13 none]
+G r c none [extract_system_and_solutions pieri_interface 721 13 none] [initialize standard_solutions_container 12 13 none]
+G r s vecmat [solve_quantum_schubert_problem pieri_interface 759 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s array_of_nodes [solve_quantum_schubert_problem pieri_interface 759 13 none] [array_of_nodesIP localization_posets 24 8 none]
+G r s array_of_array_of_nodes [solve_quantum_schubert_problem pieri_interface 759 13 none] [array_of_array_of_nodesIP localization_posets 26 8 none]
+G r s array_of_array_of_vecmats [solve_quantum_schubert_problem pieri_interface 759 13 none] [array_of_array_of_vecmatsIP deformation_posets 20 8 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [trivial_root localization_posets 62 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [q_top_bottom_create localization_posets 129 13 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [create_leveled_poset localization_posets 151 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [count_roots localization_posets 221 13 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [create_indexed_poset localization_posets 156 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [create deformation_posets 27 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [solve deformation_posets 135 13 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [symbolic_create curves_into_grassmannian 27 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [standard_coordinate_frame curves_into_grassmannian 50 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [solution_planes determinantal_systems 136 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [create_polynomial_system determinantal_systems 144 12 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [two_set_up_symbol_table curves_into_grassmannian_io 13 13 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [initialize standard_polysys_container 16 13 none]
+G r c none [solve_quantum_schubert_problem pieri_interface 759 13 none] [initialize standard_solutions_container 12 13 none]
+G r c none [flatten pieri_interface 834 12 none] [real_part standard_complex_numbers 24 12 none]
+G r s vecmat [hypersurface_target_system pieri_interface 931 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [trivial_root localization_posets 55 12 none]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [localization_pattern symbolic_minor_equations 37 12 none]
+G r s poly_sys [hypersurface_target_system pieri_interface 931 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [initialize_symbols matrix_indeterminates 15 13 none]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [reduce_symbols matrix_indeterminates 51 13 none]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [create_hypersurface_system main_pieri_homotopies 15 12 none]
+G r c none [hypersurface_target_system pieri_interface 931 13 none] [initialize standard_polysys_container 16 13 none]
+X 12 a-textio.ads
+67P9*File_Type
+188V13*Standard_Output{67P9} 61|436s31 479s47
+284U14*New_Line 61|44s5
+515U14*Put 61|68s9 255s9 279s9 295s7 304s9 329s9 354s9 370s7 382s9 398s7
+. 407s9 424s9 441s9 463s9 485s9 510s9 551s9 867s7 898s9 982s9
+565U14*Put_Line 61|42s11 45s5 46s5 47s5 48s5 49s5 50s5 51s5 52s5 53s5 54s5
+. 55s5 56s5 57s5 58s5 59s5 60s5 61s5 62s5 63s5 69s9 246s11 256s9 271s11 280s9
+. 296s7 305s9 320s11 330s9 345s11 355s9 371s7 383s9 399s7 408s9 417s11 425s9
+. 434s11 442s9 455s11 464s9 477s11 486s9 501s11 511s9 525s11 552s9 820s11
+. 868s7 899s9 972s11 983s9 991s11 998s13
+X 14 assignments_in_ada_and_c.ads
+20K9*Assignments_in_Ada_and_C 146e29 61|33w6 33r45
+25U13*Assign 61|505s5 543s9 830s5
+27U13*Assign 61|458s5 480s5
+72U13*Assign 61|544s9
+74U13*Assign 61|892s7
+80U13*Assign 61|402s5
+100U13*Assign 61|696s5 781s5 954s5
+140V12*String_to_Integer_Vector{48|16A8[102|4]} 61|541s15
+X 16 brackets.ads
+5K9*Brackets 93e13 61|20w6 20r45
+13A8*Bracket<48|16A8[106|4]>(1|3I8[105|4])<100|6I8> 61|731r20 732r20 905r46
+X 17 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 60|3w6 3r45
+12A8*C_Double_Array(51|102F9)<51|92M9> 61|115r18 152r18 180r18 878r20
+17K11*C_DblArrs[52|44] 60|32r20 50r20 93r20 107r20 133r20 146r20 196r20 214r20
+. 232r20 61|107r21 116r10 144r21 153r10 171r20 181r10 264r20 288r20 362r20
+. 390r20 448r20 470r20 676r24 760r24 812r20 860r20 879r12 932r24 965r20
+X 18 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 60|2w6 2r45
+10A8*C_Integer_Array(51|62I9)<51|92M9> 61|80r18 98r18 201r18 213r19
+13K11*C_intarrs[52|44] 60|17r20 30r20 31r20 48r20 49r20 66r20 67r20 79r20
+. 80r20 92r20 106r20 159r20 160r20 176r20 177r20 194r20 195r20 213r20 231r20
+. 61|75r21 81r10 93r23 98r43 196r29 201r43 209r24 214r11 239r20 262r20 263r20
+. 286r20 287r20 311r20 312r20 336r20 337r20 361r20 389r20 492r20 493r20 517r20
+. 518r20 810r20 811r20 859r20 964r20
+X 19 curves_into_grassmannian.ads
+11K9*Curves_into_Grassmannian 151e29 61|27w6 734r12 738r15
+27V12*Symbolic_Create{42|16A8[85|5]} 61|734s37
+50V12*Standard_Coordinate_Frame{42|16A8[103|5]} 61|738s40
+X 20 curves_into_grassmannian_io.ads
+5K9*Curves_into_Grassmannian_io 33e32 61|28w6 749r5
+13U13*Two_Set_up_Symbol_Table 61|749s33
+X 21 deformation_posets.ads
+11K9*Deformation_Posets 256e23 61|25w6 25r45
+18A8*Array_of_VecMats(47|16P8[94|6])<100|6I8>
+19P8*Link_to_Array_of_VecMats(18A8)
+20A8*Array_of_Array_of_VecMats(19P8)<100|6I8> 61|641r35 689r20 725r35 773r20
+23A8*Duration_Array(duration)<100|6I8> 61|693r15 778r15
+27V12*Create{20A8} 61|706s21 796s21
+45U13*Solve 61|714s9
+135U13*Solve 61|802s7
+X 22 determinantal_systems.ads
+12K9*Determinantal_Systems 156e26 61|22w6 658r15 742r13 745r15
+20V12*Standard_Coordinate_Frame{42|16A8[103|5]} 61|658s37
+136V12*Solution_Planes{93|28P8} 61|742s35
+144V12*Create_Polynomial_System{45|22A8[88|5]} 61|745s37
+X 41 generic_lists.ads
+12P8*List
+X 42 generic_matrices.ads
+16A8*Matrix(83|11R8)<100|6I8><100|6I8> 61|127r43[82|5] 136r52[82|5] 607r39[82|5]
+. 615r49[82|5] 652r51[85|5] 657r49[103|5] 733r51[85|5] 737r49[103|5] 906r47[103|5]
+. 912r37[103|5] 944r51[85|5] 947r49[103|5]
+17P8*Link_to_Matrix(16A8[82|5]) 61|842r37[82|5]
+X 45 generic_polynomial_systems.ads
+22A8*Poly_Sys(46|28P8[90|4])<100|6I8> 61|621r35[88|5] 660r23[88|5] 744r23[88|5]
+. 949r14[88|5]
+X 46 generic_polynomials.ads
+28P8*Poly
+X 47 generic_vecmats.ads
+15A8*VecMat(42|17P8[82|5])<100|6I8> 61|118r14[94|6] 594r65[94|6] 600r11[94|6]
+. 639r49[94|6] 656r26[94|6] 684r14[94|6] 722r51[94|6] 736r26[94|6] 768r14[94|6]
+. 834r41[94|6] 880r16[94|6] 942r14[94|6]
+16P8*Link_to_VecMat(15A8[94|6])
+X 48 generic_vectors.ads
+16A8*Vector(83|11R8)<100|6I8> 61|155r39[95|4] 172r46[95|4] 177r36[95|4] 210r59[106|4]
+. 316r43[106|4] 341r43[106|4] 366r34[95|4] 394r34[95|4] 540r48[102|4] 594r49[99|4]
+. 683r37[99|4] 691r39[106|4] 723r54[95|4] 767r37[99|4] 769r36[95|4] 777r39[106|4]
+. 835r53[99|4] 841r37[99|4] 875r37[99|4] 881r42[99|4] 941r37[99|4]
+X 50 interfac.ads
+47K9*Interfaces 247e15 61|2r6 2r45 81r28 114r18 114r41 116r28 117r11 151r18
+. 151r41 153r28 154r11 179r18 179r41 181r28 182r11 212r18 212r41 214r29 215r11
+. 876r21 876r44 877r12 879r30 884r15
+X 51 i-c.ads
+33K20*C 601e17 61|2w17 2r56 81r39 114r29 114r52 116r39 117r22 151r29 151r52
+. 153r39 154r22 179r29 179r52 181r39 182r22 212r29 212r52 214r40 215r22 876r32
+. 876r55 877r23 879r41 884r26
+62I9*int<integer>
+89I9*ptrdiff_t<long_long_integer> 61|81r41 116r41 153r41 181r41 214r42 879r43
+92M9*size_t 61|114r31 114r54 117r24 151r31 151r54 154r24 179r31 179r54 182r24
+. 212r31 212r54 215r24 876r34 876r57 877r25 884r28
+102F9*double<long_float>
+X 52 i-cpoint.ads
+47P9*Pointer(51|62I9) 60|17r30[18|13] 30r30[18|13] 31r30[18|13] 32r30[17|17]
+. 48r30[18|13] 49r30[18|13] 50r30[17|17] 66r30[18|13] 67r30[18|13] 79r30[18|13]
+. 80r30[18|13] 92r30[18|13] 93r30[17|17] 106r30[18|13] 107r30[17|17] 133r30[17|17]
+. 146r30[17|17] 159r30[18|13] 160r30[18|13] 176r30[18|13] 177r30[18|13] 194r30[18|13]
+. 195r30[18|13] 196r30[17|17] 213r30[18|13] 214r30[17|17] 231r30[18|13] 232r30[17|17]
+. 61|75r31[18|13] 93r33[18|13] 107r31[17|17] 144r31[17|17] 171r30[17|17]
+. 196r39[18|13] 209r34[18|13] 239r30[18|13] 262r30[18|13] 263r30[18|13] 264r30[17|17]
+. 286r30[18|13] 287r30[18|13] 288r30[17|17] 311r30[18|13] 312r30[18|13] 336r30[18|13]
+. 337r30[18|13] 361r30[18|13] 362r30[17|17] 389r30[18|13] 390r30[17|17] 448r30[17|17]
+. 470r30[17|17] 492r30[18|13] 493r30[18|13] 517r30[18|13] 518r30[18|13] 676r34[17|17]
+. 760r34[17|17] 810r30[18|13] 811r30[18|13] 812r30[17|17] 859r30[18|13] 860r30[17|17]
+. 932r34[17|17] 964r30[18|13] 965r30[17|17]
+54V13*Value{18|10A8} 61|98s53[18|13] 201s53[18|13]
+58V13*Value{18|10A8} 61|81s20[18|13] 116s20[17|17] 153s20[17|17] 181s20[17|17]
+. 214s21[18|13] 879s22[17|17]
+X 54 localization_poset_strings.ads
+5K9*Localization_Poset_Strings 35e31 61|24w6 24r45
+29V12*Poset_to_String{string} 61|539s32
+X 55 localization_posets.ads
+6K9*Localization_Posets 271e24 61|23w6 23r45
+21R8*Node 41e13 61|529r23 531r46 685r21 686r44 710r25 774r25 776r44 798r23
+. 943r21
+22P8*Link_to_Node(21R8) 61|531r26 686r24 776r24
+24A8*Array_of_Nodes(22P8)<100|6I8> 61|533r21 687r19 771r19
+25P8*Link_to_Array_of_Nodes(24A8)
+26A8*Array_of_Array_of_Nodes(25P8)<100|6I8> 61|640r34 688r19 724r34 772r19
+32R8*Node
+35i5*roco{100|6I8} 61|704r38 794r36
+36a5*top{16|13A8} 61|654r50 731r51 946r33 948r50
+36a9*bottom{16|13A8} 61|535r40 655r50 732r51 790r42 946r42 948r59
+55V12*Trivial_Root{32R8} 61|685s32 943s32
+62V12*Trivial_Root{32R8} 61|530s15 775s17
+124U13*Top_Bottom_Create 61|700s5
+129U13*Q_Top_Bottom_Create 61|535s7 790s5
+151V12*Create_Leveled_Poset{24A8} 61|536s22 701s20 791s20
+156V12*Create_Indexed_Poset{26A8} 61|703s20 793s20
+221U13*Count_Roots 61|537s7 702s5 792s5
+X 56 main_pieri_homotopies.ads
+9K9*Main_Pieri_Homotopies 61e26 61|30w6 648r9 951r9
+15V12*Create_Hypersurface_System{45|22A8[88|5]} 61|661s15 959s15
+25V12*Solution_Planes{93|28P8} 61|662s29
+X 57 make_input_planes.ads
+7K9*Make_Input_Planes 182e22 61|29w6 888r17
+94V12*Osculating_Input_Planes{47|15A8[94|6]} 61|888s35
+X 58 matrix_indeterminates.ads
+8K9*Matrix_Indeterminates 62e26 61|21w6 665r5 707r5 957r5 958r5
+15U13*Initialize_Symbols 61|707s27 957s27
+51U13*Reduce_Symbols 61|665s27 958s27
+X 59 pieri_homotopy.ads
+8K9*Pieri_Homotopy 102e19 61|32w6 140r5 167r5 249r5 324r5 349r5 377r5 401r5
+. 419r5 436r5 457r12 479r12 993r5
+14U13*Initialize_Dimensions 61|249s20
+21U13*Initialize_Input_Planes 61|140s20
+27U13*Initialize_Interpolation_Points 61|167s20
+40U13*Store_Start_Pivots 61|324s20
+48U13*Store_Target_Pivots 61|349s20
+65U13*Store_Start 61|377s20
+73U13*Retrieve_Target 61|401s20
+81U13*Track_Path 61|419s20
+82U13*Track_Path 61|436s20
+89V12*Verify_Determinants{97|13F8} 61|457s27
+90V12*Verify_Determinants{97|13F8} 61|479s27
+97U13*Clear 61|993s20
+X 60 pieri_interface.ads
+5K9*Pieri_Interface 252l5 252e20 61|37b14 1003l5 1003t20
+10V12*Pieri_Write_Menu{100|6I8} 10>31 61|39b12 72l7 72t23
+10i31 vrblvl{100|6I8} 61|39b31 41r8 67r10
+16V12*Pieri_Initialize_Dimensions{100|6I8} 17>16 18>16 61|238b12 259l7 259t34
+17p16 a{52|47P9[18|13]} 61|239b16 248r20
+18i16 vrblvl{100|6I8} 61|240b16 245r8 254r10
+29V12*Pieri_Initialize_Input_Planes{100|6I8} 30>16 31>16 32>16 33>16 61|261b12
+. 283l7 283t36
+30p16 a{52|47P9[18|13]} 61|262b16 273r24
+31p16 b{52|47P9[18|13]} 61|263b16 273r26
+32p16 c{52|47P9[17|17]} 61|264b16 274r37
+33i16 vrblvl{100|6I8} 61|265b16 270r8 278r10
+47V12*Pieri_Initialize_Interpolation_Points{100|6I8} 48>16 49>16 50>16 51>16
+. 61|285b12 308l7 308t44
+48p16 a{52|47P9[18|13]} 61|286b16 298r24
+49p16 b{52|47P9[18|13]} 61|287b16 298r26
+50p16 c{52|47P9[17|17]} 61|288b16 299r45
+51i16 vrblvl{100|6I8} 61|289b16 294r8 303r10
+65V12*Pieri_Store_Start_Pivots{100|6I8} 66>16 67>16 68>16 61|310b12 333l7
+. 333t31
+66p16 a{52|47P9[18|13]} 61|311b16 315r42
+67p16 b{52|47P9[18|13]} 61|312b16 322r16
+68i16 vrblvl{100|6I8} 61|313b16 319r8 328r10
+78V12*Pieri_Store_Target_Pivots{100|6I8} 79>16 80>16 81>16 61|335b12 358l7
+. 358t32
+79p16 a{52|47P9[18|13]} 61|336b16 340r42
+80p16 b{52|47P9[18|13]} 61|337b16 347r16
+81i16 vrblvl{100|6I8} 61|338b16 344r8 353r10
+91V12*Pieri_Store_Start_Coefficients{100|6I8} 92>16 93>16 94>16 61|360b12
+. 386l7 386t37
+92p16 a{52|47P9[18|13]} 61|361b16 365r42
+93p16 c{52|47P9[17|17]} 61|362b16 375r35
+94i16 vrblvl{100|6I8} 61|363b16 369r8 381r10
+105V12*Pieri_Get_Target_Solution{100|6I8} 106>16 107>16 108>16 61|388b12
+. 411l7 411t32
+106p16 a{52|47P9[18|13]} 61|389b16 393r42
+107p16 c{52|47P9[17|17]} 61|390b16 402r14
+108i16 vrblvl{100|6I8} 61|391b16 397r8 406r10
+120V12*Pieri_Silent_Track{100|6I8} 121>16 61|413b12 428l7 428t25
+121i16 vrblvl{100|6I8} 61|414b16 416r8 423r10
+126V12*Pieri_Report_Track{100|6I8} 127>16 61|430b12 445l7 445t25
+127i16 vrblvl{100|6I8} 61|431b16 433r8 440r10
+132V12*Pieri_Silent_Verify{100|6I8} 133>16 134>16 61|447b12 467l7 467t26
+133p16 c{52|47P9[17|17]} 61|448b16 458r16
+134i16 vrblvl{100|6I8} 61|449b16 454r8 462r10
+145V12*Pieri_Report_Verify{100|6I8} 146>16 147>16 61|469b12 489l7 489t26
+146p16 c{52|47P9[17|17]} 61|470b16 480r16
+147i16 vrblvl{100|6I8} 61|471b16 476r8 484r10
+158V12*Pieri_Root_Count{100|6I8} 159>16 160>16 161>16 61|491b12 514l7 514t23
+159p16 a{52|47P9[18|13]} 61|492b16 503r20
+160p16 b{52|47P9[18|13]} 61|493b16 505r25
+161i16 vrblvl{100|6I8} 61|494b16 500r8 509r10
+175V12*Pieri_Localization_String{100|6I8} 176>16 177>16 178>16 61|516b12
+. 555l7 555t32
+176p16 a{52|47P9[18|13]} 61|517b16 527r20 543r34
+177p16 b{52|47P9[18|13]} 61|518b16 544r19
+178i16 vrblvl{100|6I8} 61|519b16 524r8 550r10
+193V12*Pieri_Run_Homotopies{100|6I8} 194>16 195>16 196>16 197>16 61|809b12
+. 832l7 832t27
+194p16 a{52|47P9[18|13]} 61|810b16 822r20
+195p16 b{52|47P9[18|13]} 61|811b16 830r26
+196p16 c{52|47P9[17|17]} 61|812b16 827r47 828r42
+197i16 vrblvl{100|6I8} 61|813b16 819r8
+212V12*Pieri_Real_Osculating_Planes{100|6I8} 213>16 214>16 215>16 61|858b12
+. 902l7 902t35
+213p16 a{52|47P9[18|13]} 61|859b16 870r20
+214p16 c{52|47P9[17|17]} 61|860b16 879r28 892r21
+215i16 vrblvl{100|6I8} 61|861b16 866r8 897r10
+230V12*Pieri_Make_Target_System{100|6I8} 231>16 232>16 233>16 61|963b12 986l7
+. 986t31
+231p16 a{52|47P9[18|13]} 61|964b16 974r20
+232p16 c{52|47P9[17|17]} 61|965b16 976r38
+233i16 vrblvl{100|6I8} 61|966b16 971r8 981r10
+247V12*Pieri_Clear{100|6I8} 247>26 61|988b12 1001l7 1001t18
+247i26 vrblvl{100|6I8} 61|988b26 990r8 997r10
+X 61 pieri_interface.adb
+74U13 Get_Dimensions 74b13 75>17 75<40 75<42 75<44 90l7 90t21 101s5 248s5
+. 503s5 527s5 822s5 870s5 974s5
+75p17 a{52|47P9[18|13]} 81r26
+75i40 m{100|6I8} 84m5
+75i42 p{100|6I8} 85m5
+75i44 q{100|6I8} 86m5
+80a5 v{18|10A8} 84r20 85r20 86r20
+92U13 Get_All_Dimensions 92b13 93>17 93>19 93<42 93<44 93<46 93<48 104l7
+. 104t25 273s5 298s5
+93p17 a{52|47P9[18|13]} 101r20
+93p19 b{52|47P9[18|13]} 98r59
+93i42 m{100|6I8} 101m22
+93i44 p{100|6I8} 101m24
+93i46 q{100|6I8} 101m26
+93i48 n{100|6I8} 102m5
+98a5 v{18|10A8} 102r20
+106U13 Get_and_Initialize_Input_Planes 106b13 107>17 107>40 107>42 107>44
+. 141l7 141t38 274s5
+107p17 c{52|47P9[17|17]} 116r26
+107i40 m{100|6I8} 113r38 113r43 127r53 127r60 129r21 130r23
+107i42 p{100|6I8} 113r40 127r55 129r23
+107i44 n{100|6I8} 113r45 118r24
+113i5 nbcff{100|6I8} 114r61
+114m5 d{51|92M9} 115r36 116r51
+115a5 v{17|12A8} 131r47 132r47
+117m5 ind{51|92M9} 131r49 132r49 133m13 133r20
+118a5 planes{47|15A8[94|6]} 125r14 136m9 140r44
+125i9 k<long_integer> 136r16
+127a9 plane{42|16A8[82|5]} 131m13 136r60
+129i13 i<long_integer> 131r19
+130i15 j<long_integer> 131r21
+143U13 Get_and_Initialize_Interpolation_Points 143b13 144>17 144>40 168l7
+. 168t46 299s5
+144p17 c{52|47P9[17|17]} 153r26
+144i40 n{100|6I8} 150r37 155r49
+150i5 nbcff{100|6I8} 151r61
+151m5 d{51|92M9} 152r36 153r51
+152a5 v{17|12A8} 163r40 163r61
+154m5 ind{51|92M9} 163r42 163r63 164m7 164r14
+155a5 points{48|16A8[95|4]} 162r14 163m7 167r52
+162i9 k<long_integer> 163r14
+170V12 Get_Complex_Vector{48|16A8[95|4]} 170b12 171>16 171>39 194l7 194t25
+. 375s16
+171p16 c{52|47P9[17|17]} 181r26
+171i39 n{100|6I8} 177r46 178r37
+177a5 res{48|16A8[95|4]} 189r14 190m7 193r12
+178i5 nbcff{100|6I8} 179r61
+179m5 d{51|92M9} 180r36 181r51
+180a5 v{17|12A8} 190r37 190r58
+182m5 ind{51|92M9} 190r39 190r60 191m7 191r14
+189i9 k<long_integer> 190r11
+196V12 Get_Number{100|6I8} 196b12 196>25 206l7 206t17 315s31 340s31 365s31
+. 393s31
+196p25 a{52|47P9[18|13]} 201r59
+201a5 v{18|10A8} 202r41
+202i5 p{100|6I8} 205r12
+208U13 Get_Pivots 208b13 209>17 209>43 210<17 210<21 226l7 226t17 322s5 347s5
+209p17 a{52|47P9[18|13]} 214r27
+209i43 p{100|6I8} 212r63 218r17 222r17
+210a17 top{48|16A8[106|4]} 219m7
+210a21 bottom{48|16A8[106|4]} 223m7
+212m5 d{51|92M9} 213r38 214r52
+213a5 vp{18|10A8} 219r27 223r30
+215m5 ind{51|92M9} 219r30 220m7 220r14 223r33 224m7 224r14
+218i9 i<long_integer> 219r11
+222i9 i<long_integer> 223r14
+242i5 m{100|6I8} 248m22 250r18
+242i7 p{100|6I8} 248m24 250r31
+242i9 q{100|6I8} 248m26 250r44
+267i5 m{100|6I8} 273m28 274r39
+267i7 p{100|6I8} 273m30 274r41
+267i9 q{100|6I8} 273m32
+267i11 n{100|6I8} 273m34 274r43
+291i5 m{100|6I8} 298m28
+291i7 p{100|6I8} 298m30
+291i9 q{100|6I8} 298m32
+291i11 n{100|6I8} 298m34 299r47
+315i5 p{100|6I8} 316r53 322r18
+316a5 top{48|16A8[106|4]} 322m20 324r39
+316a9 bottom{48|16A8[106|4]} 322m24 324r43
+340i5 p{100|6I8} 341r53 347r18
+341a5 top{48|16A8[106|4]} 347m20 349r40
+341a9 bottom{48|16A8[106|4]} 347m24 349r44
+365i5 n{100|6I8} 366r44 374r8 375r37
+366a5 x{48|16A8[95|4]} 375m11 377r32
+393i5 n{100|6I8} 394r44
+394a5 x{48|16A8[95|4]} 401m36 402r12
+451f5 res{97|13F8} 457m5 458r12
+473f5 res{97|13F8} 479m5 480r12
+496i5 m{100|6I8} 503m22 504r37
+496i7 p{100|6I8} 503m24 504r50
+496i9 q{100|6I8} 503m26 504r63
+497i5 r{104|7I8} 504m5 505r22
+521i5 m{100|6I8} 527m22 530r38 532r34 532r43 535r60
+521i7 p{100|6I8} 527m24 529r28 530r51 532r36 532r45 535r47 535r62
+521i9 q{100|6I8} 527m26 530r64 532r40
+529r7 root{55|32R8} 531r52 535r35
+531p7 lnkroot{55|22P8} 535r27 536r43
+532i7 nq{100|6I8} 533r39
+533a7 level_poset{55|24A8} 536m7 537m19 537r19 539r48
+539a9 s{string} 541r40 543r26
+540a9 sv{48|16A8[102|4]} 544r16
+592V12 Construct_Input_Planes{47|15A8[94|6]} 592b12 593>16 593>18 593>20
+. 594>16 619l7 619t29 698s15 783s15 955s15
+593i16 n{100|6I8} 600r21 605r17
+593i18 m{100|6I8} 601r33 607r56 609r22 610r23
+593i20 p{100|6I8} 601r35 609r24
+594a16 c{48|16A8[99|4]} 611r30 611r39
+600a5 res{47|15A8[94|6]} 615m9 618r12
+601i5 dim{100|6I8} 607r49
+602i5 ind{100|6I8} 611r32 611r41 612m13 612r20
+605i9 i<long_integer> 615r13
+607a9 A{42|16A8[82|5]} 611m13 615r57
+609i13 j<long_integer> 611r15
+610i15 k<long_integer> 611r17
+621U13 Refine_Roots 621b13 621>28 621=45 636l7 636t19 666s5
+621a28 p{45|22A8[88|5]} 635r25
+621p45 sols{93|28P8} 635m27
+627f5 epsxa{97|13F8} 635r32
+628f5 epsfa{97|13F8} 635r38
+629f5 tolsing{97|13F8} 635r44
+630i5 max{104|7I8} 635r58
+631i5 numit{104|7I8} 635m52 635r52
+632b5 deflate{boolean} 635m62 635r62
+638U13 Extract_System_and_Solutions 638b13 639>17 639>19 639>37 640>17 641>17
+. 673l7 673t35 716s9
+639i17 m{100|6I8} 650r33 652r61 654r25 657r59
+639i19 p{100|6I8} 650r35 652r63 652r68 654r27 657r61 657r66
+639a37 planes{47|15A8[94|6]} 660r32 661r68
+640a17 index_poset{55|26A8} 654r30 655r30
+641a17 deform_poset{21|20A8} 656r36
+650i5 dim{100|6I8} 651r42 654r42 655r42 661r52
+651i5 target_level{100|6I8} 656r49
+652a5 xpm{42|16A8[85|5]} 659r18 661r64
+656a5 solplanes{47|15A8[94|6]} 659r22 662r52
+657a5 locmap{42|16A8[103|5]} 661r57 662r45 665r42
+660a5 locsys{45|22A8[88|5]} 666r18 669r43
+662p5 sols{93|28P8} 666m25 666r25 672r45
+675U13 Solve_Hypersurface_Schubert_Problem 675b13 676>17 677>17 677>19 677>21
+. 677>23 677<44 719l7 719t42 827s11
+676p17 c{52|47P9[17|17]} 696r28
+677i17 n{100|6I8} 684r24 698r38
+677i19 m{100|6I8} 685r55 687r37 688r46 690r42 698r40 700r41 704r33 707r56
+. 714r25 716r38
+677i21 p{100|6I8} 685r26 685r68 687r39 688r48 690r44 698r42 700r43 704r35
+. 707r58 707r71 714r27 716r40
+677i23 tdim{100|6I8} 683r47 696r22
+677i44 rc{104|7I8} 704m5
+683a5 cff{48|16A8[99|4]} 696m30 698r44
+684a5 planes{47|15A8[94|6]} 698m5 715r15 716r42
+685r5 root{55|32R8} 686r50
+686p5 lnkroot{55|22P8} 700r23 701r41
+687a5 level_poset{55|24A8} 701m5 702m17 702r17 703r41 704r21
+688a5 index_poset{55|26A8} 689r46 703m5 706r28 708r14 710r33 716r49
+689a5 deform_poset{21|20A8} 706m5 714m30 714r30 716r61
+690i5 target_level{100|6I8} 691r49 692r19 693r33 693r54 708r26 710r45 715r25
+691a5 npaths{48|16A8[106|4]} 715m39 715r39
+693a5 timings{21|23A8} 715m46 715r46
+708i9 i<long_integer> 710r59
+710r9 root{55|32R8} 714r43
+721U13 Extract_System_and_Solutions 721b13 722>17 722>19 722>21 722>39 723>17
+. 724>17 725>17 757l7 757t35 804s7
+722i17 m{100|6I8} 730r33 730r40 733r61 735r25 737r60 739r28 750r18
+722i19 p{100|6I8} 730r35 730r42 733r63 733r68 735r38 737r62 737r74 739r41
+. 750r31
+722i21 q{100|6I8} 730r37 735r51 737r66 739r54 750r44
+722a39 planes{47|15A8[94|6]} 744r32 746r44
+723a17 points{48|16A8[95|4]} 746r37
+724a17 index_poset{55|26A8} 731r31 732r31
+725a17 deform_poset{21|20A8} 736r36
+730i5 dim{100|6I8} 731r43 732r43 736r49
+731a5 top{16|13A8} 735r54 740r18 743r16 746r18 750r47
+732a5 bot{16|13A8} 735r58 740r22 743r20 746r22 750r51
+733a5 xpm{42|16A8[85|5]} 746r33
+736a5 solplanes{47|15A8[94|6]} 740r26 743r31
+737a5 locmap{42|16A8[103|5]} 743r24 746r26
+741p5 sols{93|28P8} 756r45
+744a5 locsys{45|22A8[88|5]} 753r43
+759U13 Solve_Quantum_Schubert_Problem 759b13 760>17 761>17 761>19 761>21
+. 761>23 761>25 761<46 807l7 807t37 828s11
+760p17 c{52|47P9[17|17]} 781r32
+761i17 n{100|6I8} 767r54 768r24 769r46 771r37 772r46 777r49 777r59 778r33
+. 778r43 781r29 783r38 785r17 794r33 798r43
+761i19 m{100|6I8} 775r40 783r40 790r62 802r23 805r10
+761i21 p{100|6I8} 774r30 775r53 783r42 790r49 790r64 802r25 805r12
+761i23 q{100|6I8} 775r66 802r38 805r14
+761i25 tdim{100|6I8} 767r47 770r24 781r22
+761i46 rc{104|7I8} 794m5 802r41
+767a5 cff{48|16A8[99|4]} 781m34 783r44 786r24 786r35
+768a5 planes{47|15A8[94|6]} 783m5 803r13 805r16
+769a5 pts{48|16A8[95|4]} 786m7 803r20 805r23
+770i5 ind{100|6I8} 786r28 786r39 787m7 787r14
+771a5 level_poset{55|24A8} 791m5 792m17 792r17 793r41 794r21
+772a5 index_poset{55|26A8} 773r46 793m5 796r28 798r31 805r27
+773a5 deform_poset{21|20A8} 796m5 802m44 802r44 805r39
+774r5 the_root{55|32R8} 776r50 790r33
+776p5 lnkroot{55|22P8} 790r25 791r41
+777a5 npaths{48|16A8[106|4]} 803m24 803r24
+778a5 timings{21|23A8} 803m31 803r31
+785i9 i<long_integer> 786r11
+798r7 root{55|32R8} 802r57
+815i5 m{100|6I8} 822m22 823r10 823r19 824r13 824r16 827r51 828r46
+815i7 p{100|6I8} 822m24 823r12 823r21 824r18 827r53 828r48
+815i9 q{100|6I8} 822m26 823r16 826r8 828r50
+815i11 n{100|6I8} 823m5 825r15 827r49 828r44
+815i13 mdim{100|6I8} 824m5 825r17
+815i18 tdim{100|6I8} 825m5 827r55 828r52
+816i5 rc{104|7I8} 827m60 828m57 830r22
+834V12 Flatten{48|16A8[99|4]} 834b12 834>22 834>37 856l7 856t14 890s17
+834i22 n{100|6I8} 841r47
+834a37 v{47|15A8[94|6]} 846r14 847r14
+841a5 res{48|16A8[99|4]} 851m11 855r12
+842p5 mat{42|17P8[82|5]} 847m7 848r16 849r18 851r33
+843i5 ind{100|6I8} 850m11 850r18 851r15
+846i9 k<long_integer> 847r16
+848i11 i<long_integer> 851r37
+849i13 j<long_integer> 851r39
+863i5 n{100|6I8} 872m5 875r47 876r64 879r53 880r26 881r52 883r19
+863i7 m{100|6I8} 870m22 871r10 872r10 881r54 889r30
+863i9 p{100|6I8} 870m24 871r12 872r12 889r43
+863i11 q{100|6I8} 870m26 872r16 889r56
+863i13 d{100|6I8} 871m5 872r18 881r56
+875a7 s{48|16A8[99|4]} 885m9 889r59
+876m7 n1{51|92M9} 878r38
+877m7 i1{51|92M9} 884m9 885r32
+878a7 v{17|12A8} 885r30
+880a7 planes{47|15A8[94|6]} 888m7 890r37
+881a7 coeffs{48|16A8[99|4]} 890m7 890r25 892r14
+883i11 i<long_integer> 884r35 885r11
+904V12 Standard_Localization_Map{42|16A8[103|5]} 904b12 905>16 905>18 905>33
+. 905>37 929l7 929t32 948s15
+905i16 m{100|6I8} 912r47
+905i18 p{100|6I8} 912r49 912r54
+905a33 top{16|13A8} 917r26 919r29
+905a37 bottom{16|13A8} 921r30
+912a5 res{42|16A8[103|5]} 915r14 916r16 918m11 920m11 922m11 924m11 928r12
+915i9 j<long_integer> 917r30 918r17 919r33 920r17 921r37 922r17 924r17
+916i11 i<long_integer> 917r12 918r15 919r15 920r15 921r15 922r15 924r15
+931U13 Hypersurface_Target_System 931b13 932>17 932>43 932>45 961l7 961t33
+. 976s11
+932p17 c{52|47P9[17|17]} 954r28
+932i43 m{100|6I8} 937r31 938r31 939r34 943r55 947r59 948r41 955r40 957r56
+932i45 p{100|6I8} 937r33 938r33 943r26 943r68 944r66 947r61 947r66 948r43
+. 955r42 957r58 957r71
+937i5 d{100|6I8} 939r36 944r61 946r25
+938i5 n{100|6I8} 940r36 942r24 955r38 959r52
+939i5 mdim{100|6I8} 940r38
+940i5 tdim{100|6I8} 941r47 954r22
+941a5 cff{48|16A8[99|4]} 954m30 955r44
+942a5 planes{47|15A8[94|6]} 949r23 955m5 959r66
+943r5 root{55|32R8} 946r28 946r37 948r45 948r54
+944a5 xpm{42|16A8[85|5]} 959r62
+947a5 locmap{42|16A8[103|5]} 958r42 959r55
+949a5 locsys{45|22A8[88|5]} 959m5 960r43
+968i5 m{100|6I8} 974m22 976r40
+968i7 p{100|6I8} 974m24 976r42
+968i9 q{100|6I8} 974m26 975r8
+X 62 pieri_root_count.ads
+3V10*Pieri_Root_Count{104|7I8} 61|31w6 504s10
+X 82 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[42|9] 61|14w6 127r17 136r26 607r13 615r23 842r11
+X 83 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 61|7w6 7r45 83|92e29
+19V12*Create{11R8} 61|131s27 163s20 190s17 611s23 786s17
+24V12*REAL_PART{97|13F8} 61|851s23
+X 85 standard_complex_poly_matrices.ads
+5K9*Standard_Complex_Poly_Matrices[42|9] 61|17w6 652r20 733r20 944r20
+X 88 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[45|12] 61|16w6 16r45
+X 93 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 61|18w6 18r45 93|206e31
+28P8*Solution_List<41|12P8[27]> 61|621r59 662r12 741r21
+X 94 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[47|11] 61|15w6 15r45
+X 95 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[48|8] 61|12w6 155r14 172r21 177r11 366r9 394r9
+. 723r29 769r11
+X 97 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 61|5w6 5r45 97|58e30
+13F8*double_float<long_float> 61|131r34 132r34 163r27 163r48 190r24 190r45
+. 451r11 473r11 627r22 628r22 629r24 885r17
+X 99 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[48|8] 61|11w6 594r23 683r11 767r11 835r27 841r11
+. 875r11 881r16 941r11
+X 100 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 60|1w6 1r45 100|45e29
+6I8*integer32<long_integer> 60|10r40 10r64 18r25 18r49 33r25 33r49 51r25
+. 51r49 68r25 68r49 81r25 81r49 94r25 94r49 108r25 108r49 121r25 121r49 127r25
+. 127r49 134r25 134r49 147r25 147r49 161r25 161r49 178r25 178r49 197r25 197r49
+. 215r25 215r49 233r25 233r49 247r35 247r59 61|39r40 39r64 75r52 84r10 85r10
+. 86r10 93r56 102r10 107r51 113r22 144r47 150r22 171r46 178r22 196r56 202r18
+. 202r31 209r50 240r25 240r49 242r13 265r25 265r49 267r15 289r25 289r49 291r15
+. 313r25 313r49 315r18 338r25 338r49 340r18 363r25 363r49 365r18 391r25 391r49
+. 393r18 414r25 414r49 431r25 431r49 449r25 449r49 471r25 471r49 494r25 494r49
+. 496r13 505r12 519r25 519r49 521r13 532r21 543r16 593r27 601r20 602r11 639r26
+. 650r20 651r29 677r33 690r29 722r28 730r20 761r35 770r11 813r25 813r49 815r25
+. 830r12 834r26 843r11 861r25 861r49 863r17 905r22 917r16 919r19 921r20 932r52
+. 937r18 938r18 939r21 940r21 966r25 966r49 968r13 988r35 988r59
+X 102 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[48|8] 61|10w6 540r23
+X 103 standard_natural_matrices.ads
+5K9*Standard_Natural_Matrices[42|9] 61|13w6 657r23 737r23 906r21 912r11 947r23
+X 104 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 61|3w6 3r45 104|30e29
+7I8*natural32<long_integer> 61|219r17 223r20 250r8 250r21 250r34 497r9 504r27
+. 504r40 504r53 530r28 530r41 530r54 535r50 630r20 631r13 654r15 661r42 677r53
+. 685r45 685r58 696r12 700r31 704r11 707r46 707r61 714r15 735r15 735r28 735r41
+. 739r18 739r31 739r44 750r8 750r21 750r34 761r55 775r30 775r43 775r56 781r12
+. 790r52 794r11 802r13 802r28 816r10 889r20 889r33 889r46 943r45 943r58 946r15
+. 954r12 957r46 957r61 959r42
+X 106 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[48|8] 61|8w6 210r34 316r18 341r18 691r14 777r14
+X 108 standard_polysys_container.ads
+8K9*Standard_PolySys_Container 61|34w6 669r5 753r5 960r5 108|120e31
+16U13*Initialize 61|669s32 753s32 960s32
+X 109 standard_root_refiners.ads
+15K9*Standard_Root_Refiners 61|19w6 19r45 109|665e27
+377U13*Silent_Root_Refiner 61|635s5
+X 110 standard_solutions_container.ads
+6K9*Standard_Solutions_Container 61|35w6 672r5 756r5 110|114e33
+12U13*Initialize 61|672s34 756s34
+X 112 symbolic_minor_equations.ads
+13K9*Symbolic_Minor_Equations 61|26w6 653r12 945r12 112|116e29
+37V12*Localization_Pattern{42|16A8[85|5]} 61|653s37 945s37
+X 133 text_io.ads
+27K9*Text_IO=27:29 61|1w6 1r45
+

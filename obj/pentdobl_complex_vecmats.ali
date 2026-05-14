@@ -1,0 +1,86 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U pentdobl_complex_vecmats%b  pentdobl_complex_vecmats.ads  940d409f NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+W generic_vecmats%s	generic_vecmats.adb	generic_vecmats.ali  ED
+Z generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W pentdobl_complex_matrices%s  pentdobl_complex_matrices.ads  pentdobl_complex_matrices.ali
+W pentdobl_complex_ring%s  pentdobl_complex_ring.ads  pentdobl_complex_ring.ali
+W pentdobl_complex_vectors%s  pentdobl_complex_vectors.ads  pentdobl_complex_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z unchecked_deallocation%s
+
+U pentdobl_complex_vecmats%s  pentdobl_complex_vecmats.ads  ba20d280 EB NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+W generic_vecmats%s	generic_vecmats.adb	generic_vecmats.ali
+Z generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W pentdobl_complex_matrices%s  pentdobl_complex_matrices.ads  pentdobl_complex_matrices.ali
+W pentdobl_complex_ring%s  pentdobl_complex_ring.ads  pentdobl_complex_ring.ali
+W pentdobl_complex_vectors%s  pentdobl_complex_vectors.ads  pentdobl_complex_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vecmats.adb	20260513024558 9ad17ab7 generic_vecmats%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D pentdobl_complex_matrices.ads  20260513024558 dd59e9a1 pentdobl_complex_matrices%s
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_ring.ads  20260513024558 45ee875d pentdobl_complex_ring%s
+D pentdobl_complex_vecmats.ads  20260513024558 940d409f pentdobl_complex_vecmats%s
+D pentdobl_complex_vecmats.ads  20260513024558 940d409f pentdobl_complex_vecmats%b
+D pentdobl_complex_vectors.ads  20260513024558 25aaa105 pentdobl_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s pentdobl_complex_vecmats 6 1 none]
+G c Z s s [copy pentdobl_complex_vecmats 20 13 6_1]
+G c Z s s [clear pentdobl_complex_vecmats 28 13 6_1]
+G c Z s s [shallow_clear pentdobl_complex_vecmats 29 13 6_1]
+G c Z s s [deep_clear pentdobl_complex_vecmats 30 13 6_1]
+G c Z s s [clear pentdobl_complex_vecmats 37 13 6_1]
+G c Z s s [vecmatIP pentdobl_complex_vecmats 15 8 6_1]
+G c Z s s [vecmat_arrayIP pentdobl_complex_vecmats 18 8 6_1]
+G r i none [s pentdobl_complex_vecmats 6 1 none] [generic_vecmats standard 11 9 none]
+G r c none [copy pentdobl_complex_vecmats 20 13 6_1] [clear pentdobl_complex_matrices 67 13 5_1]
+G r c none [clear pentdobl_complex_vecmats 28 13 6_1] [clear pentdobl_complex_matrices 67 13 5_1]
+G r c none [deep_clear pentdobl_complex_vecmats 30 13 6_1] [clear pentdobl_complex_matrices 67 13 5_1]
+G r c none [clear pentdobl_complex_vecmats 37 13 6_1] [clear pentdobl_complex_matrices 67 13 5_1]
+X 5 generic_vecmats.ads
+11k9*Generic_VecMats 42e20 15|1w6 7r7
+X 11 pentdobl_complex_matrices.ads
+5K9*PentDobl_Complex_Matrices[4|9] 15|4w6 9r23
+X 13 pentdobl_complex_ring.ads
+4K9*PentDobl_Complex_Ring[1|25] 15|2w6 7r23
+X 15 pentdobl_complex_vecmats.ads
+6K9*PentDobl_Complex_VecMats[5|11]
+X 16 pentdobl_complex_vectors.ads
+4K9*PentDobl_Complex_Vectors[7|8] 15|3w6 8r23
+

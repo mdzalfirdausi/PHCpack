@@ -1,0 +1,707 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U standard_interpolating_cseries%b  standard_interpolating_cseries.adb  18c87e31 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W standard_complex_linear_solvers%s  standard_complex_linear_solvers.adb  standard_complex_linear_solvers.ali
+W standard_complex_matrices_io%s  standard_complex_matrices_io.ads  standard_complex_matrices_io.ali
+W standard_complex_qr_least_squares%s  standard_complex_qr_least_squares.adb  standard_complex_qr_least_squares.ali
+W standard_complex_singular_values%s  standard_complex_singular_values.adb  standard_complex_singular_values.ali
+W standard_complex_vector_norms%s  standard_complex_vector_norms.adb  standard_complex_vector_norms.ali
+W standard_complex_vectors_io%s  standard_complex_vectors_io.ads  standard_complex_vectors_io.ali
+W standard_complex_vecvecs_io%s  standard_complex_vecvecs_io.ads  standard_complex_vecvecs_io.ali
+W standard_floating_vectors_io%s  standard_floating_vectors_io.ads  standard_floating_vectors_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_random_vectors%s  standard_random_vectors.adb  standard_random_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U standard_interpolating_cseries%s  standard_interpolating_cseries.ads  9e82fd23 EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_matrix_series%s  standard_complex_matrix_series.adb  standard_complex_matrix_series.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vector_series%s  standard_complex_vector_series.adb  standard_complex_vector_series.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_matrices_io.ads  20260513024558 4a4f474a generic_matrices_io%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D generic_vecvecs_io.ads  20260513024558 6b4e3e63 generic_vecvecs_io%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_matrices_io.ads  20260513024558 907cac95 standard_complex_matrices_io%s
+D standard_complex_matrix_series.ads  20260513024558 bdc54404 standard_complex_matrix_series%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_qr_least_squares.ads  20260513024558 d778cd55 standard_complex_qr_least_squares%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring_io.ads  20260513024558 92297a2a standard_complex_ring_io%s
+D standard_complex_series.ads  20260513024558 0ccca880 standard_complex_series%s
+D standard_complex_series_matrices.ads  20260513024558 85ee6636 standard_complex_series_matrices%s
+D standard_complex_series_ring.ads  20260513024558 855aaf79 standard_complex_series_ring%s
+D standard_complex_series_vectors.ads  20260513024558 35bf7d89 standard_complex_series_vectors%s
+D standard_complex_singular_values.ads  20260513024558 c29c8bc2 standard_complex_singular_values%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vector_norms.ads  20260513024558 27a5d3cb standard_complex_vector_norms%s
+D standard_complex_vector_series.ads  20260513024558 3b75feb0 standard_complex_vector_series%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vectors_io.ads  20260513024558 7146aed4 standard_complex_vectors_io%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_complex_vecvecs_io.ads  20260513024558 92e10bc1 standard_complex_vecvecs_io%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring_io.ads  20260513024558 cf09bbdc standard_floating_ring_io%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vectors_io.ads  20260513024558 9f873e12 standard_floating_vectors_io%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_interpolating_cseries.ads  20260513024558 6b102a80 standard_interpolating_cseries%s
+D standard_interpolating_cseries.adb  20260513024558 2970d46e standard_interpolating_cseries%b
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_random_vectors.ads  20260513024558 fc3e3208 standard_random_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [eval standard_interpolating_cseries 20 12 none]
+G c Z s b [eval standard_interpolating_cseries 27 12 none]
+G c Z s b [rank standard_interpolating_cseries 34 12 none]
+G c Z s b [full_rank standard_interpolating_cseries 40 12 none]
+G c Z s b [full_rank standard_interpolating_cseries 48 12 none]
+G c Z s b [sample standard_interpolating_cseries 60 12 none]
+G c Z s b [sample standard_interpolating_cseries 69 12 none]
+G c Z s b [solve_linear_systems standard_interpolating_cseries 78 12 none]
+G c Z s b [residuals standard_interpolating_cseries 90 12 none]
+G c Z s b [transpose standard_interpolating_cseries 100 12 none]
+G c Z s b [vandermonde_matrix standard_interpolating_cseries 109 12 none]
+G c Z s b [solve_interpolation_systems standard_interpolating_cseries 118 12 none]
+G c Z s b [construct standard_interpolating_cseries 127 12 none]
+G c Z s b [interpolate standard_interpolating_cseries 134 12 none]
+G c Z s b [factorial standard_interpolating_cseries 147 12 none]
+G c Z s b [diff standard_interpolating_cseries 152 12 none]
+G c Z s b [hermite_matrix standard_interpolating_cseries 163 12 none]
+G c Z s b [hermite_vector standard_interpolating_cseries 177 12 none]
+G c Z s b [hermite_interpolate standard_interpolating_cseries 186 12 none]
+G c Z s b [hermite_laurent_matrix standard_interpolating_cseries 200 12 none]
+G c Z s b [hermite_laurent_vector standard_interpolating_cseries 211 12 none]
+G c Z s b [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none]
+G c Z b b [write_integer_matrix standard_interpolating_cseries 583 13 none]
+G r c none [eval standard_interpolating_cseries 20 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_interpolating_cseries 20 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_interpolating_cseries 20 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [eval standard_interpolating_cseries 20 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [eval standard_interpolating_cseries 27 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval standard_interpolating_cseries 27 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval standard_interpolating_cseries 27 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [rank standard_interpolating_cseries 34 12 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [rank standard_interpolating_cseries 34 12 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [rank standard_interpolating_cseries 34 12 none] [rank standard_complex_singular_values 81 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [rank standard_complex_singular_values 81 12 none]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r c none [full_rank standard_interpolating_cseries 40 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [rank standard_complex_singular_values 81 12 none]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r c none [full_rank standard_interpolating_cseries 48 12 none] [put standard_integer_numbers_io 26 13 none]
+G r s vecvec [sample standard_interpolating_cseries 60 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [sample standard_interpolating_cseries 60 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [sample standard_interpolating_cseries 60 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [sample standard_interpolating_cseries 60 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [sample standard_interpolating_cseries 60 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r s vecmat [sample standard_interpolating_cseries 69 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [sample standard_interpolating_cseries 69 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [sample standard_interpolating_cseries 69 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [sample standard_interpolating_cseries 69 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r s vecvec [solve_linear_systems standard_interpolating_cseries 78 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [solve_linear_systems standard_interpolating_cseries 78 12 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [solve_linear_systems standard_interpolating_cseries 78 12 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [residuals standard_interpolating_cseries 90 12 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [residuals standard_interpolating_cseries 90 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [residuals standard_interpolating_cseries 90 12 none] [max_norm standard_complex_vector_norms 20 12 none]
+G r s vecvec [transpose standard_interpolating_cseries 100 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [vandermonde_matrix standard_interpolating_cseries 109 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [vandermonde_matrix standard_interpolating_cseries 109 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r s vecvec [solve_interpolation_systems standard_interpolating_cseries 118 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [solve_interpolation_systems standard_interpolating_cseries 118 12 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [solve_interpolation_systems standard_interpolating_cseries 118 12 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r s vector [construct standard_interpolating_cseries 127 12 none] [vectorIP standard_complex_vector_series 16 8 none]
+G r s vector [interpolate standard_interpolating_cseries 134 12 none] [vectorIP standard_complex_vector_series 16 8 none]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [random_vector standard_random_vectors 58 12 none]
+G r s vecmat [interpolate standard_interpolating_cseries 134 12 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r s vecvec [interpolate standard_interpolating_cseries 134 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [max_norm standard_complex_vector_norms 20 12 none]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [put_line standard_complex_vecvecs_io 51 13 7_1]
+G r c none [interpolate standard_interpolating_cseries 134 12 none] [put_line standard_floating_vectors_io 44 13 5_1]
+G r c none [factorial standard_interpolating_cseries 147 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [diff standard_interpolating_cseries 152 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [diff standard_interpolating_cseries 152 12 none] [Oexpon standard_complex_numbers 58 12 none]
+G r c none [diff standard_interpolating_cseries 152 12 none] [Omultiply standard_complex_matrices 60 12 5_1]
+G r c none [diff standard_interpolating_cseries 152 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [diff standard_interpolating_cseries 152 12 none] [Oadd standard_complex_matrices 37 12 5_1]
+G r c none [diff standard_interpolating_cseries 152 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [hermite_matrix standard_interpolating_cseries 163 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [hermite_matrix standard_interpolating_cseries 163 12 none] [Oexpon standard_complex_numbers 58 12 none]
+G r c none [hermite_matrix standard_interpolating_cseries 163 12 none] [Omultiply standard_complex_matrices 60 12 5_1]
+G r c none [hermite_matrix standard_interpolating_cseries 163 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [hermite_matrix standard_interpolating_cseries 163 12 none] [Oadd standard_complex_matrices 37 12 5_1]
+G r c none [hermite_matrix standard_interpolating_cseries 163 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [hermite_vector standard_interpolating_cseries 177 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [hermite_vector standard_interpolating_cseries 177 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [hermite_vector standard_interpolating_cseries 177 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [hermite_vector standard_interpolating_cseries 177 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [hermite_vector standard_interpolating_cseries 177 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r s vector [hermite_interpolate standard_interpolating_cseries 186 12 none] [vectorIP standard_complex_vector_series 16 8 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Oexpon standard_complex_numbers 58 12 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Omultiply standard_complex_matrices 60 12 5_1]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Oadd standard_complex_matrices 37 12 5_1]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [put standard_complex_matrices_io 43 13 6_1]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [rank standard_complex_singular_values 81 12 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [hermite_interpolate standard_interpolating_cseries 186 12 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [hermite_laurent_matrix standard_interpolating_cseries 200 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [hermite_laurent_vector standard_interpolating_cseries 211 12 none] [create standard_complex_numbers 18 12 none]
+G r s vector [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [vectorIP standard_complex_vector_series 16 8 none]
+G r c none [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r c none [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [hermite_laurent_interpolate standard_interpolating_cseries 220 12 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [write_integer_matrix standard_interpolating_cseries 583 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [write_integer_matrix standard_interpolating_cseries 583 13 none] [put standard_integer_numbers_io 26 13 none]
+X 11 a-textio.ads
+284U14*New_Line 57|110s49 594s7
+515U14*Put 57|110s7 497s7 499s9 501s9 592s9
+565U14*Put_Line 57|109s7 313s7 319s7 321s7 326s7 332s7 494s7 495s7 499s36
+. 501s36 507s7 626s7 628s7 633s7
+X 14 generic_matrices.ads
+16A8*Matrix(27|11R8)<52|6I8><52|6I8> 56|29r50[24|5] 34r49[24|5] 111r47[24|5]
+. 119r46[24|5] 154r50[24|5] 166r47[24|5] 202r47[24|5] 57|37r50[24|5] 40r37[24|5]
+. 57r49[24|5] 65r35[24|5] 66r35[24|5] 69r35[24|5] 82r37[24|5] 90r35[24|5]
+. 91r35[24|5] 156r48[24|5] 159r49[24|5] 175r37[24|5] 234r47[24|5] 237r37[24|5]
+. 252r46[24|5] 258r37[24|5] 308r37[24|5] 354r50[24|5] 358r37[24|5] 412r47[24|5]
+. 417r37[24|5] 418r37[24|5] 483r35[24|5] 520r47[24|5] 527r37[24|5] 584r50[24|5]
+. 610r35[24|5]
+17P8*Link_to_Matrix(16A8[24|5]) 57|39r37[24|5] 81r37[24|5] 151r45[24|5] 195r36[24|5]
+. 356r46[24|5] 414r46[24|5] 522r37[24|5]
+37V13*"+"{16A8[24|5]} 57|376s20[24|5] 384s20[24|5] 403s20[24|5]
+51V13*"*"{17|16A8[40|4]} 57|207s29[24|5]
+60V13*"*"{16A8[24|5]} 57|372s19[24|5] 376s25[24|5] 379s28[24|5] 384s25[24|5]
+. 394s34[24|5] 398s23[24|5] 403s29[24|5]
+X 15 generic_matrices_io.ads
+43U13*put 57|494s45[25|6]
+X 16 generic_vecmats.ads
+15A8*VecMat(14|17P8[24|5])<52|6I8> 56|71r51[37|6] 79r45[37|6] 91r45[37|6]
+. 152r48[37|6] 164r45[37|6] 201r45[37|6] 57|148r51[37|6] 150r36[37|6] 166r45[37|6]
+. 189r45[37|6] 303r43[37|6] 352r48[37|6] 410r45[37|6] 519r45[37|6]
+X 17 generic_vectors.ads
+16A8*Vector(27|11R8)<52|6I8> 56|22r49[40|4] 61r50[40|4] 70r50[40|4] 93r47[48|4]
+. 110r45[40|4] 180r46[40|4] 213r46[40|4] 57|19r49[40|4] 22r36[40|4] 63r34[40|4]
+. 64r34[40|4] 88r34[40|4] 89r34[40|4] 128r50[40|4] 137r47[40|4] 140r48[40|4]
+. 147r50[40|4] 173r37[55|4] 174r36[40|4] 183r46[40|4] 191r47[48|4] 193r37[48|4]
+. 197r36[40|4] 222r46[40|4] 233r45[40|4] 259r36[40|4] 260r37[55|4] 268r46[40|4]
+. 283r50[40|4] 301r43[40|4] 306r35[48|4] 437r46[40|4] 442r36[40|4] 443r36[40|4]
+. 485r34[40|4] 488r37[55|4] 489r36[40|4] 513r50[40|4] 562r46[40|4] 567r36[40|4]
+. 612r43[40|4] 614r38[40|4] 616r37[55|4] 617r36[40|4] 618r50[40|4] 620r36[40|4]
+. 640r50[40|4]
+17P8*Link_to_Vector(16A8[40|4]) 57|21r45[40|4] 132r44[40|4] 196r38[40|4]
+. 277r45[40|4] 439r45[40|4] 564r35[40|4]
+29V13*"+"{16A8[40|4]} 57|30s18[40|4] 453s18[40|4] 464s20[40|4]
+35V13*"-"{16A8[40|4]} 57|207s21[40|4]
+39V13*"*"{16A8[40|4]} 57|30s23[40|4] 453s23[40|4] 459s26[40|4] 464s25[40|4]
+X 18 generic_vectors_io.ads
+44U13*put_line 57|109s43[41|5] 314s7[41|5] 322s7[49|5] 495s49[41|5] 507s42[41|5]
+. 628s49[41|5] 633s49[41|5]
+X 19 generic_vecvecs.ads
+14A8*VecVec(17|17P8[40|4])<52|6I8> 56|62r51[42|5] 80r45[42|5] 81r46[42|5]
+. 92r47[42|5] 100r53[42|5] 101r54[42|5] 120r45[42|5] 121r46[42|5] 127r53[42|5]
+. 178r45[42|5] 212r45[42|5] 57|129r51[42|5] 131r36[42|5] 167r45[42|5] 168r46[42|5]
+. 170r36[42|5] 190r47[42|5] 213r53[42|5] 214r54[42|5] 218r36[42|5] 253r45[42|5]
+. 254r46[42|5] 256r36[42|5] 273r53[42|5] 304r43[42|5] 305r34[42|5] 307r35[42|5]
+. 309r36[42|5] 435r45[42|5] 561r45[42|5]
+X 20 generic_vecvecs_io.ads
+51U13*put_line 57|320s7[43|7] 327s7[43|7] 333s7[43|7]
+X 23 standard_complex_linear_solvers.ads
+9K9*Standard_Complex_Linear_Solvers 257e36 57|11w6 181r7 182r7 264r5 267r7
+. 504r5 505r5
+35U13*lufac 57|181s39 264s37 504s37
+162U13*lusolve 57|182s39 267s39 505s37
+X 24 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[14|9] 56|7w6 29r24 34r23 111r21 119r20 154r24
+. 166r21 202r21 57|37r24 39r11 40r11 57r23 65r9 66r9 69r9 81r11 82r11 90r9
+. 91r9 151r19 156r22 159r23 175r11 195r10 200r9 234r21 237r11 252r20 258r11
+. 308r11 354r24 356r20 358r11 363r9 412r21 414r20 417r11 418r11 483r9 520r21
+. 522r11 527r11 584r24 610r9
+X 25 standard_complex_matrices_io.ads
+6K9*Standard_Complex_Matrices_io[15|14] 57|9w6 9r47
+X 26 standard_complex_matrix_series.ads
+7K9*Standard_Complex_Matrix_Series 72e35 56|10w6 27r23 41r20 49r20 69r25
+. 135r22 187r22 221r22 57|35r23 77r20 116r20 146r25 294r22 474r22 599r22
+15R8*Matrix 17e13 56|27r54 41r51 49r51 69r56 135r53 187r53 221r53 57|35r54
+. 77r51 116r51 146r56 294r53 474r53 599r53
+15i17*deg{52|6I8} 57|45r19 119r19 299r53 301r57 302r54 308r51 308r64 479r37
+. 604r37
+16a5*cff{16|15A8[37|6]} 57|39r57 47r16 81r57 99r16 151r65 480r37 484r29 605r37
+. 606r37 611r37
+X 27 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 56|3w6 3r44
+11R8*Complex_Number 90e15 56|21r23 28r23 147r47 153r23 165r20 179r20 189r20
+. 57|18r23 23r11 36r23 42r11 80r18 84r11 339r47 342r11 353r23 361r15 411r20
+. 436r20 444r11 445r11 476r20
+18V12*Create{11R8} 57|23s29 42s29 84s29 243s21 348s12 369s16 380s14 393s16
+. 444s29 460s14 534s21 572s17 615s27
+24V12*REAL_PART{44|13F8} 57|592s33
+51V13*"+"{11R8} 57|50s32 102s32
+55V13*"*"{11R8} 57|29s17 46s17 50s37 98s17 102s37 245s35 375s19 382s19 383s47
+. 398s19 401s19 403s25 452s17 462s19 463s43
+56V13*"/"{11R8} 57|383s30 397s34 402s32 463s28
+58V13*"**"{11R8} 57|371s17 396s17
+X 29 standard_complex_qr_least_squares.ads
+6K9*Standard_Complex_QR_Least_Squares 179e38 57|12w6 622r9
+14U13*QRD 57|630s5
+80U13*QRLS 57|631s5
+X 36 standard_complex_singular_values.ads
+6K9*Standard_Complex_Singular_Values 150e37 57|13w6 62r32 72r5 73r12 87r32
+. 106r5 107r12
+20V12*Min0{52|6I8} 57|62s65 87s65
+24U13*SVD 57|72s38 106s38
+81V12*Rank{52|6I8} 57|73s45 107s45
+X 37 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[16|11] 56|8w6 71r26 79r20 91r20 152r23 164r20
+. 201r20 57|148r26 150r11 166r20 189r20 303r18 352r23 410r20 519r20
+X 38 standard_complex_vector_norms.ads
+4K9*Standard_Complex_Vector_Norms 25e34 57|10w6 208r17
+20V12*Max_Norm{44|13F8} 57|208s47
+X 39 standard_complex_vector_series.ads
+8K9*Standard_Complex_Vector_Series 74e35 56|9w6 20r23 60r25 128r29 136r22
+. 138r21 188r22 190r21 222r22 224r21 57|17r23 127r25 274r29 279r11 295r22
+. 297r21 299r11 475r22 477r21 481r11 600r22 602r21 609r11
+16R8*Vector 19e13 56|20r54 60r56 128r60 136r53 138r52 188r53 190r52 222r53
+. 224r52 57|17r54 127r56 274r60 279r42 295r53 297r52 299r42 475r53 477r52
+. 481r42 600r53 602r52 609r42
+16i17*deg{52|6I8} 57|28r19
+18a5*cff{19|14A8[42|5]} 57|21r65 30r26 132r64 283m11 287r13 300r37 486r29
+. 513m11 613r37 640m11
+X 40 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[17|8] 56|5w6 22r24 61r25 70r25 110r20 180r21
+. 213r21 57|19r24 21r20 22r11 25r9 63r9 64r9 88r9 89r9 128r25 132r19 137r22
+. 140r23 147r25 174r11 183r21 196r13 197r11 199r9 222r21 233r20 259r11 268r21
+. 277r20 283r25 301r18 437r21 439r20 442r11 443r11 447r9 485r9 489r11 513r25
+. 562r21 564r10 567r11 612r18 614r13 617r11 618r25 620r11 640r25
+X 41 standard_complex_vectors_io.ads
+5K9*Standard_Complex_Vectors_io[18|11] 57|7w6 7r47
+X 42 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[19|10] 56|6w6 62r26 80r20 81r21 92r22 100r28
+. 101r29 120r20 121r21 127r28 178r20 212r20 57|129r26 131r11 167r20 168r21
+. 170r11 190r22 213r28 214r29 218r11 253r20 254r21 256r11 273r28 304r18 305r9
+. 307r10 309r11 435r20 561r20
+X 43 standard_complex_vecvecs_io.ads
+7K9*Standard_Complex_VecVecs_io[20|15] 57|8w6 8r47
+X 44 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 56|2w6 2r44
+13F8*double_float<long_float> 56|35r25 57|58r25 94r20 348r19
+X 48 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[17|8] 56|4w6 93r21 57|191r21 193r11 306r9
+X 49 standard_floating_vectors_io.ads
+5K9*Standard_Floating_Vectors_io[18|11] 57|6w6 6r47
+X 52 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 56|1w6 1r44
+6I8*integer32<long_integer> 56|35r47 42r20 50r51 147r28 153r49 57|58r47 60r18
+. 61r18 62r19 67r20 68r12 78r20 85r18 86r18 87r19 92r20 93r16 117r51 171r20
+. 172r12 194r20 216r20 217r20 236r20 238r11 257r20 261r12 276r20 278r20 300r20
+. 339r28 341r11 353r49 357r20 360r11 415r21 416r21 440r21 441r21 479r20 480r20
+. 482r23 487r12 490r11 523r20 524r20 525r22 526r22 528r23 529r23 565r20 566r20
+. 568r20 592r23 604r20 605r20 606r20 607r22 608r22 619r16
+X 53 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 57|2w6 2r47
+26U13*put 57|110s37 497s49 499s21 501s21 592s19
+X 55 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[17|8] 57|5w6 173r12 260r12 488r12 616r12
+X 56 standard_interpolating_cseries.ads
+12K9*Standard_Interpolating_CSeries 234l5 234e35 57|15b14 645l5 645t35
+20V12*Eval{17|16A8[40|4]} 20>19 21>19 57|17b12 33l7 33t11 138s14
+20r19 v{39|16R8} 57|17b19 21r63 28r17 30r24
+21r19 t{27|11R8} 57|18b19 29r18
+27V12*Eval{14|16A8[24|5]} 27>19 28>19 57|35b12 55l7 55t11 157s14
+27r19 m{26|15R8} 57|35b19 39r55 45r17 47r14
+28r19 t{27|11R8} 57|36b19 46r18
+34V12*Rank{52|6I8} 34>19 35>19 57|57b12 74l7 74t11 496s14
+34a19 A{14|16A8[24|5]} 57|57b19 60r31 61r31 69r42 69r53 69r68
+35f19 tol{44|13F8} 57|58b19 73r52
+40V12*Full_Rank{boolean} 41>16 42>16 42>31 57|76b12 113l7 113t16 120s10
+41r16 m{26|15R8} 57|77b16 81r55 99r14
+42i16 d{52|6I8} 57|78b16 97r17
+42b31 verbose{boolean} 57|78b31 108r8
+48V12*Full_Rank{52|6I8} 49>16 50>16 57|115b12 125l7 125t16
+49r16 m{26|15R8} 57|116b16 119r17 120r20
+50b16 verbose{boolean} 57|117b16 120r24
+60V12*Sample{19|14A8[42|5]} 60>21 61>21 57|127b12 144l7 144t13 304s62
+60r21 v{39|16R8} 57|127b21 132r62 138r19
+61a21 t{17|16A8[40|4]} 57|128b21 131r43 135r14 138r21
+69V12*Sample{16|15A8[37|6]} 69>21 70>21 57|146b12 163l7 163t13 303s62
+69r21 m{26|15R8} 57|146b21 151r63 157r19
+70a21 t{17|16A8[40|4]} 57|147b21 150r43 154r14 157r21
+78V12*Solve_Linear_Systems{19|14A8[42|5]} 79>16 80>16 57|165b12 186l7 186t27
+. 316s10
+79a16 m{16|15A8[37|6]} 57|166b16 170r43 180r14
+80a16 v{19|14A8[42|5]} 57|167b16 171r33 178r14 179r14
+90V12*Residuals{17|16A8[48|4]} 91>16 92>16 92>18 57|188b12 211l7 211t16 317s10
+91a16 m{16|15A8[37|6]} 57|189b16 204r13
+92a16 v{19|14A8[42|5]} 57|190b16 193r44 194r33 205r13
+92a18 x{19|14A8[42|5]} 57|190b18 206r13
+100V12*Transpose{19|14A8[42|5]} 100>24 57|213b12 230l7 230t16 324s11
+100a24 x{19|14A8[42|5]} 57|213b24 216r33 217r33 224r14 225r16 226r24
+109V12*Vandermonde_Matrix{14|16A8[24|5]} 110>16 57|232b12 249l7 249t25 329s12
+110a16 t{17|16A8[40|4]} 57|233b16 236r33 236r42 241r14 245r36
+118V12*Solve_Interpolation_Systems{19|14A8[42|5]} 119>16 120>16 57|251b12
+. 271l7 271t34 330s12
+119a16 v{14|16A8[24|5]} 57|252b16 257r33 258r44 258r55 258r70
+120a16 f{19|14A8[42|5]} 57|253b16 256r43 265r14 266r14
+127V12*Construct{39|16R8} 127>24 57|273b12 291l7 291t16 335s12
+127a24 x{19|14A8[42|5]} 57|273b24 276r33 277r63 277r65 285r14 286r16 287r28
+134V12*Interpolate{39|16R8} 135>16 136>16 137>16 57|293b12 337l7 337t18
+135r16 mat{26|15R8} 57|294b16 299r49 301r53 302r50 303r69 308r47 308r60
+136r16 rhs{39|16R8} 57|295b16 300r33 304r69
+137b16 verbose{boolean} 57|296b16 312r8 318r8 325r8 331r8
+147V12*factorial{27|11R8} 147>24 57|339b12 350l7 350t16 379s14 383s16 383s31
+. 394s16 397s16 397s35 402s16 402s33 459s14 463s16 463s29
+147i24 k{52|6I8} 57|339b24 345r17
+152V12*Diff{14|16A8[24|5]} 152>19 153>19 153>39 153>43 57|352b12 407l7 407t11
+. 423s16
+152a19 m{16|15A8[37|6]} 57|352b19 356r64 367r14 374r19 376r26 379r29 381r23
+. 384r26 391r14 394r35 398r24 400r23 403r30
+153r19 t{27|11R8} 57|353b19 371r16 375r20 382r20 396r16 401r20
+153i39 pow{52|6I8} 57|353b39 359r39 368r10 378r11 387r18 392r10 394r26 396r27
+. 397r26 397r45 402r26 402r43
+153i43 ord{52|6I8} 57|353b43 366r8 379r24 379r31 381r16 383r26 383r43 387r14
+. 392r17 396r31 397r53 402r49
+163V12*Hermite_Matrix{14|16A8[24|5]} 164>16 165>16 57|409b12 432l7 432t21
+. 484s10
+164a16 m{16|15A8[37|6]} 57|410b16 414r64 416r40 421r16 422r18 423r21
+165r16 t{27|11R8} 57|411b16 423r23
+177V12*Hermite_Vector{17|16A8[40|4]} 178>16 179>16 57|434b12 471l7 471t21
+. 486s10
+178a16 v{19|14A8[42|5]} 57|435b16 439r63 441r40 450r12 451r17 453r24 458r17
+. 459r27 461r21 464r26
+179r16 t{27|11R8} 57|436b16 452r18 462r20
+186V12*Hermite_Interpolate{39|16R8} 187>16 188>16 189>16 189>36 57|473b12
+. 516l7 516t26
+187r16 mat{26|15R8} 57|474b16 479r33 480r33 484r25
+188r16 rhs{39|16R8} 57|475b16 486r25
+189r16 t{27|11R8} 57|476b16 484r41 486r41
+189b36 verbose{boolean} 57|476b36 493r8 506r8
+200V12*Hermite_Laurent_Matrix{14|16A8[24|5]} 201>16 57|518b12 558l7 558t29
+. 611s10
+201a16 m{16|15A8[37|6]} 57|519b16 522r55 525r42 526r42 528r41 529r41 537r14
+. 538r14 539r16 547r17 548r14 549r19
+211V12*Hermite_Laurent_Vector{17|16A8[40|4]} 212>16 57|560b12 581l7 581t29
+. 613s10
+212a16 v{19|14A8[42|5]} 57|561b16 564r53 566r40 568r37 574r14 575r13
+220V12*Hermite_Laurent_Interpolate{39|16R8} 221>16 222>16 223>16 57|598b12
+. 643l7 643t34
+221r16 mat{26|15R8} 57|599b16 604r33 605r33 606r33 611r33
+222r16 rhs{39|16R8} 57|600b16 613r33
+223b16 verbose{boolean} 57|601b16 625r8 632r8
+X 57 standard_interpolating_cseries.adb
+21p5 vec{17|17P8[40|4]} 22r43 22r57
+22a5 res{17|16A8[40|4]} 30m7 30r14 32r12
+23r5 pwt{27|11R8} 29m7 29r14 30r20
+28i9 k<long_integer> 30r30
+39p5 mat{14|17P8[24|5]} 40r44 40r57 41r12 47m7 48r16 49r18 50r38
+40a5 res{14|16A8[24|5]} 50m11 50r23 54r12
+42r5 pwt{27|11R8} 46m7 46r14 50r34
+45i9 k<long_integer> 47r20
+48i11 i<long_integer> 50r15 50r27 50r42
+49i13 j<long_integer> 50r17 50r29 50r44
+60i5 n{52|6I8} 62r70 65r45 65r50 72r44
+61i5 p{52|6I8} 62r74 64r44 66r45 66r50 72r46
+62i5 mm{52|6I8} 63r44
+63a5 s{17|16A8[40|4]} 72m48 73r50
+64a5 e{17|16A8[40|4]} 72m50
+65a5 u{14|16A8[24|5]} 72m52
+66a5 v{14|16A8[24|5]} 72m54
+67i5 job{52|6I8} 72r56
+68i5 info{52|6I8} 72m60
+69a5 x{14|16A8[24|5]} 72m42 72r42
+80r5 t{27|11R8} 98r18
+81p5 mat{14|17P8[24|5]} 82r44 82r57 83r12 99m7 100r16 101r18 102r38
+82a5 val{14|16A8[24|5]} 85r31 86r31 102m11 102r23 106m42 106r42
+84r5 pwt{27|11R8} 98m7 98r14 102r34
+85i5 n{52|6I8} 87r70 90r45 90r50 106r46 112r19
+86i5 p{52|6I8} 87r74 89r44 91r45 91r50 106r48
+87i5 mm{52|6I8} 88r44
+88a5 s{17|16A8[40|4]} 106m50 107r50 109r52
+89a5 e{17|16A8[40|4]} 106m52
+90a5 u{14|16A8[24|5]} 106m54
+91a5 v{14|16A8[24|5]} 106m56
+92i5 job{52|6I8} 106r58
+93i5 rnk{52|6I8} 107m5 110r41 112r13
+93i9 info{52|6I8} 106m62
+94f5 tol{44|13F8} 107r52
+97i9 k<long_integer> 99r20
+100i11 i<long_integer> 102r15 102r27 102r42
+101i13 j<long_integer> 102r17 102r29 102r44
+119i9 d<long_integer> 120r22 121r20
+131a5 res{19|14A8[42|5]} 140m9 143r12
+132p5 lv{17|17P8[40|4]} 137r54
+135i9 i<long_integer> 138r23 140r13
+137a9 e{17|16A8[40|4]} 140r56
+150a5 res{16|15A8[37|6]} 159m9 162r12
+151p5 lm{14|17P8[24|5]} 156r55 156r67
+154i9 i<long_integer> 157r23 159r13
+156a9 e{14|16A8[24|5]} 159r57
+170a5 res{19|14A8[42|5]} 183m7 185r12
+171i5 dim{52|6I8} 173r47 174r46 175r47 175r54 181r49 182r51
+172i5 info{52|6I8} 181m58
+173a5 ipvt{17|16A8[55|4]} 181m53 182r55
+174a5 sol{17|16A8[40|4]} 179m7 182m60 182r60 183r54
+175a5 wrk{14|16A8[24|5]} 180m7 181m45 181r45 182r47
+178i9 i<long_integer> 179r16 180r16 183r11
+193a5 res{17|16A8[48|4]} 203r14 208m7 210r12
+194i5 dim{52|6I8} 197r46
+195p5 lm{14|17P8[24|5]} 204m7 207r23
+196p5 lv{17|17P8[40|4]} 205m7 207r14
+196p8 lx{17|17P8[40|4]} 206m7 207r30
+197a5 wrk{17|16A8[40|4]} 207m7 208r56
+203i9 i<long_integer> 204r15 205r15 206r15 208r11
+216i5 deg{52|6I8} 222r56
+217i5 dim{52|6I8} 218r46
+218a5 res{19|14A8[42|5]} 221r14 222m7 226m9 226r9 229r12
+221i9 i<long_integer> 222r11
+224i9 i<long_integer> 225r18 226r16 226r26
+225i11 j<long_integer> 226r13 226r29
+236i5 dim{52|6I8} 237r47 237r54 244r19
+237a5 res{14|16A8[24|5]} 243m7 245m9 245r23 248r12
+238i5 idx{52|6I8} 242m7 242r14 243r11 245r13 245r27
+241i9 i<long_integer> 245r38
+244i11 j<long_integer> 245r17 245r31
+256a5 res{19|14A8[42|5]} 268m7 270r12
+257i5 dim{52|6I8} 259r46 260r47 264r47 267r51
+258a5 wrk{14|16A8[24|5]} 264m43 264r43 267r47
+259a5 sol{17|16A8[40|4]} 266m7 267m60 267r60 268r54
+260a5 ipvt{17|16A8[55|4]} 264m51 267r55
+261i5 info{52|6I8} 264m56
+265i9 i<long_integer> 266r16 268r11
+276i5 dim{52|6I8} 283r60
+277p5 lx0{17|17P8[40|4]} 278r33 278r44
+278i5 deg{52|6I8} 279r49
+279r5 res{39|16R8} 282r17 283m7 287m9 287r9 290r12
+282i9 i<long_integer> 283r15
+285i9 i<long_integer> 286r18 287r22 287r30
+286i11 j<long_integer> 287r17 287r33
+299r5 res{39|16R8} 335m5 336r12
+300i5 dim{52|6I8} 307r45 309r46
+301a5 t{17|16A8[40|4]} 303r50 303r73 304r50 304r73 305r41 306r42 314r16 329r31
+303a5 m{16|15A8[37|6]} 316r31 317r20
+304a5 v{19|14A8[42|5]} 316r33 317r22
+305a5 x{19|14A8[42|5]} 316m5 317r24 320r16 324r21
+306a5 r{17|16A8[48|4]} 317m5 322r16
+307a5 xt{19|14A8[42|5]} 324m5 327r16 330r44
+308a5 vdm{14|16A8[24|5]} 329m5 330r40
+309a5 cff{19|14A8[42|5]} 330m5 333r16 335r22
+341i5 fac{52|6I8} 346m7 346r16 348r32
+342r5 res{27|11R8} 348m5 349r12
+345i9 i<long_integer> 346r14
+356p5 lm0{14|17P8[24|5]} 357r33
+357i5 dim{52|6I8} 358r47 358r54
+358a5 res{14|16A8[24|5]} 367m7 372m9 372r20 376m9 376r16 379m7 384m9 384r16
+. 391m7 394m9 398m9 403m9 403r16 406r12
+359i5 npw{natural} 371r19
+360i5 idx{52|6I8} 387m7 388r10 389m13 391r16 394r30 394r37 397r30 397r49
+. 398r26 400r16
+361r5 pwt{27|11R8} 369m9 371m9 372r16 375m9 375r16 376r22 380m7 382m9 382r16
+. 383r48 393m9 396m9 398r20 401m9 401r16 403r26
+361r9 fac{27|11R8} 383m9 384r22 397m9 398r16 402m9 403r22
+374i11 i<long_integer> 376r28
+381i11 j<long_integer> 383r41 384r28
+400i11 i<long_integer> 402r30 402r47 403r32
+414p5 lmt{14|17P8[24|5]} 415r34
+415i5 adim{52|6I8} 416r34 418r47 418r55 426r21 426r32
+416i5 rdim{52|6I8} 417r47 417r55
+417a5 res{14|16A8[24|5]} 426m13 431r12
+418a5 wrk{14|16A8[24|5]} 423m9 424r18 425r20 426r43
+421i9 col<long_integer> 423r25 426r28
+422i11 row<long_integer> 423r29 426r17
+424i13 i<long_integer> 426r26 426r47
+425i15 j<long_integer> 426r37 426r49
+439p5 lv0{17|17P8[40|4]} 440r34 443r43
+440i5 adim{52|6I8} 441r34 455r17 466r19 467r15
+441i5 rdim{52|6I8} 442r46
+442a5 res{17|16A8[40|4]} 456m7 467m9 470r12
+443a5 wrk{17|16A8[40|4]} 450m5 453m7 453r14 456r17 459m7 464m9 464r16 467r26
+444r5 pwt{27|11R8} 452m7 452r14 453r20 460m7 462m9 462r16 463r44
+445r5 fac{27|11R8} 463m9 464r22
+451i9 i<long_integer> 453r26
+455i9 i<long_integer> 456r11 456r21
+458i9 i<long_integer> 459r24 459r29 461r16 463r26 463r41 467r13
+461i11 j<long_integer> 463r39 464r28
+466i11 j<long_integer> 467r20 467r30
+479i5 deg{52|6I8} 481r49 482r37 484r36 486r36 509r17
+480i5 dim{52|6I8} 482r44 489r46 510r19 511r23
+481r5 res{39|16R8} 513m7 515r12
+482i5 bigdim{52|6I8} 483r45 483r55 485r44 488r47 498r10 499r25 501r25 504r45
+. 505r47
+483a5 A{14|16A8[24|5]} 494r49 496r19 504m43 504r43 505r45
+485a5 b{17|16A8[40|4]} 495r58 505m59 505r59 507r51 511r19
+487i5 info{52|6I8} 504m57
+488a5 ipvt{17|16A8[55|4]} 504m52 505r54
+489a5 wrk{17|16A8[40|4]} 511m9 513r58
+490i5 rnk{52|6I8} 496m7 497r53 498r19
+509i9 k<long_integer> 511r21 513r15
+510i11 i<long_integer> 511r13 511r27
+522p5 lmt{14|17P8[24|5]} 523r33 524r33 538m7 540r18 541r20 542r41 548m7 550r18
+. 551r20 552r55
+523i5 nbr{52|6I8} 525r35 528r36 542r23 552r30
+524i5 nbc{52|6I8} 526r35 529r36 542r31 552r45
+525i5 nrows{52|6I8} 527r47 532r17
+526i5 ncols{52|6I8} 527r56 533r19
+527a5 res{14|16A8[24|5]} 534m9 542m13 552m13 557r12
+528i5 rowidx{52|6I8} 552r17
+529i5 colidx{52|6I8} 552r36
+532i9 i<long_integer> 534r13
+533i11 j<long_integer> 534r15
+537i9 k<long_integer> 538r16 542r18
+539i11 L<long_integer> 542r20 542r29
+540i13 i<long_integer> 542r27 542r45
+541i15 j<long_integer> 542r35 542r47
+547i9 k<long_integer> 548r16 549r28 552r25
+549i11 L<long_integer> 552r27 552r43
+550i13 i<long_integer> 552r34 552r59
+551i15 j<long_integer> 552r49 552r61
+564p5 lv{17|17P8[40|4]} 565r33 575m7 576r16 577r29
+565i5 nvr{52|6I8} 566r33 568r33 577r19
+566i5 dim{52|6I8} 567r46
+567a5 res{17|16A8[40|4]} 572m7 577m9 580r12
+568i5 idx{52|6I8} 571r17 577r13
+571i9 k<long_integer> 572r11
+574i9 k<long_integer> 575r15 577r17
+576i11 i<long_integer> 577r23 577r32
+583U13 Write_Integer_Matrix 583b13 584>17 596l7 596t27 627s7
+584a17 A{14|16A8[24|5]} 590r14 591r16 592r43
+590i9 i<long_integer> 592r45
+591i11 j<long_integer> 592r47
+604i5 deg{52|6I8} 607r42 608r42 609r49 611r44 613r44 635r16
+605i5 nbr{52|6I8} 607r35
+606i5 nbc{52|6I8} 608r35 620r46 635r12 638r29
+607i5 nrows{52|6I8} 610r45 612r53 618r60 631r12
+608i5 ncols{52|6I8} 610r54 614r48 615r18 616r47 616r61 617r46 631r18
+609r5 res{39|16R8} 636r17 640m7 642r12
+610a5 A{14|16A8[24|5]} 627r28 630m9 630r9 631m10 631r10
+612a5 b{17|16A8[40|4]} 628r58 631r30
+614a5 qraux{17|16A8[40|4]} 630m11 630r11 631r24
+616a5 jpvt{17|16A8[55|4]} 630m17 630r17
+617a5 sol{17|16A8[40|4]} 631m41 633r58 638r19
+618a5 rsd{17|16A8[40|4]} 631m45
+618a9 dum{17|16A8[40|4]} 631m32
+618a13 dum2{17|16A8[40|4]} 631m36
+618a18 dum3{17|16A8[40|4]} 631m49
+619i5 info{52|6I8} 631m58
+619i10 idx{52|6I8} 635m5 638r23
+620a5 wrk{17|16A8[40|4]} 637r16 638m9 640r58
+636i9 k<long_integer> 638r27 640r15
+637i11 i<long_integer> 638r13 638r33
+X 62 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 57|3w6 80r36 62|112e28
+90V12*Random1{27|11R8} 57|80s60
+X 63 standard_random_vectors.ads
+8K9*Standard_Random_Vectors 57|4w6 302r10 63|80e28
+58V12*Random_Vector{17|16A8[40|4]} 57|302s34
+X 78 text_io.ads
+27K9*Text_IO=27:29 57|1w6 1r47
+

@@ -1,0 +1,816 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_predictors%b	standard_predictors.adb	728d2b30 NE OO PK
+W standard_complex_linear_solvers%s  standard_complex_linear_solvers.adb  standard_complex_linear_solvers.ali
+W standard_extrapolators%s  standard_extrapolators.adb  standard_extrapolators.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.exn_lflt%s	s-exnlfl.ads		s-exnlfl.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_predictors%s	standard_predictors.ads	bdbd66e6 BN EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_extrapolators.ads  20260513024558 0f6a9fd6 standard_extrapolators%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_predictors.ads  20260513024558 84a6f1dc standard_predictors%s
+D standard_predictors.adb  20260513024558 0799e174 standard_predictors%b
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnlfl.ads		20250808065140 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [real_predictor standard_predictors 53 13 none]
+G c Z s b [complex_predictor standard_predictors 73 13 none]
+G c Z s b [circular_predictor standard_predictors 82 13 none]
+G c Z s b [geometric_predictor standard_predictors 90 14 none]
+G c Z s b [secant_single_real_predictor standard_predictors 99 13 none]
+G c Z s b [secant_multiple_real_predictor standard_predictors 104 13 none]
+G c Z s b [quadratic_single_real_predictor standard_predictors 127 13 none]
+G c Z s b [cubic_single_real_predictor standard_predictors 154 13 none]
+G c Z s b [quartic_single_real_predictor standard_predictors 183 13 none]
+G c Z s b [quintic_single_real_predictor standard_predictors 214 13 none]
+G c Z s b [secant_single_complex_predictor standard_predictors 247 13 none]
+G c Z s b [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G c Z s b [secant_circular_predictor standard_predictors 278 13 none]
+G c Z s b [secant_geometric_predictor standard_predictors 301 13 none]
+G c Z b b [secant_predictor standard_predictors 123 13 none]
+G c Z b b [hermite standard_predictors 544 12 none]
+G c Z b b [hermite standard_predictors 573 12 none]
+G r c none [real_predictor standard_predictors 53 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [real_predictor standard_predictors 53 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [real_predictor standard_predictors 53 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [real_predictor standard_predictors 53 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [arctan standard_mathematical_functions 56 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [complex_predictor standard_predictors 73 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [circular_predictor standard_predictors 82 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [circular_predictor standard_predictors 82 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [circular_predictor standard_predictors 82 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [circular_predictor standard_predictors 82 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [circular_predictor standard_predictors 82 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [geometric_predictor standard_predictors 90 14 none] [create standard_complex_numbers 18 12 none]
+G r c none [geometric_predictor standard_predictors 90 14 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [geometric_predictor standard_predictors 90 14 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [geometric_predictor standard_predictors 90 14 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_single_real_predictor standard_predictors 99 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [create standard_complex_numbers 18 12 none]
+G r s solution_array [secant_multiple_real_predictor standard_predictors 104 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [secant_multiple_real_predictor standard_predictors 104 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [quadratic_single_real_predictor standard_predictors 127 13 none] [extrapolate standard_extrapolators 68 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [cubic_single_real_predictor standard_predictors 154 13 none] [extrapolate standard_extrapolators 77 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [quartic_single_real_predictor standard_predictors 183 13 none] [extrapolate standard_extrapolators 86 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [Oadd standard_complex_numbers 41 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [Oexpon standard_mathematical_functions 25 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [quintic_single_real_predictor standard_predictors 214 13 none] [extrapolate standard_extrapolators 95 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [arctan standard_mathematical_functions 56 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_single_complex_predictor standard_predictors 247 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [arctan standard_mathematical_functions 56 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [create standard_complex_numbers 19 12 none]
+G r s solution_array [secant_multiple_complex_predictor standard_predictors 252 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [secant_multiple_complex_predictor standard_predictors 252 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_circular_predictor standard_predictors 278 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_geometric_predictor standard_predictors 301 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r s solution_array [secant_predictor standard_predictors 123 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r c none [secant_predictor standard_predictors 123 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [secant_predictor standard_predictors 123 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [secant_predictor standard_predictors 123 13 none] [Omultiply standard_complex_vectors 39 12 4_1]
+G r c none [secant_predictor standard_predictors 123 13 none] [Oadd standard_complex_vectors 29 12 4_1]
+G r c none [secant_predictor standard_predictors 123 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [secant_predictor standard_predictors 123 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [hermite standard_predictors 544 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [hermite standard_predictors 544 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [hermite standard_predictors 544 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [hermite standard_predictors 544 12 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [hermite standard_predictors 544 12 none] [Oexpon standard_complex_numbers 58 12 none]
+G r c none [hermite standard_predictors 544 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [hermite standard_predictors 573 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [hermite standard_predictors 573 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [hermite standard_predictors 573 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [hermite standard_predictors 573 12 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [hermite standard_predictors 573 12 none] [Oexpon standard_complex_numbers 58 12 none]
+G r c none [hermite standard_predictors 573 12 none] [Omultiply standard_complex_numbers 55 12 none]
+X 12 generic_matrices.ads
+16A8*Matrix(19|11R8)<26|6I8><26|6I8> 34|327r64[18|5] 340r64[18|5] 371r64[18|5]
+. 384r64[18|5] 418r64[18|5] 436r64[18|5] 452r64[18|5] 35|339r9[18|5] 369r9[18|5]
+. 416r9[18|5] 447r9[18|5] 495r9[18|5] 523r9[18|5] 603r9[18|5]
+X 13 generic_vectors.ads
+16A8*Vector(19|11R8)<26|6I8> 34|100r30[22|4] 100r50[22|4] 128r30[22|4] 128r49[22|4]
+. 155r30[22|4] 155r52[22|4] 184r30[22|4] 184r55[22|4] 215r30[22|4] 215r58[22|4]
+. 248r30[22|4] 248r50[22|4] 279r30[22|4] 279r50[22|4] 302r29[22|4] 302r49[22|4]
+. 324r30[22|4] 325r28[22|4] 325r64[22|4] 327r28[22|4] 331r30[22|4] 337r30[22|4]
+. 338r28[22|4] 338r64[22|4] 340r28[22|4] 368r30[22|4] 369r28[22|4] 369r64[22|4]
+. 371r28[22|4] 375r30[22|4] 381r30[22|4] 382r28[22|4] 382r64[22|4] 384r28[22|4]
+. 415r30[22|4] 416r28[22|4] 416r64[22|4] 418r28[22|4] 422r30[22|4] 433r30[22|4]
+. 434r28[22|4] 434r64[22|4] 436r28[22|4] 440r29[22|4] 449r30[22|4] 450r28[22|4]
+. 450r64[22|4] 452r28[22|4] 456r30[22|4] 456r50[22|4] 458r30[22|4] 458r50[22|4]
+. 35|146r29[22|4] 146r49[22|4] 167r30[22|4] 167r49[22|4] 184r30[22|4] 184r52[22|4]
+. 201r30[22|4] 201r55[22|4] 218r30[22|4] 218r58[22|4] 255r29[22|4] 255r49[22|4]
+. 293r29[22|4] 293r49[22|4] 312r29[22|4] 312r49[22|4] 331r29[22|4] 338r11[22|4]
+. 340r37[28|4] 367r11[22|4] 370r37[28|4] 408r29[22|4] 415r11[22|4] 417r37[28|4]
+. 445r11[22|4] 448r37[28|4] 486r28[22|4] 494r11[22|4] 496r37[28|4] 516r29[22|4]
+. 522r11[22|4] 524r37[28|4] 573r62[22|4] 574r27[22|4] 583r11[22|4] 595r30[22|4]
+. 595r50[22|4] 597r30[22|4] 597r50[22|4] 604r37[28|4]
+29V13*"+"{16A8[22|4]} 35|133s24[22|4] 158s14[22|4] 267s14[22|4] 307s14[22|4]
+. 326s18[22|4]
+35V13*"-"{16A8[22|4]} 35|133s41[22|4] 158s29[22|4] 267s29[22|4] 307s29[22|4]
+. 326s33[22|4]
+39V13*"*"{16A8[22|4]} 35|133s30[22|4] 158s23[22|4] 267s23[22|4] 307s23[22|4]
+. 326s27[22|4]
+58U13*Add 35|355s9[22|4] 390s11[22|4] 432s9[22|4] 468s11[22|4] 510s9[22|4]
+. 539s9[22|4]
+60U13*Min 35|349s7[22|4] 383s9[22|4] 426s7[22|4] 461s9[22|4] 502s7[22|4]
+. 533s7[22|4] 613s7[22|4]
+64U13*Mul 35|354s9[22|4] 389s11[22|4] 431s9[22|4] 467s11[22|4] 509s9[22|4]
+. 538s9[22|4]
+X 17 standard_complex_linear_solvers.ads
+9K9*Standard_Complex_Linear_Solvers 257e36 35|9w6 9r46
+35U13*lufac 35|346s5 380s7 423s5 458s7 499s5 530s5 610s5
+162U13*lusolve 35|350s7 384s9 427s7 462s9 503s7 534s7 614s7
+X 18 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[12|9] 34|5w6 5r46
+X 19 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 34|3w6 3r46
+11R8*Complex_Number 90e15 34|54r30 54r58 74r30 74r58 83r29 84r44 91r29 91r57
+. 101r30 101r65 106r30 106r65 129r30 130r37 156r30 157r40 185r30 186r43 216r30
+. 217r46 249r30 249r65 254r30 254r65 280r30 281r52 303r29 303r64 325r40 327r40
+. 331r49 332r31 338r40 340r40 344r57 345r31 369r40 371r40 375r49 376r31 382r40
+. 384r40 388r57 389r31 416r40 418r40 422r49 424r45 434r40 436r40 440r48 441r30
+. 450r40 452r40 457r30 457r65 35|17r28 17r56 21r10 38r29 38r57 42r32 95r28
+. 96r43 99r17 108r28 108r56 111r10 125r26 147r29 147r64 151r14 168r30 169r37
+. 173r19 185r30 186r40 190r19 202r30 203r43 207r19 219r30 220r46 224r19 236r29
+. 236r64 240r14 256r29 256r64 260r14 273r29 273r64 278r14 294r29 295r51 298r14
+. 313r29 313r64 317r18 331r48 332r30 341r23 361r56 362r30 373r23 408r48 409r30
+. 418r23 438r56 439r30 451r23 486r47 488r43 516r48 517r30 525r23 544r44 545r27
+. 559r27 573r32 596r30 596r65 605r19
+18V12*Create{11R8} 35|26s17 50s22 56s50 58s25 72s41 85s42 114s20 157s17 246s17
+. 266s17 284s17 305s17 325s21 354s17 389s19 431s17 467s19 509s17 538s17
+19V12*Create{11R8} 35|68s19 72s25 81s19 85s25 103s18
+24V12*REAL_PART{25|13F8} 35|26s27 28s8 28s25 29s20 29s36 30s17 30s37 63s18
+. 76s18 115s13 115s29
+25V12*IMAG_PART{25|13F8} 35|64s18 77s18
+27V12*AbsVal{25|13F8} 35|48s10 51s13 70s20 71s23 71s48 83s20 84s23 84s48
+. 89s13 154s12 176s12 193s12 210s12 227s12 243s12 263s12 281s12 299s36 320s18
+. 323s13 537s17 615s10 615s42
+41V13*"+"{11R8} 35|25s19
+48V13*"*"{11R8} 35|59s40 564s25 565s43 566s20 566s32
+51V13*"+"{11R8} 35|61s19 69s19 73s25 82s19 86s25 104s17 564s15 565s30 566s27
+. 567s24 567s33 568s20 568s28 568s36
+53V13*"-"{11R8} 35|47s32 50s20 51s23 71s58 84s58 114s18 114s38 154s21 176s21
+. 193s21 210s21 227s21 243s21 263s21 281s21 299s44 320s27 323s22 537s25 562s15
+. 563s16 564s20 565s16 565s21 565s38 566s14 567s14 615s24 615s51
+55V13*"*"{11R8} 35|58s35 72s39 85s40 104s33 114s29 565s34 565s50 566s23 566s36
+. 567s20 567s29 567s38 568s17 568s25 568s33
+56V13*"/"{11R8} 35|56s48 563s21 564s30 565s54
+58V13*"**"{11R8} 35|564s35 565s26 565s46
+X 21 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 206e31 34|6w6 6r46
+16i19*n{26|6I8} 35|365r42 443r42
+17r5*t{19|11R8} 35|250m12 288m12 403m12 481m12
+19a5*v{13|16A8[22|4]} 35|133m12 133r22 133r39 133r53 135r22 379r20 382r24
+. 390m20 393r24 457r20 460r24 468m20 471r24
+25P8*Link_to_Solution(16R8)
+30A8*Solution_Array(25P8)<26|6I8> 34|105r30 105r58 253r30 253r58 344r30 388r30
+. 35|124r28 124r56 128r10 235r29 235r57 272r29 272r57 361r29 371r10 438r29
+. 449r10
+64U13*Equals 35|135s7 393s9 471s9
+80U13*Copy 35|131s5 137s13 377s5 395s15 398s9 455s5 473s15 476s9
+189U13*Clear 35|140s5 401s5 479s5
+X 22 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[13|8] 34|4w6 4r46
+X 24 standard_extrapolators.ads
+4K9*Standard_Extrapolators 105e27 35|10w6 10r46
+68V12*Extrapolate{13|16A8[22|4]} 35|179s12
+77V12*Extrapolate{13|16A8[22|4]} 35|196s12
+86V12*Extrapolate{13|16A8[22|4]} 35|213s12
+95V12*Extrapolate{13|16A8[22|4]} 35|230s12
+X 25 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 34|2w6 2r46
+13F8*double_float<long_float> 34|55r30 56r28 75r30 75r53 76r33 83r60 85r25
+. 92r29 102r30 107r37 131r30 158r30 187r30 218r30 250r37 255r44 280r61 282r30
+. 304r29 324r46 332r58 337r46 345r65 368r46 377r37 381r45 390r44 415r45 423r34
+. 425r30 433r45 441r57 449r45 459r30 35|18r28 19r26 26r61 39r29 39r52 40r32
+. 43r32 95r59 97r24 109r28 125r54 148r29 150r14 170r30 172r14 187r30 189r14
+. 204r30 206r14 221r30 223r14 237r36 239r14 257r36 259r14 274r43 277r14 294r60
+. 296r29 299r20 314r29 316r22 332r57 337r19 362r64 366r19 410r36 414r19 440r43
+. 444r19 487r32 489r28 493r16 517r57 521r21 598r30 602r10
+X 26 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 35|6w6 6r46
+6I8*integer32<long_integer> 35|127r9 335r18 336r12 365r18 368r12 372r10 412r18
+. 413r12 443r18 446r12 450r10 491r18 492r12 519r18 520r12 600r18 601r12
+X 28 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[13|8] 35|8w6 340r12 370r12 417r12 448r12 496r12
+. 524r12 604r12
+X 29 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 64e36 35|7w6 7r46
+11N3*PI 35|66r31 67r31 79r31 80r31
+25V13*"**"{25|13F8} 35|26s54
+47V12*SIN{25|13F8} 35|67s20 80s20 103s36
+48V12*COS{25|13F8} 35|66s20 79s20 103s25
+56V12*ARCTAN{25|13F8} 35|65s19 78s19
+X 31 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 34|1w6 1r46
+7I8*natural32<long_integer> 34|55r53 76r58 102r53 107r60 131r53 158r53 187r53
+. 218r53 250r62 256r30 333r28 346r33 346r53 377r62 391r30 391r55 459r53 35|18r51
+. 40r57 44r11 148r52 170r53 187r53 204r53 221r53 237r59 257r61 275r29 333r27
+. 363r32 363r52 410r61 441r29 441r54 598r53
+X 34 standard_predictors.ads
+8K9*Standard_Predictors 483l5 483e24 35|12b14 627l5 627t24
+53U13*Real_Predictor 54=19 54>46 55>19 55>21 55>44 56<19 35|16b13 35l7 35t21
+. 155s5 177s5 194s5 211s5 228s5 244s5 344s5 376s5 608s5
+54r19 t{19|11R8} 35|17b17 25r17 26r37 30r47 30m51 31m20
+54r46 target{19|11R8} 35|17b44 28r35 29r46 30r27 30r56
+55f19 h{25|13F8} 35|18b17 25r21 26r25 31r17
+55f21 tol{25|13F8} 35|18b19 29r59
+55i44 pow{31|7I8} 35|18b42 24r8 26r49 26r74
+56f19 hh{25|13F8} 35|19b17 30m11 31m11
+73U13*Complex_Predictor 74=19 74>46 75>19 75>21 75<44 76>19 76>47 35|37b13
+. 92l7 92t24 264s5 282s5 421s5 454s5
+74r19 t{19|11R8} 35|38b18 47r34 51r25 61r17 69r17 73r23 82r17 86r23 91m5
+74r46 target{19|11R8} 35|38b45 47r25 50r13 71r30 71r60 84r30 84r60
+75f19 h{25|13F8} 35|39b18 57r19 58r32 66r16 67r16 72r48 79r16 80r16 85r49
+75f21 tol{25|13F8} 35|39b20 49r12
+75f44 hh{25|13F8} 35|39b43 51m7 89m7
+76f19 distance{25|13F8} 35|40b18 50r29 57r24 59r30 71r70 84r70
+76i47 trial{31|7I8} 35|40b46 53r14
+82U13*Circular_Predictor 83=18 83=45 84>18 84>32 85>18 35|94b13 105l7 105t25
+. 303s7 306s7 505s5
+83r18 t{19|11R8} 35|95b17 104m5
+83f45 theta{25|13F8} 35|95b44 102m5 102r14 103r29 103r40
+84r18 t0_min_target{19|11R8} 35|96b17 104r19
+84r32 target{19|11R8} 35|96b31 104r10
+85f18 h{25|13F8} 35|97b17 102r22
+90U14*Geometric_Predictor 91=18 91>45 92>18 92>20 35|107b13 119l7 119t26
+. 322s5 528s5
+91r18 t{19|11R8} 35|108b17 114r40 116m11 117m11
+91r45 target{19|11R8} 35|108b44 114r11 114r31 115r39 116r16
+92f18 h{25|13F8} 35|109b17 114r27
+92f20 tol{25|13F8} 35|109b19 115r52
+99U13*Secant_Single_Real_Predictor 100=19 100>38 101=19 101>46 101>53 102>19
+. 102>21 102>44 35|145b13 164l7 164t35
+100a19 x{13|16A8[22|4]} 35|146b18 158m7 158r12 158r27
+100a38 prev_x{13|16A8[22|4]} 35|146b37 158r31
+101r19 t{19|11R8} 35|147b18 154r19 155m20
+101r46 prev_t{19|11R8} 35|147b45 154r23
+101r53 target{19|11R8} 35|147b52 155r22
+102f19 h{25|13F8} 35|148b18 155r29
+102f21 tol{25|13F8} 35|148b20 155r31 156r14
+102i44 pow{31|7I8} 35|148b43 155r35
+104U13*Secant_Multiple_Real_Predictor 105=19 105>46 106=19 106>46 106>53
+. 107>19 107>21 107>25 107>51 35|234b13 252l7 252t37
+105a19 x{21|30A8} 35|235b18 247m24 249r14 250m7 250r7
+105a46 prev_x{21|30A8} 35|235b45 247r26
+106r19 t{19|11R8} 35|236b18 243r19 244m20 250r17
+106r46 prev_t{19|11R8} 35|236b45 243r23
+106r53 target{19|11R8} 35|236b52 244r22
+107f19 h{25|13F8} 35|237b18 244r29
+107f21 tol{25|13F8} 35|237b20 244r31 245r14
+107f25 dist_x{25|13F8} 35|237b24 247r40
+107i51 pow{31|7I8} 35|237b50 244r35
+127U13*Quadratic_Single_Real_Predictor 128=19 128>38 128>41 129=19 130>19
+. 130>22 130>25 131>19 131>21 131>44 35|166b13 181l7 181t38
+128a19 x{13|16A8[22|4]} 35|167b19 179m7 179r41
+128a38 x1{13|16A8[22|4]} 35|167b38 179r38
+128a41 x0{13|16A8[22|4]} 35|167b41 179r35
+129r19 t{19|11R8} 35|168b19 173r37 176r19 177m20 179r24
+130r19 t1{19|11R8} 35|169b19 176r23 179r29
+130r22 t0{19|11R8} 35|169b22 179r26
+130r25 target{19|11R8} 35|169b25 177r22
+131f19 h{25|13F8} 35|170b19 177r29
+131f21 tol{25|13F8} 35|170b21 177r31 178r14
+131i44 pow{31|7I8} 35|170b44 177r35
+154U13*Cubic_Single_Real_Predictor 155=19 155>38 155>41 155>44 156=19 157>19
+. 157>22 157>25 157>28 158>19 158>21 158>44 35|183b13 198l7 198t34
+155a19 x{13|16A8[22|4]} 35|184b19 196m7 196r47
+155a38 x2{13|16A8[22|4]} 35|184b38 196r44
+155a41 x1{13|16A8[22|4]} 35|184b41 196r41
+155a44 x0{13|16A8[22|4]} 35|184b44 196r38
+156r19 t{19|11R8} 35|185b19 190r37 193r19 194m20 196r24
+157r19 t2{19|11R8} 35|186b19 193r23 196r32
+157r22 t1{19|11R8} 35|186b22 196r29
+157r25 t0{19|11R8} 35|186b25 196r26
+157r28 target{19|11R8} 35|186b28 194r22
+158f19 h{25|13F8} 35|187b19 194r29
+158f21 tol{25|13F8} 35|187b21 194r31 195r14
+158i44 pow{31|7I8} 35|187b44 194r35
+183U13*Quartic_Single_Real_Predictor 184=19 184>38 184>41 184>44 184>47 185=19
+. 186>19 186>22 186>25 186>28 186>31 187>19 187>21 187>44 35|200b13 215l7
+. 215t36
+184a19 x{13|16A8[22|4]} 35|201b19 213m7 213r53
+184a38 x3{13|16A8[22|4]} 35|201b38 213r50
+184a41 x2{13|16A8[22|4]} 35|201b41 213r47
+184a44 x1{13|16A8[22|4]} 35|201b44 213r44
+184a47 x0{13|16A8[22|4]} 35|201b47 213r41
+185r19 t{19|11R8} 35|202b19 207r37 210r19 211m20 213r24
+186r19 t3{19|11R8} 35|203b19 210r23 213r35
+186r22 t2{19|11R8} 35|203b22 213r32
+186r25 t1{19|11R8} 35|203b25 213r29
+186r28 t0{19|11R8} 35|203b28 213r26
+186r31 target{19|11R8} 35|203b31 211r22
+187f19 h{25|13F8} 35|204b19 211r29
+187f21 tol{25|13F8} 35|204b21 211r31 212r14
+187i44 pow{31|7I8} 35|204b44 211r35
+214U13*Quintic_Single_Real_Predictor 215=19 215>38 215>41 215>44 215>47 215>50
+. 216=19 217>19 217>22 217>25 217>28 217>31 217>34 218>19 218>21 218>44 35|217b13
+. 232l7 232t36
+215a19 x{13|16A8[22|4]} 35|218b19 230m7 230r59
+215a38 x4{13|16A8[22|4]} 35|218b38 230r56
+215a41 x3{13|16A8[22|4]} 35|218b41 230r53
+215a44 x2{13|16A8[22|4]} 35|218b44 230r50
+215a47 x1{13|16A8[22|4]} 35|218b47 230r47
+215a50 x0{13|16A8[22|4]} 35|218b50 230r44
+216r19 t{19|11R8} 35|219b19 224r37 227r19 228m20 230r24
+217r19 t4{19|11R8} 35|220b19 227r23 230r38
+217r22 t3{19|11R8} 35|220b22 230r35
+217r25 t2{19|11R8} 35|220b25 230r32
+217r28 t1{19|11R8} 35|220b28 230r29
+217r31 t0{19|11R8} 35|220b31 230r26
+217r34 target{19|11R8} 35|220b34 228r22
+218f19 h{25|13F8} 35|221b19 228r29
+218f21 tol{25|13F8} 35|221b21 228r31 229r14
+218i44 pow{31|7I8} 35|221b44 228r35
+247U13*Secant_Single_Complex_Predictor 248=19 248>38 249=19 249>46 249>53
+. 250>19 250>21 250>25 250>51 35|254b13 269l7 269t38
+248a19 x{13|16A8[22|4]} 35|255b18 267m7 267r12 267r27
+248a38 prev_x{13|16A8[22|4]} 35|255b37 267r31
+249r19 t{19|11R8} 35|256b18 263r19 264m23
+249r46 prev_t{19|11R8} 35|256b45 263r23
+249r53 target{19|11R8} 35|256b52 264r25
+250f19 h{25|13F8} 35|257b18 264r32
+250f21 tol{25|13F8} 35|257b20 264r34 265r14
+250f25 dist_t{25|13F8} 35|257b24 264r41
+250i51 trial{31|7I8} 35|257b50 264r48
+252U13*Secant_Multiple_Complex_Predictor 253=19 253>46 254=19 254>46 254>53
+. 255>19 255>21 255>25 255>32 256>19 35|271b13 290l7 290t40
+253a19 x{21|30A8} 35|272b18 285m24 287r14 288m7 288r7
+253a46 prev_x{21|30A8} 35|272b45 285r26
+254r19 t{19|11R8} 35|273b18 281r19 282m23 288r17
+254r46 prev_t{19|11R8} 35|273b45 281r23
+254r53 target{19|11R8} 35|273b52 282r25
+255f19 h{25|13F8} 35|274b18 282r32
+255f21 tol{25|13F8} 35|274b20 282r34 283r14
+255f25 dist_x{25|13F8} 35|274b24 285r40
+255f32 dist_t{25|13F8} 35|274b31 282r41
+256i19 trial{31|7I8} 35|275b18 282r48
+278U13*Secant_Circular_Predictor 279=19 279>38 280=19 280=46 281>19 281>26
+. 281>40 282>19 282>21 35|292b13 309l7 309t32
+279a19 x{13|16A8[22|4]} 35|293b18 307m7 307r12 307r27
+279a38 prev_x{13|16A8[22|4]} 35|293b37 307r31
+280r19 t{19|11R8} 35|294b18 299r43 303m26 306m26
+280f46 theta{25|13F8} 35|294b45 303m28 306m28
+281r19 prev_t{19|11R8} 35|295b18 299r45
+281r26 t0_min_target{19|11R8} 35|295b25 303r34 306r34
+281r40 target{19|11R8} 35|295b39 303r48 306r48
+282f19 h{25|13F8} 35|296b18 303r55 305r24 306r55
+282f21 tol{25|13F8} 35|296b20 302r15
+301U13*Secant_Geometric_Predictor 302=18 302>37 303=18 303>45 303>52 304>18
+. 304>20 35|311b13 328l7 328t33
+302a18 x{13|16A8[22|4]} 35|312b18 326m11 326r16 326r31
+302a37 prev_x{13|16A8[22|4]} 35|312b37 326r35
+303r18 t{19|11R8} 35|313b18 320r25 321r12 322m25 323r20
+303r45 prev_t{19|11R8} 35|313b45 320r29
+303r52 target{19|11R8} 35|313b52 322r27
+304f18 h{25|13F8} 35|314b18 322r34
+304f20 tol{25|13F8} 35|314b20 322r36 324r20
+324V19 Norm{25|13F8} 324>26 35|351s19
+324a26 x{13|16A8[22|4]}
+325V19 dH{13|16A8[22|4]} 325>24 325>36 35|348s14
+325a24 x{13|16A8[22|4]}
+325r36 t{19|11R8}
+327V19 dH{12|16A8[18|5]} 327>24 327>36 35|345s10
+327a24 x{13|16A8[22|4]}
+327r36 t{19|11R8}
+330u13*Tangent_Single_Real_Predictor 331=19 331=38 332>19 332>47 332>49 333>19
+. 35|330b13 358l7 358t36
+331a19 x{13|16A8[22|4]} 35|331b18 335r31 338r18 345r13 348r17 355m13
+331r38 t{19|11R8} 35|331b37 341r41 344m20
+332r19 target{19|11R8} 35|332b18 344r22
+332f47 h{25|13F8} 35|332b46 344r29
+332f49 tol{25|13F8} 35|332b48 344r31 352r21
+333i19 pow{31|7I8} 35|333b18 344r35
+337V19 Norm{25|13F8} 337>26 35|386s21
+337a26 x{13|16A8[22|4]}
+338V19 dH{13|16A8[22|4]} 338>24 338>36 35|382s16
+338a24 x{13|16A8[22|4]}
+338r36 t{19|11R8}
+340V19 dH{12|16A8[18|5]} 340>24 340>36 35|379s12
+340a24 x{13|16A8[22|4]}
+340r36 t{19|11R8}
+343u13*Tangent_Multiple_Real_Predictor 344=19 344=46 345>19 345>47 345>49
+. 345>53 346=19 346>44 35|360b13 405l7 405t38
+344a19 x{21|30A8} 35|361b18 365r31 365r33 371r25 377r10 378r14 379r15 382r19
+. 390r15 393r19 395m23 398m17 402r14 403m7 403r7
+344r46 t{19|11R8} 35|361b45 373r41 376m20 403r17
+345r19 target{19|11R8} 35|362b18 376r22
+345f47 h{25|13F8} 35|362b46 376r29
+345f49 tol{25|13F8} 35|362b48 376r31 387r23
+345f53 dist_x{25|13F8} 35|362b52 393r28
+346i19 nsys{31|7I8} 35|363b18 385m9 385r17
+346i44 pow{31|7I8} 35|363b43 376r35
+368V19 Norm{25|13F8} 368>26 35|428s19
+368a26 x{13|16A8[22|4]}
+369V19 dH{13|16A8[22|4]} 369>24 369>36 35|425s14
+369a24 x{13|16A8[22|4]}
+369r36 t{19|11R8}
+371V19 dH{12|16A8[18|5]} 371>24 371>36 35|422s10
+371a24 x{13|16A8[22|4]}
+371r36 t{19|11R8}
+374u13*Tangent_Single_Complex_Predictor 375=19 375=38 376>19 377>19 377>21
+. 377>25 377>51 35|407b13 435l7 435t39
+375a19 x{13|16A8[22|4]} 35|408b18 412r31 415r18 422r13 425r17 432m13
+375r38 t{19|11R8} 35|408b37 418r41 421m23
+376r19 target{19|11R8} 35|409b18 421r25
+377f19 h{25|13F8} 35|410b18 421r32
+377f21 tol{25|13F8} 35|410b20 421r34 429r21
+377f25 dist_t{25|13F8} 35|410b24 421r41
+377i51 trial{31|7I8} 35|410b50 421r48
+381V19 Norm{25|13F8} 381>26 35|464s21
+381a26 x{13|16A8[22|4]}
+382V19 dH{13|16A8[22|4]} 382>24 382>36 35|460s16
+382a24 x{13|16A8[22|4]}
+382r36 t{19|11R8}
+384V19 dH{12|16A8[18|5]} 384>24 384>36 35|457s12
+384a24 x{13|16A8[22|4]}
+384r36 t{19|11R8}
+387u13*Tangent_Multiple_Complex_Predictor 388=19 388=46 389>19 390>19 390>21
+. 390>25 390>32 391>19 391=41 35|437b13 483l7 483t41
+388a19 x{21|30A8} 35|438b18 443r31 443r33 449r25 455r10 456r14 457r15 460r19
+. 468r15 471r19 473m23 476m17 480r14 481m7 481r7
+388r46 t{19|11R8} 35|438b45 451r41 454m23 481r17
+389r19 target{19|11R8} 35|439b18 454r25
+390f19 h{25|13F8} 35|440b18 454r32
+390f21 tol{25|13F8} 35|440b20 454r34 465r23
+390f25 dist_x{25|13F8} 35|440b24 471r28
+390f32 dist_t{25|13F8} 35|440b31 454r41
+391i19 trial{31|7I8} 35|441b18 454r48
+391i41 nsys{31|7I8} 35|441b40 463m9 463r17
+415V19 Norm{25|13F8} 415>26 35|507s19
+415a26 x{13|16A8[22|4]}
+416V19 dH{13|16A8[22|4]} 416>24 416>36 35|501s14
+416a24 x{13|16A8[22|4]}
+416r36 t{19|11R8}
+418V19 dH{12|16A8[18|5]} 418>24 418>36
+418a24 x{13|16A8[22|4]}
+418r36 t{19|11R8}
+421u13*Tangent_Circular_Predictor 422=19 422=38 423=19 424>19 424>33 425>19
+. 425>21 35|485b13 513l7 513t33
+422a19 x{13|16A8[22|4]} 35|486b17 491r31 494r18 501r17 510m13
+422r38 t{19|11R8} 35|486b36 501r19 505m24
+423f19 theta{25|13F8} 35|487b17 505m26
+424r19 t0_min_target{19|11R8} 35|488b17 505r32
+424r33 target{19|11R8} 35|488b31 505r46
+425f19 h{25|13F8} 35|489b17 505r53 509r24
+425f21 tol{25|13F8} 35|489b19 508r21
+433V19 Norm{25|13F8} 433>26 35|535s19
+433a26 x{13|16A8[22|4]}
+434V19 dH{13|16A8[22|4]} 434>24 434>36 35|532s14
+434a24 x{13|16A8[22|4]}
+434r36 t{19|11R8}
+436V19 dH{12|16A8[18|5]} 436>24 436>36 35|529s10
+436a24 x{13|16A8[22|4]}
+436r36 t{19|11R8}
+439u13*Tangent_Geometric_Predictor 440=18 440=37 441>18 441>46 441>48 35|515b13
+. 542l7 542t34
+440a18 x{13|16A8[22|4]} 35|516b18 519r31 522r18 529r13 532r17 539m13
+440r37 t{19|11R8} 35|516b37 525r41 528m25 537r24
+441r18 target{19|11R8} 35|517b18 528r27
+441f46 h{25|13F8} 35|517b46 528r34
+441f48 tol{25|13F8} 35|517b48 528r36 536r21
+449V19 Norm{25|13F8} 449>26
+449a26 x{13|16A8[22|4]}
+450V19 dH{13|16A8[22|4]} 450>24 450>36 35|612s12
+450a24 x{13|16A8[22|4]}
+450r36 t{19|11R8}
+452V19 dH{12|16A8[18|5]} 452>24 452>36 35|609s10
+452a24 x{13|16A8[22|4]}
+452r36 t{19|11R8}
+455u13*Hermite_Single_Real_Predictor 456=19 456>38 457=19 457>46 457>53 458=19
+. 458>38 459>19 459>21 459>44 35|594b13 625l7 625t36
+456a19 x{13|16A8[22|4]} 35|595b19 600r31 609r13 612r15 616m13 616r45
+456a38 prev_x{13|16A8[22|4]} 35|595b38 616r38
+457r19 t{19|11R8} 35|596b19 605r37 608m20 615r49 616r36
+457r46 prev_t{19|11R8} 35|596b46 615r17 616r26
+457r53 target{19|11R8} 35|596b53 608r22
+458a19 v{13|16A8[22|4]} 35|597b19 612m7 613m11 614m24 616r54
+458a38 prev_v{13|16A8[22|4]} 35|597b38 616r47
+459f19 h{25|13F8} 35|598b19 608r29
+459f21 tol{25|13F8} 35|598b21 608r31
+459i44 pow{31|7I8} 35|598b44 608r35
+X 35 standard_predictors.adb
+21r5 nt{19|11R8} 25m11 26m11 28r18 29r30 31r25
+42r5 nt{19|11R8} 50m7 51r20 61m11 69m11 70r27 71r55 73m17 82m11 83r27 84r55
+. 86m17 91r10
+42r8 target_direction{19|11R8} 47m5 48r17 56m11 56r31 58r37 59r42 63r28 64r28
+. 76r28 77r28
+42r25 step{19|11R8} 58m17 59m17 61r21 68m11 69r21 72m17 73r27 81m11 82r21
+. 85m17 86r27 89r20
+43f5 dre{25|13F8} 63m11 65r30 76m11 78r30
+43f9 dim{25|13F8} 64m11 65r26 77m11 78r26
+43f13 d{25|13F8} 48m5 49r8 56r57 57r15 59r26
+43f15 x{25|13F8} 66m11 68r26 79m11 81r26
+43f17 y{25|13F8} 67m11 68r28 72r36 80m11 81r28 85r37
+43f19 alfa{25|13F8} 65m11 66r24 67r24 78m11 79r24 80r24
+43f24 absnt{25|13F8} 70m11 71r15 83m11 84r15
+44i5 tr3{31|7I8} 53m7 54r12
+99r5 e_i_theta{19|11R8} 103m5 104r35
+111r5 nt{19|11R8} 114m5 115r23 117r16
+123U13 Secant_Predictor 123b13 124=17 124>44 125>17 125>42 141l7 141t23 247s7
+. 285s7
+124a17 x{21|30A8} 128r25 131r10 132r14 133m7 133r7 133r17 133r34 135r17 137m21
+124a44 prev_x{21|30A8} 133r43
+125r17 fac{19|11R8} 133r26
+125f42 dist_x{25|13F8} 135r26
+127i5 j{26|6I8} 134m7 135m33 135r33 136r10
+128a5 xx{21|30A8} 131m12 131r12 134r12 135r14 137r18 140m11 140r11
+132i9 i<long_integer> 133r9 133r19 133r36 133r50 135r19 135r24 136r15
+150f5 hh{25|13F8} 155m39 157r24
+150f8 tmp{25|13F8} 154m5 156r8 157r27
+151r5 factor{19|11R8} 157m7 158r16
+172f5 hh{25|13F8} 177m39
+172f8 tmp{25|13F8} 176m5 178r8
+173r5 t2{19|11R8} 179r32
+189f5 hh{25|13F8} 194m39
+189f8 tmp{25|13F8} 193m5 195r8
+190r5 t3{19|11R8} 196r35
+206f5 hh{25|13F8} 211m39
+206f8 tmp{25|13F8} 210m5 212r8
+207r5 t4{19|11R8} 213r38
+223f5 hh{25|13F8} 228m39
+223f8 tmp{25|13F8} 227m5 229r8
+224r5 t5{19|11R8} 230r41
+239f5 hh{25|13F8} 244m39 246r24
+239f8 tmp{25|13F8} 243m5 245r8 246r27
+240r5 factor{19|11R8} 246m7 247r33
+249i9 k<long_integer> 250r9
+259f5 hh{25|13F8} 264m38 266r24
+259f8 tmp{25|13F8} 263m5 265r8 266r27
+260r5 factor{19|11R8} 266m7 267r16
+277f5 hh{25|13F8} 282m38 284r24
+277f8 tmp{25|13F8} 281m5 283r8 284r27
+278r5 factor{19|11R8} 284m7 285r33
+287i9 k<long_integer> 288r9
+298r5 factor{19|11R8} 305m7 307r16
+299f5 tmp{25|13F8} 302r8 305r26
+316f5 dist_prev{25|13F8} 320m5 324r8 325r33
+316f15 dist{25|13F8} 323m5 325r28
+317r5 factor{19|11R8} 325m11 326r20
+317r12 tmp{19|11R8} 321m5 323r24
+335i5 n{26|6I8} 339r19 339r24 340r47 346r13 350r17
+336i5 info{26|6I8} 346m20 347r8
+337f5 norm_tan{25|13F8} 351m7 352r10 353r20
+337f14 hh{25|13F8} 344m39 353m9 353r15 354r24
+338a5 rhs{13|16A8[22|4]} 348m7 349m11 349r11 350m24 350r24 351r24 354m13
+. 354r13 355r15
+339a5 j{12|16A8[18|5]} 345m5 346m11 346r11 350r15
+340a5 ipvt{13|16A8[28|4]} 346m15 350r19
+341r5 prev_t{19|11R8} 345r15 348r19
+365i5 n{26|6I8} 367r21 369r19 369r24 370r47 380r15 384r19
+366f5 norm_tan{25|13F8} 386m9 387r12 388r22
+366f14 hh{25|13F8} 376m39 388m11 388r17 389r26
+367a5 rhs{13|16A8[22|4]} 382m9 383m13 383r13 384m26 384r26 386r26 389m15
+. 389r15 390r22
+368i5 info{26|6I8} 380m22 381r10
+369a5 j{12|16A8[18|5]} 379m7 380m13 380r13 384r17
+370a5 ipvt{13|16A8[28|4]} 380m17 384r21
+371a5 xx{21|30A8} 377m12 377r12 392r15 393r16 395r20 398r14 401m11 401r11
+372i5 jj{26|6I8} 392m9 393m35 393r35 394r12
+373r5 prev_t{19|11R8} 379r22 382r26
+378i9 i<long_integer> 379r17 382r21 390r17 393r21 393r26 394r18
+402i9 k<long_integer> 403r9
+412i5 n{26|6I8} 416r19 416r24 417r47 423r13 427r17
+413i5 info{26|6I8} 423m20 424r8
+414f5 norm_tan{25|13F8} 428m7 429r10 430r20
+414f14 hh{25|13F8} 421m38 430m9 430r15 431r24
+415a5 rhs{13|16A8[22|4]} 425m7 426m11 426r11 427m24 427r24 428r24 431m13
+. 431r13 432r15
+416a5 j{12|16A8[18|5]} 422m5 423m11 423r11 427r15
+417a5 ipvt{13|16A8[28|4]} 423m15 427r19
+418r5 prev_t{19|11R8} 422r15 425r19
+443i5 n{26|6I8} 445r21 447r19 447r24 448r47 458r15 462r19
+444f5 norm_tan{25|13F8} 464m9 465r12 466r22
+444f14 hh{25|13F8} 454m38 466m11 466r17 467r26
+445a5 rhs{13|16A8[22|4]} 460m9 461m13 461r13 462m26 462r26 464r26 467m15
+. 467r15 468r22
+446i5 info{26|6I8} 458m22 459r10
+447a5 j{12|16A8[18|5]} 457m7 458m13 458r13 462r17
+448a5 ipvt{13|16A8[28|4]} 458m17 462r21
+449a5 xx{21|30A8} 455m12 455r12 470r15 471r16 473r20 476r14 479m11 479r11
+450i5 jj{26|6I8} 470m9 471m35 471r35 472r12
+451r5 prev_t{19|11R8} 457r22 460r26
+456i9 i<long_integer> 457r17 460r21 468r17 471r21 471r26 472r18
+480i9 k<long_integer> 481r9
+491i5 n{26|6I8} 495r19 495r24 496r47 499r13 503r17
+492i5 info{26|6I8} 499m20 500r8 506r8
+493f5 norm_tan{25|13F8} 507m7 508r10 509r26
+494a5 rhs{13|16A8[22|4]} 501m7 502m11 502r11 503m24 503r24 507r24 509m13
+. 509r13 510r15
+495a5 j{12|16A8[18|5]} 499m11 499r11 503r15
+496a5 ipvt{13|16A8[28|4]} 499m15 503r19
+519i5 n{26|6I8} 523r19 523r24 524r47 530r13 534r17
+520i5 info{26|6I8} 530m20 531r8
+521f5 norm_tan{25|13F8} 535m7 536r10 537r36
+521f14 step{25|13F8} 537m9 538r24
+522a5 rhs{13|16A8[22|4]} 532m7 533m11 533r11 534m24 534r24 535r24 538m13
+. 538r13 539r15
+523a5 j{12|16A8[18|5]} 529m5 530m11 530r11 534r15
+524a5 ipvt{13|16A8[28|4]} 530m15 534r19
+525r5 prev_t{19|11R8} 529r15 532r19 537r26
+544V12 Hermite{19|11R8} 544b12 544>22 544>25 544>28 544>30 544>33 544>36
+. 544>39 571l7 571t14 587s17
+544r22 t0{19|11R8} 562r17 565r35 565r44 566r24 566r37 567r21 567r30 567r39
+544r25 t1{19|11R8} 562r12 565r24 565r32
+544r28 t{19|11R8} 568r18 568r26 568r34
+544r30 x0{19|11R8} 563r18 567r11
+544r33 x1{19|11R8} 563r13
+544r36 v0{19|11R8} 564r17 565r18 566r11
+544r39 v1{19|11R8} 564r12
+559r5 a0{19|11R8} 567m5 568r38
+559r8 a1{19|11R8} 566m5 567r35 568r30
+559r11 a2{19|11R8} 565m5 566r33 567r26 568r22
+559r14 a3{19|11R8} 564m5 565r51 566r21 567r18 568r15
+559r17 t10{19|11R8} 562m5 563r22 564r32 565r55
+559r21 v10{19|11R8} 563m5 564r26 565r12
+573V12 Hermite{13|16A8[22|4]} 573b12 573>22 573>25 573>28 573>48 573>51 573>54
+. 573>57 592l7 592t14 616s18
+573r22 t0{19|11R8} 587r25
+573r25 t1{19|11R8} 587r28
+573r28 t{19|11R8} 587r31
+573a48 x0{13|16A8[22|4]} 583r18 587r33
+573a51 x1{13|16A8[22|4]} 587r39
+573a54 v0{13|16A8[22|4]} 587r45
+573a57 v1{13|16A8[22|4]} 587r51
+583a5 res{13|16A8[22|4]} 586r14 587m7 589r12
+586i9 i<long_integer> 587r11 587r36 587r42 587r48 587r54
+600i5 n{26|6I8} 603r19 603r24 604r47 610r13 614r17
+601i5 info{26|6I8} 610m20 611r8
+602f5 hh{25|13F8} 608m39
+603a5 j{12|16A8[18|5]} 609m5 610m11 610r11 614r15
+604a5 ipvt{13|16A8[28|4]} 610m15 614r19
+605r5 t1{19|11R8} 609r15 612r17 615r26 615r53 616r33
+

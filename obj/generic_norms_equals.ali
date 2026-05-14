@@ -1,0 +1,95 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_norms_equals%b  generic_norms_equals.adb  7d558bd7 NE OO PK GE
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+U generic_norms_equals%s  generic_norms_equals.ads  46bf237d BN EE NE OO PK GE
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W abstract_ring.field%s	abstract_ring-field.ads	abstract_ring-field.ali
+W generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_norms_equals.ads  20260513024558 e71ebd4a generic_norms_equals%s
+D generic_norms_equals.adb  20260513024558 e5ab5486 generic_norms_equals%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [generic_norms_equals standard 13 9 none]
+X 1 abstract_ring.ads
+3+8 number 4|20r43[8] 25r43[8] 30r43[8] 35r30[8] 40r40[8] 5|5r43[4|8] 7r11[4|8]
+. 12r18[4|8] 23r43[4|8] 25r11[4|8] 30r18[4|8] 39r43[4|8] 41r11[4|8] 47r20[4|8]
+. 59r30[4|8] 61r11[4|8] 62r14[4|8] 71r40[4|8]
+7V17 Create{3+8[4|8]} 5|41s21[4|8]
+10U18 Copy 5|15s15[4|8] 50s17[4|8]
+14V18 "-"{3+8[4|8]} 5|61s22[4|8]
+18U18 Add 5|32s9[4|8]
+23U18 Clear 5|17s9[4|8] 33s9[4|8] 52s11[4|8] 66s5[4|8] 67s5[4|8]
+25k9*Abstract_Ring 25e29 4|1w6 2r6 8r28
+X 2 abstract_ring-field.ads
+3V18 "<"{boolean} 5|63s39[4|9]
+4V18 ">"{boolean} 5|14s19[4|9] 49s21[4|9]
+6V17 AbsVal{1|3+8[4|8]} 5|7s21[4|9] 12s28[4|9] 25s21[4|9] 30s28[4|9] 47s30[4|9]
+. 62s24[4|9]
+12k23 Field 12e35 4|2w20
+X 3 generic_matrices.ads
+9k9*Generic_Matrices 72e21 4|4w6 11r32
+16A8 Matrix(1|3+8[4|8])<7|6I8><7|6I8> 4|30r27[11] 5|39r27[4|11]
+X 4 generic_norms_equals.ads
+8K16 Ring[1|25] 9r29 10r47 11r49 18r7
+9K16 Field[2|12] 18r12
+10K16 Vectors[6|8] 11r54 18r18
+11K16 Matrices[3|9] 18r26
+13k9*Generic_Norms_Equals 8z16 9z16 10z16 11z16 48l5 48e25 5|3b14 81l5 81t25
+20V12*Max_Norm{1|3+8[8]} 20>23 5|5b12 21l7 21t15
+20a23 v{6|16A8[10]} 5|5b23 7r28 7r30 10r14 10r25 12r35
+25V12*Sum_Norm{1|3+8[8]} 25>23 5|23b12 37l7 37t15
+25a23 v{6|16A8[10]} 5|23b23 25r28 25r30 28r14 28r25 30r35
+30V12*Max_Norm{1|3+8[8]} 30>23 5|39b12 57l7 57t15
+30a23 m{3|16A8[11]} 5|39b23 44r14 45r16 47r37
+35V12*Equal{boolean} 35>20 35>22 35>24 5|59b12 69l7 69t12 74s14
+35*20 x{1|3+8[8]} 5|59b20 61r21
+35*22 y{1|3+8[8]} 5|59b22 61r23
+35*24 tol{1|3+8[8]} 5|59b24 63r41
+40V12*Equal{boolean} 40>20 40>22 40>34 5|71b12 79l7 79t12
+40a20 x{6|16A8[10]} 5|71b20 73r14 74r20
+40a22 y{6|16A8[10]} 5|71b22 74r25
+40*34 tol{1|3+8[8]} 5|71b34 74r30
+X 5 generic_norms_equals.adb
+7*5 res{1|3+8[4|8]} 14r21 15m27 15r27 20r12
+10i9 i<long_integer> 12r37
+12*9 abstmp{1|3+8[4|8]} 14r12 15r20 17m15 17r15
+25*5 res{1|3+8[4|8]} 32m13 32r13 36r12
+28i9 i<long_integer> 30r37
+30*9 abstmp{1|3+8[4|8]} 32r17 33m15 33r15
+41*5 res{1|3+8[4|8]} 49r23 50m29 50r29 56r12
+44i9 i<long_integer> 47r39
+45i11 j<long_integer> 47r41
+47*11 abstmp{1|3+8[4|8]} 49r14 50r22 52m17 52r17
+61*5 dif{1|3+8[4|8]} 62r31 66m11 66r11
+62*5 absdif{1|3+8[4|8]} 63r32 67m11 67r11
+63b5 res{boolean} 68r12
+73i9 i<long_integer> 74r22 74r27
+X 6 generic_vectors.ads
+8k9*Generic_Vectors 4|3w6 10r31 6|74e20
+16A8 Vector(1|3+8[4|8])<7|6I8> 4|20r27[10] 25r27[10] 40r26[10] 5|5r27[4|10]
+. 23r27[4|10] 71r26[4|10]
+X 7 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|1w6 1r46 7|45e29
+

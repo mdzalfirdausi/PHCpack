@@ -1,0 +1,218 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_jacobian_matrices%b  generic_jacobian_matrices.adb  db6ab190 NE OO PK GE
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W unchecked_deallocation%s
+
+U generic_jacobian_matrices%s  generic_jacobian_matrices.ads  82cba993 BN EE NE OO PK GE
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z generic_lists%s	generic_lists.adb	generic_lists.ali
+W generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+W generic_poly_system_functions%s  generic_poly_system_functions.adb  generic_poly_system_functions.ali
+W generic_polynomial_functions%s  generic_polynomial_functions.adb  generic_polynomial_functions.ali
+W generic_polynomial_systems%s  generic_polynomial_systems.adb  generic_polynomial_systems.ali
+W generic_polynomials%s	generic_polynomials.adb	generic_polynomials.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W generic_vecvecs%s	generic_vecvecs.adb	generic_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_jacobian_matrices.adb  20260513024558 ff305b64 generic_jacobian_matrices%b
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [generic_jacobian_matrices standard 25 9 none]
+X 1 abstract_ring.ads
+3+8 number
+16V18 "*"{3+8[2|12]} 3|98s28[2|12]
+23U18 Clear 3|102s13[2|12]
+25k9*Abstract_Ring 25e29 2|2w6 12r28
+X 2 generic_jacobian_matrices.ads
+12K16 Ring[1|25] 13r47 14r47 15r49 16r55 18r43 20r41 22r44 31r7
+13K16 Vectors[11|8] 14r52 15r54 18r48 22r49 31r12 3|49r25
+14K16 VecVecs[12|10] 22r57 31r20
+15K16 Matrices[6|9] 31r28
+16K16 Polynomials[10|11] 18r56 20r46 22r65 32r7
+17K16 Poly_Functions[8|12] 23r44 32r19
+19K16 Poly_Systems[9|12] 23r59 32r34
+21K16 Poly_SysFun[7|19] 32r47
+25k9*Generic_Jacobian_Matrices 12z16 13z16 14z16 15z16 16z16 17z16 19z16
+. 21z16 104l5 104e30 3|4b14 215l5 215t30
+36P8*Evaluator(6|16A8[15]) 36>39
+36a39 x{11|16A8[13]}
+40A8*Jaco_Mat(10|28P8[16])<13|6I8><13|6I8> 41r35 64r43 69r25 76r23 86r32
+. 3|8r43 11r11 22r25 57r23 112r48 121r32
+41P8*Link_to_Jaco_Mat(40A8) 46r61 87r32 88r40 3|112r57 130r32 138r40
+42A8*Eval_Jaco_Mat(8|26P8[17])<13|6I8><13|6I8> 44r40 69r43 77r23 89r32 3|22r43
+. 24r11 70r23 114r32 145r32
+44P8*Link_to_Eval_Jaco_Mat(42A8) 48r37 90r32 91r40 3|114r46 154r32 161r40
+46A8*Array_of_Jaco_Mat(41P8)<13|6I8>
+47A8*Array_of_Eval_Jaco_Mat(44P8)<13|6I8>
+50A8*Eval_Coeff_Jaco_Mat(8|27P8[17])<13|6I8><13|6I8> 52r46 72r30 79r23 92r32
+. 3|36r30 83r23 116r32 168r32
+52P8*Link_to_Eval_Coeff_Jaco_Mat(50A8) 93r32 94r40 3|117r32 177r32 185r40
+53A8*Mult_Factors(11|17P8[13])<13|6I8><13|6I8> 55r39 72r59 79r48 96r32 3|36r59
+. 83r48 119r32 192r32
+55P8*Link_to_Mult_Factors(53A8) 97r32 98r40 3|119r45 201r32 208r40
+64V12*Create{40A8} 64>21 3|8b12 20l7 20t13
+64a21 p{9|22A8[19]} 3|8b21 10r50 10r52 11r20 16r26
+69V12*Create{42A8} 69>21 3|22b12 33l7 33t13
+69a21 j{40A8} 3|22b21 24r25 24r36 27r14 28r16 29r28
+71U13*Create 71>22 72<22 72<51 3|35b13 53l7 53t13
+71a22 p{9|22A8[19]} 3|35b22 38r51 38r53 42r14 43r30 48r16
+72a22 j{50A8} 3|36b22 48m23 48r23
+72a51 m{53A8} 3|36b51 49m11
+76V12*Eval{6|16A8[15]} 76>19 76>38 3|57b12 68l7 68t11
+76a19 j{40A8} 3|57b19 59r16 59r27 62r14 63r16 64r24
+76a38 x{11|16A8[13]} 3|57b33 64r31
+77V12*Eval{6|16A8[15]} 77>19 77>38 3|70b12 81l7 81t11
+77a19 j{42A8} 3|70b19 72r16 72r27 75r14 76r16 77r24
+77a38 x{11|16A8[13]} 3|70b38 77r31
+79V12*Eval{6|16A8[15]} 79>19 79>44 80>19 80>31 3|83b12 108l7 108t11
+79a19 j{50A8} 3|83b19 86r18 86r29 90r14 95r20 100r30
+79a44 m{53A8} 3|83b44 96r18
+80a19 c{12|14A8[14]} 3|84b19 91r13
+80a31 x{11|16A8[13]} 3|84b31 100r42
+86U13*Clear 86=21 3|121b13 128l7 128t12 133s11
+86a21 j{40A8} 3|121b21 123r14 124r16 125m15 125r15
+87U13*Clear 87=21 3|130b13 136l7 136t12
+87p21 j{41P8} 3|130b21 132r8 133r17 134m16
+88U13*Shallow_Clear 88=29 3|138b13 143l7 143t20
+88p29 j{41P8} 3|138b29 140r8 141m16
+89U13*Clear 89=21 3|145b13 152l7 152t12 157s11
+89a21 j{42A8} 3|145b21 147r14 148r16 149m15 149r15
+90U13*Clear 90=21 3|154b13 159l7 159t12
+90p21 j{44P8} 3|154b21 156r8 157r17 157m30
+91U13*Shallow_Clear 91=29 3|161b13 166l7 166t20
+91p29 j{44P8} 3|161b29 163r8 164m16
+92U13*Clear 92=21 3|168b13 175l7 175t12 180s11
+92a21 j{50A8} 3|168b21 170r14 171r16 172m15 172r15
+93U13*Clear 93=21 3|177b13 183l7 183t12
+93p21 j{52P8} 3|177b21 179r8 180r17 181m16
+94U13*Shallow_Clear 94=29 3|185b13 190l7 190t20
+94p29 j{52P8} 3|185b29 187r8 188m16
+96U13*Clear 96=21 3|192b13 199l7 199t12 204s11
+96a21 m{53A8} 3|192b21 194r14 195r16 196m15 196r15
+97U13*Clear 97=21 3|201b13 206l7 206t12
+97p21 m{55P8} 3|201b21 203r8 204r17 204m30
+98U13*Shallow_Clear 98=29 3|208b13 213l7 213t20
+98p29 m{55P8} 3|208b29 210r8 211m16
+X 3 generic_jacobian_matrices.adb
+10i5 n{14|7I8} 11r41
+11a5 res{2|40A8} 14r14 15r16 16m9 19r12
+14i9 i<long_integer> 16r13 16r28
+15i11 j<long_integer> 16r15 16r31
+24a5 res{2|42A8} 29m9 32r12
+27i9 k<long_integer> 29r13 29r30
+28i11 l<long_integer> 29r15 29r32
+38i5 nb{14|7I8} 44r29
+39i5 nbk{14|7I8} 43m7 46r37
+42i9 k<long_integer> 43r32 48r18 48r25 49r13
+44i11 l<long_integer> 48r21 48r27 49r15
+46a11 mkl{11|16A8[2|13]} 48m30 49r41
+59a5 m{6|16A8[2|15]} 64m9 67r12
+62i9 k<long_integer> 64r11 64r26
+63i11 l<long_integer> 64r13 64r28
+72a5 m{6|16A8[2|15]} 77m9 80r12
+75i9 k<long_integer> 77r11 77r26
+76i11 l<long_integer> 77r13 77r28
+86a5 res{6|16A8[2|15]} 100m11 107r12
+87p5 ck{11|17P8[2|13]} 91m7 93r21 98r29
+87p8 mkl{11|17P8[2|13]} 96m11 98r22
+90i9 k<long_integer> 91r15 96r20 100r15 100r32
+93a9 cm{11|16A8[2|13]} 97r20 98m13 100r39 101r20 102m19 102r19
+95i13 ell<long_integer> 96r22 100r17 100r34
+97i15 i<long_integer> 98r16 98r26 98r32
+101i15 i<long_integer> 102r22
+112U13 free[18|22] 134s11 141s11
+113U13 free[18|22] 157s25 164s11
+115U13 free[18|22] 181s11 188s11
+118U13 free[18|22] 204s25 211s11
+123i9 k<long_integer> 125r17
+124i11 l<long_integer> 125r19
+147i9 k<long_integer> 149r17
+148i11 l<long_integer> 149r19
+170i9 k<long_integer> 172r17
+171i11 l<long_integer> 172r19
+194i9 k<long_integer> 196r17
+195i11 l<long_integer> 196r19
+X 6 generic_matrices.ads
+9k9*Generic_Matrices 2|4w6 15r32 6|72e21
+16A8 Matrix(1|3+8[2|12])<13|6I8><13|6I8> 2|36r59[15] 76r58[15] 77r58[15]
+. 80r51[15] 3|57r53[2|15] 59r9[2|15] 70r58[2|15] 72r9[2|15] 84r51[2|15] 86r11[2|15]
+X 7 generic_poly_system_functions.ads
+19k9*Generic_Poly_System_Functions 2|8w6 22r14 7|68e34
+X 8 generic_polynomial_functions.ads
+12k9*Generic_Polynomial_Functions 2|6w6 18r14 8|93e33
+26P8 Eval_Poly 2|43r57[17]
+27P8 Eval_Coeff_Poly 2|51r57[17]
+31V12 Create{26P8[2|17]} 3|29s21[2|17]
+34U13 Diff 3|48s11[2|17]
+53V12 Eval{1|3+8[2|12]} 3|64s19[2|17]
+57V12 Eval{1|3+8[2|12]} 3|77s19[2|17]
+58V12 Eval{1|3+8[2|12]} 3|100s25[2|17]
+63U13 Clear 3|149s9[2|17]
+64U13 Clear 3|172s9[2|17]
+X 9 generic_polynomial_systems.ads
+12k9*Generic_Polynomial_Systems 2|7w6 20r14 9|70e31
+22A8 Poly_Sys(10|28P8[2|16])<13|6I8> 2|64r25[19] 71r26[19] 3|8r25[2|19] 35r26[2|19]
+X 10 generic_polynomials.ads
+11k9*Generic_Polynomials 2|5w6 16r35 10|145e24
+28P8 Poly 2|40r72[16]
+48V12 Number_of_Unknowns{14|7I8} 3|10s31[2|16] 38s32[2|16]
+49V12 Number_of_Terms{14|7I8} 3|43s14[2|16]
+113V13 Diff{28P8[2|16]} 3|16s21[2|16]
+130U13 Clear 3|125s9[2|16]
+X 11 generic_vectors.ads
+8k9*Generic_Vectors 2|3w6 13r31 11|74e20
+16A8 Vector(1|3+8[2|12])<13|6I8> 2|36r43[13] 76r42[13] 77r42[13] 80r35[13]
+. 3|46r17[2|13] 49r33[2|13] 57r37[2|13] 70r42[2|13] 84r35[2|13] 93r14[2|13]
+17P8 Link_to_Vector(16A8[2|13]) 2|54r57[13] 3|87r14[2|13]
+72U13 Clear 3|196s9[2|13]
+X 12 generic_vecvecs.ads
+10k9*Generic_VecVecs 2|3w22 14r31 12|43e20
+14A8 VecVec(11|17P8[2|13])<13|6I8> 2|80r23[14] 3|84r23[2|14]
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 2|1w6 1r46 13|45e29
+6I8*integer32<long_integer> 2|40r28 40r48 43r13 43r33 46r37 48r13 51r13 51r33
+. 54r13 54r33 3|11r31 44r19 46r27
+X 14 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 3|2w6 2r46 14|30e29
+7I8*natural32<long_integer> 3|10r18 38r19 39r11
+X 18 unchdeal.ads
+22u11*Unchecked_Deallocation 3|1w6 112r25 114r9 116r9 119r9
+

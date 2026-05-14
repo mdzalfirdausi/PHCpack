@@ -1,0 +1,930 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U multprec_homotopy%b	multprec_homotopy.adb	cfe84f0e NE OO PK
+W multprec_complex_jaco_matrices%s  multprec_complex_jaco_matrices.ads  multprec_complex_jaco_matrices.ali
+W multprec_complex_poly_functions%s  multprec_complex_poly_functions.ads  multprec_complex_poly_functions.ali
+W multprec_complex_poly_sysfun%s  multprec_complex_poly_sysfun.ads  multprec_complex_poly_sysfun.ali
+W multprec_complex_polynomials%s  multprec_complex_polynomials.ads  multprec_complex_polynomials.ali
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U multprec_homotopy%s	multprec_homotopy.ads	524d8b4d EE NE OO PK
+W multprec_complex_matrices%s  multprec_complex_matrices.ads  multprec_complex_matrices.ali
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_complex_poly_systems%s  multprec_complex_poly_systems.ads  multprec_complex_poly_systems.ali
+W multprec_complex_vectors%s  multprec_complex_vectors.ads  multprec_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_polynomials.adb  20260513024558 48c70612 generic_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_jaco_matrices.ads  20260513024558 a61c1b69 multprec_complex_jaco_matrices%s
+D multprec_complex_matrices.ads  20260513024558 ed92d39d multprec_complex_matrices%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_poly_functions.ads  20260513024558 be2675a6 multprec_complex_poly_functions%s
+D multprec_complex_poly_sysfun.ads  20260513024558 95e15cd1 multprec_complex_poly_sysfun%s
+D multprec_complex_poly_systems.ads  20260513024558 ff1af8f0 multprec_complex_poly_systems%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_complex_vecvecs.ads  20260513024558 b42f0858 multprec_complex_vecvecs%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_homotopy.ads	20260513024558 fa0a788f multprec_homotopy%s
+D multprec_homotopy.adb	20260513024558 65a5e988 multprec_homotopy%b
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [create multprec_homotopy 16 13 none]
+G c Z s b [create multprec_homotopy 23 13 none]
+G c Z s b [create multprec_homotopy 29 13 none]
+G c Z s b [create multprec_homotopy 41 13 none]
+G c Z s b [relaxation_power multprec_homotopy 49 12 none]
+G c Z s b [accessibility_constant multprec_homotopy 57 12 none]
+G c Z s b [dimension multprec_homotopy 65 12 none]
+G c Z s b [target_system multprec_homotopy 71 12 none]
+G c Z s b [start_system multprec_homotopy 78 12 none]
+G c Z s b [homotopy_system multprec_homotopy 85 12 none]
+G c Z s b [eval multprec_homotopy 92 12 none]
+G c Z s b [diff multprec_homotopy 97 12 none]
+G c Z s b [eval multprec_homotopy 104 12 none]
+G c Z s b [diff multprec_homotopy 109 12 none]
+G c Z s b [diff multprec_homotopy 114 12 none]
+G c Z s b [diff multprec_homotopy 120 12 none]
+G c Z s b [diff multprec_homotopy 126 12 none]
+G c Z s b [clear multprec_homotopy 134 13 none]
+G c Z b b [homdataIP multprec_homotopy 19 8 none]
+G c Z b b [mul multprec_homotopy 45 12 none]
+G c Z b b [mul multprec_homotopy 59 12 none]
+G c Z b b [linear_start_factor multprec_homotopy 77 12 none]
+G c Z b b [nonlinear_start_factor multprec_homotopy 104 12 none]
+G c Z b b [linear_target_factor multprec_homotopy 138 12 none]
+G c Z b b [linear_target_factor multprec_homotopy 157 12 none]
+G c Z b b [nonlinear_target_factor multprec_homotopy 177 12 none]
+G c Z b b [plus_one_unknown multprec_homotopy 210 12 none]
+G c Z b b [linear_homotopy multprec_homotopy 239 12 none]
+G c Z b b [linear_homotopy multprec_homotopy 262 12 none]
+G c Z b b [linear_homotopy multprec_homotopy 285 12 none]
+G c Z b b [nonlinear_homotopy multprec_homotopy 308 12 none]
+G c Z b b [free multprec_homotopy 798 13 none]
+G r c none [create multprec_homotopy 16 13 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s jaco_mat [create multprec_homotopy 16 13 none] [jaco_matIP multprec_complex_jaco_matrices 40 8 11_1]
+G r s poly_sys [create multprec_homotopy 16 13 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create multprec_homotopy 16 13 none] [eval_poly_sysIP multprec_complex_poly_sysfun 33 8 9_1]
+G r s eval_jaco_mat [create multprec_homotopy 16 13 none] [eval_jaco_matIP multprec_complex_jaco_matrices 42 8 11_1]
+G r s vector [create multprec_homotopy 16 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [create multprec_homotopy 16 13 none] [copy multprec_complex_poly_systems 29 13 5_1]
+G r s term [create multprec_homotopy 16 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [create multprec_homotopy 16 13 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [create multprec_homotopy 16 13 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [create multprec_homotopy 16 13 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [create multprec_homotopy 16 13 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [create multprec_homotopy 16 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [create multprec_homotopy 16 13 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [create multprec_homotopy 16 13 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [create multprec_homotopy 16 13 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [create multprec_homotopy 16 13 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [create multprec_homotopy 16 13 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [create multprec_homotopy 16 13 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r c none [create multprec_homotopy 16 13 none] [create multprec_complex_poly_sysfun 43 12 9_1]
+G r c none [create multprec_homotopy 16 13 none] [create multprec_complex_jaco_matrices 64 12 11_1]
+G r c none [create multprec_homotopy 16 13 none] [create multprec_complex_jaco_matrices 69 12 11_1]
+G r c none [create multprec_homotopy 16 13 none] [clear multprec_complex_jaco_matrices 86 13 11_1]
+G r c none [create multprec_homotopy 23 13 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s jaco_mat [create multprec_homotopy 23 13 none] [jaco_matIP multprec_complex_jaco_matrices 40 8 11_1]
+G r s poly_sys [create multprec_homotopy 23 13 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create multprec_homotopy 23 13 none] [eval_poly_sysIP multprec_complex_poly_sysfun 33 8 9_1]
+G r s eval_jaco_mat [create multprec_homotopy 23 13 none] [eval_jaco_matIP multprec_complex_jaco_matrices 42 8 11_1]
+G r s vector [create multprec_homotopy 23 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [create multprec_homotopy 23 13 none] [copy multprec_complex_poly_systems 29 13 5_1]
+G r s term [create multprec_homotopy 23 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [create multprec_homotopy 23 13 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [create multprec_homotopy 23 13 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [create multprec_homotopy 23 13 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [create multprec_homotopy 23 13 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [create multprec_homotopy 23 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [create multprec_homotopy 23 13 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [create multprec_homotopy 23 13 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [create multprec_homotopy 23 13 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [create multprec_homotopy 23 13 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [create multprec_homotopy 23 13 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [create multprec_homotopy 23 13 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r c none [create multprec_homotopy 23 13 none] [create multprec_complex_poly_sysfun 43 12 9_1]
+G r c none [create multprec_homotopy 23 13 none] [create multprec_complex_jaco_matrices 64 12 11_1]
+G r c none [create multprec_homotopy 23 13 none] [create multprec_complex_jaco_matrices 69 12 11_1]
+G r c none [create multprec_homotopy 23 13 none] [clear multprec_complex_jaco_matrices 86 13 11_1]
+G r c none [create multprec_homotopy 29 13 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s jaco_mat [create multprec_homotopy 29 13 none] [jaco_matIP multprec_complex_jaco_matrices 40 8 11_1]
+G r s poly_sys [create multprec_homotopy 29 13 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create multprec_homotopy 29 13 none] [eval_poly_sysIP multprec_complex_poly_sysfun 33 8 9_1]
+G r s eval_jaco_mat [create multprec_homotopy 29 13 none] [eval_jaco_matIP multprec_complex_jaco_matrices 42 8 11_1]
+G r s vector [create multprec_homotopy 29 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [create multprec_homotopy 29 13 none] [copy multprec_complex_poly_systems 29 13 5_1]
+G r s term [create multprec_homotopy 29 13 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [create multprec_homotopy 29 13 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [create multprec_homotopy 29 13 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [create multprec_homotopy 29 13 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [create multprec_homotopy 29 13 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [create multprec_homotopy 29 13 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [create multprec_homotopy 29 13 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [create multprec_homotopy 29 13 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [create multprec_homotopy 29 13 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [create multprec_homotopy 29 13 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [create multprec_homotopy 29 13 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r c none [create multprec_homotopy 29 13 none] [mul multprec_complex_polynomials 108 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [Osubtract multprec_complex_numbers 61 12 5_1]
+G r c none [create multprec_homotopy 29 13 none] [mul multprec_complex_polynomials 107 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [add multprec_complex_polynomials 102 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [sub multprec_complex_polynomials 106 13 4_1]
+G r c none [create multprec_homotopy 29 13 none] [create multprec_complex_poly_sysfun 43 12 9_1]
+G r c none [create multprec_homotopy 29 13 none] [create multprec_complex_jaco_matrices 64 12 11_1]
+G r c none [create multprec_homotopy 29 13 none] [create multprec_complex_jaco_matrices 69 12 11_1]
+G r c none [create multprec_homotopy 29 13 none] [clear multprec_complex_jaco_matrices 86 13 11_1]
+G r c none [create multprec_homotopy 41 13 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s poly_sys [create multprec_homotopy 41 13 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [create multprec_homotopy 41 13 none] [eval_poly_sysIP multprec_complex_poly_sysfun 33 8 9_1]
+G r s jaco_mat [create multprec_homotopy 41 13 none] [jaco_matIP multprec_complex_jaco_matrices 40 8 11_1]
+G r s eval_jaco_mat [create multprec_homotopy 41 13 none] [eval_jaco_matIP multprec_complex_jaco_matrices 42 8 11_1]
+G r s vector [create multprec_homotopy 41 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [create multprec_homotopy 41 13 none] [copy multprec_complex_poly_systems 29 13 5_1]
+G r c none [create multprec_homotopy 41 13 none] [create multprec_complex_poly_sysfun 43 12 9_1]
+G r c none [create multprec_homotopy 41 13 none] [create multprec_complex_jaco_matrices 64 12 11_1]
+G r c none [create multprec_homotopy 41 13 none] [create multprec_complex_jaco_matrices 69 12 11_1]
+G r c none [accessibility_constant multprec_homotopy 57 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [accessibility_constant multprec_homotopy 57 12 none] [create multprec_complex_numbers 26 12 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [eval multprec_complex_poly_sysfun 55 12 9_1]
+G r s vector [eval multprec_homotopy 92 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s poly_sys [eval multprec_homotopy 92 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r s complex_number [eval multprec_homotopy 92 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s floating_number [eval multprec_homotopy 92 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [eval multprec_homotopy 92 12 none] [absval multprec_complex_numbers 35 12 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [eval multprec_homotopy 92 12 none] [Omultiply multprec_complex_polynomials 95 12 4_1]
+G r c none [eval multprec_homotopy 92 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [sub multprec_complex_numbers 75 13 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [mul multprec_complex_numbers 77 13 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [add multprec_complex_poly_systems 48 13 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [clear multprec_complex_poly_systems 60 13 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [eval multprec_homotopy 92 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [eval multprec_homotopy 92 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [diff multprec_homotopy 97 12 none] [diff multprec_complex_poly_systems 55 13 5_1]
+G r s vector [diff multprec_homotopy 97 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [diff multprec_homotopy 97 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r s poly_sys [diff multprec_homotopy 97 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [create multprec_complex_numbers 23 12 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [min multprec_complex_numbers 76 13 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [Omultiply multprec_complex_polynomials 95 12 4_1]
+G r c none [diff multprec_homotopy 97 12 none] [add multprec_complex_poly_systems 48 13 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [clear multprec_complex_poly_systems 60 13 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [Omultiply multprec_complex_poly_systems 45 12 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [sub multprec_complex_numbers 75 13 5_1]
+G r c none [diff multprec_homotopy 97 12 none] [mul multprec_complex_vectors 64 13 4_1]
+G r c none [diff multprec_homotopy 97 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r s vector [eval multprec_homotopy 104 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [eval multprec_homotopy 104 12 none] [eval multprec_complex_poly_sysfun 57 12 9_1]
+G r c none [eval multprec_homotopy 104 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [eval multprec_homotopy 104 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [eval multprec_homotopy 104 12 none] [Omultiply multprec_complex_vectors 47 12 4_1]
+G r s vector [diff multprec_homotopy 109 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [diff multprec_homotopy 109 12 none] [eval multprec_complex_poly_functions 57 12 6_1]
+G r s matrix [diff multprec_homotopy 114 12 none] [matrixIP multprec_complex_matrices 16 8 5_1]
+G r s vector [diff multprec_homotopy 114 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [diff multprec_homotopy 114 12 none] [eval multprec_complex_poly_functions 57 12 6_1]
+G r c none [diff multprec_homotopy 114 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [diff multprec_homotopy 114 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [diff multprec_homotopy 114 12 none] [eval multprec_complex_jaco_matrices 77 12 11_1]
+G r c none [diff multprec_homotopy 114 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r s vector [diff multprec_homotopy 120 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [diff multprec_homotopy 120 12 none] [eval multprec_complex_poly_functions 57 12 6_1]
+G r s vector [diff multprec_homotopy 126 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s matrix [diff multprec_homotopy 126 12 none] [matrixIP multprec_complex_matrices 16 8 5_1]
+G r c none [diff multprec_homotopy 126 12 none] [eval multprec_complex_poly_functions 57 12 6_1]
+G r c none [clear multprec_homotopy 134 13 none] [clear multprec_complex_poly_systems 60 13 5_1]
+G r c none [clear multprec_homotopy 134 13 none] [clear multprec_complex_poly_sysfun 63 13 9_1]
+G r c none [clear multprec_homotopy 134 13 none] [clear multprec_complex_jaco_matrices 86 13 11_1]
+G r c none [clear multprec_homotopy 134 13 none] [clear multprec_complex_jaco_matrices 89 13 11_1]
+G r s poly_sys [homdataIP multprec_homotopy 19 8 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r s eval_poly_sys [homdataIP multprec_homotopy 19 8 none] [eval_poly_sysIP multprec_complex_poly_sysfun 33 8 9_1]
+G r s jaco_mat [homdataIP multprec_homotopy 19 8 none] [jaco_matIP multprec_complex_jaco_matrices 40 8 11_1]
+G r s eval_jaco_mat [homdataIP multprec_homotopy 19 8 none] [eval_jaco_matIP multprec_complex_jaco_matrices 42 8 11_1]
+G r s vector [homdataIP multprec_homotopy 19 8 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s poly_sys [mul multprec_homotopy 45 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r c none [mul multprec_homotopy 45 12 none] [Omultiply multprec_complex_polynomials 95 12 4_1]
+G r s matrix [mul multprec_homotopy 59 12 none] [matrixIP multprec_complex_matrices 16 8 5_1]
+G r c none [mul multprec_homotopy 59 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r s term [linear_start_factor multprec_homotopy 77 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [linear_start_factor multprec_homotopy 77 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [linear_start_factor multprec_homotopy 77 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [linear_start_factor multprec_homotopy 77 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [linear_start_factor multprec_homotopy 77 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_start_factor multprec_homotopy 77 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [linear_start_factor multprec_homotopy 77 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r s term [nonlinear_start_factor multprec_homotopy 104 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [mul multprec_complex_polynomials 108 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [Osubtract multprec_complex_numbers 61 12 5_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [mul multprec_complex_polynomials 107 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [add multprec_complex_polynomials 102 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [sub multprec_complex_polynomials 106 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_start_factor multprec_homotopy 104 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r s term [linear_target_factor multprec_homotopy 138 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [linear_target_factor multprec_homotopy 138 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [linear_target_factor multprec_homotopy 138 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [linear_target_factor multprec_homotopy 138 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r s term [linear_target_factor multprec_homotopy 157 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [linear_target_factor multprec_homotopy 157 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [linear_target_factor multprec_homotopy 157 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r s term [nonlinear_target_factor multprec_homotopy 177 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [mul multprec_complex_polynomials 108 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [mul multprec_complex_polynomials 107 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [sub multprec_complex_polynomials 106 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_target_factor multprec_homotopy 177 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [plus_one_unknown multprec_homotopy 210 12 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r s term [plus_one_unknown multprec_homotopy 210 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [plus_one_unknown multprec_homotopy 210 12 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r s poly_sys [linear_homotopy multprec_homotopy 239 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s term [linear_homotopy multprec_homotopy 239 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [linear_homotopy multprec_homotopy 239 12 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 239 12 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r s poly_sys [linear_homotopy multprec_homotopy 262 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s term [linear_homotopy multprec_homotopy 262 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [linear_homotopy multprec_homotopy 262 12 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 262 12 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r s poly_sys [linear_homotopy multprec_homotopy 285 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s term [linear_homotopy multprec_homotopy 285 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [linear_homotopy multprec_homotopy 285 12 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [linear_homotopy multprec_homotopy 285 12 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+G r s poly_sys [nonlinear_homotopy multprec_homotopy 308 12 none] [poly_sysIP multprec_complex_poly_systems 22 8 5_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [number_of_unknowns multprec_complex_polynomials 48 12 4_1]
+G r s term [nonlinear_homotopy multprec_homotopy 308 12 none] [termIP multprec_complex_polynomials 23 8 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [create multprec_complex_polynomials 38 12 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [sub multprec_complex_polynomials 104 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [mul multprec_complex_polynomials 108 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [Osubtract multprec_complex_numbers 61 12 5_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [mul multprec_complex_polynomials 107 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [add multprec_complex_polynomials 102 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [sub multprec_complex_polynomials 106 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [copy multprec_complex_polynomials 41 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [mul multprec_complex_polynomials 109 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [clear standard_natural_vectors 72 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [clear multprec_complex_polynomials 130 13 4_1]
+G r i none [nonlinear_homotopy multprec_homotopy 308 12 none] [changing_iterator multprec_complex_polynomials 121 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [is_null multprec_complex_polynomials__term_list 72 12 134_3_4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [head_of multprec_complex_polynomials__term_list 77 12 134_3_4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [copy multprec_complex_polynomials 40 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [equal multprec_complex_numbers 40 12 5_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [append multprec_complex_polynomials__term_list 43 13 134_3_4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [clear multprec_complex_polynomials 129 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [tail_of multprec_complex_polynomials__term_list 84 12 134_3_4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [clear multprec_complex_polynomials__term_list 93 13 134_3_4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [free multprec_complex_polynomials 20 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [shuffle multprec_complex_polynomials 22 13 4_1]
+G r c none [nonlinear_homotopy multprec_homotopy 308 12 none] [Oadd multprec_complex_polynomials 89 12 4_1]
+X 12 generic_complex_numbers.ads
+19R8*Complex_Number 39|17r29[27|5] 57r42[27|5] 92r23[27|5] 97r23[27|5] 104r35[27|5]
+. 109r35[27|5] 114r35[27|5] 120r35[27|5] 126r35[27|5] 40|79r23[27|5] 106r23[27|5]
+. 159r23[27|5] 179r23[27|5] 240r60[27|5] 332r29[27|5] 456r42[27|5] 523r23[27|5]
+. 535r21[27|5] 573r23[27|5] 584r30[27|5] 634r35[27|5] 672r35[27|5] 683r35[27|5]
+. 743r35[27|5] 766r35[27|5]
+23V12*Create{19R8[27|5]} 40|589s20[27|5]
+25V12*Create{19R8[27|5]} 40|91s13[27|5] 116s13[27|5] 148s13[27|5] 189s13[27|5]
+. 357s21[27|5] 386s21[27|5] 543s26[27|5] 595s21[27|5] 606s26[27|5] 650s20[27|5]
+. 655s23[27|5] 707s20[27|5] 716s23[27|5]
+26V12*Create{19R8[27|5]} 40|462s16[27|5] 473s22[27|5]
+35V12*AbsVal{36|16R8} 40|539s21[27|5]
+40V12*Equal{boolean} 40|544s18[27|5] 596s16[27|5] 607s18[27|5] 650s12[27|5]
+. 655s15[27|5] 707s12[27|5] 716s15[27|5]
+41U13*Copy 40|549s19[27|5] 550s19[27|5]
+61V13*"-"{19R8[27|5]} 40|123s13[27|5]
+62V13*"*"{19R8[27|5]} 40|69s25[27|5] 591s41[27|5] 593s40[27|5]
+75U13*Sub 40|547s17[27|5] 610s17[27|5]
+76U13*Min 40|592s15[27|5]
+77U13*Mul 40|552s21[27|5] 553s21[27|5]
+82U13*Clear 40|562s15[27|5] 620s15[27|5] 622s13[27|5] 623s13[27|5]
+X 13 generic_jacobian_matrices.ads
+40A8*Jaco_Mat(19|28P8[31|4])<45|6I8><45|6I8> 40|23r10[25|11] 336r13[25|11]
+. 367r13[25|11] 397r13[25|11]
+42A8*Eval_Jaco_Mat(17|26P8[28|6])<45|6I8><45|6I8> 40|24r11[25|11] 32r19[25|11]
+64V12*Create{40A8[25|11]} 40|345s11[25|11] 346s11[25|11] 347s14[25|11] 376s11[25|11]
+. 377s11[25|11] 378s14[25|11] 410s11[25|11] 411s11[25|11] 412s14[25|11] 432s14[25|11]
+69V12*Create{42A8[25|11]} 40|348s15[25|11] 349s15[25|11] 350s15[25|11] 379s15[25|11]
+. 380s15[25|11] 381s15[25|11] 413s15[25|11] 414s15[25|11] 415s15[25|11] 433s15[25|11]
+77V12*Eval{15|16A8[26|5]} 40|709s49[25|11] 718s49[25|11]
+86U13*Clear 40|351s5[25|11] 351s16[25|11] 382s5[25|11] 382s16[25|11] 416s5[25|11]
+. 416s16[25|11] 807s9[25|11]
+89U13*Clear 40|807s23[25|11] 813s13[25|11] 813s28[25|11]
+X 15 generic_matrices.ads
+16A8*Matrix(12|19R8[27|5])<45|6I8><45|6I8> 39|114r59[26|5] 126r74[26|5] 40|59r22[26|5]
+. 59r50[26|5] 64r11[26|5] 683r59[26|5] 693r15[26|5] 709r26[26|5] 718r26[26|5]
+. 727r17[26|5] 767r42[26|5] 773r11[26|5]
+X 16 generic_poly_system_functions.ads
+33A8*Eval_Poly_Sys(17|26P8[28|6])<45|6I8> 40|22r10[29|9] 31r17[29|9]
+43V12*Create{33A8[29|9]} 40|342s14[29|9] 343s14[29|9] 344s14[29|9] 373s14[29|9]
+. 374s14[29|9] 375s14[29|9] 407s14[29|9] 408s14[29|9] 409s14[29|9] 431s14[29|9]
+55V12*Eval{18|22A8[30|5]} 40|530s16[29|9]
+57V12*Eval{21|16A8[34|4]} 40|647s18[29|9] 652s35[29|9] 653s24[29|9] 657s34[29|9]
+. 658s24[29|9] 666s20[29|9]
+63U13*Clear 40|806s23[29|9] 811s28[29|9] 812s28[29|9]
+X 17 generic_polynomial_functions.ads
+26P8*Eval_Poly
+57V12*Eval{12|19R8[27|5]} 40|701s25[28|6] 734s27[28|6] 761s17[28|6] 785s21[28|6]
+. 790s23[28|6]
+X 18 generic_polynomial_systems.ads
+22A8*Poly_Sys(19|28P8[31|4])<45|6I8> 39|16r31[30|5] 23r31[30|5] 29r31[30|5]
+. 41r29[30|5] 71r33[30|5] 78r32[30|5] 85r35[30|5] 92r47[30|5] 97r47[30|5]
+. 40|21r9[30|5] 30r15[30|5] 45r34[30|5] 45r52[30|5] 50r11[30|5] 240r25[30|5]
+. 241r21[30|5] 243r9[30|5] 263r25[30|5] 264r21[30|5] 266r9[30|5] 286r25[30|5]
+. 287r21[30|5] 289r9[30|5] 309r25[30|5] 310r21[30|5] 312r9[30|5] 331r31[30|5]
+. 363r31[30|5] 392r31[30|5] 423r29[30|5] 494r33[30|5] 502r32[30|5] 510r35[30|5]
+. 523r47[30|5] 534r21[30|5] 573r47[30|5] 585r17[30|5] 586r17[30|5]
+29U13*Copy 40|340s5[30|5] 340s19[30|5] 371s5[30|5] 371s19[30|5] 401s5[30|5]
+. 401s19[30|5] 430s5[30|5]
+45V13*"*"{22A8[30|5]} 40|608s28[30|5]
+48U13*Add 40|558s17[30|5] 600s17[30|5] 617s17[30|5]
+55V13*Diff{22A8[30|5]} 40|580s16[30|5]
+60U13*Clear 40|559s17[30|5] 601s17[30|5] 618s17[30|5] 806s9[30|5] 811s13[30|5]
+. 812s13[30|5]
+X 19 generic_polynomials.ads
+21P8*Degrees<21|17P8[48|4]>
+23R8*Term 40|85r9[31|4] 113r9[31|4] 145r9[31|4] 165r9[31|4] 186r9[31|4] 217r49[31|4]
+24r5*cf{12|19R8[27|5]} 40|88m7[31|4] 91m7[31|4] 116m7[31|4] 148m7[31|4] 168m7[31|4]
+. 189m7[31|4]
+25p5*dg{21P8[31|4]} 40|89m7[31|4] 93r7[31|4] 96m50[31|4] 117m7[31|4] 120r7[31|4]
+. 133m50[31|4] 149m7[31|4] 150r7[31|4] 153m50[31|4] 169m7[31|4] 170r7[31|4]
+. 173m50[31|4] 190m7[31|4] 192r7[31|4] 205m50[31|4] 219r35[31|4] 223r23[31|4]
+. 226m52[31|4] 227m9[31|4]
+28P8*Poly 40|79r47[31|4] 84r15[31|4] 106r47[31|4] 112r15[31|4] 139r60[31|4]
+. 144r11[31|4] 159r47[31|4] 164r11[31|4] 179r47[31|4] 185r15[31|4] 210r38[31|4]
+. 210r52[31|4] 215r11[31|4] 244r31[31|4] 267r31[31|4] 290r31[31|4] 313r31[31|4]
+38V12*Create{28P8[31|4]} 40|90s12[31|4] 92s12[31|4] 118s12[31|4] 119s12[31|4]
+. 151s12[31|4] 171s12[31|4] 191s12[31|4] 193s12[31|4]
+41U13*Copy 40|127s7[31|4] 199s7[31|4] 234s5[31|4]
+48V12*Number_of_Unknowns{46|7I8} 40|245s42[31|4] 268s42[31|4] 291s42[31|4]
+. 314s42[31|4] 335s42[31|4] 366s42[31|4] 396s42[31|4] 426s42[31|4]
+89V13*"+"{28P8[31|4]} 40|255s21[31|4] 278s21[31|4] 301s21[31|4] 324s21[31|4]
+95V13*"*"{28P8[31|4]} 40|54s21[31|4]
+102U13*Add 40|124s5[31|4]
+104U13*Sub 40|94s5[31|4] 121s5[31|4] 194s5[31|4]
+106U13*Sub 40|125s5[31|4] 197s5[31|4]
+107U13*Mul 40|123s5[31|4] 196s5[31|4]
+108U13*Mul 40|122s5[31|4] 195s5[31|4]
+109U13*Mul 40|98s7[31|4] 129s9[31|4] 201s9[31|4] 253s7[31|4] 254s7[31|4]
+. 276s7[31|4] 277s7[31|4] 299s7[31|4] 300s7[31|4] 322s7[31|4] 323s7[31|4]
+120U20 process 40|231r30[31|4]
+121u13*Changing_Iterator 40|231r11[31|4]
+130U13*Clear 40|100s5[31|4] 134s5[31|4] 206s5[31|4] 256s7[31|4] 256s21[31|4]
+. 258s5[31|4] 258s19[31|4] 279s7[31|4] 279s21[31|4] 280s7[31|4] 280s21[31|4]
+. 302s7[31|4] 302s21[31|4] 303s7[31|4] 303s21[31|4] 325s7[31|4] 325s21[31|4]
+. 326s7[31|4] 326s21[31|4]
+X 21 generic_vectors.ads
+16A8*Vector(12|19R8[27|5])<45|6I8> 39|23r66[34|4] 29r68[34|4] 104r23[34|4]
+. 104r59[34|4] 109r23[34|4] 109r59[34|4] 114r23[34|4] 120r23[34|4] 120r74[34|4]
+. 126r23[34|4] 40|34r22[34|4] 45r22[34|4] 59r34[34|4] 89r42[48|4] 117r42[48|4]
+. 149r42[48|4] 169r42[48|4] 190r42[48|4] 220r39[48|4] 227r44[48|4] 263r60[34|4]
+. 286r62[34|4] 309r62[34|4] 363r66[34|4] 392r68[34|4] 533r31[34|4] 583r31[34|4]
+. 634r23[34|4] 634r59[34|4] 642r15[34|4] 662r17[34|4] 672r23[34|4] 672r59[34|4]
+. 683r23[34|4] 694r15[34|4] 728r17[34|4] 743r23[34|4] 744r42[34|4] 749r9[34|4]
+. 750r11[34|4] 766r23[34|4] 772r9[34|4]
+17P8*Link_to_Vector(16A8[48|4]) 40|96r33[48|4] 133r33[48|4] 153r33[48|4]
+. 173r33[48|4] 205r33[48|4] 226r35[48|4]
+47V13*"*"{16A8[34|4]} 40|652s33[34|4] 657s32[34|4]
+64U13*Mul 40|612s19[34|4] 613s19[34|4]
+71U13*Clear 40|560s17[34|4] 560s34[34|4]
+72U13*Clear 40|95s30[48|4] 132s30[48|4] 152s30[48|4] 172s30[48|4] 204s30[48|4]
+. 225s32[48|4]
+X 25 multprec_complex_jaco_matrices.ads
+11K9*Multprec_Complex_Jaco_Matrices[13|25] 40|7w6 7r46
+X 26 multprec_complex_matrices.ads
+5K9*Multprec_Complex_Matrices[15|9] 39|5w6 5r46
+X 27 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[12|11] 39|3w6 3r46
+X 28 multprec_complex_poly_functions.ads
+6K9*Multprec_Complex_Poly_Functions[17|12] 40|5w6 5r46
+X 29 multprec_complex_poly_sysfun.ads
+9K9*Multprec_Complex_Poly_SysFun[16|19] 40|6w6 6r46
+X 30 multprec_complex_poly_systems.ads
+5K9*Multprec_Complex_Poly_Systems[18|12] 39|6w6 6r46
+X 31 multprec_complex_polynomials.ads
+4K9*Multprec_Complex_Polynomials[19|11] 40|4w6 4r46
+X 34 multprec_complex_vectors.ads
+4K9*Multprec_Complex_Vectors[21|8] 39|4w6 4r46
+X 36 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 221e30 40|2w6 2r46
+16R8*Floating_Number 219e13 40|460r25 471r31 536r18
+21V12*Create{16R8} 40|460s44 471s50
+101V12*Equal{boolean} 40|540s16
+210U13*Clear 40|564s13
+X 39 multprec_homotopy.ads
+8K9*Multprec_Homotopy 139l5 139e22 40|9b14 820l5 820t22
+16U13*Create 16>22 16>24 16>41 17>22 40|331b13 361l7 361t13
+16a22 p{18|22A8[30|5]} 40|331b22 334r32 335r61 335r63 340r10 341r29
+16a24 q{18|22A8[30|5]} 40|331b24 340r24 341r31
+16i41 k{46|7I8} 40|331b41 341r33 352r13
+17r22 a{12|19R8[27|5]} 40|332b22 341r35 354r22
+23U13*Create 23>22 23>24 23>41 23>59 40|363b13 390l7 390t13
+23a22 p{18|22A8[30|5]} 40|363b22 365r32 366r61 366r63 371r10 372r29
+23a24 q{18|22A8[30|5]} 40|363b24 371r24 372r31
+23i41 k{46|7I8} 40|363b41 372r33 383r13
+23a59 a{21|16A8[34|4]} 40|363b59 372r35 384r17
+29U13*Create 29>22 29>24 29>41 29>59 29>61 30>22 40|392b13 421l7 421t13
+29a22 p{18|22A8[30|5]} 40|392b22 395r32 396r61 396r63 401r10 404r35 405r38
+29a24 q{18|22A8[30|5]} 40|392b24 401r24 404r37 405r40
+29i41 k{46|7I8} 40|392b41 404r39 405r42 417r13
+29a59 a{21|16A8[34|4]} 40|392b59 404r41 405r44 418r17
+29a61 b{21|16A8[34|4]} 40|392b61 404r43 405r46 419r16
+30b22 linear{boolean} 40|393b22 402r18 403r8
+41U13*Create 41>22 41>39 40|423b13 436l7 436t13
+41a22 p{18|22A8[30|5]} 40|423b22 425r32 426r61 426r63 430r10
+41i39 k{45|6I8} 40|423b39 434r13
+49V12*Relaxation_Power{46|7I8} 40|440b12 454l7 454t23
+57V12*Accessibility_Constant{12|19R8[27|5]} 40|456b12 479l7 479t29
+65V12*Dimension{45|6I8} 40|481b12 492l7 492t16
+71V12*Target_System{18|22A8[30|5]} 40|494b12 500l7 500t20
+78V12*Start_System{18|22A8[30|5]} 40|502b12 508l7 508t19
+85V12*Homotopy_System{18|22A8[30|5]} 40|510b12 519l7 519t22
+92V12*Eval{18|22A8[30|5]} 92>19 40|523b12 571l7 571t11
+92r19 t{12|19R8[27|5]} 40|523b19 530r26 539r28 544r24 547r29 553r37
+97V12*Diff{18|22A8[30|5]} 97>19 40|573b12 630l7 630t11
+97r19 t{12|19R8[27|5]} 40|573b19 596r22 607r24 610r29 613r32
+104V12*Eval{21|16A8[34|4]} 104>19 104>31 40|634b12 670l7 670t11
+104a19 x{21|16A8[34|4]} 40|634b19 642r22 642r31 644r27 646r32 646r40 652r46
+. 653r35 657r45 658r35 662r24 662r33 664r15 664r27
+104r31 t{12|19R8[27|5]} 40|634b31 645r22 650r18 655r21 665r26
+109V12*Diff{21|16A8[34|4]} 109>19 109>31 40|672b12 681l7 681t11
+109a19 x{21|16A8[34|4]} 40|672b19 674r31 678r31 679r31
+109r31 t{12|19R8[27|5]} 40|672b31 678r33 679r33
+114V12*Diff{15|16A8[26|5]} 114>19 114>31 40|683b12 741l7 741t11
+114a19 x{21|16A8[34|4]} 40|683b19 696r27 698r30 709r61 718r61 730r25
+114r31 t{12|19R8[27|5]} 40|683b31 697r22 707r18 716r21 731r24
+120V12*Diff{21|16A8[34|4]} 120>19 120>31 120>51 40|678s26 679s26 743b12 764l7
+. 764t11
+120a19 x{21|16A8[34|4]} 40|743b19 754r35 756r38 757r31
+120r31 t{12|19R8[27|5]} 40|743b31 755r30 758r30
+120i51 k{45|6I8} 40|744b19 761r31
+126V12*Diff{15|16A8[26|5]} 126>19 126>31 126>51 40|766b12 794l7 794t11
+126a19 x{21|16A8[34|4]} 40|766b19 777r35 779r38 780r31
+126r31 t{12|19R8[27|5]} 40|766b31 778r30 781r30
+126i51 k{45|6I8} 40|767b19 783r18 788r15
+134U13*Clear 40|800b13 818l7 818t12
+X 40 multprec_homotopy.adb
+13E8 homtype 13e28 19r23
+13n20 nat{13E8} 27r12 427r18 449r16 469r16 516r12 529r12 579r12 640r12 678r12
+. 691r12 754r12 777r12 809r16
+13n24 art{13E8} 29r12 337r18 368r18 398r18 450r16 475r16 517r12 531r12 581r12
+. 649r12 679r12 706r12 757r12 780r12 810r16
+19R8 homdata 19d18 19d32 19d35 19d38 38e13 40r24 337r10 360r16 368r10 389r16
+. 398r10 420r16 427r10 435r16 446r14 466r14 487r14 496r10 504r10 512r10 525r10
+. 575r10 636r10 685r10 746r10 769r10 798r49 804r14
+19e18*ht{13E8} 26r10 677r14
+19i32*nq{45|6I8} 21r21 22r27 23r22 24r28 30r27 31r34 32r36 34r32
+19i35*nv{45|6I8} 32r42
+19i38*nv1{45|6I8} 23r28 24r34
+21a5*p{18|22A8[30|5]} 340m15 342r24 345r21 371m15 373r24 376r21 401m15 407r24
+. 410r21 430m15 431r24 432r24 499r15 516r29 530r24 545r39 556r40 580r24 598r40
+. 608r33 615r40 806m18
+22a5*pe{16|33A8[29|9]} 342m8 373m8 407m8 431m8 647r26 657r42 658r32 806m32
+23a5*dh{13|40A8[25|11]} 347m8 350r25 378m8 381r25 412m8 415r25 432m8 433r25
+. 807m18
+24a5*dhe{13|42A8[25|11]} 350m8 381m8 415m8 433m8 701r33 734r35 761r25 785r29
+. 790r31 807m32
+28i9*i{45|6I8} 434m8 530r31 580r29 644r19 644r35 645r16 646r16 646r37 678r39
+. 696r19 696r35 697r16 698r16 698r35 754r27 754r43 755r24 756r24 756r43 777r27
+. 777r43 778r24 779r24 779r43
+30a9*q{18|22A8[30|5]} 340m29 343r24 346r21 371m29 374r24 377r21 401m29 408r24
+. 411r21 507r15 541r38 557r40 599r40 603r40 616r40 811m22
+30a11*h{18|22A8[30|5]} 341m8 344r24 347r24 372m8 375r24 378r24 404m14 405m14
+. 409r24 412r24 517r29 812m22
+31a9*qe{16|33A8[29|9]} 343m8 374m8 408m8 652r43 653r32 811m37
+31a12*he{16|33A8[29|9]} 344m8 375m8 409m8 666r28 812m37
+32a9*dpe{13|42A8[25|11]} 348m8 379m8 413m8 718r57 813m22
+32a13*dqe{13|42A8[25|11]} 349m8 380m8 414m8 709r57 813m37
+33i9*k{46|7I8} 352m8 383m8 417m8 450r33 551r44 589r30 597r21 611r33
+34a9*gamma{21|16A8[34|4]} 354m10 384m8 418m8 475r33 541r29 549r27 591r33
+. 652r27 712r35
+34a15*beta{21|16A8[34|4]} 357m10 386m10 419m8 545r31 550r27 593r33 657r27
+. 721r35
+35b9*linear{boolean} 359m8 388m8 402m8 538r17 588r17 651r17 656r17 711r19
+. 720r19
+40P8 homtp(19R8) 41r9 798r57
+41p3 hom{40P8} 360m5 389m5 420m5 435m5 442r8 446r30 458r8 466r30 483r8 487r30
+. 496r26 504r26 512r26 525r26 575r26 636r26 677r10 678r35 685r26 746r26 769r26
+. 802r8 804r30 816m12 816r12
+45V12 Mul{18|22A8[30|5]} 45b12 45>18 45>30 57l7 57t10 541s22 545s24 556s24
+. 557s24 598s24 599s24 603s24 615s24 616s24
+45a18 v{21|16A8[34|4]} 54r17
+45a30 p{18|22A8[30|5]} 50r20 53r14 54r22
+50a5 res{18|22A8[30|5]} 54m7 56r12
+53i9 i<long_integer> 54r11 54r19 54r24
+59V12 Mul{15|16A8[26|5]} 59b12 59>18 59>30 73l7 73t10 712s26 721s26
+59a18 m{15|16A8[26|5]} 64r18 64r29 67r14 68r16 69r26
+59a30 v{21|16A8[34|4]} 69r21
+64a5 res{15|16A8[26|5]} 69m9 72r12
+67i9 i<long_integer> 69r13 69r23 69r28
+68i11 j<long_integer> 69r15 69r30
+77V12 Linear_Start_Factor{19|28P8[31|4]} 77b12 78>16 78>34 79>16 102l7 102t26
+. 248s14 272s16 295s16
+78i16 n{45|6I8} 89r53 93r10
+78i34 k{46|7I8} 97r17
+79r16 a{12|19R8[27|5]} 88r13
+84p5 res{19|28P8[31|4]} 90m5 98m11 98r11 101r12
+84p9 tmp{19|28P8[31|4]} 92m5 94m9 94r9 98r15 100m11 100r11
+85r5 t{19|23R8[31|4]} 88m5 89m5 90r19 91m5 92r19 93m5 93r5 94r13 96m48 96r48
+97i9 i<long_integer>
+104V12 Nonlinear_Start_Factor{19|28P8[31|4]} 104b12 105>16 105>34 106>16
+. 136l7 136t29 318s16
+105i16 n{45|6I8} 117r53 120r10
+105i34 k{46|7I8} 126r8 128r20
+106r16 a{12|19R8[27|5]} 123r14
+112p5 res{19|28P8[31|4]} 118m5 125m9 125r9 127r12 129m13 129r13 135r12
+112p9 tmp{19|28P8[31|4]} 119m5 121m9 121r9 122m9 122r9 123m9 123r9 124m9
+. 124r9 125r13 127m16 127r16 129r17 134m11 134r11
+113r5 t{19|23R8[31|4]} 116m5 117m5 118r19 119r19 120m5 120r5 121r13 122r13
+. 124r13 133m48 133r48
+128i11 i<long_integer>
+138V12 Linear_Target_Factor{19|28P8[31|4]} 138b12 139>16 139>34 155l7 155t27
+. 249s14 273s16
+139i16 n{45|6I8} 149r53 150r10
+139i34 k{46|7I8} 150r18
+144p5 res{19|28P8[31|4]} 151m5 154r12
+145r5 t{19|23R8[31|4]} 148m5 149m5 150m5 150r5 151r19 153m48 153r48
+157V12 Linear_Target_Factor{19|28P8[31|4]} 157b12 158>16 158>34 159>16 175l7
+. 175t27 296s16
+158i16 n{45|6I8} 169r53 170r10
+158i34 k{46|7I8} 170r18
+159r16 a{12|19R8[27|5]} 168r13
+164p5 res{19|28P8[31|4]} 171m5 174r12
+165r5 t{19|23R8[31|4]} 168m5 169m5 170m5 170r5 171r19 173m48 173r48
+177V12 Nonlinear_Target_Factor{19|28P8[31|4]} 177b12 178>16 178>34 179>16
+. 208l7 208t30 319s16
+178i16 n{45|6I8} 190r53 192r10
+178i34 k{46|7I8} 198r8 200r20
+179r16 a{12|19R8[27|5]} 196r13
+185p5 res{19|28P8[31|4]} 193m5 197m9 197r9 199r12 201m13 201r13 207r12
+185p9 tmp{19|28P8[31|4]} 191m5 194m9 194r9 195m9 195r9 196m9 196r9 197r13
+. 199m16 199r16 201r17 206m11 206r11
+186r5 t{19|23R8[31|4]} 189m5 190m5 191r19 192m5 192r5 193r19 194r13 195r13
+. 205m48 205r48
+200i11 i<long_integer>
+210V12 Plus_one_Unknown{19|28P8[31|4]} 210b12 210>31 237l7 237t23 251s16
+. 252s16 274s16 275s16 297s16 298s16 320s16 321s16
+210p31 p{19|28P8[31|4]} 234r10
+215p5 res{19|28P8[31|4]} 234m12 234r12 235m27 235r27 236r12
+217U15 Plus_Unknown_In_Term 217b15 217=38 217<55 229l9 229t29 231r41
+217r38 t{19|23R8[31|4]} 219r33 223r21 226m50 226r50 227m7
+217b55 c{boolean} 228m7
+219i7 n{45|6I8} 220r50 223r15 224r12
+220a7 temp{21|16A8[48|4]} 223m7 224m7 227r52
+230U15 Plus_Unknown_In_Terms[19|121] 235s5
+239V12 Linear_Homotopy{18|22A8[30|5]} 239b12 240>16 240>18 240>35 240>53
+. 260l7 260t22 341s13
+240a16 p{18|22A8[30|5]} 243r18 245r61 245r63 252r33
+240a18 q{18|22A8[30|5]} 251r33
+240i35 k{46|7I8} 248r37 249r38
+240r53 a{12|19R8[27|5]} 248r39
+243a5 h{18|22A8[30|5]} 250r14 255m7 259r12
+244p5 tempp{19|28P8[31|4]} 252m7 254m11 254r11 255r23 256m27 256r27
+244p11 tempq{19|28P8[31|4]} 251m7 253m11 253r11 255r15 256m13 256r13
+244p17 q_fac{19|28P8[31|4]} 248m5 253r17 258m11 258r11
+244p23 p_fac{19|28P8[31|4]} 249m5 254r17 258m25 258r25
+245i5 nv{45|6I8} 248r34 249r35
+250i9 i<long_integer> 251r35 252r35 255r9
+262V12 Linear_Homotopy{18|22A8[30|5]} 262b12 263>16 263>18 263>35 263>53
+. 283l7 283t22 372s13
+263a16 p{18|22A8[30|5]} 266r18 268r61 268r63 275r33
+263a18 q{18|22A8[30|5]} 274r33
+263i35 k{46|7I8} 272r39 273r40
+263a53 a{21|16A8[34|4]} 272r41
+266a5 h{18|22A8[30|5]} 271r14 278m7 282r12
+267p5 tempp{19|28P8[31|4]} 275m7 277m11 277r11 278r23 279m27 279r27
+267p11 tempq{19|28P8[31|4]} 274m7 276m11 276r11 278r15 279m13 279r13
+267p17 q_fac{19|28P8[31|4]} 272m7 276r17 280m13 280r13
+267p23 p_fac{19|28P8[31|4]} 273m7 277r17 280m27 280r27
+268i5 nv{45|6I8} 272r36 273r37
+271i9 i<long_integer> 272r43 274r35 275r35 278r9
+285V12 Linear_Homotopy{18|22A8[30|5]} 285b12 286>16 286>18 286>35 286>53
+. 286>55 306l7 306t22 404s19
+286a16 p{18|22A8[30|5]} 289r18 291r61 291r63 298r33
+286a18 q{18|22A8[30|5]} 297r33
+286i35 k{46|7I8} 295r39 296r40
+286a53 a{21|16A8[34|4]} 295r41
+286a55 b{21|16A8[34|4]} 296r42
+289a5 h{18|22A8[30|5]} 294r14 301m7 305r12
+290p5 tempp{19|28P8[31|4]} 298m7 300m11 300r11 301r23 302m27 302r27
+290p11 tempq{19|28P8[31|4]} 297m7 299m11 299r11 301r15 302m13 302r13
+290p17 q_fac{19|28P8[31|4]} 295m7 299r17 303m13 303r13
+290p23 p_fac{19|28P8[31|4]} 296m7 300r17 303m27 303r27
+291i5 nv{45|6I8} 295r36 296r37
+294i9 i<long_integer> 295r43 296r44 297r35 298r35 301r9
+308V12 Nonlinear_Homotopy{18|22A8[30|5]} 308b12 309>16 309>18 309>35 309>53
+. 309>55 329l7 329t25 405s19
+309a16 p{18|22A8[30|5]} 312r18 314r61 314r63 321r33
+309a18 q{18|22A8[30|5]} 320r33
+309i35 k{46|7I8} 318r42 319r43
+309a53 a{21|16A8[34|4]} 318r44
+309a55 b{21|16A8[34|4]} 319r45
+312a5 h{18|22A8[30|5]} 317r14 324m7 328r12
+313p5 tempp{19|28P8[31|4]} 321m7 323m11 323r11 324r23 325m27 325r27
+313p11 tempq{19|28P8[31|4]} 320m7 322m11 322r11 324r15 325m13 325r13
+313p17 q_fac{19|28P8[31|4]} 318m7 322r17 326m13 326r13
+313p23 p_fac{19|28P8[31|4]} 319m7 323r17 326m27 326r27
+314i5 nv{45|6I8} 318r39 319r40
+317i9 i<long_integer> 318r46 319r47 320r35 321r35 324r9
+334i5 nq{45|6I8} 336r25 337r22 353r17 356r17
+335i5 nv{45|6I8} 336r31 337r25 337r28
+336a5 dp{13|40A8[25|11]} 345m5 348r22 351m11 351r11
+336a8 dq{13|40A8[25|11]} 346m5 349r22 351m22 351r22
+337r5 ho{19R8} 340m12 340r12 340m26 340r26 341m5 342m5 342r21 343m5 343r21
+. 344m5 344r21 345r18 346r18 347m5 347r21 348m5 349m5 350m5 350r22 352m5
+. 354m7 357m7 359m5 360r25
+353i9 i<long_integer> 354r16
+356i9 i<long_integer> 357r15
+365i5 nq{45|6I8} 367r25 368r22 385r17
+366i5 nv{45|6I8} 367r31 368r25 368r28
+367a5 dp{13|40A8[25|11]} 376m5 379r22 382m11 382r11
+367a8 dq{13|40A8[25|11]} 377m5 380r22 382m22 382r22
+368r5 ho{19R8} 371m12 371r12 371m26 371r26 372m5 373m5 373r21 374m5 374r21
+. 375m5 375r21 376r18 377r18 378m5 378r21 379m5 380m5 381m5 381r22 383m5
+. 384m5 386m7 388m5 389r25
+385i9 i<long_integer> 386r15
+395i5 nq{45|6I8} 397r25 398r22
+396i5 nv{45|6I8} 397r31 398r25 398r28
+397a5 dp{13|40A8[25|11]} 410m5 413r22 416m11 416r11
+397a8 dq{13|40A8[25|11]} 411m5 414r22 416m22 416r22
+398r5 ho{19R8} 401m12 401r12 401m26 401r26 402m5 404m11 405m11 407m5 407r21
+. 408m5 408r21 409m5 409r21 410r18 411r18 412m5 412r21 413m5 414m5 415m5
+. 415r22 417m5 418m5 419m5 420r25
+425i5 nq{45|6I8} 427r22
+426i5 nv{45|6I8} 427r25 427r28
+427r5 ho{19R8} 430m12 430r12 431m5 431r21 432m5 432r21 433m5 433r22 434m5
+. 435r25
+446r9 ho{19R8} 448r14 450r30
+460r9 zero{36|16R8} 462r23
+466r9 ho{19R8} 468r14 475r30
+471r15 zero{36|16R8} 473r29
+487r9 ho{19R8} 489r16
+496r5 ho{19R8} 499r12
+504r5 ho{19R8} 507r12
+512r5 ho{19R8} 515r10 516r26 517r26
+525r5 ho{19R8} 528r10 530r21 530r28 533r41 534r33 538r14 541r26 541r35 545r28
+. 545r36 548r29 549r24 550r24 551r41 556r37 557r37
+533a11 p_factor{21|16A8[34|4]} 550m35 550r35 553m25 553r25 556r28 560m40
+. 560r40
+533a20 q_factor{21|16A8[34|4]} 549m36 549r36 552m25 552r25 557r28 560m23
+. 560r23
+534a11 res{18|22A8[30|5]} 541m15 545m17 556m17 558m21 558r21 565r20 567r20
+534a15 tmp{18|22A8[30|5]} 557m17 558r25 559m23 559r23
+535r11 onemint{12|19R8[27|5]} 543m15 544r26 547m21 547r21 552r37 562m21 562r21
+536r11 abst{36|16R8} 539m13 540r22 564m19 564r19
+548i21 i<long_integer> 549r33 549r45 550r32 550r44
+551i23 i<long_integer> 552r34 553r34
+575r5 ho{19R8} 578r10 580r21 580r26 583r41 585r29 586r29 588r14 589r27 590r25
+. 591r30 593r30 597r18 598r37 599r37 603r37 608r30 611r30 615r37 616r37
+583a11 q_factor{21|16A8[34|4]} 591m15 592m19 592r19 599r28 603r28 612m23
+. 612r23 616r28
+583a20 p_factor{21|16A8[34|4]} 593m15 598r28 613m23 613r23 615r28
+584r11 onemint{12|19R8[27|5]} 606m15 607r26 610m21 610r21 612r32 620m21 620r21
+584r19 hok{12|19R8[27|5]} 589m13 591r42 593r41 608r24 623m19 623r19
+584r23 zero{12|19R8[27|5]} 595m13 596r24 622m19 622r19
+585a11 tmp{18|22A8[30|5]} 599m17 600r25 601m23 601r23 616m17 617r25 618m23
+. 618r23
+586a11 res{18|22A8[30|5]} 598m17 600m21 600r21 603m17 608m17 615m17 617m21
+. 617r21 624r20 626r20
+590i17 i<long_integer> 591r24 591r39 592r28 593r24 593r38
+611i21 i<long_integer>
+636r5 ho{19R8} 639r10 644r16 644r32 645r13 646r13 646r34 647r23 651r14 652r24
+. 652r40 653r29 656r14 657r24 657r39 658r29 666r25
+642a11 y{21|16A8[34|4]} 644m11 645m11 646m11 646r21 647r29
+662a13 y{21|16A8[34|4]} 664m13 665m13 665r15 666r31
+674i5 n{45|6I8} 679r35
+685r5 ho{19R8} 686r28 687r28 690r10 696r16 696r32 697r13 698r13 698r32 701r30
+. 709r54 711r16 712r32 718r54 720r16 721r32 734r32
+686i5 nq{45|6I8} 693r25 699r23 709r36 718r36 727r27 732r25
+687i5 nv{45|6I8} 693r31 694r25 698r21 698r38 700r25 709r42 718r42 727r33
+. 728r27 730r18 731r15 733r27
+693a11 m{15|16A8[26|5]} 701m15 704r18
+694a11 y{21|16A8[34|4]} 696m11 697m11 698m11 701r42
+699i15 i<long_integer> 701r17 701r37
+700i17 j<long_integer> 701r19 701r39
+709a13 m{15|16A8[26|5]} 712r30 713r26
+718a13 m{15|16A8[26|5]} 721r30 722r26
+727a13 m{15|16A8[26|5]} 734m17 737r20
+728a13 y{21|16A8[34|4]} 730m13 731m13 734r44
+732i17 i<long_integer> 734r19 734r39
+733i19 j<long_integer> 734r21 734r41
+746r5 ho{19R8} 747r28 748r28 753r10 754r24 754r40 755r21 756r21 756r40 761r22
+747i5 nq{45|6I8} 750r21 760r17
+748i5 nv{45|6I8} 749r19 756r29 756r46 757r24 758r21
+749a5 y{21|16A8[34|4]} 754m19 755m19 756m19 757m19 758m19 761r34
+750a5 res{21|16A8[34|4]} 761m7 763r12
+760i9 i<long_integer> 761r11 761r29
+769r5 ho{19R8} 770r28 771r28 776r10 777r24 777r40 778r21 779r21 779r40 785r26
+. 790r28
+770i5 nq{45|6I8} 773r21 784r19 789r19
+771i5 nv{45|6I8} 772r19 773r27 779r29 779r46 780r24 781r21 788r22
+772a5 y{21|16A8[34|4]} 777m19 778m19 779m19 780m19 781m19 785r38 790r40
+773a5 res{15|16A8[26|5]} 785m9 790m9 793r12
+783i9 j<long_integer> 785r15 785r35
+784i11 i<long_integer> 785r13 785r33
+788i9 j<long_integer> 790r15 790r37
+789i11 i<long_integer> 790r13 790r35
+798U13 free[66|22] 816s7
+804r9 ho{19R8} 806r15 806r29 807r15 807r29 808r14 811r19 811r34 812r19 812r34
+. 813r19 813r34
+X 45 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 39|2w6 2r46 45|45e29
+6I8*integer32<long_integer> 39|41r46 65r29 120r55 126r55 40|19r44 28r13 78r23
+. 105r23 139r23 158r23 178r23 219r20 245r19 245r32 268r19 268r32 291r19 291r32
+. 314r19 314r32 334r19 335r19 335r32 365r19 366r19 366r32 395r19 396r19 396r32
+. 423r46 425r19 426r19 426r32 481r29 551r31 674r18 686r10 687r10 744r23 747r10
+. 748r10 767r23 770r10 771r10
+X 46 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 39|1w6 1r46 46|30e29
+7I8*natural32<long_integer> 39|16r48 23r48 29r48 49r36 40|33r13 78r41 105r41
+. 139r41 158r41 178r41 240r42 263r42 286r42 309r42 331r48 363r48 392r48 440r36
+. 460r51 471r57
+X 48 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[21|8] 40|3w6 89r17 95r5 96r8 117r17 132r5 133r8
+. 149r17 152r5 153r8 169r17 172r5 173r8 190r17 204r5 205r8 220r14 225r7 226r10
+. 227r19
+X 66 unchdeal.ads
+22u11*Unchecked_Deallocation 40|1w6 798r25
+

@@ -1,0 +1,167 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pentdobl_complex_numbers_cv%b  pentdobl_complex_numbers_cv.adb  0d04836f NE OO PK
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W multprec_pentdobl_convertors%s  multprec_pentdobl_convertors.adb  multprec_pentdobl_convertors.ali
+W penta_double_numbers%s  penta_double_numbers.adb  penta_double_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+U pentdobl_complex_numbers_cv%s  pentdobl_complex_numbers_cv.ads  89362f62 EE NE OO PK
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W pentdobl_complex_numbers%s  pentdobl_complex_numbers.ads  pentdobl_complex_numbers.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D multprec_pentdobl_convertors.ads  20260513024558 21db530b multprec_pentdobl_convertors%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_numbers_cv.ads  20260513024558 35a6849e pentdobl_complex_numbers_cv%s
+D pentdobl_complex_numbers_cv.adb  20260513024558 c4a9abb3 pentdobl_complex_numbers_cv%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [standard_to_pentdobl_complex pentdobl_complex_numbers_cv 11 12 none]
+G c Z s b [multprec_to_pentdobl_complex pentdobl_complex_numbers_cv 14 12 none]
+G c Z s b [pentdobl_complex_to_standard pentdobl_complex_numbers_cv 22 12 none]
+G c Z s b [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none]
+G r c none [standard_to_pentdobl_complex pentdobl_complex_numbers_cv 11 12 none] [real_part standard_complex_numbers 24 12 none]
+G r c none [standard_to_pentdobl_complex pentdobl_complex_numbers_cv 11 12 none] [imag_part standard_complex_numbers 25 12 none]
+G r c none [standard_to_pentdobl_complex pentdobl_complex_numbers_cv 11 12 none] [create penta_double_numbers 42 12 none]
+G r c none [standard_to_pentdobl_complex pentdobl_complex_numbers_cv 11 12 none] [create pentdobl_complex_numbers 27 12 5_1]
+G r c none [multprec_to_pentdobl_complex pentdobl_complex_numbers_cv 14 12 none] [real_part multprec_complex_numbers 32 12 5_1]
+G r c none [multprec_to_pentdobl_complex pentdobl_complex_numbers_cv 14 12 none] [imag_part multprec_complex_numbers 33 12 5_1]
+G r c none [multprec_to_pentdobl_complex pentdobl_complex_numbers_cv 14 12 none] [to_penta_double multprec_pentdobl_convertors 23 12 none]
+G r c none [multprec_to_pentdobl_complex pentdobl_complex_numbers_cv 14 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [multprec_to_pentdobl_complex pentdobl_complex_numbers_cv 14 12 none] [create pentdobl_complex_numbers 27 12 5_1]
+G r c none [pentdobl_complex_to_standard pentdobl_complex_numbers_cv 22 12 none] [real_part pentdobl_complex_numbers 32 12 5_1]
+G r c none [pentdobl_complex_to_standard pentdobl_complex_numbers_cv 22 12 none] [imag_part pentdobl_complex_numbers 33 12 5_1]
+G r c none [pentdobl_complex_to_standard pentdobl_complex_numbers_cv 22 12 none] [to_double penta_double_numbers 105 12 none]
+G r c none [pentdobl_complex_to_standard pentdobl_complex_numbers_cv 22 12 none] [create standard_complex_numbers 19 12 none]
+G r s complex_number [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none] [real_part pentdobl_complex_numbers 32 12 5_1]
+G r c none [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none] [imag_part pentdobl_complex_numbers 33 12 5_1]
+G r c none [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none] [to_floating_number multprec_pentdobl_convertors 12 12 none]
+G r c none [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none] [create multprec_complex_numbers 27 12 5_1]
+G r c none [pentdobl_complex_to_multprec pentdobl_complex_numbers_cv 25 12 none] [clear multprec_floating_numbers 210 13 none]
+X 12 generic_complex_numbers.ads
+19R8*Complex_Number 27|13r46[26|5] 15r45[15|5] 16r46[26|5] 23r45[26|5] 26r45[26|5]
+. 27r46[15|5] 28|10r46[26|5] 12r36[26|5] 24r45[15|5] 25r46[26|5] 27r36[26|5]
+. 41r45[26|5] 56r45[26|5] 57r46[15|5] 59r36[15|5]
+27V12*Create{19R8[26|5]} 28|19s37[26|5] 36s37[26|5] 66s37[15|5]
+32V12*REAL_PART{16|16R8} 28|28s55[15|5] 45s61[26|5] 60s61[26|5]
+33V12*IMAG_PART{16|16R8} 28|29s55[15|5] 46s61[26|5] 61s61[26|5]
+X 15 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[12|11] 27|3w6 15r20 27r21 28|24r20 28r30 29r30
+. 57r21 59r11 66r12
+X 16 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 221e30 28|2w6 2r46 34r5 35r5 67r5 68r5
+16R8*Floating_Number 219e13 28|28r11 29r11 62r11 63r11
+210U13*Clear 28|34s31 35s31 67s31 68s31
+X 22 multprec_pentdobl_convertors.ads
+5K9*Multprec_PentDobl_Convertors 29e33 28|4w6 4r46
+12V12*to_floating_number{16|16R8} 28|62s30 63s30
+23V12*to_penta_double{23|19R8} 28|30s36 31s36
+X 23 penta_double_numbers.ads
+5K9*Penta_Double_Numbers 217e25 28|3w6 3r46
+19R8*penta_double 215e13 28|15r20 16r20 30r20 31r20 45r20 46r20 60r20 61r20
+42V12*create{19R8} 28|15s36 16s36
+105V12*to_double{30|13F8} 28|47s36 48s36
+X 26 pentdobl_complex_numbers.ads
+5K9*PentDobl_Complex_Numbers[12|11] 27|2w6 13r21 16r21 23r20 26r20 28|10r21
+. 12r11 19r12 25r21 27r11 36r12 41r20 45r36 46r36 56r20 60r36 61r36
+X 27 pentdobl_complex_numbers_cv.ads
+5K9*PentDobl_Complex_Numbers_cv 33l5 33e32 28|6b14 72l5 72t32
+11V12*Standard_to_PentDobl_Complex{12|19R8[26|5]} 12>16 28|8b12 21l7 21t35
+12r16 c{29|11R8} 28|9b16 13r71 14r71
+14V12*Multprec_to_PentDobl_Complex{12|19R8[26|5]} 15>16 28|23b12 38l7 38t35
+15r16 c{12|19R8[15|5]} 28|24b16 28r65 29r65
+22V12*PentDobl_Complex_to_Standard{29|11R8} 23>16 28|40b12 53l7 53t35
+23r16 c{12|19R8[26|5]} 28|41b16 45r71 46r71
+25V12*PentDobl_Complex_to_Multprec{12|19R8[15|5]} 26>16 28|55b12 70l7 70t35
+26r16 c{12|19R8[26|5]} 28|56b16 60r71 61r71
+X 28 pentdobl_complex_numbers_cv.adb
+12r5 res{12|19R8[26|5]} 19m5 20r12
+13f5 cre{30|13F8} 15r43
+14f5 cim{30|13F8} 16r43
+15r5 rre{23|19R8} 19r44
+16r5 rim{23|19R8} 19r48
+27r5 res{12|19R8[26|5]} 36m5 37r12
+28r5 cre{16|16R8} 30r52 34m37 34r37
+29r5 cim{16|16R8} 31r52 35m37 35r37
+30r5 rre{23|19R8} 36r44
+31r5 rim{23|19R8} 36r48
+44r5 res{29|11R8} 51m5 52r12
+45r5 cre{23|19R8} 47r46
+46r5 cim{23|19R8} 48r46
+47f5 rre{30|13F8} 51r44
+48f5 rim{30|13F8} 51r48
+59r5 res{12|19R8[15|5]} 66m5 69r12
+60r5 cre{23|19R8} 62r49
+61r5 cim{23|19R8} 63r49
+62r5 rre{16|16R8} 66r44 67m37 67r37
+63r5 rim{16|16R8} 66r48 68m37 68r37
+X 29 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 27|1w6 12r20 24r21 28|9r20 13r36 14r36 42r21
+. 44r11 51r12 29|92e29
+11R8*Complex_Number 27|12r45 24r46 28|9r45 42r46 44r36 29|90e15
+19V12*Create{11R8} 28|51s37
+24V12*REAL_PART{30|13F8} 28|13s61
+25V12*IMAG_PART{30|13F8} 28|14s61
+X 30 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 28|1w6 1r46 30|58e30
+13F8*double_float<long_float> 28|13r20 14r20 47r20 48r20
+

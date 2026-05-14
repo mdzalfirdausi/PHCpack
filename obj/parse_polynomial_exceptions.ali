@@ -1,0 +1,33 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U parse_polynomial_exceptions%s  parse_polynomial_exceptions.ads  c850508a EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D parse_polynomial_exceptions.ads  20260513024558 c850508a parse_polynomial_exceptions%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+G a e
+X 3 parse_polynomial_exceptions.ads
+1K9*Parse_Polynomial_Exceptions 19l5 19e32
+7X3*ILLEGAL_CHARACTER
+10X3*ILLEGAL_OPERATION
+13X3*OVERFLOW_OF_UNKNOWNS
+16X3*BAD_BRACKET
+

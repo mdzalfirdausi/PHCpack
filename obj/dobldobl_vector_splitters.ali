@@ -1,0 +1,618 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U dobldobl_vector_splitters%b  dobldobl_vector_splitters.adb  fe66a354 NE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U dobldobl_vector_splitters%s  dobldobl_vector_splitters.ads  5297aa30 EE NE OO PK
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_vectors%s  dobldobl_complex_vectors.ads  dobldobl_complex_vectors.ali
+W dobldobl_complex_vecvecs%s  dobldobl_complex_vecvecs.ads  dobldobl_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_vector_splitters.ads  20260513024558 b3c271dc dobldobl_vector_splitters%s
+D dobldobl_vector_splitters.adb  20260513024558 d7fa4389 dobldobl_vector_splitters%b
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [split dobldobl_vector_splitters 19 13 none]
+G c Z s b [split dobldobl_vector_splitters 35 13 none]
+G c Z s b [split_complex dobldobl_vector_splitters 56 13 none]
+G c Z s b [split_complex dobldobl_vector_splitters 60 13 none]
+G c Z s b [split_complex dobldobl_vector_splitters 64 13 none]
+G c Z s b [allocate_complex_coefficients dobldobl_vector_splitters 76 12 none]
+G c Z s b [allocate_complex_coefficients dobldobl_vector_splitters 84 12 none]
+G c Z s b [allocate_complex_coefficients dobldobl_vector_splitters 87 12 none]
+G c Z s b [allocate dobldobl_vector_splitters 96 12 none]
+G c Z s b [allocate dobldobl_vector_splitters 98 12 none]
+G c Z s b [merge dobldobl_vector_splitters 107 13 none]
+G c Z s b [merge dobldobl_vector_splitters 126 13 none]
+G c Z s b [complex_parts dobldobl_vector_splitters 153 13 none]
+G c Z s b [complex_parts dobldobl_vector_splitters 157 13 none]
+G c Z s b [complex_parts dobldobl_vector_splitters 161 13 none]
+G c Z s b [complex_parts dobldobl_vector_splitters 185 13 none]
+G c Z s b [complex_parts dobldobl_vector_splitters 190 13 none]
+G c Z s b [complex_parts dobldobl_vector_splitters 195 13 none]
+G c Z s b [complex_merge dobldobl_vector_splitters 223 13 none]
+G c Z s b [complex_merge dobldobl_vector_splitters 227 13 none]
+G c Z s b [complex_merge dobldobl_vector_splitters 231 13 none]
+G c Z s b [complex_merge dobldobl_vector_splitters 256 13 none]
+G c Z s b [complex_merge dobldobl_vector_splitters 261 13 none]
+G c Z s b [complex_merge dobldobl_vector_splitters 266 13 none]
+G c Z s b [add dobldobl_vector_splitters 293 13 none]
+G c Z s b [update dobldobl_vector_splitters 328 13 none]
+G c Z s b [update_product dobldobl_vector_splitters 354 13 none]
+G c Z s b [inner_product dobldobl_vector_splitters 385 13 none]
+G c Z s b [multiply dobldobl_vector_splitters 418 13 none]
+G r c none [split dobldobl_vector_splitters 19 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [split dobldobl_vector_splitters 19 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [split dobldobl_vector_splitters 19 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [split dobldobl_vector_splitters 19 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [split dobldobl_vector_splitters 35 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [split dobldobl_vector_splitters 35 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [split dobldobl_vector_splitters 35 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [split dobldobl_vector_splitters 35 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [split_complex dobldobl_vector_splitters 56 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [split_complex dobldobl_vector_splitters 56 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [split_complex dobldobl_vector_splitters 56 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [split_complex dobldobl_vector_splitters 56 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [split_complex dobldobl_vector_splitters 60 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [split_complex dobldobl_vector_splitters 60 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [split_complex dobldobl_vector_splitters 60 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [split_complex dobldobl_vector_splitters 60 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r s vecvec [split_complex dobldobl_vector_splitters 64 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [split_complex dobldobl_vector_splitters 64 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [split_complex dobldobl_vector_splitters 64 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [split_complex dobldobl_vector_splitters 64 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [split_complex dobldobl_vector_splitters 64 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [allocate_complex_coefficients dobldobl_vector_splitters 76 12 none] [create dobldobl_complex_numbers 17 12 none]
+G r s vecvec [allocate_complex_coefficients dobldobl_vector_splitters 84 12 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r c none [allocate_complex_coefficients dobldobl_vector_splitters 84 12 none] [create dobldobl_complex_numbers 17 12 none]
+G r s vecvec [allocate_complex_coefficients dobldobl_vector_splitters 87 12 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r c none [allocate_complex_coefficients dobldobl_vector_splitters 87 12 none] [create dobldobl_complex_numbers 17 12 none]
+G r s vecvec [allocate dobldobl_vector_splitters 96 12 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r c none [allocate dobldobl_vector_splitters 96 12 none] [create dobldobl_complex_numbers 17 12 none]
+G r s vecvec [allocate dobldobl_vector_splitters 98 12 none] [vecvecIP dobldobl_complex_vecvecs 14 8 5_1]
+G r c none [allocate dobldobl_vector_splitters 98 12 none] [create dobldobl_complex_numbers 17 12 none]
+G r c none [merge dobldobl_vector_splitters 107 13 none] [create double_double_numbers 40 12 none]
+G r c none [merge dobldobl_vector_splitters 107 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [merge dobldobl_vector_splitters 126 13 none] [create double_double_numbers 40 12 none]
+G r c none [merge dobldobl_vector_splitters 126 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 153 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 153 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 153 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 153 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 157 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 157 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 157 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 157 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 161 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 161 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 161 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 161 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 185 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 185 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 185 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 185 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 190 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 190 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 190 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 190 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 195 13 none] [real_part dobldobl_complex_numbers 24 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 195 13 none] [hi_part double_double_numbers 48 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 195 13 none] [lo_part double_double_numbers 53 12 none]
+G r c none [complex_parts dobldobl_vector_splitters 195 13 none] [imag_part dobldobl_complex_numbers 25 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 223 13 none] [create double_double_numbers 40 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 223 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 227 13 none] [create double_double_numbers 40 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 227 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 231 13 none] [create double_double_numbers 40 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 231 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 256 13 none] [create double_double_numbers 40 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 256 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 261 13 none] [create double_double_numbers 40 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 261 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 266 13 none] [create double_double_numbers 40 12 none]
+G r c none [complex_merge dobldobl_vector_splitters 266 13 none] [create dobldobl_complex_numbers 19 12 none]
+X 2 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 6|3w6 3r46 7|89r21 90r13 134r32 152r32
+. 172r10 197r13 199r13 234r13 236r13 274r17 310r17
+11R8*Complex_Number 85e15 6|19r28 107r29 7|5r28 89r46 163r29
+17V12*Create{11R8} 7|90s38 134s57 152s57
+19V12*Create{11R8} 7|172s35 274s42 310s42
+24V12*REAL_PART{8|12R8} 7|11s12 197s38 234s38
+25V12*IMAG_PART{8|12R8} 7|12s12 199s38 236s38
+X 4 dobldobl_complex_vectors.ads
+4K9*DoblDobl_Complex_Vectors[9|8] 6|6w6 35r28 57r24 78r21 126r29 154r24 187r24
+. 226r26 260r26 7|15r28 27r24 48r9 63r34 87r21 91r20 92r20 93r16 133r22 136r23
+. 151r22 154r22 175r29 189r24 226r24 266r26 302r26
+X 5 dobldobl_complex_vecvecs.ads
+5K9*DoblDobl_Complex_VecVecs[10|10] 6|7w6 61r24 65r24 86r21 89r21 97r28 99r28
+. 158r24 162r24 192r24 197r24 230r26 234r26 265r26 270r26 7|44r24 59r24 63r9
+. 101r21 103r11 114r21 116r11 117r20 121r16 126r28 128r11 143r28 145r11 146r10
+. 157r16 205r24 215r24 243r24 254r24 281r26 291r26 318r26 329r26
+X 6 dobldobl_vector_splitters.ads
+9K9*DoblDobl_Vector_Splitters 454l5 454e30 7|3b14 642l5 642t30
+19U13*Split 19>21 20<21 20<26 20<31 20<36 7|5b13 13l7 13t12 22s7 35s7
+19r21 x{2|11R8} 7|5b21 11r22 12r22
+20f21 rehi{11|13F8} 7|6b21 11m26
+20f26 imhi{11|13F8} 7|6b26 12m26
+20f31 relo{11|13F8} 7|6b31 11m48
+20f36 imlo{11|13F8} 7|6b36 12m48
+35U13*Split 35>21 36<21 37<21 38<21 39<21 7|15b13 24l7 24t12
+35a21 v{9|16A8[4|4]} 7|15b21 21r14 22r13
+36a21 rehi{9|16A8[13|4]} 7|16b21 22m18 22r18
+37a21 imhi{9|16A8[13|4]} 7|17b21 22m26 22r26
+38a21 relo{9|16A8[13|4]} 7|18b21 22m34 22r34
+39a21 imlo{9|16A8[13|4]} 7|19b21 22m42 22r42
+56U13*Split_Complex 57>17 58<17 58<22 59<17 59<22 7|26b13 41l7 41t20 53s13
+. 72s17
+57p17 x{9|17P8[4|4]} 7|27b17 31r56 34r14 35r13
+58p17 rhpx{9|17P8[13|4]} 7|28b17 37m5
+58p22 ihpx{9|17P8[13|4]} 7|28b22 38m5
+59p17 rlpx{9|17P8[13|4]} 7|29b17 39m5
+59p22 ilpx{9|17P8[13|4]} 7|29b22 40m5
+60U13*Split_Complex 61>17 62<17 62<22 63<17 63<22 7|43b13 56l7 56t20
+61a17 x{10|14A8[5|5]} 7|44b17 51r14 52r10 53r27
+62a17 rhpx{10|14A8[14|5]} 7|45b17 53m32 53r32
+62a22 ihpx{10|14A8[14|5]} 7|45b22 53m40 53r40
+63a17 rlpx{10|14A8[14|5]} 7|46b17 53m48 53r48
+63a22 ilpx{10|14A8[14|5]} 7|46b22 53m56 53r56
+64U13*Split_Complex 65>17 66<17 66<22 67<17 67<22 7|58b13 81l7 81t20
+65p17 x{10|15P8[5|5]} 7|59b17 66r8 68r60 70r18 71r14 72r31
+66p17 rhpx{10|15P8[14|5]} 7|60b17 75m9
+66p22 ihpx{10|15P8[14|5]} 7|60b22 76m9
+67p17 rlpx{10|15P8[14|5]} 7|61b17 77m9
+67p22 ilpx{10|15P8[14|5]} 7|61b22 78m9
+76V12*Allocate_Complex_Coefficients{9|17P8[4|4]} 77>16 7|85b12 97l7 97t36
+. 107s17
+77i16 deg{15|6I8} 7|86b16 91r55 91r67
+84V12*Allocate_Complex_Coefficients{10|14A8[5|5]} 85>16 85>20 7|99b12 110l7
+. 110t36 118s12
+85i16 dim{15|6I8} 7|100b16 103r46
+85i20 deg{15|6I8} 7|100b20 107r47
+87V12*Allocate_Complex_Coefficients{10|15P8[5|5]} 88>16 88>20 7|112b12 123l7
+. 123t36
+88i16 dim{15|6I8} 7|113b16 117r55 118r42
+88i20 deg{15|6I8} 7|113b20 118r46
+96V12*Allocate{10|14A8[5|5]} 96>23 96>27 96>44 96>53 7|125b12 140l7 140t15
+96i23 neq{15|6I8} 7|125b23 128r53
+96i27 dim{15|6I8} 7|125b27 133r64 134r25
+96i44 neqstart{15|6I8} 7|125b44 128r43
+96i53 dimstart{15|6I8} 7|125b53 133r54 134r15
+98V12*Allocate{10|15P8[5|5]} 98>23 98>27 98>44 98>53 7|142b12 159l7 159t15
+98i23 neq{15|6I8} 7|142b23 146r52
+98i27 dim{15|6I8} 7|142b27 151r64 152r25
+98i44 neqstart{15|6I8} 7|142b44 146r42
+98i53 dimstart{15|6I8} 7|142b53 151r54 152r15
+107U13*Merge 107<21 108>21 108>26 108>31 108>36 7|163b13 173l7 173t12 182s7
+107r21 x{2|11R8} 7|163b21 172m5
+108f21 rehi{11|13F8} 7|164b21 167r46
+108f26 imhi{11|13F8} 7|164b26 169r46
+108f31 relo{11|13F8} 7|164b31 167r51
+108f36 imlo{11|13F8} 7|164b36 169r51
+126U13*Merge 126<21 127>21 128>21 129>21 130>21 7|175b13 184l7 184t12
+126a21 v{9|16A8[4|4]} 7|175b21 181r14 182m13 182r13
+127a21 rehi{9|16A8[13|4]} 7|176b21 182r18
+128a21 imhi{9|16A8[13|4]} 7|177b21 182r26
+129a21 relo{9|16A8[13|4]} 7|178b21 182r34
+130a21 imlo{9|16A8[13|4]} 7|179b21 182r42
+153U13*Complex_Parts 154>17 155>17 155>22 156>17 156>22 7|188b13 202l7 202t20
+. 210s7 220s7
+154p17 x{9|17P8[4|4]} 7|189b17 196r14 197r48 199r48
+155p17 rhpx{9|17P8[13|4]} 7|190b17 198r7
+155p22 ihpx{9|17P8[13|4]} 7|190b22 200r7
+156p17 rlpx{9|17P8[13|4]} 7|191b17 198r31
+156p22 ilpx{9|17P8[13|4]} 7|191b22 200r31
+157U13*Complex_Parts 158>17 159>17 159>22 160>17 160>22 7|204b13 212l7 212t20
+158a17 x{10|14A8[5|5]} 7|205b17 209r14 210r21
+159p17 rhpx{10|15P8[14|5]} 7|206b17 210r26
+159p22 ihpx{10|15P8[14|5]} 7|206b22 210r34
+160p17 rlpx{10|15P8[14|5]} 7|207b17 210r42
+160p22 ilpx{10|15P8[14|5]} 7|207b22 210r50
+161U13*Complex_Parts 162>17 163>17 163>22 164>17 164>22 7|214b13 222l7 222t20
+162p17 x{10|15P8[5|5]} 7|215b17 219r14 220r21
+163p17 rhpx{10|15P8[14|5]} 7|216b17 220r26
+163p22 ihpx{10|15P8[14|5]} 7|216b22 220r34
+164p17 rlpx{10|15P8[14|5]} 7|217b17 220r42
+164p22 ilpx{10|15P8[14|5]} 7|217b22 220r50
+185U13*Complex_Parts 186>17 187>17 188>17 188>22 189>17 189>22 7|224b13 239l7
+. 239t20 248s7 259s7
+186i17 deg{15|6I8} 7|225b17 233r23
+187p17 x{9|17P8[4|4]} 7|226b17 233r14 234r48 236r48
+188p17 rhpx{9|17P8[13|4]} 7|227b17 235r7
+188p22 ihpx{9|17P8[13|4]} 7|227b22 237r7
+189p17 rlpx{9|17P8[13|4]} 7|228b17 235r31
+189p22 ilpx{9|17P8[13|4]} 7|228b22 237r31
+190U13*Complex_Parts 191>17 192>17 193>17 193>22 194>17 194>22 7|241b13 250l7
+. 250t20
+191i17 deg{15|6I8} 7|242b17 248r21
+192a17 x{10|14A8[5|5]} 7|243b17 247r14 248r25
+193p17 rhpx{10|15P8[14|5]} 7|244b17 248r30
+193p22 ihpx{10|15P8[14|5]} 7|244b22 248r38
+194p17 rlpx{10|15P8[14|5]} 7|245b17 248r46
+194p22 ilpx{10|15P8[14|5]} 7|245b22 248r54
+195U13*Complex_Parts 196>17 197>17 198>17 198>22 199>17 199>22 7|252b13 261l7
+. 261t20
+196i17 deg{15|6I8} 7|253b17 259r21
+197p17 x{10|15P8[5|5]} 7|254b17 258r14 259r25
+198p17 rhpx{10|15P8[14|5]} 7|255b17 259r30
+198p22 ihpx{10|15P8[14|5]} 7|255b22 259r38
+199p17 rlpx{10|15P8[14|5]} 7|256b17 259r46
+199p22 ilpx{10|15P8[14|5]} 7|256b22 259r54
+223U13*Complex_Merge 224>17 224>22 225>17 225>22 226>17 7|263b13 276l7 276t20
+. 284s7 294s7
+224p17 rhpx{9|17P8[13|4]} 7|264b17 272r21
+224p22 ihpx{9|17P8[13|4]} 7|264b22 273r21
+225p17 rlpx{9|17P8[13|4]} 7|265b17 272r29
+225p22 ilpx{9|17P8[13|4]} 7|265b22 273r29
+226p17 cvx{9|17P8[4|4]} 7|266b17 271r14 274r7
+227U13*Complex_Merge 228>17 228>22 229>17 229>22 230>17 7|278b13 286l7 286t20
+228p17 rhpx{10|15P8[14|5]} 7|279b17 284r21
+228p22 ihpx{10|15P8[14|5]} 7|279b22 284r29
+229p17 rlpx{10|15P8[14|5]} 7|280b17 284r37
+229p22 ilpx{10|15P8[14|5]} 7|280b22 284r45
+230p17 cvx{10|15P8[5|5]} 7|281b17 283r14 284r53
+231U13*Complex_Merge 232>17 232>22 233>17 233>22 234>17 7|288b13 296l7 296t20
+232p17 rhpx{10|15P8[14|5]} 7|289b17 294r21
+232p22 ihpx{10|15P8[14|5]} 7|289b22 294r29
+233p17 rlpx{10|15P8[14|5]} 7|290b17 294r37
+233p22 ilpx{10|15P8[14|5]} 7|290b22 294r45
+234a17 cvx{10|14A8[5|5]} 7|291b17 293r14 294r53
+256U13*Complex_Merge 257>17 258>17 258>22 259>17 259>22 260>17 7|298b13 312l7
+. 312t20 321s7 332s7
+257i17 deg{15|6I8} 7|299b17 307r25
+258p17 rhpx{9|17P8[13|4]} 7|300b17 308r21
+258p22 ihpx{9|17P8[13|4]} 7|300b22 309r21
+259p17 rlpx{9|17P8[13|4]} 7|301b17 308r29
+259p22 ilpx{9|17P8[13|4]} 7|301b22 309r29
+260p17 cvx{9|17P8[4|4]} 7|302b17 307r14 310r7
+261U13*Complex_Merge 262>17 263>17 263>22 264>17 264>22 265>17 7|314b13 323l7
+. 323t20
+262i17 deg{15|6I8} 7|315b17 321r21
+263p17 rhpx{10|15P8[14|5]} 7|316b17 321r25
+263p22 ihpx{10|15P8[14|5]} 7|316b22 321r33
+264p17 rlpx{10|15P8[14|5]} 7|317b17 321r41
+264p22 ilpx{10|15P8[14|5]} 7|317b22 321r49
+265p17 cvx{10|15P8[5|5]} 7|318b17 320r14 321r57
+266U13*Complex_Merge 267>17 268>17 268>22 269>17 269>22 270>17 7|325b13 334l7
+. 334t20
+267i17 deg{15|6I8} 7|326b17 332r21
+268p17 rhpx{10|15P8[14|5]} 7|327b17 332r25
+268p22 ihpx{10|15P8[14|5]} 7|327b22 332r33
+269p17 rlpx{10|15P8[14|5]} 7|328b17 332r41
+269p22 ilpx{10|15P8[14|5]} 7|328b22 332r49
+270a17 cvx{10|14A8[5|5]} 7|329b17 331r14 332r57
+293U13*Add 293>19 294>19 295>19 296>19 297>19 298>19 299>19 300>19 301>19
+. 302>19 303>19 304>19 7|336b13 381l7 381t10
+293p19 zrehi{9|17P8[13|4]} 7|336b19 349r33 366r21
+294p19 zimhi{9|17P8[13|4]} 7|337b19 379r21
+295p19 zrelo{9|17P8[13|4]} 7|338b19 366r36
+296p19 zimlo{9|17P8[13|4]} 7|339b19 379r36
+297p19 xrehi{9|17P8[13|4]} 7|340b19 356r12
+298p19 ximhi{9|17P8[13|4]} 7|341b19 369r12
+299p19 xrelo{9|17P8[13|4]} 7|342b19 359r12
+300p19 ximlo{9|17P8[13|4]} 7|343b19 372r12
+301p19 yrehi{9|17P8[13|4]} 7|344b19 356r27
+302p19 yimhi{9|17P8[13|4]} 7|345b19 369r27
+303p19 yrelo{9|17P8[13|4]} 7|346b19 359r27
+304p19 yimlo{9|17P8[13|4]} 7|347b19 372r27
+328U13*Update 328>22 329>22 330>22 331>22 332>22 333>22 334>22 335>22 7|383b13
+. 424l7 424t13
+328p22 zrehi{9|17P8[13|4]} 7|383b22 392r33 396r14 399r27 409r21
+329p22 zimhi{9|17P8[13|4]} 7|384b22 412r27 422r21
+330p22 zrelo{9|17P8[13|4]} 7|385b22 402r27 409r36
+331p22 zimlo{9|17P8[13|4]} 7|386b22 415r27 422r36
+332p22 xrehi{9|17P8[13|4]} 7|387b22 399r12
+333p22 ximhi{9|17P8[13|4]} 7|388b22 412r12
+334p22 xrelo{9|17P8[13|4]} 7|389b22 402r12
+335p22 ximlo{9|17P8[13|4]} 7|390b22 415r12
+354U13*Update_Product 355=19 355=25 355=31 355=37 356>19 356>25 356>31 356>37
+. 357>19 357>25 357>31 357>37 7|426b13 581l7 581t21 599s7 624s5 630s7 635s9
+355f19 zrehi{11|13F8} 7|427b19 531r22 532r37 541m5 541r38 544r11 544r40 545r12
+. 554m5 554r38
+355f25 zimhi{11|13F8} 7|427b25 557r22 558r37 567m5 567r38 570r22 571r37 580m5
+. 580r38
+355f31 zrelo{11|13F8} 7|427b31 534r22 535r37 541m23 547r11 547r40 548r12
+. 554m23
+355f37 zimlo{11|13F8} 7|427b37 560r22 561r37 567m23 573r22 574r37 580m23
+356f19 xrehi{11|13F8} 7|428b19 448r10 448r37 449r13 452r16 456r30 457r33
+. 458r16 501r11 503r17 513r11 517r17
+356f25 ximhi{11|13F8} 7|428b25 476r10 476r37 477r13 480r16 484r30 485r33
+. 486r16 506r11 508r17 522r11 526r17
+356f31 xrelo{11|13F8} 7|428b31 503r33 517r33
+356f37 ximlo{11|13F8} 7|428b37 508r33 526r33
+357f19 yrehi{11|13F8} 7|429b19 461r10 461r37 462r13 465r16 469r30 470r33
+. 471r16 501r17 503r41 522r17 526r41
+357f25 yimhi{11|13F8} 7|429b25 489r10 489r37 490r13 493r16 497r30 498r33
+. 499r16 506r17 508r41 513r17 517r41
+357f31 yrelo{11|13F8} 7|429b31 503r25 526r25
+357f37 yimlo{11|13F8} 7|429b37 508r25 517r25
+385U13*Inner_Product 386<19 386<25 386<31 386<37 387>19 388>19 389>19 390>19
+. 391>19 392>19 393>19 394>19 7|583b13 603l7 603t20
+386f19 zrehi{11|13F8} 7|584b19 597m5 599m22
+386f25 zimhi{11|13F8} 7|584b25 597m19 599m28
+386f31 zrelo{11|13F8} 7|584b31 597m33 599m34
+386f37 zimlo{11|13F8} 7|584b37 597m47 599m40
+387p19 xrehi{9|17P8[13|4]} 7|585b19 594r33 600r22
+388p19 ximhi{9|17P8[13|4]} 7|586b19 600r31
+389p19 xrelo{9|17P8[13|4]} 7|587b19 600r40
+390p19 ximlo{9|17P8[13|4]} 7|588b19 600r49
+391p19 yrehi{9|17P8[13|4]} 7|589b19 601r22
+392p19 yimhi{9|17P8[13|4]} 7|590b19 601r31
+393p19 yrelo{9|17P8[13|4]} 7|591b19 601r40
+394p19 yimlo{9|17P8[13|4]} 7|592b19 601r49
+418U13*Multiply 419>17 420>17 421>17 422>17 423>17 424>17 425>17 426>17 427>17
+. 428>17 429>17 430>17 7|605b13 640l7 640t15
+419p17 xrehi{9|17P8[13|4]} 7|606b17 619r33 625r20 631r22 636r24
+420p17 ximhi{9|17P8[13|4]} 7|607b17 625r29 631r31 636r33
+421p17 xrelo{9|17P8[13|4]} 7|608b17 625r38 631r40 636r42
+422p17 ximlo{9|17P8[13|4]} 7|609b17 625r47 631r49 636r51
+423p17 yrehi{9|17P8[13|4]} 7|610b17 626r20 632r22 637r24
+424p17 yimhi{9|17P8[13|4]} 7|611b17 626r29 632r31 637r35
+425p17 yrelo{9|17P8[13|4]} 7|612b17 626r38 632r40 637r46
+426p17 yimlo{9|17P8[13|4]} 7|613b17 626r47 632r49 637r57
+427p17 zrehi{9|17P8[13|4]} 7|614b17 623r5 624r20 629r7 630r22 635r24
+428p17 zimhi{9|17P8[13|4]} 7|615b17 623r22 624r29 629r24 630r31 635r33
+429p17 zrelo{9|17P8[13|4]} 7|616b17 623r39 624r38 629r41 630r40 635r42
+430p17 zimlo{9|17P8[13|4]} 7|617b17 623r56 624r47 629r58 630r49 635r51
+X 7 dobldobl_vector_splitters.adb
+8r4 nbr{8|12R8} 11m5 11r42 11r64 12m5 12r42 12r64
+21i9 k<long_integer> 22r15 22r23 22r31 22r39 22r47
+31a5 rhx{9|16A8[13|4]} 35m18 35r18 37r51
+31a9 ihx{9|16A8[13|4]} 35m25 35r25 38r51
+31a13 rlx{9|16A8[13|4]} 35m32 35r32 39r51
+31a17 ilx{9|16A8[13|4]} 35m39 35r39 40r51
+34i9 k<long_integer> 35r15 35r22 35r29 35r36 35r43
+51i9 k<long_integer> 52r12 53r29 53r37 53r45 53r53 53r61
+68a9 rhx{10|14A8[14|5]} 72m36 72r36 75r55
+68a13 ihx{10|14A8[14|5]} 72m43 72r43 76r55
+68a17 rlx{10|14A8[14|5]} 72m50 72r50 77r55
+68a21 ilx{10|14A8[14|5]} 72m57 72r57 78r55
+70i13 k<long_integer> 71r16 72r33 72r40 72r47 72r54 72r61
+89r5 zero{2|11R8} 91r74
+91a5 cff{9|16A8[4|4]} 93r49
+92p5 res{9|17P8[4|4]} 96r12
+103a5 res{10|14A8[5|5]} 106r14 107m7 109r12
+106i9 k<long_integer> 107r11
+116p5 res{10|15P8[5|5]} 121m5 122r12
+117a5 cff{10|14A8[5|5]} 121r49
+128a5 res{10|14A8[5|5]} 131r14 136m9 139r12
+131i9 i<long_integer> 136r13
+133a9 v{9|16A8[4|4]} 136r56
+145p5 res{10|15P8[5|5]} 157m5 158r12
+146a5 vv{10|14A8[5|5]} 149r14 154m9 157r49
+149i9 i<long_integer> 154r12
+151a9 v{9|16A8[4|4]} 154r55
+166r5 realpart{8|12R8} 172r42
+168r5 imagpart{8|12R8} 172r51
+181i9 k<long_integer> 182r15 182r23 182r31 182r39 182r47
+193r5 dd{8|12R8} 197m7 198r26 198r50 199m7 200r26 200r50
+196i9 k<long_integer> 197r50 198r12 198r36 199r50 200r12 200r36
+209i9 k<long_integer> 210r23 210r31 210r39 210r47 210r55
+219i9 k<long_integer> 220r23 220r31 220r39 220r47 220r55
+230r5 dd{8|12R8} 234m7 235r26 235r50 236m7 237r26 237r50
+233i9 k<long_integer> 234r50 235r12 235r36 236r50 237r12 237r36
+247i9 k<long_integer> 248r27 248r35 248r43 248r51 248r59
+258i9 k<long_integer> 259r27 259r35 259r43 259r51 259r59
+268r5 rdd{8|12R8} 272m7 274r49
+268r9 idd{8|12R8} 273m7 274r53
+271i9 k<long_integer> 272r26 272r34 273r26 273r34 274r11
+283i9 k<long_integer> 284r26 284r34 284r42 284r50 284r57
+293i9 k<long_integer> 294r26 294r34 294r42 294r50 294r57
+304r5 rdd{8|12R8} 308m7 310r49
+304r9 idd{8|12R8} 309m7 310r53
+307i9 k<long_integer> 308r26 308r34 309r26 309r34 310r11
+320i9 k<long_integer> 321r30 321r38 321r46 321r54 321r61
+331i9 k<long_integer> 332r30 332r38 332r46 332r54 332r61
+349i5 dim{15|6I8} 353r17
+350f5 a{11|13F8} 356m7 357r13 357r31 357r41 359m7 360r13 360r31 360r41 363m7
+. 363r31 363r54 369m7 370r13 370r31 370r41 372m7 373r13 373r31 373r41 376m7
+. 376r31 376r54
+350f7 b{11|13F8} 356m22 357r17 357r59 359m22 360r17 360r59 363m16 363r35
+. 363r44 369m22 370r17 370r59 372m22 373r17 373r59 376m16 376r35 376r44
+350f9 bb{11|13F8} 357m20 357r51 357r63 360m20 360r51 360r63 370m20 370r51
+. 370r63 373m20 373r51 373r63
+350f12 s{11|13F8} 366m7 366r33 366r54 379m7 379r33 379r54
+350f14 s1{11|13F8} 357m7 357r26 357r46 363r12 363m25 363r49 366r12 366r58
+. 370m7 370r26 370r46 376r12 376m25 376r49 379r12 379r58
+350f17 s2{11|13F8} 357m34 361m7 361r13 363r21 363m38 364m7 364r13 366r17
+. 366r48 370m34 374m7 374r13 376r21 376m38 377m7 377r13 379r17 379r48
+350f20 t1{11|13F8} 360m7 360r26 360r46 361r18 373m7 373r26 373r46 374r18
+350f23 t2{11|13F8} 360m34 364r18 373m34 377r18
+353i9 k<long_integer> 356r18 356r33 359r18 359r33 366r27 366r42 369r18 369r33
+. 372r18 372r33 379r27 379r42
+392i5 dim{15|6I8} 396r27
+393f5 a{11|13F8} 399m7 400r13 400r31 400r41 402m7 403r13 403r31 403r41 406m7
+. 406r31 406r54 412m7 413r13 413r31 413r41 415m7 416r13 416r31 416r41 419m7
+. 419r31 419r54
+393f7 b{11|13F8} 399m22 400r17 400r59 402m22 403r17 403r59 406m16 406r35
+. 406r44 412m22 413r17 413r59 415m22 416r17 416r59 419m16 419r35 419r44
+393f9 bb{11|13F8} 400m20 400r51 400r63 403m20 403r51 403r63 413m20 413r51
+. 413r63 416m20 416r51 416r63
+393f12 s{11|13F8} 409m7 409r33 409r54 422m7 422r33 422r54
+393f14 s1{11|13F8} 400m7 400r26 400r46 406r12 406m25 406r49 409r12 409r58
+. 413m7 413r26 413r46 419r12 419m25 419r49 422r12 422r58
+393f17 s2{11|13F8} 400m34 404m7 404r13 406r21 406m38 407m7 407r13 409r17
+. 409r48 413m34 417m7 417r13 419r21 419m38 420m7 420r13 422r17 422r48
+393f20 t1{11|13F8} 403m7 403r26 403r46 404r18 416m7 416r26 416r46 417r18
+393f23 t2{11|13F8} 403m34 407r18 416m34 420r18
+396i9 k<long_integer> 399r18 399r33 402r18 402r33 409r27 409r42 412r18 412r33
+. 415r18 415r33 422r27 422r42
+431f5 QD_SPLITTER{11|13F8} 450r16 456r16 463r16 469r16 478r16 484r16 491r16
+. 497r16
+432f5 QD_SPLIT_THRESH{11|13F8} 448r18 448r46 461r18 461r46 476r18 476r46
+. 489r18 489r46
+434f5 a{11|13F8} 538m5 538r29 538r52 551m5 551r29 551r52 564m5 564r29 564r52
+. 577m5 577r29 577r52
+434f7 b{11|13F8} 538m14 538r33 538r42 551m14 551r33 551r42 564m14 564r33
+. 564r42 577m14 577r33 577r42
+434f9 bb{11|13F8} 462m7 463r30 464r33 490m7 491r30 492r33 531m29 532r29 532r45
+. 534m29 535r29 535r45 544m29 545r26 545r45 547m29 548r26 548r45 557m29 558r29
+. 558r45 560m29 561r29 561r45 570m29 571r29 571r45 573m29 574r29 574r45
+434f12 s1{11|13F8} 531m5 531r35 532r24 538r10 538m23 538r47 541r14 541r46
+. 544m5 544r35 545r21 551r10 551m23 551r47 554r14 554r46 557m5 557r35 558r24
+. 564r10 564m23 564r47 567r14 567r46 570m5 570r35 571r24 577r10 577m23 577r47
+. 580r14 580r46
+434f15 s2{11|13F8} 532m5 536m5 536r11 538r19 538m36 539m5 539r11 541r19 541r32
+. 545m5 549m5 549r11 551r19 551m36 552m5 552r11 554r19 554r32 558m5 562m5
+. 562r11 564r19 564m36 565m5 565r11 567r19 567r32 571m5 575m5 575r11 577r19
+. 577m36 578m5 578r11 580r19 580r32
+434f18 t1{11|13F8} 534m5 534r35 535r24 536r16 547m5 547r35 548r21 549r16
+. 560m5 560r35 561r24 562r16 573m5 573r35 574r24 575r16
+434f21 t2{11|13F8} 535m5 539r16 548m5 552r16 561m5 565r16 574m5 578r16
+434f24 p1{11|13F8} 501m5 502r27 505r17 505r55 506m5 507r27 510r17 510r55
+. 513m5 516r27 519r17 519r55 522m5 525r27 528r17 528r55
+434f27 p2{11|13F8} 502m5 503m5 503r11 505r22 505r38 507m5 508m5 508r11 510r22
+. 510r38 516m5 517m5 517r11 519r22 519r38 525m5 526m5 526r11 528r22 528r38
+434f30 atemp{11|13F8} 450m7 451r16 451r25 456m7 457r16 457r25 478m7 479r16
+. 479r25 484m7 485r16 485r25
+434f36 btemp{11|13F8} 463m7 464r16 464r25 469m7 470r16 470r25 491m7 492r16
+. 492r25 497m7 498r16 498r25
+434f42 aa{11|13F8} 449m7 450r30 451r33 477m7 478r30 479r33
+435f5 a_hiprod{11|13F8} 505m5 505r44 531r11 531r40 532r12
+435f14 a_loprod{11|13F8} 505m26 534r11 534r40 535r12
+435f23 b_hiprod{11|13F8} 510m5 510r44 544r19 545r34
+435f32 b_loprod{11|13F8} 510m26 547r19 548r34
+436f5 c_hiprod{11|13F8} 519m5 519r44 557r11 557r40 558r12
+436f14 c_loprod{11|13F8} 519m26 560r11 560r40 561r12
+436f23 d_hiprod{11|13F8} 528m5 528r44 570r11 570r40 571r12
+436f32 d_loprod{11|13F8} 528m26 573r11 573r40 574r12
+437f5 a1_hi{11|13F8} 451m7 452r24 453m7 453r16 457m7 458r24 502r13 502r33
+. 516r13 516r33
+437f11 a1_lo{11|13F8} 452m7 454m7 458m7 502r47 502r62 516r47 516r62
+437f17 b1_hi{11|13F8} 464m7 465r24 466m7 466r16 470m7 471r24 502r19 502r53
+. 525r19 525r53
+437f23 b1_lo{11|13F8} 465m7 467m7 471m7 502r39 502r68 525r39 525r68
+438f5 a2_hi{11|13F8} 479m7 480r24 481m7 481r16 485m7 486r24 507r13 507r33
+. 525r13 525r33
+438f11 a2_lo{11|13F8} 480m7 482m7 486m7 507r47 507r62 525r47 525r62
+438f17 b2_hi{11|13F8} 492m7 493r24 494m7 494r16 498m7 499r24 507r19 507r53
+. 516r19 516r53
+438f23 b2_lo{11|13F8} 493m7 495m7 499m7 507r39 507r68 516r39 516r68
+594i5 dim{15|6I8} 598r17
+598i9 k<long_integer> 600r28 600r37 600r46 600r55 601r28 601r37 601r46 601r55
+619i5 deg{15|6I8} 627r17
+627i9 k<long_integer> 629r13 629r30 629r47 629r64 630r28 630r37 630r46 630r55
+. 632r28 632r37 632r46 632r55 633r19 635r30 635r39 635r48 635r57 637r30 637r41
+. 637r52 637r63
+633i11 i<long_integer> 636r30 636r39 636r48 636r57 637r32 637r43 637r54 637r65
+X 8 double_double_numbers.ads
+5K9*Double_Double_Numbers 7|1w6 1r46 167r17 169r17 8|172e26
+12R8*double_double 7|8r10 166r25 168r25 193r10 230r10 268r15 304r15 8|170e13
+40V12*Create{12R8} 7|167s39 169s39 272s14 273s14 308s14 309s14
+48V12*hi_part{11|13F8} 7|11s34 12s34 198s18 200s18 235s18 237s18
+53V12*lo_part{11|13F8} 7|11s56 12s56 198s42 200s42 235s42 237s42
+X 9 generic_vectors.ads
+16A8*Vector(2|11R8)<15|6I8> 6|35r53[4|4] 36r58[13|4] 37r58[13|4] 38r58[13|4]
+. 39r58[13|4] 126r54[4|4] 127r57[13|4] 128r57[13|4] 129r57[13|4] 130r57[13|4]
+. 7|15r53[4|4] 16r58[13|4] 17r58[13|4] 18r58[13|4] 19r58[13|4] 31r49[13|4]
+. 37r43[13|4] 38r43[13|4] 39r43[13|4] 40r43[13|4] 91r45[4|4] 93r41[4|4] 133r47[4|4]
+. 136r48[4|4] 151r47[4|4] 154r47[4|4] 175r54[4|4] 176r57[13|4] 177r57[13|4]
+. 178r57[13|4] 179r57[13|4]
+17P8*Link_to_Vector(16A8[4|4]) 6|57r49[4|4] 58r59[13|4] 59r59[13|4] 78r46[4|4]
+. 154r49[4|4] 155r58[13|4] 156r58[13|4] 187r49[4|4] 188r58[13|4] 189r58[13|4]
+. 224r58[13|4] 225r58[13|4] 226r51[4|4] 258r58[13|4] 259r58[13|4] 260r51[4|4]
+. 293r56[13|4] 294r56[13|4] 295r56[13|4] 296r56[13|4] 297r56[13|4] 298r56[13|4]
+. 299r56[13|4] 300r56[13|4] 301r56[13|4] 302r56[13|4] 303r56[13|4] 304r56[13|4]
+. 328r59[13|4] 329r59[13|4] 330r59[13|4] 331r59[13|4] 332r59[13|4] 333r59[13|4]
+. 334r59[13|4] 335r59[13|4] 387r56[13|4] 388r56[13|4] 389r56[13|4] 390r56[13|4]
+. 391r56[13|4] 392r56[13|4] 393r56[13|4] 394r56[13|4] 419r54[13|4] 420r54[13|4]
+. 421r54[13|4] 422r54[13|4] 423r54[13|4] 424r54[13|4] 425r54[13|4] 426r54[13|4]
+. 427r54[13|4] 428r54[13|4] 429r54[13|4] 430r54[13|4] 7|27r49[4|4] 28r59[13|4]
+. 29r59[13|4] 87r46[4|4] 92r45[4|4] 189r49[4|4] 190r58[13|4] 191r58[13|4]
+. 226r49[4|4] 227r58[13|4] 228r58[13|4] 264r58[13|4] 265r58[13|4] 266r51[4|4]
+. 300r58[13|4] 301r58[13|4] 302r51[4|4] 336r56[13|4] 337r56[13|4] 338r56[13|4]
+. 339r56[13|4] 340r56[13|4] 341r56[13|4] 342r56[13|4] 343r56[13|4] 344r56[13|4]
+. 345r56[13|4] 346r56[13|4] 347r56[13|4] 383r59[13|4] 384r59[13|4] 385r59[13|4]
+. 386r59[13|4] 387r59[13|4] 388r59[13|4] 389r59[13|4] 390r59[13|4] 585r56[13|4]
+. 586r56[13|4] 587r56[13|4] 588r56[13|4] 589r56[13|4] 590r56[13|4] 591r56[13|4]
+. 592r56[13|4] 606r54[13|4] 607r54[13|4] 608r54[13|4] 609r54[13|4] 610r54[13|4]
+. 611r54[13|4] 612r54[13|4] 613r54[13|4] 614r54[13|4] 615r54[13|4] 616r54[13|4]
+. 617r54[13|4]
+X 10 generic_vecvecs.ads
+14A8*VecVec(9|17P8[4|4])<15|6I8> 6|61r49[5|5] 62r59[14|5] 63r59[14|5] 86r46[5|5]
+. 97r53[5|5] 158r49[5|5] 192r49[5|5] 234r51[5|5] 270r51[5|5] 7|44r49[5|5]
+. 45r59[14|5] 46r59[14|5] 68r53[14|5] 75r47[14|5] 76r47[14|5] 77r47[14|5]
+. 78r47[14|5] 101r46[5|5] 103r36[5|5] 117r45[5|5] 121r41[5|5] 126r53[5|5]
+. 128r36[5|5] 146r35[5|5] 157r41[5|5] 205r49[5|5] 243r49[5|5] 291r51[5|5]
+. 329r51[5|5]
+15P8*Link_to_VecVec(14A8[5|5]) 6|65r49[5|5] 66r59[14|5] 67r59[14|5] 89r46[5|5]
+. 99r53[5|5] 159r58[14|5] 160r58[14|5] 162r49[5|5] 163r58[14|5] 164r58[14|5]
+. 193r58[14|5] 194r58[14|5] 197r49[5|5] 198r58[14|5] 199r58[14|5] 228r58[14|5]
+. 229r58[14|5] 230r51[5|5] 232r58[14|5] 233r58[14|5] 263r58[14|5] 264r58[14|5]
+. 265r51[5|5] 268r58[14|5] 269r58[14|5] 7|59r49[5|5] 60r59[14|5] 61r59[14|5]
+. 114r46[5|5] 116r36[5|5] 143r53[5|5] 145r36[5|5] 206r58[14|5] 207r58[14|5]
+. 215r49[5|5] 216r58[14|5] 217r58[14|5] 244r58[14|5] 245r58[14|5] 254r49[5|5]
+. 255r58[14|5] 256r58[14|5] 279r58[14|5] 280r58[14|5] 281r51[5|5] 289r58[14|5]
+. 290r58[14|5] 316r58[14|5] 317r58[14|5] 318r51[5|5] 327r58[14|5] 328r58[14|5]
+X 11 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 6|2w6 2r46 11|58e30
+13F8*double_float<long_float> 6|20r47 108r46 355r52 356r48 357r48 386r49
+. 7|6r47 164r46 350r28 393r28 427r52 428r48 429r48 431r28 432r32 434r47 435r43
+. 436r43 437r31 438r31 584r49
+X 13 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[9|8] 6|4w6 36r32 37r32 38r32 39r32 58r33 59r33
+. 127r31 128r31 129r31 130r31 155r32 156r32 188r32 189r32 224r32 225r32 258r32
+. 259r32 293r30 294r30 295r30 296r30 297r30 298r30 299r30 300r30 301r30 302r30
+. 303r30 304r30 328r33 329r33 330r33 331r33 332r33 333r33 334r33 335r33 387r30
+. 388r30 389r30 390r30 391r30 392r30 393r30 394r30 419r28 420r28 421r28 422r28
+. 423r28 424r28 425r28 426r28 427r28 428r28 429r28 430r28 7|16r32 17r32 18r32
+. 19r32 28r33 29r33 31r23 37r17 38r17 39r17 40r17 176r31 177r31 178r31 179r31
+. 190r32 191r32 227r32 228r32 264r32 265r32 300r32 301r32 336r30 337r30 338r30
+. 339r30 340r30 341r30 342r30 343r30 344r30 345r30 346r30 347r30 383r33 384r33
+. 385r33 386r33 387r33 388r33 389r33 390r33 585r30 586r30 587r30 588r30 589r30
+. 590r30 591r30 592r30 606r28 607r28 608r28 609r28 610r28 611r28 612r28 613r28
+. 614r28 615r28 616r28 617r28
+X 14 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[10|10] 6|5w6 62r33 63r33 66r33 67r33 159r32
+. 160r32 163r32 164r32 193r32 194r32 198r32 199r32 228r32 229r32 232r32 233r32
+. 263r32 264r32 268r32 269r32 7|45r33 46r33 60r33 61r33 68r27 75r21 76r21
+. 77r21 78r21 206r32 207r32 216r32 217r32 244r32 245r32 255r32 256r32 279r32
+. 280r32 289r32 290r32 316r32 317r32 327r32 328r32
+X 15 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 6|1w6 1r46 15|45e29
+6I8*integer32<long_integer> 6|77r22 85r26 88r26 96r33 96r64 98r33 98r64 186r26
+. 191r26 196r26 257r26 262r26 267r26 7|86r22 100r26 113r26 125r33 125r64
+. 142r33 142r64 225r26 242r26 253r26 299r26 315r26 326r26 349r20 392r20 594r20
+. 619r20
+

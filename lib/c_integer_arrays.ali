@@ -1,0 +1,81 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SL SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U c_integer_arrays%s	c_integer_arrays.ads	b078e0f1 EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.ads	s-stoele.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20250808065140 d1ac74b2 interfaces.c.pointers%b
+D i-cstrin.ads		20250808065140 5409c1a4 interfaces.c.strings%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s s [c_integer_arrayIP c_integer_arrays 10 8 none]
+G c Z s s [value c_integer_arrays__c_intarrs 54 13 13_3]
+G c Z s s [value c_integer_arrays__c_intarrs 58 13 13_3]
+G c Z s s [Oadd c_integer_arrays__c_intarrs 68 13 13_3]
+G c Z s s [Oadd c_integer_arrays__c_intarrs 69 13 13_3]
+G c Z s s [Osubtract c_integer_arrays__c_intarrs 70 13 13_3]
+G c Z s s [Osubtract c_integer_arrays__c_intarrs 71 13 13_3]
+G c Z s s [increment c_integer_arrays__c_intarrs 73 14 13_3]
+G c Z s s [decrement c_integer_arrays__c_intarrs 74 14 13_3]
+G c Z s s [virtual_length c_integer_arrays__c_intarrs 81 13 13_3]
+G c Z s s [copy_terminated_array c_integer_arrays__c_intarrs 85 14 13_3]
+G c Z s s [copy_array c_integer_arrays__c_intarrs 91 14 13_3]
+G c Z s s [to_pointer c_integer_arrays__c_intarrs 42 13 13_3]
+G c Z s s [to_addr c_integer_arrays__c_intarrs 43 13 13_3]
+G c Z s s [to_offset c_integer_arrays__c_intarrs 44 13 13_3]
+G c Z s s [to_ptrdiff c_integer_arrays__c_intarrs 45 13 13_3]
+X 4 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18l5 18e21
+10A8*C_Integer_Array(6|62I9)<6|92M9> 16r31
+13K11*C_intarrs[7|44]
+X 5 interfac.ads
+47K9*Interfaces 4|1r6 2r6 11r13 11r55 14r9 14r31 15r31 5|247e15
+X 6 i-c.ads
+33K20*C 4|1w17 2r17 11r24 11r66 14r20 14r42 15r42 6|601e17
+62I9*int<integer> 4|11r68 15r44
+92M9*size_t 4|11r26 14r44
+X 7 i-cpoint.ads
+44k22*Pointers 4|2w19 14r22 7|102e26
+

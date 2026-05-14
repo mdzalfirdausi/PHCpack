@@ -1,0 +1,160 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U partitions_of_sets_of_unknowns%b  partitions_of_sets_of_unknowns.adb  668e5036 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U partitions_of_sets_of_unknowns%s  partitions_of_sets_of_unknowns.ads  cdc30aee BN EE NE OO PK
+W sets_of_unknowns%s	sets_of_unknowns.adb	sets_of_unknowns.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D partitions_of_sets_of_unknowns.ads  20260513024558 836df61b partitions_of_sets_of_unknowns%s
+D partitions_of_sets_of_unknowns.adb  20260513024558 c4a6b089 partitions_of_sets_of_unknowns%b
+D sets_of_unknowns.ads	20260513024558 4fd99d24 sets_of_unknowns%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [create partitions_of_sets_of_unknowns 15 13 none]
+G c Z s b [create partitions_of_sets_of_unknowns 21 12 none]
+G c Z s b [number_of_partitions partitions_of_sets_of_unknowns 45 12 none]
+G c Z s b [clear partitions_of_sets_of_unknowns 52 13 none]
+G c Z s b [clear partitions_of_sets_of_unknowns 53 13 none]
+G c Z s s [partitionIP partitions_of_sets_of_unknowns 10 8 none]
+G r c none [create partitions_of_sets_of_unknowns 15 13 none] [create sets_of_unknowns 13 12 none]
+G r c none [create partitions_of_sets_of_unknowns 21 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [clear partitions_of_sets_of_unknowns 52 13 none] [clear sets_of_unknowns 121 13 none]
+G r c none [clear partitions_of_sets_of_unknowns 53 13 none] [clear sets_of_unknowns 121 13 none]
+X 12 partitions_of_sets_of_unknowns.ads
+4K9*Partitions_of_Sets_of_Unknowns 58l5 58e35 13|3b14 183l5 183t35
+10A8*Partition(14|9P8)<15|7I8> 11r36 15r33 21r25 21r44 29r37 52r32 13|7r33
+. 14r25 14r44 16r11 36r9 164r32 174r34
+11P8*Link_to_Partition(10A8) 53r32 13|171r32 174r44
+15U13*Create 15=22 15>44 13|7b13 12l7 12t13
+15a22 p{10A8} 13|7b22 9r14 10m7
+15i44 n{15|7I8} 13|7b44 10r22
+21V12*Create{10A8} 21>21 13|14b12 23l7 23t13
+21a21 p{10A8} 13|14b21 16r21 19r14 20r24
+29U20 Process 29>30 29<48 13|50s13 69s15
+29a30 p{10A8}
+29b48 continue{boolean}
+30u13*Generate_Partitions 30>35 13|27b13 124l7 124t26
+30p35 s{14|9P8} 13|27b35 34r41 123r14
+45V12*Number_of_Partitions{15|7I8} 45>35 13|128b12 154s36 160l7 160t27
+45i35 n{15|7I8} 13|128b35 149r9 149r20 153r20 154r27 154r57
+52U13*Clear 52=21 13|164b13 169l7 169t12 178s7
+52a21 p{10A8} 13|164b21 166r14 167m13 167r13
+53U13*Clear 53=21 13|171b13 181l7 181t12
+53p21 p{11P8} 13|171b21 177r8 178r13 179m12
+X 13 partitions_of_sets_of_unknowns.adb
+9i9 i<long_integer> 10r9
+16a5 res{12|10A8} 20m7 22r12
+19i9 i<long_integer> 20r11 20r26
+34i5 n{15|7I8} 36r22 58r26 79r27 95r23 101r19 104r28
+35b5 continue{boolean} 82m35 83r18 88r27 90r19 105m27 106r14 116r19 123m16
+36a5 p{12|10A8} 46r34 50r21 63r30 66m15 66r15 67r30 69r23 72m15 72r15 72m24
+. 104m11 104m36 104r36 115m17 115r17
+37i5 cnt{15|7I8} 46r36 50r26 63r32 66r17 67r32 69r28 72r17 72r26 103m11 103r18
+. 104r13 104r38 115r19 115m26 115r33
+39U15 Generate 39>26 39<38 51s13 70s15 99b15 120l9 120t17 123s5
+39p26 v{14|9P8} 99b26 102r18 105r25 108r33 118r25
+39b38 cont{boolean} 99b38 111m29 116m11
+44U15 Empty_Subsets 44b15 44>31 44<43 54l9 54t22 105s11
+44p31 w{14|9P8} 46r32
+44b43 cont{boolean} 50m31 51m27
+46p7 rest{14|9P8} 49r20 51r22 53m13 53r13
+56U15 All_Subsets 56b15 56>29 56<41 97l9 97t20 111s15
+56p29 w{14|9P8} 67r28 80r22
+56b41 cont{boolean} 90m11
+58p7 sb{14|9P8} 81m19 81r19 82r32 85m24 85r24 96m13 96r13
+60U17 Create_Partition 60b17 60>36 60<50 74l11 74t27 82s15
+60p36 sub{14|9P8} 66r22
+60b50 cont{boolean} 69m33 70m29
+62p9 rest{14|9P8} 67m9 68r22 70r24 73m15 73r15
+63p9 back{14|9P8} 72r41 73m28 73r28
+76U17 Generate_Subset 76b17 76>35 76>41 84s17 92l11 92t26 95s7
+76i35 level{15|7I8} 78r12 84r33
+76i41 start{15|7I8} 79r20
+79i15 i<long_integer> 80r24 81r22 84r41 85r27
+101i11 i<long_integer> 102r20 104r43 110r24 118r27
+108p15 w{14|9P8} 110m22 110r22 111r27 112m21 112r21
+130i5 sum{15|7I8} 152m7 154m9 154r16 156r14
+132V14 comb{15|7I8} 132b14 132>21 132>23 146l9 146t13 154s22
+132i21 n{15|7I8} 137r26 141r23
+132i23 i{15|7I8} 137r11 137r22 140r21
+134i7 n1{15|7I8} 141m11 141r17 144r17
+134i10 n2{15|7I8} 142m11 142r17 144r20
+140i13 k<long_integer> 141r27 142r22
+153i11 k<long_integer> 154r31 154r61
+166i9 i<long_integer> 167r15
+173U15 free[33|22] 179s7
+X 14 sets_of_unknowns.ads
+3K9*Sets_of_Unknowns 12|2w6 2r46 14|132e21
+9P8*Set 12|10r53 30r42 13|27r42 39r33 44r38 46r14 56r36 58r12 60r45 62r16
+. 63r16 99r33 108r19
+13V12*Create{9P8} 13|10s15 58s19 104s21
+19V12*Create{9P8} 13|20s17 63s23 72s34 108s26
+32U13*Add 13|81s15 104s32
+38U13*Union 13|66s9
+46U13*Remove 13|85s17 110s15
+53V13*Difference{9P8} 13|46s21 67s17
+70V12*Dimension{15|7I8} 13|34s31
+76V12*Extent_Of{15|7I8} 13|49s10 68s12
+81V12*Is_In{boolean} 13|80s16 102s12 118s19
+121U13*Clear 13|53s7 72s9 73s9 73s22 96s7 112s15 115s11 167s7
+X 15 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 12|1w6 1r46 15|30e29
+7I8*natural32<long_integer> 12|10r29 15r51 45r39 45r58 13|7r51 34r18 37r11
+. 76r52 128r39 128r58 130r11 132r27 132r46 134r15
+X 33 unchdeal.ads
+22u11*Unchecked_Deallocation 13|1w6 174r11
+

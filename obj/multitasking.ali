@@ -1,0 +1,178 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multitasking%b	multitasking.adb	84dd5197 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U multitasking%s	multitasking.ads	0a4a7e75 BN EE NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multitasking.ads	20260513024558 74dd7dbf multitasking%s
+D multitasking.adb	20260513024558 d1b2e4b0 multitasking%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [all_true multitasking 13 12 none]
+G c Z s b [all_false multitasking 18 12 none]
+G c Z s b [to_string multitasking 23 12 none]
+G c Z s b [to_string multitasking 24 12 none]
+G c Z s b [show multitasking 29 13 none]
+G c Z s s [boolean_arrayIP multitasking 11 8 none]
+X 9 a-textio.ads
+565U14*Put_Line 14|51s13 53s13 101s7 103s7 119s9 121s9 211s8 216s12 222s14
+. 229s12 240s12 242s12 246s12 249s8 265s10 267s10
+X 13 multitasking.ads
+4K9*Multitasking 105l5 105e17 14|3b14 276l5 276t17
+11A8*boolean_array(boolean)<15|6I8> 13r42 18r43 29r45 14|5r42 15r43 47r45
+. 134r12 135r12 198r13 199r13
+13V12*all_true{boolean} 13>23 13>38 14|5b12 13l7 13t15 147s36 153s26 212s37
+. 221s27
+13i23 n{15|6I8} 14|5b23 7r17
+13a38 b{11A8} 14|5b38 8r14
+18V12*all_false{boolean} 18>24 18>39 14|15b12 23l7 23t16 161s23 232s24
+18i24 n{15|6I8} 14|15b24 17r17
+18a39 b{11A8} 14|15b39 18r10
+23V12*to_string{string} 23>24 14|25b12 38s29 38s47 40l7 40t16 44s12 51s49
+. 53s49 98s30 114s31 115s31 206s31 216s62 240s58 260s32 261s32
+23i24 n{16|7I8} 14|25b24 27r10 38r39 38r57
+24V12*to_string{string} 24>24 14|42b12 45l7 45t16
+24i24 n{15|6I8} 14|42b24 44r32
+29U13*show 29>20 29>38 29>60 14|47b13 57l7 57t11 219s12 230s12
+29i20 n{15|6I8} 14|47b20 49r17
+29a38 b{11A8} 14|47b38 50r10
+29a60 s{string} 14|47b60 51r30 53r30
+39U21 Job 39>27 39>29 14|70s7
+39i27 i{15|6I8}
+39i29 n{15|6I8}
+44u13*Silent_Workers 44>30 14|61b13 90l7 90t21
+44i30 n{15|6I8} 14|61b30 89r22
+53U21 Job 53>27 53>29 14|102s7
+53i27 i{15|6I8}
+53i29 n{15|6I8}
+58u13*Reporting_Workers 58>33 14|92b13 128l7 128t24
+58i33 n{15|6I8} 14|92b33 127r22
+70U21 Job 70>27 70>29 70<47 14|149s11
+70i27 i{15|6I8}
+70i29 n{15|6I8}
+70b47 continue{boolean}
+77u13*Silent_Looping_Workers 77>38 14|132b13 194l7 194t29
+77i38 n{15|6I8} 14|132b38 134r29 134r39 135r29 135r39 193r22
+88U21 Job 88>27 88>29 88<47 14|214s12
+88i27 i{15|6I8}
+88i29 n{15|6I8}
+88b47 continue{boolean}
+95u13*Reporting_Looping_Workers 95>41 14|196b13 274l7 274t32
+95i41 n{15|6I8} 14|196b41 198r30 198r40 199r30 199r40 273r22
+X 14 multitasking.adb
+7i9 i<long_integer> 8r16
+17i9 i<long_integer> 18r12
+49i9 i<long_integer> 50r12 51r69 53r69
+63T15 Worker 63d24 63d27 65b15 71l9 71t15 80r11
+63i24 id{15|6I8} 70r11
+63i27 n{15|6I8} 70r14
+73U15 Launch_Workers 73b15 73>32 73>34 84s13 86l9 86t23 89s5
+73i32 i{15|6I8} 80r18 83r10 84r28
+73i34 n{15|6I8} 80r20 83r14 84r32
+80t7 w{63T15}
+94T15 Worker 94d24 94d27 96b15 104l9 104t15 113r11
+94i24 id{15|6I8} 98r50 102r11
+94i27 n{15|6I8} 102r14
+98a7 i{string} 101r28 103r32
+106U15 Launch_Workers 106b15 106>32 106>34 122s9 124l9 124t23 127s5
+106i32 i{15|6I8} 113r18 114r51 118r10 122r24
+106i34 n{15|6I8} 113r20 115r51 118r15 122r28
+113t7 w{94T15}
+114a7 id{string} 121r39
+115a7 ns{string} 119r27
+134a5 busy{13|11A8} 154m17 157m9 161r35 165m19
+135a5 done{13|11A8} 147r47 148r28 152m11 153r37 164r20
+136i5 jobcnt{16|7I8} 168m11 168r21 171r24
+138T15 Worker 138d24 138d27 140b15 175l9 175t15 184r11
+138i24 id{15|6I8} 147r20 148r13 148r33 148r42 149r15 152r16 153r15 153r48
+. 154r22 157r14 159r12
+138i27 n{15|6I8} 147r45 149r18 153r35 161r33 163r23
+143b7 c{boolean} 147r13 149m20 151r16
+144i7 cnt{16|7I8} 158m9 158r16 171r33
+163i15 j<long_integer> 164r25 165r24
+177U15 Launch_Workers 177b15 177>32 177>34 188s13 190l9 190t23 193s5
+177i32 i{15|6I8} 184r18 187r10 188r28
+177i34 n{15|6I8} 184r20 187r14 188r32
+184t7 w{138T15}
+198a6 busy{13|11A8} 223m14 227m10 230r19 232r36 236m20
+199a6 done{13|11A8} 212r48 213r31 219r19 220m12 221r38 235r21
+200i6 jobcnt{16|7I8} 239m12 239r22 240r68 244r25
+202T16 Worker 202d25 202d28 204b16 250l10 250t16 259r12
+202i25 id{15|6I8} 206r51 212r21 213r15 213r36 213r45 214r16 220r17 221r16
+. 221r49 223r19 227r15 228r13
+202i28 n{15|6I8} 212r46 214r19 219r17 221r36 230r17 232r34 234r24
+206a8 i{string} 211r29 216r33 222r35 242r33 246r33 249r33
+207b8 c{boolean} 212r14 214m21 218r17
+208i8 cnt{16|7I8} 215m12 215r19 216r72 244r34
+234i16 j<long_integer> 235r26 236r25
+252U16 Launch_Workers 252b16 252>33 252>35 268s10 270l10 270t24 273s5
+252i33 i{15|6I8} 259r19 260r52 264r11 268r25
+252i35 n{15|6I8} 259r21 261r52 264r16 268r29
+259t8 w{202T16}
+260a8 id{string} 267r40
+261a8 ns{string} 265r28
+X 15 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 13|2w6 2r46 15|45e29
+6I8*integer32<long_integer> 13|11r33 13r27 18r28 24r28 29r27 39r36 44r37
+. 53r36 58r40 70r36 77r45 88r36 95r48 14|5r27 15r28 42r28 47r27 61r37 63r31
+. 73r41 92r40 94r31 106r41 132r45 138r31 177r41 196r48 202r32 252r42
+X 16 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 13|1w6 1r46 16|30e29
+7I8*natural32<long_integer> 13|23r28 14|25r28 44r22 51r59 53r59 98r40 114r41
+. 115r41 136r14 144r13 200r15 206r41 208r14 260r42 261r42
+X 31 text_io.ads
+27K9*Text_IO=27:29 14|1w6 1r46
+

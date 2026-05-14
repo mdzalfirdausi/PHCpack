@@ -1,0 +1,160 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_cseries_vector_norms%b  standard_cseries_vector_norms.adb  37feecc1 NE OO PK
+W standard_complex_algebraic_series%s  standard_complex_algebraic_series.adb  standard_complex_algebraic_series.ali
+W standard_complex_series_norms%s  standard_complex_series_norms.adb  standard_complex_series_norms.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_cseries_vector_norms%s  standard_cseries_vector_norms.ads  4c4119b9 EE NE OO PK
+W standard_complex_series%s  standard_complex_series.ads  standard_complex_series.ali
+W standard_complex_series_vectors%s  standard_complex_series_vectors.ads  standard_complex_series_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_complex_algebraic_series.ads  20260513024558 1a330e51 standard_complex_algebraic_series%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_series.ads  20260513024558 0ccca880 standard_complex_series%s
+D standard_complex_series_norms.ads  20260513024558 9b63fea2 standard_complex_series_norms%s
+D standard_complex_series_ring.ads  20260513024558 855aaf79 standard_complex_series_ring%s
+D standard_complex_series_vectors.ads  20260513024558 35bf7d89 standard_complex_series_vectors%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_cseries_vector_norms.ads  20260513024558 d3a44ddd standard_cseries_vector_norms%s
+D standard_cseries_vector_norms.adb  20260513024558 1aea33f4 standard_cseries_vector_norms%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [conjugate standard_cseries_vector_norms 11 12 none]
+G c Z s b [inner_product standard_cseries_vector_norms 17 12 none]
+G c Z s b [square_of_norm standard_cseries_vector_norms 22 12 none]
+G c Z s b [norm standard_cseries_vector_norms 28 12 none]
+G c Z s b [normalize standard_cseries_vector_norms 33 13 none]
+G c Z s b [normalize standard_cseries_vector_norms 38 12 none]
+G c Z s b [max_norm standard_cseries_vector_norms 43 12 none]
+G r s vector [conjugate standard_cseries_vector_norms 11 12 none] [vectorIP standard_complex_series_vectors 16 8 4_1]
+G r c none [conjugate standard_cseries_vector_norms 11 12 none] [conjugate standard_complex_series_norms 16 12 none]
+G r s vector [inner_product standard_cseries_vector_norms 17 12 none] [vectorIP standard_complex_series_vectors 16 8 4_1]
+G r c none [inner_product standard_cseries_vector_norms 17 12 none] [conjugate standard_complex_series_norms 16 12 none]
+G r c none [inner_product standard_cseries_vector_norms 17 12 none] [create standard_complex_series 41 12 6_1]
+G r c none [inner_product standard_cseries_vector_norms 17 12 none] [Omultiply standard_complex_series 311 12 6_1]
+G r c none [inner_product standard_cseries_vector_norms 17 12 none] [Oadd standard_complex_series 165 12 6_1]
+G r s vector [square_of_norm standard_cseries_vector_norms 22 12 none] [vectorIP standard_complex_series_vectors 16 8 4_1]
+G r c none [square_of_norm standard_cseries_vector_norms 22 12 none] [conjugate standard_complex_series_norms 16 12 none]
+G r c none [square_of_norm standard_cseries_vector_norms 22 12 none] [Omultiply standard_complex_series_vectors 42 12 4_1]
+G r s vector [norm standard_cseries_vector_norms 28 12 none] [vectorIP standard_complex_series_vectors 16 8 4_1]
+G r c none [norm standard_cseries_vector_norms 28 12 none] [conjugate standard_complex_series_norms 16 12 none]
+G r c none [norm standard_cseries_vector_norms 28 12 none] [Omultiply standard_complex_series_vectors 42 12 4_1]
+G r c none [norm standard_cseries_vector_norms 28 12 none] [sqrt standard_complex_algebraic_series 13 12 none]
+G r s vector [normalize standard_cseries_vector_norms 33 13 none] [vectorIP standard_complex_series_vectors 16 8 4_1]
+G r c none [normalize standard_cseries_vector_norms 33 13 none] [conjugate standard_complex_series_norms 16 12 none]
+G r c none [normalize standard_cseries_vector_norms 33 13 none] [Omultiply standard_complex_series_vectors 42 12 4_1]
+G r c none [normalize standard_cseries_vector_norms 33 13 none] [sqrt standard_complex_algebraic_series 13 12 none]
+G r c none [normalize standard_cseries_vector_norms 33 13 none] [inverse standard_complex_series 341 12 6_1]
+G r c none [normalize standard_cseries_vector_norms 33 13 none] [mul standard_complex_series 324 13 6_1]
+G r s vector [normalize standard_cseries_vector_norms 38 12 none] [vectorIP standard_complex_series_vectors 16 8 4_1]
+G r c none [normalize standard_cseries_vector_norms 38 12 none] [conjugate standard_complex_series_norms 16 12 none]
+G r c none [normalize standard_cseries_vector_norms 38 12 none] [Omultiply standard_complex_series_vectors 42 12 4_1]
+G r c none [normalize standard_cseries_vector_norms 38 12 none] [sqrt standard_complex_algebraic_series 13 12 none]
+G r c none [normalize standard_cseries_vector_norms 38 12 none] [inverse standard_complex_series 341 12 6_1]
+G r c none [normalize standard_cseries_vector_norms 38 12 none] [Omultiply standard_complex_series 311 12 6_1]
+G r c none [max_norm standard_cseries_vector_norms 43 12 none] [max_norm standard_complex_series_norms 37 12 none]
+X 2 generic_dense_series.ads
+22R8*Series 12|17r50[7|6] 22r49[7|6] 28r39[7|6] 13|18r50[7|6] 22r11[7|6]
+. 31r49[7|6] 40r39[7|6] 42r19[7|6] 43r20[7|6] 51r19[7|6] 52r22[7|6] 62r19[7|6]
+. 63r22[7|6] 69r24[7|6] 71r23[7|6]
+23a5*cff{3|16A8[11|4]} 13|21r44[7|6]
+25P8*Link_to_Series(22R8[7|6]) 13|34r20[7|6]
+41V12*Create{22R8[7|6]} 13|22s26[7|6]
+165V13*"+"{22R8[7|6]} 13|26s18[7|6]
+311V13*"*"{22R8[7|6]} 13|26s28[7|6] 69s39[7|6]
+324U13*Mul 13|56s7[7|6]
+341V12*Inverse{22R8[7|6]} 13|52s32[7|6] 63s32[7|6]
+X 3 generic_vectors.ads
+16A8*Vector(5|11R8)<15|6I8> 12|11r28[10|4] 11r44[10|4] 17r34[10|4] 22r33[10|4]
+. 28r23[10|4] 33r36[10|4] 38r28[10|4] 38r44[10|4] 43r27[10|4] 13|7r28[10|4]
+. 7r44[10|4] 9r11[10|4] 18r34[10|4] 20r18[10|4] 31r33[10|4] 33r18[10|4] 40r23[10|4]
+. 49r36[10|4] 60r28[10|4] 60r44[10|4] 64r11[10|4] 77r27[10|4]
+42V13*"*"{2|25P8[7|6]} 13|34s39[10|4]
+X 4 standard_complex_algebraic_series.ads
+6K9*Standard_Complex_Algebraic_Series 58e38 13|2w6 43r30
+13V12*sqrt{2|22R8[7|6]} 13|43s64
+X 7 standard_complex_series.ads
+6K9*Standard_Complex_Series[2|12] 12|2w6 2r46
+X 8 standard_complex_series_norms.ads
+4K9*Standard_Complex_Series_Norms 48e34 13|3w6 13r17 80r12 85r14
+16V12*Conjugate{2|25P8[7|6]} 13|13s47
+37V12*Max_Norm{14|13F8} 13|80s42 85s44
+X 10 standard_complex_series_vectors.ads
+4K9*Standard_Complex_Series_Vectors[3|8] 12|3w6 3r46
+X 12 standard_cseries_vector_norms.ads
+5K9*Standard_CSeries_Vector_Norms 49l5 49e34 13|5b14 93l5 93t34
+11V12*Conjugate{3|16A8[10|4]} 11>24 13|7b12 16l7 16t16 20s37 33s37
+11a24 v{3|16A8[10|4]} 13|7b24 9r18 12r14 13r57
+17V12*Inner_Product{2|22R8[7|6]} 17>28 17>30 13|18b12 29l7 29t20
+17a28 u{3|16A8[10|4]} 13|18b28 20r25 20r47 21r33 21r35
+17a30 v{3|16A8[10|4]} 13|18b30 26r29
+22V12*Square_of_Norm{2|22R8[7|6]} 22>29 13|31b12 38l7 38t21 42s29
+22a29 v{3|16A8[10|4]} 13|31b29 33r25 33r47 34r40
+28V12*Norm{2|22R8[7|6]} 28>19 13|40b12 47l7 47t11 51s29 62s29
+28a19 v{3|16A8[10|4]} 13|40b19 42r44
+33U13*Normalize 33=25 13|49b13 58l7 58t16
+33a25 v{3|16A8[10|4]} 13|49b25 51r34 55r14 56r11
+38V12*Normalize{3|16A8[10|4]} 38>24 13|60b12 75l7 75t16
+38a24 v{3|16A8[10|4]} 13|60b24 62r34 64r18 67r14 69r40
+43V12*Max_Norm{14|13F8} 43>23 13|77b12 91l7 91t15
+43a23 v{3|16A8[10|4]} 13|77b23 80r51 80r53 84r14 84r25 85r53
+X 13 standard_cseries_vector_norms.adb
+9a5 res{3|16A8[10|4]} 13m7 15r12
+12i9 i<long_integer> 13r11 13r59
+20a5 w{3|16A8[10|4]} 25r14 26r20
+21i5 deg{15|6I8} 22r18 22r35
+22r5 res{2|22R8[7|6]} 26m7 26r14 28r12
+25i9 i<long_integer> 26r22 26r31
+33a5 c{3|16A8[10|4]} 34r38
+34p5 res{2|25P8[7|6]} 37r12
+42r5 sn{2|22R8[7|6]} 43r69
+43r5 res{2|22R8[7|6]} 46r12
+51r5 sn{2|22R8[7|6]} 52r40
+52r5 invsn{2|22R8[7|6]} 56r20
+55i9 i<long_integer> 56r13
+62r5 sn{2|22R8[7|6]} 63r40
+63r5 invsn{2|22R8[7|6]} 69r34
+64a5 res{3|16A8[10|4]} 71m9 74r12
+67i9 i<long_integer> 69r42 71r13
+69r9 prd{2|22R8[7|6]} 71r31
+79f5 res{14|13F8} 86r16 87m13 90r12
+81f5 nrm{14|13F8} 85m7 86r10 87r20
+84i9 i<long_integer> 85r55
+X 14 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 12|1w6 1r46 14|58e30
+13F8*double_float<long_float> 12|43r43 13|77r43 79r11 81r11
+X 15 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 13|1w6 1r45 15|45e29
+6I8*integer32<long_integer> 13|21r20
+

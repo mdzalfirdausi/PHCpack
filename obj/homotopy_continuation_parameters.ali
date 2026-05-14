@@ -1,0 +1,89 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U homotopy_continuation_parameters%b  homotopy_continuation_parameters.adb  5b90f837 NE OO PK
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W unchecked_deallocation%s
+
+U homotopy_continuation_parameters%s  homotopy_continuation_parameters.ads  4cb4557e EE NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D homotopy_continuation_parameters.ads  20260513024558 1c7e71d3 homotopy_continuation_parameters%s
+D homotopy_continuation_parameters.adb  20260513024558 7c2b9339 homotopy_continuation_parameters%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [default_values homotopy_continuation_parameters 28 12 none]
+G c Z s b [clear homotopy_continuation_parameters 33 13 none]
+G c Z s b [construct homotopy_continuation_parameters 40 13 none]
+G c Z s b [retrieve homotopy_continuation_parameters 45 12 none]
+G c Z s b [destruct homotopy_continuation_parameters 50 13 none]
+G c Z s s [parametersIP homotopy_continuation_parameters 11 8 none]
+G r c none [default_values homotopy_continuation_parameters 28 12 none] [random1 standard_random_numbers 90 12 none]
+X 1 homotopy_continuation_parameters.ads
+5K9*Homotopy_Continuation_Parameters 55l5 55e37 2|4b14 58l5 58t37
+11R8*Parameters 24e13 26r37 28r34 40r35 2|6r34 8r11 29r34 41r35 43r32
+12f5*alpha{4|13F8} 2|11m9
+13f5*pbeta{4|13F8} 2|12m9
+14f5*cbeta{4|13F8} 2|13m9
+15r5*gamma{3|11R8} 2|14m9
+16f5*tolres{4|13F8} 2|15m9
+17f5*epsilon{4|13F8} 2|16m9
+18i5*numdeg{6|7I8} 2|17m9
+19i5*dendeg{6|7I8} 2|18m9
+20f5*maxsize{4|13F8} 2|19m9
+21f5*minsize{4|13F8} 2|20m9
+22i5*corsteps{6|7I8} 2|21m9
+23i5*maxsteps{6|7I8} 2|22m9
+26P8*Link_to_Parameters(11R8) 33r35 45r28 2|26r35 29r45 39r25 46r28
+28V12*Default_Values{11R8} 2|6b12 24l7 24t21
+33U13*Clear 33=21 2|26b13 35l7 35t12 54s11
+33p21 pars{26P8} 2|26b21 32r8 33m16
+40U13*Construct 40>25 2|41b13 44l7 44t16
+40r25 pars{11R8} 2|41b25 43r44
+45V12*Retrieve{26P8} 2|46b12 49l7 49t15
+50U13*Destruct 2|51b13 56l7 56t15
+X 2 homotopy_continuation_parameters.adb
+8r5 res{1|11R8} 11m5 12m5 13m5 14m5 15m5 16m5 17m5 18m5 19m5 20m5 21m5 22m5
+. 23r12
+28U15 free[9|22] 33s11
+39p3 parameters_instance{1|26P8} 43m5 48r12 53r8 54m17 54r17
+X 3 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 1|3w6 3r46 3|92e29
+11R8*Complex_Number 1|15r13 3|90e15
+X 4 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 1|2w6 2r46 4|58e30
+13F8*double_float<long_float> 1|12r13 13r13 14r13 16r14 17r15 20r15 21r15
+X 6 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 1|1w6 1r46 6|30e29
+7I8*natural32<long_integer> 1|18r14 19r14 22r16 23r16
+X 7 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 2|2w6 14r18 7|112e28
+90V12*Random1{3|11R8} 2|14s42
+X 9 unchdeal.ads
+22u11*Unchecked_Deallocation 2|1w6 29r11
+

@@ -1,0 +1,583 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U multprec_mathematical_functions%b  multprec_mathematical_functions.adb  2ced37e2 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system.exn_lflt%s	s-exnlfl.ads		s-exnlfl.ali
+
+U multprec_mathematical_functions%s  multprec_mathematical_functions.ads  72631715 EE NE OO PK
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_mathematical_functions.ads  20260513024558 8d7fddd2 multprec_mathematical_functions%s
+D multprec_mathematical_functions.adb  20260513024558 b8161870 multprec_mathematical_functions%b
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnlfl.ads		20250808065140 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [exp multprec_mathematical_functions 16 12 none]
+G c Z s b [ln multprec_mathematical_functions 22 12 none]
+G c Z s b [Oexpon multprec_mathematical_functions 29 12 none]
+G c Z s b [Oexpon multprec_mathematical_functions 30 12 none]
+G c Z s b [Oexpon multprec_mathematical_functions 32 12 none]
+G c Z s b [log2 multprec_mathematical_functions 38 12 none]
+G c Z s b [log10 multprec_mathematical_functions 43 12 none]
+G c Z s b [sqrt multprec_mathematical_functions 48 12 none]
+G c Z s b [sin multprec_mathematical_functions 55 12 none]
+G c Z s b [cos multprec_mathematical_functions 56 12 none]
+G c Z s b [tan multprec_mathematical_functions 57 12 none]
+G c Z s b [arcsin multprec_mathematical_functions 62 12 none]
+G c Z s b [arccos multprec_mathematical_functions 63 12 none]
+G c Z s b [arctan multprec_mathematical_functions 64 12 none]
+G c Z s b [radius multprec_mathematical_functions 69 12 none]
+G c Z s b [angle multprec_mathematical_functions 70 12 none]
+G c Z b b [ln_one_plus_x multprec_mathematical_functions 8 13 none]
+G c Z b b [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none]
+G c Z b b [restricted_natural_logarithm multprec_mathematical_functions 69 12 none]
+G r s floating_number [exp multprec_mathematical_functions 16 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [exp standard_mathematical_functions 15 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [min multprec_floating_numbers 200 13 none]
+G r c none [exp multprec_mathematical_functions 16 12 none] [absval multprec_floating_numbers 71 12 none]
+G r s floating_number [ln multprec_mathematical_functions 22 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [ln multprec_mathematical_functions 22 12 none] [min multprec_floating_numbers 200 13 none]
+G r s floating_number [Oexpon multprec_mathematical_functions 29 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [min multprec_floating_numbers 200 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [exp standard_mathematical_functions 15 12 none]
+G r c none [Oexpon multprec_mathematical_functions 29 12 none] [absval multprec_floating_numbers 71 12 none]
+G r s floating_number [Oexpon multprec_mathematical_functions 30 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [min multprec_floating_numbers 200 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [exp standard_mathematical_functions 15 12 none]
+G r c none [Oexpon multprec_mathematical_functions 30 12 none] [absval multprec_floating_numbers 71 12 none]
+G r s floating_number [Oexpon multprec_mathematical_functions 32 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [min multprec_floating_numbers 200 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [exp standard_mathematical_functions 15 12 none]
+G r c none [Oexpon multprec_mathematical_functions 32 12 none] [absval multprec_floating_numbers 71 12 none]
+G r s floating_number [log2 multprec_mathematical_functions 38 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [min multprec_floating_numbers 200 13 none]
+G r c none [log2 multprec_mathematical_functions 38 12 none] [div multprec_floating_numbers 206 13 none]
+G r s floating_number [log10 multprec_mathematical_functions 43 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [min multprec_floating_numbers 200 13 none]
+G r c none [log10 multprec_mathematical_functions 43 12 none] [div multprec_floating_numbers 206 13 none]
+G r s floating_number [sqrt multprec_mathematical_functions 48 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [decimal_places_fraction multprec_floating_numbers 54 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [expand multprec_floating_numbers 131 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [Omultiply multprec_floating_numbers 174 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [div multprec_floating_numbers 206 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [absval multprec_floating_numbers 71 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [Osubtract multprec_floating_numbers 170 12 none]
+G r c none [sqrt multprec_mathematical_functions 48 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r s floating_number [sin multprec_mathematical_functions 55 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [sin multprec_mathematical_functions 55 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [sin multprec_mathematical_functions 55 12 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [sin multprec_mathematical_functions 55 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [cos multprec_mathematical_functions 56 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [cos multprec_mathematical_functions 56 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [cos multprec_mathematical_functions 56 12 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [cos multprec_mathematical_functions 56 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [tan multprec_mathematical_functions 57 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [tan multprec_mathematical_functions 57 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [tan multprec_mathematical_functions 57 12 none] [tan standard_mathematical_functions 49 12 none]
+G r c none [tan multprec_mathematical_functions 57 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [arcsin multprec_mathematical_functions 62 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [arcsin multprec_mathematical_functions 62 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [arcsin multprec_mathematical_functions 62 12 none] [arcsin standard_mathematical_functions 54 12 none]
+G r c none [arcsin multprec_mathematical_functions 62 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [arccos multprec_mathematical_functions 63 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [arccos multprec_mathematical_functions 63 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [arccos multprec_mathematical_functions 63 12 none] [arccos standard_mathematical_functions 55 12 none]
+G r c none [arccos multprec_mathematical_functions 63 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [arctan multprec_mathematical_functions 64 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [arctan multprec_mathematical_functions 64 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [arctan multprec_mathematical_functions 64 12 none] [arctan standard_mathematical_functions 56 12 none]
+G r c none [arctan multprec_mathematical_functions 64 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [radius multprec_mathematical_functions 69 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [radius multprec_mathematical_functions 69 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [radius multprec_mathematical_functions 69 12 none] [radius standard_mathematical_functions 61 12 none]
+G r c none [radius multprec_mathematical_functions 69 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [angle multprec_mathematical_functions 70 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [angle multprec_mathematical_functions 70 12 none] [round multprec_floating_numbers 136 13 none]
+G r c none [angle multprec_mathematical_functions 70 12 none] [angle standard_mathematical_functions 62 12 none]
+G r c none [angle multprec_mathematical_functions 70 12 none] [create multprec_floating_numbers 24 12 none]
+G r s floating_number [ln_one_plus_x multprec_mathematical_functions 8 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [create multprec_floating_numbers 21 12 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [add multprec_floating_numbers 195 13 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [add multprec_floating_numbers 196 13 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [ln_one_plus_x multprec_mathematical_functions 8 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [create multprec_floating_numbers 21 12 none]
+G r s floating_number [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [create multprec_floating_numbers 24 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [add multprec_floating_numbers 195 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [add multprec_floating_numbers 196 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [subtract_multiple_of_ln2 multprec_mathematical_functions 46 13 none] [min multprec_floating_numbers 200 13 none]
+G r s floating_number [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [size_fraction multprec_floating_numbers 45 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [size_to_decimal multprec_floating_numbers 66 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Olt multprec_floating_numbers 108 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [mul multprec_floating_numbers 202 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [sub multprec_floating_numbers 198 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Osubtract multprec_floating_numbers 166 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [set_size multprec_floating_numbers 148 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [create multprec_floating_numbers 21 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [mul multprec_floating_numbers 203 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [add multprec_floating_numbers 195 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Odivide multprec_floating_numbers 191 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [add multprec_floating_numbers 196 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [sub multprec_floating_numbers 199 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Ogt multprec_floating_numbers 115 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [equal multprec_floating_numbers 101 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [Odivide multprec_floating_numbers 189 12 none]
+G r c none [restricted_natural_logarithm multprec_mathematical_functions 69 12 none] [min multprec_floating_numbers 200 13 none]
+X 12 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 221e30 14|2w6 2r46
+16R8*Floating_Number 219e13 14|16r22 16r47 22r21 22r46 29r25 29r50 31r23
+. 31r48 32r23 33r45 38r23 38r48 43r24 43r49 48r23 48r48 55r22 55r47 56r22
+. 56r47 57r22 57r47 62r25 62r50 63r25 63r50 64r25 64r50 69r27 69r52 70r27
+. 70r52 15|8r40 10r37 16r20 18r10 47r28 53r11 54r11 55r13 70r20 70r45 75r15
+. 79r11 116r22 116r47 118r11 121r27 125r11 156r21 156r46 158r11 159r9 176r25
+. 176r50 178r11 179r13 189r23 189r48 191r11 193r13 202r23 203r45 205r11 207r13
+. 216r23 216r48 218r11 220r11 221r14 231r24 231r49 233r11 235r11 236r14 246r23
+. 246r48 248r11 256r32 266r30 297r18 298r20 313r22 313r47 315r11 324r22 324r47
+. 326r11 335r22 335r47 337r11 346r25 346r50 348r11 357r25 357r50 359r11 368r25
+. 368r50 370r11 379r27 379r52 381r11 391r27 391r52 393r11
+21V12*Create{16R8} 15|18s29 53s30 55s32 61s16 165s14 220s30 235s30
+24V12*Create{16R8} 15|79s30 125s30 131s12 193s32 207s32 289s12 320s12 331s12
+. 342s12 353s12 364s12 375s12 387s12 399s12
+45V12*Size_Fraction{21|7I8} 15|52s34 76s34 122s34 192s34 206s34 219s34 234s34
+. 250s35 290s16
+54V12*Decimal_Places_Fraction{21|7I8} 15|252s28
+66V12*Size_to_Decimal{21|7I8} 15|77s39 123s39
+71V12*AbsVal{16R8} 15|139s22 277s19
+101V12*Equal{boolean} 15|164s11
+108V13*"<"{boolean} 15|86s10 88s17 162s10 278s25
+109V13*"<"{boolean} 15|35s27
+115V13*">"{boolean} 15|33s15 166s13
+116V13*">"{boolean} 15|34s27 142s28
+121U13*Copy 15|22s5 23s5 87s7 271s9 281s9 300s11 303s11
+131U13*Expand 15|292s7
+136V13*Round{18|13F8} 15|119s35 249s26 316s26 327s26 338s26 349s26 360s26
+. 371s26 382s26 383s35 394s26 395s35
+148U13*Set_Size 15|58s5 96s5 132s5 196s5 210s5 224s5 239s5
+166V13*"-"{16R8} 15|94s16
+170V13*"-"{16R8} 15|280s26
+174V13*"*"{16R8} 15|272s22
+189V13*"/"{16R8} 15|167s15 297s40 298s42 302s24
+191V13*"/"{16R8} 15|28s18
+195U13*Add 15|27s7
+196U13*Add 15|30s13
+198U13*Sub 15|92s7
+199U13*Sub 15|31s13 65s5 136s7 138s7 274s9
+200U13*Min 15|169s7
+202U13*Mul 15|89s9
+203U13*Mul 15|26s7 62s7 137s7 182s5 273s9
+206U13*Div 15|226s5 241s5 275s9
+210U13*Clear 15|37s7 41s5 63s7 66s5 66s17 98s5 110s5 140s7 143s7 146s5 169s17
+. 184s5 198s5 212s5 227s5 242s5 276s9 279s9 282s9 282s24 300s30 303s30 304s11
+X 14 multprec_mathematical_functions.ads
+4K9*Multprec_Mathematical_Functions 72l5 72e36 15|4b14 403l5 403t36
+12N3*PI
+16V12*EXP{12|16R8} 16>18 15|116b12 154l7 154t10 183s12
+16r18 x{12|16R8} 15|116b18 119r41 122r48 136r19
+22V12*LN{12|16R8} 22>17 15|59s12 135s18 156b12 174l7 174t9 179s32 218s30
+. 225s15 233s30 240s15
+22r17 x{12|16R8} 15|156b17 162r8 164r17 166r11 167r16 171r43
+29V13*"**"{12|16R8} 29>19 29>21 15|176b13 186l8 186t11 197s17 211s13
+29r19 x{12|16R8} 15|176b19 179r35
+29r21 y{12|16R8} 15|176b21 182r15
+30V13*"**"{12|16R8} 30>19 31>19 15|188b13 200l8 200t11
+30f19 x{18|13F8} 15|188b19 193r39
+31r19 y{12|16R8} 15|189b19 192r48 197r19
+32V13*"**"{12|16R8} 32>19 33>19 15|202b13 214l8 214t11
+32r19 x{12|16R8} 15|202b19 206r48 211r12
+33f19 y{18|13F8} 15|203b19 207r39
+38V12*LOG2{12|16R8} 38>19 15|216b12 229l7 229t11
+38r19 x{12|16R8} 15|216b19 218r33 219r48
+43V12*LOG10{12|16R8} 43>20 15|231b12 244l7 244t12
+43r20 x{12|16R8} 15|231b20 233r33 234r48
+48V12*SQRT{12|16R8} 48>19 15|246b12 309l7 309t11
+48r19 x{12|16R8} 15|246b19 249r32 250r49 252r52 294r17 297r41
+55V12*SIN{12|16R8} 55>18 15|313b12 322l7 322t10
+55r18 x{12|16R8} 15|313b18 316r32
+56V12*COS{12|16R8} 56>18 15|324b12 333l7 333t10
+56r18 x{12|16R8} 15|324b18 327r32
+57V12*TAN{12|16R8} 57>18 15|335b12 344l7 344t10
+57r18 x{12|16R8} 15|335b18 338r32
+62V12*ARCSIN{12|16R8} 62>21 15|346b12 355l7 355t13
+62r21 x{12|16R8} 15|346b21 349r32
+63V12*ARCCOS{12|16R8} 63>21 15|357b12 366l7 366t13
+63r21 x{12|16R8} 15|357b21 360r32
+64V12*ARCTAN{12|16R8} 64>21 15|368b12 377l7 377t13
+64r21 x{12|16R8} 15|368b21 371r32
+69V12*Radius{12|16R8} 69>21 69>23 15|379b12 389l7 389t13
+69r21 x{12|16R8} 15|379b21 382r32
+69r23 y{12|16R8} 15|379b23 383r41
+70V12*Angle{12|16R8} 70>21 70>23 15|391b12 401l7 401t12
+70r21 x{12|16R8} 15|391b21 394r32
+70r23 y{12|16R8} 15|391b23 395r41
+X 15 multprec_mathematical_functions.adb
+8U13 ln_one_plus_x 8b13 8>29 8>31 9<29 9>50 10<29 10<54 44l7 44t20 97s5
+8r29 x{12|16R8} 22r10 23r10 26r15
+8r31 eps{12|16R8} 34r29 35r29
+9i29 nit{21|7I8} 42m5
+9i50 max{21|7I8} 24r17
+10r29 y{12|16R8} 43m5
+10b54 fail{boolean} 34m13 35m13 38r21
+16r5 sum{12|16R8} 22m12 22r12 30m17 30r17 31m17 31r17 43r10
+16r9 acc{12|16R8} 23m12 23r12 26m11 26r11 28r15 41m11 41r11
+16r13 quot{12|16R8} 28m7 30r21 31r21 33r10 34r22 35r22 37m13 37r13
+17i5 nk{21|7I8} 25m7 25r13 42r12
+18r5 fk{12|16R8} 27m11 27r11 28r19
+19b5 plus_sign{boolean} 29r10 39m7 39r24
+24i9 i<long_integer>
+46U13 Subtract_Multiple_of_ln2 46b13 47=17 47>45 67l7 67t31 107s17
+47r17 x{12|16R8} 52r48 65m9
+47i45 a{21|7I8} 55r39 60r8 61r23
+52i5 size{21|7I8} 58r18
+53r5 two{12|16R8} 58m14 58r14 59r15 66m11 66r11
+54r5 ln2{12|16R8} 59m5 62m11 62r11 65r11 66m23 66r23
+55r5 flt_a{12|16R8} 61m7 62r15 63m13 63r13
+69V12 Restricted_Natural_Logarithm{12|16R8} 69b12 70>16 112l7 112t35 168s14
+. 171s14
+70r16 x{12|16R8} 76r48 86r8 87r12 94r14
+75r5 res{12|16R8} 97m43 107m42 107r42 111r12
+75r9 wrk{12|16R8} 87m14 87r14 88r13 89m13 89r13 92m11 92r11 94m7 96m14 96r14
+. 97r19 98m11 98r11
+76i5 size{21|7I8} 77r55 96r18
+77i5 nb_digits{21|7I8} 78r56 81r41
+78f5 dbl_eps{18|13F8} 79r37
+79r5 eps{12|16R8} 97r23 110m11 110r11
+80i5 steps{21|7I8} 97m27
+80i11 exp_of_two{21|7I8} 85m5 90m9 90r23 106r14 107r46
+81i5 max_steps{21|7I8} 97r33
+82b5 fail{boolean} 97m47
+118r5 res{12|16R8} 131m5 132m14 132r14 135r21 137r19 138m11 138r11 153r12
+119f5 sx{18|13F8} 120r45
+120f5 dbl_expx{18|13F8} 131r19
+121r5 delta_y{12|16R8} 135m7 136m11 136r11 137m11 137r11 138r15 139r29 140m13
+. 140r13
+121r13 abs_delta_y{12|16R8} 139m7 142r16 143m13 143r13
+122i5 size{21|7I8} 123r55 132r18
+123i5 nb_digits{21|7I8} 124r56 127r41
+124f5 dbl_eps{18|13F8} 125r37
+125r5 eps{12|16R8} 142r30 146m11 146r11
+126i5 steps{21|7I8} 134m7 134r16
+127i5 max_steps{21|7I8} 133r17
+128b5 fail{boolean} 142m7 144r21
+133i9 i<long_integer>
+158r5 res{12|16R8} 165m7 168m7 169m11 169r11 171m7 173r12
+159r5 y{12|16R8} 167m7 168r43 169m23 169r23
+178r5 res{12|16R8} 183m5 185r12
+179r5 yln_x{12|16R8} 182m9 182r9 183r16 184m11 184r11
+191r5 res{12|16R8} 197m5 199r12
+192i5 size{21|7I8} 196r20
+193r5 flt_x{12|16R8} 196m14 196r14 197r12 198m11 198r11
+205r5 res{12|16R8} 211m5 213r12
+206i5 size{21|7I8} 210r20
+207r5 flt_y{12|16R8} 210m14 210r14 211r15 212m11 212r11
+218r5 res{12|16R8} 226m9 226r9 228r12
+219i5 size{21|7I8} 224r18
+220r5 two{12|16R8} 224m14 224r14 225r18
+221r5 ln_two{12|16R8} 225m5 226r13 227m11 227r11
+233r5 res{12|16R8} 241m9 241r9 243r12
+234i5 size{21|7I8} 239r18
+235r5 ten{12|16R8} 239m14 239r14 240r18
+236r5 ln_ten{12|16R8} 240m5 241r13 242m11 242r11
+248r5 res{12|16R8} 271r14 273m13 273r13 274m13 274r13 275m13 275r13 277r26
+. 280r28 281m21 281r21 289m5 290r30 292m14 292r14 298r43 300m23 300r23 302r25
+. 303m23 303r23 308r12
+249f5 sx{18|13F8} 288m5 288r16 289r19 291r9 293r10
+250i5 sizex{21|7I8} 253r59 291r35 292r18
+251f5 eps{18|13F8} 278r27
+253i5 nstep{natural} 270r19
+254i5 sizeres{21|7I8} 290m5 291r25 292r24
+256U15 Iterate 256b15 256>25 285l9 285t16 294s9 301s11
+256r25 a{12|16R8} 274r17
+266r7 oneres{12|16R8} 271m18 271r18 272r23 273r17 280r19 282m30 282r30
+266r14 twores{12|16R8} 272m9 275r17 276m15 276r15 280m9 281r14 282m15 282r15
+266r21 absinc{12|16R8} 277m9 278r18 279m15 279r15
+267b7 stop{boolean} 278m9 283r19
+270i11 i{integer}
+297r11 invx{12|16R8} 301r19 304m17 304r17
+298r11 invres{12|16R8} 300r16 300m36 300r36 302m11 303r16 303m36 303r36
+315r5 res{12|16R8} 320m5 321r12
+316f5 sx{18|13F8} 319m5 319r15 320r19
+326r5 res{12|16R8} 331m5 332r12
+327f5 sx{18|13F8} 330m5 330r15 331r19
+337r5 res{12|16R8} 342m5 343r12
+338f5 sx{18|13F8} 341m5 341r15 342r19
+348r5 res{12|16R8} 353m5 354r12
+349f5 sx{18|13F8} 352m5 352r18 353r19
+359r5 res{12|16R8} 364m5 365r12
+360f5 sx{18|13F8} 363m5 363r18 364r19
+370r5 res{12|16R8} 375m5 376r12
+371f5 sx{18|13F8} 374m5 374r18 375r19
+381r5 res{12|16R8} 387m5 388r12
+382f5 sx{18|13F8} 386m5 386r18 387r19
+383f5 sy{18|13F8} 386r21
+393r5 res{12|16R8} 399m5 400r12
+394f5 sx{18|13F8} 398m5 398r17 399r19
+395f5 sy{18|13F8} 398r20
+X 18 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 14|1w6 1r46 18|58e30
+13F8*double_float<long_float> 14|30r23 33r23 15|78r24 119r19 120r25 124r24
+. 188r23 203r23 249r10 251r20 253r46 316r10 327r10 338r10 349r10 360r10 371r10
+. 382r10 383r19 394r10 395r19
+X 20 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 15|2w6 2r46 20|64e36
+15V12*EXP{18|13F8} 15|120s41
+40V12*SQRT{18|13F8} 15|253s41 288s11
+47V12*SIN{18|13F8} 15|319s11
+48V12*COS{18|13F8} 15|330s11
+49V12*TAN{18|13F8} 15|341s11
+54V12*ARCSIN{18|13F8} 15|352s11
+55V12*ARCCOS{18|13F8} 15|363s11
+56V12*ARCTAN{18|13F8} 15|374s11
+61V12*Radius{18|13F8} 15|386s11
+62V12*Angle{18|13F8} 15|398s11
+X 21 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 15|1w6 1r46 21|30e29
+7I8*natural32<long_integer> 15|9r39 9r59 17r10 18r36 47r52 52r21 53r37 76r21
+. 77r26 80r24 81r26 122r21 123r26 126r13 127r26 165r21 192r21 206r21 219r21
+. 220r37 234r21 235r37 250r22 254r15
+

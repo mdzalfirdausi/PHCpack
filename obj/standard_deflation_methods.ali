@@ -1,0 +1,1760 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U standard_deflation_methods%b  standard_deflation_methods.adb  0872e42a NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W monomial_hashing%s	monomial_hashing.adb	monomial_hashing.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_newton_steps%s  standard_complex_newton_steps.adb  standard_complex_newton_steps.ali
+W standard_complex_norms_equals%s  standard_complex_norms_equals.adb  standard_complex_norms_equals.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_qr_least_squares%s  standard_complex_qr_least_squares.adb  standard_complex_qr_least_squares.ali
+W standard_complex_singular_values%s  standard_complex_singular_values.adb  standard_complex_singular_values.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_complex_vectors_io%s  standard_complex_vectors_io.ads  standard_complex_vectors_io.ali
+W standard_deflate_singularities%s  standard_deflate_singularities.adb  standard_deflate_singularities.ali
+W standard_deflation_trees%s  standard_deflation_trees.adb  standard_deflation_trees.ali
+W standard_deflation_trees_io%s  standard_deflation_trees_io.adb  standard_deflation_trees_io.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_multiple_solutions%s  standard_multiple_solutions.adb  standard_multiple_solutions.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_deflation_methods%s  standard_deflation_methods.ads  c46f71e2 EE NE OO PK
+W standard_complex_jaco_matrices%s  standard_complex_jaco_matrices.ads  standard_complex_jaco_matrices.ali
+W standard_complex_poly_sysfun%s  standard_complex_poly_sysfun.ads  standard_complex_poly_sysfun.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_evaluate_deflation%s  standard_evaluate_deflation.adb  standard_evaluate_deflation.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_jacobian_trees%s  standard_jacobian_trees.adb  standard_jacobian_trees.ali
+W standard_natural64_vecvecs%s  standard_natural64_vecvecs.ads  standard_natural64_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D monomial_hashing.ads	20260513024558 8efbe726 monomial_hashing%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_newton_steps.ads  20260513024558 545cf353 standard_complex_newton_steps%s
+D standard_complex_newton_steps.adb  20260513024558 4f17a34e standard_complex_newton_steps%b
+D standard_complex_norms_equals.ads  20260513024558 14f0dc59 standard_complex_norms_equals%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_qr_least_squares.ads  20260513024558 d778cd55 standard_complex_qr_least_squares%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring_io.ads  20260513024558 92297a2a standard_complex_ring_io%s
+D standard_complex_singular_values.ads  20260513024558 c29c8bc2 standard_complex_singular_values%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vectors_io.ads  20260513024558 7146aed4 standard_complex_vectors_io%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_deflate_singularities.ads  20260513024558 49e69eab standard_deflate_singularities%s
+D standard_deflation_methods.ads  20260513024558 50e9744f standard_deflation_methods%s
+D standard_deflation_methods.adb  20260513024558 42119d1f standard_deflation_methods%b
+D standard_deflation_trees.ads  20260513024558 e894f64d standard_deflation_trees%s
+D standard_deflation_trees_io.ads  20260513024558 44da405d standard_deflation_trees_io%s
+D standard_evaluate_deflation.ads  20260513024558 8a025887 standard_evaluate_deflation%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_jacobian_trees.ads  20260513024558 6fcdc939 standard_jacobian_trees%s
+D standard_multiple_solutions.ads  20260513024558 79d496fc standard_multiple_solutions%s
+D standard_natural64_ring.ads  20260513024558 8db8ee3d standard_natural64_ring%s
+D standard_natural64_vectors.ads  20260513024558 625c93b1 standard_natural64_vectors%s
+D standard_natural64_vecvecs.ads  20260513024558 74e50acc standard_natural64_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_natural_vecvecs.ads  20260513024558 659c81d4 standard_natural_vecvecs%s
+D standard_numerical_rank.ads  20260513024558 fca27747 standard_numerical_rank%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [display_results_of_one_newton_step standard_deflation_methods 30 13 none]
+G c Z s b [one_symbolic_newton_step standard_deflation_methods 37 13 none]
+G c Z s b [one_symbolic_newton_step standard_deflation_methods 44 13 none]
+G c Z s b [one_algorithmic_newton_step standard_deflation_methods 71 13 none]
+G c Z s b [one_algorithmic_newton_step standard_deflation_methods 86 13 none]
+G c Z s b [interactive_symbolic_newton standard_deflation_methods 136 13 none]
+G c Z s b [interactive_algorithmic_newton standard_deflation_methods 147 13 none]
+G c Z s b [deflate standard_deflation_methods 189 13 none]
+G c Z s b [add_multipliers standard_deflation_methods 197 13 none]
+G c Z s b [add_multipliers_for_corank_one standard_deflation_methods 218 13 none]
+G c Z s b [add_multipliers standard_deflation_methods 241 13 none]
+G c Z s b [add_multipliers standard_deflation_methods 252 13 none]
+G c Z s b [add_deflation_data standard_deflation_methods 290 13 none]
+G c Z s b [write_results standard_deflation_methods 315 13 none]
+G c Z s b [interactive_symbolic_deflation standard_deflation_methods 324 13 none]
+G c Z s b [interactive_symbolic_deflation standard_deflation_methods 329 13 none]
+G c Z s b [interactive_algorithmic_deflation standard_deflation_methods 346 13 none]
+G c Z s b [interactive_algorithmic_deflation standard_deflation_methods 351 13 none]
+G c Z s b [deflate_solution standard_deflation_methods 364 13 none]
+G c Z s b [apply_newton_step standard_deflation_methods 373 13 none]
+G c Z s b [apply_newton_step standard_deflation_methods 396 13 none]
+G c Z s b [apply_newton standard_deflation_methods 441 13 none]
+G c Z s b [apply_newton standard_deflation_methods 447 13 none]
+G c Z s b [apply_newton standard_deflation_methods 470 13 none]
+G c Z s b [apply_newton standard_deflation_methods 483 13 none]
+G c Z s b [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none]
+G c Z s b [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none]
+G c Z s b [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none]
+G c Z b b [stack standard_deflation_methods 119 12 none]
+G c Z b b [split standard_deflation_methods 144 13 none]
+G c Z b b [deflate_corank_one standard_deflation_methods 564 13 none]
+G c Z b b [deflate_corank_one standard_deflation_methods 576 13 none]
+G c Z b b [write_conclusion standard_deflation_methods 1097 13 none]
+G c Z b b [minimum standard_deflation_methods 1167 12 none]
+G r s solution [display_results_of_one_newton_step standard_deflation_methods 30 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [display_results_of_one_newton_step standard_deflation_methods 30 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [display_results_of_one_newton_step standard_deflation_methods 30 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [display_results_of_one_newton_step standard_deflation_methods 30 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [display_results_of_one_newton_step standard_deflation_methods 30 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 37 13 none] [add standard_complex_vectors 58 13 4_1]
+G r i none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [one_symbolic_newton_step standard_deflation_methods 44 13 none] [add standard_complex_vectors 58 13 4_1]
+G r i none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 71 13 none] [add standard_complex_vectors 58 13 4_1]
+G r i none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [one_algorithmic_newton_step standard_deflation_methods 86 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r i none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r s solution [interactive_symbolic_newton standard_deflation_methods 136 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [interactive_symbolic_newton standard_deflation_methods 136 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r i none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r s solution [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [interactive_algorithmic_newton standard_deflation_methods 147 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [deflate standard_deflation_methods 189 13 none] [deflate standard_deflate_singularities 44 12 none]
+G r c none [deflate standard_deflation_methods 189 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [add_multipliers standard_deflation_methods 197 13 none] [multipliers standard_deflate_singularities 79 13 none]
+G r c none [add_multipliers standard_deflation_methods 197 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [add_multipliers standard_deflation_methods 197 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [add_multipliers standard_deflation_methods 197 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [add_multipliers standard_deflation_methods 197 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [add_multipliers_for_corank_one standard_deflation_methods 218 13 none] [multipliers standard_deflate_singularities 81 13 none]
+G r c none [add_multipliers_for_corank_one standard_deflation_methods 218 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [add_multipliers_for_corank_one standard_deflation_methods 218 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [add_multipliers_for_corank_one standard_deflation_methods 218 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [add_multipliers_for_corank_one standard_deflation_methods 218 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [create standard_evaluate_deflation 43 12 none]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [Omultiply standard_complex_matrices 41 12 5_1]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [add_multipliers standard_deflation_methods 241 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [create standard_evaluate_deflation 43 12 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [Omultiply standard_complex_matrices 41 12 5_1]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [add_multipliers standard_deflation_methods 252 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [add_deflation_data standard_deflation_methods 290 13 none] [random1 standard_random_numbers 90 12 none]
+G r s solution [write_results standard_deflation_methods 315 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [write_results standard_deflation_methods 315 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [write_results standard_deflation_methods 315 13 none] [write_deflated_system standard_deflation_trees_io 16 13 none]
+G r c none [write_results standard_deflation_methods 315 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [write_results standard_deflation_methods 315 13 none] [append standard_complex_solutions 123 13 none]
+G r c none [write_results standard_deflation_methods 315 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [write_results standard_deflation_methods 315 13 none] [put standard_complex_solutions_io 119 13 none]
+G r s poly_sys [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r i none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r s solution [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [deflate_corank_one standard_deflate_singularities 66 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [deflate standard_deflate_singularities 44 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [multipliers standard_deflate_singularities 81 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [multipliers standard_deflate_singularities 79 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [write_deflated_system standard_deflation_trees_io 16 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [append standard_complex_solutions 123 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 324 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [get standard_complex_vectors_io 18 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r s poly_sys [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [copy standard_complex_poly_systems 29 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r i none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r s solution [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [deflate_corank_one standard_deflate_singularities 66 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [deflate standard_deflate_singularities 44 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [multipliers standard_deflate_singularities 81 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [multipliers standard_deflate_singularities 79 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [write_deflated_system standard_deflation_trees_io 16 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [append standard_complex_solutions 123 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [interactive_symbolic_deflation standard_deflation_methods 329 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r s vecmat [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r s vecvec [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [vecvecIP standard_natural64_vecvecs 14 8 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [create_remember_derivatives standard_jacobian_trees 120 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [monomial_keys monomial_hashing 41 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r i none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r s solution [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [create standard_evaluate_deflation 43 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [Omultiply standard_complex_matrices 41 12 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 346 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r s vecmat [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r s vecvec [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [vecvecIP standard_natural64_vecvecs 14 8 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [create_remember_derivatives standard_jacobian_trees 120 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [monomial_keys monomial_hashing 41 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [get standard_complex_vectors_io 18 13 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r i none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put_line standard_complex_vectors_io 44 13 5_1]
+G r s solution [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [create standard_evaluate_deflation 43 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [Omultiply standard_complex_matrices 41 12 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [interactive_algorithmic_deflation standard_deflation_methods 351 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r s solution [deflate_solution standard_deflation_methods 364 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [deflate_solution standard_deflation_methods 364 13 none] [multipliers standard_deflate_singularities 79 13 none]
+G r c none [deflate_solution standard_deflation_methods 364 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [deflate_solution standard_deflation_methods 364 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [deflate_solution standard_deflation_methods 364 13 none] [clear standard_complex_solutions 190 13 none]
+G r i none [apply_newton_step standard_deflation_methods 373 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [add standard_complex_vectors 58 13 4_1]
+G r s solution [apply_newton_step standard_deflation_methods 373 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [apply_newton_step standard_deflation_methods 373 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [apply_newton_step standard_deflation_methods 373 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [create standard_evaluate_deflation 43 12 none]
+G r i none [apply_newton_step standard_deflation_methods 396 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [add standard_complex_vectors 58 13 4_1]
+G r s solution [apply_newton_step standard_deflation_methods 396 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [apply_newton_step standard_deflation_methods 396 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [apply_newton_step standard_deflation_methods 396 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r i none [apply_newton standard_deflation_methods 441 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [apply_newton standard_deflation_methods 441 13 none] [add standard_complex_vectors 58 13 4_1]
+G r i none [apply_newton standard_deflation_methods 447 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [add standard_complex_vectors 58 13 4_1]
+G r s solution [apply_newton standard_deflation_methods 447 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [apply_newton standard_deflation_methods 447 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [apply_newton standard_deflation_methods 447 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [create standard_evaluate_deflation 43 12 none]
+G r i none [apply_newton standard_deflation_methods 470 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [apply_newton standard_deflation_methods 470 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [create standard_evaluate_deflation 43 12 none]
+G r i none [apply_newton standard_deflation_methods 483 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [add standard_complex_vectors 58 13 4_1]
+G r s solution [apply_newton standard_deflation_methods 483 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [apply_newton standard_deflation_methods 483 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [apply_newton standard_deflation_methods 483 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [create_root standard_deflation_trees 32 12 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [put standard_natural_numbers_io 26 13 none]
+G r i none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [add standard_complex_vectors 58 13 4_1]
+G r s solution [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [create_child standard_deflation_trees 37 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [multipliers standard_deflate_singularities 79 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [append standard_complex_solutions 123 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [compute_multiplicities standard_multiple_solutions 67 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [write standard_deflation_trees_io 23 13 none]
+G r c none [symbolic_deflation_and_clustering standard_deflation_methods 529 13 none] [clear standard_deflation_trees 45 13 none]
+G r s vecmat [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r s vecvec [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [vecvecIP standard_natural64_vecvecs 14 8 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [create_remember_derivatives standard_jacobian_trees 120 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [monomial_keys monomial_hashing 41 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r i none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [create standard_evaluate_deflation 43 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [set_head standard_complex_solutions__list_of_solutions 31 13 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [Omultiply standard_complex_matrices 41 12 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_complex_matrices 67 13 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [clear standard_natural64_vecvecs 32 13 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [compute_multiplicities standard_multiple_solutions 58 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 558 13 none] [remove_duplicates standard_multiple_solutions 43 13 none]
+G r s vecmat [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r s vecvec [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r s vecvec [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [vecvecIP standard_natural64_vecvecs 14 8 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [create_remember_derivatives standard_jacobian_trees 120 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [monomial_keys monomial_hashing 41 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [put standard_natural_numbers_io 26 13 none]
+G r i none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [reporting_newton_step_with_singular_values standard_complex_newton_steps 108 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [eval standard_complex_poly_sysfun 57 12 9_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [eval standard_complex_jaco_matrices 77 12 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [put_line standard_complex_vectors_io 45 13 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [inverse_condition_number standard_complex_newton_steps 14 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [numerical_rank standard_numerical_rank 13 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [Osubtract standard_complex_vectors 33 12 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [add standard_complex_vectors 58 13 4_1]
+G r s solution [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [put_vector standard_complex_solutions_io 43 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [put standard_integer_numbers_io 27 13 none]
+G r i none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [silent_newton_step_with_singular_values standard_complex_newton_steps 78 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [create standard_evaluate_deflation 43 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [eval standard_evaluate_deflation 151 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [eval standard_evaluate_deflation 181 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_evaluate_deflation 221 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [set_head standard_complex_solutions__list_of_solutions 31 13 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [add_multiplier_symbols standard_deflation_trees_io 11 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [Omultiply standard_complex_matrices 41 12 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [Omultiply standard_complex_matrices 51 12 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_complex_vectors 72 13 4_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_complex_matrices 67 13 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_complex_jaco_matrices 89 13 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_complex_jaco_matrices 86 13 11_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_complex_poly_sysfun 63 13 9_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [clear standard_natural64_vecvecs 32 13 5_1]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [compute_multiplicities standard_multiple_solutions 58 13 none]
+G r c none [algorithmic_deflation_and_clustering standard_deflation_methods 567 13 none] [remove_duplicates standard_multiple_solutions 43 13 none]
+G r c none [deflate_corank_one standard_deflation_methods 564 13 none] [deflate_corank_one standard_deflate_singularities 52 12 none]
+G r c none [deflate_corank_one standard_deflation_methods 564 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [deflate_corank_one standard_deflation_methods 576 13 none] [deflate_corank_one standard_deflate_singularities 66 12 none]
+G r c none [deflate_corank_one standard_deflation_methods 576 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [deflate_corank_one standard_deflation_methods 576 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [deflate_corank_one standard_deflation_methods 576 13 none] [number_of_unknowns standard_complex_polynomials 48 12 4_1]
+G r c none [deflate_corank_one standard_deflation_methods 576 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [write_conclusion standard_deflation_methods 1097 13 none] [put standard_natural_numbers_io 26 13 none]
+X 12 a-textio.ads
+67P9*File_Type 52|31r27 45r27 87r27 137r27 148r27 198r27 219r27 253r27 316r27
+. 325r27 330r27 347r27 352r27 365r27 374r27 397r27 448r27 484r27 530r27 568r27
+. 53|27r27 59r27 169r27 256r28 290r28 386r27 479r27 517r27 596r28 625r28
+. 686r28 756r28 840r28 933r27 964r27 984r27 1034r27 1076r27 1098r27 1109r27
+. 1256r27
+188V13*Standard_Output{67P9} 53|507s10 544s10 672s18 674s31 744s25 817s16
+. 820s29 910s27
+277U14*New_Line 53|42s45 54s53 273s24 308s24 441s24 609s5 618s5 620s37 951s24
+. 1143s56
+284U14*New_Line 53|586s32 588s44 592s44 739s56 904s58
+508U14*Put 53|36s5 40s5 41s5 42s5 43s5 45s7 49s13 50s13 53s7 54s7 272s7 307s7
+. 440s7 610s5 620s5 950s7 1100s5 1102s11 1103s11 1132s13 1142s13 1143s13
+. 1297s15
+515U14*Put 53|509s7 546s7 585s5 585s28 586s5 587s5 587s61 591s5 591s60 648s7
+. 652s9 665s11 677s9 721s5 735s7 739s9 747s9 778s7 793s9 797s11 810s13 823s11
+. 830s9 830s47 876s5 881s7 900s9 904s11 913s11 920s13 920s51
+555U14*Put_Line 53|37s22 46s7 270s7 305s7 438s7 611s20 619s5 948s7 1105s20
+. 1132s52 1297s54
+565U14*Put_Line 53|505s7 542s7 654s11 665s60 722s23 779s7 799s13 810s62 877s23
+. 882s7
+X 14 communications_with_user.ads
+4K9*Communications_with_User 127e29 53|1w6 1r45
+23U13*Ask_Yes_or_No 53|510s7 547s7 649s7 678s9 736s7 748s9 794s9 824s11 831s9
+. 901s9 914s11 921s13
+X 15 generic_jacobian_matrices.ads
+40A8*Jaco_Mat(21|28P8[40|4])<59|6I8><59|6I8> 53|491r10[30|11] 707r10[30|11]
+. 860r10[30|11] 1199r10[30|11] 1280r10[30|11]
+42A8*Eval_Jaco_Mat(19|26P8[37|6])<59|6I8><59|6I8> 52|39r57[30|11] 47r57[30|11]
+. 73r57[30|11] 89r57[30|11] 150r56[30|11] 243r56[30|11] 255r56[30|11] 376r56[30|11]
+. 399r56[30|11] 444r56[30|11] 450r56[30|11] 473r56[30|11] 486r56[30|11] 53|61r57[30|11]
+. 91r57[30|11] 171r57[30|11] 214r57[30|11] 326r56[30|11] 388r56[30|11] 492r11[30|11]
+. 519r56[30|11] 708r11[30|11] 861r11[30|11] 966r56[30|11] 986r56[30|11] 1021r56[30|11]
+. 1036r56[30|11] 1049r56[30|11] 1078r56[30|11] 1200r11[30|11] 1281r11[30|11]
+64V12*Create{40A8[30|11]} 53|491s39[30|11] 707s36[30|11] 860s36[30|11] 1199s36[30|11]
+. 1280s36[30|11]
+69V12*Create{42A8[30|11]} 53|492s53[30|11] 708s42[30|11] 861s42[30|11] 1200s42[30|11]
+. 1281s42[30|11]
+77V12*Eval{17|16A8[31|5]} 53|80s14[30|11] 110s14[30|11]
+86U13*Clear 53|513s16[30|11] 752s16[30|11] 927s16[30|11] 1246s38[30|11] 1330s38[30|11]
+89U13*Clear 53|513s27[30|11] 752s27[30|11] 927s27[30|11] 1245s38[30|11] 1329s38[30|11]
+X 16 generic_lists.ads
+12P8*List
+31U13*Set_Head 53|1226s13[45|27] 1310s13[45|27]
+67V12*Length_Of{68|7I8} 53|784s14[45|27] 887s14[45|27] 1129s17[45|27] 1213s19[45|27]
+. 1294s19[45|27]
+72V12*Is_Null{boolean} 53|777s8[45|27] 880s8[45|27] 1209s12[45|27] 1290s12[45|27]
+77V12*Head_Of{45|25P8} 53|783s12[45|27] 834s14[45|27] 886s12[45|27] 924s18[45|27]
+. 1130s13[45|27] 1214s15[45|27] 1295s15[45|27]
+84V12*Tail_Of{12P8[45|27]} 53|833s16[45|27] 923s20[45|27] 1160s14[45|27]
+. 1243s16[45|27] 1327s16[45|27]
+X 17 generic_matrices.ads
+16A8*Matrix(35|11R8)<59|6I8><59|6I8> 53|78r40[31|5] 108r40[31|5] 198r41[31|5]
+. 241r41[31|5] 345r19[31|5] 348r20[31|5] 350r13[31|5] 407r19[31|5] 410r20[31|5]
+. 412r13[31|5] 459r36[31|5] 475r43[31|5]
+17P8*Link_to_Matrix(16A8[31|5])
+41V13*"*"{16A8[31|5]} 53|349s14[31|5] 411s14[31|5]
+51V13*"*"{23|16A8[48|4]} 53|374s19[31|5] 435s19[31|5]
+67U13*Clear 53|1239s37[31|5] 1323s37[31|5]
+X 18 generic_poly_system_functions.ads
+33A8*Eval_Poly_Sys(19|26P8[37|6])<59|6I8> 52|38r54[38|9] 46r54[38|9] 72r54[38|9]
+. 88r54[38|9] 149r53[38|9] 242r53[38|9] 254r53[38|9] 375r53[38|9] 398r53[38|9]
+. 443r53[38|9] 449r53[38|9] 472r53[38|9] 485r53[38|9] 53|60r54[38|9] 90r54[38|9]
+. 170r54[38|9] 213r54[38|9] 325r53[38|9] 387r53[38|9] 490r10[38|9] 518r53[38|9]
+. 706r10[38|9] 859r10[38|9] 965r53[38|9] 985r53[38|9] 1020r53[38|9] 1035r53[38|9]
+. 1048r53[38|9] 1077r53[38|9] 1197r10[38|9] 1278r10[38|9]
+43V12*Create{33A8[38|9]} 53|490s36[38|9] 706s36[38|9] 859s36[38|9] 1197s36[38|9]
+. 1278s36[38|9]
+57V12*Eval{23|16A8[48|4]} 53|75s14[38|9] 105s14[38|9]
+63U13*Clear 53|513s5[38|9] 752s5[38|9] 927s5[38|9] 1247s36[38|9] 1331s36[38|9]
+X 19 generic_polynomial_functions.ads
+26P8*Eval_Poly
+X 20 generic_polynomial_systems.ads
+22A8*Poly_Sys(21|28P8[40|4])<59|6I8> 52|138r54[39|5] 200r54[39|5] 221r54[39|5]
+. 317r57[39|5] 326r54[39|5] 331r54[39|5] 348r54[39|5] 353r54[39|5] 366r55[39|5]
+. 531r54[39|5] 559r54[39|5] 569r54[39|5] 53|258r55[39|5] 292r55[39|5] 480r54[39|5]
+. 557r19[39|5] 561r14[39|5] 568r19[39|5] 573r14[39|5] 581r19[39|5] 590r14[39|5]
+. 597r58[39|5] 626r55[39|5] 643r15[39|5] 687r55[39|5] 757r55[39|5] 787r17[39|5]
+. 841r55[39|5] 934r55[39|5] 1110r54[39|5] 1176r54[39|5] 1257r54[39|5]
+23P8*Link_to_Poly_Sys(22A8[39|5]) 52|190r58[39|5] 53|553r58[39|5] 565r58[39|5]
+. 577r58[39|5] 638r10[39|5] 771r10[39|5]
+29U13*Copy 53|644s5[39|5] 788s7[39|5]
+61U13*Clear 53|560s5[39|5] 572s5[39|5] 589s5[39|5]
+X 21 generic_polynomials.ads
+28P8*Poly
+48V12*Number_of_Unknowns{68|7I8} 53|588s9[40|4] 592s9[40|4] 658s20[40|4]
+. 699s41[40|4] 767s31[40|4] 803s22[40|4] 852s41[40|4] 1123s42[40|4] 1198s41[40|4]
+. 1279s41[40|4]
+X 22 generic_vecmats.ads
+15A8*VecMat(17|17P8[31|5])<59|6I8> 52|79r49[47|6] 95r49[47|6] 156r49[47|6]
+. 248r49[47|6] 260r49[47|6] 293r53[47|6] 404r49[47|6] 478r49[47|6] 491r49[47|6]
+. 53|177r49[47|6] 220r49[47|6] 331r49[47|6] 393r49[47|6] 455r53[47|6] 525r49[47|6]
+. 703r34[47|6] 856r34[47|6] 991r49[47|6] 1054r49[47|6] 1083r49[47|6] 1192r34[47|6]
+. 1273r34[47|6]
+X 23 generic_vectors.ads
+16A8*Vector(68|8I8)<59|6I8> 52|31r70[48|4] 40r53[48|4] 42r50[48|4] 48r53[48|4]
+. 50r50[48|4] 78r56[71|4] 82r50[48|4] 84r50[48|4] 94r56[71|4] 98r50[48|4]
+. 100r50[48|4] 139r53[48|4] 155r56[71|4] 247r56[71|4] 259r56[71|4] 292r60[71|4]
+. 318r49[48|4] 327r51[48|4] 349r51[48|4] 403r56[71|4] 477r56[71|4] 490r56[71|4]
+. 53|27r70[48|4] 62r53[48|4] 64r50[48|4] 73r22[48|4] 73r38[48|4] 78r24[48|4]
+. 92r53[48|4] 94r50[48|4] 103r22[48|4] 103r38[48|4] 108r24[48|4] 120r50[48|4]
+. 127r36[48|4] 144r53[48|4] 176r56[71|4] 180r50[48|4] 182r50[48|4] 192r23[48|4]
+. 192r39[48|4] 198r25[48|4] 219r56[71|4] 223r50[48|4] 225r50[48|4] 235r23[48|4]
+. 235r39[48|4] 241r25[48|4] 264r10[48|4] 265r10[48|4] 286r14[48|4] 299r10[48|4]
+. 300r10[48|4] 321r14[48|4] 330r56[71|4] 351r11[48|4] 353r14[48|4] 354r13[48|4]
+. 355r37[62|4] 357r15[48|4] 377r44[48|4] 380r44[48|4] 392r56[71|4] 413r11[48|4]
+. 415r14[48|4] 416r13[48|4] 417r37[62|4] 419r15[48|4] 444r44[48|4] 447r44[48|4]
+. 454r60[71|4] 458r35[48|4] 469r42[48|4] 481r53[48|4] 499r9[48|4] 524r56[71|4]
+. 534r34[48|4] 535r34[48|4] 598r50[48|4] 627r52[48|4] 636r32[48|4] 688r52[48|4]
+. 700r35[71|4] 701r35[71|4] 702r35[71|4] 726r42[48|4] 768r9[48|4] 790r17[48|4]
+. 853r35[71|4] 854r35[71|4] 855r35[71|4] 865r34[48|4] 891r44[48|4] 942r10[48|4]
+. 970r35[48|4] 990r56[71|4] 998r34[48|4] 999r34[48|4] 1025r35[48|4] 1053r56[71|4]
+. 1061r34[48|4] 1062r34[48|4] 1082r56[71|4] 1189r35[71|4] 1190r35[71|4] 1191r35[71|4]
+. 1220r52[48|4] 1270r35[71|4] 1271r35[71|4] 1272r35[71|4] 1304r52[48|4]
+17P8*Link_to_Vector(16A8[66|4]) 52|199r53[48|4] 220r53[48|4] 53|257r54[48|4]
+. 291r54[48|4] 636r10[48|4] 769r10[48|4]
+35V13*"-"{16A8[48|4]} 53|374s16[48|4] 435s16[48|4]
+72U13*Clear 53|285s5[48|4] 320s5[48|4] 1237s34[48|4] 1240s36[48|4] 1241s36[48|4]
+. 1321s34[48|4] 1324s36[48|4] 1325s36[48|4]
+X 24 generic_vectors_io.ads
+18U13*get 53|780s7[49|5] 883s7[49|5]
+44U13*put_line 53|505s43[49|5] 542s43[49|5]
+45U13*put_line 53|271s7[49|5] 306s7[49|5] 439s7[49|5] 949s7[49|5]
+X 25 generic_vecvecs.ads
+14A8*VecVec(23|17P8[66|4])<59|6I8> 52|76r57[67|5] 80r49[50|5] 81r53[50|5]
+. 92r57[67|5] 96r49[50|5] 97r53[50|5] 153r57[67|5] 157r49[50|5] 158r53[50|5]
+. 245r57[67|5] 249r49[50|5] 250r53[50|5] 257r57[67|5] 261r49[50|5] 262r53[50|5]
+. 294r53[50|5] 401r57[67|5] 405r49[50|5] 406r53[50|5] 475r57[67|5] 479r49[50|5]
+. 480r53[50|5] 488r57[67|5] 492r49[50|5] 493r53[50|5] 53|119r64[50|5] 145r57[50|5]
+. 174r57[67|5] 178r49[50|5] 179r53[50|5] 217r57[67|5] 221r49[50|5] 222r53[50|5]
+. 328r57[67|5] 332r49[50|5] 333r53[50|5] 390r57[67|5] 394r49[50|5] 395r53[50|5]
+. 456r53[50|5] 522r57[67|5] 526r49[50|5] 527r53[50|5] 704r34[50|5] 705r34[50|5]
+. 709r42[67|5] 857r34[50|5] 858r34[50|5] 862r42[67|5] 988r57[67|5] 992r49[50|5]
+. 993r53[50|5] 1051r57[67|5] 1055r49[50|5] 1056r53[50|5] 1080r57[67|5] 1084r49[50|5]
+. 1085r53[50|5] 1193r34[50|5] 1194r34[50|5] 1195r42[67|5] 1274r34[50|5] 1275r34[50|5]
+. 1276r42[67|5]
+32U13*Clear 53|1248s34[67|5] 1332s34[67|5]
+X 29 monomial_hashing.ads
+5K9*Monomial_Hashing 68e21 53|20w6 20r45
+41V12*Monomial_Keys{25|14A8[67|5]} 53|724s16 879s16 1212s18 1293s18
+X 30 standard_complex_jaco_matrices.ads
+11K9*Standard_Complex_Jaco_Matrices[15|25] 52|12w6 39r26 47r26 73r26 89r26
+. 150r25 243r25 255r25 376r25 399r25 444r25 450r25 473r25 486r25 53|61r26
+. 70r9 91r26 100r9 171r26 188r9 214r26 231r9 326r25 388r25 488r9 519r25 693r9
+. 846r9 966r25 986r25 1021r25 1036r25 1049r25 1078r25 1182r9 1245r7 1246r7
+. 1263r9 1329r7 1330r7
+X 31 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[17|9] 53|9w6 68r9 98r9 186r9 229r9 338r9 400r9
+. 459r10 475r17 1239r11 1323r11
+X 32 standard_complex_newton_steps.ads
+7K9*Standard_Complex_Newton_Steps 135e34 53|16w6 71r9 101r9 190r9 233r9
+78u13*Silent_Newton_Step_with_Singular_Values 53|113r29 247r29
+108u13*Reporting_Newton_Step_with_Singular_Values 53|83r29 204r29
+X 34 standard_complex_norms_equals.ads
+6K9*Standard_Complex_Norms_Equals 57e34 53|10w6 10r45
+29V12*Max_Norm{57|13F8} 53|375s12 436s12
+X 35 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 53|5w6 282r25 295r9 336r9 398r9 601r9
+. 630r9 691r9 761r9
+18V12*Create{11R8} 53|282s50 317s25 352s39 354s50 369s22 379s41 414s39 416s50
+. 431s22 446s41 613s12
+X 38 standard_complex_poly_sysfun.ads
+9K9*Standard_Complex_Poly_SysFun[18|19] 52|11w6 38r25 46r25 72r25 88r25 149r24
+. 242r24 254r24 375r24 398r24 443r24 449r24 472r24 485r24 53|60r25 69r9 90r25
+. 99r9 170r25 187r9 213r25 230r9 325r24 387r24 487r9 518r24 692r9 845r9 965r24
+. 985r24 1020r24 1035r24 1048r24 1077r24 1181r9 1247r7 1262r9 1331r7
+X 39 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[20|12] 52|10w6 138r24 190r28 200r24 221r24
+. 317r27 326r24 331r24 348r24 353r24 366r25 531r24 559r24 569r24 53|258r25
+. 292r25 480r24 486r9 553r28 556r9 565r28 567r9 577r28 580r9 597r28 626r25
+. 632r9 687r25 757r25 763r9 841r25 934r25 1110r24 1176r24 1257r24
+X 40 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[21|11] 53|13w6 13r45
+X 41 standard_complex_qr_least_squares.ads
+6K9*Standard_Complex_QR_Least_Squares 179e38 53|11w6 11r45
+14U13*QRD 53|371s5 433s5
+80U13*QRLS 53|372s5 434s5
+X 44 standard_complex_singular_values.ads
+6K9*Standard_Complex_Singular_Values 150e37 53|12w6 12r45
+20V12*Min0{59|6I8} 53|498s31 533s31 997s31 1060s31
+X 45 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 206e31 52|13w6 332r27 354r27 367r29 377r29
+. 445r29 451r29 532r27 560r31 570r31 53|30r9 602r9 633r9 694r9 758r28 764r9
+. 842r28 847r9 935r29 938r9 967r29 1022r29 1037r29 1111r27 1115r9 1177r31
+. 1183r9 1258r31 1264r9
+16R8*Solution 23e13 53|33r9 606r9 941r10 960r15
+16i19*n{59|6I8} 53|941r22 1139r32 1218r42 1302r42
+17r5*t{35|11R8} 53|613m7 957m8 957r16
+18i5*m{59|6I8} 53|614m7 957m22 957r30
+19a5*v{23|16A8[48|4]} 53|38m7 615m7 783r26 834r27 886r26 924r31 946r23 953m8
+. 953r13 953r28 955m10 955r15 970r45 975m23 977r18 979m40 1025r45 1029m40
+. 1220r63 1225m16 1304r63 1309m16
+20f5*err{57|13F8} 53|616m7 958m8 958r18 975m35 977r30 979m52 1029m52 1153r18
+. 1224m44 1308m44
+21f5*rco{57|13F8} 53|616m21 958m26 958r36 975m42 977r37 979m59 1029m59 1224m51
+. 1308m51
+22f5*res{57|13F8} 53|616m35 958m44 958r54 975m49 977r44 979m66 1029m66 1153r40
+. 1224m58 1308m58
+25P8*Link_to_Solution(16R8) 52|367r56 377r56 445r56 451r56 53|935r56 967r56
+. 1022r56 1037r56 1120r10 1202r10 1283r10
+28P8*Solution_List<16|12P8[27]> 52|332r54 354r54 532r54 560r58 570r58 53|605r22
+. 758r55 773r11 842r55 869r11 1111r54 1119r11 1177r58 1201r11 1258r58 1282r11
+123U13*Append 53|617s5 1159s7
+190U13*Clear 53|959s5
+X 46 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 358e34 53|14w6 14r45
+43U13*put_vector 53|39s5
+119U13*put 53|621s5
+X 47 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[22|11] 52|9w6 79r24 95r24 156r24 248r24 260r24
+. 293r28 404r24 478r24 491r24 53|177r24 220r24 331r24 393r24 455r28 525r24
+. 703r9 856r9 991r24 1054r24 1083r24 1192r9 1273r9
+X 48 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[23|8] 52|6w6 31r45 40r28 42r25 48r28 50r25 82r25
+. 84r25 98r25 100r25 139r28 199r28 220r28 318r24 327r26 349r26 53|27r45 62r28
+. 64r25 67r9 92r28 94r25 97r9 120r25 127r11 130r9 144r28 155r9 180r25 182r25
+. 185r9 223r25 225r25 228r9 257r29 261r9 291r29 296r9 337r9 377r19 380r19
+. 399r9 444r19 447r19 458r10 469r17 481r28 485r9 534r9 535r9 598r25 627r27
+. 631r9 688r27 726r17 762r9 865r9 891r19 937r9 970r10 998r9 999r9 1025r10
+. 1061r9 1062r9 1220r27 1237r9 1240r11 1241r11 1304r27 1321r9 1324r11 1325r11
+X 49 standard_complex_vectors_io.ads
+5K9*Standard_Complex_Vectors_io[24|11] 53|8w6 8r45
+X 50 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[25|10] 52|8w6 80r24 81r28 96r24 97r28 157r24
+. 158r28 249r24 250r28 261r24 262r28 294r28 405r24 406r28 479r24 480r28 492r24
+. 493r28 53|119r39 145r32 178r24 179r28 221r24 222r28 332r24 333r28 394r24
+. 395r28 456r28 526r24 527r28 704r9 705r9 857r9 858r9 992r24 993r28 1055r24
+. 1056r28 1084r24 1085r28 1193r9 1194r9 1274r9 1275r9
+X 51 standard_deflate_singularities.ads
+10K9*Standard_Deflate_Singularities 124e35 53|17w6 262r9 297r9 557r31 569r11
+. 582r11 939r9
+44V12*Deflate{20|22A8[39|5]} 53|557s62
+52V12*Deflate_Corank_One{20|22A8[39|5]} 53|569s42
+66V12*Deflate_Corank_One{20|22A8[39|5]} 53|582s42
+79U13*Multipliers 53|268s5 946s5
+81U13*Multipliers 53|303s5
+X 52 standard_deflation_methods.ads
+17K9*Standard_Deflation_Methods 594l5 594e31 53|22b14 1339l5 1339t31
+30U13*Display_Results_of_One_Newton_Step 31>17 31>38 32>17 32>21 32>25 32>29
+. 32>52 32>57 53|26b13 56l7 56t41 506s7 508s7 543s7 545s7 976s7 1008s7
+31p17 file{12|67P9} 53|27b17 36r9 37r9 37r31 39r16 40r9 40r30 41r9 41r32
+. 42r9 42r32 42r54 43r9 43r44 45r11 45r28 46r16 49r17 50r17 52r11 53r11 53r37
+. 54r11 54r39 54r62
+31a38 z{23|16A8[48|4]} 53|27b38 32r31 38r12
+32f17 tol{57|13F8} 53|28b17 54r44
+32f21 err{57|13F8} 53|28b21 40r35
+32f25 rco{57|13F8} 53|28b25 41r37
+32f29 res{57|13F8} 53|28b29 42r37
+32i52 rank{68|7I8} 53|28b52 43r49 44r8 48r10 53r54
+32i57 cnt{68|7I8} 53|28b57 37r14
+37U13*One_Symbolic_Newton_Step 38>17 39>17 40=17 41>17 41<40 41<44 41<48
+. 42<17 43<17 53|89b13 117l7 117t31 979s7 1029s7
+38a17 ep{18|33A8[38|9]} 53|90b17 105r19 116r22
+39a17 ejm{15|42A8[30|11]} 53|91b17 110r19
+40a17 z{23|16A8[48|4]} 53|92b17 116m31
+41f17 tol{57|13F8} 53|93b17 116r33
+41f40 err{57|13F8} 53|93b40 116m37
+41f44 rco{57|13F8} 53|93b44 116m41
+41f48 res{57|13F8} 53|93b48 116m45
+42a17 s{23|16A8[48|4]} 53|94b17 116m49
+43i17 rank{68|7I8} 53|95b17 116m51
+44U13*One_Symbolic_Newton_Step 45>17 46>17 47>17 48=17 49>17 49<40 49<44
+. 49<48 50<17 51<17 53|58b13 87l7 87t31 504s7 974s7
+45p17 file{12|67P9} 53|59b17 86r12
+46a17 ep{18|33A8[38|9]} 53|60b17 75r19 86r27
+47a17 ejm{15|42A8[30|11]} 53|61b17 80r19
+48a17 z{23|16A8[48|4]} 53|62b17 86m36
+49f17 tol{57|13F8} 53|63b17 86r38
+49f40 err{57|13F8} 53|63b40 86m42
+49f44 rco{57|13F8} 53|63b44 86m46
+49f48 res{57|13F8} 53|63b48 86m50
+50a17 s{23|16A8[48|4]} 53|64b17 86m54
+51i17 rank{68|7I8} 53|65b17 86m56
+71U13*One_Algorithmic_Newton_Step 72>17 73>17 74>17 75>17 76>17 77>17 78>17
+. 78>20 78>23 79>17 80>17 81=17 82<17 83>17 83<40 83<44 83<48 84<17 85<17
+. 53|212b13 253l7 253t34 1011s7 1068s7
+72a17 ep{18|33A8[38|9]} 53|213b17 238r19
+73a17 ejm{15|42A8[30|11]} 53|214b17 238r22
+74p17 evt{56|26P8} 53|215b17 238r26 244r19
+75p17 nd{63|25P8} 53|216b17 238r30 244r23
+76a17 monkeys{25|14A8[67|5]} 53|217b17 238r33 244r26
+77i17 k{59|6I8} 53|218b17 238r41 244r34 250r29 251r15
+78a17 nv{23|16A8[71|4]} 53|219b17 238r43 244r36 250r26
+78a20 nq{23|16A8[71|4]} 53|219b20 238r46 244r39 251r12
+78a23 R1{23|16A8[71|4]} 53|219b23 238r49 244r42
+79a17 B{22|15A8[47|6]} 53|220b17 238r52 244r45
+80a17 h{25|14A8[50|5]} 53|221b17 238r54 244r47
+81a17 x{25|14A8[50|5]} 53|222b17 237m16 238r56 243m16 244r49 250r33 252m13
+82a17 z{23|16A8[48|4]} 53|223b17 250m5 251m18 252r11
+83f17 tol{57|13F8} 53|224b17 251r20
+83f40 err{57|13F8} 53|224b40 251m24
+83f44 rco{57|13F8} 53|224b44 251m28
+83f48 res{57|13F8} 53|224b48 251m32
+84a17 s{23|16A8[48|4]} 53|225b17 251m36
+85i17 rank{68|7I8} 53|226b17 251m38
+86U13*One_Algorithmic_Newton_Step 87>17 88>17 89>17 90>17 91>17 92>17 93>17
+. 94>17 94>20 94>23 95>17 96>17 97=17 98<17 99>17 99<40 99<44 99<48 100<17
+. 101<17 53|168b13 210l7 210t34 540s7 1005s7
+87p17 file{12|67P9} 53|169b17 208r12
+88a17 ep{18|33A8[38|9]} 53|170b17 195r19
+89a17 ejm{15|42A8[30|11]} 53|171b17 195r22
+90p17 evt{56|26P8} 53|172b17 195r26 201r19
+91p17 nd{63|25P8} 53|173b17 195r30 201r23
+92a17 monkeys{25|14A8[67|5]} 53|174b17 195r33 201r26
+93i17 k{59|6I8} 53|175b17 195r41 201r34 207r29 208r20
+94a17 nv{23|16A8[71|4]} 53|176b17 195r43 201r36 207r26
+94a20 nq{23|16A8[71|4]} 53|176b20 195r46 201r39 208r17
+94a23 R1{23|16A8[71|4]} 53|176b23 195r49 201r42
+95a17 B{22|15A8[47|6]} 53|177b17 195r52 201r45
+96a17 h{25|14A8[50|5]} 53|178b17 195r54 201r47
+97a17 x{25|14A8[50|5]} 53|179b17 194m16 195r56 200m16 201r49 207r33 209m13
+98a17 z{23|16A8[48|4]} 53|180b17 207m5 208m23 209r11
+99f17 tol{57|13F8} 53|181b17 208r25
+99f40 err{57|13F8} 53|181b40 208m29
+99f44 rco{57|13F8} 53|181b44 208m33
+99f48 res{57|13F8} 53|181b48 208m37
+100a17 s{23|16A8[48|4]} 53|182b17 208m41
+101i17 rank{68|7I8} 53|183b17 208m43
+136U13*Interactive_Symbolic_Newton 137>17 138>17 139=17 140<17 140<21 140<25
+. 141>17 141<40 53|478b13 514l7 514t34 647s7 729s9 792s9 894s11
+137p17 file{12|67P9} 53|479b17 504r32 508r42
+138a17 p{20|22A8[39|5]} 53|480b17 490r24 490r43 491r19 491r46 496r31
+139a17 z{23|16A8[48|4]} 53|481b17 491r27 497r31 504m44 507r26 508r47
+140f17 err{57|13F8} 53|482b17 504m50 507r32 508r53
+140f21 rco{57|13F8} 53|482b21 504m54 507r36 508r57
+140f25 res{57|13F8} 53|482b25 504m58 507r40 508r61
+141f17 tol{57|13F8} 53|483b17 504r46 507r28 508r49
+141i40 rank{68|7I8} 53|483b40 504m64 507r44 508r65
+147U13*Interactive_Algorithmic_Newton 148>17 149>17 150>17 151>17 152>17
+. 153>17 154>17 155>17 155>20 155>23 156>17 157>17 158=17 159<17 159<21 159<25
+. 160>17 160<40 53|516b13 550l7 550t37 731s9 896s11
+148p17 file{12|67P9} 53|517b17 541r10 545r42
+149a17 f{18|33A8[38|9]} 53|518b17 541r15
+150a17 jm{15|42A8[30|11]} 53|519b17 541r17
+151p17 evt{56|26P8} 53|520b17 541r20
+152p17 nd{63|25P8} 53|521b17 541r24
+153a17 monkeys{25|14A8[67|5]} 53|522b17 541r27
+154i17 k{59|6I8} 53|523b17 533r49 533r68 535r57 541r35
+155a17 nv{23|16A8[71|4]} 53|524b17 533r65 535r54 541r37
+155a20 nq{23|16A8[71|4]} 53|524b20 533r46 541r40
+155a23 R1{23|16A8[71|4]} 53|524b23 541r43
+156a17 B{22|15A8[47|6]} 53|525b17 541r46
+157a17 h{25|14A8[50|5]} 53|526b17 541r48
+158a17 x{25|14A8[50|5]} 53|527b17 541m50
+159f17 err{57|13F8} 53|528b17 541m58 544r32 545r53
+159f21 rco{57|13F8} 53|528b21 541m62 544r36 545r57
+159f25 res{57|13F8} 53|528b25 541m66 544r40 545r61
+160f17 tol{57|13F8} 53|529b17 541r54 544r28 545r49
+160i40 rank{68|7I8} 53|529b40 541m72 544r44 545r65
+189U13*Deflate 190=17 191>17 53|552b13 562l7 562t14 666s11 811s13
+190p17 p{20|23P8[39|5]} 53|553b17 557r70 560m11 561m5
+191i17 m{68|7I8} 53|554b17 557r76
+197U13*Add_Multipliers 198>17 198>38 199=17 200>17 201>17 201<35 53|255b13
+. 287l7 287t22 674s15 820s13
+198p17 file{12|67P9} 53|256b18 270r16 271r16 272r11 273r11 273r33
+198b38 output{boolean} 53|256b39 269r8
+199p17 z{23|17P8[48|4]} 53|257b18 265r20 268r19 275r8 275r20 278r12 282r12
+. 285m11 286m5
+200a17 f{20|22A8[39|5]} 53|258b18 268r17
+201i17 m{68|7I8} 53|259b18 264r30 265r37 268r25
+201f35 res{57|13F8} 53|259b36 268m30 273r16 276r8
+218U13*Add_Multipliers_for_Corank_One 219>17 219>38 220=17 221>17 222>17
+. 222>19 222<37 53|289b13 322l7 322t37 671s15 816s13
+219p17 file{12|67P9} 53|290b18 305r16 306r16 307r11 308r11 308r33
+219b38 output{boolean} 53|290b39 304r8
+220p17 z{23|17P8[48|4]} 53|291b18 300r20 303r19 310r8 310r20 313r12 317r12
+. 320m11 321m5
+221a17 f{20|22A8[39|5]} 53|292b18 303r17
+222i17 n{68|7I8} 53|293b18 303r25
+222i19 m{68|7I8} 53|293b20 299r30 300r37 303r27
+222f37 res{57|13F8} 53|293b38 303m32 308r16 311r8
+241U13*Add_Multipliers 242>17 243>17 244>17 245>17 246>17 247>17 247>20 247>23
+. 248>17 249>17 250=17 251<17 53|324b13 383l7 383t22 1233s11
+242a17 f{18|33A8[38|9]} 53|325b17
+243a17 jm{15|42A8[30|11]} 53|326b17
+244p17 nd{63|25P8} 53|327b17 346r19
+245a17 monkeys{25|14A8[67|5]} 53|328b17 346r22
+246i17 k{59|6I8} 53|329b17 341r32 344r34 348r64 349r17 350r59 353r37 366r30
+. 367r27 377r9 379r34 380r9
+247a17 nv{23|16A8[71|4]} 53|330b17 345r60 346r33
+247a20 nq{23|16A8[71|4]} 53|330b20 343r31 345r39 346r43 348r40 350r33 351r31
+. 352r26
+247a23 R1{23|16A8[71|4]} 53|330b23 344r31 346r53 348r61 350r56 353r34 366r27
+. 379r31
+248a17 B{22|15A8[47|6]} 53|331b17 347r16 349r15
+249a17 h{25|14A8[50|5]} 53|332b17 347r25 367r25
+250a17 x{25|14A8[50|5]} 53|333b17 347r34 377m7 380m7
+251f17 res{57|13F8} 53|334b17 375m5 376r8
+252U13*Add_Multipliers 253>17 253>38 254>17 255>17 256>17 257>17 258>17 259>17
+. 259>20 259>23 260>17 261>17 262=17 263<17 53|385b13 450l7 450t22 744s9
+. 910s11 1317s11
+253p17 file{12|67P9} 53|386b17 438r16 439r16 440r11 441r11 441r33
+253b38 output{boolean} 53|386b38 437r8
+254a17 f{18|33A8[38|9]} 53|387b17
+255a17 jm{15|42A8[30|11]} 53|388b17
+256p17 nd{63|25P8} 53|389b17 408r19
+257a17 monkeys{25|14A8[67|5]} 53|390b17 408r22
+258i17 k{59|6I8} 53|391b17 403r32 406r34 410r64 411r17 412r59 415r37 428r30
+. 429r27 444r9 446r34 447r9
+259a17 nv{23|16A8[71|4]} 53|392b17 407r60 408r33
+259a20 nq{23|16A8[71|4]} 53|392b20 405r41 407r39 408r43 410r40 412r33 413r31
+. 414r26
+259a23 R1{23|16A8[71|4]} 53|392b23 406r31 408r53 410r61 412r56 415r34 428r27
+. 446r31
+260a17 B{22|15A8[47|6]} 53|393b17 409r16 411r15
+261a17 h{25|14A8[50|5]} 53|394b17 409r25 429r25
+262a17 x{25|14A8[50|5]} 53|395b17 409r34 444m7 447m7
+263f17 res{57|13F8} 53|396b17 436m5 441r16 443r8
+290U13*Add_Deflation_Data 291>17 291>35 292=17 292=20 292=23 293=17 294=17
+. 53|452b13 476l7 476t25 743s9 909s11 1232s11 1316s11
+291i17 k{59|6I8} 53|453b17 460r29 463r8 464r8 464r17 465r8 465r19 469r7 475r7
+291i35 m{68|7I8} 53|453b35 458r55 460r48 463r14 464r24 466r27 471r31
+292a17 nv{23|16A8[71|4]} 53|454b17 460r26 464m5 464r14
+292a20 nq{23|16A8[71|4]} 53|454b20 465m5 465r16
+292a23 R1{23|16A8[71|4]} 53|454b23 463m5
+293a17 B{22|15A8[47|6]} 53|455b17 475m5
+294a17 h{25|14A8[50|5]} 53|456b17 469m5
+315U13*Write_Results 316>17 316>38 317>17 317>19 318>17 319>17 319>21 319>25
+. 53|595b13 622l7 622t20 682s5 828s7
+316p17 file{12|67P9} 53|596b18 609r14 610r9 611r9 611r29 612r27 618r14 619r14
+. 620r9 620r26 620r46 621r9
+316i38 i{68|7I8} 53|596b39 611r14
+317a17 p{20|22A8[39|5]} 53|597b18 612r32
+317a19 dp{20|22A8[39|5]} 53|597b20 612r34
+318a17 z{23|16A8[48|4]} 53|598b18 604r31 615r12
+319f17 err{57|13F8} 53|599b18 616r14
+319f21 rco{57|13F8} 53|599b22 616r28
+319f25 res{57|13F8} 53|599b26 616r42
+324U13*Interactive_Symbolic_Deflation 325>17 326>17 327>17 328>17 53|624b13
+. 683l7 683t37
+325p17 file{12|67P9} 53|625b18 647r35 682r19
+326a17 p{20|22A8[39|5]} 53|626b18 643r24 644r10 682r26
+327a17 sol{23|16A8[48|4]} 53|627b18 636r40
+328f17 tol{57|13F8} 53|628b18 647r66
+329U13*Interactive_Symbolic_Deflation 330>17 331>17 332>17 333>17 53|755b13
+. 837l7 837t37
+330p17 file{12|67P9} 53|756b18 792r37 828r21
+331a17 p{20|22A8[39|5]} 53|757b18 767r50 767r52 787r26 788r12 828r28
+332p17 sols{45|28P8} 53|758b18 773r28 777r16 783r20 784r24
+333f17 tol{57|13F8} 53|759b18 792r68
+346U13*Interactive_Algorithmic_Deflation 347>17 348>17 349>17 350>17 53|685b13
+. 753l7 753t40
+347p17 file{12|67P9} 53|686b18 729r37 732r12
+348a17 p{20|22A8[39|5]} 53|687b18 699r60 699r62 706r24 706r43 707r19 707r43
+. 708r25 719r24 729r42
+349a17 sol{23|16A8[48|4]} 53|688b18 726r50
+350f17 tol{57|13F8} 53|689b18 729r65 733r48
+351U13*Interactive_Algorithmic_Deflation 352>17 353>17 354>17 355>17 53|839b13
+. 928l7 928t40
+352p17 file{12|67P9} 53|840b18 894r39 897r14
+353a17 p{20|22A8[39|5]} 53|841b18 852r60 852r62 859r24 859r43 860r19 860r43
+. 861r25 874r24 894r44
+354p17 sols{45|28P8} 53|842b18 869r28 880r16 886r20 887r24
+355f17 tol{57|13F8} 53|843b18 894r67 898r50
+364U13*Deflate_Solution 365>17 365>38 365>56 366>17 367=17 53|932b13 961l7
+. 961t23 1151s11
+365p17 file{12|67P9} 53|933b17 948r16 949r16 950r11 951r11 951r33
+365i38 m{59|6I8} 53|933b38 941r24 942r20 946r35
+365b56 output{boolean} 53|933b56 947r8
+366a17 df{20|22A8[39|5]} 53|934b17 946r17
+367p17 ls{45|25P8} 53|935b17 941r19 946r20 953r10 953r25 955r12 957r13 957r27
+. 958r15 958r33 958r51 959m11 960m5
+373U13*Apply_Newton_Step 374>17 374>38 374>59 375>17 376>17 377=17 378>17
+. 378<43 53|963b13 981l7 981t24 1042s7 1138s9
+374p17 file{12|67P9} 53|964b17 975r10 977r10
+374b38 output{boolean} 53|964b38 973r8
+374i59 step{68|7I8} 53|964b59 977r53
+375a17 f{18|33A8[38|9]} 53|965b17 975r15 979r32
+376a17 jf{15|42A8[30|11]} 53|966b17 975r17 979r34
+377p17 ls{45|25P8} 53|967b17 970r42 975r20 975r32 975r39 975r46 977r15 977r27
+. 977r34 977r41 979r37 979r49 979r56 979r63
+378f17 tolrnk{57|13F8} 53|968b17 975r25 977r20 979r42
+378i43 rank{68|7I8} 53|968b43 975m56 977r48 979m73
+396U13*Apply_Newton_Step 397>17 397>38 397>59 398>17 399>17 400>17 401>17
+. 402>17 403>17 403>20 403>23 404>17 405>17 406=17 407<17 407<21 407<25 408>17
+. 408<43 53|983b13 1016l7 1016t24 1091s7
+397p17 file{12|67P9} 53|984b17 1006r10 1009r10
+397b38 output{boolean} 53|984b38 1004r8
+397i59 step{68|7I8} 53|984b59 1009r41
+398a17 f{18|33A8[38|9]} 53|985b17 1006r15 1012r10
+399a17 jf{15|42A8[30|11]} 53|986b17 1006r17 1012r12
+400p17 nd{63|25P8} 53|987b17 1006r24 1012r19
+401a17 monkeys{25|14A8[67|5]} 53|988b17 1006r27 1012r22
+402i17 k{59|6I8} 53|989b17 997r49 997r68 999r57 1001r57 1006r35 1006r43 1006r52
+. 1006r61 1007r15 1007r23 1007r31 1012r30 1012r38 1012r47 1012r56 1013r15
+. 1013r23 1013r31
+403a17 nv{23|16A8[71|4]} 53|990b17 997r65 999r54 1006r37 1012r32
+403a20 nq{23|16A8[71|4]} 53|990b20 997r46 1006r46 1012r41
+403a23 R1{23|16A8[71|4]} 53|990b23 1006r55 1012r50
+404a17 B{22|15A8[47|6]} 53|991b17 1007r10 1013r10
+405a17 h{25|14A8[50|5]} 53|992b17 1007r18 1013r18
+406a17 x{25|14A8[50|5]} 53|993b17 1007m26 1007r26 1013m26 1013r26
+407f17 err{57|13F8} 53|994b17 1007m43 1009r24 1013m43
+407f21 rco{57|13F8} 53|994b21 1007m47 1009r28 1013m47
+407f25 res{57|13F8} 53|994b25 1007m51 1009r32 1013m51
+408f17 tolrnk{57|13F8} 53|995b17 1007r36 1009r17 1013r36
+408i43 rank{68|7I8} 53|995b43 1007m57 1009r36 1013m57
+441U13*Apply_Newton 442>17 443>17 444>17 445=17 446>17 446<43 53|1018b13
+. 1031l7 1031t19 1217s13
+442i17 nit{68|7I8} 53|1019b17 1028r17
+443a17 f{18|33A8[38|9]} 53|1020b17 1029r32
+444a17 jf{15|42A8[30|11]} 53|1021b17 1029r34
+445p17 ls{45|25P8} 53|1022b17 1025r42 1029r37 1029r49 1029r56 1029r63
+446f17 tolrnk{57|13F8} 53|1023b17 1029r42
+446i43 rank{68|7I8} 53|1023b43 1029m73
+447U13*Apply_Newton 448>17 448>38 448>59 449>17 450>17 451=17 452>17 452<43
+. 53|1033b13 1044l7 1044t19 1301s13
+448p17 file{12|67P9} 53|1034b17 1042r25
+448b38 output{boolean} 53|1034b38 1042r30
+448i59 nit{68|7I8} 53|1034b59 1041r17
+449a17 f{18|33A8[38|9]} 53|1035b17 1042r39
+450a17 jf{15|42A8[30|11]} 53|1036b17 1042r41
+451p17 ls{45|25P8} 53|1037b17 1042m44
+452f17 tolrnk{57|13F8} 53|1038b17 1042r47
+452i43 rank{68|7I8} 53|1038b43 1042m54
+470U13*Apply_Newton 471>17 472>17 473>17 474>17 475>17 476>17 477>17 477>20
+. 477>23 478>17 479>17 480=17 481<17 481<21 481<25 482>17 482<43 53|1046b13
+. 1073l7 1073t19 1223s13
+471i17 nit{68|7I8} 53|1047b17 1066r17
+472a17 f{18|33A8[38|9]} 53|1048b17 1069r10
+473a17 jf{15|42A8[30|11]} 53|1049b17 1069r12
+474p17 nd{63|25P8} 53|1050b17 1069r19
+475a17 monkeys{25|14A8[67|5]} 53|1051b17 1069r22
+476i17 k{59|6I8} 53|1052b17 1060r49 1060r68 1062r57 1067r59 1069r30 1069r38
+. 1069r47 1069r56 1070r15 1070r23 1070r31
+477a17 nv{23|16A8[71|4]} 53|1053b17 1060r65 1062r54 1069r32
+477a20 nq{23|16A8[71|4]} 53|1053b20 1060r46 1069r41
+477a23 R1{23|16A8[71|4]} 53|1053b23 1069r50
+478a17 B{22|15A8[47|6]} 53|1054b17 1070r10
+479a17 h{25|14A8[50|5]} 53|1055b17 1070r18
+480a17 x{25|14A8[50|5]} 53|1056b17 1070m26 1070r26
+481f17 err{57|13F8} 53|1057b17 1070m43
+481f21 rco{57|13F8} 53|1057b21 1070m47
+481f25 res{57|13F8} 53|1057b25 1070m51
+482f17 tolrnk{57|13F8} 53|1058b17 1070r36
+482i43 rank{68|7I8} 53|1058b43 1070m57
+483U13*Apply_Newton 484>17 484>38 484>59 485>17 486>17 487>17 488>17 489>17
+. 490>17 490>20 490>23 491>17 492>17 493=17 494<17 494<21 494<25 495>17 495<43
+. 53|1075b13 1095l7 1095t19 1307s13
+484p17 file{12|67P9} 53|1076b17 1092r10
+484b38 output{boolean} 53|1076b38 1092r15
+484i59 nit{68|7I8} 53|1076b59 1090r17
+485a17 f{18|33A8[38|9]} 53|1077b17 1092r24
+486a17 jf{15|42A8[30|11]} 53|1078b17 1092r26
+487p17 nd{63|25P8} 53|1079b17 1092r29
+488a17 monkeys{25|14A8[67|5]} 53|1080b17 1092r32
+489i17 k{59|6I8} 53|1081b17 1092r40
+490a17 nv{23|16A8[71|4]} 53|1082b17 1092r42
+490a20 nq{23|16A8[71|4]} 53|1082b20 1092r45
+490a23 R1{23|16A8[71|4]} 53|1082b23 1092r48
+491a17 B{22|15A8[47|6]} 53|1083b17 1092r51
+492a17 h{25|14A8[50|5]} 53|1084b17 1092r53
+493a17 x{25|14A8[50|5]} 53|1085b17 1092m55
+494f17 err{57|13F8} 53|1086b17 1092m57
+494f21 rco{57|13F8} 53|1086b21 1092m61
+494f25 res{57|13F8} 53|1086b25 1092m65
+495f17 tolrnk{57|13F8} 53|1087b17 1093r10
+495i43 rank{68|7I8} 53|1087b43 1093m17
+529U13*Symbolic_Deflation_and_Clustering 530>17 530>38 531>17 532>17 533>17
+. 533>38 533>45 534>17 534>24 534>31 53|1108b13 1165l7 1165t40
+530p17 file{12|67P9} 53|1109b17 1132r17 1132r41 1132r61 1138r27 1142r17 1142r42
+. 1143r17 1143r45 1143r65 1151r28 1158r39 1163r11
+530a38 name{string} 53|1109b38 1163r16
+531a17 p{20|22A8[39|5]} 53|1110b17 1122r32 1123r61 1123r63 1124r36
+532p17 sols{45|28P8} 53|1111b17 1119r28 1129r27
+533b17 output{boolean} 53|1112b17 1131r10 1138r32 1141r14 1147r16 1151r46
+. 1158r10
+533i38 maxitr{68|7I8} 53|1112b38 1137r26
+533i45 maxdef{68|7I8} 53|1112b45 1139r43
+534f17 tolerr{57|13F8} 53|1113b17 1153r25
+534f24 tolres{57|13F8} 53|1113b24 1153r47
+534f31 tolrnk{57|13F8} 53|1113b31 1138r57
+558U13*Algorithmic_Deflation_and_Clustering 559>17 560=17 561>17 561>24 562>17
+. 562>24 562>31 53|1175b13 1253l7 1253t43
+559a17 p{20|22A8[39|5]} 53|1176b17 1197r24 1197r43 1198r60 1198r62 1199r19
+. 1199r43 1200r25 1210r49
+560p17 sols{45|28P8} 53|1177b17 1201r28 1209r20 1213r29 1250m30 1251m25
+561i17 maxitr{68|7I8} 53|1178b17 1217r26 1223r26
+561i24 maxdef{68|7I8} 53|1178b24 1188r63
+562f17 tolerr{57|13F8} 53|1179b17
+562f24 tolres{57|13F8} 53|1179b24
+562f31 tolrnk{57|13F8} 53|1179b31 1217r43 1224r62
+567U13*Algorithmic_Deflation_and_Clustering 568>17 568>38 569>17 570=17 571>17
+. 571>38 571>45 572>17 572>24 572>31 53|1255b13 1337l7 1337t43
+568p17 file{12|67P9} 53|1256b17 1297r19 1297r43 1297r63 1301r26 1307r26 1317r27
+568a38 name{string} 53|1256b38
+569a17 p{20|22A8[39|5]} 53|1257b17 1278r24 1278r43 1279r60 1279r62 1280r19
+. 1280r43 1281r25 1291r49
+570p17 sols{45|28P8} 53|1258b17 1282r28 1290r20 1294r29 1334m30 1335m25
+571b17 output{boolean} 53|1259b17 1296r12 1301r31 1307r31 1317r32
+571i38 maxitr{68|7I8} 53|1259b38 1301r38 1307r38
+571i45 maxdef{68|7I8} 53|1259b45 1269r63
+572f17 tolerr{57|13F8} 53|1260b17
+572f24 tolres{57|13F8} 53|1260b24
+572f31 tolrnk{57|13F8} 53|1260b31 1301r55 1308r62
+X 53 standard_deflation_methods.adb
+32i5 n{59|6I8} 33r18 44r25 45r33 48r27 52r16 53r42
+33r5 s{45|16R8} 38m5 39r21
+73V14 f{23|16A8[48|4]} 73b14 73>18 76l9 76t10 83r72
+73a18 x{23|16A8[48|4]} 75r22
+78V14 jmf{17|16A8[31|5]} 78b14 78>20 81l9 81t12 83r74
+78a20 x{23|16A8[48|4]} 80r23
+83U15 Newton[32|108] 33|106b13 53|86s5
+103V14 f{23|16A8[48|4]} 103b14 103>18 106l9 106t10 113r69
+103a18 x{23|16A8[48|4]} 105r22
+108V14 jmf{17|16A8[31|5]} 108b14 108>20 111l9 111t12 113r71
+108a20 x{23|16A8[48|4]} 110r23
+113U15 Newton[32|78] 33|79b13 53|116s5
+119V12 Stack{23|16A8[48|4]} 119b12 119>20 119>35 142l7 142t12 207s10 250s10
+119i20 n{59|6I8} 127r46 139r25
+119a35 x{25|14A8[50|5]} 133r14 134r18 135r16 137r21
+127a5 res{23|16A8[48|4]} 137m9 141r12
+128i5 cnt{59|6I8} 136m9 136r16 137r13 139r18
+133i9 i<long_integer> 134r20 135r18 137r23
+135i11 j<long_integer> 137r26
+144U13 Split 144b13 144>21 145=21 166l7 166t12 194s7 200s7 209s5 237s7 243s7
+. 252s5
+144a21 z{23|16A8[48|4]} 162r20 164r25
+145a21 x{25|14A8[50|5]} 158r14 159r18 160r16 162m9 162r9
+153i5 cnt{59|6I8} 161m9 161r16 162r22 164r18
+158i9 i<long_integer> 159r20 160r18 162r11
+160i11 j<long_integer> 162r14
+192V14 f{23|16A8[48|4]} 192b14 192>18 196l9 196t10 204r72
+192a18 xx{23|16A8[48|4]} 194r13
+198V14 jmf{17|16A8[31|5]} 198b14 198>20 202l9 202t12 204r74
+198a20 xx{23|16A8[48|4]} 200r13
+204U15 Newton[32|108] 33|106b13 53|208s5
+235V14 f{23|16A8[48|4]} 235b14 235>18 239l9 239t10 247r69
+235a18 xx{23|16A8[48|4]} 237r13
+241V14 jmf{17|16A8[31|5]} 241b14 241>20 245l9 245t12 247r71
+241a20 xx{23|16A8[48|4]} 243r13
+247U15 Newton[32|78] 33|79b13 53|251s5
+264a5 la{23|16A8[48|4]} 268m27 271r21 277r16 278r25 281r16
+265a5 nz{23|16A8[48|4]} 275m5 278m9 282m9 286r22
+277i11 i<long_integer> 278r19 278r28
+281i11 i<long_integer> 282r19
+299a5 la{23|16A8[48|4]} 303m29 306r21 312r16 313r25 316r16
+300a5 nz{23|16A8[48|4]} 310m5 313m9 317m9 321r22
+312i11 i<long_integer> 313r19 313r28
+316i11 i<long_integer> 317r19
+341i5 k1{59|6I8} 342r48 343r34 345r42 345r63 346r30 346r39 346r49 346r59
+. 347r21 347r30 347r39 348r43 350r36 351r34 352r29
+342p5 t1{56|26P8} 346r16 382m39 382r39
+343i5 n{68|7I8} 372r24
+344i5 m{68|7I8} 372r37
+345a5 A1{17|16A8[31|5]} 349r12
+348a5 AB1{17|16A8[31|5]} 361r14 362r16 363r19
+350a5 A{17|16A8[31|5]} 354r20 354r36 355r44 356r14 357r22 363m9 367m7 367r9
+. 370r12 374r18
+350a7 wrk{17|16A8[31|5]} 370m5 371m9 371r9 372m10 372r10
+351a5 rhs{23|16A8[48|4]} 369m5 369r9 372r46 374r12
+353a5 lambda{23|16A8[48|4]} 373m18 374r20 377r52 379m7 380r52
+354a5 qraux{23|16A8[48|4]} 371m13 371r13 372r40
+355a5 jpvt{23|16A8[62|4]} 371m19 371r19
+357a5 rsd{23|16A8[48|4]} 373m25
+357a9 dum{23|16A8[48|4]} 373m10 373m14 373m29 374m5 375r21
+358i5 info{59|6I8} 373m37
+361i9 i<long_integer> 363r11 363r23
+362i11 j<long_integer> 363r13 363r25
+366i9 j<long_integer> 367r19 367r30
+403i5 k1{59|6I8} 404r48 405r44 407r42 407r63 408r30 408r39 408r49 408r59
+. 409r21 409r30 409r39 410r43 412r36 413r34 414r29
+404p5 t1{56|26P8} 408r16 449m39 449r39
+405i5 n{59|6I8} 434r14
+406i5 m{68|7I8} 434r26
+407a5 A1{17|16A8[31|5]} 411r12
+410a5 AB1{17|16A8[31|5]} 423r14 424r16 425r19
+412a5 A{17|16A8[31|5]} 416r20 416r36 417r44 418r14 419r22 425m9 429m7 429r9
+. 432r12 435r18
+412a7 wrk{17|16A8[31|5]} 432m5 433m9 433r9 434m10 434r10
+413a5 rhs{23|16A8[48|4]} 431m5 431r9 434r35 435r12
+415a5 lambda{23|16A8[48|4]} 434m47 435r20 439r21 444r52 446m7 447r52
+416a5 qraux{23|16A8[48|4]} 433m13 433r13 434r29
+417a5 jpvt{23|16A8[62|4]} 433m19 433r19
+419a5 rsd{23|16A8[48|4]} 434m54
+419a9 dum{23|16A8[48|4]} 434m39 434m43 434m58 435m5 436r21
+420i5 info{59|6I8} 434m66
+423i9 i<long_integer> 425r11 425r23
+424i11 j<long_integer> 425r13 425r25
+428i9 j<long_integer> 429r19 429r30
+458a5 hk{23|16A8[48|4]} 467m7 469r50
+459a5 Bk{17|16A8[31|5]} 470r15 472m10 475r51
+466i9 j<long_integer> 467r10
+470i9 j1<long_integer> 472r13
+471i12 j2<long_integer> 472r16
+490a5 ep{18|33A8[38|9]} 504r37 513m11 513r11
+491a5 jm{15|40A8[30|11]} 492r25 492r37 492r60 513m22 513r22
+492a5 ejm{15|42A8[30|11]} 504r40 513m33 513r33
+493e5 ans{character} 510m21 511r18
+494i5 cnt{68|7I8} 503m7 503r14 507r49 508r70
+496i5 n{59|6I8} 498r36
+497i5 q{59|6I8} 498r40
+498i5 m{59|6I8} 499r19
+499a5 s{23|16A8[48|4]} 504m62 505r52
+531e5 ans{character} 547m21 548r18
+532i5 cnt{68|7I8} 539m7 539r14 544r49 545r70
+533i5 m{59|6I8} 534r44
+534a5 s{23|16A8[48|4]} 541m70 542r52
+535a5 z{23|16A8[48|4]} 541m52 544r26 545r47
+557a5 dp{20|22A8[39|5]} 561r24
+564U13 Deflate_Corank_One 564b13 565=17 574l7 574t25
+565p17 p{20|23P8[39|5]} 569r61 572m11 573m5
+568a5 dp{20|22A8[39|5]} 573r24
+576U13 Deflate_Corank_One 576b13 577=17 578>17 578>19 578>22 593l7 593t25
+. 663s11 808s13
+577p17 p{20|23P8[39|5]} 582r61 587r50 588r28 588r30 589m11 590m5 591r49 592r28
+. 592r30
+578i17 k{68|7I8} 582r67 585r22
+578i19 nq{68|7I8} 582r69 585r48
+578i22 nv{68|7I8} 582r72 586r25
+581a5 dp{20|22A8[39|5]} 590r24
+604i5 n{59|6I8} 606r18 620r31
+605p5 sols{45|28P8} 617m12 617r12 621r14
+605p10 sols_last{45|28P8} 617m17 617r17
+606r5 s{45|16R8} 613m5 614m5 615m5 616m5 616m19 616m33 617r27
+635i5 k1{68|7I8} 655r14 656m13 660m13 660r19 663r33 669r12
+635i8 nq1{68|7I8} 657m13 663r36 672r49
+635i12 nv1{68|7I8} 658m13 663r40 670r40 672r55
+636p5 wz{23|17P8[48|4]} 647r47 653r26 665r33 672m39 672r39 674m52 674r52
+. 682r35
+637f5 err{57|13F8} 647m54 682r42
+637f9 rco{57|13F8} 647m58 682r46
+637f13 res{57|13F8} 647m62 682r50
+637f17 rsd{57|13F8} 672m59 674m64
+638p5 wp{20|23P8[39|5]} 643m5 644r12 647r40 657r30 658r39 658r42 663m30 663r30
+. 666m19 666r19 672r42 674r55 682r28
+639i5 m{68|7I8} 651m9 652r50 653r12 665r51 666r22 673r40 674r62
+639i7 k{68|7I8} 645m5 668m9 668r14 670r38 673r38
+639i9 rank{68|7I8} 647m70 651r14
+640e5 ans{character} 649m21 650r10 678m23 680r18
+698i5 max_order{59|6I8} 700r45 701r45 702r45 703r44 704r44 705r44 709r52
+. 722r9 723r36 724r40
+699i5 n{59|6I8} 707r30 708r36 718r24
+700a5 nv{23|16A8[71|4]} 718m5 724r51 732r41 743m32 743r32 744r66
+701a5 nq{23|16A8[71|4]} 719m5 732r50 743m35 743r35 745r25
+702a5 R1{23|16A8[71|4]} 720m5 732r59 743m38 743r38 745r34
+703a5 B{22|15A8[47|6]} 733r12 743m41 743r41 745r43
+704a5 h{25|14A8[50|5]} 733r20 743m43 743r43 745r51
+705a5 x{25|14A8[50|5]} 726m5 729r44 733m28 733r28 745m59 745r59
+706a5 ep{18|33A8[38|9]} 732r17 744r46 752m11 752r11
+707a5 jm{15|40A8[30|11]} 708r49 723r33 752m22 752r22
+708a5 ejm{15|42A8[30|11]} 732r20 744r49 752m33 752r33
+709a5 monkeys{25|14A8[67|5]} 724m5 732r31 744r56
+710p5 nd{63|25P8} 723m46 723r46 732r28 744r53
+711p5 evt{56|26P8} 732r24 741m9
+712f5 err{57|13F8} 729m53 733m36
+712f9 rco{57|13F8} 729m57 733m40
+712f13 res{57|13F8} 729m61 733m44
+712f17 rsd{57|13F8} 745m67
+713i5 m{68|7I8} 738m9 739r50 742r45 743r30
+713i7 rank{68|7I8} 729m69 733m52 738r14
+714i5 k{59|6I8} 725m5 728r10 732r39 732r47 732r56 732r65 733r17 733r25 733r33
+. 740m9 740r14 741r33 742r42 743r28 744r64 744r72 745r31 745r40 745r48 745r56
+. 745r64
+715e5 ans{character} 736m21 737r10 748m23 750r18
+766i5 k1{68|7I8} 800r16 801m15 805m15 805r21 808r35 814r14
+766i8 nq1{68|7I8} 802m15 808r38 817r47
+766i12 nv1{68|7I8} 803m15 808r42 815r38 817r53
+767i5 n{68|7I8} 768r29 778r25
+768a5 z{23|16A8[48|4]} 780m11 780r11 783m7 790r25 834m9
+769p5 wz{23|17P8[48|4]} 790m7 792r49 798r28 810r35 817m37 817r37 820m50 820r50
+. 828r37
+770f5 err{57|13F8} 792m56 828r44
+770f9 rco{57|13F8} 792m60 828r48
+770f13 res{57|13F8} 792m64 828r52
+770f17 rsd{57|13F8} 817m57 820m62
+771p5 wp{20|23P8[39|5]} 787m7 788r14 792r42 802r32 803r41 803r44 808m32 808r32
+. 811m21 811r21 817r40 820r53 828r30
+772i5 m{68|7I8} 796m11 797r52 798r14 810r53 811r24 819r38 820r60
+772i7 k{68|7I8} 789m7 813m11 813r16 815r36 819r36
+772i9 rank{68|7I8} 792m72 796r16
+772i14 len{68|7I8} 781m7 784m7 786r17 829r14
+773p5 tmp{45|28P8} 833m9 833r24 834r22
+774e5 ans{character} 794m23 795r12 824m25 826r20 831m23 832r20
+786i9 i<long_integer> 828r26 829r10 830r39
+851i5 max_order{59|6I8} 853r45 854r45 855r45 856r44 857r44 858r44 862r52
+. 877r9 878r36 879r40
+852i5 n{59|6I8} 860r30 861r36 865r44 873r24 881r25
+853a5 nv{23|16A8[71|4]} 873m5 879r51 897r43 909m34 909r34 910r68
+854a5 nq{23|16A8[71|4]} 874m5 897r52 909m37 909r37 911r27
+855a5 R1{23|16A8[71|4]} 875m5 897r61 909m40 909r40 911r36
+856a5 B{22|15A8[47|6]} 898r14 909m43 909r43 911r45
+857a5 h{25|14A8[50|5]} 898r22 909m45 909r45 911r53
+858a5 x{25|14A8[50|5]} 891m7 894r46 898m30 898r30 911m61 911r61
+859a5 ep{18|33A8[38|9]} 897r19 910r48 927m11 927r11
+860a5 jm{15|40A8[30|11]} 861r49 878r33 927m22 927r22
+861a5 ejm{15|42A8[30|11]} 897r22 910r51 927m33 927r33
+862a5 monkeys{25|14A8[67|5]} 879m5 897r33 910r58
+863p5 nd{63|25P8} 878m46 878r46 897r30 910r55
+864p5 evt{56|26P8} 897r26 907m11
+865a5 z{23|16A8[48|4]} 883m11 883r11 886m7 891r52 924m13
+866f5 err{57|13F8} 894m55 898m38
+866f9 rco{57|13F8} 894m59 898m42
+866f13 res{57|13F8} 894m63 898m46
+866f17 rsd{57|13F8} 911m69
+867i5 m{68|7I8} 903m11 904r52 908r47 909r32
+867i7 rank{68|7I8} 894m71 898m54 903r16
+867i12 len{68|7I8} 884m7 887m7 889r17 919r14
+868i5 k{59|6I8} 890m7 893r12 897r41 897r49 897r58 897r67 898r19 898r27 898r35
+. 905m11 905r16 907r35 908r44 909r30 910r66 910r74 911r33 911r42 911r50 911r58
+. 911r66
+869p5 tmp{45|28P8} 923m13 923r28 924r26
+870e5 ans{character} 901m23 902r12 914m25 916r20 921m27 922r24
+889i9 i<long_integer> 919r10 920r43
+941r5 ns{45|16R8} 953m5 955m7 957m5 957m19 958m5 958m23 958m41 960r25
+942a5 la{23|16A8[48|4]} 946m38 949r21 954r14 955r28
+943f5 res{57|13F8} 946m41 951r16
+954i9 i<long_integer> 955r22 955r31
+970a5 sv{23|16A8[48|4]} 975m53 979m70
+997i5 m{59|6I8} 998r44
+998a5 s{23|16A8[48|4]} 1007m55 1013m55
+999a5 z{23|16A8[48|4]} 1007m34 1009r15 1013m34
+1000p5 evt{56|26P8} 1006r20 1012r15 1015m39 1015r39
+1025a5 sv{23|16A8[48|4]} 1029m70
+1028i9 i<long_integer>
+1041i9 i<long_integer> 1042r37
+1060i5 m{59|6I8} 1061r44
+1061a5 s{23|16A8[48|4]} 1070m55
+1062a5 z{23|16A8[48|4]} 1070m34
+1063p5 evt{56|26P8} 1067m7 1069r15 1071m41 1071r41
+1066i9 i<long_integer>
+1090i9 i<long_integer> 1092r22
+1097U13 Write_Conclusion 1097b13 1098>17 1098>38 1098>57 1106l7 1106t23 1158s22
+1098p17 file{12|67P9} 1100r9 1102r15 1103r15 1105r9 1105r29
+1098b38 fail{boolean} 1101r12
+1098i57 i{68|7I8} 1105r14
+1118i5 k{68|7I8} 1134m17 1139r39 1140m11 1140r16 1142r47 1147r51
+1118i7 rank{68|7I8} 1138m64 1139r12 1145r16
+1118i12 m{68|7I8} 1145m11 1146r36 1147r53 1148r43 1150r39 1151r43
+1118i14 nit{68|7I8} 1134m25 1136m9 1136r16 1137r20 1138r39
+1119p5 tmp{45|28P8} 1130r21 1160m7 1160r22
+1120p5 ls{45|25P8} 1130m7 1138m54 1138r54 1139r29 1151m58 1151r58 1153r15
+. 1153r37 1159r30
+1121b5 fail{boolean} 1134m35 1154m13 1158r44
+1122i5 ne{59|6I8} 1124r14
+1123i5 nv{59|6I8} 1124r17 1162r52
+1124r5 t{54|22R8} 1125r36
+1125p5 lt{54|19P8} 1134r13 1162r28 1163r21 1164m11 1164r11
+1126p5 nd{54|19P8} 1134m7 1138r43 1138r48 1146r14 1148r26 1150m11 1150r17
+. 1151r53 1159r14 1159r22
+1129i9 i<long_integer> 1132r46 1143r50 1158r49
+1167V12 Minimum{68|7I8} 1167b12 1167>22 1167>24 1173l7 1173t14 1188s45 1269s45
+1167i22 a{68|7I8} 1169r8 1170r18
+1167i24 b{68|7I8} 1169r12 1171r18
+1187i5 max_order{68|7I8} 1188r53
+1188i5 order{59|6I8} 1189r45 1190r45 1191r45 1192r44 1193r44 1194r44 1195r52
+. 1211r38 1212r42 1229r34
+1189a5 nv{23|16A8[71|4]} 1210m7 1212r49 1224r26 1227r29 1232m34 1232r34 1233r47
+1190a5 nq{23|16A8[71|4]} 1210m30 1224r29 1232m37 1232r37 1234r27
+1191a5 R1{23|16A8[71|4]} 1210m58 1224r32 1232m40 1232r40 1234r36
+1192a5 B{22|15A8[47|6]} 1224r35 1232m43 1232r43 1234r45 1239m43 1239r43
+1193a5 h{25|14A8[50|5]} 1224r37 1232m45 1232r45 1234r53 1240m42 1240r42
+1194a5 x{25|14A8[50|5]} 1220m15 1224m39 1224r39 1225r21 1234m61 1234r61 1237m40
+. 1237r40 1241m42 1241r42
+1195a5 monkeys{25|14A8[67|5]} 1212m7 1223r43 1233r37 1248m40 1248r40
+1196p5 nd{63|25P8} 1211m44 1211r44 1223r40 1233r34
+1197a5 ep{18|33A8[38|9]} 1217r33 1223r33 1233r27 1247m42 1247r42
+1198i5 n{59|6I8} 1199r30 1200r36 1210r26 1250r52 1251r47
+1199a5 jm{15|40A8[30|11]} 1200r49 1211r35 1246m44 1246r44
+1200a5 ejm{15|42A8[30|11]} 1217r36 1223r36 1233r30 1245m44 1245r44
+1201p5 tmp{45|28P8} 1214r23 1226m22 1226r22 1243m9 1243r24
+1202p5 ls{45|25P8} 1214m9 1217m40 1217r40 1218r39 1220r60 1224r41 1224r48
+. 1224r55 1225r13 1226r26
+1203i5 rank{68|7I8} 1217m50 1218r22 1224m69 1227r22 1230r28
+1203i10 m{68|7I8} 1230m23 1231r47 1232r32
+1204i5 k{59|6I8} 1214m29 1216r14 1223r51 1227r32 1229r30 1230m11 1230r16
+. 1231r44 1232r30 1233r45 1233r53 1234r33 1234r42 1234r50 1234r58 1234r66
+. 1238r21
+1205b5 done{boolean} 1218m13 1219r20 1227m13 1229r21
+1206f5 rsd{57|13F8} 1234m69 1235r22
+1213i11 i<long_integer>
+1238i13 i<long_integer> 1239r45 1240r44 1241r44
+1268i5 max_order{68|7I8} 1269r53
+1269i5 order{59|6I8} 1270r45 1271r45 1272r45 1273r44 1274r44 1275r44 1276r52
+. 1292r38 1293r42 1313r34
+1270a5 nv{23|16A8[71|4]} 1291m7 1293r49 1308r26 1311r29 1316m34 1316r34 1317r59
+1271a5 nq{23|16A8[71|4]} 1291m30 1308r29 1316m37 1316r37 1318r27
+1272a5 R1{23|16A8[71|4]} 1291m58 1308r32 1316m40 1316r40 1318r36
+1273a5 B{22|15A8[47|6]} 1308r35 1316m43 1316r43 1318r45 1323m43 1323r43
+1274a5 h{25|14A8[50|5]} 1308r37 1316m45 1316r45 1318r53 1324m42 1324r42
+1275a5 x{25|14A8[50|5]} 1304m15 1308m39 1308r39 1309r21 1318m61 1318r61 1321m40
+. 1321r40 1325m42 1325r42
+1276a5 monkeys{25|14A8[67|5]} 1293m7 1307r55 1317r49 1332m40 1332r40
+1277p5 nd{63|25P8} 1292m44 1292r44 1307r52 1317r46
+1278a5 ep{18|33A8[38|9]} 1301r45 1307r45 1317r39 1331m42 1331r42
+1279i5 n{59|6I8} 1280r30 1281r36 1291r26 1334r52 1335r47
+1280a5 jm{15|40A8[30|11]} 1281r49 1292r35 1330m44 1330r44
+1281a5 ejm{15|42A8[30|11]} 1301r48 1307r48 1317r42 1329m44 1329r44
+1282p5 tmp{45|28P8} 1295r23 1310m22 1310r22 1327m9 1327r24
+1283p5 ls{45|25P8} 1295m9 1301m52 1301r52 1302r39 1304r60 1308r41 1308r48
+. 1308r55 1309r13 1310r26
+1284i5 rank{68|7I8} 1301m62 1302r22 1308m69 1311r22 1314r28
+1284i10 m{68|7I8} 1314m23 1315r47 1316r32
+1285i5 k{59|6I8} 1295m29 1300r14 1307r63 1311r32 1313r30 1314m11 1314r16
+. 1315r44 1316r30 1317r57 1317r65 1318r33 1318r42 1318r50 1318r58 1318r66
+. 1322r21
+1286b5 done{boolean} 1302m13 1303r20 1311m13 1313r21
+1287f5 rsd{57|13F8} 1318m69 1319r22
+1294i11 i<long_integer> 1297r48
+1322i13 i<long_integer> 1323r45 1324r44 1325r44
+X 54 standard_deflation_trees.ads
+8K9*Standard_Deflation_Trees 53|18w6 1116r9 54|51e29
+18R8*Node 53|1124r9 1125r30 54|30e13
+19P8*Link_to_Node(18R8) 53|1125r10 1126r10
+20A8*Array_of_Nodes(19P8)<59|6I8>
+22R8*Node
+24a5*s{20|22A8[39|5]} 53|1151r56
+25a5*f{18|33A8[38|9]} 53|1138r46
+27a5*jf{15|42A8[30|11]} 53|1138r51
+28a5*children{20A8} 53|1146r17 1150r20
+29p5*sols{45|28P8} 53|1159m17
+29p10*last{45|28P8} 53|1159m25
+32V12*Create_Root{22R8} 53|1124s24
+37U13*Create_Child 53|1148s13
+45U13*Clear 53|1164s5
+X 55 standard_deflation_trees_io.ads
+6K9*Standard_Deflation_Trees_io 53|19w6 19r45 55|32e32
+11U13*Add_Multiplier_Symbols 53|670s15 673s15 742s9 815s13 819s13 908s11
+. 1147s28 1231s11 1315s11
+16U13*Write_Deflated_System 53|612s5
+23U13*Write 53|1163s5
+X 56 standard_evaluate_deflation.ads
+17K9*Standard_Evaluate_Deflation 52|15w6 74r26 90r26 151r26 53|172r26 189r9
+. 215r26 232r9 339r9 382r5 401r9 449r5 520r26 696r9 849r9 1000r11 1001r12
+. 1015r5 1063r11 1067r14 1071r7 1185r9 1266r9 56|226e32
+26P8*Link_to_Eval_Tree(25R8) 52|74r54 90r54 151r54 53|172r54 215r54 342r10
+. 404r10 520r54 711r11 864r11 1000r39 1063r39
+43V12*Create{26P8} 53|342s31 404s31 741s16 907s18 1001s40 1067s42
+151V12*Eval{23|16A8[48|4]} 53|195s14 238s14
+181V12*Eval{17|16A8[31|5]} 53|201s14 244s14 346s11 408s11
+221U13*Clear 53|382s33 449s33 1015s33 1071s35
+X 57 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 52|4w6 4r45 57|58e30
+13F8*double_float<long_float> 52|32r38 41r26 41r58 49r26 49r58 83r26 83r58
+. 99r26 99r58 140r35 141r26 159r35 160r26 201r45 222r47 251r27 263r27 319r34
+. 328r26 333r26 350r26 355r26 378r29 407r35 408r29 446r29 452r29 481r35 482r29
+. 494r35 495r29 534r43 562r43 572r43 53|28r38 63r26 63r58 93r26 93r58 181r26
+. 181r58 224r26 224r58 259r46 293r48 334r27 396r27 482r35 483r26 528r35 529r26
+. 599r35 628r27 637r23 689r27 712r23 759r27 770r23 843r27 866r23 943r11 968r29
+. 994r35 995r29 1023r29 1038r29 1057r35 1058r29 1086r35 1087r29 1113r43 1179r43
+. 1206r11 1260r43 1287r11
+X 58 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 53|4w6 4r45 58|63e33
+47U13*put 53|40s26 41s28 42s28 54s35 273s7 308s7 441s7 951s7
+X 59 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 52|3w6 3r45 59|45e29
+6I8*integer32<long_integer> 52|77r24 93r24 154r24 246r24 258r24 291r24 365r45
+. 402r24 476r24 489r24 53|32r18 53r44 119r24 128r11 153r11 175r24 207r16
+. 218r24 250r16 264r20 265r27 299r20 300r27 329r24 341r19 345r29 345r50 348r30
+. 348r51 350r23 350r46 351r21 352r16 353r24 358r12 366r17 372r14 372r27 379r21
+. 391r24 403r19 405r18 405r31 407r29 407r50 410r30 410r51 412r23 412r46 413r21
+. 414r16 415r24 420r12 428r17 434r16 446r21 453r24 458r45 460r16 460r38 466r17
+. 471r21 496r18 497r18 498r18 523r24 533r18 533r36 533r55 535r44 604r18 665r41
+. 698r26 699r18 699r31 714r9 768r19 810r43 851r26 852r18 852r31 868r9 933r45
+. 989r24 997r18 997r36 997r55 999r44 1052r24 1060r18 1060r36 1060r55 1062r44
+. 1081r24 1122r19 1123r19 1123r32 1146r26 1148r33 1150r29 1151r33 1188r22
+. 1188r35 1198r18 1198r31 1204r9 1269r22 1269r35 1279r18 1279r31 1285r9
+X 60 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 53|3w6 3r45 60|47e32
+26U13*put 53|587s46 591s45 665s29 722s5 810s31 877s5 881s21
+27U13*put 53|45s24 52s7 53s33 620s22
+X 62 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[23|8] 53|7w6 355r12 417r12
+X 63 standard_jacobian_trees.ads
+7K9*Standard_Jacobian_Trees 52|14w6 75r25 91r25 152r25 244r25 256r25 400r25
+. 474r25 487r25 53|173r25 216r25 327r25 389r25 521r25 695r9 848r9 987r25
+. 1050r25 1079r25 1184r9 1265r9 63|172e28
+25P8*Link_to_Eval_Node(24R8) 52|75r49 91r49 152r49 244r49 256r49 400r49 474r49
+. 487r49 53|173r49 216r49 327r49 389r49 521r49 710r10 863r10 987r49 1050r49
+. 1079r49 1196r10 1277r10
+120U13*Create_Remember_Derivatives 53|723s5 878s5 1211s7 1292s7
+X 64 standard_multiple_solutions.ads
+7K9*Standard_Multiple_Solutions 53|15w6 15r45 64|75e32
+43U13*Remove_Duplicates 53|1251s7 1335s7
+58U13*Compute_Multiplicities 53|1250s7 1334s7
+67U13*Compute_Multiplicities 53|1162s5
+X 67 standard_natural64_vecvecs.ads
+5K9*Standard_Natural64_VecVecs[25|10] 52|7w6 76r30 92r30 153r30 245r30 257r30
+. 401r30 475r30 488r30 53|174r30 217r30 328r30 390r30 522r30 709r15 862r15
+. 988r30 1051r30 1080r30 1195r15 1248r7 1276r15 1332r7
+X 68 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 52|2w6 2r45 68|30e29
+7I8*natural32<long_integer> 52|32r66 43r28 51r28 85r28 101r28 141r51 160r51
+. 191r24 201r24 222r26 291r42 316r42 374r69 378r54 397r69 408r54 442r26 446r54
+. 448r68 452r54 471r26 482r54 484r68 495r54 533r57 561r36 571r57 53|28r66
+. 44r15 48r17 65r28 86r17 95r28 116r12 183r28 226r28 259r25 293r27 342r38
+. 343r18 344r18 404r38 406r18 453r42 483r51 494r11 529r51 532r11 554r24 578r27
+. 596r43 635r18 639r16 653r16 657r20 713r14 718r14 719r14 724r30 741r23 742r32
+. 766r18 767r18 772r20 798r18 802r22 867r18 873r14 874r14 879r30 907r25 908r34
+. 946r25 964r69 968r54 984r69 995r54 1001r47 1019r26 1023r54 1034r68 1038r54
+. 1047r26 1058r54 1067r49 1076r68 1087r54 1098r64 1112r57 1118r20 1139r19
+. 1162r42 1167r28 1167r47 1178r36 1187r26 1203r14 1210r16 1210r39 1212r32
+. 1218r29 1231r34 1250r42 1251r37 1259r57 1268r26 1284r14 1291r16 1291r39
+. 1293r32 1302r29 1315r34 1334r42 1335r37
+8I8*natural64<long_long_integer>
+X 69 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 53|2w6 2r45 69|35e32
+25U13*put 53|585s18 585s44 586s21 588s5 592s5 652s46 739s46 778s21 797s48
+. 830s35 904s48 920s39
+26U13*put 53|37s5 43s40 611s5 1105s5 1132s37 1142s38 1143s41 1297s39
+X 71 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[23|8] 52|5w6 78r31 94r31 155r31 247r31 259r31
+. 292r35 403r31 477r31 490r31 53|176r31 219r31 330r31 392r31 454r35 524r31
+. 700r10 701r10 702r10 853r10 854r10 855r10 990r31 1053r31 1082r31 1189r10
+. 1190r10 1191r10 1270r10 1271r10 1272r10
+X 74 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 53|6w6 467r16 472r23 74|112e28
+90V12*Random1{35|11R8} 53|467s40 472s47
+X 97 text_io.ads
+27K9*Text_IO=27:29 52|1w6 1r45
+

@@ -1,0 +1,1635 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U pieri_continuation%b	pieri_continuation.adb	4c121adb NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W curves_into_grassmannian%s  curves_into_grassmannian.adb  curves_into_grassmannian.ali
+W curves_into_grassmannian_io%s  curves_into_grassmannian_io.adb  curves_into_grassmannian_io.ali
+W determinantal_systems%s  determinantal_systems.adb  determinantal_systems.ali
+W plane_representations%s  plane_representations.adb  plane_representations.ali
+W standard_complex_matrices_io%s  standard_complex_matrices_io.ads  standard_complex_matrices_io.ali
+W standard_complex_norms_equals%s  standard_complex_norms_equals.adb  standard_complex_norms_equals.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_sysfun%s  standard_complex_poly_sysfun.ads  standard_complex_poly_sysfun.ali
+W standard_complex_poly_systems_io%s  standard_complex_poly_systems_io.adb  standard_complex_poly_systems_io.ali
+W standard_complex_polynomials%s  standard_complex_polynomials.ads  standard_complex_polynomials.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_homotopy%s	standard_homotopy.adb	standard_homotopy.ali
+W standard_incfix_continuation%s  standard_incfix_continuation.adb  standard_incfix_continuation.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_matrices_io%s  standard_natural_matrices_io.ads  standard_natural_matrices_io.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+W standard_root_refiners%s  standard_root_refiners.adb  standard_root_refiners.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W verification_with_determinants%s  verification_with_determinants.adb  verification_with_determinants.ali
+
+U pieri_continuation%s	pieri_continuation.ads	aa7e4f07 EE NE OO PK
+W localization_posets%s	localization_posets.adb	localization_posets.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_poly_matrices%s  standard_complex_poly_matrices.ads  standard_complex_poly_matrices.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_natural_matrices%s  standard_natural_matrices.ads  standard_natural_matrices.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D continuation_parameters.ads  20260513024558 80b0c65f continuation_parameters%s
+D curves_into_grassmannian.ads  20260513024558 2fcb651e curves_into_grassmannian%s
+D curves_into_grassmannian_io.ads  20260513024558 8941b5f7 curves_into_grassmannian_io%s
+D determinantal_systems.ads  20260513024558 c67fa371 determinantal_systems%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_laur_jaco_matrices.ads  20260513024558 2a609a16 generic_laur_jaco_matrices%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_matrices_io.ads  20260513024558 4a4f474a generic_matrices_io%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D handle_underflow_gracefully.ads  20260513024558 ced720f2 handle_underflow_gracefully%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D localization_posets.ads  20260513024558 4bb547ea localization_posets%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D pieri_continuation.ads  20260513024558 af57e56f pieri_continuation%s
+D pieri_continuation.adb  20260513024558 189072cb pieri_continuation%b
+D plane_representations.ads  20260513024558 cff24444 plane_representations%s
+D process_io.ads	20260513024558 f33a87dd process_io%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_laur_functions.ads  20260513024558 b680d0a9 standard_complex_laur_functions%s
+D standard_complex_laur_jacomats.ads  20260513024558 c8a210ce standard_complex_laur_jacomats%s
+D standard_complex_laur_sysfun.ads  20260513024558 7ae1e81b standard_complex_laur_sysfun%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_matrices_io.ads  20260513024558 907cac95 standard_complex_matrices_io%s
+D standard_complex_norms_equals.ads  20260513024558 14f0dc59 standard_complex_norms_equals%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_matrices.ads  20260513024558 88f232bd standard_complex_poly_matrices%s
+D standard_complex_poly_ring.ads  20260513024558 71b6d611 standard_complex_poly_ring%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_systems_io.ads  20260513024558 30c463ef standard_complex_poly_systems_io%s
+D standard_complex_poly_vectors.ads  20260513024558 1f5698c4 standard_complex_poly_vectors%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_qr_least_squares.ads  20260513024558 d778cd55 standard_complex_qr_least_squares%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring-ffield.ads  20260513024558 bbb2cc35 standard_complex_ring.ffield%s
+D standard_complex_ring_io.ads  20260513024558 92297a2a standard_complex_ring_io%s
+D standard_complex_singular_values.ads  20260513024558 c29c8bc2 standard_complex_singular_values%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_continuation_data.ads  20260513024558 5caa45bb standard_continuation_data%s
+D standard_correctors.ads  20260513024558 f5a901a8 standard_correctors%s
+D standard_correctors.adb  20260513024558 29f03630 standard_correctors%b
+D standard_data_on_path.ads  20260513024558 2901c4e9 standard_data_on_path%s
+D standard_dispatch_predictors.ads  20260513024558 63cac21d standard_dispatch_predictors%s
+D standard_dispatch_predictors.adb  20260513024558 1fe27ecb standard_dispatch_predictors%b
+D standard_extrapolators.ads  20260513024558 0f6a9fd6 standard_extrapolators%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring_io.ads  20260513024558 cf09bbdc standard_floating_ring_io%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vectors_io.ads  20260513024558 9f873e12 standard_floating_vectors_io%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_homotopy.ads	20260513024558 5c83417f standard_homotopy%s
+D standard_incfix_continuation.ads  20260513024558 73d97519 standard_incfix_continuation%s
+D standard_incfix_continuation.adb  20260513024558 e9497009 standard_incfix_continuation%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_matrices_io.ads  20260513024558 e4598d99 standard_natural_matrices_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_ring_io.ads  20260513024558 d39135ca standard_natural_ring_io%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_orthogonal_correctors.ads  20260513024558 5bb92a6f standard_orthogonal_correctors%s
+D standard_orthogonal_correctors.adb  20260513024558 1e4cc590 standard_orthogonal_correctors%b
+D standard_path_trackers.ads  20260513024558 27a46896 standard_path_trackers%s
+D standard_path_trackers.adb  20260513024558 b85f6c59 standard_path_trackers%b
+D standard_point_lists.ads  20260513024558 c6ecf08d standard_point_lists%s
+D standard_predictors.ads  20260513024558 84a6f1dc standard_predictors%s
+D standard_predictors.adb  20260513024558 0799e174 standard_predictors%b
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_root_refiners.ads  20260513024558 d689ce53 standard_root_refiners%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnlfl.ads		20250808065140 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D valid_vector_checks.ads  20260513024558 478cebd6 valid_vector_checks%s
+D verification_with_determinants.ads  20260513024558 6d2fc3a1 verification_with_determinants%s
+G a e
+G c Z s b [trace_paths pieri_continuation 16 13 none]
+G c Z s b [trace_paths pieri_continuation 36 13 none]
+G c Z s b [quantum_trace_paths pieri_continuation 56 13 none]
+G c Z s b [quantum_trace_paths pieri_continuation 61 13 none]
+G c Z b b [create pieri_continuation 27 12 none]
+G c Z b b [create pieri_continuation 47 12 none]
+G c Z b b [create pieri_continuation 62 12 none]
+G c Z b b [convert pieri_continuation 80 12 none]
+G c Z b b [convert pieri_continuation 97 12 none]
+G c Z b b [convert pieri_continuation 113 12 none]
+G c Z b b [square pieri_continuation 136 12 none]
+G c Z b b [refine_roots pieri_continuation 157 13 none]
+G c Z b b [refine_roots pieri_continuation 171 13 none]
+G c Z b b [determinantal_polynomial_continuation pieri_continuation 190 13 none]
+G c Z b b [determinantal_polynomial_continuation pieri_continuation 252 13 none]
+G c Z b b [determinantal_polynomial_continuation pieri_continuation 297 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [vector_rep plane_representations 18 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [localize determinantal_systems 40 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [localize plane_representations 11 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [vector_rep plane_representations 25 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [put standard_natural_matrices_io 33 13 6_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [put_line standard_complex_poly_systems_io 94 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [eval standard_complex_poly_sysfun 56 12 9_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [put standard_floating_numbers_io 47 13 none]
+G r s solution [trace_paths pieri_continuation 16 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [add standard_complex_solutions 129 13 none]
+G r s poly_sys [trace_paths pieri_continuation 16 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [create standard_homotopy 41 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [trace_paths pieri_continuation 16 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [reporting_continue standard_incfix_continuation 84 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [create standard_continuation_data 66 12 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [linear_single_normal_reporting_continue standard_path_trackers 69 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [linear_single_conditioned_reporting_continue standard_path_trackers 99 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [linear_multiple_normal_reporting_continue standard_path_trackers 157 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [write_bar standard_incfix_continuation 93 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [swrite process_io 61 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [diff standard_homotopy 114 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [diff standard_homotopy 109 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [hermite standard_predictors 573 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [pwrite process_io 82 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_single_severe_normal_reporting_corrector standard_correctors 121 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_single_severe_normal_reporting_corrector standard_correctors 249 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [reporting_qrls_corrector standard_orthogonal_correctors 46 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [eval standard_homotopy 104 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [cwrite process_io 116 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [trace_paths pieri_continuation 16 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [update_direction standard_data_on_path 350 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_single_severe_conditioned_reporting_corrector standard_correctors 135 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_single_severe_conditioned_reporting_corrector standard_correctors 263 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [reporting_svd_corrector standard_orthogonal_correctors 90 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [write_statistics standard_incfix_continuation 99 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [write_diagnostics standard_incfix_continuation 116 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [write_solution standard_incfix_continuation 167 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [write_summary_diagnostics standard_incfix_continuation 226 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [tune continuation_parameters 145 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [trace_paths pieri_continuation 16 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_multiple_loose_normal_reporting_corrector standard_correctors 151 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_multiple_loose_normal_reporting_corrector standard_correctors 279 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [pwrite process_io 73 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_single_loose_normal_reporting_corrector standard_correctors 221 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [multiple_reporting_corrector standard_correctors 43 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [write_path process_io 51 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [equals standard_correctors 12 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_single_loose_normal_reporting_corrector standard_correctors 93 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [deep_create standard_continuation_data 54 12 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [concat standard_continuation_data 83 12 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r i none [trace_paths pieri_continuation 16 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [trace_paths pieri_continuation 16 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [trace_paths pieri_continuation 16 13 none] [clear standard_homotopy 136 13 none]
+G r c none [trace_paths pieri_continuation 16 13 none] [matrix_rep plane_representations 33 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [localize determinantal_systems 40 12 none]
+G r s vecvec [trace_paths pieri_continuation 36 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [put_line standard_complex_poly_systems_io 94 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [localize plane_representations 11 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [vector_rep plane_representations 25 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [eval standard_complex_poly_sysfun 56 12 9_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [put standard_floating_numbers_io 47 13 none]
+G r s solution [trace_paths pieri_continuation 36 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [append standard_complex_solutions 123 13 none]
+G r s poly_sys [trace_paths pieri_continuation 36 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [create standard_homotopy 41 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [trace_paths pieri_continuation 36 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [reporting_continue standard_incfix_continuation 84 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [create standard_continuation_data 66 12 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [linear_single_normal_reporting_continue standard_path_trackers 69 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [linear_single_conditioned_reporting_continue standard_path_trackers 99 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [linear_multiple_normal_reporting_continue standard_path_trackers 157 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [write_bar standard_incfix_continuation 93 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [swrite process_io 61 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [diff standard_homotopy 114 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [diff standard_homotopy 109 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [hermite standard_predictors 573 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [pwrite process_io 82 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_single_severe_normal_reporting_corrector standard_correctors 121 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_single_severe_normal_reporting_corrector standard_correctors 249 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [reporting_qrls_corrector standard_orthogonal_correctors 46 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [eval standard_homotopy 104 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [cwrite process_io 116 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [trace_paths pieri_continuation 36 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [update_direction standard_data_on_path 350 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_single_severe_conditioned_reporting_corrector standard_correctors 135 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_single_severe_conditioned_reporting_corrector standard_correctors 263 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [reporting_svd_corrector standard_orthogonal_correctors 90 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [write_statistics standard_incfix_continuation 99 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [write_diagnostics standard_incfix_continuation 116 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [write_solution standard_incfix_continuation 167 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [write_summary_diagnostics standard_incfix_continuation 226 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [tune continuation_parameters 145 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [trace_paths pieri_continuation 36 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_multiple_loose_normal_reporting_corrector standard_correctors 151 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_multiple_loose_normal_reporting_corrector standard_correctors 279 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [pwrite process_io 73 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_single_loose_normal_reporting_corrector standard_correctors 221 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [multiple_reporting_corrector standard_correctors 43 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [write_path process_io 51 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [equals standard_correctors 12 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_single_loose_normal_reporting_corrector standard_correctors 93 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [deep_create standard_continuation_data 54 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [concat standard_continuation_data 83 12 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r i none [trace_paths pieri_continuation 36 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [trace_paths pieri_continuation 36 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [trace_paths pieri_continuation 36 13 none] [clear standard_homotopy 136 13 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [matrix_rep plane_representations 33 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [vector_rep plane_representations 18 12 none]
+G r c none [trace_paths pieri_continuation 36 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [column_localize curves_into_grassmannian 103 12 none]
+G r s vecvec [quantum_trace_paths pieri_continuation 56 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [localize plane_representations 11 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [column_vector_rep curves_into_grassmannian 121 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create standard_complex_numbers 18 12 none]
+G r s solution [quantum_trace_paths pieri_continuation 56 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [append standard_complex_solutions 123 13 none]
+G r s poly_sys [quantum_trace_paths pieri_continuation 56 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create standard_homotopy 41 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create standard_continuation_data 66 12 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [diff standard_homotopy 114 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [diff standard_homotopy 109 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [hermite standard_predictors 573 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [eval standard_homotopy 104 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [quantum_trace_paths pieri_continuation 56 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [tune continuation_parameters 145 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [quantum_trace_paths pieri_continuation 56 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [equals standard_correctors 12 13 none]
+G r i none [quantum_trace_paths pieri_continuation 56 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [concat standard_continuation_data 83 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [clear standard_homotopy 136 13 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [column_matrix_rep curves_into_grassmannian 128 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [column_vector_rep curves_into_grassmannian 111 12 none]
+G r c none [quantum_trace_paths pieri_continuation 56 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [column_localize curves_into_grassmannian 103 12 none]
+G r s vecvec [quantum_trace_paths pieri_continuation 61 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [put standard_natural_matrices_io 33 13 6_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [two_set_up_symbol_table curves_into_grassmannian_io 13 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [one_set_up_symbol_table curves_into_grassmannian_io 11 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [reduce_symbols curves_into_grassmannian_io 27 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [put_line standard_complex_poly_systems_io 94 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [localize plane_representations 11 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [column_vector_rep curves_into_grassmannian 121 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [eval standard_complex_poly_sysfun 56 12 9_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [put standard_floating_numbers_io 47 13 none]
+G r s solution [quantum_trace_paths pieri_continuation 61 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [append standard_complex_solutions 123 13 none]
+G r s poly_sys [quantum_trace_paths pieri_continuation 61 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create standard_homotopy 41 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [reporting_continue standard_incfix_continuation 84 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create standard_continuation_data 66 12 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_normal_reporting_continue standard_path_trackers 69 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_conditioned_reporting_continue standard_path_trackers 99 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [linear_multiple_normal_reporting_continue standard_path_trackers 157 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [write_bar standard_incfix_continuation 93 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [swrite process_io 61 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [diff standard_homotopy 114 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [diff standard_homotopy 109 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [hermite standard_predictors 573 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [pwrite process_io 82 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_single_severe_normal_reporting_corrector standard_correctors 121 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_single_severe_normal_reporting_corrector standard_correctors 249 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [reporting_qrls_corrector standard_orthogonal_correctors 46 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [eval standard_homotopy 104 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [cwrite process_io 116 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [quantum_trace_paths pieri_continuation 61 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [update_direction standard_data_on_path 350 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_single_severe_conditioned_reporting_corrector standard_correctors 135 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_single_severe_conditioned_reporting_corrector standard_correctors 263 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [reporting_svd_corrector standard_orthogonal_correctors 90 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [write_statistics standard_incfix_continuation 99 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [write_diagnostics standard_incfix_continuation 116 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [write_solution standard_incfix_continuation 167 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [write_summary_diagnostics standard_incfix_continuation 226 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [tune continuation_parameters 145 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [quantum_trace_paths pieri_continuation 61 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_multiple_loose_normal_reporting_corrector standard_correctors 151 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_multiple_loose_normal_reporting_corrector standard_correctors 279 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [pwrite process_io 73 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_single_loose_normal_reporting_corrector standard_correctors 221 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [multiple_reporting_corrector standard_correctors 43 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [write_path process_io 51 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [equals standard_correctors 12 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_single_loose_normal_reporting_corrector standard_correctors 93 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [deep_create standard_continuation_data 54 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [concat standard_continuation_data 83 12 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r i none [quantum_trace_paths pieri_continuation 61 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [clear standard_homotopy 136 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [column_matrix_rep curves_into_grassmannian 128 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [put standard_complex_matrices_io 44 13 6_1]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [column_vector_rep curves_into_grassmannian 111 12 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [verify_determinants verification_with_determinants 47 13 none]
+G r c none [quantum_trace_paths pieri_continuation 61 13 none] [clear standard_complex_vecvecs 32 13 5_1]
+G r s solution [create pieri_continuation 27 12 none] [solutionIP standard_complex_solutions 16 8 none]
+G r s solution [create pieri_continuation 47 12 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [create pieri_continuation 47 12 none] [add standard_complex_solutions 129 13 none]
+G r s solution [create pieri_continuation 62 12 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [create pieri_continuation 62 12 none] [append standard_complex_solutions 123 13 none]
+G r c none [convert pieri_continuation 80 12 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [convert pieri_continuation 113 12 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r s vecvec [convert pieri_continuation 113 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [convert pieri_continuation 113 12 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [convert pieri_continuation 113 12 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r s poly_sys [square pieri_continuation 136 12 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [square pieri_continuation 136 12 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [square pieri_continuation 136 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [square pieri_continuation 136 12 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [square pieri_continuation 136 12 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [square pieri_continuation 136 12 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [refine_roots pieri_continuation 157 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [refine_roots pieri_continuation 171 13 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [refine_roots pieri_continuation 171 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r s solution [determinantal_polynomial_continuation pieri_continuation 190 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [add standard_complex_solutions 129 13 none]
+G r s poly_sys [determinantal_polynomial_continuation pieri_continuation 190 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create standard_homotopy 41 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [put_line standard_complex_poly_systems_io 94 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [reporting_continue standard_incfix_continuation 84 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create standard_continuation_data 66 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_normal_reporting_continue standard_path_trackers 69 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_conditioned_reporting_continue standard_path_trackers 99 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_multiple_normal_reporting_continue standard_path_trackers 157 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [write_bar standard_incfix_continuation 93 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [swrite process_io 61 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [diff standard_homotopy 114 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [diff standard_homotopy 109 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [hermite standard_predictors 573 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [pwrite process_io 82 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_single_severe_normal_reporting_corrector standard_correctors 121 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_single_severe_normal_reporting_corrector standard_correctors 249 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [reporting_qrls_corrector standard_orthogonal_correctors 46 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [eval standard_homotopy 104 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [cwrite process_io 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [determinantal_polynomial_continuation pieri_continuation 190 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [update_direction standard_data_on_path 350 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_single_severe_conditioned_reporting_corrector standard_correctors 135 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_single_severe_conditioned_reporting_corrector standard_correctors 263 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [reporting_svd_corrector standard_orthogonal_correctors 90 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [write_statistics standard_incfix_continuation 99 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [write_diagnostics standard_incfix_continuation 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [write_solution standard_incfix_continuation 167 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [write_summary_diagnostics standard_incfix_continuation 226 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tune continuation_parameters 145 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [determinantal_polynomial_continuation pieri_continuation 190 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_multiple_loose_normal_reporting_corrector standard_correctors 151 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_multiple_loose_normal_reporting_corrector standard_correctors 279 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [pwrite process_io 73 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_single_loose_normal_reporting_corrector standard_correctors 221 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [multiple_reporting_corrector standard_correctors 43 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [write_path process_io 51 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [equals standard_correctors 12 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_single_loose_normal_reporting_corrector standard_correctors 93 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [deep_create standard_continuation_data 54 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [concat standard_continuation_data 83 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 190 13 none] [clear standard_homotopy 136 13 none]
+G r s solution [determinantal_polynomial_continuation pieri_continuation 252 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [append standard_complex_solutions 123 13 none]
+G r s poly_sys [determinantal_polynomial_continuation pieri_continuation 252 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create standard_homotopy 41 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create standard_continuation_data 66 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [diff standard_homotopy 114 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [diff standard_homotopy 109 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [hermite standard_predictors 573 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [eval standard_homotopy 104 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [determinantal_polynomial_continuation pieri_continuation 252 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tune continuation_parameters 145 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [determinantal_polynomial_continuation pieri_continuation 252 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [equals standard_correctors 12 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [concat standard_continuation_data 83 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r s vecvec [determinantal_polynomial_continuation pieri_continuation 252 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 252 13 none] [clear standard_homotopy 136 13 none]
+G r s solution [determinantal_polynomial_continuation pieri_continuation 297 13 none] [solutionIP standard_complex_solutions 16 8 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [append standard_complex_solutions 123 13 none]
+G r s poly_sys [determinantal_polynomial_continuation pieri_continuation 297 13 none] [poly_sysIP standard_complex_poly_systems 22 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create standard_homotopy 41 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [copy standard_complex_polynomials 41 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [random1 standard_random_numbers 90 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [Omultiply standard_complex_polynomials 95 12 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [add standard_complex_polynomials 103 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [clear standard_complex_polynomials 130 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [put_line standard_complex_poly_systems_io 94 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [reporting_continue standard_incfix_continuation 84 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create standard_continuation_data 66 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_normal_reporting_continue standard_path_trackers 69 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_conditioned_reporting_continue standard_path_trackers 99 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_multiple_normal_reporting_continue standard_path_trackers 157 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [write_bar standard_incfix_continuation 93 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [swrite process_io 61 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [at_end standard_data_on_path 20 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [real_predictor standard_predictors 53 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [diff standard_homotopy 114 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [diff standard_homotopy 109 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [hermite standard_predictors 573 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [pwrite process_io 82 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_single_severe_normal_reporting_corrector standard_correctors 121 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_single_severe_normal_reporting_corrector standard_correctors 249 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [reporting_qrls_corrector standard_orthogonal_correctors 46 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [eval standard_homotopy 104 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [cwrite process_io 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [stop standard_data_on_path 32 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [determinantal_polynomial_continuation pieri_continuation 297 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [update_direction standard_data_on_path 350 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_single_severe_conditioned_reporting_corrector standard_correctors 135 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_single_severe_conditioned_reporting_corrector standard_correctors 263 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [reporting_svd_corrector standard_orthogonal_correctors 90 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [write_statistics standard_incfix_continuation 99 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [write_diagnostics standard_incfix_continuation 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [write_solution standard_incfix_continuation 167 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [write_summary_diagnostics standard_incfix_continuation 226 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tune continuation_parameters 145 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [determinantal_polynomial_continuation pieri_continuation 297 13 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_multiple_loose_normal_reporting_corrector standard_correctors 151 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_multiple_loose_normal_reporting_corrector standard_correctors 279 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [copy standard_complex_solutions 80 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [equals standard_complex_solutions 64 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [pwrite process_io 73 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [copy standard_continuation_data 117 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_single_loose_normal_reporting_corrector standard_correctors 221 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [multiple_reporting_corrector standard_correctors 43 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [write_path process_io 51 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [equals standard_correctors 12 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_single_loose_normal_reporting_corrector standard_correctors 93 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [copy standard_continuation_data 116 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [deep_create standard_continuation_data 54 12 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [concat standard_continuation_data 83 12 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r i none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [eval standard_complex_poly_sysfun 55 12 9_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [clear standard_complex_poly_systems 60 13 5_1]
+G r s vecvec [determinantal_polynomial_continuation pieri_continuation 297 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [determinantal_polynomial_continuation pieri_continuation 297 13 none] [clear standard_homotopy 136 13 none]
+X 13 a-textio.ads
+67P9*File_Type 58|17r28 37r28 62r28 59|172r29 191r29 298r29 356r37 419r27
+. 538r27
+508U14*Put 59|387s5 394s5 403s5 413s5 448s11 460s9 471s10 588s15 600s9 619s11
+555U14*Put_Line 59|220s9 322s9 377s11 378s11 388s35 395s35 404s35 414s35
+. 432s7 449s41 461s39 472s41 556s7 562s7 589s45 601s39 602s9 620s41
+X 15 brackets.ads
+13A8*Bracket<40|16A8[127|4]>(1|3I8[125|4])<116|6I8>
+X 17 curves_into_grassmannian.ads
+11K9*Curves_into_Grassmannian 151e29 59|19w6 19r46
+103V12*Column_Localize{37|22A8[85|5]} 59|487s15 548s15
+111V12*Column_Vector_Rep{40|16A8[97|4]} 59|522s19 607s19
+121V12*Column_Vector_Rep{40|16A8[97|4]} 59|501s19 573s19
+128V12*Column_Matrix_Rep{33|16A8[76|5]} 59|519s12 597s12
+X 18 curves_into_grassmannian_io.ads
+5K9*Curves_into_Grassmannian_io 33e32 59|20w6 20r46
+11U13*One_Set_up_Symbol_Table 59|559s13
+13U13*Two_Set_up_Symbol_Table 59|558s13
+27U13*Reduce_Symbols 59|561s7
+X 19 determinantal_systems.ads
+12K9*Determinantal_Systems 156e26 59|17w6 17r46
+40V12*Localize{37|22A8[85|5]} 59|366s40 424s40
+X 32 generic_lists.ads
+12P8*List
+67V12*Length_Of{123|7I8} 59|119s56[94|27]
+77V12*Head_Of{94|25P8} 59|88s39[94|27] 125s43[94|27]
+84V12*Tail_Of{12P8[94|27]} 59|131s14[94|27]
+93U13*Clear 59|248s5[94|27] 293s5[94|27] 350s5[94|27]
+X 33 generic_matrices.ads
+16A8*Matrix(123|7I8)<116|6I8><116|6I8> 58|18r56[121|5] 20r59[76|5] 38r56[121|5]
+. 59r56[121|5] 64r58[82|5] 67r56[121|5] 59|357r65[121|5] 359r68[76|5] 367r49[76|5]
+. 420r55[121|5] 437r53[76|5] 483r55[121|5] 498r53[76|5] 540r57[82|5] 543r55[121|5]
+. 570r53[76|5]
+17P8*Link_to_Matrix(16A8[76|5])
+X 34 generic_matrices_io.ads
+33U13*put 59|377s56[122|6] 556s51[122|6]
+44U13*put 59|603s9[77|6]
+X 35 generic_poly_system_functions.ads
+55V12*Eval{37|22A8[85|5]} 59|239s17[84|9] 242s17[84|9] 284s17[84|9] 287s17[84|9]
+. 341s17[84|9] 344s17[84|9]
+56V12*Eval{40|16A8[97|4]} 59|384s15[84|9] 393s15[84|9] 400s15[84|9] 410s15[84|9]
+. 447s21[84|9] 459s19[84|9] 470s21[84|9] 587s25[84|9] 599s19[84|9] 618s21[84|9]
+X 37 generic_polynomial_systems.ads
+22A8*Poly_Sys(38|28P8[88|4])<116|6I8> 58|17r51[85|5] 37r51[85|5] 58r30[85|5]
+. 66r30[85|5] 59|136r40[85|5] 136r58[85|5] 142r11[85|5] 158r26[85|5] 172r47[85|5]
+. 191r52[85|5] 204r21[85|5] 253r31[85|5] 264r21[85|5] 298r52[85|5] 311r21[85|5]
+. 356r60[85|5] 366r14[85|5] 419r50[85|5] 424r14[85|5] 482r29[85|5] 486r14[85|5]
+. 542r29[85|5] 547r14[85|5]
+60U13*Clear 59|244s7[85|5] 246s5[85|5] 289s7[85|5] 291s5[85|5] 346s7[85|5]
+. 348s5[85|5] 415s5[85|5] 476s5[85|5] 534s5[85|5] 631s5[85|5]
+X 38 generic_polynomials.ads
+28P8*Poly 59|143r11[88|4]
+41U13*Copy 59|147s7[88|4]
+95V13*"*"{28P8[88|4]} 59|149s23[88|4]
+103U13*Add 59|150s9[88|4]
+130U13*Clear 59|151s9[88|4]
+X 39 generic_vecmats.ads
+15A8*VecMat(33|17P8[76|5])<116|6I8> 58|40r55[96|6] 60r55[96|6] 65r66[96|6]
+. 69r55[96|6] 59|422r54[96|6] 484r54[96|6] 541r65[96|6] 545r54[96|6]
+X 40 generic_vectors.ads
+16A8*Vector(123|7I8)<116|6I8> 58|65r50[97|4] 59|27r50[97|4] 47r50[97|4] 81r52[97|4]
+. 89r36[97|4] 98r52[97|4] 104r36[97|4] 126r38[97|4] 129r48[97|4] 192r60[97|4]
+. 262r50[97|4] 309r50[97|4] 364r48[97|4] 365r39[97|4] 369r48[97|4] 371r39[97|4]
+. 372r39[97|4] 373r39[97|4] 426r39[97|4] 427r39[97|4] 439r52[97|4] 441r43[97|4]
+. 445r52[97|4] 463r54[97|4] 465r45[97|4] 500r52[97|4] 502r43[97|4] 513r52[97|4]
+. 521r52[97|4] 523r43[97|4] 541r49[97|4] 550r39[97|4] 551r39[97|4] 572r52[97|4]
+. 574r43[97|4] 585r52[97|4] 606r52[97|4] 608r43[97|4]
+17P8*Link_to_Vector(16A8[97|4])
+X 42 generic_vecvecs.ads
+14A8*VecVec(40|17P8[97|4])<116|6I8> 59|62r50[98|5] 114r52[98|5] 119r36[98|5]
+. 254r61[98|5] 300r61[98|5] 425r40[98|5] 488r40[98|5] 549r40[98|5]
+32U13*Clear 59|476s20[98|5] 534s20[98|5] 631s20[98|5]
+X 47 localization_posets.ads
+6K9*Localization_Posets 271e24 58|9w6 9r46
+19n33*mixed{19E8} 59|492r16 557r18 564r16
+21R8*Node 41e13 58|57r48 63r48 59|480r47 538r68
+32R8*Node
+33e5*tp{19E8} 59|492r11 557r13 564r11
+36a5*top{15|13A8} 59|487r34 522r40 548r34 558r46 559r46 561r25 607r40
+36a9*bottom{15|13A8} 59|487r41 522r47 548r41 558r53 559r53 561r32 607r47
+X 58 pieri_continuation.ads
+11K9*Pieri_Continuation 97l5 97e23 59|23b14 634l5 634t23
+16U13*Trace_Paths 17>18 17>39 18>18 19>18 19>25 20=18 59|356b13 416l7 416t18
+17p18 file{13|67P9} 59|356b27 377r20 377r60 378r20 378r64 387r9 388r9 388r44
+. 394r9 395r9 395r44 397r43 403r9 404r9 404r44 413r9 414r9 414r44
+17a39 homsys{37|22A8[85|5]} 59|356b48 366r23 366r56 372r46 384r20 410r20
+18a18 locmap{33|16A8[121|5]} 59|357b27 366r49 368r24 370r26 377r65 405r25
+19b18 report{boolean} 59|358b27 397r62
+19b25 outlog{boolean} 59|358b34 376r8 397r69
+20a18 plane{33|16A8[76|5]} 59|359b27 364r69 368r31 405m5 408r40
+36U13*Trace_Paths 37>18 37>39 38>18 39>18 39>25 40>18 59|418b13 477l7 477t18
+37p18 file{13|67P9} 59|419b17 432r16 433r16 448r15 449r15 449r50 455r8 460r13
+. 461r13 461r48 471r14 472r15 472r50
+37a39 homsys{37|22A8[85|5]} 59|419b38 424r23 424r56 427r46 470r26
+38a18 locmap{33|16A8[121|5]} 59|420b17 424r49 438r28 440r30 457r35
+39b18 report{boolean} 59|421b17 455r36
+39b25 outlog{boolean} 59|421b24 431r8 446r12 455r43 458r10
+40a18 planes{39|15A8[96|6]} 59|422b17 425r47 435r14 438r35 457r7 464r32
+56U13*Quantum_Trace_Paths 57>18 57>20 57>22 57>40 58>18 58>40 58>47 59>18
+. 60>18 59|479b13 535l7 535t26
+57i18 m{123|7I8} 59|480b17
+57i20 p{123|7I8} 59|480b19
+57i22 q{123|7I8} 59|480b21
+57r40 nd{47|32R8} 59|480b39 487r31 487r38 492r8 522r37 522r44
+58a18 homsys{37|22A8[85|5]} 59|482b17 486r23 487r55
+58i40 conpar{123|7I8} 59|482b39 516r60
+58i47 s_mode{123|7I8} 59|482b46 505r12
+59a18 locmap{33|16A8[121|5]} 59|483b17 487r48 499r28 501r37 519r30
+60a18 planes{39|15A8[96|6]} 59|484b17 488r47 496r14 499r35 518r7 522r54
+61U13*Quantum_Trace_Paths 62>18 63>18 63>20 63>22 63>40 64>18 65>18 65>58
+. 66>18 66>40 66>47 67>18 68>18 68>25 69>18 59|537b13 632l7 632t26
+62p18 file{13|67P9} 59|538b17 556r16 556r55 562r16 562r60 588r19 589r19 589r54
+. 594r8 600r13 601r13 601r48 602r18 603r13 619r15 620r15 620r50 628r29
+63i18 m{123|7I8} 59|538b38 558r37 559r37
+63i20 p{123|7I8} 59|538b40 558r39 559r39
+63i22 q{123|7I8} 59|538b42 558r41 559r41
+63r40 nd{47|32R8} 59|538b60 548r31 548r38 557r10 558r43 558r50 559r43 559r50
+. 561r22 561r29 564r8 607r37 607r44 628r38
+64a18 xpm{33|16A8[82|5]} 59|540b17 628r41
+65a18 s{40|16A8[97|4]} 59|541b17 628r60
+65a58 ip{39|15A8[96|6]} 59|541b57 628r62
+66a18 homsys{37|22A8[85|5]} 59|542b17 547r23 548r55 551r46 618r26
+66i40 conpar{123|7I8} 59|542b39 594r30
+66i47 s_mode{123|7I8} 59|542b46 577r12
+67a18 locmap{33|16A8[121|5]} 59|543b17 548r48 556r60 561r39 571r28 573r37
+. 597r30 628r45
+68b18 report{boolean} 59|544b17 594r46
+68b25 outlog{boolean} 59|544b24 555r8 586r12 594r53 598r10 617r12 624r8
+69a18 planes{39|15A8[96|6]} 59|545b17 549r47 568r14 571r35 596r7 603r18 607r54
+X 59 pieri_continuation.adb
+27V12 Create{94|16R8} 27b12 27>21 28>21 45l7 45t13 58s13 75s27
+27a21 v{40|16A8[97|4]} 34r20 37r14 39r11 39r33 39r35 40r34 40r46
+28i21 conpar{116|6I8} 37r16 39r20 39r44 40r11 40r36
+34r5 sol{94|16R8} 37m5 38m5 39m5 40m5 40r19 41m5 42m5 43m5 44r12
+47V12 Create{94|28P8} 47b12 47>21 60l7 60t13 203s29
+47a21 v{40|16A8[97|4]} 58r20 58r22
+55p5 res{94|28P8} 58m9 58r9 59r12
+62V12 Create{94|28P8} 62b12 62>21 63>21 78l7 78t13 261s29 308s29
+62a21 v{42|14A8[98|5]} 74r14 75r34
+63i21 conpar{116|6I8} 75r43
+71p5 res{94|28P8} 75m14 75r14 77r12
+71p9 res_last{94|28P8} 75m18 75r18
+74i9 i<long_integer> 75r36
+80V12 Convert{40|16A8[97|4]} 80b12 80>22 95l7 95t14 247s15
+80p22 sols{94|28P8} 88r47
+88p5 ls{94|25P8} 89r46 92r9 92r24 93r22
+89a5 res{40|16A8[97|4]} 92m5 93m5 93r9 94r12
+97V12 Convert{40|16A8[97|4]} 97b12 97>22 97>38 111l7 111t14 128s14
+97r22 sol{94|16R8} 104r46 107r9 107r35 107r41 108r20 109r19 109r31 109r45
+97i38 conpar{116|6I8} 107r22 107r54 108r9 109r9 109r37
+104a5 res{40|16A8[97|4]} 107m5 108m5 109m5 110r12
+113V12 Convert{42|14A8[98|5]} 113b12 113>22 113>44 134l7 134t14 292s16 349s16
+113p22 sols{94|28P8} 119r66 120r28
+113i44 conpar{116|6I8} 128r29
+119a5 res{42|14A8[98|5]} 123r14 129m9 133r12
+120p5 tmp{94|28P8} 125r51 131m7 131r22
+123i9 i<long_integer> 129r13
+125p9 ls{94|25P8} 126r45 126r57 128r22
+126a9 v{40|16A8[97|4]} 128m9 129r56
+136V12 Square{37|22A8[85|5]} 136b12 136>21 136>36 155l7 155t13 218s17 273s17
+. 320s17
+136i21 n{116|6I8} 142r23 148r16
+136a36 p{37|22A8[85|5]} 147r12 148r21 149r24
+142a5 res{37|22A8[85|5]} 146r14 147m17 147r17 150m13 150r13 154r12
+143p5 acc{38|28P8[88|4]} 149m9 150r20 151m15 151r15
+146i9 i<long_integer> 147r14 147r21 150r17
+148i11 j<long_integer> 149r26
+157U13 Refine_Roots 157b13 158>19 158=36 169l7 169t19 285s7 288s7
+158a19 p{37|22A8[85|5]} 168r25
+158p36 sols{94|28P8} 168m27
+160f5 epsxa{106|13F8} 168r32
+161f5 epsfa{106|13F8} 168r38
+162f5 tolsing{106|13F8} 168r44
+163i5 max{123|7I8} 168r58
+164i5 numit{123|7I8} 168m52 168r52
+165b5 deflate{boolean} 168m62 168r62
+171U13 Refine_Roots 171b13 172>19 172>40 173=19 173>48 188l7 188t19 240s7
+. 243s7 342s7 345s7
+172p19 file{13|67P9} 185r14
+172a40 p{37|22A8[85|5]} 185r19 186r31
+173p19 sols{94|28P8} 185m21 186m33
+173b48 report{boolean} 183r8
+175f5 epsxa{106|13F8} 185r26 186r38
+176f5 epsfa{106|13F8} 185r32 186r44
+177f5 tolsing{106|13F8} 185r38 186r50
+178i5 max{123|7I8} 185r52 186r64
+179i5 numit{123|7I8} 185m46 185r46 186m58 186r58
+180b5 deflate{boolean} 185m56 185r56 186m68 186r68
+190U13 Determinantal_Polynomial_Continuation 190b13 191>19 191>40 192=19
+. 193>19 193>26 250l7 250t44 397s5
+191p19 file{13|67P9} 220r18 221r18 234r22 240r20 243r20
+191a40 lochom{37|22A8[85|5]} 213r8 215r32 218r38 239r22
+192a19 locsol{40|16A8[97|4]} 203r36 204r30 204r44 213r28 215r39 218r24 223r39
+. 239r41 242r41 247m5
+193b19 report{boolean} 233r10 240r37 243r37
+193b26 outlog{boolean} 219r10
+203p5 sols{94|28P8} 234m27 234r27 235m22 235r22 240m32 240r32 243m32 243r32
+. 247r23 248m11 248r11
+204a5 thesys{37|22A8[85|5]} 239m7 240r25 242m7 243r25 246m11 246r11
+204a12 squsys{37|22A8[85|5]} 218m7 221r23 223r32 242r22 244m13 244r13
+205b5 square_case{boolean} 214m7 217m7 238r8
+226U17 Sil_Cont[114|47] 235s13 115|387b13
+229U17 Rep_Cont[114|84] 234s13 115|786b13
+252U13 Determinantal_Polynomial_Continuation 252b13 253>19 253>41 254=19
+. 295l7 295t44 516s5
+253a19 lochom{37|22A8[85|5]} 268r8 270r32 273r40 284r22
+253i41 conpar{116|6I8} 261r44 270r39 274r39 284r41 287r41 292r29
+254a19 locsols{42|14A8[98|5]} 261r36 263r17 263r25 292m5
+261p5 sols{94|28P8} 281m16 281r16 285m27 285r27 288m27 288r27 292r24 293m11
+. 293r11
+262a5 firstsol{40|16A8[97|4]} 264r30 264r46 268r28 273r24
+264a5 thesys{37|22A8[85|5]} 284m7 285r20 287m7 288r20 291m11 291r11
+264a12 squsys{37|22A8[85|5]} 273m7 274r32 287r22 289m13 289r13
+265b5 square_case{boolean} 269m7 272m7 283r8
+277U17 Sil_Cont[114|47] 281s7 115|387b13
+297U13 Determinantal_Polynomial_Continuation 297b13 298>19 298>40 299>19
+. 300=19 301>19 301>26 352l7 352t44 454s5 593s5
+298p19 file{13|67P9} 322r18 323r18 336r22 342r20 345r20
+298a40 lochom{37|22A8[85|5]} 315r8 317r32 320r40 341r22
+299i19 conpar{116|6I8} 308r44 317r39 325r39 341r41 344r41 349r29
+300a19 locsols{42|14A8[98|5]} 308r36 310r17 310r25 349m5
+301b19 report{boolean} 335r10 342r37 345r37
+301b26 outlog{boolean} 321r10
+308p5 sols{94|28P8} 336m27 336r27 337m22 337r22 342m32 342r32 345m32 345r32
+. 349r24 350m11 350r11
+309a5 firstsol{40|16A8[97|4]} 311r30 311r46 315r28 320r24
+311a5 thesys{37|22A8[85|5]} 341m7 342r25 344m7 345r25 348m11 348r11
+311a12 squsys{37|22A8[85|5]} 320m7 323r23 325r32 344r22 346m13 346r13
+312b5 square_case{boolean} 316m7 319m7 340r8
+328U17 Sil_Cont[114|47] 337s13 115|387b13
+331U17 Rep_Cont[114|84] 336s13 115|786b13
+364a5 plavec{40|16A8[97|4]} 365r49 381r12 381r29 408r12
+365a5 solvec{40|16A8[97|4]} 381m5 382m5 382r12 384r27 408m5 409m5 409r12
+. 410r27
+366a5 lochom{37|22A8[85|5]} 373r46 378r69 393r20 397r48 400r20 415m11 415r11
+367a5 plaloc{33|16A8[76|5]} 370r33
+369a5 solloc{40|16A8[97|4]} 371r49 391r12 391r29
+371a5 locsol{40|16A8[97|4]} 391m5 392m5 392r12 393r27 397m55 397r55 400r27
+. 405r32 405r42
+372a5 evahom{40|16A8[97|4]} 384m5 388r23 410m5 414r23
+373a5 evaloc{40|16A8[97|4]} 393m5 395r23 400m5 404r23
+424a5 lochom{37|22A8[85|5]} 426r46 433r21 447r26 455r13 459r24 476m11 476r11
+425a5 locsols{42|14A8[98|5]} 445m9 453r16 453r24 455m28 455r28 456r14 457r42
+. 457r56 459r31 476m26 476r26
+426a5 evaloc{40|16A8[97|4]} 447m11 449r29 459m9 461r27
+427a5 evahom{40|16A8[97|4]} 470m11 472r29
+428i5 lastvar{116|6I8} 453m5 455r20
+435i9 i<long_integer> 438r42 445r17
+437a9 plaloc{33|16A8[76|5]} 440r37
+439a9 solloc{40|16A8[97|4]} 441r53 443r16 443r33
+441a9 locsol{40|16A8[97|4]} 443m9 444m9 444r16 445r60 447r33
+456i9 i<long_integer> 457r14 457r50 457r64 459r39 464r39
+463a11 plavec{40|16A8[97|4]} 466r23 466r37 468r18 468r35
+465a11 solvec{40|16A8[97|4]} 468m11 469m11 469r18 470r33
+486a5 lochom{37|22A8[85|5]} 516r43 534m11 534r11
+488a5 locsols{42|14A8[98|5]} 513m9 516m68 516r68 517r14 519r37 519r51 528r34
+. 528r45 530r42 530r53 534m26 534r26
+489i5 addmix{116|6I8} 493m11 494m11 502r67 510r12 519r69 524r49 529r12
+496i9 i<long_integer> 499r42 513r17
+498a9 plaloc{33|16A8[76|5]} 501r44
+500a9 solloc{40|16A8[97|4]} 502r53 504r16 504r33
+502a9 locsol{40|16A8[97|4]} 504m9 506m15 506r22 507m15 507r22 509m9 509r16
+. 511m15 511r22 513r60
+517i9 i<long_integer> 518r14 519r45 519r59 522r61 528r42 528r53 530r50 530r61
+521a9 plavec{40|16A8[97|4]} 524r21 524r35 526r16 526r33
+523a9 solvec{40|16A8[97|4]} 526m9 527m9 527r16 528m9 528r16 530m15 530r22
+547a5 lochom{37|22A8[85|5]} 550r46 562r65 587r30 594r13 599r24 631m11 631r11
+549a5 locsols{42|14A8[98|5]} 585m9 594m38 594r38 595r14 597r37 597r51 599r31
+. 613r34 613r45 615r42 615r53 626r37 628r52 631m26 631r26
+550a5 evaloc{40|16A8[97|4]} 587m15 589r33 599m9 601r27
+551a5 evahom{40|16A8[97|4]} 618m11 620r29
+552i5 addmix{116|6I8} 565m11 566m11 574r67 582r12 597r69 609r49 614r12 626r55
+568i9 i<long_integer> 571r42 585r17
+570a9 plaloc{33|16A8[76|5]} 573r44
+572a9 solloc{40|16A8[97|4]} 574r53 576r16 576r33
+574a9 locsol{40|16A8[97|4]} 576m9 578m15 578r22 579m15 579r22 581m9 581r16
+. 583m15 583r22 585r60 587r37
+595i9 i<long_integer> 596r14 597r45 597r59 599r39 603r25 607r61 613r42 613r53
+. 615r50 615r61
+606a9 plavec{40|16A8[97|4]} 609r21 609r35 611r16 611r33
+608a9 solvec{40|16A8[97|4]} 611m9 612m9 612r16 613m9 613r16 615m15 615r22
+. 618r33
+626i9 dim{116|6I8} 628r34
+X 60 plane_representations.ads
+5K9*Plane_Representations 59|18w6 18r46 60|50e26
+11V12*Localize{33|16A8[76|5]} 59|368s15 438s19 499s19 571s19
+18V12*Vector_Rep{40|16A8[97|4]} 59|364s58 408s29 464s21
+25V12*Vector_Rep{40|16A8[97|4]} 59|370s15 440s19
+33V12*Matrix_Rep{33|16A8[76|5]} 59|405s14 457s24
+X 76 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[33|9] 58|5w6 20r33 59|359r42 367r23 437r27
+. 498r27 570r27
+X 77 standard_complex_matrices_io.ads
+6K9*Standard_Complex_Matrices_io[34|14] 59|9w6 9r46
+X 78 standard_complex_norms_equals.ads
+6K9*Standard_Complex_Norms_Equals 59|6w6 6r46 78|57e34
+29V12*Max_Norm{106|13F8} 59|227r29 230r32 278r29 329r29 332r32 388s14 395s14
+. 404s14 414s14 449s20 461s18 472s20 589s24 601s18 620s20
+X 79 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 59|4w6 4r46 79|92e29
+18V12*Create{11R8} 59|234s46 235s41 239s29 242s29 281s35 284s29 287s29 336s46
+. 337s41 341s29 344s29 382s28 392s28 409s28 444s32 469s34 506s40 507s40 509s34
+. 511s40 527s34 578s40 579s40 581s34 583s40 612s34
+X 82 standard_complex_poly_matrices.ads
+5K9*Standard_Complex_Poly_Matrices[33|9] 58|8w6 64r27 59|540r26
+X 84 standard_complex_poly_sysfun.ads
+9K9*Standard_Complex_Poly_SysFun[35|19] 59|12w6 12r46
+X 85 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[37|12] 58|7w6 7r46
+X 86 standard_complex_poly_systems_io.ads
+6K9*Standard_Complex_Poly_Systems_io 59|11w6 11r46 86|130e37
+94U13*put_line 59|221s9 323s9 378s55 433s7 562s51
+X 88 standard_complex_polynomials.ads
+4K9*Standard_Complex_Polynomials[38|11] 59|10w6 10r46
+X 94 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 59|13w6 13r46 94|206e31
+16R8*Solution 59|28r49 34r11 97r28 94|23e13
+16i19*n{116|6I8} 59|89r49 104r50 109r23
+17r5*t{79|11R8} 59|37m9 93r25 108r24
+18i5*m{116|6I8} 59|38m9
+19a5*v{40|16A8[97|4]} 59|39m9 40m9 40r23 92r12 92r27 107r13 107r39 107r45
+. 109r35 109r49 126r48 126r60
+20f5*err{106|13F8} 59|41m9
+21f5*rco{106|13F8} 59|42m9
+22f5*res{106|13F8} 59|43m9
+25P8*Link_to_Solution(16R8) 59|88r19 125r23
+28P8*Solution_List<32|12P8[27]> 59|48r26 55r11 63r49 71r20 80r29 113r29 120r11
+. 158r50 173r33 203r12 261r12 308r12
+123U13*Append 59|75s7
+129U13*Add 59|58s5
+X 96 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[39|11] 58|6w6 6r46 40r30 60r30 69r30 59|422r29
+. 484r29 545r29
+X 97 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[40|8] 58|3w6 65r25 59|27r25 47r25 81r27 89r11
+. 98r27 104r11 126r13 129r23 192r35 262r25 309r25 364r23 365r14 369r23 371r14
+. 372r14 373r14 426r14 427r14 439r27 441r18 445r27 463r29 465r20 500r27 502r18
+. 513r27 521r27 523r18 541r24 550r14 551r14 572r27 574r18 585r27 606r27 608r18
+X 98 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[42|10] 59|7w6 7r46 62r25 114r27 119r11 254r36
+. 300r36 425r15 488r15 549r15
+X 101 standard_correctors.adb
+468U15 Single_Corrector[100|86] 122b13[131|462[115|405[59|226]]]
+470U15 Corrector[31] 52b13[131|462[115|405[59|277]]]
+481U15 Single_Corrector[100|93] 157b13[131|511[115|804[59|331]]]
+483U15 Corrector[43] 85b13[131|511[115|804[59|331]]]
+975U15 Single_Corrector[100|214] 567b13[131|464[115|405[59|226]]]
+977U15 Corrector[31] 52b13[131|464[115|405[59|226]]]
+988U15 Single_Corrector[100|221] 609b13[131|513[115|804[59|331]]]
+990U15 Corrector[43] 85b13[131|513[115|804[59|229]]]
+X 104 standard_dispatch_predictors.adb
+13U15 TR_Predictor[133|330] 134|330b13[131|123[115|800[59|229]]]
+14U15 TC_Predictor[133|374] 134|407b13[131|235[115|403[59|226]]]
+15U15 TG_Predictor[133|439] 134|515b13[131|235[115|403[59|226]]]
+16U15 HR_Predictor[133|455] 134|594b13[131|235[115|403[59|226]]]
+230U15 TR_Predictor[133|343] 134|360b13[131|460[115|405[59|226]]]
+231U15 TC_Predictor[133|387] 134|437b13[131|460[115|405[59|226]]]
+X 106 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 59|2w6 2r46 106|58e30
+13F8*double_float<long_float> 59|160r22 161r22 162r24 175r22 176r22 177r24
+X 107 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 59|3w6 3r46 107|63e33
+47U13*put 59|388s5 395s5 404s5 414s5 449s11 461s9 472s11 589s15 601s9 620s11
+X 113 standard_homotopy.ads
+8K9*Standard_Homotopy 59|14w6 215r7 223r7 227r38 228r29 228r52 230r41 231r32
+. 231r55 249r5 270r7 274r7 278r38 279r29 279r52 294r5 317r7 325r7 329r38
+. 330r29 330r52 332r41 333r32 333r55 351r5 113|141e22
+41U13*Create 59|215s25 223s25 270s25 274s25 317s25 325s25
+104V12*Eval{40|16A8[97|4]} 59|227r56 230r59 278r56 329r56 332r59
+109V12*Diff{40|16A8[97|4]} 59|228r47 231r50 279r47 330r47 333r50
+114V12*Diff{33|16A8[76|5]} 59|228r70 231r73 279r70 330r70 333r73
+136U13*Clear 59|249s23 294s23 351s23
+X 114 standard_incfix_continuation.ads
+12K9*Standard_IncFix_Continuation 59|15w6 15r46 114|172e33
+47u13*Silent_Continue 59|227r13 278r13 329r13
+50r18 target{79|11R8} 59|235r33[226] 281r27[277] 337r33[328]
+84u13*Reporting_Continue 59|230r13 332r13
+87r18 target{79|11R8} 59|234r38[229] 336r38[331]
+X 115 standard_incfix_continuation.adb
+401U15 LCont1[130|56] 131|23b13[59|277]
+403U15 LCont2[130|83] 131|204b13[59|328]
+405U15 LContN1[130|145] 131|448b13[59|328]
+800U15 LCont1[130|69] 131|109b13[59|331]
+802U15 LCont2[130|99] 131|321b13[59|331]
+804U15 LContN1[130|157] 131|497b13[59|331]
+X 116 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 59|1w6 1r46 116|45e29
+6I8*integer32<long_integer> 59|28r30 63r30 97r47 113r53 119r46 136r25 253r53
+. 299r31 428r15 489r14 516r50 552r14 594r20 626r24
+X 121 standard_natural_matrices.ads
+5K9*Standard_Natural_Matrices[33|9] 58|4w6 18r30 38r30 59r30 67r30 59|357r39
+. 420r29 483r29 543r29
+X 122 standard_natural_matrices_io.ads
+6K9*Standard_Natural_Matrices_io[34|14] 59|8w6 8r46
+X 123 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 58|2w6 2r46 123|30e29
+7I8*natural32<long_integer> 58|57r29 58r59 63r29 66r59 59|163r20 164r13 178r20
+. 179r13 480r28 482r58 538r49 542r58
+X 131 standard_path_trackers.adb
+36U15 Predictor[103|24] 104|5b13[115|401[59|328]]
+40U17 Affine_Corrector[100|114] 101|277b13[115|401[59|328]]
+42U17 Projective_Corrector[100|242] 101|753b13[115|401[59|328]]
+44U17 QRLS_Corrector[128|25] 129|10b13[115|401[59|328]]
+123U15 Predictor[103|24] 104|5b13[115|800[59|331]]
+127U17 Affine_Corrector[100|121] 101|319b13[115|800[59|331]]
+129U17 Projective_Corrector[100|249] 101|803b13[115|800[59|331]]
+131U17 QRLS_Corrector[128|46] 129|47b13[115|800[59|331]]
+235U15 Predictor[103|24] 104|5b13[115|403[59|328]]
+239U17 Affine_Corrector[100|128] 101|363b13[115|403[59|328]]
+241U17 Projective_Corrector[100|256] 101|855b13[115|403[59|328]]
+243U17 SVD_Corrector[128|69] 129|86b13[115|403[59|328]]
+352U15 Predictor[103|24] 104|5b13[115|802[59|331]]
+356U17 Affine_Corrector[100|135] 101|412b13[115|802[59|331]]
+358U17 Projective_Corrector[100|263] 101|911b13[115|802[59|331]]
+360U17 SVD_Corrector[128|90] 129|127b13[115|802[59|331]]
+460U15 Predictor[103|183] 104|221b13[115|405[59|328]]
+462U15 Affine_Corrector[100|142] 101|463b13[115|405[59|328]]
+464U15 Projective_Corrector[100|270] 101|970b13[115|405[59|328]]
+509U15 Predictor[103|183] 104|221b13[115|804[59|331]]
+511U15 Affine_Corrector[100|151] 101|476b13[115|804[59|331]]
+513U15 Projective_Corrector[100|279] 101|983b13[115|804[59|331]]
+X 135 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 59|5w6 5r46 135|112e28
+90V12*Random1{79|11R8} 59|149s16
+X 136 standard_root_refiners.ads
+15K9*Standard_Root_Refiners 59|16w6 16r46 136|665e27
+377U13*Silent_Root_Refiner 59|168s5 186s11
+411U13*Reporting_Root_Refiner 59|184s11
+X 160 text_io.ads
+27K9*Text_IO=27:29 58|1w6 1r46
+X 163 verification_with_determinants.ads
+13K9*Verification_with_Determinants 59|21w6 21r46 163|73e35
+47U13*Verify_Determinants 59|628s9
+

@@ -1,0 +1,146 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U monomial_hashing%b	monomial_hashing.adb	b433a75c NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural64_vectors%s  standard_natural64_vectors.ads  standard_natural64_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U monomial_hashing%s	monomial_hashing.ads	4a404a69 BN EE NE OO PK
+W standard_natural64_vecvecs%s  standard_natural64_vecvecs.ads  standard_natural64_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D monomial_hashing.ads	20260513024558 8efbe726 monomial_hashing%s
+D monomial_hashing.adb	20260513024558 2774b1d0 monomial_hashing%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural64_ring.ads  20260513024558 8db8ee3d standard_natural64_ring%s
+D standard_natural64_vectors.ads  20260513024558 625c93b1 standard_natural64_vectors%s
+D standard_natural64_vecvecs.ads  20260513024558 74e50acc standard_natural64_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [monomial_count monomial_hashing 28 12 none]
+G c Z s b [monomial_code monomial_hashing 33 12 none]
+G c Z s b [monomial_keys monomial_hashing 41 12 none]
+G c Z s b [search monomial_hashing 49 12 none]
+G c Z s b [search monomial_hashing 51 12 none]
+G c Z s b [search monomial_hashing 54 12 none]
+G r s vecvec [monomial_keys monomial_hashing 41 12 none] [vecvecIP standard_natural64_vecvecs 14 8 5_1]
+G r c none [search monomial_hashing 54 12 none] [sum standard_natural_vectors 52 12 4_1]
+X 2 generic_vectors.ads
+16A8*Vector(10|7I8)<6|6I8> 4|12r63[12|4] 20r63[12|4] 34r60[12|4] 52r50[12|4]
+. 55r50[12|4] 5|10r37[12|4] 43r37[12|4] 73r52[12|4] 85r60[12|4] 113r55[12|4]
+. 122r48[8|4] 148r50[12|4] 159r50[12|4]
+17P8*Link_to_Vector(16A8[8|4]) 5|133r39[8|4]
+52V12*Sum{10|7I8} 5|161s56[12|4]
+X 3 generic_vecvecs.ads
+14A8*VecVec(2|17P8[8|4])<6|6I8> 4|42r68[9|5] 49r58[9|5] 51r58[9|5] 54r58[9|5]
+. 5|108r68[9|5] 110r38[9|5] 130r58[9|5] 147r58[9|5] 158r58[9|5]
+X 4 monomial_hashing.ads
+5K9*Monomial_Hashing 68l5 68e21 5|6b14 167l5 167t21
+12U20 Monomial 12>31 5|21s9 24s9
+12a31 m{2|16A8[12|4]}
+13u13*Enumerate_Monomials 13>35 13>37 5|8b13 39l7 39t26 77r38 118r32
+13i35 d{10|7I8} 5|8b35 20r16 30r25 38r17
+13i37 n{10|7I8} 5|8b37 10r57 11r27 22r17 23r24 25r24
+20U20 Monomial 20>31 5|55s15 64s11
+20a31 m{2|16A8[12|4]}
+21u13*Enumerate_Leaves_of_Monomial_Tree 21>49 21>51 5|41b13 67l7 67t40
+21i49 d{10|7I8} 5|41b49 54r20 63r8
+21i51 n{10|7I8} 5|41b51 43r57 44r27 52r29
+28V12*Monomial_Count{10|7I8} 28>29 28>31 5|69b12 82l7 82t21 123s37
+28i29 d{10|7I8} 5|69b29 80r21
+28i31 n{10|7I8} 5|69b31 80r23
+33V12*Monomial_Code{10|8I8} 34>16 34>31 5|84b12 105l7 105t20 116s29 152s31
+34i16 d{10|7I8} 5|85b16 92r28
+34a31 m{2|16A8[12|4]} 5|85b31 91r14 92r43
+41V12*Monomial_Keys{3|14A8[9|5]} 42>16 42>18 5|107b12 128l7 128t20
+42i16 k{10|7I8} 5|108b16 110r58 116r43 121r27
+42i18 n{10|7I8} 5|108b18 123r65 125r30
+49V12*Search{10|7I8} 49>21 50>21 50>36 5|130b12 145l7 145t13 155s12
+49a21 monkeys{3|14A8[9|5]} 5|130b21 136r23 137r15
+50i21 c{10|8I8} 5|131b21 139r22
+50i36 s{10|7I8} 5|131b36 136r8 137r33
+51V12*Search{10|7I8} 51>21 52>21 52>58 5|147b12 156l7 156t13 164s12
+51a21 monkeys{3|14A8[9|5]} 5|147b21 151r41 155r19
+52a21 m{2|16A8[12|4]} 5|148b21 152r49
+52i58 s{10|7I8} 5|148b58 155r29
+54V12*Search{10|7I8} 54>21 55>21 5|158b12 165l7 165t13
+54a21 monkeys{3|14A8[9|5]} 5|158b21 164r19
+55a21 m{2|16A8[12|4]} 5|159b21 161r60 164r27
+X 5 monomial_hashing.adb
+10a5 accu{2|16A8[12|4]} 21r18 23m9 24r18 25m9 28m11 32m11
+12i5 sum{10|7I8} 20r10 29m11 29r18 30r27 31m11 31r18
+14U15 Enumerate 14b15 14>27 14>29 30s11 35l9 35t18 38s5
+14i27 i{10|7I8} 22r13 28r26 30r21 32r26
+14i29 dg{10|7I8} 23r31 27r29
+27i13 j<long_integer> 28r33 29r24 31r24
+43a5 accu{2|16A8[12|4]} 53m9 53r20 55r24 58m9 58r20 64r20
+46U15 Enumerate 46b15 46>27 56s15 60l9 60t18 65s11
+46i27 level{10|7I8} 54r12 56r25
+52i11 i<long_integer> 53r14 53r25 58r14 58r25
+71i5 res{10|7I8} 75m7 75r14 81r12
+73U15 Count 73b15 73>23 76l9 76t14 77r58
+73a23 m{2|16A8[12|4]}
+77U15 Count_Monomials[4|13] 8b13 80s5
+88i5 res{10|8I8} 92m7 92r14 94r12
+91i9 i<long_integer> 92r45
+110a5 res{3|14A8[9|5]} 116m7 116r7 122m7 127r12
+111i5 ind{6|6I8} 116r11 124m22
+111i9 code_ind{6|6I8} 115m7 115r19 116r16 124m7
+113U15 Label 113b15 113>23 117l9 117t14 118r52
+113a23 m{2|16A8[12|4]} 116r47
+118U15 Enumerate[4|13] 8b13 125s7
+121i9 i<long_integer> 122r11 123r62 124r29 125r27
+133p5 keys{2|17P8[8|4]} 137m7 138r16 139r12
+138i11 i<long_integer> 139r17 140r32
+151i5 k{10|7I8} 152r45
+152i5 c{10|8I8} 155r27
+161i5 s{10|7I8} 164r29
+X 6 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|1w6 1r46 6|45e29
+6I8*integer32<long_integer> 5|10r47 11r17 23r14 25r14 28r16 32r16 43r47 44r17
+. 52r19 110r48 111r20 121r17 123r27 137r23
+X 8 standard_natural64_vectors.ads
+4K9*Standard_Natural64_Vectors[2|8] 5|2w6 122r21 133r12
+X 9 standard_natural64_vecvecs.ads
+5K9*Standard_Natural64_VecVecs[3|10] 4|3w6 3r44 42r41 49r31 51r31 54r31 5|108r41
+. 110r11 130r31 147r31 158r31
+X 10 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 4|1w6 1r44 10|30e29
+7I8*natural32<long_integer> 4|13r44 21r58 28r35 28r54 34r20 42r22 50r40 50r59
+. 52r62 53r26 55r66 5|8r44 12r11 14r34 41r58 46r38 69r35 69r54 71r11 85r20
+. 108r22 123r52 125r17 131r40 131r59 136r13 140r22 148r62 149r26 151r18 151r31
+. 159r66 161r18
+8I8*natural64<long_long_integer> 4|35r21 50r25 5|86r21 88r11 92r18 92r33
+. 131r25 152r18
+X 12 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[2|8] 4|2w6 12r38 20r38 34r35 52r25 55r25 5|10r12
+. 43r12 73r27 85r35 113r30 148r25 159r25 161r31
+

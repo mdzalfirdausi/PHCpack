@@ -1,0 +1,88 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U string_system_readers%b  string_system_readers.adb  c85c545b NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+
+U string_system_readers%s  string_system_readers.ads  902219ad EE NE OO PK
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W string_splitters%s	string_splitters.adb	string_splitters.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D string_system_readers.ads  20260513024558 98acf7b4 string_system_readers%s
+D string_system_readers.adb  20260513024558 1b4d0046 string_system_readers%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [read_system string_system_readers 14 13 none]
+G r c none [read_system string_system_readers 14 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [read_system string_system_readers 14 13 none] [get string_splitters 45 13 none]
+X 9 a-textio.ads
+67P9*File_Type 16|15r30 17|6r32
+565U14*Put_Line 17|14s20
+X 11 communications_with_user.ads
+4K9*Communications_with_User 127e29 17|1w6 1r46
+81U13*Open_Input_File 17|10s7
+X 14 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 16|2w6 2r46
+7I8*natural32<long_integer> 16|16r26 17|7r28
+X 15 string_splitters.ads
+3K9*String_Splitters 82e21 16|3w6 3r46
+11P8*Link_to_String(string)
+12A8*Array_of_Strings(11P8)<integer>
+13P8*Link_to_Array_of_Strings(12A8) 16|16r45 17|7r47
+45U13*get 17|11s7
+X 16 string_system_readers.ads
+5K9*String_System_Readers 35l5 35e26 17|3b14 18l5 18t26
+14U13*Read_System 15=16 15>41 16<16 16<18 16<37 17|5b13 16l7 16t18
+15p16 file{9|67P9} 17|6b18 10m23 11r11
+15a41 name{string} 17|6b43 9r8 10r28
+16i16 n{14|7I8} 17|7b18 11m24 11r24
+16i18 m{14|7I8} 17|7b20 11m35 11r35
+16p37 p{15|13P8} 17|7b39 11m38 15m20
+X 32 text_io.ads
+27K9*Text_IO=27:29 16|1w6 1r46
+

@@ -1,0 +1,695 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U penta_double_numbers%b  penta_double_numbers.adb  fc9e5ea1 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W double_double_basics%s  double_double_basics.adb  double_double_basics.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W fast_double_renormalizations%s  fast_double_renormalizations.adb  fast_double_renormalizations.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U penta_double_numbers%s  penta_double_numbers.ads  facdb729 EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_basics.ads  20260513024558 41df7b4e double_double_basics%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D fast_double_renormalizations.ads  20260513024558 f5f01524 fast_double_renormalizations%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_numbers.adb  20260513024558 c962cf4d penta_double_numbers%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-fatgen.ads		20250808065140 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250808065140 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [create penta_double_numbers 23 12 none]
+G c Z s b [create penta_double_numbers 28 12 none]
+G c Z s b [create penta_double_numbers 29 12 none]
+G c Z s b [create penta_double_numbers 35 12 none]
+G c Z s b [create penta_double_numbers 36 12 none]
+G c Z s b [create penta_double_numbers 42 12 none]
+G c Z s b [create penta_double_numbers 47 12 none]
+G c Z s b [Oabs penta_double_numbers 54 12 none]
+G c Z s b [absval penta_double_numbers 59 12 none]
+G c Z s b [floor penta_double_numbers 61 12 none]
+G c Z s b [nint penta_double_numbers 66 12 none]
+G c Z s b [thumb_part penta_double_numbers 73 12 none]
+G c Z s b [index_part penta_double_numbers 78 12 none]
+G c Z s b [middle_part penta_double_numbers 83 12 none]
+G c Z s b [ring_part penta_double_numbers 88 12 none]
+G c Z s b [pink_part penta_double_numbers 93 12 none]
+G c Z s b [to_int penta_double_numbers 100 12 none]
+G c Z s b [to_double penta_double_numbers 105 12 none]
+G c Z s b [is_zero penta_double_numbers 112 12 none]
+G c Z s b [is_one penta_double_numbers 117 12 none]
+G c Z s b [is_positive penta_double_numbers 122 12 none]
+G c Z s b [is_negative penta_double_numbers 127 12 none]
+G c Z s b [equal penta_double_numbers 132 12 none]
+G c Z s b [equal penta_double_numbers 133 12 none]
+G c Z s b [Olt penta_double_numbers 135 12 none]
+G c Z s b [Olt penta_double_numbers 136 12 none]
+G c Z s b [Olt penta_double_numbers 137 12 none]
+G c Z s b [Ole penta_double_numbers 138 12 none]
+G c Z s b [Ole penta_double_numbers 139 12 none]
+G c Z s b [Ole penta_double_numbers 140 12 none]
+G c Z s b [Ogt penta_double_numbers 142 12 none]
+G c Z s b [Ogt penta_double_numbers 143 12 none]
+G c Z s b [Ogt penta_double_numbers 144 12 none]
+G c Z s b [Oge penta_double_numbers 145 12 none]
+G c Z s b [Oge penta_double_numbers 146 12 none]
+G c Z s b [Oge penta_double_numbers 147 12 none]
+G c Z s b [copy penta_double_numbers 149 13 none]
+G c Z s b [Oadd penta_double_numbers 153 12 none]
+G c Z s b [Oadd penta_double_numbers 154 12 none]
+G c Z s b [Oadd penta_double_numbers 155 12 none]
+G c Z s b [Oadd penta_double_numbers 156 12 none]
+G c Z s b [Osubtract penta_double_numbers 158 12 none]
+G c Z s b [Osubtract penta_double_numbers 159 12 none]
+G c Z s b [Osubtract penta_double_numbers 160 12 none]
+G c Z s b [Osubtract penta_double_numbers 161 12 none]
+G c Z s b [Omultiply penta_double_numbers 163 12 none]
+G c Z s b [Omultiply penta_double_numbers 164 12 none]
+G c Z s b [Omultiply penta_double_numbers 165 12 none]
+G c Z s b [mul_pwr2 penta_double_numbers 167 12 none]
+G c Z s b [mul_pwr2 penta_double_numbers 169 13 none]
+G c Z s b [Odivide penta_double_numbers 172 12 none]
+G c Z s b [Odivide penta_double_numbers 173 12 none]
+G c Z s b [Odivide penta_double_numbers 174 12 none]
+G c Z s b [sqr penta_double_numbers 176 12 none]
+G c Z s b [Oexpon penta_double_numbers 177 12 none]
+G c Z s b [ldexp penta_double_numbers 179 12 none]
+G c Z s b [Oexpon penta_double_numbers 181 12 none]
+G c Z s b [Oexpon penta_double_numbers 182 12 none]
+G c Z s b [exp penta_double_numbers 184 12 none]
+G c Z s b [log penta_double_numbers 185 12 none]
+G c Z s b [log10 penta_double_numbers 186 12 none]
+G c Z s b [add penta_double_numbers 190 13 none]
+G c Z s b [sub penta_double_numbers 191 13 none]
+G c Z s b [min penta_double_numbers 192 13 none]
+G c Z s b [mul penta_double_numbers 193 13 none]
+G c Z s b [div penta_double_numbers 194 13 none]
+G c Z s b [clear penta_double_numbers 198 13 none]
+G c Z s s [penta_doubleIP penta_double_numbers 209 8 none]
+G r c none [floor penta_double_numbers 61 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [nint penta_double_numbers 66 12 none] [nint double_double_numbers 106 12 none]
+G r c none [nint penta_double_numbers 66 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Oadd penta_double_numbers 153 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oadd penta_double_numbers 153 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Oadd penta_double_numbers 154 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [Oadd penta_double_numbers 155 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [Osubtract penta_double_numbers 159 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Osubtract penta_double_numbers 159 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Osubtract penta_double_numbers 160 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [Osubtract penta_double_numbers 161 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [Omultiply penta_double_numbers 163 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply penta_double_numbers 163 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply penta_double_numbers 163 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Omultiply penta_double_numbers 164 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply penta_double_numbers 164 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply penta_double_numbers 164 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Omultiply penta_double_numbers 165 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Omultiply penta_double_numbers 165 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Omultiply penta_double_numbers 165 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Odivide penta_double_numbers 172 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide penta_double_numbers 172 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide penta_double_numbers 172 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Odivide penta_double_numbers 173 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide penta_double_numbers 173 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide penta_double_numbers 173 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Odivide penta_double_numbers 174 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Odivide penta_double_numbers 174 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Odivide penta_double_numbers 174 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [sqr penta_double_numbers 176 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [sqr penta_double_numbers 176 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [sqr penta_double_numbers 176 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Oexpon penta_double_numbers 177 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon penta_double_numbers 177 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon penta_double_numbers 177 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Oexpon penta_double_numbers 181 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon penta_double_numbers 181 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon penta_double_numbers 181 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon penta_double_numbers 181 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Oexpon penta_double_numbers 181 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [Oexpon penta_double_numbers 182 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [Oexpon penta_double_numbers 182 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [Oexpon penta_double_numbers 182 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [Oexpon penta_double_numbers 182 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [Oexpon penta_double_numbers 182 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [exp penta_double_numbers 184 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [exp penta_double_numbers 184 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [exp penta_double_numbers 184 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [exp penta_double_numbers 184 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [log penta_double_numbers 185 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log penta_double_numbers 185 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log penta_double_numbers 185 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log penta_double_numbers 185 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [log penta_double_numbers 185 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [log10 penta_double_numbers 186 12 none] [ln standard_mathematical_functions 20 12 none]
+G r c none [log10 penta_double_numbers 186 12 none] [two_prod double_double_basics 72 13 none]
+G r c none [log10 penta_double_numbers 186 12 none] [two_sum double_double_basics 36 13 none]
+G r c none [log10 penta_double_numbers 186 12 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [log10 penta_double_numbers 186 12 none] [renorm_add1 fast_double_renormalizations 105 13 none]
+G r c none [add penta_double_numbers 190 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [add penta_double_numbers 190 13 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [sub penta_double_numbers 191 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [sub penta_double_numbers 191 13 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [mul penta_double_numbers 193 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [mul penta_double_numbers 193 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [mul penta_double_numbers 193 13 none] [fast_renorm fast_double_renormalizations 80 13 none]
+G r c none [div penta_double_numbers 194 13 none] [two_prod double_double_basics 72 13 none]
+G r c none [div penta_double_numbers 194 13 none] [two_sum double_double_basics 36 13 none]
+G r c none [div penta_double_numbers 194 13 none] [fast_renorm fast_double_renormalizations 80 13 none]
+X 9 a-textio.ads
+565U14*Put_Line 17|861s7
+X 11 double_double_basics.ads
+3K9*Double_Double_Basics 99e25 17|3w6 359r5 361r5 362r5 364r5 365r5 366r5
+. 368r5 369r5 370r5 371r5 373r5 374r5 375r5 376r5 377r5 469r5 471r5 473r5
+. 475r5 477r5 479r5 481r5 483r5 485r5 487r5 488r5 490r5 491r5 493r5 494r5
+. 496r5 497r5 499r5 500r5 502r5 503r5 505r5 506r5 508r5 509r5 510r5 512r5
+. 513r5 514r5 516r5 517r5 518r5 520r5 521r5 522r5 524r5 525r5 526r5 528r5
+. 529r5 530r5 531r5 533r5 534r5 535r5 536r5 538r5 539r5 540r5 541r5 543r5
+. 544r5 545r5 546r5 547r5 563r5 565r5 566r5 568r5 569r5 570r5 572r5 573r5
+. 574r5 575r5 577r5 578r5 579r5 580r5 581r5
+36U13*two_sum 17|359s26 361s26 362s26 364s26 365s26 366s26 368s26 369s26
+. 370s26 371s26 373s26 374s26 375s26 376s26 377s26 473s26 477s26 481s26 485s26
+. 488s26 491s26 493s26 494s26 497s26 499s26 500s26 503s26 505s26 506s26 509s26
+. 510s26 513s26 514s26 516s26 517s26 518s26 521s26 522s26 524s26 525s26 526s26
+. 529s26 530s26 531s26 534s26 535s26 536s26 538s26 539s26 540s26 541s26 544s26
+. 545s26 546s26 547s26 566s26 569s26 570s26 573s26 574s26 575s26 578s26 579s26
+. 580s26 581s26
+72U13*two_prod 17|469s26 471s26 475s26 479s26 483s26 487s26 490s26 496s26
+. 502s26 508s26 512s26 520s26 528s26 533s26 543s26 563s26 565s26 568s26 572s26
+. 577s26
+X 12 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 17|4w6 135r11 137r13 139r15 141r17 143r19
+106V12*nint{18|13F8} 17|135s33 137s35 139s37 141s39 143s41
+X 13 fast_double_renormalizations.ads
+3K9*Fast_Double_Renormalizations 488e33 17|5w6 5r46
+80U13*fast_renorm 17|123s5 164s5 379s5 549s5 583s5 628s5
+105U13*renorm_add1 17|391s5
+X 16 penta_double_numbers.ads
+5K9*Penta_Double_Numbers 209E8 217l5 217e25 17|7b14 925l5 925t25
+19R8*penta_double 23r42 28r44 29r44 35r44 36r44 42r47 48r26 54r24 54r46 59r25
+. 59r47 61r24 61r46 66r23 66r45 73r29 78r29 83r30 88r28 93r28 100r25 105r28
+. 112r26 117r25 122r30 127r30 132r26 133r24 135r24 136r22 137r40 138r25 139r23
+. 140r41 142r24 143r22 144r40 145r25 146r23 147r41 149r27 149r52 153r24 153r46
+. 154r22 154r62 155r40 155r62 156r22 156r44 158r22 158r44 159r24 159r46 160r22
+. 160r62 161r40 161r62 163r24 163r46 164r22 164r62 165r40 165r62 167r27 168r28
+. 169r35 172r24 172r46 173r22 173r62 174r40 174r62 176r22 176r44 177r23 177r58
+. 179r24 179r59 181r25 181r47 182r23 182r63 184r22 184r44 185r22 185r44 186r24
+. 186r46 190r30 190r51 191r30 191r51 192r30 193r30 193r51 194r30 194r51 198r32
+. 209c8 215e13 17|11r42 13r20 19r44 21r20 27r44 29r20 35r44 37r20 43r44 45r20
+. 51r47 53r20 60r26 62r11 73r24 73r46 75r11 88r25 88r47 90r11 103r24 103r46
+. 105r11 128r23 128r45 130r11 172r29 177r29 182r30 187r28 192r28 199r25 204r28
+. 211r26 217r25 223r30 228r30 233r26 240r24 246r24 257r22 268r40 273r25 278r23
+. 289r41 294r24 305r22 316r40 321r25 326r23 337r41 342r27 342r52 350r24 350r46
+. 354r11 384r22 384r62 388r11 396r40 396r62 398r20 404r22 404r44 406r11 417r22
+. 417r44 419r11 430r24 430r46 432r20 433r20 439r22 439r62 442r20 448r40 448r62
+. 450r20 451r20 457r24 457r46 461r11 554r22 554r62 558r11 588r40 588r62 593r20
+. 599r27 600r28 602r11 610r35 616r24 616r46 618r15 633r22 633r62 635r20 636r20
+. 642r40 642r62 644r20 645r20 651r22 651r44 656r23 656r58 658r15 700r24 700r59
+. 702r11 715r25 715r47 720r23 720r63 722r21 728r22 728r44 740r11 748r21 754r21
+. 758r29 760r13 842r22 842r44 855r15 874r24 874r46 876r11 882r23 892r30 892r51
+. 897r30 897r51 902r30 907r30 907r51 912r30 912r51 919r32
+23V12*create{19R8} 23>21 17|11b12 17l7 17t13
+23i21 i{integer} 17|11b21 13r56
+28V12*create{19R8} 28>21 17|19b12 25l7 25t13
+28i21 n{21|7I8} 17|19b21 21r56
+29V12*create{19R8} 29>21 17|27b12 33l7 33t13
+29i21 n{21|8I8} 17|27b21 29r56
+35V12*create{19R8} 35>21 17|35b12 41l7 41t13
+35i21 i{19|6I8} 17|35b21 37r56
+36V12*create{19R8} 36>21 17|43b12 49l7 49t13
+36i21 i{19|7I8} 17|43b21 45r56
+42V12*create{19R8} 42>21 17|13s36 21s36 29s36 37s36 45s36 51b12 57l7 57t13
+. 635s36 644s36 722s37 765s14 767s14 769s14 859s14 862s14 864s14
+42f21 x{18|13F8} 17|51b21 53r43
+47V12*create{19R8} 47>21 47>27 47>33 47>40 47>45 17|53s36 59b12 71l7 71t13
+. 748s37 754s37 773s19 776s19 779s19 782s19 785s19 788s19 791s19 794s19 797s19
+. 800s19 803s20 806s20 809s20 812s20 815s20 883s15
+47f21 thumb{18|13F8} 17|59b21 65r18
+47f27 index{18|13F8} 17|59b27 66r18
+47f33 middle{18|13F8} 17|59b33 67r19
+47f40 ring{18|13F8} 17|59b40 68r17
+47f45 pink{18|13F8} 17|59b45 69r17
+54V13*"abs"{19R8} 54>20 17|73b13 86l8 86t12
+54r20 x{19R8} 17|73b20 78r8 79r21 79r44 80r22 80r45 80r66 82r20 82r42 83r21
+. 83r43 83r63
+59V12*AbsVal{19R8} 59>21 17|88b12 101l7 101t13
+59r21 x{19R8} 17|88b21 93r8 94r21 94r44 95r22 95r45 95r66 97r20 97r42 98r21
+. 98r43 98r63
+61V12*floor{19R8} 61>20 17|103b12 126l7 126t12
+61r20 x{19R8} 17|103b20 109r30 111r13 112r32 113r15 114r34 115r17 116r36
+. 117r19 118r38
+66V12*nint{19R8} 66>19 17|128b12 167l7 167t11
+66r19 x{19R8} 17|128b19 135r38 136r13 137r40 138r15 139r42 140r17 141r44
+. 142r19 143r46 145r25 145r43 150r23 150r43 155r21 155r40 160r19 160r38
+73V12*thumb_part{18|13F8} 73>25 17|172b12 175l7 175t17
+73r25 x{19R8} 17|172b25 174r12
+78V12*index_part{18|13F8} 78>25 17|177b12 180l7 180t17
+78r25 x{19R8} 17|177b25 179r12
+83V12*middle_part{18|13F8} 83>26 17|182b12 185l7 185t18
+83r26 x{19R8} 17|182b26 184r12
+88V12*ring_part{18|13F8} 88>24 17|187b12 190l7 190t16
+88r24 x{19R8} 17|187b24 189r12
+93V12*pink_part{18|13F8} 93>24 17|192b12 195l7 195t16
+93r24 x{19R8} 17|192b24 194r12
+100V12*to_int{19|6I8} 100>21 17|199b12 202l7 202t13
+100r21 x{19R8} 17|199b21 201r22
+105V12*to_double{18|13F8} 105>24 17|204b12 207l7 207t16
+105r24 x{19R8} 17|204b24 206r12
+112V12*is_zero{boolean} 112>22 17|211b12 215l7 215t14 768s11
+112r22 x{19R8} 17|211b22 213r14 213r34 214r14 214r35 214r54
+117V12*is_one{boolean} 117>21 17|217b12 221l7 221t13 770s11 858s8
+117r21 x{19R8} 17|217b21 219r14 219r34 220r14 220r35 220r54
+122V12*is_positive{boolean} 122>26 17|223b12 226l7 226t18
+122r26 x{19R8} 17|223b26 225r13
+127V12*is_negative{boolean} 127>26 17|228b12 231l7 231t18
+127r26 x{19R8} 17|228b26 230r13
+132V12*equal{boolean} 132>20 132>22 17|233b12 238l7 238t12 275s21 323s21
+132r20 x{19R8} 17|233b20 235r14 235r38 236r14 236r40 237r14
+132r22 y{19R8} 17|233b22 235r24 235r48 236r25 236r49 237r23
+133V12*equal{boolean} 133>20 133>38 17|240b12 244l7 244t12
+133r20 x{19R8} 17|240b20 242r14 242r32 243r14 243r35 243r54
+133f38 y{18|13F8} 17|240b38 242r24
+135V13*"<"{boolean} 135>18 135>20 17|246b13 255l8 255t10 275s14
+135r18 x{19R8} 17|246b18 248r14 249r14 249r36 250r14 250r36 250r58 251r14
+. 251r36 251r58 252r18 253r14 253r36 253r58 254r18 254r38
+135r20 y{19R8} 17|246b20 248r24 249r24 249r46 250r24 250r46 250r69 251r24
+. 251r46 251r69 252r27 253r24 253r46 253r69 254r27 254r47
+136V13*"<"{boolean} 136>18 136>36 17|257b13 266l8 266t10 318s15
+136r18 x{19R8} 17|257b18 259r14 260r14 260r30 261r14 261r30 261r48 262r14
+. 262r30 262r48 263r14 264r14 264r30 264r48 265r14 265r31
+136f36 y{18|13F8} 17|257b36 259r24 260r24 261r24 262r24 264r24
+137V13*"<"{boolean} 137>18 137>36 17|268b13 271l8 271t10
+137f18 x{18|13F8} 17|268b18 270r17
+137r36 y{19R8} 17|268b36 270r13
+138V13*"<="{boolean} 138>19 138>21 17|273b13 276l8 276t11
+138r19 x{19R8} 17|273b19 275r12 275r27
+138r21 y{19R8} 17|273b21 275r16 275r29
+139V13*"<="{boolean} 139>19 139>37 17|278b13 287l8 287t11 339s15
+139r19 x{19R8} 17|278b19 280r14 281r14 281r30 282r14 282r30 282r48 283r14
+. 283r30 283r48 284r14 285r14 285r30 285r48 286r14 286r31
+139f37 y{18|13F8} 17|278b37 280r24 281r24 282r24 283r24 285r24
+140V13*"<="{boolean} 140>19 140>37 17|289b13 292l8 292t11
+140f19 x{18|13F8} 17|289b19 291r18
+140r37 y{19R8} 17|289b37 291r13
+142V13*">"{boolean} 142>18 142>20 17|294b13 303l8 303t10 323s14
+142r18 x{19R8} 17|294b18 296r14 297r14 297r36 298r14 298r36 298r58 299r14
+. 299r36 299r58 300r18 301r14 301r36 301r58 302r18 302r38
+142r20 y{19R8} 17|294b20 296r24 297r24 297r46 298r24 298r46 298r69 299r24
+. 299r46 299r69 300r27 301r24 301r46 301r69 302r27 302r47
+143V13*">"{boolean} 143>18 143>36 17|270s15 305b13 314l8 314t10
+143r18 x{19R8} 17|305b18 307r14 308r14 308r30 309r14 309r30 309r48 310r14
+. 310r30 310r48 311r14 312r14 312r30 312r48 313r14 313r31
+143f36 y{18|13F8} 17|305b36 307r24 308r24 309r24 310r24 312r24
+144V13*">"{boolean} 144>18 144>36 17|316b13 319l8 319t10
+144f18 x{18|13F8} 17|316b18 318r17
+144r36 y{19R8} 17|316b36 318r13
+145V13*">="{boolean} 145>19 145>21 17|321b13 324l8 324t11
+145r19 x{19R8} 17|321b19 323r12 323r27
+145r21 y{19R8} 17|321b21 323r16 323r29
+146V13*">="{boolean} 146>19 146>37 17|291s15 326b13 335l8 335t11
+146r19 x{19R8} 17|326b19 328r14 329r14 329r30 330r14 330r30 330r48 331r14
+. 331r30 331r48 332r14 333r14 333r30 333r48 334r14 334r31
+146f37 y{18|13F8} 17|326b37 328r24 329r24 330r24 331r24 333r24
+147V13*">="{boolean} 147>19 147>37 17|337b13 340l8 340t11
+147f19 x{18|13F8} 17|337b19 339r18
+147r37 y{19R8} 17|337b37 339r13
+149U13*copy 149>20 149=41 17|342b13 346l7 346t11
+149r20 x{19R8} 17|342b20 344r16 344r36 345r17 345r37 345r55
+149r41 y{19R8} 17|342b41 344m5 344m25 345m5 345m27 345m45
+153V13*"+"{19R8} 153>18 153>20 17|350b13 382l8 382t10 433s38 820s16 825s16
+. 833s16 867s20 894s12
+153r18 x{19R8} 17|350b18 359r34 361r34 364r34 368r34 373r34
+153r20 y{19R8} 17|350b20 359r41 361r41 364r43 368r42 373r42
+154V13*"+"{19R8} 154>18 154>36 17|384b13 394l8 394t10 398s38 442s38 835s16
+154r18 x{19R8} 17|384b18 391r17 391r25 391r33 391r42 391r49
+154f36 y{18|13F8} 17|384b36 391r56
+155V13*"+"{19R8} 155>18 155>36 17|396b13 402l8 402t10 451s38
+155f18 x{18|13F8} 17|396b18 398r40
+155r36 y{19R8} 17|396b36 398r36
+156V13*"+"{19R8} 156>18 17|404b13 415l8 415t10
+156r18 x{19R8} 17|404b18 409r18 410r18 411r19 412r17 413r17
+158V13*"-"{19R8} 158>18 17|417b13 428l8 428t10 432s36 450s36 866s22 904s10
+158r18 x{19R8} 17|417b18 422r19 423r19 424r20 425r18 426r18
+159V13*"-"{19R8} 159>18 159>20 17|430b13 437l8 437t10 622s52 623s54 624s54
+. 625s54 626s54 818s25 899s12
+159r18 x{19R8} 17|430b18 433r36
+159r20 y{19R8} 17|430b20 432r37
+160V13*"-"{19R8} 160>18 160>36 17|439b13 446l8 446t10 868s20
+160r18 x{19R8} 17|439b18 442r36
+160f36 y{18|13F8} 17|439b36 441r37
+161V13*"-"{19R8} 161>18 161>36 17|448b13 455l8 455t10
+161f18 x{18|13F8} 17|448b18 451r36
+161r36 y{19R8} 17|448b36 450r37
+163V13*"*"{19R8} 163>18 163>20 17|457b13 552l8 552t10 653s13 677s27 681s27
+. 717s17 819s15 823s15 824s24 832s15 866s17 909s11
+163r18 x{19R8} 17|457b18 465r11 466r16 467r16 468r16 469r35 471r35 475r35
+. 479r35 483r35 487r35 490r35 496r35 502r35 508r35 512r35 520r35 528r35 533r35
+. 543r35
+163r20 y{19R8} 17|457b20 465r19 466r25 467r23 468r23 469r43 471r43 475r44
+. 479r42 483r42 487r43 490r43 496r44 502r42 508r43 512r43 520r44 528r43 533r43
+. 543r43
+164V13*"*"{19R8} 164>18 164>36 17|554b13 586l8 586t10 593s37
+164r18 x{19R8} 17|554b18 563r35 565r35 568r35 572r35 577r35
+164f36 y{18|13F8} 17|554b36 563r42 565r42 568r44 572r43 577r43
+165V13*"*"{19R8} 165>18 165>36 17|588b13 597l8 597t10 622s39 623s39 624s39
+. 625s39 626s39 818s28
+165f18 x{18|13F8} 17|588b18 593r38
+165r36 y{19R8} 17|588b36 593r36
+167V12*Mul_pwr2{19R8} 167>23 167>41 17|599b12 608l7 608t15 818s14 820s18
+. 831s14
+167r23 x{19R8} 17|599b23 605r18 605r42 606r19 606r43 606r65
+167f41 y{18|13F8} 17|599b41 605r26 605r50 606r28 606r50 606r72
+169U13*Mul_pwr2 169=24 169>49 17|610b13 614l7 614t15
+169r24 x{19R8} 17|610b24 612m5 612r16 612m27 612r38 613m5 613r17 613m29 613r39
+. 613m49 613r59
+169f49 y{18|13F8} 17|610b49 612r24 612r46 613r26 613r46 613r66
+172V13*"/"{19R8} 172>18 172>20 17|616b13 631l8 631t10 636s37 645s39 886s18
+. 914s11
+172r18 x{19R8} 17|616b18 622r11 622r50
+172r20 y{19R8} 17|616b20 622r19 622r40 623r21 623r40 624r21 624r40 625r21
+. 625r40 626r21 626r40 627r21
+173V13*"/"{19R8} 173>18 173>36 17|633b13 640l8 640t10
+173r18 x{19R8} 17|633b18 636r36
+173f36 y{18|13F8} 17|633b36 635r43
+174V13*"/"{19R8} 174>18 174>36 17|642b13 649l8 649t10 690s19
+174f18 x{18|13F8} 17|642b18 644r43
+174r36 y{19R8} 17|642b36 645r40
+176V12*sqr{19R8} 176>18 17|651b12 654l7 654t10
+176r18 x{19R8} 17|651b18 653r12 653r14
+177V13*"**"{19R8} 177>19 177>37 17|656b13 698l8 698t11
+177r19 x{19R8} 17|656b19 670r20 670r42 671r21 671r43 671r63
+177i37 n{integer} 17|656b37 662r8 666r10 667r21 668r22 689r10
+179V12*ldexp{19R8} 179>20 179>38 17|700b12 713l7 713t12 837s14
+179r20 x{19R8} 17|700b20 707r26 708r26 709r27 710r25 711r25
+179i38 n{integer} 17|700b38 707r34 708r34 709r36 710r32 711r32
+181V13*"**"{19R8} 181>19 181>21 17|715b13 718l8 718t11 725s13
+181r19 x{19R8} 17|715b19 717r22
+181r21 y{19R8} 17|715b21 717r16
+182V13*"**"{19R8} 182>19 182>37 17|720b13 726l8 726t11
+182r19 x{19R8} 17|720b19 725r12
+182f37 y{18|13F8} 17|720b37 722r44
+184V12*exp{19R8} 184>18 17|717s12 728b12 840l7 840t10 866s18
+184r18 x{19R8} 17|728b18 757r53 764r8 766r11 768r19 770r18 818r23
+185V12*log{19R8} 185>18 17|717s18 842b12 872l7 872t10 886s12
+185r18 x{19R8} 17|842b18 858r15 860r11 864r56 866r16
+186V12*log10{19R8} 186>20 17|874b12 888l7 888t12
+186r20 x{19R8} 17|874b20 886r16
+190U13*Add 190=19 190>44 17|892b13 895l7 895t10
+190r19 x{19R8} 17|892b19 894m5 894r10
+190r44 y{19R8} 17|892b44 894r14
+191U13*Sub 191=19 191>44 17|897b13 900l7 900t10
+191r19 x{19R8} 17|897b19 899m5 899r10
+191r44 y{19R8} 17|897b44 899r14
+192U13*Min 192=19 17|902b13 905l7 905t10
+192r19 x{19R8} 17|902b19 904m5 904r11
+193U13*Mul 193=19 193>44 17|907b13 910l7 910t10
+193r19 x{19R8} 17|907b19 909m5 909r10
+193r44 y{19R8} 17|907b44 909r12
+194U13*Div 194=19 194>44 17|912b13 915l7 915t10
+194r19 x{19R8} 17|912b19 914m5 914r10
+194r44 y{19R8} 17|912b44 914r12
+198U13*clear 198=21 17|919b13 923l7 923t12
+198r21 x{19R8} 17|919b21 921m5 921m21 922m5 922m22 922m37
+210f5*thumb{18|13F8} 17|65m9 78r10 79m11 79r23 82m11 82r22 93r10 94m11 94r23
+. 97m11 97r22 109r32 111r15 124m21 135r40 136r15 160r21 165m21 174r14 201r24
+. 206r14 213r16 219r16 225r15 230r15 235r16 235r26 242r16 248r16 248r26 249r16
+. 249r26 250r16 250r26 251r16 251r26 253r16 253r26 259r16 260r16 261r16 262r16
+. 264r16 280r16 281r16 282r16 283r16 285r16 296r16 296r26 297r16 297r26 298r16
+. 298r26 299r16 299r26 301r16 301r26 307r16 308r16 309r16 310r16 312r16 328r16
+. 329r16 330r16 331r16 333r16 344m7 344r18 373r36 373r44 380m21 391r19 392m21
+. 409m9 409r20 422m9 422r21 469r37 483r44 487r37 502r44 508r37 520r46 528r37
+. 533r45 543r37 543r45 550m21 577r37 584m21 605m9 605r20 612m7 612r18 622r13
+. 622r21 623r15 623r23 624r15 624r23 625r15 625r23 626r15 626r23 627r15 627r23
+. 629m21 663m11 670m11 670r22 672m11 685m13 685r26 692m13 692r26 707m9 707r28
+. 757r55 764r10 766r13 826r25 860r13 864r58 921m7
+211f5*index{18|13F8} 17|66m9 79m34 79r46 82m33 82r44 94m34 94r46 97m33 97r44
+. 112r34 113r17 124m31 137r42 138r17 155r23 160r40 165m31 179r14 213r36 219r36
+. 235r40 235r50 242r34 249r38 249r48 250r38 250r48 251r38 251r48 253r38 253r48
+. 260r32 261r32 262r32 264r32 281r32 282r32 283r32 285r32 297r38 297r48 298r38
+. 298r48 299r38 299r48 301r38 301r48 308r32 309r32 310r32 312r32 329r32 330r32
+. 331r32 333r32 344m27 344r38 368r36 368r44 380m31 391r27 392m31 410m9 410r20
+. 423m9 423r21 465r13 468r25 471r37 479r44 490r37 496r46 512r37 512r45 528r45
+. 533r37 550m31 572r37 584m31 605m33 605r44 612m29 612r40 629m31 663m29 670m33
+. 670r44 672m29 685m37 685r50 692m37 692r50 708m9 708r28 921m23
+212f5*middle{18|13F8} 17|67m9 80m11 80r24 83m11 83r23 95m11 95r24 98m11 98r23
+. 114r36 115r19 124m41 141r46 142r21 150r25 155r42 165m41 184r14 214r16 220r16
+. 236r16 236r27 243r16 250r60 250r71 251r60 251r71 253r60 253r71 261r50 262r50
+. 264r50 282r50 283r50 285r50 298r60 298r71 299r60 299r71 301r60 301r71 309r50
+. 310r50 312r50 330r50 331r50 333r50 345m7 345r19 364r36 364r45 380m41 391r35
+. 392m41 411m9 411r21 424m9 424r22 466r18 467r25 475r37 475r46 490r45 496r37
+. 508r45 520r37 550m41 568r37 584m41 606m9 606r21 613m7 613r19 629m41 663m47
+. 671m11 671r23 672m47 686m13 686r27 693m13 693r27 709m9 709r29 922m7
+213f5*ring{18|13F8} 17|68m9 80m36 80r47 83m35 83r45 95m36 95r47 98m35 98r45
+. 116r38 117r21 124m52 139r44 140r19 145r27 150r45 165m52 189r14 214r37 220r37
+. 236r42 236r51 243r37 252r20 252r29 254r20 254r29 263r16 265r16 284r16 286r16
+. 300r20 300r29 302r20 302r29 311r16 313r16 332r16 334r16 345m29 345r39 361r36
+. 361r43 380m52 391r44 392m52 412m9 412r19 425m9 425r20 466r27 467r18 471r45
+. 479r37 487r45 502r37 550m52 565r37 584m52 606m35 606r45 613m31 613r41 629m52
+. 664m11 671m35 671r45 673m11 686m39 686r51 693m39 693r51 710m9 710r27 922m24
+214f5*pink{18|13F8} 17|69m9 80m57 80r68 83m55 83r65 95m57 95r68 98m55 98r65
+. 118r40 124m61 143r48 145r45 165m61 194r14 214r56 220r56 237r16 237r25 243r56
+. 254r40 254r49 265r33 286r33 302r40 302r49 313r33 334r33 345m47 345r57 359r36
+. 359r43 380m61 391r51 392m61 413m9 413r19 426m9 426r20 465r21 468r18 469r45
+. 483r37 550m61 563r37 584m61 606m57 606r67 613m51 613r61 629m61 664m28 671m55
+. 671r65 673m28 687m13 687r25 694m13 694r25 711m9 711r27 922m39
+X 17 penta_double_numbers.adb
+13r5 res{16|19R8} 16r12
+21r5 res{16|19R8} 24r12
+29r5 res{16|19R8} 32r12
+37r5 res{16|19R8} 40r12
+45r5 res{16|19R8} 48r12
+53r5 res{16|19R8} 56r12
+62r5 res{16|19R8} 65m5 66m5 67m5 68m5 69m5 70r12
+75r5 res{16|19R8} 79m7 79m30 80m7 80m32 80m53 82m7 82m29 83m7 83m31 83m51
+. 85r12
+90r5 res{16|19R8} 94m7 94m30 95m7 95m32 95m53 97m7 97m29 98m7 98m31 98m51
+. 100r12
+105r5 res{16|19R8} 124m17 124r17 124m27 124r27 124m37 124r37 124m48 124r48
+. 124m57 124r57 125r12
+106f5 f0{18|13F8} 109m5 111r8 123r17
+106f8 f1{18|13F8} 110m5 112m7 113r10 123r20
+106f11 f2{18|13F8} 110m16 114m9 115r12 123r23
+106f14 f3{18|13F8} 110m27 116m11 117r14 123r26
+106f17 f4{18|13F8} 110m38 118m13 123r29
+106f20 f5{18|13F8} 110m49 123r32
+130r5 res{16|19R8} 165m17 165r17 165m27 165r27 165m37 165r37 165m48 165r48
+. 165m57 165r57 166r12
+131f5 x0{18|13F8} 135m5 136r8 160r14 161m13 161r19 164r17
+131f8 x1{18|13F8} 134m5 137m7 138r10 155r16 156m15 156r21 164r20
+131f11 x2{18|13F8} 134m16 139m9 140r12 150r18 151m17 151r23 164r23
+131f14 x3{18|13F8} 134m27 141m11 142r14 145r20 146m19 146r25 164r26
+131f17 x4{18|13F8} 134m38 143m13 164r29
+131f20 x5{18|13F8} 134m49 164r32
+354r5 res{16|19R8} 380m17 380r17 380m27 380r27 380m37 380r37 380m48 380r48
+. 380m57 380r57 381r12
+355f5 f0{18|13F8} 373m50 379r17
+355f8 f1{18|13F8} 368m50 374r34 374m39 379r20
+355f11 f2{18|13F8} 364m52 369r34 369m39 375r34 375m39 379r23
+355f14 f3{18|13F8} 361m48 365r34 365m39 370r34 370m39 376r34 376m39 379r26
+355f17 f4{18|13F8} 359m48 362r34 362m39 366r34 366m39 371r34 371m39 377r34
+. 377m39 379r29
+355f20 f5{18|13F8} 358m5 360m5 360r11 363m5 363r11 367m5 367r11 372m5 372r11
+. 378m5 378r11 379r32
+355f23 e{18|13F8} 359m51 360r16 361m51 362r37 362m42 363r16 364m55 365r37
+. 365m42 366r37 366m42 367r16 368m53 369r37 369m42 370r37 370m42 371r37 371m42
+. 372r16 373m53 374r37 374m42 375r37 375m42 376r37 376m42 377r37 377m42 378r16
+388r5 res{16|19R8} 392m17 392r17 392m27 392r27 392m37 392r37 392m48 392r48
+. 392m57 392r57 393r12
+398r5 res{16|19R8} 401r12
+406r5 res{16|19R8} 409m5 410m5 411m5 412m5 413m5 414r12
+419r5 res{16|19R8} 422m5 423m5 424m5 425m5 426m5 427r12
+432r5 mny{16|19R8} 433r40
+433r5 res{16|19R8} 436r12
+441f5 mny{18|13F8} 442r40
+442r5 res{16|19R8} 445r12
+450r5 mny{16|19R8} 451r40
+451r5 res{16|19R8} 454r12
+461r5 res{16|19R8} 550m17 550r17 550m27 550r27 550m37 550r37 550m48 550r48
+. 550m57 550r57 551r12
+462f5 f0{18|13F8} 543m51 549r17
+462f8 f1{18|13F8} 528m51 538r34 538m39 544r34 544m39 549r20
+462f11 f2{18|13F8} 508m52 516r34 516m39 524r34 524m39 529r34 529m39 534r34
+. 534m39 539r34 539m39 545r34 545m39 549r23
+462f14 f3{18|13F8} 487m50 493r34 493m39 499r34 499m39 505r34 505m39 509r34
+. 509m39 513r34 513m39 517r34 517m39 521r34 521m39 525r34 525m39 530r34 530m39
+. 535r34 535m39 540r34 540m39 546r34 546m39 549r26
+462f17 f4{18|13F8} 469m50 473r34 473m39 477r34 477m39 481r34 481m39 485r34
+. 485m39 488r34 488m39 491r34 491m39 494r34 494m39 497r34 497m39 500r34 500m39
+. 503r34 503m39 506r34 506m39 510r34 510m39 514r34 514m39 518r34 518m39 522r34
+. 522m39 526r34 526m39 531r34 531m39 536r34 536m39 541r34 541m39 547r34 547m39
+. 549r29
+462f20 f5{18|13F8} 465m5 466m5 466r11 467m5 467r11 468m5 468r11 470m5 470r11
+. 472m5 472r11 474m5 474r11 476m5 476r11 478m5 478r11 480m5 480r11 482m5
+. 482r11 484m5 484r11 486m5 486r11 489m5 489r11 492m5 492r11 495m5 495r11
+. 498m5 498r11 501m5 501r11 504m5 504r11 507m5 507r11 511m5 511r11 515m5
+. 515r11 519m5 519r11 523m5 523r11 527m5 527r11 532m5 532r11 537m5 537r11
+. 542m5 542r11 548m5 548r11 549r32
+462f23 p{18|13F8} 471m50 473r37 475m53 477r37 479m50 481r37 483m50 485r37
+. 490m52 493r37 496m52 499r37 502m50 505r37 512m51 516r37 520m52 524r37 533m51
+. 538r37
+462f25 e{18|13F8} 469m53 470r16 471m52 472r16 473m42 474r16 475m55 476r16
+. 477m42 478r16 479m52 480r16 481m42 482r16 483m52 484r16 485m42 486r16 487m53
+. 488r37 488m42 489r16 490m54 491r37 491m42 492r16 493m42 494r37 494m42 495r16
+. 496m54 497r37 497m42 498r16 499m42 500r37 500m42 501r16 502m52 503r37 503m42
+. 504r16 505m42 506r37 506m42 507r16 508m55 509r37 509m42 510r37 510m42 511r16
+. 512m53 513r37 513m42 514r37 514m42 515r16 516m42 517r37 517m42 518r37 518m42
+. 519r16 520m54 521r37 521m42 522r37 522m42 523r16 524m42 525r37 525m42 526r37
+. 526m42 527r16 528m54 529r37 529m42 530r37 530m42 531r37 531m42 532r16 533m53
+. 534r37 534m42 535r37 535m42 536r37 536m42 537r16 538m42 539r37 539m42 540r37
+. 540m42 541r37 541m42 542r16 543m54 544r37 544m42 545r37 545m42 546r37 546m42
+. 547r37 547m42 548r16
+558r5 res{16|19R8} 584m17 584r17 584m27 584r27 584m37 584r37 584m48 584r48
+. 584m57 584r57 585r12
+559f5 f0{18|13F8} 577m45 583r17
+559f8 f1{18|13F8} 572m45 578r34 578m39 583r20
+559f11 f2{18|13F8} 568m46 573r34 573m39 579r34 579m39 583r23
+559f14 f3{18|13F8} 565m44 569r34 569m39 574r34 574m39 580r34 580m39 583r26
+559f17 f4{18|13F8} 563m44 566r34 566m39 570r34 570m39 575r34 575m39 581r34
+. 581m39 583r29
+559f20 f5{18|13F8} 562m5 564m5 564r11 567m5 567r11 571m5 571r11 576m5 576r11
+. 582m5 582r11 583r32
+559f23 e{18|13F8} 563m47 564r16 565m47 566r37 566m42 567r16 568m49 569r37
+. 569m42 570r37 570m42 571r16 572m48 573r37 573m42 574r37 574m42 575r37 575m42
+. 576r16 577m48 578r37 578m42 579r37 579m42 580r37 580m42 581r37 581m42 582r16
+593r5 res{16|19R8} 596r12
+602r5 res{16|19R8} 605m5 605m29 606m5 606m31 606m53 607r12
+618r5 res{16|19R8} 622m43 623r11 623m43 623r50 624r11 624m43 624r50 625r11
+. 625m43 625r50 626r11 626m43 626r50 627r11 629m17 629r17 629m27 629r27 629m37
+. 629r37 629m48 629r48 629m57 629r57 630r12
+618r9 acc{16|19R8} 622m30 622r54 623m30 623r56 624m30 624r56 625m30 625r56
+. 626m30 626r56
+619f5 q0{18|13F8} 622m5 622r37 628r17
+619f8 q1{18|13F8} 623m5 623r37 628r20
+619f11 q2{18|13F8} 624m5 624r37 628r23
+619f14 q3{18|13F8} 625m5 625r37 628r26
+619f17 q4{18|13F8} 626m5 626r37 628r29
+619f20 q5{18|13F8} 627m5 628r32
+635r5 pdy{16|19R8} 636r38
+636r5 res{16|19R8} 639r12
+644r5 pdx{16|19R8} 645r36
+645r5 res{16|19R8} 648r12
+658r5 res{16|19R8} 663m7 663m25 663m43 664m7 664m24 670m7 670m29 671m7 671m31
+. 671m51 677r28 681m17 681r24 681r28 685r22 685r46 686r23 686r47 687r21 690m9
+. 692m9 692m33 693m9 693m35 694m9 697r12
+658r9 acc{16|19R8} 672m7 672m25 672m43 673m7 673m24 677m17 677r24 685m9 685m33
+. 686m9 686m35 687m9 690r20 692r22 692r46 693r23 693r47 694r21
+659i5 absn{natural} 667m13 668m13 674r10 675r15 676r14 679m11 679r19 680r14
+702r5 res{16|19R8} 707m5 708m5 709m5 710m5 711m5 712r12
+703V14*C_ldexp{18|13F8} 703>24 703>42 704b<c,ldexp>21 707s18 708s18 709s19
+. 710s17 711s17
+703f24 x{18|13F8}
+703i42 n{integer}
+722r5 pd_y{16|19R8} 725r15
+737V14*C_ldexp{18|13F8} 737>24 737>42 738b<c,ldexp>21 741s34
+737f24 x{18|13F8}
+737i42 n{integer}
+740r5 res{16|19R8} 765m7 767m7 769m7 771m7 818m7 819r12 819r16 820r12 823r16
+. 835m7 837m7 837r20 839r12
+741f5 k{18|13F8} 742r42
+742f5 inv_k{18|13F8} 756r36 818r34
+743f5 e0{18|13F8} 748r44
+744f5 e1{18|13F8} 748r47
+745f5 e2{18|13F8} 748r50
+746f5 e3{18|13F8} 748r53
+747f5 e4{18|13F8} 748r56
+748r5 exp1{16|19R8} 771r14
+749f5 L0{18|13F8} 754r44 757r61
+750f5 L1{18|13F8} 754r47
+751f5 L2{18|13F8} 754r50
+752f5 L3{18|13F8} 754r53
+753f5 L4{18|13F8} 754r56
+754r5 log2{16|19R8} 818r29
+755f5 pd_eps{18|13F8} 756r42
+756f5 tol{18|13F8} 826r35
+757f5 m{18|13F8} 818r27 836r22
+758a5 i_fac(16|19R8) 773m7 776m7 779m7 782m7 785m7 788m7 791m7 794m7 797m7
+. 800m7 803m7 806m7 809m7 812m7 815m7 824r14
+760r5 p{16|19R8} 819m7 820r27 823m9 823r14 824r25 831m9 833r14
+760r7 s{16|19R8} 820m7 825m9 825r14 831r23 832r14 832r16 833m9 835r14
+760r9 t{16|19R8} 824m9 825r18 826r23 832m9 833r18
+761i5 cnt{integer} 821m7 824r20 827m9 827r16 828r20 836m7 837r24
+830i11 i{integer}
+855r5 res{16|19R8} 859m7 862m7 864m7 866r23 867m9 867r16 868m9 868r16 871r12
+855r9 acc{16|19R8} 866m9 867r22
+865i11 i{integer}
+876r5 res{16|19R8} 886m5 887r12
+877f5 log10_0{18|13F8} 883r22
+878f5 log10_1{18|13F8} 883r30
+879f5 log10_2{18|13F8} 883r38
+880f5 log10_3{18|13F8} 883r46
+881f5 log10_4{18|13F8} 883r54
+882r5 logten{16|19R8} 886r19
+X 18 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 16|3w6 3r46 18|58e30
+13F8*double_float<long_float> 16|42r25 47r52 73r51 78r51 83r52 88r50 93r50
+. 105r50 133r42 136r40 137r22 139r41 140r23 143r40 144r22 146r41 147r23 154r40
+. 155r22 160r40 161r22 164r40 165r22 167r45 169r56 173r40 174r22 182r41 210r13
+. 211r13 212r14 213r12 214r12 17|13r43 21r43 29r43 37r43 45r43 51r25 59r52
+. 106r25 109r11 112r13 114r15 116r17 118r19 131r25 172r51 177r51 182r52 187r50
+. 192r50 204r50 240r42 257r40 268r22 278r41 289r23 305r40 316r22 326r41 337r23
+. 355r27 384r40 396r22 439r40 441r20 448r22 462r29 554r40 559r27 588r22 599r45
+. 610r56 619r25 633r40 642r22 703r28 703r63 720r41 737r28 737r63 741r18 742r22
+. 743r19 744r19 745r19 746r19 747r19 749r19 750r19 751r19 752r19 753r19 755r23
+. 756r20 757r18 757r34 877r24 878r24 879r24 880r24 881r24
+X 19 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 16|2w6 2r46 19|45e29
+6I8*integer32<long_integer> 16|35r25 100r47 17|35r25 199r47 201r12
+7I8*integer64<long_long_integer> 16|36r25 17|43r25
+X 20 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 17|2w6 864r21 20|64e36
+20V12*LN{18|13F8} 17|864s53
+X 21 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 16|1w6 1r46 21|30e29
+7I8*natural32<long_integer> 16|28r25 17|19r25
+8I8*natural64<long_long_integer> 16|29r25 17|27r25
+X 38 text_io.ads
+27K9*Text_IO=27:29 17|1w6 1r46
+

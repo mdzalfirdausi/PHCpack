@@ -1,0 +1,101 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U hexadobl_random_vectors%b  hexadobl_random_vectors.adb  1023bf53 NE OO PK
+W hexadobl_random_numbers%s  hexadobl_random_numbers.adb  hexadobl_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U hexadobl_random_vectors%s  hexadobl_random_vectors.ads  9258ba9c EE NE OO PK
+W hexa_double_vectors%s	hexa_double_vectors.ads	hexa_double_vectors.ali
+W hexadobl_complex_vectors%s  hexadobl_complex_vectors.ads  hexadobl_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D deca_double_numbers.ads  20260513024558 96ba5284 deca_double_numbers%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D hexa_double_numbers.ads  20260513024558 2ab2fc6c hexa_double_numbers%s
+D hexa_double_ring.ads	20260513024558 a391cb52 hexa_double_ring%s
+D hexa_double_ring-ffield.ads  20260513024558 09eb549c hexa_double_ring.ffield%s
+D hexa_double_vectors.ads  20260513024558 07daa31b hexa_double_vectors%s
+D hexadobl_complex_numbers.ads  20260513024558 dc378e03 hexadobl_complex_numbers%s
+D hexadobl_complex_ring.ads  20260513024558 27afa511 hexadobl_complex_ring%s
+D hexadobl_complex_vectors.ads  20260513024558 a781f1af hexadobl_complex_vectors%s
+D hexadobl_random_numbers.ads  20260513024558 dc3ab1dc hexadobl_random_numbers%s
+D hexadobl_random_vectors.ads  20260513024558 4de38a33 hexadobl_random_vectors%s
+D hexadobl_random_vectors.adb  20260513024558 81fa84bc hexadobl_random_vectors%b
+D octo_double_numbers.ads  20260513024558 9005435d octo_double_numbers%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [random_vector hexadobl_random_vectors 12 12 none]
+G c Z s b [random_vector hexadobl_random_vectors 19 13 none]
+G c Z s b [random_vector hexadobl_random_vectors 28 12 none]
+G c Z s b [random_vector hexadobl_random_vectors 35 13 none]
+G r c none [random_vector hexadobl_random_vectors 12 12 none] [random hexadobl_random_numbers 14 12 none]
+G r c none [random_vector hexadobl_random_vectors 19 13 none] [random_hexa_double hexadobl_random_numbers 19 13 none]
+G r c none [random_vector hexadobl_random_vectors 28 12 none] [random1 hexadobl_random_numbers 40 12 none]
+G r c none [random_vector hexadobl_random_vectors 35 13 none] [random1_complex_number hexadobl_random_numbers 45 13 none]
+X 5 generic_complex_numbers.ads
+19R8*Complex_Number
+X 6 generic_vectors.ads
+16A8*Vector(7|25R8)<21|6I8> 15|13r53[10|4] 21r45[10|4] 29r58[13|4] 37r50[13|4]
+. 16|6r53[10|4] 8r31[10|4] 19r45[10|4] 27r58[13|4] 29r36[13|4] 40r50[13|4]
+X 10 hexa_double_vectors.ads
+4K9*Hexa_Double_Vectors[6|8] 15|2w6 13r33 21r25 16|6r33 8r11 19r25
+X 13 hexadobl_complex_vectors.ads
+4K9*HexaDobl_Complex_Vectors[6|8] 15|3w6 29r33 37r25 16|27r33 29r11 40r25
+X 14 hexadobl_random_numbers.ads
+5K9*HexaDobl_Random_Numbers 53e28 16|1w6 12r17 22r7 33r17 43r7
+14V12*Random{7|25R8} 16|12s41
+19U13*Random_Hexa_Double 16|22s31
+40V12*Random1{5|19R8[11|5]} 16|33s41
+45U13*Random1_Complex_Number 16|43s31
+X 15 hexadobl_random_vectors.ads
+5K9*HexaDobl_Random_Vectors 44l5 44e28 16|3b14 47l5 47t28
+12V12*Random_Vector{6|16A8[10|4]} 12>28 12>34 16|5b12 15l7 15t20
+12i28 first{21|6I8} 16|5b28 8r38
+12i34 last{21|6I8} 16|5b34 8r45
+19U13*Random_Vector 20=17 21<17 16|17b13 24l7 24t20
+20i17 seed{21|6I8} 16|18b17 22m50
+21a17 v{6|16A8[10|4]} 16|19b17 21r14 22m55 22r55
+28V12*Random_Vector{6|16A8[13|4]} 28>28 28>34 16|26b12 36l7 36t20
+28i28 first{21|6I8} 16|26b28 29r43
+28i34 last{21|6I8} 16|26b34 29r50
+35U13*Random_Vector 36=17 37<17 16|38b13 45l7 45t20
+36i17 seed{21|6I8} 16|39b17 43m54
+37a17 v{6|16A8[13|4]} 16|40b17 42r14 43m59 43r59
+X 16 hexadobl_random_vectors.adb
+8a5 res{6|16A8[10|4]} 11r14 12m7 14r12
+11i9 i<long_integer> 12r11
+21i9 i<long_integer> 22r57
+29a5 res{6|16A8[13|4]} 32r14 33m7 35r12
+32i9 i<long_integer> 33r11
+42i9 i<long_integer> 43r61
+X 21 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 15|1w6 1r46 21|45e29
+6I8*integer32<long_integer> 15|12r41 20r31 28r41 36r31 16|5r41 18r31 26r41
+. 39r31
+

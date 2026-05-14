@@ -1,0 +1,751 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U quaddobl_interpolating_cseries%b  quaddobl_interpolating_cseries.adb  daa5eaf2 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quad_double_vectors_io%s  quad_double_vectors_io.ads  quad_double_vectors_io.ali
+W quaddobl_complex_linear_solvers%s  quaddobl_complex_linear_solvers.adb  quaddobl_complex_linear_solvers.ali
+W quaddobl_complex_matrices_io%s  quaddobl_complex_matrices_io.ads  quaddobl_complex_matrices_io.ali
+W quaddobl_complex_qr_least_squares%s  quaddobl_complex_qr_least_squares.adb  quaddobl_complex_qr_least_squares.ali
+W quaddobl_complex_singular_values%s  quaddobl_complex_singular_values.adb  quaddobl_complex_singular_values.ali
+W quaddobl_complex_vector_norms%s  quaddobl_complex_vector_norms.adb  quaddobl_complex_vector_norms.ali
+W quaddobl_complex_vectors_io%s  quaddobl_complex_vectors_io.ads  quaddobl_complex_vectors_io.ali
+W quaddobl_complex_vecvecs_io%s  quaddobl_complex_vecvecs_io.ads  quaddobl_complex_vecvecs_io.ali
+W quaddobl_random_numbers%s  quaddobl_random_numbers.adb  quaddobl_random_numbers.ali
+W quaddobl_random_vectors%s  quaddobl_random_vectors.adb  quaddobl_random_vectors.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U quaddobl_interpolating_cseries%s  quaddobl_interpolating_cseries.ads  29551153 EE NE OO PK
+W quad_double_vectors%s	quad_double_vectors.ads	quad_double_vectors.ali
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_matrix_series%s  quaddobl_complex_matrix_series.adb  quaddobl_complex_matrix_series.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vecmats%s  quaddobl_complex_vecmats.ads  quaddobl_complex_vecmats.ali
+W quaddobl_complex_vector_series%s  quaddobl_complex_vector_series.adb  quaddobl_complex_vector_series.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W quaddobl_complex_vecvecs%s  quaddobl_complex_vecvecs.ads  quaddobl_complex_vecvecs.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_dense_series.ads  20260513024558 72326a5c generic_dense_series%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_matrices_io.ads  20260513024558 4a4f474a generic_matrices_io%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D generic_vecvecs_io.ads  20260513024558 6b4e3e63 generic_vecvecs_io%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_numbers_io.ads  20260513024558 34f2e427 quad_double_numbers_io%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quad_double_ring_io.ads  20260513024558 a7ff4e1f quad_double_ring_io%s
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quad_double_vectors_io.ads  20260513024558 85914a32 quad_double_vectors_io%s
+D quaddobl_complex_linear_solvers.ads  20260513024558 86e310a9 quaddobl_complex_linear_solvers%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_matrices_io.ads  20260513024558 d4ca9bc4 quaddobl_complex_matrices_io%s
+D quaddobl_complex_matrix_series.ads  20260513024558 7190d49f quaddobl_complex_matrix_series%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_numbers_io.ads  20260513024558 72b54512 quaddobl_complex_numbers_io%s
+D quaddobl_complex_qr_least_squares.ads  20260513024558 e2714a26 quaddobl_complex_qr_least_squares%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_ring_io.ads  20260513024558 1d166066 quaddobl_complex_ring_io%s
+D quaddobl_complex_series.ads  20260513024558 f4dbe9a2 quaddobl_complex_series%s
+D quaddobl_complex_series_matrices.ads  20260513024558 7556bb24 quaddobl_complex_series_matrices%s
+D quaddobl_complex_series_ring.ads  20260513024558 f1150a42 quaddobl_complex_series_ring%s
+D quaddobl_complex_series_vectors.ads  20260513024558 21251b10 quaddobl_complex_series_vectors%s
+D quaddobl_complex_singular_values.ads  20260513024558 640661d4 quaddobl_complex_singular_values%s
+D quaddobl_complex_vecmats.ads  20260513024558 3a6aa9c0 quaddobl_complex_vecmats%s
+D quaddobl_complex_vector_norms.ads  20260513024558 fd063214 quaddobl_complex_vector_norms%s
+D quaddobl_complex_vector_series.ads  20260513024558 ddb5fb14 quaddobl_complex_vector_series%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vectors_io.ads  20260513024558 8c837a5d quaddobl_complex_vectors_io%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_complex_vecvecs_io.ads  20260513024558 391ed29d quaddobl_complex_vecvecs_io%s
+D quaddobl_interpolating_cseries.ads  20260513024558 4e3b8382 quaddobl_interpolating_cseries%s
+D quaddobl_interpolating_cseries.adb  20260513024558 ac75c093 quaddobl_interpolating_cseries%b
+D quaddobl_random_numbers.ads  20260513024558 cd20fe9a quaddobl_random_numbers%s
+D quaddobl_random_vectors.ads  20260513024558 42ddf3c5 quaddobl_random_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [eval quaddobl_interpolating_cseries 20 12 none]
+G c Z s b [eval quaddobl_interpolating_cseries 27 12 none]
+G c Z s b [rank quaddobl_interpolating_cseries 34 12 none]
+G c Z s b [full_rank quaddobl_interpolating_cseries 40 12 none]
+G c Z s b [full_rank quaddobl_interpolating_cseries 48 12 none]
+G c Z s b [sample quaddobl_interpolating_cseries 60 12 none]
+G c Z s b [sample quaddobl_interpolating_cseries 69 12 none]
+G c Z s b [solve_linear_systems quaddobl_interpolating_cseries 78 12 none]
+G c Z s b [residuals quaddobl_interpolating_cseries 90 12 none]
+G c Z s b [transpose quaddobl_interpolating_cseries 100 12 none]
+G c Z s b [vandermonde_matrix quaddobl_interpolating_cseries 109 12 none]
+G c Z s b [solve_interpolation_systems quaddobl_interpolating_cseries 118 12 none]
+G c Z s b [construct quaddobl_interpolating_cseries 127 12 none]
+G c Z s b [interpolate quaddobl_interpolating_cseries 134 12 none]
+G c Z s b [factorial quaddobl_interpolating_cseries 147 12 none]
+G c Z s b [diff quaddobl_interpolating_cseries 152 12 none]
+G c Z s b [hermite_matrix quaddobl_interpolating_cseries 163 12 none]
+G c Z s b [hermite_vector quaddobl_interpolating_cseries 177 12 none]
+G c Z s b [hermite_interpolate quaddobl_interpolating_cseries 186 12 none]
+G c Z s b [hermite_laurent_matrix quaddobl_interpolating_cseries 200 12 none]
+G c Z s b [hermite_laurent_vector quaddobl_interpolating_cseries 211 12 none]
+G c Z s b [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none]
+G c Z b b [write_integer_matrix quaddobl_interpolating_cseries 594 13 none]
+G r c none [eval quaddobl_interpolating_cseries 20 12 none] [create quad_double_numbers 37 12 none]
+G r c none [eval quaddobl_interpolating_cseries 20 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [eval quaddobl_interpolating_cseries 20 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [eval quaddobl_interpolating_cseries 20 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [eval quaddobl_interpolating_cseries 20 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [eval quaddobl_interpolating_cseries 27 12 none] [create quad_double_numbers 37 12 none]
+G r c none [eval quaddobl_interpolating_cseries 27 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [eval quaddobl_interpolating_cseries 27 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [eval quaddobl_interpolating_cseries 27 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [rank quaddobl_interpolating_cseries 34 12 none] [min0 quaddobl_complex_singular_values 21 12 none]
+G r c none [rank quaddobl_interpolating_cseries 34 12 none] [svd quaddobl_complex_singular_values 25 13 none]
+G r c none [rank quaddobl_interpolating_cseries 34 12 none] [rank quaddobl_complex_singular_values 82 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [random1 quaddobl_random_numbers 47 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [create quad_double_numbers 37 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [min0 quaddobl_complex_singular_values 21 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [svd quaddobl_complex_singular_values 25 13 none]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [rank quaddobl_complex_singular_values 82 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [put_line quaddobl_complex_vectors_io 44 13 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 40 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [random1 quaddobl_random_numbers 47 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [create quad_double_numbers 37 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [min0 quaddobl_complex_singular_values 21 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [svd quaddobl_complex_singular_values 25 13 none]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [rank quaddobl_complex_singular_values 82 12 none]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [put_line quaddobl_complex_vectors_io 44 13 5_1]
+G r c none [full_rank quaddobl_interpolating_cseries 48 12 none] [put standard_integer_numbers_io 26 13 none]
+G r s vecvec [sample quaddobl_interpolating_cseries 60 12 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r c none [sample quaddobl_interpolating_cseries 60 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sample quaddobl_interpolating_cseries 60 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [sample quaddobl_interpolating_cseries 60 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [sample quaddobl_interpolating_cseries 60 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [sample quaddobl_interpolating_cseries 60 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r s vecmat [sample quaddobl_interpolating_cseries 69 12 none] [vecmatIP quaddobl_complex_vecmats 15 8 6_1]
+G r c none [sample quaddobl_interpolating_cseries 69 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sample quaddobl_interpolating_cseries 69 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [sample quaddobl_interpolating_cseries 69 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [sample quaddobl_interpolating_cseries 69 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r s vecvec [solve_linear_systems quaddobl_interpolating_cseries 78 12 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r c none [solve_linear_systems quaddobl_interpolating_cseries 78 12 none] [lufac quaddobl_complex_linear_solvers 36 13 none]
+G r c none [solve_linear_systems quaddobl_interpolating_cseries 78 12 none] [lusolve quaddobl_complex_linear_solvers 162 13 none]
+G r c none [residuals quaddobl_interpolating_cseries 90 12 none] [Omultiply quaddobl_complex_matrices 51 12 5_1]
+G r c none [residuals quaddobl_interpolating_cseries 90 12 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [residuals quaddobl_interpolating_cseries 90 12 none] [max_norm quaddobl_complex_vector_norms 32 12 none]
+G r s vecvec [transpose quaddobl_interpolating_cseries 100 12 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r c none [vandermonde_matrix quaddobl_interpolating_cseries 109 12 none] [create quad_double_numbers 37 12 none]
+G r c none [vandermonde_matrix quaddobl_interpolating_cseries 109 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [vandermonde_matrix quaddobl_interpolating_cseries 109 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r s vecvec [solve_interpolation_systems quaddobl_interpolating_cseries 118 12 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r c none [solve_interpolation_systems quaddobl_interpolating_cseries 118 12 none] [lufac quaddobl_complex_linear_solvers 36 13 none]
+G r c none [solve_interpolation_systems quaddobl_interpolating_cseries 118 12 none] [lusolve quaddobl_complex_linear_solvers 162 13 none]
+G r s vector [construct quaddobl_interpolating_cseries 127 12 none] [vectorIP quaddobl_complex_vector_series 16 8 none]
+G r s vector [interpolate quaddobl_interpolating_cseries 134 12 none] [vectorIP quaddobl_complex_vector_series 16 8 none]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [random_vector quaddobl_random_vectors 36 12 none]
+G r s vecmat [interpolate quaddobl_interpolating_cseries 134 12 none] [vecmatIP quaddobl_complex_vecmats 15 8 6_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [create quad_double_numbers 37 12 none]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r s vecvec [interpolate quaddobl_interpolating_cseries 134 12 none] [vecvecIP quaddobl_complex_vecvecs 14 8 5_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [put_line quaddobl_complex_vectors_io 44 13 5_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [lufac quaddobl_complex_linear_solvers 36 13 none]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [lusolve quaddobl_complex_linear_solvers 162 13 none]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [Omultiply quaddobl_complex_matrices 51 12 5_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [max_norm quaddobl_complex_vector_norms 32 12 none]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [put_line quaddobl_complex_vecvecs_io 51 13 7_1]
+G r c none [interpolate quaddobl_interpolating_cseries 134 12 none] [put_line quad_double_vectors_io 44 13 5_1]
+G r c none [factorial quaddobl_interpolating_cseries 147 12 none] [create quad_double_numbers 37 12 none]
+G r c none [factorial quaddobl_interpolating_cseries 147 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [create quad_double_numbers 37 12 none]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [Oexpon quaddobl_complex_numbers 65 12 5_1]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [Omultiply quaddobl_complex_matrices 60 12 5_1]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [Oadd quaddobl_complex_matrices 37 12 5_1]
+G r c none [diff quaddobl_interpolating_cseries 152 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [Oexpon quaddobl_complex_numbers 65 12 5_1]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [Omultiply quaddobl_complex_matrices 60 12 5_1]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [Oadd quaddobl_complex_matrices 37 12 5_1]
+G r c none [hermite_matrix quaddobl_interpolating_cseries 163 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [hermite_vector quaddobl_interpolating_cseries 177 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite_vector quaddobl_interpolating_cseries 177 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [hermite_vector quaddobl_interpolating_cseries 177 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [hermite_vector quaddobl_interpolating_cseries 177 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [hermite_vector quaddobl_interpolating_cseries 177 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [hermite_vector quaddobl_interpolating_cseries 177 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r s vector [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [vectorIP quaddobl_complex_vector_series 16 8 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Oexpon quaddobl_complex_numbers 65 12 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Omultiply quaddobl_complex_matrices 60 12 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Oadd quaddobl_complex_matrices 37 12 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [put quaddobl_complex_matrices_io 43 13 6_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [put_line quaddobl_complex_vectors_io 44 13 5_1]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [min0 quaddobl_complex_singular_values 21 12 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [svd quaddobl_complex_singular_values 25 13 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [rank quaddobl_complex_singular_values 82 12 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [lufac quaddobl_complex_linear_solvers 36 13 none]
+G r c none [hermite_interpolate quaddobl_interpolating_cseries 186 12 none] [lusolve quaddobl_complex_linear_solvers 162 13 none]
+G r c none [hermite_laurent_matrix quaddobl_interpolating_cseries 200 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite_laurent_matrix quaddobl_interpolating_cseries 200 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [hermite_laurent_vector quaddobl_interpolating_cseries 211 12 none] [create quad_double_numbers 37 12 none]
+G r c none [hermite_laurent_vector quaddobl_interpolating_cseries 211 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [create quad_double_numbers 37 12 none]
+G r s vector [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [vectorIP quaddobl_complex_vector_series 16 8 none]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [put_line quaddobl_complex_vectors_io 44 13 5_1]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [qrd quaddobl_complex_qr_least_squares 14 13 none]
+G r c none [hermite_laurent_interpolate quaddobl_interpolating_cseries 220 12 none] [qrls quaddobl_complex_qr_least_squares 80 13 none]
+G r c none [write_integer_matrix quaddobl_interpolating_cseries 594 13 none] [real_part quaddobl_complex_numbers 32 12 5_1]
+G r c none [write_integer_matrix quaddobl_interpolating_cseries 594 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [write_integer_matrix quaddobl_interpolating_cseries 594 13 none] [put standard_integer_numbers_io 26 13 none]
+X 12 a-textio.ads
+284U14*New_Line 55|114s49 605s7
+515U14*Put 55|114s7 506s7 508s9 510s9 603s9
+565U14*Put_Line 55|113s7 318s7 324s7 326s7 331s7 337s7 503s7 504s7 508s36
+. 510s36 516s7 638s7 640s7 645s7
+X 15 generic_complex_numbers.ads
+19R8*Complex_Number 54|21r23[37|5] 28r23[37|5] 147r47[37|5] 153r23[37|5]
+. 165r20[37|5] 179r20[37|5] 189r20[37|5] 55|19r23[37|5] 25r11[37|5] 38r23[37|5]
+. 45r11[37|5] 83r18[37|5] 88r11[37|5] 344r47[37|5] 348r11[37|5] 360r23[37|5]
+. 369r15[37|5] 419r20[37|5] 444r20[37|5] 453r11[37|5] 454r11[37|5] 485r20[37|5]
+26V12*Create{19R8[37|5]} 55|25s29[37|5] 45s29[37|5] 88s29[37|5] 248s21[37|5]
+. 355s12[37|5] 377s16[37|5] 388s14[37|5] 401s16[37|5] 453s29[37|5] 469s14[37|5]
+. 544s21[37|5] 583s17[37|5] 627s27[37|5]
+32V12*REAL_PART{26|14R8} 55|603s43[37|5]
+58V13*"+"{19R8[37|5]} 55|53s32[37|5] 106s32[37|5]
+62V13*"*"{19R8[37|5]} 55|31s17[37|5] 49s17[37|5] 53s37[37|5] 102s17[37|5]
+. 106s37[37|5] 250s35[37|5] 383s19[37|5] 390s19[37|5] 391s47[37|5] 406s19[37|5]
+. 409s19[37|5] 411s25[37|5] 461s17[37|5] 471s19[37|5] 472s43[37|5]
+63V13*"/"{19R8[37|5]} 55|391s30[37|5] 405s34[37|5] 410s32[37|5] 472s28[37|5]
+65V13*"**"{19R8[37|5]} 55|379s17[37|5] 404s17[37|5]
+X 17 generic_matrices.ads
+16A8*Matrix(15|19R8[37|5])<59|6I8><59|6I8> 54|29r50[34|5] 34r49[34|5] 111r47[34|5]
+. 119r46[34|5] 154r50[34|5] 166r47[34|5] 202r47[34|5] 55|39r50[34|5] 42r37[34|5]
+. 60r49[34|5] 68r35[34|5] 69r35[34|5] 72r35[34|5] 85r37[34|5] 94r35[34|5]
+. 95r35[34|5] 160r48[34|5] 163r49[34|5] 179r37[34|5] 238r47[34|5] 242r37[34|5]
+. 257r46[34|5] 263r37[34|5] 313r37[34|5] 361r50[34|5] 366r37[34|5] 420r47[34|5]
+. 425r37[34|5] 426r37[34|5] 492r35[34|5] 529r47[34|5] 536r37[34|5] 595r50[34|5]
+. 622r35[34|5]
+17P8*Link_to_Matrix(16A8[34|5]) 55|41r37[34|5] 84r37[34|5] 155r45[34|5] 199r36[34|5]
+. 364r46[34|5] 422r46[34|5] 531r37[34|5]
+37V13*"+"{16A8[34|5]} 55|384s20[34|5] 392s20[34|5] 411s20[34|5]
+51V13*"*"{20|16A8[50|4]} 55|211s29[34|5]
+60V13*"*"{16A8[34|5]} 55|380s19[34|5] 384s25[34|5] 387s28[34|5] 392s25[34|5]
+. 402s34[34|5] 406s23[34|5] 411s29[34|5]
+X 18 generic_matrices_io.ads
+43U13*put 55|503s45[35|6]
+X 19 generic_vecmats.ads
+15A8*VecMat(17|17P8[34|5])<59|6I8> 54|71r51[47|6] 79r45[47|6] 91r45[47|6]
+. 152r48[47|6] 164r45[47|6] 201r45[47|6] 55|152r51[47|6] 154r36[47|6] 170r45[47|6]
+. 193r45[47|6] 308r43[47|6] 359r48[47|6] 418r45[47|6] 528r45[47|6]
+X 20 generic_vectors.ads
+16A8*Vector(15|19R8[37|5])<59|6I8> 54|22r49[50|4] 61r50[50|4] 70r50[50|4]
+. 93r41[31|4] 110r45[50|4] 180r46[50|4] 213r46[50|4] 55|20r49[50|4] 23r36[50|4]
+. 66r34[50|4] 67r34[50|4] 92r34[50|4] 93r34[50|4] 132r50[50|4] 141r47[50|4]
+. 144r48[50|4] 151r50[50|4] 177r37[62|4] 178r36[50|4] 187r46[50|4] 195r41[31|4]
+. 197r31[31|4] 201r36[50|4] 226r46[50|4] 237r45[50|4] 264r36[50|4] 265r37[62|4]
+. 273r46[50|4] 288r50[50|4] 306r43[50|4] 311r29[31|4] 445r46[50|4] 450r36[50|4]
+. 451r36[50|4] 494r34[50|4] 497r37[62|4] 498r36[50|4] 522r50[50|4] 572r46[50|4]
+. 577r36[50|4] 624r43[50|4] 626r38[50|4] 628r37[62|4] 629r36[50|4] 630r50[50|4]
+. 632r36[50|4] 652r50[50|4]
+17P8*Link_to_Vector(16A8[50|4]) 55|22r45[50|4] 136r44[50|4] 200r38[50|4]
+. 282r45[50|4] 447r45[50|4] 574r35[50|4]
+29V13*"+"{16A8[50|4]} 55|32s18[50|4] 462s18[50|4] 473s20[50|4]
+35V13*"-"{16A8[50|4]} 55|211s21[50|4]
+39V13*"*"{16A8[50|4]} 55|32s23[50|4] 462s23[50|4] 468s26[50|4] 473s25[50|4]
+X 21 generic_vectors_io.ads
+44U13*put_line 55|113s43[51|5] 319s7[51|5] 327s7[32|5] 504s49[51|5] 516s42[51|5]
+. 640s49[51|5] 645s49[51|5]
+X 22 generic_vecvecs.ads
+14A8*VecVec(20|17P8[50|4])<59|6I8> 54|62r51[52|5] 80r45[52|5] 81r46[52|5]
+. 92r47[52|5] 100r53[52|5] 101r54[52|5] 120r45[52|5] 121r46[52|5] 127r53[52|5]
+. 178r45[52|5] 212r45[52|5] 55|133r51[52|5] 135r36[52|5] 171r45[52|5] 172r46[52|5]
+. 174r36[52|5] 194r47[52|5] 217r53[52|5] 218r54[52|5] 222r36[52|5] 258r45[52|5]
+. 259r46[52|5] 261r36[52|5] 278r53[52|5] 309r43[52|5] 310r34[52|5] 312r35[52|5]
+. 314r36[52|5] 443r45[52|5] 571r45[52|5]
+X 23 generic_vecvecs_io.ads
+51U13*put_line 55|325s7[53|7] 332s7[53|7] 338s7[53|7]
+X 26 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 55|3w6 3r47
+14R8*quad_double 253e13 55|24r20 44r20 87r20 241r20 347r14 363r20 452r20
+. 539r21 579r21 620r21
+37V12*Create{14R8} 55|24s35 44s35 87s35 241s35 354s15 363s35 452s35 539s36
+. 579s36 620s36
+67V12*hihi_part{58|13F8} 55|603s33
+X 31 quad_double_vectors.ads
+4K9*Quad_Double_Vectors[20|8] 54|4w6 93r21 55|195r21 197r11 311r9
+X 32 quad_double_vectors_io.ads
+5K9*Quad_Double_Vectors_io[21|11] 55|7w6 7r47
+X 33 quaddobl_complex_linear_solvers.ads
+10K9*QuadDobl_Complex_Linear_Solvers 257e36 55|12w6 185r7 186r7 269r5 272r7
+. 513r5 514r5
+36U13*lufac 55|185s39 269s37 513s37
+162U13*lusolve 55|186s39 272s39 514s37
+X 34 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[17|9] 54|7w6 29r24 34r23 111r21 119r20 154r24
+. 166r21 202r21 55|39r24 41r11 42r11 60r23 68r9 69r9 72r9 84r11 85r11 94r9
+. 95r9 155r19 160r22 163r23 179r11 199r10 204r9 238r21 242r11 257r20 263r11
+. 313r11 361r24 364r20 366r11 371r9 420r21 422r20 425r11 426r11 492r9 529r21
+. 531r11 536r11 595r24 622r9
+X 35 quaddobl_complex_matrices_io.ads
+6K9*QuadDobl_Complex_Matrices_io[18|14] 55|10w6 10r47
+X 36 quaddobl_complex_matrix_series.ads
+7K9*QuadDobl_Complex_Matrix_Series 72e35 54|10w6 27r23 41r20 49r20 69r25
+. 135r22 187r22 221r22 55|37r23 80r20 120r20 150r25 299r22 483r22 610r22
+15R8*Matrix 17e13 54|27r54 41r51 49r51 69r56 135r53 187r53 221r53 55|37r54
+. 80r51 120r51 150r56 299r53 483r53 610r53
+15i17*deg{59|6I8} 55|48r19 123r19 304r53 306r57 307r54 313r51 313r64 488r37
+. 615r37
+16a5*cff{19|15A8[47|6]} 55|41r57 50r16 84r57 103r16 155r65 489r37 493r29
+. 616r37 617r37 623r37
+X 37 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[15|11] 54|3w6 3r44
+X 39 quaddobl_complex_qr_least_squares.ads
+6K9*QuadDobl_Complex_QR_Least_Squares 179e38 55|13w6 634r9
+14U13*QRD 55|642s5
+80U13*QRLS 55|643s5
+X 46 quaddobl_complex_singular_values.ads
+7K9*QuadDobl_Complex_Singular_Values 151e37 55|14w6 65r32 75r5 76r12 91r32
+. 110r5 111r12
+21V12*Min0{59|6I8} 55|65s65 91s65
+25U13*SVD 55|75s38 110s38
+82V12*Rank{59|6I8} 55|76s45 111s45
+X 47 quaddobl_complex_vecmats.ads
+6K9*QuadDobl_Complex_VecMats[19|11] 54|8w6 71r26 79r20 91r20 152r23 164r20
+. 201r20 55|152r26 154r11 170r20 193r20 308r18 359r23 418r20 528r20
+X 48 quaddobl_complex_vector_norms.ads
+5K9*QuadDobl_Complex_Vector_Norms 37e34 55|11w6 212r17
+32V12*Max_Norm{26|14R8} 55|212s47
+X 49 quaddobl_complex_vector_series.ads
+8K9*QuadDobl_Complex_Vector_Series 74e35 54|9w6 20r23 60r25 128r29 136r22
+. 138r21 188r22 190r21 222r22 224r21 55|18r23 131r25 279r29 284r11 300r22
+. 302r21 304r11 484r22 486r21 490r11 611r22 613r21 621r11
+16R8*Vector 19e13 54|20r54 60r56 128r60 136r53 138r52 188r53 190r52 222r53
+. 224r52 55|18r54 131r56 279r60 284r42 300r53 302r52 304r42 484r53 486r52
+. 490r42 611r53 613r52 621r42
+16i17*deg{59|6I8} 55|30r19
+18a5*cff{22|14A8[52|5]} 55|22r65 32r26 136r64 288m11 292r13 305r37 495r29
+. 522m11 625r37 652m11
+X 50 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[20|8] 54|5w6 22r24 61r25 70r25 110r20 180r21
+. 213r21 55|20r24 22r20 23r11 27r9 66r9 67r9 92r9 93r9 132r25 136r19 141r22
+. 144r23 151r25 178r11 187r21 200r13 201r11 203r9 226r21 237r20 264r11 273r21
+. 282r20 288r25 306r18 445r21 447r20 450r11 451r11 456r9 494r9 498r11 522r25
+. 572r21 574r10 577r11 624r18 626r13 629r11 630r25 632r11 652r25
+X 51 quaddobl_complex_vectors_io.ads
+5K9*QuadDobl_Complex_Vectors_io[21|11] 55|8w6 8r47
+X 52 quaddobl_complex_vecvecs.ads
+5K9*QuadDobl_Complex_VecVecs[22|10] 54|6w6 62r26 80r20 81r21 92r22 100r28
+. 101r29 120r20 121r21 127r28 178r20 212r20 55|133r26 135r11 171r20 172r21
+. 174r11 194r22 217r28 218r29 222r11 258r20 259r21 261r11 278r28 309r18 310r9
+. 312r10 314r11 443r20 571r20
+X 53 quaddobl_complex_vecvecs_io.ads
+7K9*QuadDobl_Complex_VecVecs_io[23|15] 55|9w6 9r47
+X 54 quaddobl_interpolating_cseries.ads
+12K9*QuadDobl_Interpolating_CSeries 234l5 234e35 55|16b14 657l5 657t35
+20V12*Eval{20|16A8[50|4]} 20>19 21>19 55|18b12 35l7 35t11 142s14
+20r19 v{49|16R8} 55|18b19 22r63 30r17 32r24
+21r19 t{15|19R8[37|5]} 55|19b19 31r18
+27V12*Eval{17|16A8[34|5]} 27>19 28>19 55|37b12 58l7 58t11 161s14
+27r19 m{36|15R8} 55|37b19 41r55 48r17 50r14
+28r19 t{15|19R8[37|5]} 55|38b19 49r18
+34V12*Rank{59|6I8} 34>19 35>19 55|60b12 77l7 77t11 505s14
+34a19 A{17|16A8[34|5]} 55|60b19 63r31 64r31 72r42 72r53 72r68
+35f19 tol{58|13F8} 55|61b19 76r52
+40V12*Full_Rank{boolean} 41>16 42>16 42>31 55|79b12 117l7 117t16 124s10
+41r16 m{36|15R8} 55|80b16 84r55 103r14
+42i16 d{59|6I8} 55|81b16 101r17
+42b31 verbose{boolean} 55|81b31 112r8
+48V12*Full_Rank{59|6I8} 49>16 50>16 55|119b12 129l7 129t16
+49r16 m{36|15R8} 55|120b16 123r17 124r20
+50b16 verbose{boolean} 55|121b16 124r24
+60V12*Sample{22|14A8[52|5]} 60>21 61>21 55|131b12 148l7 148t13 309s62
+60r21 v{49|16R8} 55|131b21 136r62 142r19
+61a21 t{20|16A8[50|4]} 55|132b21 135r43 139r14 142r21
+69V12*Sample{19|15A8[47|6]} 69>21 70>21 55|150b12 167l7 167t13 308s62
+69r21 m{36|15R8} 55|150b21 155r63 161r19
+70a21 t{20|16A8[50|4]} 55|151b21 154r43 158r14 161r21
+78V12*Solve_Linear_Systems{22|14A8[52|5]} 79>16 80>16 55|169b12 190l7 190t27
+. 321s10
+79a16 m{19|15A8[47|6]} 55|170b16 174r43 184r14
+80a16 v{22|14A8[52|5]} 55|171b16 175r33 182r14 183r14
+90V12*Residuals{20|16A8[31|4]} 91>16 92>16 92>18 55|192b12 215l7 215t16 322s10
+91a16 m{19|15A8[47|6]} 55|193b16 208r13
+92a16 v{22|14A8[52|5]} 55|194b16 197r38 198r33 209r13
+92a18 x{22|14A8[52|5]} 55|194b18 210r13
+100V12*Transpose{22|14A8[52|5]} 100>24 55|217b12 234l7 234t16 329s11
+100a24 x{22|14A8[52|5]} 55|217b24 220r33 221r33 228r14 229r16 230r24
+109V12*Vandermonde_Matrix{17|16A8[34|5]} 110>16 55|236b12 254l7 254t25 334s12
+110a16 t{20|16A8[50|4]} 55|237b16 240r33 240r42 246r14 250r36
+118V12*Solve_Interpolation_Systems{22|14A8[52|5]} 119>16 120>16 55|256b12
+. 276l7 276t34 335s12
+119a16 v{17|16A8[34|5]} 55|257b16 262r33 263r44 263r55 263r70
+120a16 f{22|14A8[52|5]} 55|258b16 261r43 270r14 271r14
+127V12*Construct{49|16R8} 127>24 55|278b12 296l7 296t16 340s12
+127a24 x{22|14A8[52|5]} 55|278b24 281r33 282r63 282r65 290r14 291r16 292r28
+134V12*Interpolate{49|16R8} 135>16 136>16 137>16 55|298b12 342l7 342t18
+135r16 mat{36|15R8} 55|299b16 304r49 306r53 307r50 308r69 313r47 313r60
+136r16 rhs{49|16R8} 55|300b16 305r33 309r69
+137b16 verbose{boolean} 55|301b16 317r8 323r8 330r8 336r8
+147V12*factorial{15|19R8[37|5]} 147>24 55|344b12 357l7 357t16 387s14 391s16
+. 391s31 402s16 405s16 405s35 410s16 410s33 468s14 472s16 472s29
+147i24 k{59|6I8} 55|344b24 351r17
+152V12*Diff{17|16A8[34|5]} 152>19 153>19 153>39 153>43 55|359b12 415l7 415t11
+. 431s16
+152a19 m{19|15A8[47|6]} 55|359b19 364r64 375r14 382r19 384r26 387r29 389r23
+. 392r26 399r14 402r35 406r24 408r23 411r30
+153r19 t{15|19R8[37|5]} 55|360b19 379r16 383r20 390r20 404r16 409r20
+153i39 pow{59|6I8} 55|360b39 367r39 376r10 386r11 395r18 400r10 402r26 404r27
+. 405r26 405r45 410r26 410r43
+153i43 ord{59|6I8} 55|360b43 374r8 387r24 387r31 389r16 391r26 391r43 395r14
+. 400r17 404r31 405r53 410r49
+163V12*Hermite_Matrix{17|16A8[34|5]} 164>16 165>16 55|417b12 440l7 440t21
+. 493s10
+164a16 m{19|15A8[47|6]} 55|418b16 422r64 424r40 429r16 430r18 431r21
+165r16 t{15|19R8[37|5]} 55|419b16 431r23
+177V12*Hermite_Vector{20|16A8[50|4]} 178>16 179>16 55|442b12 480l7 480t21
+. 495s10
+178a16 v{22|14A8[52|5]} 55|443b16 447r63 449r40 459r12 460r17 462r24 467r17
+. 468r27 470r21 473r26
+179r16 t{15|19R8[37|5]} 55|444b16 461r18 471r20
+186V12*Hermite_Interpolate{49|16R8} 187>16 188>16 189>16 189>36 55|482b12
+. 525l7 525t26
+187r16 mat{36|15R8} 55|483b16 488r33 489r33 493r25
+188r16 rhs{49|16R8} 55|484b16 495r25
+189r16 t{15|19R8[37|5]} 55|485b16 493r41 495r41
+189b36 verbose{boolean} 55|485b36 502r8 515r8
+200V12*Hermite_Laurent_Matrix{17|16A8[34|5]} 201>16 55|527b12 568l7 568t29
+. 623s10
+201a16 m{19|15A8[47|6]} 55|528b16 531r55 534r42 535r42 537r41 538r41 547r14
+. 548r14 549r16 557r17 558r14 559r19
+211V12*Hermite_Laurent_Vector{20|16A8[50|4]} 212>16 55|570b12 592l7 592t29
+. 625s10
+212a16 v{22|14A8[52|5]} 55|571b16 574r53 576r40 578r37 585r14 586r13
+220V12*Hermite_Laurent_Interpolate{49|16R8} 221>16 222>16 223>16 55|609b12
+. 655l7 655t34
+221r16 mat{36|15R8} 55|610b16 615r33 616r33 617r33 623r33
+222r16 rhs{49|16R8} 55|611b16 625r33
+223b16 verbose{boolean} 55|612b16 637r8 644r8
+X 55 quaddobl_interpolating_cseries.adb
+22p5 vec{20|17P8[50|4]} 23r43 23r57
+23a5 res{20|16A8[50|4]} 32m7 32r14 34r12
+24r5 one{26|14R8} 25r36
+25r5 pwt{15|19R8[37|5]} 31m7 31r14 32r20
+30i9 k<long_integer> 32r30
+41p5 mat{17|17P8[34|5]} 42r44 42r57 43r12 50m7 51r16 52r18 53r38
+42a5 res{17|16A8[34|5]} 53m11 53r23 57r12
+44r5 one{26|14R8} 45r36
+45r5 pwt{15|19R8[37|5]} 49m7 49r14 53r34
+48i9 k<long_integer> 50r20
+51i11 i<long_integer> 53r15 53r27 53r42
+52i13 j<long_integer> 53r17 53r29 53r44
+63i5 n{59|6I8} 65r70 68r45 68r50 75r44
+64i5 p{59|6I8} 65r74 67r44 69r45 69r50 75r46
+65i5 mm{59|6I8} 66r44
+66a5 s{20|16A8[50|4]} 75m48 76r50
+67a5 e{20|16A8[50|4]} 75m50
+68a5 u{17|16A8[34|5]} 75m52
+69a5 v{17|16A8[34|5]} 75m54
+70i5 job{59|6I8} 75r56
+71i5 info{59|6I8} 75m60
+72a5 x{17|16A8[34|5]} 75m42 75r42
+83r5 t{15|19R8[37|5]} 102r18
+84p5 mat{17|17P8[34|5]} 85r44 85r57 86r12 103m7 104r16 105r18 106r38
+85a5 val{17|16A8[34|5]} 89r31 90r31 106m11 106r23 110m42 110r42
+87r5 one{26|14R8} 88r36
+88r5 pwt{15|19R8[37|5]} 102m7 102r14 106r34
+89i5 n{59|6I8} 91r70 94r45 94r50 110r46 116r19
+90i5 p{59|6I8} 91r74 93r44 95r45 95r50 110r48
+91i5 mm{59|6I8} 92r44
+92a5 s{20|16A8[50|4]} 110m50 111r50 113r52
+93a5 e{20|16A8[50|4]} 110m52
+94a5 u{17|16A8[34|5]} 110m54
+95a5 v{17|16A8[34|5]} 110m56
+96i5 job{59|6I8} 110r58
+97i5 rnk{59|6I8} 111m5 114r41 116r13
+97i9 info{59|6I8} 110m62
+98f5 tol{58|13F8} 111r52
+101i9 k<long_integer> 103r20
+104i11 i<long_integer> 106r15 106r27 106r42
+105i13 j<long_integer> 106r17 106r29 106r44
+123i9 d<long_integer> 124r22 125r20
+135a5 res{22|14A8[52|5]} 144m9 147r12
+136p5 lv{20|17P8[50|4]} 141r54
+139i9 i<long_integer> 142r23 144r13
+141a9 e{20|16A8[50|4]} 144r56
+154a5 res{19|15A8[47|6]} 163m9 166r12
+155p5 lm{17|17P8[34|5]} 160r55 160r67
+158i9 i<long_integer> 161r23 163r13
+160a9 e{17|16A8[34|5]} 163r57
+174a5 res{22|14A8[52|5]} 187m7 189r12
+175i5 dim{59|6I8} 177r47 178r46 179r47 179r54 185r49 186r51
+176i5 info{59|6I8} 185m58
+177a5 ipvt{20|16A8[62|4]} 185m53 186r55
+178a5 sol{20|16A8[50|4]} 183m7 186m60 186r60 187r54
+179a5 wrk{17|16A8[34|5]} 184m7 185m45 185r45 186r47
+182i9 i<long_integer> 183r16 184r16 187r11
+197a5 res{20|16A8[31|4]} 207r14 212m7 214r12
+198i5 dim{59|6I8} 201r46
+199p5 lm{17|17P8[34|5]} 208m7 211r23
+200p5 lv{20|17P8[50|4]} 209m7 211r14
+200p8 lx{20|17P8[50|4]} 210m7 211r30
+201a5 wrk{20|16A8[50|4]} 211m7 212r56
+207i9 i<long_integer> 208r15 209r15 210r15 212r11
+220i5 deg{59|6I8} 226r56
+221i5 dim{59|6I8} 222r46
+222a5 res{22|14A8[52|5]} 225r14 226m7 230m9 230r9 233r12
+225i9 i<long_integer> 226r11
+228i9 i<long_integer> 229r18 230r16 230r26
+229i11 j<long_integer> 230r13 230r29
+240i5 dim{59|6I8} 242r47 242r54 249r19
+241r5 one{26|14R8} 248r28
+242a5 res{17|16A8[34|5]} 248m7 250m9 250r23 253r12
+243i5 idx{59|6I8} 247m7 247r14 248r11 250r13 250r27
+246i9 i<long_integer> 250r38
+249i11 j<long_integer> 250r17 250r31
+261a5 res{22|14A8[52|5]} 273m7 275r12
+262i5 dim{59|6I8} 264r46 265r47 269r47 272r51
+263a5 wrk{17|16A8[34|5]} 269m43 269r43 272r47
+264a5 sol{20|16A8[50|4]} 271m7 272m60 272r60 273r54
+265a5 ipvt{20|16A8[62|4]} 269m51 272r55
+266i5 info{59|6I8} 269m56
+270i9 i<long_integer> 271r16 273r11
+281i5 dim{59|6I8} 288r60
+282p5 lx0{20|17P8[50|4]} 283r33 283r44
+283i5 deg{59|6I8} 284r49
+284r5 res{49|16R8} 287r17 288m7 292m9 292r9 295r12
+287i9 i<long_integer> 288r15
+290i9 i<long_integer> 291r18 292r22 292r30
+291i11 j<long_integer> 292r17 292r33
+304r5 res{49|16R8} 340m5 341r12
+305i5 dim{59|6I8} 312r45 314r46
+306a5 t{20|16A8[50|4]} 308r50 308r73 309r50 309r73 310r41 311r36 319r16 334r31
+308a5 m{19|15A8[47|6]} 321r31 322r20
+309a5 v{22|14A8[52|5]} 321r33 322r22
+310a5 x{22|14A8[52|5]} 321m5 322r24 325r16 329r21
+311a5 r{20|16A8[31|4]} 322m5 327r16
+312a5 xt{22|14A8[52|5]} 329m5 332r16 335r44
+313a5 vdm{17|16A8[34|5]} 334m5 335r40
+314a5 cff{22|14A8[52|5]} 335m5 338r16 340r22
+346i5 fac{59|6I8} 352m7 352r16 354r35
+347r5 dd_res{26|14R8} 354m5 355r19
+348r5 res{15|19R8[37|5]} 355m5 356r12
+351i9 i<long_integer> 352r14
+363r5 one{26|14R8} 377r23 388r21 401r23
+364p5 lm0{17|17P8[34|5]} 365r33
+365i5 dim{59|6I8} 366r47 366r54
+366a5 res{17|16A8[34|5]} 375m7 380m9 380r20 384m9 384r16 387m7 392m9 392r16
+. 399m7 402m9 406m9 411m9 411r16 414r12
+367i5 npw{natural} 379r19
+368i5 idx{59|6I8} 395m7 396r10 397m13 399r16 402r30 402r37 405r30 405r49
+. 406r26 408r16
+369r5 pwt{15|19R8[37|5]} 377m9 379m9 380r16 383m9 383r16 384r22 388m7 390m9
+. 390r16 391r48 401m9 404m9 406r20 409m9 409r16 411r26
+369r9 fac{15|19R8[37|5]} 391m9 392r22 405m9 406r16 410m9 411r22
+382i11 i<long_integer> 384r28
+389i11 j<long_integer> 391r41 392r28
+408i11 i<long_integer> 410r30 410r47 411r32
+422p5 lmt{17|17P8[34|5]} 423r34
+423i5 adim{59|6I8} 424r34 426r47 426r55 434r21 434r32
+424i5 rdim{59|6I8} 425r47 425r55
+425a5 res{17|16A8[34|5]} 434m13 439r12
+426a5 wrk{17|16A8[34|5]} 431m9 432r18 433r20 434r43
+429i9 col<long_integer> 431r25 434r28
+430i11 row<long_integer> 431r29 434r17
+432i13 i<long_integer> 434r26 434r47
+433i15 j<long_integer> 434r37 434r49
+447p5 lv0{20|17P8[50|4]} 448r34 451r43
+448i5 adim{59|6I8} 449r34 464r17 475r19 476r15
+449i5 rdim{59|6I8} 450r46
+450a5 res{20|16A8[50|4]} 465m7 476m9 479r12
+451a5 wrk{20|16A8[50|4]} 459m5 462m7 462r14 465r17 468m7 473m9 473r16 476r26
+452r5 one{26|14R8} 453r36 469r21
+453r5 pwt{15|19R8[37|5]} 461m7 461r14 462r20 469m7 471m9 471r16 472r44
+454r5 fac{15|19R8[37|5]} 472m9 473r22
+460i9 i<long_integer> 462r26
+464i9 i<long_integer> 465r11 465r21
+467i9 i<long_integer> 468r24 468r29 470r16 472r26 472r41 476r13
+470i11 j<long_integer> 472r39 473r28
+475i11 j<long_integer> 476r20 476r30
+488i5 deg{59|6I8} 490r49 491r37 493r36 495r36 518r17
+489i5 dim{59|6I8} 491r44 498r46 519r19 520r23
+490r5 res{49|16R8} 522m7 524r12
+491i5 bigdim{59|6I8} 492r45 492r55 494r44 497r47 507r10 508r25 510r25 513r45
+. 514r47
+492a5 A{17|16A8[34|5]} 503r49 505r19 513m43 513r43 514r45
+494a5 b{20|16A8[50|4]} 504r58 514m59 514r59 516r51 520r19
+496i5 info{59|6I8} 513m57
+497a5 ipvt{20|16A8[62|4]} 513m52 514r54
+498a5 wrk{20|16A8[50|4]} 520m9 522r58
+499i5 rnk{59|6I8} 505m7 506r53 507r19
+518i9 k<long_integer> 520r21 522r15
+519i11 i<long_integer> 520r13 520r27
+531p5 lmt{17|17P8[34|5]} 532r33 533r33 548m7 550r18 551r20 552r41 558m7 560r18
+. 561r20 562r55
+532i5 nbr{59|6I8} 534r35 537r36 552r23 562r30
+533i5 nbc{59|6I8} 535r35 538r36 552r31 562r45
+534i5 nrows{59|6I8} 536r47 542r17
+535i5 ncols{59|6I8} 536r56 543r19
+536a5 res{17|16A8[34|5]} 544m9 552m13 562m13 567r12
+537i5 rowidx{59|6I8} 562r17
+538i5 colidx{59|6I8} 562r36
+539r5 zero{26|14R8} 544r28
+542i9 i<long_integer> 544r13
+543i11 j<long_integer> 544r15
+547i9 k<long_integer> 548r16 552r18
+549i11 L<long_integer> 552r20 552r29
+550i13 i<long_integer> 552r27 552r45
+551i15 j<long_integer> 552r35 552r47
+557i9 k<long_integer> 558r16 559r28 562r25
+559i11 L<long_integer> 562r27 562r43
+560i13 i<long_integer> 562r34 562r59
+561i15 j<long_integer> 562r49 562r61
+574p5 lv{20|17P8[50|4]} 575r33 586m7 587r16 588r29
+575i5 nvr{59|6I8} 576r33 578r33 588r19
+576i5 dim{59|6I8} 577r46
+577a5 res{20|16A8[50|4]} 583m7 588m9 591r12
+578i5 idx{59|6I8} 582r17 588r13
+579r5 zero{26|14R8} 583r24
+582i9 k<long_integer> 583r11
+585i9 k<long_integer> 586r15 588r17
+587i11 i<long_integer> 588r23 588r32
+594U13 Write_Integer_Matrix 594b13 595>17 607l7 607t27 639s7
+595a17 A{17|16A8[34|5]} 601r14 602r16 603r53
+601i9 i<long_integer> 603r55
+602i11 j<long_integer> 603r57
+615i5 deg{59|6I8} 618r42 619r42 621r49 623r44 625r44 647r16
+616i5 nbr{59|6I8} 618r35
+617i5 nbc{59|6I8} 619r35 632r46 647r12 650r29
+618i5 nrows{59|6I8} 622r45 624r53 630r60 643r12
+619i5 ncols{59|6I8} 622r54 626r48 627r18 628r47 628r61 629r46 643r18
+620r5 zero{26|14R8} 627r34
+621r5 res{49|16R8} 648r17 652m7 654r12
+622a5 A{17|16A8[34|5]} 639r28 642m9 642r9 643m10 643r10
+624a5 b{20|16A8[50|4]} 640r58 643r30
+626a5 qraux{20|16A8[50|4]} 642m11 642r11 643r24
+628a5 jpvt{20|16A8[62|4]} 642m17 642r17
+629a5 sol{20|16A8[50|4]} 643m41 645r58 650r19
+630a5 rsd{20|16A8[50|4]} 643m45
+630a9 dum{20|16A8[50|4]} 643m32
+630a13 dum2{20|16A8[50|4]} 643m36
+630a18 dum3{20|16A8[50|4]} 643m49
+631i5 info{59|6I8} 643m58
+631i10 idx{59|6I8} 647m5 650r23
+632a5 wrk{20|16A8[50|4]} 649r16 650m9 652r58
+648i9 k<long_integer> 650r27 652r15
+649i11 i<long_integer> 650r13 650r33
+X 56 quaddobl_random_numbers.ads
+6K9*QuadDobl_Random_Numbers 55|4w6 83r36 56|67e28
+47V12*Random1{15|19R8[37|5]} 55|83s60
+X 57 quaddobl_random_vectors.ads
+6K9*QuadDobl_Random_Vectors 55|5w6 307r10 57|59e28
+36V12*Random_Vector{20|16A8[50|4]} 55|307s34
+X 58 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 54|2w6 2r44 58|58e30
+13F8*double_float<long_float> 54|35r25 55|61r25 98r20 354r22
+X 59 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 54|1w6 1r44 59|45e29
+6I8*integer32<long_integer> 54|35r47 42r20 50r51 147r28 153r49 55|61r47 63r18
+. 64r18 65r19 70r20 71r12 81r20 89r18 90r18 91r19 96r20 97r16 121r51 175r20
+. 176r12 198r20 220r20 221r20 240r20 243r11 262r20 266r12 281r20 283r20 305r20
+. 344r28 346r11 360r49 365r20 368r11 423r21 424r21 448r21 449r21 488r20 489r20
+. 491r23 496r12 499r11 532r20 533r20 534r22 535r22 537r23 538r23 575r20 576r20
+. 578r20 603r23 615r20 616r20 617r20 618r22 619r22 631r16
+X 60 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 55|2w6 2r47 60|47e32
+26U13*put 55|114s37 506s49 508s21 510s21 603s19
+X 62 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[20|8] 55|6w6 177r12 265r12 497r12 628r12
+X 81 text_io.ads
+27K9*Text_IO=27:29 55|1w6 1r47
+

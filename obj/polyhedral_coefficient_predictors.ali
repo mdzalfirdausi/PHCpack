@@ -1,0 +1,98 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U polyhedral_coefficient_predictors%b  polyhedral_coefficient_predictors.adb  ad390f37 NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+
+U polyhedral_coefficient_predictors%s  polyhedral_coefficient_predictors.ads  0dd020ea EE NE OO PK
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D polyhedral_coefficient_predictors.ads  20260513024558 b79e356f polyhedral_coefficient_predictors%s
+D polyhedral_coefficient_predictors.adb  20260513024558 ed8cfe49 polyhedral_coefficient_predictors%b
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [predictor polyhedral_coefficient_predictors 11 13 none]
+G c Z s b [step_control polyhedral_coefficient_predictors 26 13 none]
+G c Z s b [step_control polyhedral_coefficient_predictors 31 13 none]
+G c Z s b [secant_predictor polyhedral_coefficient_predictors 62 13 none]
+G r c none [secant_predictor polyhedral_coefficient_predictors 62 13 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [secant_predictor polyhedral_coefficient_predictors 62 13 none] [Omultiply standard_complex_numbers 48 12 none]
+G r c none [secant_predictor polyhedral_coefficient_predictors 62 13 none] [Oadd standard_complex_numbers 51 12 none]
+X 2 generic_vectors.ads
+16A8*Vector(5|11R8)<9|6I8> 3|29r60[7|4] 34r63[7|4] 63r53[7|4] 64r50[7|4]
+. 4|18r60[7|4] 42r63[7|4] 65r53[7|4] 66r50[7|4]
+X 3 polyhedral_coefficient_predictors.ads
+5K9*Polyhedral_Coefficient_Predictors 79l5 79e38 4|3b14 76l5 76t38
+11U13*Predictor 11=25 11=27 4|5b13 13l7 13t16
+11f25 s{8|13F8} 4|5b25 7m5 7r10 8r8 9r17 10m11
+11f27 ds{8|13F8} 4|5b27 7r14 9m11 9r21 11m11 11r21
+26U13*Step_Control 27>17 27=36 27=38 28>17 28=43 29=17 29=19 4|15b13 37l7
+. 37t19
+27b17 fail{boolean} 4|16b17 25r8
+27f36 s{8|13F8} 4|16b36 26m7 26r12
+27f38 ds{8|13F8} 4|16b38 26r16 27m7 27r13 31r11 32m13 32r29
+28f17 max_ds{8|13F8} 4|17b17 31r16
+28i43 cnt{10|7I8} 4|17b43 29m7 31r29 35m7 35r14
+29a17 x{2|16A8[7|4]} 4|18b17 28m7 34r17
+29a19 backup{2|16A8[7|4]} 4|18b19 28r12 34m7
+31U13*Step_Control 32>17 32=36 32=38 33>17 33=43 34=17 34=19 34=26 4|39b13
+. 62l7 62t19
+32b17 fail{boolean} 4|40b17 49r8
+32f36 s{8|13F8} 4|40b36 50m7 50r12
+32f38 ds{8|13F8} 4|40b38 50r16 51m7 51r13 55r11 56m13 56r29
+33f17 max_ds{8|13F8} 4|41b17 55r16
+33i43 cnt{10|7I8} 4|41b43 53m7 55r29 60m7 60r14
+34a17 x{2|16A8[7|4]} 4|42b17 52m7 59r17
+34a19 backup{2|16A8[7|4]} 4|42b19 52r12 58r13 59m7
+34a26 px{2|16A8[7|4]} 4|42b26 58m7
+62U13*Secant_Predictor 63=17 64>17 65>17 4|64b13 74l7 74t23
+63a17 x{2|16A8[7|4]} 4|65b17 70r16 71m9 71r17 71r27
+64a17 px{2|16A8[7|4]} 4|66b17 71r34
+65f17 h{8|13F8} 4|67b17 69r8 71r24
+X 4 polyhedral_coefficient_predictors.adb
+20f5 expansion{8|13F8} 32r19
+21f5 reduction{8|13F8} 27r16
+22i5 threshold{10|7I8} 31r35
+44f5 expansion{8|13F8} 56r19
+45f5 reduction{8|13F8} 51r16
+46i5 threshold{10|7I8} 55r35
+70i11 i<long_integer> 71r11 71r19 71r29 71r37
+X 5 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 4|1w6 1r46 5|92e29
+48V13*"*"{11R8} 4|71s25
+51V13*"+"{11R8} 4|71s22
+53V13*"-"{11R8} 4|71s32
+X 7 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[2|8] 3|3w6 3r46 29r35 34r38 63r28 64r25 4|18r35
+. 42r38 65r28 66r25
+X 8 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 3|2w6 2r46 8|58e30
+13F8*double_float<long_float> 3|11r39 27r50 28r29 32r50 33r29 65r24 4|5r39
+. 16r50 17r29 20r26 21r26 40r50 41r29 44r26 45r26 67r24
+X 10 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 3|1w6 1r46 10|30e29
+7I8*natural32<long_integer> 3|28r56 33r56 4|17r56 22r26 41r56 46r26
+

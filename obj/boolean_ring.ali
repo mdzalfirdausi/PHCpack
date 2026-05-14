@@ -1,0 +1,44 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U boolean_ring%s	boolean_ring.ads	ffd6fd4c NE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W boolean_numbers%s	boolean_numbers.adb	boolean_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_ring.ads	20260513024558 5e587f54 boolean_ring%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c s s s [s boolean_ring 4 1 none]
+G r i none [s boolean_ring 4 1 none] [abstract_ring standard 25 9 none]
+X 1 abstract_ring.ads
+25k9*Abstract_Ring 25e29 3|2w6 5r7
+X 2 boolean_numbers.ads
+1K9*Boolean_Numbers 34e20 3|1w6 1r46
+7V12*Create{boolean} 3|5r40
+9V12*Equal{boolean} 3|5r47
+10U13*Copy 3|5r53
+12V13*"+"{boolean} 3|6r22
+13V13*"+"{boolean} 3|6r26
+14V13*"-"{boolean} 3|6r30
+15V13*"-"{boolean} 3|6r34
+16V13*"*"{boolean} 3|6r38
+18U13*Add 3|7r21
+19U13*Sub 3|7r25
+20U13*Min 3|7r29
+21U13*Mul 3|7r33
+32U13*Clear 3|7r37
+X 3 boolean_ring.ads
+4K9*Boolean_Ring[1|25]
+

@@ -1,0 +1,114 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U partitions_of_sets_strings%b  partitions_of_sets_strings.adb  30673b3f NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W sets_of_unknowns_strings%s  sets_of_unknowns_strings.adb  sets_of_unknowns_strings.ali
+W string_splitters%s	string_splitters.adb	string_splitters.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U partitions_of_sets_strings%s  partitions_of_sets_strings.ads  29fd0cbf EE NE OO PK
+W partitions_of_sets_of_unknowns%s  partitions_of_sets_of_unknowns.adb  partitions_of_sets_of_unknowns.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D partitions_of_sets_of_unknowns.ads  20260513024558 836df61b partitions_of_sets_of_unknowns%s
+D partitions_of_sets_strings.ads  20260513024558 abe79b75 partitions_of_sets_strings%s
+D partitions_of_sets_strings.adb  20260513024558 77c3f86a partitions_of_sets_strings%b
+D sets_of_unknowns.ads	20260513024558 4fd99d24 sets_of_unknowns%s
+D sets_of_unknowns_strings.ads  20260513024558 c4081f70 sets_of_unknowns_strings%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [to_string partitions_of_sets_strings 10 12 none]
+G c Z s b [number_of_sets partitions_of_sets_strings 15 12 none]
+G c Z s b [parse partitions_of_sets_strings 20 12 none]
+G r c none [to_string partitions_of_sets_strings 10 12 none] [to_string sets_of_unknowns_strings 15 12 none]
+G r c none [to_string partitions_of_sets_strings 10 12 none] [append string_splitters 23 13 none]
+G r c none [to_string partitions_of_sets_strings 10 12 none] [clear string_splitters 75 13 none]
+G r s partition [parse partitions_of_sets_strings 20 12 none] [partitionIP partitions_of_sets_of_unknowns 10 8 none]
+G r c none [parse partitions_of_sets_strings 20 12 none] [parse sets_of_unknowns_strings 20 12 none]
+X 15 partitions_of_sets_of_unknowns.ads
+4K9*Partitions_of_Sets_of_Unknowns 58e35 16|2w6 2r46
+10A8*Partition(18|9P8)<20|7I8> 16|10r28 20r55 17|6r28 35r55 37r11
+X 16 partitions_of_sets_strings.ads
+4K9*Partitions_of_Sets_Strings 27l5 27e31 17|4b14 62l5 62t31
+10V12*to_String{string} 10>24 17|6b12 20l7 20t16
+10a24 z{15|10A8} 17|6b24 11r14 12r70
+15V12*Number_of_Sets{20|7I8} 15>29 17|22b12 33l7 33t21 37s24
+15a29 s{string} 17|22b29 27r14 28r10
+20V12*Parse{15|10A8} 20>20 20>32 17|35b12 60l7 60t12
+20a20 s{string} 17|35b20 37r39 39r26 44r14 46r27 50r50 52r14 54r30 56r28
+20i32 n{20|7I8} 17|35b32 49r24 50r67
+X 17 partitions_of_sets_strings.adb
+8p5 res{21|11P8} 12m31 12r31 15r35 17m30 17r30
+11i9 i<long_integer> 12r72
+15a7 result{string} 18r14
+24i5 res{20|7I8} 29m13 29r20 32r12
+27i9 i{integer} 28r12
+37a5 res{15|10A8} 50m7 59r12
+38i5 ind{20|7I8} 48m7 48r14 49r18 50r11
+39i5 current{integer} 40r23 50r52 51m7 52r16 53m9 53r20 54r20 56r18 57r15
+40i5 next{integer} 44r16 45m9 45r17 46r20 50r61 51r18 57m7
+X 18 sets_of_unknowns.ads
+9P8*Set
+X 19 sets_of_unknowns_strings.ads
+4K9*Sets_of_Unknowns_Strings 17|2w6 12r35 50r19 19|34e29
+15V12*to_String{string} 17|12s60
+20V12*Parse{18|9P8} 17|50s44
+X 20 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 16|1w6 1r46 20|30e29
+7I8*natural32<long_integer> 16|15r49 20r36 17|22r49 24r11 35r36 38r11
+X 21 string_splitters.ads
+3K9*String_Splitters 17|1w6 8r11 12r7 17r7 21|82e21
+11P8*Link_to_String(string) 17|8r28
+23U13*Append 17|12s24
+75U13*Clear 17|17s24
+

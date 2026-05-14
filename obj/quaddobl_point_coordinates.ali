@@ -1,0 +1,215 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_point_coordinates%b  quaddobl_point_coordinates.adb  beee08b2 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U quaddobl_point_coordinates%s  quaddobl_point_coordinates.ads  986cf26d EE NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W quaddobl_complex_vecvecs%s  quaddobl_complex_vecvecs.ads  quaddobl_complex_vecvecs.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_point_coordinates.ads  20260513024556 60be8440 quaddobl_point_coordinates%s
+D quaddobl_point_coordinates.adb  20260513024556 de508cf2 quaddobl_point_coordinates%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [affine_coordinates quaddobl_point_coordinates 17 12 none]
+G c Z s b [projective_coordinates quaddobl_point_coordinates 23 12 none]
+G c Z s b [max_norm quaddobl_point_coordinates 29 13 none]
+G c Z s b [scale quaddobl_point_coordinates 35 13 none]
+G c Z s b [affine_expand quaddobl_point_coordinates 40 12 none]
+G c Z s b [affine_expand quaddobl_point_coordinates 45 12 none]
+G c Z s b [affine_expand quaddobl_point_coordinates 51 12 none]
+G c Z s b [projective_expand quaddobl_point_coordinates 59 12 none]
+G c Z s b [inner_product quaddobl_point_coordinates 66 12 none]
+G c Z s b [project quaddobl_point_coordinates 71 12 none]
+G c Z s b [project quaddobl_point_coordinates 78 12 none]
+G r c none [affine_coordinates quaddobl_point_coordinates 17 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [projective_coordinates quaddobl_point_coordinates 23 12 none] [create quad_double_numbers 37 12 none]
+G r c none [projective_coordinates quaddobl_point_coordinates 23 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [max_norm quaddobl_point_coordinates 29 13 none] [absval quaddobl_complex_numbers 35 12 5_1]
+G r c none [max_norm quaddobl_point_coordinates 29 13 none] [Ogt quad_double_numbers 133 12 none]
+G r c none [scale quaddobl_point_coordinates 35 13 none] [create quad_double_numbers 37 12 none]
+G r c none [scale quaddobl_point_coordinates 35 13 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [scale quaddobl_point_coordinates 35 13 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [affine_expand quaddobl_point_coordinates 40 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [affine_expand quaddobl_point_coordinates 40 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [affine_expand quaddobl_point_coordinates 45 12 none] [Omultiply quaddobl_complex_vectors 39 12 4_1]
+G r c none [affine_expand quaddobl_point_coordinates 45 12 none] [Oadd quaddobl_complex_vectors 29 12 4_1]
+G r c none [affine_expand quaddobl_point_coordinates 51 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [affine_expand quaddobl_point_coordinates 51 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [projective_expand quaddobl_point_coordinates 59 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [projective_expand quaddobl_point_coordinates 59 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [inner_product quaddobl_point_coordinates 66 12 none] [create quad_double_numbers 37 12 none]
+G r c none [inner_product quaddobl_point_coordinates 66 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [inner_product quaddobl_point_coordinates 66 12 none] [conjugate quaddobl_complex_numbers 28 12 5_1]
+G r c none [inner_product quaddobl_point_coordinates 66 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [inner_product quaddobl_point_coordinates 66 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [project quaddobl_point_coordinates 71 12 none] [Osubtract quaddobl_complex_vectors 35 12 4_1]
+G r c none [project quaddobl_point_coordinates 71 12 none] [create quad_double_numbers 37 12 none]
+G r c none [project quaddobl_point_coordinates 71 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [project quaddobl_point_coordinates 71 12 none] [conjugate quaddobl_complex_numbers 28 12 5_1]
+G r c none [project quaddobl_point_coordinates 71 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [project quaddobl_point_coordinates 71 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [project quaddobl_point_coordinates 78 12 none] [create quad_double_numbers 37 12 none]
+G r c none [project quaddobl_point_coordinates 78 12 none] [Osubtract quaddobl_complex_numbers 60 12 5_1]
+G r c none [project quaddobl_point_coordinates 78 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [project quaddobl_point_coordinates 78 12 none] [conjugate quaddobl_complex_numbers 28 12 5_1]
+G r c none [project quaddobl_point_coordinates 78 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [project quaddobl_point_coordinates 78 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+X 4 generic_complex_numbers.ads
+19R8*Complex_Number 16|40r32[12|5] 66r50[12|5] 17|56r32[12|5] 103r50[12|5]
+. 106r11[12|5]
+26V12*Create{19R8[12|5]} 17|20s15[12|5] 53s15[12|5] 106s29[12|5] 138s17[12|5]
+28V12*Conjugate{19R8[12|5]} 17|110s25[12|5] 140s33[12|5]
+35V12*AbsVal{8|14R8} 17|32s12[12|5] 34s14[12|5]
+58V13*"+"{19R8[12|5]} 17|83s26[12|5] 97s26[12|5] 110s18[12|5] 140s26[12|5]
+60V13*"-"{19R8[12|5]} 17|135s20[12|5]
+62V13*"*"{19R8[12|5]} 17|83s32[12|5] 95s21[12|5] 97s32[12|5] 110s24[12|5]
+. 140s32[12|5]
+63V13*"/"{19R8[12|5]} 17|9s21[12|5] 48s19[12|5] 51s19[12|5]
+X 5 generic_matrices.ads
+16A8*Matrix(4|19R8[12|5])<19|6I8><19|6I8> 16|51r44[11|5] 59r48[11|5] 78r38[11|5]
+. 17|75r44[11|5] 89r48[11|5] 127r38[11|5]
+X 6 generic_vectors.ads
+16A8*Vector(4|19R8[12|5])<19|6I8> 16|17r37[14|4] 17r53[14|4] 23r41[14|4]
+. 23r57[14|4] 29r31[14|4] 35r32[14|4] 40r54[14|4] 40r70[14|4] 45r34[14|4]
+. 45r62[14|4] 51r32[14|4] 51r60[14|4] 59r36[14|4] 59r64[14|4] 66r34[14|4]
+. 71r28[14|4] 71r56[14|4] 78r26[14|4] 78r54[14|4] 17|3r37[14|4] 3r53[14|4]
+. 5r11[14|4] 14r41[14|4] 14r57[14|4] 16r11[14|4] 25r31[14|4] 42r32[14|4]
+. 56r54[14|4] 56r70[14|4] 58r20[14|4] 64r34[14|4] 64r62[14|4] 66r11[14|4]
+. 75r32[14|4] 75r60[14|4] 77r11[14|4] 89r36[14|4] 89r64[14|4] 91r11[14|4]
+. 103r34[14|4] 115r28[14|4] 115r56[14|4] 117r18[14|4] 118r11[14|4] 127r26[14|4]
+. 127r54[14|4] 129r11[14|4] 130r9[14|4]
+17P8*Link_to_Vector(16A8[14|4])
+29V13*"+"{16A8[14|4]} 17|58s41[14|4] 70s18[14|4]
+35V13*"-"{16A8[14|4]} 17|117s38[14|4]
+39V13*"*"{16A8[14|4]} 17|58s44[14|4] 70s24[14|4]
+X 7 generic_vecvecs.ads
+14A8*VecVec(6|17P8[14|4])<19|6I8> 16|45r46[15|5] 71r40[15|5] 17|64r46[15|5]
+. 115r40[15|5]
+X 8 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 16|2w6 2r45
+14R8*quad_double 253e13 16|30r55 17|17r20 26r55 28r11 44r20 105r21 131r21
+37V12*Create{14R8} 17|17s35 44s35 105s36 131s36
+133V13*">"{boolean} 17|35s14
+X 11 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[5|9] 16|6w6 6r45
+X 12 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[4|11] 16|3w6 3r45
+X 14 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[6|8] 16|4w6 4r45
+X 15 quaddobl_complex_vecvecs.ads
+5K9*QuadDobl_Complex_VecVecs[7|10] 16|5w6 5r45
+X 16 quaddobl_point_coordinates.ads
+8K9*QuadDobl_Point_Coordinates 85l5 85e31 17|1b14 146l5 146t31
+17V12*Affine_Coordinates{6|16A8[14|4]} 17>33 17|3b12 12l7 12t25
+17a33 x{6|16A8[14|4]} 17|3b33 5r21 9r17 9r22
+23V12*Projective_Coordinates{6|16A8[14|4]} 23>37 17|14b12 23l7 23t29
+23a37 x{6|16A8[14|4]} 17|14b37 16r21 21r9 21r21
+29U13*Max_Norm 29>24 30<24 30<45 17|25b13 40l7 40t15
+29a24 x{6|16A8[14|4]} 17|25b24 31r12 32r19 33r14 33r25 34r21
+30i24 ind{19|6I8} 17|26b24 31m5 32r21 37m9
+30r45 nrm{8|14R8} 17|26b45 32m5 35r16 36m9
+35U13*Scale 35=21 35>40 17|42b13 54l7 54t12
+35a21 x{6|16A8[14|4]} 17|42b21 47r14 48m7 48r15 48r20 50r21 51m7 51r15 51r20
+. 53m5
+35i40 ind{19|6I8} 17|42b40 47r23 48r22 50r14 51r22 53r7
+40V12*Affine_Expand{6|16A8[14|4]} 40>28 40>48 40>50 17|56b12 62l7 62t20
+40r28 c{4|19R8[12|5]} 17|56b28 58r43
+40a48 b{6|16A8[14|4]} 17|56b48 58r27 58r39
+40a50 v{6|16A8[14|4]} 17|56b50 58r45
+45V12*Affine_Expand{6|16A8[14|4]} 45>28 45>30 45>42 17|64b12 73l7 73t20
+45a28 c{6|16A8[14|4]} 17|64b28 70r20
+45a30 b{6|16A8[14|4]} 17|64b30 66r18 66r30
+45a42 v{7|14A8[15|5]} 17|64b42 69r14 70r25
+51V12*Affine_Expand{6|16A8[14|4]} 51>28 51>40 17|75b12 87l7 87t20
+51a28 c{6|16A8[14|4]} 17|75b28 83r28
+51a40 p{5|16A8[11|5]} 17|75b40 77r18 81r17 82r19 83r33
+59V12*Projective_Expand{6|16A8[14|4]} 59>32 59>44 17|89b12 101l7 101t24
+59a32 c{6|16A8[14|4]} 17|89b32 95r17 97r28
+59a44 p{5|16A8[11|5]} 17|89b44 91r18 95r22 96r19 97r33
+66V12*Inner_Product{4|19R8[12|5]} 66>28 66>30 17|103b12 113l7 113t20 122s17
+66a28 u{6|16A8[14|4]} 17|103b28 109r14 110r20
+66a30 v{6|16A8[14|4]} 17|103b30 110r35
+71V12*Project{6|16A8[14|4]} 71>22 71>24 71>36 17|115b12 125l7 125t14
+71a22 x{6|16A8[14|4]} 17|115b22 117r37
+71a24 b{6|16A8[14|4]} 17|115b24 117r25 117r39
+71a36 v{7|14A8[15|5]} 17|115b36 118r18 122r33
+78V12*Project{6|16A8[14|4]} 78>22 78>34 17|127b12 144l7 144t14
+78a22 x{6|16A8[14|4]} 17|127b22 135r15
+78a34 p{5|16A8[11|5]} 17|127b34 129r21 130r16 134r14 135r22 140r43
+X 17 quaddobl_point_coordinates.adb
+5a5 res{6|16A8[14|4]} 8r14 9m7 11r12
+8i9 i<long_integer> 9r11 9r19
+16a5 res{6|16A8[14|4]} 20m5 21m5 22r12
+17r5 one{8|14R8} 20r22
+28r5 tmp{8|14R8} 34m7 35r10 36r16
+33i9 i<long_integer> 34r23 37r16
+44r5 one{8|14R8} 53r22
+47i9 k<long_integer> 48r9 48r17
+50i9 k<long_integer> 51r9 51r17
+58a5 res{6|16A8[14|4]} 61r12
+66a5 res{6|16A8[14|4]} 70m7 70r14 72r12
+69i9 i<long_integer> 70r22 70r27
+77a5 res{6|16A8[14|4]} 80r14 81m7 83m9 83r19 86r12
+80i9 i<long_integer> 81r11 81r19 83r13 83r23 83r35
+82i11 j<long_integer> 83r30 83r37
+91a5 res{6|16A8[14|4]} 94r14 95m7 97m9 97r19 100r12
+94i9 i<long_integer> 95r11 95r24 97r13 97r23 97r35
+96i11 j<long_integer> 97r30 97r37
+105r5 zero{8|14R8} 106r36
+106r5 res{4|19R8[12|5]} 110m7 110r14 112r12
+109i9 i<long_integer> 110r22 110r37
+117a5 y{6|16A8[14|4]} 122r31
+118a5 res{6|16A8[14|4]} 121r14 122m7 124r12
+121i9 i<long_integer> 122r11 122r35
+129a5 res{6|16A8[14|4]} 137r14 138m7 140m9 140r19 143r12
+130a5 y{6|16A8[14|4]} 135m7 139r16 140r28
+131r5 zero{8|14R8} 138r24
+134i9 i<long_integer> 135r9 135r17 135r24
+137i9 i<long_integer> 138r11 140r13 140r23 140r47
+139i11 j<long_integer> 140r30 140r45
+X 19 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 16|1w6 1r45 19|45e29
+6I8*integer32<long_integer> 16|30r34 35r49 17|26r34 42r49
+

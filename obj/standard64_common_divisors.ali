@@ -1,0 +1,84 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_RECURSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard64_common_divisors%b  standard64_common_divisors.ads  d6300ee4 NE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z abstract_ring.domain%s  abstract_ring-domain.ads  abstract_ring-domain.ali
+W greatest_common_divisors%s  greatest_common_divisors.adb  greatest_common_divisors.ali  ED
+W standard_integer64_ring%s  standard_integer64_ring.ads  standard_integer64_ring.ali
+W standard_integer64_ring.ddomain%s  standard_integer64_ring-ddomain.ads  standard_integer64_ring-ddomain.ali
+
+U standard64_common_divisors%s  standard64_common_divisors.ads  d8e67a16 EB NE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+Z abstract_ring.domain%s  abstract_ring-domain.ads  abstract_ring-domain.ali
+W greatest_common_divisors%s  greatest_common_divisors.adb  greatest_common_divisors.ali
+W standard_integer64_ring%s  standard_integer64_ring.ads  standard_integer64_ring.ali
+W standard_integer64_ring.ddomain%s  standard_integer64_ring-ddomain.ads  standard_integer64_ring-ddomain.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D greatest_common_divisors.adb  20260513024558 2bb0362a greatest_common_divisors%b
+D standard64_common_divisors.ads  20260513024558 d6300ee4 standard64_common_divisors%s
+D standard64_common_divisors.ads  20260513024558 d6300ee4 standard64_common_divisors%b
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_ring-ddomain.ads  20260513024558 592f7659 standard_integer64_ring.ddomain%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c s s s [s standard64_common_divisors 5 1 none]
+G c Z s s [gcd standard64_common_divisors 18 12 5_1]
+G c Z s s [lcm standard64_common_divisors 23 12 5_1]
+G c Z s s [gcd standard64_common_divisors 28 13 5_1]
+G c Z s s [pos_gcd standard64_common_divisors 5 12 5_1]
+G c Z s s [pos_gcd standard64_common_divisors 63 13 5_1]
+G r i none [s standard64_common_divisors 5 1 none] [greatest_common_divisors standard 9 9 none]
+G r c none [gcd standard64_common_divisors 18 12 5_1] [create standard_integer_numbers 10 12 none]
+G r c none [gcd standard64_common_divisors 18 12 5_1] [equal standard_integer_numbers 13 12 none]
+G r c none [gcd standard64_common_divisors 18 12 5_1] [copy standard_integer_numbers 15 13 none]
+G r c none [gcd standard64_common_divisors 18 12 5_1] [rmd standard_integer_numbers 27 13 none]
+G r c none [gcd standard64_common_divisors 18 12 5_1] [clear standard_integer_numbers 43 13 none]
+G r c none [lcm standard64_common_divisors 23 12 5_1] [create standard_integer_numbers 10 12 none]
+G r c none [lcm standard64_common_divisors 23 12 5_1] [equal standard_integer_numbers 13 12 none]
+G r c none [lcm standard64_common_divisors 23 12 5_1] [copy standard_integer_numbers 15 13 none]
+G r c none [lcm standard64_common_divisors 23 12 5_1] [rmd standard_integer_numbers 27 13 none]
+G r c none [lcm standard64_common_divisors 23 12 5_1] [clear standard_integer_numbers 43 13 none]
+G r c none [lcm standard64_common_divisors 23 12 5_1] [mul standard_integer_numbers 24 13 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [equal standard_integer_numbers 13 12 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [create standard_integer_numbers 10 12 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [min standard_integer_numbers 22 13 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [copy standard_integer_numbers 15 13 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [rmd standard_integer_numbers 27 13 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [div standard_integer_numbers 32 13 none]
+G r c none [gcd standard64_common_divisors 28 13 5_1] [clear standard_integer_numbers 43 13 none]
+G r c none [pos_gcd standard64_common_divisors 5 12 5_1] [create standard_integer_numbers 10 12 none]
+G r c none [pos_gcd standard64_common_divisors 5 12 5_1] [equal standard_integer_numbers 13 12 none]
+G r c none [pos_gcd standard64_common_divisors 5 12 5_1] [copy standard_integer_numbers 15 13 none]
+G r c none [pos_gcd standard64_common_divisors 5 12 5_1] [rmd standard_integer_numbers 27 13 none]
+G r c none [pos_gcd standard64_common_divisors 5 12 5_1] [clear standard_integer_numbers 43 13 none]
+G r c none [pos_gcd standard64_common_divisors 63 13 5_1] [rmd standard_integer_numbers 27 13 none]
+G r c none [pos_gcd standard64_common_divisors 63 13 5_1] [equal standard_integer_numbers 13 12 none]
+G r c none [pos_gcd standard64_common_divisors 63 13 5_1] [create standard_integer_numbers 10 12 none]
+G r c none [pos_gcd standard64_common_divisors 63 13 5_1] [copy standard_integer_numbers 15 13 none]
+G r c none [pos_gcd standard64_common_divisors 63 13 5_1] [div standard_integer_numbers 32 13 none]
+G r c none [pos_gcd standard64_common_divisors 63 13 5_1] [clear standard_integer_numbers 43 13 none]
+X 3 greatest_common_divisors.ads
+9k9*Greatest_Common_Divisors 34e29 6|3w6 6r7
+X 6 standard64_common_divisors.ads
+5K9*Standard64_Common_Divisors[3|9]
+X 7 standard_integer64_ring.ads
+4K9*Standard_Integer64_Ring[1|25] 6|1w6 2r6 6r32 7r32
+X 8 standard_integer64_ring-ddomain.ads
+5K33*DDomain[2|17] 6|2w30 7r56
+

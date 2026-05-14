@@ -1,0 +1,351 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U standard_continuation_data%b  standard_continuation_data.adb  9dbc24b6 NE OO PK
+Z generic_lists%s	generic_lists.adb	generic_lists.ali  ED
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U standard_continuation_data%s  standard_continuation_data.ads  b552ee80 EE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W generic_lists%s	generic_lists.adb	generic_lists.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists.adb	20260513024558 0da69663 generic_lists%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_continuation_data.ads  20260513024558 5caa45bb standard_continuation_data%s
+D standard_continuation_data.adb  20260513024558 e05377a9 standard_continuation_data%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s standard_continuation_data 7 1 none]
+G c Z s s [create standard_continuation_data__lists_of_solu_info_arrays 21 12 36_3]
+G c Z s s [construct standard_continuation_data__lists_of_solu_info_arrays 26 13 36_3]
+G c Z s s [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G c Z s s [swap_tail standard_continuation_data__lists_of_solu_info_arrays 38 13 36_3]
+G c Z s s [append standard_continuation_data__lists_of_solu_info_arrays 43 13 36_3]
+G c Z s s [concat standard_continuation_data__lists_of_solu_info_arrays 49 13 36_3]
+G c Z s s [copy standard_continuation_data__lists_of_solu_info_arrays 55 13 36_3]
+G c Z s s [is_equal standard_continuation_data__lists_of_solu_info_arrays 62 12 36_3]
+G c Z s s [length_of standard_continuation_data__lists_of_solu_info_arrays 67 12 36_3]
+G c Z s s [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G c Z s s [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G c Z s s [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G c Z s s [clear standard_continuation_data__lists_of_solu_info_arrays 93 13 36_3]
+G c Z s s [nodeIP standard_continuation_data__lists_of_solu_info_arrays 5 8 36_3]
+G c Z s s [set_next standard_continuation_data__lists_of_solu_info_arrays 14 13 36_3]
+G c Z s s [next_of standard_continuation_data__lists_of_solu_info_arrays 19 12 36_3]
+G c Z s s [free standard_continuation_data__lists_of_solu_info_arrays 24 13 36_3]
+G c Z s s [new_item standard_continuation_data__lists_of_solu_info_arrays 37 12 36_3]
+G c Z s b [shallow_create standard_continuation_data 42 12 none]
+G c Z s b [deep_create standard_continuation_data 43 12 none]
+G c Z s b [shallow_create standard_continuation_data 44 12 none]
+G c Z s b [deep_create standard_continuation_data 45 12 none]
+G c Z s b [shallow_create standard_continuation_data 46 12 none]
+G c Z s b [deep_create standard_continuation_data 47 12 none]
+G c Z s b [shallow_create standard_continuation_data 49 12 none]
+G c Z s b [deep_create standard_continuation_data 50 12 none]
+G c Z s b [shallow_create standard_continuation_data 51 12 none]
+G c Z s b [deep_create standard_continuation_data 52 12 none]
+G c Z s b [shallow_create standard_continuation_data 53 12 none]
+G c Z s b [deep_create standard_continuation_data 54 12 none]
+G c Z s b [create standard_continuation_data 60 12 none]
+G c Z s b [create standard_continuation_data 61 12 none]
+G c Z s b [create standard_continuation_data 66 12 none]
+G c Z s b [append standard_continuation_data 74 13 none]
+G c Z s b [concat standard_continuation_data 83 12 none]
+G c Z s b [copy_info standard_continuation_data 91 13 none]
+G c Z s b [copy_solu standard_continuation_data 92 13 none]
+G c Z s b [copy standard_continuation_data 93 13 none]
+G c Z s b [init_info standard_continuation_data 98 13 none]
+G c Z s b [add_info standard_continuation_data 103 13 none]
+G c Z s b [update_info standard_continuation_data 108 13 none]
+G c Z s b [copy standard_continuation_data 116 13 none]
+G c Z s b [copy standard_continuation_data 117 13 none]
+G c Z s b [clear standard_continuation_data 123 13 none]
+G c Z s b [clear standard_continuation_data 124 13 none]
+G c Z s b [deep_clear standard_continuation_data 129 13 none]
+G c Z s b [shallow_clear standard_continuation_data 130 13 none]
+G c Z s b [deep_clear standard_continuation_data 131 13 none]
+G c Z s b [shallow_clear standard_continuation_data 132 13 none]
+G c Z s s [solu_infoIP standard_continuation_data 18 8 none]
+G c Z s s [solu_info_arrayIP standard_continuation_data 34 8 none]
+G r i none [s standard_continuation_data 7 1 none] [generic_lists standard 7 9 none]
+G r c none [shallow_create standard_continuation_data 46 12 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [shallow_create standard_continuation_data 46 12 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [shallow_create standard_continuation_data 46 12 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [deep_create standard_continuation_data 47 12 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [deep_create standard_continuation_data 47 12 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [deep_create standard_continuation_data 47 12 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r s solution_array [shallow_create standard_continuation_data 51 12 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r s solution_array [deep_create standard_continuation_data 52 12 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r c none [shallow_create standard_continuation_data 53 12 none] [append standard_complex_solutions 116 13 none]
+G r c none [deep_create standard_continuation_data 54 12 none] [append standard_complex_solutions 123 13 none]
+G r c none [create standard_continuation_data 66 12 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [create standard_continuation_data 66 12 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [create standard_continuation_data 66 12 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [create standard_continuation_data 66 12 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [concat standard_continuation_data 83 12 none] [append standard_complex_solutions 116 13 none]
+G r c none [copy_solu standard_continuation_data 92 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [copy standard_continuation_data 93 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [copy standard_continuation_data 116 13 none] [clear standard_complex_solutions 189 13 none]
+G r c none [copy standard_continuation_data 117 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [clear standard_continuation_data 123 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [clear standard_continuation_data 124 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [deep_clear standard_continuation_data 129 13 none] [clear standard_complex_solutions 190 13 none]
+G r c none [deep_clear standard_continuation_data 131 13 none] [clear standard_complex_solutions 190 13 none]
+X 11 generic_lists.ads
+7k9*Generic_Lists 104e18 20|4w6 37r9
+12P8*List 20|38r62[36] 21|337r63[20|36] 342r63[20|36]
+26U13*Construct 21|157s5[20|36]
+43U13*Append 21|204s5[20|36]
+67V12*Length_Of{24|7I8} 21|59s40[18|27] 72s40[18|27] 167s8[18|27]
+72V12*Is_Null{boolean} 21|180s19[18|27] 215s15[20|36] 329s15[20|36]
+77V12*Head_Of{18|25P8} 21|64s32[18|27] 77s29[18|27] 187s49[18|27] 217s51[20|36]
+. 331s42[20|36]
+84V12*Tail_Of{12P8[18|27]} 21|65s14[18|27] 78s14[18|27] 188s18[18|27] 223s14[20|36]
+. 335s14[20|36]
+93U13*Clear 21|337s31[20|36] 342s31[20|36]
+X 18 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 206e31 20|5w6 5r46
+16R8*Solution 23e13 20|43r33 50r52 21|22r30 27r20 91r49 116r21 242r19 281r20
+. 289r23
+20f5*err{22|13F8} 21|16r19 29r19 85m11 93m11
+21f5*rco{22|13F8} 21|17r20 30r20 86m11 94m11
+22f5*res{22|13F8} 21|18r19 31r19 87m11 95m11
+25P8*Link_to_Solution(16R8) 20|20r11 42r33 49r52 21|9r33 83r52
+28P8*Solution_List<11|12P8[27]> 20|46r33 47r33 53r58 54r58 66r25 83r55 21|57r33
+. 60r11 70r30 73r11 121r58 123r20 132r55 134r20 161r25 175r15 209r55 211r20
+30A8*Solution_Array(25P8)<23|6I8> 20|44r33 45r33 51r58 52r58 116r56 117r28
+. 21|35r33 46r30 99r58 101r11 110r55 112r11 277r56 285r28
+116U13*Append<11|43p13> 21|127s7 220s11
+123U13*Append 21|138s7
+189U13*Clear 21|279s5
+190U13*Clear 21|241s5 288s7 297s5
+X 20 standard_continuation_data.ads
+7K9*Standard_Continuation_Data 138l5 138e31 21|3b14 345l5 345t31
+18R8*Solu_Info 32e13 34r59 42r59 43r51 49r33 50r33 91r33 91r56 92r33 92r56
+. 93r33 93r56 98r36 103r36 103r55 108r39 108r58 123r32 21|9r59 11r11 22r48
+. 24r11 83r33 91r30 230r33 230r56 239r33 239r56 245r28 245r51 251r36 258r36
+. 258r55 267r39 267r58 295r32
+20p5*sol{18|25P8} 21|14m9 27m9 85r7 86r7 87r7 88r14 93r7 94r7 95r7 96r14
+. 179m30 241m14 242m8 242r32 281r35 288m18 289m12 297m13
+22f5*corr{22|13F8} 21|232m8 232r19 253m7 269m8 269r19
+22f10*cora{22|13F8} 21|16m9 29m9 85r20 93r20 232m28 232r39 253m22 269m28
+. 269r39
+22f15*resr{22|13F8} 21|233m8 233r19 253m37 270m8 270r19
+22f20*resa{22|13F8} 21|18m9 31m9 87r20 95r20 233m28 233r39 253m52 270m28
+. 270r39
+22f25*rcond{22|13F8} 21|17m9 30m9 86r20 94r20 234m8 234r20 253m67 271m8 271r20
+27f5*length_path{22|13F8} 21|234m31 234r49 254m7 264m8 264r26 264r43
+29i5*nstep{24|7I8} 21|235m8 235r20 255m7 260m8 260r20 260r31
+29i11*nfail{24|7I8} 21|235m30 235r42 255m21 261m8 261r20 261r31
+29i17*niter{24|7I8} 21|236m8 236r20 255m35 262m8 262r20 262r31 263r31
+29i23*nsyst{24|7I8} 21|236m30 236r42 255m49 263m8 263r20
+34A8*Solu_Info_Array(18R8)<23|6I8> 35r42 44r57 45r57 46r57 47r57 51r33 52r33
+. 53r33 54r33 60r25 75r30 116r27 117r55 124r32 21|35r57 37r11 46r54 48r11
+. 57r57 59r11 70r54 72r11 99r33 110r30 121r33 132r30 143r25 145r50 169r23
+. 177r18 199r30 201r51 277r27 285r55 300r32 318r34
+35P8*Link_to_Solu_Info_Array(34A8) 37r23 61r25 129r37 130r40 21|145r19 151r25
+. 201r20 217r24 307r37 315r40 318r50 331r15
+36K11*Lists_of_Solu_Info_Arrays[11|7] 38r36 21|5r7 337r5 337r37 342r5 342r37
+38P8*Solu_Info_Array_List<11|12P8[36]> 60r50 61r58 67r26 74r42 83r25 131r37
+. 132r40 21|143r50 152r26 154r11 162r26 164r20 198r42 209r25 212r11 324r37
+. 326r11 340r40
+42V12*Shallow_Create{18R8} 42>29 21|9b12 20l7 20t21 41s17 64s17
+42p29 s{18|25P8} 21|9b29 14r16 16r17 17r18 18r17
+43V12*Deep_Create{18R8} 43>29 21|22b12 33l7 33t18 52s17 77s17 187s37
+43r29 s{18|16R8} 21|22b26 27r30 29r17 30r18 31r17
+44V12*Shallow_Create{34A8} 44>29 21|35b12 44l7 44t21
+44a29 s{18|30A8} 21|35b29 37r27 41r32
+45V12*Deep_Create{34A8} 45>29 21|46b12 55l7 55t18
+45a29 s{18|30A8} 21|46b26 48r27 52r29
+46V12*Shallow_Create{34A8} 46>29 21|57b12 68l7 68t21
+46p29 s{18|28P8} 21|57b29 59r50 60r28
+47V12*Deep_Create{34A8} 47>29 21|70b12 81l7 81t18 169s42
+47p29 s{18|28P8} 21|70b26 72r50 73r28
+49V12*Shallow_Create{18|25P8} 49>29 21|83b12 89l7 89t21 105s17 127s27 220s31
+49r29 s{18R8} 21|83b29 85m5 85r5 85r18 86m5 86r5 86r18 87m5 87r5 87r18 88r12
+50V12*Deep_Create{18|16R8} 50>29 21|91b12 97l7 97t18 116s31 138s27
+50r29 s{18R8} 21|91b26 93m5 93r5 93r18 94m5 94r5 94r18 95m5 95r5 95r18 96r12
+51V12*Shallow_Create{18|30A8} 51>29 21|99b12 108l7 108t21
+51a29 s{34A8} 21|99b29 101r26 104r14 105r32
+52V12*Deep_Create{18|30A8} 52>29 21|110b12 119l7 119t18
+52a29 s{34A8} 21|110b26 112r26 115r14 116r43
+53V12*Shallow_Create{18|28P8} 53>29 21|121b12 130l7 130t21
+53a29 s{34A8} 21|121b29 126r14 127r42
+54V12*Deep_Create{18|28P8} 54>29 21|132b12 141l7 141t18
+54a29 s{34A8} 21|132b26 137r14 138r39
+60V12*Create{38P8} 60>21 21|143b12 149l7 149t13 171s16
+60a21 s{34A8} 21|143b21 145r67
+61V12*Create{38P8}<11|21p12> 61>21 21|148s12 151b12 159l7 159t13
+61p21 s{35P8} 21|151b21 157r15
+66V12*Create{38P8} 66>21 66>40 21|161b12 196l7 196t13
+66p21 s{18|28P8} 21|161b21 167r18 169r54 175r32
+66i40 size{24|7I8} 21|161b40 167r24 177r47 181r20
+74U13*Append 74=22 74=28 75>22 21|184s13 191s15 198b13 205l7 205t13
+74p22 first{38P8} 21|198b22 204m12
+74p28 last{38P8} 21|198b28 204m18
+75a22 sa{34A8} 21|199b22 201r68
+83V12*Concat{18|28P8} 83>21 21|209b12 226l7 226t13
+83p21 s{38P8} 21|209b21 212r35
+91U13*Copy_Info 91>25 91=44 21|230b13 237l7 237t16 247s5
+91r25 s1{18R8} 21|230b25 232r16 232r36 233r16 233r36 234r17 234r46 235r17
+. 235r39 236r17 236r39
+91r44 s2{18R8} 21|230b44 232m5 232m25 233m5 233m25 234m5 234m28 235m5 235m27
+. 236m5 236m27
+92U13*Copy_Solu 92>25 92=44 21|239b13 243l7 243t16 248s5
+92r25 s1{18R8} 21|239b25 242r29
+92r44 s2{18R8} 21|239b44 241m11 241r11 242m5
+93U13*Copy 93>25 93=44 21|245b13 249l7 249t11
+93r25 s1{18R8} 21|245b20 247r15 248r15
+93r44 s2{18R8} 21|245b39 247m18 248m18
+98U13*Init_Info 98=25 21|15s5 28s5 251b13 256l7 256t16
+98r25 s{18R8} 21|251b25 253m5 253m20 253m35 253m50 253m65 254m5 255m5 255m19
+. 255m33 255m47
+103U13*Add_Info 103=24 103>47 21|258b13 265l7 265t15 272s5
+103r24 s1{18R8} 21|258b24 260m5 260r17 261m5 261r17 262m5 262r17 263m5 263r17
+. 264m5 264r23
+103r47 s2{18R8} 21|258b47 260r28 261r28 262r28 263r28 264r40
+108U13*Update_Info 108=27 108>50 21|267b13 273l7 273t18
+108r27 s1{18R8} 21|267b27 269m5 269m25 270m5 270m25 271m5 272m14
+108r50 s2{18R8} 21|267b50 269r16 269r36 270r16 270r36 271r17 272r17
+116U13*Copy 116>20 116=44 21|277b13 283l7 283t11
+116a20 s{34A8} 21|277b20 280r14 281r30
+116a44 sa{18|30A8} 21|277b44 279m11 281m7
+117U13*Copy 117>20 117=44 21|285b13 291l7 291t11
+117a20 sa{18|30A8} 21|285b20 287r14 289r33
+117a44 s{34A8} 21|285b44 288m13 288r13 289m7
+123U13*Clear 123=21 21|295b13 298l7 298t12 303s7
+123r21 s{18R8} 21|295b21 297m11 297r11
+124U13*Clear 124=21 21|300b13 305l7 305t12 310s11
+124a21 s{34A8} 21|300b21 302r14 303m13 303r13
+129U13*Deep_Clear 129=26 21|307b13 313l7 313t17 333s9
+129p26 s{35P8} 21|307b26 309r8 310r17 311m25
+130U13*Shallow_Clear 130=29 21|311s11 315b13 322l7 322t20
+130p29 s{35P8} 21|315b29 321m10
+131U13*Deep_Clear 131=26 21|324b13 338l7 338t17
+131p26 s{38P8} 21|324b26 326r35 337m68 337r68
+132U13*Shallow_Clear 132=29 21|340b13 343l7 343t20
+132p29 s{38P8} 21|340b29 342m68 342r68
+X 21 standard_continuation_data.adb
+11r5 res{20|18R8} 14m5 15m15 15r15 16m5 17m5 18m5 19r12
+24r5 res{20|18R8} 27m5 28m15 28r15 29m5 30m5 31m5 32r12
+37a5 res{20|34A8} 40r14 41m7 43r12
+40i9 k<long_integer> 41r11 41r34
+48a5 res{20|34A8} 51r14 52m7 54r12
+51i9 k<long_integer> 52r11 52r31
+59a5 res{20|34A8} 63r14 64m7 67r12
+60p5 tmp{18|28P8} 64r40 65m7 65r22
+63i9 k<long_integer> 64r11
+72a5 res{20|34A8} 76r14 77m7 80r12
+73p5 tmp{18|28P8} 77r37 78m7 78r22
+76i9 k<long_integer> 77r11
+101a5 res{18|30A8} 105m7 107r12
+104i9 k<long_integer> 105r11 105r34
+112a5 res{18|30A8} 116m7 118r12
+115i9 k<long_integer> 116r11 116r45
+123p5 res{18|28P8} 127m14 127r14 129r12
+123p9 res_last{18|28P8} 127m18 127r18
+126i9 k<long_integer> 127r44
+134p5 res{18|28P8} 138m14 138r14 140r12
+134p9 res_last{18|28P8} 138m18 138r18
+137i9 k<long_integer> 138r41
+145p5 ls{20|35P8} 148r19
+154p5 res{20|38P8} 157m17 157r17 158r12
+164p5 res{20|38P8} 171m9 184m20 184r20 191m22 191r22 195r12
+164p9 res_last{20|38P8} 184m24 184r24 191m26 191r26
+169a9 sa{20|34A8} 171r23
+175p9 tmp{18|28P8} 180r27 187r57 188m11 188r26
+176i9 cnt{24|7I8} 181r14 182m13 182r20 185m13 187r28 190r12 191r55
+177a9 buffer{20|34A8} 179m9 179r16 184r33 187m11 191r35
+201p5 lsa{20|35P8} 204r23
+211p5 res{18|28P8} 220m18 220r18 225r12
+211p9 res_last{18|28P8} 220m22 220r22
+212p5 tmp{20|38P8} 215r23 217r59 223m7 223r22
+217p9 lsa{20|35P8} 219r18 220r46
+219i13 i<long_integer> 220r50
+280i9 k<long_integer> 281r10 281r32
+287i9 k<long_integer> 288r15 289r9 289r36
+302i9 k<long_integer> 303r15
+317U15 free[42|22] 321s5
+326p5 tmp{20|38P8} 329r23 331r50 335m7 335r22
+331p9 lsa{20|35P8} 333m20 333r20
+X 22 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 20|3w6 3r46 22|58e30
+13F8*double_float<long_float> 20|22r33 27r19
+X 23 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 20|2w6 2r46 23|45e29
+6I8*integer32<long_integer> 20|34r35 21|59r30 72r30 177r37 187r18 191r45
+X 24 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 20|1w6 1r46 24|30e29
+7I8*natural32<long_integer> 20|29r31 66r47 21|161r47 176r15
+X 42 unchdeal.ads
+22u11*Unchecked_Deallocation 21|1w6 318r11
+

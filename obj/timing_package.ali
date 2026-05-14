@@ -1,0 +1,244 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U timing_package%b	timing_package.adb	e503abeb OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.fixed_aux%s
+Z ada.text_io.fixed_io%s
+Z ada.text_io.float_aux%s
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W integer_io%s		integer_io.ads		integer_io.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.img_fixed_128%s  s-imfi128.ads		s-imfi128.ali
+Z system.img_fixed_32%s	s-imfi32.ads		s-imfi32.ali
+Z system.img_fixed_64%s	s-imfi64.ads		s-imfi64.ali
+Z system.img_lflt%s	s-imglfl.ads		s-imglfl.ali
+Z system.img_util%s	s-imguti.adb		s-imguti.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_fixed_128%s  s-vafi128.ads		s-vafi128.ali
+Z system.val_fixed_32%s	s-vafi32.ads		s-vafi32.ali
+Z system.val_fixed_64%s	s-vafi64.ads		s-vafi64.ali
+Z system.val_lflt%s	s-vallfl.ads		s-vallfl.ali
+
+U timing_package%s	timing_package.ads	273520fa EE OO PK
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-assert.ads		20250808065140 ba465f5c ada.assertions%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20250808065140 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250808065140 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250808065140 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-tifiau.ads		20250808065140 c7e1e581 ada.text_io.fixed_aux%s
+D a-tifiau.adb		20250808065140 7fa0782d ada.text_io.fixed_aux%b
+D a-tifiio.ads		20250808065140 25dfe409 ada.text_io.fixed_io%s
+D a-tifiio.adb		20250808065140 fb68a800 ada.text_io.fixed_io%b
+D a-tiflau.ads		20250808065140 40ab5f5e ada.text_io.float_aux%s
+D a-tiflau.adb		20250808065140 1a734a41 ada.text_io.float_aux%b
+D a-tigeau.ads		20250808065140 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinio.ads		20250808065140 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D integer_io.ads	20260513024558 83adf5a5 integer_io%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D system.ads		20250808065140 a869df9e system%s
+D s-arit128.ads		20250808065140 239a85f5 system.arith_128%s
+D s-arit32.ads		20250808065140 e8522a76 system.arith_32%s
+D s-arit64.ads		20250808065140 e45973b2 system.arith_64%s
+D s-assert.ads		20250808065140 9c4520c7 system.assertions%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-imagef.ads		20250808065140 2a557a85 system.image_f%s
+D s-imager.ads		20250808065140 45c7157d system.image_r%s
+D s-imageu.ads		20250808065140 b0b50650 system.image_u%s
+D s-imfi128.ads		20250808065140 0549148b system.img_fixed_128%s
+D s-imfi32.ads		20250808065140 666e1d56 system.img_fixed_32%s
+D s-imfi64.ads		20250808065140 c2808cae system.img_fixed_64%s
+D s-imglfl.ads		20250808065140 941be202 system.img_lflt%s
+D s-imgllu.ads		20250808065140 55ba53d8 system.img_llu%s
+D s-imguti.ads		20250808065140 7719a4b9 system.img_util%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-powlfl.ads		20250808065140 ac0852c8 system.powten_lflt%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-vafi128.ads		20250808065140 41ba1fd5 system.val_fixed_128%s
+D s-vafi32.ads		20250808065140 ea663670 system.val_fixed_32%s
+D s-vafi64.ads		20250808065140 2ff3dc11 system.val_fixed_64%s
+D s-vallfl.ads		20250808065140 944236a7 system.val_lflt%s
+D s-valrea.ads		20250808065140 f0598c00 system.val_real%s
+D s-valspe.ads		20250808065140 f810d31c system.val_spec%s
+D s-valuef.ads		20250808065140 44d93748 system.value_f%s
+D s-vauspe.ads		20250808065140 89269ba5 system.value_u_spec%s
+D s-vs_llu.ads		20250808065140 8f3536c5 system.vs_llu%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D timing_package.adb	20260513024558 6029b62c timing_package%b
+G a e
+G c Z s b [tstart timing_package 20 13 none]
+G c Z s b [tstop timing_package 24 13 none]
+G c Z s b [elapsed_total_time timing_package 28 12 none]
+G c Z s b [elapsed_user_time timing_package 29 12 none]
+G c Z s b [elapsed_system_time timing_package 30 12 none]
+G c Z s b [print_time timing_package 34 13 none]
+G c Z s b [print_hms timing_package 39 13 none]
+G c Z s b [print_times timing_package 44 13 none]
+G c Z s b [print_times timing_package 49 13 none]
+G c Z s b [times_to_string timing_package 55 12 none]
+G c Z s s [array_of_durationIP timing_package 14 8 none]
+G c Z b b [get timing_package__duration_io 35 14 5_3]
+G c Z b b [get timing_package__duration_io 44 14 5_3]
+G c Z b b [put timing_package__duration_io 54 14 5_3]
+G c Z b b [put timing_package__duration_io 68 14 5_3]
+G c Z b b [get timing_package__duration_io 80 14 5_3]
+G c Z b b [put timing_package__duration_io 88 14 5_3]
+G c Z b b [get timing_package__duration_io__aux32 64 13 179_4_5_3]
+G c Z b b [put timing_package__duration_io__aux32 70 14 179_4_5_3]
+G c Z b b [gets timing_package__duration_io__aux32 81 13 179_4_5_3]
+G c Z b b [puts timing_package__duration_io__aux32 87 14 179_4_5_3]
+G c Z b b [get timing_package__duration_io__aux64 64 13 182_4_5_3]
+G c Z b b [put timing_package__duration_io__aux64 70 14 182_4_5_3]
+G c Z b b [gets timing_package__duration_io__aux64 81 13 182_4_5_3]
+G c Z b b [puts timing_package__duration_io__aux64 87 14 182_4_5_3]
+G c Z b b [get timing_package__duration_io__aux128 64 13 185_4_5_3]
+G c Z b b [put timing_package__duration_io__aux128 70 14 185_4_5_3]
+G c Z b b [gets timing_package__duration_io__aux128 81 13 185_4_5_3]
+G c Z b b [puts timing_package__duration_io__aux128 87 14 185_4_5_3]
+G c Z b b [get timing_package__duration_io__aux_long_float 58 14 188_4_5_3]
+G c Z b b [put timing_package__duration_io__aux_long_float 63 14 188_4_5_3]
+G c Z b b [gets timing_package__duration_io__aux_long_float 70 14 188_4_5_3]
+G c Z b b [puts timing_package__duration_io__aux_long_float 75 14 188_4_5_3]
+G c Z b b [get_clock timing_package 9 12 none]
+G c Z b b [get_clocks_per_sec timing_package 12 12 none]
+G c Z b b [timing_itemIP timing_package 19 8 none]
+G c Z b b [truncate timing_package 65 12 none]
+X 14 a-textio.ads
+67P9*File_Type 72|34r33 39r32 49r34 73|60r33 78r32 104r34
+188V13*Standard_Output{67P9} 73|101s17
+277U14*New_Line 73|115s13
+508U14*Put 73|93s45 94s45 95s45 96s45 111s13 114s13
+555U14*Put_Line 73|110s13
+X 17 a-tifiio.ads
+26k21*Fixed_IO 101e25 73|5r38
+54U14 Put 73|62s17[5] 113s17[5]
+X 22 a-tiinio.ads
+72U14*Put 73|93s16[24|3] 94s16[24|3] 95s16[24|3] 96s16[24|3]
+X 24 integer_io.ads
+3K9*integer_io[22|46] 73|1w6 1r22 93r5 94r5 95r5 96r5
+X 25 interfac.ads
+68I9*Integer_64<long_long_integer>
+76I9*Integer_128<long_long_long_integer>
+X 29 s-arit128.ads
+59I12*Int128{25|76I9}
+92V13*Multiply_With_Ovflo_Check128{59I12} 96i<c,__gnat_mulv128>22
+X 31 s-arit64.ads
+59I12*Int64{25|68I9}
+108V13*Multiply_With_Ovflo_Check64{59I12} 112i<c,__gnat_mulv64>22
+X 71 text_io.ads
+27K9*Text_IO=27:29 72|1w6 1r35 73|5r30 93r37 94r37 95r37 96r37 110r5 111r5
+. 114r5 115r5
+X 72 timing_package.ads
+3K9*Timing_Package 63E8 66l5 66e19 73|3b14 124l5 124t19
+14A8*Array_of_Duration(duration)<integer>
+16P8*Timing_Widget 20r35 24r38 28r43 29r43 30r43 44r36 50r36 55r39 64c8 73|25r35
+. 34r38 39r43 50r43 55r43 99r36 105r36 118r39
+20U13*tstart 20<22 73|25b13 32l7 32t13
+20p22 widget{16P8} 73|25b22 31m5
+24U13*tstop 24=22 73|34b13 37l7 37t12
+24p22 widget{16P8} 73|34b22 36r5
+28V12*Elapsed_Total_Time{duration} 28>34 73|39b12 48l7 48t25 52s12 112s16
+28p34 widget{16P8} 73|39b34 42r26 42r45
+29V12*Elapsed_User_Time{duration} 29>34 73|50b12 53l7 53t24
+29p34 widget{16P8} 73|50b34 52r31
+30V12*Elapsed_System_Time{duration} 30>34 73|55b12 58l7 58t26
+30p34 widget{16P8} 73|55b34
+34U13*print_time 34>26 34>44 73|60b13 63l7 63t17
+34p26 file{14|67P9} 73|60b26 62r21
+34o44 mach_time{duration} 73|60b44 62r26
+39U13*print_hms 39>25 39>43 73|78b13 97l7 97t16 114s30
+39p25 file{14|67P9} 73|78b25 93r20 93r49 94r20 94r49 95r20 95r49 96r20 96r49
+39o43 mach_time{duration} 73|78b43 80r35 81r35
+44U13*print_times 44>27 44>51 73|99b13 102l7 102t18
+44p27 widget{16P8} 73|99b27 101r33
+44a51 tag{string} 73|99b51 101r40
+49U13*print_times 49>27 50>27 50>51 73|101s5 104b13 116l7 116t18
+49p27 file{14|67P9} 73|104b27 110r22 111r17 113r21 114r17 114r40 115r22
+50p27 widget{16P8} 73|105b27 112r35
+50a51 tag{string} 73|105b51 110r55
+55V12*times_to_string{string} 55>30 55>54 73|118b12 122l7 122t22
+55p30 widget{16P8} 73|118b30
+55a54 delimiter{string} 73|118b54
+63R8 timing_item 64r32 73|19c8 21e13 27r12 31r19
+X 73 timing_package.adb
+5K11 duration_io[17|26] 62r5 113r5
+9V12 get_clock{integer} 10b<c,get_clock>19 30s24 36s25
+12V12 get_clocks_per_sec{integer} 13b<c,get_clocks_per_sec>19 15s40
+15i3 clocks_per_sec{integer} 45r30
+19R8 timing_item
+20i5*start_time{integer} 30m10 42r52
+20i16*stop_time{integer} 36m12 42r33
+27r5 item{19R8} 30m5 31r32
+41o5 res{duration} 45m5 46m5 46r12 47r12
+42i5 elapsed{integer} 45r21
+65V12 truncate{integer} 65b12 65>23 76l7 76t15 80s26
+65o23 d{duration} 67r29 71r29
+67i5 rd{integer} 70r8 71r23 72m17 72r23 75r12
+80i5 seconds{integer} 81r54 86m11 86r22 89r16 91m5 91r16 95r25
+81i5 millsec{integer} 85r8 87m11 87r22 96r25
+82i5 minutes{integer} 89m5 90r14 91r29 92m5 92r16 94r25
+82i13 hours{integer} 90m5 92r29 93r25
+107o5 elapsed{duration} 112m5 113r26 114r45
+

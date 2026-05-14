@@ -1,0 +1,184 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U standard_random_numbers%b  standard_random_numbers.adb  e9f758a7 OO PK
+W machines%s		machines.adb		machines.ali  AD
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+
+U standard_random_numbers%s  standard_random_numbers.ads  35aa4acf EE NE OO PK
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D machines.ads		20260513024558 7f431eff machines%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D standard_random_numbers.adb  20260513024558 94c7d9b0 standard_random_numbers%b
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c b b b [b standard_random_numbers 4 1 none]
+G c Z s b [set_seed standard_random_numbers 13 13 none]
+G c Z s b [get_seed standard_random_numbers 18 12 none]
+G c Z s b [random standard_random_numbers 23 12 none]
+G c Z s b [random standard_random_numbers 31 12 none]
+G c Z s b [random standard_random_numbers 32 12 none]
+G c Z s b [random_integer_number standard_random_numbers 37 13 none]
+G c Z s b [random_integer_number standard_random_numbers 40 13 none]
+G c Z s b [random standard_random_numbers 48 12 none]
+G c Z s b [random_double_float standard_random_numbers 53 13 none]
+G c Z s b [random standard_random_numbers 61 12 none]
+G c Z s b [random_complex_number standard_random_numbers 67 13 none]
+G c Z s b [random standard_random_numbers 75 12 none]
+G c Z s b [random_complex_number standard_random_numbers 81 13 none]
+G c Z s b [random1 standard_random_numbers 90 12 none]
+G c Z s b [random1_complex_number standard_random_numbers 95 13 none]
+G c Z s b [random_magnitude standard_random_numbers 102 12 none]
+G c Z s b [random_magnitude standard_random_numbers 107 12 none]
+G r c none [b standard_random_numbers 4 1 none] [process_id machines 7 12 none]
+G r c none [random standard_random_numbers 61 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [random_complex_number standard_random_numbers 67 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [random standard_random_numbers 75 12 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [random standard_random_numbers 75 12 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [random standard_random_numbers 75 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [random_complex_number standard_random_numbers 81 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [random_complex_number standard_random_numbers 81 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [random_complex_number standard_random_numbers 81 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [random1 standard_random_numbers 90 12 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [random1 standard_random_numbers 90 12 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [random1 standard_random_numbers 90 12 none] [create standard_complex_numbers 19 12 none]
+G r c none [random1_complex_number standard_random_numbers 95 13 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [random1_complex_number standard_random_numbers 95 13 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [random1_complex_number standard_random_numbers 95 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [random_magnitude standard_random_numbers 107 12 none] [cos standard_mathematical_functions 48 12 none]
+G r c none [random_magnitude standard_random_numbers 107 12 none] [sin standard_mathematical_functions 47 12 none]
+G r c none [random_magnitude standard_random_numbers 107 12 none] [create standard_complex_numbers 19 12 none]
+X 1 machines.ads
+1K9*Machines 44e13 8|1w6 1r46
+7V12*Process_ID{integer} 8|8s29
+X 2 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 92e29 7|4w6 4r46
+11R8*Complex_Number 90e15 7|61r26 68r50 75r53 83r25 90r27 96r50 107r54 8|107r26
+. 113r50 123r53 133r25 143r27 153r50 184r54 187r18
+19V12*Create{11R8} 8|109s12 120s10 128s12 140s10 149s12 160s10
+X 3 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 7|3w6 3r46
+13F8*double_float<long_float> 7|23r35 48r26 54r50 75r31 82r55 102r54 8|24r35
+. 26r18 34r9 38r15 38r45 45r9 49r15 49r45 58r9 62r15 62r45 71r9 75r15 75r45
+. 80r26 82r9 89r10 89r29 95r50 103r10 103r29 115r15 123r31 125r20 132r55
+. 135r11 145r11 155r11 163r54 165r18 169r9 186r18
+X 4 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 7|2w6 2r46
+6I8*integer32<long_integer> 7|18r28 31r35 31r54 38r31 38r59 39r25 41r31 54r31
+. 68r31 82r31 96r31 8|6r16 7r16 9r20 9r33 10r18 11r10 15r21 19r28 32r35 32r54
+. 40r12 55r31 55r59 56r25 64r10 68r31 88r13 95r31 102r13 113r31 132r31 153r31
+. 166r20 166r34 167r20 167r33 168r18
+7I8*integer64<long_long_integer> 7|32r35 32r54 41r59 42r25 8|43r35 43r54
+. 51r12 68r59 69r25 77r10 83r18 83r31 83r44 84r20 84r33 85r22 97r18 97r31
+. 97r44 98r20 98r33 99r22
+X 5 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 64e36 8|2w6 2r46
+11N3*PI 8|125r36 139r12 148r12 159r12
+47V12*SIN{3|13F8} 8|128s44 140s42 149s28 160s26
+48V12*COS{3|13F8} 8|128s27 140s25 149s19 160s17
+X 6 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 7|1w6 1r46
+7I8*natural32<long_integer> 7|13r28 102r35 107r35 8|13r28 163r35 184r35
+X 7 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 112l5 112e28 8|4b14 193l5 193t28
+13U13*Set_Seed 13>24 8|13b13 17l7 17t15
+13i24 n{6|7I8} 8|13b24 15r31
+18V12*Get_Seed{4|6I8} 8|19b12 22l7 22t15
+23V12*Random{boolean} 23>21 8|24b12 30l7 30t13
+23f21 probability{3|13F8} 8|24b21 29r18
+31V12*Random{4|6I8} 31>21 31>27 8|32b12 41l7 41t13 168s31
+31i21 lower{4|6I8} 8|32b21 38r34 38r58
+31i27 upper{4|6I8} 8|32b27 38r28 38r64
+32V12*Random{4|7I8} 32>21 32>27 8|43b12 52l7 52t13
+32i21 lower{4|7I8} 8|43b21 49r34 49r58
+32i27 upper{4|7I8} 8|43b27 49r28 49r64
+37U13*Random_Integer_Number 38=17 38>42 38>48 39<17 8|54b13 65l7 65t28
+38i17 seed{4|6I8} 8|55b17 61m25
+38i42 lower{4|6I8} 8|55b42 62r34 62r58
+38i48 upper{4|6I8} 8|55b48 62r28 62r64
+39i17 i{4|6I8} 8|56b17 64m5
+40U13*Random_Integer_Number 41=17 41>42 41>48 42<17 8|67b13 78l7 78t28
+41i17 seed{4|6I8} 8|68b17 74m25
+41i42 lower{4|7I8} 8|68b42 75r34 75r58
+41i48 upper{4|7I8} 8|68b48 75r28 75r64
+42i17 i{4|7I8} 8|69b17 77m5
+48V12*Random{3|13F8} 8|26s35 37s10 48s10 80b12 92l7 92t13 109s19 109s26 125s39
+. 148s15 165s34
+53U13*Random_Double_Float 54=17 54<42 8|61s5 74s5 94b13 105l7 105t26 118s5
+. 119s5 138s5 158s5
+54i17 seed{4|6I8} 8|95b17 97r54 102m5 103r23
+54f42 f{3|13F8} 8|95b42 103m5 104m5 104r16
+61V12*Random{2|11R8} 8|107b12 110l7 110t13
+67U13*Random_Complex_Number 68=17 68<42 8|112b13 121l7 121t28
+68i17 seed{4|6I8} 8|113b17 118m25 119m25
+68r42 c{2|11R8} 8|113b42 120m5
+75V12*Random{2|11R8} 75>21 8|123b12 129l7 129t13 187s36
+75f21 modulus{3|13F8} 8|123b21 128r19 128r36
+81U13*Random_Complex_Number 82=17 82>42 83<17 8|131b13 141l7 141t28
+82i17 seed{4|6I8} 8|132b17 138m25
+82f42 modulus{3|13F8} 8|132b42 140r17 140r34
+83r17 c{2|11R8} 8|133b17 140m5
+90V12*Random1{2|11R8} 8|143b12 150l7 150t14
+95U13*Random1_Complex_Number 96=17 96<42 8|152b13 161l7 161t29
+96i17 seed{4|6I8} 8|153b17 158m25
+96r42 c{2|11R8} 8|153b42 160m5
+102V12*Random_Magnitude{3|13F8} 102>31 8|163b12 182l7 182t23 186s34
+102i31 m{6|7I8} 8|163b31 166r44 167r43
+107V12*Random_Magnitude{2|11R8} 107>31 8|184b12 191l7 191t23
+107i31 m{6|7I8} 8|184b31 186r51
+X 8 standard_random_numbers.adb
+6i3 a{4|6I8} 83r41 97r41
+7i3 m{4|6I8} 84r43 89r42 98r43 103r42
+8i3 pid{integer} 9r43
+9i3 pid32{4|6I8} 10r31
+10i3 initial_seed{4|6I8} 11r23 15m5 16r13 21r12
+11i3 seed{4|6I8} 16m5 83r54 88m5 89r23
+26f5 f{3|13F8} 29r13
+34f5 f{3|13F8} 37m5 38m5 38r41 40r22
+45f5 f{3|13F8} 48m5 49m5 49r41 51r22
+58f5 f{3|13F8} 61m30 62m5 62r41 64r20
+71f5 f{3|13F8} 74m30 75m5 75r41 77r20
+82f5 x{3|13F8} 89m5 90m5 90r16 91r12
+83i5 p{4|7I8} 85r35
+84i5 m64{4|7I8} 85r41
+85i5 pmodm{4|7I8} 88r23
+97i5 p{4|7I8} 99r35
+98i5 m64{4|7I8} 99r41
+99i5 pmodm{4|7I8} 102r23
+115f5 cre{3|13F8} 118m30 120r17
+115f9 cim{3|13F8} 119m30 120r21
+125f5 arg{3|13F8} 128r31 128r48
+135f5 arg{3|13F8} 138m30 139m5 139r15 140r29 140r46
+145f5 arg{3|13F8} 148m5 149r23 149r32
+155f5 arg{3|13F8} 158m30 159m5 159r15 160r21 160r30
+165f5 r{3|13F8} 169r29
+166i5 low{4|6I8} 168r38
+167i5 upp{4|6I8} 168r42
+168i5 k{4|6I8} 172r8 173r22 177r19
+169f5 f{3|13F8} 174m9 174r14 178m9 178r14 181r12
+173i11 i<long_integer>
+177i11 i<long_integer>
+186f5 r{3|13F8} 187r43
+187r5 c{2|11R8} 190r12
+

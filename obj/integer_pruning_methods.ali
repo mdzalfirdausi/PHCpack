@@ -1,0 +1,675 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U integer_pruning_methods%b  integer_pruning_methods.adb  84a9caa2 NE OO PK
+W floating_linear_inequality_solvers%s  floating_linear_inequality_solvers.adb  floating_linear_inequality_solvers.ali
+W integer_linear_inequalities%s  integer_linear_inequalities.adb  integer_linear_inequalities.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_linear_equalities%s  standard_integer_linear_equalities.adb  standard_integer_linear_equalities.ali
+W standard_integer_linear_solvers%s  standard_integer_linear_solvers.ads  standard_integer_linear_solvers.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_norms%s  standard_integer_norms.adb  standard_integer_norms.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U integer_pruning_methods%s  integer_pruning_methods.ads  9425b71e BN EE NE OO PK
+W arrays_of_integer_vector_lists%s  arrays_of_integer_vector_lists.ads  arrays_of_integer_vector_lists.ali
+W integer_faces_of_polytope%s  integer_faces_of_polytope.adb  integer_faces_of_polytope.ali
+W integer_mixed_subdivisions%s  integer_mixed_subdivisions.adb  integer_mixed_subdivisions.ali
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_integer_vector_lists.ads  20260513024558 1062c910 arrays_of_integer_vector_lists%s
+D floating_linear_inequality_solvers.ads  20260513024558 7a6e6bdc floating_linear_inequality_solvers%s
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D integer_faces_of_polytope.ads  20260513024558 db5070e9 integer_faces_of_polytope%s
+D integer_linear_inequalities.ads  20260513024558 aeda99fd integer_linear_inequalities%s
+D integer_mixed_subdivisions.ads  20260513024558 ed6fb1b5 integer_mixed_subdivisions%s
+D integer_pruning_methods.ads  20260513024558 64213241 integer_pruning_methods%s
+D integer_pruning_methods.adb  20260513024558 e2b6da44 integer_pruning_methods%b
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_linear_equalities.ads  20260513024558 3d09b1f4 standard_integer_linear_equalities%s
+D standard_integer_linear_solvers.ads  20260513024558 34df0966 standard_integer_linear_solvers%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_norms.ads  20260513024558 a8d0e0a5 standard_integer_norms%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [create_cs integer_pruning_methods 33 13 none]
+G c Z s b [new_create_cs integer_pruning_methods 59 13 none]
+G c Z s b [create_ccs integer_pruning_methods 68 13 none]
+G c Z b b [convert integer_pruning_methods 15 12 none]
+G c Z b b [initialize integer_pruning_methods 32 13 none]
+G c Z b b [number_of_inequalities integer_pruning_methods 48 12 none]
+G c Z b b [ordered_inequalities integer_pruning_methods 63 13 none]
+G c Z b b [check_and_update integer_pruning_methods 77 13 none]
+G c Z b b [create_equalities integer_pruning_methods 101 13 none]
+G c Z b b [check_feasibility integer_pruning_methods 132 12 none]
+G c Z b b [new_check_feasibility integer_pruning_methods 164 12 none]
+G c Z b b [update_inequalities integer_pruning_methods 210 13 none]
+G c Z b b [eliminate integer_pruning_methods 249 13 none]
+G c Z b b [switch integer_pruning_methods 267 13 none]
+G c Z b b [eliminate integer_pruning_methods 281 13 none]
+G c Z b b [is_supported integer_pruning_methods 601 12 none]
+G c Z b b [is_supported integer_pruning_methods 616 12 none]
+G c Z b b [update integer_pruning_methods 640 13 none]
+G r s face_array [create_cs integer_pruning_methods 33 13 none] [face_arrayIP integer_faces_of_polytope 18 8 none]
+G r c none [create_cs integer_pruning_methods 33 13 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [solve standard_integer_linear_solvers 178 12 8_1]
+G r s array_of_lists [create_cs integer_pruning_methods 33 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [normalize standard_integer_norms 18 13 none]
+G r c none [create_cs integer_pruning_methods 33 13 none] [min standard_integer_vectors 60 13 4_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [shallow_create lists_of_integer_vectors 27 12 6_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [update integer_mixed_subdivisions 52 13 none]
+G r c none [create_cs integer_pruning_methods 33 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [create_cs integer_pruning_methods 33 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [create_cs integer_pruning_methods 33 13 none] [triangulate standard_integer_linear_solvers 77 13 8_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [switch standard_integer_linear_solvers 108 13 8_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [triangulate standard_integer_linear_equalities 13 13 none]
+G r c none [create_cs integer_pruning_methods 33 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [create_cs integer_pruning_methods 33 13 none] [switch standard_integer_linear_solvers 104 13 8_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [create_cs integer_pruning_methods 33 13 none] [integer_complementary_slackness integer_linear_inequalities 10 13 none]
+G r c none [create_cs integer_pruning_methods 33 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r s face_array [new_create_cs integer_pruning_methods 59 13 none] [face_arrayIP integer_faces_of_polytope 18 8 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [solve standard_integer_linear_solvers 178 12 8_1]
+G r s array_of_lists [new_create_cs integer_pruning_methods 59 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [normalize standard_integer_norms 18 13 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [min standard_integer_vectors 60 13 4_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [shallow_create lists_of_integer_vectors 27 12 6_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [update integer_mixed_subdivisions 52 13 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [triangulate standard_integer_linear_solvers 77 13 8_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [switch standard_integer_linear_solvers 108 13 8_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [triangulate standard_integer_linear_equalities 13 13 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [switch standard_integer_linear_solvers 104 13 8_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [scale floating_linear_inequality_solvers 101 13 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [solve floating_linear_inequality_solvers 151 13 none]
+G r c none [new_create_cs integer_pruning_methods 59 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r s face_array [create_ccs integer_pruning_methods 68 13 none] [face_arrayIP integer_faces_of_polytope 18 8 none]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [solve standard_integer_linear_solvers 178 12 8_1]
+G r s array_of_lists [create_ccs integer_pruning_methods 68 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [normalize standard_integer_norms 18 13 none]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [min standard_integer_vectors 60 13 4_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [shallow_create lists_of_integer_vectors 27 12 6_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [update integer_mixed_subdivisions 52 13 none]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [Omultiply standard_integer_vectors 43 12 4_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [triangulate standard_integer_linear_solvers 77 13 8_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [switch standard_integer_linear_solvers 108 13 8_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [triangulate standard_integer_linear_equalities 13 13 none]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [switch standard_integer_linear_solvers 104 13 8_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [integer_complementary_slackness integer_linear_inequalities 10 13 none]
+G r c none [create_ccs integer_pruning_methods 68 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r s array_of_lists [convert integer_pruning_methods 15 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [convert integer_pruning_methods 15 12 none] [shallow_create lists_of_integer_vectors 27 12 6_1]
+G r c none [number_of_inequalities integer_pruning_methods 48 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [check_and_update integer_pruning_methods 77 13 none] [solve standard_integer_linear_solvers 178 12 8_1]
+G r s array_of_lists [check_and_update integer_pruning_methods 77 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [check_and_update integer_pruning_methods 77 13 none] [normalize standard_integer_norms 18 13 none]
+G r c none [check_and_update integer_pruning_methods 77 13 none] [min standard_integer_vectors 60 13 4_1]
+G r c none [check_and_update integer_pruning_methods 77 13 none] [shallow_create lists_of_integer_vectors 27 12 6_1]
+G r c none [check_and_update integer_pruning_methods 77 13 none] [update integer_mixed_subdivisions 52 13 none]
+G r c none [create_equalities integer_pruning_methods 101 13 none] [triangulate standard_integer_linear_solvers 77 13 8_1]
+G r c none [create_equalities integer_pruning_methods 101 13 none] [switch standard_integer_linear_solvers 108 13 8_1]
+G r c none [check_feasibility integer_pruning_methods 132 12 none] [integer_complementary_slackness integer_linear_inequalities 10 13 none]
+G r c none [new_check_feasibility integer_pruning_methods 164 12 none] [scale floating_linear_inequality_solvers 101 13 none]
+G r c none [new_check_feasibility integer_pruning_methods 164 12 none] [solve floating_linear_inequality_solvers 151 13 none]
+G r c none [update_inequalities integer_pruning_methods 210 13 none] [triangulate standard_integer_linear_equalities 13 13 none]
+G r c none [update_inequalities integer_pruning_methods 210 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [update_inequalities integer_pruning_methods 210 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [update_inequalities integer_pruning_methods 210 13 none] [is_in integer_faces_of_polytope 68 12 none]
+G r c none [update_inequalities integer_pruning_methods 210 13 none] [switch standard_integer_linear_solvers 104 13 8_1]
+G r c none [update_inequalities integer_pruning_methods 210 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [is_supported integer_pruning_methods 601 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [is_supported integer_pruning_methods 616 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [is_supported integer_pruning_methods 616 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [is_supported integer_pruning_methods 616 12 none] [Omultiply standard_integer_vectors 42 12 4_1]
+G r c none [is_supported integer_pruning_methods 616 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [update integer_pruning_methods 640 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [update integer_pruning_methods 640 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [update integer_pruning_methods 640 13 none] [Omultiply standard_integer_vectors 43 12 4_1]
+X 12 arrays_of_integer_vector_lists.ads
+7K9*Arrays_of_Integer_Vector_Lists[14|15] 25|5w6 5r46
+X 13 floating_linear_inequality_solvers.ads
+7K9*Floating_Linear_Inequality_Solvers 180e39 26|9w6 9r46
+101U13*Scale 26|205s5
+151U13*Solve 26|206s5
+X 14 generic_arrays_of_vector_lists.ads
+24A8*Array_of_Lists(17|22P8[29|6])<41|6I8> 25|29r30[12|7] 35r30[12|7] 61r30[12|7]
+. 70r30[12|7] 26|15r47[12|7] 21r11[12|7] 49r39[12|7] 78r52[12|7] 88r11[12|7]
+. 214r30[12|7] 322r30[12|7] 417r29[12|7] 502r29[12|7] 659r32[12|7]
+25P8*Link_to_Array_of_Lists(24A8[12|7])
+X 15 generic_integer_linear_solvers.ads
+77U13*Triangulate 26|123s7[38|8]
+104U13*Switch 26|239s13[38|8]
+108U13*Switch 26|126s7[38|8]
+178V12*Solve{19|16A8[44|4]} 26|87s31[38|8]
+X 16 generic_lists.ads
+12P8*List
+26U13*Construct 26|650s5[17|21[29|6]] 654s5[17|21[29|6]]
+67V12*Length_Of{46|7I8} 26|58s20[17|21[29|6]]
+72V12*Is_Null{boolean} 26|232s15[17|21[29|6]] 377s19[22|20] 465s19[22|20]
+. 562s19[22|20] 629s15[17|21[29|6]] 719s19[22|20]
+77V12*Head_Of{19|17P8[44|4]} 26|233s13[17|21[29|6]] 372s23[24|23] 378s21[22|20]
+. 466s21[22|20] 563s21[22|20] 630s18[17|21[29|6]] 631s25[17|21[29|6]] 652s28[17|21[29|6]]
+. 715s22[24|23] 720s21[22|20]
+84V12*Tail_Of{12P8[17|21[29|6]]} 26|245s14[17|21[29|6]] 396s20[22|20] 483s20[22|20]
+. 580s20[22|20] 633s23[17|21[29|6]] 634s23[17|21[29|6]] 737s20[22|20]
+X 17 generic_lists_of_vectors.ads
+22P8*List<16|12P8[21[29|6]]> 25|72r44[29|6] 26|220r11[29|6] 616r71[29|6]
+. 624r14[29|6] 625r14[29|6] 640r69[29|6] 661r46[29|6]
+27V12*Shallow_Create{22P8[29|6]} 26|25s17[29|6]
+X 18 generic_matrices.ads
+16A8*Matrix(41|6I8)<41|6I8><41|6I8> 26|32r54[39|5] 63r67[39|5] 79r26[39|5]
+. 102r64[39|5] 104r43[39|5] 133r43[39|5] 145r15[39|5] 165r43[39|5] 178r42[31|5]
+. 212r27[39|5] 213r60[39|5] 250r42[39|5] 281r66[39|5] 328r10[39|5] 333r51[39|5]
+. 334r54[39|5] 342r29[39|5] 343r62[39|5] 360r51[39|5] 361r54[39|5] 382r22[39|5]
+. 383r23[39|5] 406r14[39|5] 423r10[39|5] 428r51[39|5] 429r54[39|5] 437r29[39|5]
+. 438r62[39|5] 454r51[39|5] 455r54[39|5] 470r22[39|5] 471r23[39|5] 492r14[39|5]
+. 508r10[39|5] 514r51[39|5] 515r54[39|5] 524r29[39|5] 525r62[39|5] 547r51[39|5]
+. 548r54[39|5] 567r22[39|5] 568r23[39|5] 589r14[39|5] 666r10[39|5] 671r51[39|5]
+. 672r54[39|5] 680r29[39|5] 681r62[39|5] 700r51[39|5] 701r54[39|5] 724r22[39|5]
+. 725r23[39|5] 746r14[39|5]
+X 19 generic_vectors.ads
+16A8*Vector(41|6I8)<41|6I8> 25|28r45[44|4] 30r67[34|4] 34r45[44|4] 36r67[34|4]
+. 60r45[44|4] 62r67[34|4] 69r45[44|4] 71r67[34|4] 26|33r37[44|4] 49r22[44|4]
+. 79r44[44|4] 87r9[44|4] 103r29[44|4] 104r68[44|4] 113r20[44|4] 166r50[34|4]
+. 179r41[34|4] 180r12[44|4] 212r45[44|4] 251r54[34|4] 268r59[34|4] 282r35[44|4]
+. 283r62[34|4] 321r45[44|4] 323r67[34|4] 329r12[44|4] 333r69[44|4] 342r47[44|4]
+. 360r69[44|4] 381r23[44|4] 416r44[44|4] 418r66[34|4] 424r12[44|4] 428r69[44|4]
+. 437r47[44|4] 454r69[44|4] 469r23[44|4] 501r44[44|4] 503r66[34|4] 509r12[44|4]
+. 514r69[44|4] 516r60[34|4] 524r47[44|4] 526r60[34|4] 532r43[34|4] 547r69[44|4]
+. 549r60[34|4] 566r23[44|4] 590r40[34|4] 601r46[44|4] 646r36[44|4] 647r37[44|4]
+. 658r47[44|4] 660r69[34|4] 667r12[44|4] 671r69[44|4] 680r47[44|4] 700r69[44|4]
+. 723r23[44|4]
+17P8*Link_to_Vector(16A8[44|4]) 26|221r14[44|4] 646r14[44|4] 647r15[44|4]
+42V13*"*"{41|6I8} 26|608s21[44|4]
+43V13*"*"{41|6I8} 26|652s27[44|4]
+60U13*Min 26|94s13[44|4]
+X 20 generic_vecvecs.ads
+14A8*VecVec(19|17P8[44|4])<41|6I8>
+15P8*Link_to_VecVec(14A8[45|5])
+X 22 integer_faces_of_polytope.ads
+7K9*Integer_Faces_of_Polytope 100e30 25|6w6 6r46
+15P8*Face<20|15P8[45|5]> 26|102r44 601r31 616r31
+18A8*Face_Array(15P8)<41|6I8> 26|15r27 78r28 214r59 327r12 335r33 344r33
+. 362r33 422r12 430r33 439r33 456r33 507r12 517r33 527r33 550r33 665r12 673r33
+. 682r33 702r33
+21P8*Faces<16|12P8[20]> 26|366r15 458r15 555r15 708r15
+23A8*Array_of_Faces(21P8)<41|6I8> 25|28r61 34r61 60r61 69r61 26|321r61 416r60
+. 501r60 658r63
+68V12*Is_In{boolean} 26|234s14
+X 23 integer_linear_inequalities.ads
+5K9*Integer_Linear_Inequalities 30e32 26|8w6 8r46
+10U13*Integer_Complementary_Slackness 26|159s7
+X 24 integer_mixed_subdivisions.ads
+6K9*Integer_Mixed_Subdivisions 139e31 25|7w6 7r46
+14P8*Mixed_Subdivision 25|31r31 37r31 63r31 73r31 26|80r47 324r31 326r20
+. 364r13 419r30 421r20 504r30 506r20 662r33 664r20 707r13
+17R8*Mixed_Cell 21e13 25|20r39 26|640r31
+18p5*nor{19|17P8[44|4]} 26|646r48
+19p5*pts{14|25P8[12|7]} 26|647r48 652r40
+24P8*Mixed_Subdivision<16|12P8[23]>
+52U13*Update 26|97s7
+X 25 integer_pruning_methods.ads
+9K9*Integer_Pruning_Methods 90l5 90e28 26|11b14 755l5 755t28
+20U20 Process 20>30 20<51 26|372s15
+20r30 mic{24|17R8}
+20b51 continue{boolean}
+27u13*Gen1_Create_CS 28>18 28>36 28>53 29>18 30=18 30=25 31<18 26|320b13
+. 413l7 413t21
+28i18 n{41|6I8} 26|321b18 328r20 328r27 329r22 350r45 351r44 387r31 403r16
+. 406r36
+28a36 mix{19|16A8[44|4]} 26|321b36 404r50
+28a53 fa{22|23A8} 26|321b53 327r23 376r18
+29a18 lifted{14|24A8[12|7]} 26|322b18 350r69 370r30 404r54
+30a18 nbsucc{19|16A8[34|4]} 26|323b18 354m13 354r26
+30a25 nbfail{19|16A8[34|4]} 26|323b25 352m13 352r26 390m19 390r32
+31p18 mixsub{24|24P8} 26|324b18 412m5
+33U13*Create_CS 34>18 34>36 34>53 35>18 36=18 36=25 37<18 26|415b13 498l7
+. 498t16
+34i18 n{41|6I8} 26|416b17 423r20 423r27 424r22 445r45 446r44 475r31 489r16
+. 492r36
+34a36 mix{19|16A8[44|4]} 26|416b35 490r50
+34a53 fa{22|23A8} 26|416b52 422r23 464r18
+35a18 lifted{14|24A8[12|7]} 26|417b17 445r69 462r30 490r54
+36a18 nbsucc{19|16A8[34|4]} 26|418b17 448m13 448r26
+36a25 nbfail{19|16A8[34|4]} 26|418b24 447m13 447r26 478m19 478r32
+37p18 mixsub{24|24P8} 26|419b17 497m5
+59U13*New_Create_CS 60>18 60>36 60>53 61>18 62=18 62=25 63<18 26|500b13 597l7
+. 597t20
+60i18 n{41|6I8} 26|501b17 508r20 508r27 509r22 510r49 536r28 538r48 572r31
+. 586r16 589r36 590r50
+60a36 mix{19|16A8[44|4]} 26|501b35 587r50
+60a53 fa{22|23A8} 26|501b52 507r23 561r18
+61a18 lifted{14|24A8[12|7]} 26|502b17 536r52 559r30 587r54
+62a18 nbsucc{19|16A8[34|4]} 26|503b17 540m13 540r26
+62a25 nbfail{19|16A8[34|4]} 26|503b24 539m13 539r26 575m19 575r32
+63p18 mixsub{24|24P8} 26|504b17 596m5
+68U13*Create_CCS 69>18 69>36 69>53 70>18 71=18 71=25 72=18 72=26 73<18 26|657b13
+. 753l7 753t17
+69i18 n{41|6I8} 26|658b20 666r20 666r27 667r22 688r45 692r64 729r31 743r16
+. 746r36
+69a36 mix{19|16A8[44|4]} 26|658b38 744r50
+69a53 fa{22|23A8} 26|658b55 665r23 718r18
+70a18 lifted{14|24A8[12|7]} 26|659b20 688r69 713r30 744r54
+71a18 nbsucc{19|16A8[34|4]} 26|660b20 694m13 694r26
+71a25 nbfail{19|16A8[34|4]} 26|660b27 693m13 693r26 732m19 732r32
+72p18 normals{17|22P8[29|6]} 26|661b20 690r45 715m40
+72p26 suppvals{17|22P8[29|6]} 26|661b28 690r53 715m48
+73p18 mixsub{24|24P8} 26|662b20 752m5
+X 26 integer_pruning_methods.adb
+15V12 Convert{14|24A8[12|7]} 15b12 15>22 28l7 28t14 96s14
+15a22 fa{22|18A8} 21r26 24r14 25r32
+21a5 res{14|24A8[12|7]} 25m7 27r12
+24i9 k<long_integer> 25r11 25r35
+32U13 Initialize 32b13 32>26 32<44 33<26 46l7 46t17 403s5 489s5 586s5 743s5
+32i26 n{41|6I8} 40r17 42r19
+32a44 mat{18|16A8[39|5]} 43m9
+33a26 ipvt{19|16A8[44|4]} 41m7
+40i9 i<long_integer> 41r12 41r18 43r13
+42i11 j<long_integer> 43r15
+48V12 Number_of_Inequalities{46|7I8} 48b12 49>16 49>30 61l7 61t29 404s27
+. 490s27 587s27 744s27
+49a16 mix{19|16A8[44|4]} 58r53
+49a30 lifted{14|24A8[12|7]} 57r14 58r30
+54i5 res{46|7I8} 58m7 58r14 60r12
+57i9 k<long_integer> 58r37 58r57
+63U13 Ordered_Inequalities 63b13 63>36 63=54 75l7 75t27
+63i36 k{41|6I8} 69r28
+63a54 mat{18|16A8[39|5]} 69r14 70r16 71m9 73m7 73m22
+69i9 i<long_integer> 71r13 73r11 73r13 73r26 73r28
+70i11 j<long_integer> 71r15
+77U13 Check_and_Update 77b13 78>19 78>40 79>19 79>34 80=19 80=26 99l7 99t23
+. 370s9 462s9 559s9 713s9
+78a19 mic{22|18A8} 88r26 96r22
+78a40 lifted{14|24A8[12|7]}
+79a19 m{18|16A8[39|5]} 87r16 87r37
+79a34 ipvt{19|16A8[44|4]} 87r39
+80p19 mixsub{24|24P8} 97m20
+80p26 mixsub_last{24|24P8} 97m27
+87a5 v{19|16A8[44|4]} 91r8 91r10 92m17 92r17 93r10 93r12 94m17 94r17 97r18
+88a5 pts{14|24A8[12|7]} 96m7 97r14
+101U13 Create_Equalities 101b13 102>19 102>37 102>50 102>54 103>19 103>37
+. 103>41 104=19 104=26 104=51 105=19 105=26 105<57 130l7 130t24 387s13 475s13
+. 572s13 729s13
+102i19 n{41|6I8} 113r30
+102p37 f{22|15P8} 113r38 113r40 118r14 118r25 120r16 121r29
+102a50 mat{18|16A8[39|5]}
+102a54 ineq{18|16A8[39|5]} 126r27
+103a19 ipvt{19|16A8[44|4]}
+103i37 row{41|6I8}
+103i41 rowineq{41|6I8} 126r38
+104a19 newmat{18|16A8[39|5]} 121m9 123m26
+104a26 newineq{18|16A8[39|5]} 126m46
+104a51 newipvt{19|16A8[44|4]} 123m33
+105i19 newrow{41|6I8} 119m7 119r17 121r16 123r19 126r14
+105i26 newrowineq{41|6I8}
+105b57 fail{boolean} 129m5
+113a5 shi{19|16A8[44|4]} 121r39
+114b5 fl{boolean} 124m7 125r17 129r13
+115i5 pivot{41|6I8} 123m41 124r14 126r21
+118i9 i<long_integer> 120r18 121r31
+120i11 j<long_integer> 121r23 121r34 121r43
+132V12 Check_Feasibility{boolean} 132b12 133>17 133>19 133>21 133>36 162l7
+. 162t24 351s10 446s10 692s30
+133i17 k{41|6I8} 145r27 152r16 154r21 156r19 158r17
+133i19 m{41|6I8} 145r34 149r8 153r21 156r21 158r21
+133i21 n{41|6I8} 145r25 152r21 158r15
+133a36 ineq{18|16A8[39|5]} 154r29
+145a5 tableau{18|16A8[39|5]} 154m11 156m9 158m7 159m39 159r39
+146b5 feasi{boolean} 150m7 159m47 161r12
+152i11 i<long_integer> 154r19 154r36 156r17
+153i13 j<long_integer> 154r23 154r34
+164V12 New_Check_Feasibility{boolean} 164b12 165>17 165>19 165>21 165>36
+. 165>51 166>17 208l7 208t28 538s10
+165i17 k{41|6I8} 178r54 179r53 186r14 188r19 190r17 194r17 195r31 202r19
+. 202r39
+165i19 m{41|6I8} 178r61 187r19 193r17 201r19 207r22
+165i21 n{41|6I8} 178r52 179r51 186r19 194r15 194r48 195r29 202r17 202r37
+165a36 ineq{18|16A8[39|5]} 188r40 194r41
+165f51 tol{32|13F8} 205r19 206r19
+166a17 solu{19|16A8[34|4]} 190r23
+178a5 tableau{18|16A8[31|5]} 188m9 194m7 195r21 202m9 202r29 205m11 205r11
+. 206r11
+179a5 tabsolu{19|16A8[34|4]} 180r19 190m7 206m23 206r23
+180a5 cols{19|16A8[44|4]} 206m37
+181i5 kfail{41|6I8} 206m31 207r13
+182f5 max{32|13F8} 192m5 196r19 197m13 200r8 202r46
+182f9 tmpabs{32|13F8} 195m7 196r10 197r20
+186i9 i<long_integer> 188r17 188r47 190r15 190r28
+187i11 j<long_integer> 188r21 188r45
+193i9 j<long_integer> 194r21 194r46 195r35
+201i11 j<long_integer> 202r23 202r43
+210U13 Update_Inequalities 210b13 211>18 211>20 211>28 211>36 212>18 212>35
+. 213=18 213=46 214>18 214=46 247l7 247t26 350s7 445s7 535s7 688s7
+211i18 k{41|6I8} 230r19 231r16 231r23 234r24
+211i20 rowmat1{41|6I8} 225r16
+211i28 rowmat2{41|6I8} 225r25 240r25
+211i36 n{41|6I8}
+212a18 mat{18|16A8[39|5]} 226r23 241r29
+212a35 ipvt{19|16A8[44|4]} 239r20
+213i18 rowineq{41|6I8} 224r26 235m13 235r24 237r20 239r25 241r33
+213a46 ineq{18|16A8[39|5]} 224r14 226m29 237m15 239m33 241m41
+214a18 lifted{14|24A8[12|7]} 230r12
+214a46 mic{22|18A8} 231r12 231r19 234r20
+220p5 tmp{17|22P8[29|6]} 230m5 232r23 233r21 245m7 245r22
+221p5 pt{19|17P8[44|4]} 233m7 234r27 236r22 237r34
+221p8 shi{19|17P8[44|4]} 231m5 237r42
+224i9 i<long_integer> 226r27
+225i11 j<long_integer> 226r21
+236i17 j<long_integer> 237r28 237r37 237r46
+240i17 i<long_integer> 241r27
+249U13 Eliminate 249b13 250>17 250>35 250>50 251=17 265l7 265t16 291s7
+250i17 k{41|6I8} 259r14 260r16 260r34 260r36 261r16 262r43
+250a35 m{18|16A8[39|5]} 260r32 262r41
+250f50 tol{32|13F8} 259r20
+251a17 x{19|16A8[34|4]} 259r12 260r14 261r19 262m9 262r17
+256f4 fac{32|13F8} 260m7 262r24
+261i11 j<long_integer> 262r11 262r19 262r45
+267U13 Switch 267b13 267>22 267>24 268=22 279l7 279t13 290s7
+267i22 l{41|6I8} 276r8 277r20 277r26
+267i24 pivot{41|6I8} 276r13 277r34 277r44
+268a22 x{19|16A8[34|4]} 277r18 277m24 277r32 277m42
+273f5 tmp{32|13F8} 277m11 277r54
+281U13 Eliminate 281b13 281>25 281>33 281>57 282>25 282>43 283=25 293l7 293t16
+. 537s7
+281i25 rowmat1{41|6I8} 289r14
+281i33 rowmat2{41|6I8} 289r23
+281a57 mat{18|16A8[39|5]} 291r19
+282a25 ipvt{19|16A8[44|4]} 290r16
+282f43 tol{32|13F8} 291r23
+283a25 x{19|16A8[34|4]} 290m24 291m27
+289i9 k<long_integer> 290r14 290r21 291r17
+326p5 res{24|24P8} 370m46 370r46 412r15
+326p9 res_last{24|24P8} 364r34 370m50 370r50 371r19 372r31
+327a5 accu{22|18A8} 410r27 410m55 410r55
+328a5 ma{18|16A8[39|5]} 403m18 410r40
+329a5 ipvt{19|16A8[44|4]} 403m21 410r43
+330i5 ineqrows{41|6I8} 404m5 406r24
+332U15 Compute_Mixed_Cells 333>20 333>22 333>42 333>59 334>20 334>44 335=20
+. 335<45 355s13 359b15 400l9 400t28 410s7
+333i20 k{41|6I8} 360b20 369r10 376r21 378r15 387r37 390r26 390r39 391r40
+333i22 row{41|6I8} 360b22 384r35 387r54 391r42
+333a42 mat{18|16A8[39|5]} 360b42 370r37 382r29 382r42 382r59 387r40
+333a59 ipvt{19|16A8[44|4]} 360b59 370r41 381r30 381r45 387r49
+334i20 rowineq{41|6I8} 361b20 385r39 387r58
+334a44 ineq{18|16A8[39|5]} 361b44 383r30 383r44 383r62 387r44
+335a20 mic{22|18A8} 362b20 369r14 370r26 378m11 387r33 392m59
+335b45 continue{boolean} 362b45 372m41 373m15 398m9
+340U15 Process_Inequalities 340b15 341>20 341>22 341>30 342>20 342>37 343=20
+. 343=48 344=20 344<45 357l9 357t29 391s19
+341i20 k{41|6I8} 350r27 352r20 352r33 354r20 354r33 355r33
+341i22 rowmat1{41|6I8} 350r29
+341i30 rowmat2{41|6I8} 350r37 351r28 355r37
+342a20 mat{18|16A8[39|5]} 350r47 355r45
+342a37 ipvt{19|16A8[44|4]} 350r51 355r49
+343i20 rowineq{41|6I8} 350m56 351r36 355r54
+343a48 ineq{18|16A8[39|5]} 350m64 351r46 355r62
+344a20 mic{22|18A8} 350m76 355m67
+344b45 cont{boolean} 353m13 355m71
+364p7 old{24|24P8} 371r12
+365b7 cont{boolean} 392m63 395r25 398r21
+366p7 tmpfa{22|21P8} 376m9 377r27 378r29 396m11 396r28
+380b13 fl{boolean} 388m72 389r16
+381a13 newipvt{19|16A8[44|4]} 388m46 388r46 391r62
+382a13 newmat{18|16A8[39|5]} 388m31 388r31 391r55
+383a13 newineq{18|16A8[39|5]} 388m38 388r38 392m51 392r51
+384i13 newrow{41|6I8} 388m54 388r54 391r48
+385i13 newrowineq{41|6I8} 388m61 388r61 392m40 392r40
+406a7 ineq{18|16A8[39|5]} 409m7 410r50
+407b7 cont{boolean} 410m60
+421p5 res{24|24P8} 462m46 462r46 497r15
+421p9 res_last{24|24P8} 462m50 462r50
+422a5 accu{22|18A8} 495r27 495m55 495r55
+423a5 ma{18|16A8[39|5]} 489m18 495r40
+424a5 ipvt{19|16A8[44|4]} 489m21 495r43
+425i5 ineqrows{41|6I8} 490m5 492r24
+427U15 Compute_Mixed_Cells 428>20 428>22 428>42 428>59 429>20 429>44 430=20
+. 449s13 453b15 486l9 486t28 495s7
+428i20 k{41|6I8} 454b20 461r10 464r21 466r15 475r37 478r26 478r39 480r22
+428i22 row{41|6I8} 454b22 472r35 475r54 480r24
+428a42 mat{18|16A8[39|5]} 454b42 462r37 470r29 470r42 470r59 475r40
+428a59 ipvt{19|16A8[44|4]} 454b59 462r41 469r30 469r45 475r49
+429i20 rowineq{41|6I8} 455b20 473r39 475r58
+429a44 ineq{18|16A8[39|5]} 455b44 471r30 471r44 471r62 475r44
+430a20 mic{22|18A8} 456b20 461r14 462r26 466m11 475r33 480m71
+435U15 Process_Inequalities 435b15 436>20 436>22 436>30 437>20 437>37 438=20
+. 438=48 439=20 451l9 451t29 479s19
+436i20 k{41|6I8} 445r27 447r20 447r33 448r20 448r33 449r33
+436i22 rowmat1{41|6I8} 445r29
+436i30 rowmat2{41|6I8} 445r37 446r28 449r37
+437a20 mat{18|16A8[39|5]} 445r47 449r45
+437a37 ipvt{19|16A8[44|4]} 445r51 449r49
+438i20 rowineq{41|6I8} 445m56 446r36 449r54
+438a48 ineq{18|16A8[39|5]} 445m64 446r46 449r62
+439a20 mic{22|18A8} 445m76 449m67
+458p7 tmpfa{22|21P8} 464m9 465r27 466r29 483m11 483r28
+468b13 fl{boolean} 476m65 477r16
+469a13 newipvt{19|16A8[44|4]} 476m39 476r39 480r44
+470a13 newmat{18|16A8[39|5]} 475m66 475r66 480r37
+471a13 newineq{18|16A8[39|5]} 476m31 476r31 480m63 480r63
+472i13 newrow{41|6I8} 476m47 476r47 480r30
+473i13 newrowineq{41|6I8} 476m54 476r54 480m52 480r52
+492a7 ineq{18|16A8[39|5]} 494m7 495r50
+506p5 res{24|24P8} 559m46 559r46 596r15
+506p9 res_last{24|24P8} 559m50 559r50
+507a5 accu{22|18A8} 594r27 594m60 594r60
+508a5 ma{18|16A8[39|5]} 586m18 594r40
+509a5 ipvt{19|16A8[44|4]} 586m21 594r43
+510f5 tol{32|13F8} 537r42 538r55
+511i5 ineqrows{41|6I8} 587m5 589r24
+513U15 Compute_Mixed_Cells 514>20 514>22 514>42 514>59 515>20 515>44 516>20
+. 517=20 541s13 546b15 583l9 583t28 594s7
+514i20 k{41|6I8} 547b20 558r10 561r21 563r15 572r37 575r26 575r39 576r40
+514i22 row{41|6I8} 547b22 569r35 572r54 576r42
+514a42 mat{18|16A8[39|5]} 547b42 559r37 567r29 567r42 567r59 572r40
+514a59 ipvt{19|16A8[44|4]} 547b59 559r41 566r30 566r45 572r49
+515i20 rowineq{41|6I8} 548b20 570r39 572r58
+515a44 ineq{18|16A8[39|5]} 548b44 568r30 568r44 568r62 572r44
+516a20 testsolu{19|16A8[34|4]} 549b20 577r59
+517a20 mic{22|18A8} 550b20 558r14 559r26 563m11 572r33 577m68
+522U15 Process_Inequalities 522b15 523>20 523>22 523>30 524>20 524>37 525=20
+. 525=48 526>20 527=20 544l9 544t29 576s19
+523i20 k{41|6I8} 536r10 539r20 539r33 540r20 540r33 542r16
+523i22 rowmat1{41|6I8} 536r12 537r17
+523i30 rowmat2{41|6I8} 536r20 537r25 538r32 542r20
+524a20 mat{18|16A8[39|5]} 536r30 537r33 542r28
+524a37 ipvt{19|16A8[44|4]} 536r34 537r37 542r32
+525i20 rowineq{41|6I8} 536m39 538r40 542r37
+525a48 ineq{18|16A8[39|5]} 536m47 538r50 542r45
+526a20 testsolu{19|16A8[34|4]} 532r50 532r69 542r50
+527a20 mic{22|18A8} 536m59 542m59
+532a7 newsolu{19|16A8[34|4]} 537m46 537r46 538r59
+555p7 tmpfa{22|21P8} 561m9 562r27 563r29 580m11 580r28
+565b13 fl{boolean} 573m65 574r16
+566a13 newipvt{19|16A8[44|4]} 573m39 573r39 576r62
+567a13 newmat{18|16A8[39|5]} 572m66 572r66 576r55
+568a13 newineq{18|16A8[39|5]} 573m31 573r31 577m51 577r51
+569i13 newrow{41|6I8} 573m47 573r47 576r48
+570i13 newrowineq{41|6I8} 573m54 573r54 577m40 577r40
+589a7 ineq{18|16A8[39|5]} 592m7 594r50
+590a7 solu{19|16A8[34|4]} 593m7 593r16 594r55
+601V12 Is_Supported{boolean} 601b12 601>27 601>37 601>54 614l7 614t19 631s10
+601p27 f{22|15P8} 607r14 608r13
+601a37 normal{19|16A8[44|4]} 608r22
+601i54 supp{41|6I8} 609r16
+604i5 ip{41|6I8} 608m7 609r10
+607i9 i<long_integer> 608r15
+616V12 Is_Supported{boolean} 616b12 616>27 616>37 616>52 616>60 638l7 638t19
+. 690s23
+616p27 f{22|15P8} 631r23
+616i37 k{41|6I8} 630r34
+616p52 normals{17|22P8[29|6]} 624r22
+616p60 suppvals{17|22P8[29|6]} 625r22
+624p5 tmpnor{17|22P8[29|6]} 629r23 631r33 633m13 633r31
+625p5 tmpsup{17|22P8[29|6]} 630r26 634m13 634r31
+626i5 support{41|6I8} 630m7 631r45
+640U13 Update 640b13 640>22 640=43 640=51 655l7 655t13 715s15
+640r22 mic{24|17R8} 646r44 647r44 652r36
+640p43 normals{17|22P8[29|6]} 650m22
+640p51 suppvals{17|22P8[29|6]} 654m23
+646p5 normal{19|17P8[44|4]} 650r15 652r21
+647p5 suppval{19|17P8[44|4]} 651r14 652r7 654r15
+651i9 i<long_integer> 652r15 652r44
+664p5 res{24|24P8} 713m46 713r46 752r15
+664p9 res_last{24|24P8} 712r16 713m50 713r50 714r19 715r30
+665a5 accu{22|18A8} 750r27 750m55 750r55
+666a5 ma{18|16A8[39|5]} 743m18 750r40
+667a5 ipvt{19|16A8[44|4]} 743m21 750r43
+668i5 ineqrows{41|6I8} 744m5 746r24
+670U15 Compute_Mixed_Cells 671>20 671>22 671>42 671>59 672>20 672>44 673=20
+. 673=45 695s13 699b15 740l9 740t28 750s7
+671i20 k{41|6I8} 700b20 711r10 718r21 720r15 729r37 732r26 732r39 733r40
+671i22 row{41|6I8} 700b22 726r35 729r54 733r42
+671a42 mat{18|16A8[39|5]} 700b42 713r37 724r29 724r42 724r59 729r40
+671a59 ipvt{19|16A8[44|4]} 700b59 713r41 723r30 723r45 729r49
+672i20 rowineq{41|6I8} 701b20 727r39 729r58
+672a44 ineq{18|16A8[39|5]} 701b44 725r30 725r44 725r62 729r44
+673a20 mic{22|18A8} 702b20 711r14 713r26 720m11 729r33 734m59
+673b45 issupp{boolean} 702b45 734m63
+678U15 Process_Inequalities 678b15 679>20 679>22 679>30 680>20 680>37 681=20
+. 681=48 682=20 682=45 697l9 697t29 733s19
+679i20 k{41|6I8} 688r27 690r40 690r43 693r20 693r33 694r20 694r33 695r33
+679i22 rowmat1{41|6I8} 688r29
+679i30 rowmat2{41|6I8} 688r37 692r48 695r37
+680a20 mat{18|16A8[39|5]} 688r47 695r45
+680a37 ipvt{19|16A8[44|4]} 688r51 695r49
+681i20 rowineq{41|6I8} 688m56 692r56 695r54
+681a48 ineq{18|16A8[39|5]} 688m64 692r66 695r62
+682a20 mic{22|18A8} 688m76 690r36 695m67
+682b45 issupp{boolean} 689r10 690m13 692r14 695m71
+707p7 old{24|24P8} 712m9 714r12
+708p7 tmpfa{22|21P8} 718m9 719r27 720r29 737m11 737r28
+722b13 fl{boolean} 730m65 731r16
+723a13 newipvt{19|16A8[44|4]} 730m39 730r39 733r62
+724a13 newmat{18|16A8[39|5]} 729m66 729r66 733r55
+725a13 newineq{18|16A8[39|5]} 730m31 730r31 734m51 734r51
+726i13 newrow{41|6I8} 730m47 730r47 733r48
+727i13 newrowineq{41|6I8} 730m54 730r54 734m40 734r40
+746a7 ineq{18|16A8[39|5]} 749m7 750r50
+747b7 supported{boolean} 750m60 750r60
+X 29 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[17|12] 25|4w6 4r46
+X 31 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[18|9] 26|3w6 178r15
+X 32 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 26|2w6 2r46 32|58e30
+13F8*double_float<long_float> 26|165r57 182r18 188r27 194r28 250r59 256r10
+. 260r19 262r28 273r11 282r52 510r20 510r36
+X 34 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[19|8] 25|3w6 30r41 36r41 62r41 71r41 26|166r24
+. 179r15 251r28 268r33 283r36 323r41 418r40 503r40 516r34 526r34 532r17 549r34
+. 590r14 660r43
+X 37 standard_integer_linear_equalities.ads
+5K9*Standard_Integer_Linear_Equalities 26|7w6 7r46 37|47e39
+13U13*Triangulate 26|226s9 241s15
+X 38 standard_integer_linear_solvers.ads
+8K9*Standard_Integer_Linear_Solvers[15|15] 26|6w6 6r46
+X 39 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[18|9] 26|5w6 5r46
+X 40 standard_integer_norms.ads
+5K9*Standard_Integer_Norms 26|4w6 4r46 40|24e27
+18U13*Normalize 26|92s7
+X 41 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 25|1w6 1r46 41|45e29
+6I8*integer32<long_integer> 25|28r25 34r25 60r25 69r25 26|32r33 63r43 102r26
+. 103r54 105r46 115r13 133r25 165r25 181r13 211r43 213r35 250r24 267r35 281r46
+. 321r25 330r16 333r31 334r33 341r43 343r37 360r31 361r33 384r22 385r26 404r17
+. 416r24 425r16 428r31 429r33 436r43 438r37 454r31 455r33 472r22 473r26 490r17
+. 501r24 511r16 514r31 515r33 523r43 525r37 547r31 548r33 569r22 570r26 587r17
+. 601r61 604r10 616r41 626r15 658r27 668r16 671r31 672r33 679r43 681r37 700r31
+. 701r33 726r22 727r26 744r17
+X 44 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[19|8] 25|2w6 2r46
+X 46 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 26|1w6 1r46 46|30e29
+7I8*natural32<long_integer> 26|49r63 54r11 58r43
+

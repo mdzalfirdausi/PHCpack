@@ -1,0 +1,72 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U permutations%b	permutations.adb	71590137 NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U permutations%s	permutations.ads	c7371ce2 EE NE OO PK
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D permutations.ads	20260513024558 46604f6d permutations%s
+D permutations.adb	20260513024558 48d92c41 permutations%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [is_permutation permutations 18 12 none]
+G c Z s b [equal permutations 25 12 none]
+G c Z s b [Omultiply permutations 30 12 none]
+G c Z s b [inv permutations 38 12 none]
+X 2 generic_vectors.ads
+16A8*Vector(5|6I8)<5|6I8> 3|8r52[7|4]
+17P8*Link_to_Vector(16A8[7|4]) 3|9r60[7|4]
+X 3 permutations.ads
+3K9*Permutations 43l5 43e17 4|3b14 63l5 63t17
+8A8*Permutation<2|16A8[7|4]>(1|3I8[6|4])<5|6I8> 18r33 25r28 30r26 30r47 38r22
+. 38r43 4|5r33 21r28 35r26 35r47 37r9 49r22 49r43 51r9
+9P8*Link_to_Permutation<2|17P8[7|4]>
+18V12*Is_Permutation{boolean} 18>29 4|5b12 19l7 19t21
+18a29 p{8A8} 4|5b29 7r14 8r12 8r31 8r39 8r56 8r63 11r18 12r16 12r23 12r38
+. 12r46
+25V12*Equal{boolean}<2|21p12> 25>20 25>23 4|21b12 33l7 33t12
+25a20 p1{8A8} 4|21b20 23r9 23r40 26r16 27r12
+25a23 p2{8A8} 4|21b23 23r21 23r51 27r21
+30V13*"*"{8A8}<2|47p12> 30>18 30>21 4|35b13 47l8 47t10
+30a18 p1{8A8} 4|35b18 37r21 42r21 43r22
+30a21 p2{8A8} 4|35b21 41r10 42r24 43r26
+38V12*inv{8A8} 38>18 4|49b12 61l7 61t10
+38a18 p{8A8} 4|49b18 51r21 55r10 56r15 57r16
+X 4 permutations.adb
+7i9 i<long_integer> 8r14 8r33 8r58 11r28 12r18 12r40
+11i13 j<long_integer> 12r25 12r48
+26i11 i<long_integer> 27r15 27r24
+37a5 r{3|8A8} 40r14 42m13 43m13 46r12
+40i9 i<long_integer> 41r13 42r15 42r27 43r15 43r29
+51a5 r{3|8A8} 54r14 56m13 57m13 60r12
+54i9 i<long_integer> 55r12 56r17 56r24 57r18 57r26
+X 5 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 4|1w6 1r47 5|45e29
+6I8*integer32<long_integer>
+X 7 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[2|8] 3|1w6 8r27 9r35
+

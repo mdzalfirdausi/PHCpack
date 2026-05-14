@@ -1,0 +1,950 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main_samplers%b	main_samplers.adb	3464ba2d NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W characters_and_numbers%s  characters_and_numbers.adb  characters_and_numbers.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W continuation_parameters%s  continuation_parameters.adb  continuation_parameters.ali
+W dobldobl_complex_jaco_matrices%s  dobldobl_complex_jaco_matrices.ads  dobldobl_complex_jaco_matrices.ali
+W dobldobl_complex_poly_sysfun%s  dobldobl_complex_poly_sysfun.ads  dobldobl_complex_poly_sysfun.ali
+W dobldobl_complex_vecvecs%s  dobldobl_complex_vecvecs.ads  dobldobl_complex_vecvecs.ali
+W dobldobl_continuation_data%s  dobldobl_continuation_data.adb  dobldobl_continuation_data.ali
+W dobldobl_continuation_data_io%s  dobldobl_continuation_data_io.adb  dobldobl_continuation_data_io.ali
+W dobldobl_intrinsic_continuation%s  dobldobl_intrinsic_continuation.adb  dobldobl_intrinsic_continuation.ali
+W dobldobl_moving_planes%s  dobldobl_moving_planes.adb  dobldobl_moving_planes.ali
+W dobldobl_plane_representations%s  dobldobl_plane_representations.adb  dobldobl_plane_representations.ali
+W intrinsic_witness_sets_io%s  intrinsic_witness_sets_io.adb  intrinsic_witness_sets_io.ali
+W main_poly_continuation%s  main_poly_continuation.adb  main_poly_continuation.ali
+W quaddobl_complex_jaco_matrices%s  quaddobl_complex_jaco_matrices.ads  quaddobl_complex_jaco_matrices.ali
+W quaddobl_complex_poly_sysfun%s  quaddobl_complex_poly_sysfun.ads  quaddobl_complex_poly_sysfun.ali
+W quaddobl_complex_vecvecs%s  quaddobl_complex_vecvecs.ads  quaddobl_complex_vecvecs.ali
+W quaddobl_continuation_data%s  quaddobl_continuation_data.adb  quaddobl_continuation_data.ali
+W quaddobl_continuation_data_io%s  quaddobl_continuation_data_io.adb  quaddobl_continuation_data_io.ali
+W quaddobl_intrinsic_continuation%s  quaddobl_intrinsic_continuation.adb  quaddobl_intrinsic_continuation.ali
+W quaddobl_moving_planes%s  quaddobl_moving_planes.adb  quaddobl_moving_planes.ali
+W quaddobl_plane_representations%s  quaddobl_plane_representations.adb  quaddobl_plane_representations.ali
+W standard_complex_jaco_matrices%s  standard_complex_jaco_matrices.ads  standard_complex_jaco_matrices.ali
+W standard_complex_poly_sysfun%s  standard_complex_poly_sysfun.ads  standard_complex_poly_sysfun.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_continuation_data%s  standard_continuation_data.adb  standard_continuation_data.ali
+W standard_continuation_data_io%s  standard_continuation_data_io.adb  standard_continuation_data_io.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_intrinsic_continuation%s  standard_intrinsic_continuation.adb  standard_intrinsic_continuation.ali
+W standard_moving_planes%s  standard_moving_planes.adb  standard_moving_planes.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_plane_representations%s  standard_plane_representations.adb  standard_plane_representations.ali
+W string_splitters%s	string_splitters.adb	string_splitters.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+W witness_sets%s	witness_sets.adb	witness_sets.ali
+W witness_sets_io%s	witness_sets_io.adb	witness_sets_io.ali
+
+U main_samplers%s	main_samplers.ads	257b4f8c EE NE OO PK
+W dobldobl_complex_matrices%s  dobldobl_complex_matrices.ads  dobldobl_complex_matrices.ali
+W dobldobl_complex_poly_systems%s  dobldobl_complex_poly_systems.ads  dobldobl_complex_poly_systems.ali
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W quaddobl_complex_matrices%s  quaddobl_complex_matrices.ads  quaddobl_complex_matrices.ali
+W quaddobl_complex_poly_systems%s  quaddobl_complex_poly_systems.ads  quaddobl_complex_poly_systems.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D characters_and_numbers.ads  20260513024558 8b0f2874 characters_and_numbers%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D continuation_parameters.ads  20260513024558 80b0c65f continuation_parameters%s
+D dobldobl_complex_jaco_matrices.ads  20260513024558 835481de dobldobl_complex_jaco_matrices%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_functions.ads  20260513024558 c33d968a dobldobl_complex_poly_functions%s
+D dobldobl_complex_poly_sysfun.ads  20260513024558 d88794b5 dobldobl_complex_poly_sysfun%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_continuation_data.ads  20260513024558 559bc7dd dobldobl_continuation_data%s
+D dobldobl_continuation_data_io.ads  20260513024558 96cce236 dobldobl_continuation_data_io%s
+D dobldobl_intrinsic_continuation.ads  20260513024556 926a3570 dobldobl_intrinsic_continuation%s
+D dobldobl_moving_planes.ads  20260513024556 45ed47a4 dobldobl_moving_planes%s
+D dobldobl_plane_representations.ads  20260513024556 74232c8b dobldobl_plane_representations%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D intrinsic_witness_sets_io.ads  20260513024556 5bcf7a16 intrinsic_witness_sets_io%s
+D main_poly_continuation.ads  20260513024558 f3aee7db main_poly_continuation%s
+D main_samplers.ads	20260513024556 64de4fa5 main_samplers%s
+D main_samplers.adb	20260513024556 0dfe3253 main_samplers%b
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_poly_systems.ads  20260513024558 ff1af8f0 multprec_complex_poly_systems%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_complex_vecvecs.ads  20260513024558 b42f0858 multprec_complex_vecvecs%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_jaco_matrices.ads  20260513024558 aad21012 quaddobl_complex_jaco_matrices%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_functions.ads  20260513024558 0ffc73e2 quaddobl_complex_poly_functions%s
+D quaddobl_complex_poly_sysfun.ads  20260513024558 ddec787b quaddobl_complex_poly_sysfun%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_continuation_data.ads  20260513024558 555fad79 quaddobl_continuation_data%s
+D quaddobl_continuation_data_io.ads  20260513024558 d93cbd42 quaddobl_continuation_data_io%s
+D quaddobl_intrinsic_continuation.ads  20260513024556 1d726c62 quaddobl_intrinsic_continuation%s
+D quaddobl_moving_planes.ads  20260513024556 af1a4aad quaddobl_moving_planes%s
+D quaddobl_plane_representations.ads  20260513024556 3e07144f quaddobl_plane_representations%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_continuation_data.ads  20260513024558 5caa45bb standard_continuation_data%s
+D standard_continuation_data_io.ads  20260513024558 a7c07e10 standard_continuation_data_io%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_intrinsic_continuation.ads  20260513024556 2a65550e standard_intrinsic_continuation%s
+D standard_moving_planes.ads  20260513024556 3c54e570 standard_moving_planes%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_plane_representations.ads  20260513024556 e717ac03 standard_plane_representations%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D witness_sets.ads	20260513024556 9e614468 witness_sets%s
+D witness_sets_io.ads	20260513024556 a074c105 witness_sets_io%s
+G a e
+G c Z s b [read_witness_set main_samplers 20 13 none]
+G c Z s b [read_witness_set main_samplers 25 13 none]
+G c Z s b [read_witness_set main_samplers 30 13 none]
+G c Z s b [local_intrinsic_continuation main_samplers 47 13 none]
+G c Z s b [local_intrinsic_continuation main_samplers 53 13 none]
+G c Z s b [local_intrinsic_continuation main_samplers 59 13 none]
+G c Z s b [setup_local_coordinates main_samplers 80 13 none]
+G c Z s b [setup_local_coordinates main_samplers 85 13 none]
+G c Z s b [setup_local_coordinates main_samplers 90 13 none]
+G c Z s b [sample_in_standard_precision main_samplers 107 13 none]
+G c Z s b [sample_in_dobldobl_precision main_samplers 108 13 none]
+G c Z s b [sample_in_quaddobl_precision main_samplers 109 13 none]
+G c Z s b [main main_samplers 117 13 none]
+G c Z b b [byebye main_samplers 240 13 none]
+G r c none [read_witness_set main_samplers 20 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [read_witness_set main_samplers 20 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [read_witness_set main_samplers 20 13 none] [standard_read_embedding witness_sets_io 193 13 none]
+G r c none [read_witness_set main_samplers 25 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [read_witness_set main_samplers 25 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [read_witness_set main_samplers 25 13 none] [dobldobl_read_embedding witness_sets_io 203 13 none]
+G r c none [read_witness_set main_samplers 30 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [read_witness_set main_samplers 30 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [read_witness_set main_samplers 30 13 none] [quaddobl_read_embedding witness_sets_io 213 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [one_random_direction standard_moving_planes 17 12 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [make_square witness_sets 116 12 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [shallow_create standard_continuation_data 46 12 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [tstart timing_package 20 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [silent_local_lu_continue standard_intrinsic_continuation 197 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [tstop timing_package 24 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [reporting_local_lu_continue standard_intrinsic_continuation 202 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 109 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [print_times timing_package 49 13 none]
+G r c none [local_intrinsic_continuation main_samplers 47 13 none] [path_tracking_statistics standard_continuation_data_io 105 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [one_random_direction dobldobl_moving_planes 17 12 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [make_square witness_sets 119 12 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [create dobldobl_complex_poly_sysfun 43 12 9_1]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [create dobldobl_complex_jaco_matrices 64 12 11_1]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [create dobldobl_complex_jaco_matrices 69 12 11_1]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [shallow_create dobldobl_continuation_data 46 12 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [tstart timing_package 20 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [silent_local_lu_continue dobldobl_intrinsic_continuation 198 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [tstop timing_package 24 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [reporting_local_lu_continue dobldobl_intrinsic_continuation 203 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 114 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [print_times timing_package 49 13 none]
+G r c none [local_intrinsic_continuation main_samplers 53 13 none] [path_tracking_statistics dobldobl_continuation_data_io 105 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [one_random_direction quaddobl_moving_planes 17 12 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [make_square witness_sets 122 12 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [shallow_create quaddobl_continuation_data 46 12 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [tstart timing_package 20 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [silent_local_lu_continue quaddobl_intrinsic_continuation 198 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [tstop timing_package 24 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [reporting_local_lu_continue quaddobl_intrinsic_continuation 203 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 119 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [print_times timing_package 49 13 none]
+G r c none [local_intrinsic_continuation main_samplers 59 13 none] [path_tracking_statistics quaddobl_continuation_data_io 105 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [remove_embedding1 witness_sets 377 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [number_of_zero_equations witness_sets 401 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [slices witness_sets 318 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [equations_to_matrix standard_plane_representations 43 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [generators standard_plane_representations 87 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [orthogonalize standard_plane_representations 94 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [tune continuation_parameters 145 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [one_random_direction standard_moving_planes 17 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [make_square witness_sets 116 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [shallow_create standard_continuation_data 46 12 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [tstart timing_package 20 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [silent_local_lu_continue standard_intrinsic_continuation 197 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [tstop timing_package 24 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [reporting_local_lu_continue standard_intrinsic_continuation 202 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 109 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [print_times timing_package 49 13 none]
+G r c none [setup_local_coordinates main_samplers 80 13 none] [path_tracking_statistics standard_continuation_data_io 105 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [remove_embedding1 witness_sets 383 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [number_of_zero_equations witness_sets 405 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [slices witness_sets 322 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [equations_to_matrix dobldobl_plane_representations 44 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [generators dobldobl_plane_representations 88 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [orthogonalize dobldobl_plane_representations 95 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [tune continuation_parameters 145 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [one_random_direction dobldobl_moving_planes 17 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [make_square witness_sets 119 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [create dobldobl_complex_poly_sysfun 43 12 9_1]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [create dobldobl_complex_jaco_matrices 64 12 11_1]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [create dobldobl_complex_jaco_matrices 69 12 11_1]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [shallow_create dobldobl_continuation_data 46 12 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [tstart timing_package 20 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [silent_local_lu_continue dobldobl_intrinsic_continuation 198 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [tstop timing_package 24 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [reporting_local_lu_continue dobldobl_intrinsic_continuation 203 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 114 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [print_times timing_package 49 13 none]
+G r c none [setup_local_coordinates main_samplers 85 13 none] [path_tracking_statistics dobldobl_continuation_data_io 105 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [remove_embedding1 witness_sets 389 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [number_of_zero_equations witness_sets 409 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [slices witness_sets 326 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [equations_to_matrix quaddobl_plane_representations 44 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [generators quaddobl_plane_representations 88 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [orthogonalize quaddobl_plane_representations 95 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [tune continuation_parameters 145 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [one_random_direction quaddobl_moving_planes 17 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [make_square witness_sets 122 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [shallow_create quaddobl_continuation_data 46 12 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [tstart timing_package 20 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [silent_local_lu_continue quaddobl_intrinsic_continuation 198 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [tstop timing_package 24 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [reporting_local_lu_continue quaddobl_intrinsic_continuation 203 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 119 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [print_times timing_package 49 13 none]
+G r c none [setup_local_coordinates main_samplers 90 13 none] [path_tracking_statistics quaddobl_continuation_data_io 105 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [standard_read_embedding witness_sets_io 193 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [read_name_and_create_file communications_with_user 67 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [create_output_file communications_with_user 96 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [remove_embedding1 witness_sets 377 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [number_of_zero_equations witness_sets 401 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [slices witness_sets 318 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [equations_to_matrix standard_plane_representations 43 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [generators standard_plane_representations 87 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [orthogonalize standard_plane_representations 94 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [tune continuation_parameters 145 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [one_random_direction standard_moving_planes 17 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [make_square witness_sets 116 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [shallow_create standard_continuation_data 46 12 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [tstart timing_package 20 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [silent_local_lu_continue standard_intrinsic_continuation 197 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [tstop timing_package 24 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [reporting_local_lu_continue standard_intrinsic_continuation 202 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 109 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [print_times timing_package 49 13 none]
+G r c none [sample_in_standard_precision main_samplers 107 13 none] [path_tracking_statistics standard_continuation_data_io 105 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [dobldobl_read_embedding witness_sets_io 203 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [read_name_and_create_file communications_with_user 67 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [create_output_file communications_with_user 96 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [remove_embedding1 witness_sets 383 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [number_of_zero_equations witness_sets 405 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [slices witness_sets 322 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [equations_to_matrix dobldobl_plane_representations 44 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [generators dobldobl_plane_representations 88 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [orthogonalize dobldobl_plane_representations 95 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [tune continuation_parameters 145 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [one_random_direction dobldobl_moving_planes 17 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [make_square witness_sets 119 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [create dobldobl_complex_poly_sysfun 43 12 9_1]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [create dobldobl_complex_jaco_matrices 64 12 11_1]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [create dobldobl_complex_jaco_matrices 69 12 11_1]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [shallow_create dobldobl_continuation_data 46 12 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [tstart timing_package 20 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [silent_local_lu_continue dobldobl_intrinsic_continuation 198 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [tstop timing_package 24 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [reporting_local_lu_continue dobldobl_intrinsic_continuation 203 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 114 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [print_times timing_package 49 13 none]
+G r c none [sample_in_dobldobl_precision main_samplers 108 13 none] [path_tracking_statistics dobldobl_continuation_data_io 105 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [quaddobl_read_embedding witness_sets_io 213 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [read_name_and_create_file communications_with_user 67 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [create_output_file communications_with_user 96 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [remove_embedding1 witness_sets 389 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [number_of_zero_equations witness_sets 409 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [slices witness_sets 326 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [equations_to_matrix quaddobl_plane_representations 44 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [generators quaddobl_plane_representations 88 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [orthogonalize quaddobl_plane_representations 95 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [tune continuation_parameters 145 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [one_random_direction quaddobl_moving_planes 17 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [make_square witness_sets 122 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [shallow_create quaddobl_continuation_data 46 12 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [tstart timing_package 20 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [silent_local_lu_continue quaddobl_intrinsic_continuation 198 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [tstop timing_package 24 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [reporting_local_lu_continue quaddobl_intrinsic_continuation 203 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 119 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [print_times timing_package 49 13 none]
+G r c none [sample_in_quaddobl_precision main_samplers 109 13 none] [path_tracking_statistics quaddobl_continuation_data_io 105 13 none]
+G r c none [main main_samplers 117 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main main_samplers 117 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [main main_samplers 117 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [main main_samplers 117 13 none] [standard_read_embedding witness_sets_io 193 13 none]
+G r c none [main main_samplers 117 13 none] [read_name_and_create_file communications_with_user 67 13 none]
+G r c none [main main_samplers 117 13 none] [create_output_file communications_with_user 96 13 none]
+G r c none [main main_samplers 117 13 none] [remove_embedding1 witness_sets 377 12 none]
+G r c none [main main_samplers 117 13 none] [number_of_zero_equations witness_sets 401 12 none]
+G r c none [main main_samplers 117 13 none] [slices witness_sets 318 12 none]
+G r c none [main main_samplers 117 13 none] [equations_to_matrix standard_plane_representations 43 12 none]
+G r c none [main main_samplers 117 13 none] [generators standard_plane_representations 87 12 none]
+G r c none [main main_samplers 117 13 none] [orthogonalize standard_plane_representations 94 12 none]
+G r c none [main main_samplers 117 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [main main_samplers 117 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [main main_samplers 117 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main main_samplers 117 13 none] [tune continuation_parameters 145 13 none]
+G r c none [main main_samplers 117 13 none] [driver_for_continuation_parameters main_poly_continuation 50 13 none]
+G r c none [main main_samplers 117 13 none] [driver_for_process_io main_poly_continuation 29 13 none]
+G r c none [main main_samplers 117 13 none] [one_random_direction standard_moving_planes 17 12 none]
+G r c none [main main_samplers 117 13 none] [make_square witness_sets 116 12 none]
+G r c none [main main_samplers 117 13 none] [create standard_complex_poly_sysfun 43 12 9_1]
+G r c none [main main_samplers 117 13 none] [create standard_complex_jaco_matrices 64 12 11_1]
+G r c none [main main_samplers 117 13 none] [create standard_complex_jaco_matrices 69 12 11_1]
+G r c none [main main_samplers 117 13 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [main main_samplers 117 13 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [main main_samplers 117 13 none] [nconvert characters_and_numbers 61 12 none]
+G r c none [main main_samplers 117 13 none] [shallow_create standard_continuation_data 46 12 none]
+G r c none [main main_samplers 117 13 none] [tstart timing_package 20 13 none]
+G r c none [main main_samplers 117 13 none] [silent_local_lu_continue standard_intrinsic_continuation 197 13 none]
+G r c none [main main_samplers 117 13 none] [tstop timing_package 24 13 none]
+G r c none [main main_samplers 117 13 none] [reporting_local_lu_continue standard_intrinsic_continuation 202 13 none]
+G r c none [main main_samplers 117 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 109 13 none]
+G r c none [main main_samplers 117 13 none] [print_times timing_package 49 13 none]
+G r c none [main main_samplers 117 13 none] [path_tracking_statistics standard_continuation_data_io 105 13 none]
+G r c none [main main_samplers 117 13 none] [dobldobl_read_embedding witness_sets_io 203 13 none]
+G r c none [main main_samplers 117 13 none] [remove_embedding1 witness_sets 383 12 none]
+G r c none [main main_samplers 117 13 none] [number_of_zero_equations witness_sets 405 12 none]
+G r c none [main main_samplers 117 13 none] [slices witness_sets 322 12 none]
+G r c none [main main_samplers 117 13 none] [equations_to_matrix dobldobl_plane_representations 44 12 none]
+G r c none [main main_samplers 117 13 none] [generators dobldobl_plane_representations 88 12 none]
+G r c none [main main_samplers 117 13 none] [orthogonalize dobldobl_plane_representations 95 12 none]
+G r c none [main main_samplers 117 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [main main_samplers 117 13 none] [one_random_direction dobldobl_moving_planes 17 12 none]
+G r c none [main main_samplers 117 13 none] [make_square witness_sets 119 12 none]
+G r c none [main main_samplers 117 13 none] [create dobldobl_complex_poly_sysfun 43 12 9_1]
+G r c none [main main_samplers 117 13 none] [create dobldobl_complex_jaco_matrices 64 12 11_1]
+G r c none [main main_samplers 117 13 none] [create dobldobl_complex_jaco_matrices 69 12 11_1]
+G r c none [main main_samplers 117 13 none] [shallow_create dobldobl_continuation_data 46 12 none]
+G r c none [main main_samplers 117 13 none] [silent_local_lu_continue dobldobl_intrinsic_continuation 198 13 none]
+G r c none [main main_samplers 117 13 none] [reporting_local_lu_continue dobldobl_intrinsic_continuation 203 13 none]
+G r c none [main main_samplers 117 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 114 13 none]
+G r c none [main main_samplers 117 13 none] [path_tracking_statistics dobldobl_continuation_data_io 105 13 none]
+G r c none [main main_samplers 117 13 none] [quaddobl_read_embedding witness_sets_io 213 13 none]
+G r c none [main main_samplers 117 13 none] [remove_embedding1 witness_sets 389 12 none]
+G r c none [main main_samplers 117 13 none] [number_of_zero_equations witness_sets 409 12 none]
+G r c none [main main_samplers 117 13 none] [slices witness_sets 326 12 none]
+G r c none [main main_samplers 117 13 none] [equations_to_matrix quaddobl_plane_representations 44 12 none]
+G r c none [main main_samplers 117 13 none] [generators quaddobl_plane_representations 88 12 none]
+G r c none [main main_samplers 117 13 none] [orthogonalize quaddobl_plane_representations 95 12 none]
+G r c none [main main_samplers 117 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [main main_samplers 117 13 none] [one_random_direction quaddobl_moving_planes 17 12 none]
+G r c none [main main_samplers 117 13 none] [make_square witness_sets 122 12 none]
+G r c none [main main_samplers 117 13 none] [create quaddobl_complex_poly_sysfun 43 12 9_1]
+G r c none [main main_samplers 117 13 none] [create quaddobl_complex_jaco_matrices 64 12 11_1]
+G r c none [main main_samplers 117 13 none] [create quaddobl_complex_jaco_matrices 69 12 11_1]
+G r c none [main main_samplers 117 13 none] [shallow_create quaddobl_continuation_data 46 12 none]
+G r c none [main main_samplers 117 13 none] [silent_local_lu_continue quaddobl_intrinsic_continuation 198 13 none]
+G r c none [main main_samplers 117 13 none] [reporting_local_lu_continue quaddobl_intrinsic_continuation 203 13 none]
+G r c none [main main_samplers 117 13 none] [write_witness_set_to_file intrinsic_witness_sets_io 119 13 none]
+G r c none [main main_samplers 117 13 none] [path_tracking_statistics quaddobl_continuation_data_io 105 13 none]
+X 12 a-textio.ads
+67P9*File_Type 54|48r27 54r27 60r27 81r27 86r27 91r27 55|44r12 63r12 82r12
+. 96r27 145r27 193r27 248r27 289r27 330r27 375r12 395r12 415r12
+277U14*New_Line 55|132s7 138s5 140s5 180s7 186s5 188s5 228s7 234s5 236s5
+284U14*New_Line 55|48s7 67s7 86s7 242s5 244s5 272s5 273s62 274s62 275s64
+. 276s56 277s67 278s5 281s5 313s5 314s62 315s62 316s64 317s56 318s67 319s5
+. 322s5 354s5 355s62 356s62 357s64 358s56 359s67 360s5 363s5 381s7 401s7
+. 421s7 435s5
+515U14*Put 55|273s5 274s5 275s5 276s5 277s5 314s5 315s5 316s5 317s5 318s5
+. 355s5 356s5 357s5 358s5 359s5 440s5
+565U14*Put_Line 55|49s7 68s7 87s7 243s5 382s7 402s7 422s7 436s5 437s5 438s5
+. 439s5
+X 14 characters_and_numbers.ads
+6K9*Characters_and_Numbers 85e27 55|1w6 123r33 171r33 219r33
+61V12*nConvert{string} 55|123s56 171s56 219s56
+X 15 communications_with_user.ads
+4K9*Communications_with_User 127e29 55|4w6 4r45
+29U13*Ask_Alternative 55|441s5
+46U13*Read_Name_and_Open_File 55|50s7 69s7 88s7
+67U13*Read_Name_and_Create_File 55|383s7 403s7 423s7
+81U13*Open_Input_File 55|52s7 71s7 90s7
+96U13*Create_Output_File 55|385s7 405s7 425s7
+X 16 continuation_parameters.ads
+4K9*Continuation_Parameters 170e28 55|16w6 117r19 118r11 119r19 120r11 165r19
+. 166r11 167r19 168r11 213r19 214r11 215r19 216r11 279r5 320r5 361r5
+11R8*Pred_Pars 21e13 55|117r43 165r43 213r43
+23R8*Corr_Pars 31e13 55|119r43 167r43 215r43
+145U13*Tune 55|279s29 320s29 361s29
+161V12*Create_for_Path{11R8} 55|118s35 166s35 214s35
+163V12*Create_for_Path{23R8} 55|120s35 168s35 216s35
+X 17 dobldobl_complex_jaco_matrices.ads
+11K9*DoblDobl_Complex_Jaco_Matrices[37|25] 55|13w6 154r9
+X 20 dobldobl_complex_matrices.ads
+5K9*DoblDobl_Complex_Matrices[41|9] 54|5w6 57r28 55|148r28 151r9 294r9
+X 23 dobldobl_complex_poly_sysfun.ads
+9K9*DoblDobl_Complex_Poly_SysFun[42|19] 55|12w6 153r9
+X 24 dobldobl_complex_poly_systems.ads
+5K9*DoblDobl_Complex_Poly_Systems[44|12] 54|8w6 27r25 56r24 87r25 55|59r25
+. 147r24 152r9 290r25 296r9 392r9
+X 27 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 235e31 54|11w6 28r28 58r28 88r27 55|60r28
+. 149r28 155r9 291r27 297r9 393r9
+31P8*Solution_List<40|12P8[30]> 54|28r55 58r55 88r54 55|60r55 149r55 291r54
+. 393r36
+X 29 dobldobl_complex_vecvecs.ads
+5K9*DoblDobl_Complex_VecVecs[48|10] 55|8w6 295r9
+X 30 dobldobl_continuation_data.ads
+7K9*DoblDobl_Continuation_Data 138e31 55|19w6 156r9
+34A8*Solu_Info_Array(18R8)<107|6I8> 55|172r10
+46V12*Shallow_Create{34A8} 55|172s48
+X 31 dobldobl_continuation_data_io.ads
+8K9*DoblDobl_Continuation_Data_io 112e34 55|20w6 189r5
+105U13*Path_Tracking_Statistics 55|189s35
+X 32 dobldobl_intrinsic_continuation.ads
+11K9*DoblDobl_Intrinsic_Continuation 236e36 55|33w6 157r9
+198U13*Silent_Local_LU_Continue 55|177s7
+203U13*Reporting_Local_LU_Continue 55|182s7
+X 33 dobldobl_moving_planes.ads
+6K9*DoblDobl_Moving_Planes 73e27 55|27w6 160r15
+17V12*One_Random_Direction{41|16A8[20|5]} 55|160s38
+X 34 dobldobl_plane_representations.ads
+6K9*DoblDobl_Plane_Representations 131e35 55|26w6 298r9
+44V12*Equations_to_Matrix{41|16A8[20|5]} 55|306s41
+88V12*Generators{41|16A8[20|5]} 55|307s41
+95V12*Orthogonalize{41|16A8[20|5]} 55|308s41
+X 36 generic_complex_numbers.ads
+19R8*Complex_Number
+X 37 generic_jacobian_matrices.ads
+40A8*Jaco_Mat(45|28P8[98|4])<107|6I8><107|6I8> 55|115r19[90|11] 163r19[17|11]
+. 211r19[72|11]
+42A8*Eval_Jaco_Mat(43|26P8[95|6])<107|6I8><107|6I8> 55|116r19[90|11] 164r19[17|11]
+. 212r19[72|11]
+64V12*Create{40A8[90|11]} 55|115s42[90|11] 163s42[17|11] 211s42[72|11]
+69V12*Create{42A8[90|11]} 55|116s47[90|11] 164s47[17|11] 212s47[72|11]
+X 40 generic_lists.ads
+12P8*List
+67V12*Length_Of{113|7I8} 55|122s33[100|27] 170s33[27|30] 218s33[82|30] 277s47[100|27]
+. 318s47[27|30] 359s47[82|30]
+X 41 generic_matrices.ads
+16A8*Matrix(94|11R8)<107|6I8><107|6I8> 54|51r54[93|5] 57r54[20|5] 63r54[75|5]
+. 55|99r54[93|5] 110r23[93|5] 148r54[20|5] 159r23[20|5] 196r54[75|5] 207r23[75|5]
+. 265r20[93|5] 266r20[93|5] 267r20[93|5] 306r20[20|5] 307r20[20|5] 308r20[20|5]
+. 347r20[75|5] 348r20[75|5] 349r20[75|5]
+X 42 generic_poly_system_functions.ads
+33A8*Eval_Poly_Sys(43|26P8[95|6])<107|6I8> 55|114r19[96|9] 162r19[23|9] 210r19[78|9]
+43V12*Create{33A8[96|9]} 55|114s42[96|9] 162s42[23|9] 210s42[78|9]
+X 43 generic_polynomial_functions.ads
+26P8*Eval_Poly
+X 44 generic_polynomial_systems.ads
+22A8*Poly_Sys(45|28P8[98|4])<107|6I8> 54|50r54[97|5] 56r54[24|5] 62r54[79|5]
+. 82r55[97|5] 87r55[24|5] 92r55[79|5] 55|98r54[97|5] 113r18[97|5] 147r54[24|5]
+. 161r18[24|5] 195r54[79|5] 209r18[79|5] 249r55[97|5] 261r18[97|5] 263r19[97|5]
+. 290r55[24|5] 302r18[24|5] 304r19[24|5] 331r55[79|5] 343r18[79|5] 345r19[79|5]
+23P8*Link_to_Poly_Sys(22A8[97|5]) 54|22r55[97|5] 27r55[24|5] 32r55[79|5]
+. 55|40r55[97|5] 59r55[24|5] 78r55[79|5] 372r39[97|5] 392r39[24|5] 412r39[79|5]
+X 45 generic_polynomials.ads
+28P8*Poly
+X 47 generic_vectors.ads
+16A8*Vector(36|19R8[76|5])<107|6I8>
+17P8*Link_to_Vector(16A8[102|4])
+X 48 generic_vecvecs.ads
+14A8*VecVec(47|17P8[102|4])<107|6I8> 55|264r18[103|5] 305r18[29|5] 346r18[84|5]
+X 52 intrinsic_witness_sets_io.ads
+20K9*Intrinsic_Witness_Sets_io 227e30 55|31w6 31r45
+109U13*Write_Witness_Set_to_File 55|137s5
+114U13*Write_Witness_Set_to_File 55|185s5
+119U13*Write_Witness_Set_to_File 55|233s5
+X 53 main_poly_continuation.ads
+16K9*Main_Poly_Continuation 253e27 55|23w6 23r45
+29U13*Driver_for_Process_io 55|282s5 323s5 364s5
+50U13*Driver_for_Continuation_Parameters 55|280s5 321s5 362s5
+X 54 main_samplers.ads
+14K9*Main_Samplers 132l5 132e18 55|36b14 450l5 450t18
+20U13*Read_Witness_Set 21>17 22<17 23<17 24<17 55|38b13 55l7 55t23 379s5
+21a17 w{string} 55|39b17 47r8 52r28
+22p17 p{44|23P8[97|5]} 55|40b17 54m34
+23p17 sols{100|28P8} 55|41b17 54m36
+24i17 dim{113|7I8} 55|42b17 54m41
+25U13*Read_Witness_Set 26>17 27<17 28<17 29<17 55|57b13 74l7 74t23 399s5
+26a17 w{string} 55|58b17 66r8 71r28
+27p17 p{44|23P8[24|5]} 55|59b17 73m34
+28p17 sols{27|31P8} 55|60b17 73m36
+29i17 dim{113|7I8} 55|61b17 73m41
+30U13*Read_Witness_Set 31>17 32<17 33<17 34<17 55|76b13 93l7 93t23 419s5
+31a17 w{string} 55|77b17 85r8 90r28
+32p17 p{44|23P8[79|5]} 55|78b17 92m34
+33p17 sols{82|31P8} 55|79b17 92m36
+34i17 dim{113|7I8} 55|80b17 92m41
+47U13*Local_Intrinsic_Continuation 48>17 48>38 49>17 49>19 49>37 50>17 51>17
+. 52>17 55|95b13 142l7 142t35 285s5
+48p17 file{12|67P9} 55|96b17 132r16 134r35 138r14 139r17 140r14 141r60
+48a38 name{string} 55|96b38 137r31
+49i17 n{107|6I8} 55|97b17 110r33 115r36 116r41 137r46
+49i19 k{107|6I8} 55|97b19 110r38 113r30 113r73 114r36 115r31 116r36 137r59
+49b37 output{boolean} 55|97b37 127r12
+50a17 f{44|22A8[97|5]} 55|98b17 113r61 137r62
+51a17 start{41|16A8[93|5]} 55|99b17 111r59 129r38 134r46
+52p17 esols{100|28P8} 55|100b17 122r43 124r63
+53U13*Local_Intrinsic_Continuation 54>17 54>38 55>17 55>19 55>37 56>17 57>17
+. 58>17 55|144b13 190l7 190t35 326s5
+54p17 file{12|67P9} 55|145b17 180r16 182r35 186r14 187r17 188r14 189r60
+54a38 name{string} 55|145b38 185r31
+55i17 n{107|6I8} 55|146b17 159r33 163r36 164r41 185r46
+55i19 k{107|6I8} 55|146b19 159r38 161r30 161r73 162r36 163r31 164r36 185r59
+55b37 output{boolean} 55|146b37 175r12
+56a17 f{44|22A8[24|5]} 55|147b17 161r61 185r62
+57a17 start{41|16A8[20|5]} 55|148b17 160r59 177r38 182r46
+58p17 esols{27|31P8} 55|149b17 170r43 172r63
+59U13*Local_Intrinsic_Continuation 60>17 60>38 61>17 61>19 61>37 62>17 63>17
+. 64>17 55|192b13 238l7 238t35 367s5
+60p17 file{12|67P9} 55|193b17 228r16 230r35 234r14 235r17 236r14 237r60
+60a38 name{string} 55|193b38 233r31
+61i17 n{107|6I8} 55|194b17 207r33 211r36 212r41 233r46
+61i19 k{107|6I8} 55|194b19 207r38 209r30 209r73 210r36 211r31 212r36 233r59
+61b37 output{boolean} 55|194b37 223r12
+62a17 f{44|22A8[79|5]} 55|195b17 209r61 233r62
+63a17 start{41|16A8[75|5]} 55|196b17 208r59 225r38 230r46
+64p17 esols{82|31P8} 55|197b17 218r43 220r63
+80U13*Setup_Local_Coordinates 81>17 81>38 82>17 83>17 84>17 55|247b13 286l7
+. 286t30 387s5
+81p17 file{12|67P9} 55|248b17 280r40 282r27 285r34
+81a38 name{string} 55|248b38 285r39
+82a17 ep{44|22A8[97|5]} 55|249b17 259r31 261r48 264r41
+83p17 sols{100|28P8} 55|250b17 277r57 285r62
+84i17 d{107|6I8} 55|251b17 259r41 260r33 261r61 264r28 264r54 265r30 273r56
+. 275r58
+85U13*Setup_Local_Coordinates 86>17 86>38 87>17 88>17 89>17 55|288b13 327l7
+. 327t30 407s5
+86p17 file{12|67P9} 55|289b17 321r40 323r27 326r34
+86a38 name{string} 55|289b38 326r39
+87a17 ep{44|22A8[24|5]} 55|290b17 300r31 302r48 305r41
+88p17 sols{27|31P8} 55|291b17 318r57 326r62
+89i17 d{107|6I8} 55|292b17 300r41 301r33 302r61 305r28 305r54 306r30 314r56
+. 316r58
+90U13*Setup_Local_Coordinates 91>17 91>38 92>17 93>17 94>17 55|329b13 368l7
+. 368t30 427s5
+91p17 file{12|67P9} 55|330b17 362r40 364r27 367r34
+91a38 name{string} 55|330b38 367r39
+92a17 ep{44|22A8[79|5]} 55|331b17 341r31 343r48 346r41
+93p17 sols{82|31P8} 55|332b17 359r57 367r62
+94i17 d{107|6I8} 55|333b17 341r41 342r33 343r61 346r28 346r54 347r30 355r56
+. 357r58
+107U13*Sample_in_Standard_Precision 107>44 107>51 55|370b13 388l7 388t35
+. 443s19
+107a44 witset{string} 55|370b44 379r22
+107a51 logfile{string} 55|370b51 380r8 385r31
+108U13*Sample_in_DoblDobl_Precision 108>44 108>51 55|390b13 408l7 408t35
+. 444s19
+108a44 witset{string} 55|390b44 399r22
+108a51 logfile{string} 55|390b51 400r8 405r31
+109U13*Sample_in_QuadDobl_Precision 109>44 109>51 55|410b13 428l7 428t35
+. 445s19
+109a44 witset{string} 55|410b44 419r22
+109a51 logfile{string} 55|410b51 420r8 425r31
+117U13*Main 117>20 117>27 55|430b13 448l7 448t11
+117a20 witset{string} 55|430b20 443r48 444r48 445r48
+117a27 logfile{string} 55|430b27 443r55 444r55 445r55
+X 55 main_samplers.adb
+44p5 file{12|67P9} 50m31 50r31 52m23 52r23 54r29
+63p5 file{12|67P9} 69m31 69r31 71m23 71r23 73r29
+82p5 file{12|67P9} 88m31 88r31 90m23 90r23 92r29
+110a5 target{41|16A8[93|5]} 129r44 134r52 137r64
+113a5 q{44|22A8[97|5]} 114r49 115r49
+114a5 eq{42|33A8[96|9]} 129r32 134r40
+115a5 jm{37|40A8[90|11]} 116r54
+116a5 jf{37|42A8[90|11]} 129r35 134r43
+117r5 pp{16|11R8} 129r59 134r67
+119r5 cp{16|23R8} 129r62 134r70
+121p5 timer{141|16P8} 128m14 128r14 130m13 130r13 133m14 133r14 135m13 135r13
+. 139r22
+122i5 deg{113|7I8} 123r65 124r39
+123a5 degstr{string} 139r43
+124a5 sa{104|34A8} 129m56 129r56 134m64 134r64 137r71 141r65
+159a5 target{41|16A8[20|5]} 177r44 182r52 185r64
+161a5 q{44|22A8[24|5]} 162r49 163r49
+162a5 eq{42|33A8[23|9]} 177r32 182r40
+163a5 jm{37|40A8[17|11]} 164r54
+164a5 jf{37|42A8[17|11]} 177r35 182r43
+165r5 pp{16|11R8} 177r59 182r67
+167r5 cp{16|23R8} 177r62 182r70
+169p5 timer{141|16P8} 176m14 176r14 178m13 178r13 181m14 181r14 183m13 183r13
+. 187r22
+170i5 deg{113|7I8} 171r65 172r39
+171a5 degstr{string} 187r43
+172a5 sa{30|34A8} 177m56 177r56 182m64 182r64 185r71 189r65
+207a5 target{41|16A8[75|5]} 225r44 230r52 233r64
+209a5 q{44|22A8[79|5]} 210r49 211r49
+210a5 eq{42|33A8[78|9]} 225r32 230r40
+211a5 jm{37|40A8[72|11]} 212r54
+212a5 jf{37|42A8[72|11]} 225r35 230r43
+213r5 pp{16|11R8} 225r59 230r67
+215r5 cp{16|23R8} 225r62 230r70
+217p5 timer{141|16P8} 224m14 224r14 226m13 226r13 229m14 229r14 231m13 231r13
+. 235r22
+218i5 deg{113|7I8} 219r65 220r39
+219a5 degstr{string} 235r43
+220a5 sa{85|34A8} 225m56 225r56 230m64 230r64 233r71 237r65
+240U13 byebye 240b13 245l7 245t13 284s5 325s5 366s5
+259i5 n{107|6I8} 260r31 265r35 265r63 266r30 267r30 274r56 275r56 285r44
+260i5 k{107|6I8} 266r35 267r35 276r50 285r46
+261a5 p{44|22A8[97|5]} 262r71 263r31 263r33 263r42
+262i5 nbzero{107|6I8} 263r49
+263a5 pp{44|22A8[97|5]} 285r55
+264a5 s{48|14A8[103|5]} 265r61
+265a5 eqs{41|16A8[93|5]} 266r52
+266a5 gen{41|16A8[93|5]} 267r55
+267a5 pla{41|16A8[93|5]} 285r58
+268b5 output{boolean} 283m5 285r48
+269i5 oc{113|7I8} 282m32 283r16
+300i5 n{107|6I8} 301r31 306r35 306r63 307r30 308r30 315r56 316r56 326r44
+301i5 k{107|6I8} 307r35 308r35 317r50 326r46
+302a5 p{44|22A8[24|5]} 303r71 304r31 304r33 304r42
+303i5 nbzero{107|6I8} 304r49
+304a5 pp{44|22A8[24|5]} 326r55
+305a5 s{48|14A8[29|5]} 306r61
+306a5 eqs{41|16A8[20|5]} 307r52
+307a5 gen{41|16A8[20|5]} 308r55
+308a5 pla{41|16A8[20|5]} 326r58
+309b5 output{boolean} 324m5 326r48
+310i5 oc{113|7I8} 323m32 324r16
+341i5 n{107|6I8} 342r31 347r35 347r63 348r30 349r30 356r56 357r56 367r44
+342i5 k{107|6I8} 348r35 349r35 358r50 367r46
+343a5 p{44|22A8[79|5]} 344r71 345r31 345r33 345r42
+344i5 nbzero{107|6I8} 345r49
+345a5 pp{44|22A8[79|5]} 367r55
+346a5 s{48|14A8[84|5]} 347r61
+347a5 eqs{41|16A8[75|5]} 348r52
+348a5 gen{41|16A8[75|5]} 349r55
+349a5 pla{41|16A8[75|5]} 367r58
+350b5 output{boolean} 365m5 367r48
+351i5 oc{113|7I8} 364m32 365r16
+372p5 p{44|23P8[97|5]} 379m29 379r29 387r43
+373p5 w{100|28P8} 379m31 379r31 387r49
+374i5 d{107|6I8} 379m43 379r43 387r51
+375p5 file{12|67P9} 383m33 383r33 385m26 385r26 387r29
+376p5 name{118|11P8} 383m38 383r38 385m39 385r39 387r34
+392p5 p{44|23P8[24|5]} 399m29 399r29 407r43
+393p5 w{27|31P8} 399m31 399r31 407r49
+394i5 d{107|6I8} 399m43 399r43 407r51
+395p5 file{12|67P9} 403m33 403r33 405m26 405r26 407r29
+396p5 name{118|11P8} 403m38 403r38 405m39 405r39 407r34
+412p5 p{44|23P8[79|5]} 419m29 419r29 427r43
+413p5 w{82|31P8} 419m31 419r31 427r49
+414i5 d{107|6I8} 419m43 419r43 427r51
+415p5 file{12|67P9} 423m33 423r33 425m26 425r26 427r29
+416p5 name{118|11P8} 423m38 423r38 425m39 425r39 427r34
+432e5 ans{character} 441m21 442r10
+X 72 quaddobl_complex_jaco_matrices.ads
+11K9*QuadDobl_Complex_Jaco_Matrices[37|25] 55|15w6 202r9
+X 75 quaddobl_complex_matrices.ads
+5K9*QuadDobl_Complex_Matrices[41|9] 54|6w6 63r28 55|196r28 199r9 335r9
+X 78 quaddobl_complex_poly_sysfun.ads
+9K9*QuadDobl_Complex_Poly_SysFun[42|19] 55|14w6 201r9
+X 79 quaddobl_complex_poly_systems.ads
+5K9*QuadDobl_Complex_Poly_Systems[44|12] 54|9w6 32r25 62r24 92r25 55|78r25
+. 195r24 200r9 331r25 337r9 412r9
+X 82 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 54|12w6 33r28 64r28 93r27 55|79r28 197r28
+. 203r9 332r27 338r9 413r9 82|235e31
+31P8*Solution_List<40|12P8[30]> 54|33r55 64r55 93r54 55|79r55 197r55 332r54
+. 413r36
+X 84 quaddobl_complex_vecvecs.ads
+5K9*QuadDobl_Complex_VecVecs[48|10] 55|9w6 336r9
+X 85 quaddobl_continuation_data.ads
+7K9*QuadDobl_Continuation_Data 55|21w6 204r9 85|138e31
+34A8*Solu_Info_Array(18R8)<107|6I8> 55|220r10
+46V12*Shallow_Create{34A8} 55|220s48
+X 86 quaddobl_continuation_data_io.ads
+8K9*QuadDobl_Continuation_Data_io 55|22w6 237r5 86|112e34
+105U13*Path_Tracking_Statistics 55|237s35
+X 87 quaddobl_intrinsic_continuation.ads
+11K9*QuadDobl_Intrinsic_Continuation 55|34w6 205r9 87|236e36
+198U13*Silent_Local_LU_Continue 55|225s7
+203U13*Reporting_Local_LU_Continue 55|230s7
+X 88 quaddobl_moving_planes.ads
+6K9*QuadDobl_Moving_Planes 55|29w6 208r15 88|73e27
+17V12*One_Random_Direction{41|16A8[75|5]} 55|208s38
+X 89 quaddobl_plane_representations.ads
+6K9*QuadDobl_Plane_Representations 55|28w6 339r9 89|131e35
+44V12*Equations_to_Matrix{41|16A8[75|5]} 55|347s41
+88V12*Generators{41|16A8[75|5]} 55|348s41
+95V12*Orthogonalize{41|16A8[75|5]} 55|349s41
+X 90 standard_complex_jaco_matrices.ads
+11K9*Standard_Complex_Jaco_Matrices[37|25] 55|11w6 105r9
+X 93 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[41|9] 54|4w6 51r28 55|99r28 102r9 253r9
+X 96 standard_complex_poly_sysfun.ads
+9K9*Standard_Complex_Poly_SysFun[42|19] 55|10w6 104r9
+X 97 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[44|12] 54|7w6 22r25 50r24 82r25 55|40r25
+. 98r24 103r9 249r25 255r9 372r9
+X 100 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 54|10w6 23r28 52r28 83r27 55|41r28 100r28
+. 106r9 250r27 256r9 373r9 100|206e31
+28P8*Solution_List<40|12P8[27]> 54|23r55 52r55 83r54 55|41r55 100r55 250r54
+. 373r36
+X 103 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[48|10] 55|7w6 254r9
+X 104 standard_continuation_data.ads
+7K9*Standard_Continuation_Data 55|17w6 107r9 104|138e31
+34A8*Solu_Info_Array(18R8)<107|6I8> 55|124r10
+46V12*Shallow_Create{34A8} 55|124s48
+X 105 standard_continuation_data_io.ads
+8K9*Standard_Continuation_Data_io 55|18w6 141r5 105|112e34
+105U13*Path_Tracking_Statistics 55|141s35
+X 107 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 54|3w6 3r45 107|45e29
+6I8*integer32<long_integer> 54|49r26 55r26 61r26 84r24 89r24 94r24 55|97r26
+. 124r29 146r26 172r29 194r26 220r29 251r24 259r18 260r18 262r23 262r36 292r24
+. 300r18 301r18 303r23 303r36 333r24 341r18 342r18 344r23 344r36 374r9 394r9
+. 414r9
+X 108 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 55|6w6 6r45 108|47e32
+26U13*put 55|273s52 274s52 275s52 276s46 314s52 315s52 316s52 317s46 355s52
+. 356s52 357s52 358s46
+X 111 standard_intrinsic_continuation.ads
+11K9*Standard_Intrinsic_Continuation 55|32w6 108r9 111|235e36
+197U13*Silent_Local_LU_Continue 55|129s7
+202U13*Reporting_Local_LU_Continue 55|134s7
+X 112 standard_moving_planes.ads
+6K9*Standard_Moving_Planes 55|25w6 111r15 112|73e27
+17V12*One_Random_Direction{41|16A8[93|5]} 55|111s38
+X 113 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 54|2w6 2r45 113|30e29
+7I8*natural32<long_integer> 54|24r27 29r27 34r27 55|42r27 61r27 80r27 113r63
+. 122r20 137r36 137r49 161r63 170r20 185r36 185r49 209r63 218r20 233r36 233r49
+. 261r51 264r44 269r10 302r51 305r44 310r10 343r51 346r44 351r10 379r33 399r33
+. 419r33
+X 114 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 55|5w6 5r45 114|35e32
+25U13*put 55|277s43 318s43 359s43
+X 117 standard_plane_representations.ads
+6K9*Standard_Plane_Representations 55|24w6 257r9 117|130e35
+43V12*Equations_to_Matrix{41|16A8[93|5]} 55|265s41
+87V12*Generators{41|16A8[93|5]} 55|266s41
+94V12*Orthogonalize{41|16A8[93|5]} 55|267s41
+X 118 string_splitters.ads
+3K9*String_Splitters 55|2w6 2r45 118|82e21
+11P8*Link_to_String(string) 55|376r12 396r12 416r12
+X 140 text_io.ads
+27K9*Text_IO=27:29 54|1w6 1r45
+X 141 timing_package.ads
+3K9*Timing_Package 55|3w6 3r45 141|66e19
+16P8*Timing_Widget 55|121r13 169r13 217r13
+20U13*tstart 55|128s7 133s7 176s7 181s7 224s7 229s7
+24U13*tstop 55|130s7 135s7 178s7 183s7 226s7 231s7
+49U13*print_times 55|139s5 187s5 235s5
+X 143 witness_sets.ads
+26K9*Witness_Sets 55|30w6 30r45 113r36 161r36 209r36 143|578e17
+116V12*Make_Square{44|22A8[97|5]} 55|113s49
+119V12*Make_Square{44|22A8[24|5]} 55|161s49
+122V12*Make_Square{44|22A8[79|5]} 55|209s49
+318V12*Slices{48|14A8[103|5]} 55|264s34
+322V12*Slices{48|14A8[29|5]} 55|305s34
+326V12*Slices{48|14A8[84|5]} 55|346s34
+377V12*Remove_Embedding1{44|22A8[97|5]} 55|261s30
+383V12*Remove_Embedding1{44|22A8[24|5]} 55|302s30
+389V12*Remove_Embedding1{44|22A8[79|5]} 55|343s30
+401V12*Number_of_Zero_Equations{113|7I8} 55|262s46
+405V12*Number_of_Zero_Equations{113|7I8} 55|303s46
+409V12*Number_of_Zero_Equations{113|7I8} 55|344s46
+X 144 witness_sets_io.ads
+15K9*Witness_Sets_io 55|30w19 30r58 144|456e20
+193U13*Standard_Read_Embedding 55|54s5
+203U13*DoblDobl_Read_Embedding 55|73s5
+213U13*QuadDobl_Read_Embedding 55|92s5
+

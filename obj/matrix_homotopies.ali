@@ -1,0 +1,131 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U matrix_homotopies%b	matrix_homotopies.adb	b976693b NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U matrix_homotopies%s	matrix_homotopies.ads	94c745e6 EE NE OO PK
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D matrix_homotopies.ads	20260513024558 4a959f9b matrix_homotopies%s
+D matrix_homotopies.adb	20260513024558 ad46821f matrix_homotopies%b
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [init matrix_homotopies 15 13 none]
+G c Z s b [add matrix_homotopies 20 13 none]
+G c Z s b [add_start matrix_homotopies 29 13 none]
+G c Z s b [add_target matrix_homotopies 30 13 none]
+G c Z s b [empty matrix_homotopies 40 12 none]
+G c Z s b [cardinality matrix_homotopies 45 12 none]
+G c Z s b [eval matrix_homotopies 52 12 none]
+G c Z s b [clear matrix_homotopies 61 13 none]
+G c Z b b [matrix_homotopyIP matrix_homotopies 8 8 none]
+G c Z b b [matrix_homotopy_arrayIP matrix_homotopies 13 8 none]
+G c Z b b [clear matrix_homotopies 95 13 none]
+G r c none [eval matrix_homotopies 52 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [eval matrix_homotopies 52 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [eval matrix_homotopies 52 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [eval matrix_homotopies 52 12 none] [Oadd standard_complex_numbers 51 12 none]
+X 2 generic_matrices.ads
+16A8*Matrix(7|11R8)<11|6I8><11|6I8> 4|20r37[6|5] 29r58[6|5] 30r60[6|5] 52r66[6|5]
+. 5|9r20[6|5] 30r37[6|5] 38r58[6|5] 48r60[6|5] 72r66[6|5] 75r11[6|5]
+X 4 matrix_homotopies.ads
+5K9*Matrix_Homotopies 66l5 66e22 5|4b14 117l5 117t22
+15U13*Init 15>20 5|24b13 28l7 28t11
+15i20 n{12|7I8} 5|24b20 26r54
+20U13*Add 20>19 20>25 5|30b13 36l7 36t10
+20a19 start{2|16A8[6|5]} 5|30b19 33r43 33r57 34r29
+20a25 target{2|16A8[6|5]} 5|30b25 35r30
+29U13*Add_Start 29>25 29>47 5|38b13 46l7 46t16
+29i25 mapno{12|7I8} 5|38b25 40r25 41r24 43r27 45r22
+29a47 start{2|16A8[6|5]} 5|38b47 42r32 42r46 45r39
+30U13*Add_Target 30>26 30>48 5|48b13 56l7 56t17
+30i26 mapno{12|7I8} 5|48b26 50r25 51r24 53r27 55r22
+30a48 target{2|16A8[6|5]} 5|48b48 52r32 52r47 55r40
+40V12*Empty{boolean} 40>20 5|60b12 63l7 63t12
+40i20 mapno{12|7I8} 5|60b20 62r30
+45V12*Cardinality{12|7I8} 5|65b12 68l7 68t18
+52V12*Eval{2|16A8[6|5]} 52>19 52>38 5|72b12 91l7 91t11
+52i19 mapno{12|7I8} 5|72b19 74r64
+52r38 t{7|11R8} 5|72b38 76r52 79r8 81r11 86r44
+61U13*Clear 5|104b13 115l7 115t12
+X 5 matrix_homotopies.adb
+8R8 Matrix_Homotopy 8d26 8d28 10e13 11r42 33r27 42r16 52r16 98r34
+8i26*n{11|6I8} 9r30 75r25
+8i28*m{11|6I8} 9r35 75r34
+9a5*start{2|16A8[6|5]} 34m20 45m30 80r18 86r31
+9a11*target{2|16A8[6|5]} 35m20 55m30 82r18 86r50
+11P8 Link_to_Matrix_Homotopy(8R8) 14r37 74r20 95r33 98r50
+13A8 Matrix_Homotopy_Array(11P8)<11|6I8> 15r48 26r19 107r34
+15P8 Link_to_Matrix_Homotopy_Array(13A8) 19r12 108r34
+19p3 mathom{15P8} 26m5 33r5 34r5 35r5 40r8 41r7 45r5 50r8 51r7 55r5 62r13
+. 74r47 112r13 114m10 114r10
+20i3 curmat{11|6I8} 27m5 32m5 32r15 33r12 34r12 35r12 43m7 53m7 67r22 111r17
+74p5 mho{11P8} 75r21 75r30 80r14 82r14 86r27 86r46
+75a5 res{2|16A8[6|5]} 80m7 82m7 84r16 85r18 86m11 90r12
+76r5 m1t{7|11R8} 86r23
+84i11 i<long_integer> 86r15 86r37 86r57
+85i13 j<long_integer> 86r17 86r39 86r59
+95U13 Clear 95b13 95=21 102l7 102t12 112s7
+95p21 mh{11P8} 101m10
+97U15 free[17|22] 101s5
+106U15 free[17|22] 114s5
+111i9 i<long_integer> 112r20
+X 6 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[2|9] 4|3w6 3r45
+X 7 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 4|2w6 2r45 7|92e29
+11R8*Complex_Number 4|52r42 5|72r42 76r20 7|90e15
+18V12*Create{11R8} 5|76s38 79s12 81s15
+51V13*"+"{11R8} 5|86s42
+53V13*"-"{11R8} 5|76s50
+55V13*"*"{11R8} 5|86s26 86s45
+X 11 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 5|2w6 2r45 11|45e29
+6I8*integer32<long_integer> 5|8r32 14r13 20r12 26r44 40r15 41r14 43r17 45r12
+. 50r15 51r14 53r17 55r12 62r20 74r54
+X 12 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 4|1w6 1r45 12|30e29
+7I8*natural32<long_integer> 4|15r27 29r36 30r37 40r28 45r31 52r27 5|24r27
+. 38r36 48r37 60r28 65r31 67r12 72r27
+X 17 unchdeal.ads
+22u11*Unchecked_Deallocation 5|1w6 98r11 107r11
+

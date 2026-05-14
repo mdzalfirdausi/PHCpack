@@ -1,0 +1,138 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U boolean_vectors%b	boolean_vectors.ads	182f66ac NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W boolean_ring%s	boolean_ring.ads	boolean_ring.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali  ED
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z unchecked_deallocation%s
+
+U boolean_vectors%s	boolean_vectors.ads	c2e2b709 EB NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W boolean_ring%s	boolean_ring.ads	boolean_ring.ali
+W generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_ring.ads	20260513024558 5e587f54 boolean_ring%s
+D boolean_vectors.ads	20260513024558 182f66ac boolean_vectors%s
+D boolean_vectors.ads	20260513024558 182f66ac boolean_vectors%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors.adb	20260513024558 6464bd21 generic_vectors%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s boolean_vectors 4 1 none]
+G c Z s s [equal boolean_vectors 21 12 4_1]
+G c Z s s [equal boolean_vectors 22 12 4_1]
+G c Z s s [copy boolean_vectors 24 13 4_1]
+G c Z s s [copy boolean_vectors 25 13 4_1]
+G c Z s s [Oadd boolean_vectors 29 12 4_1]
+G c Z s s [Oadd boolean_vectors 30 12 4_1]
+G c Z s s [Oadd boolean_vectors 31 12 4_1]
+G c Z s s [Oadd boolean_vectors 32 12 4_1]
+G c Z s s [Osubtract boolean_vectors 33 12 4_1]
+G c Z s s [Osubtract boolean_vectors 34 12 4_1]
+G c Z s s [Osubtract boolean_vectors 35 12 4_1]
+G c Z s s [Osubtract boolean_vectors 36 12 4_1]
+G c Z s s [Omultiply boolean_vectors 37 12 4_1]
+G c Z s s [Omultiply boolean_vectors 38 12 4_1]
+G c Z s s [Omultiply boolean_vectors 39 12 4_1]
+G c Z s s [Omultiply boolean_vectors 40 12 4_1]
+G c Z s s [Omultiply boolean_vectors 42 12 4_1]
+G c Z s s [Omultiply boolean_vectors 43 12 4_1]
+G c Z s s [Omultiply boolean_vectors 47 12 4_1]
+G c Z s s [Omultiply boolean_vectors 48 12 4_1]
+G c Z s s [sum boolean_vectors 52 12 4_1]
+G c Z s s [sum boolean_vectors 53 12 4_1]
+G c Z s s [add boolean_vectors 58 13 4_1]
+G c Z s s [add boolean_vectors 59 13 4_1]
+G c Z s s [min boolean_vectors 60 13 4_1]
+G c Z s s [min boolean_vectors 61 13 4_1]
+G c Z s s [sub boolean_vectors 62 13 4_1]
+G c Z s s [sub boolean_vectors 63 13 4_1]
+G c Z s s [mul boolean_vectors 64 13 4_1]
+G c Z s s [mul boolean_vectors 65 13 4_1]
+G c Z s s [mul boolean_vectors 66 13 4_1]
+G c Z s s [mul boolean_vectors 67 13 4_1]
+G c Z s s [clear boolean_vectors 71 13 4_1]
+G c Z s s [clear boolean_vectors 72 13 4_1]
+G c Z s s [vectorIP boolean_vectors 16 8 4_1]
+G r i none [s boolean_vectors 4 1 none] [generic_vectors standard 8 9 none]
+G r c none [equal boolean_vectors 21 12 4_1] [equal boolean_numbers 9 12 none]
+G r c none [equal boolean_vectors 22 12 4_1] [equal boolean_numbers 9 12 none]
+G r c none [copy boolean_vectors 24 13 4_1] [clear boolean_numbers 32 13 none]
+G r c none [copy boolean_vectors 24 13 4_1] [copy boolean_numbers 10 13 none]
+G r c none [copy boolean_vectors 25 13 4_1] [clear boolean_numbers 32 13 none]
+G r c none [Oadd boolean_vectors 29 12 4_1] [Oadd boolean_numbers 12 12 none]
+G r c none [Oadd boolean_vectors 30 12 4_1] [Oadd boolean_numbers 12 12 none]
+G r c none [Oadd boolean_vectors 31 12 4_1] [Oadd boolean_numbers 13 12 none]
+G r c none [Oadd boolean_vectors 32 12 4_1] [Oadd boolean_numbers 13 12 none]
+G r c none [Osubtract boolean_vectors 33 12 4_1] [Osubtract boolean_numbers 15 12 none]
+G r c none [Osubtract boolean_vectors 34 12 4_1] [Osubtract boolean_numbers 15 12 none]
+G r c none [Osubtract boolean_vectors 35 12 4_1] [Osubtract boolean_numbers 14 12 none]
+G r c none [Osubtract boolean_vectors 36 12 4_1] [Osubtract boolean_numbers 15 12 none]
+G r c none [Osubtract boolean_vectors 36 12 4_1] [Osubtract boolean_numbers 14 12 none]
+G r c none [Omultiply boolean_vectors 37 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 38 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 39 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 40 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 42 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 42 12 4_1] [add boolean_numbers 18 13 none]
+G r c none [Omultiply boolean_vectors 42 12 4_1] [clear boolean_numbers 32 13 none]
+G r c none [Omultiply boolean_vectors 43 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 43 12 4_1] [add boolean_numbers 18 13 none]
+G r c none [Omultiply boolean_vectors 43 12 4_1] [clear boolean_numbers 32 13 none]
+G r c none [Omultiply boolean_vectors 47 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [Omultiply boolean_vectors 48 12 4_1] [Omultiply boolean_numbers 16 12 none]
+G r c none [sum boolean_vectors 52 12 4_1] [copy boolean_numbers 10 13 none]
+G r c none [sum boolean_vectors 52 12 4_1] [add boolean_numbers 18 13 none]
+G r c none [sum boolean_vectors 53 12 4_1] [copy boolean_numbers 10 13 none]
+G r c none [sum boolean_vectors 53 12 4_1] [add boolean_numbers 18 13 none]
+G r c none [add boolean_vectors 58 13 4_1] [add boolean_numbers 18 13 none]
+G r c none [add boolean_vectors 59 13 4_1] [clear boolean_numbers 32 13 none]
+G r c none [add boolean_vectors 59 13 4_1] [add boolean_numbers 18 13 none]
+G r c none [min boolean_vectors 60 13 4_1] [min boolean_numbers 20 13 none]
+G r c none [min boolean_vectors 61 13 4_1] [min boolean_numbers 20 13 none]
+G r c none [sub boolean_vectors 62 13 4_1] [sub boolean_numbers 19 13 none]
+G r c none [sub boolean_vectors 63 13 4_1] [min boolean_numbers 20 13 none]
+G r c none [sub boolean_vectors 63 13 4_1] [sub boolean_numbers 19 13 none]
+G r c none [mul boolean_vectors 64 13 4_1] [mul boolean_numbers 21 13 none]
+G r c none [mul boolean_vectors 65 13 4_1] [mul boolean_numbers 21 13 none]
+G r c none [mul boolean_vectors 66 13 4_1] [mul boolean_numbers 21 13 none]
+G r c none [mul boolean_vectors 67 13 4_1] [clear boolean_numbers 32 13 none]
+G r c none [mul boolean_vectors 67 13 4_1] [mul boolean_numbers 21 13 none]
+G r c none [clear boolean_vectors 71 13 4_1] [clear boolean_numbers 32 13 none]
+G r c none [clear boolean_vectors 72 13 4_1] [clear boolean_numbers 32 13 none]
+X 3 boolean_ring.ads
+4K9*Boolean_Ring[1|25] 5|1w6 4r48
+X 5 boolean_vectors.ads
+4K9*Boolean_Vectors[6|8]
+X 6 generic_vectors.ads
+8k9*Generic_Vectors 5|2w6 4r32 6|74e20
+

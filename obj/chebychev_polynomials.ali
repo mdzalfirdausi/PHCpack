@@ -1,0 +1,112 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U chebychev_polynomials%b  chebychev_polynomials.adb  db7e90f6 NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U chebychev_polynomials%s  chebychev_polynomials.ads  794aa62e EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D chebychev_polynomials.ads  20260513024558 fb911d86 chebychev_polynomials%s
+D chebychev_polynomials.adb  20260513024558 47fc7cfa chebychev_polynomials%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [create chebychev_polynomials 12 12 none]
+G c Z s b [eval chebychev_polynomials 17 12 none]
+G c Z s b [eval chebychev_polynomials 24 12 none]
+G c Z s b [diff chebychev_polynomials 29 12 none]
+G c Z s b [diff chebychev_polynomials 34 12 none]
+G c Z s b [int chebychev_polynomials 39 12 none]
+G c Z s b [int chebychev_polynomials 44 12 none]
+G r c none [eval chebychev_polynomials 17 12 none] [arccos standard_mathematical_functions 55 12 none]
+G r c none [eval chebychev_polynomials 17 12 none] [cos standard_mathematical_functions 48 12 none]
+X 2 chebychev_polynomials.ads
+5K9*Chebychev_Polynomials 49l5 49e26 3|4b14 107l5 107t26
+12V12*Create{4|16A8[7|4]} 12>21 3|6b12 26s34 27s34 39l7 39t13
+12i21 k{10|7I8} 3|6b21 8r8 15r11 25r35 26r41 27r41
+17V12*Eval{5|13F8} 17>19 17>34 3|41b12 47l7 47t11
+17i19 k{10|7I8} 3|41b19 43r53
+17f34 x{5|13F8} 3|41b34 43r63
+24V12*Eval{5|13F8} 24>19 24>31 3|49b12 60l7 60t11
+24a19 p{4|16A8[7|4]} 3|49b19 51r27 55r17 56r20
+24f31 x{5|13F8} 3|49b31 52r27 57r18
+29V12*Diff{4|16A8[7|4]} 29>19 3|62b12 71l7 71t11 78s14 80s19
+29a19 p{4|16A8[7|4]} 3|62b19 64r21 68r35
+34V12*Diff{4|16A8[7|4]} 34>19 34>31 3|73b12 80s14 82l7 82t11
+34a19 p{4|16A8[7|4]} 3|73b19 76r14 78r19 80r24
+34i31 k{10|7I8} 3|73b31 75r8 77r11 80r27
+39V12*Int{4|16A8[7|4]} 39>18 3|84b12 94l7 94t10 101s14 103s18
+39a18 p{4|16A8[7|4]} 3|84b18 86r21 90r14 91r19
+44V12*Int{4|16A8[7|4]} 44>18 44>30 3|96b12 103s14 105l7 105t10
+44a18 p{4|16A8[7|4]} 3|96b18 99r14 101r18 103r22
+44i30 k{10|7I8} 3|96b30 98r8 100r11 103r25
+X 3 chebychev_polynomials.adb
+10a9 res{4|16A8[7|4]} 12m9 13r16
+17a9 res{4|16A8[7|4]} 19m9 20m9 21r16
+25a9 res{4|16A8[7|4]} 30m11 32m9 34m11 34r21 36r16
+26a9 tk1{4|16A8[7|4]} 29r18 30r27
+27a9 tk2{4|16A8[7|4]} 33r18 34r30
+29i13 i<long_integer> 30r15 30r31
+33i13 i<long_integer> 34r15 34r25 34r34
+43f5 res{5|13F8} 46r12
+51f5 res{5|13F8} 56m7 56r14 59r12
+52f5 pow{5|13F8} 56r25 57m7 57r14
+55i9 i<long_integer> 56r22
+64a5 res{4|16A8[7|4]} 67r14 68m7 70r12
+67i9 i<long_integer> 68r11 68r30 68r37
+86a5 res{4|16A8[7|4]} 89m5 91m7 93r12
+90i9 i<long_integer> 91r11 91r21 91r37
+X 4 generic_vectors.ads
+16A8*Vector(5|13F8)<8|6I8> 2|12r44[7|4] 24r23[7|4] 29r23[7|4] 29r39[7|4]
+. 34r23[7|4] 34r54[7|4] 39r22[7|4] 39r38[7|4] 44r22[7|4] 44r53[7|4] 3|6r44[7|4]
+. 10r15[7|4] 17r15[7|4] 25r15[7|4] 26r24[7|4] 27r24[7|4] 49r23[7|4] 62r23[7|4]
+. 62r39[7|4] 64r11[7|4] 73r23[7|4] 73r54[7|4] 84r22[7|4] 84r38[7|4] 86r11[7|4]
+. 96r22[7|4] 96r53[7|4]
+X 5 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 2|2w6 2r46 5|58e30
+13F8*double_float<long_float> 2|17r38 17r60 24r35 24r57 3|41r38 41r60 43r20
+. 43r40 49r35 49r57 51r11 52r11 68r17 91r24
+X 7 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[4|8] 2|3w6 3r46
+X 8 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 3|1w6 1r46 8|45e29
+6I8*integer32<long_integer> 3|25r25
+X 9 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 3|2w6 2r46 9|64e36
+48V12*COS{5|13F8} 3|43s36
+55V12*ARCCOS{5|13F8} 3|43s56
+X 10 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 2|1w6 1r46 10|30e29
+7I8*natural32<long_integer> 2|12r25 17r23 34r35 44r34 3|6r25 41r23 73r35
+. 96r34
+

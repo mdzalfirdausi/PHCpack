@@ -1,0 +1,983 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U standard_refiner_circuits%b  standard_refiner_circuits.adb  30e94896 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W standard_circuit_makers%s  standard_circuit_makers.adb  standard_circuit_makers.ali
+W standard_complex_numbers_io%s  standard_complex_numbers_io.adb  standard_complex_numbers_io.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_poly_systems_io%s  standard_complex_poly_systems_io.adb  standard_complex_poly_systems_io.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_condition_tables%s  standard_condition_tables.adb  standard_condition_tables.ali
+W standard_floating_numbers_io%s  standard_floating_numbers_io.adb  standard_floating_numbers_io.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_inlined_newton_circuits%s  standard_inlined_newton_circuits.adb  standard_inlined_newton_circuits.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_newton_circuits%s  standard_newton_circuits.adb  standard_newton_circuits.ali
+W standard_solution_diagnostics%s  standard_solution_diagnostics.adb  standard_solution_diagnostics.ali
+W standard_solutions_heap%s  standard_solutions_heap.adb  standard_solutions_heap.ali
+W standard_system_and_solutions_io%s  standard_system_and_solutions_io.adb  standard_system_and_solutions_io.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+
+U standard_refiner_circuits%s  standard_refiner_circuits.ads  0db48ea8 EE NE OO PK
+W standard_coefficient_circuits%s  standard_coefficient_circuits.adb  standard_coefficient_circuits.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_speelpenning_convolutions.ads  20260513024558 a14ddeea generic_speelpenning_convolutions%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_circuits.ads  20260513024558 6a68f653 quaddobl_complex_circuits%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vecmats.ads  20260513024558 3a6aa9c0 quaddobl_complex_vecmats%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D standard_circuit_makers.ads  20260513024558 aa480e22 standard_circuit_makers%s
+D standard_coefficient_circuits.ads  20260513024558 86f34e2e standard_coefficient_circuits%s
+D standard_coefficient_convolutions.ads  20260513024558 cbd22682 standard_coefficient_convolutions%s
+D standard_complex_circuits.ads  20260513024558 54da0c3e standard_complex_circuits%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_systems_io.ads  20260513024558 30c463ef standard_complex_poly_systems_io%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_condition_tables.ads  20260513024558 6a66787e standard_condition_tables%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecvecs.ads  20260513024558 05f205d7 standard_floating_vecvecvecs%s
+D standard_inlined_newton_circuits.ads  20260513024558 8f2b5228 standard_inlined_newton_circuits%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_newton_circuits.ads  20260513024558 f3912603 standard_newton_circuits%s
+D standard_refiner_circuits.ads  20260513024558 9fad75f8 standard_refiner_circuits%s
+D standard_refiner_circuits.adb  20260513024558 3fde3de9 standard_refiner_circuits%b
+D standard_solution_diagnostics.ads  20260513024558 ea410ccb standard_solution_diagnostics%s
+D standard_solutions_heap.ads  20260513024558 493fbb22 standard_solutions_heap%s
+D standard_speelpenning_convolutions.ads  20260513024558 99412733 standard_speelpenning_convolutions%s
+D standard_system_and_solutions_io.ads  20260513024558 2d3b27b4 standard_system_and_solutions_io%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [show_parameters standard_refiner_circuits 15 13 none]
+G c Z s b [set_parameters standard_refiner_circuits 29 13 none]
+G c Z s b [monitor_report standard_refiner_circuits 43 13 none]
+G c Z s b [run standard_refiner_circuits 61 13 none]
+G c Z s b [run standard_refiner_circuits 68 13 none]
+G c Z s b [inlined_run standard_refiner_circuits 76 13 none]
+G c Z s b [inlined_run standard_refiner_circuits 84 13 none]
+G c Z s b [run standard_refiner_circuits 123 13 none]
+G c Z s b [inlined_run standard_refiner_circuits 125 13 none]
+G c Z s b [run standard_refiner_circuits 137 13 none]
+G c Z s b [inlined_run standard_refiner_circuits 140 13 none]
+G c Z s b [main standard_refiner_circuits 152 13 none]
+G c Z s b [main standard_refiner_circuits 159 13 none]
+G r c none [show_parameters standard_refiner_circuits 15 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [show_parameters standard_refiner_circuits 15 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [set_parameters standard_refiner_circuits 29 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [set_parameters standard_refiner_circuits 29 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [set_parameters standard_refiner_circuits 29 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [set_parameters standard_refiner_circuits 29 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [set_parameters standard_refiner_circuits 29 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [monitor_report standard_refiner_circuits 43 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [monitor_report standard_refiner_circuits 43 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [run standard_refiner_circuits 61 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [run standard_refiner_circuits 61 13 none] [create standard_condition_tables 17 12 none]
+G r c none [run standard_refiner_circuits 61 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [run standard_refiner_circuits 61 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [run standard_refiner_circuits 61 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [lu_newton_steps standard_newton_circuits 283 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [put_vector standard_complex_solutions_io 39 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [run standard_refiner_circuits 61 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [run standard_refiner_circuits 61 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [run standard_refiner_circuits 61 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [run standard_refiner_circuits 61 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [run standard_refiner_circuits 61 13 none] [clear standard_solutions_heap 153 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [run standard_refiner_circuits 68 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [run standard_refiner_circuits 68 13 none] [create standard_condition_tables 17 12 none]
+G r c none [run standard_refiner_circuits 68 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [run standard_refiner_circuits 68 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [run standard_refiner_circuits 68 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [run standard_refiner_circuits 68 13 none] [lu_newton_steps standard_newton_circuits 283 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put_vector standard_complex_solutions_io 40 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [run standard_refiner_circuits 68 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [run standard_refiner_circuits 68 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [run standard_refiner_circuits 68 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [run standard_refiner_circuits 68 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [inlined_run standard_refiner_circuits 76 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [create standard_condition_tables 17 12 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [lu_newton_steps standard_inlined_newton_circuits 285 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [put_vector standard_complex_solutions_io 39 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [inlined_run standard_refiner_circuits 76 13 none] [clear standard_solutions_heap 153 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [inlined_run standard_refiner_circuits 84 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [create standard_condition_tables 17 12 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [lu_newton_steps standard_inlined_newton_circuits 285 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put_vector standard_complex_solutions_io 40 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [inlined_run standard_refiner_circuits 84 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [run standard_refiner_circuits 123 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [run standard_refiner_circuits 123 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [run standard_refiner_circuits 123 13 none] [create standard_condition_tables 17 12 none]
+G r c none [run standard_refiner_circuits 123 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [run standard_refiner_circuits 123 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [run standard_refiner_circuits 123 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [lu_newton_steps standard_newton_circuits 283 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [put_vector standard_complex_solutions_io 39 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [run standard_refiner_circuits 123 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [run standard_refiner_circuits 123 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [run standard_refiner_circuits 123 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [run standard_refiner_circuits 123 13 none] [clear standard_solutions_heap 153 13 none]
+G r c none [run standard_refiner_circuits 123 13 none] [write_tables standard_condition_tables 79 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [inlined_run standard_refiner_circuits 125 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [create standard_condition_tables 17 12 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [lu_newton_steps standard_inlined_newton_circuits 285 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [put_vector standard_complex_solutions_io 39 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [clear standard_solutions_heap 153 13 none]
+G r c none [inlined_run standard_refiner_circuits 125 13 none] [write_tables standard_condition_tables 79 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [tstart timing_package 20 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [run standard_refiner_circuits 137 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [run standard_refiner_circuits 137 13 none] [create standard_condition_tables 17 12 none]
+G r c none [run standard_refiner_circuits 137 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [run standard_refiner_circuits 137 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [run standard_refiner_circuits 137 13 none] [lu_newton_steps standard_newton_circuits 283 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put_vector standard_complex_solutions_io 40 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [run standard_refiner_circuits 137 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [run standard_refiner_circuits 137 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [run standard_refiner_circuits 137 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [run standard_refiner_circuits 137 13 none] [tstop timing_package 24 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [write_tables standard_condition_tables 79 13 none]
+G r c none [run standard_refiner_circuits 137 13 none] [print_times timing_package 49 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [tstart timing_package 20 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [inlined_run standard_refiner_circuits 140 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [create standard_condition_tables 17 12 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [lu_newton_steps standard_inlined_newton_circuits 285 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put_vector standard_complex_solutions_io 40 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [tstop timing_package 24 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [write_tables standard_condition_tables 79 13 none]
+G r c none [inlined_run standard_refiner_circuits 140 13 none] [print_times timing_package 49 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [get standard_system_and_solutions_io 23 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [main standard_refiner_circuits 152 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [make_coefficient_system standard_circuit_makers 188 12 none]
+G r c none [main standard_refiner_circuits 152 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [main standard_refiner_circuits 152 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [main standard_refiner_circuits 152 13 none] [create standard_condition_tables 17 12 none]
+G r c none [main standard_refiner_circuits 152 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [main standard_refiner_circuits 152 13 none] [lu_newton_steps standard_inlined_newton_circuits 285 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put_vector standard_complex_solutions_io 39 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [main standard_refiner_circuits 152 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [main standard_refiner_circuits 152 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [main standard_refiner_circuits 152 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [main standard_refiner_circuits 152 13 none] [clear standard_solutions_heap 153 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [write_tables standard_condition_tables 79 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [tstart timing_package 20 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [put_vector standard_complex_solutions_io 40 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [tstop timing_package 24 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [print_times timing_package 49 13 none]
+G r c none [main standard_refiner_circuits 152 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [main standard_refiner_circuits 152 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [main standard_refiner_circuits 152 13 none] [clear standard_coefficient_circuits 1273 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [get standard_system_and_solutions_io 23 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [main standard_refiner_circuits 159 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_integer_numbers_io 26 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [make_coefficient_system standard_circuit_makers 188 12 none]
+G r c none [main standard_refiner_circuits 159 13 none] [ask_yes_or_no communications_with_user 23 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_floating_numbers_io 45 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [get standard_floating_numbers_io 14 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [random_weight_vector standard_solutions_heap 54 12 none]
+G r s heap [main standard_refiner_circuits 159 13 none] [heapIP standard_solutions_heap 47 8 none]
+G r c none [main standard_refiner_circuits 159 13 none] [create standard_condition_tables 17 12 none]
+G r c none [main standard_refiner_circuits 159 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [main standard_refiner_circuits 159 13 none] [lu_newton_steps standard_inlined_newton_circuits 285 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_complex_numbers_io 21 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put_vector standard_complex_solutions_io 39 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [is_real standard_solution_diagnostics 11 12 none]
+G r c none [main standard_refiner_circuits 159 13 none] [weight standard_solutions_heap 62 12 none]
+G r c none [main standard_refiner_circuits 159 13 none] [push standard_solutions_heap 145 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [update_corrector standard_condition_tables 38 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [update_condition standard_condition_tables 40 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [update_residuals standard_condition_tables 43 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [main standard_refiner_circuits 159 13 none] [count_clusters standard_solutions_heap 160 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [main standard_refiner_circuits 159 13 none] [clear standard_solutions_heap 153 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [write_tables standard_condition_tables 79 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_complex_poly_systems_io 53 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [tstart timing_package 20 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_natural_numbers_io 26 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_integer_numbers_io 27 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put_bar standard_complex_solutions_io 111 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_floating_numbers_io 47 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put standard_complex_numbers_io 22 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [put_vector standard_complex_solutions_io 40 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [tstop timing_package 24 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [print_times timing_package 49 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [clear standard_complex_poly_systems 61 13 5_1]
+G r c none [main standard_refiner_circuits 159 13 none] [clear standard_complex_solutions__list_of_solutions 93 13 27_3]
+G r c none [main standard_refiner_circuits 159 13 none] [clear standard_coefficient_circuits 1273 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [open_input_file communications_with_user 81 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [get standard_system_and_solutions_io 25 13 none]
+G r c none [main standard_refiner_circuits 159 13 none] [create_output_file communications_with_user 94 13 none]
+X 12 a-textio.ads
+67P9*File_Type 76|68r29 85r29 137r29 141r29 77|310r29 410r27 570r29 617r27
+. 671r12 710r22
+131U14*Close 77|701s9 749s48 757s46
+188V13*Standard_Output{67P9} 77|536s44 567s44
+277U14*New_Line 77|356s5 370s40 371s43 456s5 470s40 471s43 599s26 601s26
+. 603s26 605s27 607s26 609s26 612s5 647s26 649s26 651s26 653s27 655s26 657s26
+. 660s5 699s9 748s13 756s11
+284U14*New_Line 77|27s64 28s64 29s64 30s65 122s11 139s32 140s35 239s11 255s32
+. 256s35 523s5 525s5 530s62 531s62 532s62 533s63 534s62 535s62 554s5 556s5
+. 561s62 562s62 563s62 564s63 565s62 566s62 586s5 588s5 591s5 593s5 633s5
+. 635s5 638s5 640s5 677s5 686s7 690s7 695s9 724s7 734s9 739s11 744s13 752s11
+508U14*Put 77|355s34 360s7 361s7 365s7 370s7 371s7 374s7 375s7 376s7 385s15
+. 386s15 455s34 460s7 461s7 465s7 470s7 471s7 474s7 475s7 476s7 485s15 486s15
+. 598s5 600s5 602s5 604s5 606s5 608s5 646s5 648s5 650s5 652s5 654s5 656s5
+515U14*Put 77|27s5 28s5 29s5 30s5 43s7 47s21 48s21 49s21 50s21 60s17 64s7
+. 65s7 66s7 67s7 69s13 70s13 128s9 128s39 134s9 139s9 140s9 143s9 144s9 145s9
+. 159s17 164s17 244s9 244s39 250s9 255s9 256s9 259s9 260s9 261s9 275s17 280s17
+. 526s5 530s5 531s5 532s5 533s5 534s5 535s5 557s5 561s5 562s5 563s5 564s5
+. 565s5 566s5 589s5 636s5 687s7 687s43 688s19 691s7 735s9 735s45 736s21 740s11
+555U14*Put_Line 77|354s5 367s13 368s13 372s7 378s9 389s15 390s15 454s5 467s13
+. 468s13 472s7 478s9 489s15 490s15
+565U14*Put_Line 77|26s5 62s7 73s13 74s13 119s11 136s15 137s15 141s9 149s15
+. 170s17 175s17 186s11 235s11 252s15 253s15 257s9 265s15 286s17 291s17 302s11
+. 351s11 451s11 521s11 552s11 584s11 592s5 631s11 639s5 675s11 678s5 683s7
+. 688s64 696s9 719s11 725s7 731s9 736s66 745s13 753s11
+X 14 communications_with_user.ads
+4K9*Communications_with_User 127e29 77|1w6 1r46
+23U13*Ask_Yes_or_No 77|526s40 557s40 589s30 636s30 691s39 740s43
+29U13*Ask_Alternative 77|44s7
+60U13*Read_Name_and_Create_File 77|697s9 746s13
+81U13*Open_Input_File 77|726s7
+94U13*Create_Output_File 77|754s11
+X 19 generic_lists.ads
+12P8*List
+67V12*Length_Of{71|7I8} 77|355s14[53|27] 455s14[53|27] 681s22[53|27] 729s24[53|27]
+72V12*Is_Null{boolean} 77|125s15[53|27] 241s15[53|27] 358s15[53|27] 458s15[53|27]
+77V12*Head_Of{53|25P8} 77|126s13[53|27] 242s13[53|27] 359s13[53|27] 459s13[53|27]
+. 685s14[53|27] 733s16[53|27]
+84V12*Tail_Of{12P8[53|27]} 77|183s14[53|27] 299s14[53|27] 401s14[53|27] 501s14[53|27]
+93U13*Clear 77|704s15[53|27] 759s19[53|27]
+X 21 generic_polynomial_systems.ads
+22A8*Poly_Sys(22|28P8[51|4])<66|6I8>
+23P8*Link_to_Poly_Sys(22A8[49|5]) 77|666r9[49|5] 711r9[49|5]
+61U13*Clear 77|704s5[49|5] 759s9[49|5]
+X 22 generic_polynomials.ads
+28P8*Poly
+X 25 generic_vectors.ads
+16A8*Vector(47|11R8)<66|6I8> 76|66r68[74|4] 74r68[74|4] 82r68[74|4] 91r68[74|4]
+. 77|84r68[74|4] 92r37[69|4] 93r46[62|4] 95r46[62|4] 98r41[62|4] 100r41[62|4]
+. 105r46[62|4] 107r46[62|4] 200r66[74|4] 208r37[69|4] 209r46[62|4] 211r46[62|4]
+. 214r41[62|4] 216r41[62|4] 221r46[62|4] 223r46[62|4] 316r68[74|4] 324r37[69|4]
+. 325r46[62|4] 327r46[62|4] 330r41[62|4] 332r41[62|4] 337r46[62|4] 339r46[62|4]
+. 416r66[74|4] 424r37[69|4] 425r46[62|4] 427r46[62|4] 430r41[62|4] 432r41[62|4]
+. 437r46[62|4] 439r46[62|4] 515r50[74|4] 546r50[74|4] 578r50[74|4] 625r50[74|4]
+17P8*Link_to_Vector(16A8[62|4]) 77|97r36[62|4] 99r36[62|4] 213r36[62|4] 215r36[62|4]
+. 329r36[62|4] 331r36[62|4] 429r36[62|4] 431r36[62|4]
+72U13*Clear 77|189s31[62|4] 190s31[62|4] 305s31[62|4] 306s31[62|4] 405s31[62|4]
+. 406s31[62|4] 505s31[62|4] 506s31[62|4]
+X 40 standard_circuit_makers.ads
+14K9*Standard_Circuit_Makers 256e28 77|15w6 689r12 737r14
+188V12*Make_Coefficient_System{41|68P8} 77|689s36 737s38
+X 41 standard_coefficient_circuits.ads
+13K9*Standard_Coefficient_Circuits 1279e34 76|7w6 7r46
+53i21*dim{66|6I8} 77|92r49 93r58 94r18 95r58 96r18 104r37 208r49 209r58 210r18
+. 211r58 212r18 220r37 324r49 325r58 326r18 327r58 328r18 336r37 355r60 424r49
+. 425r58 426r18 427r58 428r18 436r37 455r60
+68P8*Link_to_System(53R8) 76|61r26 69r26 77r26 86r26 123r26 126r26 138r26
+. 142r26 77|79r26 195r24 311r26 411r24 509r26 540r24 571r26 618r24 669r9
+. 712r9
+1273U13*Clear 77|704s28 759s32
+X 48 standard_complex_numbers_io.ads
+5K9*Standard_Complex_Numbers_io 49e32 77|6w6 6r46
+21U13*put 77|139s21 255s21
+22U13*put 77|370s24 470s24
+X 49 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[21|12] 77|9w6 9r46
+X 50 standard_complex_poly_systems_io.ads
+6K9*Standard_Complex_Poly_Systems_io 130e37 77|10w6 10r46
+53U13*put 77|698s9 747s13 755s11
+X 53 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 206e31 76|6w6 6r46
+16i19*n{66|6I8} 77|685r28 733r30
+17r5*t{47|11R8} 77|139r28 255r28 370r36 470r36
+18i5*m{66|6I8} 77|140r29 256r29 371r37 471r37
+19a5*v{25|16A8[56|4]} 77|130m28 142r53 154r51 155r51 246m28 258r53 270r51
+. 271r51 362m28 373r56 381r51 382r51 462m28 473r56 481r51 482r51
+20f5*err{59|13F8} 77|400m10 500m10
+21f5*rco{59|13F8} 77|399m10 499m10
+22f5*res{59|13F8} 77|400m25 500m25
+25P8*Link_to_Solution(16R8) 77|90r10 206r10 322r10 422r10
+28P8*Solution_List<19|12P8[27]> 76|61r52 69r52 77r52 86r52 123r52 126r52
+. 138r52 142r52 77|79r52 89r11 195r50 205r11 311r52 321r11 411r50 421r11
+. 509r52 540r50 571r52 618r50 667r12 713r12
+X 54 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 358e34 77|12w6 142r9 258r9 357r5 373r7
+. 403r5 457r5 473r7 503r5 610r5 658r5
+39U13*put_vector 77|142s39 258s39
+40U13*put_vector 77|373s37 473s37
+111U13*put_bar 77|357s35 403s35 457s35 503s35 610s35 658s35
+X 58 standard_condition_tables.ads
+8K9*Standard_Condition_Tables 94e30 77|14w6 115r14 116r14 117r14 180r7 181r7
+. 182r7 231r14 232r14 233r14 296r7 297r7 298r7 347r14 348r14 349r14 396r7
+. 397r7 398r7 447r14 448r14 449r14 496r7 497r7 498r7 536r5 567r5 611r5 659r5
+17V12*Create{25|16A8[74|4]} 77|115s40 116s40 117s40 231s40 232s40 233s40
+. 347s40 348s40 349s40 447s40 448s40 449s40
+38U13*Update_Corrector 77|180s33 296s33 396s33 496s33
+40U13*Update_Condition 77|181s33 297s33 397s33 497s33
+43U13*Update_Residuals 77|182s33 298s33 398s33 498s33
+79U13*Write_Tables 77|536s31 567s31 611s31 659s31
+X 59 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 76|4w6 4r46
+13F8*double_float<long_float> 76|17r44 31r45 45r46 63r46 71r46 79r46 88r46
+. 77|24r44 35r45 58r46 81r46 101r28 109r17 197r44 217r28 225r17 313r46 333r28
+. 341r17 413r44 433r28 441r17 512r29 543r29 575r29 622r29
+X 60 standard_floating_numbers_io.ads
+5K9*Standard_Floating_Numbers_io 63e33 77|5w6 5r46
+14U13*get 77|48s56 49s61 50s59
+45U13*put 77|28s49 29s49 30s49 64s21 65s23 66s23 67s23 133s9 143s23 144s26
+. 145s26 249s9 259s23 260s26 261s26
+47U13*put 77|364s7 374s29 375s29 376s29 464s7 474s29 475s29 476s29
+X 62 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[25|8] 77|8w6 93r20 95r20 97r10 98r15 99r10
+. 100r15 105r20 107r20 189r5 190r5 209r20 211r20 213r10 214r15 215r10 216r15
+. 221r20 223r20 305r5 306r5 325r20 327r20 329r10 330r15 331r10 332r15 337r20
+. 339r20 405r5 406r5 425r20 427r20 429r10 430r15 431r10 432r15 437r20 439r20
+. 505r5 506r5
+X 65 standard_inlined_newton_circuits.ads
+11K9*Standard_Inlined_Newton_Circuits 489e37 77|17w6 203r9 419r9
+285U13*LU_Newton_Steps 77|246s7 462s7
+X 66 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 76|3w6 3r46
+6I8*integer32<long_integer> 76|44r26 67r50 75r50 83r50 92r50 124r28 127r28
+. 139r28 143r28 152r29 160r29 77|57r26 85r50 91r11 104r20 201r48 207r11 220r20
+. 317r50 323r11 336r20 417r48 423r11 436r20 510r28 541r26 572r28 619r26 664r29
+. 668r19 681r12 708r29 714r19 729r14
+X 67 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 77|4w6 4r46
+26U13*put 77|60s5 128s27 140s22 244s27 256s22 687s31 688s7 688s52 735s33
+. 736s9 736s54
+27U13*put 77|355s49 360s30 371s25 455s49 460s30 471s25
+X 69 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[25|8] 77|7w6 92r12 208r12 324r12 424r12
+X 71 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 76|2w6 2r46
+7I8*natural32<long_integer> 76|16r28 30r29 62r30 64r50 65r49 70r30 72r50
+. 73r49 78r30 80r50 81r49 87r30 89r50 90r49 77|23r28 34r29 80r30 82r50 83r49
+. 102r13 115r47 116r47 117r47 196r28 198r48 199r47 218r13 312r30 314r50 315r49
+. 334r13 412r28 414r48 415r47 434r13 513r56 514r13 544r56 545r13 576r56 577r13
+. 623r56 624r13 698r18 747r25 755r23
+X 72 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 35e32 77|3w6 3r46
+9U13*get 77|47s64
+25U13*put 77|27s50 134s34 250s34 530s46 531s46 532s46 533s46 534s46 535s46
+. 561s46 562s46 563s46 564s46 565s46 566s46
+26U13*put 77|355s5 365s37 455s5 465s37 599s5 601s5 603s5 605s5 607s5 609s5
+. 647s5 649s5 651s5 653s5 655s5 657s5
+X 74 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[25|8] 76|5w6 66r43 74r43 82r43 91r43 77|84r43
+. 200r41 316r43 416r41 515r25 546r25 578r25 625r25
+X 75 standard_newton_circuits.ads
+10K9*Standard_Newton_Circuits 485e29 77|16w6 87r9 319r9
+283U13*LU_Newton_Steps 77|130s7 362s7
+X 76 standard_refiner_circuits.ads
+9K9*Standard_Refiner_Circuits 169l5 169e30 77|20b14 764l5 764t30
+15U13*Show_Parameters 16>17 17>17 17>24 17>31 77|22b13 31l7 31t22 42s7
+16i17 maxit{71|7I8} 77|23b17 27r54
+17f17 tolres{59|13F8} 77|24b17 28r53
+17f24 tolerr{59|13F8} 77|24b24 29r53
+17f31 tolsing{59|13F8} 77|24b31 30r53
+29U13*Set_Parameters 30<17 31<17 31<24 31<31 77|33b13 54l7 54t21 524s5 555s5
+. 587s5 634s5
+30i17 maxit{71|7I8} 77|34b17 40m5 42r23 47m68
+31f17 tolres{59|13F8} 77|35b17 40m17 42r29 48m60
+31f24 tolerr{59|13F8} 77|35b24 40m35 42r36 49m65
+31f31 tolsing{59|13F8} 77|35b31 40m53 42r43 50m63
+43U13*Monitor_Report 44>17 44>37 44>42 45>17 45>21 45>25 45>29 45>33 77|56b13
+. 77l7 77t21 394s13 494s13
+44i17 idx{66|6I8} 77|57b17 60r9
+44b37 fail{boolean} 77|57b37 61r8
+44b42 isreal{boolean} 77|57b42 68r10
+45f17 err{59|13F8} 77|58b17 64r25
+45f21 rco{59|13F8} 77|58b21 65r27 72r10
+45f25 res{59|13F8} 77|58b25 66r27
+45f29 wgt{59|13F8} 77|58b29 67r27
+45f33 tolsing{59|13F8} 77|58b33 72r16
+61U13*Run 61>19 61>42 62>19 63>19 63>26 63>33 64<19 64<27 64<35 65<19 65<27
+. 65<35 66<19 66<25 66<31 67>19 67>41 77|79b13 192l7 192t10 528s5
+61p19 s{41|68P8} 77|79b19 92r47 93r56 94r16 95r56 96r16 104r35 130r23
+61p42 sols{53|28P8} 77|79b42 89r28
+62i19 maxit{71|7I8} 77|80b19 130r36
+63f19 tolres{59|13F8} 77|81b19 130r42
+63f26 tolerr{59|13F8} 77|81b26 130r49
+63f33 tolsing{59|13F8} 77|81b33 153r64 168r18 188r52
+64i19 cntfail{71|7I8} 77|82b19 113m5 151m9 151r20
+64i27 cntreal{71|7I8} 77|82b27 113m19 161m11 161r22
+64i35 cntcmplx{71|7I8} 77|82b35 113m33 166m11 166r23
+65i19 cntregu{71|7I8} 77|83b19 114m5 177m11 177r22
+65i27 cntsing{71|7I8} 77|83b27 114m19 172m11 172r22
+65i35 cntclus{71|7I8} 77|83b35 114m33 188m60
+66a19 t_err{25|16A8[74|4]} 77|84b19 115m5 115r57 116r57 117r57 180m50
+66a25 t_rco{25|16A8[74|4]} 77|84b25 116m5 181m50
+66a31 t_res{25|16A8[74|4]} 77|84b31 117m5 182m50
+67b19 verbose{boolean} 77|85b19 121r8 127r10 132r10 148r12 158r14 163r14
+. 169r14 174r14 185r8 188r68
+67i41 vrb{66|6I8} 77|85b41 118r8
+68U13*Run 68>19 69>19 69>42 70>19 71>19 71>26 71>33 72<19 72<27 72<35 73<19
+. 73<27 73<35 74<19 74<25 74<31 75>19 75>41 77|310b13 407l7 407t10 595s5
+68p19 file{12|67P9} 77|310b19 354r14 355r9 355r38 355r53 356r14 357r43 360r11
+. 360r34 361r11 364r11 365r11 365r41 367r22 368r22 370r11 370r28 370r49 371r11
+. 371r29 371r52 372r16 373r48 374r11 374r33 375r11 375r33 376r11 376r33 378r18
+. 385r19 386r19 389r24 390r24 403r43
+69p19 s{41|68P8} 77|311b19 324r47 325r56 326r16 327r56 328r16 336r35 355r58
+. 362r23
+69p42 sols{53|28P8} 77|311b42 321r28 355r24
+70i19 maxit{71|7I8} 77|312b19 362r36
+71f19 tolres{59|13F8} 77|313b19 362r42
+71f26 tolerr{59|13F8} 77|313b26 362r49
+71f33 tolsing{59|13F8} 77|313b33 380r64 388r18 394r61 404r52
+72i19 cntfail{71|7I8} 77|314b19 345m5 378m43 378r54
+72i27 cntreal{71|7I8} 77|314b27 345m19 385m40 385r51
+72i35 cntcmplx{71|7I8} 77|314b35 345m33 386m40 386r52
+73i19 cntregu{71|7I8} 77|315b19 346m5 390m43 390r54
+73i27 cntsing{71|7I8} 77|315b27 346m19 389m43 389r54
+73i35 cntclus{71|7I8} 77|315b35 346m33 404m60
+74a19 t_err{25|16A8[74|4]} 77|316b19 347m5 396m50
+74a25 t_rco{25|16A8[74|4]} 77|316b25 348m5 397m50
+74a31 t_res{25|16A8[74|4]} 77|316b31 349m5 398m50
+75b19 verbose{boolean} 77|317b19 393r10 404r68
+75i41 vrb{66|6I8} 77|317b41 350r8
+76U13*Inlined_Run 77>19 77>42 78>19 79>19 79>26 79>33 80<19 80<27 80<35 81<19
+. 81<27 81<35 82<19 82<25 82<31 83>19 83>41 77|194b13 308l7 308t18 559s5
+77p19 s{41|68P8} 77|195b17 208r47 209r56 210r16 211r56 212r16 220r35 246r23
+77p42 sols{53|28P8} 77|195b40 205r28
+78i19 maxit{71|7I8} 77|196b17 246r36
+79f19 tolres{59|13F8} 77|197b17 246r42
+79f26 tolerr{59|13F8} 77|197b24 246r49
+79f33 tolsing{59|13F8} 77|197b31 269r64 284r18 304r52
+80i19 cntfail{71|7I8} 77|198b17 229m5 267m9 267r20
+80i27 cntreal{71|7I8} 77|198b25 229m19 277m11 277r22
+80i35 cntcmplx{71|7I8} 77|198b33 229m33 282m11 282r23
+81i19 cntregu{71|7I8} 77|199b17 230m5 293m11 293r22
+81i27 cntsing{71|7I8} 77|199b25 230m19 288m11 288r22
+81i35 cntclus{71|7I8} 77|199b33 230m33 304m60
+82a19 t_err{25|16A8[74|4]} 77|200b17 231m5 296m50
+82a25 t_rco{25|16A8[74|4]} 77|200b23 232m5 297m50
+82a31 t_res{25|16A8[74|4]} 77|200b29 233m5 298m50
+83b19 verbose{boolean} 77|201b17 238r8 243r10 248r10 264r12 274r14 279r14
+. 285r14 290r14 301r8 304r68
+83i41 vrb{66|6I8} 77|201b39 234r8
+84U13*Inlined_Run 85>19 86>19 86>42 87>19 88>19 88>26 88>33 89<19 89<27 89<35
+. 90<19 90<27 90<35 91<19 91<25 91<31 92>19 92>41 77|409b13 507l7 507t18
+. 642s5
+85p19 file{12|67P9} 77|410b17 454r14 455r9 455r38 455r53 456r14 457r43 460r11
+. 460r34 461r11 464r11 465r11 465r41 467r22 468r22 470r11 470r28 470r49 471r11
+. 471r29 471r52 472r16 473r48 474r11 474r33 475r11 475r33 476r11 476r33 478r18
+. 485r19 486r19 489r24 490r24 503r43
+86p19 s{41|68P8} 77|411b17 424r47 425r56 426r16 427r56 428r16 436r35 455r58
+. 462r23
+86p42 sols{53|28P8} 77|411b40 421r28 455r24
+87i19 maxit{71|7I8} 77|412b17 462r36
+88f19 tolres{59|13F8} 77|413b17 462r42
+88f26 tolerr{59|13F8} 77|413b24 462r49
+88f33 tolsing{59|13F8} 77|413b31 480r64 488r18 494r61 504r52
+89i19 cntfail{71|7I8} 77|414b17 445m5 478m43 478r54
+89i27 cntreal{71|7I8} 77|414b25 445m19 485m40 485r51
+89i35 cntcmplx{71|7I8} 77|414b33 445m33 486m40 486r52
+90i19 cntregu{71|7I8} 77|415b17 446m5 490m43 490r54
+90i27 cntsing{71|7I8} 77|415b25 446m19 489m43 489r54
+90i35 cntclus{71|7I8} 77|415b33 446m33 504m60
+91a19 t_err{25|16A8[74|4]} 77|416b17 447m5 496m50
+91a25 t_rco{25|16A8[74|4]} 77|416b23 448m5 497m50
+91a31 t_res{25|16A8[74|4]} 77|416b29 449m5 498m50
+92b19 verbose{boolean} 77|417b17 493r10 504r68
+92i41 vrb{66|6I8} 77|417b39 450r8
+123U13*Run 123>19 123>42 124>19 77|509b13 537l7 537t10
+123p19 s{41|68P8} 77|509b19 528r9
+123p42 sols{53|28P8} 77|509b42 528r11
+124i19 vrb{66|6I8} 77|510b19 520r8 529r59
+125U13*Inlined_Run 126>19 126>42 127>19 77|539b13 568l7 568t18 693s9 742s13
+126p19 s{41|68P8} 77|540b17 559r17
+126p42 sols{53|28P8} 77|540b40 559r19
+127i19 vrb{66|6I8} 77|541b17 551r8 560r67
+137U13*Run 137>19 138>19 138>42 139>19 77|570b13 614l7 614t10
+137p19 file{12|67P9} 77|570b19 595r9 598r9 599r9 599r35 600r9 601r9 601r35
+. 602r9 603r9 603r35 604r9 605r9 605r36 606r9 607r9 607r35 608r9 609r9 609r35
+. 610r43 611r44 612r14 613r17
+138p19 s{41|68P8} 77|571b19 595r14
+138p42 sols{53|28P8} 77|571b42 595r16
+139i19 vrb{66|6I8} 77|572b19 583r8 596r59
+140U13*Inlined_Run 141>19 142>19 142>42 143>19 77|616b13 662l7 662t18 700s9
+. 749s13 757s11
+141p19 file{12|67P9} 77|617b17 643r8 646r9 647r9 647r35 648r9 649r9 649r35
+. 650r9 651r9 651r35 652r9 653r9 653r36 654r9 655r9 655r35 656r9 657r9 657r35
+. 658r43 659r44 660r14 661r17
+142p19 s{41|68P8} 77|618b17 643r13
+142p42 sols{53|28P8} 77|618b40 643r15
+143i19 vrb{66|6I8} 77|619b17 630r8 644r58
+152U13*Main 152>20 77|664b13 705l7 705t11 722s7
+152i20 vrb{66|6I8} 77|664b20 674r8 693r28 700r33
+159U13*Main 159>20 159>31 160>20 77|707b13 762l7 762t11
+159a20 infilename{string} 77|707b20 721r8 725r38 726r30
+159a31 outfilename{string} 77|707b31 738r12 753r39 754r38
+160i20 vrb{66|6I8} 77|708b20 718r8 722r12 742r32 749r40 757r38
+X 77 standard_refiner_circuits.adb
+37e5 ans{character} 44m23 45r18 46r12
+89p5 ptr{53|28P8} 125r23 126r21 183m7 183r22
+90p5 ls{53|25P8} 126m7 130r25 139r25 140r26 142r50 153r57 154r48 155r48 156r60
+91i5 cnt{66|6I8} 126m27 126r34 128r31 156r56
+92a5 ipvt{25|16A8[69|4]} 130m56 130r56
+93a5 vxr{25|16A8[62|4]} 98r49
+95a5 vxi{25|16A8[62|4]} 100r49
+97p5 xr{25|17P8[62|4]} 130r30 189m37 189r37
+99p5 xi{25|17P8[62|4]} 130r33 190m37 190r37
+101f5 startres{59|13F8} 131m23 133r13
+101f14 res{59|13F8} 131m32 145r30 182r56
+101f18 rco{59|13F8} 131m36 144r30 168r12 181r56
+101f22 err{59|13F8} 131m40 143r27 180r56
+102i5 numit{71|7I8} 131m44 134r38
+103b5 fail{boolean} 131m50 135r12 147r10
+103b10 isreal{boolean} 153m9 157r12
+104i5 nbr{66|6I8} 105r56 106r57 107r56 108r57
+105a5 wv1{25|16A8[62|4]} 154r53
+107a5 wv2{25|16A8[62|4]} 155r53
+109f5 val1{59|13F8} 154m9 156r46
+109f10 val2{59|13F8} 155m9 156r51
+110r5 weights{79|47R8} 124m5 156m38 156r38 188m44 188r44 191m35 191r35
+205p5 ptr{53|28P8} 241r23 242r21 299m7 299r22
+206p5 ls{53|25P8} 242m7 246r25 255r25 256r26 258r50 269r57 270r48 271r48
+. 272r60
+207i5 cnt{66|6I8} 242m27 242r34 244r31 272r56
+208a5 ipvt{25|16A8[69|4]} 246m56 246r56
+209a5 vxr{25|16A8[62|4]} 214r49
+211a5 vxi{25|16A8[62|4]} 216r49
+213p5 xr{25|17P8[62|4]} 246r30 305m37 305r37
+215p5 xi{25|17P8[62|4]} 246r33 306m37 306r37
+217f5 startres{59|13F8} 247m23 249r13
+217f14 res{59|13F8} 247m32 261r30 298r56
+217f18 rco{59|13F8} 247m36 260r30 284r12 297r56
+217f22 err{59|13F8} 247m40 259r27 296r56
+218i5 numit{71|7I8} 247m44 250r38
+219b5 fail{boolean} 247m50 251r12 263r10
+219b10 isreal{boolean} 269m9 273r12
+220i5 nbr{66|6I8} 221r56 222r57 223r56 224r57
+221a5 wv1{25|16A8[62|4]} 270r53
+223a5 wv2{25|16A8[62|4]} 271r53
+225f5 val1{59|13F8} 270m9 272r46
+225f10 val2{59|13F8} 271m9 272r51
+226r5 weights{79|47R8} 237m5 272m38 272r38 304m44 304r44 307m35 307r35
+321p5 ptr{53|28P8} 358r23 359r21 401m7 401r22
+322p5 ls{53|25P8} 359m7 362r25 370r33 371r34 373r53 380r57 381r48 382r48
+. 383r60 399r7 400r7 400r22
+323i5 cnt{66|6I8} 359m27 359r34 360r39 383r56 394r28
+324a5 ipvt{25|16A8[69|4]} 362m56 362r56
+325a5 vxr{25|16A8[62|4]} 330r49
+327a5 vxi{25|16A8[62|4]} 332r49
+329p5 xr{25|17P8[62|4]} 362r30 405m37 405r37
+331p5 xi{25|17P8[62|4]} 362r33 406m37 406r37
+333f5 startres{59|13F8} 363m23 364r16
+333f14 res{59|13F8} 363m32 376r38 394r52 398r56 400r32
+333f18 rco{59|13F8} 363m36 375r38 388r12 394r48 397r56 399r17
+333f22 err{59|13F8} 363m40 374r38 394r44 396r56 400r17
+334i5 numit{71|7I8} 363m44 365r46
+335b5 fail{boolean} 363m50 366r10 377r10 394r32
+335b10 isreal{boolean} 380m9 384r12 394r37
+336i5 nbr{66|6I8} 337r56 338r57 339r56 340r57
+337a5 wv1{25|16A8[62|4]} 381r53
+339a5 wv2{25|16A8[62|4]} 382r53
+341f5 val1{59|13F8} 381m9 383r46 394r56
+341f10 val2{59|13F8} 382m9 383r51
+342r5 weights{79|47R8} 353m5 383m38 383r38 404m44 404r44
+421p5 ptr{53|28P8} 458r23 459r21 501m7 501r22
+422p5 ls{53|25P8} 459m7 462r25 470r33 471r34 473r53 480r57 481r48 482r48
+. 483r60 499r7 500r7 500r22
+423i5 cnt{66|6I8} 459m27 459r34 460r39 483r56 494r28
+424a5 ipvt{25|16A8[69|4]} 462m56 462r56
+425a5 vxr{25|16A8[62|4]} 430r49
+427a5 vxi{25|16A8[62|4]} 432r49
+429p5 xr{25|17P8[62|4]} 462r30 505m37 505r37
+431p5 xi{25|17P8[62|4]} 462r33 506m37 506r37
+433f5 startres{59|13F8} 463m23 464r16
+433f14 res{59|13F8} 463m32 476r38 494r52 498r56 500r32
+433f18 rco{59|13F8} 463m36 475r38 488r12 494r48 497r56 499r17
+433f22 err{59|13F8} 463m40 474r38 494r44 496r56 500r17
+434i5 numit{71|7I8} 463m44 465r46
+435b5 fail{boolean} 463m50 466r10 477r10 494r32
+435b10 isreal{boolean} 480m9 484r12 494r37
+436i5 nbr{66|6I8} 437r56 438r57 439r56 440r57
+437a5 wv1{25|16A8[62|4]} 481r53
+439a5 wv2{25|16A8[62|4]} 482r53
+441f5 val1{59|13F8} 481m9 483r46 494r56
+441f10 val2{59|13F8} 482m9 483r51
+442r5 weights{79|47R8} 453m5 483m38 483r38 504m44 504r44
+512f5 tolres{59|13F8} 524m26 528r22
+512f12 tolerr{59|13F8} 524m33 528r29
+512f19 tolsing{59|13F8} 524m40 528r36
+513i5 cntfail{71|7I8} 528m44 535r50
+513i13 cntreal{71|7I8} 528m52 532r50
+513i21 cntcmplx{71|7I8} 528m60 533r50
+513i30 cntregu{71|7I8} 529m9 530r50
+513i38 cntsing{71|7I8} 529m17 531r50
+513i46 cntclus{71|7I8} 529m25 534r50
+514i5 maxit{71|7I8} 524m20 528r16
+515a5 t_err{25|16A8[74|4]} 529m33 536r60
+515a11 t_rco{25|16A8[74|4]} 529m39 536r72
+515a17 t_res{25|16A8[74|4]} 529m45 536r66
+516e5 ans{character} 526m54 527r17
+517b5 verbose{boolean} 527m5 529r51
+543f5 tolres{59|13F8} 555m26 559r30
+543f12 tolerr{59|13F8} 555m33 559r37
+543f19 tolsing{59|13F8} 555m40 559r44
+544i5 cntfail{71|7I8} 559m52 566r50
+544i13 cntreal{71|7I8} 559m60 563r50
+544i21 cntcmplx{71|7I8} 559m68 564r50
+544i30 cntregu{71|7I8} 560m17 561r50
+544i38 cntsing{71|7I8} 560m25 562r50
+544i46 cntclus{71|7I8} 560m33 565r50
+545i5 maxit{71|7I8} 555m20 559r24
+546a5 t_err{25|16A8[74|4]} 560m41 567r60
+546a11 t_rco{25|16A8[74|4]} 560m47 567r72
+546a17 t_res{25|16A8[74|4]} 560m53 567r66
+547e5 ans{character} 557m54 558r17
+548b5 verbose{boolean} 558m5 560r59
+574p5 timer{105|16P8} 594m12 594r12 597m11 597r11 613r22
+575f5 tolres{59|13F8} 587m26 595r27
+575f12 tolerr{59|13F8} 587m33 595r34
+575f19 tolsing{59|13F8} 587m40 595r41
+576i5 cntfail{71|7I8} 595m49 609r14
+576i13 cntreal{71|7I8} 595m57 603r14
+576i21 cntcmplx{71|7I8} 595m65 605r14
+576i30 cntregu{71|7I8} 596m9 599r14
+576i38 cntsing{71|7I8} 596m17 601r14
+576i46 cntclus{71|7I8} 596m25 607r14
+577i5 maxit{71|7I8} 587m20 595r21
+578a5 t_err{25|16A8[74|4]} 596m33 611r49
+578a11 t_rco{25|16A8[74|4]} 596m39 611r61
+578a17 t_res{25|16A8[74|4]} 596m45 611r55
+579e5 ans{character} 589m44 590r17
+580b5 verbose{boolean} 590m5 596r51
+621p5 timer{105|16P8} 641m12 641r12 645m11 645r11 661r22
+622f5 tolres{59|13F8} 634m26 643r26
+622f12 tolerr{59|13F8} 634m33 643r33
+622f19 tolsing{59|13F8} 634m40 643r40
+623i5 cntfail{71|7I8} 643m48 657r14
+623i13 cntreal{71|7I8} 643m56 651r14
+623i21 cntcmplx{71|7I8} 643m64 653r14
+623i30 cntregu{71|7I8} 644m8 647r14
+623i38 cntsing{71|7I8} 644m16 649r14
+623i46 cntclus{71|7I8} 644m24 655r14
+624i5 maxit{71|7I8} 634m20 643r20
+625a5 t_err{25|16A8[74|4]} 644m32 659r49
+625a11 t_rco{25|16A8[74|4]} 644m38 659r61
+625a17 t_res{25|16A8[74|4]} 644m44 659r55
+626e5 ans{character} 636m44 637r17
+627b5 verbose{boolean} 637m5 644r50
+666p5 p{21|23P8[49|5]} 679m42 679r42 680r12 689r60 698r33 704m11 704r11
+667p5 sols{53|28P8} 679m44 679r44 681r32 685r22 693r23 700r28 704m21 704r21
+668i5 nbq{66|6I8} 680m5 687r35 698r28
+668i9 len{66|6I8} 681m5 682r8 688r11
+668i13 dim{66|6I8} 685m7 688r56
+669p5 s{41|68P8} 689m7 693r21 700r26 704m34 704r34
+670e5 ans{character} 691m53 692r10
+671p5 file{12|67P9} 697m35 697r35 698r13 699r18 700r21 701m15 701r15
+710p5 infile{12|67P9} 726m23 726r23 727r44
+710p12 outfile{12|67P9} 746m39 746r39 747r17 748r22 749r25 749m54 749r54
+. 754m30 754r30 755r15 756r20 757r23 757m52 757r52
+711p5 p{21|23P8[49|5]} 727m51 727r51 728r14 737r62 747r40 755r38 759m15 759r15
+712p5 s{41|68P8} 737m9 742r25 749r33 757r31 759m38 759r38
+713p5 sols{53|28P8} 727m53 727r53 729r34 733r24 742r27 749r35 757r33 759m25
+. 759r25
+714i5 nbq{66|6I8} 728m7 735r37 747r35 755r33
+714i9 len{66|6I8} 729m7 730r10 736r13
+714i13 dim{66|6I8} 733m9 736r58
+715e5 ans{character} 740m57 741r14
+X 78 standard_solution_diagnostics.ads
+5K9*Standard_Solution_Diagnostics 77|13w6 153r19 269r19 380r19 480r19 78|72e34
+11V12*Is_Real{boolean} 77|153s49 269s49 380s49 480s49
+X 79 standard_solutions_heap.ads
+9K9*Standard_Solutions_Heap 77|18w6 106r12 108r12 110r15 154r17 155r17 156r9
+. 188r5 191r5 222r12 224r12 226r15 270r17 271r17 272r9 304r5 307r5 338r12
+. 340r12 342r15 381r17 382r17 383r9 404r5 438r12 440r12 442r15 481r17 482r17
+. 483r9 504r5 79|176e28
+47R8*Heap 77|110r39 226r39 342r39 442r39 79|50e13
+48i5*bottom{66|6I8} 77|124m13 237m13 353m13 453m13
+54V12*Random_Weight_Vector{25|16A8[62|4]} 77|106s36 108s36 222s36 224s36
+. 338s36 340s36 438s36 440s36
+62V12*Weight{59|13F8} 77|154s41 155s41 270s41 271s41 381s41 382s41 481s41
+. 482s41
+145U13*Push 77|156s33 272s33 383s33 483s33
+153U13*Clear 77|191s29 307s29
+160U13*Count_Clusters 77|188s29 304s29 404s29 504s29
+X 81 standard_system_and_solutions_io.ads
+9K9*Standard_System_and_Solutions_io 77|11w6 679r5 727r7 81|121e37
+23U13*get 77|679s38
+25U13*get 77|727s40
+X 104 text_io.ads
+27K9*Text_IO=27:29 76|1w6 1r46
+X 105 timing_package.ads
+3K9*Timing_Package 77|2w6 2r46 105|66e19
+16P8*Timing_Widget 77|574r13 621r13
+20U13*tstart 77|594s5 641s5
+24U13*tstop 77|597s5 645s5
+49U13*print_times 77|613s5 661s5
+

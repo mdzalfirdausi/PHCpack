@@ -1,0 +1,127 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U machines%b		machines.adb		a08132f8 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system_call%s		system_call.adb		system_call.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U machines%s		machines.ads		7f431eff EE NE OO PK
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D machines.ads		20260513024558 7f431eff machines%s
+D machines.adb		20260513024558 1cdf340f machines%b
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D system_call.ads	20260513024558 e2afd090 system_call%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [process_id machines 7 12 none]
+G c Z s b [process_id machines 12 12 none]
+G c Z s b [user_name machines 19 12 none]
+G c Z s b [architecture machines 25 12 none]
+G c Z s b [architecture machines 26 12 none]
+G c Z s b [host_name machines 33 12 none]
+G c Z s b [date machines 39 12 none]
+G c Z b b [getpid machines 6 12 none]
+G c Z b b [integer_to_string machines 15 12 none]
+G r c none [user_name machines 19 12 none] [call system_call 6 13 none]
+G r c none [architecture machines 25 12 none] [call system_call 6 13 none]
+G r c none [architecture machines 26 12 none] [call system_call 6 13 none]
+G r c none [host_name machines 33 12 none] [call system_call 6 13 none]
+G r c none [date machines 39 12 none] [call system_call 6 13 none]
+X 9 a-textio.ads
+67P9*File_Type 14|65r12 82r12 99r12 116r12 133r12
+69n23*In_File{69E9} 14|71r15 88r15 105r15 122r15 139r15
+115U14*Open 14|71s5 88s5 105s5 122s5 139s5
+131U14*Close 14|73s5 90s5 107s5 124s5 141s5
+521U14*Get_Line 14|72s5 89s5 106s5 123s5 140s5
+X 13 machines.ads
+1K9*Machines 44l5 44e13 14|4b14 148l5 148t13
+7V12*Process_ID{integer} 14|10b12 13l7 13t17
+12V12*Process_ID{string} 14|58b12 61l7 61t17
+19V12*User_Name{string} 19>24 14|63b12 78l7 78t16
+19a24 pid{string} 14|63b24 70r50 71r42 74r44
+25V12*Architecture{string} 25>27 14|80b12 95l7 95t19
+25a27 pid{string} 14|80b27 87r52 88r42 91r44
+26V12*Architecture{string} 26>27 26>41 14|97b12 112l7 112t19
+26a27 pid{string} 14|97b27 104r73 105r42 108r44
+26a41 machine{string} 14|97b41 104r32
+33V12*Host_Name{string} 33>24 14|114b12 129l7 129t16
+33a24 pid{string} 14|114b24 121r52 122r42 125r44
+39V12*Date{string} 39>19 14|131b12 146l7 146t11
+39a19 pid{string} 14|131b19 138r43 139r37 142r39
+X 14 machines.adb
+6V12 getpid{integer} 8b<c,getpid>20 12s12 60s30
+15V12 Integer_to_String{string} 15b12 15>32 56l7 56t24 60s12
+15i32 i{integer} 19r22
+17a5 answer{string} 41m11 45m7 52r19
+18i5 nb{natural} 40m11 40r17 41r18 44m7 44r13 45r14 49r23 52r26
+19i5 tmp{integer} 39r8 43r11 45r41 46m7 46r14
+21V14 Number_to_Character{character} 21b14 21>36 36l9 36t28 41s25 45s21
+21i36 n{integer} 23r12
+49a7 res{string} 51r16 52m9 54r14
+51i11 j{integer} 52r13 52r29
+65p5 temp{9|67P9} 71m10 71r10 72r14 73m11 73r11
+66a5 name{string} 72m19 75r12
+67i5 last{natural} 72m24 75r20
+82p5 temp{9|67P9} 88m10 88r10 89r14 90m11 90r11
+83a5 answer{string} 89m19 92r12
+84i5 last{natural} 89m26 92r22
+99p5 temp{9|67P9} 105m10 105r10 106r14 107m11 107r11
+100a5 answer{string} 106m19 109r12
+101i5 last{natural} 106m26 109r22
+116p5 temp{9|67P9} 122m10 122r10 123r14 124m11 124r11
+117a5 answer{string} 123m19 126r12
+118i5 last{natural} 123m26 126r22
+133p5 temp{9|67P9} 139m10 139r10 140r14 141m11 141r11
+134a5 answer{string} 140m19 143r12
+135i5 last{natural} 140m26 143r22
+X 29 system_call.ads
+1K9*System_Call 14|1w6 70r5 74r5 87r5 91r5 104r5 108r5 121r5 125r5 138r5
+. 142r5 29|13e16
+6U13*Call 14|70s17 74s17 87s17 91s17 104s17 108s17 121s17 125s17 138s17 142s17
+X 30 text_io.ads
+27K9*Text_IO=27:29 14|2w6 2r41
+

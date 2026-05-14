@@ -1,0 +1,557 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_mathematical_functions%b  quaddobl_mathematical_functions.adb  bf196306 NE OO PK IU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W quad_double_constants%s  quad_double_constants.ads  quad_double_constants.ali
+W standard_mathematical_functions%s  standard_mathematical_functions.adb  standard_mathematical_functions.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U quaddobl_mathematical_functions%s  quaddobl_mathematical_functions.ads  ecb5002a EE NE OO PK IU
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D quad_double_constants.ads  20260513024558 b4a277a9 quad_double_constants%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quaddobl_mathematical_functions.ads  20260513024558 04a8dea8 quaddobl_mathematical_functions%s
+D quaddobl_mathematical_functions.adb  20260513024558 3652910e quaddobl_mathematical_functions%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-fatgen.ads		20250808065140 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250808065140 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [sqrt quaddobl_mathematical_functions 12 12 none]
+G c Z s b [sqrt quaddobl_mathematical_functions 13 12 none]
+G c Z s b [sqrt quaddobl_mathematical_functions 14 12 none]
+G c Z s b [sin quaddobl_mathematical_functions 20 12 none]
+G c Z s b [cos quaddobl_mathematical_functions 21 12 none]
+G c Z s b [sincos quaddobl_mathematical_functions 26 13 none]
+G c Z s b [tan quaddobl_mathematical_functions 31 12 none]
+G c Z s b [arctan quaddobl_mathematical_functions 36 12 none]
+G c Z s b [arctan quaddobl_mathematical_functions 41 12 none]
+G c Z s b [arcsin quaddobl_mathematical_functions 47 12 none]
+G c Z s b [arccos quaddobl_mathematical_functions 48 12 none]
+G c Z s b [radius quaddobl_mathematical_functions 53 12 none]
+G c Z s b [angle quaddobl_mathematical_functions 54 12 none]
+G c Z b b [sincos_taylor quaddobl_mathematical_functions 56 13 none]
+G c Z b b [sin_taylor quaddobl_mathematical_functions 92 12 none]
+G c Z b b [cos_taylor quaddobl_mathematical_functions 126 12 none]
+G c Z b b [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 12 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [create quad_double_numbers 42 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 13 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [sqrt quaddobl_mathematical_functions 14 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [sin quaddobl_mathematical_functions 20 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [create quad_double_numbers 37 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [cos quaddobl_mathematical_functions 21 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [create quad_double_numbers 37 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [nint quad_double_numbers 155 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [to_double quad_double_numbers 149 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sincos quaddobl_mathematical_functions 26 13 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [create quad_double_numbers 37 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [tan quaddobl_mathematical_functions 31 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [create quad_double_numbers 37 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [is_positive quad_double_numbers 108 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [angle standard_mathematical_functions 62 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [arctan quaddobl_mathematical_functions 36 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [create quad_double_numbers 37 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [is_positive quad_double_numbers 108 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [angle standard_mathematical_functions 62 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [arctan quaddobl_mathematical_functions 41 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Olt quad_double_numbers 125 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [is_one quad_double_numbers 103 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [is_positive quad_double_numbers 108 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [create quad_double_numbers 37 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [angle standard_mathematical_functions 62 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [arcsin quaddobl_mathematical_functions 47 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Olt quad_double_numbers 125 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Ogt quad_double_numbers 136 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [is_one quad_double_numbers 103 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [is_positive quad_double_numbers 108 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [create quad_double_numbers 37 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [angle standard_mathematical_functions 62 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [arccos quaddobl_mathematical_functions 48 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [create quad_double_numbers 37 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [radius quaddobl_mathematical_functions 53 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [create quad_double_numbers 37 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [is_positive quad_double_numbers 108 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [angle standard_mathematical_functions 62 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [nint quad_double_numbers 155 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [angle quaddobl_mathematical_functions 54 12 none] [Omultiply quad_double_numbers 192 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [to_double quad_double_numbers 149 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [create quad_double_numbers 37 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [Osubtract quad_double_numbers 178 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [is_negative quad_double_numbers 113 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [sqrt standard_mathematical_functions 40 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [sincos_taylor quaddobl_mathematical_functions 56 13 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [create quad_double_numbers 37 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [sin_taylor quaddobl_mathematical_functions 92 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [to_double quad_double_numbers 149 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [is_zero quad_double_numbers 98 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [create quad_double_numbers 37 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [sqr quad_double_numbers 221 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [Osubtract quad_double_numbers 183 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [mul_pwr2 quad_double_numbers 201 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [Oadd quad_double_numbers 164 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [cos_taylor quaddobl_mathematical_functions 126 12 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none] [Odivide quad_double_numbers 206 12 none]
+G r c none [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none] [nint quad_double_numbers 155 12 none]
+G r c none [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none] [Omultiply quad_double_numbers 189 12 none]
+G r c none [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none] [Osubtract quad_double_numbers 174 12 none]
+G r c none [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none] [hihi_part quad_double_numbers 67 12 none]
+G r c none [reduce_modulo_2pi quaddobl_mathematical_functions 162 13 none] [Omultiply quad_double_numbers 192 12 none]
+X 9 a-textio.ads
+565U14*Put_Line 17|192s7 203s9 443s9 500s7 520s7
+X 11 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 16|2w6 2r46
+12R8*double_double 170e13 16|13r23 17|15r23
+X 14 quad_double_constants.ads
+4K9*Quad_Double_Constants 1717e26 17|3w6 3r46
+10f3*qd_eps{18|13F8} 17|64r43 100r43 134r43
+15r3*pi{15|14R8} 17|454r20 525r20
+18r3*twopi{15|14R8} 17|185r17 186r14
+21r3*pi2{15|14R8} 17|188r52 189r14 447r22 448r23 504r20 505r21
+24r3*pi4{15|14R8} 17|458r20 464r20
+27r3*threepi4{15|14R8} 17|459r21 463r20
+30r3*pi1024{15|14R8} 17|195r54 196r16
+82i3*n_inv_fact{natural} 17|80r25 115r25 151r25
+83a3*i_fac(15|14R8) 17|77r16 112r16 148r16
+1627a3*sin_table(15|14R8) 17|250r20 310r20 370r20
+1672a3*cos_table(15|14R8) 17|249r20 309r20 369r20
+X 15 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 16|3w6 3r46
+14R8*quad_double 253e13 16|12r45 13r46 14r23 14r44 20r22 20r43 21r22 21r43
+. 26r29 26r60 31r22 31r43 36r25 36r46 41r27 41r48 47r25 47r46 48r25 48r46
+. 53r27 53r48 54r26 54r47 17|7r45 9r21 15r46 17r21 23r23 23r44 32r13 34r20
+. 57r24 57r55 65r15 92r29 92r50 98r11 101r13 126r29 126r50 132r11 135r13
+. 163r24 163r45 181r11 213r22 213r43 223r11 230r13 247r33 281r22 281r43 283r11
+. 290r13 307r33 341r29 341r60 348r13 358r31 411r22 411r43 413r11 420r25 420r46
+. 422r20 428r27 428r48 468r22 469r23 470r23 473r13 474r23 497r25 497r46 509r24
+. 510r24 517r25 517r46 529r24 530r24 537r27 537r48 542r26 542r47
+37V12*Create{14R8} 17|9s36 34s35 38s14 40s14 43s14 70s16 71s16 106s14 140s14
+. 227s14 236s18 287s14 296s18 344s16 345s16 354s20 355s20 422s35 444s16 453s20
+. 473s28 509s39 524s20 529s39
+42V12*Create{14R8} 17|17s36
+67V12*hihi_part{18|13F8} 17|42s49 188s29 188s42 195s31 195s44 477s16 477s37
+98V12*is_zero{boolean} 17|37s8 69s8 105s8 139s8 226s8 286s8 343s8 441s8 442s10
+. 451s11
+103V12*is_one{boolean} 17|502s11 522s11
+108V12*is_positive{boolean} 17|446s12 452s10 457s10 462s10 503s10 523s10
+113V12*is_negative{boolean} 17|39s11
+125V13*"<"{boolean} 17|499s10 519s10
+136V13*">"{boolean} 17|499s22 519s22
+149V12*to_double{18|13F8} 17|63s25 81s14 99s25 116s14 133s25 152s14 472s52
+. 472s65
+155V12*nint{14R8} 17|185s10
+160V13*"+"{14R8} 17|46s18 47s18 48s18 78s16 113s20 149s20 254s38 260s38 315s38
+. 324s38 373s38 377s38 385s38 389s38 468s49 479s18 481s18 483s18 539s24
+164V13*"+"{14R8} 17|143s18
+174V13*"-"{14R8} 17|186s12 189s12 196s14 255s38 259s38 264s39 265s39 269s39
+. 270s39 314s38 319s39 320s39 325s38 329s39 330s39 374s38 376s38 381s40 382s38
+. 384s38 390s39 392s38 393s40 397s40 398s38 400s38 401s40 479s24 481s24 483s24
+. 486s18 486s24 488s18 488s24 490s18 490s24 510s48 530s48
+178V13*"-"{14R8} 17|46s26 47s26 48s26 89s23
+183V13*"-"{14R8} 17|73s12 108s12 142s12 242s33 243s37 265s30 269s30 301s32
+. 303s37 319s30 330s30 364s52 365s37 366s41 366s58 381s28 393s28 397s28 401s28
+. 448s22 459s20 461s15 505s20
+189V13*"*"{14R8} 17|46s29 46s39 47s29 47s39 48s29 48s39 49s17 76s15 77s15
+. 111s15 112s15 147s15 148s15 186s19 254s31 254s41 255s31 255s41 259s31 259s41
+. 260s31 260s41 264s32 264s42 265s32 265s42 269s32 269s42 270s32 270s42 314s31
+. 314s41 315s31 315s41 319s32 319s42 320s32 320s42 324s31 324s41 325s31 325s41
+. 329s32 329s42 330s32 330s42 373s30 373s42 374s30 374s42 376s30 376s42 377s30
+. 377s42 381s32 381s44 382s30 382s42 384s30 384s42 385s30 385s42 389s30 389s42
+. 390s31 390s43 392s30 392s42 393s32 393s44 397s32 397s44 398s30 398s42 400s30
+. 400s42 401s32 401s44
+192V13*"*"{14R8} 17|189s17 196s22
+201V12*Mul_pwr2{14R8} 17|45s12 143s20
+206V13*"/"{14R8} 17|44s17 185s16 417s13 469s39 470s39 479s33 481s33 483s33
+. 486s33 488s33 490s33
+221V12*sqr{14R8} 17|46s30 47s30 48s30 73s13 89s25 108s13 142s13 468s42 468s51
+. 510s50 530s50 539s17 539s26
+X 16 quaddobl_mathematical_functions.ads
+5K9*QuadDobl_Mathematical_Functions 59l5 59e36 17|5b14 547l5 547t36
+12V12*SQRT{15|14R8} 12>19 17|7b12 13l7 13t11
+12f19 x{18|13F8} 17|7b19 9r43
+13V12*SQRT{15|14R8} 13>19 17|15b12 21l7 21t11
+13r19 x{11|12R8} 17|15b19 17r43
+14V12*SQRT{15|14R8} 14>19 17|12s12 20s12 23b12 52l7 52t11 89s14 468s37 510s39
+. 530s39 539s12
+14r19 x{15|14R8} 17|23b19 37r16 39r23 42r59 45r21 49r18
+20V12*SIN{15|14R8} 20>18 17|213b12 279l7 279t10
+20r18 x{15|14R8} 17|213b18 226r16 234r27
+21V12*COS{15|14R8} 21>18 17|281b12 339l7 339t10
+21r18 x{15|14R8} 17|281b18 286r16 294r27
+26U13*SINCOS 26>22 26<42 26<48 17|341b13 409l7 409t13 416s5 476s9 480s11
+. 482s11 487s11 489s11
+26r22 x{15|14R8} 17|341b22 343r16 352r27
+26r42 sin_x{15|14R8} 17|341b42 344m7 354m11 363m27 364m27 365m28 366m32 373m19
+. 376m19 382m19 385m19 390m19 393m19 397m19 400m19
+26r48 cos_x{15|14R8} 17|341b48 345m7 355m11 363m43 364m43 365m45 366m49 374m19
+. 377m19 381m19 384m19 389m19 392m19 398m19 401m19
+31V12*TAN{15|14R8} 31>18 17|411b12 418l7 418t10
+31r18 x{15|14R8} 17|411b18 416r12
+36V12*ARCTAN{15|14R8} 36>21 17|420b12 426l7 426t13
+36r21 x{15|14R8} 17|420b21 425r19
+41V12*ARCTAN{15|14R8} 41>21 41>23 17|425s12 428b12 495l7 495t13 512s16 532s16
+. 544s12
+41r21 y{15|14R8} 17|428b21 442r18 446r24 451r19 456r15 457r22 461r16 462r22
+. 468r55 470r38 472r62
+41r23 x{15|14R8} 17|428b23 441r16 452r22 456r11 461r11 468r46 469r38 472r75
+47V12*ARCSIN{15|14R8} 47>21 17|497b12 515l7 515t13
+47r21 x{15|14R8} 17|497b21 499r8 499r20 501r14 502r18 503r22 510r54 512r23
+48V12*ARCCOS{15|14R8} 48>21 17|517b12 535l7 535t13
+48r21 x{15|14R8} 17|517b21 519r8 519r20 521r14 522r18 523r22 530r54 532r27
+53V12*Radius{15|14R8} 53>21 53>23 17|537b12 540l7 540t13
+53r21 x{15|14R8} 17|537b21 539r21
+53r23 y{15|14R8} 17|537b23 539r30
+54V12*Angle{15|14R8} 54>20 54>22 17|542b12 545l7 545t12
+54r20 x{15|14R8} 17|542b20 544r19
+54r22 y{15|14R8} 17|542b22 544r21
+X 17 quaddobl_mathematical_functions.adb
+9r5 qd_x{15|14R8} 12r17
+17r5 qd_x{15|14R8} 20r17
+32r5 res{15|14R8} 38m7 40m7 43m7 44m7 44r18 46m7 46r14 46r34 46r40 47m7 47r14
+. 47r34 47r40 48m7 48r14 48r34 48r40 49m7 49r14 51r12
+32r9 h{15|14R8} 45m7 46r28 47r28 48r28
+33f5 f{18|13F8} 42m7 43r21
+34r5 one{15|14R8} 44r14
+56U13 sincos_taylor 56b13 57>17 57<37 57<43 90l7 90t20 251s15 311s15 360s13
+57r17 x{15|14R8} 63r35 69r16 73r17 73r26 73r34
+57r37 sin_x{15|14R8} 70m7 88m5
+57r43 cos_x{15|14R8} 71m7 89m5
+63f5 f{18|13F8} 64r50 81m9 82r12 83m15 83r21 85r20
+64f5 thresh{18|13F8} 85r25
+65r5 p{15|14R8} 73m29 76m9 76r14 77r14
+65r7 s{15|14R8} 73m21 78m9 78r14 88r14 89r29
+65r9 t{15|14R8} 77m9 78r18 81r24
+65r11 y{15|14R8} 73m7 76r16
+66i5 i{integer} 74m7 77r22 79m9 79r14 80r20
+92V12 sin_taylor{15|14R8} 92b12 92>25 124l7 124t17 240s32 243s38 301s33 302s33
+92r25 x{15|14R8} 99r35 105r16 108r17 108r28 108r36
+98r5 res{15|14R8} 106m7 108m21 113m9 113r16 123r12
+99f5 f{18|13F8} 100r50 116m9 117r12 118m15 118r21 120r20
+100f5 thresh{18|13F8} 120r25
+101r5 p{15|14R8} 108m31 111m9 111r14 112r14
+101r7 t{15|14R8} 112m9 113r22 116r24
+101r9 y{15|14R8} 108m7 111r16
+102i5 i{integer} 109m7 112r22 114m9 114r14 115r20
+126V12 cos_taylor{15|14R8} 126b12 126>25 160l7 160t17 241s32 242s34 300s32
+. 303s38
+126r25 x{15|14R8} 133r35 139r16 142r17
+132r5 res{15|14R8} 140m7 143m7 149m9 149r16 159r12
+133f5 f{18|13F8} 134r50 152m9 153r12 154m15 154r21 156r20
+134f5 thresh{18|13F8} 156r25
+135r5 p{15|14R8} 144m7 147m9 147r14 148r14
+135r7 t{15|14R8} 148m9 149r22 152r24
+135r9 y{15|14R8} 142m7 143r29 144r12 147r16
+136i5 i{integer} 145m7 148r22 150m9 150r14 151r20
+162U13 Reduce_Modulo_2pi 162b13 163>17 163<37 164<17 164<19 164<21 164<42
+. 209l7 209t24 234s9 294s9 352s9
+163r17 x{15|14R8} 185r15 186r10
+163r37 t{15|14R8} 189m5 195r41 196m7 196r12
+164i17 j{integer} 190m5 191r8 191r18
+164i19 k{integer} 197m7 198r10 199r23 200r22
+164i21 abs_k{integer} 199m13 200m13 202r10
+164b42 fail{boolean} 193m7 204m9 206m9
+181r5 z{15|14R8} 185m5 186r20
+181r7 r{15|14R8} 186m5 188r39 189r10
+182f5 q{18|13F8} 188m5 189r18 190r18 195m7 196r23 197r20
+223r5 res{15|14R8} 227m7 236m11 240m25 241m25 242m26 243m30 254m23 255m23
+. 259m23 260m23 264m23 265m23 269m23 270m23 278r12
+230r9 t{15|14R8} 234m29 240r43 241r43 242r45 243r49 251r29
+231i9 j{integer} 234m31 239r18 252r18 257r21 262r21
+231i11 k{integer} 234m33 238r14 253r20 258r20 263r20 268r20
+231i13 abs_k{integer} 234m35 249r30 250r30
+232b9 fail{boolean} 234m41 235r12
+247r15 u{15|14R8} 249m15 254r30 255r30 259r30 260r30 264r41 265r31 269r31
+. 270r41
+247r17 v{15|14R8} 250m15 254r40 255r40 259r40 260r40 264r31 265r41 269r41
+. 270r31
+247r19 t_sin{15|14R8} 251m31 254r32 255r32 259r42 260r42 264r33 265r43 269r33
+. 270r43
+247r25 t_cos{15|14R8} 251m37 254r42 255r42 259r32 260r32 264r43 265r33 269r43
+. 270r33
+283r5 res{15|14R8} 287m7 296m11 300m25 301m25 302m26 303m30 314m23 315m23
+. 319m23 320m23 324m23 325m23 329m23 330m23 338r12
+290r9 t{15|14R8} 294m29 300r43 301r44 302r44 303r49 311r29
+291i9 j{integer} 294m31 299r18 312r18 317r21 322r21
+291i11 k{integer} 294m33 298r14 313r20 318r20 323r20 328r20
+291i13 abs_k{integer} 294m35 309r30 310r30
+292b9 fail{boolean} 294m41 295r12
+307r15 u{15|14R8} 309m15 314r30 315r30 319r31 320r41 324r30 325r30 329r41
+. 330r31
+307r17 v{15|14R8} 310m15 314r40 315r40 319r41 320r31 324r40 325r40 329r31
+. 330r41
+307r19 t_sin{15|14R8} 311m31 314r42 315r42 319r33 320r43 324r32 325r32 329r33
+. 330r43
+307r25 t_cos{15|14R8} 311m37 314r32 315r32 319r43 320r33 324r42 325r42 329r43
+. 330r33
+348r9 t{15|14R8} 352m29 360r27
+349i9 j{integer} 352m31 362r20 371r18 379r21 387r21
+349i11 k{integer} 352m33 361r16 372r20 380r20 388r20 396r20
+349i13 abs_k{integer} 352m35 369r30 370r30
+350b9 fail{boolean} 352m41 353r12
+358r13 sin_t{15|14R8} 360m29 363r36 364r53 365r54 366r42 373r32 374r44 376r32
+. 377r44 381r34 382r44 384r44 385r44 389r32 390r33 392r32 393r46 397r34 398r32
+. 400r44 401r46
+358r19 cos_t{15|14R8} 360m35 363r52 364r36 365r38 366r59 373r44 374r32 376r44
+. 377r32 381r46 382r32 384r32 385r32 389r44 390r45 392r44 393r34 397r46 398r44
+. 400r32 401r34
+358r25 u{15|14R8} 369m15 373r28 374r28 376r28 377r28 381r30 382r28 384r40
+. 385r28 389r28 390r41 392r28 393r30 397r30 398r40 400r40 401r30
+358r27 v{15|14R8} 370m15 373r40 374r40 376r40 377r40 381r42 382r40 384r28
+. 385r40 389r40 390r29 392r40 393r42 397r42 398r28 400r28 401r42
+413r5 s{15|14R8} 416m14 417r12
+413r7 c{15|14R8} 416m16 417r14
+422r5 one{15|14R8} 425r21
+468r9 r{15|14R8} 469r40 470r40
+469r9 xx{15|14R8} 477r26 486r21 488r21 490r21
+470r9 yy{15|14R8} 477r47 479r21 481r21 483r21
+471f9 f{18|13F8} 473r35
+473r9 z{15|14R8} 476r16 479m11 479r16 480r18 481m11 481r16 482r18 483m11
+. 483r16 486m11 486r16 487r18 488m11 488r16 489r18 490m11 490r16 492r16
+474r9 sin_z{15|14R8} 476m18 479r26 480m21 481r26 482m21 483r26 486r35 487m21
+. 488r35 489m21 490r35
+474r15 cos_z{15|14R8} 476m24 479r35 480m28 481r35 482m28 483r35 486r26 487m28
+. 488r26 489m28 490r26
+509r9 one{15|14R8} 510r44
+510r9 s1x{15|14R8} 512r25
+529r9 one{15|14R8} 530r44
+530r9 s1x{15|14R8} 532r23
+X 18 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 16|1w6 1r46 18|58e30
+13F8*double_float<long_float> 16|12r23 17|7r23 33r9 63r9 64r23 99r9 100r23
+. 133r9 134r23 182r9 188r10 195r12 471r22
+X 20 standard_mathematical_functions.ads
+3K9*Standard_Mathematical_Functions 17|2w6 42r12 472r14 20|64e36
+40V12*SQRT{18|13F8} 17|42s44
+62V12*Angle{18|13F8} 17|472s46
+X 38 text_io.ads
+27K9*Text_IO=27:29 17|1w6 1r46
+

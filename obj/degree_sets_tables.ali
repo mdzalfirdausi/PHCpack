@@ -1,0 +1,354 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U degree_sets_tables%b	degree_sets_tables.adb	8189454a NE OO PK
+W boolean_matrices%s	boolean_matrices.ads	boolean_matrices.ali
+W pivot_selection%s	pivot_selection.adb	pivot_selection.ali
+W set_structure%s	set_structure.adb	set_structure.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U degree_sets_tables%s	degree_sets_tables.ads	9ae99780 EE NE OO PK
+W sets_of_unknowns%s	sets_of_unknowns.adb	sets_of_unknowns.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D boolean_matrices.ads	20260513024558 6bd2b435 boolean_matrices%s
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_ring.ads	20260513024558 5e587f54 boolean_ring%s
+D boolean_vectors.ads	20260513024558 182f66ac boolean_vectors%s
+D degree_sets_tables.ads  20260513024558 330cfbcd degree_sets_tables%s
+D degree_sets_tables.adb  20260513024558 efd3c59d degree_sets_tables%b
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D pivot_selection.ads	20260513024558 4d4a91af pivot_selection%s
+D set_structure.ads	20260513024558 4ac7aa8c set_structure%s
+D sets_of_unknowns.ads	20260513024558 4fd99d24 sets_of_unknowns%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [create degree_sets_tables 22 12 none]
+G c Z s b [permanent degree_sets_tables 30 12 none]
+G c Z s b [matching_permanent degree_sets_tables 35 12 none]
+G c Z s b [clear degree_sets_tables 43 13 none]
+G c Z s b [clear degree_sets_tables 44 13 none]
+G c Z s s [array_of_setsIP degree_sets_tables 13 8 none]
+G c Z s s [degree_sets_tableIP degree_sets_tables 15 8 none]
+G c Z b b [number_of_sets degree_sets_tables 12 12 none]
+G c Z b b [create_set degree_sets_tables 23 12 none]
+G c Z b b [is_in degree_sets_tables 39 12 none]
+G c Z b b [different_sets degree_sets_tables 53 12 none]
+G c Z b b [index degree_sets_tables 80 12 none]
+G c Z b b [union_acceptable degree_sets_tables 126 12 none]
+G c Z b b [partial_acceptable degree_sets_tables 144 12 none]
+G c Z b b [acceptable degree_sets_tables 194 12 none]
+G c Z b b [acceptable degree_sets_tables 223 12 none]
+G c Z b b [permanent degree_sets_tables 264 12 none]
+G c Z b b [adjacency_matrix degree_sets_tables 298 12 none]
+G c Z b b [consistent degree_sets_tables 319 12 none]
+G c Z b b [matching_permanent degree_sets_tables 344 12 none]
+G r c none [create degree_sets_tables 22 12 none] [dimension set_structure 36 12 none]
+G r c none [create degree_sets_tables 22 12 none] [number_of_sets set_structure 41 12 none]
+G r c none [create degree_sets_tables 22 12 none] [create sets_of_unknowns 13 12 none]
+G r c none [create degree_sets_tables 22 12 none] [is_in set_structure 46 12 none]
+G r c none [create degree_sets_tables 22 12 none] [add sets_of_unknowns 32 13 none]
+G r c none [create degree_sets_tables 22 12 none] [is_equal sets_of_unknowns 91 12 none]
+G r c none [create degree_sets_tables 22 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [permanent degree_sets_tables 30 12 none] [extent_of sets_of_unknowns 76 12 none]
+G r c none [permanent degree_sets_tables 30 12 none] [union sets_of_unknowns 39 13 none]
+G r c none [permanent degree_sets_tables 30 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [permanent degree_sets_tables 30 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [permanent degree_sets_tables 30 12 none] [union sets_of_unknowns 38 13 none]
+G r c none [matching_permanent degree_sets_tables 35 12 none] [is_in sets_of_unknowns 81 12 none]
+G r c none [matching_permanent degree_sets_tables 35 12 none] [greedy_search pivot_selection 32 13 none]
+G r c none [matching_permanent degree_sets_tables 35 12 none] [maxbpm pivot_selection 79 13 none]
+G r c none [clear degree_sets_tables 43 13 none] [clear sets_of_unknowns 121 13 none]
+G r c none [clear degree_sets_tables 44 13 none] [clear sets_of_unknowns 121 13 none]
+G r c none [number_of_sets degree_sets_tables 12 12 none] [dimension set_structure 36 12 none]
+G r c none [number_of_sets degree_sets_tables 12 12 none] [number_of_sets set_structure 41 12 none]
+G r c none [create_set degree_sets_tables 23 12 none] [create sets_of_unknowns 13 12 none]
+G r c none [create_set degree_sets_tables 23 12 none] [is_in set_structure 46 12 none]
+G r c none [create_set degree_sets_tables 23 12 none] [add sets_of_unknowns 32 13 none]
+G r c none [is_in degree_sets_tables 39 12 none] [is_equal sets_of_unknowns 91 12 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [dimension set_structure 36 12 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [number_of_sets set_structure 41 12 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [create sets_of_unknowns 13 12 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [is_in set_structure 46 12 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [add sets_of_unknowns 32 13 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [is_equal sets_of_unknowns 91 12 none]
+G r c none [different_sets degree_sets_tables 53 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [index degree_sets_tables 80 12 none] [is_equal sets_of_unknowns 91 12 none]
+G r c none [union_acceptable degree_sets_tables 126 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [union_acceptable degree_sets_tables 126 12 none] [union sets_of_unknowns 38 13 none]
+G r c none [union_acceptable degree_sets_tables 126 12 none] [extent_of sets_of_unknowns 76 12 none]
+G r c none [union_acceptable degree_sets_tables 126 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [partial_acceptable degree_sets_tables 144 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [partial_acceptable degree_sets_tables 144 12 none] [extent_of sets_of_unknowns 76 12 none]
+G r c none [partial_acceptable degree_sets_tables 144 12 none] [union sets_of_unknowns 38 13 none]
+G r c none [partial_acceptable degree_sets_tables 144 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [acceptable degree_sets_tables 194 12 none] [extent_of sets_of_unknowns 76 12 none]
+G r c none [acceptable degree_sets_tables 194 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [acceptable degree_sets_tables 194 12 none] [union sets_of_unknowns 38 13 none]
+G r c none [acceptable degree_sets_tables 194 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [acceptable degree_sets_tables 223 12 none] [extent_of sets_of_unknowns 76 12 none]
+G r c none [acceptable degree_sets_tables 223 12 none] [union sets_of_unknowns 39 13 none]
+G r c none [acceptable degree_sets_tables 223 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [acceptable degree_sets_tables 223 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [acceptable degree_sets_tables 223 12 none] [union sets_of_unknowns 38 13 none]
+G r c none [permanent degree_sets_tables 264 12 none] [extent_of sets_of_unknowns 76 12 none]
+G r c none [permanent degree_sets_tables 264 12 none] [union sets_of_unknowns 39 13 none]
+G r c none [permanent degree_sets_tables 264 12 none] [clear sets_of_unknowns 121 13 none]
+G r c none [permanent degree_sets_tables 264 12 none] [create sets_of_unknowns 19 12 none]
+G r c none [permanent degree_sets_tables 264 12 none] [union sets_of_unknowns 38 13 none]
+G r c none [adjacency_matrix degree_sets_tables 298 12 none] [is_in sets_of_unknowns 81 12 none]
+G r c none [consistent degree_sets_tables 319 12 none] [is_in sets_of_unknowns 81 12 none]
+G r c none [consistent degree_sets_tables 319 12 none] [greedy_search pivot_selection 32 13 none]
+G r c none [consistent degree_sets_tables 319 12 none] [maxbpm pivot_selection 79 13 none]
+G r c none [matching_permanent degree_sets_tables 344 12 none] [is_in sets_of_unknowns 81 12 none]
+G r c none [matching_permanent degree_sets_tables 344 12 none] [greedy_search pivot_selection 32 13 none]
+G r c none [matching_permanent degree_sets_tables 344 12 none] [maxbpm pivot_selection 79 13 none]
+X 11 boolean_matrices.ads
+5K9*Boolean_Matrices[19|9] 16|4w6 300r21 306r11 327r20
+X 15 degree_sets_tables.ads
+5K9*Degree_Sets_Tables 49l5 49e23 16|8b14 394l5 394t23
+13A8*Array_of_Sets(27|9P8)<29|6I8> 16r9 43r34 16|39r26 53r34 60r11 80r26
+. 100r20 126r35 144r37 154r39 194r29 223r29 234r18 264r40 299r20 320r20 345r32
+. 382r34
+15R8*Degree_Sets_Table 15d28 15d30 18e13 22r26 30r30 35r39 44r34 16|97r26
+. 101r11 290r30 372r22 389r34
+15i28*n{29|6I8} 17r19 16|292r32 292r46 295r42 374r32 374r46 377r51
+15i30*m{29|6I8} 16r26 17r24
+16a5*s{13A8} 16|104m9 114r47 295r32 377r41 391m15
+17a5*a{19|16A8[28|5]} 16|105r18 106r20 107m13 116m15 116r40 295r26 377r35
+22V12*Create{15R8} 16|97b12 122l7 122t13
+30V12*Permanent{29|6I8} 30>24 16|290b12 296l7 296t16
+30r24 dst{15R8} 16|290b24 292r28 292r42 295r22 295r28 295r38
+35V12*Matching_Permanent{29|6I8} 35>33 16|371b12 378l7 378t25
+35r33 dst{15R8} 16|372b16 374r28 374r42 377r31 377r37 377r47
+43U13*Clear 43=21 16|382b13 387l7 387t12 391s5
+43a21 ase{13A8} 16|382b21 384r14 385m13 385r13
+44U13*Clear 44=21 16|389b13 392l7 392t12
+44r21 dst{15R8} 16|389b21 391m11 391r11
+X 16 degree_sets_tables.adb
+12V12 Number_of_Sets{33|7I8} 12b12 21l7 21t21 59s33
+14i5 res{33|7I8} 18m7 18r14 20r12
+17i9 i<long_integer> 18r49
+23V12 Create_Set{27|9P8} 23b12 23>25 23>27 23>29 37l7 37t17 67s22 113s22
+23i25 n{33|7I8} 28r25 31r17
+23i27 i{33|7I8} 32r30
+23i29 j{33|7I8} 32r32
+28p5 res{27|9P8} 33m17 33r17 36r12
+31i9 k<long_integer> 32r34 33r21
+39V12 Is_In{boolean} 39b12 39>20 39>41 51l7 51t12 69s18
+39a20 ase{15|13A8} 45r14 46r19
+39p41 s{27|9P8} 46r26
+45i9 i<long_integer> 46r23
+53V12 Different_Sets{15|13A8} 53b12 78l7 78t21 100s37
+58i5 n{33|7I8} 64r17 67r33
+59i5 nbs{33|7I8} 60r38
+60a5 res{15|13A8} 69r24 71m17 77r12
+61i5 cnt{29|6I8} 69r31 70m17 70r24 71r21 77r19
+64i9 i<long_integer> 65r48 67r35
+65i11 j<long_integer> 67r37
+67p11 s{27|9P8} 69r36 71r29 72m23 72r23
+80V12 Index{29|6I8} 80b12 80>20 80>41 93l7 93t12 114s37
+80a20 ase{15|13A8} 87r14 88r19 92r12
+80p41 s{27|9P8} 88r26
+87i9 i<long_integer> 88r23 89r20
+99i5 n{33|7I8} 101r39 110r17 113r33
+100a5 ase{15|13A8} 101r42 104r14
+101r5 res{15|15R8} 104m5 105r14 106r16 107m9 114r43 116m11 116r36 121r12
+105i9 i<long_integer> 107r15
+106i11 j<long_integer> 107r17
+110i9 i<long_integer> 111r48 113r35 116r27 116r52
+111i11 j<long_integer> 113r37
+113p11 s{27|9P8} 114r49 117m17 117r17
+114i11 k{29|6I8} 116r30 116r55
+126V12 Union_Acceptable{boolean} 126b12 126>31 142l7 142t23 207s12
+126a31 s{15|13A8} 133r25 133r27 136r14 136r25 137r17 139r31
+132b5 res{boolean} 139m5 141r12
+133p5 uni{27|9P8} 137m13 137r13 139r23 140m11 140r11
+136i9 i<long_integer> 137r19
+144V12 Partial_Acceptable{boolean} 144b12 144>33 144>52 192l7 192t25 212s16
+144a33 s{15|13A8} 152r26 152r28 189r31 189r47
+144i52 k{33|7I8} 189r33 189r35
+151b5 res{boolean} 189m5 191r12
+152p5 accu{27|9P8} 189r56 190m11 190r11
+154V14 Partial_Acceptable{boolean} 154b14 154>35 154>54 154>56 154>58 155>35
+. 175s20 186l9 186t27 189s12
+154a35 s{15|13A8} 170r38 174r26 175r39
+154i54 k{33|7I8} 168r35 175r41
+154i56 l{33|7I8} 167r10 170r55 175r43
+154i58 start{33|7I8} 170r29
+155p35 uni{27|9P8} 168r27 172r36
+164b7 res{boolean} 168m9 175m13 176r27 185r14
+170i13 ll<long_integer> 174r28 175r57
+172p13 newuni{27|9P8} 174m19 174r19 175r63 177m19 177r19
+194V12 Acceptable{boolean} 194b12 194>25 221l7 221t17 259s16
+194a25 s{15|13A8} 202r47 202r49 207r29 211r35 212r35
+202i5 extlast{33|7I8} 211r16
+203b5 res{boolean} 208m7 210m7 212m9 213r23 220r12
+211i11 k<long_integer> 212r37
+223V12 Acceptable{boolean} 223b12 223>25 223>44 223>56 262l7 262t17 280s16
+223a25 s{15|13A8} 230r46 240r20
+223a44 v{20|16A8[35|4]} 230r13 230r58 240r32
+223i56 i{29|6I8} 230r9 230r60 230r69 234r35 239r21 242r22 243r31 246r26 247r33
+. 258r13 258r22
+234a9 sv{15|13A8} 240m11 243r22 243r28 247r24 247r30 253r21 255m17 255r31
+. 258r19
+234a12 osv{15|13A8} 253m11 258m9 259r27
+235i9 min{33|7I8} 244m11 249r25 250m19
+235i13 extset{33|7I8} 248m13 249r16 250r26
+236i9 minind{29|6I8} 245m11 250m34 253r24 254r19 255r20
+237p9 u{27|9P8} 243m11 244r28 244m38 244r38 247m13 248r33 248m43 248r43
+239i13 j<long_integer> 240r14 240r34
+242i13 j<long_integer> 243r25 245r21 246r20 253r15 254r14 255r34
+246i15 k<long_integer> 247r27 250r44
+264V12 Permanent{29|6I8} 264b12 264>24 264>36 264>55 265>24 265>26 281s39
+. 288l7 288t16 295s12
+264a24 a{19|16A8[28|5]} 277r18 278r14 281r32 281r49
+264a36 s{15|13A8} 280r27 281r51
+264a55 v{20|16A8[35|4]} 275r21 275r33
+265i24 i{29|6I8} 270r8 278r16 279r16 280r32 281r34 281r56
+265i26 n{29|6I8} 270r12 281r60
+274i9 res{29|6I8} 281m19 281r26 285r16
+275a9 vv{20|16A8[35|4]} 279m13 280r29 281r53
+277i13 j<long_integer> 278r18 279r32 281r36
+292a5 v{20|16A8[35|4]} 295r34
+298V12 Adjacency_Matrix{19|16A8[11|5]} 298b12 299>16 299>35 299>47 299>49
+. 317l7 317t23 328s12
+299a16 s{15|13A8} 311r14
+299a35 v{20|16A8[35|4]} 311r26
+299i47 i{29|6I8} 306r38 310r17 313r13
+299i49 n{29|6I8} 306r43 312r19
+306a5 res{19|16A8[11|5]} 313m9 316r12
+307p5 vrs{27|9P8} 311m7 313r27
+310i9 k<long_integer> 311r28
+312i11 j<long_integer> 313r15 313r41
+319V12 Consistent{boolean} 319b12 320>16 320>35 320>47 320>49 342l7 342t17
+. 361s16
+320a16 s{15|13A8} 328r29
+320a35 v{20|16A8[35|4]} 328r31
+320i47 i{29|6I8} 327r47 328r33 329r46 331r48 336r19 340r39
+320i49 n{29|6I8} 327r52 328r35
+327a5 mat{19|16A8[11|5]} 335r35 339r30
+329a5 prm{20|16A8[35|4]} 335m39
+330i5 prm_size{29|6I8} 335m43 336r8
+331a5 match{20|16A8[31|4]} 339m34
+332i5 match_size{33|7I8} 339m40 340r25
+344V12 Matching_Permanent{29|6I8} 344b12 345>16 345>28 345>47 346>16 346>18
+. 362s39 369l7 369t25 377s12
+345a16 a{19|16A8[28|5]} 358r18 359r14 362r32 362r58
+345a28 s{15|13A8} 361r27 362r60
+345a47 v{20|16A8[35|4]} 356r21 356r33
+346i16 i{29|6I8} 351r8 359r16 360r16 361r32 362r34 362r65
+346i18 n{29|6I8} 351r12 361r34 362r69
+355i9 res{29|6I8} 362m19 362r26 366r16
+356a9 vv{20|16A8[35|4]} 360m13 361r29 362r62
+358i13 j<long_integer> 359r18 360r32 362r36
+374a5 v{20|16A8[35|4]} 377r43
+384i9 i<long_integer> 385r17
+X 19 generic_matrices.ads
+16A8*Matrix(29|6I8)<29|6I8><29|6I8> 15|17r9[28|5] 16|264r28[28|5] 300r38[11|5]
+. 306r28[11|5] 327r37[11|5] 345r20[28|5]
+X 20 generic_vectors.ads
+16A8*Vector(33|7I8)<29|6I8> 16|223r48[35|4] 264r59[35|4] 275r14[35|4] 292r18[35|4]
+. 299r39[35|4] 320r39[35|4] 329r36[35|4] 331r38[31|4] 345r51[35|4] 356r14[35|4]
+. 374r18[35|4]
+X 25 pivot_selection.ads
+8K9*Pivot_Selection 16|6w6 335r5 339r7 25|95e20
+32U13*Greedy_Search 16|335s21
+79U13*maxBPM 16|339s23
+X 26 set_structure.ads
+5K9*Set_Structure 16|5w6 17r17 18r20 32r10 58r31 65r19 99r31 111r19 26|79e18
+36V12*Dimension{33|7I8} 16|17s31 58s45 99s45
+41V12*Number_of_Sets{33|7I8} 16|18s34 65s33 111s33
+46V12*Is_In{boolean} 16|32s24
+X 27 sets_of_unknowns.ads
+3K9*Sets_of_Unknowns 15|3w6 3r46 27|132e21
+9P8*Set 15|13r57 16|23r52 28r11 39r45 67r15 80r45 113r15 133r11 152r12 155r41
+. 172r22 237r13 307r11
+13V12*Create{9P8} 16|28s18
+19V12*Create{9P8} 16|133s18 152s19 172s29
+32U13*Add 16|33s13
+38U13*Union 16|137s7 174s13
+39V13*Union{9P8} 16|243s16 247s18
+76V12*Extent_Of{33|7I8} 16|139s13 168s17 202s37 230s36 244s18 248s23
+81V12*Is_In{boolean} 16|313s21
+91V12*Is_Equal{boolean} 16|46s10 88s10
+121U13*Clear 16|72s17 117s11 140s5 177s13 190s5 244s32 248s37 385s7
+X 28 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[19|9] 15|2w6 2r46
+X 29 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 15|1w6 1r46 29|45e29
+6I8*integer32<long_integer> 15|13r33 15r34 30r57 35r66 16|60r28 61r11 80r58
+. 101r29 114r24 116r17 116r42 170r19 170r45 223r60 230r26 230r48 236r18 240r22
+. 265r30 265r49 274r15 290r57 299r53 311r16 320r53 330r16 340r15 346r22 346r41
+. 355r15 372r49
+X 31 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[20|8] 16|3w6 331r13
+X 33 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 16|1w6 1r46 33|30e29
+7I8*natural32<long_integer> 16|12r34 14r11 23r33 58r18 59r20 99r18 144r56
+. 154r66 175r47 189r37 202r24 211r25 235r22 279r22 313r31 332r18 360r22
+X 35 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[20|8] 16|2w6 2r46 329r11
+

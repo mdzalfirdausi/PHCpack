@@ -1,0 +1,906 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U dynamic_mixed_subdivisions%b  dynamic_mixed_subdivisions.adb  cd489251 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W common_faces_of_polytope%s  common_faces_of_polytope.adb  common_faces_of_polytope.ali
+W contributions_to_mixed_volume%s  contributions_to_mixed_volume.adb  contributions_to_mixed_volume.ali
+W dynamic32_lifting_functions%s  dynamic32_lifting_functions.adb  dynamic32_lifting_functions.ali
+W enumerate_faces_of_polytope%s  enumerate_faces_of_polytope.adb  enumerate_faces_of_polytope.ali
+W flatten_mixed_subdivisions%s  flatten_mixed_subdivisions.adb  flatten_mixed_subdivisions.ali
+W global_dynamic32_triangulation%s  global_dynamic32_triangulation.adb  global_dynamic32_triangulation.ali
+W initial_mixed_cell%s	initial_mixed_cell.adb	initial_mixed_cell.ali
+W integer_lifting_utilities%s  integer_lifting_utilities.adb  integer_lifting_utilities.ali
+W integer_pruning_methods%s  integer_pruning_methods.adb  integer_pruning_methods.ali
+W mixed_volume_computation%s  mixed_volume_computation.adb  mixed_volume_computation.ali
+W standard_integer32_simplices%s  standard_integer32_simplices.adb  standard_integer32_simplices.ali
+W standard_integer32_vertices%s  standard_integer32_vertices.adb  standard_integer32_vertices.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W transforming_integer32_vector_lists%s  transforming_integer32_vector_lists.adb  transforming_integer32_vector_lists.ali
+
+U dynamic_mixed_subdivisions%s  dynamic_mixed_subdivisions.ads  68d565b5 BN EE NE OO PK
+W arrays_of_integer_vector_lists%s  arrays_of_integer_vector_lists.ads  arrays_of_integer_vector_lists.ali
+W integer_faces_of_polytope%s  integer_faces_of_polytope.adb  integer_faces_of_polytope.ali
+W integer_mixed_subdivisions%s  integer_mixed_subdivisions.adb  integer_mixed_subdivisions.ali
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer32_triangulations%s  standard_integer32_triangulations.adb  standard_integer32_triangulations.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_floating_vector_lists.ads  20260513024558 692438df arrays_of_floating_vector_lists%s
+D arrays_of_integer_vector_lists.ads  20260513024558 1062c910 arrays_of_integer_vector_lists%s
+D common_faces_of_polytope.ads  20260513024558 adfaff6f common_faces_of_polytope%s
+D contributions_to_mixed_volume.ads  20260513024558 36074bc2 contributions_to_mixed_volume%s
+D dynamic32_lifting_functions.ads  20260513024558 16f93530 dynamic32_lifting_functions%s
+D dynamic_mixed_subdivisions.ads  20260513024558 323ceaa0 dynamic_mixed_subdivisions%s
+D dynamic_mixed_subdivisions.adb  20260513024558 c5b2e321 dynamic_mixed_subdivisions%b
+D enumerate_faces_of_polytope.ads  20260513024558 df5d8d8f enumerate_faces_of_polytope%s
+D enumerate_faces_of_polytope.adb  20260513024558 740fc71c enumerate_faces_of_polytope%b
+D face_enumerators_utilities.ads  20260513024558 285519b2 face_enumerators_utilities%s
+D flatten_mixed_subdivisions.ads  20260513024558 95dd5deb flatten_mixed_subdivisions%s
+D floating_mixed_subdivisions.ads  20260513024558 bc3e2850 floating_mixed_subdivisions%s
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D global_dynamic32_triangulation.ads  20260513024558 0043ec86 global_dynamic32_triangulation%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D initial_mixed_cell.ads  20260513024558 f3cf1aea initial_mixed_cell%s
+D integer_face_enumerators.ads  20260513024558 c2459077 integer_face_enumerators%s
+D integer_face_enumerators.adb  20260513024558 83470ef2 integer_face_enumerators%b
+D integer_faces_of_polytope.ads  20260513024558 db5070e9 integer_faces_of_polytope%s
+D integer_lifting_utilities.ads  20260513024558 15edb4e3 integer_lifting_utilities%s
+D integer_linear_inequalities.ads  20260513024558 aeda99fd integer_linear_inequalities%s
+D integer_mixed_subdivisions.ads  20260513024558 ed6fb1b5 integer_mixed_subdivisions%s
+D integer_pruning_methods.ads  20260513024558 64213241 integer_pruning_methods%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D lists_of_floating_vectors.ads  20260513024558 ac5cfddf lists_of_floating_vectors%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D mixed_volume_computation.ads  20260513024558 d4e144f7 mixed_volume_computation%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer32_simplices.ads  20260513024558 820106e8 standard_integer32_simplices%s
+D standard_integer32_transformations.ads  20260513024558 e2914cd8 standard_integer32_transformations%s
+D standard_integer32_triangulations.ads  20260513024558 aaed0a4a standard_integer32_triangulations%s
+D standard_integer32_vertices.ads  20260513024558 d2ef5e9b standard_integer32_vertices%s
+D standard_integer_linear_solvers.ads  20260513024558 34df0966 standard_integer_linear_solvers%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D transforming_integer32_vector_lists.ads  20260513024558 cdb3408c transforming_integer32_vector_lists%s
+G a e
+G c Z s b [dynamic_lifting dynamic_mixed_subdivisions 33 13 none]
+G c Z s s [face_structureIP dynamic_mixed_subdivisions 23 8 none]
+G c Z s s [face_structuresIP dynamic_mixed_subdivisions 29 8 none]
+G c Z b b [is_empty dynamic_mixed_subdivisions 22 12 none]
+G c Z b b [first_non_empty dynamic_mixed_subdivisions 32 12 none]
+G c Z b b [is_in dynamic_mixed_subdivisions 49 12 none]
+G c Z b b [flatten dynamic_mixed_subdivisions 75 13 none]
+G c Z b b [flatten dynamic_mixed_subdivisions 88 13 none]
+G c Z b b [flatten dynamic_mixed_subdivisions 93 13 none]
+G c Z b b [flatten dynamic_mixed_subdivisions 107 13 none]
+G c Z b b [flatten dynamic_mixed_subdivisions 112 13 none]
+G c Z b b [extract_facet dynamic_mixed_subdivisions 121 12 none]
+G c Z b b [extract_facets dynamic_mixed_subdivisions 133 12 none]
+G c Z b b [zero_contribution dynamic_mixed_subdivisions 159 12 none]
+G c Z b b [initialize dynamic_mixed_subdivisions 190 13 none]
+G c Z b b [initial_triangulation dynamic_mixed_subdivisions 256 12 none]
+G c Z b b [next_point dynamic_mixed_subdivisions 356 13 none]
+G c Z b b [merge dynamic_mixed_subdivisions 407 13 none]
+G c Z b b [merge dynamic_mixed_subdivisions 440 13 none]
+G c Z b b [compute_new_faces dynamic_mixed_subdivisions 456 13 none]
+G c Z b b [swap dynamic_mixed_subdivisions 513 13 none]
+G c Z b b [swap dynamic_mixed_subdivisions 525 13 none]
+G c Z b b [create_cells dynamic_mixed_subdivisions 544 13 none]
+G c Z b b [compute_new_cells dynamic_mixed_subdivisions 568 13 none]
+G c Z b b [compute_new_cells dynamic_mixed_subdivisions 621 13 none]
+G r s array_of_lists [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r s mixed_cell [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [initial_mixed_cell standard 6 11 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [mixed_volume mixed_volume_computation 104 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [construct integer_mixed_subdivisions__lists_of_mixed_cells 26 13 23_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [shallow_create lists_of_integer_vectors 30 12 6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [construct integer_faces_of_polytope__lists_of_faces 26 13 20_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [create standard_integer32_simplices 19 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [create standard_integer32_triangulations 23 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [max_extreme global_dynamic32_triangulation 41 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [swap_to_front lists_of_integer_vectors 100 13 6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_in standard_integer32_triangulations 77 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [conservative_lifting integer_lifting_utilities 112 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [flatten flatten_mixed_subdivisions 14 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [flatten flatten_mixed_subdivisions 10 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [flatten standard_integer32_triangulations 50 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [set_head integer_faces_of_polytope__lists_of_faces 31 13 20_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r i none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [enumerate_lower_faces_in_list enumerate_faces_of_polytope 20 13 none]
+G r i none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [enumerate_faces_in_triangulation enumerate_faces_of_polytope 60 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [extremal_points standard_integer32_vertices 47 12 none]
+G r s vecvec [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [update standard_integer32_triangulations 28 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r i none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [enumerate_lower_edges integer_face_enumerators 45 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_lower_edge integer_face_enumerators 570 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [append integer_faces_of_polytope__lists_of_faces 43 13 20_3]
+G r i none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [enumerate_lower_faces integer_face_enumerators 74 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_lower_face integer_face_enumerators 607 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [update_eliminator integer_face_enumerators 108 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [vertices standard_integer32_triangulations 71 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_in enumerate_faces_of_polytope 7 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [lift_to_place dynamic32_lifting_functions 13 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [update standard_integer32_triangulations 29 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [reduce transforming_integer32_vector_lists 31 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [length_of standard_integer32_triangulations__lists_of_simplices 67 12 15_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [head_of standard_integer32_triangulations__lists_of_simplices 77 12 15_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [vertices standard_integer32_simplices 104 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [tail_of standard_integer32_triangulations__lists_of_simplices 84 12 15_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [simple_zero_contribution contributions_to_mixed_volume 19 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [simple_zero_contribution contributions_to_mixed_volume 15 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r s array_of_faces [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [array_of_facesIP integer_faces_of_polytope 23 8 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [neighboring_faces common_faces_of_polytope 18 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [create_cs integer_pruning_methods 33 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [shallow_clear integer_faces_of_polytope 92 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [create integer_mixed_subdivisions 44 12 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [shallow_clear integer_mixed_subdivisions 131 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [equal standard_integer_vectors 22 12 4_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [deep_concat_diff lists_of_integer_vectors 85 13 6_1]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [deep_clear integer_mixed_subdivisions 127 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [construct integer_mixed_subdivisions 95 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [construct integer_faces_of_polytope 45 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [constant_lifting integer_lifting_utilities 91 13 none]
+G r c none [dynamic_lifting dynamic_mixed_subdivisions 33 13 none] [shallow_clear lists_of_integer_vectors 110 13 6_1]
+G r c none [is_empty dynamic_mixed_subdivisions 22 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [first_non_empty dynamic_mixed_subdivisions 32 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [is_in dynamic_mixed_subdivisions 49 12 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [is_in dynamic_mixed_subdivisions 49 12 none] [is_in lists_of_integer_vectors 52 12 6_1]
+G r c none [is_in dynamic_mixed_subdivisions 49 12 none] [is_in standard_integer32_triangulations 77 12 none]
+G r c none [flatten dynamic_mixed_subdivisions 93 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 93 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 93 13 none] [set_head integer_faces_of_polytope__lists_of_faces 31 13 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 93 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 107 13 none] [flatten flatten_mixed_subdivisions 10 13 none]
+G r c none [flatten dynamic_mixed_subdivisions 107 13 none] [flatten standard_integer32_triangulations 50 13 none]
+G r c none [flatten dynamic_mixed_subdivisions 107 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 107 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 107 13 none] [set_head integer_faces_of_polytope__lists_of_faces 31 13 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 107 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 112 13 none] [flatten flatten_mixed_subdivisions 10 13 none]
+G r c none [flatten dynamic_mixed_subdivisions 112 13 none] [flatten standard_integer32_triangulations 50 13 none]
+G r c none [flatten dynamic_mixed_subdivisions 112 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 112 13 none] [head_of integer_faces_of_polytope__lists_of_faces 77 12 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 112 13 none] [set_head integer_faces_of_polytope__lists_of_faces 31 13 20_3]
+G r c none [flatten dynamic_mixed_subdivisions 112 13 none] [tail_of integer_faces_of_polytope__lists_of_faces 84 12 20_3]
+G r c none [extract_facet dynamic_mixed_subdivisions 121 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r s vecvec [extract_facet dynamic_mixed_subdivisions 121 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [extract_facets dynamic_mixed_subdivisions 133 12 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [extract_facets dynamic_mixed_subdivisions 133 12 none] [head_of standard_integer32_triangulations__lists_of_simplices 77 12 15_3]
+G r c none [extract_facets dynamic_mixed_subdivisions 133 12 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [extract_facets dynamic_mixed_subdivisions 133 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r s vecvec [extract_facets dynamic_mixed_subdivisions 133 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [extract_facets dynamic_mixed_subdivisions 133 12 none] [append integer_faces_of_polytope__lists_of_faces 43 13 20_3]
+G r c none [extract_facets dynamic_mixed_subdivisions 133 12 none] [tail_of standard_integer32_triangulations__lists_of_simplices 84 12 15_3]
+G r s array_of_lists [zero_contribution dynamic_mixed_subdivisions 159 12 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [reduce transforming_integer32_vector_lists 31 13 none]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [length_of standard_integer32_triangulations__lists_of_simplices 67 12 15_3]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [head_of standard_integer32_triangulations__lists_of_simplices 77 12 15_3]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [is_vertex standard_integer32_simplices 114 12 none]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [vertices standard_integer32_simplices 104 12 none]
+G r s vecvec [zero_contribution dynamic_mixed_subdivisions 159 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [append integer_faces_of_polytope__lists_of_faces 43 13 20_3]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [tail_of standard_integer32_triangulations__lists_of_simplices 84 12 15_3]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [simple_zero_contribution contributions_to_mixed_volume 19 12 none]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [simple_zero_contribution contributions_to_mixed_volume 15 12 none]
+G r c none [zero_contribution dynamic_mixed_subdivisions 159 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r s array_of_lists [initialize dynamic_mixed_subdivisions 190 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r s mixed_cell [initialize dynamic_mixed_subdivisions 190 13 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [initial_mixed_cell standard 6 11 none]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [mixed_volume mixed_volume_computation 104 12 none]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [construct integer_mixed_subdivisions__lists_of_mixed_cells 26 13 23_3]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [append lists_of_integer_vectors 65 13 6_1]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [shallow_create lists_of_integer_vectors 30 12 6_1]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [construct integer_faces_of_polytope__lists_of_faces 26 13 20_3]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [create standard_integer32_simplices 19 12 none]
+G r c none [initialize dynamic_mixed_subdivisions 190 13 none] [create standard_integer32_triangulations 23 12 none]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [extremal_points standard_integer32_vertices 47 12 none]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r s vecvec [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [create standard_integer32_simplices 19 12 none]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [create standard_integer32_triangulations 23 12 none]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [update standard_integer32_triangulations 28 13 none]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r c none [initial_triangulation dynamic_mixed_subdivisions 256 12 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [next_point dynamic_mixed_subdivisions 356 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [next_point dynamic_mixed_subdivisions 356 13 none] [max_extreme global_dynamic32_triangulation 41 12 none]
+G r c none [next_point dynamic_mixed_subdivisions 356 13 none] [swap_to_front lists_of_integer_vectors 100 13 6_1]
+G r c none [next_point dynamic_mixed_subdivisions 356 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [next_point dynamic_mixed_subdivisions 356 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [equal standard_integer_vectors 22 12 4_1]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [deep_concat_diff lists_of_integer_vectors 85 13 6_1]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [deep_clear integer_mixed_subdivisions 127 13 none]
+G r c none [merge dynamic_mixed_subdivisions 407 13 none] [construct integer_mixed_subdivisions__lists_of_mixed_cells 26 13 23_3]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [equal standard_integer_vectors 22 12 4_1]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [deep_concat_diff lists_of_integer_vectors 85 13 6_1]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [deep_clear integer_mixed_subdivisions 127 13 none]
+G r c none [merge dynamic_mixed_subdivisions 440 13 none] [construct integer_mixed_subdivisions__lists_of_mixed_cells 26 13 23_3]
+G r i none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [enumerate_lower_faces_in_list enumerate_faces_of_polytope 20 13 none]
+G r i none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [enumerate_faces_in_triangulation enumerate_faces_of_polytope 60 13 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [append lists_of_integer_vectors__vector_lists 43 13 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [construct lists_of_integer_vectors__vector_lists 26 13 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [extremal_points standard_integer32_vertices 47 12 none]
+G r s vecvec [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [create standard_integer32_simplices 19 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [create standard_integer32_triangulations 23 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [is_in lists_of_integer_vectors 53 12 6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [update standard_integer32_triangulations 28 13 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [clear lists_of_integer_vectors__vector_lists 93 13 21_3_6_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [shallow_create lists_of_integer_vectors 30 12 6_1]
+G r i none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [enumerate_lower_edges integer_face_enumerators 45 13 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [is_lower_edge integer_face_enumerators 570 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [append integer_faces_of_polytope__lists_of_faces 43 13 20_3]
+G r i none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [enumerate_lower_faces integer_face_enumerators 74 13 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [is_lower_face integer_face_enumerators 607 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [update_eliminator integer_face_enumerators 108 13 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [vertices standard_integer32_triangulations 71 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [is_in enumerate_faces_of_polytope 7 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [lift_to_place dynamic32_lifting_functions 13 12 none]
+G r c none [compute_new_faces dynamic_mixed_subdivisions 456 13 none] [update standard_integer32_triangulations 29 13 none]
+G r c none [swap dynamic_mixed_subdivisions 525 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [swap dynamic_mixed_subdivisions 525 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [swap dynamic_mixed_subdivisions 525 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [create_cells dynamic_mixed_subdivisions 544 13 none] [create_cs integer_pruning_methods 33 13 none]
+G r c none [create_cells dynamic_mixed_subdivisions 544 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [create_cells dynamic_mixed_subdivisions 544 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [create_cells dynamic_mixed_subdivisions 544 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r s array_of_faces [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [array_of_facesIP integer_faces_of_polytope 23 8 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [neighboring_faces common_faces_of_polytope 18 12 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [create_cs integer_pruning_methods 33 13 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [shallow_clear integer_faces_of_polytope 92 13 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [create integer_mixed_subdivisions 44 12 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 568 13 none] [shallow_clear integer_mixed_subdivisions 131 13 none]
+G r s array_of_faces [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [array_of_facesIP integer_faces_of_polytope 23 8 none]
+G r s array_of_lists [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [array_of_listsIP arrays_of_integer_vector_lists 24 8 7_1]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [is_null standard_integer32_triangulations__lists_of_simplices 72 12 15_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [head_of integer_mixed_subdivisions__lists_of_mixed_cells 77 12 23_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [neighboring_faces common_faces_of_polytope 18 12 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [is_null integer_faces_of_polytope__lists_of_faces 72 12 20_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [create_cs integer_pruning_methods 33 13 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [tail_of integer_mixed_subdivisions__lists_of_mixed_cells 84 12 23_3]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [shallow_clear integer_faces_of_polytope 92 13 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [create integer_mixed_subdivisions 44 12 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [shallow_clear integer_mixed_subdivisions 131 13 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [equal standard_integer_vectors 22 12 4_1]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [deep_concat_diff lists_of_integer_vectors 85 13 6_1]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [deep_clear integer_mixed_subdivisions 127 13 none]
+G r c none [compute_new_cells dynamic_mixed_subdivisions 621 13 none] [construct integer_mixed_subdivisions__lists_of_mixed_cells 26 13 23_3]
+X 15 arrays_of_integer_vector_lists.ads
+7K9*Arrays_of_Integer_Vector_Lists[26|15] 19|8w6 8r46
+X 16 common_faces_of_polytope.ads
+6K9*Common_Faces_of_Polytope 31e29 20|13w6 13r46
+18V12*Neighboring_Faces{42|21P8} 20|597s22 602s29
+X 17 contributions_to_mixed_volume.ads
+6K9*Contributions_to_Mixed_Volume 79e34 20|16w6 16r46
+15V12*Simple_Zero_Contribution{boolean} 20|182s14
+19V12*Simple_Zero_Contribution{boolean} 20|179s16
+X 18 dynamic32_lifting_functions.ads
+6K9*Dynamic32_Lifting_Functions 58e32 20|10w6 10r46
+13V12*Lift_to_Place{71|6I8} 20|504s30
+X 19 dynamic_mixed_subdivisions.ads
+10K9*Dynamic_Mixed_Subdivisions 151l5 151e31 20|18b14 944l5 944t31
+23R8*Face_Structure 28e13 29r59 20|49r25 107r35 457r32
+24p5*l{31|22P8[51|6]} 20|52r27 109m16 173r31 230m30 239r66 491r23 492r44
+. 494r26 498r20 509m15 639r26 731m47 798m47 865m47 932m47
+24p7*last{31|22P8[51|6]} 20|230m38 509m20 731m55 798m55 826r52 865m55 892r52
+. 932m55
+26p5*t{67|16P8} 20|51r19 53r27 109m31 175r24 177r59 242m28 490r19 492m12
+. 493r23 495r26 504r47 505m19 641r30
+27p5*f{42|21P8} 20|109m46 234m34 637r29 722m35 789m33 856m33 923m33
+29A8*Face_Structures(23R8)<71|6I8> 38r31 76r62 87r31 110r31 121r62 141r31
+. 20|112r35 159r52 193r30 624r47 681r31 749r31 815r31 881r31
+33U13*Dynamic_Lifting 34>19 34>37 35>19 36>19 36>25 36>31 36>51 37=19 38=19
+. 39=19 39=26 20|676b13 738s11 740l7 740t22
+34i19 n{71|6I8} 20|677b19 691r16 696r21 715r54 716r58 717r39 738r27
+34a37 mix{35|16A8[74|4]} 20|677b37 691r18 715r43 717r41 738r29
+35a19 points{26|24A8[15|7]} 20|678b19 684r33 691r22
+36b19 order{boolean} 20|679b19 696r28 738r38
+36b25 inter{boolean} 20|679b25 704r15 729r8 738r44
+36b31 conmv{boolean} 20|679b31 716r22 738r50
+36i51 maxli{71|6I8} 20|679b51 709r19 709r47 738r56
+37p19 mixsub{45|24P8} 20|680b19 691m29 708r45 710m29 717r45 720m40 737m19
+. 738m62
+38a19 fs{29A8} 20|681b19 691m36 704r36 710m46 715m33 715r33 716r60 717r64
+. 722m25 722r25 731m41 731r41 731m49 731r49 737m36 738m69
+39a19 nbsucc{35|16A8[63|4]} 20|682b19 718m48 739m27
+39a26 nbfail{35|16A8[63|4]} 20|682b26 718m55 739m34
+75U20 Before_Flattening 76=19 76>54 20|776s15 804s11
+76p19 mixsub{45|24P8}
+76a54 fs{29A8}
+82u13*Dynamic_Lifting_with_Flat 83>19 83>37 84>19 85>19 85>25 85>31 85>51
+. 86=19 87=19 88=19 88=26 20|744b13 806s11 808l7 808t32
+83i19 n{71|6I8} 20|745b19 759r16 763r20 782r52 783r56 784r37 806r37
+83a37 mix{35|16A8[74|4]} 20|745b37 759r18 782r41 784r39 806r39
+84a19 points{26|24A8[15|7]} 20|746b19 752r33 759r22
+85b19 order{boolean} 20|747b19 763r27 806r48
+85b25 inter{boolean} 20|747b25 771r14 796r8 806r54
+85b31 conmv{boolean} 20|747b31 783r20 806r60
+85i51 maxli{71|6I8} 20|747b51 775r17 775r45 806r66
+86p19 mixsub{45|24P8} 20|748b19 759m29 774r43 776m33 777m23 784r43 787m38
+. 804m29 805m19 806m72
+87a19 fs{29A8} 20|749b19 759m36 771r35 776r40 777m40 782m31 782r31 783r58
+. 784r62 789m23 789r23 798m41 798r41 798m49 798r49 804r36 805m36 807m37
+88a19 nbsucc{35|16A8[63|4]} 20|750b19 785m46 807m40
+88a26 nbfail{35|16A8[63|4]} 20|750b26 785m53 807m47
+96U20 Process_New_Cells 97=19 98>19 98>37 20|826s5 852s19
+97p19 mixsub{45|24P8}
+98i19 i{71|6I8}
+98a37 point{35|16A8[74|4]}
+105u13*Dynamic_Lifting_with_New 106>19 106>37 107>19 108>19 108>25 108>31
+. 108>51 109=19 110=19 111=19 111=26 20|810b13 872s11 874l7 874t31
+106i19 n{71|6I8} 20|811b19 825r16 830r20 848r52 849r56 850r37 872r36
+106a37 mix{35|16A8[74|4]} 20|811b37 825r18 848r41 850r39 872r38
+107a19 points{26|24A8[15|7]} 20|812b19 818r33 825r22
+108b19 order{boolean} 20|813b19 830r27 872r47
+108b25 inter{boolean} 20|813b25 838r14 863r8 872r53
+108b31 conmv{boolean} 20|813b31 849r20 872r59
+108i51 maxli{71|6I8} 20|813b51 842r17 842r45 872r65
+109p19 mixsub{45|24P8} 20|814b19 825m29 826m23 841r43 843m23 850r43 854m38
+. 871m19 872m71
+110a19 fs{29A8} 20|815b19 825m36 826r40 826r43 838r35 843m40 848m31 848r31
+. 849r58 850r62 856m23 856r23 865m41 865r41 865m49 865r49 871m36 872m78
+111a19 nbsucc{35|16A8[63|4]} 20|816b19 851m37 873m36
+111a26 nbfail{35|16A8[63|4]} 20|816b26 851m44 873m43
+120U20 Before_Flattening 121=19 121>54 20|909s15 938s11
+121p19 mixsub{45|24P8}
+121a54 fs{29A8}
+127U20 Process_New_Cells 128=19 129>19 129>37 20|892s5 919s19
+128p19 mixsub{45|24P8}
+129i19 i{71|6I8}
+129a37 point{35|16A8[74|4]}
+136u13*Dynamic_Lifting_with_Flat_and_New 137>19 137>37 138>19 139>19 139>25
+. 139>31 139>51 140=19 141=19 142=19 142=26 20|876b13 940s11 942l7 942t40
+137i19 n{71|6I8} 20|877b19 891r16 896r20 915r52 916r56 917r37 941r16
+137a37 mix{35|16A8[74|4]} 20|877b37 891r18 915r41 917r39 941r18
+138a19 points{26|24A8[15|7]} 20|878b19 884r33 891r22
+139b19 order{boolean} 20|879b19 896r27 941r27
+139b25 inter{boolean} 20|879b25 904r14 930r8 941r33
+139b31 conmv{boolean} 20|879b31 916r20 941r39
+139i51 maxli{71|6I8} 20|879b51 908r17 908r45 941r45
+140p19 mixsub{45|24P8} 20|880b19 891m29 892m23 907r43 909m33 910m23 917r43
+. 921m38 938m29 939m19 941m51
+141a19 fs{29A8} 20|881b19 891m36 892r40 892r43 904r35 909r40 910m40 915m31
+. 915r31 916r58 917r62 923m23 923r23 932m41 932r41 932m49 932r49 938r36 939m36
+. 941m58
+142a19 nbsucc{35|16A8[63|4]} 20|882b19 918m37 941m61
+142a26 nbfail{35|16A8[63|4]} 20|882b26 918m44 941m68
+X 20 dynamic_mixed_subdivisions.adb
+22V12 Is_Empty{boolean} 22b12 22>23 30l7 30t15 245s19 252s15
+22a23 points{26|24A8[15|7]} 24r14 25r22
+24i9 i<long_integer> 25r29
+32V12 First_Non_Empty{71|6I8} 32b12 32>30 47l7 47t22 694s17 761s16 828s16
+. 894s16
+32a30 points{26|24A8[15|7]} 37r24 40r14 41r22 44r24
+37i5 res{71|6I8} 42m13 44r17 46r12
+40i9 i<long_integer> 41r29 42r20
+49V12 Is_In{boolean} 49b12 49>20 49>41 55l7 55t12 704s30 771s29 838s29 904s29
+49r20 fs{19|23R8} 51r16 52r24 53r24
+49a41 point{35|16A8[74|4]} 52r29 53r29
+75U13 Flatten 75b13 75=23 86l7 86t14 90s5
+75a23 points{36|14A8[75|5]} 80r14 81r13
+77p5 pt{35|17P8[74|4]} 81m7 82r10 82r13 83r13 83r16
+80i9 i<long_integer> 81r20
+88U13 Flatten 88b13 88=23 91l7 91t14 101s7
+88p23 f{42|15P8} 90r13
+93U13 Flatten 93b13 93=23 105l7 105t14 109s35
+93p23 fs{42|21P8} 95r20
+95p5 tmp{42|21P8} 99r23 100r20 102m16 102r16 103m7 103r22
+96p5 f{42|15P8} 100m7 101m15 101r15 102r20
+107U13 Flatten 107b13 107=23 110l7 110t14 115s7
+107r23 fs{19|23R8} 109m13 109r13 109m28 109r28 109m43 109r43
+112U13 Flatten 112b13 112=23 117l7 117t14 710s38 737s28 777s32 805s28 843s32
+. 871s28 910s32 939s28
+112a23 fs{19|29A8} 114r14 115m15 115r15
+114i9 i<long_integer> 115r18
+121V12 Extract_Facet{42|15P8} 121b12 121>28 121>43 131l7 131t20 151s35
+121i28 n{71|6I8} 128r64
+121p43 s{65|14P8} 123r68
+123a5 ver{36|14A8[75|5]} 124r39 128r54
+124p5 res{42|15P8} 127r14 128r7 130r12
+127i9 i<long_integer> 128r11 128r58
+133V12 Extract_Facets{42|21P8} 133b12 133>29 133>44 133>63 157l7 157t21 177s36
+133i29 n{71|6I8} 151r49
+133p44 t{67|16P8} 142r28
+133a63 x{35|16A8[74|4]} 150r24
+142p5 tmp{67|16P8} 146r23 148r41 154m7 154r22
+143p5 res{42|21P8} 151m22 151r22 156r12
+143p9 res_last{42|21P8} 151m26 151r26
+148p9 s{65|14P8} 150r22 151r51
+159V12 Zero_Contribution{boolean} 159b12 159>32 159>47 160>32 160>44 186l7
+. 186t24 716s40 783s38 849s38 916s38
+159i32 n{71|6I8} 173r33 177r51 179r58 182r49
+159a47 fs{19|29A8} 169r27 173r25 175r18 177r53
+160a32 x{35|16A8[74|4]} 177r61 179r53 182r44
+160i44 i{71|6I8} 175r21 177r56 179r61 182r52
+168b5 res{boolean} 179m9 182m7 185r12
+169a5 supp{26|24A8[15|7]} 172r14 173m7 179r41 182r39 184m16 184r16
+172i9 j<long_integer> 173r12 173r28
+177p9 facets{42|21P8} 179r46
+190U13 Initialize 190b13 191>18 191>36 191>53 192=18 193=18 193=47 194=18
+. 254l7 254t17 691s5 759s5 825s5 891s5
+191i18 n{71|6I8} 219r28 220r25
+191a36 mix{35|16A8[74|4]} 219r30 220r27 237r14 237r25
+191a53 points{26|24A8[15|7]} 212r34 219r34 251r15
+192p18 mixsub{45|24P8} 215r16 222m25
+193a18 fs{19|29A8} 230m24 230r24 230m32 230r32 234m28 234r28 239r53 239r56
+. 242m15 242r18
+193a47 rest{26|24A8[15|7]} 219m45 245r28 247m11 251m7 252r24
+194b18 done{boolean} 245m11 247m32 252m7
+212a5 null_points{26|24A8[15|7]} 247r19
+217r9 mic{45|17R8} 219m41 220r31 222r21 224r20 226r29 233r48
+224i15 i<long_integer> 226r37 230r27 230r35 233r56 234r31
+226p15 tmp{31|22P8[51|6]} 229r33 230r51 231m17 231r32
+227p15 fc{42|15P8} 233m15 234r25
+239a15 v{36|14A8[75|5]} 240r46
+240p15 s{65|14P8} 242r40
+256V12 Initial_Triangulation{67|16P8} 256b12 257>19 257>37 257>50 352l7 352t28
+. 492s17
+257i19 n{71|6I8} 267r48 282r58 325r29 326r36 329r29
+257p37 l{31|22P8[51|6]} 322r20 335r49 340r17
+257p50 point{35|17P8[74|4]} 323r21 335r43
+265p5 res{67|16P8} 339m10 344m25 344r25 351r12
+266p5 del{31|22P8[51|6]} 322m5 324m24 324r24 325r31 350m11 350r11
+266p9 span{31|22P8[51|6]} 325m5 326r18 330r24 343r25 350m23 350r23
+267p5 delpoint{35|17P8[74|4]} 323r5 323r27 324r15 350m36 350r36
+269V14 Deflate{31|22P8[51|6]} 269b14 269>24 290l9 290t16 322s12
+269p24 lifted{31|22P8[51|6]} 275r21
+274p7 res{31|22P8[51|6]} 285m18 285r18 289r14
+274p11 res_last{31|22P8[51|6]} 285m22 285r22
+275p7 tmp{31|22P8[51|6]} 279r25 280r23 287m9 287r24
+276p7 pt{35|17P8[74|4]} 280m9 284r22
+282p11 dpt{35|17P8[74|4]} 284r11 284r25 285r31
+292V14 Lift{35|17P8[74|4]} 292b14 292>21 292>24 292>49 319l9 319t13 335s25
+292p21 pt{35|17P8[74|4]} 308r10 308r26 312r18 312r31
+292p24 liftpt{35|17P8[74|4]} 308r19 309r20
+292p49 lifted{31|22P8[51|6]} 304r21
+304p7 tmp{31|22P8[51|6]} 310r31 311r30 314m21 314r36
+305p7 res{35|17P8[74|4]} 311m15 312r27 313r28 317r20
+329a10 verpts{36|14A8[75|5]} 334r19 335m12 338r22
+330p10 tmp{31|22P8[51|6]} 335r38 336m12 336r27 340m10 341r28 342r26 346m12
+. 346r27
+331p10 pt{35|17P8[74|4]} 342m12 343r30 344r29
+332p10 s{65|14P8} 338m10 339r24
+334i14 i<long_integer> 335r19
+356U13 Next_Point 356b13 357>19 357=37 358>19 359=19 359<45 403l7 403t17
+. 696s10 763s9 830s9 896s9
+357i19 n{71|6I8} 383r43
+357a37 points{26|24A8[15|7]} 377r29 382r25 383r29 384m25 384r25 386m5 386r30
+. 387r25 388r22 391r29 393r19 394r20 395r28 398r35
+358b19 order{boolean} 381r8
+359i19 index{71|6I8} 382r32 383r36 384r32 386r12 386r37 387r15 394r34 401m5
+359p45 point{35|17P8[74|4]} 402m5
+377i5 newindex{71|6I8} 389m13 391r17 393r8 396m19 398r23 401r14
+378p5 pt{35|17P8[74|4]} 382m11 383m11 384r39 402r14
+387i9 i<long_integer> 388r29 389r25
+394i15 i<long_integer> 395r35 396r31
+407U13 Merge 407b13 407=21 408=21 438l7 438t12 450s9
+407r21 mic{45|17R8} 419r18 425r30 435m22 436r21
+408p21 mixsub{45|24P8} 410r32 436m25
+410p5 tmp{45|24P8} 414r23 416r47 429m11 429r26
+411b5 done{boolean} 427m11 432r17 434r8
+416r9 mic1{45|17R8} 419r26 420r20 421r21 425r41
+417p9 last{31|22P8[51|6]} 421m13 422r39 423m15 423r31 425r53
+420i15 k<long_integer> 421r30 425r38 425r50
+440U13 Merge 440b13 440>21 441=21 454l7 454t12 653s14
+440p21 cells{45|24P8} 443r32
+441p21 mixsub{45|24P8} 450m19
+443p5 tmp{45|24P8} 446r23 448r37 452m7 452r22
+448r9 mic{45|17R8} 450m15 450r15
+456U13 Compute_New_Faces 456b13 457=20 457>48 457>50 458=20 458<51 511l7
+. 511t24 715s15 782s13 848s13 915s13
+457r20 fs{19|23R8} 490r16 491r20 492m9 492r41 493r20 494r23 495r23 498r17
+. 504r44 505m16 505r16 509m12 509r12 509m17 509r17
+457i48 k{71|6I8} 494r34 495r34 498r28 506r28
+457i50 n{71|6I8} 491r39 492r39
+458p20 point{35|17P8[74|4]} 492r46 494r28 495r28 498r22 504r9 504r15 504r49
+. 505r21 506r22 509r25
+458p51 newfs{42|21P8} 510m5
+475p5 res{42|21P8} 483m14 483r14 510r14
+475p9 res_last{42|21P8} 483m18 483r18
+477U15 Append 477b15 477>24 484l9 484t15 485r60 486r63
+477a24 fc{36|14A8[75|5]} 482r24
+479p7 f{42|15P8} 482m7 483r27
+485U15 EnumLis[21|20] 494s15 498s9 22|51b13
+486U15 EnumTri[21|60] 495s15 506s9 22|157b13
+502p9 newt{67|16P8} 505m27 505r27 506r17
+513U13 Swap 513b13 513>20 513=42 523l7 523t11 537s9
+513i20 index{71|6I8} 518r35 521r12
+513a42 points{26|24A8[15|7]} 518r28 521m5 521r22 521r29 522m5 522r12
+518p5 tmp{31|22P8[51|6]} 522r29
+525U13 Swap 525b13 525>20 525=42 542l7 542t11 564s5
+525i20 index{71|6I8} 537r14
+525p42 mixsub{45|24P8} 530r32
+530p5 tmp{45|24P8} 533r23 535r46 540m7 540r22
+535r9 mic{45|17R8} 537r20
+544U13 Create_Cells 544b13 545>19 545>25 545>43 546>19 546>44 547=19 547=26
+. 548<19 566l7 566t19 606s14 664s16
+545i19 index{71|6I8} 560r33 560r48 561r33 561r48 562r33 562r48 564r10
+545i25 n{71|6I8} 563r15
+545a43 mix{35|16A8[74|4]} 555r21 555r35 560r29 560r58 560r62
+546a19 afs{42|23A8} 556r29 556r43 561r29 561r58 561r62
+546a44 lif{26|24A8[15|7]} 557r29 557r43 562r29 562r58 562r62
+547a19 nbsucc{35|16A8[63|4]} 563m38
+547a26 nbfail{35|16A8[63|4]} 563m45
+548p19 mixsub{45|24P8} 565m5
+554p5 res{45|24P8} 563m52 563r52 564m16 564r16 565r15
+555a5 wrkmix{35|16A8[74|4]} 560m5 560r12 560m41 563r17
+556a5 wrkafs{42|23A8} 561m5 561r12 561m41 563r24
+557a5 wrklif{26|24A8[15|7]} 562m5 562r12 562m41 563r31
+568U13 Compute_New_Cells 568b13 569>19 569>37 569>54 570>19 570>44 571>19
+. 571<47 572=19 572=26 619l7 619t24 651s14
+569i19 n{71|6I8} 606r33 607r24
+569a37 mix{35|16A8[74|4]} 606r35 607r26
+569r54 mic{45|17R8} 597r40 602r47
+570a19 afs{42|23A8} 594r29 597r44 602r51
+570i44 index{71|6I8} 597r12 597r48 597r55 598r27 601r18 605r11 606r27 610r18
+. 615r26
+571a19 lifted{26|24A8[15|7]} 606r46 607r37 616r20
+571p47 mixsub{45|24P8} 618m5
+572a19 nbsucc{35|16A8[63|4]} 606m53 607m44
+572a26 nbfail{35|16A8[63|4]} 606m60 607m51
+593p5 res{45|24P8} 606m67 606r67 607m58 607r58 616r27 617m19 617r19
+593p9 res2{45|24P8} 616m5 618r15
+594a5 neiafs{42|23A8} 597m5 598r20 600r17 602m16 606r39 607r30 609r17 611m30
+. 611r30 615m19 615r19
+600i12 i<long_integer> 601r13 602r23 602r55 602r58
+609i12 i<long_integer> 610r13 611r37
+621U13 Compute_New_Cells 621b13 622>18 622>36 623>18 623>49 624>18 624>39
+. 625<18 626=18 626=25 672l7 672t24 717s21 784s19 850s19 917s19
+622i18 n{71|6I8} 651r32 664r35 665r26
+622a36 mix{35|16A8[74|4]} 651r34 664r37 665r28
+623p18 mixsub{45|24P8} 645r37
+623i49 index{71|6I8} 635r14 636r17 641r23 651r55 663r13 664r29
+624p18 newfaces{42|21P8} 636r27
+624a39 fs{19|29A8} 629r26 630r29 637r23 639r20 641r20
+625p18 newcells{45|24P8} 671m5
+626a18 nbsucc{35|16A8[63|4]} 652m42 664m52 665m43
+626a25 nbfail{35|16A8[63|4]} 652m49 664m59 665m50
+628p5 res{45|24P8} 653m30 653r30 667m10 671r17
+629a5 afs{42|23A8} 634r14 636m13 637m13 651r51 664r41 665r32
+630a5 lifted{26|24A8[15|7]} 639m7 651r61 664r45 665r36 667r24
+634i9 i<long_integer> 635r10 637r17 637r26 639r14 639r23
+645p10 tmp{45|24P8} 647r28 651r46 655m12 655r27
+649p14 newcells2{45|24P8} 652m32 652r32 653r20 653m50 653r50
+661p10 res2{45|24P8} 664m66 664r66 665m57 665r57 667r31 668m24 668r24
+684a5 rest{26|24A8[15|7]} 691m39 691r39 694r33 696m23 696r23 726r31 738r33
+684a10 inner{26|24A8[15|7]} 706m42 706r42 730r16 731r26 732m23 732r23
+685i5 index{71|6I8} 694m8 694r52 704r39 706r48 708r52 715r36 715r47 716r73
+. 717r52 722r28 725m10 726r23
+685i11 newindex{71|6I8} 694m40 696m34 696r34 725r19
+686b5 finished{boolean} 691m44 691r44 692r12 695r18 726m10
+687p5 pt{35|17P8[74|4]} 696m43 696r43 698r49 698r59 702r18 702r31 706r39
+688i5 nexli{71|6I8} 708m15 709r39 711m21 713r36 731r35
+698p12 point{35|17P8[74|4]} 702r12 703r12 703r18 704r46 706m21 706r21 708r58
+. 713r15 713r21 715m56 715r56 716r63
+699p12 newfa{42|21P8} 715m62 715r62 717r58 722r37 722m59 722r59
+700p12 newcells{45|24P8} 718m39 718r39 720r31 720m65 720r65
+730i11 i<long_integer> 731r32 731r44 731r52 732r29
+752a5 rest{26|24A8[15|7]} 759m39 759r39 761r32 763m22 763r22 793r30 806r43
+752a10 inner{26|24A8[15|7]} 772m40 772r40 797r16 798r26 799m23 799r23
+753i5 index{71|6I8} 761m7 761r51 771r38 772r46 774r50 782r34 782r45 783r71
+. 784r50 789r26 792m9 793r22
+753i11 newindex{71|6I8} 761m39 763m33 763r33 792r18
+754b5 finished{boolean} 759m44 759r44 760r12 762r17 793m9
+755p5 pt{35|17P8[74|4]} 763m42 763r42 765r48 765r58 769r17 769r30 772r37
+756i5 nexli{71|6I8} 774m13 775r37 778m15 780r34 798r35
+765p11 point{35|17P8[74|4]} 769r11 770r11 770r17 771r45 772m19 772r19 774r56
+. 780r13 780r19 782m54 782r54 783r61
+766p11 newfa{42|21P8} 782m60 782r60 784r56 789r35 789m57 789r57
+767p11 newcells{45|24P8} 785m37 785r37 787r29 787m63 787r63
+797i11 i<long_integer> 798r32 798r44 798r52 799r29
+818a5 rest{26|24A8[15|7]} 825m39 825r39 828r32 830m22 830r22 860r29 872r42
+818a10 inner{26|24A8[15|7]} 839m40 839r40 864r16 865r26 866m23 866r23
+819i5 index{71|6I8} 828m7 828r51 838r38 839r46 841r50 848r34 848r45 849r71
+. 850r50 852r46 856r26 859m8 860r21
+819i11 newindex{71|6I8} 828m39 830m33 830r33 859r17
+820b5 finished{boolean} 825m44 825r44 827r12 829r17 860m8
+821p5 pt{35|17P8[74|4]} 830m42 830r42 832r48 832r58 836r17 836r30 839r37
+822i5 nexli{71|6I8} 841m13 842r37 844m15 846r34 865r35
+832p11 point{35|17P8[74|4]} 836r11 837r11 837r17 838r45 839m19 839r19 841r56
+. 846r13 846r19 848m54 848r54 849r61 852r52
+833p11 newfa{42|21P8} 848m60 848r60 850r56 856r35 856m57 856r57
+834p11 newcells{45|24P8} 850m65 850r65 852m37 852r37 854r29 854m63 854r63
+864i11 i<long_integer> 865r32 865r44 865r52 866r29
+884a5 rest{26|24A8[15|7]} 891m39 891r39 894r32 896m22 896r22 927r30 941r22
+884a10 inner{26|24A8[15|7]} 905m40 905r40 931r16 932r26 933m23 933r23
+885i5 index{71|6I8} 894m7 894r51 904r38 905r46 907r50 915r34 915r45 916r71
+. 917r50 919r46 923r26 926m9 927r22
+885i11 newindex{71|6I8} 894m39 896m33 896r33 926r18
+886b5 finished{boolean} 891m44 891r44 893r12 895r17 927m9
+887p5 pt{35|17P8[74|4]} 896m42 896r42 898r48 898r58 902r17 902r30 905r37
+888i5 nexli{71|6I8} 907m13 908r37 911m15 913r34 932r35
+898p11 point{35|17P8[74|4]} 902r11 903r11 903r17 904r45 905m19 905r19 907r56
+. 913r13 913r19 915m54 915r54 916r61 919r52
+899p11 newfa{42|21P8} 915m60 915r60 917r56 923r35 923m57 923r57
+900p11 newcells{45|24P8} 917m65 917r65 919m37 919r37 921r29 921m63 921r63
+931i11 i<long_integer> 932r32 932r44 932r52 933r29
+X 21 enumerate_faces_of_polytope.ads
+8K9*Enumerate_Faces_of_Polytope 20|12w6 12r46 21|82e32
+20u13*Enumerate_Lower_Faces_in_List 20|485r30
+60u13*Enumerate_Faces_in_Triangulation 20|486r30
+X 22 enumerate_faces_of_polytope.adb
+72U19 Enum_Low_Edges[40|45] 41|699b13[20|485]
+89U19 Enum_Low_Faces[40|74] 41|776b13[20|485]
+X 24 flatten_mixed_subdivisions.ads
+5K9*Flatten_Mixed_Subdivisions 20|11w6 11r46 24|16e31
+10U13*Flatten 20|109s5
+14U13*Flatten 20|710s21 737s11 777s15 805s11 843s15 871s11 910s15 939s11
+X 26 generic_arrays_of_vector_lists.ads
+24A8*Array_of_Lists(31|22P8[51|6])<71|6I8> 19|35r31[15|7] 84r31[15|7] 107r31[15|7]
+. 138r31[15|7] 20|22r32[15|7] 32r39[15|7] 169r12[15|7] 191r65[15|7] 193r61[15|7]
+. 212r19[15|7] 357r53[15|7] 513r58[15|7] 546r53[15|7] 557r14[15|7] 571r31[15|7]
+. 630r14[15|7] 678r31[15|7] 684r18[15|7] 746r31[15|7] 752r18[15|7] 812r31[15|7]
+. 818r18[15|7] 878r31[15|7] 884r18[15|7]
+25P8*Link_to_Array_of_Lists(24A8[15|7])
+64U13*Deep_Clear 20|184s5[15|7]
+X 30 generic_lists.ads
+12P8*List
+26U13*Construct 20|222s11[45|23] 234s15[42|20] 324s5[31|21[51|6]] 436s11[45|23]
+. 706s29[31|21[51|6]] 772s27[31|21[51|6]] 839s27[31|21[51|6]] 905s27[31|21[51|6]]
+31U13*Set_Head 20|102s7[42|20]
+43U13*Append 20|151s15[42|20] 285s11[31|21[51|6]] 483s7[42|20] 509s5[31|21[51|6]]
+67V12*Length_Of{76|7I8} 20|175s8[67|15] 326s8[31|21[51|6]] 491s10[31|21[51|6]]
+72V12*Is_Null{boolean} 20|25s14[31|21[51|6]] 41s14[31|21[51|6]] 51s8[67|15]
+. 99s15[42|20] 146s15[67|15] 215s8[45|23] 229s25[31|21[51|6]] 279s17[31|21[51|6]]
+. 310s23[31|21[51|6]] 341s20[31|21[51|6]] 388s14[31|21[51|6]] 395s20[31|21[51|6]]
+. 414s15[45|23] 422s23[31|21[51|6]] 446s15[45|23] 490s8[67|15] 493s12[67|15]
+. 533s15[45|23] 598s12[42|20] 641s12[67|15] 647s20[45|23]
+77V12*Head_Of{42|15P8} 20|100s12[42|20] 148s33[67|15] 230s43[31|21[51|6]]
+. 280s15[31|21[51|6]] 311s22[31|21[51|6]] 335s30[31|21[51|6]] 342s18[31|21[51|6]]
+. 382s17[31|21[51|6]] 416s39[45|23] 448s29[45|23] 535s38[45|23] 651s38[45|23]
+. 826s32[31|21[51|6]] 892s32[31|21[51|6]]
+84V12*Tail_Of{12P8[42|20]} 20|103s14[42|20] 154s14[67|15] 231s24[31|21[51|6]]
+. 287s16[31|21[51|6]] 314s28[31|21[51|6]] 336s19[31|21[51|6]] 346s19[31|21[51|6]]
+. 386s22[31|21[51|6]] 422s31[31|21[51|6]] 423s23[31|21[51|6]] 429s18[45|23]
+. 452s14[45|23] 540s14[45|23] 655s19[45|23]
+93U13*Clear 20|350s5[31|21[51|6]] 350s17[31|21[51|6]]
+X 31 generic_lists_of_vectors.ads
+22P8*List<30|12P8[21[51|6]]> 19|24r14[51|6] 20|226r21[51|6] 257r44[51|6]
+. 266r16[51|6] 269r36[51|6] 269r50[51|6] 274r22[51|6] 275r13[51|6] 292r58[51|6]
+. 304r13[51|6] 330r16[51|6] 417r16[51|6] 518r20[51|6]
+30V12*Shallow_Create{36|14A8[75|5]} 20|233s33[51|6] 239s38[51|6]
+52V12*Is_In{boolean} 20|52s18[51|6]
+53V12*Is_In{boolean} 20|343s19[51|6]
+65U13*Append 20|230s17[51|6]
+85U13*Deep_Concat_Diff 20|425s13[51|6]
+100U13*Swap_to_Front 20|384s11[51|6]
+110U13*Shallow_Clear 20|732s9[51|6] 799s9[51|6] 866s9[51|6] 933s9[51|6]
+X 35 generic_vectors.ads
+16A8*Vector(71|6I8)<71|6I8> 19|34r46[74|4] 39r68[63|4] 83r46[74|4] 88r68[63|4]
+. 98r48[74|4] 106r46[74|4] 111r68[63|4] 129r48[74|4] 137r46[74|4] 142r68[63|4]
+. 20|49r49[74|4] 128r46[74|4] 133r67[74|4] 160r36[74|4] 191r45[74|4] 267r38[74|4]
+. 282r48[74|4] 545r52[74|4] 547r68[63|4] 555r14[74|4] 569r46[74|4] 572r68[63|4]
+. 622r45[74|4] 626r67[63|4] 677r46[74|4] 682r68[63|4] 698r42[74|4] 745r46[74|4]
+. 750r68[63|4] 765r41[74|4] 811r46[74|4] 816r68[63|4] 832r41[74|4] 877r46[74|4]
+. 882r68[63|4] 898r41[74|4]
+17P8*Link_to_Vector(16A8[74|4]) 20|77r10[74|4] 257r61[74|4] 267r16[74|4]
+. 276r12[74|4] 282r26[74|4] 292r33[74|4] 293r26[74|4] 305r13[74|4] 331r15[74|4]
+. 359r57[74|4] 378r10[74|4] 458r35[74|4] 687r10[74|4] 698r20[74|4] 755r10[74|4]
+. 765r19[74|4] 821r10[74|4] 832r19[74|4] 887r10[74|4] 898r19[74|4]
+22V12*Equal{boolean} 20|419s12[74|4]
+72U13*Clear 20|350s30[74|4] 706s15[74|4] 772s13[74|4] 839s13[74|4] 905s13[74|4]
+X 36 generic_vecvecs.ads
+14A8*VecVec(35|17P8[74|4])<71|6I8> 20|75r39[75|5] 123r20[75|5] 124r32[75|5]
+. 233r25[75|5] 239r28[75|5] 329r19[75|5] 477r32[75|5] 482r16[75|5]
+15P8*Link_to_VecVec(14A8[75|5])
+X 37 global_dynamic32_triangulation.ads
+6K9*Global_Dynamic32_Triangulation 20|8w6 8r46 37|48e35
+41V12*Max_Extreme{35|17P8[74|4]} 20|383s17
+X 39 initial_mixed_cell.ads
+6U11*Initial_Mixed_Cell 20|5w6 219s9
+X 42 integer_faces_of_polytope.ads
+7K9*Integer_Faces_of_Polytope 19|6w6 6r46 42|100e30
+15P8*Face<36|15P8[75|5]> 20|88r34 96r9 121r64 124r20 227r20 479r11
+21P8*Faces<30|12P8[20]> 19|27r9 20|93r35 95r11 134r34 143r20 177r27 458r63
+. 475r20 624r32 699r20 766r19 833r19 899r19
+23A8*Array_of_Faces(21P8)<71|6I8> 20|546r28 556r14 570r28 594r14 629r11
+45U13*Construct 20|722s15 789s13 856s13 923s13
+92U13*Shallow_Clear 20|611s16 615s5 722s45 789s43 856s43 923s43
+X 43 integer_lifting_utilities.ads
+9K9*Integer_Lifting_Utilities 20|9w6 9r46 43|153e30
+91U13*Constant_Lifting 20|731s9 798s9 865s9 932s9
+112V12*Conservative_Lifting{71|6I8} 20|708s24 774s22 841s22 907s22
+X 45 integer_mixed_subdivisions.ads
+6K9*Integer_Mixed_Subdivisions 19|7w6 7r46 45|139e31
+14P8*Mixed_Subdivision 19|37r35 76r35 86r35 97r35 109r35 121r35 128r35 140r35
+. 20|192r34 408r37 410r11 440r32 441r37 443r11 525r58 530r11 548r32 554r11
+. 571r60 593r16 623r30 625r33 628r11 645r16 649r26 661r17 680r35 700r23 748r35
+. 767r22 814r35 834r22 880r35 900r22
+17R8*Mixed_Cell 20|217r15 407r34 416r25 448r15 535r24 569r63 45|21e13
+18p5*nor{35|17P8[74|4]} 20|419r22 419r31
+19p5*pts{26|25P8[15|7]} 20|224r24 226r33 233r52 420r25 421r26 425m34 425m46
+. 537r24
+24P8*Mixed_Subdivision<30|12P8[23]>
+44V12*Create{24P8} 20|616s13 667s17
+95U13*Construct 20|720s21 787s19 854s19 921s19
+127U13*Deep_Clear 20|435s11
+131U13*Shallow_Clear 20|617s5 653s36 668s10 720s51 787s49 854s49 921s49
+X 46 integer_pruning_methods.ads
+9K9*Integer_Pruning_Methods 20|14w6 14r46 46|90e28
+33U13*Create_CS 20|563s5 607s14 665s16
+X 51 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[31|12] 19|4w6 4r46
+X 52 mixed_volume_computation.ads
+12K9*Mixed_Volume_Computation 20|15w6 15r46 52|192e29
+104V12*Mixed_Volume{76|7I8} 20|220s12
+X 61 standard_floating_numbers.ads
+13F8*double_float<long_float>
+X 63 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[35|8] 19|3w6 39r42 88r42 111r42 142r42 20|547r42
+. 572r42 626r41 682r42 750r42 816r42 882r42
+X 65 standard_integer32_simplices.ads
+6K9*Standard_Integer32_Simplices 20|7w6 7r46 123r30 65|223e33
+14P8*Simplex 20|121r47 148r22 240r28 332r14
+19V12*Create{14P8} 20|240s39 338s15
+104V12*Vertices{36|14A8[75|5]} 20|123s59
+114V12*Is_Vertex{boolean} 20|150s12
+X 67 standard_integer32_triangulations.ads
+7K9*Standard_Integer32_Triangulations 19|5w6 5r46 67|105e38
+16P8*Triangulation<30|12P8[15]> 19|26r9 20|133r48 142r11 258r24 265r11 502r16
+23V12*Create{16P8}<30|21p12> 20|242s33 339s17
+28U13*Update 20|344s18
+29U13*Update 20|505s9
+50U13*Flatten 20|109s20
+77V12*Is_In{boolean} 20|53s18
+X 68 standard_integer32_vertices.ads
+6K9*Standard_Integer32_Vertices 20|6w6 6r46 68|66e32
+47V12*Extremal_Points{31|22P8[51|6]} 20|325s13
+X 71 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 19|1w6 1r46 71|45e29
+6I8*integer32<long_integer> 19|29r35 34r26 36r62 83r26 85r62 98r26 106r26
+. 108r62 129r26 137r26 139r62 20|32r63 37r11 121r32 133r33 159r36 160r48
+. 191r25 257r26 357r26 359r34 377r16 457r57 513r31 525r31 545r32 569r26 570r55
+. 622r25 623r60 677r26 679r62 685r22 688r13 745r26 747r62 753r22 756r13 811r26
+. 813r62 819r22 822r13 877r26 879r62 885r22 888r13
+X 74 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[35|8] 19|2w6 2r46 20|128r21
+X 75 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[36|10] 20|2w6 2r46
+X 76 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 20|1w6 1r46 76|30e29
+7I8*natural32<long_integer> 20|326r26 491r29
+X 100 transforming_integer32_vector_lists.ads
+6K9*Transforming_Integer32_Vector_Lists 20|3w6 4r6 100|62e40
+31V13*Reduce{31|22P8[51|6]} 20|173s18
+

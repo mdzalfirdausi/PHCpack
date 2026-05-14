@@ -1,0 +1,89 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U double_double_two_norms%b  double_double_two_norms.adb  cd2a784a NE OO PK
+W dobldobl_mathematical_functions%s  dobldobl_mathematical_functions.adb  dobldobl_mathematical_functions.ali
+
+U double_double_two_norms%s  double_double_two_norms.ads  c225ea30 EE NE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W double_double_vectors%s  double_double_vectors.ads  double_double_vectors.ali
+W double_double_vecvecs%s  double_double_vecvecs.ads  double_double_vecvecs.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dobldobl_mathematical_functions.ads  20260513024558 091149b0 dobldobl_mathematical_functions%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_ring.ads  20260513024558 2b06ea65 double_double_ring%s
+D double_double_two_norms.ads  20260513024558 42a282d7 double_double_two_norms%s
+D double_double_two_norms.adb  20260513024558 8699b32d double_double_two_norms%b
+D double_double_vectors.ads  20260513024558 ffed19bd double_double_vectors%s
+D double_double_vecvecs.ads  20260513024558 e534e05b double_double_vecvecs%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [norm2 double_double_two_norms 10 12 none]
+G c Z s b [normalize double_double_two_norms 15 13 none]
+G c Z s b [normalize double_double_two_norms 20 13 none]
+G r c none [norm2 double_double_two_norms 10 12 none] [create double_double_numbers 35 12 none]
+G r c none [norm2 double_double_two_norms 10 12 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [norm2 double_double_two_norms 10 12 none] [Oadd double_double_numbers 111 12 none]
+G r c none [norm2 double_double_two_norms 10 12 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [normalize double_double_two_norms 15 13 none] [create double_double_numbers 35 12 none]
+G r c none [normalize double_double_two_norms 15 13 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [normalize double_double_two_norms 15 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [normalize double_double_two_norms 15 13 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [normalize double_double_two_norms 15 13 none] [Odivide double_double_numbers 139 12 none]
+G r c none [normalize double_double_two_norms 20 13 none] [create double_double_numbers 35 12 none]
+G r c none [normalize double_double_two_norms 20 13 none] [Omultiply double_double_numbers 128 12 none]
+G r c none [normalize double_double_two_norms 20 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [normalize double_double_two_norms 20 13 none] [sqrt dobldobl_mathematical_functions 12 12 none]
+G r c none [normalize double_double_two_norms 20 13 none] [Odivide double_double_numbers 139 12 none]
+X 2 dobldobl_mathematical_functions.ads
+4K9*DoblDobl_Mathematical_Functions 59e36 6|1w6 1r46
+12V12*SQRT{3|12R8} 6|13s12
+X 3 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 5|1w6 1r46
+12R8*double_double 170e13 5|10r40 6|5r40 7r11 19r20
+35V12*Create{12R8} 6|7s28
+111V13*"+"{12R8} 6|11s18
+128V13*"*"{12R8} 6|11s24
+139V13*"/"{12R8} 6|23s19
+X 5 double_double_two_norms.ads
+5K9*Double_Double_Two_Norms 25l5 25e28 6|3b14 34l5 34t28
+10V12*Norm2{3|12R8} 10>20 6|5b12 15l7 15t12 19s37
+10a20 v{9|16A8[7|4]} 6|5b20 10r14 11r20 11r25
+15U13*Normalize 15=25 6|17b13 25l7 25t16 30s7
+15a25 v{9|16A8[7|4]} 6|17b25 19r43 22r14 23m7 23r15
+20U13*Normalize 20=25 6|27b13 32l7 32t16
+20a25 v{10|14A8[8|5]} 6|27b24 29r14 30r17
+X 6 double_double_two_norms.adb
+7r5 res{3|12R8} 11m7 11r14 13m5 13r17 14r12
+10i9 i<long_integer> 11r22 11r27
+19r5 nrm{3|12R8} 23r20
+22i9 i<long_integer> 23r9 23r17
+29i9 i<long_integer> 30r19
+X 7 double_double_vectors.ads
+4K9*Double_Double_Vectors[9|8] 5|2w6 2r46
+X 8 double_double_vecvecs.ads
+5K9*Double_Double_VecVecs[10|10] 5|3w6 3r46
+X 9 generic_vectors.ads
+16A8*Vector(3|12R8)<12|6I8> 5|10r24[7|4] 15r36[7|4] 6|5r24[7|4] 17r36[7|4]
+17P8*Link_to_Vector(16A8[7|4])
+X 10 generic_vecvecs.ads
+14A8*VecVec(9|17P8[7|4])<12|6I8> 5|20r36[8|5] 6|27r35[8|5]
+

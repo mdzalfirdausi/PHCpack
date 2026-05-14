@@ -1,0 +1,896 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U rectangular_sample_grids%b  rectangular_sample_grids.adb  85751b08 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W extended_random_numbers%s  extended_random_numbers.adb  extended_random_numbers.ali
+W multprec_complex_norms_equals%s  multprec_complex_norms_equals.adb  multprec_complex_norms_equals.ali
+W multprec_complex_number_tools%s  multprec_complex_number_tools.adb  multprec_complex_number_tools.ali
+W multprec_complex_numbers_polar%s  multprec_complex_numbers_polar.adb  multprec_complex_numbers_polar.ali
+W standard_complex_norms_equals%s  standard_complex_norms_equals.adb  standard_complex_norms_equals.ali
+W standard_complex_numbers_polar%s  standard_complex_numbers_polar.adb  standard_complex_numbers_polar.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_random_numbers%s  standard_random_numbers.adb  standard_random_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U rectangular_sample_grids%s  rectangular_sample_grids.ads  9b46a6ca EE NE OO PK
+W multprec_complex_matrices%s  multprec_complex_matrices.ads  multprec_complex_matrices.ali
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_complex_vectors%s  multprec_complex_vectors.ads  multprec_complex_vectors.ali
+W multprec_complex_vecvecs%s  multprec_complex_vecvecs.ads  multprec_complex_vecvecs.ali
+W multprec_floating_matrices%s  multprec_floating_matrices.ads  multprec_floating_matrices.ali
+W multprec_floating_numbers%s  multprec_floating_numbers.adb  multprec_floating_numbers.ali
+W sample_point_lists%s	sample_point_lists.adb	sample_point_lists.ali
+W sample_points%s	sample_points.adb	sample_points.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_complex_vecvecs%s  standard_complex_vecvecs.ads  standard_complex_vecvecs.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D extended_random_numbers.ads  20260513024558 5f90dbb0 extended_random_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D multprec_complex_matrices.ads  20260513024558 ed92d39d multprec_complex_matrices%s
+D multprec_complex_norms_equals.ads  20260513024558 263b690a multprec_complex_norms_equals%s
+D multprec_complex_number_tools.ads  20260513024558 dea669ab multprec_complex_number_tools%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_numbers_polar.ads  20260513024558 246b8705 multprec_complex_numbers_polar%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_complex_vecvecs.ads  20260513024558 b42f0858 multprec_complex_vecvecs%s
+D multprec_floating_matrices.ads  20260513024558 120c027b multprec_floating_matrices%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_floating_vectors.ads  20260513024558 9fbd00e9 multprec_floating_vectors%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D rectangular_sample_grids.ads  20260513024556 c7f05147 rectangular_sample_grids%s
+D rectangular_sample_grids.adb  20260513024556 321088f2 rectangular_sample_grids%b
+D sample_point_lists.ads  20260513024556 dd69a1c7 sample_point_lists%s
+D sample_points.ads	20260513024556 868162e6 sample_points%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_norms_equals.ads  20260513024558 14f0dc59 standard_complex_norms_equals%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_polar.ads  20260513024558 82632c92 standard_complex_numbers_polar%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_random_numbers.ads  20260513024558 1a800c79 standard_random_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+G a e
+G c Z s b [set_polynomial_type rectangular_sample_grids 25 13 none]
+G c Z s b [extended_random rectangular_sample_grids 36 12 none]
+G c Z s b [extended_random rectangular_sample_grids 39 12 none]
+G c Z s b [create1 rectangular_sample_grids 49 12 none]
+G c Z s b [create1 rectangular_sample_grids 51 12 none]
+G c Z s b [create1 rectangular_sample_grids 67 13 none]
+G c Z s b [triangular_create1 rectangular_sample_grids 76 12 none]
+G c Z s b [triangular_create1 rectangular_sample_grids 79 12 none]
+G c Z s b [errors rectangular_sample_grids 91 12 none]
+G c Z s b [errors rectangular_sample_grids 93 12 none]
+G c Z s b [maximal_error rectangular_sample_grids 100 12 none]
+G c Z s b [maximal_error rectangular_sample_grids 102 12 none]
+G c Z s b [maximal_error rectangular_sample_grids 104 12 none]
+G c Z s b [maximal_error rectangular_sample_grids 106 12 none]
+G c Z s b [distance rectangular_sample_grids 112 12 none]
+G c Z s b [distance rectangular_sample_grids 113 12 none]
+G c Z s b [distance rectangular_sample_grids 119 12 none]
+G c Z s b [distance rectangular_sample_grids 121 12 none]
+G c Z s b [distances rectangular_sample_grids 129 12 none]
+G c Z s b [distances rectangular_sample_grids 131 12 none]
+G c Z s b [minimal_distance rectangular_sample_grids 142 12 none]
+G c Z s b [minimal_distance rectangular_sample_grids 144 12 none]
+G c Z s b [minimal_distance rectangular_sample_grids 146 12 none]
+G c Z s b [minimal_distance rectangular_sample_grids 148 12 none]
+G c Z s b [abscisses rectangular_sample_grids 157 12 none]
+G c Z s b [abscisses rectangular_sample_grids 160 12 none]
+G c Z s b [extract_samples rectangular_sample_grids 169 12 none]
+G c Z s b [extract_samples rectangular_sample_grids 172 12 none]
+G c Z s b [rotate_and_project rectangular_sample_grids 181 12 none]
+G c Z s b [rotate_and_project rectangular_sample_grids 183 12 none]
+G c Z s b [rotate_and_project2 rectangular_sample_grids 194 12 none]
+G c Z s b [rotate_and_project2 rectangular_sample_grids 196 12 none]
+G c Z s b [inverse_rotate rectangular_sample_grids 204 12 none]
+G c Z s b [inverse_rotate rectangular_sample_grids 206 12 none]
+G c Z s b [rotate_samples rectangular_sample_grids 212 12 none]
+G c Z s b [rotate_samples rectangular_sample_grids 216 12 none]
+G c Z b b [standard_roots_of_unity rectangular_sample_grids 25 12 none]
+G c Z b b [multprec_roots_of_unity rectangular_sample_grids 42 12 none]
+G r c none [set_polynomial_type rectangular_sample_grids 25 13 none] [set_polynomial_type sample_points 27 13 none]
+G r c none [set_polynomial_type rectangular_sample_grids 25 13 none] [set_polynomial_type sample_point_lists 35 13 none]
+G r s vector [extended_random rectangular_sample_grids 36 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [extended_random rectangular_sample_grids 36 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [extended_random rectangular_sample_grids 36 12 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [extended_random rectangular_sample_grids 36 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [extended_random rectangular_sample_grids 36 12 none] [extended_random extended_random_numbers 26 12 none]
+G r c none [extended_random rectangular_sample_grids 36 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r s vecvec [extended_random rectangular_sample_grids 39 12 none] [vecvecIP multprec_complex_vecvecs 14 8 5_1]
+G r s vector [extended_random rectangular_sample_grids 39 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [extended_random rectangular_sample_grids 39 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [extended_random rectangular_sample_grids 39 12 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [extended_random rectangular_sample_grids 39 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [extended_random rectangular_sample_grids 39 12 none] [extended_random extended_random_numbers 26 12 none]
+G r c none [extended_random rectangular_sample_grids 39 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r s array_of_standard_sample_lists [create1 rectangular_sample_grids 49 12 none] [array_of_standard_sample_listsIP sample_point_lists 28 8 none]
+G r c none [create1 rectangular_sample_grids 49 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create1 rectangular_sample_grids 49 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [create1 rectangular_sample_grids 49 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [create1 rectangular_sample_grids 49 12 none] [root standard_complex_numbers_polar 21 12 none]
+G r s vecvec [create1 rectangular_sample_grids 49 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [create1 rectangular_sample_grids 49 12 none] [sample sample_point_lists 92 13 none]
+G r s array_of_multprec_sample_lists [create1 rectangular_sample_grids 51 12 none] [array_of_multprec_sample_listsIP sample_point_lists 30 8 none]
+G r c none [create1 rectangular_sample_grids 51 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create1 rectangular_sample_grids 51 12 none] [hyperplane_sections sample_points 173 12 none]
+G r s vecvec [create1 rectangular_sample_grids 51 12 none] [vecvecIP multprec_complex_vecvecs 14 8 5_1]
+G r s vector [create1 rectangular_sample_grids 51 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [create1 rectangular_sample_grids 51 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [create1 rectangular_sample_grids 51 12 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [create1 rectangular_sample_grids 51 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [create1 rectangular_sample_grids 51 12 none] [extended_random extended_random_numbers 26 12 none]
+G r c none [create1 rectangular_sample_grids 51 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [create1 rectangular_sample_grids 51 12 none] [refine_on_slices sample_point_lists 137 13 none]
+G r c none [create1 rectangular_sample_grids 51 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r s vecvec [create1 rectangular_sample_grids 51 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [create1 rectangular_sample_grids 51 12 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [create1 rectangular_sample_grids 51 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [create1 rectangular_sample_grids 51 12 none] [sample_on_slices sample_point_lists 98 13 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [create1 rectangular_sample_grids 67 13 none] [hyperplane_sections sample_points 173 12 none]
+G r s vecvec [create1 rectangular_sample_grids 67 13 none] [vecvecIP multprec_complex_vecvecs 14 8 5_1]
+G r s vector [create1 rectangular_sample_grids 67 13 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [create1 rectangular_sample_grids 67 13 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [create1 rectangular_sample_grids 67 13 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [absval standard_complex_numbers 27 12 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [extended_random extended_random_numbers 26 12 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [create1 rectangular_sample_grids 67 13 none] [create standard_complex_numbers 18 12 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [root standard_complex_numbers_polar 21 12 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [create1 rectangular_sample_grids 67 13 none] [set_size multprec_complex_number_tools 37 13 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [root multprec_complex_numbers_polar 20 12 none]
+G r c none [create1 rectangular_sample_grids 67 13 none] [refine_on_slices sample_point_lists 137 13 none]
+G r s vecvec [create1 rectangular_sample_grids 67 13 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [create1 rectangular_sample_grids 67 13 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [create1 rectangular_sample_grids 67 13 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [create1 rectangular_sample_grids 67 13 none] [sample sample_point_lists 92 13 none]
+G r s array_of_standard_sample_lists [triangular_create1 rectangular_sample_grids 76 12 none] [array_of_standard_sample_listsIP sample_point_lists 28 8 none]
+G r c none [triangular_create1 rectangular_sample_grids 76 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [triangular_create1 rectangular_sample_grids 76 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [triangular_create1 rectangular_sample_grids 76 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [triangular_create1 rectangular_sample_grids 76 12 none] [root standard_complex_numbers_polar 21 12 none]
+G r s vecvec [triangular_create1 rectangular_sample_grids 76 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [triangular_create1 rectangular_sample_grids 76 12 none] [sample sample_point_lists 92 13 none]
+G r c none [triangular_create1 rectangular_sample_grids 76 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r s array_of_multprec_sample_lists [triangular_create1 rectangular_sample_grids 79 12 none] [array_of_multprec_sample_listsIP sample_point_lists 30 8 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [hyperplane_sections sample_points 173 12 none]
+G r s vecvec [triangular_create1 rectangular_sample_grids 79 12 none] [vecvecIP multprec_complex_vecvecs 14 8 5_1]
+G r s vector [triangular_create1 rectangular_sample_grids 79 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [triangular_create1 rectangular_sample_grids 79 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [create multprec_complex_number_tools 31 12 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [absval standard_complex_numbers 27 12 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [extended_random extended_random_numbers 26 12 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [refine_on_slices sample_point_lists 137 13 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r s vecvec [triangular_create1 rectangular_sample_grids 79 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [copy multprec_complex_vectors 24 13 4_1]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [random1 standard_random_numbers 90 12 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [sample_on_slices sample_point_lists 98 13 none]
+G r c none [triangular_create1 rectangular_sample_grids 79 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [errors rectangular_sample_grids 91 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [errors rectangular_sample_grids 91 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [errors rectangular_sample_grids 91 12 none] [sample_point sample_points 162 12 none]
+G r c none [errors rectangular_sample_grids 91 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [errors rectangular_sample_grids 91 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [errors rectangular_sample_grids 93 12 none] [length_of sample_point_lists__lists_of_multprec_samples 67 12 25_3]
+G r s matrix [errors rectangular_sample_grids 93 12 none] [matrixIP multprec_floating_matrices 16 8 5_1]
+G r c none [errors rectangular_sample_grids 93 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r c none [errors rectangular_sample_grids 93 12 none] [sample_point sample_points 164 12 none]
+G r c none [errors rectangular_sample_grids 93 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [errors rectangular_sample_grids 93 12 none] [is_null sample_point_lists__lists_of_multprec_samples 72 12 25_3]
+G r s floating_number [maximal_error rectangular_sample_grids 102 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [maximal_error rectangular_sample_grids 102 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [maximal_error rectangular_sample_grids 102 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [maximal_error rectangular_sample_grids 104 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [maximal_error rectangular_sample_grids 104 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [maximal_error rectangular_sample_grids 104 12 none] [sample_point sample_points 162 12 none]
+G r c none [maximal_error rectangular_sample_grids 104 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [maximal_error rectangular_sample_grids 104 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [length_of sample_point_lists__lists_of_multprec_samples 67 12 25_3]
+G r s matrix [maximal_error rectangular_sample_grids 106 12 none] [matrixIP multprec_floating_matrices 16 8 5_1]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [sample_point sample_points 164 12 none]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [is_null sample_point_lists__lists_of_multprec_samples 72 12 25_3]
+G r s floating_number [maximal_error rectangular_sample_grids 106 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [maximal_error rectangular_sample_grids 106 12 none] [Ogt multprec_floating_numbers 116 12 none]
+G r c none [distance rectangular_sample_grids 112 12 none] [sample_point sample_points 162 12 none]
+G r c none [distance rectangular_sample_grids 112 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [distance rectangular_sample_grids 112 12 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r s floating_number [distance rectangular_sample_grids 113 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [distance rectangular_sample_grids 113 12 none] [number_of_variables sample_points 149 12 none]
+G r s vector [distance rectangular_sample_grids 113 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [distance rectangular_sample_grids 113 12 none] [sample_point sample_points 164 12 none]
+G r c none [distance rectangular_sample_grids 113 12 none] [Osubtract multprec_complex_vectors 35 12 4_1]
+G r c none [distance rectangular_sample_grids 113 12 none] [max_norm multprec_complex_norms_equals 17 12 none]
+G r c none [distance rectangular_sample_grids 113 12 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [distance rectangular_sample_grids 119 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [distance rectangular_sample_grids 119 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [distance rectangular_sample_grids 119 12 none] [sample_point sample_points 162 12 none]
+G r c none [distance rectangular_sample_grids 119 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [distance rectangular_sample_grids 119 12 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [distance rectangular_sample_grids 119 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r s floating_number [distance rectangular_sample_grids 121 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [distance rectangular_sample_grids 121 12 none] [length_of sample_point_lists__lists_of_multprec_samples 67 12 25_3]
+G r c none [distance rectangular_sample_grids 121 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r c none [distance rectangular_sample_grids 121 12 none] [number_of_variables sample_points 149 12 none]
+G r s vector [distance rectangular_sample_grids 121 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [distance rectangular_sample_grids 121 12 none] [sample_point sample_points 164 12 none]
+G r c none [distance rectangular_sample_grids 121 12 none] [Osubtract multprec_complex_vectors 35 12 4_1]
+G r c none [distance rectangular_sample_grids 121 12 none] [max_norm multprec_complex_norms_equals 17 12 none]
+G r c none [distance rectangular_sample_grids 121 12 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [distance rectangular_sample_grids 121 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [distance rectangular_sample_grids 121 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [distance rectangular_sample_grids 121 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [distance rectangular_sample_grids 121 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [distances rectangular_sample_grids 129 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [distances rectangular_sample_grids 129 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [distances rectangular_sample_grids 129 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [distances rectangular_sample_grids 129 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [distances rectangular_sample_grids 129 12 none] [sample_point sample_points 162 12 none]
+G r c none [distances rectangular_sample_grids 129 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [distances rectangular_sample_grids 129 12 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [length_of sample_point_lists__lists_of_multprec_samples 67 12 25_3]
+G r s matrix [distances rectangular_sample_grids 131 12 none] [matrixIP multprec_floating_matrices 16 8 5_1]
+G r c none [distances rectangular_sample_grids 131 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [distances rectangular_sample_grids 131 12 none] [is_null sample_point_lists__lists_of_multprec_samples 72 12 25_3]
+G r c none [distances rectangular_sample_grids 131 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r s floating_number [distances rectangular_sample_grids 131 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [number_of_variables sample_points 149 12 none]
+G r s vector [distances rectangular_sample_grids 131 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [distances rectangular_sample_grids 131 12 none] [sample_point sample_points 164 12 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [Osubtract multprec_complex_vectors 35 12 4_1]
+G r c none [distances rectangular_sample_grids 131 12 none] [max_norm multprec_complex_norms_equals 17 12 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [distances rectangular_sample_grids 131 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [distances rectangular_sample_grids 131 12 none] [clear multprec_floating_numbers 210 13 none]
+G r s floating_number [minimal_distance rectangular_sample_grids 144 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [minimal_distance rectangular_sample_grids 144 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [minimal_distance rectangular_sample_grids 144 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [length_of sample_point_lists__lists_of_standard_samples 67 12 23_3]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [sample_point sample_points 162 12 none]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [Osubtract standard_complex_vectors 35 12 4_1]
+G r c none [minimal_distance rectangular_sample_grids 146 12 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r s floating_number [minimal_distance rectangular_sample_grids 148 12 none] [floating_numberIP multprec_floating_numbers 217 8 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [length_of sample_point_lists__lists_of_multprec_samples 67 12 25_3]
+G r s matrix [minimal_distance rectangular_sample_grids 148 12 none] [matrixIP multprec_floating_matrices 16 8 5_1]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [create multprec_floating_numbers 24 12 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [is_null sample_point_lists__lists_of_multprec_samples 72 12 25_3]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [number_of_variables sample_points 149 12 none]
+G r s vector [minimal_distance rectangular_sample_grids 148 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [sample_point sample_points 164 12 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [Osubtract multprec_complex_vectors 35 12 4_1]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [max_norm multprec_complex_norms_equals 17 12 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [clear multprec_complex_vectors 71 13 4_1]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [copy multprec_floating_numbers 121 13 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [Olt multprec_floating_numbers 109 12 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [clear multprec_floating_numbers 210 13 none]
+G r c none [minimal_distance rectangular_sample_grids 148 12 none] [clear multprec_floating_matrices 66 13 5_1]
+G r c none [abscisses rectangular_sample_grids 157 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [abscisses rectangular_sample_grids 157 12 none] [hyperplane_sections sample_points 173 12 none]
+G r c none [abscisses rectangular_sample_grids 157 12 none] [Osubtract standard_complex_numbers 54 12 none]
+G r s vector [abscisses rectangular_sample_grids 160 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [abscisses rectangular_sample_grids 160 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r c none [abscisses rectangular_sample_grids 160 12 none] [hyperplane_sections sample_points 175 12 none]
+G r c none [abscisses rectangular_sample_grids 160 12 none] [Osubtract multprec_complex_numbers 61 12 5_1]
+G r s vecvec [extract_samples rectangular_sample_grids 169 12 none] [vecvecIP standard_complex_vecvecs 14 8 5_1]
+G r c none [extract_samples rectangular_sample_grids 169 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r c none [extract_samples rectangular_sample_grids 169 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [extract_samples rectangular_sample_grids 169 12 none] [sample_point sample_points 162 12 none]
+G r c none [extract_samples rectangular_sample_grids 169 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r s vecvec [extract_samples rectangular_sample_grids 172 12 none] [vecvecIP multprec_complex_vecvecs 14 8 5_1]
+G r c none [extract_samples rectangular_sample_grids 172 12 none] [is_null sample_point_lists__lists_of_multprec_samples 72 12 25_3]
+G r c none [extract_samples rectangular_sample_grids 172 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r s vector [extract_samples rectangular_sample_grids 172 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [extract_samples rectangular_sample_grids 172 12 none] [sample_point sample_points 164 12 none]
+G r c none [extract_samples rectangular_sample_grids 172 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [extract_samples rectangular_sample_grids 172 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [rotate_and_project rectangular_sample_grids 181 12 none] [Omultiply standard_complex_vectors 42 12 4_1]
+G r c none [rotate_and_project rectangular_sample_grids 181 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [rotate_and_project rectangular_sample_grids 181 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r s vector [rotate_and_project rectangular_sample_grids 183 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [rotate_and_project rectangular_sample_grids 183 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [rotate_and_project rectangular_sample_grids 183 12 none] [Omultiply multprec_complex_vectors 42 12 4_1]
+G r c none [rotate_and_project rectangular_sample_grids 183 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [rotate_and_project rectangular_sample_grids 183 12 none] [sub multprec_complex_numbers 75 13 5_1]
+G r c none [rotate_and_project rectangular_sample_grids 183 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [rotate_and_project2 rectangular_sample_grids 194 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [rotate_and_project2 rectangular_sample_grids 194 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r s complex_number [rotate_and_project2 rectangular_sample_grids 196 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [rotate_and_project2 rectangular_sample_grids 196 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [rotate_and_project2 rectangular_sample_grids 196 12 none] [sub multprec_complex_numbers 75 13 5_1]
+G r c none [rotate_and_project2 rectangular_sample_grids 196 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [inverse_rotate rectangular_sample_grids 204 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [inverse_rotate rectangular_sample_grids 204 12 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [inverse_rotate rectangular_sample_grids 204 12 none] [Odivide standard_complex_numbers 56 12 none]
+G r c none [inverse_rotate rectangular_sample_grids 204 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r s vector [inverse_rotate rectangular_sample_grids 206 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r s complex_number [inverse_rotate rectangular_sample_grids 206 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [inverse_rotate rectangular_sample_grids 206 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [inverse_rotate rectangular_sample_grids 206 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [inverse_rotate rectangular_sample_grids 206 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [inverse_rotate rectangular_sample_grids 206 12 none] [div multprec_complex_numbers 78 13 5_1]
+G r c none [inverse_rotate rectangular_sample_grids 206 12 none] [sub multprec_complex_numbers 75 13 5_1]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [head_of sample_point_lists__lists_of_standard_samples 77 12 23_3]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [sample_point sample_points 162 12 none]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [tail_of sample_point_lists__lists_of_standard_samples 84 12 23_3]
+G r c none [rotate_samples rectangular_sample_grids 212 12 none] [is_null sample_point_lists__lists_of_standard_samples 72 12 23_3]
+G r s matrix [rotate_samples rectangular_sample_grids 216 12 none] [matrixIP multprec_complex_matrices 16 8 5_1]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [head_of sample_point_lists__lists_of_multprec_samples 77 12 25_3]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [sample_point sample_points 164 12 none]
+G r s complex_number [rotate_samples rectangular_sample_grids 216 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [sub multprec_complex_numbers 75 13 5_1]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [tail_of sample_point_lists__lists_of_multprec_samples 84 12 25_3]
+G r c none [rotate_samples rectangular_sample_grids 216 12 none] [is_null sample_point_lists__lists_of_multprec_samples 72 12 25_3]
+G r c none [standard_roots_of_unity rectangular_sample_grids 25 12 none] [create standard_complex_numbers 18 12 none]
+G r c none [standard_roots_of_unity rectangular_sample_grids 25 12 none] [root standard_complex_numbers_polar 21 12 none]
+G r s vector [multprec_roots_of_unity rectangular_sample_grids 42 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [multprec_roots_of_unity rectangular_sample_grids 42 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r c none [multprec_roots_of_unity rectangular_sample_grids 42 12 none] [set_size multprec_complex_number_tools 37 13 none]
+G r c none [multprec_roots_of_unity rectangular_sample_grids 42 12 none] [root multprec_complex_numbers_polar 20 12 none]
+G r c none [multprec_roots_of_unity rectangular_sample_grids 42 12 none] [clear multprec_complex_numbers 82 13 5_1]
+X 14 extended_random_numbers.ads
+7K9*Extended_Random_Numbers 29e28 41|5w6 5r47
+26V12*Extended_Random{15|19R8[26|5]} 41|76s23 159s27 272s27
+X 15 generic_complex_numbers.ads
+19R8*Complex_Number 40|197r64[26|5] 41|50r11[26|5] 69r37[26|5] 140r36[26|5]
+. 253r36[26|5] 671r36[26|5] 696r48[26|5] 698r40[26|5] 728r40[26|5]
+25V12*Create{19R8[26|5]} 41|50s54[26|5]
+41U13*Copy 41|200s36[26|5] 639s11[26|5] 640s11[26|5]
+61V13*"-"{19R8[26|5]} 41|581s19[26|5]
+62V13*"*"{19R8[26|5]} 41|677s19[26|5] 678s16[26|5] 703s16[26|5] 704s16[26|5]
+. 733s16[26|5] 734s16[26|5] 736s19[26|5] 737s16[26|5] 740s19[26|5] 741s16[26|5]
+74U13*Add 41|735s5[26|5] 738s5[26|5]
+75U13*Sub 41|679s5[26|5] 705s5[26|5] 742s5[26|5]
+78U13*Div 41|739s5[26|5] 743s5[26|5]
+82U13*Clear 41|57s5[26|5] 77s38[26|5] 158s34[26|5] 160s34[26|5] 271s34[26|5]
+. 273s34[26|5] 680s5[26|5] 706s5[26|5] 735s19[26|5] 738s22[26|5] 742s22[26|5]
+. 744s5[26|5]
+X 16 generic_lists.ads
+12P8*List
+67V12*Length_Of{57|7I8} 41|145s27[42|23] 258s27[42|23] 287s33[42|23] 311s33[42|25]
+. 402s17[42|23] 424s17[42|25] 442s33[42|23] 468s33[42|25] 536s39[42|25]
+72V12*Is_Null{boolean} 41|302s19[42|23] 321s19[42|25] 454s14[42|23] 458s21[42|23]
+. 480s14[42|25] 484s21[42|25] 603s17[42|23] 634s17[42|25] 768s19[42|23] 788s19[42|25]
+77V12*Head_Of{43|17P8} 41|104s32[42|23] 131s32[42|23] 175s32[42|23] 216s32[42|23]
+. 247s32[42|23] 300s34[42|23] 319s34[42|25] 404s25[42|23] 426s25[42|25] 456s53[42|23]
+. 482s53[42|25] 559s36[42|23] 579s36[42|25] 604s16[42|23] 635s16[42|25] 765s58[42|23]
+. 786s58[42|25]
+84V12*Tail_Of{12P8[42|23]} 41|236s17[42|23] 277s17[42|23] 301s16[42|23] 320s16[42|25]
+. 411s14[42|23] 434s14[42|25] 454s22[42|23] 457s18[42|23] 480s22[42|25] 483s18[42|25]
+. 608s16[42|23] 643s16[42|25] 767s16[42|23] 787s16[42|25]
+X 17 generic_matrices.ads
+16A8*Matrix(53|13F8)<56|6I8><56|6I8> 40|92r53[52|5] 94r53[32|5] 100r69[52|5]
+. 102r69[32|5] 130r56[52|5] 132r56[32|5] 142r70[52|5] 144r70[32|5] 215r60[44|5]
+. 219r60[23|5] 41|285r53[52|5] 288r38[52|5] 309r53[32|5] 312r38[32|5] 327r69[52|5]
+. 344r69[32|5] 440r56[52|5] 443r38[52|5] 466r56[32|5] 469r38[32|5] 491r70[52|5]
+. 508r70[32|5] 535r39[32|5] 751r60[44|5] 753r37[44|5] 777r60[23|5] 779r37[23|5]
+66U13*Clear 41|541s32[32|5]
+X 18 generic_vectors.ads
+16A8*Vector(46|11R8)<56|6I8> 40|37r45[50|4] 38r46[30|4] 159r46[50|4] 162r46[30|4]
+. 181r64[50|4] 182r63[50|4] 183r64[30|4] 184r63[30|4] 194r65[50|4] 196r65[30|4]
+. 204r60[50|4] 205r59[50|4] 206r60[30|4] 207r59[30|4] 213r60[50|4] 217r60[30|4]
+. 41|26r64[50|4] 31r36[50|4] 43r69[30|4] 48r36[30|4] 64r45[50|4] 65r46[30|4]
+. 67r36[30|4] 91r46[30|4] 105r47[50|4] 116r53[50|4] 152r55[50|4] 153r55[30|4]
+. 178r49[50|4] 180r49[30|4] 196r55[50|4] 198r55[30|4] 217r47[50|4] 230r53[50|4]
+. 265r55[50|4] 266r55[30|4] 385r12[30|4] 549r46[50|4] 551r36[50|4] 569r46[30|4]
+. 571r36[30|4] 596r36[50|4] 607r50[50|4] 637r42[30|4] 641r52[30|4] 654r64[50|4]
+. 655r63[50|4] 657r36[50|4] 667r64[30|4] 668r63[30|4] 670r36[30|4] 685r49[50|4]
+. 695r49[30|4] 710r60[50|4] 711r59[50|4] 715r11[50|4] 724r60[30|4] 725r59[30|4]
+. 727r36[30|4] 749r60[50|4] 775r60[30|4]
+17P8*Link_to_Vector(16A8[50|4])
+24U13*Copy 41|154s36[30|4] 199s36[30|4] 267s36[30|4]
+35V13*"-"{16A8[50|4]} 41|378s42[50|4] 388s34[30|4]
+42V13*"*"{46|11R8} 41|662s25[50|4] 676s25[30|4]
+71U13*Clear 41|390s5[30|4]
+X 19 generic_vecvecs.ads
+14A8*VecVec(18|17P8[50|4])<56|6I8> 40|40r45[51|5] 41r46[31|5] 171r49[51|5]
+. 174r49[31|5] 41|84r45[51|5] 85r46[31|5] 87r36[31|5] 103r45[51|5] 112r43[51|5]
+. 130r45[51|5] 132r48[31|5] 147r45[51|5] 148r45[31|5] 174r45[51|5] 176r48[31|5]
+. 190r45[51|5] 191r45[31|5] 215r45[51|5] 226r43[51|5] 246r45[51|5] 249r48[31|5]
+. 260r45[51|5] 261r45[31|5] 558r49[51|5] 578r49[31|5] 589r49[51|5] 592r36[51|5]
+. 621r49[31|5] 624r36[31|5]
+X 23 multprec_complex_matrices.ads
+5K9*Multprec_Complex_Matrices[17|9] 40|13w6 219r34 41|777r34 779r11
+X 24 multprec_complex_norms_equals.ads
+5K9*Multprec_Complex_Norms_Equals 40e34 41|8w6 8r47
+17V12*Max_Norm{33|16R8} 41|389s12
+X 25 multprec_complex_number_tools.ads
+6K9*Multprec_Complex_Number_Tools 43e34 41|6w6 6r47
+31V12*Create{15|19R8[26|5]} 41|73s15 157s16 270s16
+37U13*Set_Size 41|53s5
+X 26 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[15|11] 40|10w6 197r39 41|49r9 50r29 69r12 77r13
+. 140r11 158r9 160r9 200r11 253r11 271r9 273r9 573r9 629r9 671r11 673r9 696r23
+. 698r15 700r9 728r15 730r9
+X 27 multprec_complex_numbers_polar.ads
+5K9*Multprec_Complex_Numbers_Polar 27e35 41|7w6 7r47
+20V12*Root{15|19R8[26|5]} 41|55s28
+X 29 multprec_complex_solutions.ads
+20a5*v{18|16A8[30|4]} 41|388r32 388r55 639r34 640r34 786r72
+21r5*err{33|16R8} 41|319r48
+X 30 multprec_complex_vectors.ads
+4K9*Multprec_Complex_Vectors[18|8] 40|11w6 38r21 162r21 183r39 184r38 196r40
+. 206r35 207r34 217r35 41|43r44 48r11 65r21 67r11 91r21 153r30 154r11 180r24
+. 198r30 199r11 266r30 267r11 384r9 569r21 571r11 637r17 641r27 667r39 668r38
+. 670r11 673r34 695r24 724r35 725r34 727r11 730r34 775r35
+X 31 multprec_complex_vecvecs.ads
+5K9*Multprec_Complex_VecVecs[19|10] 40|12w6 41r21 174r24 41|85r21 87r11 132r23
+. 148r20 176r23 191r20 249r23 261r20 578r24 621r24 624r11
+X 32 multprec_floating_matrices.ads
+5K9*Multprec_Floating_Matrices[17|9] 40|5w6 94r26 102r42 132r29 144r43 41|309r26
+. 312r11 344r42 466r29 469r11 508r43 535r12 541r5
+X 33 multprec_floating_numbers.ads
+7K9*Multprec_Floating_Numbers 221e30 40|4w6 4r46
+16R8*Floating_Number 219e13 40|103r33 107r33 113r60 122r54 145r36 149r36
+. 41|345r33 347r11 368r33 381r60 383r11 417r54 419r15 509r36 511r11 532r36
+. 534r11
+24V12*Create{16R8} 41|475s21
+109V13*"<"{boolean} 41|429s19 517s27
+116V13*">"{boolean} 41|353s29
+121U13*Copy 41|350s5 354s15 428s11 430s11 514s5 518s15
+210U13*Clear 41|432s9
+X 40 rectangular_sample_grids.ads
+17K9*Rectangular_Sample_Grids 235l5 235e29 41|10b14 794l5 794t29
+25U13*Set_Polynomial_Type 25>35 41|17b13 21l7 21t26
+25b35 laurent{boolean} 41|17b35 19r39 20r44
+36V12*Extended_Random{18|16A8[30|4]} 37>16 37>53 41|63b12 81l7 81t22 92s24
+37a16 v{18|16A8[50|4]} 41|64b16 67r43 73r22 74r42
+37i53 size{57|7I8} 41|64b53 76r44
+39V12*Extended_Random{19|14A8[31|5]} 40>16 40>53 41|83b12 95l7 95t22 133s15
+. 177s15 250s15
+40a16 v{19|14A8[51|5]} 41|84b16 87r43 92r40
+40i53 size{57|7I8} 41|84b53 92r49
+49V12*Create1{42|28A8} 49>22 49>50 41|99b12 124l7 124t14
+49p22 sps{42|24P8} 41|99b22 104r40 109r15 119r16
+49i50 m{57|7I8} 41|99b50 102r55 105r67 106r38
+51V12*Create1{42|30A8} 51>22 51>50 51>52 41|126b12 168l7 168t14
+51p22 sps{42|24P8} 41|126b22 131r40 139r36 145r37
+51i50 m{57|7I8} 41|126b50 129r55
+51i52 size{57|7I8} 41|126b52 133r35 159r47
+67U13*Create1 67>23 67>54 67>56 68<23 69<23 41|170b13 209l7 209t14
+67p23 sps{42|24P8} 41|170b23 175r40 185r18 202r16
+67i54 m{57|7I8} 41|170b54 178r69 179r40 180r69 181r40 188r27
+67i56 size{57|7I8} 41|170b56 177r35 181r42
+68a23 stgrid{42|28A8} 41|171b23 185m5 187m22 187r22 203m9
+69a23 mpgrid{42|30A8} 41|172b23 187m39 187r39 206m9
+76V12*Triangular_Create1{42|28A8} 77>16 77>44 41|211b12 239l7 239t25
+77p16 sps{42|24P8} 41|211b33 216r40 222r15 223r15
+77i44 m{57|7I8} 41|211b61 214r55 217r67 218r38 224r27
+79V12*Triangular_Create1{42|30A8} 80>16 80>44 80>46 41|241b12 280l7 280t25
+80p16 sps{42|24P8} 41|242b16 247r40 252r36 258r37
+80i44 m{57|7I8} 41|242b44 245r55
+80i46 size{57|7I8} 41|242b46 250r35 272r47
+91V12*Errors{17|16A8[52|5]} 91>21 41|284b12 306l7 306t13 364s26
+91a21 grid{42|28A8} 41|284b21 287r43 287r48 288r45 297r14 298r14
+93V12*Errors{17|16A8[32|5]} 93>21 41|308b12 325l7 325t13 370s26
+93a21 grid{42|30A8} 41|308b21 311r43 311r48 312r45 316r14 317r14
+100V12*Maximal_Error{53|13F8} 100>28 41|327b12 342l7 342t20 364s12
+100a28 grid_errors{17|16A8[52|5]} 41|327b28 331r12 331r24 331r45 334r14 335r16
+. 336r12 337r22
+102V12*Maximal_Error{33|16R8} 102>28 41|344b12 359l7 359t20 370s12
+102a28 grid_errors{17|16A8[32|5]} 41|344b28 350r10 350r22 350r43 351r14 352r16
+. 353r12 354r20
+104V12*Maximal_Error{53|13F8} 104>28 41|361b12 365l7 365t20
+104a28 grid{42|28A8} 41|361b28 364r33
+106V12*Maximal_Error{33|16R8} 106>28 41|367b12 371l7 371t20
+106a28 grid{42|30A8} 41|367b28 370r33
+112V12*Distance{53|13F8} 112>23 112>28 41|373b12 379l7 379t15 404s16
+112p23 spt1{43|17P8} 41|373b23 378r34
+112p28 spt2{43|17P8} 41|373b28 378r57
+113V12*Distance{33|16R8} 113>23 113>28 41|381b12 392l7 392t15 426s16
+113p23 spt1{43|18P8} 41|381b23 385r42 388r26
+113p28 spt2{43|18P8} 41|381b28 388r49
+119V12*Distance{53|13F8} 119>23 119>51 120>23 41|394b12 414l7 414t15 456s23
+119p23 sps{42|24P8} 41|394b23 398r35 402r27
+119i51 i{57|7I8} 41|394b51 403r15
+120p23 spt{43|17P8} 41|395b23 404r38
+121V12*Distance{33|16R8} 121>23 121>51 122>23 41|416b12 437l7 437t15 482s23
+121p23 sps{42|26P8} 41|416b23 420r35 424r27
+121i51 i{57|7I8} 41|416b51 425r15
+122p23 spt{43|18P8} 41|417b23 426r38
+129V12*Distances{17|16A8[52|5]} 129>24 41|439b12 463l7 463t16 528s29
+129a24 grid{42|28A8} 41|439b24 442r43 442r48 443r45 452r14 453r14 456r32
+131V12*Distances{17|16A8[32|5]} 131>24 41|465b12 489l7 489t16 537s13
+131a24 grid{42|30A8} 41|465b24 468r43 468r48 469r45 478r14 479r14 482r32
+142V12*Minimal_Distance{53|13F8} 142>31 41|491b12 506l7 506t23 528s12
+142a31 grid_dist{17|16A8[52|5]} 41|491b31 495r12 495r22 495r41 498r14 499r16
+. 500r12 501r22
+144V12*Minimal_Distance{33|16R8} 144>31 41|508b12 523l7 523t23 540s12
+144a31 grid_dist{17|16A8[32|5]} 41|508b31 514r10 514r20 514r39 515r14 516r16
+. 517r12 518r20
+146V12*Minimal_Distance{53|13F8} 146>31 41|525b12 529l7 529t23
+146a31 grid{42|28A8} 41|525b31 528r39
+148V12*Minimal_Distance{33|16R8} 148>31 41|531b12 543l7 543t23
+148a31 grid{42|30A8} 41|531b31 536r15 536r49 536r54 537r23
+157V12*Abscisses{18|16A8[50|4]} 158>16 158>55 41|547b12 565l7 565t16
+158a16 grid{42|28A8} 41|548b16 559r44
+158i55 i{57|7I8} 41|548b55 551r56 556r27
+160V12*Abscisses{18|16A8[30|4]} 161>16 161>55 41|567b12 585l7 585t16
+161a16 grid{42|30A8} 41|568b16 579r44
+161i55 i{57|7I8} 41|568b55 571r56 576r27
+169V12*Extract_Samples{19|14A8[51|5]} 170>19 41|587b12 617l7 617t22
+170a19 grid{42|28A8} 41|588b19 591r31 601r14 602r14
+172V12*Extract_Samples{19|14A8[31|5]} 173>19 41|619b12 652l7 652t22
+173a19 grid{42|30A8} 41|620b19 623r31 632r14 633r14
+181V12*Rotate_and_Project{18|16A8[50|4]} 181>33 181>35 41|654b12 665l7 665t25
+181a33 v{18|16A8[50|4]} 41|654b33 662r15 663r15 663r27
+181a35 x{18|16A8[50|4]} 41|654b35 662r17 662r26 663r20 663r32
+183V12*Rotate_and_Project{18|16A8[30|4]} 183>33 183>35 41|667b12 682l7 682t25
+183a33 v{18|16A8[30|4]} 41|667b33 676r15 677r15 678r12
+183a35 x{18|16A8[30|4]} 41|667b35 676r17 676r26 677r20 678r17
+194V12*Rotate_and_Project2{46|11R8} 194>34 194>36 41|684b12 692l7 692t26
+. 765s21
+194a34 v{18|16A8[50|4]} 41|685b18 691r12 691r24
+194a36 x{18|16A8[50|4]} 41|685b20 691r17 691r29
+196V12*Rotate_and_Project2{15|19R8[26|5]} 196>34 196>36 41|694b12 708l7 708t26
+. 786s21
+196a34 v{18|16A8[30|4]} 41|695b18 703r12 704r12
+196a36 x{18|16A8[30|4]} 41|695b20 703r17 704r17
+204V12*Inverse_Rotate{18|16A8[50|4]} 204>29 204>31 41|710b12 722l7 722t21
+204a29 v{18|16A8[50|4]} 41|710b29 716r29 716r34 716r41 716r46 719r21 719r33
+. 720r16 720r28
+204a31 z{18|16A8[50|4]} 41|710b31 719r16 719r28 720r21 720r33
+206V12*Inverse_Rotate{18|16A8[30|4]} 206>29 206>31 41|724b12 746l7 746t21
+206a29 v{18|16A8[30|4]} 41|724b29 733r12 733r17 734r12 734r17 736r20 737r17
+. 740r15 741r12
+206a31 z{18|16A8[30|4]} 41|724b31 736r15 737r12 740r20 741r17
+212V12*Rotate_Samples{17|16A8[44|5]} 212>29 212>31 213>29 214>29 41|748b12
+. 772l7 772t21
+212i29 d{57|7I8} 41|748b29 753r57 764r29
+212i31 k{57|7I8} 41|748b31 753r73 762r27
+213a29 rot{18|16A8[50|4]} 41|749b29 765r41
+214a29 grid{42|28A8} 41|750b29 763r14
+216V12*Rotate_Samples{17|16A8[23|5]} 216>29 216>31 217>29 218>29 41|774b12
+. 792l7 792t21
+216i29 d{57|7I8} 41|774b29 779r57 785r29
+216i31 k{57|7I8} 41|774b31 779r73 783r27
+217a29 rot{18|16A8[30|4]} 41|775b29 786r41
+218a29 grid{42|30A8} 41|776b29 784r14
+X 41 rectangular_sample_grids.adb
+25V12 Standard_Roots_of_Unity{18|16A8[50|4]} 25b12 26>16 40l7 40t30 106s14
+. 179s16 218s14
+26i16 d{57|7I8} 31r56 36r17 37r37
+31a5 res{18|16A8[50|4]} 37m7 39r12
+33r5 one{46|11R8} 37r33
+36i9 i<long_integer> 37r21 37r39
+42V12 Multprec_Roots_of_Unity{18|16A8[30|4]} 42b12 43>16 43>18 59l7 59t30
+. 181s16
+43i16 d{57|7I8} 48r56 54r17 55r37
+43i18 size{57|7I8} 53r18
+48a5 res{18|16A8[30|4]} 55m7 58r12
+50r5 one{15|19R8[26|5]} 53m14 53r14 55r33 57m11 57r11
+54i9 i<long_integer> 55r21 55r39
+67a5 res{18|16A8[30|4]} 72r14 75m13 76m13 80r12
+68f5 tol{53|13F8} 74r50
+69r5 mpvi{15|19R8[26|5]} 73m7 75r23 76r39 77m44 77r44
+72i9 i<long_integer> 73r24 74r44 75r17 76r17
+87a5 res{19|14A8[31|5]} 90r14 91m7 94r12
+90i9 i<long_integer> 91r11 92r42
+102a5 res{42|28A8} 109m5 110r17 120m9 123r12
+103a5 sli{19|14A8[51|5]} 112r50 115r18 116r61
+105a5 roots{18|16A8[50|4]} 118r25
+110i9 i<long_integer> 118r31 120r13
+112a9 newsli{19|14A8[51|5]} 116m11 118m9 118r9 119r20
+113p9 newsps{42|24P8} 119m27 119r27 120r19
+113p16 newsps_last{42|24P8} 119m34 119r34
+115i13 j<long_integer> 116r18 116r65
+129a5 res{42|30A8} 143m34 143r34 163m9 167r12
+130a5 sli{19|14A8[51|5]} 132r55 133r31 147r52 148r52 151r18 152r63
+132a5 extsli{19|14A8[31|5]} 143r27 153r62 154r41
+138p5 grid0_last{42|26P8} 143m41 143r41
+139p5 sps1{42|24P8} 143m22 143r22 161r26
+140r5 mpc{15|19R8[26|5]} 157m9 159r43 160m40 160r40
+145i9 i<long_integer> 163r13
+147a9 newstsli{19|14A8[51|5]} 152m11 156m9 156r9 157r23 161r31
+148a9 newmpsli{19|14A8[31|5]} 153m11 154r55 158r40 159m9 159r9 161r40
+149p9 newsps{42|26P8} 161m49 161r49 163r19
+149p16 newsps_last{42|26P8} 161m56 161r56
+151i13 j<long_integer> 152r20 152r67 153r20 153r69 154r48 154r64
+174a5 sli{19|14A8[51|5]} 176r55 177r31 190r52 191r52 195r18 196r63
+176a5 extsli{19|14A8[31|5]} 187r32 198r62 199r41
+178a5 stroots{18|16A8[50|4]} 197r29
+180a5 mproots{18|16A8[30|4]} 200r41
+182p5 mpgrid0_last{42|26P8} 187m49 187r49
+188i9 i<long_integer> 197r37 200r49 203r16 206r16
+190a9 newstsli{19|14A8[51|5]} 196m11 197m11 197r11 202r20
+191a9 newmpsli{19|14A8[31|5]} 198m11 199r55 200r52 205r33
+192p9 newsps{42|24P8} 202m29 202r29 203r22 205m26 205r26
+192p16 newsps_last{42|24P8} 202m36 202r36
+193p9 refsps{42|26P8} 205m42 205r42 206r22
+193p16 refsps_last{42|26P8} 205m49 205r49
+195i13 j<long_integer> 196r20 196r67 197r20 198r20 198r69 199r48 199r64 200r61
+214a5 res{42|28A8} 222m5 234m9 238r12
+215a5 sli{19|14A8[51|5]} 226r50 229r18 230r61
+217a5 roots{18|16A8[50|4]} 232r25
+219p5 wrksps{42|24P8} 223m5 233r16 236m7 236r25
+224i9 i<long_integer> 232r31 234r13
+226a9 newsli{19|14A8[51|5]} 230m11 232m9 232r9 233r23
+227p9 newsps{42|24P8} 233m30 233r30 234r19
+227p16 newsps_last{42|24P8} 233m37 233r37
+229i13 j<long_integer> 230r18 230r65
+245a5 res{42|30A8} 256m34 256r34 275m9 279r12
+246a5 sli{19|14A8[51|5]} 249r55 250r31 260r52 261r52 264r18 265r63
+248p5 wrksps{42|24P8} 257m5 274r26 277m7 277r25
+249a5 extsli{19|14A8[31|5]} 256r27 266r62 267r41
+251p5 grid0_last{42|26P8} 256m41 256r41
+252p5 sps1{42|24P8} 256m22 256r22 257r15
+253r5 mpc{15|19R8[26|5]} 270m9 272r43 273m40 273r40
+258i9 i<long_integer> 275r13
+260a9 newstsli{19|14A8[51|5]} 265m11 269m9 269r9 270r23 274r33
+261a9 newmpsli{19|14A8[31|5]} 266m11 267r55 271r40 272m9 272r9 274r42
+262p9 newsps{42|26P8} 274m51 274r51 275r19
+262p16 newsps_last{42|26P8} 274m58 274r58
+264i13 j<long_integer> 265r20 265r67 266r20 266r69 267r48 267r64
+287i5 len{57|7I8} 288r69 299r29
+288a5 res{17|16A8[52|5]} 292r14 293r16 294m9 300m9 305r12
+289p5 tmp{42|24P8} 298m7 300r42 301m9 301r24 302r27
+292i9 i<long_integer> 294r13
+293i11 j<long_integer> 294r15
+297i9 i<long_integer> 298r19 300r13
+299i11 j<long_integer> 300r15
+311i5 len{57|7I8} 312r69 318r29
+312a5 res{17|16A8[32|5]} 319m9 324r12
+313p5 tmp{42|26P8} 317m7 319r42 320m9 320r24 321r27
+316i9 i<long_integer> 317r19 319r13
+318i11 j<long_integer> 319r15
+330f5 max{53|13F8} 336r31 337m15 341r12
+334i9 i<long_integer> 336r24 337r34
+335i11 j<long_integer> 336r26 337r36
+347r5 max{33|16R8} 350m65 350r65 353r31 354m37 354r37 358r12
+351i9 i<long_integer> 353r24 354r32
+352i11 j<long_integer> 353r26 354r34
+383r5 res{33|16R8} 389m5 391r12
+385a5 diff{18|16A8[30|4]} 388m5 389r21 390m11 390r11
+397f5 res{53|13F8} 406m11 407r21 408m11 413r12
+397f9 dst{53|13F8} 404m9 406r18 407r15 408r18
+398p5 tmp{42|24P8} 404r33 411m7 411r22
+399b5 first{boolean} 405r12 406m23
+402i9 j<long_integer> 403r10
+419r5 res{33|16R8} 428m20 428r20 429r21 430m20 430r20 436r12
+419r9 dst{33|16R8} 426m9 428r16 429r15 430r16 432m15 432r15
+420p5 tmp{42|26P8} 426r33 434m7 434r22
+421b5 first{boolean} 427r12 428m26
+424i9 j<long_integer> 425r10
+442i5 len{57|7I8} 443r69 455r31
+443a5 res{17|16A8[52|5]} 447r14 448r16 449m9 456m11 462r12
+444p5 tmp{42|24P8} 453m7 454r30 456r61 457m11 457r26 458r29
+447i9 i<long_integer> 449r13
+448i11 j<long_integer> 449r15
+452i9 i<long_integer> 453r19 456r15 456r37
+455i13 j<long_integer> 456r17 456r50
+468i5 len{57|7I8} 469r69 481r31
+469a5 res{17|16A8[32|5]} 473r14 474r16 475m9 482m11 488r12
+470p5 tmp{42|26P8} 479m7 480r30 482r61 483m11 483r26 484r29
+473i9 i<long_integer> 475r13
+474i11 j<long_integer> 475r15
+478i9 i<long_integer> 479r19 482r15 482r37
+481i13 j<long_integer> 482r17 482r50
+494f5 min{53|13F8} 500r29 501m15 505r12
+498i9 i<long_integer> 500r22 501r32
+499i11 j<long_integer> 500r24 501r34
+511r5 min{33|16R8} 514m59 514r59 517r29 518m35 518r35 522r12
+515i9 i<long_integer> 517r22 518r30
+516i11 j<long_integer> 517r24 518r32
+534r5 res{33|16R8} 540m5 542r12
+535a5 dist{17|16A8[32|5]} 540r29 541m38 541r38
+551a5 res{18|16A8[50|4]} 561m9 564r12
+556i9 j<long_integer> 559r49 561r13
+558a9 hyp{19|14A8[51|5]} 561r20 561r24
+571a5 res{18|16A8[30|4]} 581m9 584r12
+576i9 j<long_integer> 579r49 581r13
+578a9 hyp{19|14A8[31|5]} 581r20 581r24
+591i5 d{56|6I8} 592r46 592r49 609r20
+592a5 res{19|14A8[51|5]} 607m9 610r18 611r26 616r12
+593p5 tmp{42|24P8} 602m7 603r25 604r24 608m9 608r24
+594p5 spt{43|17P8} 604m9 605r32 606r32
+595i5 ind{56|6I8} 607r13 609m9 609r16 610r12 611m11 611r18 612m11 612r18
+596a5 rpx{18|16A8[50|4]} 605m9 606m9 607r58
+601i9 i<long_integer> 602r19
+623i5 d{56|6I8} 624r46 624r49 644r20
+624a5 res{19|14A8[31|5]} 641m11 645r18 646r26 651r12
+625p5 tmp{42|26P8} 633m7 634r25 635r24 643m9 643r24
+626p5 spt{43|18P8} 635m9 639r29 640r29
+627i5 ind{56|6I8} 641r15 644m9 644r16 645r12 646m11 646r18 647m11 647r18
+632i9 i<long_integer> 633r19
+637a11 rpx{18|16A8[30|4]} 639m39 639r39 640m39 640r39 641r60
+657a5 res{18|16A8[50|4]} 662m5 663m5 664r12
+670a5 res{18|16A8[30|4]} 676m5 677m5 679m9 679r9 681r12
+671r5 acc{15|19R8[26|5]} 678m5 679r16 680m11 680r11
+698r5 res{15|19R8[26|5]} 703m5 705m9 705r9 707r12
+698r9 acc{15|19R8[26|5]} 704m5 705r13 706m11 706r11
+715a5 res{18|16A8[50|4]} 719m5 720m5 721r12
+716r5 det{46|11R8} 719r39 720r39
+727a5 res{18|16A8[30|4]} 736m5 738m9 738r9 739m9 739r9 740m5 742m9 742r9
+. 743m9 743r9 745r12
+728r5 acc{15|19R8[26|5]} 734m5 735r13 735m25 735r25 737m5 738r16 738m28 738r28
+. 741m5 742r16 742m28 742r28
+728r9 det{15|19R8[26|5]} 733m5 735m9 735r9 739r16 743r16 744m11 744r11
+753a5 res{17|16A8[44|5]} 757r14 758r16 759m9 765m9 771r12
+754p5 tmp{42|24P8} 763m7 765r66 767m9 767r24 768r27
+757i9 i<long_integer> 759r13
+758i11 j<long_integer> 759r15
+762i9 j<long_integer> 763r19 765r15
+764i11 i<long_integer> 765r13
+779a5 res{17|16A8[23|5]} 786m9 791r12
+780p5 tmp{42|26P8} 784m7 786r66 787m9 787r24 788r27
+783i9 j<long_integer> 784r19 786r15
+785i11 i<long_integer> 786r13
+X 42 sample_point_lists.ads
+14K9*Sample_Point_Lists 40|15w6 15r46 41|20r5 42|247e23
+24P8*Standard_Sample_List<16|12P8[23]> 40|49r28 51r28 67r32 77r22 80r22 119r29
+. 41|99r28 113r30 126r28 139r12 170r32 192r30 211r39 219r14 227r30 242r22
+. 248r14 252r12 289r11 394r29 398r11 444r11 593r11 754r11
+26P8*Multprec_Sample_List<16|12P8[25]> 40|121r29 41|138r18 149r30 182r20
+. 193r30 251r18 262r30 313r11 416r29 420r11 470r11 625r11 780r11
+28A8*Array_of_Standard_Sample_Lists(24P8)<56|6I8> 40|50r27 68r36 78r21 91r28
+. 104r35 129r31 146r38 158r23 170r26 214r36 41|100r27 102r11 171r36 212r38
+. 214r11 284r28 361r35 439r31 525r38 548r23 588r26 750r36
+30A8*Array_of_Multprec_Sample_Lists(26P8)<56|6I8> 40|52r27 69r36 81r21 93r28
+. 106r35 131r31 148r38 161r23 173r26 218r36 41|127r27 129r11 172r36 243r21
+. 245r11 308r28 367r35 465r31 531r38 568r23 620r26 776r36
+35U13*Set_Polynomial_Type 41|20s24
+92U13*Sample 41|119s9 202s9 233s9
+98U13*Sample_on_Slices 41|161s9 274s9
+137U13*Refine_on_Slices 41|143s5 187s5 205s9 256s5
+X 43 sample_points.ads
+8K9*Sample_Points 40|14w6 14r46 41|19r5 43|218e18
+17P8*Standard_Sample 40|112r35 120r29 41|373r35 395r29 594r11
+18P8*Multprec_Sample 40|113r35 122r29 41|381r35 417r29 626r11
+27U13*Set_Polynomial_Type 41|19s19
+149V12*Number_of_Variables{56|6I8} 41|385s22
+162V12*Sample_Point{49|16R8} 41|300s21 378s21 378s44 605s19 606s19 765s45
+164V12*Sample_Point{29|17R8} 41|319s21 388s13 388s36 639s16 640s16 786s45
+173V12*Hyperplane_Sections{19|14A8[51|5]} 41|104s12 131s12 175s12 216s12
+. 247s12 559s16
+175V12*Hyperplane_Sections{19|14A8[31|5]} 41|579s16
+X 44 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[17|9] 40|9w6 215r34 41|751r34 753r11
+X 45 standard_complex_norms_equals.ads
+6K9*Standard_Complex_Norms_Equals 41|3w6 3r47 45|57e34
+29V12*Max_Norm{53|13F8} 41|378s12
+X 46 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 40|6w6 195r39 41|32r9 74r10 553r9 598r9 659r9
+. 686r23 688r9 713r9 759r21 46|92e29
+11R8*Complex_Number 40|195r64 41|33r20 686r48 716r11 46|90e15
+18V12*Create{11R8} 41|33s38 759s46
+27V12*AbsVal{53|13F8} 41|74s35
+51V13*"+"{11R8} 41|716s39 719s26
+53V13*"-"{11R8} 41|663s25 691s22 720s26
+54V13*"-"{11R8} 41|561s19
+55V13*"*"{11R8} 41|663s19 663s31 691s16 691s28 716s33 716s45 719s20 719s32
+. 720s20 720s32
+56V13*"/"{11R8} 41|719s38 720s38
+X 47 standard_complex_numbers_polar.ads
+6K9*Standard_Complex_Numbers_Polar 41|2w6 2r47 47|40e35
+21V12*Root{46|11R8} 41|37s28
+X 49 standard_complex_solutions.ads
+19a5*v{18|16A8[50|4]} 41|378r40 378r63 605r37 606r37 765r72
+20f5*err{53|13F8} 41|300r48
+X 50 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[18|8] 40|7w6 37r20 159r21 181r39 182r38 194r40
+. 204r35 205r34 213r35 41|26r39 31r11 64r20 105r22 116r28 152r30 178r24 196r30
+. 217r22 230r28 265r30 375r9 549r21 551r11 596r11 598r34 607r25 629r34 654r39
+. 655r38 657r11 659r34 685r24 710r35 711r34 713r34 749r35
+X 51 standard_complex_vecvecs.ads
+5K9*Standard_Complex_VecVecs[19|10] 40|8w6 40r20 171r24 41|84r20 103r20 112r18
+. 130r20 147r20 174r20 190r20 215r20 226r18 246r20 260r20 558r24 589r24 592r11
+X 52 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[17|9] 40|3w6 92r26 100r42 130r29 142r43 41|285r26
+. 288r11 327r42 440r29 443r11 491r43
+X 53 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 40|2w6 2r46 53|58e30
+13F8*double_float<long_float> 40|101r33 105r33 112r60 120r54 143r36 147r36
+. 41|68r20 328r33 330r11 362r33 373r60 395r54 397r15 492r36 494r11 526r36
+X 56 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 41|1w6 1r47 56|45e29
+6I8*integer32<long_integer> 41|31r46 37r11 48r46 55r11 102r45 105r57 129r45
+. 145r17 178r59 180r59 188r17 214r45 217r57 224r17 245r45 258r17 288r59 299r19
+. 312r59 318r19 443r59 455r21 469r59 481r21 536r29 551r46 556r17 571r46 576r17
+. 591r18 595r11 623r18 627r11 753r47 753r63 762r17 764r19 779r47 779r63 783r17
+. 785r19
+X 57 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 40|1w6 1r46 57|30e29
+7I8*natural32<long_integer> 40|37r60 40r60 49r54 51r59 67r63 77r48 80r53
+. 119r55 121r55 158r59 161r59 212r35 216r35 41|26r20 43r25 64r60 84r60 99r54
+. 126r59 170r63 211r65 242r53 287r20 311r20 394r55 416r55 442r20 456r40 468r20
+. 482r40 548r59 568r59 748r35 774r35
+X 60 standard_random_numbers.ads
+6K9*Standard_Random_Numbers 41|4w6 4r47 60|112e28
+90V12*Random1{46|11R8} 41|156s27 269s27
+

@@ -1,0 +1,162 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multprec_power_traces%b  multprec_power_traces.adb  6fa1b17e NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U multprec_power_traces%s  multprec_power_traces.ads  0cdc1373 EE NE OO PK
+W multprec_complex_numbers%s  multprec_complex_numbers.ads  multprec_complex_numbers.ali
+W multprec_complex_vectors%s  multprec_complex_vectors.ads  multprec_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D multprec_power_traces.ads  20260513024556 b764aa0d multprec_power_traces%s
+D multprec_power_traces.adb  20260513024556 d8c51b73 multprec_power_traces%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+G a e
+G c Z s b [power_sums_to_trace multprec_power_traces 25 12 none]
+G c Z s b [traces_to_power_sum multprec_power_traces 32 12 none]
+G c Z s b [power_sums_to_traces multprec_power_traces 39 12 none]
+G c Z s b [traces_to_power_sums multprec_power_traces 45 12 none]
+G r s complex_number [power_sums_to_trace multprec_power_traces 25 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [create multprec_complex_numbers 24 12 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [div multprec_complex_numbers 78 13 5_1]
+G r c none [power_sums_to_trace multprec_power_traces 25 12 none] [min multprec_complex_numbers 76 13 5_1]
+G r s complex_number [traces_to_power_sum multprec_power_traces 32 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [create multprec_complex_numbers 24 12 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [mul multprec_complex_numbers 77 13 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [traces_to_power_sum multprec_power_traces 32 12 none] [min multprec_complex_numbers 76 13 5_1]
+G r s vector [power_sums_to_traces multprec_power_traces 39 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r s complex_number [power_sums_to_traces multprec_power_traces 39 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [create multprec_complex_numbers 24 12 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [div multprec_complex_numbers 78 13 5_1]
+G r c none [power_sums_to_traces multprec_power_traces 39 12 none] [min multprec_complex_numbers 76 13 5_1]
+G r s vector [traces_to_power_sums multprec_power_traces 45 12 none] [vectorIP multprec_complex_vectors 16 8 4_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [create multprec_complex_numbers 25 12 5_1]
+G r s complex_number [traces_to_power_sums multprec_power_traces 45 12 none] [complex_numberIP multprec_complex_numbers 86 8 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [copy multprec_complex_numbers 41 13 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [create multprec_complex_numbers 24 12 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [mul multprec_complex_numbers 77 13 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [clear multprec_complex_numbers 82 13 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [Omultiply multprec_complex_numbers 62 12 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [add multprec_complex_numbers 74 13 5_1]
+G r c none [traces_to_power_sums multprec_power_traces 45 12 none] [min multprec_complex_numbers 76 13 5_1]
+X 12 generic_complex_numbers.ads
+19R8*Complex_Number 25|26r53[16|5] 33r53[16|5] 26|4r53[16|5] 6r15[16|5] 23r53[16|5]
+. 25r15[16|5]
+24V12*Create{19R8[16|5]} 26|15s12[16|5] 29s12[16|5]
+25V12*Create{19R8[16|5]} 26|46s19[16|5] 58s19[16|5]
+41U13*Copy 26|9s5[16|5] 28s5[16|5]
+62V13*"*"{19R8[16|5]} 26|11s18[16|5] 33s18[16|5]
+74U13*Add 26|12s7[16|5] 34s7[16|5]
+76U13*Min 26|18s5[16|5] 37s5[16|5]
+77U13*Mul 26|30s5[16|5]
+78U13*Div 26|16s5[16|5]
+82U13*Clear 26|13s7[16|5] 17s5[16|5] 31s5[16|5] 35s7[16|5]
+X 13 generic_vectors.ads
+16A8*Vector(12|19R8[16|5])<28|6I8> 25|26r22[18|4] 33r22[18|4] 39r39[18|4]
+. 39r55[18|4] 45r39[18|4] 45r55[18|4] 26|4r22[18|4] 23r22[18|4] 41r39[18|4]
+. 41r55[18|4] 43r9[18|4] 53r39[18|4] 53r55[18|4] 55r9[18|4]
+X 16 multprec_complex_numbers.ads
+5K9*Multprec_Complex_Numbers[12|11] 25|2w6 2r45
+X 18 multprec_complex_vectors.ads
+4K9*Multprec_Complex_Vectors[13|8] 25|3w6 3r45
+X 25 multprec_power_traces.ads
+5K9*Multprec_Power_Traces 51l5 51e26 26|1b14 65l5 65t26
+25V12*Power_Sums_to_Trace{12|19R8[16|5]} 26>16 26>18 26>30 26|3b12 20l7 20t26
+. 48s15
+26a16 s{13|16A8[18|4]} 26|4b16 9r10 11r14
+26a18 t{13|16A8[18|4]} 26|4b18 11r19
+26i30 k{28|6I8} 26|4b30 9r12 10r17 11r21 15r19
+32V12*Traces_to_Power_Sum{12|19R8[16|5]} 33>16 33>18 33>30 26|22b12 39l7
+. 39t26 60s15
+33a16 t{13|16A8[18|4]} 26|23b16 28r10 33r19
+33a18 s{13|16A8[18|4]} 26|23b18 33r14
+33i30 k{28|6I8} 26|23b30 28r12 29r19 32r17 33r21
+39V12*Power_Sums_to_Traces{13|16A8[18|4]} 39>35 26|41b12 51l7 51t27
+39a35 s{13|16A8[18|4]} 26|41b35 43r16 47r14 48r35
+45V12*Traces_to_Power_Sums{13|16A8[18|4]} 45>35 26|53b12 63l7 63t27
+45a35 t{13|16A8[18|4]} 26|53b35 55r16 59r14 60r35
+X 26 multprec_power_traces.adb
+6r5 sum{12|19R8[16|5]} 9m15 9r15 12m11 12r11 16m9 16r9 18m9 18r9 19r12
+6r9 acc{12|19R8[16|5]} 11m7 12r15 13m13 13r13 15m5 16r13 17m11 17r11
+10i9 i<long_integer> 11r16 11r23
+25r5 sum{12|19R8[16|5]} 28m15 28r15 30m9 30r9 34m11 34r11 37m9 37r9 38r12
+25r9 acc{12|19R8[16|5]} 29m5 30r13 31m11 31r11 33m7 34r15 35m13 35r13
+32i9 i<long_integer> 33r16 33r23
+43a5 t{13|16A8[18|4]} 46m5 46r7 48m7 48r37 50r12
+47i9 i<long_integer> 48r9 48r39
+55a5 s{13|16A8[18|4]} 58m5 58r7 60m7 60r37 62r12
+59i9 i<long_integer> 60r9 60r39
+X 28 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 25|1w6 1r45 28|45e29
+6I8*integer32<long_integer> 25|26r34 33r34 26|4r34 23r34
+

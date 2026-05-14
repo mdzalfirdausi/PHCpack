@@ -1,0 +1,1682 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U cells_interface%b	cells_interface.adb	812547b3 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W arrays_of_floating_vector_lists%s  arrays_of_floating_vector_lists.ads  arrays_of_floating_vector_lists.ali
+W arrays_of_integer_vector_lists%s  arrays_of_integer_vector_lists.ads  arrays_of_integer_vector_lists.ali
+W assignments_in_ada_and_c%s  assignments_in_ada_and_c.adb  assignments_in_ada_and_c.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W dobldobl_complex_laur_systems%s  dobldobl_complex_laur_systems.ads  dobldobl_complex_laur_systems.ali
+W dobldobl_complex_poly_systems%s  dobldobl_complex_poly_systems.ads  dobldobl_complex_poly_systems.ali
+W dobldobl_complex_poly_systems_io%s  dobldobl_complex_poly_systems_io.adb  dobldobl_complex_poly_systems_io.ali
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W dobldobl_laursys_container%s  dobldobl_laursys_container.adb  dobldobl_laursys_container.ali
+W dobldobl_polysys_container%s  dobldobl_polysys_container.adb  dobldobl_polysys_container.ali
+W dobldobl_solutions_container%s  dobldobl_solutions_container.adb  dobldobl_solutions_container.ali
+W double_cells_container%s  double_cells_container.adb  double_cells_container.ali
+W floating_integer_convertors%s  floating_integer_convertors.adb  floating_integer_convertors.ali
+W floating_lifting_functions%s  floating_lifting_functions.adb  floating_lifting_functions.ali
+W floating_lifting_utilities%s  floating_lifting_utilities.adb  floating_lifting_utilities.ali
+W floating_mixed_subdivisions%s  floating_mixed_subdivisions.adb  floating_mixed_subdivisions.ali
+W floating_mixed_subdivisions_io%s  floating_mixed_subdivisions_io.adb  floating_mixed_subdivisions_io.ali
+W induced_permutations%s  induced_permutations.adb  induced_permutations.ali
+W integer_cells_container%s  integer_cells_container.adb  integer_cells_container.ali
+W integer_lifting_utilities%s  integer_lifting_utilities.adb  integer_lifting_utilities.ali
+W integer_mixed_subdivisions%s  integer_mixed_subdivisions.adb  integer_mixed_subdivisions.ali
+W integer_mixed_subdivisions_io%s  integer_mixed_subdivisions_io.adb  integer_mixed_subdivisions_io.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W lists_of_floating_vectors%s  lists_of_floating_vectors.ads  lists_of_floating_vectors.ali
+W lists_of_integer_vectors%s  lists_of_integer_vectors.ads  lists_of_integer_vectors.ali
+W mixed_volume_computation%s  mixed_volume_computation.adb  mixed_volume_computation.ali
+W phcpack_operations%s	phcpack_operations.adb	phcpack_operations.ali
+W quaddobl_complex_laur_systems%s  quaddobl_complex_laur_systems.ads  quaddobl_complex_laur_systems.ali
+W quaddobl_complex_poly_systems%s  quaddobl_complex_poly_systems.ads  quaddobl_complex_poly_systems.ali
+W quaddobl_complex_poly_systems_io%s  quaddobl_complex_poly_systems_io.adb  quaddobl_complex_poly_systems_io.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W quaddobl_laursys_container%s  quaddobl_laursys_container.adb  quaddobl_laursys_container.ali
+W quaddobl_polysys_container%s  quaddobl_polysys_container.adb  quaddobl_polysys_container.ali
+W quaddobl_solutions_container%s  quaddobl_solutions_container.adb  quaddobl_solutions_container.ali
+W standard_complex_laur_systems%s  standard_complex_laur_systems.ads  standard_complex_laur_systems.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_poly_systems_io%s  standard_complex_poly_systems_io.adb  standard_complex_poly_systems_io.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_laursys_container%s  standard_laursys_container.adb  standard_laursys_container.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_polysys_container%s  standard_polysys_container.adb  standard_polysys_container.ali
+W standard_solutions_container%s  standard_solutions_container.adb  standard_solutions_container.ali
+W supports_of_polynomial_systems%s  supports_of_polynomial_systems.adb  supports_of_polynomial_systems.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U cells_interface%s	cells_interface.ads	5f9a856c EE NE OO PK
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D arrays_of_floating_vector_lists.ads  20260513024558 692438df arrays_of_floating_vector_lists%s
+D arrays_of_integer_vector_lists.ads  20260513024558 1062c910 arrays_of_integer_vector_lists%s
+D assignments_in_ada_and_c.ads  20260513024558 9973cc07 assignments_in_ada_and_c%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D cells_interface.ads	20260513024556 aa566614 cells_interface%s
+D cells_interface.adb	20260513024556 bbaad8db cells_interface%b
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D dobldobl_complex_jaco_matrices.ads  20260513024558 835481de dobldobl_complex_jaco_matrices%s
+D dobldobl_complex_laur_functions.ads  20260513024558 21d985d5 dobldobl_complex_laur_functions%s
+D dobldobl_complex_laur_jacomats.ads  20260513024558 0db367b1 dobldobl_complex_laur_jacomats%s
+D dobldobl_complex_laur_sysfun.ads  20260513024558 7bfc0ee3 dobldobl_complex_laur_sysfun%s
+D dobldobl_complex_laur_systems.ads  20260513024558 306c2e67 dobldobl_complex_laur_systems%s
+D dobldobl_complex_laurentials.ads  20260513024558 041a8972 dobldobl_complex_laurentials%s
+D dobldobl_complex_matrices.ads  20260513024558 6c70dcc1 dobldobl_complex_matrices%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_poly_functions.ads  20260513024558 c33d968a dobldobl_complex_poly_functions%s
+D dobldobl_complex_poly_sysfun.ads  20260513024558 d88794b5 dobldobl_complex_poly_sysfun%s
+D dobldobl_complex_poly_systems.ads  20260513024558 1cc767a4 dobldobl_complex_poly_systems%s
+D dobldobl_complex_poly_systems_io.ads  20260513024558 e2b75c7f dobldobl_complex_poly_systems_io%s
+D dobldobl_complex_polynomials.ads  20260513024558 6a18d9c1 dobldobl_complex_polynomials%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_ring-ffield.ads  20260513024558 916869d0 dobldobl_complex_ring.ffield%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_complex_vecvecs.ads  20260513024558 10a3a3c4 dobldobl_complex_vecvecs%s
+D dobldobl_laursys_container.ads  20260513024556 00e182ef dobldobl_laursys_container%s
+D dobldobl_polysys_container.ads  20260513024556 77220fe7 dobldobl_polysys_container%s
+D dobldobl_solutions_container.ads  20260513024556 b15bef65 dobldobl_solutions_container%s
+D double_cells_container.ads  20260513024556 619bd057 double_cells_container%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_ring.ads  20260513024558 2b06ea65 double_double_ring%s
+D double_double_vectors.ads  20260513024558 ffed19bd double_double_vectors%s
+D floating_faces_of_polytope.ads  20260513024558 3104a49b floating_faces_of_polytope%s
+D floating_integer_convertors.ads  20260513024558 916e6b48 floating_integer_convertors%s
+D floating_lifting_functions.ads  20260513024558 201836a4 floating_lifting_functions%s
+D floating_lifting_utilities.ads  20260513024558 702175a3 floating_lifting_utilities%s
+D floating_mixed_subdivisions.ads  20260513024558 bc3e2850 floating_mixed_subdivisions%s
+D floating_mixed_subdivisions_io.ads  20260513024558 8ecaaee4 floating_mixed_subdivisions_io%s
+D generic_arrays_of_vector_lists.ads  20260513024558 eca5d222 generic_arrays_of_vector_lists%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_laur_jaco_matrices.ads  20260513024558 2a609a16 generic_laur_jaco_matrices%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_lists_of_vectors.ads  20260513024558 646b2aaa generic_lists_of_vectors%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D induced_permutations.ads  20260513024558 24b9a3d1 induced_permutations%s
+D integer_cells_container.ads  20260513024556 416dd393 integer_cells_container%s
+D integer_lifting_utilities.ads  20260513024558 15edb4e3 integer_lifting_utilities%s
+D integer_mixed_subdivisions.ads  20260513024558 ed6fb1b5 integer_mixed_subdivisions%s
+D integer_mixed_subdivisions_io.ads  20260513024558 91024f04 integer_mixed_subdivisions_io%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D lists_of_floating_vectors.ads  20260513024558 ac5cfddf lists_of_floating_vectors%s
+D lists_of_integer_vectors.ads  20260513024558 0dd4e793 lists_of_integer_vectors%s
+D mixed_volume_computation.ads  20260513024558 d4e144f7 mixed_volume_computation%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_poly_systems.ads  20260513024558 ff1af8f0 multprec_complex_poly_systems%s
+D multprec_complex_polynomials.ads  20260513024558 147a774b multprec_complex_polynomials%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D phcpack_operations.ads  20260513024556 d4db1b1b phcpack_operations%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quad_double_vectors.ads  20260513024558 7bb02d34 quad_double_vectors%s
+D quaddobl_complex_jaco_matrices.ads  20260513024558 aad21012 quaddobl_complex_jaco_matrices%s
+D quaddobl_complex_laur_functions.ads  20260513024558 d2fb7c00 quaddobl_complex_laur_functions%s
+D quaddobl_complex_laur_jacomats.ads  20260513024558 9838ef7b quaddobl_complex_laur_jacomats%s
+D quaddobl_complex_laur_sysfun.ads  20260513024558 476c72d8 quaddobl_complex_laur_sysfun%s
+D quaddobl_complex_laur_systems.ads  20260513024558 eabba5a7 quaddobl_complex_laur_systems%s
+D quaddobl_complex_laurentials.ads  20260513024558 8da09e8e quaddobl_complex_laurentials%s
+D quaddobl_complex_matrices.ads  20260513024558 8855e00a quaddobl_complex_matrices%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_poly_functions.ads  20260513024558 0ffc73e2 quaddobl_complex_poly_functions%s
+D quaddobl_complex_poly_sysfun.ads  20260513024558 ddec787b quaddobl_complex_poly_sysfun%s
+D quaddobl_complex_poly_systems.ads  20260513024558 28e6b01b quaddobl_complex_poly_systems%s
+D quaddobl_complex_poly_systems_io.ads  20260513024558 4af9d455 quaddobl_complex_poly_systems_io%s
+D quaddobl_complex_polynomials.ads  20260513024558 7f9e526a quaddobl_complex_polynomials%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_ring-ffield.ads  20260513024558 c4890148 quaddobl_complex_ring.ffield%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_complex_vecvecs.ads  20260513024558 95f72cfe quaddobl_complex_vecvecs%s
+D quaddobl_laursys_container.ads  20260513024556 8204d7ce quaddobl_laursys_container%s
+D quaddobl_polysys_container.ads  20260513024556 41602823 quaddobl_polysys_container%s
+D quaddobl_solutions_container.ads  20260513024556 7d6f9ca2 quaddobl_solutions_container%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_laur_functions.ads  20260513024558 b680d0a9 standard_complex_laur_functions%s
+D standard_complex_laur_jacomats.ads  20260513024558 c8a210ce standard_complex_laur_jacomats%s
+D standard_complex_laur_sysfun.ads  20260513024558 7ae1e81b standard_complex_laur_sysfun%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_systems_io.ads  20260513024558 30c463ef standard_complex_poly_systems_io%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring-ffield.ads  20260513024558 bbb2cc35 standard_complex_ring.ffield%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_laursys_container.ads  20260513024556 a8f0a11a standard_laursys_container%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_polysys_container.ads  20260513024556 a4b8f51b standard_polysys_container%s
+D standard_solutions_container.ads  20260513024558 4d86700f standard_solutions_container%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D supports_of_polynomial_systems.ads  20260513024558 6db479ad supports_of_polynomial_systems%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [cells_read_floating_mixed_cells cells_interface 11 12 none]
+G c Z s b [cells_write_floating_mixed_cells cells_interface 19 12 none]
+G c Z s b [cells_number_of_floating_mixed_cells cells_interface 26 12 none]
+G c Z s b [cells_dimension_of_floating_mixed_cells cells_interface 41 12 none]
+G c Z s b [cells_get_floating_mixture cells_interface 56 12 none]
+G c Z s b [cells_floating_supports_size cells_interface 74 12 none]
+G c Z s b [cells_get_floating_support_point cells_interface 91 12 none]
+G c Z s b [cells_floating_normal cells_interface 108 12 none]
+G c Z s b [cells_floating_cell_size cells_interface 124 12 none]
+G c Z s b [cells_get_floating_cell_point cells_interface 141 12 none]
+G c Z s b [cells_floating_mixed_volume cells_interface 160 12 none]
+G c Z s b [cells_set_floating_mixture cells_interface 175 12 none]
+G c Z s b [cells_add_floating_support_point cells_interface 191 12 none]
+G c Z s b [cells_add_floating_mixed_cell cells_interface 206 12 none]
+G c Z s b [cells_get_floating_mixed_cell cells_interface 225 12 none]
+G c Z s b [cells_make_standard_coefficient_system cells_interface 244 12 none]
+G c Z s b [cells_make_dobldobl_coefficient_system cells_interface 252 12 none]
+G c Z s b [cells_make_quaddobl_coefficient_system cells_interface 260 12 none]
+G c Z s b [cells_read_standard_coefficient_system cells_interface 268 12 none]
+G c Z s b [cells_read_dobldobl_coefficient_system cells_interface 275 12 none]
+G c Z s b [cells_read_quaddobl_coefficient_system cells_interface 282 12 none]
+G c Z s b [cells_write_standard_coefficient_system cells_interface 289 12 none]
+G c Z s b [cells_write_dobldobl_coefficient_system cells_interface 296 12 none]
+G c Z s b [cells_write_quaddobl_coefficient_system cells_interface 303 12 none]
+G c Z s b [cells_standard_system_into_container cells_interface 310 12 none]
+G c Z s b [cells_dobldobl_system_into_container cells_interface 317 12 none]
+G c Z s b [cells_quaddobl_system_into_container cells_interface 324 12 none]
+G c Z s b [cells_standard_system_from_container cells_interface 331 12 none]
+G c Z s b [cells_dobldobl_system_from_container cells_interface 338 12 none]
+G c Z s b [cells_quaddobl_system_from_container cells_interface 345 12 none]
+G c Z s b [cells_standard_polyhedral_homotopy cells_interface 352 12 none]
+G c Z s b [cells_dobldobl_polyhedral_homotopy cells_interface 359 12 none]
+G c Z s b [cells_quaddobl_polyhedral_homotopy cells_interface 366 12 none]
+G c Z s b [cells_standard_start_solve cells_interface 373 12 none]
+G c Z s b [cells_dobldobl_start_solve cells_interface 389 12 none]
+G c Z s b [cells_quaddobl_start_solve cells_interface 405 12 none]
+G c Z s b [cells_standard_track_one_path cells_interface 421 12 none]
+G c Z s b [cells_dobldobl_track_one_path cells_interface 435 12 none]
+G c Z s b [cells_quaddobl_track_one_path cells_interface 449 12 none]
+G c Z s b [cells_standard_tarsol_into_container cells_interface 463 12 none]
+G c Z s b [cells_dobldobl_tarsol_into_container cells_interface 477 12 none]
+G c Z s b [cells_quaddobl_tarsol_into_container cells_interface 492 12 none]
+G c Z s b [cells_standard_stasol_into_container cells_interface 507 12 none]
+G c Z s b [cells_dobldobl_stasol_into_container cells_interface 522 12 none]
+G c Z s b [cells_quaddobl_stasol_into_container cells_interface 537 12 none]
+G c Z s b [cells_standard_permute cells_interface 552 12 none]
+G c Z s b [cells_dobldobl_permute cells_interface 559 12 none]
+G c Z s b [cells_quaddobl_permute cells_interface 566 12 none]
+G c Z s b [cells_floating_mixed_volume cells_interface 573 12 none]
+G c Z s b [cells_set_floating_number_of_supports cells_interface 587 12 none]
+G c Z s b [cells_read_integer_mixed_cells cells_interface 599 12 none]
+G c Z s b [cells_write_integer_mixed_cells cells_interface 607 12 none]
+G c Z s b [cells_number_of_integer_mixed_cells cells_interface 614 12 none]
+G c Z s b [cells_dimension_of_integer_mixed_cells cells_interface 629 12 none]
+G c Z s b [cells_get_integer_mixture cells_interface 644 12 none]
+G c Z s b [cells_integer_supports_size cells_interface 662 12 none]
+G c Z s b [cells_get_integer_support_point cells_interface 679 12 none]
+G c Z s b [cells_integer_normal cells_interface 696 12 none]
+G c Z s b [cells_integer_cell_size cells_interface 712 12 none]
+G c Z s b [cells_get_integer_cell_point cells_interface 729 12 none]
+G c Z s b [cells_integer_mixed_volume cells_interface 748 12 none]
+G c Z s b [cells_set_integer_number_of_supports cells_interface 763 12 none]
+G c Z s b [cells_set_integer_mixture cells_interface 775 12 none]
+G c Z s b [cells_add_integer_support_point cells_interface 791 12 none]
+G c Z s b [cells_make_integer_subdivision cells_interface 806 12 none]
+G c Z s b [cells_add_integer_mixed_cell cells_interface 813 12 none]
+G c Z s b [cells_get_integer_mixed_cell cells_interface 832 12 none]
+G c Z s b [cells_is_stable cells_interface 851 12 none]
+G c Z s b [cells_number_of_original_cells cells_interface 866 12 none]
+G c Z s b [cells_number_of_stable_cells cells_interface 880 12 none]
+G c Z s b [cells_standard_stable_solve cells_interface 895 12 none]
+G c Z s b [cells_dobldobl_stable_solve cells_interface 910 12 none]
+G c Z s b [cells_quaddobl_stable_solve cells_interface 925 12 none]
+G c Z s b [cells_floating_clear cells_interface 940 12 none]
+G c Z s b [cells_integer_clear cells_interface 947 12 none]
+G c Z b b [select_point cells_interface 52 12 none]
+G c Z b b [select_point cells_interface 74 12 none]
+G r c none [cells_read_floating_mixed_cells cells_interface 11 12 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [cells_read_floating_mixed_cells cells_interface 11 12 none] [get floating_mixed_subdivisions_io 30 13 none]
+G r c none [cells_read_floating_mixed_cells cells_interface 11 12 none] [lifted_supports floating_lifting_utilities 80 12 none]
+G r c none [cells_read_floating_mixed_cells cells_interface 11 12 none] [initialize double_cells_container 28 13 none]
+G r c none [cells_write_floating_mixed_cells cells_interface 19 12 none] [retrieve double_cells_container 195 12 none]
+G r c none [cells_write_floating_mixed_cells cells_interface 19 12 none] [is_null floating_mixed_subdivisions__lists_of_mixed_cells 72 12 34_3]
+G r c none [cells_write_floating_mixed_cells cells_interface 19 12 none] [dimension double_cells_container 118 12 none]
+G r c none [cells_write_floating_mixed_cells cells_interface 19 12 none] [type_of_mixture double_cells_container 151 12 none]
+G r c none [cells_write_floating_mixed_cells cells_interface 19 12 none] [put floating_mixed_subdivisions_io 79 13 none]
+G r c none [cells_write_floating_mixed_cells cells_interface 19 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [cells_number_of_floating_mixed_cells cells_interface 26 12 none] [length double_cells_container 113 12 none]
+G r c none [cells_number_of_floating_mixed_cells cells_interface 26 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_dimension_of_floating_mixed_cells cells_interface 41 12 none] [dimension double_cells_container 118 12 none]
+G r c none [cells_dimension_of_floating_mixed_cells cells_interface 41 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_get_floating_mixture cells_interface 56 12 none] [type_of_mixture double_cells_container 151 12 none]
+G r c none [cells_get_floating_mixture cells_interface 56 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r c none [cells_get_floating_mixture cells_interface 56 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_floating_supports_size cells_interface 74 12 none] [lifted_supports double_cells_container 156 12 none]
+G r c none [cells_floating_supports_size cells_interface 74 12 none] [length_of lists_of_floating_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [cells_floating_supports_size cells_interface 74 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r c none [cells_floating_supports_size cells_interface 74 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_get_floating_support_point cells_interface 91 12 none] [lifted_supports double_cells_container 156 12 none]
+G r c none [cells_get_floating_support_point cells_interface 91 12 none] [is_null lists_of_floating_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [cells_get_floating_support_point cells_interface 91 12 none] [tail_of lists_of_floating_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [cells_get_floating_support_point cells_interface 91 12 none] [head_of lists_of_floating_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [cells_get_floating_support_point cells_interface 91 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r s mixed_cell [cells_floating_normal cells_interface 108 12 none] [mixed_cellIP floating_mixed_subdivisions 28 8 none]
+G r c none [cells_floating_normal cells_interface 108 12 none] [retrieve double_cells_container 161 13 none]
+G r c none [cells_floating_normal cells_interface 108 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r s mixed_cell [cells_floating_cell_size cells_interface 124 12 none] [mixed_cellIP floating_mixed_subdivisions 28 8 none]
+G r c none [cells_floating_cell_size cells_interface 124 12 none] [retrieve double_cells_container 161 13 none]
+G r c none [cells_floating_cell_size cells_interface 124 12 none] [length_of lists_of_floating_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [cells_floating_cell_size cells_interface 124 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r s mixed_cell [cells_get_floating_cell_point cells_interface 141 12 none] [mixed_cellIP floating_mixed_subdivisions 28 8 none]
+G r c none [cells_get_floating_cell_point cells_interface 141 12 none] [retrieve double_cells_container 161 13 none]
+G r c none [cells_get_floating_cell_point cells_interface 141 12 none] [is_null lists_of_floating_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [cells_get_floating_cell_point cells_interface 141 12 none] [tail_of lists_of_floating_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [cells_get_floating_cell_point cells_interface 141 12 none] [head_of lists_of_floating_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [cells_get_floating_cell_point cells_interface 141 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r c none [cells_floating_mixed_volume cells_interface 160 12 none] [type_of_mixture double_cells_container 151 12 none]
+G r s mixed_cell [cells_floating_mixed_volume cells_interface 160 12 none] [mixed_cellIP floating_mixed_subdivisions 28 8 none]
+G r c none [cells_floating_mixed_volume cells_interface 160 12 none] [dimension double_cells_container 118 12 none]
+G r c none [cells_floating_mixed_volume cells_interface 160 12 none] [retrieve double_cells_container 161 13 none]
+G r c none [cells_floating_mixed_volume cells_interface 160 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [cells_floating_mixed_volume cells_interface 160 12 none] [mixed_volume mixed_volume_computation 125 13 none]
+G r c none [cells_floating_mixed_volume cells_interface 160 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_set_floating_mixture cells_interface 175 12 none] [initialize double_cells_container 54 13 none]
+G r c none [cells_add_floating_support_point cells_interface 191 12 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [cells_add_floating_support_point cells_interface 191 12 none] [append_to_support double_cells_container 268 12 none]
+G r c none [cells_add_floating_mixed_cell cells_interface 206 12 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [cells_add_floating_mixed_cell cells_interface 206 12 none] [append_mixed_cell double_cells_container 284 13 none]
+G r c none [cells_get_floating_mixed_cell cells_interface 225 12 none] [retrieve_mixed_cell double_cells_container 176 13 none]
+G r c none [cells_get_floating_mixed_cell cells_interface 225 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [cells_get_floating_mixed_cell cells_interface 225 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r c none [cells_get_floating_mixed_cell cells_interface 225 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r c none [cells_make_standard_coefficient_system cells_interface 244 12 none] [generate_random_standard_coefficient_system double_cells_container 70 13 none]
+G r c none [cells_make_dobldobl_coefficient_system cells_interface 252 12 none] [generate_random_dobldobl_coefficient_system double_cells_container 71 13 none]
+G r c none [cells_make_quaddobl_coefficient_system cells_interface 260 12 none] [generate_random_quaddobl_coefficient_system double_cells_container 72 13 none]
+G r c none [cells_read_standard_coefficient_system cells_interface 268 12 none] [get standard_complex_poly_systems_io 38 13 none]
+G r c none [cells_read_standard_coefficient_system cells_interface 268 12 none] [initialize_random_standard_coefficient_system double_cells_container 80 13 none]
+G r c none [cells_read_dobldobl_coefficient_system cells_interface 275 12 none] [get dobldobl_complex_poly_systems_io 12 13 none]
+G r c none [cells_read_dobldobl_coefficient_system cells_interface 275 12 none] [initialize_random_dobldobl_coefficient_system double_cells_container 82 13 none]
+G r c none [cells_read_quaddobl_coefficient_system cells_interface 282 12 none] [get quaddobl_complex_poly_systems_io 12 13 none]
+G r c none [cells_read_quaddobl_coefficient_system cells_interface 282 12 none] [initialize_random_quaddobl_coefficient_system double_cells_container 84 13 none]
+G r c none [cells_write_standard_coefficient_system cells_interface 289 12 none] [retrieve_random_standard_coefficient_system double_cells_container 213 12 none]
+G r c none [cells_write_standard_coefficient_system cells_interface 289 12 none] [is_file_defined phcpack_operations 35 12 none]
+G r c none [cells_write_standard_coefficient_system cells_interface 289 12 none] [put_line standard_complex_poly_systems_io 94 13 none]
+G r c none [cells_write_dobldobl_coefficient_system cells_interface 296 12 none] [retrieve_random_dobldobl_coefficient_system double_cells_container 217 12 none]
+G r c none [cells_write_dobldobl_coefficient_system cells_interface 296 12 none] [is_file_defined phcpack_operations 35 12 none]
+G r c none [cells_write_dobldobl_coefficient_system cells_interface 296 12 none] [put_line dobldobl_complex_poly_systems_io 42 13 none]
+G r c none [cells_write_quaddobl_coefficient_system cells_interface 303 12 none] [retrieve_random_quaddobl_coefficient_system double_cells_container 221 12 none]
+G r c none [cells_write_quaddobl_coefficient_system cells_interface 303 12 none] [is_file_defined phcpack_operations 35 12 none]
+G r c none [cells_write_quaddobl_coefficient_system cells_interface 303 12 none] [put_line quaddobl_complex_poly_systems_io 42 13 none]
+G r c none [cells_standard_system_into_container cells_interface 310 12 none] [retrieve_random_standard_coefficient_system double_cells_container 213 12 none]
+G r c none [cells_standard_system_into_container cells_interface 310 12 none] [initialize standard_polysys_container 16 13 none]
+G r c none [cells_dobldobl_system_into_container cells_interface 317 12 none] [retrieve_random_dobldobl_coefficient_system double_cells_container 217 12 none]
+G r c none [cells_dobldobl_system_into_container cells_interface 317 12 none] [initialize dobldobl_polysys_container 16 13 none]
+G r c none [cells_quaddobl_system_into_container cells_interface 324 12 none] [retrieve_random_quaddobl_coefficient_system double_cells_container 221 12 none]
+G r c none [cells_quaddobl_system_into_container cells_interface 324 12 none] [initialize quaddobl_polysys_container 16 13 none]
+G r c none [cells_standard_system_from_container cells_interface 331 12 none] [retrieve standard_polysys_container 91 12 none]
+G r c none [cells_standard_system_from_container cells_interface 331 12 none] [initialize_random_standard_coefficient_system double_cells_container 80 13 none]
+G r c none [cells_dobldobl_system_from_container cells_interface 338 12 none] [retrieve dobldobl_polysys_container 91 12 none]
+G r c none [cells_dobldobl_system_from_container cells_interface 338 12 none] [initialize_random_dobldobl_coefficient_system double_cells_container 82 13 none]
+G r c none [cells_quaddobl_system_from_container cells_interface 345 12 none] [retrieve quaddobl_polysys_container 91 12 none]
+G r c none [cells_quaddobl_system_from_container cells_interface 345 12 none] [initialize_random_quaddobl_coefficient_system double_cells_container 84 13 none]
+G r c none [cells_standard_polyhedral_homotopy cells_interface 352 12 none] [standard_polyhedral_homotopy double_cells_container 93 13 none]
+G r c none [cells_dobldobl_polyhedral_homotopy cells_interface 359 12 none] [dobldobl_polyhedral_homotopy double_cells_container 99 13 none]
+G r c none [cells_quaddobl_polyhedral_homotopy cells_interface 366 12 none] [quaddobl_polyhedral_homotopy double_cells_container 105 13 none]
+G r c none [cells_standard_start_solve cells_interface 373 12 none] [solve_standard_start_system double_cells_container 298 13 none]
+G r c none [cells_standard_start_solve cells_interface 373 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_dobldobl_start_solve cells_interface 389 12 none] [solve_dobldobl_start_system double_cells_container 326 13 none]
+G r c none [cells_dobldobl_start_solve cells_interface 389 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_quaddobl_start_solve cells_interface 405 12 none] [solve_quaddobl_start_system double_cells_container 354 13 none]
+G r c none [cells_quaddobl_start_solve cells_interface 405 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_standard_track_one_path cells_interface 421 12 none] [track_standard_solution_path double_cells_container 382 13 none]
+G r c none [cells_dobldobl_track_one_path cells_interface 435 12 none] [track_dobldobl_solution_path double_cells_container 400 13 none]
+G r c none [cells_quaddobl_track_one_path cells_interface 449 12 none] [track_quaddobl_solution_path double_cells_container 418 13 none]
+G r c none [cells_standard_tarsol_into_container cells_interface 463 12 none] [retrieve_standard_target_solution double_cells_container 230 12 none]
+G r c none [cells_standard_tarsol_into_container cells_interface 463 12 none] [append standard_solutions_container 80 13 none]
+G r c none [cells_dobldobl_tarsol_into_container cells_interface 477 12 none] [retrieve_dobldobl_target_solution double_cells_container 243 12 none]
+G r c none [cells_dobldobl_tarsol_into_container cells_interface 477 12 none] [append dobldobl_solutions_container 78 13 none]
+G r c none [cells_quaddobl_tarsol_into_container cells_interface 492 12 none] [retrieve_quaddobl_target_solution double_cells_container 256 12 none]
+G r c none [cells_quaddobl_tarsol_into_container cells_interface 492 12 none] [append quaddobl_solutions_container 78 13 none]
+G r c none [cells_standard_stasol_into_container cells_interface 507 12 none] [retrieve_standard_start_solution double_cells_container 227 12 none]
+G r c none [cells_standard_stasol_into_container cells_interface 507 12 none] [append standard_solutions_container 80 13 none]
+G r c none [cells_dobldobl_stasol_into_container cells_interface 522 12 none] [retrieve_dobldobl_start_solution double_cells_container 240 12 none]
+G r c none [cells_dobldobl_stasol_into_container cells_interface 522 12 none] [append dobldobl_solutions_container 78 13 none]
+G r c none [cells_quaddobl_stasol_into_container cells_interface 537 12 none] [retrieve_quaddobl_start_solution double_cells_container 253 12 none]
+G r c none [cells_quaddobl_stasol_into_container cells_interface 537 12 none] [append quaddobl_solutions_container 78 13 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [retrieve double_cells_container 195 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [type_of_mixture double_cells_container 151 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [retrieve standard_polysys_container 91 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [retrieve standard_laursys_container 84 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [create supports_of_polynomial_systems 150 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [lifting_bound floating_lifting_functions 97 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [convert floating_integer_convertors 27 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [lifted_supports floating_lifting_utilities 80 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [remove_artificial_origin induced_permutations 36 13 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [permutation induced_permutations 52 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [permute induced_permutations 86 13 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [deep_clear arrays_of_floating_vector_lists 64 13 7_1]
+G r c none [cells_standard_permute cells_interface 552 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r c none [cells_standard_permute cells_interface 552 12 none] [create supports_of_polynomial_systems 152 12 none]
+G r c none [cells_standard_permute cells_interface 552 12 none] [permute induced_permutations 88 13 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [retrieve double_cells_container 195 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [type_of_mixture double_cells_container 151 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [retrieve dobldobl_polysys_container 91 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [retrieve dobldobl_laursys_container 84 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [create supports_of_polynomial_systems 154 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [lifting_bound floating_lifting_functions 100 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [convert floating_integer_convertors 27 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [lifted_supports floating_lifting_utilities 80 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [remove_artificial_origin induced_permutations 36 13 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [permutation induced_permutations 52 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [permute induced_permutations 90 13 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [deep_clear arrays_of_floating_vector_lists 64 13 7_1]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [create supports_of_polynomial_systems 156 12 none]
+G r c none [cells_dobldobl_permute cells_interface 559 12 none] [permute induced_permutations 92 13 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [retrieve double_cells_container 195 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [type_of_mixture double_cells_container 151 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [retrieve quaddobl_polysys_container 91 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [retrieve quaddobl_laursys_container 84 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [create supports_of_polynomial_systems 158 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [lifting_bound floating_lifting_functions 103 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [convert floating_integer_convertors 27 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [lifted_supports floating_lifting_utilities 80 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [remove_artificial_origin induced_permutations 36 13 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [permutation induced_permutations 52 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [permute induced_permutations 94 13 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [deep_clear arrays_of_floating_vector_lists 64 13 7_1]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [deep_clear arrays_of_integer_vector_lists 64 13 7_1]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [create supports_of_polynomial_systems 160 12 none]
+G r c none [cells_quaddobl_permute cells_interface 566 12 none] [permute induced_permutations 96 13 none]
+G r c none [cells_floating_mixed_volume cells_interface 573 12 none] [mixed_volume double_cells_container 436 12 none]
+G r c none [cells_floating_mixed_volume cells_interface 573 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_set_floating_number_of_supports cells_interface 587 12 none] [initialize_supports double_cells_container 22 13 none]
+G r c none [cells_read_integer_mixed_cells cells_interface 599 12 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [cells_read_integer_mixed_cells cells_interface 599 12 none] [get integer_mixed_subdivisions_io 21 13 none]
+G r c none [cells_read_integer_mixed_cells cells_interface 599 12 none] [lifted_supports integer_lifting_utilities 144 12 none]
+G r c none [cells_read_integer_mixed_cells cells_interface 599 12 none] [initialize integer_cells_container 26 13 none]
+G r c none [cells_write_integer_mixed_cells cells_interface 607 12 none] [retrieve integer_cells_container 156 12 none]
+G r c none [cells_write_integer_mixed_cells cells_interface 607 12 none] [is_null integer_mixed_subdivisions__lists_of_mixed_cells 72 12 23_3]
+G r c none [cells_write_integer_mixed_cells cells_interface 607 12 none] [dimension integer_cells_container 107 12 none]
+G r c none [cells_write_integer_mixed_cells cells_interface 607 12 none] [type_of_mixture integer_cells_container 121 12 none]
+G r c none [cells_write_integer_mixed_cells cells_interface 607 12 none] [put integer_mixed_subdivisions_io 52 13 none]
+G r c none [cells_write_integer_mixed_cells cells_interface 607 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [cells_number_of_integer_mixed_cells cells_interface 614 12 none] [length integer_cells_container 102 12 none]
+G r c none [cells_number_of_integer_mixed_cells cells_interface 614 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_dimension_of_integer_mixed_cells cells_interface 629 12 none] [dimension integer_cells_container 107 12 none]
+G r c none [cells_dimension_of_integer_mixed_cells cells_interface 629 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_get_integer_mixture cells_interface 644 12 none] [type_of_mixture integer_cells_container 121 12 none]
+G r c none [cells_get_integer_mixture cells_interface 644 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r c none [cells_get_integer_mixture cells_interface 644 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_integer_supports_size cells_interface 662 12 none] [lifted_supports integer_cells_container 126 12 none]
+G r c none [cells_integer_supports_size cells_interface 662 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [cells_integer_supports_size cells_interface 662 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r c none [cells_integer_supports_size cells_interface 662 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_get_integer_support_point cells_interface 679 12 none] [lifted_supports integer_cells_container 126 12 none]
+G r c none [cells_get_integer_support_point cells_interface 679 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [cells_get_integer_support_point cells_interface 679 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [cells_get_integer_support_point cells_interface 679 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [cells_get_integer_support_point cells_interface 679 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r s mixed_cell [cells_integer_normal cells_interface 696 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r c none [cells_integer_normal cells_interface 696 12 none] [retrieve integer_cells_container 131 13 none]
+G r c none [cells_integer_normal cells_interface 696 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r s mixed_cell [cells_integer_cell_size cells_interface 712 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r c none [cells_integer_cell_size cells_interface 712 12 none] [retrieve integer_cells_container 131 13 none]
+G r c none [cells_integer_cell_size cells_interface 712 12 none] [length_of lists_of_integer_vectors__vector_lists 67 12 21_3_6_1]
+G r c none [cells_integer_cell_size cells_interface 712 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r s mixed_cell [cells_get_integer_cell_point cells_interface 729 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r c none [cells_get_integer_cell_point cells_interface 729 12 none] [retrieve integer_cells_container 131 13 none]
+G r c none [cells_get_integer_cell_point cells_interface 729 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [cells_get_integer_cell_point cells_interface 729 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [cells_get_integer_cell_point cells_interface 729 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [cells_get_integer_cell_point cells_interface 729 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r c none [cells_integer_mixed_volume cells_interface 748 12 none] [type_of_mixture integer_cells_container 121 12 none]
+G r s mixed_cell [cells_integer_mixed_volume cells_interface 748 12 none] [mixed_cellIP integer_mixed_subdivisions 17 8 none]
+G r c none [cells_integer_mixed_volume cells_interface 748 12 none] [dimension integer_cells_container 107 12 none]
+G r c none [cells_integer_mixed_volume cells_interface 748 12 none] [retrieve integer_cells_container 131 13 none]
+G r c none [cells_integer_mixed_volume cells_interface 748 12 none] [mixed_volume mixed_volume_computation 120 13 none]
+G r c none [cells_integer_mixed_volume cells_interface 748 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_set_integer_number_of_supports cells_interface 763 12 none] [initialize_supports integer_cells_container 20 13 none]
+G r c none [cells_set_integer_mixture cells_interface 775 12 none] [initialize integer_cells_container 35 13 none]
+G r c none [cells_add_integer_support_point cells_interface 791 12 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [cells_add_integer_support_point cells_interface 791 12 none] [append_to_support integer_cells_container 218 12 none]
+G r c none [cells_make_integer_subdivision cells_interface 806 12 none] [make_subdivision integer_cells_container 51 13 none]
+G r c none [cells_add_integer_mixed_cell cells_interface 813 12 none] [assign assignments_in_ada_and_c 100 13 none]
+G r c none [cells_add_integer_mixed_cell cells_interface 813 12 none] [append_mixed_cell integer_cells_container 234 13 none]
+G r c none [cells_get_integer_mixed_cell cells_interface 832 12 none] [retrieve_mixed_cell integer_cells_container 137 13 none]
+G r c none [cells_get_integer_mixed_cell cells_interface 832 12 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [cells_get_integer_mixed_cell cells_interface 832 12 none] [assign assignments_in_ada_and_c 72 13 none]
+G r c none [cells_get_integer_mixed_cell cells_interface 832 12 none] [assign assignments_in_ada_and_c 74 13 none]
+G r c none [cells_is_stable cells_interface 851 12 none] [is_stable double_cells_container 125 12 none]
+G r c none [cells_is_stable cells_interface 851 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_number_of_original_cells cells_interface 866 12 none] [number_of_original_cells double_cells_container 138 12 none]
+G r c none [cells_number_of_original_cells cells_interface 866 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_number_of_stable_cells cells_interface 880 12 none] [number_of_stable_cells double_cells_container 145 12 none]
+G r c none [cells_number_of_stable_cells cells_interface 880 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_standard_stable_solve cells_interface 895 12 none] [solve_stable_standard_start_system double_cells_container 312 13 none]
+G r c none [cells_standard_stable_solve cells_interface 895 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_dobldobl_stable_solve cells_interface 910 12 none] [solve_stable_dobldobl_start_system double_cells_container 340 13 none]
+G r c none [cells_dobldobl_stable_solve cells_interface 910 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_quaddobl_stable_solve cells_interface 925 12 none] [solve_stable_quaddobl_start_system double_cells_container 368 13 none]
+G r c none [cells_quaddobl_stable_solve cells_interface 925 12 none] [assign assignments_in_ada_and_c 25 13 none]
+G r c none [cells_floating_clear cells_interface 940 12 none] [clear double_cells_container 459 13 none]
+G r c none [cells_integer_clear cells_interface 947 12 none] [clear integer_cells_container 358 13 none]
+G r c none [select_point cells_interface 52 12 none] [is_null lists_of_integer_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [select_point cells_interface 52 12 none] [tail_of lists_of_integer_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [select_point cells_interface 52 12 none] [head_of lists_of_integer_vectors__vector_lists 77 12 21_3_6_1]
+G r c none [select_point cells_interface 74 12 none] [is_null lists_of_floating_vectors__vector_lists 72 12 21_3_6_1]
+G r c none [select_point cells_interface 74 12 none] [tail_of lists_of_floating_vectors__vector_lists 84 12 21_3_6_1]
+G r c none [select_point cells_interface 74 12 none] [head_of lists_of_floating_vectors__vector_lists 77 12 21_3_6_1]
+X 12 a-textio.ads
+67P9*File_Type 20|102r12 1620r12
+131U14*Close 20|117s5 1635s5
+188V13*Standard_Output{67P9} 20|147s11 758s16 759s16 760s16 788s16 789s16
+. 790s16 818s16 819s16 820s16 1665s11
+277U14*New_Line 20|755s7 759s7 785s7 789s7 815s7 819s7
+284U14*New_Line 20|113s5 441s58 680s5 704s5 728s5 1631s5
+515U14*Put 20|125s9 148s7 154s9 165s7 173s9 184s7 192s9 221s9 261s9 301s9
+. 331s9 370s9 410s9 441s15 456s9 484s9 516s9 561s9 610s9 620s7 628s9 638s7
+. 646s9 656s7 664s9 677s7 688s9 701s7 712s9 725s7 736s9 750s7 766s9 780s7
+. 796s9 810s7 826s9 840s7 848s9 862s7 870s9 884s7 892s9 906s7 914s9 928s7
+. 936s9 950s7 958s9 968s7 976s9 986s7 994s9 1004s7 1012s9 1029s7 1040s9 1057s7
+. 1068s9 1085s7 1096s9 1116s7 1124s9 1144s7 1152s9 1172s7 1180s9 1201s7 1212s9
+. 1233s7 1244s9 1265s7 1276s9 1295s7 1304s9 1323s7 1332s9 1351s7 1360s9 1428s9
+. 1496s9 1564s9 1585s9 1600s7 1608s9 1643s9 1666s7 1672s9 1683s7 1691s9 1702s7
+. 1710s9 1727s7 1740s9 1759s7 1781s9 1828s9 1866s9 1905s9 1953s9 1997s9 2020s7
+. 2028s9 2060s9 2096s9 2113s9 2162s9 2215s9 2236s9 2258s9 2280s9 2305s9 2330s9
+. 2355s9 2372s9 2389s9
+555U14*Put_Line 20|756s7 760s7 786s7 790s7 816s7 820s7
+565U14*Put_Line 20|111s7 114s5 126s9 142s7 148s47 155s9 166s7 174s9 185s7
+. 193s9 209s11 222s9 240s11 262s9 285s7 302s9 321s11 332s9 352s11 371s9 397s7
+. 411s9 435s11 444s15 457s9 485s9 505s7 517s9 542s7 562s9 581s7 611s9 621s7
+. 629s9 639s7 647s9 657s7 665s9 678s7 681s5 689s9 702s7 705s5 713s9 726s7
+. 729s5 737s9 751s7 767s9 781s7 797s9 811s7 827s9 841s7 849s9 863s7 871s9
+. 885s7 893s9 907s7 915s9 929s7 937s9 951s7 959s9 969s7 977s9 987s7 995s9
+. 1005s7 1013s9 1030s7 1041s9 1058s7 1069s9 1086s7 1097s9 1117s7 1125s9 1145s7
+. 1153s9 1173s7 1181s9 1202s7 1213s9 1234s7 1245s9 1266s7 1277s9 1296s7 1305s9
+. 1324s7 1333s9 1352s7 1361s9 1382s7 1429s9 1450s7 1497s9 1518s7 1565s9 1578s11
+. 1586s9 1601s7 1609s9 1629s7 1632s5 1644s9 1660s7 1666s47 1673s9 1684s7
+. 1692s9 1703s7 1711s9 1728s7 1741s9 1760s7 1782s9 1805s7 1829s9 1848s11
+. 1867s9 1887s11 1906s9 1932s7 1954s9 1979s11 1998s9 2021s7 2029s9 2049s11
+. 2061s9 2082s7 2097s9 2106s11 2114s9 2140s7 2163s9 2182s7 2216s9 2226s11
+. 2237s9 2251s7 2259s9 2273s7 2281s9 2297s11 2306s9 2322s11 2331s9 2347s11
+. 2356s9 2365s11 2373s9 2382s11 2390s9
+X 14 arrays_of_floating_vector_lists.ads
+7K9*Arrays_of_Floating_Vector_Lists[53|15] 20|12w6 99r9 233r9 273r9 1390r14
+. 1392r14 1402r9 1403r9 1411r14 1413r14 1419r9 1420r9 1458r14 1460r14 1470r9
+. 1471r9 1479r14 1481r14 1487r9 1488r9 1526r14 1528r14 1538r9 1539r9 1547r14
+. 1549r14 1555r9 1556r9
+X 15 arrays_of_integer_vector_lists.ads
+7K9*Arrays_of_Integer_Vector_Lists[53|15] 20|11w6 1386r15 1404r9 1409r15
+. 1421r9 1454r15 1472r9 1477r15 1489r9 1522r15 1540r9 1545r15 1557r9 1617r9
+. 1752r9 1793r9
+X 16 assignments_in_ada_and_c.ads
+20K9*Assignments_in_Ada_and_C 146e29 20|48w6 48r45
+25U13*Assign 20|168s5 187s5 216s5 256s5 450s7 1034s5 1062s5 1090s5 1580s5
+. 1686s5 1705s5 1735s5 1776s5 1991s7 2229s11 2230s11 2253s5 2275s5 2300s5
+. 2325s5 2350s5
+72U13*Assign 20|213s26 251s9 362s9 602s9 1732s26 1771s9 1897s9 2204s9
+74U13*Assign 20|293s9 326s11 403s13 604s7 1819s11 1860s9 1944s11 2208s9
+100U13*Assign 20|507s5 555s5 2084s5 2153s5
+X 17 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 19|3w6 3r45
+17K11*C_DblArrs[77|44] 19|94r20 110r20 144r20 194r20 209r20 228r20 682r20
+. 698r20 732r20 794r20 816r20 835r20 20|270r20 309r20 379r20 493r20 525r20
+. 570r20 1790r20 1836r20 1914r20 2069r20 2122r20 2171r20
+X 18 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 19|2w6 2r45
+10A8*C_Integer_Array(76|62I9)<76|92M9> 20|276r20 277r20 314r18 345r18 384r20
+. 385r20 423r18 467r18 472r20 496r19 497r19 528r19 533r19 573r19 1023r19
+. 1051r19 1079r19 1107r19 1109r19 1135r19 1137r19 1163r19 1165r19 1191r19
+. 1192r19 1223r19 1224r19 1255r19 1256r19 1287r19 1288r19 1315r19 1316r19
+. 1343r19 1344r19 1595r20 1796r20 1797r20 1841r18 1880r18 1919r20 1920r20
+. 1966r18 2015r20 2039r18 2044r20 2072r19 2073r19 2125r19 2130r19 2174r19
+. 2291r19 2316r19 2341r19
+13K11*C_intarrs[77|44] 19|27r20 42r20 57r20 58r20 75r20 76r20 92r20 93r20
+. 109r20 125r20 126r20 142r20 143r20 161r20 162r20 176r20 177r20 192r20 193r20
+. 207r20 208r20 226r20 227r20 374r20 375r20 390r20 391r20 406r20 407r20 422r20
+. 423r20 436r20 437r20 450r20 451r20 464r20 465r20 478r20 479r20 493r20 494r20
+. 508r20 509r20 523r20 524r20 538r20 539r20 574r20 588r20 615r20 630r20 645r20
+. 646r20 663r20 664r20 680r20 681r20 697r20 713r20 714r20 730r20 731r20 749r20
+. 750r20 764r20 776r20 777r20 792r20 793r20 814r20 815r20 833r20 834r20 852r20
+. 867r20 881r20 896r20 897r20 911r20 912r20 926r20 927r20 20|161r20 180r20
+. 199r20 200r20 228r20 229r20 268r20 269r20 276r39 277r39 308r20 314r37 338r20
+. 339r20 345r37 377r20 378r20 384r39 386r12 417r20 418r20 423r37 463r20 464r20
+. 467r37 473r12 491r20 492r20 496r38 497r38 523r20 524r20 529r11 534r11 568r20
+. 569r20 573r38 1019r20 1020r20 1023r38 1047r20 1048r20 1051r38 1075r20 1076r20
+. 1079r38 1103r20 1104r20 1107r38 1110r11 1131r20 1132r20 1135r38 1138r11
+. 1159r20 1160r20 1163r38 1166r11 1187r20 1188r20 1191r38 1192r38 1219r20
+. 1220r20 1223r38 1224r38 1251r20 1252r20 1255r38 1256r38 1283r20 1284r20
+. 1287r38 1288r38 1311r20 1312r20 1315r38 1316r38 1339r20 1340r20 1343r38
+. 1344r38 1571r20 1592r20 1595r39 1679r20 1698r20 1717r20 1718r20 1747r20
+. 1748r20 1788r20 1789r20 1796r39 1797r39 1835r20 1841r37 1873r20 1874r20
+. 1880r37 1912r20 1913r20 1919r39 1921r12 1960r20 1961r20 1966r37 2004r20
+. 2015r39 2035r20 2036r20 2039r37 2045r12 2067r20 2068r20 2072r38 2073r38
+. 2120r20 2121r20 2126r11 2131r11 2169r20 2170r20 2174r38 2222r20 2243r20
+. 2265r20 2287r20 2288r20 2291r38 2312r20 2313r20 2316r38 2337r20 2338r20
+. 2341r38
+X 19 cells_interface.ads
+5K9*Cells_Interface 954l5 954e20 20|50b14 2395l5 2395t20
+11V12*Cells_Read_Floating_Mixed_Cells{142|6I8} 12>16 20|96b12 129l7 129t38
+12i16 vrblvl{142|6I8} 20|97b16 110r8 124r10
+19V12*Cells_Write_Floating_Mixed_Cells{142|6I8} 20>16 20|131b12 158l7 158t39
+20i16 vrblvl{142|6I8} 20|132b16 141r8 153r10
+26V12*Cells_Number_of_Floating_Mixed_Cells{142|6I8} 27>16 28>16 20|160b12
+. 177l7 177t43
+27p16 a{77|47P9[18|13]} 20|161b16 168r53
+28i16 vrblvl{142|6I8} 20|162b16 164r8 172r10
+41V12*Cells_Dimension_of_Floating_Mixed_Cells{142|6I8} 42>16 43>16 20|179b12
+. 196l7 196t46
+42p16 a{77|47P9[18|13]} 20|180b16 187r56
+43i16 vrblvl{142|6I8} 20|181b16 183r8 191r10
+56V12*Cells_Get_Floating_Mixture{142|6I8} 57>16 58>16 59>16 20|198b12 225l7
+. 225t33
+57p16 a{77|47P9[18|13]} 20|199b16 216r14
+58p16 b{77|47P9[18|13]} 20|200b16 213r41
+59i16 vrblvl{142|6I8} 20|201b16 208r8 220r10
+74V12*Cells_Floating_Supports_Size{142|6I8} 75>16 76>16 77>16 20|227b12 265l7
+. 265t35
+75p16 a{77|47P9[18|13]} 20|228b16 256r14
+76p16 b{77|47P9[18|13]} 20|229b16 251r19
+77i16 vrblvl{142|6I8} 20|230b16 239r8 260r10
+91V12*Cells_Get_Floating_Support_Point{142|6I8} 92>16 93>16 94>16 95>16 20|267b12
+. 305l7 305t39
+92p16 a{77|47P9[18|13]} 20|268b16 276r55
+93p16 b{77|47P9[18|13]} 20|269b16 277r55
+94p16 c{77|47P9[17|17]} 20|270b16 293r24
+95i16 vrblvl{142|6I8} 20|271b16 284r8 300r10
+108V12*Cells_Floating_Normal{142|6I8} 109>16 110>16 111>16 20|307b12 335l7
+. 335t28
+109p16 a{77|47P9[18|13]} 20|308b16 314r53
+110p16 c{77|47P9[17|17]} 20|309b16 326r30
+111i16 vrblvl{142|6I8} 20|310b16 320r8 330r10
+124V12*Cells_Floating_Cell_Size{142|6I8} 125>16 126>16 127>16 20|337b12 374l7
+. 374t31
+125p16 a{77|47P9[18|13]} 20|338b16 345r53
+126p16 b{77|47P9[18|13]} 20|339b16 362r19
+127i16 vrblvl{142|6I8} 20|340b16 351r8 369r10
+141V12*Cells_Get_Floating_Cell_Point{142|6I8} 142>16 143>16 144>16 145>16
+. 20|376b12 414l7 414t36
+142p16 a{77|47P9[18|13]} 20|377b16 384r55
+143p16 b{77|47P9[18|13]} 20|378b16 386r28
+144p16 c{77|47P9[17|17]} 20|379b16 403r28
+145i16 vrblvl{142|6I8} 20|380b16 396r8 409r10
+160V12*Cells_Floating_Mixed_Volume{142|6I8} 161>16 162>16 163>16 20|416b12
+. 460l7 460t34
+161p16 a{77|47P9[18|13]} 20|417b16 423r53
+162p16 b{77|47P9[18|13]} 20|418b16 450r28
+163i16 vrblvl{142|6I8} 20|419b16 434r8 439r10 455r10
+175V12*Cells_Set_Floating_Mixture{142|6I8} 176>16 177>16 178>16 20|462b12
+. 488l7 488t33
+176p16 a{77|47P9[18|13]} 20|463b16 467r53
+177p16 b{77|47P9[18|13]} 20|464b16 473r28
+178i16 vrblvl{142|6I8} 20|465b16 483r10
+191V12*Cells_Add_Floating_Support_Point{142|6I8} 192>16 193>16 194>16 195>16
+. 20|490b12 520l7 520t39
+192p16 a{77|47P9[18|13]} 20|491b16 496r54
+193p16 b{77|47P9[18|13]} 20|492b16 497r54
+194p16 c{77|47P9[17|17]} 20|493b16 507r25
+195i16 vrblvl{142|6I8} 20|494b16 504r8 515r10
+206V12*Cells_Add_Floating_Mixed_Cell{142|6I8} 207>16 208>16 209>16 210>16
+. 20|522b12 565l7 565t36
+207p16 a{77|47P9[18|13]} 20|523b16 529r27
+208p16 b{77|47P9[18|13]} 20|524b16 534r27
+209p16 c{77|47P9[17|17]} 20|525b16 555r25
+210i16 vrblvl{142|6I8} 20|526b16 541r8 560r10
+225V12*Cells_Get_Floating_Mixed_Cell{142|6I8} 226>16 227>16 228>16 229>16
+. 20|567b12 614l7 614t36
+226p16 a{77|47P9[18|13]} 20|568b16 573r54
+227p16 b{77|47P9[18|13]} 20|569b16 602r23
+228p16 c{77|47P9[17|17]} 20|570b16 604r25
+229i16 vrblvl{142|6I8} 20|571b16 580r8 609r10
+244V12*Cells_Make_Standard_Coefficient_System{142|6I8} 245>16 20|616b12 632l7
+. 632t45
+245i16 vrblvl{142|6I8} 20|617b16 619r8 627r10
+252V12*Cells_Make_DoblDobl_Coefficient_System{142|6I8} 253>16 20|634b12 650l7
+. 650t45
+253i16 vrblvl{142|6I8} 20|635b16 637r8 645r10
+260V12*Cells_Make_QuadDobl_Coefficient_System{142|6I8} 261>16 20|652b12 668l7
+. 668t45
+261i16 vrblvl{142|6I8} 20|653b16 655r8 663r10
+268V12*Cells_Read_Standard_Coefficient_System{142|6I8} 269>16 20|670b12 692l7
+. 692t45
+269i16 vrblvl{142|6I8} 20|671b16 676r8 687r10
+275V12*Cells_Read_DoblDobl_Coefficient_System{142|6I8} 276>16 20|694b12 716l7
+. 716t45
+276i16 vrblvl{142|6I8} 20|695b16 700r8 711r10
+282V12*Cells_Read_QuadDobl_Coefficient_System{142|6I8} 283>16 20|718b12 740l7
+. 740t45
+283i16 vrblvl{142|6I8} 20|719b16 724r8 735r10
+289V12*Cells_Write_Standard_Coefficient_System{142|6I8} 290>16 20|742b12
+. 770l7 770t46
+290i16 vrblvl{142|6I8} 20|743b16 749r8 765r10
+296V12*Cells_Write_DoblDobl_Coefficient_System{142|6I8} 297>16 20|772b12
+. 800l7 800t46
+297i16 vrblvl{142|6I8} 20|773b16 779r8 795r10
+303V12*Cells_Write_QuadDobl_Coefficient_System{142|6I8} 304>16 20|802b12
+. 830l7 830t46
+304i16 vrblvl{142|6I8} 20|803b16 809r8 825r10
+310V12*Cells_Standard_System_into_Container{142|6I8} 311>16 20|832b12 852l7
+. 852t43
+311i16 vrblvl{142|6I8} 20|833b16 839r8 847r10
+317V12*Cells_DoblDobl_System_into_Container{142|6I8} 318>16 20|854b12 874l7
+. 874t43
+318i16 vrblvl{142|6I8} 20|855b16 861r8 869r10
+324V12*Cells_QuadDobl_System_into_Container{142|6I8} 325>16 20|876b12 896l7
+. 896t43
+325i16 vrblvl{142|6I8} 20|877b16 883r8 891r10
+331V12*Cells_Standard_System_from_Container{142|6I8} 332>16 20|898b12 918l7
+. 918t43
+332i16 vrblvl{142|6I8} 20|899b16 905r8 913r10
+338V12*Cells_DoblDobl_System_from_Container{142|6I8} 339>16 20|920b12 940l7
+. 940t43
+339i16 vrblvl{142|6I8} 20|921b16 927r8 935r10
+345V12*Cells_QuadDobl_System_from_Container{142|6I8} 346>16 20|942b12 962l7
+. 962t43
+346i16 vrblvl{142|6I8} 20|943b16 949r8 957r10
+352V12*Cells_Standard_Polyhedral_Homotopy{142|6I8} 353>16 20|964b12 980l7
+. 980t41
+353i16 vrblvl{142|6I8} 20|965b16 967r8 975r10
+359V12*Cells_DoblDobl_Polyhedral_Homotopy{142|6I8} 360>16 20|982b12 998l7
+. 998t41
+360i16 vrblvl{142|6I8} 20|983b16 985r8 993r10
+366V12*Cells_QuadDobl_Polyhedral_Homotopy{142|6I8} 367>16 20|1000b12 1016l7
+. 1016t41
+367i16 vrblvl{142|6I8} 20|1001b16 1003r8 1011r10
+373V12*Cells_Standard_Start_Solve{142|6I8} 374>16 375>16 376>16 20|1018b12
+. 1044l7 1044t33
+374p16 a{77|47P9[18|13]} 20|1019b16 1023r54
+375p16 b{77|47P9[18|13]} 20|1020b16 1034r26
+376i16 vrblvl{142|6I8} 20|1021b16 1028r8 1039r10
+389V12*Cells_DoblDobl_Start_Solve{142|6I8} 390>16 391>16 392>16 20|1046b12
+. 1072l7 1072t33
+390p16 a{77|47P9[18|13]} 20|1047b16 1051r54
+391p16 b{77|47P9[18|13]} 20|1048b16 1062r26
+392i16 vrblvl{142|6I8} 20|1049b16 1056r8 1067r10
+405V12*Cells_QuadDobl_Start_Solve{142|6I8} 406>16 407>16 408>16 20|1074b12
+. 1100l7 1100t33
+406p16 a{77|47P9[18|13]} 20|1075b16 1079r54
+407p16 b{77|47P9[18|13]} 20|1076b16 1090r26
+408i16 vrblvl{142|6I8} 20|1077b16 1084r8 1095r10
+421V12*Cells_Standard_Track_One_Path{142|6I8} 422>16 423>16 424>16 20|1102b12
+. 1128l7 1128t36
+422p16 a{77|47P9[18|13]} 20|1103b16 1107r54
+423p16 b{77|47P9[18|13]} 20|1104b16 1110r27
+424i16 vrblvl{142|6I8} 20|1105b16 1115r8 1123r10
+435V12*Cells_DoblDobl_Track_One_Path{142|6I8} 436>16 437>16 438>16 20|1130b12
+. 1156l7 1156t36
+436p16 a{77|47P9[18|13]} 20|1131b16 1135r54
+437p16 b{77|47P9[18|13]} 20|1132b16 1138r27
+438i16 vrblvl{142|6I8} 20|1133b16 1143r8 1151r10
+449V12*Cells_QuadDobl_Track_One_Path{142|6I8} 450>16 451>16 452>16 20|1158b12
+. 1184l7 1184t36
+450p16 a{77|47P9[18|13]} 20|1159b16 1163r54
+451p16 b{77|47P9[18|13]} 20|1160b16 1166r27
+452i16 vrblvl{142|6I8} 20|1161b16 1171r8 1179r10
+463V12*Cells_Standard_TarSol_into_Container{142|6I8} 464>16 465>16 466>16
+. 20|1186b12 1216l7 1216t43
+464p16 a{77|47P9[18|13]} 20|1187b16 1191r54
+465p16 b{77|47P9[18|13]} 20|1188b16 1192r54
+466i16 vrblvl{142|6I8} 20|1189b16 1200r8 1211r10
+477V12*Cells_DoblDobl_TarSol_into_Container{142|6I8} 478>16 479>16 480>16
+. 20|1218b12 1248l7 1248t43
+478p16 a{77|47P9[18|13]} 20|1219b16 1223r54
+479p16 b{77|47P9[18|13]} 20|1220b16 1224r54
+480i16 vrblvl{142|6I8} 20|1221b16 1232r8 1243r10
+492V12*Cells_QuadDobl_TarSol_into_Container{142|6I8} 493>16 494>16 495>16
+. 20|1250b12 1280l7 1280t43
+493p16 a{77|47P9[18|13]} 20|1251b16 1255r54
+494p16 b{77|47P9[18|13]} 20|1252b16 1256r54
+495i16 vrblvl{142|6I8} 20|1253b16 1264r8 1275r10
+507V12*Cells_Standard_StaSol_into_Container{142|6I8} 508>16 509>16 510>16
+. 20|1282b12 1308l7 1308t43
+508p16 a{77|47P9[18|13]} 20|1283b16 1287r54
+509p16 b{77|47P9[18|13]} 20|1284b16 1288r54
+510i16 vrblvl{142|6I8} 20|1285b16 1294r8 1303r10
+522V12*Cells_DoblDobl_StaSol_into_Container{142|6I8} 523>16 524>16 525>16
+. 20|1310b12 1336l7 1336t43
+523p16 a{77|47P9[18|13]} 20|1311b16 1315r54
+524p16 b{77|47P9[18|13]} 20|1312b16 1316r54
+525i16 vrblvl{142|6I8} 20|1313b16 1322r8 1331r10
+537V12*Cells_QuadDobl_StaSol_into_Container{142|6I8} 538>16 539>16 540>16
+. 20|1338b12 1364l7 1364t43
+538p16 a{77|47P9[18|13]} 20|1339b16 1343r54
+539p16 b{77|47P9[18|13]} 20|1340b16 1344r54
+540i16 vrblvl{142|6I8} 20|1341b16 1350r8 1359r10
+552V12*Cells_Standard_Permute{142|6I8} 553>16 20|1366b12 1432l7 1432t29
+553i16 vrblvl{142|6I8} 20|1367b16 1381r8 1427r10
+559V12*Cells_DoblDobl_Permute{142|6I8} 560>16 20|1434b12 1500l7 1500t29
+560i16 vrblvl{142|6I8} 20|1435b16 1449r8 1495r10
+566V12*Cells_QuadDobl_Permute{142|6I8} 567>16 20|1502b12 1568l7 1568t29
+567i16 vrblvl{142|6I8} 20|1503b16 1517r8 1563r10
+573V12*Cells_Floating_Mixed_Volume{142|6I8} 574>16 575>16 20|1570b12 1589l7
+. 1589t34
+574p16 a{77|47P9[18|13]} 20|1571b16 1580r26
+575i16 vrblvl{142|6I8} 20|1572b16 1577r8 1584r10
+587V12*Cells_Set_Floating_Number_of_Supports{142|6I8} 588>16 589>16 20|1591b12
+. 1612l7 1612t44
+588p16 a{77|47P9[18|13]} 20|1592b16 1595r55
+589i16 vrblvl{142|6I8} 20|1593b16 1599r8 1607r10
+599V12*Cells_Read_Integer_Mixed_Cells{142|6I8} 600>16 20|1614b12 1647l7 1647t37
+600i16 vrblvl{142|6I8} 20|1615b16 1628r8 1642r10
+607V12*Cells_Write_Integer_Mixed_Cells{142|6I8} 608>16 20|1649b12 1676l7
+. 1676t38
+608i16 vrblvl{142|6I8} 20|1650b16 1659r8 1671r10
+614V12*Cells_Number_of_Integer_Mixed_Cells{142|6I8} 615>16 616>16 20|1678b12
+. 1695l7 1695t42
+615p16 a{77|47P9[18|13]} 20|1679b16 1686r54
+616i16 vrblvl{142|6I8} 20|1680b16 1682r8 1690r10
+629V12*Cells_Dimension_of_Integer_Mixed_Cells{142|6I8} 630>16 631>16 20|1697b12
+. 1714l7 1714t45
+630p16 a{77|47P9[18|13]} 20|1698b16 1705r57
+631i16 vrblvl{142|6I8} 20|1699b16 1701r8 1709r10
+644V12*Cells_Get_Integer_Mixture{142|6I8} 645>16 646>16 647>16 20|1716b12
+. 1744l7 1744t32
+645p16 a{77|47P9[18|13]} 20|1717b16 1735r14
+646p16 b{77|47P9[18|13]} 20|1718b16 1732r41
+647i16 vrblvl{142|6I8} 20|1719b16 1726r8 1739r10
+662V12*Cells_Integer_Supports_Size{142|6I8} 663>16 664>16 665>16 20|1746b12
+. 1785l7 1785t34
+663p16 a{77|47P9[18|13]} 20|1747b16 1776r14
+664p16 b{77|47P9[18|13]} 20|1748b16 1771r19
+665i16 vrblvl{142|6I8} 20|1749b16 1758r8 1780r10
+679V12*Cells_Get_Integer_Support_Point{142|6I8} 680>16 681>16 682>16 683>16
+. 20|1787b12 1832l7 1832t38
+680p16 a{77|47P9[18|13]} 20|1788b16 1796r55
+681p16 b{77|47P9[18|13]} 20|1789b16 1797r55
+682p16 c{77|47P9[17|17]} 20|1790b16 1819r25
+683i16 vrblvl{142|6I8} 20|1791b16 1804r8 1827r10
+696V12*Cells_Integer_Normal{142|6I8} 697>16 698>16 699>16 20|1834b12 1870l7
+. 1870t27
+697p16 a{77|47P9[18|13]} 20|1835b16 1841r53
+698p16 c{77|47P9[17|17]} 20|1836b16 1860r23
+699i16 vrblvl{142|6I8} 20|1837b16 1847r8 1865r10
+712V12*Cells_Integer_Cell_Size{142|6I8} 713>16 714>16 715>16 20|1872b12 1909l7
+. 1909t30
+713p16 a{77|47P9[18|13]} 20|1873b16 1880r53
+714p16 b{77|47P9[18|13]} 20|1874b16 1897r19
+715i16 vrblvl{142|6I8} 20|1875b16 1886r8 1904r10
+729V12*Cells_Get_Integer_Cell_Point{142|6I8} 730>16 731>16 732>16 733>16
+. 20|1911b12 1957l7 1957t35
+730p16 a{77|47P9[18|13]} 20|1912b16 1919r55
+731p16 b{77|47P9[18|13]} 20|1913b16 1921r28
+732p16 c{77|47P9[17|17]} 20|1914b16 1944r25
+733i16 vrblvl{142|6I8} 20|1915b16 1931r8 1952r10
+748V12*Cells_Integer_Mixed_Volume{142|6I8} 749>16 750>16 751>16 20|1959b12
+. 2001l7 2001t33
+749p16 a{77|47P9[18|13]} 20|1960b16 1966r53
+750p16 b{77|47P9[18|13]} 20|1961b16 1991r28
+751i16 vrblvl{142|6I8} 20|1962b16 1978r8 1996r10
+763V12*Cells_Set_Integer_Number_of_Supports{142|6I8} 764>16 765>16 20|2003b12
+. 2032l7 2032t43
+764p16 a{77|47P9[18|13]} 20|2004b16 2015r55
+765i16 vrblvl{142|6I8} 20|2005b16 2019r8 2027r10
+775V12*Cells_Set_Integer_Mixture{142|6I8} 776>16 777>16 778>16 20|2034b12
+. 2064l7 2064t32
+776p16 a{77|47P9[18|13]} 20|2035b16 2039r53
+777p16 b{77|47P9[18|13]} 20|2036b16 2045r28
+778i16 vrblvl{142|6I8} 20|2037b16 2048r8 2059r10
+791V12*Cells_Add_Integer_Support_Point{142|6I8} 792>16 793>16 794>16 795>16
+. 20|2066b12 2100l7 2100t38
+792p16 a{77|47P9[18|13]} 20|2067b16 2072r54
+793p16 b{77|47P9[18|13]} 20|2068b16 2073r54
+794p16 c{77|47P9[17|17]} 20|2069b16 2084r25
+795i16 vrblvl{142|6I8} 20|2070b16 2081r8 2095r10
+806V12*Cells_Make_Integer_Subdivision{142|6I8} 807>16 20|2102b12 2117l7 2117t37
+807i16 vrblvl{142|6I8} 20|2103b16 2105r8 2112r10
+813V12*Cells_Add_Integer_Mixed_Cell{142|6I8} 814>16 815>16 816>16 817>16
+. 20|2119b12 2166l7 2166t35
+814p16 a{77|47P9[18|13]} 20|2120b16 2126r27
+815p16 b{77|47P9[18|13]} 20|2121b16 2131r27
+816p16 c{77|47P9[17|17]} 20|2122b16 2153r25
+817i16 vrblvl{142|6I8} 20|2123b16 2139r8 2161r10
+832V12*Cells_Get_Integer_Mixed_Cell{142|6I8} 833>16 834>16 835>16 836>16
+. 20|2168b12 2219l7 2219t35
+833p16 a{77|47P9[18|13]} 20|2169b16 2174r54
+834p16 b{77|47P9[18|13]} 20|2170b16 2204r23
+835p16 c{77|47P9[17|17]} 20|2171b16 2208r23
+836i16 vrblvl{142|6I8} 20|2172b16 2181r8 2214r10
+851V12*Cells_Is_Stable{142|6I8} 852>16 853>16 20|2221b12 2240l7 2240t22
+852p16 a{77|47P9[18|13]} 20|2222b16 2229r20 2230r20
+853i16 vrblvl{142|6I8} 20|2223b16 2225r8 2235r10
+866V12*Cells_Number_of_Original_Cells{142|6I8} 867>16 868>16 20|2242b12 2262l7
+. 2262t37
+867p16 a{77|47P9[18|13]} 20|2243b16 2253r27
+868i16 vrblvl{142|6I8} 20|2244b16 2250r8 2257r10
+880V12*Cells_Number_of_Stable_Cells{142|6I8} 881>16 882>16 20|2264b12 2284l7
+. 2284t35
+881p16 a{77|47P9[18|13]} 20|2265b16 2275r27
+882i16 vrblvl{142|6I8} 20|2266b16 2272r8 2279r10
+895V12*Cells_Standard_Stable_Solve{142|6I8} 896>16 897>16 898>16 20|2286b12
+. 2309l7 2309t34
+896p16 a{77|47P9[18|13]} 20|2287b16 2291r54
+897p16 b{77|47P9[18|13]} 20|2288b16 2300r26
+898i16 vrblvl{142|6I8} 20|2289b16 2296r8 2304r10
+910V12*Cells_DoblDobl_Stable_Solve{142|6I8} 911>16 912>16 913>16 20|2311b12
+. 2334l7 2334t34
+911p16 a{77|47P9[18|13]} 20|2312b16 2316r54
+912p16 b{77|47P9[18|13]} 20|2313b16 2325r26
+913i16 vrblvl{142|6I8} 20|2314b16 2321r8 2329r10
+925V12*Cells_QuadDobl_Stable_Solve{142|6I8} 926>16 927>16 928>16 20|2336b12
+. 2359l7 2359t34
+926p16 a{77|47P9[18|13]} 20|2337b16 2341r54
+927p16 b{77|47P9[18|13]} 20|2338b16 2350r26
+928i16 vrblvl{142|6I8} 20|2339b16 2346r8 2354r10
+940V12*Cells_Floating_Clear{142|6I8} 941>16 20|2361b12 2376l7 2376t27
+941i16 vrblvl{142|6I8} 20|2362b16 2364r8 2371r10
+947V12*Cells_Integer_Clear{142|6I8} 948>16 20|2378b12 2393l7 2393t26
+948i16 vrblvl{142|6I8} 20|2379b16 2381r8 2388r10
+X 20 cells_interface.adb
+52V12 Select_Point{68|17P8[144|4]} 52b12 52>27 52>62 72l7 72t19 1811s14 1936s14
+52p27 L{62|22P8[80|6]} 61r19
+52i62 k{147|7I8} 64r18
+60p5 res{68|17P8[144|4]} 69m11 71r12
+61p5 tmp{62|22P8[80|6]} 65r25 66m7 66r22 68r20 69r26
+64i9 i<long_integer>
+74V12 Select_Point{68|17P8[140|4]} 74b12 74>27 74>63 94l7 94t19 291s14 401s14
+74p27 L{62|22P8[79|6]} 83r19
+74i63 k{147|7I8} 86r18
+82p5 res{68|17P8[140|4]} 91m11 93r12
+83p5 tmp{62|22P8[79|6]} 87r25 88m7 88r22 90r20 91r26
+86i9 i<long_integer>
+102p5 file{12|67P9} 115m29 115r29 116r9 117m11 117r11
+103i5 n{147|7I8} 116m14
+103i7 m{147|7I8} 116m16
+104i5 r{142|6I8} 118m5 119r48
+105p5 mix{68|17P8[144|4]} 116m18 116r18 118r10 120r39
+106p5 lif{53|25P8[14|7]} 119m5 120r43
+107p5 sub{51|35P8} 116m22 116r22 119r50 120r47
+136p5 mcc{51|35P8} 144r20 147m39 147r39
+137p5 mix{68|17P8[144|4]} 146m7 147r31
+138i5 n{147|7I8} 145m7 147r27
+138i7 mv{147|7I8} 147m43 148r40
+204p5 mix{68|17P8[144|4]} 211m5 212r8 213r16 213r33
+205i5 r{142|6I8} 213m11 214m11 216r12
+235p5 lif{53|25P8[14|7]} 242m5 243r8 244r12 249r40
+236i5 r{142|6I8} 244m7 246r49 254m7 256r12
+246a9 nl{68|16A8[144|4]} 248r18 249m11 251r16
+248i13 i<long_integer> 249r14 249r44
+275p5 lif{53|25P8[14|7]} 287m5 290r8 291r27
+276a5 v_a{18|10A8} 278r43 278r47
+277a5 v_b{18|10A8} 279r43 279r47
+278i5 k_a{142|6I8} 291r31
+279i5 k_b{147|7I8} 291r36
+281p5 lpt{68|17P8[140|4]} 291m7 292r10 293r16
+314a5 v{18|10A8} 315r41 315r43
+315i5 k{147|7I8} 323r37
+316r5 mic{51|28R8} 323m39 326r18
+317b5 fail{boolean} 323m43 324r8
+345a5 v{18|10A8} 346r41 346r43
+346i5 k{147|7I8} 354r37
+347r5 mic{51|28R8} 354m39 357r46 359r18 360r40
+348b5 fail{boolean} 354m43 355r12
+357a9 nl{68|16A8[144|4]} 360m11 362r16
+359i13 i<long_integer> 360r14 360r48
+384a5 v_a{18|10A8} 387r41 387r45
+385a5 v_b{18|10A8} 388r41 388r45 389r41 389r45
+387i5 k{147|7I8} 399r37
+388i5 i{142|6I8} 401r35
+389i5 j{147|7I8} 401r38
+390r5 mic{51|28R8} 399m39 401r27
+391b5 fail{boolean} 399m43 400r12
+393p5 lpt{68|17P8[140|4]} 401m7 402r10 403r20
+423a5 v{18|10A8} 424r41 424r43
+424i5 k{147|7I8} 437r37 441r52
+425p5 mix{68|17P8[144|4]} 438r16 443r12 449r22
+427r5 mic{51|28R8} 437m39 449m30 449r30
+428b5 fail{boolean} 437m43 438r8 440r12
+429i5 mv{147|7I8} 449m34 450r24
+430i5 n{142|6I8} 449r20
+467a5 v{18|10A8} 468r41 468r43
+468i5 r{142|6I8} 470r51 471r62 473r53 476r17
+469p5 mix{68|17P8[144|4]} 477r7 479r39
+471m5 r1{76|92M9} 472r39
+472a5 mbv{18|10A8} 477r29
+476i9 i<long_integer> 477r11 477r53
+496a5 va{18|10A8} 498r41 498r44
+497a5 vb{18|10A8} 499r41 499r44
+498i5 k{147|7I8} 508r54
+499i5 n{142|6I8} 500r45 507r22
+500a5 x{68|16A8[140|4]} 507m27 508r56
+501b5 fail{boolean} 508m5 509r8
+528a5 va{18|10A8} 530r41 530r44 531r41 531r44 532r61
+530i5 r{142|6I8} 537r46 551r52
+531i5 n{142|6I8} 536r45 555r22
+532m5 d{76|92M9} 533r38 534r52
+533a5 vb{18|10A8} 535r41 548r27 551r27
+535i5 m{142|6I8} 538r46
+536a5 x{68|16A8[140|4]} 555m27 556r54
+537a5 cnt{68|16A8[144|4]} 547r14 548m7 556r46
+538a5 lab{68|16A8[144|4]} 550r14 551m7 556r50
+547i9 i<long_integer> 548r11 548r50
+550i9 i<long_integer> 551r11 551r50
+573a5 va{18|10A8} 574r41 574r44
+574i5 k{147|7I8} 583r48
+575p5 cnt{68|17P8[144|4]} 583m55 583r55 588r66 589r53 594r18 596r26
+575p9 lab{68|17P8[144|4]} 583m59 583r59 589r62 598r18 600r26
+576p5 normal{68|17P8[140|4]} 583m63 583r63 604r14
+577b5 fail{boolean} 583m50 584r8
+588i9 sum{142|6I8} 593r24
+589a9 cntlab{68|16A8[144|4]} 593m9 596m11 600m11 602r16
+590i9 ind{142|6I8} 592m9 592r16 593r16 595m11 595r18 596r18 599m11 599r18
+. 600r18
+594i13 i<long_integer> 596r30
+598i13 i<long_integer> 600r30
+673p5 q{66|23P8[130|5]} 682m9 682r9 683r74
+697p5 q{66|23P8[32|5]} 706m9 706r9 707r74
+721p5 q{66|23P8[109|5]} 730m9 730r9 731r74
+745p5 q{66|23P8[130|5]} 754r47 758r32
+775p5 q{66|23P8[32|5]} 784r47 788r32
+805p5 q{66|23P8[109|5]} 814r47 818r32
+835p5 q{66|23P8[130|5]} 843r43
+857p5 q{66|23P8[32|5]} 865r43
+879p5 q{66|23P8[109|5]} 887r43
+901p5 q{66|23P8[130|5]} 909r74
+923p5 q{66|23P8[32|5]} 931r74
+945p5 q{66|23P8[109|5]} 953r74
+1023a5 va{18|10A8} 1024r41 1024r44
+1024i5 k{147|7I8} 1033r56
+1025i5 mv{147|7I8} 1033m58 1034r22
+1051a5 va{18|10A8} 1052r41 1052r44
+1052i5 k{147|7I8} 1061r56
+1053i5 mv{147|7I8} 1061m58 1062r22
+1079a5 va{18|10A8} 1080r41 1080r44
+1080i5 k{147|7I8} 1089r56
+1081i5 mv{147|7I8} 1089m58 1090r22
+1107a5 va{18|10A8} 1108r41 1108r44
+1108i5 k{147|7I8} 1119r57
+1109a5 vb{18|10A8} 1111r41 1111r44 1112r43 1112r46
+1111i5 i{147|7I8} 1119r59
+1112i5 otp{147|7I8} 1119r61
+1135a5 va{18|10A8} 1136r41 1136r44
+1136i5 k{147|7I8} 1147r57
+1137a5 vb{18|10A8} 1139r41 1139r44 1140r43 1140r46
+1139i5 i{147|7I8} 1147r59
+1140i5 otp{147|7I8} 1147r61
+1163a5 va{18|10A8} 1164r41 1164r44
+1164i5 k{147|7I8} 1175r57
+1165a5 vb{18|10A8} 1167r41 1167r44 1168r43 1168r46
+1167i5 i{147|7I8} 1175r59
+1168i5 otp{147|7I8} 1175r61
+1191a5 va{18|10A8} 1193r41 1193r44
+1192a5 vb{18|10A8} 1194r41 1194r44
+1193i5 k{147|7I8} 1204r68
+1194i5 i{147|7I8} 1204r70
+1195p5 ls{135|25P8} 1204m5 1205r8 1206r47
+1223a5 va{18|10A8} 1225r41 1225r44
+1224a5 vb{18|10A8} 1226r41 1226r44
+1225i5 k{147|7I8} 1236r68
+1226i5 i{147|7I8} 1236r70
+1227p5 ls{37|28P8} 1236m5 1237r8 1238r47
+1255a5 va{18|10A8} 1257r41 1257r44
+1256a5 vb{18|10A8} 1258r41 1258r44
+1257i5 k{147|7I8} 1268r68
+1258i5 i{147|7I8} 1268r70
+1259p5 ls{114|28P8} 1268m5 1269r8 1270r47
+1287a5 va{18|10A8} 1289r41 1289r44
+1288a5 vb{18|10A8} 1290r41 1290r44
+1289i5 k{147|7I8} 1298r67
+1290i5 i{147|7I8} 1298r69
+1291p5 ls{135|25P8} 1298m5 1299r41
+1315a5 va{18|10A8} 1317r41 1317r44
+1316a5 vb{18|10A8} 1318r41 1318r44
+1317i5 k{147|7I8} 1326r67
+1318i5 i{147|7I8} 1326r69
+1319p5 ls{37|28P8} 1326m5 1327r41
+1343a5 va{18|10A8} 1345r41 1345r44
+1344a5 vb{18|10A8} 1346r41 1346r44
+1345i5 k{147|7I8} 1354r67
+1346i5 i{147|7I8} 1354r69
+1347p5 ls{114|28P8} 1354m5 1355r41
+1371p5 mixsub{51|35P8} 1393r67 1414r67
+1372p5 mix{68|17P8[144|4]} 1392r61 1393r58 1397r54 1413r61 1414r58 1417r54
+1374p5 lp{66|23P8[130|5]} 1384r8 1386r61 1387r54 1389r58 1400r41
+1376p5 lq{58|23P8[124|5]} 1407r8 1409r61 1410r54 1418r41
+1386a9 sup{53|24A8[15|7]} 1390r61 1391r51 1404m51 1404r51
+1388f9 stlb{138|13F8} 1396r58
+1390a9 fs{53|24A8[14|7]} 1394r46 1397r48 1402m52 1402r52
+1392a9 ls{53|24A8[14|7]} 1396m55 1396r55 1397r51 1403m52 1403r52
+1394a9 ip{68|16A8[144|4]} 1397m9 1400r38
+1409a9 sup{53|24A8[15|7]} 1411r61 1412r51 1421m51 1421r51
+1411a9 fs{53|24A8[14|7]} 1415r46 1417r48 1419m52 1419r52
+1413a9 ls{53|24A8[14|7]} 1417r51 1420m52 1420r52
+1415a9 ip{68|16A8[144|4]} 1417m9 1418r38
+1439p5 mixsub{51|35P8} 1461r67 1482r67
+1440p5 mix{68|17P8[144|4]} 1460r61 1461r58 1465r54 1481r61 1482r58 1485r54
+1442p5 lp{66|23P8[32|5]} 1452r8 1454r61 1455r54 1457r58 1468r41
+1444p5 lq{58|23P8[26|5]} 1475r8 1477r61 1478r54 1486r41
+1454a9 sup{53|24A8[15|7]} 1458r61 1459r51 1472m51 1472r51
+1456f9 stlb{138|13F8} 1464r58
+1458a9 fs{53|24A8[14|7]} 1462r46 1465r48 1470m52 1470r52
+1460a9 ls{53|24A8[14|7]} 1464m55 1464r55 1465r51 1471m52 1471r52
+1462a9 ip{68|16A8[144|4]} 1465m9 1468r38
+1477a9 sup{53|24A8[15|7]} 1479r61 1480r51 1489m51 1489r51
+1479a9 fs{53|24A8[14|7]} 1483r46 1485r48 1487m52 1487r52
+1481a9 ls{53|24A8[14|7]} 1485r51 1488m52 1488r52
+1483a9 ip{68|16A8[144|4]} 1485m9 1486r38
+1507p5 mixsub{51|35P8} 1529r67 1550r67
+1508p5 mix{68|17P8[144|4]} 1528r61 1529r58 1533r54 1549r61 1550r58 1553r54
+1510p5 lp{66|23P8[109|5]} 1520r8 1522r61 1523r54 1525r58 1536r41
+1512p5 lq{58|23P8[103|5]} 1543r8 1545r61 1546r54 1554r41
+1522a9 sup{53|24A8[15|7]} 1526r61 1527r51 1540m51 1540r51
+1524f9 stlb{138|13F8} 1532r58
+1526a9 fs{53|24A8[14|7]} 1530r46 1533r48 1538m52 1538r52
+1528a9 ls{53|24A8[14|7]} 1532m55 1532r55 1533r51 1539m52 1539r52
+1530a9 ip{68|16A8[144|4]} 1533m9 1536r38
+1545a9 sup{53|24A8[15|7]} 1547r61 1548r51 1557m51 1557r51
+1547a9 fs{53|24A8[14|7]} 1551r46 1553r48 1555m52 1555r52
+1549a9 ls{53|24A8[14|7]} 1553r51 1556m52 1556r52
+1551a9 ip{68|16A8[144|4]} 1553m9 1554r38
+1574i5 mv{147|7I8} 1580r22
+1595a5 v_a{18|10A8} 1596r43 1596r47
+1596i5 nbr{147|7I8} 1603r48
+1620p5 file{12|67P9} 1633m29 1633r29 1634r9 1635m11 1635r11
+1621i5 n{147|7I8} 1634m14
+1621i7 m{147|7I8} 1634m16
+1622i5 r{142|6I8} 1636m5 1637r48
+1623p5 mix{68|17P8[144|4]} 1634m18 1634r18 1636r10 1638r40
+1624p5 lif{53|25P8[15|7]} 1637m5 1638r44
+1625p5 sub{73|24P8} 1634m22 1634r22 1637r50 1638r48
+1654p5 mcc{73|24P8} 1662r20 1665m39 1665r39
+1655p5 mix{68|17P8[144|4]} 1664m7 1665r31
+1656i5 n{147|7I8} 1663m7 1665r27
+1656i7 mv{147|7I8} 1665m43 1666r40
+1722p5 mix{68|17P8[144|4]} 1730m5 1731r8 1732r16 1732r33
+1723i5 r{142|6I8} 1732m11 1733m11 1735r12
+1754p5 lif{53|25P8[15|7]} 1762m5 1763r8 1764r12 1769r40
+1755i5 r{142|6I8} 1764m7 1766r49 1774m7 1776r12
+1766a9 nl{68|16A8[144|4]} 1768r18 1769m11 1771r16
+1768i13 i<long_integer> 1769r14 1769r44
+1795p5 lif{53|25P8[15|7]} 1807m5 1810r8 1811r27
+1796a5 v_a{18|10A8} 1798r43 1798r47
+1797a5 v_b{18|10A8} 1799r43 1799r47
+1798i5 k_a{142|6I8} 1811r31
+1799i5 k_b{147|7I8} 1811r36
+1801p5 lpt{68|17P8[144|4]} 1811m7 1812r10 1814r53 1816r20 1817r39
+1814a11 fltlpt{68|16A8[140|4]} 1817m13 1819r18
+1816i15 k<long_integer> 1817r20 1817r43
+1841a5 v{18|10A8} 1842r41 1842r43
+1842i5 k{147|7I8} 1850r38
+1843r5 mic{73|17R8} 1850m40 1855r51 1857r18 1858r37
+1844b5 fail{boolean} 1850m44 1851r8
+1855a9 fltnor{68|16A8[140|4]} 1858m11 1860r16
+1857i13 k<long_integer> 1858r18 1858r45
+1880a5 v{18|10A8} 1881r41 1881r43
+1881i5 k{147|7I8} 1889r38
+1882r5 mic{73|17R8} 1889m40 1892r46 1894r18 1895r40
+1883b5 fail{boolean} 1889m44 1890r12
+1892a9 nl{68|16A8[144|4]} 1895m11 1897r16
+1894i13 i<long_integer> 1895r14 1895r48
+1919a5 v_a{18|10A8} 1922r41 1922r45
+1920a5 v_b{18|10A8} 1923r41 1923r45 1924r41 1924r45
+1922i5 k{147|7I8} 1934r38
+1923i5 i{142|6I8} 1936r35
+1924i5 j{147|7I8} 1936r38
+1925r5 mic{73|17R8} 1934m40 1936r27
+1926b5 fail{boolean} 1934m44 1935r12
+1928p5 lpt{68|17P8[144|4]} 1936m7 1937r10 1939r53 1941r20 1942r39
+1939a11 fltlpt{68|16A8[140|4]} 1942m13 1944r18
+1941i15 k<long_integer> 1942r20 1942r43
+1966a5 v{18|10A8} 1967r41 1967r43
+1967i5 k{147|7I8} 1983r38
+1968p5 mix{68|17P8[144|4]} 1984r16 1989r22
+1970r5 mic{73|17R8} 1983m40 1989m30 1989r30
+1971b5 fail{boolean} 1983m44 1984r8
+1972i5 mv{147|7I8} 1989m34 1991r24
+1973i5 n{142|6I8} 1989r20
+2015a5 v_a{18|10A8} 2016r43 2016r47
+2016i5 nbr{147|7I8} 2023r49
+2039a5 v{18|10A8} 2040r41 2040r43
+2040i5 r{142|6I8} 2041r46 2043r62 2045r53 2051r17
+2041a5 mix{68|16A8[144|4]} 2052m7 2054r52
+2042p5 lnkmix{68|17P8[144|4]} 2054m5 2055r40
+2043m5 r1{76|92M9} 2044r39
+2044a5 mbv{18|10A8} 2052r29
+2051i9 i<long_integer> 2052r11 2052r53
+2072a5 va{18|10A8} 2074r41 2074r44
+2073a5 vb{18|10A8} 2075r41 2075r44
+2074i5 k{147|7I8} 2088r55
+2075i5 n{142|6I8} 2076r44 2077r48 2084r22 2085r17
+2076a5 x{68|16A8[144|4]} 2086m7 2088r57
+2077a5 fltx{68|16A8[140|4]} 2084m27 2086r25
+2078b5 fail{boolean} 2088m5 2089r8
+2085i9 k<long_integer> 2086r9 2086r30
+2125a5 va{18|10A8} 2127r41 2127r44 2128r41 2128r44 2129r61
+2127i5 r{142|6I8} 2135r46 2149r52
+2128i5 n{142|6I8} 2133r44 2134r48 2153r22 2154r17
+2129m5 d{76|92M9} 2130r38 2131r52
+2130a5 vb{18|10A8} 2132r41 2146r27 2149r27
+2132i5 m{142|6I8} 2136r46
+2133a5 x{68|16A8[144|4]} 2155m7 2157r55
+2134a5 fltx{68|16A8[140|4]} 2153m27 2155r25
+2135a5 cnt{68|16A8[144|4]} 2145r14 2146m7 2157r47
+2136a5 lab{68|16A8[144|4]} 2148r14 2149m7 2157r51
+2145i9 i<long_integer> 2146r11 2146r50
+2148i9 i<long_integer> 2149r11 2149r50
+2154i9 k<long_integer> 2155r9 2155r30
+2174a5 va{18|10A8} 2175r41 2175r44
+2175i5 k{147|7I8} 2184r49
+2176p5 cnt{68|17P8[144|4]} 2184m56 2184r56 2189r66 2190r53 2196r18 2198r26
+2176p9 lab{68|17P8[144|4]} 2184m60 2184r60 2190r62 2200r18 2202r26
+2177p5 normal{68|17P8[144|4]} 2184m64 2184r64 2192r51 2205r18 2206r37
+2178b5 fail{boolean} 2184m51 2185r8
+2189i9 sum{142|6I8} 2195r24
+2190a9 cntlab{68|16A8[144|4]} 2195m9 2198m11 2202m11 2204r16
+2191i9 ind{142|6I8} 2194m9 2194r16 2195r16 2197m11 2197r18 2198r18 2201m11
+. 2201r18 2202r18
+2192a9 fltnor{68|16A8[140|4]} 2206m11 2208r16
+2196i13 i<long_integer> 2198r30
+2200i13 i<long_integer> 2202r30
+2205i13 k<long_integer> 2206r18 2206r44
+2246i5 nbr{147|7I8} 2253r22
+2268i5 nbr{147|7I8} 2275r22
+2291a5 va{18|10A8} 2292r41 2292r44
+2292i5 k{147|7I8} 2299r63
+2293i5 mv{147|7I8} 2299m65 2300r22
+2316a5 va{18|10A8} 2317r41 2317r44
+2317i5 k{147|7I8} 2324r63
+2318i5 mv{147|7I8} 2324m65 2325r22
+2341a5 va{18|10A8} 2342r41 2342r44
+2342i5 k{147|7I8} 2349r63
+2343i5 mv{147|7I8} 2349m65 2350r22
+X 21 communications_with_user.ads
+4K9*Communications_with_User 20|3w6 3r45 21|127e29
+46U13*Read_Name_and_Open_File 20|115s5 1633s5
+X 26 dobldobl_complex_laur_systems.ads
+5K9*DoblDobl_Complex_Laur_Systems[58|12] 20|20w6 1444r19 1446r39
+X 32 dobldobl_complex_poly_systems.ads
+5K9*DoblDobl_Complex_Poly_Systems[66|12] 20|15w6 697r9 775r18 857r18 923r18
+. 1442r19 1446r9
+X 33 dobldobl_complex_poly_systems_io.ads
+6K9*DoblDobl_Complex_Poly_Systems_io 20|16w6 16r45 33|56e37
+12U13*get 20|706s5
+42U13*put_line 20|784s7 788s7
+X 37 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 20|23w6 1227r10 1229r9 1319r10 37|235e31
+28P8*Link_to_Solution(19R8) 20|1227r37 1319r37
+X 40 dobldobl_laursys_container.ads
+8K9*DoblDobl_LaurSys_Container 20|41w6 1445r11 40|113e31
+84V12*Retrieve{58|23P8[26|5]} 20|1445s38
+X 41 dobldobl_polysys_container.ads
+8K9*DoblDobl_PolySys_Container 20|38w6 865r5 924r10 1443r11 41|120e31
+16U13*Initialize 20|865s32
+91V12*Retrieve{66|23P8[32|5]} 20|924s37 1443s38
+X 42 dobldobl_solutions_container.ads
+4K9*DoblDobl_Solutions_Container 20|44w6 1238r11 1327r5 42|89e33
+78U13*Append 20|1238s40 1327s34
+X 43 double_cells_container.ads
+14K9*Double_Cells_Container 20|46w6 120r5 136r32 145r12 146r14 168r22 187r22
+. 211r12 242r12 287r12 323r5 354r5 399r5 426r12 430r41 437r5 479r5 508r13
+. 556r5 583r5 623r5 641r5 659r5 683r5 707r5 731r5 746r10 776r10 806r10 836r10
+. 858r10 880r10 909r5 931r5 953r5 971r5 989r5 1007r5 1033r5 1061r5 1089r5
+. 1119r5 1147r5 1175r5 1204r11 1236r11 1268r11 1298r11 1326r11 1354r11 1371r44
+. 1373r12 1439r44 1441r12 1507r44 1509r12 1574r32 1603r5 2228r8 2247r12 2269r12
+. 2299r5 2324r5 2349r5 2367r5 43|464e27
+22U13*Initialize_Supports 20|1603s28
+28U13*Initialize 20|120s28
+54U13*Initialize 20|479s28
+70U13*Generate_Random_Standard_Coefficient_System 20|623s28
+71U13*Generate_Random_DoblDobl_Coefficient_System 20|641s28
+72U13*Generate_Random_QuadDobl_Coefficient_System 20|659s28
+80U13*Initialize_Random_Standard_Coefficient_System 20|683s28 909s28
+82U13*Initialize_Random_DoblDobl_Coefficient_System 20|707s28 931s28
+84U13*Initialize_Random_QuadDobl_Coefficient_System 20|731s28 953s28
+93U13*Standard_Polyhedral_Homotopy 20|971s28
+99U13*DoblDobl_Polyhedral_Homotopy 20|989s28
+105U13*QuadDobl_Polyhedral_Homotopy 20|1007s28
+113V12*Length{147|7I8} 20|168s45
+118V12*Dimension{147|7I8} 20|145s35 187s45 430s64
+125V12*Is_Stable{boolean} 20|2228s31
+138V12*Number_of_Original_Cells{147|7I8} 20|2247s35
+145V12*Number_of_Stable_Cells{147|7I8} 20|2269s35
+151V12*Type_of_Mixture{68|17P8[144|4]} 20|146s37 211s35 426s35 1373s35 1441s35
+. 1509s35
+156V12*Lifted_Supports{53|25P8[14|7]} 20|242s35 287s35
+161U13*Retrieve 20|323s28 354s28 399s28 437s28
+176U13*Retrieve_Mixed_Cell 20|583s28
+195V12*Retrieve{51|35P8} 20|136s55 1371s67 1439s67 1507s67
+213V12*Retrieve_Random_Standard_Coefficient_System{66|23P8[130|5]} 20|746s33
+. 836s33
+217V12*Retrieve_Random_DoblDobl_Coefficient_System{66|23P8[32|5]} 20|776s33
+. 858s33
+221V12*Retrieve_Random_QuadDobl_Coefficient_System{66|23P8[109|5]} 20|806s33
+. 880s33
+227V12*Retrieve_Standard_Start_Solution{135|25P8} 20|1298s34
+230V12*Retrieve_Standard_Target_Solution{135|25P8} 20|1204s34
+240V12*Retrieve_DoblDobl_Start_Solution{37|28P8} 20|1326s34
+243V12*Retrieve_DoblDobl_Target_Solution{37|28P8} 20|1236s34
+253V12*Retrieve_QuadDobl_Start_Solution{114|28P8} 20|1354s34
+256V12*Retrieve_QuadDobl_Target_Solution{114|28P8} 20|1268s34
+268V12*Append_to_Support{boolean} 20|508s36
+284U13*Append_Mixed_Cell 20|556s28
+298U13*Solve_Standard_Start_System 20|1033s28
+312U13*Solve_Stable_Standard_Start_System 20|2299s28
+326U13*Solve_DoblDobl_Start_System 20|1061s28
+340U13*Solve_Stable_DoblDobl_Start_System 20|2324s28
+354U13*Solve_QuadDobl_Start_System 20|1089s28
+368U13*Solve_Stable_QuadDobl_Start_System 20|2349s28
+382U13*Track_Standard_Solution_Path 20|1119s28
+400U13*Track_DoblDobl_Solution_Path 20|1147s28
+418U13*Track_QuadDobl_Solution_Path 20|1175s28
+436V12*Mixed_Volume{147|7I8} 20|1574s55
+459U13*Clear 20|2367s28
+X 48 floating_integer_convertors.ads
+10K9*Floating_Integer_Convertors 20|31w6 1391r15 1412r15 1459r15 1480r15
+. 1527r15 1548r15 48|42e32
+27V12*Convert{53|24A8[14|7]} 20|1391s43 1412s43 1459s43 1480s43 1527s43 1548s43
+X 49 floating_lifting_functions.ads
+20K9*Floating_Lifting_Functions 20|30w6 1389r17 1457r17 1525r17 49|139e31
+97V12*Lifting_Bound{138|13F8} 20|1389s44
+100V12*Lifting_Bound{138|13F8} 20|1457s44
+103V12*Lifting_Bound{138|13F8} 20|1525s44
+X 50 floating_lifting_utilities.ads
+9K9*Floating_Lifting_Utilities 20|33w6 33r45 1393r15 1414r15 1461r15 1482r15
+. 1529r15 1550r15 50|89e31
+80V12*Lifted_Supports{53|24A8[14|7]} 20|119s32 1393s42 1414s42 1461s42 1482s42
+. 1529s42 1550s42
+X 51 floating_mixed_subdivisions.ads
+12K9*Floating_Mixed_Subdivisions 20|26w6 100r9 134r9 312r9 343r9 382r9 421r9
+. 1369r9 1437r9 1505r9 51|311e32
+25P8*Mixed_Subdivision 20|107r11 136r11 1371r23 1439r23 1507r23
+28R8*Mixed_Cell 20|316r11 347r11 390r11 427r11 51|32e13
+29p5*nor{68|17P8[140|4]} 20|326r22
+30p5*pts{53|25P8[14|7]} 20|357r50 359r22 360r44 401r31
+35P8*Mixed_Subdivision<61|12P8[34]>
+X 52 floating_mixed_subdivisions_io.ads
+11K9*Floating_Mixed_Subdivisions_io 20|27w6 27r45 52|269e35
+30U13*get 20|116s5
+79U13*put 20|147s7
+X 53 generic_arrays_of_vector_lists.ads
+24A8*Array_of_Lists(62|22P8[79|6])<142|6I8> 20|119r16[14|7] 1386r46[15|7]
+. 1390r46[14|7] 1392r46[14|7] 1409r46[15|7] 1411r46[14|7] 1413r46[14|7] 1454r46[15|7]
+. 1458r46[14|7] 1460r46[14|7] 1477r46[15|7] 1479r46[14|7] 1481r46[14|7] 1522r46[15|7]
+. 1526r46[14|7] 1528r46[14|7] 1545r46[15|7] 1547r46[14|7] 1549r46[14|7] 1637r16[15|7]
+25P8*Link_to_Array_of_Lists(24A8[14|7]) 20|106r11[14|7] 235r11[14|7] 275r11[14|7]
+. 1624r11[15|7] 1754r11[15|7] 1795r11[15|7]
+64U13*Deep_Clear 20|1402s41[14|7] 1403s41[14|7] 1404s40[15|7] 1419s41[14|7]
+. 1420s41[14|7] 1421s40[15|7] 1470s41[14|7] 1471s41[14|7] 1472s40[15|7] 1487s41[14|7]
+. 1488s41[14|7] 1489s40[15|7] 1538s41[14|7] 1539s41[14|7] 1540s40[15|7] 1555s41[14|7]
+. 1556s41[14|7] 1557s40[15|7]
+X 58 generic_laur_poly_systems.ads
+22A8*Laur_Sys(60|30P8[27|4])<142|6I8>
+23P8*Link_to_Laur_Sys(22A8[124|5]) 20|1376r49[124|5] 1444r49[26|5] 1512r49[103|5]
+X 60 generic_laurent_polynomials.ads
+30P8*Poly
+X 61 generic_lists.ads
+12P8*List
+67V12*Length_Of{147|7I8} 20|249s30[62|21[79|6]] 360s30[62|21[79|6]] 1769s30[62|21[80|6]]
+. 1895s30[62|21[80|6]]
+72V12*Is_Null{boolean} 20|65s17[62|21[80|6]] 68s12[62|21[80|6]] 87s17[62|21[79|6]]
+. 90s12[62|21[79|6]] 144s12[51|34] 1662s12[73|23]
+77V12*Head_Of{68|17P8[144|4]} 20|69s18[62|21[80|6]] 91s18[62|21[79|6]]
+84V12*Tail_Of{12P8[62|21[80|6]]} 20|66s14[62|21[80|6]] 88s14[62|21[79|6]]
+X 62 generic_lists_of_vectors.ads
+22P8*List<61|12P8[21[80|6]]> 20|52r56[80|6] 61r11[80|6] 74r57[79|6] 83r11[79|6]
+X 66 generic_polynomial_systems.ads
+22A8*Poly_Sys(67|28P8[34|4])<142|6I8>
+23P8*Link_to_Poly_Sys(22A8[130|5]) 20|673r39[130|5] 697r39[32|5] 721r39[109|5]
+. 745r48[130|5] 775r48[32|5] 805r48[109|5] 835r48[130|5] 857r48[32|5] 879r48[109|5]
+. 901r48[130|5] 923r48[32|5] 945r48[109|5] 1374r49[130|5] 1442r49[32|5] 1510r49[109|5]
+X 67 generic_polynomials.ads
+28P8*Poly
+X 68 generic_vectors.ads
+16A8*Vector(142|6I8)<142|6I8> 20|246r39[144|4] 357r39[144|4] 470r41[144|4]
+. 500r35[140|4] 536r35[140|4] 537r36[144|4] 538r36[144|4] 589r43[144|4] 1394r39[144|4]
+. 1415r39[144|4] 1462r39[144|4] 1483r39[144|4] 1530r39[144|4] 1551r39[144|4]
+. 1766r39[144|4] 1814r46[140|4] 1855r44[140|4] 1892r39[144|4] 1939r46[140|4]
+. 2041r36[144|4] 2054r44[144|4] 2076r34[144|4] 2077r38[140|4] 2133r34[144|4]
+. 2134r38[140|4] 2135r36[144|4] 2136r36[144|4] 2190r43[144|4] 2192r44[140|4]
+17P8*Link_to_Vector(16A8[144|4]) 20|53r57[144|4] 60r36[144|4] 75r58[140|4]
+. 82r37[140|4] 105r36[144|4] 137r36[144|4] 204r11[144|4] 281r11[140|4] 393r11[140|4]
+. 425r45[144|4] 469r45[144|4] 575r40[144|4] 576r40[140|4] 1372r45[144|4]
+. 1440r45[144|4] 1508r45[144|4] 1623r36[144|4] 1655r36[144|4] 1722r11[144|4]
+. 1801r11[144|4] 1928r11[144|4] 1968r45[144|4] 2042r39[144|4] 2176r40[144|4]
+. 2177r39[144|4]
+52V12*Sum{142|6I8} 20|588s62[144|4] 2189s62[144|4]
+X 70 induced_permutations.ads
+12K9*Induced_Permutations 20|34w6 1396r9 1397r15 1400r9 1417r15 1418r9 1464r9
+. 1465r15 1468r9 1485r15 1486r9 1532r9 1533r15 1536r9 1553r15 1554r9 70|102e25
+36U13*Remove_Artificial_Origin 20|1396s30 1464s30 1532s30
+52V12*Permutation{68|16A8[144|4]} 20|1397s36 1417s36 1465s36 1485s36 1533s36
+. 1553s36
+86U13*Permute 20|1400s30
+88U13*Permute 20|1418s30
+90U13*Permute 20|1468s30
+92U13*Permute 20|1486s30
+94U13*Permute 20|1536s30
+96U13*Permute 20|1554s30
+X 71 integer_cells_container.ads
+12K9*Integer_Cells_Container 20|47w6 1638r5 1654r32 1663r12 1664r14 1686r22
+. 1705r22 1730r12 1762r12 1807r12 1850r5 1889r5 1934r5 1969r12 1973r41 1983r5
+. 2023r5 2055r5 2088r13 2108r5 2157r5 2184r5 2384r5 71|363e28
+20U13*Initialize_Supports 20|2023s29
+26U13*Initialize 20|1638s29
+35U13*Initialize 20|2055s29
+51U13*Make_Subdivision 20|2108s29
+102V12*Length{147|7I8} 20|1686s46
+107V12*Dimension{147|7I8} 20|1663s36 1705s46 1973s65
+121V12*Type_of_Mixture{68|17P8[144|4]} 20|1664s38 1730s36 1969s36
+126V12*Lifted_Supports{53|25P8[15|7]} 20|1762s36 1807s36
+131U13*Retrieve 20|1850s29 1889s29 1934s29 1983s29
+137U13*Retrieve_Mixed_Cell 20|2184s29
+156V12*Retrieve{73|24P8} 20|1654s56
+218V12*Append_to_Support{boolean} 20|2088s37
+234U13*Append_Mixed_Cell 20|2157s29
+358U13*Clear 20|2384s29
+X 72 integer_lifting_utilities.ads
+9K9*Integer_Lifting_Utilities 20|32w6 32r45 72|153e30
+144V12*Lifted_Supports{53|24A8[15|7]} 20|1637s32
+X 73 integer_mixed_subdivisions.ads
+6K9*Integer_Mixed_Subdivisions 20|28w6 1618r9 1652r9 1839r9 1878r9 1917r9
+. 1964r9 73|139e31
+14P8*Mixed_Subdivision 20|1625r11 1654r11
+17R8*Mixed_Cell 20|1843r11 1882r11 1925r11 1970r11 73|21e13
+18p5*nor{68|17P8[144|4]} 20|1855r55 1857r22 1858r41
+19p5*pts{53|25P8[15|7]} 20|1892r50 1894r22 1895r44 1936r31
+24P8*Mixed_Subdivision<61|12P8[23]>
+X 74 integer_mixed_subdivisions_io.ads
+6K9*Integer_Mixed_Subdivisions_io 20|29w6 29r45 74|62e34
+21U13*get 20|1634s5
+52U13*put 20|1665s7
+X 75 interfac.ads
+47K9*Interfaces 20|2r6 2r45 386r30 471r19 471r42 473r30 477r33 529r29 532r18
+. 532r41 534r29 548r30 551r30 1110r29 1138r29 1166r29 1921r30 2043r19 2043r42
+. 2045r30 2052r33 2126r29 2129r18 2129r41 2131r29 2146r30 2149r30 75|247e15
+X 76 i-c.ads
+33K20*C 20|2w17 2r56 386r41 471r30 471r53 473r41 477r44 529r40 532r29 532r52
+. 534r40 548r41 551r41 1110r40 1138r40 1166r40 1921r41 2043r30 2043r53 2045r41
+. 2052r44 2126r40 2129r29 2129r52 2131r40 2146r41 2149r41 76|601e17
+62I9*int<integer>
+89I9*ptrdiff_t<long_long_integer> 20|386r43 473r43 529r42 534r42 1110r42
+. 1138r42 1166r42 1921r43 2045r43 2126r42 2131r42
+92M9*size_t 20|471r32 471r55 477r46 532r31 532r54 548r43 551r43 2043r32 2043r55
+. 2052r46 2129r31 2129r54 2146r43 2149r43
+102F9*double<long_float>
+X 77 i-cpoint.ads
+47P9*Pointer(76|62I9) 19|27r30[18|13] 42r30[18|13] 57r30[18|13] 58r30[18|13]
+. 75r30[18|13] 76r30[18|13] 92r30[18|13] 93r30[18|13] 94r30[17|17] 109r30[18|13]
+. 110r30[17|17] 125r30[18|13] 126r30[18|13] 142r30[18|13] 143r30[18|13] 144r30[17|17]
+. 161r30[18|13] 162r30[18|13] 176r30[18|13] 177r30[18|13] 192r30[18|13] 193r30[18|13]
+. 194r30[17|17] 207r30[18|13] 208r30[18|13] 209r30[17|17] 226r30[18|13] 227r30[18|13]
+. 228r30[17|17] 374r30[18|13] 375r30[18|13] 390r30[18|13] 391r30[18|13] 406r30[18|13]
+. 407r30[18|13] 422r30[18|13] 423r30[18|13] 436r30[18|13] 437r30[18|13] 450r30[18|13]
+. 451r30[18|13] 464r30[18|13] 465r30[18|13] 478r30[18|13] 479r30[18|13] 493r30[18|13]
+. 494r30[18|13] 508r30[18|13] 509r30[18|13] 523r30[18|13] 524r30[18|13] 538r30[18|13]
+. 539r30[18|13] 574r30[18|13] 588r30[18|13] 615r30[18|13] 630r30[18|13] 645r30[18|13]
+. 646r30[18|13] 663r30[18|13] 664r30[18|13] 680r30[18|13] 681r30[18|13] 682r30[17|17]
+. 697r30[18|13] 698r30[17|17] 713r30[18|13] 714r30[18|13] 730r30[18|13] 731r30[18|13]
+. 732r30[17|17] 749r30[18|13] 750r30[18|13] 764r30[18|13] 776r30[18|13] 777r30[18|13]
+. 792r30[18|13] 793r30[18|13] 794r30[17|17] 814r30[18|13] 815r30[18|13] 816r30[17|17]
+. 833r30[18|13] 834r30[18|13] 835r30[17|17] 852r30[18|13] 867r30[18|13] 881r30[18|13]
+. 896r30[18|13] 897r30[18|13] 911r30[18|13] 912r30[18|13] 926r30[18|13] 927r30[18|13]
+. 20|161r30[18|13] 180r30[18|13] 199r30[18|13] 200r30[18|13] 228r30[18|13]
+. 229r30[18|13] 268r30[18|13] 269r30[18|13] 270r30[17|17] 308r30[18|13] 309r30[17|17]
+. 338r30[18|13] 339r30[18|13] 377r30[18|13] 378r30[18|13] 379r30[17|17] 417r30[18|13]
+. 418r30[18|13] 463r30[18|13] 464r30[18|13] 491r30[18|13] 492r30[18|13] 493r30[17|17]
+. 523r30[18|13] 524r30[18|13] 525r30[17|17] 568r30[18|13] 569r30[18|13] 570r30[17|17]
+. 1019r30[18|13] 1020r30[18|13] 1047r30[18|13] 1048r30[18|13] 1075r30[18|13]
+. 1076r30[18|13] 1103r30[18|13] 1104r30[18|13] 1131r30[18|13] 1132r30[18|13]
+. 1159r30[18|13] 1160r30[18|13] 1187r30[18|13] 1188r30[18|13] 1219r30[18|13]
+. 1220r30[18|13] 1251r30[18|13] 1252r30[18|13] 1283r30[18|13] 1284r30[18|13]
+. 1311r30[18|13] 1312r30[18|13] 1339r30[18|13] 1340r30[18|13] 1571r30[18|13]
+. 1592r30[18|13] 1679r30[18|13] 1698r30[18|13] 1717r30[18|13] 1718r30[18|13]
+. 1747r30[18|13] 1748r30[18|13] 1788r30[18|13] 1789r30[18|13] 1790r30[17|17]
+. 1835r30[18|13] 1836r30[17|17] 1873r30[18|13] 1874r30[18|13] 1912r30[18|13]
+. 1913r30[18|13] 1914r30[17|17] 1960r30[18|13] 1961r30[18|13] 2004r30[18|13]
+. 2035r30[18|13] 2036r30[18|13] 2067r30[18|13] 2068r30[18|13] 2069r30[17|17]
+. 2120r30[18|13] 2121r30[18|13] 2122r30[17|17] 2169r30[18|13] 2170r30[18|13]
+. 2171r30[17|17] 2222r30[18|13] 2243r30[18|13] 2265r30[18|13] 2287r30[18|13]
+. 2288r30[18|13] 2312r30[18|13] 2313r30[18|13] 2337r30[18|13] 2338r30[18|13]
+54V13*Value{18|10A8} 20|276s49[18|13] 277s49[18|13] 314s47[18|13] 345s47[18|13]
+. 384s49[18|13] 423s47[18|13] 467s47[18|13] 496s48[18|13] 497s48[18|13] 573s48[18|13]
+. 1023s48[18|13] 1051s48[18|13] 1079s48[18|13] 1107s48[18|13] 1135s48[18|13]
+. 1163s48[18|13] 1191s48[18|13] 1192s48[18|13] 1223s48[18|13] 1224s48[18|13]
+. 1255s48[18|13] 1256s48[18|13] 1287s48[18|13] 1288s48[18|13] 1315s48[18|13]
+. 1316s48[18|13] 1343s48[18|13] 1344s48[18|13] 1595s49[18|13] 1796s49[18|13]
+. 1797s49[18|13] 1841s47[18|13] 1880s47[18|13] 1919s49[18|13] 1966s47[18|13]
+. 2015s49[18|13] 2039s47[18|13] 2072s48[18|13] 2073s48[18|13] 2174s48[18|13]
+. 2291s48[18|13] 2316s48[18|13] 2341s48[18|13]
+58V13*Value{18|10A8} 20|386s22[18|13] 473s22[18|13] 529s21[18|13] 534s21[18|13]
+. 1110s21[18|13] 1138s21[18|13] 1166s21[18|13] 1921s22[18|13] 2045s22[18|13]
+. 2126s21[18|13] 2131s21[18|13]
+X 79 lists_of_floating_vectors.ads
+6K9*Lists_of_Floating_Vectors[62|12] 20|10w6 74r31 80r9 232r9 342r9
+X 80 lists_of_integer_vectors.ads
+6K9*Lists_of_Integer_Vectors[62|12] 20|9w6 52r31 58r9 1751r9 1877r9
+X 81 mixed_volume_computation.ads
+12K9*Mixed_Volume_Computation 20|35w6 35r45 81|192e29
+120U13*Mixed_Volume 20|1989s7
+125U13*Mixed_Volume 20|449s7
+X 94 phcpack_operations.ads
+24K9*PHCpack_Operations 20|36w6 753r8 754r16 755r16 756r16 783r8 784r16 785r16
+. 786r16 813r8 814r16 815r16 816r16 94|626e23
+31p3*output_file{12|67P9} 20|754r35 755r35 756r35 784r35 785r35 786r35 814r35
+. 815r35 816r35
+35V12*Is_File_Defined{boolean} 20|753s27 783s27 813s27
+X 103 quaddobl_complex_laur_systems.ads
+5K9*QuadDobl_Complex_Laur_Systems[58|12] 20|21w6 1512r19 1514r39
+X 109 quaddobl_complex_poly_systems.ads
+5K9*QuadDobl_Complex_Poly_Systems[66|12] 20|17w6 721r9 805r18 879r18 945r18
+. 1510r19 1514r9
+X 110 quaddobl_complex_poly_systems_io.ads
+6K9*QuadDobl_Complex_Poly_Systems_io 20|18w6 18r45 110|56e37
+12U13*get 20|730s5
+42U13*put_line 20|814s7 818s7
+X 114 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 20|24w6 1259r10 1261r9 1347r10 114|235e31
+28P8*Link_to_Solution(19R8) 20|1259r37 1347r37
+X 117 quaddobl_laursys_container.ads
+8K9*QuadDobl_LaurSys_Container 20|42w6 1513r11 117|113e31
+84V12*Retrieve{58|23P8[103|5]} 20|1513s38
+X 118 quaddobl_polysys_container.ads
+8K9*QuadDobl_PolySys_Container 20|39w6 887r5 946r10 1511r11 118|120e31
+16U13*Initialize 20|887s32
+91V12*Retrieve{66|23P8[109|5]} 20|946s37 1511s38
+X 119 quaddobl_solutions_container.ads
+4K9*QuadDobl_Solutions_Container 20|45w6 1270r11 1355r5 119|89e33
+78U13*Append 20|1270s40 1355s34
+X 124 standard_complex_laur_systems.ads
+5K9*Standard_Complex_Laur_Systems[58|12] 20|19w6 1376r19 1378r39
+X 130 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[66|12] 20|13w6 673r9 745r18 835r18 901r18
+. 1374r19 1378r9
+X 131 standard_complex_poly_systems_io.ads
+6K9*Standard_Complex_Poly_Systems_io 20|14w6 14r45 131|130e37
+38U13*get 20|682s5
+94U13*put_line 20|754s7 758s7
+X 135 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 20|22w6 1195r10 1197r9 1291r10 135|206e31
+25P8*Link_to_Solution(16R8) 20|1195r37 1291r37
+X 138 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 20|6w6 6r45 138|58e30
+13F8*double_float<long_float> 20|1388r25 1456r25 1524r25 1817r26 1858r24
+. 1942r26 2206r24
+X 140 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[68|8] 20|8w6 75r32 82r11 280r9 392r9 500r9
+. 536r9 576r14 1814r20 1855r18 1939r20 2077r12 2134r12 2192r18
+X 142 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 19|1w6 1r45 142|45e29
+6I8*integer32<long_integer> 19|12r25 12r49 20r25 20r49 28r25 28r49 43r25
+. 43r49 59r25 59r49 77r25 77r49 95r25 95r49 111r25 111r49 127r25 127r49 145r25
+. 145r49 163r25 163r49 178r25 178r49 195r25 195r49 210r25 210r49 229r25 229r49
+. 245r25 245r49 253r25 253r49 261r25 261r49 269r25 269r49 276r25 276r49 283r25
+. 283r49 290r25 290r49 297r25 297r49 304r25 304r49 311r25 311r49 318r25 318r49
+. 325r25 325r49 332r25 332r49 339r25 339r49 346r25 346r49 353r25 353r49 360r25
+. 360r49 367r25 367r49 376r25 376r49 392r25 392r49 408r25 408r49 424r25 424r49
+. 438r25 438r49 452r25 452r49 466r25 466r49 480r25 480r49 495r25 495r49 510r25
+. 510r49 525r25 525r49 540r25 540r49 553r25 553r49 560r25 560r49 567r25 567r49
+. 575r25 575r49 589r25 589r49 600r25 600r49 608r25 608r49 616r25 616r49 631r25
+. 631r49 647r25 647r49 665r25 665r49 683r25 683r49 699r25 699r49 715r25 715r49
+. 733r25 733r49 751r25 751r49 765r25 765r49 778r25 778r49 795r25 795r49 807r25
+. 807r49 817r25 817r49 836r25 836r49 853r25 853r49 868r25 868r49 882r25 882r49
+. 898r25 898r49 913r25 913r49 928r25 928r49 941r25 941r49 948r25 948r49 20|97r25
+. 97r49 104r9 132r25 132r49 162r25 162r49 168r12 181r25 181r49 187r12 201r25
+. 201r49 205r9 230r25 230r49 236r9 249r20 271r25 271r49 278r20 278r33 310r25
+. 310r49 340r25 340r49 360r20 380r25 380r49 388r18 388r31 419r25 419r49 430r18
+. 430r31 450r14 465r25 465r49 468r18 468r31 477r19 494r25 494r49 499r18 499r31
+. 526r25 526r49 530r18 530r31 531r18 531r31 535r18 535r31 548r17 551r17 571r25
+. 571r49 588r24 590r15 617r25 617r49 635r25 635r49 653r25 653r49 671r25 671r49
+. 695r25 695r49 719r25 719r49 743r25 743r49 773r25 773r49 803r25 803r49 833r25
+. 833r49 855r25 855r49 877r25 877r49 899r25 899r49 921r25 921r49 943r25 943r49
+. 965r25 965r49 983r25 983r49 1001r25 1001r49 1021r25 1021r49 1034r12 1049r25
+. 1049r49 1062r12 1077r25 1077r49 1090r12 1105r25 1105r49 1133r25 1133r49
+. 1161r25 1161r49 1189r25 1189r49 1221r25 1221r49 1253r25 1253r49 1285r25
+. 1285r49 1313r25 1313r49 1341r25 1341r49 1367r25 1367r49 1435r25 1435r49
+. 1503r25 1503r49 1572r25 1572r49 1580r12 1593r25 1593r49 1615r25 1615r49
+. 1622r9 1650r25 1650r49 1680r25 1680r49 1686r12 1699r25 1699r49 1705r12
+. 1719r25 1719r49 1723r9 1749r25 1749r49 1755r9 1769r20 1791r25 1791r49 1798r20
+. 1798r33 1837r25 1837r49 1875r25 1875r49 1895r20 1915r25 1915r49 1923r18
+. 1923r31 1962r25 1962r49 1973r18 1973r31 1991r14 2005r25 2005r49 2037r25
+. 2037r49 2040r18 2040r31 2052r19 2070r25 2070r49 2075r18 2075r31 2086r15
+. 2103r25 2103r49 2123r25 2123r49 2127r18 2127r31 2128r18 2128r31 2132r18
+. 2132r31 2146r17 2149r17 2155r15 2172r25 2172r49 2189r24 2191r15 2223r25
+. 2223r49 2244r25 2244r49 2253r12 2266r25 2266r49 2275r12 2289r25 2289r49
+. 2300r12 2314r25 2314r49 2325r12 2339r25 2339r49 2350r12 2362r25 2362r49
+. 2379r25 2379r49
+X 144 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[68|8] 20|7w6 53r32 60r11 105r11 137r11 203r9
+. 246r14 357r14 425r20 431r9 469r20 470r16 537r11 538r11 575r15 588r37 589r18
+. 1372r20 1394r14 1415r14 1440r20 1462r14 1483r14 1508r20 1530r14 1551r14
+. 1623r11 1655r11 1721r9 1766r14 1800r9 1892r14 1927r9 1968r20 1975r9 2041r11
+. 2042r14 2054r19 2076r9 2133r9 2135r11 2136r11 2176r15 2177r14 2189r37 2190r18
+X 146 standard_laursys_container.ads
+8K9*Standard_LaurSys_Container 20|40w6 1377r11 146|113e31
+84V12*Retrieve{58|23P8[124|5]} 20|1377s38
+X 147 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 20|4w6 4r45 147|30e29
+7I8*natural32<long_integer> 20|52r66 74r67 103r11 138r12 279r20 279r33 315r18
+. 315r31 346r18 346r31 387r18 387r31 389r18 389r31 424r18 424r31 429r10 498r18
+. 498r31 507r12 555r12 574r18 574r31 1024r18 1024r31 1025r10 1052r18 1052r31
+. 1053r10 1080r18 1080r31 1081r10 1108r18 1108r31 1111r18 1111r31 1112r20
+. 1112r33 1136r18 1136r31 1139r18 1139r31 1140r20 1140r33 1164r18 1164r31
+. 1167r18 1167r31 1168r20 1168r33 1193r18 1193r31 1194r18 1194r31 1225r18
+. 1225r31 1226r18 1226r31 1257r18 1257r31 1258r18 1258r31 1289r18 1289r31
+. 1290r18 1290r31 1317r18 1317r31 1318r18 1318r31 1345r18 1345r31 1346r18
+. 1346r31 1574r19 1596r20 1596r33 1621r11 1656r12 1799r20 1799r33 1842r18
+. 1842r31 1881r18 1881r31 1922r18 1922r31 1924r18 1924r31 1967r18 1967r31
+. 1972r10 2016r20 2016r33 2074r18 2074r31 2084r12 2153r12 2175r18 2175r31
+. 2246r20 2268r20 2292r18 2292r31 2293r10 2317r18 2317r31 2318r10 2342r18
+. 2342r31 2343r10
+X 148 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 20|5w6 5r45 148|35e32
+25U13*put 20|148s36 441s48 1666s36
+X 151 standard_polysys_container.ads
+8K9*Standard_PolySys_Container 20|37w6 843r5 902r10 1375r11 151|120e31
+16U13*Initialize 20|843s32
+91V12*Retrieve{66|23P8[130|5]} 20|902s37 1375s38
+X 152 standard_solutions_container.ads
+6K9*Standard_Solutions_Container 20|43w6 1206r11 1299r5 152|114e33
+80U13*Append 20|1206s40 1299s34
+X 154 supports_of_polynomial_systems.ads
+25K9*Supports_of_Polynomial_Systems 20|25w6 1387r16 1410r16 1455r16 1478r16
+. 1523r16 1546r16 154|409e35
+150V12*Create{53|24A8[15|7]} 20|1387s47
+152V12*Create{53|24A8[15|7]} 20|1410s47
+154V12*Create{53|24A8[15|7]} 20|1455s47
+156V12*Create{53|24A8[15|7]} 20|1478s47
+158V12*Create{53|24A8[15|7]} 20|1523s47
+160V12*Create{53|24A8[15|7]} 20|1546s47
+X 176 text_io.ads
+27K9*Text_IO=27:29 20|1w6 1r45
+

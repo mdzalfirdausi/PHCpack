@@ -1,0 +1,264 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_quad_trees%b	standard_quad_trees.adb	e42d6ab1 NE OO PK
+W unchecked_deallocation%s
+
+U standard_quad_trees%s	standard_quad_trees.ads	ddfab58d BN EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_point_lists%s  standard_point_lists.adb  standard_point_lists.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_point_lists.ads  20260513024558 c6ecf08d standard_point_lists%s
+D standard_quad_trees.ads  20260513024558 bcf7a5bc standard_quad_trees%s
+D standard_quad_trees.adb  20260513024558 799fd9a9 standard_quad_trees%b
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c Z s b [partition standard_quad_trees 29 13 none]
+G c Z s b [create_root_leaf standard_quad_trees 55 12 none]
+G c Z s b [create_root_leaf standard_quad_trees 56 12 none]
+G c Z s b [create_leaf standard_quad_trees 63 12 none]
+G c Z s b [split_leaf standard_quad_trees 69 13 none]
+G c Z s b [create standard_quad_trees 75 13 none]
+G c Z s b [create standard_quad_trees 82 12 none]
+G c Z s b [create standard_quad_trees 85 12 none]
+G c Z s b [number_of_leaves standard_quad_trees 105 12 none]
+G c Z s b [number_of_nodes standard_quad_trees 110 12 none]
+G c Z s b [sort_leaves standard_quad_trees 125 13 none]
+G c Z s b [shallow_clear standard_quad_trees 140 13 none]
+G c Z s b [deep_clear standard_quad_trees 146 13 none]
+G c Z s b [deep_clear standard_quad_trees 147 13 none]
+G c Z s s [quad_nodeIP standard_quad_trees 16 8 none]
+G c Z b b [free standard_quad_trees 189 13 none]
+G r c none [partition standard_quad_trees 29 13 none] [is_null standard_point_lists__list_of_points 72 12 23_3]
+G r c none [partition standard_quad_trees 29 13 none] [head_of standard_point_lists__list_of_points 77 12 23_3]
+G r c none [partition standard_quad_trees 29 13 none] [append standard_point_lists__list_of_points 43 13 23_3]
+G r c none [partition standard_quad_trees 29 13 none] [tail_of standard_point_lists__list_of_points 84 12 23_3]
+G r c none [create_root_leaf standard_quad_trees 55 12 none] [length_of standard_point_lists__list_of_points 67 12 23_3]
+G r c none [split_leaf standard_quad_trees 69 13 none] [center standard_point_lists 80 13 none]
+G r c none [split_leaf standard_quad_trees 69 13 none] [is_null standard_point_lists__list_of_points 72 12 23_3]
+G r c none [split_leaf standard_quad_trees 69 13 none] [head_of standard_point_lists__list_of_points 77 12 23_3]
+G r c none [split_leaf standard_quad_trees 69 13 none] [append standard_point_lists__list_of_points 43 13 23_3]
+G r c none [split_leaf standard_quad_trees 69 13 none] [tail_of standard_point_lists__list_of_points 84 12 23_3]
+G r c none [split_leaf standard_quad_trees 69 13 none] [shallow_clear standard_point_lists 165 13 none]
+G r c none [create standard_quad_trees 75 13 none] [center standard_point_lists 80 13 none]
+G r c none [create standard_quad_trees 75 13 none] [is_null standard_point_lists__list_of_points 72 12 23_3]
+G r c none [create standard_quad_trees 75 13 none] [head_of standard_point_lists__list_of_points 77 12 23_3]
+G r c none [create standard_quad_trees 75 13 none] [append standard_point_lists__list_of_points 43 13 23_3]
+G r c none [create standard_quad_trees 75 13 none] [tail_of standard_point_lists__list_of_points 84 12 23_3]
+G r c none [create standard_quad_trees 75 13 none] [shallow_clear standard_point_lists 165 13 none]
+G r c none [create standard_quad_trees 82 12 none] [length_of standard_point_lists__list_of_points 67 12 23_3]
+G r c none [create standard_quad_trees 82 12 none] [center standard_point_lists 80 13 none]
+G r c none [create standard_quad_trees 82 12 none] [is_null standard_point_lists__list_of_points 72 12 23_3]
+G r c none [create standard_quad_trees 82 12 none] [head_of standard_point_lists__list_of_points 77 12 23_3]
+G r c none [create standard_quad_trees 82 12 none] [append standard_point_lists__list_of_points 43 13 23_3]
+G r c none [create standard_quad_trees 82 12 none] [tail_of standard_point_lists__list_of_points 84 12 23_3]
+G r c none [create standard_quad_trees 82 12 none] [shallow_clear standard_point_lists 165 13 none]
+G r c none [create standard_quad_trees 85 12 none] [center standard_point_lists 80 13 none]
+G r c none [create standard_quad_trees 85 12 none] [is_null standard_point_lists__list_of_points 72 12 23_3]
+G r c none [create standard_quad_trees 85 12 none] [head_of standard_point_lists__list_of_points 77 12 23_3]
+G r c none [create standard_quad_trees 85 12 none] [append standard_point_lists__list_of_points 43 13 23_3]
+G r c none [create standard_quad_trees 85 12 none] [tail_of standard_point_lists__list_of_points 84 12 23_3]
+G r c none [create standard_quad_trees 85 12 none] [shallow_clear standard_point_lists 165 13 none]
+G r c none [sort_leaves standard_quad_trees 125 13 none] [sort standard_point_lists 98 13 none]
+G r c none [deep_clear standard_quad_trees 146 13 none] [deep_clear standard_point_lists 166 13 none]
+G r c none [deep_clear standard_quad_trees 147 13 none] [deep_clear standard_point_lists 166 13 none]
+X 11 generic_lists.ads
+12P8*List
+43U13*Append 24|23s11[22|23] 26s11[22|23] 31s11[22|23] 34s11[22|23]
+67V12*Length_Of{21|7I8} 24|45s32[22|23] 116s22[22|23]
+72V12*Is_Null{boolean} 24|18s15[22|23]
+77V12*Head_Of{22|21P8} 24|19s13[22|23]
+84V12*Tail_Of{12P8[22|23]} 24|37s14[22|23]
+X 19 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 23|2w6 2r46
+13F8*double_float<long_float> 23|30r49 132r62 24|8r49 78r13 174r62
+X 21 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 23|1w6 1r46
+7I8*natural32<long_integer> 23|17r13 18r12 31r52 56r55 63r56 76r46 83r42
+. 85r45 86r42 105r64 110r63 24|9r52 48r55 62r56 80r35 101r46 113r42 119r45
+. 120r42 132r64 141r63
+X 22 standard_point_lists.ads
+8K9*Standard_Point_Lists 171e25 23|3w6 3r46 24|177r11
+18f5*x{19|13F8} 24|20r13
+18f7*y{19|13F8} 24|21r15 29r15
+21P8*Link_to_Point(16R8) 23|131r42 24|13r10
+24P8*Point_List<11|12P8[23]> 23|21r15 30r26 32r52 55r36 56r36 63r31 82r26
+. 85r26 24|8r26 10r52 12r11 14r39 43r36 48r36 62r31 81r35 112r26 119r26
+80U13*Center 24|85s7
+98U13*Sort 24|166s7
+152u13*Clusters 24|177r32
+165U13*Shallow_Clear 24|94s7
+166U13*Deep_Clear 24|199s11
+X 23 standard_quad_trees.ads
+5K9*Standard_Quad_Trees 153l5 153e24 24|3b14 213l5 213t24
+13R8*Quad_Node 14r36 16c8 16d20 25e13 146r39 24|52r10 58r16 66r10 72r16 79r11
+. 96r18 189r48 196r39
+14P8*Link_to_Quad_Node(13R8) 23r23 55r56 57r36 64r31 69r39 75r35 84r26 87r26
+. 105r37 110r36 116r48 117r46 125r41 132r34 140r42 147r39 24|43r56 49r36
+. 51r11 63r31 65r11 76r39 100r35 114r26 121r26 123r12 132r37 141r36 150r46
+. 161r41 163r39 174r34 189r58 191r42 205r39
+16R8*Quad_Node
+16b20*leaf{boolean} 19r10 24|84r12 134r12 143r12 152r13 180r13 198r12
+17i5*depth{21|7I8} 24|55m8 69m8 88r47 89r47 90r47 91r47 92m11 92r24 103r12
+18i5*size{21|7I8} 24|56m8 70m8 93m11 93r23 103r38 199m36
+21p9*pts{22|24P8} 24|57m8 71m8 85r18 86r21 94m25 166m15 181r32 199m26
+23p9*ne{14P8} 24|88m11 105m18 136r39 145r38 154m33 182r25 200m26
+23p12*nw{14P8} 24|89m11 106m18 136r66 145r64 154m60 182r48 200m46
+23p15*sw{14P8} 24|90m11 107m18 137r39 146r38 155m33 183r25 201m26
+23p18*se{14P8} 24|91m11 108m18 137r66 146r64 155m60 183r48 201m46
+29U13*Partition 30>18 30>38 30>41 31<18 31<25 31<32 31<39 32<18 32<25 32<32
+. 32<39 24|7b13 39l7 39t16 86s7
+30p18 pl{22|24P8} 24|8b18 12r25
+30f38 cx{19|13F8} 24|8b38 20r17
+30f41 cy{19|13F8} 24|8b41 21r19 29r19
+31i18 ne_cnt{21|7I8} 24|9b18 17m5 33m11 33r21
+31i25 nw_cnt{21|7I8} 24|9b25 17m18 25m11 25r21
+31i32 sw_cnt{21|7I8} 24|9b32 17m31 22m11 22r21
+31i39 se_cnt{21|7I8} 24|9b39 17m44 30m11 30r21
+32p18 ne_pts{22|24P8} 24|10b18 34m18
+32p25 nw_pts{22|24P8} 24|10b25 26m18
+32p32 sw_pts{22|24P8} 24|10b32 23m18
+32p39 se_pts{22|24P8} 24|10b39 31m18
+55V12*Create_Root_Leaf{14P8} 55>31 24|43b12 46l7 46t23
+55p31 pl{22|24P8} 24|43b31 45r29 45r42
+56V12*Create_Root_Leaf{14P8} 56>31 56>48 24|45s12 48b12 60l7 60t23 123s33
+56p31 pl{22|24P8} 24|48b31 57r15
+56i48 size{21|7I8} 24|48b48 56r16
+63V12*Create_Leaf{14P8} 63>26 63>43 63>48 24|62b12 74l7 74t18 88s17 89s17
+. 90s17 91s17
+63p26 pl{22|24P8} 24|62b26 71r15
+63i43 size{21|7I8} 24|62b43 70r16
+63i48 depth{21|7I8} 24|62b48 69r17
+69U13*Split_Leaf 69=26 24|76b13 98l7 98t17 104s7
+69p26 lqn{14P8} 24|76b26 84r8 85r14 86r17 88r43 89r43 90r43 91r43 92r20 93r19
+. 94r21 95m21 96m7
+75U13*Create 75=22 76>22 76>32 24|100b13 105s7 106s7 107s7 108s7 110l7 110t13
+. 126s5
+75p22 lqn{14P8} 24|100b22 103r8 103r34 104m18 105r14 106r14 107r14 108r14
+76i22 max_depth{21|7I8} 24|101b22 103r20 105r21 106r21 107r21 108r21
+76i32 min_size{21|7I8} 24|101b32 103r45 105r33 106r33 107r33 108r33
+82V12*Create{14P8} 82>21 83>21 83>31 24|112b12 117l7 117t13
+82p21 pl{22|24P8} 24|112b21 116r19 116r32
+83i21 max_depth{21|7I8} 24|113b21 116r36
+83i31 min_size{21|7I8} 24|113b31 116r46
+85V12*Create{14P8} 85>21 85>38 86>21 86>31 24|116s12 119b12 128l7 128t13
+85p21 pl{22|24P8} 24|119b21 123r50
+85i38 size{21|7I8} 24|119b38 123r53
+86i21 max_depth{21|7I8} 24|120b21 126r17
+86i31 min_size{21|7I8} 24|120b31 126r27
+105V12*Number_of_Leaves{21|7I8} 105>31 24|132b12 136s18 136s45 137s18 137s45
+. 139l7 139t23
+105p31 lqn{14P8} 24|132b31 134r8 136r35 136r62 137r35 137r62
+110V12*Number_of_Nodes{21|7I8} 110>30 24|141b12 145s18 145s44 146s18 146s44
+. 148l7 148t22
+110p30 lqn{14P8} 24|141b30 143r8 145r34 145r60 146r34 146r60
+116U20 Process_Leaf 116=35 24|153s11
+116p35 lqn{14P8}
+117u13*Enumerate_Leaves 117=32 24|150b13 154s11 154s38 155s11 155s38 157l7
+. 157t23 168r38
+117p32 root{14P8} 24|150b32 152r8 153m24 154r28 154r55 155r28 155r55
+125U13*Sort_Leaves 125=27 24|161b13 172l7 172t18
+125p27 root{14P8} 24|161b27 171m21
+131U20 Report 131>29 131>33 24|177r41
+131p29 lp1{22|21P8}
+131p33 lp2{22|21P8}
+132u13*Clusters 132>24 132>53 24|174b13 182s11 182s34 183s11 183s34 185l7
+. 185t15
+132p24 root{14P8} 24|174b24 180r8 181r27 182r20 182r43 183r20 183r43
+132f53 tol{19|13F8} 24|174b53 181r36 182r28 182r51 183r28 183r51
+140U13*Shallow_Clear 140=29 24|95s7 191b13 194l7 194t20
+140p29 lqn{14P8} 24|191b29 193m10
+146U13*Deep_Clear 146=26 24|196b13 203l7 203t17 208s11
+146r26 lqn{16R8} 24|196b26 198r8 199m22 199r22 199m32 200m22 200r22 200m42
+. 200r42 201m22 201r22 201m42 201r42
+147U13*Deep_Clear 147=26 24|200s11 200s31 201s11 201s31 205b13 211l7 211t17
+147p26 lqn{14P8} 24|205b26 207r8 208r22 209m16
+X 24 standard_quad_trees.adb
+12p5 tmp{22|24P8} 18r23 19r21 37m7 37r22
+13p5 lp{22|21P8} 19m7 20r10 21r12 23r33 26r33 29r12 31r33 34r33
+14p5 ne_last{22|24P8} 34m25 34r25
+14p13 nw_last{22|24P8} 26m25 26r25
+14p21 sw_last{22|24P8} 23m25 23r25
+14p29 se_last{22|24P8} 31m25 31r25
+51p5 res{23|14P8} 58m5 59r12
+52r5 qn{23|16R8} 55m5 56m5 57m5 58r27
+65p5 res{23|14P8} 72m5 73r12
+66r5 qn{23|16R8} 69m5 70m5 71m5 72r27
+78f5 cx{19|13F8} 85m22 86r25
+78f8 cy{19|13F8} 85m25 86r28
+79r5 res{23|16R8} 88m7 89m7 90m7 91m7 92m7 93m7 96r29
+80i5 ne_cnt{21|7I8} 86m31 88r36
+80i12 nw_cnt{21|7I8} 86m38 89r36
+80i19 sw_cnt{21|7I8} 86m45 90r36
+80i26 se_cnt{21|7I8} 86m52 91r36
+81p5 ne_pts{22|24P8} 87m31 87r31 88r29
+81p12 nw_pts{22|24P8} 87m38 87r38 89r29
+81p19 sw_pts{22|24P8} 87m45 87r45 90r29
+81p26 se_pts{22|24P8} 87m52 87r52 91r29
+123p5 root{23|14P8} 126m12 126r12 127r12
+163U15 Sort_Leaf 163b15 163=27 167l9 167t18 168r55
+163p27 qn{23|14P8} 166r12
+168U15 Sort_the_Leaves[23|117] 150b13 171s5
+176U15 Report_Clusters[22|152] 181s11
+189U13 free[42|22] 193s5 209s11
+X 42 unchdeal.ads
+22u11*Unchecked_Deallocation 24|1w6 189r25
+

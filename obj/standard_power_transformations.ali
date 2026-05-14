@@ -1,0 +1,244 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_power_transformations%b  standard_power_transformations.adb  524ef91e NE OO PK
+W standard64_common_divisors%s  standard64_common_divisors.ads  standard64_common_divisors.ali
+W standard_common_divisors%s  standard_common_divisors.ads  standard_common_divisors.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_power_transformations%s  standard_power_transformations.ads  6bd9d896 EE NE OO PK
+W standard_integer64_matrices%s  standard_integer64_matrices.ads  standard_integer64_matrices.ali
+W standard_integer64_vectors%s  standard_integer64_vectors.ads  standard_integer64_vectors.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D standard64_common_divisors.ads  20260513024558 d6300ee4 standard64_common_divisors%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_ring-ddomain.ads  20260513024558 592f7659 standard_integer64_ring.ddomain%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_power_transformations.ads  20260513024558 45679b92 standard_power_transformations%s
+D standard_power_transformations.adb  20260513024558 8be4e3a3 standard_power_transformations%b
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [identity_matrix standard_power_transformations 16 12 none]
+G c Z s b [identity_matrix standard_power_transformations 18 12 none]
+G c Z s b [pivot standard_power_transformations 24 12 none]
+G c Z s b [pivot standard_power_transformations 25 12 none]
+G c Z s b [pivot standard_power_transformations 31 12 none]
+G c Z s b [pivot standard_power_transformations 33 12 none]
+G c Z s b [rotate standard_power_transformations 40 12 none]
+G c Z s b [rotate standard_power_transformations 42 12 none]
+G c Z s b [eliminate standard_power_transformations 53 12 none]
+G c Z s b [eliminate standard_power_transformations 55 12 none]
+G r c none [rotate standard_power_transformations 40 12 none] [gcd standard_common_divisors 28 13 5_1]
+G r c none [rotate standard_power_transformations 40 12 none] [Omultiply standard_integer_matrices 51 12 5_1]
+G r c none [rotate standard_power_transformations 40 12 none] [Omultiply standard_integer_matrices 41 12 5_1]
+G r c none [rotate standard_power_transformations 42 12 none] [gcd standard64_common_divisors 28 13 5_1]
+G r c none [rotate standard_power_transformations 42 12 none] [Omultiply standard_integer64_matrices 51 12 5_1]
+G r c none [rotate standard_power_transformations 42 12 none] [Omultiply standard_integer64_matrices 41 12 5_1]
+G r c none [eliminate standard_power_transformations 53 12 none] [gcd standard_common_divisors 28 13 5_1]
+G r c none [eliminate standard_power_transformations 53 12 none] [Omultiply standard_integer_matrices 41 12 5_1]
+G r c none [eliminate standard_power_transformations 55 12 none] [gcd standard64_common_divisors 28 13 5_1]
+G r c none [eliminate standard_power_transformations 55 12 none] [Omultiply standard_integer64_matrices 41 12 5_1]
+X 3 generic_matrices.ads
+16A8*Matrix(13|6I8)<13|6I8><13|6I8> 18|17r66[12|5] 19r68[8|5] 41r70[12|5]
+. 43r72[8|5] 54r55[12|5] 56r57[8|5] 19|10r66[12|5] 12r37[12|5] 27r68[8|5]
+. 29r39[8|5] 86r52[12|5] 89r35[12|5] 91r37[12|5] 128r54[8|5] 131r37[8|5]
+. 133r39[8|5] 171r55[12|5] 174r35[12|5] 176r37[12|5] 260r57[8|5] 263r37[8|5]
+. 265r39[8|5]
+41V13*"*"{16A8[12|5]} 19|117s19[12|5] 160s19[8|5] 212s19[12|5] 241s19[12|5]
+. 252s19[12|5] 304s19[8|5] 335s19[8|5] 346s19[8|5]
+51V13*"*"{4|16A8[16|4]} 19|116s17[12|5] 159s17[8|5]
+X 4 generic_vectors.ads
+16A8*Vector(13|6I8)<13|6I8> 18|24r49[16|4] 25r51[11|4] 31r49[16|4] 33r51[11|4]
+. 40r50[16|4] 42r52[11|4] 53r53[16|4] 55r55[11|4] 19|43r49[16|4] 53r51[11|4]
+. 63r49[16|4] 74r51[11|4] 85r50[16|4] 92r34[16|4] 127r52[11|4] 134r36[11|4]
+. 170r53[16|4] 177r34[16|4] 259r55[11|4] 266r36[11|4]
+X 5 greatest_common_divisors.ads
+28U13*gcd 19|112s36[7|5] 155s38[6|5] 207s36[7|5] 236s36[7|5] 297s38[6|5]
+. 328s38[6|5]
+X 6 standard64_common_divisors.ads
+5K9*Standard64_Common_Divisors[5|9] 19|5w6 155r11 297r11 328r11
+X 7 standard_common_divisors.ads
+5K9*Standard_Common_Divisors[5|9] 19|4w6 112r11 207r11 236r11
+X 8 standard_integer64_matrices.ads
+5K9*Standard_Integer64_Matrices[3|9] 18|6w6 19r40 43r44 56r29 19|27r40 29r11
+. 128r26 131r9 133r11 138r9 260r29 263r9 265r11 272r9
+X 11 standard_integer64_vectors.ads
+4K9*Standard_Integer64_Vectors[4|8] 18|5w6 25r24 33r24 42r25 55r28 19|53r24
+. 74r24 127r25 134r9 259r28 266r9
+X 12 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[3|9] 18|4w6 17r40 41r44 54r29 19|10r40 12r11
+. 86r26 89r9 91r11 95r9 171r29 174r9 176r11 182r9
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 18|2w6 2r46
+6I8*integer32<long_integer> 18|24r65 25r67 32r24 32r43 34r24 34r43 41r25
+. 43r25 53r65 55r67 19|12r47 12r63 29r49 29r65 43r65 53r67 64r24 64r43 75r24
+. 75r43 85r62 88r18 93r21 127r64 130r18 135r9 170r65 173r18 178r25 179r20
+. 259r67 262r18 267r13 269r20
+7I8*integer64<long_long_integer> 19|136r19 268r19
+X 16 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[4|8] 18|3w6 24r24 31r24 40r25 53r28 19|43r24
+. 63r24 85r25 92r9 170r28 177r9
+X 17 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 18|1w6 1r46
+7I8*natural32<long_integer> 18|17r21 19r21 19|10r21 27r21 90r26 132r26 175r26
+. 264r26
+X 18 standard_power_transformations.ads
+8K9*Standard_Power_Transformations 69l5 69e35 19|7b14 353l5 353t35
+16V12*Identity_Matrix{3|16A8[12|5]} 17>17 19|9b12 24l7 24t22 90s10 175s10
+17i17 n{17|7I8} 19|10b17 12r57 12r73
+18V12*Identity_Matrix{3|16A8[8|5]} 19>17 19|26b12 41l7 41t22 132s10 264s10
+19i17 n{17|7I8} 19|27b17 29r59 29r75
+24V12*Pivot{13|6I8} 24>20 19|43b12 51l7 51t12
+24a20 v{4|16A8[16|4]} 19|43b20 45r14 46r10 50r12
+25V12*Pivot{13|6I8} 25>20 19|53b12 61l7 61t12
+25a20 v{4|16A8[11|4]} 19|53b20 55r14 56r10 60r12
+31V12*Pivot{13|6I8} 31>20 32>20 19|63b12 72l7 72t12 179s33
+31a20 v{4|16A8[16|4]} 19|63b20 66r17 67r10 71r12
+32i20 i{13|6I8} 19|64b20 66r14
+33V12*Pivot{13|6I8} 33>20 34>20 19|74b12 83l7 83t12 269s33
+33a20 v{4|16A8[11|4]} 19|74b20 77r17 78r10 82r12
+34i20 i{13|6I8} 19|75b20 77r14
+40V12*Rotate{3|16A8[12|5]} 40>21 41>21 19|85b12 125l7 125t13
+40a21 v{4|16A8[16|4]} 19|85b21 88r31 92r41 98r8 101r12
+41i21 i{13|6I8} 19|85b58 98r10 105r36 111r18 114r13 114r15 114r27 115r15
+. 118r13 118r15 119r13 119r28
+42V12*Rotate{3|16A8[8|5]} 42>21 43>21 19|127b12 168l7 168t13
+42a21 v{4|16A8[11|4]} 19|127b21 130r31 134r43 141r8 144r12
+43i21 i{13|6I8} 19|127b60 141r10 148r36 154r18 157r13 157r15 157r27 158r15
+. 161r13 161r15 162r13 162r28
+53V12*Eliminate{3|16A8[12|5]} 53>24 53>61 19|170b12 257l7 257t16
+53a24 v{4|16A8[16|4]} 19|170b24 173r31 177r41 177r53 179r39 185r14 185r31
+. 188r10 193r16 223r27
+53i61 i{13|6I8} 19|170b61 179r41 188r12 189r13 189r15 189r30 190r17 191r11
+. 193r25 198r16 201r28 215r19 223r24 228r16 230r28 244r19 250r14 251r13 251r15
+55V12*Eliminate{3|16A8[8|5]} 55>24 55>63 19|259b12 351l7 351t16
+55a24 v{4|16A8[11|4]} 19|259b24 262r31 266r43 266r55 269r39 275r14 275r31
+. 278r10 283r16 315r27
+55i63 i{13|6I8} 19|259b63 269r41 278r12 279r13 279r15 279r30 280r17 281r11
+. 283r25 288r16 291r28 307r19 315r24 320r16 322r28 338r19 344r14 345r13 345r15
+X 19 standard_power_transformations.adb
+12a5 res{3|16A8[12|5]} 15r14 16r16 18m15 19m15 23r12
+15i9 i<long_integer> 17r12 18r19 19r19
+16i11 j<long_integer> 17r16 18r21 19r21
+29a5 res{3|16A8[8|5]} 32r14 33r16 35m15 36m15 40r12
+32i9 i<long_integer> 34r12 35r19 36r19
+33i11 j<long_integer> 34r16 35r21 36r21
+45i9 i<long_integer> 46r12 47r20
+55i9 i<long_integer> 56r12 57r20
+66i9 k<long_integer> 67r12 68r20
+77i9 k<long_integer> 78r12 79r20
+88i5 n{13|6I8} 89r45 89r50 90r36 91r47 91r52
+89a5 t{3|16A8[12|5]} 99r14 101r22 114m11 114m25 115m11 115m25 116r16 117r18
+. 118m11 118m24 119m11 119m24
+91a5 res{3|16A8[12|5]} 101m15 117m11 117r20 123r14
+92a5 w{4|16A8[16|4]} 101m7 104r18 105r15 111r16 111r27 116m11 116r18
+93i5 j{13|6I8} 103m9 106m17 108r21 110r12 111r29 114r29 115r13 115r27 115r29
+. 118r26 118r28 119r15 119r26 121r19
+93i7 a{13|6I8} 111m11 112r40 113m11 113r16 115r35
+93i9 b{13|6I8} 111m22 112r42 113m22 113r27 115r22
+93i11 ka{13|6I8} 112m44 114r21
+93i14 lb{13|6I8} 112m47 114r35
+93i17 d{13|6I8} 112m50 113r18 113r29
+104i13 k<long_integer> 105r17 105r31 106r22
+130i5 n{13|6I8} 131r47 131r52 132r36 133r49 133r54
+131a5 t{3|16A8[8|5]} 142r14 144r22 157m11 157m25 158m11 158m25 159r16 160r18
+. 161m11 161m24 162m11 162m24
+133a5 res{3|16A8[8|5]} 144m15 160m11 160r20 166r14
+134a5 w{4|16A8[11|4]} 144m7 147r18 148r15 154r16 154r27 159m11 159r18
+135i5 j{13|6I8} 146m9 149m17 151r21 153r12 154r29 157r29 158r13 158r27 158r29
+. 161r26 161r28 162r15 162r26 164r19
+136i5 a{13|7I8} 154m11 155r42 156m11 156r16 158r35
+136i7 b{13|7I8} 154m22 155r44 156m22 156r27 158r22
+136i9 ka{13|7I8} 155m46 157r21
+136i12 lb{13|7I8} 155m49 157r35
+136i15 d{13|7I8} 155m52 156r18 156r29
+147i13 k<long_integer> 148r17 148r31 149r22
+173i5 n{13|6I8} 174r45 174r50 175r36 176r47 176r52
+174a5 t{3|16A8[12|5]} 176r58 209m11 209m27 210m11 210m27 212r18 213m11 213m26
+. 214m11 214m26 238m11 238m28 239m11 239m28 241r18 242m11 242m26 243m11 243m26
+. 251m11 252r18
+176a5 res{3|16A8[12|5]} 186r14 189m9 189m26 190m9 190m26 212m11 212r20 241m11
+. 241r20 252m11 252r20 255r14
+177a5 w{4|16A8[16|4]} 191m9 191r17 191m25 194r12 202r16 206r16 206r28 211m11
+. 224r12 231r16 235r16 235r28 240m11 250r12
+178i5 j1{13|6I8} 195m15 198r10 201r21 206r18 209r13 209r16 209r29 210r16
+. 213r13 213r16 214r13 214r31 216m17 232m19 235r18 238r13 238r16 238r30 239r16
+. 240r13 242r13 242r16 243r13 243r31 244r14 245r23
+178i8 j2{13|6I8} 203m19 206r30 209r32 210r13 210r29 210r32 211r13 213r28
+. 213r31 214r16 214r28 215r14 216r23 225m15 228r10 230r32 235r30 238r33 239r13
+. 239r30 239r33 242r28 242r31 243r16 243r28 245m17
+178i11 a{13|6I8} 206m11 207r40 208m11 208r16 210r23 235m11 236r40 237m11
+. 237r16 238r23
+178i13 b{13|6I8} 206m23 207r42 208m22 208r27 210r39 235m23 236r42 237m22
+. 237r27 238r40
+178i15 ka{13|6I8} 207m44 209r40 236m44 239r40
+178i18 lb{13|6I8} 207m47 209r23 236m47 239r24
+178i21 d{13|6I8} 207m50 208r18 208r29 211r20 236m50 237r18 237r29 240r20
+179i5 ind{13|6I8} 185r8 185r25 189r32 190r13 190r30 190r34 191r19 191r27
+180b5 zeroes{boolean} 199m9 221m9 249r13
+193i11 k<long_integer> 194r14 195r21
+201i15 k<long_integer> 202r18 203r25
+223i11 k<long_integer> 224r14 225r21
+230i15 k<long_integer> 231r18 232r25
+262i5 n{13|6I8} 263r47 263r52 264r36 265r49 265r54
+263a5 t{3|16A8[8|5]} 265r60 301m11 301m27 302m11 302m27 304r18 305m11 305m26
+. 306m11 306m26 332m11 332m28 333m11 333m28 335r18 336m11 336m26 337m11 337m26
+. 345m11 346r18
+265a5 res{3|16A8[8|5]} 276r14 279m9 279m26 280m9 280m26 304m11 304r20 335m11
+. 335r20 346m11 346r20 349r14
+266a5 w{4|16A8[11|4]} 281m9 281r17 281m25 284r12 292r16 296r16 296r28 303m11
+. 316r12 323r16 327r16 327r28 334m11 344r12
+267i5 j1{13|6I8} 285m15 288r10 291r21 296r18 301r13 301r16 301r29 302r16
+. 305r13 305r16 306r13 306r31 308m17 324m19 327r18 332r13 332r16 332r30 333r16
+. 334r13 336r13 336r16 337r13 337r31 338r14 339r23
+267i8 j2{13|6I8} 293m19 296r30 301r32 302r13 302r29 302r32 303r13 305r28
+. 305r31 306r16 306r28 307r14 308r23 317m15 320r10 322r32 327r30 332r33 333r13
+. 333r30 333r33 336r28 336r31 337r16 337r28 339m17
+268i5 a{13|7I8} 296m11 297r42 300m11 300r16 302r23 327m11 328r42 331m11 331r16
+. 332r23
+268i7 b{13|7I8} 296m23 297r44 300m22 300r27 302r39 327m23 328r44 331m22 331r27
+. 332r40
+268i9 ka{13|7I8} 297m46 301r40 328m46 333r40
+268i12 lb{13|7I8} 297m49 301r23 328m49 333r24
+268i15 d{13|7I8} 297m52 300r18 300r29 303r20 328m52 331r18 331r29 334r20
+269i5 ind{13|6I8} 275r8 275r25 279r32 280r13 280r30 280r34 281r19 281r27
+270b5 zeroes{boolean} 289m9 313m9 343r13
+283i11 k<long_integer> 284r14 285r21
+291i15 k<long_integer> 292r18 293r25
+315i11 k<long_integer> 316r14 317r21
+322i15 k<long_integer> 323r18 324r25
+

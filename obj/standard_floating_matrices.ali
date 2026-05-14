@@ -1,0 +1,111 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_floating_matrices%b  standard_floating_matrices.ads  49b1fb7f NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_matrices%s	generic_matrices.adb	generic_matrices.ali  ED
+Z generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W standard_floating_ring%s  standard_floating_ring.ads  standard_floating_ring.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z unchecked_deallocation%s
+
+U standard_floating_matrices%s  standard_floating_matrices.ads  9ae01d86 EB NE OO PK
+Z abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W generic_matrices%s	generic_matrices.adb	generic_matrices.ali
+Z generic_vectors%s	generic_vectors.adb	generic_vectors.ali
+W standard_floating_ring%s  standard_floating_ring.ads  standard_floating_ring.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+Z standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_matrices.adb	20260513024558 f0d34e0f generic_matrices%b
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c s s s [s standard_floating_matrices 5 1 none]
+G c Z s s [equal standard_floating_matrices 21 12 5_1]
+G c Z s s [copy standard_floating_matrices 26 13 5_1]
+G c Z s s [transpose standard_floating_matrices 35 12 5_1]
+G c Z s s [Oadd standard_floating_matrices 37 12 5_1]
+G c Z s s [Oadd standard_floating_matrices 38 12 5_1]
+G c Z s s [Osubtract standard_floating_matrices 39 12 5_1]
+G c Z s s [Osubtract standard_floating_matrices 40 12 5_1]
+G c Z s s [Omultiply standard_floating_matrices 41 12 5_1]
+G c Z s s [add standard_floating_matrices 43 13 5_1]
+G c Z s s [sub standard_floating_matrices 44 13 5_1]
+G c Z s s [mul1 standard_floating_matrices 46 13 5_1]
+G c Z s s [mul2 standard_floating_matrices 47 13 5_1]
+G c Z s s [Omultiply standard_floating_matrices 51 12 5_1]
+G c Z s s [Omultiply standard_floating_matrices 52 12 5_1]
+G c Z s s [mul standard_floating_matrices 54 13 5_1]
+G c Z s s [mul standard_floating_matrices 55 13 5_1]
+G c Z s s [Omultiply standard_floating_matrices 59 12 5_1]
+G c Z s s [Omultiply standard_floating_matrices 60 12 5_1]
+G c Z s s [mul standard_floating_matrices 62 13 5_1]
+G c Z s s [clear standard_floating_matrices 66 13 5_1]
+G c Z s s [clear standard_floating_matrices 67 13 5_1]
+G c Z s s [matrixIP standard_floating_matrices 16 8 5_1]
+G r i none [s standard_floating_matrices 5 1 none] [generic_matrices standard 9 9 none]
+G r c none [equal standard_floating_matrices 21 12 5_1] [equal standard_floating_numbers 25 12 none]
+G r c none [copy standard_floating_matrices 26 13 5_1] [copy standard_floating_numbers 31 13 none]
+G r c none [Omultiply standard_floating_matrices 41 12 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [Omultiply standard_floating_matrices 41 12 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [add standard_floating_matrices 43 13 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [sub standard_floating_matrices 44 13 5_1] [sub standard_floating_numbers 37 13 none]
+G r c none [mul1 standard_floating_matrices 46 13 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [mul1 standard_floating_matrices 46 13 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [mul1 standard_floating_matrices 46 13 5_1] [copy standard_floating_numbers 31 13 none]
+G r c none [mul2 standard_floating_matrices 47 13 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [mul2 standard_floating_matrices 47 13 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [mul2 standard_floating_matrices 47 13 5_1] [copy standard_floating_numbers 31 13 none]
+G r c none [Omultiply standard_floating_matrices 51 12 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [Omultiply standard_floating_matrices 51 12 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [Omultiply standard_floating_matrices 52 12 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [Omultiply standard_floating_matrices 52 12 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [mul standard_floating_matrices 54 13 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [mul standard_floating_matrices 54 13 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [mul standard_floating_matrices 55 13 5_1] [add standard_floating_numbers 34 13 none]
+G r c none [mul standard_floating_matrices 55 13 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [mul standard_floating_matrices 62 13 5_1] [mul standard_floating_numbers 43 13 none]
+G r c none [clear standard_floating_matrices 66 13 5_1] [clear standard_floating_numbers 56 13 none]
+G r c none [clear standard_floating_matrices 67 13 5_1] [clear standard_floating_numbers 56 13 none]
+X 2 generic_matrices.ads
+9k9*Generic_Matrices 72e21 6|3w6 6r7
+X 6 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[2|9]
+X 8 standard_floating_ring.ads
+4K9*Standard_Floating_Ring[1|25] 6|1w6 1r47 6r24
+X 9 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[4|8] 6|2w6 7r24
+

@@ -1,0 +1,142 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U face_enumerators_utilities%b  face_enumerators_utilities.adb  32cc8eee NE OO PK
+W standard_common_divisors%s  standard_common_divisors.ads  standard_common_divisors.ali
+W standard_integer_linear_solvers%s  standard_integer_linear_solvers.ads  standard_integer_linear_solvers.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+
+U face_enumerators_utilities%s  face_enumerators_utilities.ads  e12baf18 EE NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D face_enumerators_utilities.ads  20260513024558 285519b2 face_enumerators_utilities%s
+D face_enumerators_utilities.adb  20260513024558 fd678283 face_enumerators_utilities%b
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_integer_linear_solvers.ads  20260513024558 34df0966 standard_integer_linear_solvers%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [is_zero face_enumerators_utilities 10 12 none]
+G c Z s b [gcd face_enumerators_utilities 15 12 none]
+G c Z s b [scale face_enumerators_utilities 20 13 none]
+G c Z s b [is_in face_enumerators_utilities 25 12 none]
+G c Z s b [in_edge face_enumerators_utilities 31 12 none]
+G c Z s b [in_face face_enumerators_utilities 36 12 none]
+G c Z b b [last_rows_zero face_enumerators_utilities 88 12 none]
+G r c none [gcd face_enumerators_utilities 15 12 none] [gcd standard_common_divisors 18 12 5_1]
+G r c none [scale face_enumerators_utilities 20 13 none] [gcd standard_common_divisors 18 12 5_1]
+G r c none [in_edge face_enumerators_utilities 31 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [in_face face_enumerators_utilities 36 12 none] [equal standard_integer_vectors 21 12 4_1]
+G r c none [in_face face_enumerators_utilities 36 12 none] [upper_triangulate standard_integer_linear_solvers 41 13 8_1]
+G r c none [in_face face_enumerators_utilities 36 12 none] [scale standard_integer_linear_solvers 26 13 8_1]
+G r c none [in_face face_enumerators_utilities 36 12 none] [solve0 standard_integer_linear_solvers 144 13 8_1]
+X 3 face_enumerators_utilities.ads
+5K9*Face_Enumerators_Utilities 43l5 43e31 4|5b14 183l5 183t31
+10V12*Is_Zero{boolean} 10>22 4|7b12 15l7 15t14
+10a22 v{7|16A8[16|4]} 4|7b22 9r14 10r10
+15V12*gcd{13|6I8} 15>18 4|17b12 37l7 37t10 41s31
+15a18 v{7|16A8[16|4]} 4|17b18 19r22 19r24 26r16 26r27 27r12 28r14 29r29 30r28
+20U13*Scale 20=21 4|39b13 49l7 49t12
+20a21 v{7|16A8[16|4]} 4|39b21 41r35 45r16 46m9 46r17
+25V12*Is_In{boolean} 25>20 25>35 4|51b12 59l7 59t12
+25i20 x{13|6I8} 4|51b20 54r17
+25a35 v{7|16A8[16|4]} 4|51b35 53r14 54r10
+31V12*In_Edge{boolean} 31>22 31>24 31>26 4|61b12 86l7 86t14 124s14
+31a22 x{7|16A8[16|4]} 4|61b22 73r20 77r15 79r15
+31a24 a{7|16A8[16|4]} 4|61b24 67r20 73r22 79r24
+31a26 b{7|16A8[16|4]} 4|61b26 66r14 67r13 77r24
+36V12*In_Face{boolean} 36>22 36>40 36>45 36>57 4|113b12 181l7 181t14
+36i22 k{13|6I8} 4|113b22 116r29 117r21 117r33 121r8 123r11 133r17 139r13
+. 144r31 148r27 148r34 157r21 158r25 169r16 170r19 170r32 173r22
+36a40 face{7|16A8[16|4]} 4|113b40 122r19 122r24 124r28 124r33 125r28 125r33
+. 135r25 135r43 139r32
+36a45 x{7|16A8[16|4]} 4|113b45 116r18 122r43 124r22 139r21
+36a57 pts{8|14A8[17|5]} 4|113b57 122r15 124r24 125r24 135r21 135r39 139r28
+X 4 face_enumerators_utilities.adb
+9i9 i<long_integer> 10r12
+19i5 g{13|6I8} 22r8 23m11 23r17 25r8 29m17 29r26 30m17 30r26 33r20 36r12
+26i11 i<long_integer> 27r14 28r16 29r31 30r30
+41i5 g{13|6I8} 44r9 44r27 46r22
+45i11 i<long_integer> 46r11 46r19
+53i9 k<long_integer> 54r12
+63i5 ba{13|6I8} 67m7 68r10 72r8 75r10 76m9 76r16 81r13 81r36
+63i8 xa{13|6I8} 77m9 79m9 81r10 81r30
+63i11 piv{13|6I8} 69m13 77r17 77r26 79r17 79r26
+66i9 i<long_integer> 67r15 67r22 69r20
+88V12 Last_Rows_Zero{boolean} 88b12 88>29 88>43 111l7 111t21 144s12
+88a29 mat{6|16A8[12|5]} 105r20 106r23
+88i43 frst{13|6I8} 105r14
+94V14 Zero_Row{boolean} 94b14 94>25 94>39 102l9 102t17 106s14
+94a25 mat{6|16A8[12|5]} 96r16 97r12
+94i39 i{13|6I8} 97r16
+96i11 j<long_integer> 97r18
+105i9 i<long_integer> 106r27
+116a5 mat{6|16A8[12|5]} 134r16 135m9 138r14 139m7 142m23 142r23 144r27 152r27
+117a5 sol{7|16A8[16|4]} 155m36 155r36 158r14 158r21 161r30 169r12 170m15
+. 170r28 173r18
+118i5 sum{13|6I8} 161m17 161r24 165r12 171m15 171r23 173r12
+133i9 j<long_integer> 135r15 135r30
+134i11 i<long_integer> 135r13 135r34 135r52
+138i9 i<long_integer> 139r11 139r23 139r41
+148a9 matk1{6|16A8[12|5]} 150r18 151r20 152m13 155m15 155r15 155r30
+150i13 i<long_integer> 152r19 152r31
+151i15 j<long_integer> 152r21 152r33
+157i13 i<long_integer> 158r18 161r34
+X 5 generic_integer_linear_solvers.ads
+26U13*Scale 4|155s9[11|8]
+41U13*Upper_Triangulate 4|142s5[11|8]
+144U13*Solve0 4|155s23[11|8]
+X 6 generic_matrices.ads
+16A8*Matrix(13|6I8)<13|6I8><13|6I8> 4|88r35[12|5] 94r31[12|5] 116r11[12|5]
+. 148r17[12|5]
+X 7 generic_vectors.ads
+16A8*Vector(13|6I8)<13|6I8> 3|10r26[16|4] 15r22[16|4] 20r32[16|4] 25r39[16|4]
+. 31r30[16|4] 36r49[16|4] 4|7r26[16|4] 17r22[16|4] 39r32[16|4] 51r39[16|4]
+. 61r30[16|4] 113r49[16|4] 117r11[16|4]
+17P8*Link_to_Vector(16A8[16|4])
+21V12*Equal{boolean} 4|73s14[16|4]
+X 8 generic_vecvecs.ads
+14A8*VecVec(7|17P8[16|4])<13|6I8> 3|36r63[17|5] 4|113r63[17|5]
+X 9 greatest_common_divisors.ads
+18V12*gcd{13|6I8} 4|29s22[10|5] 30s22[10|5]
+X 10 standard_common_divisors.ads
+5K9*Standard_Common_Divisors[9|9] 4|1w6 1r46
+X 11 standard_integer_linear_solvers.ads
+8K9*Standard_Integer_Linear_Solvers[5|15] 4|3w6 3r46
+X 12 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[6|9] 4|2w6 2r46
+X 13 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 3|1w6 1r46 13|45e29
+6I8*integer32<long_integer> 3|15r38 25r24 36r29 4|17r38 19r9 41r18 51r24
+. 63r17 88r50 94r43 113r29 118r11
+X 16 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[7|8] 3|2w6 2r46
+X 17 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[8|10] 3|3w6 3r46
+

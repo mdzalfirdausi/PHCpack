@@ -1,0 +1,561 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U integer_face_enumerators%b  integer_face_enumerators.adb  20730b15 NE OO PK
+W face_enumerators_utilities%s  face_enumerators_utilities.adb  face_enumerators_utilities.ali
+W integer_linear_inequalities%s  integer_linear_inequalities.adb  integer_linear_inequalities.ali
+W standard_common_divisors%s  standard_common_divisors.ads  standard_common_divisors.ali
+W standard_integer_linear_solvers%s  standard_integer_linear_solvers.ads  standard_integer_linear_solvers.ali
+W standard_integer_matrices%s  standard_integer_matrices.ads  standard_integer_matrices.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U integer_face_enumerators%s  integer_face_enumerators.ads  0b3b26dd BN EE NE OO PK
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-domain.ads  20260513024558 303af675 abstract_ring.domain%s
+D face_enumerators_utilities.ads  20260513024558 285519b2 face_enumerators_utilities%s
+D generic_integer_linear_solvers.ads  20260513024558 fca5710a generic_integer_linear_solvers%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D greatest_common_divisors.ads  20260513024558 bf6e8432 greatest_common_divisors%s
+D integer_face_enumerators.ads  20260513024558 c2459077 integer_face_enumerators%s
+D integer_face_enumerators.adb  20260513024558 83470ef2 integer_face_enumerators%b
+D integer_linear_inequalities.ads  20260513024558 aeda99fd integer_linear_inequalities%s
+D standard_common_divisors.ads  20260513024558 4afd8fcb standard_common_divisors%s
+D standard_integer_linear_solvers.ads  20260513024558 34df0966 standard_integer_linear_solvers%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_ring-ddomain.ads  20260513024558 53210cf1 standard_integer_ring.ddomain%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z b b [eliminate integer_face_enumerators 11 13 none]
+G c Z b b [eliminate integer_face_enumerators 37 13 none]
+G c Z b b [pivot_after_elimination integer_face_enumerators 55 12 none]
+G c Z b b [update_pivots integer_face_enumerators 83 13 none]
+G c Z b b [update_eliminator integer_face_enumerators 108 13 none]
+G c Z b b [update_eliminator_for_sum integer_face_enumerators 140 13 none]
+G c Z b b [create_tableau_for_vertices integer_face_enumerators 176 13 none]
+G c Z b b [create_tableau_for_edges integer_face_enumerators 197 13 none]
+G c Z b b [create_tableau_for_faces integer_face_enumerators 239 13 none]
+G c Z b b [create_tableau_for_faces_of_sum integer_face_enumerators 280 13 none]
+G c Z b b [create_tableau_for_lower_edges integer_face_enumerators 339 13 none]
+G c Z b b [create_tableau_for_lower_faces integer_face_enumerators 381 13 none]
+G c Z b b [is_vertex integer_face_enumerators 423 12 none]
+G c Z b b [is_edge integer_face_enumerators 435 12 none]
+G c Z b b [is_face integer_face_enumerators 472 12 none]
+G c Z b b [is_face_of_sum integer_face_enumerators 522 12 none]
+G c Z b b [is_lower_edge integer_face_enumerators 570 12 none]
+G c Z b b [is_lower_face integer_face_enumerators 607 12 none]
+G r c none [eliminate integer_face_enumerators 11 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [eliminate integer_face_enumerators 11 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [eliminate integer_face_enumerators 37 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [eliminate integer_face_enumerators 37 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [pivot_after_elimination integer_face_enumerators 55 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [pivot_after_elimination integer_face_enumerators 55 12 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [pivot_after_elimination integer_face_enumerators 55 12 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [update_eliminator integer_face_enumerators 108 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [update_eliminator integer_face_enumerators 108 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [update_eliminator integer_face_enumerators 108 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [update_eliminator_for_sum integer_face_enumerators 140 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [update_eliminator_for_sum integer_face_enumerators 140 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [update_eliminator_for_sum integer_face_enumerators 140 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [create_tableau_for_edges integer_face_enumerators 197 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [create_tableau_for_edges integer_face_enumerators 197 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [create_tableau_for_edges integer_face_enumerators 197 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [create_tableau_for_edges integer_face_enumerators 197 13 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [create_tableau_for_edges integer_face_enumerators 197 13 none] [in_edge face_enumerators_utilities 31 12 none]
+G r c none [create_tableau_for_faces integer_face_enumerators 239 13 none] [is_in face_enumerators_utilities 25 12 none]
+G r c none [create_tableau_for_faces integer_face_enumerators 239 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [create_tableau_for_faces integer_face_enumerators 239 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [create_tableau_for_faces integer_face_enumerators 239 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [create_tableau_for_faces integer_face_enumerators 239 13 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [create_tableau_for_faces_of_sum integer_face_enumerators 280 13 none] [is_in face_enumerators_utilities 25 12 none]
+G r c none [create_tableau_for_faces_of_sum integer_face_enumerators 280 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [create_tableau_for_faces_of_sum integer_face_enumerators 280 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [create_tableau_for_faces_of_sum integer_face_enumerators 280 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [create_tableau_for_faces_of_sum integer_face_enumerators 280 13 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [create_tableau_for_lower_edges integer_face_enumerators 339 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [create_tableau_for_lower_edges integer_face_enumerators 339 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [create_tableau_for_lower_edges integer_face_enumerators 339 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [create_tableau_for_lower_edges integer_face_enumerators 339 13 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [create_tableau_for_lower_edges integer_face_enumerators 339 13 none] [in_edge face_enumerators_utilities 31 12 none]
+G r c none [create_tableau_for_lower_faces integer_face_enumerators 381 13 none] [is_in face_enumerators_utilities 25 12 none]
+G r c none [create_tableau_for_lower_faces integer_face_enumerators 381 13 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [create_tableau_for_lower_faces integer_face_enumerators 381 13 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [create_tableau_for_lower_faces integer_face_enumerators 381 13 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [create_tableau_for_lower_faces integer_face_enumerators 381 13 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [is_vertex integer_face_enumerators 423 12 none] [integer_complementary_slackness integer_linear_inequalities 10 13 none]
+G r c none [is_edge integer_face_enumerators 435 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [is_edge integer_face_enumerators 435 12 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [is_edge integer_face_enumerators 435 12 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [is_edge integer_face_enumerators 435 12 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [is_edge integer_face_enumerators 435 12 none] [in_edge face_enumerators_utilities 31 12 none]
+G r c none [is_edge integer_face_enumerators 435 12 none] [integer_complementary_slackness integer_linear_inequalities 12 13 none]
+G r c none [is_face integer_face_enumerators 472 12 none] [is_in face_enumerators_utilities 25 12 none]
+G r c none [is_face integer_face_enumerators 472 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [is_face integer_face_enumerators 472 12 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [is_face integer_face_enumerators 472 12 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [is_face integer_face_enumerators 472 12 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [is_face integer_face_enumerators 472 12 none] [integer_complementary_slackness integer_linear_inequalities 12 13 none]
+G r c none [is_face_of_sum integer_face_enumerators 522 12 none] [is_in face_enumerators_utilities 25 12 none]
+G r c none [is_face_of_sum integer_face_enumerators 522 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [is_face_of_sum integer_face_enumerators 522 12 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [is_face_of_sum integer_face_enumerators 522 12 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [is_face_of_sum integer_face_enumerators 522 12 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [is_face_of_sum integer_face_enumerators 522 12 none] [integer_complementary_slackness integer_linear_inequalities 12 13 none]
+G r c none [is_lower_edge integer_face_enumerators 570 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [is_lower_edge integer_face_enumerators 570 12 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [is_lower_edge integer_face_enumerators 570 12 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [is_lower_edge integer_face_enumerators 570 12 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [is_lower_edge integer_face_enumerators 570 12 none] [in_edge face_enumerators_utilities 31 12 none]
+G r c none [is_lower_edge integer_face_enumerators 570 12 none] [integer_complementary_slackness integer_linear_inequalities 12 13 none]
+G r c none [is_lower_face integer_face_enumerators 607 12 none] [is_in face_enumerators_utilities 25 12 none]
+G r c none [is_lower_face integer_face_enumerators 607 12 none] [Osubtract standard_integer_vectors 35 12 4_1]
+G r c none [is_lower_face integer_face_enumerators 607 12 none] [lcm standard_common_divisors 23 12 5_1]
+G r c none [is_lower_face integer_face_enumerators 607 12 none] [scale face_enumerators_utilities 20 13 none]
+G r c none [is_lower_face integer_face_enumerators 607 12 none] [is_zero face_enumerators_utilities 10 12 none]
+G r c none [is_lower_face integer_face_enumerators 607 12 none] [integer_complementary_slackness integer_linear_inequalities 12 13 none]
+X 3 face_enumerators_utilities.ads
+5K9*Face_Enumerators_Utilities 43e31 10|4w6 4r46
+10V12*Is_Zero{boolean} 10|215s12 255s12 312s14 358s12 397s12
+20U13*Scale 10|34s5 451s7 587s7
+25V12*Is_In{boolean} 10|250s14 309s16 392s14
+31V12*In_Edge{boolean} 10|216s18 359s18
+X 5 generic_matrices.ads
+16A8*Matrix(15|6I8)<15|6I8><15|6I8> 10|177r65[14|5] 199r45[14|5] 241r50[14|5]
+. 282r55[14|5] 341r45[14|5] 383r50[14|5] 425r15[14|5] 453r15[14|5] 489r11[14|5]
+. 543r11[14|5] 589r15[14|5] 625r11[14|5]
+X 6 generic_vectors.ads
+16A8*Vector(15|6I8)<15|6I8> 9|52r40[18|4] 69r40[18|4] 90r31[18|4] 10|11r57[18|4]
+. 12r41[18|4] 37r55[18|4] 38r59[18|4] 56r59[18|4] 63r12[18|4] 83r40[18|4]
+. 84r45[18|4] 109r49[18|4] 110r44[18|4] 135r20[18|4] 142r34[18|4] 142r53[18|4]
+. 169r20[18|4] 198r56[18|4] 203r12[18|4] 240r55[18|4] 245r12[18|4] 281r58[18|4]
+. 298r12[18|4] 340r56[18|4] 345r12[18|4] 382r55[18|4] 387r12[18|4] 437r12[18|4]
+. 473r36[18|4] 524r32[18|4] 573r12[18|4] 609r33[18|4] 727r17[18|4] 731r43[18|4]
+. 737r16[18|4] 762r16[18|4] 780r17[18|4] 784r49[18|4] 790r16[18|4] 823r16[18|4]
+. 838r34[18|4] 845r14[18|4] 849r50[18|4] 855r45[18|4] 901r28[18|4] 921r14[18|4]
+17P8*Link_to_Vector(16A8[18|4])
+35V13*"-"{16A8[18|4]} 10|63s41[18|4] 135s34[18|4] 169s34[18|4] 209s28[18|4]
+. 251s28[18|4] 310s31[18|4] 352s28[18|4] 393s28[18|4] 437s39[18|4] 573s39[18|4]
+72U13*Clear 10|753s11[18|4] 814s11[18|4] 893s16[18|4] 916s7[18|4]
+X 7 generic_vecvecs.ads
+14A8*VecVec(6|17P8[18|4])<15|6I8> 9|19r43[19|5] 32r40[19|5] 45r46[19|5] 57r58[19|5]
+. 74r64[19|5] 81r41[19|5] 90r66[19|5] 10|38r35[19|5] 57r26[19|5] 108r47[19|5]
+. 141r32[19|5] 177r47[19|5] 199r27[19|5] 241r32[19|5] 282r37[19|5] 341r27[19|5]
+. 383r32[19|5] 423r49[19|5] 435r49[19|5] 472r52[19|5] 523r58[19|5] 570r55[19|5]
+. 608r52[19|5] 660r43[19|5] 675r40[19|5] 699r46[19|5] 723r58[19|5] 728r12[19|5]
+. 776r61[19|5] 781r12[19|5] 838r69[19|5] 843r18[19|5] 844r12[19|5]
+X 8 greatest_common_divisors.ads
+23V12*lcm{15|6I8} 10|25s14[12|5]
+X 9 integer_face_enumerators.ads
+5K9*Integer_Face_Enumerators 108l5 108e29 10|7b14 931l5 931t29
+17U20 Process 17>30 17<48 10|669s13
+17i30 i{15|6I8}
+17b48 cont{boolean}
+19u13*Enumerate_Vertices 19>34 10|660b13 673l7 673t25
+19a34 pts{7|14A8[19|5]} 10|660b34 663r31 663r35 664r31 667r14 668r26
+30U20 Process 30>30 30>32 30<50 10|687s15
+30i30 i{15|6I8}
+30i32 j{15|6I8}
+30b50 cont{boolean}
+32u13*Enumerate_Edges 32>31 10|675b13 697l7 697t22
+32a31 pts{7|14A8[19|5]} 10|675b31 678r31 678r35 679r31 683r23 686r28 694r14
+. 694r26
+43U20 Process 43>30 43>32 43<50 10|711s15
+43i30 i{15|6I8}
+43i32 j{15|6I8}
+43b50 cont{boolean}
+45u13*Enumerate_Lower_Edges 45>37 10|699b13 721l7 721t28
+45a37 pts{7|14A8[19|5]} 10|699b37 702r31 702r35 703r31 707r23 710r34 718r14
+. 718r26
+52U20 Process 52>30 52<48 10|743s15
+52a30 face{6|16A8[18|4]}
+52b48 cont{boolean}
+57u13*Enumerate_Faces 57>31 57>49 10|723b13 774l7 774t22
+57i31 k{15|6I8} 10|723b31 727r27 728r22 740r14 741r13 742r28 760r8 767r40
+57a49 pts{7|14A8[19|5]} 10|723b49 725r31 726r31 726r35 742r39 746r25 749r43
+. 767r19 767r31 769r23
+69U20 Process 69>30 69<48 10|800s15
+69a30 face{6|16A8[18|4]}
+69b48 cont{boolean}
+74u13*Enumerate_Lower_Faces 74>37 74>55 10|776b13 835l7 835t28
+74i37 k{15|6I8} 10|776b37 780r27 781r22 793r14 799r13 799r42 821r8 828r39
+74a55 pts{7|14A8[19|5]} 10|776b55 778r31 779r31 779r35 799r53 803r25 808r43
+. 828r18 828r30 830r22
+81U20 Process 81>30 81<49 10|877s20
+81a30 faces{7|14A8[19|5]}
+81b49 cont{boolean}
+89u13*Enumerate_Faces_of_Sum 90>18 90>22 90>39 90>57 10|837b13 929l7 929t29
+90a18 ind{6|16A8[18|4]} 10|838b21 842r31 868r23 871r29 874r38 904r22 907r16
+90a22 typ{6|16A8[18|4]} 10|838b25 870r16 871r15 882r38 889r32 893r31 901r38
+. 906r20 907r31 912r20
+90i39 k{15|6I8} 10|838b42 844r24
+90a57 pts{7|14A8[19|5]} 10|838b60 840r31 841r31 841r35 873r51 873r55 889r48
+. 903r22 909r22
+X 10 integer_face_enumerators.adb
+11U13 Eliminate 11b13 11>25 11>47 12=25 35l7 35t16 50s13 69s13 212s15 355s15
+11i25 pivot{15|6I8} 24r15 24r35
+11a47 elim{6|16A8[18|4]} 24r10 32r42
+12a25 target{6|16A8[18|4]} 24r28 31r14 32m7 32r25 34m11
+21i5 a{15|6I8} 24m5 25r18 27r19
+21i7 b{15|6I8} 24m23 25r20 27r37
+21i9 lcmab{15|6I8} 25m5 26r8 26m23 26r33 27r13 27r31
+21i15 faca{15|6I8} 27m5 29m26 29r35 32r37
+21i20 facb{15|6I8} 27m23 28r8 29m11 29r20 32r20
+31i9 j<long_integer> 32r14 32r32 32r47
+37U13 Eliminate 37b13 37>25 37>43 38>25 38=43 53l7 53t16 136s5 170s5 253s9
+. 311s11 395s9
+37i25 l{15|6I8} 48r17
+37a43 pivots{6|16A8[18|4]} 49r17 50r23
+38a25 elim{7|14A8[19|5]} 50r33
+38a43 target{6|16A8[18|4]} 49r10 50m45
+48i9 i<long_integer> 49r24 50r30 50r38
+55V12 Pivot_after_Elimination{15|6I8} 55b12 56>16 56>18 56>36 56>42 56>47
+. 57>16 81l7 81t30 259s23 318s25 401s23
+56i16 l{15|6I8} 68r21 71r28
+56i18 k{15|6I8} 63r50
+56a36 point{6|16A8[18|4]} 63r19 63r35
+56a42 face{6|16A8[18|4]} 67r15 67r30 68r11 71r18
+56a47 pivots{6|16A8[18|4]} 68r39 69r23 75r15
+57a16 elim{7|14A8[19|5]} 63r43 69r33
+63a5 work{6|16A8[18|4]} 68r34 69m45 69r45 74r14 75r10
+64i5 pivot{15|6I8} 73m5 76m13 78r18 80r12
+67i9 i<long_integer> 68r16 68r46 69r30 69r38 71r23
+74i9 i<long_integer> 75r22 76r22
+83U13 Update_Pivots 83b13 83>29 83>48 84=29 84<53 106l7 106t20 137s5 171s5
+83a29 point{6|16A8[18|4]} 94r17 95r10
+83i48 l{15|6I8} 94r14 100r34 101r22 102r14
+84a29 pivots{6|16A8[18|4]} 95r16 101r15 102m7 102r20 103m7
+84i53 pivot{15|6I8} 105m5
+90i5 temp{15|6I8} 101m7 103r22
+90i10 piv{15|6I8} 93m5 96m13 98r18 100r8 100r27 102r27 103r14 105r14
+94i9 i<long_integer> 95r23 96r20
+108U13 Update_Eliminator 108b13 108=33 108>55 109=33 110>33 110<52 138l7
+. 138t24 749s11 808s11
+108a33 elim{7|14A8[19|5]} 135m5 135r36 136r26 136r31 137r19
+108i55 l{15|6I8} 135r10 136r15 136r36 137r24 137r31
+109a33 pivots{6|16A8[18|4]} 136r19 137m33
+110a33 point{6|16A8[18|4]} 135r28
+110i52 pivot{15|6I8} 137m40
+140U13 Update_Eliminator_for_Sum 140b13 141=18 141>40 142=18 142>42 143>18
+. 143<40 172l7 172t32 888s16
+141a18 elim{7|14A8[19|5]} 169m5 169r36 170r26 170r31 171r19
+141i40 l{15|6I8} 169r10 170r15 170r36 171r24 171r31
+142a18 pivots{6|16A8[18|4]} 170r19 171m33
+142a42 point{6|16A8[18|4]} 169r28
+143i18 index{15|6I8} 169r43
+143i40 pivot{15|6I8} 171m40
+176U13 Create_Tableau_for_Vertices 176b13 177>18 177>20 177>38 177<55 195l7
+. 195t34 429s5
+177i18 i{15|6I8} 183r15 191r18 192r33
+177i20 n{15|6I8}
+177a38 pts{7|14A8[19|5]} 182r14 184r18 185r28 191r14 192r29
+177a55 tab{5|16A8[14|5]} 179r27 185m11 187m9 187r13 192m7 192r13 194m5 194r9
+. 194r21
+179i5 column{15|6I8} 185r17 187r25 188m9 188r19
+182i9 j<long_integer> 183r10 184r22 185r32
+184i13 k<long_integer> 185r15 185r35
+191i9 k<long_integer> 192r11 192r36
+197U13 Create_Tableau_for_Edges 197b13 198>18 198>20 198>22 198>24 198>46
+. 199>18 199<35 200<18 200<43 237l7 237t31 458s9
+198i18 i{15|6I8} 208r14 209r34 216r41
+198i20 j{15|6I8} 208r30 216r52
+198i22 n{15|6I8} 203r22 220r23
+198i24 pivot{15|6I8} 211r17 212r25 221r20 223r23
+198a46 elim{6|16A8[18|4]} 212r31
+199a18 pts{7|14A8[19|5]} 207r14 209r17 209r30 216r26 216r37 216r48
+199a35 tab{5|16A8[14|5]} 222m15 224m15 227m11 227r15 232r14 232r29 233m7
+. 233r13 235m5 235r9 235r21
+200i18 lastcol{15|6I8} 236m5
+200b43 degenerate{boolean} 206m5 217m17
+202i5 column{15|6I8} 222r21 224r23 227r27 228m11 228r21 236r16
+203a5 ineq{6|16A8[18|4]} 209m9 211r12 212m36 212r36 215r20 222r32 224r34
+207i9 k<long_integer> 208r11 208r27 209r21 216r30
+220i15 l<long_integer> 221r16 222r19 222r37 223r19 224r19 224r39
+232i9 k<long_integer> 233r11
+239U13 Create_Tableau_for_Faces 239b13 240>18 240>20 240>38 240>43 241>18
+. 241>22 241<40 242<18 242<43 278l7 278t31 504s7
+240i18 k{15|6I8} 253r19 265r22 266r20
+240i20 n{15|6I8} 245r22 265r28
+240a38 face{6|16A8[18|4]} 250r22 258r18 258r23 260r46
+240a43 pivots{6|16A8[18|4]} 253r21 260r51 266r38
+241a18 pts{7|14A8[19|5]} 249r14 251r17 260r35
+241a22 elim{7|14A8[19|5]} 251r30 253r28 260r58
+241a40 tab{5|16A8[14|5]} 266m13 268m11 268r15 273r14 273r29 274m7 274r13
+. 276m5 276r9 276r21
+242i18 lastcol{15|6I8} 277m5
+242b43 degenerate{boolean} 248m5 262m17
+244i5 column{15|6I8} 266r22 268r27 269m11 269r21 277r16
+245a5 ineq{6|16A8[18|4]} 251m9 253m33 253r33 255r20 266r33
+249i9 l<long_integer> 250r20 251r21 258r14 260r31 260r39
+265i15 ll<long_integer> 266r17 266r45
+273i9 l<long_integer> 274r11
+280U13 Create_Tableau_for_Faces_of_Sum 280b13 281>18 281>20 281>22 281>24
+. 281>42 281>46 282>18 282>22 282>27 282<45 283<18 283<43 337l7 337t38 551s7
+281i18 k{15|6I8} 311r21 323r24 324r22
+281i20 n{15|6I8} 298r22 323r30
+281i22 i{15|6I8} 303r27
+281i24 r{15|6I8} 304r15
+281a42 ind{6|16A8[18|4]} 306r21 308r17
+281a46 pivots{6|16A8[18|4]} 311r23 319r60 324r40
+282a18 pts{7|14A8[19|5]} 305r21 310r19 319r35
+282a22 elim{7|14A8[19|5]} 310r33 311r30 319r67
+282a27 face{7|14A8[19|5]} 303r15 309r25 315r17 315r26 316r29 316r38 319r47
+282a45 tab{5|16A8[14|5]} 324m15 326m13 326r17 332r14 332r29 333m7 333r13
+. 335m5 335r9 335r21
+283i18 lastcol{15|6I8} 336m5
+283b43 degenerate{boolean} 302m5 320m19
+297i5 column{15|6I8} 324r24 326r29 327m13 327r23 336r16
+298a5 ineq{6|16A8[18|4]} 310m11 311m35 311r35 312r22 324r35
+299i5 last{15|6I8} 305m13 306m13 308r26
+303i9 l1<long_integer> 304r10 306r25 308r21 309r30 310r40 315r22 315r31 316r34
+. 316r43 319r32 319r52
+308i11 l2<long_integer> 309r22 310r23 315r45 316r24 319r29 319r39
+323i17 ll<long_integer> 324r19 324r47
+332i9 l<long_integer> 333r11
+339U13 Create_Tableau_for_Lower_Edges 339b13 340>18 340>20 340>22 340>24
+. 340>46 341>18 341<35 342<18 342<43 379l7 379t37 593s9
+340i18 i{15|6I8} 351r14 352r34 359r41
+340i20 j{15|6I8} 351r30 359r52
+340i22 n{15|6I8} 345r22 363r23
+340i24 pivot{15|6I8} 354r17 355r25 364r20 366r23
+340a46 elim{6|16A8[18|4]} 355r31
+341a18 pts{7|14A8[19|5]} 350r14 352r17 352r30 359r26 359r37 359r48
+341a35 tab{5|16A8[14|5]} 365m15 367m15 374r14 374r29 375m7 375r13 377m5 377r9
+. 377r21
+342i18 lastcol{15|6I8} 378m5
+342b43 degenerate{boolean} 349m5 360m17
+344i5 column{15|6I8} 365r21 367r23 370m11 370r21 378r16
+345a5 ineq{6|16A8[18|4]} 352m9 354r12 355m36 355r36 358r20 365r32 367r34
+350i9 k<long_integer> 351r11 351r27 352r21 359r30
+363i15 l<long_integer> 364r16 365r19 365r37 366r19 367r19 367r39
+374i9 k<long_integer> 375r11
+381U13 Create_Tableau_for_Lower_Faces 381b13 382>18 382>20 382>38 382>43
+. 383>18 383>22 383<40 384<18 384<43 419l7 419t37 639s7
+382i18 k{15|6I8} 395r19 407r22 408r20
+382i20 n{15|6I8} 387r22 407r28
+382a38 face{6|16A8[18|4]} 392r22 400r20 400r25 402r43
+382a43 pivots{6|16A8[18|4]} 395r21 402r48 408r38
+383a18 pts{7|14A8[19|5]} 391r14 393r17 402r32
+383a22 elim{7|14A8[19|5]} 393r30 395r28 402r55
+383a40 tab{5|16A8[14|5]} 408m13 414r14 414r29 415m7 415r13 417m5 417r9 417r21
+384i18 lastcol{15|6I8} 418m5
+384b43 degenerate{boolean} 390m5 404m17
+386i5 column{15|6I8} 408r22 410m11 410r21 418r16
+387a5 ineq{6|16A8[18|4]} 393m9 395m33 395r33 397r20 408r33
+391i9 l<long_integer> 392r20 393r21 400r16 402r28 402r36
+407i15 ll<long_integer> 408r17 408r45
+414i9 l<long_integer> 415r11
+423V12 Is_Vertex{boolean} 423b12 423>24 423>26 423>28 423>43 433l7 433t16
+. 668s10
+423i24 i{15|6I8} 429r33
+423i26 m{15|6I8} 425r32
+423i28 n{15|6I8} 425r25 429r35
+423a43 pts{7|14A8[19|5]} 429r37
+425a5 tableau{5|16A8[14|5]} 429m41 431m37 431r37
+426b5 feasible{boolean} 431m45 432r16
+435V12 Is_Edge{boolean} 435b12 435>22 435>24 435>26 435>28 435>43 470l7 470t14
+. 686s12
+435i22 i{15|6I8} 437r32 458r34
+435i24 j{15|6I8} 437r45 458r36
+435i26 m{15|6I8} 453r30
+435i28 n{15|6I8} 437r22 453r25 458r38
+435a43 pts{7|14A8[19|5]} 437r28 437r41 458r51
+437a5 elim{6|16A8[18|4]} 441r14 442r14 443r10 446r26 448r16 451m13 451r13
+. 458r46
+438i5 pivot{15|6I8} 441m5 444m13 446r17 448r8 458r40
+442i9 k<long_integer> 443r15 444r22
+453a9 tab{5|16A8[14|5]} 458m55 465m43 465r43
+454b9 deg{boolean} 458m63 460r12
+454b13 feasible{boolean} 465m51 466r22
+455i9 lst{15|6I8} 458m59 462r15 465r47
+472V12 Is_Face{boolean} 472b12 472>22 472>24 472>26 472>41 472>46 473>22
+. 473>29 520l7 520t14 742s20
+472i22 k{15|6I8} 488r34 489r30 501r12 504r32
+472i24 n{15|6I8} 488r32 504r34
+472i26 m{15|6I8} 489r28 501r8
+472a41 elim{7|14A8[19|5]} 504r52
+472a46 pts{7|14A8[19|5]} 504r48
+473a22 pivots{6|16A8[18|4]} 504r41
+473a29 face{6|16A8[18|4]} 504r36
+488i5 nn{15|6I8} 489r21
+489a5 tab{5|16A8[14|5]} 504m57 512m41 512r41
+490b5 deg{boolean} 504m65 506r10
+490b9 feasible{boolean} 512m49 517r20
+491i5 lst{15|6I8} 504m61 509r13 512r45
+522V12 Is_Face_of_Sum{boolean} 522b12 523>19 523>21 523>23 523>25 523>27
+. 523>42 523>47 523>51 524>19 524>23 568l7 568t21 872s21
+523i19 k{15|6I8} 542r34 543r30 548r12 552r10
+523i21 n{15|6I8} 542r32 552r12
+523i23 m{15|6I8} 543r28 548r8
+523i25 i{15|6I8} 552r14
+523i27 r{15|6I8} 552r16
+523a42 elim{7|14A8[19|5]} 552r33
+523a47 pts{7|14A8[19|5]} 552r29
+523a51 face{7|14A8[19|5]} 552r38
+524a19 ind{6|16A8[18|4]} 552r18
+524a23 pivots{6|16A8[18|4]} 552r22
+542i5 nn{15|6I8} 543r21
+543a5 tab{5|16A8[14|5]} 552m43 560m41 560r41
+544b5 deg{boolean} 552m51 554r10
+544b9 feasible{boolean} 560m49 565r20
+545i5 lst{15|6I8} 552m47 557r13 560r45
+570V12 Is_Lower_Edge{boolean} 570b12 570>28 570>30 570>32 570>34 570>49 605l7
+. 605t20 710s12
+570i28 i{15|6I8} 573r32 593r40
+570i30 j{15|6I8} 573r45 593r42
+570i32 m{15|6I8} 589r32
+570i34 n{15|6I8} 573r22 589r25 593r44
+570a49 pts{7|14A8[19|5]} 573r28 573r41 593r57
+573a5 elim{6|16A8[18|4]} 577r14 578r14 579r10 582r26 584r16 584r44 587m13
+. 587r13 593r52
+574i5 pivot{15|6I8} 577m5 580m13 582r17 584r8 584r36 593r46
+578i9 k<long_integer> 579r15 580r22
+589a9 tab{5|16A8[14|5]} 593m61 600m43 600r43
+590b9 deg{boolean} 593m69 595r12
+590b13 feasible{boolean} 600m51 601r22
+591i9 lst{15|6I8} 593m65 597r15 600r47
+607V12 Is_Lower_Face{boolean} 607b12 608>19 608>21 608>23 608>41 608>46 609>19
+. 609>26 656l7 656t20 799s28
+608i19 k{15|6I8} 624r34 625r30 636r12 639r38
+608i21 n{15|6I8} 624r32 639r40
+608i23 m{15|6I8} 625r28 636r8
+608a41 elim{7|14A8[19|5]} 639r58
+608a46 pts{7|14A8[19|5]} 639r54
+609a19 pivots{6|16A8[18|4]} 639r47
+609a26 face{6|16A8[18|4]} 639r42
+624i5 nn{15|6I8} 625r21
+625a5 tab{5|16A8[14|5]} 639m63 648m41 648r41
+626b5 deg{boolean} 639m71 641r10
+626b9 feasible{boolean} 648m49 653r20
+627i5 lst{15|6I8} 639m67 644r13 648r45
+662b5 continue{boolean} 669m23 671r21
+663i5 n{15|6I8} 668r24
+664i5 m{15|6I8} 668r22
+667i9 i<long_integer> 668r20 669r21
+677b5 continue{boolean} 687m27 689r23
+678i5 n{15|6I8} 695r25
+679i5 m{15|6I8} 686r24
+681U15 Candidate_Edges 681b15 681>33 681>35 691l9 691t24 695s7
+681i33 i{15|6I8} 683r17 686r20 687r23
+681i35 n{15|6I8} 686r26
+683i11 j<long_integer> 686r22 687r25
+694i9 i<long_integer> 695r23
+701b5 continue{boolean} 711m27 713r23
+702i5 n{15|6I8} 719r31
+703i5 m{15|6I8} 710r30
+705U15 Candidate_Lower_Edges 705b15 705>39 705>41 715l9 715t30 719s7
+705i39 i{15|6I8} 707r17 710r26 711r23
+705i41 n{15|6I8} 710r32
+707i11 j<long_integer> 710r28 711r25
+718i9 i<long_integer> 719r29
+725i5 m{15|6I8} 741r17 742r32 760r13
+726i5 n{15|6I8} 737r26 742r30 762r26
+727a5 candidate{6|16A8[18|4]} 742r48 743r23 747m11 768m12
+728a5 elim{7|14A8[19|5]} 742r34 749m29 749r29 753m17 753r17 769m12
+729b5 continue{boolean} 743m33 754r25
+731U15 Candidate_Faces 731b15 731>33 731>51 731>53 751s17 757l9 757t24 770s12
+731a33 ipvt{6|16A8[18|4]} 742r43 748r21
+731i51 i{15|6I8} 746r19
+731i53 l{15|6I8} 740r10 747r21 749r34 751r42 753r22
+736i7 piv{15|6I8} 749m54 750r14
+737a7 pivots{6|16A8[18|4]} 748m11 749m36 749r36 751r33
+746i13 j<long_integer> 747r27 749r47 751r40
+762a9 ipvt{6|16A8[18|4]} 764r18 765m12 770r28
+764i13 i<long_integer> 765r17 765r23
+767i14 i<long_integer> 768r28 769r27 770r33
+778i5 m{15|6I8} 799r17 799r46 821r13
+779i5 n{15|6I8} 790r26 799r44 811r37 823r26
+780a5 candidate{6|16A8[18|4]} 799r62 800r23 804m11 829m11
+781a5 elim{7|14A8[19|5]} 799r48 808m29 808r29 814m17 814r17 830m11
+782b5 continue{boolean} 800m33 815r25
+784U15 Candidate_Lower_Faces 784b15 784>39 784>57 784>59 812s17 818l9 818t30
+. 831s11
+784a39 ipvt{6|16A8[18|4]} 799r57 805r21
+784i57 i{15|6I8} 803r19
+784i59 l{15|6I8} 793r10 804r21 808r34 812r48 814r22
+789i7 piv{15|6I8} 808m54 811r15 811r30
+790a7 pivots{6|16A8[18|4]} 805m11 808m36 808r36 812r39
+803i13 j<long_integer> 804r27 808r47 812r46
+823a9 ipvt{6|16A8[18|4]} 825r18 826m11 831r33
+825i13 i<long_integer> 826r16 826r22
+828i13 i<long_integer> 829r27 830r26 831r38
+840i5 m{15|6I8} 867r23
+841i5 n{15|6I8} 845r24 873r31 921r24
+842i5 r{15|6I8} 843r28 844r21 866r16 873r44 876r21 902r14
+843a5 candidates{7|14A8[19|5]} 874r27 877r28 883m14 883r14 901m7 908m9 908r9
+. 916m13 916r13
+844a5 elim{7|14A8[19|5]} 873r46 889m23 889r23 893m22 893r22 909m9
+845a5 pivots{6|16A8[18|4]} 887m16 889m41 889r41 891r38
+846b5 continue{boolean} 877m39 895r28
+847i5 lasti{15|6I8} 903m13 904m13 907r25
+847i11 sum{15|6I8} 873r27 889r28 893r27 906m7 906r14 912m7 912r14 926m7
+849U15 Candidate_Faces_of_Sum 849b15 849>40 849>58 878s20 917l9 917t31 927s7
+849a40 ipvt{6|16A8[18|4]} 910r25
+849i58 i{15|6I8} 866r12 868r27 870r20 871r19 871r33 873r38 873r42 876r17
+. 878r48 882r42 883r25 889r36 889r59 893r35 901r18 901r42 902r10 904r26 906r24
+. 907r20 907r35 908r20 909r16 912r24 916r24
+855U17 Candidate_Faces 855b17 855>35 856>35 856>41 885s16 891s22 898l11 898t26
+. 910s9
+855a35 ipvt{6|16A8[18|4]} 874r42 878r43 885r32 887r26
+856i35 start{15|6I8} 882r22
+856i41 l{15|6I8} 870r12 882r45 883r28 884r17 885r39 889r39 891r47 893r38
+863i9 piv{15|6I8} 889m61 890r19
+863i13 last{15|6I8} 867m15 868m15 871r24 873r33 873r66 882r33
+882i16 j<long_integer> 883r34 885r37 889r52 891r45
+907i11 j<long_integer> 908r29 909r26 910r30
+921a7 ipvt{6|16A8[18|4]} 923r16 924m9 927r30
+923i11 i<long_integer> 924r14 924r20
+X 11 integer_linear_inequalities.ads
+5K9*Integer_Linear_Inequalities 10|5w6 5r46 11|30e32
+10U13*Integer_Complementary_Slackness 10|431s5
+12U13*Integer_Complementary_Slackness 10|465s11 512s9 560s9 600s11 648s9
+X 12 standard_common_divisors.ads
+5K9*Standard_Common_Divisors[8|9] 10|2w6 2r46
+X 13 standard_integer_linear_solvers.ads
+8K9*Standard_Integer_Linear_Solvers[4|15] 10|3w6 3r46
+X 14 standard_integer_matrices.ads
+5K9*Standard_Integer_Matrices[5|9] 10|1w6 1r46
+X 15 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 9|1w6 1r46 15|45e29
+6I8*integer32<long_integer> 9|17r37 30r39 43r39 57r38 74r44 90r46 10|11r36
+. 21r27 37r32 56r25 57r42 64r13 83r55 84r65 90r16 108r62 110r64 141r47 143r29
+. 143r52 177r27 179r14 198r35 200r32 202r14 240r27 242r32 244r14 281r31 283r32
+. 297r14 299r12 340r35 342r32 344r14 382r27 384r32 386r14 423r32 435r32 438r13
+. 455r15 472r30 488r19 491r11 523r31 542r19 545r11 570r38 574r13 591r15 608r30
+. 624r19 627r11 663r18 664r18 678r18 679r18 681r42 702r18 703r18 705r48 723r38
+. 725r18 726r18 731r60 736r13 776r44 778r18 779r18 784r66 789r13 838r49 840r18
+. 841r18 842r18 847r17 849r65 856r48 863r20
+X 18 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[6|8] 9|2w6 2r46
+X 19 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[7|10] 9|3w6 3r46
+

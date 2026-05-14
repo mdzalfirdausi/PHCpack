@@ -1,0 +1,56 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U pentdobl_complex_ring%s  pentdobl_complex_ring.ads  1693b5a3 EE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W pentdobl_complex_numbers%s  pentdobl_complex_numbers.ads  pentdobl_complex_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D penta_double_numbers.ads  20260513024558 22cc358e penta_double_numbers%s
+D penta_double_ring.ads	20260513024558 bcac6764 penta_double_ring%s
+D penta_double_ring-ffield.ads  20260513024558 ae849938 penta_double_ring.ffield%s
+D pentdobl_complex_numbers.ads  20260513024558 b4bf41fd pentdobl_complex_numbers%s
+D pentdobl_complex_ring.ads  20260513024558 45ee875d pentdobl_complex_ring%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c s s s [s pentdobl_complex_ring 4 1 none]
+G r i none [s pentdobl_complex_ring 4 1 none] [abstract_ring standard 25 9 none]
+G r c none [s pentdobl_complex_ring 4 1 none] [create pentdobl_complex_numbers 25 12 5_1]
+X 1 abstract_ring.ads
+25k9*Abstract_Ring 25e29 8|2w6 5r7
+X 3 generic_complex_numbers.ads
+19R8*Complex_Number 8|5r21[7|5]
+25V12*Create{19R8[7|5]} 8|5s36[7|5] 5s55[7|5] 6r21[7|5]
+40V12*Equal{boolean} 8|6r28[7|5]
+41U13*Copy 8|6r34[7|5]
+58V13*"+"{19R8[7|5]} 8|6r40[7|5]
+59V13*"+"{19R8[7|5]} 8|6r44[7|5]
+60V13*"-"{19R8[7|5]} 8|6r48[7|5]
+61V13*"-"{19R8[7|5]} 8|6r52[7|5]
+62V13*"*"{19R8[7|5]} 8|6r56[7|5]
+74U13*Add 8|7r21[7|5]
+75U13*Sub 8|7r25[7|5]
+76U13*Min 8|7r29[7|5]
+77U13*Mul 8|7r33[7|5]
+82U13*Clear 8|7r37[7|5]
+X 7 pentdobl_complex_numbers.ads
+5K9*PentDobl_Complex_Numbers[3|11] 8|1w6 1r46
+X 8 pentdobl_complex_ring.ads
+4K9*PentDobl_Complex_Ring[1|25]
+

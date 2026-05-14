@@ -1,0 +1,119 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U linear_programming%b	linear_programming.adb	17af93e5 NE OO PK
+W dictionaries%s	dictionaries.adb	dictionaries.ali
+
+U linear_programming%s	linear_programming.ads	de51dd17 BN EE NE OO PK
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D dictionaries.ads	20260513024558 2323c1e2 dictionaries%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D linear_programming.ads  20260513024558 b156955b linear_programming%s
+D linear_programming.adb  20260513024558 85dac75c linear_programming%b
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [primal_simplex linear_programming 12 13 none]
+G c Z s b [dual_simplex linear_programming 53 13 none]
+G r c none [primal_simplex linear_programming 12 13 none] [primal_optimal dictionaries 125 12 none]
+G r c none [primal_simplex linear_programming 12 13 none] [primal_update dictionaries 97 13 none]
+G r c none [dual_simplex linear_programming 53 13 none] [dual_optimal dictionaries 126 12 none]
+G r c none [dual_simplex linear_programming 53 13 none] [dual_update dictionaries 102 13 none]
+X 2 dictionaries.ads
+6K9*Dictionaries 152e17 6|1w6 13r15 14r7 29r15 31r7 47r15 48r7 63r15 65r7
+97U13*Primal_Update 6|14s20 31s20
+102U13*Dual_Update 6|48s20 65s20
+125V12*Primal_Optimal{boolean} 6|13s28 29s28
+126V12*Dual_Optimal{boolean} 6|47s28 63s28
+X 3 generic_matrices.ads
+16A8*Matrix(8|13F8)<11|6I8><11|6I8> 5|13r32[7|5] 19r38[7|5] 23r32[7|5] 54r32[7|5]
+. 60r38[7|5] 64r32[7|5] 6|6r33[7|5] 22r33[7|5] 40r33[7|5] 56r33[7|5]
+X 4 generic_vectors.ads
+16A8*Vector(11|6I8)<11|6I8> 5|14r68[13|4] 20r71[13|4] 24r68[13|4] 55r68[13|4]
+. 61r71[13|4] 65r68[13|4] 6|7r69[13|4] 23r69[13|4] 41r69[13|4] 57r69[13|4]
+X 5 linear_programming.ads
+6K9*Linear_Programming 94l5 94e23 6|3b14 73l5 73t23
+12U13*Primal_Simplex 13=19 13>40 14=19 14=26 15=19 15<43 6|5b13 19l7 19t21
+13a19 dic{3|16A8[7|5]} 6|6b20 13r43 14m34
+13f40 eps{8|13F8} 6|6b41 13r47 14r53
+14a19 in_bas{4|16A8[13|4]} 6|7b20 14m38
+14a26 out_bas{4|16A8[13|4]} 6|7b27 14m45
+15i19 nit{14|7I8} 6|8b20 15m7 15r14
+15b43 unbounded{boolean} 6|8b44 18m5
+19U20 Report 19>29 20>29 20>36 6|30s7 35s5
+19a29 dic{3|16A8[7|5]}
+20a29 in_bas{4|16A8[13|4]}
+20a36 out_bas{4|16A8[13|4]}
+22u13*Generic_Primal_Simplex 23=19 23>40 24=19 24=26 25=19 25<43 6|21b13
+. 37l7 37t29
+23a19 dic{3|16A8[7|5]} 6|22b20 29r43 30r14 31m34 35r12
+23f40 eps{8|13F8} 6|22b41 29r47 31r53
+24a19 in_bas{4|16A8[13|4]} 6|23b20 30r18 31m38 35r16
+24a26 out_bas{4|16A8[13|4]} 6|23b27 30r25 31m45 35r23
+25i19 nit{14|7I8} 6|24b20 32m7 32r14
+25b43 unbounded{boolean} 6|24b44 36m5
+53U13*Dual_Simplex 54=19 54>40 55=19 55=26 56=19 56<43 6|39b13 53l7 53t19
+54a19 dic{3|16A8[7|5]} 6|40b20 47r41 48m32
+54f40 eps{8|13F8} 6|40b41 47r45 48r51
+55a19 in_bas{4|16A8[13|4]} 6|41b20 48m36
+55a26 out_bas{4|16A8[13|4]} 6|41b27 48m43
+56i19 nit{14|7I8} 6|42b20 49m7 49r14
+56b43 feasible{boolean} 6|42b44 52m5
+60U20 Report 60>29 61>29 61>36 6|64s7 69s5
+60a29 dic{3|16A8[7|5]}
+61a29 in_bas{4|16A8[13|4]}
+61a36 out_bas{4|16A8[13|4]}
+63u13*Generic_Dual_Simplex 64=19 64>40 65=19 65=26 66=19 66<43 6|55b13 71l7
+. 71t27
+64a19 dic{3|16A8[7|5]} 6|56b20 63r41 64r14 65m32 69r12
+64f40 eps{8|13F8} 6|56b41 63r45 65r51
+65a19 in_bas{4|16A8[13|4]} 6|57b20 64r18 65m36 69r16
+65a26 out_bas{4|16A8[13|4]} 6|57b27 64r25 65m43 69r23
+66i19 nit{14|7I8} 6|58b20 66m7 66r14
+66b43 feasible{boolean} 6|58b44 70m5
+X 6 linear_programming.adb
+10b5 unbound{boolean} 14m57 16r17 18r18
+26b5 unbound{boolean} 31m57 33r17 36r18
+44b5 feasi{boolean} 48m55 50r21 52r17
+60b5 feasi{boolean} 65m55 67r21 70r17
+X 7 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[3|9] 5|3w6 3r46
+X 8 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 5|2w6 2r46 8|58e30
+13F8*double_float<long_float> 5|13r49 23r49 54r49 64r49 6|6r50 22r50 40r50
+. 56r50
+X 11 standard_integer_numbers.ads
+6I8*integer32<long_integer>
+X 13 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[4|8] 5|4w6 14r43 20r46 24r43 55r43 61r46 65r43
+. 6|7r44 23r44 41r44 57r44
+X 14 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 5|1w6 1r46 14|30e29
+7I8*natural32<long_integer> 5|15r32 25r32 56r32 66r32 6|8r33 24r33 42r33
+. 58r33
+

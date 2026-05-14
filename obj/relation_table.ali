@@ -1,0 +1,489 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U relation_table%b	relation_table.adb	e385661d NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W simplex_pivoting%s	simplex_pivoting.adb	simplex_pivoting.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U relation_table%s	relation_table.ads	2fa88398 EE NE OO PK
+W index_tree_lp%s	index_tree_lp.adb	index_tree_lp.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+W zero_index_tree%s	zero_index_tree.adb	zero_index_tree.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D index_tree_lp.ads	20260513024558 02b3d1a9 index_tree_lp%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D relation_table.ads	20260513024558 479eed00 relation_table%s
+D relation_table.adb	20260513024558 dbb80896 relation_table%b
+D simplex_pivoting.ads	20260513024558 f887ca7e simplex_pivoting%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D zero_index_tree.ads	20260513024558 cf70a9f0 zero_index_tree%s
+G a e
+G c Z s b [reltable relation_table 18 13 none]
+G c Z s b [rltblp2_a relation_table 52 13 none]
+G c Z s b [rltblp2_e relation_table 87 13 none]
+G c Z s b [dlp2_1pt_i relation_table 122 13 none]
+G c Z s b [dlp2_1pt_s relation_table 161 13 none]
+G c Z s b [dlp1_1pt_i relation_table 204 13 none]
+G c Z s b [dlp1_1pt_s relation_table 244 13 none]
+G c Z s s [boolean_matrixIP relation_table 15 8 none]
+G r c none [reltable relation_table 18 13 none] [search_incoming simplex_pivoting 88 13 none]
+G r c none [reltable relation_table 18 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [reltable relation_table 18 13 none] [l0_add2 zero_index_tree 130 13 none]
+G r c none [reltable relation_table 18 13 none] [search_outgoing simplex_pivoting 23 13 none]
+G r c none [reltable relation_table 18 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [reltable relation_table 18 13 none] [search_incoming simplex_pivoting 62 13 none]
+G r c none [reltable relation_table 18 13 none] [search_outgoing simplex_pivoting 41 13 none]
+G r c none [reltable relation_table 18 13 none] [clear standard_floating_vectors 72 13 4_1]
+G r c none [reltable relation_table 18 13 none] [clear standard_floating_matrices 67 13 5_1]
+G r c none [rltblp2_a relation_table 52 13 none] [search_incoming simplex_pivoting 88 13 none]
+G r c none [rltblp2_a relation_table 52 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [rltblp2_e relation_table 87 13 none] [search_incoming simplex_pivoting 88 13 none]
+G r c none [rltblp2_e relation_table 87 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [dlp2_1pt_i relation_table 122 13 none] [search_outgoing simplex_pivoting 41 13 none]
+G r c none [dlp2_1pt_i relation_table 122 13 none] [search_incoming simplex_pivoting 62 13 none]
+G r c none [dlp2_1pt_i relation_table 122 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [dlp2_1pt_s relation_table 161 13 none] [search_outgoing simplex_pivoting 41 13 none]
+G r c none [dlp2_1pt_s relation_table 161 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [dlp2_1pt_s relation_table 161 13 none] [search_incoming simplex_pivoting 62 13 none]
+G r c none [dlp2_1pt_s relation_table 161 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [dlp2_1pt_s relation_table 161 13 none] [l0_add2 zero_index_tree 130 13 none]
+G r c none [dlp1_1pt_i relation_table 204 13 none] [search_outgoing simplex_pivoting 23 13 none]
+G r c none [dlp1_1pt_i relation_table 204 13 none] [search_incoming simplex_pivoting 62 13 none]
+G r c none [dlp1_1pt_i relation_table 204 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [dlp1_1pt_s relation_table 244 13 none] [search_outgoing simplex_pivoting 23 13 none]
+G r c none [dlp1_1pt_s relation_table 244 13 none] [clear standard_integer_vectors 72 13 4_1]
+G r c none [dlp1_1pt_s relation_table 244 13 none] [search_incoming simplex_pivoting 62 13 none]
+G r c none [dlp1_1pt_s relation_table 244 13 none] [update_base simplex_pivoting 142 13 none]
+G r c none [dlp1_1pt_s relation_table 244 13 none] [l0_add2 zero_index_tree 130 13 none]
+X 10 a-textio.ads
+565U14*Put_Line 19|530s17
+X 12 generic_matrices.ads
+16A8*Matrix(22|13F8)<25|6I8><25|6I8> 19|33r41[21|5] 35r41[21|5] 38r44[21|5]
+17P8*Link_to_Matrix(16A8[21|5]) 18|54r52[21|5] 60r59[21|5] 89r56[21|5] 94r59[21|5]
+. 124r52[21|5] 131r59[21|5] 163r52[21|5] 170r59[21|5] 206r52[21|5] 213r59[21|5]
+. 246r52[21|5] 253r59[21|5] 19|34r36[21|5] 37r39[21|5] 267r52[21|5] 273r59[21|5]
+. 402r56[21|5] 407r59[21|5] 593r52[21|5] 600r59[21|5] 635r52[21|5] 642r59[21|5]
+. 675r52[21|5] 682r59[21|5] 716r52[21|5] 723r59[21|5]
+67U13*Clear 19|261s32[21|5] 262s32[21|5]
+X 13 generic_vectors.ads
+16A8*Vector(25|6I8)<25|6I8> 19|20r44[27|4] 22r44[27|4] 24r42[27|4] 26r43[27|4]
+. 28r42[24|4] 30r40[24|4] 32r40[24|4] 279r35[24|4] 415r35[24|4] 649r44[27|4]
+. 730r44[27|4]
+17P8*Link_to_Vector(16A8[27|4]) 18|21r55[27|4] 22r53[24|4] 56r51[24|4] 57r54[27|4]
+. 58r57[27|4] 59r55[24|4] 91r54[27|4] 92r57[27|4] 93r55[24|4] 126r51[24|4]
+. 127r54[27|4] 129r57[27|4] 130r55[24|4] 165r51[24|4] 166r54[27|4] 168r57[27|4]
+. 169r51[24|4] 208r51[24|4] 209r54[27|4] 211r57[27|4] 212r55[24|4] 248r51[24|4]
+. 249r54[27|4] 251r57[27|4] 252r55[24|4] 19|10r55[27|4] 11r53[24|4] 19r39[27|4]
+. 21r39[27|4] 23r37[27|4] 25r38[27|4] 27r37[24|4] 29r35[24|4] 31r35[24|4]
+. 269r51[24|4] 270r54[27|4] 271r57[27|4] 272r55[24|4] 404r54[27|4] 405r57[27|4]
+. 406r55[24|4] 595r51[24|4] 596r54[27|4] 598r57[27|4] 599r55[24|4] 637r51[24|4]
+. 638r54[27|4] 640r57[27|4] 641r51[24|4] 648r39[27|4] 677r51[24|4] 678r54[27|4]
+. 680r57[27|4] 681r55[24|4] 718r51[24|4] 719r54[27|4] 721r57[27|4] 722r55[24|4]
+. 729r39[27|4]
+72U13*Clear 19|254s30[27|4] 255s30[27|4] 256s30[27|4] 257s30[27|4] 258s31[24|4]
+. 259s31[24|4] 260s31[24|4] 655s34[27|4] 736s34[27|4]
+X 14 generic_vecvecs.ads
+14A8*VecVec(13|17P8[27|4])<25|6I8>
+15P8*Link_to_VecVec(14A8[28|5]) 18|20r52[28|5] 19|9r52[28|5]
+X 15 index_tree_lp.ads
+6K9*Index_Tree_LP 331e18 18|7w6 7r45
+X 18 relation_table.ads
+9K9*Relation_Table 286l5 286e19 19|5b14 754l5 754t19
+15A8*Boolean_Matrix(boolean)<25|6I8><25|6I8> 23r31 132r34 171r34 214r34 254r34
+. 19|12r31 601r34 643r34 683r34 724r34
+18U13*RelTable 19>18 19>23 20>18 21>18 22>18 23<18 24=18 19|7b13 263l7 263t15
+19i18 nVar{25|6I8} 19|8b18 15r33 22r54 24r52 28r52 30r50 32r50 33r51 33r61
+. 36r36 38r54 38r64 47r20 50r11 51r11 60r26 63r17 71r24 74r15 79r27 84r26
+. 93r28 96r37 101r26 105r32 119r30 123r42 125r42 134r30 138r42 140r42 147r22
+. 148r24 160r17 173r24 178r13 182r26 185r25 186r17 190r16 191r24 192r26 195r20
+. 197r24 198r18 200r24 201r20 202r26 203r22 203r38 206r16 206r21 209r23 212r29
+. 214r23 220r31 232r29 235r36 243r29 246r36
+19i23 nSpt{25|6I8} 19|8b23 26r60 36r27 41r25 42r27 46r33 53r23 79r39 164r33
+20p18 Spt{14|15P8[28|5]} 19|9b18 48r33 61r38 61r54 72r36 72r52
+21p18 SptIdx{13|17P8[27|4]} 19|10b18 26r53 36r20 41r18 42r20 46r14 46r26
+. 54r20 54r37 56r18 68r30 79r32 80r20 156r18 156r35 166r20 166r36 215r27
+. 221r31
+22p18 lft{13|17P8[24|4]} 19|11b18 51r22 64r25 64r34 75r23 75r32
+23a18 RelTab{15A8} 19|12b18 43m9 57r14 85r50 87m17 88m17 103m17 104m17 107m21
+. 108m21 118r22 124m46 126m46 133r22 139m46 141m46 157r14 217m17 218m17 222m19
+. 223m19 231r22 236m40 242r22 247m40
+24p18 L0{45|23P8} 19|13b18 96m27 124m53 139m53
+52U13*RlTbLP2_a 53>18 53>21 54>18 55>18 56>18 57>18 58=18 59=18 60=18 61<18
+. 19|212s11 265b13 398l7 398t16
+53i18 ma{25|6I8} 19|266b18 339r23 369r27
+53i21 na{25|6I8} 19|266b21 279r45 284r20 291r22 294r26 306r26 310r26 320r22
+. 323r26 335r22 339r26 343r20 346r29 350r18 355r15 359r15 363r22 369r30 373r28
+. 385r24 388r33 390r21
+54p18 a{12|17P8[21|5]} 19|267b18 339r50 346r38 369r54 388r42
+55i18 nv1{25|6I8} 19|268b18 339r29 369r33
+56p18 c{13|17P8[24|4]} 19|269b18 293r21 295r30 322r21 324r30
+57p18 LPidx{13|17P8[27|4]} 19|270b18 339r35 369r39
+58p18 Bidx{13|17P8[27|4]} 19|271b18 285r12 292r14 321r14 339r41 346m19 351r10
+. 360r11 369r45 388m23
+59p18 x{13|17P8[24|4]} 19|272b18 339r46 344r9 344r17 369r50 386r13 386r21
+60p18 Binv{12|17P8[21|5]} 19|273b18 293r26 295r35 307r23 311r24 322r26 324r35
+. 336r19 339r52 346m24 364r19 369r56 374r26 388m28
+61i18 info{25|6I8} 19|274b18 349m5 352m13 352r21 355r8 389m11 389r19 390r14
+. 397m5 397r14
+87U13*RlTbLP2_e 88>18 88>21 88>24 89=18 90>18 91>18 92=18 93=18 94=18 95<18
+. 19|79s9 400b13 589l7 589t16
+88i18 ma{25|6I8} 19|401b18 414r34 425r11 428r18 537r18 560r27
+88i21 na{25|6I8} 19|401b21 413r34 420r18 423r14 440r18 444r18 447r7 454r18
+. 533r20 540r18 545r15 550r15 554r22 560r30 564r28 576r24 579r33 581r21
+88i24 NumCol{25|6I8} 19|401b24 421r9 423r7 424r7 425r18 427r12 518r24 523r23
+89p18 a{12|17P8[21|5]} 19|402b18 421r7 423r5 424r5 430r10 431r9 432r13 433r20
+. 437r9 455r25 509r54 516r40 538r7 560r54 579r42
+90i18 nv1{25|6I8} 19|403b18 424r14 430r15 432r18 433r25 509r33 560r33
+91p18 LPidx{13|17P8[27|4]} 19|404b18 425r5 429r13 509r39 538r9 560r39
+92p18 Bidx{13|17P8[27|4]} 19|405b18 441r7 443r5 461r12 468r14 494r14 509r45
+. 516m19 518r8 523r12 532r7 532r18 541r10 551r11 560r45 579m23
+93p18 x{13|17P8[24|4]} 19|406b18 445r7 447r5 509r50 514r9 514r17 560r50 577r13
+. 577r21
+94p18 Binv{12|17P8[21|5]} 19|407b18 450r9 452r7 455r7 457r5 469r21 480r23
+. 484r24 495r21 506r19 509r56 516m24 534r9 534r22 555r19 560r56 565r26 579m28
+95i18 info{25|6I8} 19|408b18 419m5 542m13 542r21 545r8 580m11 580r19 581r14
+. 588m5 588r14
+122U13*dlp2_1pt_i 123>18 123>21 124>18 125>18 126>18 127>18 128>18 128>24
+. 129=18 130=18 131=18 132=18 19|140s23 246s17 591b13 631l7 631t17
+123i18 ma{25|6I8} 19|592b18 612r23
+123i21 na{25|6I8} 19|592b21 608r23 612r26 613r20 616r29 618r22
+124p18 a{12|17P8[21|5]} 19|593b18 612r48 616r38
+125i18 nv1{25|6I8} 19|594b18 612r29
+126p18 c{13|17P8[24|4]} 19|595b18 608r26
+127p18 LPidx{13|17P8[27|4]} 19|596b18 612r35
+128i18 FixPt{25|6I8} 19|597b18 625r27 626r22 627r18
+128i24 TstPt{25|6I8} 19|597b24 617r17
+129p18 Bidx{13|17P8[27|4]} 19|598b18 608r28 612r41 616m19 619r30 620r38 621r24
+. 622r20
+130p18 x{13|17P8[24|4]} 19|599b18 612r46 614r9 614r17
+131p18 Binv{12|17P8[21|5]} 19|600b18 608r33 612r50 614r29 616m24
+132a18 RelTab{15A8} 19|601b18 620r27 621m13 622m13 625r16 626m11 627m11
+161U13*dlp2_1pt_s 162>18 162>21 163>18 164>18 165>18 166>18 167>18 167>24
+. 168=18 169>18 170=18 171=18 172=18 19|138s23 633b13 671l7 671t17
+162i18 ma{25|6I8} 19|634b18 658r23
+162i21 na{25|6I8} 19|634b21 653r23 658r26 659r20 662r29 668r28
+163p18 a{12|17P8[21|5]} 19|635b18 658r48 662r38
+164i18 nv1{25|6I8} 19|636b18 658r29
+165p18 c{13|17P8[24|4]} 19|637b18 653r26
+166p18 LPidx{13|17P8[27|4]} 19|638b18 658r35
+167i18 FixPt{25|6I8} 19|639b18 663r44 664r21 665r17 666r23
+167i24 TstPt{25|6I8} 19|639b24 663r18
+168p18 Bidx{13|17P8[27|4]} 19|640b18 653r28 658r41 662m19 668r31
+169p18 x{13|17P8[24|4]} 19|641b18 658r46 660r9 660r17 668r36
+170p18 Binv{12|17P8[21|5]} 19|642b18 653r33 658r50 660r29 662m24 668r38
+171a18 RelTab{15A8} 19|643b18 663r33 664m10 665m10
+172p18 L0{45|23P8} 19|644b18 668m18
+204U13*dlp1_1pt_i 205>18 205>21 206>18 207>18 208>18 209>18 210>18 210>24
+. 211=18 212=18 213=18 214=18 19|125s23 235s17 673b13 712l7 712t17
+205i18 ma{25|6I8} 19|674b18 694r23
+205i21 na{25|6I8} 19|674b21 690r23 694r26 695r20 698r29 700r22
+206p18 a{12|17P8[21|5]} 19|675b18 694r48 698r38
+207i18 nv1{25|6I8} 19|676b18 694r29
+208p18 c{13|17P8[24|4]} 19|677b18 690r26
+209p18 LPidx{13|17P8[27|4]} 19|678b18 694r35
+210i18 FixPt{25|6I8} 19|679b18 706r27 707r22 708r18
+210i24 TstPt{25|6I8} 19|679b24 699r17
+211p18 Bidx{13|17P8[27|4]} 19|680b18 694r41 698m19 701r47 702r24 703r20
+212p18 x{13|17P8[24|4]} 19|681b18 694r46 696r9 696r17
+213p18 Binv{12|17P8[21|5]} 19|682b18 690r28 694r50 696r29 698m24
+214a18 RelTab{15A8} 19|683b18 701r36 702m13 703m13 706r16 707m11 708m11
+244U13*dlp1_1pt_s 245>18 245>21 246>18 247>18 248>18 249>18 250>18 250>24
+. 251=18 252=18 253=18 254=18 255=18 19|123s23 714b13 752l7 752t17
+245i18 ma{25|6I8} 19|715b18 739r23
+245i21 na{25|6I8} 19|715b21 734r23 739r26 740r20 743r29 749r27
+246p18 a{12|17P8[21|5]} 19|716b18 739r48 743r38
+247i18 nv1{25|6I8} 19|717b18 739r29
+248p18 c{13|17P8[24|4]} 19|718b18 734r26
+249p18 LPidx{13|17P8[27|4]} 19|719b18 739r35
+250i18 FixPt{25|6I8} 19|720b18 744r44 745r20 746r16 747r22
+250i24 TstPt{25|6I8} 19|720b24 744r18
+251p18 Bidx{13|17P8[27|4]} 19|721b18 739r41 743m19 749r30
+252p18 x{13|17P8[24|4]} 19|722b18 739r46 741r9 741r17 749r35
+253p18 Binv{12|17P8[21|5]} 19|723b18 734r28 739r50 741r29 743m24 749r37
+254a18 RelTab{15A8} 19|724b18 744r33 745m9 746m9
+255p18 L0{45|23P8} 19|725b18 749m17
+X 19 relation_table.adb
+15i5 nv1{25|6I8} 64r17 75r15 79r47 123r49 125r49 138r49 140r49 181r26 212r38
+. 235r45 246r45
+16b5 ynNuPt{boolean} 83m13 86m17 91r16
+17i5 jj{25|6I8} 180m13 181r23 183r32 187r22
+17i8 info{25|6I8} 79m69 115r14 212m62 228r14
+17i13 ell{25|6I8} 177m11 187m15 190r25 203r58
+17i17 TstPt{25|6I8} 117m15 118r35 120r30 123r67 125r67 132m15 133r35 135r30
+. 138r67 140r67 208m11 210r24 216r29 230m15 231r35 233r30 235r63 241m15 242r35
+. 244r30 246r63
+17i23 Strt1PtTst{25|6I8} 67m9 116r22 131r22 163m9 165r20 179r20 208r26 229r23
+. 240r23
+17i34 nPtIn{25|6I8} 55m9 58m13 58r22 59r19 67r23 69m11 69r20 70r17 79r19
+. 116r34 123r34 125r34 131r34 138r34 140r34 155m9 158m13 158r22 159r19 163r23
+. 165m11 167m13 167r22 168r19 179r32 212r21 229r38 235r28 240r38 246r28
+18f5 dtmp{22|13F8} 181m13 183m15 183r23 185r16 186r26
+19p5 labels{13|17P8[27|4]} 92r15 95r19 96r30 254m36 254r36
+21p5 Bidx_s{13|17P8[27|4]} 151r11 174r24 255m36 255r36
+23p5 Bidx{13|17P8[27|4]} 79m57 79r57 85r19 85r63 87r24 88r30 94r20 95r32
+. 96r42 102r18 103r24 104r30 106r22 107r28 107r36 108r28 108r36 124m34 124r34
+. 126m34 126r34 139m34 139r34 141m34 141r34 151r24 174r13 190r11 212m50 212r50
+. 215r16 216r18 217r24 218r30 221r20 222r26 222r34 223r26 223r34 236m28 236r28
+. 247m28 247r28 256m36 256r36
+25p5 LPidx{13|17P8[27|4]} 59r13 70r11 79r51 117r24 123r55 125r55 132r24 138r55
+. 140r55 159r13 168r13 180r19 208r20 212r44 230r24 235r51 241r24 246r51 257m36
+. 257r36
+27p5 x_s{13|17P8[24|4]} 152r11 175r21 183r38 260m37 260r37
+29p5 c{13|17P8[24|4]} 120r19 123r53 125r53 135r19 138r53 140r53 210r13 212r42
+. 233r19 235r49 244r19 246r49 258m37 258r37
+31p5 x{13|17P8[24|4]} 79m62 79r62 96r47 124m39 124r39 126m39 126r39 139r39
+. 141m39 141r39 152r21 175r13 178r11 185r23 186r15 212m55 212r55 236m33 236r33
+. 247m33 247r33 259m37 259r37
+33a5 Binv_s{12|16A8[21|5]} 149m13 193r28
+34p5 a{12|17P8[21|5]} 48r9 50r7 51r7 61r15 63r13 64r13 72r13 74r11 75r11
+. 79m45 79r45 120r28 123r47 125r47 135r28 138r47 140r47 160r13 181r21 183r30
+. 203r56 210r22 212r36 233r28 235r43 244r28 246r43 261m38 261r38
+37p5 Binv{12|17P8[21|5]} 79m64 79r64 96r49 124m41 124r41 126m41 126r41 139m41
+. 139r41 141m41 141r41 149r28 193r15 195r13 198r13 201r13 203r15 203r31 203r46
+. 206r11 212m57 212r57 236m35 236r35 247m35 247r35 262m38 262r38
+41i9 i<long_integer> 43r16
+42i11 j<long_integer> 43r18
+46i9 j<long_integer> 48r11 48r37 50r9 51r9 51r26
+47i11 i<long_integer> 48r13 48r40
+53i9 CurSpt<long_integer> 54r27 54r44 56r25 68r37 80r27 82r14 122r20 137r20
+. 156r25 156r42 164r22
+54i11 FixPt<long_integer> 56r35 57r21 61r42 64r38 68r19 72r40 75r36 80r12
+. 85r29 85r57 87r32 88r24 92r28 94r30 102r28 103r32 104r24 106r32 118r29
+. 123r61 125r61 133r29 138r61 140r61 157r21 217r32 218r24 231r29 235r57 242r29
+. 246r57
+56i13 j<long_integer> 57r27 59r29 61r17 61r58 63r15 64r15 64r29
+60i17 i<long_integer> 61r19 61r49 61r61
+68i13 j<long_integer> 70r27 72r15 72r56 74r13 75r13 75r27
+71i15 i<long_integer> 72r17 72r47 72r59
+84i17 i<long_integer> 85r24 85r68 87r29 88r35
+93i19 i<long_integer> 94r25 95r37
+101i17 i<long_integer> 102r23 103r29 104r35 105r26 107r33 108r41
+105i21 j<long_integer> 106r27 107r41 108r33
+116i17 j<long_integer> 117r30
+119i21 i<long_integer> 120r21 120r36
+131i17 j<long_integer> 132r30
+134i21 i<long_integer> 135r21 135r36
+147i13 i<long_integer> 149r20 149r33 151r18 151r29 152r15 152r23
+148i15 j<long_integer> 149r22 149r35
+156i13 i<long_integer> 157r27 159r29 160r15
+164i13 NxSpt<long_integer> 166r27 166r43 215r34 221r38
+166i15 i<long_integer> 168r29
+173i15 i<long_integer> 174r18 174r31 175r15 175r25
+179i15 j<long_integer> 180r25
+182i17 i<long_integer> 183r35 183r42
+191i15 i<long_integer> 193r20 193r35 195r18
+192i17 j<long_integer> 193r22 193r37
+197i15 i<long_integer> 198r23
+200i15 j<long_integer> 201r18 203r20 203r36 203r51
+202i17 i<long_integer> 203r53 203r62
+209i15 i<long_integer> 210r15 210r30
+214i15 i<long_integer> 215r21 216r23 217r29 218r35 220r25 222r31 223r39
+220i19 j<long_integer> 221r25 222r39 223r31
+229i17 j<long_integer> 230r30
+232i21 i<long_integer> 233r21 233r36
+240i17 j<long_integer> 241r30
+243i21 i<long_integer> 244r21 244r36
+276b5 ibrk{boolean} 283m7 286m15 289r10 315m11 318r14 370m11 379m15 384r16
+277i5 ell{25|6I8} 339m62 340r10 346r34 367m9 368r15 369m66 371r14 388r38
+277i9 k{25|6I8} 300m15 307r28 311r29 328m15 336r24 339r33 346r32 358m5 359r11
+. 360r16 360r29 361m9 361r14 364r24 369r37 374r31 378m15 378r20 388r36 392r23
+. 392m26
+277i11 k1{25|6I8} 348m5 360r33 392m17
+277i14 flag{25|6I8} 366m9 372r16 376m15
+278f5 sigj{22|13F8} 339m57 344r24 369m61 386r28
+278f10 vmax{22|13F8} 290m9 297r28 299m15 304r12 319m9 326r23 327m15 332r12
+278f15 bot{22|13F8} 298m15 299r27 305r14
+278f19 dtmp{22|13F8} 293m13 295m15 295r23 297r20 298r22 322m13 324m15 324r23
+. 326r16 327r23
+279a5 v{13|16A8[24|4]} 307m15 311m15 336m11 339r48 344r29 364m11 369r52 374m17
+. 386r33
+284i11 i<long_integer> 285r17
+291i13 i<long_integer> 292r19 293r31 295r40 300r20
+294i17 j<long_integer> 295r32 295r42
+306i17 i<long_integer> 307r17 307r30
+310i17 i<long_integer> 311r17 311r31
+320i13 i<long_integer> 321r19 322r31 324r40 328r20
+323i17 j<long_integer> 324r32 324r42
+335i13 i<long_integer> 336r13 336r26
+343i11 i<long_integer> 344r11 344r19 344r31
+350i9 i<long_integer> 351r15
+363i13 i<long_integer> 364r13 364r26
+373i19 i<long_integer> 374r19 374r33
+385i15 i<long_integer> 386r15 386r23 386r35
+410b5 ibrk{boolean} 459m7 462m15 465r10 488m11 491r14 561m11 570m15 575r16
+411i5 ell{25|6I8} 427m5 434m11 443r21 455r27 509m66 510r10 516r36 558m9 559r15
+. 560m66 562r14 579r38
+411i9 ii{25|6I8} 429m7 430r12 431r11 432r15 433r22 434r18 437r11 520m7 521r13
+. 522m9 522r15 523r17 524r16 525m11
+411i12 k{25|6I8} 473m15 480r28 484r29 498m15 506r24 509r37 516r34 519m7 524m11
+. 529r10 532r12 534r14 549m5 550r11 551r16 551r29 552m9 552r14 555r24 560r37
+. 565r31 569m15 569r20 579r36 583r23 583m26
+411i14 k1{25|6I8} 548m5 551r33 583m17
+411i17 flag{25|6I8} 557m9 563r16 567m15
+412f5 sigj{22|13F8} 509m61 514r24 560m61 577r28
+412f10 vmax{22|13F8} 466m9 470r28 472m15 477r12 492m9 496r23 497m15 502r12
+412f15 bot{22|13F8} 471m15 472r27 478r14
+412f19 dtmp{22|13F8} 426m5 432r25 433m11 447r14 469m13 470r20 471r22 495m13
+. 496r16 497r23
+413i5 nap1{25|6I8} 415r45 431r14 437r14 443r10 448r18 449r20 455r14 457r10
+. 457r17 460r19 467r22 469r28 479r26 483r26 493r22 495r28 505r22 509r28 513r20
+. 516r29 518r13 521r18 525r17 532r23 534r27 538r18
+414i5 map1{25|6I8} 509r23
+415a5 v{13|16A8[24|4]} 480m15 484m15 506m11 509r52 514r29 555m11 560r52 565m17
+. 577r33
+420i9 i<long_integer> 421r16
+428i9 i<long_integer> 429r19
+440i9 i<long_integer> 441r12
+444i9 i<long_integer> 445r9
+448i9 i<long_integer> 450r14 452r12 452r14
+449i11 j<long_integer> 450r16
+454i9 j<long_integer> 455r12 455r31
+460i11 i<long_integer> 461r17
+467i13 i<long_integer> 468r19 469r26 473r20
+479i17 i<long_integer> 480r17 480r30
+483i17 i<long_integer> 484r17 484r31
+493i13 i<long_integer> 494r19 495r26 498r20
+505i13 i<long_integer> 506r13 506r26
+513i11 i<long_integer> 514r11 514r19 514r31
+533i11 i<long_integer> 534r16 534r34
+537i9 i<long_integer> 538r15
+540i9 i<long_integer> 541r15
+554i13 i<long_integer> 555r13 555r26
+564i19 i<long_integer> 565r19 565r33
+576i15 i<long_integer> 577r15 577r23 577r35
+603i5 k{25|6I8} 608m43 612r33 614r34 616r32 619r22
+603i7 ell{25|6I8} 612m60 616r34 617r10 620r34 621r20 622r28 625r23 626r18
+. 627r24
+604f5 vmax{22|13F8} 608m38 609r10
+604f10 sigj{22|13F8} 612m55 614r24
+613i11 i<long_integer> 614r11 614r19 614r36
+618i13 i<long_integer> 619r17 619r35 620r43 621r29 622r25
+646i5 k{25|6I8} 653m43 658r33 660r34 662r32
+646i7 ell{25|6I8} 658m60 662r34 663r11 663r40 664r17 665r23 667r23
+647f5 vmax{22|13F8} 653m38 654r10
+647f10 sigj{22|13F8} 658m55 660r24
+648p5 labels{13|17P8[27|4]} 655m40 655r40 666r10 667r10 668r21
+659i11 i<long_integer> 660r11 660r19 660r36
+685i5 k{25|6I8} 690m38 694r33 696r34 698r32 701r20
+685i7 ell{25|6I8} 694m60 698r34 699r10 701r43 702r20 703r28 706r23 707r18
+. 708r24
+686f5 vmax{22|13F8} 690m33 691r10
+686f10 sigj{22|13F8} 694m55 696r24
+695i11 i<long_integer> 696r11 696r19 696r36
+700i13 i<long_integer> 701r15 701r52 702r29 703r25
+727i5 k{25|6I8} 734m38 739r33 741r34 743r32
+727i7 ell{25|6I8} 739m60 743r34 744r11 744r40 745r16 746r22 748r22
+728f5 vmax{22|13F8} 734m33 735r10
+728f10 sigj{22|13F8} 739m55 741r24
+729p5 labels{13|17P8[27|4]} 736m40 736r40 747r9 748r9 749r20
+740i11 i<long_integer> 741r11 741r19 741r36
+X 20 simplex_pivoting.ads
+7K9*Simplex_Pivoting 19|3w6 3r45 20|164e21
+15f3*eps{22|13F8} 19|304r19 332r19 430r23 477r19 502r19 609r17 654r17 691r17
+. 735r17
+16f3*DBL_MAX{22|13F8} 19|178r22 319r18 492r18
+19X3*unbounded_LP 19|341r19 511r19
+23U13*Search_Outgoing 19|690s7 734s7
+41U13*Search_Outgoing 19|608s7 653s7
+62U13*Search_Incoming 19|612s7 658s7 694s7 739s7
+88U13*Search_Incoming 19|339s7 369s11 509s7 560s11
+142U13*Update_Base 19|346s7 388s11 516s7 579s11 616s7 662s7 698s7 743s7
+X 21 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[12|9] 18|5w6 54r25 60r32 89r29 94r32 124r25
+. 131r32 163r25 170r32 206r25 213r32 246r25 253r32 19|33r14 34r9 35r14 37r12
+. 38r17 261r5 262r5 267r25 273r32 402r29 407r32 593r25 600r32 635r25 642r32
+. 675r25 682r32 716r25 723r32
+X 22 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 19|2w6 2r45 22|58e30
+13F8*double_float<long_float> 19|18r12 48r20 61r25 72r23 278r26 412r26 604r17
+. 647r17 686r17 728r17
+X 24 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[13|8] 18|4w6 22r27 56r25 59r29 93r29 126r25
+. 130r29 165r25 169r25 208r25 212r29 248r25 252r29 19|11r27 27r11 28r16 29r9
+. 30r14 31r9 32r14 258r5 259r5 260r5 269r25 272r29 279r9 406r29 415r9 595r25
+. 599r29 637r25 641r25 677r25 681r29 718r25 722r29
+X 25 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 18|1w6 1r45 25|45e29
+6I8*integer32<long_integer> 18|16r13 16r34 19r33 53r29 55r27 61r29 88r36
+. 90r27 95r29 123r29 125r27 128r35 162r29 164r27 167r35 205r29 207r27 210r35
+. 245r29 247r27 250r35 19|8r33 15r20 17r42 266r29 268r27 274r29 277r21 401r36
+. 403r27 408r29 411r24 413r21 414r21 592r29 594r27 597r35 603r13 634r29 636r27
+. 639r35 646r13 674r29 676r27 679r35 685r13 715r29 717r27 720r35 727r13
+X 27 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[13|8] 18|2w6 21r30 57r29 58r32 91r29 92r32 127r29
+. 129r32 166r29 168r32 209r29 211r32 249r29 251r32 19|10r30 19r14 20r19 21r14
+. 22r19 23r12 24r17 25r13 26r18 254r5 255r5 256r5 257r5 270r29 271r32 404r29
+. 405r32 596r29 598r32 638r29 640r32 648r14 649r19 655r9 678r29 680r32 719r29
+. 721r32 729r14 730r19 736r9
+X 28 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[14|10] 18|3w6 20r27 19|9r27
+X 44 text_io.ads
+27K9*Text_IO=27:29 19|1w6 530r9
+X 45 zero_index_tree.ads
+7K9*Zero_Index_Tree 18|6w6 6r45 45|174e20
+23P8*Link_to_L0_IML(22R8) 18|24r30 172r30 255r30 19|13r30 644r30 725r30
+130U13*L0_Add2 19|96s19 668s10 749s9
+

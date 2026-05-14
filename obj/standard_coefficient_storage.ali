@@ -1,0 +1,133 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_coefficient_storage%b  standard_coefficient_storage.adb  9b2f2a2b NE OO PK
+W standard_floating_vectors%s  standard_floating_vectors.ads  standard_floating_vectors.ali
+
+U standard_coefficient_storage%s  standard_coefficient_storage.ads  795dcaec EE NE OO PK
+W standard_coefficient_convolutions%s  standard_coefficient_convolutions.adb  standard_coefficient_convolutions.ali
+W standard_floating_vecvecs%s  standard_floating_vecvecs.ads  standard_floating_vecvecs.ali
+W standard_floating_vecvecvecs%s  standard_floating_vecvecvecs.adb  standard_floating_vecvecvecs.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_coefficient_convolutions.ads  20260513024558 cbd22682 standard_coefficient_convolutions%s
+D standard_coefficient_storage.ads  20260513024558 56c7c3eb standard_coefficient_storage%s
+D standard_coefficient_storage.adb  20260513024558 e8d2b2d4 standard_coefficient_storage%b
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_floating_vecvecvecs.ads  20260513024558 05f205d7 standard_floating_vecvecvecs%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [allocate_and_store standard_coefficient_storage 12 13 none]
+G c Z s b [allocate_and_store standard_coefficient_storage 30 13 none]
+G c Z s b [restore standard_coefficient_storage 53 13 none]
+G c Z s b [restore standard_coefficient_storage 75 13 none]
+G r s vecvec [allocate_and_store standard_coefficient_storage 12 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r s vecvecvec [allocate_and_store standard_coefficient_storage 30 13 none] [vecvecvecIP standard_floating_vecvecvecs 10 8 none]
+G r s vecvec [allocate_and_store standard_coefficient_storage 30 13 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+X 4 generic_vectors.ads
+16A8*Vector(15|13F8)<20|6I8> 8|17r51[17|4] 20r51[17|4] 26r43[17|4] 31r51[17|4]
+. 37r43[17|4] 42r51[17|4]
+17P8*Link_to_Vector(16A8[17|4]) 8|11r37[17|4] 72r49[17|4]
+X 5 generic_vecvecs.ads
+14A8*VecVec(4|17P8[17|4])<20|6I8> 8|10r41[18|5] 46r42[18|5] 47r42[18|5]
+15P8*Link_to_VecVec(14A8[18|5]) 7|14r53[18|5] 15r53[18|5] 54r52[18|5] 55r52[18|5]
+. 8|7r53[18|5] 8r53[18|5] 68r52[18|5] 69r52[18|5]
+X 6 standard_coefficient_convolutions.ads
+11K9*Standard_Coefficient_Convolutions 692e38 7|3w6 3r46
+24i18*nbr{20|6I8} 8|10r53 22r19 91r19
+29a5*rcf{5|14A8[18|5]} 8|23r12 24r18 94r21
+30a5*icf{5|14A8[18|5]} 8|34r12 35r18 101r21
+32p5*rct{4|17P8[17|4]} 8|16r10 17r61 79r19
+33p5*ict{4|17P8[17|4]} 8|19r10 20r61 86r19
+44P8*Link_to_Circuit(24R8) 7|13r24 56r24 8|6r24 70r24
+46A8*Circuits(44P8)<20|6I8> 7|31r24 78r24 8|51r24 112r24
+X 7 standard_coefficient_storage.ads
+5K9*Standard_Coefficient_Storage 84l5 84e33 8|3b14 121l5 121t33
+12U13*Allocate_and_Store 13>17 14<17 15<17 8|5b13 48l7 48t25 60s13
+13p17 c{6|44P8} 8|6b17 10r51 16r8 17r59 19r8 20r59 22r17 23r10 24r16 34r10
+. 35r16
+14p17 rcf{5|15P8[18|5]} 8|7b17 46m5
+15p17 icf{5|15P8[18|5]} 8|8b17 47m5
+30U13*Allocate_and_Store 31>17 32<17 33<17 8|50b13 65l7 65t25
+31a17 c{6|46A8} 8|51b17 55r54 58r14 59r10 60r32
+32p17 rcf{19|13P8} 8|52b17 63m5
+33p17 icf{19|13P8} 8|53b17 64m5
+53U13*Restore 54>17 55>17 56>17 8|67b13 107l7 107t14 116s13
+54p17 rcf{5|15P8[18|5]} 8|68b17 77r8 78r19 92r10 93r21
+55p17 icf{5|15P8[18|5]} 8|69b17 84r8 85r19 99r10 100r21
+56p17 c{6|44P8} 8|70b17 79r17 86r17 91r17 94r19 101r19
+75U13*Restore 76>17 77>17 78>17 8|109b13 119l7 119t14
+76p17 rcf{19|13P8} 8|110b17 116r21
+77p17 icf{19|13P8} 8|111b17 116r28
+78a17 c{6|46A8} 8|112b17 114r14 115r10 116r35
+X 8 standard_coefficient_storage.adb
+10a5 rpc{5|14A8[18|5]} 17m11 31m11 46r50
+10a9 ipc{5|14A8[18|5]} 20m11 42m11 47r50
+11p5 lnk{4|17P8[17|4]} 24m9 26r50 28r20 29r23 35m9 37r50 39r20 40r23
+22i9 k<long_integer> 23r16 24r22 31r15 34r16 35r22 42r15
+26a11 vck{4|16A8[17|4]} 29m13 31r59
+28i15 i<long_integer> 29r17 29r27
+37a11 vck{4|16A8[17|4]} 40m13 42r59
+39i15 i<long_integer> 40r17 40r27
+55a5 rcp{19|10A8} 60m37 60r37 63r56
+55a9 icp{19|10A8} 60m44 60r44 64r56
+58i9 k<long_integer> 59r12 60r34 60r41 60r48
+72p5 crclnk{4|17P8[17|4]} 79m7 81r9 86m7 88r9 94m9 96r11 101m9 103r11
+72p12 storelnk{4|17P8[17|4]} 78m7 80r16 81r22 85m7 87r16 88r22 93m9 95r18
+. 96r24 100m9 102r18 103r24
+80i11 k<long_integer> 81r16 81r31
+87i11 k<long_integer> 88r16 88r31
+91i9 k<long_integer> 92r14 93r25 94r25 99r14 100r25 101r25
+95i13 i<long_integer> 96r18 96r33
+102i13 i<long_integer> 103r18 103r33
+114i9 k<long_integer> 115r12 116r25 116r32 116r37
+X 15 standard_floating_numbers.ads
+13F8*double_float<long_float>
+X 17 standard_floating_vectors.ads
+4K9*Standard_Floating_Vectors[4|8] 8|1w6 11r11 13r9 17r25 20r25 26r17 31r25
+. 37r17 42r25 72r23 74r9
+X 18 standard_floating_vecvecs.ads
+5K9*Standard_Floating_VecVecs[5|10] 7|1w6 14r27 15r27 54r26 55r26 8|7r27
+. 8r27 10r15 46r16 47r16 68r26 69r26
+X 19 standard_floating_vecvecvecs.ads
+4K9*Standard_Floating_VecVecVecs 7|2w6 32r27 33r27 76r26 77r26 8|52r27 53r27
+. 55r15 63r16 64r16 110r26 111r26 19|43e33
+10A8*VecVecVec(5|15P8[18|5])<20|6I8> 8|55r44 63r45 64r45
+13P8*Link_to_VecVecVec(10A8) 7|32r56 33r56 76r55 77r55 8|52r56 53r56 110r55
+. 111r55
+X 20 standard_integer_numbers.ads
+6I8*integer32<long_integer>
+

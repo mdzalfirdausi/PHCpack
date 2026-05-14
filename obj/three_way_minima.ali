@@ -1,0 +1,142 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U three_way_minima%b	three_way_minima.adb	8f1b8711 NE OO PK
+
+U three_way_minima%s	three_way_minima.ads	e305f14e EE NE OO PK
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D three_way_minima.ads	20260513024558 0a6f4e1d three_way_minima%s
+D three_way_minima.adb	20260513024558 8574c90c three_way_minima%b
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [minimum three_way_minima 14 12 none]
+G c Z s b [minimum three_way_minima 15 12 none]
+G c Z s b [minimum three_way_minima 16 12 none]
+G c Z s b [minimum three_way_minima 21 13 none]
+G c Z s b [minimum three_way_minima 23 13 none]
+G c Z s b [minimum three_way_minima 25 13 none]
+G c Z s b [bounded_update three_way_minima 44 13 none]
+G c Z s b [bounded_update three_way_minima 47 13 none]
+G c Z s b [bounded_update three_way_minima 50 13 none]
+G r c none [minimum three_way_minima 15 12 none] [Olt double_double_numbers 83 12 none]
+G r c none [minimum three_way_minima 16 12 none] [Olt quad_double_numbers 122 12 none]
+G r c none [minimum three_way_minima 23 13 none] [Olt double_double_numbers 83 12 none]
+G r c none [minimum three_way_minima 25 13 none] [Olt quad_double_numbers 122 12 none]
+G r c none [bounded_update three_way_minima 47 13 none] [create double_double_numbers 35 12 none]
+G r c none [bounded_update three_way_minima 47 13 none] [Oadd double_double_numbers 111 12 none]
+G r c none [bounded_update three_way_minima 47 13 none] [Oge double_double_numbers 94 12 none]
+G r c none [bounded_update three_way_minima 47 13 none] [Osubtract double_double_numbers 119 12 none]
+G r c none [bounded_update three_way_minima 50 13 none] [create quad_double_numbers 37 12 none]
+G r c none [bounded_update three_way_minima 50 13 none] [Oadd quad_double_numbers 160 12 none]
+G r c none [bounded_update three_way_minima 50 13 none] [Oge quad_double_numbers 141 12 none]
+G r c none [bounded_update three_way_minima 50 13 none] [Osubtract quad_double_numbers 174 12 none]
+X 1 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 7|3w6 3r46
+12R8*double_double 170e13 7|15r30 15r53 23r34 23r62 48r33 8|18r30 18r53 64r34
+. 64r62 112r33 115r25 117r24
+35V12*Create{12R8} 8|117s41
+83V13*"<"{boolean} 8|20s10 21s12 26s12 67s10 68s12 73s12
+94V13*">="{boolean} 8|121s10
+111V13*"+"{12R8} 8|120s12
+119V13*"-"{12R8} 8|123s23
+X 2 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 7|4w6 4r46
+14R8*quad_double 253e13 7|16r30 16r51 25r34 25r60 51r33 8|33r30 33r51 80r34
+. 80r60 128r33 131r25 133r24
+37V12*Create{14R8} 8|133s39
+122V13*"<"{boolean} 8|35s10 36s12 41s12 83s10 84s12 89s12
+141V13*">="{boolean} 8|137s10
+160V13*"+"{14R8} 8|136s12
+174V13*"-"{14R8} 8|139s23
+X 3 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 58e30 7|2w6 2r46
+13F8*double_float<long_float> 7|14r30 14r52 21r34 21r61 45r33 46r35 49r35
+. 52r35 8|3r30 3r52 48r34 48r61 97r33 98r35 100r25 101r27 113r35 116r27 129r35
+. 132r27
+X 5 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 30e29 7|1w6 1r46
+7I8*natural32<long_integer> 7|22r44 24r44 26r44 8|49r44 65r44 81r44
+X 7 three_way_minima.ads
+6K9*Three_Way_Minima 72l5 72e21 8|1b14 143l5 143t21
+14V12*Minimum{3|13F8} 14>22 14>24 14>26 8|3b12 16l7 16t14
+14f22 a{3|13F8} 8|3b22 5r8 6r10 7r20
+14f24 b{3|13F8} 8|3b24 5r12 11r10 12r20
+14f26 c{3|13F8} 8|3b26 6r14 8r20 11r14 13r20
+15V12*Minimum{1|12R8} 15>22 15>24 15>26 8|18b12 31l7 31t14
+15r22 a{1|12R8} 8|18b22 20r8 21r10 22r20
+15r24 b{1|12R8} 8|18b24 20r12 26r10 27r20
+15r26 c{1|12R8} 8|18b26 21r14 23r20 26r14 28r20
+16V12*Minimum{2|14R8} 16>22 16>24 16>26 8|33b12 46l7 46t14
+16r22 a{2|14R8} 8|33b22 35r8 36r10 37r20
+16r24 b{2|14R8} 8|33b24 35r12 41r10 42r20
+16r26 c{2|14R8} 8|33b26 36r14 38r20 41r14 43r20
+21U13*Minimum 21>23 21>25 21>27 21<48 22=23 22=27 22=31 8|48b13 62l7 62t14
+21f23 a{3|13F8} 8|48b23 51r8 52r10 53r23
+21f25 b{3|13F8} 8|48b25 51r12 57r10 58r23
+21f27 c{3|13F8} 8|48b27 52r14 54r23 57r14 59r23
+21f48 abcmin{3|13F8} 8|48b48 53m13 54m13 58m13 59m13
+22i23 anb{5|7I8} 8|49b23 53m26 53r33
+22i27 bnb{5|7I8} 8|49b27 58m26 58r33
+22i31 cnb{5|7I8} 8|49b31 54m26 54r33 59m26 59r33
+23U13*Minimum 23>23 23>25 23>27 23<49 24=23 24=27 24=31 8|64b13 78l7 78t14
+23r23 a{1|12R8} 8|64b23 67r8 68r10 69r23
+23r25 b{1|12R8} 8|64b25 67r12 73r10 74r23
+23r27 c{1|12R8} 8|64b27 68r14 70r23 73r14 75r23
+23r49 abcmin{1|12R8} 8|64b49 69m13 70m13 74m13 75m13
+24i23 anb{5|7I8} 8|65b23 69m26 69r33
+24i27 bnb{5|7I8} 8|65b27 74m26 74r33
+24i31 cnb{5|7I8} 8|65b31 70m26 70r33 75m26 75r33
+25U13*Minimum 25>23 25>25 25>27 25<47 26=23 26=27 26=31 8|80b13 94l7 94t14
+25r23 a{2|14R8} 8|80b23 83r8 84r10 85r23
+25r25 b{2|14R8} 8|80b25 83r12 89r10 90r23
+25r27 c{2|14R8} 8|80b27 84r14 86r23 89r14 91r23
+25r47 abcmin{2|14R8} 8|80b47 85m13 86m13 90m13 91m13
+26i23 anb{5|7I8} 8|81b23 85m26 85r33
+26i27 bnb{5|7I8} 8|81b27 90m26 90r33
+26i31 cnb{5|7I8} 8|81b31 86m26 86r33 91m26 91r33
+44U13*Bounded_Update 45=17 45=19 46>17 46>22 8|96b13 109l7 109t21
+45f17 t{3|13F8} 8|97b17 100r41 104m5 104r10 105r8 106m7
+45f19 step{3|13F8} 8|97b19 104r14 107m7
+46f17 endt{3|13F8} 8|98b17 101r43 106r12 107r15
+46f22 minstep{3|13F8} 8|98b22 101r50
+47U13*Bounded_Update 48=17 48=19 49>17 49>22 8|111b13 125l7 125t21
+48r17 t{1|12R8} 8|112b17 115r42 120m5 120r10 121r8 122m7
+48r19 step{1|12R8} 8|112b19 120r14 123m7
+49f17 endt{3|13F8} 8|113b17 116r43 117r48
+49f22 minstep{3|13F8} 8|113b22 116r50
+50U13*Bounded_Update 51=17 51=19 52>17 52>22 8|127b13 141l7 141t21
+51r17 t{2|14R8} 8|128b17 131r40 136m5 136r10 137r8 138m7
+51r19 step{2|14R8} 8|128b19 136r14 139m7
+52f17 endt{3|13F8} 8|129b17 132r43 133r46
+52f22 minstep{3|13F8} 8|129b22 132r50
+X 8 three_way_minima.adb
+100f5 t_backup{3|13F8} 107r22
+101f5 endt_bound{3|13F8} 105r13
+115r5 t_backup{1|12R8} 123r25
+116f5 endt_bound{3|13F8} 121r13
+117r5 dd_endt{1|12R8} 122r12 123r15
+131r5 t_backup{2|14R8} 139r25
+132f5 endt_bound{3|13F8} 137r13
+133r5 qd_endt{2|14R8} 138r12 139r15
+

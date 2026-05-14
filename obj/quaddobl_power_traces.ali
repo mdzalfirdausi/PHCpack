@@ -1,0 +1,129 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U quaddobl_power_traces%b  quaddobl_power_traces.adb  1015b61e NE OO PK
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U quaddobl_power_traces%s  quaddobl_power_traces.ads  2e650ff4 EE NE OO PK
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_vectors%s  quaddobl_complex_vectors.ads  quaddobl_complex_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_power_traces.ads  20260513024556 1fc07bc3 quaddobl_power_traces%s
+D quaddobl_power_traces.adb  20260513024556 db000333 quaddobl_power_traces%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [power_sums_to_trace quaddobl_power_traces 25 12 none]
+G c Z s b [traces_to_power_sum quaddobl_power_traces 32 12 none]
+G c Z s b [power_sums_to_traces quaddobl_power_traces 39 12 none]
+G c Z s b [traces_to_power_sums quaddobl_power_traces 45 12 none]
+G r c none [power_sums_to_trace quaddobl_power_traces 25 12 none] [create quad_double_numbers 30 12 none]
+G r c none [power_sums_to_trace quaddobl_power_traces 25 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [power_sums_to_trace quaddobl_power_traces 25 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [power_sums_to_trace quaddobl_power_traces 25 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [power_sums_to_trace quaddobl_power_traces 25 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [power_sums_to_trace quaddobl_power_traces 25 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [traces_to_power_sum quaddobl_power_traces 32 12 none] [create quad_double_numbers 30 12 none]
+G r c none [traces_to_power_sum quaddobl_power_traces 32 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [traces_to_power_sum quaddobl_power_traces 32 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [traces_to_power_sum quaddobl_power_traces 32 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [traces_to_power_sum quaddobl_power_traces 32 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [create quad_double_numbers 37 12 none]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [create quad_double_numbers 30 12 none]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [Odivide quaddobl_complex_numbers 63 12 5_1]
+G r c none [power_sums_to_traces quaddobl_power_traces 39 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+G r c none [traces_to_power_sums quaddobl_power_traces 45 12 none] [create quad_double_numbers 37 12 none]
+G r c none [traces_to_power_sums quaddobl_power_traces 45 12 none] [create quaddobl_complex_numbers 26 12 5_1]
+G r c none [traces_to_power_sums quaddobl_power_traces 45 12 none] [create quad_double_numbers 30 12 none]
+G r c none [traces_to_power_sums quaddobl_power_traces 45 12 none] [Omultiply quaddobl_complex_numbers 62 12 5_1]
+G r c none [traces_to_power_sums quaddobl_power_traces 45 12 none] [Oadd quaddobl_complex_numbers 58 12 5_1]
+G r c none [traces_to_power_sums quaddobl_power_traces 45 12 none] [Osubtract quaddobl_complex_numbers 61 12 5_1]
+X 4 generic_complex_numbers.ads
+19R8*Complex_Number 12|26r53[9|5] 33r53[9|5] 13|6r53[9|5] 8r11[9|5] 20r53[9|5]
+. 22r11[9|5]
+26V12*Create{19R8[9|5]} 13|15s16[9|5] 26s16[9|5] 39s19[9|5] 52s19[9|5]
+58V13*"+"{19R8[9|5]} 13|13s18[9|5] 28s18[9|5]
+61V13*"-"{19R8[9|5]} 13|16s12[9|5] 30s12[9|5]
+62V13*"*"{19R8[9|5]} 13|13s24[9|5] 26s15[9|5] 28s24[9|5]
+63V13*"/"{19R8[9|5]} 13|15s15[9|5]
+X 5 generic_vectors.ads
+16A8*Vector(4|19R8[9|5])<15|6I8> 12|26r22[11|4] 33r22[11|4] 39r39[11|4] 39r55[11|4]
+. 45r39[11|4] 45r55[11|4] 13|6r22[11|4] 20r22[11|4] 33r39[11|4] 33r55[11|4]
+. 35r9[11|4] 46r39[11|4] 46r55[11|4] 48r9[11|4]
+X 6 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 13|1w6 1r45
+14R8*quad_double 253e13 13|9r20 23r20 36r21 49r21
+30V12*Create{14R8} 13|9s35 23s35
+37V12*Create{14R8} 13|36s36 49s36
+X 9 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[4|11] 12|2w6 2r45
+X 11 quaddobl_complex_vectors.ads
+4K9*QuadDobl_Complex_Vectors[5|8] 12|3w6 3r45
+X 12 quaddobl_power_traces.ads
+5K9*QuadDobl_Power_Traces 51l5 51e26 13|3b14 59l5 59t26
+25V12*Power_Sums_to_Trace{4|19R8[9|5]} 26>16 26>18 26>30 13|5b12 17l7 17t26
+. 41s15
+26a16 s{5|16A8[11|4]} 13|6b16 8r29 13r20
+26a18 t{5|16A8[11|4]} 13|6b18 13r25
+26i30 k{15|6I8} 13|6b30 8r31 9r42 12r17 13r27
+32V12*Traces_to_Power_Sum{4|19R8[9|5]} 33>16 33>18 33>30 13|19b12 31l7 31t26
+. 54s15
+33a16 t{5|16A8[11|4]} 13|20b16 22r29 28r25
+33a18 s{5|16A8[11|4]} 13|20b18 28r20
+33i30 k{15|6I8} 13|20b30 22r31 23r42 27r17 28r27
+39V12*Power_Sums_to_Traces{5|16A8[11|4]} 39>35 13|33b12 44l7 44t27
+39a35 s{5|16A8[11|4]} 13|33b35 35r16 40r14 41r35
+45V12*Traces_to_Power_Sums{5|16A8[11|4]} 45>35 13|46b12 57l7 57t27
+45a35 t{5|16A8[11|4]} 13|46b35 48r16 53r14 54r35
+X 13 quaddobl_power_traces.adb
+8r5 sum{4|19R8[9|5]} 13m7 13r14 15m5 15r12 16r13
+9r5 kqd{6|14R8} 15r23
+12i9 i<long_integer> 13r22 13r29
+22r5 sum{4|19R8[9|5]} 26m5 26r12 28m7 28r14 30r13
+23r5 kqd{6|14R8} 26r23
+27i9 i<long_integer> 28r22 28r29
+35a5 t{5|16A8[11|4]} 39m5 39r7 41m7 41r37 43r12
+36r5 zero{6|14R8} 39r26
+40i9 i<long_integer> 41r9 41r39
+48a5 s{5|16A8[11|4]} 52m5 52r7 54m7 54r37 56r12
+49r5 zero{6|14R8} 52r26
+53i9 i<long_integer> 54r9 54r39
+X 15 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 12|1w6 1r45 15|45e29
+6I8*integer32<long_integer> 12|26r34 33r34 13|6r34 20r34
+

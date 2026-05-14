@@ -1,0 +1,159 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_padcon%b		use_padcon.adb		fcb389aa NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W pade_continuation_interface%s  pade_continuation_interface.adb  pade_continuation_interface.ali
+W standard_integer_numbers_io%s  standard_integer_numbers_io.adb  standard_integer_numbers_io.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U use_padcon%s		use_padcon.ads		a5574d13 EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D pade_continuation_interface.ads  20260513024556 ca86243f pade_continuation_interface%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D use_padcon.ads	20260513024556 509bae6b use_padcon%s
+D use_padcon.adb	20260513024556 9d6e4a5a use_padcon%b
+G a e
+G c Z s b [use_padcon standard 5 10 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_parameters_set_defaults pade_continuation_interface 11 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_parameters_clear pade_continuation_interface 85 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_parameters_get_value pade_continuation_interface 18 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_parameters_set_value pade_continuation_interface 49 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_track_paths pade_continuation_interface 102 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_artificial_homotopy pade_continuation_interface 123 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_set_start_solution pade_continuation_interface 157 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_next_step pade_continuation_interface 175 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_set_solution pade_continuation_interface 193 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_clear_data pade_continuation_interface 424 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_pole_radius pade_continuation_interface 229 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_closest_pole pade_continuation_interface 245 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_t_value pade_continuation_interface 284 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_step_size pade_continuation_interface 300 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_series_coefficient pade_continuation_interface 380 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_pade_coefficient pade_continuation_interface 401 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_get_pole pade_continuation_interface 262 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_parameters_write pade_continuation_interface 78 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_natural_homotopy pade_continuation_interface 140 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_series_step pade_continuation_interface 316 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_pole_step pade_continuation_interface 332 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_estimated_distance pade_continuation_interface 348 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_hessian_step pade_continuation_interface 364 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_parameters_reset_values pade_continuation_interface 92 12 none]
+G r c none [use_padcon standard 5 10 none] [pade_continuation_set_predicted_solution pade_continuation_interface 211 12 none]
+G r c none [use_padcon standard 5 10 none] [put standard_integer_numbers_io 26 13 none]
+X 9 a-textio.ads
+515U14*Put 37|45s20
+565U14*Put_Line 37|42s22 46s32 52s18
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 36|3w6 3r45
+17K11*C_DblArrs[15|44] 36|8r27 37|8r27
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 36|2w6 2r45
+13K11*C_intarrs[15|44] 36|6r27 7r27 37|6r27 7r27
+X 14 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 15 i-cpoint.ads
+47P9*Pointer(14|62I9) 36|6r37[12|13] 7r37[12|13] 8r37[11|17] 37|6r37[12|13]
+. 7r37[12|13] 8r37[11|17]
+X 17 pade_continuation_interface.ads
+5K9*Pade_Continuation_Interface 436e32 37|3w6 13r9
+11V12*Pade_Continuation_Parameters_Set_Defaults{18|6I8} 37|17s24
+18V12*Pade_Continuation_Parameters_Get_Value{18|6I8} 37|19s24
+49V12*Pade_Continuation_Parameters_Set_Value{18|6I8} 37|20s24
+78V12*Pade_Continuation_Parameters_Write{18|6I8} 37|34s25
+85V12*Pade_Continuation_Parameters_Clear{18|6I8} 37|18s24
+92V12*Pade_Continuation_Parameters_Reset_Values{18|6I8} 37|40s25
+102V12*Pade_Continuation_Track_Paths{18|6I8} 37|21s24
+123V12*Pade_Continuation_Artificial_Homotopy{18|6I8} 37|22s24
+140V12*Pade_Continuation_Natural_Homotopy{18|6I8} 37|35s25
+157V12*Pade_Continuation_Set_Start_Solution{18|6I8} 37|23s24
+175V12*Pade_Continuation_Next_Step{18|6I8} 37|24s24
+193V12*Pade_Continuation_Set_Solution{18|6I8} 37|25s24
+211V12*Pade_Continuation_Set_Predicted_Solution{18|6I8} 37|41s25
+229V12*Pade_Continuation_Pole_Radius{18|6I8} 37|27s25
+245V12*Pade_Continuation_Closest_Pole{18|6I8} 37|28s25
+262V12*Pade_Continuation_Get_Pole{18|6I8} 37|33s25
+284V12*Pade_Continuation_T_Value{18|6I8} 37|29s25
+300V12*Pade_Continuation_Step_Size{18|6I8} 37|30s25
+316V12*Pade_Continuation_Series_Step{18|6I8} 37|36s25
+332V12*Pade_Continuation_Pole_Step{18|6I8} 37|37s25
+348V12*Pade_Continuation_Estimated_Distance{18|6I8} 37|38s25
+364V12*Pade_Continuation_Hessian_Step{18|6I8} 37|39s25
+380V12*Pade_Continuation_Series_Coefficient{18|6I8} 37|31s25
+401V12*Pade_Continuation_Pade_Coefficient{18|6I8} 37|32s25
+424V12*Pade_Continuation_Clear_Data{18|6I8} 37|26s24
+X 18 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 36|1w6 1r45
+6I8*integer32<long_integer> 36|5r29 9r32 9r56 37|5r29 9r32 9r56 11r31
+X 19 standard_integer_numbers_io.ads
+5K9*Standard_Integer_Numbers_io 47e32 37|2w6 2r45
+26U13*put 37|46s20
+X 35 text_io.ads
+27K9*Text_IO=27:29 37|1w6 1r45
+X 36 use_padcon.ads
+5V10*use_padcon{18|6I8} 5>23 6>23 7>23 8>23 9>23 37|5b10 54l5 54t15
+5i23 job{18|6I8} 37|5b23 16r10 46r24 53r25
+6p23 a{15|47P9[12|13]} 37|6b23 19r63 20r63 21r54 22r62 23r61 24r52 25r55
+. 26r53 27r55 28r56 29r51 30r53 31r62 32r60 33r52 35r60 36r55 37r53 38r62
+. 39r56 40r67 41r66
+7p23 b{15|47P9[12|13]} 37|7b23 19r65 20r65 21r56 22r64 23r63 24r54 25r57
+. 31r64 32r62 33r54 35r62 41r68
+8p23 c{15|47P9[11|17]} 37|8b23 19r67 20r67 21r58 27r57 28r58 29r53 30r55
+. 31r66 32r64 33r56 36r57 37r55 38r64 39r58
+9i23 vrblvl{18|6I8} 37|9b23 17r66 18r59 19r69 20r69 21r60 22r66 23r65 24r56
+. 25r59 26r55 27r59 28r60 29r55 30r57 31r68 32r66 33r58 34r60 35r64 36r59
+. 37r57 38r66 39r60 40r69 41r70
+X 37 use_padcon.adb
+11V12 Handle_Jobs{18|6I8} 11b12 47l7 47t18 50s10
+

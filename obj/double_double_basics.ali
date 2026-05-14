@@ -1,0 +1,99 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U double_double_basics%b  double_double_basics.adb  122831c1 NE OO PK
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+
+U double_double_basics%s  double_double_basics.ads  e749fa23 EE NE OO PK
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+
+D double_double_basics.ads  20260513024558 41df7b4e double_double_basics%s
+D double_double_basics.adb  20260513024558 53f74a8f double_double_basics%b
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-fatgen.ads		20250808065140 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250808065140 378cba9f system.fat_lflt%s
+G a e
+G c Z s b [quick_two_sum double_double_basics 10 13 none]
+G c Z s b [quick_two_diff double_double_basics 23 13 none]
+G c Z s b [two_sum double_double_basics 36 13 none]
+G c Z s b [two_diff double_double_basics 48 13 none]
+G c Z s b [split double_double_basics 60 13 none]
+G c Z s b [two_prod double_double_basics 72 13 none]
+G c Z s b [two_sqr double_double_basics 84 13 none]
+G c Z s b [nint double_double_basics 89 12 none]
+G c Z s b [aint double_double_basics 94 12 none]
+X 1 double_double_basics.ads
+3K9*Double_Double_Basics 99l5 99e25 2|1b14 110l5 110t25
+10U13*quick_two_sum 10>29 10>31 11<29 11<31 2|3b13 8l7 8t20
+10f29 a{3|13F8} 2|3b29 6r10 7r21
+10f31 b{3|13F8} 2|3b31 6r14 7r12
+11f29 s{3|13F8} 2|4b29 6m5 7r17
+11f31 err{3|13F8} 2|4b31 7m5
+23U13*quick_two_diff 23>30 23>32 24<30 24<32 2|10b13 15l7 15t21
+23f30 a{3|13F8} 2|10b30 13r10 14r13
+23f32 b{3|13F8} 2|10b32 13r14 14r22
+24f30 s{3|13F8} 2|11b30 13m5 14r17
+24f32 err{3|13F8} 2|11b32 14m5
+36U13*two_sum 36>23 36>25 36<46 36<48 2|17b13 25l7 25t14
+36f23 a{3|13F8} 2|17b23 22r10 23r15 24r13
+36f25 b{3|13F8} 2|17b25 22r14 24r30
+36f46 s{3|13F8} 2|17b46 22m5 23r11 24r18
+36f48 err{3|13F8} 2|17b48 24m5
+48U13*two_diff 48>24 48>26 48<47 48<49 2|27b13 35l7 35t15
+48f24 a{3|13F8} 2|27b24 32r10 33r15 34r13
+48f26 b{3|13F8} 2|27b26 32r14 34r30
+48f47 s{3|13F8} 2|27b47 32m5 33r11 34r18
+48f49 err{3|13F8} 2|27b49 34m5
+60U13*split 60>21 60<42 60<45 2|37b13 57l7 57t12 65s5 66s5 76s5
+60f21 a{3|13F8} 2|37b21 42r26 45r10 45r33 49r13 53r29 54r28 55r13
+60f42 hi{3|13F8} 2|37b42 48m7 49r17 50m7 50r13 54m7 55r17
+60f45 lo{3|13F8} 2|37b45 49m7 51m7 55m7
+72U13*two_prod 72>24 72>26 72<47 72<49 2|59b13 68l7 68t15
+72f24 a{3|13F8} 2|59b24 64r10 65r11
+72f26 b{3|13F8} 2|59b26 64r12 66r11
+72f47 p{3|13F8} 2|59b47 64m5 67r26
+72f49 err{3|13F8} 2|59b49 67m5
+84U13*two_sqr 84>23 84<44 84<46 2|70b13 78l7 78t14
+84f23 a{3|13F8} 2|70b23 75r10 75r12 76r11
+84f44 q{3|13F8} 2|70b44 75m5 77r22
+84f46 err{3|13F8} 2|70b46 77m5
+89V12*nint{3|13F8} 89>19 2|80b12 100l7 100t11
+89f19 d{3|13F8} 2|80b19 96r9 96r32 97r18 98r37
+94V12*aint{3|13F8} 94>19 2|102b12 108l7 108t11
+94f19 d{3|13F8} 2|102b19 104r8 105r37 106r39
+X 2 double_double_basics.adb
+19f5 bb{3|13F8} 23m5 24r22 24r34
+29f5 bb{3|13F8} 33m5 34r22 34r34
+39f5 QD_SPLITTER{3|13F8} 47r15 53r15
+40f5 QD_SPLIT_THRESH{3|13F8} 45r14 45r38
+41f5 temp{3|13F8} 47m7 48r13 48r21 53m7 54r13 54r21
+42f5 aa{3|13F8} 46m7 46r13 47r29 48r28
+61f5 a_hi{3|13F8} 65m13 67r14 67r31
+61f10 a_lo{3|13F8} 65m18 67r43 67r56
+61f15 b_hi{3|13F8} 66m13 67r19 67r48
+61f20 b_lo{3|13F8} 66m18 67r36 67r61
+72f5 hi{3|13F8} 76m13 77r14 77r17 77r31
+72f8 lo{3|13F8} 76m16 77r34 77r40 77r43
+X 3 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 1|1w6 1r46 3|58e30
+13F8*double_float<long_float> 1|10r38 11r41 23r39 24r42 36r32 36r58 48r33
+. 48r59 60r28 60r54 72r33 72r59 84r30 84r56 89r23 89r45 94r23 94r45 2|3r38
+. 4r41 10r39 11r42 17r32 17r58 19r10 27r33 27r59 29r10 37r28 37r54 39r28
+. 40r32 41r12 42r10 59r33 59r59 61r27 70r30 70r56 72r13 80r23 80r45 96r13
+. 98r18 102r23 102r45 105r18 106r18
+

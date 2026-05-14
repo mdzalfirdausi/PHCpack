@@ -1,0 +1,673 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U multprec_natural_numbers%b  multprec_natural_numbers.adb  a709c8e0 OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z multprec_natural_coefficients%s  multprec_natural_coefficients.adb  multprec_natural_coefficients.ali  AD
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+Z system.exn_int%s	s-exnint.ads		s-exnint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U multprec_natural_numbers%s  multprec_natural_numbers.ads  a50c182b EE OO PK
+W multprec_natural_coefficients%s  multprec_natural_coefficients.adb  multprec_natural_coefficients.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-assert.ads		20250808065140 ba465f5c ada.assertions%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-numeri.ads		20250808065140 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20250808065140 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20250808065140 31ff4aa1 ada.numerics.big_numbers.big_integers_ghost%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D multprec_natural_numbers.adb  20260513024558 8428d0fc multprec_natural_numbers%b
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D s-assert.ads		20250808065140 9c4520c7 system.assertions%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnint.ads		20250808065140 3d33a4e5 system.exn_int%s
+D s-exponn.ads		20250808065140 99b98823 system.exponn%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D unchdeal.ads		20250808065140 214516a4 unchecked_deallocation%s
+G a e
+G c b b b [b multprec_natural_numbers 6 1 none]
+G c Z s b [create multprec_natural_numbers 15 12 none]
+G c Z s b [create multprec_natural_numbers 20 12 none]
+G c Z s b [create multprec_natural_numbers 25 12 none]
+G c Z s b [create multprec_natural_numbers 30 12 none]
+G c Z s b [create multprec_natural_numbers 37 12 none]
+G c Z s b [radix multprec_natural_numbers 46 12 none]
+G c Z s b [base multprec_natural_numbers 51 12 none]
+G c Z s b [exponent multprec_natural_numbers 56 12 none]
+G c Z s b [empty multprec_natural_numbers 61 12 none]
+G c Z s b [size multprec_natural_numbers 68 12 none]
+G c Z s b [decimal_places multprec_natural_numbers 73 12 none]
+G c Z s b [decimal_places multprec_natural_numbers 78 12 none]
+G c Z s b [coefficient multprec_natural_numbers 87 12 none]
+G c Z s b [coefficients multprec_natural_numbers 92 12 none]
+G c Z s b [equal multprec_natural_numbers 101 12 none]
+G c Z s b [equal multprec_natural_numbers 102 12 none]
+G c Z s b [Olt multprec_natural_numbers 107 12 none]
+G c Z s b [Olt multprec_natural_numbers 108 12 none]
+G c Z s b [Olt multprec_natural_numbers 109 12 none]
+G c Z s b [Ogt multprec_natural_numbers 114 12 none]
+G c Z s b [Ogt multprec_natural_numbers 115 12 none]
+G c Z s b [Ogt multprec_natural_numbers 116 12 none]
+G c Z s b [copy multprec_natural_numbers 121 13 none]
+G c Z s b [copy multprec_natural_numbers 122 13 none]
+G c Z s b [shift_left multprec_natural_numbers 130 13 none]
+G c Z s b [shift_right multprec_natural_numbers 136 13 none]
+G c Z s b [Oadd multprec_natural_numbers 147 12 none]
+G c Z s b [Oadd multprec_natural_numbers 148 12 none]
+G c Z s b [Oadd multprec_natural_numbers 149 12 none]
+G c Z s b [Osubtract multprec_natural_numbers 151 12 none]
+G c Z s b [Osubtract multprec_natural_numbers 152 12 none]
+G c Z s b [Osubtract multprec_natural_numbers 153 12 none]
+G c Z s b [Oadd multprec_natural_numbers 155 12 none]
+G c Z s b [Osubtract multprec_natural_numbers 156 12 none]
+G c Z s b [Omultiply multprec_natural_numbers 158 12 none]
+G c Z s b [Omultiply multprec_natural_numbers 159 12 none]
+G c Z s b [Omultiply multprec_natural_numbers 160 12 none]
+G c Z s b [Oexpon multprec_natural_numbers 162 12 none]
+G c Z s b [Oexpon multprec_natural_numbers 163 12 none]
+G c Z s b [Oexpon multprec_natural_numbers 164 12 none]
+G c Z s b [Odivide multprec_natural_numbers 166 12 none]
+G c Z s b [Odivide multprec_natural_numbers 167 12 none]
+G c Z s b [Odivide multprec_natural_numbers 168 12 none]
+G c Z s b [rmd multprec_natural_numbers 170 12 none]
+G c Z s b [rmd multprec_natural_numbers 171 12 none]
+G c Z s b [rmd multprec_natural_numbers 172 12 none]
+G c Z s b [mul_radix multprec_natural_numbers 176 13 none]
+G c Z s b [add multprec_natural_numbers 184 13 none]
+G c Z s b [add multprec_natural_numbers 185 13 none]
+G c Z s b [sub multprec_natural_numbers 187 13 none]
+G c Z s b [sub multprec_natural_numbers 188 13 none]
+G c Z s b [min multprec_natural_numbers 189 13 none]
+G c Z s b [mul multprec_natural_numbers 191 13 none]
+G c Z s b [mul multprec_natural_numbers 192 13 none]
+G c Z s b [div multprec_natural_numbers 194 13 none]
+G c Z s b [div multprec_natural_numbers 195 13 none]
+G c Z s b [div multprec_natural_numbers 197 13 none]
+G c Z s b [div multprec_natural_numbers 199 13 none]
+G c Z s b [div multprec_natural_numbers 201 13 none]
+G c Z s b [div multprec_natural_numbers 202 13 none]
+G c Z s b [clear multprec_natural_numbers 207 13 none]
+G c Z b b [natural_number_repIP multprec_natural_numbers 38 8 none]
+G c Z b b [size multprec_natural_numbers 44 12 none]
+G c Z b b [extend multprec_natural_numbers 508 12 none]
+G c Z b b [extend multprec_natural_numbers 536 13 none]
+G c Z b b [mul_base multprec_natural_numbers 573 13 none]
+G c Z b b [mul_rdx multprec_natural_numbers 614 13 none]
+G c Z b b [small_div multprec_natural_numbers 1089 13 none]
+G c Z b b [big_div multprec_natural_numbers 1128 13 none]
+G r c none [b multprec_natural_numbers 6 1 none] [radix multprec_natural_coefficients 21 12 none]
+G r c none [b multprec_natural_numbers 6 1 none] [exponent multprec_natural_coefficients 31 12 none]
+G r c none [equal multprec_natural_numbers 102 12 none] [equal multprec_natural_coefficients 51 12 none]
+G r c none [shift_left multprec_natural_numbers 130 13 none] [shift_left multprec_natural_coefficients 71 13 none]
+G r c none [shift_right multprec_natural_numbers 136 13 none] [shift_right multprec_natural_coefficients 77 13 none]
+G r c none [Osubtract multprec_natural_numbers 152 12 none] [sub multprec_natural_coefficients 103 13 none]
+G r c none [Osubtract multprec_natural_numbers 153 12 none] [sub multprec_natural_coefficients 103 13 none]
+G r c none [Omultiply multprec_natural_numbers 158 12 none] [short_mul multprec_natural_coefficients 119 13 none]
+G r c none [Omultiply multprec_natural_numbers 159 12 none] [short_mul multprec_natural_coefficients 119 13 none]
+G r c none [Omultiply multprec_natural_numbers 160 12 none] [mul multprec_natural_coefficients 127 12 none]
+G r c none [Oexpon multprec_natural_numbers 162 12 none] [mul multprec_natural_coefficients 127 12 none]
+G r c none [Oexpon multprec_natural_numbers 163 12 none] [equal multprec_natural_coefficients 51 12 none]
+G r c none [Oexpon multprec_natural_numbers 163 12 none] [short_mul multprec_natural_coefficients 119 13 none]
+G r c none [Oexpon multprec_natural_numbers 164 12 none] [equal multprec_natural_coefficients 51 12 none]
+G r c none [Oexpon multprec_natural_numbers 164 12 none] [mul multprec_natural_coefficients 127 12 none]
+G r c none [Odivide multprec_natural_numbers 166 12 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [Odivide multprec_natural_numbers 168 12 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [Odivide multprec_natural_numbers 168 12 none] [short_div2 multprec_natural_coefficients 174 13 none]
+G r c none [Odivide multprec_natural_numbers 168 12 none] [div2 multprec_natural_coefficients 211 13 none]
+G r c none [rmd multprec_natural_numbers 170 12 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [rmd multprec_natural_numbers 172 12 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [rmd multprec_natural_numbers 172 12 none] [short_div2 multprec_natural_coefficients 174 13 none]
+G r c none [rmd multprec_natural_numbers 172 12 none] [div2 multprec_natural_coefficients 211 13 none]
+G r c none [sub multprec_natural_numbers 188 13 none] [sub multprec_natural_coefficients 103 13 none]
+G r c none [mul multprec_natural_numbers 191 13 none] [short_mul multprec_natural_coefficients 119 13 none]
+G r c none [mul multprec_natural_numbers 192 13 none] [mul multprec_natural_coefficients 127 12 none]
+G r c none [div multprec_natural_numbers 194 13 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [div multprec_natural_numbers 195 13 none] [small_div multprec_natural_coefficients 142 13 none]
+G r c none [div multprec_natural_numbers 195 13 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [div multprec_natural_numbers 195 13 none] [short_div2 multprec_natural_coefficients 174 13 none]
+G r c none [div multprec_natural_numbers 195 13 none] [div2 multprec_natural_coefficients 211 13 none]
+G r c none [div multprec_natural_numbers 197 13 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [div multprec_natural_numbers 199 13 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [div multprec_natural_numbers 201 13 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [div multprec_natural_numbers 201 13 none] [short_div2 multprec_natural_coefficients 174 13 none]
+G r c none [div multprec_natural_numbers 201 13 none] [div2 multprec_natural_coefficients 211 13 none]
+G r c none [div multprec_natural_numbers 202 13 none] [small_div multprec_natural_coefficients 142 13 none]
+G r c none [div multprec_natural_numbers 202 13 none] [short_div multprec_natural_coefficients 158 13 none]
+G r c none [div multprec_natural_numbers 202 13 none] [short_div2 multprec_natural_coefficients 174 13 none]
+G r c none [div multprec_natural_numbers 202 13 none] [div2 multprec_natural_coefficients 211 13 none]
+G r c none [big_div multprec_natural_numbers 1128 13 none] [short_div multprec_natural_coefficients 158 13 none]
+X 16 multprec_natural_coefficients.ads
+3K9*Multprec_Natural_Coefficients 228e34 17|2w6 2r46 18|28r32 29r32
+17A8*Array_of_Naturals(20|7I8)<20|7I8> 17|15r44 30r25 92r55 18|39r12 63r44
+. 65r11 89r25 184r55 186r19 208r26 272r26 301r26 371r26 403r26 508r25 525r15
+. 622r15 672r15 826r26 903r26 938r15 986r15 1145r16 1305r18 1306r18 1343r20
+. 1362r20 1363r20
+21V12*Radix{20|7I8} 18|28s62
+31V12*Exponent{20|7I8} 18|29s62
+51V12*Equal{boolean} 18|257s16
+71U13*Shift_Left 18|494s11
+77U13*Shift_Right 18|502s11
+103U13*Sub 18|868s11 930s11
+119U13*Short_Mul 18|947s7 998s7
+127V12*Mul{17A8} 18|976s21 978s21 1024s29 1025s29
+142U13*Small_Div 18|1346s19
+158U13*Short_Div 18|1147s9 1347s19
+174U13*Short_Div2 18|1310s17 1367s19
+211U13*Div2 18|1311s17 1368s19
+X 17 multprec_natural_numbers.ads
+4K9*Multprec_Natural_Numbers 214E8 217l5 217e29 18|6b14 1398l5 1398t29
+11P8*Natural_Number 20r42 25r44 30r52 37r25 61r24 68r23 78r33 87r30 92r31
+. 101r25 102r28 107r23 108r39 109r26 114r23 115r39 116r26 121r51 122r28 122r56
+. 130r37 136r38 147r23 147r63 148r39 148r63 149r26 149r50 151r23 151r63 152r39
+. 152r63 153r26 153r50 155r22 155r46 156r22 156r46 158r23 158r63 159r39 159r63
+. 160r26 160r50 162r24 162r64 163r40 163r64 164r27 164r51 166r23 166r63 167r39
+. 168r26 168r50 170r23 171r39 172r26 172r50 176r36 184r31 185r31 185r55 187r31
+. 188r31 188r55 189r30 191r31 192r31 192r55 194r31 195r31 195r55 197r27 198r27
+. 199r31 201r30 201r56 202r31 202r55 203r27 207r32 215c8 18|76r42 81r44 83r20
+. 89r52 91r11 100r25 133r24 138r23 160r33 176r30 184r31 199r25 229r28 263r23
+. 295r39 324r26 365r23 394r39 426r26 467r51 473r28 473r56 490r37 498r38 536r33
+. 545r24 573r35 614r34 640r36 663r23 663r63 665r11 687r39 687r63 692r26 692r50
+. 694r11 748r31 766r31 766r55 817r23 817r63 819r11 851r39 851r63 853r11 854r20
+. 861r26 861r50 863r11 873r22 873r46 875r11 882r22 882r46 884r11 891r30 896r31
+. 927r31 927r55 934r23 934r63 936r11 963r39 963r63 968r26 968r50 970r11 983r31
+. 1014r31 1014r55 1016r11 1033r24 1033r64 1035r11 1049r40 1049r64 1051r15
+. 1070r27 1070r51 1072r15 1089r33 1090r33 1128r31 1129r31 1153r23 1153r63
+. 1155r11 1168r39 1184r26 1184r50 1186r15 1194r23 1197r9 1208r39 1224r26
+. 1224r50 1226r13 1234r31 1242r31 1242r55 1244r9 1251r27 1252r27 1260r31
+. 1263r9 1270r30 1271r27 1271r51 1326r31 1326r55 1327r27 1387r32 1390r53
+15V12*Create{16|17A8} 15>21 18|63b12 74l7 74t13 83s45 208s47 272s47 301s47
+. 371s47 403s47 826s47 903s47
+15i21 n{20|7I8} 18|63b21 65r37 66r30
+20V12*Create{11P8} 20>21 18|76b12 79l7 79t13
+20i21 i{integer} 18|76b21 78r29
+25V12*Create{11P8} 25>21 18|78s12 81b12 87l7 87t13 470s11 669s14 754s13 853s29
+. 1039s14 1055s14 1057s14 1059s16 1076s14 1079s14 1100s14 1138s12 1141s12
+. 1292s12 1302s14 1358s18
+25i21 n{20|7I8} 18|81b21 83r52
+30V12*Create{11P8} 30>21 18|83s38 89b12 98l7 98t13 636s12 958s14 976s14 978s14
+. 1010s13 1024s22 1025s22 1148s14 1319s16 1320s16 1357s19 1377s19 1378s18
+30a21 n{16|17A8} 18|89b21 92r34 95r21
+37V12*Create{20|7I8} 37>21 18|100b12 114l7 114t13 1176s14 1216s14
+37p21 n{11P8} 18|100b21 105r14 108r26 108r33 109r32 110r43
+46V12*Radix{20|7I8} 18|118b12 121l7 121t12
+51V12*Base{20|7I8} 18|123b12 126l7 126t11
+56V12*Exponent{20|7I8} 18|128b12 131l7 131t15
+61V12*Empty{boolean} 61>20 18|105s8 133b12 136l7 136t12 165s12 189s8 201s8
+. 234s8 237s10 265s8 297s8 329s8 330s10 334s11 367s8 396s8 431s8 432s10 436s11
+. 476s12 579s22 668s8 698s8 700s11 753s8 771s8 773s15 823s12 867s12 901s12
+. 929s12 929s30 973s9 973s27 1019s12 1020s10 1040s15 1077s15 1159s12 1175s15
+. 1215s15 1276s9 1329s9 1393s12
+61p20 n{11P8} 18|133b20 135r14
+68V12*Size{20|7I8} 68>19 18|108s28 109s27 138b12 144l7 144t11 166s27 210s25
+. 218s34 240s12 240s23 241s20 241s32 246s23 247s15 247s26 248s20 248s32 253s23
+. 255s23 274s25 277s27 278s44 303s25 306s27 307s44 337s10 337s21 338s18 338s30
+. 343s21 344s13 344s24 345s18 345s30 350s21 352s21 373s25 376s27 377s36 405s25
+. 408s27 409s36 439s10 439s21 440s18 440s30 445s21 446s13 446s24 447s18 447s30
+. 452s21 454s21 622s36 626s17 632s28 938s36 955s20 956s24 986s36 1006s20
+. 1007s24
+68p19 n{11P8} 18|138b19 140r8 142r18
+73V12*Decimal_Places{20|7I8} 73>29 18|146b12 158l7 158t21 168s18
+73i29 n{20|7I8} 18|146b29 151r17 152r10 157r12
+78V12*Decimal_Places{20|7I8} 78>29 18|160b12 174l7 174t21
+78p29 n{11P8} 18|160b29 165r18 166r32 167r12 168r33
+87V12*Coefficient{20|7I8} 87>26 87>46 18|108s14 110s31 176b12 182l7 182t18
+. 214s16 219s16 242s16 249s16 279s18 285s16 308s18 314s28 339s14 346s14 355s12
+. 355s32 357s15 357s35 378s18 384s16 410s18 416s28 441s14 448s14 457s12 457s32
+. 459s15 459s35
+87p26 n{11P8} 18|176b26 178r9 178r30 180r18
+87i46 i{20|7I8} 18|176b46 178r26 180r25
+92V12*Coefficients{16|17A8} 92>27 18|184b12 193l7 193t19 257s22 258s22
+92p27 n{11P8} 18|184b27 189r14 191r18
+101V12*Equal{boolean} 101>20 101>41 18|199b12 227l7 227t12 235s14 238s16
+. 648s12 941s24 991s15 1054s8 1075s8 1099s10 1137s11 1276s27 1284s11 1329s27
+. 1331s15
+101p20 n1{11P8} 18|199b20 201r14 210r30 214r28 218r39 219r28
+101i41 n2{20|7I8} 18|199b41 202r10 208r54
+102V12*Equal{boolean} 102>20 102>23 18|229b12 261l7 261t12 1060s19 1080s17
+102p20 n1{11P8} 18|229b20 234r14 238r22 240r17 241r25 246r28 247r20 248r37
+. 249r28 255r28 257r35
+102p23 n2{11P8} 18|229b23 235r20 237r16 240r28 241r37 242r28 247r31 248r25
+. 253r28 258r35
+107V13*"<"{boolean} 107>18 107>39 18|263b13 293l8 293t10 1140s14
+107p18 n1{11P8} 18|263b18 265r14 274r30 277r32 278r49 279r30 285r28
+107i39 n2{20|7I8} 18|263b39 266r10 272r54
+108V13*"<"{boolean} 108>18 108>34 18|295b13 322l8 322t10 1173s11 1213s11
+108i18 n1{20|7I8} 18|295b18 301r54
+108p34 n2{11P8} 18|295b34 297r14 303r30 306r32 307r49 308r30 314r40
+109V13*"<"{boolean} 109>18 109>21 18|324b13 363l8 363t10 1287s14
+109p18 n1{11P8} 18|324b18 329r14 337r15 338r23 343r26 344r18 345r35 346r26
+. 352r26 355r24 357r27
+109p21 n2{11P8} 18|324b21 330r16 334r17 337r26 338r35 339r26 344r29 345r23
+. 350r26 355r44 357r47
+114V13*">"{boolean} 114>18 114>39 18|365b13 392l8 392t10
+114p18 n1{11P8} 18|365b18 367r14 373r30 376r32 377r41 378r30 384r28
+114i39 n2{20|7I8} 18|365b39 371r54
+115V13*">"{boolean} 115>18 115>34 18|394b13 424l8 424t10
+115i18 n1{20|7I8} 18|394b18 397r10 403r54
+115p34 n2{11P8} 18|394b34 396r14 405r30 408r32 409r41 410r30 416r40
+116V13*">"{boolean} 116>18 116>21 18|426b13 465l8 465t10
+116p18 n1{11P8} 18|426b18 432r16 436r17 439r15 440r23 445r26 446r18 447r35
+. 448r26 454r26 457r24 459r27
+116p21 n2{11P8} 18|426b21 431r14 439r26 440r35 441r26 446r29 447r23 452r26
+. 457r44 459r47
+121U13*Copy 121>20 121=39 18|467b13 471l7 471t11
+121i20 n1{20|7I8} 18|467b20 470r18
+121p39 n2{11P8} 18|467b39 469m11 470m5
+122U13*Copy 122>20 122=44 18|473b13 486l7 486t11 699s7 701s7 772s7 824s7
+. 866s5 878s5 887s5 1041s7 1078s7 1267s5 1289s7
+122p20 n1{11P8} 18|473b20 476r18 478r36 481r28 772r12
+122p44 n2{11P8} 18|473b44 475m11 483m9 772r21
+130U13*Shift_Left 130=26 130<53 18|490b13 496l7 496t17
+130p26 n{11P8} 18|490b26 492r8 494r22
+130i53 ns{20|7I8} 18|490b53 493m11 494m29
+136U13*Shift_Right 136=27 136<54 18|498b13 504l7 504t18
+136p27 n{11P8} 18|498b27 500r8 502r23
+136i54 ns{20|7I8} 18|498b54 501m11 502m30
+147V13*"+"{11P8} 147>18 147>39 18|663b13 685l8 685t10 689s14
+147p18 n1{11P8} 18|663b18 668r14 672r33 677r18
+147i39 n2{20|7I8} 18|663b39 669r21 675r18
+148V13*"+"{11P8} 148>18 148>34 18|687b13 690l8 690t10
+148i18 n1{20|7I8} 18|687b18 689r15
+148p34 n2{11P8} 18|687b34 689r12
+149V13*"+"{11P8} 149>18 149>21 18|692b13 746l8 746t10
+149p18 n1{11P8} 18|692b18 698r14 701r12 704r10 706r40 706r52 714r38 727r20
+. 728r38 733r22
+149p21 n2{11P8} 18|692b21 699r12 700r17 704r20 708r20 709r38 714r22 725r40
+. 725r52 733r38
+151V13*"-"{11P8} 151>18 151>39 18|817b13 849l8 849t10
+151p18 n1{11P8} 18|817b18 823r18 824r12 830r18 831r29
+151i39 n2{20|7I8} 18|817b39 826r54
+152V13*"-"{11P8} 152>18 152>34 18|851b13 859l8 859t10
+152i18 n1{20|7I8} 18|851b18 853r36
+152p34 n2{11P8} 18|851b34 854r44
+153V13*"-"{11P8} 153>18 153>21 18|854s42 861b13 871l8 871t10
+153p18 n1{11P8} 18|861b18 866r10
+153p21 n2{11P8} 18|861b21 867r18 868r24
+155V13*"+"{11P8} 155>18 18|873b13 880l8 880t10
+155p18 n{11P8} 18|873b18 878r10
+156V13*"-"{11P8} 156>18 18|882b13 889l8 889t10
+156p18 n{11P8} 18|882b18 887r10
+158V13*"*"{11P8} 158>18 158>39 18|934b13 961l8 961t10 965s14
+158p18 n1{11P8} 18|934b18 938r41 941r30 942r16 943r23 945r15 946r15 955r25
+. 956r29
+158i39 n2{20|7I8} 18|934b39 941r8 947r25
+159V13*"*"{11P8} 159>18 159>34 18|963b13 966l8 966t10
+159i18 n1{20|7I8} 18|963b18 965r15
+159p34 n2{11P8} 18|963b34 965r12
+160V13*"*"{11P8} 160>18 160>21 18|968b13 981l8 981t10
+160p18 n1{11P8} 18|968b18 973r15 975r11 976r25 978r33
+160p21 n2{11P8} 18|968b21 973r33 975r22 976r33 978r25
+162V13*"**"{11P8} 162>19 162>40 18|1033b13 1047l8 1047t11
+162p19 n1{11P8} 18|1033b19 1040r21 1041r12 1043r17
+162i40 n2{20|7I8} 18|1033b40 1038r8 1042r19
+163V13*"**"{11P8} 163>19 163>35 18|1049b13 1068l8 1068t11
+163i19 n1{20|7I8} 18|1049b19 1057r21 1058r10 1061r19
+163p35 n2{11P8} 18|1049b35 1054r14 1060r29
+164V13*"**"{11P8} 164>19 164>22 18|1070b13 1087l8 1087t11
+164p19 n1{11P8} 18|1070b19 1077r21 1078r12 1081r17
+164p22 n2{11P8} 18|1070b22 1075r14 1080r27
+166V13*"/"{11P8} 166>18 166>39 18|1153b13 1166l8 1166t10
+166p18 n1{11P8} 18|1153b18 1159r18 1161r23 1162r21
+166i39 n2{20|7I8} 18|1153b39 1160r10 1161r26 1162r24
+167V13*"/"{20|7I8} 167>18 167>34 18|1168b13 1182l8 1182t10
+167i18 n1{20|7I8} 18|1168b18 1173r8 1177r14
+167p34 n2{11P8} 18|1168b34 1173r13 1175r21 1176r21
+168V13*"/"{11P8} 168>18 168>21 18|1184b13 1192l8 1192t10
+168p18 n1{11P8} 18|1184b18 1189r9
+168p21 n2{11P8} 18|1184b21 1189r12
+170V12*Rmd{20|7I8} 170>18 170>39 18|1194b12 1206l7 1206t10
+170p18 n1{11P8} 18|1194b18 1201r21 1202r19
+170i39 n2{20|7I8} 18|1194b39 1200r8 1201r24 1202r22
+171V12*Rmd{20|7I8} 171>18 171>34 18|1208b12 1222l7 1222t10
+171i18 n1{20|7I8} 18|1208b18 1213r8 1214r14 1217r14
+171p34 n2{11P8} 18|1208b34 1213r13 1215r21 1216r21
+172V12*Rmd{11P8} 172>18 172>21 18|1224b12 1232l7 1232t10
+172p18 n1{11P8} 18|1224b18 1229r9
+172p21 n2{11P8} 18|1224b21 1229r12
+176U13*Mul_Radix 176=25 176>52 18|640b13 659l7 659t16
+176p25 n{11P8} 18|640b25 648r18 650m17 652m17 655m24
+176i52 k{20|7I8} 18|640b52 649r10 650r19 652r20 653r14
+184U13*Add 184=19 184>47 18|748b13 764l7 764t10 1062s11 1082s9
+184p19 n1{11P8} 18|748b19 753r14 754m7 757r16 758r16 759r9 762m14
+184i47 n2{20|7I8} 18|748b47 754r20 756r16
+185U13*Add 185=19 185>47 18|766b13 815l7 815t10
+185p19 n1{11P8} 18|766b19 771r14 772m27 775r10 777r18 778r11 782r36 783r20
+. 784r13 788m18 794r20 795r38 800r22 807m17 808m11 810m24
+185p47 n2{11P8} 18|766b47 772r18 773r21 775r21 776r18 777r31 782r20 792r40
+. 792r52 800r38
+187U13*Sub 187=19 187>47 18|896b13 925l7 925t10
+187p19 n1{11P8} 18|896b19 901r18 907r18 908r29 910r13 914r13
+187i47 n2{20|7I8} 18|896b47 901r26 903r54
+188U13*Sub 188=19 188>47 18|927b13 932l7 932t10
+188p19 n1{11P8} 18|927b19 929r18 930r15
+188p47 n2{11P8} 18|927b47 929r36 930r23
+189U13*Min 189=19 18|891b13 894l7 894t10
+189p19 n{11P8} 18|891b19
+191U13*Mul 191=19 191>47 18|983b13 1012l7 1012t10 1061s11
+191p19 n1{11P8} 18|983b19 986r41 990m13 991r21 993r16 994r23 996r15 997r15
+. 1006r25 1007r29 1009m13 1010m7
+191i47 n2{20|7I8} 18|983b47 989r8 998r25
+192U13*Mul 192=19 192>47 18|1014b13 1031l7 1031t10 1043s9 1081s9
+192p19 n1{11P8} 18|1014b19 1019r18 1021m15 1023r12 1024r33 1025r41 1027m15
+. 1028m9
+192p47 n2{11P8} 18|1014b47 1020r16 1023r23 1024r41 1025r33
+194U13*Div 194=19 194>47 18|1234b13 1240l7 1240t10
+194p19 n1{11P8} 18|1234b19 1239m9
+194i47 n2{20|7I8} 18|1234b47 1239r12
+195U13*Div 195=19 195>47 18|1242b13 1249l7 1249t10
+195p19 n1{11P8} 18|1242b19 1247m9
+195p47 n2{11P8} 18|1242b47 1247r12
+197U13*Div 197>19 197>43 198<19 198<43 18|1251b13 1258l7 1258t10 1266s5 1291s7
+. 1301s9
+197p19 n1{11P8} 18|1251b19 1255r21 1256r19
+197i43 n2{20|7I8} 18|1251b43 1254r8 1255r24 1256r22
+198p19 q{11P8} 18|1252b19 1255m27 1256m25
+198i43 r{20|7I8} 18|1252b43 1255m29 1256m27
+199U13*Div 199=19 199>47 200<19 18|1239s5 1260b13 1268l7 1268t10
+199p19 n1{11P8} 18|1260b19 1266r9 1267m12
+199i47 n2{20|7I8} 18|1260b47 1266r12
+200i19 r{20|7I8} 18|1261b19 1266m17
+201U13*Div 201>19 201>22 201<46 201<48 18|1189s5 1229s5 1270b13 1324l7 1324t10
+201p19 n1{11P8} 18|1270b19 1284r17 1287r11 1289r12 1291r11 1301r13 1305r36
+. 1310r28 1311r22
+201p22 n2{11P8} 18|1270b22 1276r15 1276r33 1287r16 1290r11 1291r14 1295r24
+. 1296r12 1301r16 1310r36 1311r30
+201p46 q{11P8} 18|1271b19 1285m7 1288m7 1291m25 1301m27 1319m11
+201p48 r{11P8} 18|1271b43 1286m7 1289m15 1292m7 1302m9 1320m11
+202U13*Div 202=19 202>47 203<19 18|1247s5 1326b13 1383l7 1383t10
+202p19 n1{11P8} 18|1326b19 1331r21 1343r38 1346r29 1347r29 1356m19 1357m13
+. 1363r38 1367r30 1368r24 1376m19 1377m13
+202p47 n2{11P8} 18|1326b47 1329r15 1329r33 1335r26 1336r14 1345r16 1346r37
+. 1347r37 1367r38 1368r32
+203p19 r{11P8} 18|1327b19 1358m13 1378m13
+207U13*Clear 207=21 18|469s5 475s5 548s9 585s9 634s7 807s11 857s5 990s7 1009s7
+. 1021s9 1027s9 1064s9 1084s7 1190s5 1204s5 1230s5 1248s5 1267s17 1356s13
+. 1376s13 1387b13 1396l7 1396t12
+207p21 n{11P8} 18|1387b21 1393r18 1394m16
+214R8 Natural_Number_Rep 215r33 18|38c8 38d29 40e13 92r15 96r16 478r17 483r19
+. 509r26 518r16 546r20 581r15 586r18 681r20 706r21 721r22 725r21 740r22 792r21
+. 808r21 1103r18 1390r34
+X 18 multprec_natural_numbers.adb
+28i3 fact{20|7I8} 32r37 120r12 619r37 620r37 1160r16 1200r14 1254r14 1345r30
+29i3 expo{20|7I8} 32r51 130r12 168r48 620r51 649r14 652r26 653r16
+32i3 sqrt_base{20|7I8} 33r36 33r46
+33i3 the_base{20|7I8} 49r24 55r24 70r31 71r30 110r20 125r12 529r36 530r25
+. 678r29 679r24 710r40 711r26 716r42 717r28 729r40 730r26 735r42 736r28 759r31
+. 760r22 778r33 779r24 784r35 785r26 796r40 797r26 802r42 803r28 833r48 834r37
+. 836r31 837r48 913r31 914r47 1107r26
+38R8 Natural_Number_Rep
+38i29*size{20|7I8} 39r33 142r20 178r32 478r39 581r36 704r13 704r23 706r43
+. 725r43 775r13 775r24 792r43 975r14 975r25 1023r15 1023r26 1103r40 1104r32
+. 1290r14
+39a5*numb{16|17A8} 95m13 167r14 168r35 180r20 191r20 480r24 481m17 481r31
+. 494m24 502m25 520m14 546r49 583m13 584m13 584r25 584r41 584r48 627r17 629r17
+. 632m9 672r36 677r21 708r23 709r28 709r41 710m21 714r25 714r41 715r30 716m23
+. 727r23 728r28 728r41 729m21 733r25 733r41 734r30 735m23 757r19 758r19 759m12
+. 776r21 777r21 777r34 778m14 782r23 782r39 783r23 784m16 794r23 795r28 795r41
+. 796m21 800r25 800r41 801r30 802m23 830r21 831r32 833m17 837m17 868m19 868r27
+. 907r21 908r32 910m16 914m16 930m18 930r26 942r19 943r26 945r18 946r18 976r28
+. 976r36 978r28 978r36 993r19 994r26 996r18 997r18 1024r36 1024r44 1025r36
+. 1025r44 1105m13 1105r28 1106r24 1109m11 1109r26 1110r22 1142r15 1145r37
+. 1147r22 1291r17 1295r27 1296r15 1301r19 1305r39 1310r31 1310r39 1311r25
+. 1311r33 1335r29 1336r17 1343r41 1345r19 1346r32 1346r40 1347r32 1347r40
+. 1363r41 1367r33 1367r41 1368r27 1368r35
+44V12 Size{20|7I8} 44b12 44>19 59l7 59t11 65s32
+44i19 n{20|7I8} 52r17 53r10 58r12
+49i5 acc{20|7I8} 53r14 55m13 55r20
+52i9 i<long_integer> 54r20
+65a5 res{16|17A8} 69r14 70m7 73r12
+66i5 remainder{20|7I8} 70r17 71m7 71r20
+69i9 i<long_integer> 70r11
+83p5 res{17|11P8} 86r12
+91p5 res{17|11P8} 96m5 97r12
+92r5 res_rep{38R8} 95m5 96r36
+102i5 res{20|7I8} 106m7 108m7 110m9 110r16 113r12
+109i11 i<long_integer> 110r45
+148i5 acc{20|7I8} 152r14 154m13 154r20
+151i9 i<long_integer> 153r20
+162i5 res{20|7I8} 168m11 173r12
+166i11 i<long_integer> 167r19 168r40 168r46
+186a5 na{16|17A8} 190r18
+208a9 n2cff{16|17A8} 210r12 213r20 214r37 218r20
+213i15 i<long_integer> 214r31 214r43
+218i15 i<long_integer> 219r31
+231i5 min_size{20|7I8} 246m11 253m11 255m11 257r42 258r42
+241i15 i<long_integer> 242r31
+248i15 i<long_integer> 249r31
+272a9 n2cff{16|17A8} 274r12 277r14 278r30 284r28 285r37
+278i17 i<long_integer> 279r33
+284i15 i<long_integer> 285r31 285r43
+301a9 n1cff{16|17A8} 303r12 306r14 307r30 313r28 314r16
+307i17 i<long_integer> 308r33
+313i15 i<long_integer> 314r22 314r43
+326i5 min_size{20|7I8} 343m9 350m9 352m9 354r27
+338i13 i<long_integer> 339r29
+345i13 i<long_integer> 346r29
+354i11 i<long_integer> 355r27 355r47 357r30 357r50
+371a9 n2cff{16|17A8} 373r12 376r14 377r22 383r28 384r37
+377i17 i<long_integer> 378r33
+383i15 i<long_integer> 384r31 384r43
+403a9 n1cff{16|17A8} 405r12 408r14 409r22 415r28 416r16
+409i17 i<long_integer> 410r33
+415i15 i<long_integer> 416r22 416r43
+428i5 min_size{20|7I8} 445m9 452m9 454m9 456r27
+440i13 i<long_integer> 441r29
+447i13 i<long_integer> 448r29
+456i11 i<long_integer> 457r27 457r47 459r30 459r50
+478r9 n2rep{38R8} 480r18 481m11 483r39
+480i13 i<long_integer> 481r22 481r36
+508V12 Extend{38R8} 508b12 508>21 508>44 531s16 534l7 534t13 546s40 681s40
+508a21 n{16|17A8} 518r35 520r22 525r33 525r42 528r13 528r25
+508i44 carry{20|7I8} 516r8 529r26 530r19
+518r9 nrep{38R8} 520m9 521r16
+525a9 np1{16|17A8} 528m9 529m9 529r13 531r23
+526i9 carry1{20|7I8} 530m9 531r27
+536U13 Extend 536b13 536=22 536>49 552l7 552t13 743s7 762s7 788s11 810s17
+536p22 n{17|11P8} 546r47 548m15 549m9
+536i49 carry{20|7I8} 543r8 546r54
+545p9 res{17|11P8} 549r14
+573U13 Mul_Base 573b13 573=24 573>51 589l7 589t15 655s15
+573p24 n{17|11P8} 579r28 581r34 584r39 584r46 585m15 586m9
+573i51 k{20|7I8} 579r8 581r41 583r21 583r33 584r18
+581r9 npk{38R8} 583m9 584m9 584r21 586r38
+614U13 Mul_Rdx 614b13 614=23 614>50 638l7 638t14 650s9 652s9
+614p23 n{17|11P8} 622r41 626r22 627r15 629r15 632r7 632r33 634m13 636m7
+614i50 k{20|7I8} 619r51 620r56
+619i5 multfac{20|7I8} 628r26
+620i5 divisor{20|7I8} 627r29 629r25
+621i5 rest{20|7I8} 627m7 628r21
+621i10 quot{20|7I8} 625m5 628r36 629m7 631r8 635r32
+622a5 resnumb{16|17A8} 628m7 632r17 635m7 635r15 636r19
+626i9 i<long_integer> 627r22 628r15 629r22
+645i5 q{20|7I8} 653m9 654r12 655r26
+665p5 res{17|11P8} 669m7 681m9 684r12
+672a9 cff{16|17A8} 676r18 678m11 681r47
+673i9 sum{20|7I8} 677m11 678r21 679r20
+673i13 carry{20|7I8} 675m9 677r31 679m11 681r51
+676i13 i<long_integer> 677r26 678r15
+694p5 res{17|11P8} 699m15 699r15 701m15 701r15 721m11 740m11 743m14 743r14
+. 745r12
+695i5 sum{20|7I8} 709m13 710r32 711r22 715m15 716r34 717r24 728m13 729r32
+. 730r22 734m15 735r34 736r24
+695i9 carry{20|7I8} 703m7 709r51 711m13 713r14 715r40 717m15 718r26 728r51
+. 730m13 732r14 734r40 736m15 737r26 743r18
+706r11 res_rep{38R8} 709r20 710m13 715r22 716m15 721r42
+708i15 i<long_integer> 709r33 709r46 710r26
+714i17 i<long_integer> 715r35 716r28
+725r11 res_rep{38R8} 728r20 729m13 734r22 735m15 740r42
+727i15 i<long_integer> 728r33 728r46 729r26
+733i17 i<long_integer> 734r35 735r28
+750i5 sum{20|7I8} 758m9 759r23 760r18
+750i9 carry{20|7I8} 756m7 758r29 760m9 762r17
+757i11 i<long_integer> 758r24 759r17
+768i5 sum{20|7I8} 777m11 778r25 779r20 783m13 784r27 785r22 795m13 796r32
+. 797r22 801m15 802r34 803r24
+768i9 carry{20|7I8} 774m7 777r44 779m11 781r12 783r33 785m13 786r24 788r21
+. 795r51 797m13 799r14 801r40 803m15 804r26 809r14 810r27
+776i13 i<long_integer> 777r26 777r39 778r19
+782i15 i<long_integer> 783r28 784r21
+792r11 res_rep{38R8} 795r20 796m13 801r22 802m15 808r41
+794i15 i<long_integer> 795r33 795r46 796r26
+800i17 i<long_integer> 801r35 802r28
+819p5 res{17|11P8} 824m15 824r15 833r13 837r13 848r12
+820i5 diff{19|6I8} 831m11 832r14 833r38 834r22 836m13 836r43 837r38
+820i10 carry{19|6I8} 829m9 831r43 834m13 838m13 842m13 842r22 844r22
+826a9 n2cff{16|17A8} 827r30 829r28 840r22 842r40
+827i9 index{20|7I8} 829r34 840r14 841m13 841r22 842r46
+830i13 i<long_integer> 831r37 833r22 837r22
+853p5 tmp{17|11P8} 854r38 857m11 857r11
+854p5 res{17|11P8} 858r12
+863p5 res{17|11P8} 866m13 866r13 868r15 870r12
+875p5 res{17|11P8} 878m12 878r12 879r12
+884p5 res{17|11P8} 887m12 887r12 888r12
+898i5 diff{19|6I8} 908m11 909r14 910r37 913m13 913r43 914r37
+898i10 carry{19|6I8} 906m9 908r43 911m13 915m13 919m13 919r22 921r22
+903a9 n2cff{16|17A8} 904r30 906r28 917r22 919r40
+904i9 index{20|7I8} 906r34 917r14 918m13 918r22 919r46
+907i13 i<long_integer> 908r37 910r21 914r21
+936p5 res{17|11P8} 958m7 960r12
+937i5 sizeres{20|7I8} 948m7 951m15 953r20 955r10 956m13 958r32
+938a5 resnumb{16|17A8} 943m9 945m7 946m7 947m17 947r17 949r24 950r12 958r21
+942i11 i<long_integer> 943r17 943r31
+949i11 i<long_integer> 950r20 951r26
+970p5 res{17|11P8} 974r14 976m7 978m7 980r12
+985i5 sizeres{20|7I8} 999m7 1002m15 1004r20 1006r10 1007m13 1010r31
+986a5 resnumb{16|17A8} 992m7 992r19 994m9 996m7 997m7 998m17 998r17 1000r24
+. 1001r12 1010r20
+993i11 i<long_integer> 994r17 994r31
+1000i11 i<long_integer> 1001r20 1002r26
+1016p5 res{17|11P8} 1024m15 1025m15 1028r15
+1035p5 res{17|11P8} 1039m7 1041m15 1041r15 1043m13 1043r13 1046r12
+1042i11 i<long_integer>
+1051p5 res{17|11P8} 1055m7 1057m7 1061m15 1061r15 1067r12
+1051p9 cnt{17|11P8} 1059m9 1060r25 1062m15 1062r15 1064m15 1064r15
+1072p5 res{17|11P8} 1076m7 1078m15 1078r15 1081m13 1081r13 1086r12
+1072p9 cnt{17|11P8} 1079m7 1080r23 1082m13 1082r13 1084m13 1084r13
+1089U13 Small_Div 1089b13 1089>25 1089>49 1090<25 1090<49 1116l7 1116t16
+. 1161s13 1201s11 1255s11
+1089p25 n1{17|11P8} 1099r16 1103r37 1104r29 1105r25 1106r21 1109r23 1110r19
+1089i49 n2{20|7I8} 1098r8 1105r43 1106r43 1109r41 1110r41
+1090p25 q{17|11P8} 1100m9 1103m9 1105r11 1109r9
+1090i49 r{20|7I8} 1101m9 1115m5
+1095i5 carry{20|7I8} 1105r36 1106m11 1106r32 1107m11 1107r20 1109r34 1110m9
+. 1110r30 1115r10
+1104i13 i<long_integer> 1105r18 1105r33 1106r29
+1128U13 Big_Div 1128b13 1128>23 1128>47 1129<23 1129<47 1151l7 1151t14 1162s13
+. 1202s11 1256s11
+1128p23 n1{17|11P8} 1137r17 1140r11 1142r12 1145r34 1147r19
+1128i47 n2{20|7I8} 1135r8 1140r16 1147r27
+1129p23 q{17|11P8} 1138m7 1141m7 1148m9
+1129i47 r{20|7I8} 1139m7 1142m7 1147m35
+1145a9 qrep{16|17A8} 1147m30 1148r21
+1155p5 res{17|11P8} 1161m29 1161r29 1162m27 1162r27 1165r12
+1156i5 r{20|7I8} 1161m33 1162m31
+1170i5 res{20|7I8} 1174m7 1176m7 1177m7 1177r17 1181r12
+1186p5 res{17|11P8} 1189m15 1189r15 1191r12
+1186p9 rrr{17|11P8} 1189m19 1189r19 1190m11 1190r11
+1196i5 res{20|7I8} 1201m29 1202m27 1205r12
+1197p5 q{17|11P8} 1201m27 1201r27 1202m25 1202r25 1204m11 1204r11
+1210i5 res{20|7I8} 1214m7 1216m7 1217m7 1217r21 1221r12
+1226p5 res{17|11P8} 1229m17 1229r17 1231r12
+1226p9 q{17|11P8} 1229m15 1229r15 1230m11 1230r11
+1236i5 r{20|7I8} 1239m15
+1244p5 r{17|11P8} 1247m15 1247r15 1248m11 1248r11
+1263p5 q{17|11P8} 1266m15 1266r15 1267r10 1267m23 1267r23
+1273i5 rr{20|7I8} 1291m27 1292r19 1301m29 1302r21
+1273i8 leadn2{20|7I8} 1294m7 1297m15 1300r10 1306r39 1309r14 1310r47 1311r41
+1295i11 i<long_integer> 1296r20 1297r25
+1305a11 qrep{16|17A8} 1310m55 1311m49 1314r28 1315r16 1319r23
+1306a11 rest{16|17A8} 1310m60 1311m54 1320r23
+1307i11 sizequot{20|7I8} 1316m19 1319r31
+1314i15 i<long_integer> 1315r21 1316r31
+1333i9 leadn2{20|7I8} 1337m17 1340r12 1362r41 1366r16 1367r49 1368r43
+1335i13 i<long_integer> 1336r22 1337r27
+1342i13 rr{20|7I8} 1346m53 1347m53 1358r25
+1342i16 sizequot{20|7I8} 1350m13 1353m21 1357r34
+1343a13 quot{16|17A8} 1346m48 1347m48 1351r30 1352r18 1357r26
+1351i17 i<long_integer> 1352r23 1353r33
+1362a13 rest{16|17A8} 1367m62 1368m56 1378r25
+1363a13 quot{16|17A8} 1367m57 1368m51 1371r30 1372r18 1377r26
+1364i13 sizequot{20|7I8} 1373m21 1377r34
+1371i17 i<long_integer> 1372r23 1373r33
+1389U15 free[41|22] 1394s11
+X 19 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 18|4w6 4r45 19|45e29
+6I8*integer32<long_integer> 18|820r18 829r18 831r19 834r27 836r21 842r30
+. 898r18 906r18 908r19 913r21 919r30
+X 20 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 17|1w6 1r46 20|30e29
+7I8*natural32<long_integer> 17|15r25 25r25 37r49 46r25 51r24 56r28 68r47
+. 73r33 73r52 78r57 87r50 87r69 101r46 107r44 108r23 114r44 115r23 121r28
+. 130r62 136r63 147r44 148r23 151r44 152r23 158r44 159r23 162r45 163r24 166r44
+. 167r23 167r63 170r44 170r63 171r23 171r63 176r59 184r55 187r55 191r55 194r55
+. 197r51 198r51 199r55 200r27 18|28r19 29r19 32r24 33r23 38r36 44r23 44r42
+. 49r11 63r25 66r17 78r19 81r25 100r49 102r11 118r25 123r24 128r28 138r47
+. 146r33 146r52 148r11 160r57 162r11 176r50 176r69 199r46 231r16 263r44 295r23
+. 326r16 365r44 394r23 428r16 467r28 490r62 498r63 508r52 526r18 536r60 573r58
+. 614r57 619r24 620r24 621r17 640r59 645r9 663r44 673r21 687r23 695r17 748r55
+. 750r17 768r17 817r44 827r17 833r28 837r28 851r23 896r55 904r17 910r27 914r27
+. 934r44 937r15 963r23 983r55 985r15 1033r45 1039r21 1049r24 1055r21 1059r23
+. 1076r21 1079r21 1089r57 1090r57 1095r13 1100r21 1128r55 1129r55 1138r19
+. 1141r19 1153r44 1156r9 1168r23 1168r63 1170r11 1194r44 1194r63 1196r11
+. 1208r23 1208r63 1210r11 1234r55 1236r9 1251r51 1252r51 1260r55 1261r27
+. 1273r17 1307r22 1333r18 1342r27 1364r24
+X 41 unchdeal.ads
+22u11*Unchecked_Deallocation 18|1w6 1390r11
+

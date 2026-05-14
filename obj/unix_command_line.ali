@@ -1,0 +1,40 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U unix_command_line%b	unix_command_line.adb	4e07c43c NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+
+U unix_command_line%s	unix_command_line.ads	a1ed6bbe EE NE OO PK
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-comlin.ads		20250808065140 4aa66568 ada.command_line%s
+D system.ads		20250808065140 a869df9e system%s
+D unix_command_line.ads	20260513024558 a1ed6bbe unix_command_line%s
+D unix_command_line.adb	20260513024558 a54ccaea unix_command_line%b
+G a e
+G c Z s b [number_of_arguments unix_command_line 6 12 none]
+G c Z s b [argument unix_command_line 13 12 none]
+X 1 ada.ads
+18K9*Ada 22e8 5|1r6 9r12 14r12
+X 2 a-comlin.ads
+40K13*Command_Line 148e21 5|1w10 9r16 14r16
+43V13*Argument_Count{natural} 5|9s29
+56V13*Argument{string} 5|14s29
+X 4 unix_command_line.ads
+1K9*Unix_Command_Line 18l5 18e22 5|3b14 17l5 17t22
+6V12*Number_of_Arguments{natural} 5|7b12 10l7 10t26
+13V12*Argument{string} 13>23 5|12b12 15l7 15t15
+13i23 i{natural} 5|12b23 14r38
+

@@ -1,0 +1,199 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U standard_lattice_supports%b  standard_lattice_supports.adb  c35c0db0 NE OO PK
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U standard_lattice_supports%s  standard_lattice_supports.ads  43624299 EE NE OO PK
+W standard_integer64_matrices%s  standard_integer64_matrices.ads  standard_integer64_matrices.ali
+W standard_integer64_vectors%s  standard_integer64_vectors.ads  standard_integer64_vectors.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_integer_vecvecs%s  standard_integer_vecvecs.ads  standard_integer_vecvecs.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_integer_vecvecs.ads  20260513024558 37c9873e standard_integer_vecvecs%s
+D standard_lattice_supports.ads  20260513024556 c2be7400 standard_lattice_supports%s
+D standard_lattice_supports.adb  20260513024556 01e279b0 standard_lattice_supports%b
+D system.ads		20250808065140 a869df9e system%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+G a e
+G c Z s b [inner_product standard_lattice_supports 13 12 none]
+G c Z s b [inner_product standard_lattice_supports 19 12 none]
+G c Z s b [inner_product standard_lattice_supports 27 12 none]
+G c Z s b [inner_products standard_lattice_supports 34 12 none]
+G c Z s b [minimum standard_lattice_supports 43 12 none]
+G c Z s b [support standard_lattice_supports 51 12 none]
+G c Z s b [support standard_lattice_supports 58 12 none]
+G c Z s b [inner standard_lattice_supports 65 13 none]
+G c Z s b [inner standard_lattice_supports 73 13 none]
+G c Z s b [inner standard_lattice_supports 83 13 none]
+G c Z s b [support_points standard_lattice_supports 92 12 none]
+G c Z s b [equal standard_lattice_supports 101 12 none]
+G c Z s b [indices standard_lattice_supports 109 12 none]
+G c Z s b [member standard_lattice_supports 115 12 none]
+G r s vecvec [support standard_lattice_supports 58 12 none] [vecvecIP standard_integer_vecvecs 14 8 5_1]
+G r c none [inner standard_lattice_supports 65 13 none] [min standard_integer64_vectors 60 13 4_1]
+G r c none [inner standard_lattice_supports 73 13 none] [min standard_integer64_vectors 60 13 4_1]
+G r c none [inner standard_lattice_supports 83 13 none] [min standard_integer64_vectors 60 13 4_1]
+X 2 generic_matrices.ads
+16A8*Matrix(8|7I8)<8|6I8><8|6I8> 12|20r49[5|5] 28r49[5|5] 35r49[5|5] 43r54[5|5]
+. 51r54[5|5] 58r56[5|5] 65r56[5|5] 73r56[5|5] 83r56[5|5] 93r49[5|5] 95r50[5|5]
+. 101r54[5|5] 109r56[5|5] 13|16r49[5|5] 29r49[5|5] 42r49[5|5] 55r54[5|5]
+. 72r54[5|5] 97r56[5|5] 109r56[5|5] 130r56[5|5] 150r56[5|5] 172r49[5|5] 174r50[5|5]
+. 176r39[5|5] 187r54[5|5] 198r56[5|5]
+X 3 generic_vectors.ads
+16A8*Vector(8|7I8)<8|6I8> 12|14r50[7|4] 21r48[7|4] 36r48[7|4] 37r49[7|4]
+. 44r53[7|4] 52r53[7|4] 53r52[10|4] 59r53[7|4] 67r59[7|4] 75r53[10|4] 76r59[7|4]
+. 85r59[7|4] 94r46[10|4] 110r52[10|4] 115r50[10|4] 13|4r50[7|4] 17r48[7|4]
+. 43r48[7|4] 44r49[7|4] 46r38[7|4] 56r53[7|4] 73r53[7|4] 74r52[10|4] 76r36[10|4]
+. 98r53[7|4] 104r44[10|4] 105r44[10|4] 111r59[7|4] 132r53[10|4] 133r59[7|4]
+. 152r59[7|4] 173r46[10|4] 199r52[10|4] 201r36[10|4] 214r50[10|4]
+17P8*Link_to_Vector(16A8[10|4])
+60U13*Min 13|123s42[7|4] 143s42[7|4] 164s42[7|4]
+X 4 generic_vecvecs.ads
+14A8*VecVec(3|17P8[10|4])<8|6I8> 12|60r52[11|5] 13|99r52[11|5] 101r36[11|5]
+X 5 standard_integer64_matrices.ads
+5K9*Standard_Integer64_Matrices[2|9] 12|5w6 20r21 28r21 35r21 43r26 51r26
+. 58r28 65r28 73r28 83r28 93r21 95r22 101r26 109r28 13|16r21 29r21 42r21
+. 55r26 72r26 97r28 109r28 130r28 150r28 172r21 174r22 176r11 187r26 198r28
+X 7 standard_integer64_vectors.ads
+4K9*Standard_Integer64_Vectors[3|8] 12|4w6 14r23 21r21 36r21 37r22 44r26
+. 52r26 59r26 67r32 76r32 85r32 13|4r23 17r21 43r21 44r22 46r11 56r26 73r26
+. 98r26 111r32 123r15 133r32 143r15 152r32 164r15
+X 8 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 12|1w6 1r46
+6I8*integer32<long_integer> 12|20r61 28r63 66r30 74r30 84r32 102r26 116r25
+. 116r44 13|16r61 29r63 77r11 110r30 113r9 131r30 151r32 154r9 188r26 215r25
+. 215r44
+7I8*integer64<long_long_integer> 12|14r66 21r64 29r22 45r27 13|4r66 6r11
+. 17r64 19r11 30r22 32r11 57r27 59r11 60r11 78r11 79r11 114r18 115r9 135r18
+. 136r9 155r18 156r9
+X 10 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[3|8] 12|2w6 53r27 75r28 94r21 110r27 115r25
+. 13|74r27 76r11 104r19 105r19 132r28 173r21 199r27 201r11 214r25
+X 11 standard_integer_vecvecs.ads
+5K9*Standard_Integer_VecVecs[4|10] 12|3w6 60r27 13|99r27 101r11
+X 12 standard_lattice_supports.ads
+7K9*Standard_Lattice_Supports 122l5 122e30 13|1b14 225l5 225t30
+13V12*Inner_Product{8|7I8} 14>17 14>19 13|3b12 13l7 13t20
+14a17 u{3|16A8[7|4]} 13|4b17 9r14 10r20
+14a19 v{3|16A8[7|4]} 13|4b19 10r25
+19V12*Inner_Product{8|7I8} 20>17 20>57 21>17 13|15b12 26l7 26t20 50s17 59s24
+. 64s14 78s24 84s14 114s31 121s14 135s31 141s14 155s31 162s14
+20a17 A{2|16A8[5|5]} 13|16b17 22r14 23r20
+20i57 k{8|6I8} 13|16b57 23r24
+21a17 v{3|16A8[7|4]} 13|17b17 23r27
+27V12*Inner_Product{8|7I8} 28>17 28>57 28>59 13|28b12 39l7 39t20
+28a17 A{2|16A8[5|5]} 13|29b17 35r14 36r20 36r27
+28i57 i{8|6I8} 13|29b57 36r24
+28i59 j{8|6I8} 13|29b59 36r31
+34V12*Inner_Products{3|16A8[7|4]} 35>17 36>17 13|41b12 53l7 53t21
+35a17 A{2|16A8[5|5]} 13|42b17 46r45 49r14 50r31
+36a17 v{3|16A8[7|4]} 13|43b17 50r35
+43V12*Minimum{8|7I8} 43>22 44>22 13|55b12 70l7 70t14
+43a22 A{2|16A8[5|5]} 13|55b22 59r38 59r40 63r14 63r28 64r28
+44a22 v{3|16A8[7|4]} 13|56b22 59r51 64r32
+51V12*Support{3|16A8[10|4]} 51>22 52>22 13|72b12 95l7 95t14 104s52 105s52
+51a22 A{2|16A8[5|5]} 13|72b22 76r43 77r24 78r38 78r40 82r17 83r14 83r28 84r28
+. 89r16
+52a22 v{3|16A8[7|4]} 13|73b22 78r51 84r32
+58V12*Support{4|14A8[11|5]} 58>22 58>24 59>22 13|97b12 107l7 107t14
+58a22 A{2|16A8[5|5]} 13|97b22 104r60
+58a24 B{2|16A8[5|5]} 13|97b24 105r60
+59a22 v{3|16A8[7|4]} 13|98b22 104r62 105r62
+65U13*Inner 65>21 66>21 66>23 67=21 13|109b13 128l7 128t12
+65a21 A{2|16A8[5|5]} 13|109b21 113r22 114r45 118r15 121r28
+66i21 i{8|6I8} 13|110b21 114r47 120r17
+66i23 j{8|6I8} 13|110b23 120r30
+67a21 v{3|16A8[7|4]} 13|111b21 114r49 121r32 123m46
+73U13*Inner 73>21 74>21 74>23 75>21 76=21 13|130b13 148l7 148t12
+73a21 A{2|16A8[5|5]} 13|130b21 135r45 141r28
+74i21 i{8|6I8} 13|131b21 135r47 140r18
+74i23 j{8|6I8} 13|131b23 140r32
+75a21 f{3|16A8[10|4]} 13|132b21 139r14 140r10 140r24 141r30
+76a21 v{3|16A8[7|4]} 13|133b21 135r49 141r35 143m46
+83U13*Inner 83>21 84>21 84>23 84>25 85=21 13|150b13 169l7 169t12
+83a21 A{2|16A8[5|5]} 13|150b21 154r22 155r45 159r15 162r28
+84i21 i{8|6I8} 13|151b21 155r47 161r17
+84i23 j{8|6I8} 13|151b23 161r30
+84i25 k{8|6I8} 13|151b25 161r43
+85a21 v{3|16A8[7|4]} 13|152b21 155r49 162r32 164m46
+92V12*Support_Points{2|16A8[5|5]} 93>17 94>17 13|171b12 185l7 185t21
+93a17 A{2|16A8[5|5]} 13|172b17 176r46 180r16 181r21
+94a17 s{3|16A8[10|4]} 13|173b17 176r57 179r14 181r25
+101V12*Equal{boolean} 101>20 101>22 102>20 102>22 13|187b12 196l7 196t12
+. 206s12
+101a20 A{2|16A8[5|5]} 13|187b20 190r14 191r10
+101a22 B{2|16A8[5|5]} 13|187b22 191r20
+102i20 i{8|6I8} 13|188b20 191r14
+102i22 j{8|6I8} 13|188b22 191r24
+109V12*Indices{3|16A8[10|4]} 109>22 109>24 13|198b12 212l7 212t14
+109a22 A{2|16A8[5|5]} 13|198b22 205r16 206r18
+109a24 V{2|16A8[5|5]} 13|198b24 201r43 204r14 206r20
+115V12*Member{8|6I8} 115>21 116>21 13|214b12 223l7 223t13
+115a21 v{3|16A8[10|4]} 13|214b21 217r14 218r10 222r13
+116i21 e{8|6I8} 13|215b21 218r17
+X 13 standard_lattice_supports.adb
+6i5 res{8|7I8} 10m7 10r14 12r12
+9i9 i<long_integer> 10r22 10r27
+19i5 res{8|7I8} 23m7 23r14 25r12
+22i9 i<long_integer> 23r22 23r29
+32i5 res{8|7I8} 36m7 36r14 38r12
+35i9 k<long_integer> 36r22 36r29
+46a5 res{3|16A8[7|4]} 50m7 52r12
+49i9 k<long_integer> 50r11 50r33
+59i5 res{8|7I8} 65r16 66m13 69r12
+60i5 wrk{8|7I8} 64m7 65r10 66r20
+63i9 k<long_integer> 64r30
+76a5 res{3|16A8[10|4]} 82m5 87m9 90m9 94r12 94r16
+77i5 ind{8|6I8} 82r9 86m9 86r16 87r13 89m9 90r13 94r27
+78i5 min{8|7I8} 85r16 88r19 91m9
+79i5 wrk{8|7I8} 84m7 85r10 88r13 91r16
+83i9 k<long_integer> 84r30 87r21 90r21
+101a5 res{4|14A8[11|5]} 104m5 105m5 106r12
+113i5 p{8|6I8} 118r11 119m7 119r12 120r12 120r25 121r30
+114i5 s{8|7I8} 122r16 125r25
+115i5 t{8|7I8} 121m9 122r12 125r20
+135i5 s{8|7I8} 142r16 145r25
+136i5 t{8|7I8} 141m9 142r12 145r20
+139i9 k<long_integer> 140r12 140r26 141r32
+154i5 p{8|6I8} 159r11 160m7 160r12 161r12 161r25 161r38 162r30
+155i5 s{8|7I8} 163r16 166r25
+156i5 t{8|7I8} 162m9 163r12 166r20
+176a5 res{2|16A8[5|5]} 181m9 184r12
+179i9 j<long_integer> 181r15 181r27
+180i11 i<long_integer> 181r13 181r23
+190i9 k<long_integer> 191r12 191r22
+201a5 res{3|16A8[10|4]} 207m15 211r12
+204i9 k<long_integer> 206r24 207r19
+205i11 j<long_integer> 206r22 207r25
+217i9 k<long_integer> 218r12 219r20
+

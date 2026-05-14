@@ -1,0 +1,54 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U quad_double_ring%s	quad_double_ring.ads	bae5ca43 EE OO PK
+W abstract_ring%s	abstract_ring.ads	abstract_ring.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali  AD
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D system.ads		20250808065140 a869df9e system%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c s s s [s quad_double_ring 4 1 none]
+G r c none [s quad_double_ring 4 1 none] [create quad_double_numbers 37 12 none]
+G r i none [s quad_double_ring 4 1 none] [abstract_ring standard 25 9 none]
+X 1 abstract_ring.ads
+25k9*Abstract_Ring 25e29 4|2w6 5r7
+X 3 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 255e24 4|1w6 1r47
+14R8*quad_double 253e13 4|5r21
+18V12*Create{14R8} 4|6r21
+37V12*Create{14R8} 4|5s33 5s45
+118V12*equal{boolean} 4|6r28
+144U13*copy 4|6r34
+160V13*"+"{14R8} 4|6r40
+169V13*"+"{14R8} 4|6r44
+170U13*Add 4|7r21
+174V13*"-"{14R8} 4|6r48
+183V13*"-"{14R8} 4|6r52
+184U13*Min 4|7r29
+185U13*Sub 4|7r25
+189V13*"*"{14R8} 4|6r56
+198U13*Mul 4|7r33
+238U13*clear 4|7r37
+X 4 quad_double_ring.ads
+4K9*Quad_Double_Ring[1|25]
+

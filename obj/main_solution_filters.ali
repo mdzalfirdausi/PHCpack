@@ -1,0 +1,742 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U main_solution_filters%b  main_solution_filters.adb  c60aa851 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W communications_with_user%s  communications_with_user.adb  communications_with_user.ali
+W dobldobl_complex_solutions_io%s  dobldobl_complex_solutions_io.adb  dobldobl_complex_solutions_io.ali
+W dobldobl_solution_filters%s  dobldobl_solution_filters.adb  dobldobl_solution_filters.ali
+W double_double_numbers_io%s  double_double_numbers_io.adb  double_double_numbers_io.ali
+W numbers_io%s		numbers_io.adb		numbers_io.ali
+W quad_double_numbers_io%s  quad_double_numbers_io.adb  quad_double_numbers_io.ali
+W quaddobl_complex_solutions_io%s  quaddobl_complex_solutions_io.adb  quaddobl_complex_solutions_io.ali
+W quaddobl_solution_filters%s  quaddobl_solution_filters.adb  quaddobl_solution_filters.ali
+W standard_complex_solutions_io%s  standard_complex_solutions_io.adb  standard_complex_solutions_io.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+W standard_natural_numbers_io%s  standard_natural_numbers_io.adb  standard_natural_numbers_io.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_natural_vectors_io%s  standard_natural_vectors_io.ads  standard_natural_vectors_io.ali
+W standard_select_solutions%s  standard_select_solutions.adb  standard_select_solutions.ali
+W standard_solution_filters%s  standard_solution_filters.adb  standard_solution_filters.ali
+W symbol_table%s	symbol_table.adb	symbol_table.ali
+W symbol_table_io%s	symbol_table_io.adb	symbol_table_io.ali
+
+U main_solution_filters%s  main_solution_filters.ads  972762df EE NE OO PK
+W dobldobl_complex_numbers%s  dobldobl_complex_numbers.adb  dobldobl_complex_numbers.ali
+W dobldobl_complex_solutions%s  dobldobl_complex_solutions.adb  dobldobl_complex_solutions.ali
+W double_double_numbers%s  double_double_numbers.adb  double_double_numbers.ali
+W quad_double_numbers%s	quad_double_numbers.adb	quad_double_numbers.ali
+W quaddobl_complex_numbers%s  quaddobl_complex_numbers.ads  quaddobl_complex_numbers.ali
+W quaddobl_complex_solutions%s  quaddobl_complex_solutions.adb  quaddobl_complex_solutions.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D communications_with_user.ads  20260513024558 4bbda3a9 communications_with_user%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_solutions_io.ads  20260513024558 138ef4d8 dobldobl_complex_solutions_io%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D dobldobl_solution_filters.ads  20260513024558 0ab7d1ca dobldobl_solution_filters%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D double_double_numbers_io.ads  20260513024558 bc33146a double_double_numbers_io%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D main_solution_filters.ads  20260513024558 4350aafe main_solution_filters%s
+D main_solution_filters.adb  20260513024558 0dc56223 main_solution_filters%b
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D numbers_io.ads	20260513024558 7172a556 numbers_io%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_numbers_io.ads  20260513024558 34f2e427 quad_double_numbers_io%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_solutions_io.ads  20260513024558 d7badfd9 quaddobl_complex_solutions_io%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D quaddobl_solution_filters.ads  20260513024558 2e54694a quaddobl_solution_filters%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_ring_io.ads  20260513024558 d39135ca standard_natural_ring_io%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_natural_vectors_io.ads  20260513024558 41c126ae standard_natural_vectors_io%s
+D standard_select_solutions.ads  20260513024558 8f4c9a99 standard_select_solutions%s
+D standard_solution_filters.ads  20260513024558 039f3120 standard_solution_filters%s
+D string_splitters.ads	20260513024558 284b4750 string_splitters%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D symbol_table_io.ads	20260513024558 426dcf93 symbol_table_io%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+G a e
+G c Z s b [write_symbols main_solution_filters 21 13 none]
+G c Z s b [prompt_symbol main_solution_filters 26 12 none]
+G c Z s b [read_double_double main_solution_filters 32 13 none]
+G c Z s b [read_quad_double main_solution_filters 33 13 none]
+G c Z s b [read_double_complex main_solution_filters 39 13 none]
+G c Z s b [read_dobldobl_complex main_solution_filters 41 13 none]
+G c Z s b [read_quaddobl_complex main_solution_filters 43 13 none]
+G c Z s b [show_menu_and_prompt_answer main_solution_filters 50 12 none]
+G c Z s b [main_solution_filter main_solution_filters 56 13 none]
+G c Z s b [main_solution_filter main_solution_filters 59 13 none]
+G c Z s b [main_solution_filter main_solution_filters 62 13 none]
+G c Z s b [standard_solution_filter main_solution_filters 75 13 none]
+G c Z s b [dobldobl_solution_filter main_solution_filters 77 13 none]
+G c Z s b [quaddobl_solution_filter main_solution_filters 79 13 none]
+G c Z s b [read_dimensions main_solution_filters 93 13 none]
+G c Z s b [main main_solution_filters 101 13 none]
+G r c none [write_symbols main_solution_filters 21 13 none] [number symbol_table 135 12 none]
+G r c none [write_symbols main_solution_filters 21 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [write_symbols main_solution_filters 21 13 none] [get symbol_table 152 12 none]
+G r c none [write_symbols main_solution_filters 21 13 none] [put symbol_table_io 31 13 none]
+G r c none [prompt_symbol main_solution_filters 26 12 none] [get symbol_table_io 9 13 none]
+G r c none [prompt_symbol main_solution_filters 26 12 none] [get symbol_table 146 12 none]
+G r c none [prompt_symbol main_solution_filters 26 12 none] [put symbol_table_io 31 13 none]
+G r c none [prompt_symbol main_solution_filters 26 12 none] [number symbol_table 135 12 none]
+G r c none [prompt_symbol main_solution_filters 26 12 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [prompt_symbol main_solution_filters 26 12 none] [get symbol_table 152 12 none]
+G r c none [read_double_double main_solution_filters 32 13 none] [create double_double_numbers 35 12 none]
+G r c none [read_double_double main_solution_filters 32 13 none] [get double_double_numbers_io 91 13 none]
+G r c none [read_quad_double main_solution_filters 33 13 none] [create quad_double_numbers 37 12 none]
+G r c none [read_quad_double main_solution_filters 33 13 none] [get quad_double_numbers_io 74 13 none]
+G r c none [read_double_complex main_solution_filters 39 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [read_double_complex main_solution_filters 39 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [read_dobldobl_complex main_solution_filters 41 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [read_dobldobl_complex main_solution_filters 41 13 none] [create double_double_numbers 35 12 none]
+G r c none [read_dobldobl_complex main_solution_filters 41 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [read_quaddobl_complex main_solution_filters 43 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [read_quaddobl_complex main_solution_filters 43 13 none] [create quad_double_numbers 37 12 none]
+G r c none [read_quaddobl_complex main_solution_filters 43 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [show_menu_and_prompt_answer main_solution_filters 50 12 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [on_target_filter standard_solution_filters 189 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [off_target_filter standard_solution_filters 200 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [vanishing_filter standard_solution_filters 119 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [spurious_filter standard_solution_filters 130 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [regular_filter standard_solution_filters 167 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [singular_filter standard_solution_filters 178 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [number symbol_table 135 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [get symbol_table 152 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [put symbol_table_io 31 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [get symbol_table_io 9 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [get symbol_table 146 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [zero_component_filter standard_solution_filters 141 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [free_component_filter standard_solution_filters 154 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [real_filter standard_solution_filters 211 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [select_solutions standard_solution_filters 222 12 none]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [is_null standard_complex_solutions__list_of_solutions 72 12 27_3]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [main_solution_filter main_solution_filters 56 13 none] [put standard_complex_solutions_io 120 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [create double_double_numbers 35 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [on_target_filter dobldobl_solution_filters 189 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [off_target_filter dobldobl_solution_filters 200 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [vanishing_filter dobldobl_solution_filters 119 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [spurious_filter dobldobl_solution_filters 130 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [regular_filter dobldobl_solution_filters 167 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [singular_filter dobldobl_solution_filters 178 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [number symbol_table 135 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [get symbol_table 152 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [put symbol_table_io 31 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [get symbol_table_io 9 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [get symbol_table 146 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [zero_component_filter dobldobl_solution_filters 141 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [free_component_filter dobldobl_solution_filters 154 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [real_filter dobldobl_solution_filters 211 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [select_solutions dobldobl_solution_filters 222 12 none]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [is_null dobldobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [head_of dobldobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [length_of dobldobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [main_solution_filter main_solution_filters 59 13 none] [put dobldobl_complex_solutions_io 76 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [create quad_double_numbers 37 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [on_target_filter quaddobl_solution_filters 189 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [off_target_filter quaddobl_solution_filters 200 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [vanishing_filter quaddobl_solution_filters 119 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [spurious_filter quaddobl_solution_filters 130 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [regular_filter quaddobl_solution_filters 167 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [singular_filter quaddobl_solution_filters 178 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [number symbol_table 135 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [get symbol_table 152 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [put symbol_table_io 31 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [get symbol_table_io 9 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [get symbol_table 146 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [zero_component_filter quaddobl_solution_filters 141 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [free_component_filter quaddobl_solution_filters 154 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [real_filter quaddobl_solution_filters 211 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [select_solutions quaddobl_solution_filters 222 12 none]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [is_null quaddobl_complex_solutions__list_of_solutions 72 12 30_3]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [head_of quaddobl_complex_solutions__list_of_solutions 77 12 30_3]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [length_of quaddobl_complex_solutions__list_of_solutions 67 12 30_3]
+G r c none [main_solution_filter main_solution_filters 62 13 none] [put quaddobl_complex_solutions_io 76 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [on_target_filter standard_solution_filters 192 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [off_target_filter standard_solution_filters 203 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [vanishing_filter standard_solution_filters 122 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [spurious_filter standard_solution_filters 133 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [regular_filter standard_solution_filters 170 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [singular_filter standard_solution_filters 181 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [read_next standard_complex_solutions_io 273 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [number symbol_table 135 12 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [get symbol_table 152 12 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [put symbol_table_io 31 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [get symbol_table_io 9 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [get symbol_table 146 12 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [zero_component_filter standard_solution_filters 144 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [free_component_filter standard_solution_filters 157 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [real_filter standard_solution_filters 214 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [standard_solution_filter main_solution_filters 75 13 none] [select_solutions standard_solution_filters 225 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [create double_double_numbers 35 12 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [on_target_filter dobldobl_solution_filters 192 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [off_target_filter dobldobl_solution_filters 203 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [vanishing_filter dobldobl_solution_filters 122 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [spurious_filter dobldobl_solution_filters 133 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [regular_filter dobldobl_solution_filters 170 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [singular_filter dobldobl_solution_filters 181 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [read_next dobldobl_complex_solutions_io 223 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [number symbol_table 135 12 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [get symbol_table 152 12 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [put symbol_table_io 31 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [get symbol_table_io 9 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [get symbol_table 146 12 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [zero_component_filter dobldobl_solution_filters 144 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [free_component_filter dobldobl_solution_filters 157 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [real_filter dobldobl_solution_filters 214 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [dobldobl_solution_filter main_solution_filters 77 13 none] [select_solutions dobldobl_solution_filters 225 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [create quad_double_numbers 37 12 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [on_target_filter quaddobl_solution_filters 192 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [off_target_filter quaddobl_solution_filters 203 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [vanishing_filter quaddobl_solution_filters 122 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [spurious_filter quaddobl_solution_filters 133 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [regular_filter quaddobl_solution_filters 170 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [singular_filter quaddobl_solution_filters 181 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [read_next quaddobl_complex_solutions_io 223 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [number symbol_table 135 12 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [get symbol_table 152 12 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [put symbol_table_io 31 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [get symbol_table_io 9 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [get symbol_table 146 12 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [zero_component_filter quaddobl_solution_filters 144 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [free_component_filter quaddobl_solution_filters 157 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [real_filter quaddobl_solution_filters 214 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [quaddobl_solution_filter main_solution_filters 79 13 none] [select_solutions quaddobl_solution_filters 225 13 none]
+G r c none [read_dimensions main_solution_filters 93 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [read_dimensions main_solution_filters 93 13 none] [prompt_to_scan_banner standard_select_solutions 21 13 none]
+G r c none [read_dimensions main_solution_filters 93 13 none] [read_dimensions standard_select_solutions 13 13 none]
+G r c none [read_dimensions main_solution_filters 93 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_name_and_open_file communications_with_user 46 13 none]
+G r c none [main main_solution_filters 101 13 none] [prompt_to_scan_banner standard_select_solutions 21 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_dimensions standard_select_solutions 13 13 none]
+G r c none [main main_solution_filters 101 13 none] [put standard_natural_numbers_io 25 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_name_and_create_file communications_with_user 60 13 none]
+G r c none [main main_solution_filters 101 13 none] [prompt_for_precision communications_with_user 114 12 none]
+G r c none [main main_solution_filters 101 13 none] [ask_alternative communications_with_user 29 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_double_float numbers_io 17 13 none]
+G r c none [main main_solution_filters 101 13 none] [create standard_complex_numbers 19 12 none]
+G r c none [main main_solution_filters 101 13 none] [on_target_filter standard_solution_filters 192 13 none]
+G r c none [main main_solution_filters 101 13 none] [off_target_filter standard_solution_filters 203 13 none]
+G r c none [main main_solution_filters 101 13 none] [vanishing_filter standard_solution_filters 122 13 none]
+G r c none [main main_solution_filters 101 13 none] [spurious_filter standard_solution_filters 133 13 none]
+G r c none [main main_solution_filters 101 13 none] [regular_filter standard_solution_filters 170 13 none]
+G r c none [main main_solution_filters 101 13 none] [singular_filter standard_solution_filters 181 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_next standard_complex_solutions_io 273 13 none]
+G r c none [main main_solution_filters 101 13 none] [number symbol_table 135 12 none]
+G r c none [main main_solution_filters 101 13 none] [get symbol_table 152 12 none]
+G r c none [main main_solution_filters 101 13 none] [put symbol_table_io 31 13 none]
+G r c none [main main_solution_filters 101 13 none] [get symbol_table_io 9 13 none]
+G r c none [main main_solution_filters 101 13 none] [get symbol_table 146 12 none]
+G r c none [main main_solution_filters 101 13 none] [zero_component_filter standard_solution_filters 144 13 none]
+G r c none [main main_solution_filters 101 13 none] [free_component_filter standard_solution_filters 157 13 none]
+G r c none [main main_solution_filters 101 13 none] [real_filter standard_solution_filters 214 13 none]
+G r c none [main main_solution_filters 101 13 none] [get standard_natural_numbers_io 9 13 none]
+G r c none [main main_solution_filters 101 13 none] [get standard_natural_vectors_io 18 13 5_1]
+G r c none [main main_solution_filters 101 13 none] [select_solutions standard_solution_filters 225 13 none]
+G r c none [main main_solution_filters 101 13 none] [create double_double_numbers 35 12 none]
+G r c none [main main_solution_filters 101 13 none] [create dobldobl_complex_numbers 19 12 none]
+G r c none [main main_solution_filters 101 13 none] [on_target_filter dobldobl_solution_filters 192 13 none]
+G r c none [main main_solution_filters 101 13 none] [off_target_filter dobldobl_solution_filters 203 13 none]
+G r c none [main main_solution_filters 101 13 none] [vanishing_filter dobldobl_solution_filters 122 13 none]
+G r c none [main main_solution_filters 101 13 none] [spurious_filter dobldobl_solution_filters 133 13 none]
+G r c none [main main_solution_filters 101 13 none] [regular_filter dobldobl_solution_filters 170 13 none]
+G r c none [main main_solution_filters 101 13 none] [singular_filter dobldobl_solution_filters 181 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_next dobldobl_complex_solutions_io 223 13 none]
+G r c none [main main_solution_filters 101 13 none] [zero_component_filter dobldobl_solution_filters 144 13 none]
+G r c none [main main_solution_filters 101 13 none] [free_component_filter dobldobl_solution_filters 157 13 none]
+G r c none [main main_solution_filters 101 13 none] [real_filter dobldobl_solution_filters 214 13 none]
+G r c none [main main_solution_filters 101 13 none] [select_solutions dobldobl_solution_filters 225 13 none]
+G r c none [main main_solution_filters 101 13 none] [create quad_double_numbers 37 12 none]
+G r c none [main main_solution_filters 101 13 none] [create quaddobl_complex_numbers 27 12 5_1]
+G r c none [main main_solution_filters 101 13 none] [on_target_filter quaddobl_solution_filters 192 13 none]
+G r c none [main main_solution_filters 101 13 none] [off_target_filter quaddobl_solution_filters 203 13 none]
+G r c none [main main_solution_filters 101 13 none] [vanishing_filter quaddobl_solution_filters 122 13 none]
+G r c none [main main_solution_filters 101 13 none] [spurious_filter quaddobl_solution_filters 133 13 none]
+G r c none [main main_solution_filters 101 13 none] [regular_filter quaddobl_solution_filters 170 13 none]
+G r c none [main main_solution_filters 101 13 none] [singular_filter quaddobl_solution_filters 181 13 none]
+G r c none [main main_solution_filters 101 13 none] [read_next quaddobl_complex_solutions_io 223 13 none]
+G r c none [main main_solution_filters 101 13 none] [zero_component_filter quaddobl_solution_filters 144 13 none]
+G r c none [main main_solution_filters 101 13 none] [free_component_filter quaddobl_solution_filters 157 13 none]
+G r c none [main main_solution_filters 101 13 none] [real_filter quaddobl_solution_filters 214 13 none]
+G r c none [main main_solution_filters 101 13 none] [select_solutions quaddobl_solution_filters 225 13 none]
+X 13 a-textio.ads
+67P9*File_Type 31|57r28 60r28 63r28 76r38 78r38 80r38 94r30 32|138r28 212r28
+. 286r28 360r37 463r37 566r37 669r30 693r22
+131U14*Close 32|680s7 688s20
+284U14*New_Line 32|30s5 120s5 152s5 202s5 226s5 276s5 300s5 350s5 373s5 380s12
+. 394s12 408s12 425s12 476s5 483s12 497s12 511s12 528s12 579s5 586s12 600s12
+. 614s12 631s12 675s7 698s5 708s5
+295U14*Skip_Line 32|57s13 60s7 68s13 71s7
+515U14*Put 32|26s5 26s34 28s7 40s7 45s7 61s7 72s7 82s5 83s5 94s5 96s5 108s5
+. 110s5 132s5 157s12 164s12 171s12 178s12 187s12 191s12 196s14 196s38 231s12
+. 238s12 245s12 252s12 261s12 265s12 270s14 270s38 305s12 312s12 319s12 326s12
+. 335s12 339s12 344s14 344s38 378s12 381s12 386s12 392s12 395s12 400s12 406s12
+. 409s12 414s12 420s12 426s12 433s12 435s18 436s18 440s12 442s12 444s12 447s12
+. 452s14 452s38 454s14 456s14 481s12 484s12 489s12 495s12 498s12 503s12 509s12
+. 512s12 517s12 523s12 529s12 536s12 538s18 539s18 543s12 545s12 547s12 550s12
+. 555s14 555s38 557s14 559s14 584s12 587s12 592s12 598s12 601s12 606s12 612s12
+. 615s12 620s12 626s12 632s12 639s12 641s18 642s18 646s12 648s12 650s12 653s12
+. 658s14 658s38 660s14 662s14 681s7 685s5 686s5
+565U14*Put_Line 32|47s7 49s7 121s5 122s5 123s5 124s5 125s5 126s5 127s5 128s5
+. 129s5 130s5 131s5 155s12 204s7 206s7 229s12 278s7 280s7 303s12 352s7 354s7
+. 376s12 388s18 389s18 402s18 403s18 416s18 417s18 438s22 445s12 456s41 479s12
+. 491s18 492s18 505s18 506s18 519s18 520s18 541s22 548s12 559s41 582s12 594s18
+. 595s18 608s18 609s18 622s18 623s18 644s22 651s12 662s41 676s7 682s7 686s50
+. 699s5 705s12 709s5
+605X4*Data_Error 32|59r10 70r10
+X 15 communications_with_user.ads
+4K9*Communications_with_User 127e29 32|1w6 1r45 711r18
+29U13*Ask_Alternative 32|133s5
+46U13*Read_Name_and_Open_File 32|677s7
+60U13*Read_Name_and_Create_File 32|710s5
+114V12*Prompt_for_Precision{character} 32|711s43
+X 16 dobldobl_complex_numbers.ads
+5K9*DoblDobl_Complex_Numbers 87e29 31|5w6 42r25 32|88r25 98r10 215r9 465r9
+11R8*Complex_Number 85e15 31|42r50 32|88r50 221r14 471r14
+19V12*Create{11R8} 32|98s35
+X 18 dobldobl_complex_solutions.ads
+11K9*DoblDobl_Complex_Solutions 235e31 31|9w6 61r28 32|213r28 216r9 466r9
+19i19*n{60|6I8} 32|281r64
+28P8*Link_to_Solution(19R8) 32|472r10
+31P8*Solution_List<25|12P8[30]> 31|61r55 32|213r55 222r16
+X 19 dobldobl_complex_solutions_io.ads
+6K9*DoblDobl_Complex_Solutions_io 305e34 32|14w6 14r45
+76U13*put 32|281s7
+223U13*Read_Next 32|525s12
+X 21 dobldobl_solution_filters.ads
+8K9*DoblDobl_Solution_Filters 252e30 32|15w6 217r9 467r9
+119V12*Vanishing_Filter{18|31P8} 32|241s30
+122U13*Vanishing_Filter 32|500s18
+130V12*Spurious_Filter{18|31P8} 32|242s30
+133U13*Spurious_Filter 32|501s18
+141V12*Zero_Component_Filter{18|31P8} 32|257s30
+144U13*Zero_Component_Filter 32|531s18
+154V12*Free_Component_Filter{18|31P8} 32|258s30
+157U13*Free_Component_Filter 32|533s18
+167V12*Regular_Filter{18|31P8} 32|248s30
+170U13*Regular_Filter 32|514s18
+178V12*Singular_Filter{18|31P8} 32|249s30
+181U13*Singular_Filter 32|515s18
+189V12*On_Target_Filter{18|31P8} 32|234s30
+192U13*On_Target_Filter 32|486s18
+200V12*Off_Target_Filter{18|31P8} 32|235s30
+203U13*Off_Target_Filter 32|487s18
+211V12*Real_Filter{18|31P8} 32|263s24
+214U13*Real_Filter 32|546s12
+222V12*Select_Solutions{18|31P8} 32|272s26
+225U13*Select_Solutions 32|558s14
+X 22 double_double_numbers.ads
+5K9*Double_Double_Numbers 172e26 31|4w6 4r45
+12R8*double_double 170e13 31|32r42 32|54r42 91r19
+35V12*Create{12R8} 32|56s10 95s14 97s14
+X 23 double_double_numbers_io.ads
+6K9*Double_Double_Numbers_io 116e29 32|6w6 6r45
+91U13*get 32|57s5
+X 24 generic_complex_numbers.ads
+19R8*Complex_Number 31|44r50[48|5] 32|102r50[48|5] 295r14[48|5] 574r14[48|5]
+27V12*Create{19R8[48|5]} 32|112s35[48|5]
+X 25 generic_lists.ads
+12P8*List
+67V12*Length_Of{61|7I8} 32|207s16[56|27] 281s16[18|30] 355s16[50|30]
+72V12*Is_Null{boolean} 32|203s8[56|27] 277s8[18|30] 351s8[50|30]
+77V12*Head_Of{56|25P8} 32|207s46[56|27] 281s46[18|30] 355s46[50|30]
+X 26 generic_vectors.ads
+16A8*Vector(61|7I8)<60|6I8> 32|194r45[65|4] 268r45[65|4] 342r45[65|4] 450r45[65|4]
+. 553r45[65|4] 656r45[65|4]
+X 27 generic_vectors_io.ads
+18U13*get 32|197s14[66|5] 271s14[66|5] 345s14[66|5] 453s14[66|5] 556s14[66|5]
+. 659s14[66|5]
+X 31 main_solution_filters.ads
+12K9*Main_Solution_Filters 108l5 108e26 32|19b14 720l5 720t26
+21U13*Write_Symbols 32|21b13 31l7 31t20 48s7 180s12 254s12 328s12 423s12
+. 526s12 629s12
+26V12*Prompt_Symbol{61|7I8} 32|33b12 52l7 52t20 181s17 255s17 329s17 424s17
+. 527s17 630s17
+32U13*Read_Double_Double 32<34 32|54b13 62s7 63l7 63t25
+32r34 f{22|12R8} 32|54b34 56m5 57m9 62m26
+33U13*Read_Quad_Double 33<32 32|65b13 73s7 74l7 74t23
+33r32 f{44|14R8} 32|65b32 67m5 68m9 73m24
+39U13*Read_Double_Complex 40<17 32|76b13 85l7 85t26 156s12 377s12
+40r17 c{54|11R8} 32|77b17 84m5
+41U13*Read_DoblDobl_Complex 42<17 32|87b13 99l7 99t28 230s12 480s12
+42r17 c{16|11R8} 32|88b17 98m5
+43U13*Read_QuadDobl_Complex 44<17 32|101b13 113l7 113t28 304s12 583s12
+44r17 c{24|19R8[48|5]} 32|102b17 112m5
+50V12*Show_Menu_and_Prompt_Answer{character} 32|115b12 135l7 135t34 145s33
+. 219s33 293s33 366s33 469s33 572s33
+56U13*Main_Solution_Filter 57>18 58>18 32|137b13 209l7 209t27
+57p18 file{13|67P9} 32|138b18 207r11
+58p18 sols{56|28P8} 32|139b18 160r47 161r48 167r47 168r46 174r45 175r46 183r52
+. 184r52 189r36 198r43
+59U13*Main_Solution_Filter 60>18 61>18 32|211b13 283l7 283t27
+60p18 file{13|67P9} 32|212b18 281r11
+61p18 sols{18|31P8} 32|213b18 234r47 235r48 241r47 242r46 248r45 249r46 257r52
+. 258r52 263r36 272r43
+62U13*Main_Solution_Filter 63>18 64>18 32|285b13 357l7 357t27
+63p18 file{13|67P9} 32|286b18 355r11
+64p18 sols{50|31P8} 32|287b18 308r47 309r48 315r47 316r46 322r45 323r46 331r52
+. 332r52 337r36 346r43
+75U13*Standard_Solution_Filter 76>18 76>25 76>49 76>53 32|359b13 460l7 460t31
+. 713s19
+76p18 infile{13|67P9} 32|360b17 383r35 384r36 397r35 398r34 411r33 412r34
+. 422r22 429r21 431r21 443r24 455r31
+76p25 outfile{13|67P9} 32|360b24 383r42 384r43 397r42 398r41 411r40 412r41
+. 429r28 431r28 443r31 455r38
+76i49 len{61|7I8} 32|360b48 383r50 384r51 397r50 398r49 411r48 412r49 429r36
+. 431r36 443r39 455r46
+76i53 dim{61|7I8} 32|360b52 383r54 384r55 397r54 398r53 411r52 412r53 422r29
+. 429r40 431r40 443r43 455r50
+77U13*DoblDobl_Solution_Filter 78>18 78>25 78>49 78>53 32|462b13 563l7 563t31
+. 714s19
+78p18 infile{13|67P9} 32|463b17 486r35 487r36 500r35 501r34 514r33 515r34
+. 525r22 532r21 534r21 546r24 558r31
+78p25 outfile{13|67P9} 32|463b24 486r42 487r43 500r42 501r41 514r40 515r41
+. 532r28 534r28 546r31 558r38
+78i49 len{61|7I8} 32|463b48 486r50 487r51 500r50 501r49 514r48 515r49 532r36
+. 534r36 546r39 558r46
+78i53 dim{61|7I8} 32|463b52 486r54 487r55 500r54 501r53 514r52 515r53 525r29
+. 532r40 534r40 546r43 558r50
+79U13*QuadDobl_Solution_Filter 80>18 80>25 80>49 80>53 32|565b13 666l7 666t31
+. 715s19
+80p18 infile{13|67P9} 32|566b17 589r35 590r36 603r35 604r34 617r33 618r34
+. 628r22 635r21 637r21 649r24 661r31
+80p25 outfile{13|67P9} 32|566b24 589r42 590r43 603r42 604r41 617r40 618r41
+. 635r28 637r28 649r31 661r38
+80i49 len{61|7I8} 32|566b48 589r50 590r51 603r50 604r49 617r48 618r49 635r36
+. 637r36 649r39 661r46
+80i53 dim{61|7I8} 32|566b52 589r54 590r55 603r54 604r53 617r52 618r53 628r29
+. 635r40 637r40 649r43 661r50
+93U13*Read_Dimensions 94<17 94<41 94<45 32|668b13 689l7 689t22 702s7 706s12
+94p17 infile{13|67P9} 32|669b17 677m31 678r55 680m13 684r47 688m26
+94i41 len{61|7I8} 32|669b41 684m54 685r35
+94i45 dim{61|7I8} 32|669b45 684m58 686r42
+101U13*Main 101>20 101>31 32|691b13 718l7 718t11
+101a20 infilename{string} 32|691b20
+101a31 outfilename{string} 32|691b31
+X 32 main_solution_filters.adb
+23i5 n{61|7I8} 26r28 27r17
+27i9 i<long_integer> 28r54
+35i5 res{61|7I8} 43m7 44r18 51r12
+36a5 name{70|15A11} 41m7 41r16 42m27 42r27 43r31 46r27
+79f5 re{59|13F8} 82m51 84r42
+79f8 im{59|13F8} 83m56 84r45
+90f5 st_re{59|13F8} 94m51 95r21
+90f11 st_im{59|13F8} 96m56 97r21
+91r5 dd_re{22|12R8} 95m5 98r42
+91r11 dd_im{22|12R8} 97m5 98r48
+104f5 st_re{59|13F8} 108m51 109r21
+104f11 st_im{59|13F8} 110m56 111r21
+105r5 qd_re{44|14R8} 109m5 112r42
+105r11 qd_im{44|14R8} 111m5 112r48
+117e5 ans{character} 133m21 134r12
+145e5 ans{character} 153r10 159r15 166r15 173r15 182r15
+146f5 tol{59|13F8} 158m30 160r59 161r60 165m30 167r52 168r51 172m30 174r50
+. 175r51 179m30 183r59 184r59 188m30 189r41
+147r5 target{54|11R8} 156m32 160r52 161r53
+148p5 filtsols{56|28P8} 160m18 161m18 167m18 168m18 174m18 175m18 183m18
+. 184m18 189m12 198m14 203r16 207r26 207r54 207r67
+149i5 k{61|7I8} 181m12 183r57 184r57 192m16 192r16 194r65 196r32
+194a14 sel{26|16A8[65|4]} 197m18 197r18 198r48
+219e5 ans{character} 227r10 233r15 240r15 247r15 256r15
+220f5 tol{59|13F8} 232m30 234r59 235r60 239m30 241r52 242r51 246m30 248r50
+. 249r51 253m30 257r59 258r59 262m30 263r41
+221r5 target{16|11R8} 230m34 234r52 235r53
+222p5 filtsols{18|31P8} 234m18 235m18 241m18 242m18 248m18 249m18 257m18
+. 258m18 263m12 272m14 277r16 281r26 281r54 281r67
+223i5 k{61|7I8} 255m12 257r57 258r57 266m16 266r16 268r65 270r32
+268a14 sel{26|16A8[65|4]} 271m18 271r18 272r48
+293e5 ans{character} 301r10 307r15 314r15 321r15 330r15
+294f5 tol{59|13F8} 306m30 308r59 309r60 313m30 315r52 316r51 320m30 322r50
+. 323r51 327m30 331r59 332r59 336m30 337r41
+295r5 target{24|19R8[48|5]} 304m34 308r52 309r53
+296p5 filtsols{50|31P8} 308m18 309m18 315m18 316m18 322m18 323m18 331m18
+. 332m18 337m12 346m14 351r16 355r26 355r54 355r67
+297i5 k{61|7I8} 329m12 331r57 332r57 340m16 340r16 342r65 344r32
+342a14 sel{26|16A8[65|4]} 345m18 345r18 346r48
+366e5 ans{character} 374r10 382r15 387r15 396r15 401r15 410r15 415r15 427r15
+. 434r15
+367f5 tol{59|13F8} 379m30 383r65 384r66 393m30 397r58 398r57 407m30 411r56
+. 412r57 421m30 429r46 431r46 441m30 443r47
+368r5 target{54|11R8} 377m32 383r58 384r59
+369p5 ls{56|25P8} 422m33 422r33 429r50 431r50
+370i5 k{61|7I8} 424m12 429r44 431r44 438r16 448m16 448r16 450r65 452r32
+370i7 cnt{61|7I8} 383m69 384m70 386r31 397m62 398m61 400r31 411m60 412m61
+. 414r31 429m53 431m53 433r31 443m51 444r31 455m58 456r33
+450a14 sel{26|16A8[65|4]} 453m18 453r18 455r54
+469e5 ans{character} 477r10 485r15 490r15 499r15 504r15 513r15 518r15 530r15
+. 537r15
+470f5 tol{59|13F8} 482m30 486r65 487r66 496m30 500r58 501r57 510m30 514r56
+. 515r57 524m30 532r46 534r46 544m30 546r47
+471r5 target{16|11R8} 480m34 486r58 487r59
+472p5 ls{18|28P8} 525m33 525r33 532r50 534r50
+473i5 k{61|7I8} 527m12 532r44 534r44 541r16 551m16 551r16 553r65 555r32
+473i7 cnt{61|7I8} 486m69 487m70 489r31 500m62 501m61 503r31 514m60 515m61
+. 517r31 532m53 534m53 536r31 546m51 547r31 558m58 559r33
+553a14 sel{26|16A8[65|4]} 556m18 556r18 558r54
+572e5 ans{character} 580r10 588r15 593r15 602r15 607r15 616r15 621r15 633r15
+. 640r15
+573f5 tol{59|13F8} 585m30 589r65 590r66 599m30 603r58 604r57 613m30 617r56
+. 618r57 627m30 635r46 637r46 647m30 649r47
+574r5 target{24|19R8[48|5]} 583m34 589r58 590r59
+575p5 ls{50|28P8} 628m33 628r33 635r50 637r50
+576i5 k{61|7I8} 630m12 635r44 637r44 644r16 654m16 654r16 656r65 658r32
+576i7 cnt{61|7I8} 589m69 590m70 592r31 603m62 604m61 606r31 617m60 618m61
+. 620r31 635m53 637m53 639r31 649m51 650r31 661m58 662r33
+656a14 sel{26|16A8[65|4]} 659m18 659r18 661r54
+671b5 bannered{boolean} 678m62
+671b14 fail{boolean} 678m71 679r21 684m62
+693p5 infile{13|67P9} 702m23 702r23 706m28 706r28 713r44 714r44 715r44
+693p12 outfile{13|67P9} 710m31 710r31 713r51 714r51 715r51
+694i5 len{61|7I8} 702m30 706m35 713r59 714r59 715r59
+694i9 dim{61|7I8} 702m34 706m39 713r63 714r63 715r63
+695e5 precision{character} 711m5 712r10
+X 43 numbers_io.ads
+7K9*Numbers_io 32|2w6 2r45 43|40e15
+17U13*Read_Double_Float 32|82s33 83s38 94s33 96s38 108s33 110s38 158s12 165s12
+. 172s12 179s12 188s12 232s12 239s12 246s12 253s12 262s12 306s12 313s12 320s12
+. 327s12 336s12 379s12 393s12 407s12 421s12 441s12 482s12 496s12 510s12 524s12
+. 544s12 585s12 599s12 613s12 627s12 647s12
+X 44 quad_double_numbers.ads
+7K9*Quad_Double_Numbers 31|6w6 6r45 44|255e24
+14R8*quad_double 31|33r40 32|65r40 105r19 44|253e13
+37V12*Create{14R8} 32|67s10 109s14 111s14
+X 45 quad_double_numbers_io.ads
+6K9*Quad_Double_Numbers_io 32|7w6 7r45 45|99e27
+74U13*get 32|68s5
+X 48 quaddobl_complex_numbers.ads
+5K9*QuadDobl_Complex_Numbers[24|11] 31|7w6 44r25 32|102r25 112r10 289r9 568r9
+X 50 quaddobl_complex_solutions.ads
+11K9*QuadDobl_Complex_Solutions 31|10w6 64r28 32|287r28 290r9 569r9 50|235e31
+19i19*n{60|6I8} 32|355r64
+28P8*Link_to_Solution(19R8) 32|575r10
+31P8*Solution_List<25|12P8[30]> 31|64r55 32|287r55 296r16
+X 51 quaddobl_complex_solutions_io.ads
+6K9*QuadDobl_Complex_Solutions_io 32|16w6 16r45 51|305e34
+76U13*put 32|355s7
+223U13*Read_Next 32|628s12
+X 53 quaddobl_solution_filters.ads
+8K9*QuadDobl_Solution_Filters 32|17w6 291r9 570r9 53|252e30
+119V12*Vanishing_Filter{50|31P8} 32|315s30
+122U13*Vanishing_Filter 32|603s18
+130V12*Spurious_Filter{50|31P8} 32|316s30
+133U13*Spurious_Filter 32|604s18
+141V12*Zero_Component_Filter{50|31P8} 32|331s30
+144U13*Zero_Component_Filter 32|634s18
+154V12*Free_Component_Filter{50|31P8} 32|332s30
+157U13*Free_Component_Filter 32|636s18
+167V12*Regular_Filter{50|31P8} 32|322s30
+170U13*Regular_Filter 32|617s18
+178V12*Singular_Filter{50|31P8} 32|323s30
+181U13*Singular_Filter 32|618s18
+189V12*On_Target_Filter{50|31P8} 32|308s30
+192U13*On_Target_Filter 32|589s18
+200V12*Off_Target_Filter{50|31P8} 32|309s30
+203U13*Off_Target_Filter 32|590s18
+211V12*Real_Filter{50|31P8} 32|337s24
+214U13*Real_Filter 32|649s12
+222V12*Select_Solutions{50|31P8} 32|346s26
+225U13*Select_Solutions 32|661s14
+X 54 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 31|3w6 40r25 32|77r25 84r10 141r9 362r9 54|92e29
+11R8*Complex_Number 31|40r50 32|77r50 147r14 368r14 54|90e15
+19V12*Create{11R8} 32|84s35
+X 56 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 31|8w6 58r28 32|139r28 142r9 363r9 56|206e31
+16i19*n{60|6I8} 32|207r64
+25P8*Link_to_Solution(16R8) 32|369r10
+28P8*Solution_List<25|12P8[27]> 31|58r55 32|139r55 148r16
+X 57 standard_complex_solutions_io.ads
+7K9*Standard_Complex_Solutions_io 32|11w6 11r45 57|358e34
+120U13*put 32|207s7
+273U13*Read_Next 32|422s12
+X 59 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 32|5w6 5r45 59|58e30
+13F8*double_float<long_float> 32|79r13 90r19 104r19 146r11 220r11 294r11
+. 367r11 470r11 573r11
+X 60 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 32|4w6 4r45 60|45e29
+6I8*integer32<long_integer> 32|194r55 268r55 342r55 450r55 553r55 656r55
+X 61 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 31|2w6 2r45 61|30e29
+7I8*natural32<long_integer> 31|26r33 76r62 78r62 80r62 94r55 32|23r18 33r33
+. 35r11 149r9 207r36 223r9 281r36 297r9 355r36 360r61 370r13 463r61 473r13
+. 566r61 576r13 669r55 694r15
+X 62 standard_natural_numbers_io.ads
+4K9*Standard_Natural_Numbers_io 32|3w6 3r45 62|35e32
+9U13*get 32|192s12 266s12 340s12 448s12 551s12 654s12
+25U13*put 32|26s24 196s28 270s28 344s28 386s27 400s27 414s27 433s27 438s12
+. 444s27 452s28 456s29 489s27 503s27 517s27 536s27 541s12 547s27 555s28 559s29
+. 592s27 606s27 620s27 639s27 644s12 650s27 658s28 662s29 685s31 686s38
+X 65 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[26|8] 32|8w6 194r20 268r20 342r20 450r20 553r20
+. 656r20
+X 66 standard_natural_vectors_io.ads
+5K9*Standard_Natural_Vectors_io[27|11] 32|9w6 9r45
+X 67 standard_select_solutions.ads
+7K9*Standard_Select_Solutions 32|13w6 678r7 684r5 67|200e30
+13U13*Read_Dimensions 32|684s31
+21U13*Prompt_to_Scan_Banner 32|678s33
+X 68 standard_solution_filters.ads
+8K9*Standard_Solution_Filters 32|12w6 143r9 364r9 68|252e30
+119V12*Vanishing_Filter{56|28P8} 32|167s30
+122U13*Vanishing_Filter 32|397s18
+130V12*Spurious_Filter{56|28P8} 32|168s30
+133U13*Spurious_Filter 32|398s18
+141V12*Zero_Component_Filter{56|28P8} 32|183s30
+144U13*Zero_Component_Filter 32|428s18
+154V12*Free_Component_Filter{56|28P8} 32|184s30
+157U13*Free_Component_Filter 32|430s18
+167V12*Regular_Filter{56|28P8} 32|174s30
+170U13*Regular_Filter 32|411s18
+178V12*Singular_Filter{56|28P8} 32|175s30
+181U13*Singular_Filter 32|412s18
+189V12*On_Target_Filter{56|28P8} 32|160s30
+192U13*On_Target_Filter 32|383s18
+200V12*Off_Target_Filter{56|28P8} 32|161s30
+203U13*Off_Target_Filter 32|384s18
+211V12*Real_Filter{56|28P8} 32|189s24
+214U13*Real_Filter 32|443s12
+222V12*Select_Solutions{56|28P8} 32|198s26
+225U13*Select_Solutions 32|455s14
+X 70 symbol_table.ads
+4K9*Symbol_Table 32|10w6 10r45 23r31 28r37 43r14 70|175e17
+15A11*Symbol{string}<integer> 32|36r12
+135V12*Number{61|7I8} 32|23s44
+146V12*Get{61|7I8} 32|43s27
+152V12*Get{15A11} 32|28s50
+X 71 symbol_table_io.ads
+4K9*Symbol_Table_io 32|10w19 28r17 42r7 46r7 71|59e20
+9U13*get 32|42s23
+31U13*put 32|28s33 46s23
+X 92 text_io.ads
+27K9*Text_IO=27:29 31|1w6 1r45
+

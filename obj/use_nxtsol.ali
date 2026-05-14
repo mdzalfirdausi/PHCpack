@@ -1,0 +1,137 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U use_nxtsol%b		use_nxtsol.adb		69ee9b9c NE OO SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W step_trackers_interface%s  step_trackers_interface.adb  step_trackers_interface.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U use_nxtsol%s		use_nxtsol.ads		bbba9f40 EE NE OO SU IL
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D step_trackers_interface.ads  20260513024556 36a28f46 step_trackers_interface%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D use_nxtsol.ads	20260513024556 4e767c38 use_nxtsol%s
+D use_nxtsol.adb	20260513024556 3088a07a use_nxtsol%b
+G a e
+G c Z s b [use_nxtsol standard 5 10 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_standard_homotopy step_trackers_interface 7 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_dobldobl_homotopy step_trackers_interface 22 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_quaddobl_homotopy step_trackers_interface 37 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_set_standard_solution step_trackers_interface 52 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_set_dobldobl_solution step_trackers_interface 65 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_set_quaddobl_solution step_trackers_interface 78 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_next_standard_solution step_trackers_interface 91 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_next_dobldobl_solution step_trackers_interface 105 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_next_quaddobl_solution step_trackers_interface 119 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_standard_clear step_trackers_interface 245 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_dobldobl_clear step_trackers_interface 252 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_quaddobl_clear step_trackers_interface 259 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_multprec_homotopy step_trackers_interface 133 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_set_multprec_solution step_trackers_interface 146 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_next_multprec_solution step_trackers_interface 159 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_multprec_clear step_trackers_interface 266 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_varbprec_homotopy step_trackers_interface 173 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_set_varbprec_solution step_trackers_interface 190 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_next_varbprec_solution step_trackers_interface 206 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_varbprec_clear step_trackers_interface 273 12 none]
+G r c none [use_nxtsol standard 5 10 none] [step_trackers_get_varbprec_solution step_trackers_interface 229 12 none]
+X 9 a-textio.ads
+565U14*Put_Line 35|37s22
+X 11 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 34|3w6 3r45
+17K11*C_DblArrs[15|44] 34|8r27 35|7r27
+X 12 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 34|2w6 2r45
+13K11*C_intarrs[15|44] 34|6r27 7r27 35|5r27 6r27
+X 14 i-c.ads
+62I9*int<integer>
+102F9*double<long_float>
+X 15 i-cpoint.ads
+47P9*Pointer(14|62I9) 34|6r37[12|13] 7r37[12|13] 8r37[11|17] 35|5r37[12|13]
+. 6r37[12|13] 7r37[11|17]
+X 17 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 45e29 34|1w6 1r45
+6I8*integer32<long_integer> 34|5r29 9r32 9r56 35|4r29 8r32 8r56 10r31
+X 18 step_trackers_interface.ads
+5K9*Step_Trackers_Interface 280e28 35|2w6 12r9
+7V12*Step_Trackers_Standard_Homotopy{17|6I8} 35|16s24
+22V12*Step_Trackers_DoblDobl_Homotopy{17|6I8} 35|17s24
+37V12*Step_Trackers_QuadDobl_Homotopy{17|6I8} 35|18s24
+52V12*Step_Trackers_Set_Standard_Solution{17|6I8} 35|19s24
+65V12*Step_Trackers_Set_DoblDobl_Solution{17|6I8} 35|20s24
+78V12*Step_Trackers_Set_QuadDobl_Solution{17|6I8} 35|21s24
+91V12*Step_Trackers_Next_Standard_Solution{17|6I8} 35|22s24
+105V12*Step_Trackers_Next_DoblDobl_Solution{17|6I8} 35|23s24
+119V12*Step_Trackers_Next_QuadDobl_Solution{17|6I8} 35|24s24
+133V12*Step_Trackers_Multprec_Homotopy{17|6I8} 35|28s25
+146V12*Step_Trackers_Set_Multprec_Solution{17|6I8} 35|29s25
+159V12*Step_Trackers_Next_Multprec_Solution{17|6I8} 35|30s25
+173V12*Step_Trackers_Varbprec_Homotopy{17|6I8} 35|32s25
+190V12*Step_Trackers_Set_Varbprec_Solution{17|6I8} 35|33s25
+206V12*Step_Trackers_Next_Varbprec_Solution{17|6I8} 35|34s25
+229V12*Step_Trackers_Get_Varbprec_Solution{17|6I8} 35|36s25
+245V12*Step_Trackers_Standard_Clear{17|6I8} 35|25s24
+252V12*Step_Trackers_DoblDobl_Clear{17|6I8} 35|26s25
+259V12*Step_Trackers_QuadDobl_Clear{17|6I8} 35|27s25
+266V12*Step_Trackers_Multprec_Clear{17|6I8} 35|31s25
+273V12*Step_Trackers_Varbprec_Clear{17|6I8} 35|35s25
+X 33 text_io.ads
+27K9*Text_IO=27:29 35|1w6 1r45
+X 34 use_nxtsol.ads
+5V10*use_nxtsol{17|6I8} 5>23 6>23 7>23 8>23 9>23 35|4b10 43l5 43t15
+5i23 job{17|6I8} 35|4b23 15r10
+6p23 a{15|47P9[12|13]} 35|5b23 16r56 17r56 18r56 19r60 20r60 21r60 22r61
+. 23r61 24r61 28r57 29r61 30r62 32r57 33r61 34r62 36r61
+7p23 b{15|47P9[12|13]} 35|6b23 28r59 32r59 33r63 34r64 36r63
+8p23 c{15|47P9[11|17]} 35|7b23 16r58 17r58 18r58
+9i23 vrblvl{17|6I8} 35|8b23 16r60 17r60 18r60 19r62 20r62 21r62 22r63 23r63
+. 24r63 25r53 26r54 27r54 28r61 29r63 30r64 31r54 32r61 33r65 34r66 35r54
+. 36r65
+X 35 use_nxtsol.adb
+10V12 Handle_Jobs{17|6I8} 10b12 39l7 39t18 42s10
+

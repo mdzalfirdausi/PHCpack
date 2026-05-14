@@ -1,0 +1,857 @@
+V "GNAT Lib v15"
+A -O3
+A -gnatA
+A -gnatv
+A -gnatp
+A -gnatf
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U pieri_solver%b	pieri_solver.adb	c055c36d NE OO SU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W brackets%s		brackets.adb		brackets.ali
+W c_integer_arrays%s	c_integer_arrays.ads	c_integer_arrays.ali
+W c_to_ada_arrays%s	c_to_ada_arrays.adb	c_to_ada_arrays.ali
+W complex_polynomial_matrices%s  complex_polynomial_matrices.adb  complex_polynomial_matrices.ali
+W complex_polynomial_matrices_io%s  complex_polynomial_matrices_io.adb  complex_polynomial_matrices_io.ali
+W continuation_parameters%s  continuation_parameters.adb  continuation_parameters.ali
+W curves_into_grassmannian%s  curves_into_grassmannian.adb  curves_into_grassmannian.ali
+W curves_into_grassmannian_io%s  curves_into_grassmannian_io.adb  curves_into_grassmannian_io.ali
+W deformation_posets%s	deformation_posets.adb	deformation_posets.ali
+W determinantal_systems%s  determinantal_systems.adb  determinantal_systems.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W localization_posets%s	localization_posets.adb	localization_posets.ali
+W make_input_planes%s	make_input_planes.adb	make_input_planes.ali
+W standard_complex_matrices%s  standard_complex_matrices.ads  standard_complex_matrices.ali
+W standard_complex_norms_equals%s  standard_complex_norms_equals.adb  standard_complex_norms_equals.ali
+W standard_complex_numbers%s  standard_complex_numbers.adb  standard_complex_numbers.ali
+W standard_complex_poly_matrices%s  standard_complex_poly_matrices.ads  standard_complex_poly_matrices.ali
+W standard_complex_poly_matrices_io%s  standard_complex_poly_matrices_io.ads  standard_complex_poly_matrices_io.ali
+W standard_complex_poly_systems%s  standard_complex_poly_systems.ads  standard_complex_poly_systems.ali
+W standard_complex_solutions%s  standard_complex_solutions.adb  standard_complex_solutions.ali
+W standard_complex_vecmats%s  standard_complex_vecmats.ads  standard_complex_vecmats.ali
+W standard_complex_vectors%s  standard_complex_vectors.ads  standard_complex_vectors.ali
+W standard_floating_matrices%s  standard_floating_matrices.ads  standard_floating_matrices.ali
+W standard_floating_matrices_io%s  standard_floating_matrices_io.ads  standard_floating_matrices_io.ali
+W standard_floating_numbers%s  standard_floating_numbers.adb  standard_floating_numbers.ali
+W standard_homotopy%s	standard_homotopy.adb	standard_homotopy.ali
+W standard_incfix_continuation%s  standard_incfix_continuation.adb  standard_incfix_continuation.ali
+W standard_integer_vectors%s  standard_integer_vectors.ads  standard_integer_vectors.ali
+W standard_natural_matrices%s  standard_natural_matrices.ads  standard_natural_matrices.ali
+W standard_natural_numbers%s  standard_natural_numbers.adb  standard_natural_numbers.ali
+W standard_natural_vectors%s  standard_natural_vectors.ads  standard_natural_vectors.ali
+W standard_random_matrices%s  standard_random_matrices.adb  standard_random_matrices.ali
+W standard_random_vectors%s  standard_random_vectors.adb  standard_random_vectors.ali
+W standard_root_refiners%s  standard_root_refiners.adb  standard_root_refiners.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+W timing_package%s	timing_package.adb	timing_package.ali
+W verification_with_determinants%s  verification_with_determinants.adb  verification_with_determinants.ali
+W verify_solution_maps%s  verify_solution_maps.adb  verify_solution_maps.ali
+
+U pieri_solver%s	pieri_solver.ads	66e67b66 EE NE OO SU
+W c_double_arrays%s	c_double_arrays.adb	c_double_arrays.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W standard_integer_numbers%s  standard_integer_numbers.adb  standard_integer_numbers.ali
+
+D abstract_ring.ads	20260513024558 e7c27303 abstract_ring%s
+D abstract_ring-field.ads  20260513024558 41f66d6a abstract_ring.field%s
+D abstract_ring_io.ads	20260513024558 cb249e1c abstract_ring_io%s
+D ada.ads		20250808065140 76789da1 ada%s
+D a-except.ads		20250808065140 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250808065140 bf4f806b ada.finalization%s
+D a-ioexce.ads		20250808065140 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250808065140 17477cbd ada.streams%s
+D a-string.ads		20250808065140 90ac6797 ada.strings%s
+D a-sttebu.ads		20250808065140 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250808065140 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250808065140 fbca0ad5 ada.tags%s
+D a-textio.ads		20250808065140 34ef47de ada.text_io%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D boolean_matrices.ads	20260513024558 6bd2b435 boolean_matrices%s
+D boolean_numbers.ads	20260513024558 464cf11b boolean_numbers%s
+D boolean_ring.ads	20260513024558 5e587f54 boolean_ring%s
+D boolean_vectors.ads	20260513024558 182f66ac boolean_vectors%s
+D brackets.ads		20260513024558 76f6ffa4 brackets%s
+D c_double_arrays.ads	20260513024558 3d926414 c_double_arrays%s
+D c_integer_arrays.ads	20260513024558 b7bee577 c_integer_arrays%s
+D c_to_ada_arrays.ads	20260513024558 624e9369 c_to_ada_arrays%s
+D complex_polynomial_matrices.ads  20260513024556 9e0fa24e complex_polynomial_matrices%s
+D complex_polynomial_matrices_io.ads  20260513024556 83bbace1 complex_polynomial_matrices_io%s
+D continuation_parameters.ads  20260513024558 80b0c65f continuation_parameters%s
+D curves_into_grassmannian.ads  20260513024558 2fcb651e curves_into_grassmannian%s
+D curves_into_grassmannian_io.ads  20260513024558 8941b5f7 curves_into_grassmannian_io%s
+D deformation_posets.ads  20260513024558 5692d6e9 deformation_posets%s
+D determinantal_systems.ads  20260513024558 c67fa371 determinantal_systems%s
+D dobldobl_complex_numbers.ads  20260513024558 54c7ee94 dobldobl_complex_numbers%s
+D dobldobl_complex_ring.ads  20260513024558 f4179c80 dobldobl_complex_ring%s
+D dobldobl_complex_solutions.ads  20260513024558 05ce23a8 dobldobl_complex_solutions%s
+D dobldobl_complex_vectors.ads  20260513024558 b8c7048c dobldobl_complex_vectors%s
+D double_double_numbers.ads  20260513024558 9a5e9101 double_double_numbers%s
+D generic_complex_numbers.ads  20260513024558 a94d171a generic_complex_numbers%s
+D generic_jacobian_matrices.ads  20260513024558 04689d81 generic_jacobian_matrices%s
+D generic_laur_jaco_matrices.ads  20260513024558 2a609a16 generic_laur_jaco_matrices%s
+D generic_laur_poly_functions.ads  20260513024558 59072e6b generic_laur_poly_functions%s
+D generic_laur_poly_systems.ads  20260513024558 a142640c generic_laur_poly_systems%s
+D generic_laur_system_functions.ads  20260513024558 5569b106 generic_laur_system_functions%s
+D generic_laurent_polynomials.ads  20260513024558 8c56071b generic_laurent_polynomials%s
+D generic_lists.ads	20260513024558 6d89108f generic_lists%s
+D generic_matrices.ads	20260513024558 83002eaf generic_matrices%s
+D generic_matrices_io.ads  20260513024558 4a4f474a generic_matrices_io%s
+D generic_poly_system_functions.ads  20260513024558 ec83a4f5 generic_poly_system_functions%s
+D generic_polynomial_functions.ads  20260513024558 d3638c07 generic_polynomial_functions%s
+D generic_polynomial_systems.ads  20260513024558 b98a03a0 generic_polynomial_systems%s
+D generic_polynomials.ads  20260513024558 05e36cbf generic_polynomials%s
+D generic_vecmats.ads	20260513024558 93305de6 generic_vecmats%s
+D generic_vectors.ads	20260513024558 8495aef1 generic_vectors%s
+D generic_vectors_io.ads  20260513024558 2e2f0e7e generic_vectors_io%s
+D generic_vecvecs.ads	20260513024558 9a9de2b9 generic_vecvecs%s
+D handle_underflow_gracefully.ads  20260513024558 ced720f2 handle_underflow_gracefully%s
+D interfac.ads		20250808065140 9111f9c1 interfaces%s
+D i-c.ads		20250808065140 e94c966a interfaces.c%s
+D i-cpoint.ads		20250808065140 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20250808065140 5409c1a4 interfaces.c.strings%s
+D i-cstrea.ads		20250808065140 ffd01b9d interfaces.c_streams%s
+D localization_posets.ads  20260513024558 4bb547ea localization_posets%s
+D make_input_planes.ads	20260513024558 68ecc42d make_input_planes%s
+D multprec_complex_numbers.ads  20260513024558 ff042e10 multprec_complex_numbers%s
+D multprec_complex_ring.ads  20260513024558 3a881ed6 multprec_complex_ring%s
+D multprec_complex_solutions.ads  20260513024558 c709d749 multprec_complex_solutions%s
+D multprec_complex_vectors.ads  20260513024558 3b5cf575 multprec_complex_vectors%s
+D multprec_floating_numbers.ads  20260513024558 598a4baa multprec_floating_numbers%s
+D multprec_floating_ring.ads  20260513024558 6c4de2ff multprec_floating_ring%s
+D multprec_floating_ring-ffield.ads  20260513024558 2ec869fa multprec_floating_ring.ffield%s
+D multprec_integer_numbers.ads  20260513024558 30cf2cb4 multprec_integer_numbers%s
+D multprec_natural_coefficients.ads  20260513024558 d9ff1559 multprec_natural_coefficients%s
+D multprec_natural_numbers.ads  20260513024558 7d846ca3 multprec_natural_numbers%s
+D pieri_solver.ads	20260513024556 709dbccd pieri_solver%s
+D pieri_solver.adb	20260513024556 2a11a56b pieri_solver%b
+D process_io.ads	20260513024558 f33a87dd process_io%s
+D quad_double_numbers.ads  20260513024558 d4d5ceee quad_double_numbers%s
+D quad_double_ring.ads	20260513024558 89f277ae quad_double_ring%s
+D quad_double_ring-ffield.ads  20260513024558 08158da9 quad_double_ring.ffield%s
+D quaddobl_complex_numbers.ads  20260513024558 e4febe7e quaddobl_complex_numbers%s
+D quaddobl_complex_ring.ads  20260513024558 80202ac2 quaddobl_complex_ring%s
+D quaddobl_complex_solutions.ads  20260513024558 a495b0c7 quaddobl_complex_solutions%s
+D quaddobl_complex_vectors.ads  20260513024558 aabba852 quaddobl_complex_vectors%s
+D standard_complex_jaco_matrices.ads  20260513024558 36a67fd1 standard_complex_jaco_matrices%s
+D standard_complex_laur_functions.ads  20260513024558 b680d0a9 standard_complex_laur_functions%s
+D standard_complex_laur_jacomats.ads  20260513024558 c8a210ce standard_complex_laur_jacomats%s
+D standard_complex_laur_sysfun.ads  20260513024558 7ae1e81b standard_complex_laur_sysfun%s
+D standard_complex_laur_systems.ads  20260513024558 102fcc76 standard_complex_laur_systems%s
+D standard_complex_laurentials.ads  20260513024558 751eb2c5 standard_complex_laurentials%s
+D standard_complex_linear_solvers.ads  20260513024558 189c064b standard_complex_linear_solvers%s
+D standard_complex_matrices.ads  20260513024558 280e7fbd standard_complex_matrices%s
+D standard_complex_norms_equals.ads  20260513024558 14f0dc59 standard_complex_norms_equals%s
+D standard_complex_numbers.ads  20260513024558 f72bc411 standard_complex_numbers%s
+D standard_complex_numbers_io.ads  20260513024558 22c583b9 standard_complex_numbers_io%s
+D standard_complex_poly_functions.ads  20260513024558 1c12548d standard_complex_poly_functions%s
+D standard_complex_poly_matrices.ads  20260513024558 88f232bd standard_complex_poly_matrices%s
+D standard_complex_poly_matrices_io.ads  20260513024558 2d66445e standard_complex_poly_matrices_io%s
+D standard_complex_poly_ring.ads  20260513024558 71b6d611 standard_complex_poly_ring%s
+D standard_complex_poly_ring_io.ads  20260513024558 9e82d5f5 standard_complex_poly_ring_io%s
+D standard_complex_poly_sysfun.ads  20260513024558 6c0acf67 standard_complex_poly_sysfun%s
+D standard_complex_poly_systems.ads  20260513024558 1ba1f5ce standard_complex_poly_systems%s
+D standard_complex_poly_vectors.ads  20260513024558 1f5698c4 standard_complex_poly_vectors%s
+D standard_complex_polynomials.ads  20260513024558 61f010c4 standard_complex_polynomials%s
+D standard_complex_polynomials_io.ads  20260513024558 769210f2 standard_complex_polynomials_io%s
+D standard_complex_qr_least_squares.ads  20260513024558 d778cd55 standard_complex_qr_least_squares%s
+D standard_complex_ring.ads  20260513024558 abe7059e standard_complex_ring%s
+D standard_complex_ring-ffield.ads  20260513024558 bbb2cc35 standard_complex_ring.ffield%s
+D standard_complex_singular_values.ads  20260513024558 c29c8bc2 standard_complex_singular_values%s
+D standard_complex_solutions.ads  20260513024558 5c703913 standard_complex_solutions%s
+D standard_complex_solutions_io.ads  20260513024558 8b8c15da standard_complex_solutions_io%s
+D standard_complex_vecmats.ads  20260513024558 b003b36b standard_complex_vecmats%s
+D standard_complex_vectors.ads  20260513024558 1daff539 standard_complex_vectors%s
+D standard_complex_vecvecs.ads  20260513024558 fde7288b standard_complex_vecvecs%s
+D standard_continuation_data.ads  20260513024558 5caa45bb standard_continuation_data%s
+D standard_correctors.ads  20260513024558 f5a901a8 standard_correctors%s
+D standard_correctors.adb  20260513024558 29f03630 standard_correctors%b
+D standard_data_on_path.ads  20260513024558 2901c4e9 standard_data_on_path%s
+D standard_dispatch_predictors.ads  20260513024558 63cac21d standard_dispatch_predictors%s
+D standard_dispatch_predictors.adb  20260513024558 1fe27ecb standard_dispatch_predictors%b
+D standard_extrapolators.ads  20260513024558 0f6a9fd6 standard_extrapolators%s
+D standard_floating_matrices.ads  20260513024558 49b1fb7f standard_floating_matrices%s
+D standard_floating_matrices_io.ads  20260513024558 63acee70 standard_floating_matrices_io%s
+D standard_floating_numbers.ads  20260513024558 a696816d standard_floating_numbers%s
+D standard_floating_numbers_io.ads  20260513024558 088ff8a8 standard_floating_numbers_io%s
+D standard_floating_ring.ads  20260513024558 756b9342 standard_floating_ring%s
+D standard_floating_ring_io.ads  20260513024558 cf09bbdc standard_floating_ring_io%s
+D standard_floating_vectors.ads  20260513024558 253a5b14 standard_floating_vectors%s
+D standard_floating_vectors_io.ads  20260513024558 9f873e12 standard_floating_vectors_io%s
+D standard_floating_vecvecs.ads  20260513024558 e1ba2a52 standard_floating_vecvecs%s
+D standard_homotopy.ads	20260513024558 5c83417f standard_homotopy%s
+D standard_incfix_continuation.ads  20260513024558 73d97519 standard_incfix_continuation%s
+D standard_incfix_continuation.adb  20260513024558 e9497009 standard_incfix_continuation%b
+D standard_integer64_matrices.ads  20260513024558 7c853ee2 standard_integer64_matrices%s
+D standard_integer64_ring.ads  20260513024558 e8978699 standard_integer64_ring%s
+D standard_integer64_vectors.ads  20260513024558 3427bed1 standard_integer64_vectors%s
+D standard_integer_matrices.ads  20260513024558 99dc9372 standard_integer_matrices%s
+D standard_integer_numbers.ads  20260513024558 7fe0621b standard_integer_numbers%s
+D standard_integer_numbers_io.ads  20260513024558 da72813c standard_integer_numbers_io%s
+D standard_integer_ring.ads  20260513024558 1b81568c standard_integer_ring%s
+D standard_integer_vectors.ads  20260513024558 8157538f standard_integer_vectors%s
+D standard_mathematical_functions.ads  20260513024558 18f39391 standard_mathematical_functions%s
+D standard_natural_matrices.ads  20260513024558 78a8ba57 standard_natural_matrices%s
+D standard_natural_numbers.ads  20260513024558 017761d1 standard_natural_numbers%s
+D standard_natural_numbers_io.ads  20260513024558 1bcda82b standard_natural_numbers_io%s
+D standard_natural_ring.ads  20260513024558 9d44ace5 standard_natural_ring%s
+D standard_natural_vectors.ads  20260513024558 b129c652 standard_natural_vectors%s
+D standard_orthogonal_correctors.ads  20260513024558 5bb92a6f standard_orthogonal_correctors%s
+D standard_orthogonal_correctors.adb  20260513024558 1e4cc590 standard_orthogonal_correctors%b
+D standard_path_trackers.ads  20260513024558 27a46896 standard_path_trackers%s
+D standard_path_trackers.adb  20260513024558 b85f6c59 standard_path_trackers%b
+D standard_point_lists.ads  20260513024558 c6ecf08d standard_point_lists%s
+D standard_predictors.ads  20260513024558 84a6f1dc standard_predictors%s
+D standard_predictors.adb  20260513024558 0799e174 standard_predictors%b
+D standard_random_matrices.ads  20260513024558 70779eef standard_random_matrices%s
+D standard_random_vectors.ads  20260513024558 fc3e3208 standard_random_vectors%s
+D standard_root_refiners.ads  20260513024558 d689ce53 standard_root_refiners%s
+D symbol_table.ads	20260513024558 ad27dfee symbol_table%s
+D system.ads		20250808065140 a869df9e system%s
+D s-crtl.ads		20250808065140 beb39b9e system.crtl%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-exnlfl.ads		20250808065140 3a76fe2b system.exn_lflt%s
+D s-exponr.ads		20250808065140 2127300b system.exponr%s
+D s-ficobl.ads		20250808065140 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250808065140 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250808065140 0a7c3ed4 system.finalization_root%s
+D s-oslock.ads		20250808065140 88eb514b system.os_locks%s
+D s-parame.ads		20250808065140 3597fc11 system.parameters%s
+D s-pooglo.ads		20250808065140 91708d21 system.pool_global%s
+D s-putima.ads		20250808065140 17291fe4 system.put_images%s
+D s-secsta.ads		20250808065140 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250808065140 5d88fdea system.soft_links%s
+D s-stache.ads		20250808065140 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250808065140 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250808065140 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20250808065140 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250808065140 d9032363 system.wch_con%s
+D s-win32.ads		20250808065140 f77987dc system.win32%s
+D text_io.ads		20250808065140 21b2c898 text_io%s
+D timing_package.ads	20260513024558 0687e862 timing_package%s
+D triple_double_numbers.ads  20260513024558 e5642a16 triple_double_numbers%s
+D valid_vector_checks.ads  20260513024558 478cebd6 valid_vector_checks%s
+D verification_with_determinants.ads  20260513024558 6d2fc3a1 verification_with_determinants%s
+D verify_solution_maps.ads  20260513024556 263fdf74 verify_solution_maps%s
+G a e
+G c Z s b [pieri_solver standard 5 10 none]
+G r c none [pieri_solver standard 5 10 none] [tstart timing_package 20 13 none]
+G r c none [pieri_solver standard 5 10 none] [trivial_root localization_posets 62 12 none]
+G r s array_of_nodes [pieri_solver standard 5 10 none] [array_of_nodesIP localization_posets 24 8 none]
+G r s array_of_array_of_nodes [pieri_solver standard 5 10 none] [array_of_array_of_nodesIP localization_posets 26 8 none]
+G r c none [pieri_solver standard 5 10 none] [q_bottom_create localization_posets 104 13 none]
+G r c none [pieri_solver standard 5 10 none] [create_leveled_poset localization_posets 151 12 none]
+G r c none [pieri_solver standard 5 10 none] [count_roots localization_posets 221 13 none]
+G r c none [pieri_solver standard 5 10 none] [create_indexed_poset localization_posets 156 12 none]
+G r c none [pieri_solver standard 5 10 none] [create deformation_posets 27 12 none]
+G r c none [pieri_solver standard 5 10 none] [random_complex_planes make_input_planes 45 12 none]
+G r c none [pieri_solver standard 5 10 none] [random_vector standard_random_vectors 58 12 none]
+G r c none [pieri_solver standard 5 10 none] [tune continuation_parameters 145 13 none]
+G r c none [pieri_solver standard 5 10 none] [solve deformation_posets 140 13 none]
+G r c none [pieri_solver standard 5 10 none] [solve deformation_posets 135 13 none]
+G r c none [pieri_solver standard 5 10 none] [convert c_to_ada_arrays 33 12 none]
+G r c none [pieri_solver standard 5 10 none] [random_orthogonal_matrix standard_random_matrices 62 12 none]
+G r c none [pieri_solver standard 5 10 none] [transpose standard_floating_matrices 35 12 5_1]
+G r s vecmat [pieri_solver standard 5 10 none] [vecmatIP standard_complex_vecmats 15 8 6_1]
+G r c none [pieri_solver standard 5 10 none] [create standard_complex_numbers 18 12 none]
+G r c none [pieri_solver standard 5 10 none] [Omultiply standard_complex_numbers 55 12 none]
+G r c none [pieri_solver standard 5 10 none] [Oadd standard_complex_numbers 51 12 none]
+G r c none [pieri_solver standard 5 10 none] [symbolic_create curves_into_grassmannian 27 12 none]
+G r c none [pieri_solver standard 5 10 none] [standard_coordinate_frame curves_into_grassmannian 50 12 none]
+G r c none [pieri_solver standard 5 10 none] [create_polynomial_system determinantal_systems 144 12 none]
+G r c none [pieri_solver standard 5 10 none] [solution_planes determinantal_systems 136 12 none]
+G r s array_of_polynomial_matrices [pieri_solver standard 5 10 none] [array_of_polynomial_matricesIP complex_polynomial_matrices 20 8 none]
+G r i none [pieri_solver standard 5 10 none] [silent_continue standard_incfix_continuation 47 13 none]
+G r i none [pieri_solver standard 5 10 none] [reporting_continue standard_incfix_continuation 84 13 none]
+G r c none [pieri_solver standard 5 10 none] [one_set_up_symbol_table curves_into_grassmannian_io 11 13 none]
+G r c none [pieri_solver standard 5 10 none] [reduce_symbols curves_into_grassmannian_io 27 13 none]
+G r c none [pieri_solver standard 5 10 none] [column_localize curves_into_grassmannian 95 12 none]
+G r c none [pieri_solver standard 5 10 none] [put standard_complex_poly_matrices_io 32 13 6_1]
+G r c none [pieri_solver standard 5 10 none] [reporting_root_refiner standard_root_refiners 411 13 none]
+G r c none [pieri_solver standard 5 10 none] [verify_determinants verification_with_determinants 53 13 none]
+G r c none [pieri_solver standard 5 10 none] [length_of standard_complex_solutions__list_of_solutions 67 12 27_3]
+G r c none [pieri_solver standard 5 10 none] [head_of standard_complex_solutions__list_of_solutions 77 12 27_3]
+G r s polynomial_matrix [pieri_solver standard 5 10 none] [polynomial_matrixIP complex_polynomial_matrices 14 8 none]
+G r c none [pieri_solver standard 5 10 none] [tail_of standard_complex_solutions__list_of_solutions 84 12 27_3]
+G r c none [pieri_solver standard 5 10 none] [verify_solution_maps standard 7 11 none]
+G r c none [pieri_solver standard 5 10 none] [silent_root_refiner standard_root_refiners 377 13 none]
+G r c none [pieri_solver standard 5 10 none] [create standard_homotopy 29 13 none]
+G r c none [pieri_solver standard 5 10 none] [set_continuation_parameter standard_complex_solutions 152 13 none]
+G r c none [pieri_solver standard 5 10 none] [create standard_continuation_data 66 12 none]
+G r i none [pieri_solver standard 5 10 none] [linear_single_normal_reporting_continue standard_path_trackers 69 13 none]
+G r i none [pieri_solver standard 5 10 none] [linear_single_conditioned_reporting_continue standard_path_trackers 99 13 none]
+G r i none [pieri_solver standard 5 10 none] [linear_multiple_normal_reporting_continue standard_path_trackers 157 13 none]
+G r c none [pieri_solver standard 5 10 none] [create_for_path continuation_parameters 161 12 none]
+G r c none [pieri_solver standard 5 10 none] [create_end_game continuation_parameters 162 12 none]
+G r c none [pieri_solver standard 5 10 none] [create_for_path continuation_parameters 163 12 none]
+G r c none [pieri_solver standard 5 10 none] [create_end_game continuation_parameters 164 12 none]
+G r c none [pieri_solver standard 5 10 none] [is_null standard_continuation_data__lists_of_solu_info_arrays 72 12 36_3]
+G r c none [pieri_solver standard 5 10 none] [head_of standard_continuation_data__lists_of_solu_info_arrays 77 12 36_3]
+G r c none [pieri_solver standard 5 10 none] [write_bar standard_incfix_continuation 93 13 none]
+G r i none [pieri_solver standard 5 10 none] [single_predictor standard_dispatch_predictors 24 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_single_initialize standard_data_on_path 97 13 none]
+G r c none [pieri_solver standard 5 10 none] [swrite process_io 61 13 none]
+G r c none [pieri_solver standard 5 10 none] [at_end standard_data_on_path 20 12 none]
+G r i none [pieri_solver standard 5 10 none] [tangent_single_real_predictor standard_predictors 330 13 none]
+G r i none [pieri_solver standard 5 10 none] [tangent_single_complex_predictor standard_predictors 374 13 none]
+G r i none [pieri_solver standard 5 10 none] [tangent_geometric_predictor standard_predictors 439 13 none]
+G r i none [pieri_solver standard 5 10 none] [hermite_single_real_predictor standard_predictors 455 13 none]
+G r c none [pieri_solver standard 5 10 none] [real_predictor standard_predictors 53 13 none]
+G r c none [pieri_solver standard 5 10 none] [complex_predictor standard_predictors 73 13 none]
+G r c none [pieri_solver standard 5 10 none] [geometric_predictor standard_predictors 90 14 none]
+G r c none [pieri_solver standard 5 10 none] [secant_single_real_predictor standard_predictors 99 13 none]
+G r c none [pieri_solver standard 5 10 none] [secant_single_complex_predictor standard_predictors 247 13 none]
+G r c none [pieri_solver standard 5 10 none] [secant_geometric_predictor standard_predictors 301 13 none]
+G r c none [pieri_solver standard 5 10 none] [diff standard_homotopy 114 12 none]
+G r c none [pieri_solver standard 5 10 none] [lufac standard_complex_linear_solvers 35 13 none]
+G r c none [pieri_solver standard 5 10 none] [diff standard_homotopy 109 12 none]
+G r c none [pieri_solver standard 5 10 none] [min standard_complex_vectors 60 13 4_1]
+G r c none [pieri_solver standard 5 10 none] [lusolve standard_complex_linear_solvers 162 13 none]
+G r c none [pieri_solver standard 5 10 none] [max_norm standard_complex_norms_equals 29 12 none]
+G r c none [pieri_solver standard 5 10 none] [mul standard_complex_vectors 64 13 4_1]
+G r c none [pieri_solver standard 5 10 none] [add standard_complex_vectors 58 13 4_1]
+G r c none [pieri_solver standard 5 10 none] [Osubtract standard_complex_numbers 53 12 none]
+G r c none [pieri_solver standard 5 10 none] [absval standard_complex_numbers 27 12 none]
+G r c none [pieri_solver standard 5 10 none] [hermite standard_predictors 573 12 none]
+G r c none [pieri_solver standard 5 10 none] [single_quadratic_predictor standard_dispatch_predictors 59 13 none]
+G r c none [pieri_solver standard 5 10 none] [single_cubic_predictor standard_dispatch_predictors 85 13 none]
+G r c none [pieri_solver standard 5 10 none] [single_quartic_predictor standard_dispatch_predictors 113 13 none]
+G r c none [pieri_solver standard 5 10 none] [pwrite process_io 82 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_single_severe_normal_reporting_corrector standard_correctors 121 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_single_severe_normal_reporting_corrector standard_correctors 249 13 none]
+G r i none [pieri_solver standard 5 10 none] [reporting_qrls_corrector standard_orthogonal_correctors 46 13 none]
+G r c none [pieri_solver standard 5 10 none] [eval standard_homotopy 104 12 none]
+G r c none [pieri_solver standard 5 10 none] [Odivide standard_complex_numbers 44 12 none]
+G r c none [pieri_solver standard 5 10 none] [cwrite process_io 116 13 none]
+G r c none [pieri_solver standard 5 10 none] [underflow_to_zero handle_underflow_gracefully 37 13 none]
+G r c none [pieri_solver standard 5 10 none] [qrd standard_complex_qr_least_squares 14 13 none]
+G r c none [pieri_solver standard 5 10 none] [qrls standard_complex_qr_least_squares 80 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_single_management standard_data_on_path 116 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_single_quadratic_management standard_data_on_path 144 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_single_cubic_management standard_data_on_path 171 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_single_quartic_management standard_data_on_path 201 13 none]
+G r c none [pieri_solver standard 5 10 none] [stop standard_data_on_path 32 12 none]
+G r c none [pieri_solver standard 5 10 none] [end_game_corrector_parameters standard_data_on_path 87 12 none]
+G r s vecvec [pieri_solver standard 5 10 none] [vecvecIP standard_floating_vecvecs 14 8 5_1]
+G r c none [pieri_solver standard 5 10 none] [update_direction standard_data_on_path 350 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_single_severe_conditioned_reporting_corrector standard_correctors 135 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_single_severe_conditioned_reporting_corrector standard_correctors 263 13 none]
+G r i none [pieri_solver standard 5 10 none] [reporting_svd_corrector standard_orthogonal_correctors 90 13 none]
+G r c none [pieri_solver standard 5 10 none] [norm1 standard_complex_linear_solvers 29 12 none]
+G r c none [pieri_solver standard 5 10 none] [estco standard_complex_linear_solvers 77 13 none]
+G r c none [pieri_solver standard 5 10 none] [min0 standard_complex_singular_values 20 12 none]
+G r c none [pieri_solver standard 5 10 none] [svd standard_complex_singular_values 24 13 none]
+G r c none [pieri_solver standard 5 10 none] [inverse_condition_number standard_complex_singular_values 89 12 none]
+G r c none [pieri_solver standard 5 10 none] [solve standard_complex_singular_values 117 12 none]
+G r c none [pieri_solver standard 5 10 none] [write_statistics standard_incfix_continuation 99 13 none]
+G r c none [pieri_solver standard 5 10 none] [write_diagnostics standard_incfix_continuation 116 13 none]
+G r c none [pieri_solver standard 5 10 none] [write_solution standard_incfix_continuation 167 13 none]
+G r c none [pieri_solver standard 5 10 none] [write_summary_diagnostics standard_incfix_continuation 226 13 none]
+G r c none [pieri_solver standard 5 10 none] [merge_clustered standard_incfix_continuation 243 13 none]
+G r c none [pieri_solver standard 5 10 none] [deep_clear standard_complex_solutions 192 16 none]
+G r s solution_array [pieri_solver standard 5 10 none] [solution_arrayIP standard_complex_solutions 30 8 none]
+G r i none [pieri_solver standard 5 10 none] [multiple_predictor standard_dispatch_predictors 183 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_multiple_loose_normal_reporting_corrector standard_correctors 151 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_multiple_loose_normal_reporting_corrector standard_correctors 279 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_multiple_initialize standard_data_on_path 233 13 none]
+G r i none [pieri_solver standard 5 10 none] [tangent_multiple_real_predictor standard_predictors 343 13 none]
+G r i none [pieri_solver standard 5 10 none] [tangent_multiple_complex_predictor standard_predictors 387 13 none]
+G r c none [pieri_solver standard 5 10 none] [secant_multiple_real_predictor standard_predictors 104 13 none]
+G r c none [pieri_solver standard 5 10 none] [secant_multiple_complex_predictor standard_predictors 252 13 none]
+G r c none [pieri_solver standard 5 10 none] [copy standard_complex_solutions 80 13 none]
+G r c none [pieri_solver standard 5 10 none] [equals standard_complex_solutions 64 13 none]
+G r c none [pieri_solver standard 5 10 none] [clear standard_complex_solutions 189 13 none]
+G r c none [pieri_solver standard 5 10 none] [pwrite process_io 73 13 none]
+G r c none [pieri_solver standard 5 10 none] [copy standard_continuation_data 117 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_single_loose_normal_reporting_corrector standard_correctors 221 13 none]
+G r i none [pieri_solver standard 5 10 none] [multiple_reporting_corrector standard_correctors 43 13 none]
+G r c none [pieri_solver standard 5 10 none] [write_path process_io 51 13 none]
+G r c none [pieri_solver standard 5 10 none] [equals standard_correctors 12 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_single_loose_normal_reporting_corrector standard_correctors 93 13 none]
+G r c none [pieri_solver standard 5 10 none] [copy standard_continuation_data 116 13 none]
+G r c none [pieri_solver standard 5 10 none] [linear_multiple_management standard_data_on_path 241 13 none]
+G r c none [pieri_solver standard 5 10 none] [deep_create standard_continuation_data 54 12 none]
+G r c none [pieri_solver standard 5 10 none] [put standard_complex_solutions_io 119 13 none]
+G r c none [pieri_solver standard 5 10 none] [set_head standard_continuation_data__lists_of_solu_info_arrays 31 13 36_3]
+G r c none [pieri_solver standard 5 10 none] [tail_of standard_continuation_data__lists_of_solu_info_arrays 84 12 36_3]
+G r c none [pieri_solver standard 5 10 none] [concat standard_continuation_data 83 12 none]
+G r i none [pieri_solver standard 5 10 none] [linear_single_normal_silent_continue standard_path_trackers 56 13 none]
+G r i none [pieri_solver standard 5 10 none] [linear_single_conditioned_silent_continue standard_path_trackers 83 13 none]
+G r i none [pieri_solver standard 5 10 none] [linear_multiple_normal_silent_continue standard_path_trackers 145 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_single_severe_normal_silent_corrector standard_correctors 114 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_single_severe_normal_silent_corrector standard_correctors 242 13 none]
+G r i none [pieri_solver standard 5 10 none] [silent_qrls_corrector standard_orthogonal_correctors 25 13 none]
+G r c none [pieri_solver standard 5 10 none] [update_direction standard_data_on_path 307 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_single_severe_conditioned_silent_corrector standard_correctors 128 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_single_severe_conditioned_silent_corrector standard_correctors 256 13 none]
+G r i none [pieri_solver standard 5 10 none] [silent_svd_corrector standard_orthogonal_correctors 69 13 none]
+G r c none [pieri_solver standard 5 10 none] [diagnostics standard_incfix_continuation 186 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_multiple_loose_normal_silent_corrector standard_correctors 142 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_multiple_loose_normal_silent_corrector standard_correctors 270 13 none]
+G r i none [pieri_solver standard 5 10 none] [projective_single_loose_normal_silent_corrector standard_correctors 214 13 none]
+G r i none [pieri_solver standard 5 10 none] [multiple_silent_corrector standard_correctors 31 13 none]
+G r i none [pieri_solver standard 5 10 none] [affine_single_loose_normal_silent_corrector standard_correctors 86 13 none]
+G r c none [pieri_solver standard 5 10 none] [put standard_floating_matrices_io 43 13 6_1]
+G r c none [pieri_solver standard 5 10 none] [left_multiply complex_polynomial_matrices 84 12 none]
+G r c none [pieri_solver standard 5 10 none] [put complex_polynomial_matrices_io 42 13 none]
+G r c none [pieri_solver standard 5 10 none] [degrees complex_polynomial_matrices 38 12 none]
+G r c none [pieri_solver standard 5 10 none] [sum standard_integer_vectors 52 12 4_1]
+G r c none [pieri_solver standard 5 10 none] [coefficients complex_polynomial_matrices 55 12 none]
+G r c none [pieri_solver standard 5 10 none] [convert c_to_ada_arrays 19 12 none]
+G r c none [pieri_solver standard 5 10 none] [convert c_to_ada_arrays 42 12 none]
+G r c none [pieri_solver standard 5 10 none] [tstop timing_package 24 13 none]
+G r c none [pieri_solver standard 5 10 none] [print_times timing_package 49 13 none]
+X 13 a-textio.ads
+67P9*File_Type 72|93r38
+188V13*Standard_Output{67P9} 72|374s20 375s27 380s10 393s20 397s20 398s27
+. 401s20 428s10 432s10 459s17 514s23
+284U14*New_Line 72|502s46
+515U14*Put 72|502s5 502s37
+565U14*Put_Line 72|370s9 378s7 421s5 422s5 425s7 426s7 429s7 430s7
+X 19 brackets.ads
+5K9*Brackets 93e13 72|25w6 25r46
+13A8*Bracket<50|16A8[143|4]>(1|3I8[142|4])<134|6I8> 72|327r20 328r20
+X 20 c_double_arrays.ads
+4K9*C_Double_Arrays 27e20 71|2w6 2r45
+12A8*C_Double_Array(55|102F9)<55|92M9> 72|49r21 52r21 58r45 59r49 60r49 79r20
+17K11*C_DblArrs[56|44] 71|6r41 72|41r41 50r13 53r13
+X 21 c_integer_arrays.ads
+4K9*C_Integer_Arrays 18e21 72|37w6 37r46
+10A8*C_Integer_Array(55|62I9)<55|92M9> 72|57r45 78r20
+X 22 c_to_ada_arrays.ads
+10K9*C_to_Ada_Arrays 61e20 72|38w6 38r46
+19V12*Convert{21|10A8} 72|78s39
+33V12*Convert{50|16A8[109|4]} 72|318s63 319s63
+42V12*Convert{20|12A8} 72|79s38
+X 23 complex_polynomial_matrices.ads
+8K9*Complex_Polynomial_Matrices 106e32 72|32w6 32r46 75r10
+14A8*Polynomial_Matrix(50|17P8[109|4])<134|6I8><134|6I8> 72|241r41 248r10
+. 302r21
+18P8*Link_to_Polynomial_Matrix(14A8)
+20A8*Array_of_Polynomial_Matrices(18P8)<134|6I8> 72|68r43 288r46 294r11 346r27
+38V12*Degrees{50|16A8[137|4]} 72|75s38
+55V12*Coefficients{50|16A8[109|4]} 72|77s53
+84V12*Left_Multiply{20A8} 72|423s20
+X 24 complex_polynomial_matrices_io.ads
+4K9*Complex_Polynomial_Matrices_io 48e35 72|33w6 33r46
+42U13*put 72|425s41 429s53
+X 25 continuation_parameters.ads
+4K9*Continuation_Parameters 170e28 72|22w6 457r5
+145U13*Tune 72|457s29
+X 26 curves_into_grassmannian.ads
+11K9*Curves_into_Grassmannian 151e29 72|26w6 26r46
+27V12*Symbolic_Create{43|16A8[93|5]} 72|330s12
+50V12*Standard_Coordinate_Frame{43|16A8[139|5]} 72|332s15
+95V12*Column_Localize{43|16A8[93|5]} 72|368s17
+X 27 curves_into_grassmannian_io.ads
+5K9*Curves_into_Grassmannian_io 33e32 72|27w6 27r46
+11U13*One_Set_up_Symbol_Table 72|362s7
+27U13*Reduce_Symbols 72|363s7
+X 28 deformation_posets.ads
+11K9*Deformation_Posets 256e23 72|29w6 29r46
+18A8*Array_of_VecMats(49|16P8[108|6])<134|6I8>
+19P8*Link_to_Array_of_VecMats(18A8)
+20A8*Array_of_Array_of_VecMats(19P8)<134|6I8> 72|312r35 447r20
+23A8*Duration_Array(duration)<134|6I8> 72|454r15
+27V12*Create{20A8} 72|448s21
+135U13*Solve 72|461s11
+140U13*Solve 72|459s11
+X 29 determinantal_systems.ads
+12K9*Determinantal_Systems 156e26 72|31w6 31r46
+136V12*Solution_Planes{106|28P8} 72|342s13
+144V12*Create_Polynomial_System{47|22A8[98|5]} 72|336s14 339s15
+X 42 generic_lists.ads
+12P8*List
+67V12*Length_Of{140|7I8} 72|294s53[106|27]
+77V12*Head_Of{106|25P8} 72|301s13[106|27]
+84V12*Tail_Of{12P8[106|27]} 72|303s14[106|27]
+X 43 generic_matrices.ads
+16A8*Matrix(90|11R8)<134|6I8><134|6I8> 72|140r47[88|5] 159r59[118|5] 171r23[88|5]
+. 172r14[88|5] 182r49[88|5] 217r56[139|5] 240r52[139|5] 287r51[139|5] 320r46[118|5]
+. 322r47[118|5] 329r51[93|5] 331r49[139|5] 366r56[93|5]
+17P8*Link_to_Matrix(16A8[88|5])
+35V12*Transpose{16A8[118|5]} 72|323s39[118|5]
+X 44 generic_matrices_io.ads
+32U13*put 72|370s50[94|6]
+43U13*put 72|421s50[119|6] 422s63[119|6]
+X 47 generic_polynomial_systems.ads
+22A8*Poly_Sys(48|28P8[100|4])<134|6I8> 72|94r35[98|5] 111r35[98|5] 335r22[98|5]
+. 338r23[98|5]
+X 48 generic_polynomials.ads
+28P8*Poly
+X 49 generic_vecmats.ads
+15A8*VecMat(43|17P8[88|5])<134|6I8> 72|128r27[108|6] 135r11[108|6] 160r32[108|6]
+. 160r48[108|6] 165r11[108|6] 310r35[108|6] 324r30[108|6] 325r33[108|6] 326r26[108|6]
+. 449r22[108|6]
+16P8*Link_to_VecMat(15A8[108|6])
+X 50 generic_vectors.ads
+16A8*Vector(134|6I8)<134|6I8> 72|74r43[137|4] 77r43[109|4] 127r72[109|4]
+. 257r49[109|4] 309r60[109|4] 318r53[109|4] 319r53[109|4] 344r43[109|4] 345r43[109|4]
+. 451r47[109|4] 453r39[143|4]
+17P8*Link_to_Vector(16A8[109|4])
+52V12*Sum{134|6I8} 72|76s67[137|4]
+X 54 interfac.ads
+47K9*Interfaces 247e15 71|1r6 1r45 72|36r6 49r39 50r36 52r39 53r36
+X 55 i-c.ads
+33K20*C 601e17 71|1r17 1r56 72|36w17 49r50 50r47 52r50 53r47
+62I9*int<integer>
+89I9*ptrdiff_t<long_long_integer> 72|50r49 53r49
+92M9*size_t 72|49r52 52r52
+102F9*double<long_float>
+X 56 i-cpoint.ads
+47P9*Pointer(55|102F9) 71|6r51[20|17] 72|41r51[20|17]
+58V13*Value{20|12A8} 72|50s23[20|17] 53s23[20|17]
+X 57 i-cstrin.ads
+48K22*Strings 171e25 71|1w19 1r58
+65P9*chars_ptr 71|7r36 72|42r39 61r32
+114V13*Value{string} 72|54s27
+X 59 localization_posets.ads
+6K9*Localization_Posets 271e24 72|28w6 28r46
+21R8*Node 41e13 72|446r21 474r21 476r44
+22P8*Link_to_Node(21R8) 72|476r24
+24A8*Array_of_Nodes(22P8)<134|6I8> 72|477r19
+25P8*Link_to_Array_of_Nodes(24A8)
+26A8*Array_of_Array_of_Nodes(25P8)<134|6I8> 72|311r34 438r38 478r19
+32R8*Node
+35i5*roco{134|6I8} 72|489r50 495r51
+36a5*top{19|13A8} 72|327r50
+36a9*bottom{19|13A8} 72|328r50
+62V12*Trivial_Root{32R8} 72|475s13
+104U13*Q_Bottom_Create 72|481s5
+151V12*Create_Leveled_Poset{24A8} 72|482s20
+156V12*Create_Indexed_Poset{26A8} 72|484s20
+221U13*Count_Roots 72|483s5
+X 60 make_input_planes.ads
+7K9*Make_Input_Planes 182e22 72|30w6 444r9
+45V12*Random_Complex_Planes{49|15A8[108|6]} 72|450s14
+X 71 pieri_solver.ads
+5V10*Pieri_Solver{134|6I8} 5>25 5>27 5>29 5>31 5>34 6>25 6>32 7>25 72|40b10
+. 521l5 521t17
+5i25 m{134|6I8} 72|40b25 46r30 46r39 51r39 85r34 226r32 248r31 320r56 320r63
+. 321r46 321r61 322r57 322r64 324r48 329r61 330r38 331r60 333r28 362r41 450r46
+. 459r43 461r27 475r36 481r39
+5i27 p{134|6I8} 72|40b27 46r32 46r41 51r41 85r36 226r34 248r33 248r38 320r58
+. 320r65 321r48 321r63 322r59 322r66 324r50 329r63 329r68 330r51 331r62 331r74
+. 333r41 362r54 450r59 459r45 461r29 474r26 475r49 481r41
+5i29 q{134|6I8} 72|40b29 46r36 85r38 230r17 330r64 331r66 333r54 362r67 450r72
+. 459r58 461r42 475r62
+5i31 nb{134|6I8} 72|40b31 485r8 486r10 486r20 490r20
+5i34 output_level{134|6I8} 72|40b34 361r8 373r8 392r8 396r8 400r11 424r8
+. 458r8 513r8
+6p25 points{56|47P9[20|17]} 72|41b25 50r29
+6p32 planes{56|47P9[20|17]} 72|41b32 53r29
+7p25 filename{57|65P9} 72|42b25 54r33 87r62
+X 72 pieri_solver.adb
+44i3 result{134|6I8} 89m11 494r8 495m11 520r10
+45p3 timer{178|16P8} 501m12 501r12 512m11 512r11 514r39
+46i3 nq{134|6I8} 48r36 51r36 324r52 326r49 327r43 328r43 375r55 398r55 446r41
+. 449r32 451r57 452r30 453r49 453r60 454r33 454r44 477r37 478r46
+47i3 wnb{134|6I8} 342r57 346r59 459r71 461r55 489m13 490m13
+48i3 dimpts{134|6I8} 49r59 50r59 87r34
+49a3 valpts{20|12A8} 87r41 318r71
+51i3 dimpla{134|6I8} 52r59 53r59 87r48
+52a3 valpla{20|12A8} 87r55 319r71
+54a3 vs{string} 502r41
+56V12*pieri_sols{134|6I8} 56>25 56>27 56>29 56>31 57>25 57>41 58>25 58>41
+. 59>25 59>43 60>25 60>43 61>25 62b<c,pieri_sols>19 85s23
+56i25 m{134|6I8}
+56i27 p{134|6I8}
+56i29 q{134|6I8}
+56i31 nbsols{134|6I8}
+57i25 ns{134|6I8}
+57a41 s{21|10A8}
+58i25 nc{134|6I8}
+58a41 c{20|12A8}
+59i25 npts{134|6I8}
+59a43 pts{20|12A8}
+60i25 npla{134|6I8}
+60a43 pla{20|12A8}
+61p25 name{57|65P9}
+68U13 Output_Results 68b13 68>30 91l7 91t21 434s5
+68a30 solmaps{23|20A8} 75r46 77r68 85r40
+74a5 d{50|16A8[137|4]} 76r31 76r71 78r47
+76i5 k{134|6I8} 77r66
+77a5 c{50|16A8[109|4]} 79r46
+78a5 c_d{21|10A8} 86r34 86r45
+79a5 c_c{20|12A8} 86r49 86r60
+80i5 result_of_call{134|6I8} 85m5 88r8
+93U13 Refine_Roots 93b13 93>28 94>28 94=45 109l7 109t19 374s7 397s7 401s7
+93p28 file{13|67P9} 108r8
+94a28 p{47|22A8[98|5]} 108r13
+94p45 sols{106|28P8} 108m15
+99f5 epsxa{120|13F8} 108r20
+100f5 epsfa{120|13F8} 108r26
+101f5 tolsing{120|13F8} 108r32
+102i5 max{140|7I8} 108r46
+103i5 numit{140|7I8} 108m40 108r40
+104b5 deflate{boolean} 108m50 108r50
+111U13 Refine_Roots 111b13 111>28 111=45 125l7 125t19 382s7 403s7
+111a28 p{47|22A8[98|5]} 124r25
+111p45 sols{106|28P8} 124m27
+116f5 epsxa{120|13F8} 124r32
+117f5 epsfa{120|13F8} 124r38
+118f5 tolsing{120|13F8} 124r44
+119i5 max{140|7I8} 124r58
+120i5 numit{140|7I8} 124m52 124r52
+121b5 deflate{boolean} 124m62 124r62
+127V12 Convert{49|15A8[108|6]} 127b12 127>22 127>24 127>26 127>41 157l7 157t14
+. 324s40
+127i22 m{134|6I8} 140r58 140r66 142r22 147r20 148r22
+127i24 p{134|6I8} 140r60 141r20 150r24 151r24
+127i26 n{134|6I8} 135r21 139r17
+127a41 cff{50|16A8[109|4]} 136r24 143r28
+135a5 res{49|15A8[108|6]} 140m7 143m11 143r11 150m17 150r17 151m17 151r17
+. 156r12
+136i5 ind{134|6I8} 143r32 144m11 144r18
+139i9 i<long_integer> 140r11 143r15 150r21 151r21
+141i11 j1<long_integer> 143r18
+142i13 j2<long_integer> 143r21
+147i11 j1<long_integer> 149r14 150r26 151r26
+148i13 j2<long_integer> 149r19 150r29 151r29
+159V12 Left_Multiply{49|15A8[108|6]} 159b12 159>28 160>28 186l7 186t20 325s43
+159a28 a{43|16A8[118|5]} 177r22 178r47
+160a28 b{49|15A8[108|6]} 165r18 171r30 171r44 171r62 172r21 172r35
+165a5 res{49|15A8[108|6]} 169r14 182m9 185r12
+169i9 i<long_integer> 171r32 171r46 171r64 172r23 172r37 182r13
+171a9 bi{43|16A8[88|5]} 178r56
+172a9 ab{43|16A8[88|5]} 174r19 175r21 176m13 178m15 178r28 182r57
+174i13 j1<long_integer> 176r16 178r18 178r31 178r49
+175i15 j2<long_integer> 176r19 178r21 178r34 178r61
+177i17 k<long_integer> 178r52 178r59
+217V12 Degree{134|6I8} 217b12 217>21 218>21 218>23 237l7 237t13 255s14
+217a21 locmap{43|16A8[139|5]} 232r24 233r18
+218i21 i{134|6I8} 231r14
+218i23 j{134|6I8} 233r29
+225i5 res{134|6I8} 234m7 234r14 236r12
+226i5 mp{134|6I8} 231r20
+227i5 ind{134|6I8} 231m7 232r18 233r25
+230i9 k<long_integer> 231r18
+239V12 Solution_Map{23|14A8} 239b12 240>17 241>17 284l7 284t19 302s40
+240a17 locmap{43|16A8[139|5]} 255r21 259r14 268r14 270r16 275r12 277r15
+241r17 sol{106|16R8} 279r27
+248a5 pm{23|14A8} 253r14 254r16 257m9 260m17 260r17 261m17 261r17 272r18
+. 273r22 276m11 276r11 279m11 279r11 283r12
+249i5 d{134|6I8} 255m9 257r60 258r12 269m7 273m35 273r40 279r21
+249i7 ind{134|6I8} 267m5 278m11 278r18 279r33
+249i11 row{134|6I8} 269m15 271m9 271r16 272r12 273m15 276r14 279r14
+253i9 i<long_integer> 255r28 257r12 259r21 260r20 261r20
+254i11 j<long_integer> 255r30 257r14 259r23 260r22 261r22
+268i9 j<long_integer> 275r21 276r18 277r24 279r18
+270i11 i<long_integer> 275r19 277r22
+286V12 Create_Solution_Maps{23|20A8} 286b12 287>16 288>16 306l7 306t27 377s18
+. 420s16
+287a16 locmap{43|16A8[139|5]} 302r53
+288p16 sols{106|28P8} 294r63 295r28
+294a5 res{23|20A8} 300r14 302m7 305r12
+295p5 tmp{106|28P8} 301r21 303m7 303r22
+296p5 ls{106|25P8} 301m7 302r60
+300i9 i<long_integer> 302r11
+308U13 Solve_Target_System 308b13 309>17 310>17 311>17 312>17 435l7 435t26
+. 464s5
+309a17 start_points{50|16A8[109|4]} 337r37 376r43 380r26
+310a17 start_planes{49|15A8[108|6]} 335r31 337r50 376r56 380r39
+311a17 index_poset{59|26A8} 327r31 328r31 375r43 398r43
+312a17 deform_poset{28|20A8} 326r36
+318a5 target_vals{50|16A8[109|4]} 340r37 399r43 428r26 432r26
+319a5 target_cffs{50|16A8[109|4]} 324r55
+320a5 ct{43|16A8[118|5]} 323r49 325r57 421r54
+322a5 ict{43|16A8[118|5]} 422r67 423r34
+324a5 target_planes{49|15A8[108|6]} 325r60 432r38
+325a5 ct_target_planes{49|15A8[108|6]} 338r32 340r49 399r55 428r38
+326a5 solplanes{49|15A8[108|6]} 334r26 342r44
+327a5 top{19|13A8} 330r67 334r18 337r18 340r18 342r29 362r70 363r22 368r33
+328a5 bot{19|13A8} 330r71 334r22 337r22 340r22 342r33 362r74 363r26 368r37
+329a5 xpm{43|16A8[93|5]} 337r33 340r33 367r19 367r32 368r48 376r27 399r27
+331a5 locmap{43|16A8[139|5]} 337r26 340r26 342r37 363r30 368r41 376r31 377r39
+. 399r31 420r37
+335a5 start{47|22A8[98|5]} 374r36 382r20 390r37
+338a5 target{47|22A8[98|5]} 343r31 390r30 397r36 401r36 403r20
+341p5 sols{106|28P8} 374m42 374r42 376r38 377r46 382m26 382r26 391m32 391r32
+. 393m36 393r36 394m20 394r20 397m43 397r43 399r38 401m43 401r43 403m27 403r27
+. 420r44
+343i5 n{134|6I8} 344r53 344r75 345r53 345r75
+344a5 a{50|16A8[109|4]} 390r45
+345a5 b{50|16A8[109|4]} 390r47
+346a5 solmaps{23|20A8} 377m7 380r52 420m5 423r38 425r45 428r55
+346a13 ict_solmaps{23|20A8} 423m5 429r57 432r52 434r20
+347f5 tol{120|13F8} 380r60 428r63 432r64
+348b5 fail{boolean} 380m64 428m67 432m68
+350U15 Sil_Cont[128|47] 394s11 129|387b13
+355U15 Rep_Cont[128|84] 393s11 129|786b13
+366a9 lxpm{43|16A8[93|5]} 370r54
+437U13 Solve_Deformation_Poset 437b13 438=17 465l7 465t30 492s7
+438a17 index_poset{59|26A8} 446r29 447r46 448r28 464r37
+446r5 root{59|32R8} 460r30 461r73
+447a5 deform_poset{28|20A8} 460m17 460r17 461m60 461r60 464r49
+449a5 input{49|15A8[108|6]} 460r35 462r17 464r31
+451a5 svals{50|16A8[109|4]} 460r41 462r23 464r25
+453a5 npaths{50|16A8[143|4]} 460m57 460r57 462m29 462r29
+454a5 timings{28|23A8} 460m64 460r64 462m36 462r36
+467U13 Combinatorial_Root_Count 467b13 497l7 497t31 511s5
+474r5 root{59|32R8} 476r50
+476p5 lnkroot{59|22P8} 481r21 482r41
+477a5 level_poset{59|24A8} 482m5 483m17 483r17 484r41 489r20 489r32 495r21
+. 495r33
+478a5 index_poset{59|26A8} 484m5 492m31 492r31
+499U13 Main 499b13 516l7 516t11 519s3
+X 88 standard_complex_matrices.ads
+5K9*Standard_Complex_Matrices[43|9] 72|12w6 140r21 166r9 182r23
+X 89 standard_complex_norms_equals.ads
+6K9*Standard_Complex_Norms_Equals 72|15w6 351r27 356r30 89|57e34
+29V12*Max_Norm{120|13F8} 72|351r57 356r60
+X 90 standard_complex_numbers.ads
+5K9*Standard_Complex_Numbers 72|5w6 5r46 90|92e29
+18V12*Create{11R8} 72|150s36 151s36 176s26 178s40 257s65 260s31 261s31 276s27
+. 391s37 393s55 394s39
+51V13*"+"{11R8} 72|178s38
+55V13*"*"{11R8} 72|178s55
+X 93 standard_complex_poly_matrices.ads
+5K9*Standard_Complex_Poly_Matrices[43|9] 72|18w6 329r20 366r25
+X 94 standard_complex_poly_matrices_io.ads
+6K9*Standard_Complex_Poly_Matrices_io[44|14] 72|19w6 19r46
+X 98 standard_complex_poly_systems.ads
+5K9*Standard_Complex_Poly_Systems[47|12] 72|17w6 17r46
+X 106 standard_complex_solutions.ads
+8K9*Standard_Complex_Solutions 72|20w6 20r46 106|206e31
+16R8*Solution 72|241r23 106|23e13
+19a5*v{50|16A8[109|4]} 72|279r31
+25P8*Link_to_Solution(16R8) 72|296r10
+28P8*Solution_List<42|12P8[27]> 72|94r59 111r59 288r23 295r11 341r12
+152U13*Set_Continuation_Parameter 72|391s5
+X 108 standard_complex_vecmats.ads
+6K9*Standard_Complex_VecMats[49|11] 72|16w6 16r46
+X 109 standard_complex_vectors.ads
+4K9*Standard_Complex_Vectors[50|8] 72|8w6 77r18 127r47 257r24 309r35 318r28
+. 319r28 344r18 345r18 451r22
+X 113 standard_correctors.adb
+468U15 Single_Corrector[112|86] 122b13[147|462[129|405[72|350]]]
+470U15 Corrector[31] 52b13[147|462[129|405[72|350]]]
+481U15 Single_Corrector[112|93] 157b13[147|511[129|804[72|355]]]
+483U15 Corrector[43] 85b13[147|511[129|804[72|355]]]
+975U15 Single_Corrector[112|214] 567b13[147|464[129|405[72|350]]]
+977U15 Corrector[31] 52b13[147|464[129|405[72|350]]]
+988U15 Single_Corrector[112|221] 609b13[147|513[129|804[72|355]]]
+990U15 Corrector[43] 85b13[147|513[129|804[72|355]]]
+X 116 standard_dispatch_predictors.adb
+13U15 TR_Predictor[149|330] 150|330b13[147|36[129|401[72|350]]]
+14U15 TC_Predictor[149|374] 150|407b13[147|352[129|802[72|355]]]
+15U15 TG_Predictor[149|439] 150|515b13[147|123[129|800[72|355]]]
+16U15 HR_Predictor[149|455] 150|594b13[147|352[129|802[72|355]]]
+230U15 TR_Predictor[149|343] 150|360b13[147|509[129|804[72|355]]]
+231U15 TC_Predictor[149|387] 150|437b13[147|509[129|804[72|355]]]
+X 118 standard_floating_matrices.ads
+5K9*Standard_Floating_Matrices[43|9] 72|10w6 159r32 320r19 322r20 323r12
+X 119 standard_floating_matrices_io.ads
+6K9*Standard_Floating_Matrices_io[44|14] 72|11w6 11r46
+X 120 standard_floating_numbers.ads
+6K9*Standard_Floating_Numbers 72|4w6 4r46 120|58e30
+13F8*double_float<long_float> 72|99r22 100r22 101r24 116r22 117r22 118r24
+. 347r20
+X 127 standard_homotopy.ads
+8K9*Standard_Homotopy 72|21w6 352r27 353r27 353r50 357r30 358r30 358r53 390r5
+. 127|141e22
+29U13*Create 72|390s23
+104V12*Eval{50|16A8[109|4]} 72|352r45 357r48
+109V12*Diff{50|16A8[109|4]} 72|353r45 358r48
+114V12*Diff{43|16A8[88|5]} 72|353r68 358r71
+X 128 standard_incfix_continuation.ads
+12K9*Standard_IncFix_Continuation 72|23w6 23r46 128|172e33
+47u13*Silent_Continue 72|351r11
+50r18 target{90|11R8} 72|394r31[350]
+84u13*Reporting_Continue 72|356r11
+87r18 target{90|11R8} 72|393r47[355]
+X 129 standard_incfix_continuation.adb
+401U15 LCont1[146|56] 147|23b13[72|350]
+403U15 LCont2[146|83] 147|204b13[72|350]
+405U15 LContN1[146|145] 147|448b13[72|350]
+800U15 LCont1[146|69] 147|109b13[72|355]
+802U15 LCont2[146|99] 147|321b13[72|355]
+804U15 LContN1[146|157] 147|497b13[72|355]
+X 134 standard_integer_numbers.ads
+1K9*Standard_Integer_Numbers 71|3w6 3r46 134|45e29
+6I8*integer32<long_integer> 71|5r49 7r55 72|40r49 42r58 44r12 46r17 47r9
+. 48r21 51r21 56r40 57r30 58r30 59r32 60r32 61r51 76r18 80r22 127r30 136r11
+. 218r27 218r46 225r11 226r19 227r11 249r17 294r43 343r18
+X 137 standard_integer_vectors.ads
+4K9*Standard_Integer_Vectors[50|8] 72|7w6 74r18 76r42
+X 139 standard_natural_matrices.ads
+5K9*Standard_Natural_Matrices[43|9] 72|9w6 217r30 240r26 287r25 331r23
+X 140 standard_natural_numbers.ads
+1K9*Standard_Natural_Numbers 72|3w6 3r46 140|30e29
+7I8*natural32<long_integer> 72|102r20 103r13 119r20 120r13 321r36 321r51
+. 330r28 330r41 330r54 333r18 333r31 333r44 362r31 362r44 362r57 450r36 450r49
+. 450r62 459r33 459r48 459r61 461r17 461r32 461r45 475r26 475r39 475r52 481r29
+X 143 standard_natural_vectors.ads
+4K9*Standard_Natural_Vectors[50|8] 72|6w6 453r14
+X 147 standard_path_trackers.adb
+36U15 Predictor[115|24] 116|5b13[129|401[72|350]]
+40U17 Affine_Corrector[112|114] 113|277b13[129|401[72|350]]
+42U17 Projective_Corrector[112|242] 113|753b13[129|401[72|350]]
+44U17 QRLS_Corrector[144|25] 145|10b13[129|401[72|350]]
+123U15 Predictor[115|24] 116|5b13[129|800[72|355]]
+127U17 Affine_Corrector[112|121] 113|319b13[129|800[72|355]]
+129U17 Projective_Corrector[112|249] 113|803b13[129|800[72|355]]
+131U17 QRLS_Corrector[144|46] 145|47b13[129|800[72|355]]
+235U15 Predictor[115|24] 116|5b13[129|403[72|350]]
+239U17 Affine_Corrector[112|128] 113|363b13[129|403[72|350]]
+241U17 Projective_Corrector[112|256] 113|855b13[129|403[72|350]]
+243U17 SVD_Corrector[144|69] 145|86b13[129|403[72|350]]
+352U15 Predictor[115|24] 116|5b13[129|802[72|355]]
+356U17 Affine_Corrector[112|135] 113|412b13[129|802[72|355]]
+358U17 Projective_Corrector[112|263] 113|911b13[129|802[72|355]]
+360U17 SVD_Corrector[144|90] 145|127b13[129|802[72|355]]
+460U15 Predictor[115|183] 116|221b13[129|405[72|350]]
+462U15 Affine_Corrector[112|142] 113|463b13[129|405[72|350]]
+464U15 Projective_Corrector[112|270] 113|970b13[129|405[72|350]]
+509U15 Predictor[115|183] 116|221b13[129|804[72|355]]
+511U15 Affine_Corrector[112|151] 113|476b13[129|804[72|355]]
+513U15 Projective_Corrector[112|279] 113|983b13[129|804[72|355]]
+X 151 standard_random_matrices.ads
+10K9*Standard_Random_Matrices 72|14w6 14r46 151|95e29
+62V12*Random_Orthogonal_Matrix{43|16A8[118|5]} 72|321s11
+X 152 standard_random_vectors.ads
+8K9*Standard_Random_Vectors 72|13w6 13r46 152|80e28
+58V12*Random_Vector{50|16A8[109|4]} 72|344s59 345s59 452s14
+X 153 standard_root_refiners.ads
+15K9*Standard_Root_Refiners 72|24w6 24r46 153|665e27
+377U13*Silent_Root_Refiner 72|124s5
+411U13*Reporting_Root_Refiner 72|107s5
+X 177 text_io.ads
+27K9*Text_IO=27:29 72|1w6 1r46
+X 178 timing_package.ads
+3K9*Timing_Package 72|2w6 2r46 178|66e19
+16P8*Timing_Widget 72|45r11
+20U13*tstart 72|501s5
+24U13*tstop 72|512s5
+49U13*print_times 72|514s11
+X 181 verification_with_determinants.ads
+13K9*Verification_with_Determinants 72|34w6 34r46 181|73e35
+53U13*Verify_Determinants 72|375s7 398s7
+X 182 verify_solution_maps.ads
+7U11*Verify_Solution_Maps 72|35w6 379s7 427s7 431s7
+
